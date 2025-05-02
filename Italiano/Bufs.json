@@ -31,8 +31,8 @@
     {
       "id": "Binding",
       "name": "Lentezza",
-      "desc": "Speed -{0} for this turn.",
-      "summary": "SPD -{0}",
+      "desc": "Velocità -{0} per questo turno.",
+      "summary": "VEL -{0}",
       "undefined": "-"
     },
     {
@@ -56,37 +56,37 @@
     {
       "id": "Target",
       "name": "Marchiato",
-      "desc": "Preso di mira dal personaggio con la passiva [Sharp Edge].",
+      "desc": "Preso di mira dal personaggio con la passiva [Lama Affilata].",
       "undefined": "-"
     },
     {
       "id": "SelfHarm_LowMorale",
-      "name": "Costrizione",
+      "name": "Autolesionismo",
       "desc": "- Morale Basso\n- A inizio turno: Ottiene 2 Rapidità e 2 Fragilità",
       "undefined": "-"
     },
     {
       "id": "SelfHarm_Panic",
-      "name": "Costrizione",
+      "name": "Autolesionismo",
       "desc": "- Panico\n- A inizio Turno: Perde 10 PV",
       "undefined": "-"
     },
     {
       "id": "Blame_LowMorale",
-      "name": "Assalto",
+      "name": "Sbotto",
       "desc": "- Morale Basso\n- A inizio Turno: Ottiene 2 Potenziamento e 2 Fragilità",
       "undefined": "-"
     },
     {
       "id": "Blame_Panic",
-      "name": "Assalto",
+      "name": "Sbotto",
       "desc": "- Panico\n- A inizio Turno: Un alleato casuale perde 20 PS",
       "undefined": "-"
     },
     {
       "id": "EgoErode",
       "name": "Corrosione E.G.O",
-      "desc": "Ignora gli Ordini usa solo abilità corrotte",
+      "desc": "Ignora gli Ordini ed usa solo abilità corrotte",
       "summary": "Fuori Controllo; usa abilità corrotte",
       "undefined": "-"
     },
@@ -99,13 +99,13 @@
     },
     {
       "id": "DamageOverTime",
-      "name": "Danno Continuativo",
+      "name": "Danni nel Tempo",
       "desc": "A inizio Turno: Subisce {0} danni fissi ai PV.",
       "summary": "{0} danni fissi ai PV"
     },
     {
       "id": "ResultEnhancement",
-      "name": "Possenza",
+      "name": "Potere Incrementato",
       "desc": "Risultato Finale delle abilità +{0} per questo turno.",
       "summary": "Potenza Finale abilità +{0}"
     },
@@ -123,19 +123,19 @@
     },
     {
       "id": "DefenseUp",
-      "name": "Fortificazione",
+      "name": "Aumento Difensivo",
       "desc": "Livello Difensivo +{0} per questo turno.",
       "summary": "Livello Difensivo +{0}"
     },
     {
       "id": "PlusCoinValueUp",
-      "name": "Testa Portafortuna",
+      "name": "Addizione di Testa",
       "desc": "Aumenta il valore ottenuto facendo Testa di +{0} per questo turno.",
       "summary": "Valore ottenuto facendo Testa +{0}"
     },
     {
       "id": "MinusCoinValueUp",
-      "name": "Croce Truccata",
+      "name": "Addizione di Croce",
       "desc": "Aumenta il valore ottenuto facendo Croce di +{0} per questo turno.",
       "summary": "Valore ottenuto facendo Croce +{0}"
     },
@@ -147,9 +147,9 @@
     },
     {
       "id": "Disarming",
-      "name": "Disarmato",
+      "name": "Esposizione",
       "desc": "Valore Finale delle Abilità Difensive -{0} per questo turno.",
-      "summary": "Valore finale abilità dif. -{0}"
+      "summary": "Valore Finale abilità Difensive -{0}"
     },
     {
       "id": "ResultReduction",
@@ -173,19 +173,19 @@
       "id": "Paralysis",
       "name": "Paralisi",
       "desc": "Fissa il valore di {0} moneta(e) a 0 per questo turno.",
-      "summary": "{0} moneta(s) hanno valore 0"
+      "summary": "{0} moneta(e) hanno valore 0"
     },
     {
       "id": "PlusCoinValueDown",
-      "name": "Testa Truccata",
+      "name": "Sottrazione di Testa",
       "desc": "Diminuisce il valore ottenuto facendo testa di -{0} per questo turno.",
       "summary": "Valore ottenuto facendo testa -{0}"
     },
     {
       "id": "MinusCoinValueDown",
-      "name": "Croce Portafortuna",
+      "name": "Sottrazione di Croce",
       "desc": "Diminuisce il valore ottenuto facendo croce -{0} per questo turno.",
-      "summary": "valore ottenuto facendo croce -{0}"
+      "summary": "Valore ottenuto facendo croce -{0}"
     },
     {
       "id": "TimesCoinValueDown", 
@@ -510,7 +510,7 @@
       "id": "CrimsonDamageDown",
       "name": "Ira Depotenziata",
       "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Ira per questo turno. (Max 100%)",
-      "summary": "Danno da ira -{0}0%"
+      "summary": "Danno da Ira -{0}0%"
     },
     {
       "id": "ScarletDamageDown",
@@ -605,7 +605,7 @@
     {
       "id": "Bullet",
       "name": "Munizioni",
-      "desc": "Usati da alcune abilità. Alcuni attacchi vengono cancellati se le Munizioni sono a 0.",
+      "desc": "Risorsa usata da alcune abilità. Alcuni attacchi vengono cancellati se le Munizioni sono a 0.",
       "summary": "Risorsa per alcune abilità"
     },
     {
@@ -685,7 +685,7 @@
     {
       "id": "Greedy",
       "name": "Desideroso",
-      "desc": "Ottiene 2 Fragilità e 10 Lentezza questo turno. Inoltre, ottiene uno slot abilità addizionale e cambia comportamento.",
+      "desc": "Ottiene 2 Fragilità e 10 Lentezza questo turno. Inoltre, ottiene uno slot abilità in più e cambia comportamento.",
       "summary": "Ottiene 2 Fragilità e 10 Lentezza"
     },
     {
@@ -730,7 +730,7 @@
     {
       "id": "Cromer_Madness",
       "name": "Purezza",
-      "desc": "Tutte le parti ottengono 3 Lentezza e 3 Danni Aumentati, e le loro resistenze fisiche cambiano in ‘Fatale’."
+      "desc": "Tutte le parti ottengono 3 Lentezza e 3 Danno Aumentato, e le loro resistenze fisiche cambiano in ‘Fatale’."
     },
     {
       "id": "Hardening",
@@ -900,8 +900,8 @@
     },
     {
       "id": "AssemblePersonality",
-      "name": "Fanatista",
-      "desc": "Valore finale delle abilità +{0} contro tutti i nemici affetti da Chiodi per questo turno. (Si applica anche agli scontri)",
+      "name": "Fanatico",
+      "desc": "Valore Finale delle abilità +{0} contro tutti i nemici affetti da Chiodi per questo turno. (Si applica anche agli scontri)",
       "summary": "Valore Finale +{0}"
     },
     {
@@ -919,7 +919,7 @@
     {
       "id": "WeaknessAnalysis",
       "name": "Indaga Debolezza",
-      "desc": "Casualmente, indebolisce [+0.2 to damage multiplier] una Difesa di tipo “Resistente” o “Neutrale” per questo turno.",
+      "desc": "In modo casuale, indebolisce [+0.2 to damage multiplier] una Difesa di tipo “Resistente” o “Neutrale” per questo turno.",
       "summary": "Indebolisce [+0.2 dmg multi] una resistenza “Resistente” o “Neutrale”"
     },
     {
@@ -966,7 +966,7 @@
     },
     {
       "id": "GainSinStockAdder",
-      "name": "Amplifica risorse E.G.O",
+      "name": "Amplifica Risorse E.G.O",
       "desc": "Ottiene +{0} Risorse E.G.O dalle abilità utilizzate questo turno.",
       "summary": "+{0} Risorse E.G.O ottienute"
     },
@@ -1319,7 +1319,7 @@
     },
     {
       "id": "SinkingSurge",
-      "name": "Pianto incessante",
+      "name": "Pianto Incessante",
       "desc": "Infligge danni ai PS pari a (stack di Pianto * Potenza di Pianto), per poi rimuovere Pianto\nSe i PS del bersaglio sono a -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza PS subiscono sempre danni da Tristezza)"
     },
     {
@@ -1353,7 +1353,7 @@
     {
       "id": "Choice_1040301",
       "name": "Ferita Sconosciuta",
-      "desc": "Ottiene 10 Lacerazione Per questo turno.",
+      "desc": "Ottiene 10 Lacerazione per questo turno.",
       "summary": "Ottiene 10 Lacerazione per il turno"
     },
     {
@@ -1430,7 +1430,7 @@
     },
     {
       "id": "KCorpSerum",
-      "name": "Fiala di K.corp",
+      "name": "Fiala di K. Corp",
       "desc": "A inizio Turno: Se le stack sono meno di 4, si cura del ({0} * 5)% dei PV massimi\nSe ha 4+ stack, muore",
       "summary": ""
     },
@@ -1486,7 +1486,7 @@
       "desc": "In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il prossimo turno dopo aver portato a segno un attacco. (4 volte per turno) L'effetto viene rimosso quando il Guanto di Sfida viene inflitto ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di sfida differente."
     },
     {
-      "id": "Raggiro",
+      "id": "Aggro",
       "name": "Raggiro",
       "desc": "Negli incontri mirati, gli slot con Raggiro elevato hanno più probabilità di essere presi di mira."
     },
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "DuelDeclaration_DonQuixote",
-      "name": "In Singolar Tenzone!!! - Don Quixote",
+      "name": "Guanto di Sfida - Don Quixote",
       "desc": "In uno scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 potenza di scontro, e ottiene 1 Rapidità il prossimo turno dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
     },
     {
@@ -1856,13 +1856,13 @@
     {
       "id": "EchoOfMansion_Main",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 quantità di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Sub",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 quantità di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A fine Turno",
       "summary": ""
     },
     {
@@ -2004,7 +2004,7 @@
     },
     {
       "id": "AaCfPaBa_Alt1",
-      "name": "Lutto infinito",
+      "name": "Lutto Infinito",
       "desc": "A inizio Turno: recupera 5 PS\nQuando colpito, perde 3 PS e ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
       "summary": "",
       "undefined": "-"
@@ -2117,7 +2117,7 @@
     },
     {
       "id": "Retreat",
-      "name": "Modalità R&R Strategica",
+      "name": "Modalità Strategica R&R",
       "desc": "- A fine Turno: si riprende dal Vacillamento e si ritira dallo scontro (a meno che non sia un Vacillo forzato; non conta come morte)\n· Nelle battaglie a catena, dà gli slot di quest'unità all'unità che entra e viene spostata in fondo nell'ordine di schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla ritirata, torna in battaglia con 0 PS)",
       "summary": "",
       "undefined": "-"
@@ -2137,7 +2137,7 @@
     {
       "id": "SuperCoin",
       "name": "Moneta Infrangibile",
-      "desc": "- Questa moneta non si rompe se perde uno scontro.\n- Se una mossa offensiva possiede questa moneta, una volta colpito attacca con questa moneta.\n- Se perde lo scontro, fissa la potenza della moneta non rotta a 1",
+      "desc": "- Questa moneta non si rompe se perde uno Scontro.\n- Se una mossa offensiva possiede questa moneta, una volta colpito attacca con questa moneta.\n- Se perde lo scontro, fissa la potenza della moneta non rotta a 1",
       "summary": ""
     },
     {
@@ -2170,7 +2170,7 @@
     },
     {
       "id": "Snare",
-      "name": "Lasso",
+      "name": "Lazo",
       "desc": "- Valore Massimo: 3\n- A fine Turno: ottiene una quantità di Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Lentezza il prossimo turno\n- A fine Turno: riduci di 1",
       "summary": "",
       "undefined": "-"
@@ -2233,7 +2233,7 @@
     },
     {
       "id": "VibrationSpring",
-      "name": "Tremito- CaricaMolla",
+      "name": "Tremito - CaricaMolla",
       "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni stack o potenza di qualsisi tipo di Tremito con le abilità o gli effetti delle monete, consumando 1 stack di Tremito su sè stesso\n- Quando colpito da mosse che attivano Convulsione, aumenta la Soglia di Vacillamento in base potenza di quest'effetto\n- A fine Turno: riduce di 1 le stack\n- (Interagisce allo stesso modo del normale Tremito agli effetti che ne aumentano potenza/stack)",
       "summary": "Max Speed +2\nConsume Tremor Count on self to infligge +1 more Tremor Potency e Count",
       "undefined": "-"
@@ -2253,7 +2253,7 @@
     },
     {
       "id": "SwirlingBloodPersonality",
-      "name": "Sangue Vorticoso【Bloodfiend】",
+      "name": "Sangue Vorticoso【Sanguidemone】",
       "desc": "-Quantità Massima: 50\n- Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle stack nel momento in cui viene applicato\n-Scade A fine Turno",
       "summary": ""
     },
@@ -2344,7 +2344,7 @@
     {
       "id": "LogicAtelierAM",
       "name": "Concentrazione【Cecchino】",
-      "desc": "- Max stacl: 4 \n- A fine Turno: ottiene 1 stack"
+      "desc": "- Max stack: 4 \n- A fine Turno: ottiene 1 stack"
     },
     {
       "id": "MeleeCover",
@@ -2443,7 +2443,7 @@
     },
     {
       "id": "VendettaMark",
-      "name": "Marchio Vendicativo",
+      "name": "Marchio della Vendetta",
       "desc": "- Max quantità: 10\n- Viene usato da alcune abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio Vendicativo del Fratello il prossimo turno\n(Calcolato separatemante dal Marchio Vendicativo; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
@@ -2464,15 +2464,15 @@
     },
     {
       "id": "WideAreaRampage",
-      "name": "Unfocused Volley",
-      "desc": "- When this Skill flips Coins, each Coin flips against a random enemy among its targets\n· The first Coin always targets the main target\n· All 'On Hit' effects and all damage dealt by each Coin are inflicted only against the random target the Coin selected",
-      "summary": "Attack indiscriminately among targets",
+      "name": "Raffiica Casuale",
+      "desc": "- Quando si lancia la Moneta di quest'abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'su colpo' e tutti i danni inflitti da ogni moneta vengono inflitti solo contro il bersaglio casuale selezionato dalla moneta.",
+      "summary": "Attacca bersagli a caso indiscriminatamente",
       "undefined": "-"
     },
     {
       "id": "ActivatedEgoPassive",
-      "name": "E.G.O Passives",
-      "desc": "Active E.G.O Passives",
+      "name": "Passive E.G.O",
+      "desc": "Passive E.G.O attive",
       "summary": "",
       "undefined": "-"
     }
