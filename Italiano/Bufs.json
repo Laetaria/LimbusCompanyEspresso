@@ -633,8 +633,8 @@
     {
       "id": "Choice_901007",
       "name": "Addio Gentile",
-      "desc": "A inizio Turno: Cura 10 PV e SAN. (fino a 3 turni)",
-      "summary": "PV & SAN +10"
+      "desc": "A inizio Turno: Cura 10 PV e PS. (fino a 3 turni)",
+      "summary": "PV & PS +10"
     },
     {
       "id": "Choice_901009",
@@ -691,8 +691,8 @@
     {
       "id": "Desire",
       "name": "Impulso",
-      "desc": "A fine Turno: A 5+ Stack, subisce 30 danni SAN, ottiene 2 Fragilità e 10 Lentezza, e rimuove quest'effetto.",
-      "summary": "Subisce 30 danni SAN e ottiene 2 Fragilità e 10 Lentezza"
+      "desc": "A fine Turno: A 5+ Stack, subisce 30 danni ai PS, ottiene 2 Fragilità e 10 Lentezza, e rimuove quest'effetto.",
+      "summary": "Subisce 30 danni ai PS e ottiene 2 Fragilità e 10 Lentezza"
     },
     {
       "id": "GreedyReady",
@@ -991,20 +991,20 @@
     {
       "id": "Scared",
       "name": "Paura",
-      "desc": "A fine Turno: se la SAN è -20 o inferiore, ottiene 1 Mitigazione il prossimo turno.",
-      "summary": "A fine Turno: se la SAN è -20 o inferiore, ottiene 1 Mitigazione il prossimo turno ."
+      "desc": "A fine Turno: se i PS sono a -20 o inferiore, ottiene 1 Mitigazione il prossimo turno.",
+      "summary": "A fine Turno: se i PS sono a -20 o inferiore, ottiene 1 Mitigazione il prossimo turno ."
     },
     {
       "id": "Stressed",
       "name": "Stressato",
-      "desc": "A fine Turno: se la SAN è -25 o inferiore, ottiene 1 Resistenza il prossmo turno",
-      "summary": "A fine Turno: se la SAN è -25 o inferiore, ottiene 1 Resistenza il prossmo turno"
+      "desc": "A fine Turno: se i PS sono a -25 o inferiore, ottiene 1 Resistenza il prossmo turno",
+      "summary": "A fine Turno: se i PS sono a -25 o inferiore, ottiene 1 Resistenza il prossmo turno"
     },
     {
       "id": "Nervous",
       "name": "Nervoso",
-      "desc": "A fine Turno: se la SAN è -15 o inferiore , ottiene 5 Fortificazione il prossimo turno",
-      "summary": "A fine Turno: se la SAN è -15 o inferiore , ottiene 5 Fortificazione il prossimo turno"
+      "desc": "A fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il prossimo turno",
+      "summary": "A fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il prossimo turno"
     },
     {
       "id": "ShardOfUmbrella",
@@ -1164,13 +1164,13 @@
     {
       "id": "Prowl_LowMorale",
       "name": "Vagabondare",
-      "desc": "- Morale Basso\n- A fine Turno: Infligge 2 danni alla SAN degli alleati",
+      "desc": "- Morale Basso\n- A fine Turno: Infligge 2 danni ai PS degli alleati",
       "undefined": "-"
     },
     {
       "id": "Prowl_Panic",
       "name": "Vagabondare",
-      "desc": "- Panico\n- A fine Turno: Infligge 5 danni alla SAN degli alleati. Fugge dalla battaglia una volta passati 3 turni",
+      "desc": "- Panico\n- A fine Turno: Infligge 5 danni ai PS degli alleati. Fugge dalla battaglia una volta passati 3 turni",
       "undefined": "-"
     },
     {
@@ -1224,19 +1224,19 @@
     {
       "id": "DongbaekFlorescence",
       "name": "Fioritura",
-      "desc": "A fine Turno: A 5 stack o più, subisce danno da Accidia del (stack)% dei PV massimi, e passa in fase di Antesi\nSe le stack sono meno di 5, perde (stack * 5) SAN, e riduce di 1 le stack",
+      "desc": "A fine Turno: A 5 stack o più, subisce danno da Accidia del (stack)% dei PV massimi, e passa in fase di Antesi\nSe le stack sono meno di 5, perde (stack * 5) PS, e riduce di 1 le stack",
       "summary": ""
     },
     {
       "id": "DongbaekFullBloom",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 SAN; se la SAN raggiunge -45, cura totalmente la SAN, dopodiché ottiene 'Mente Frastornata' il prossimo turno.\nse quest'effetto non viene rimosso per 2 turni verrà rimosso alla fine del turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, dopodiché ottiene 'Mente Frastornata' il prossimo turno.\nse quest'effetto non viene rimosso per 2 turni verrà rimosso alla fine del turno.",
       "summary": ""
     },
     {
       "id": "DongbaekFascination",
       "name": "Mente Frastornata",
-      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il prossimo turno\nSe quest'effetto non viene rimosso in 2 turni, perde 30 SAN e l'effetto viene rimosso alla fine del turno",
+      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il prossimo turno\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso alla fine del turno",
       "summary": ""
     },
     {
@@ -1320,12 +1320,12 @@
     {
       "id": "SinkingSurge",
       "name": "Pianto incessante",
-      "desc": "Infligge danni SAN pari a (stack di Pianto * Potenza di Pianto), per poi rimuovere Pianto\nSe la SAN del bersaglio è -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza SAN subiscono sempre danni da Tristezza)"
+      "desc": "Infligge danni ai PS pari a (stack di Pianto * Potenza di Pianto), per poi rimuovere Pianto\nSe i PS del bersaglio sono a -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza PS subiscono sempre danni da Tristezza)"
     },
     {
       "id": "Blue",
       "name": "Lacrime",
-      "desc": "A fine Turno: perde 5 SAN\nLe monete che fanno croce infliggono 2 Pianto"
+      "desc": "A fine Turno: perde 5 PS\nLe monete che fanno croce infliggono 2 Pianto"
     },
     {
       "id": "AmberResultUp",
@@ -1341,7 +1341,7 @@
     {
       "id": "DongbaekFullBloomDisplay",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 SAN; se la SAN raggiunge -45, cura totalmente la SAN, e ottiene 'Mente Frastornata' il prossimo turno.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, e ottiene 'Mente Frastornata' il prossimo turno.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
       "summary": ""
     },
     {
@@ -1472,13 +1472,13 @@
     },
     {
       "id": "MentalSystemResultIncrease_Typo",
-      "name": "Efficenza cura SAN",
-      "desc": "Quantità di SAN curata grazie a 'Fattori di base che aumentano la Sanità (SAN)'"
+      "name": "Efficenza cura PS",
+      "desc": "Quantità di PS curati grazie a 'Fattori di base che aumentano la Sanità (PS)'"
     },
     {
       "id": "MentalSystemResultDecrease_Typo",
-      "name": "Efficenza perdita SAN",
-      "desc": "Quantità di SAN persa a causa di 'Fattori di base che diminuiscono la Sanità (SAN)'"
+      "name": "Efficenza perdita PS",
+      "desc": "Quantità di PS persi a causa di 'Fattori di base che diminuiscono la Sanità (PS)'"
     },
     {
       "id": "DuelDeclaration",
@@ -1518,7 +1518,7 @@
     {
       "id": "PseudoLastBoss_KingCrap",
       "name": "Furia Crostacea",
-      "desc": "All'inizio del turno, applica Potenziamento a tutti gli altri granchi alleati, e ottiene 2 Mitigazione se il guscio non è stato rotto.\n-5 SAN al bersaglio quando usa un'abilità.\nQuando la SAN è al 50%, ogni parte ottiene 2 Potenziamento e 2 Fragilità."
+      "desc": "All'inizio del turno, applica Potenziamento a tutti gli altri granchi alleati, e ottiene 2 Mitigazione se il guscio non è stato rotto.\n-5 PS al bersaglio quando usa un'abilità.\nQuando i PS sono al 50%, ogni parte ottiene 2 Potenziamento e 2 Fragilità."
     },
     {
       "id": "ChargeForceField",
@@ -1705,7 +1705,7 @@
     {
       "id": "CtrlTeamCaptain",
       "name": "Capitano del Team di Controllo",
-      "desc": "- Slot Abilità +1\n- Modifica le abilità che possono essere usate: Ottiene 1 uso della terza abilità, ma perde 1 utilizzo della prima abilità\n- Quando quest'unità uccide un nemico con un'abilità, 2 alleati (inclusa quest'unità) con meno SAN recuperano 25 SAN. Ottiene +2 Risorse E.G.O dell'affinità della mossa con cui ha ucciso un nemico; ottiene +1 risorse E.G.O per tutte le affinità"
+      "desc": "- Slot Abilità +1\n- Modifica le abilità che possono essere usate: Ottiene 1 uso della terza abilità, ma perde 1 utilizzo della prima abilità\n- Quando quest'unità uccide un nemico con un'abilità, 2 alleati (inclusa quest'unità) con meno PS recuperano 25 PS. Ottiene +2 Risorse E.G.O dell'affinità della mossa con cui ha ucciso un nemico; ottiene +1 risorse E.G.O per tutte le affinità"
     },
     {
       "id": "HeatedGasHarpoon",
@@ -1725,7 +1725,7 @@
     {
       "id": "ReCompulsion",
       "name": "Costrizione Inversa",
-      "desc": "Recupera 15 SAN A inizio Turno"
+      "desc": "Recupera 15 PS A inizio Turno"
     },
     {
       "id": "IndigoResultUp",
@@ -1850,13 +1850,13 @@
     {
       "id": "EchoOfMansion",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- Unità con SAN: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza SAN: -10% chance di ottenre testa\n- Ridotto di 1 A fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Main",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 quantità di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- Unità con SAN: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza SAN: -10% chance di ottenre testa\n- Ridotto di 1 A fine Turno",
+      "desc": "- 50% chance di ottenere +1 quantità di Pianto quando ottiene stack o potenza di Pianto dalle abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A fine Turno",
       "summary": ""
     },
     {
@@ -1898,7 +1898,7 @@
     {
       "id": "LibrarianOfHistoryNormal",
       "name": "Assistente Bibliotecario del Piano della Storia",
-      "desc": "- Slot Abilità +1\n- Si cura di 15 SAN ad inizio Turno\n- infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Tremito. (Si applica anche agli effetti di stato 'Unici')",
+      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Tremito. (Si applica anche agli effetti di stato 'Unici')",
       "summary": ""
     },
     {
@@ -1915,13 +1915,13 @@
     {
       "id": "UnstableFeeling",
       "name": "Passione Instabile",
-      "desc": "-Su colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore finale +1\n- Se questa unità ha concatenato un'abilità difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A fine Turno: perde({0} x 5) SAN. (Perdita SAN Massima : 40)",
+      "desc": "-Su colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore finale +1\n- Se questa unità ha concatenato un'abilità difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A fine Turno: perde({0} x 5) PS. (Perdita PS Massimi : 40)",
       "summary": " "
     },
     {
       "id": "LibrarianOfHistoryHard",
       "name": "Bibliotecario del Piano della Storia",
-      "desc": "-Slot Abilità +1\n- Si cura di 15 SAN a inizio Turno\n- Infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Tremito. (Si applica anche agli effetti di stato 'Unici')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno SAN recuperano 25 SAN.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
+      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Tremito. (Si applica anche agli effetti di stato 'Unici')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
       "summary": ""
     },
     {
@@ -2005,49 +2005,49 @@
     {
       "id": "AaCfPaBa_Alt1",
       "name": "Lutto infinito",
-      "desc": "A inizio Turno: recupera 5 SAN\nQuando colpito, perde 3 SAN e ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
+      "desc": "A inizio Turno: recupera 5 PS\nQuando colpito, perde 3 PS e ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPaBa_Alt2",
       "name": "Decapita gli Heathcliff",
-      "desc": "A inizio Turno: recupera 10 SAN\nQuando colpito, ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 SAN, ottiene 3 Potenziamento",
+      "desc": "A inizio Turno: recupera 10 PS\nQuando colpito, ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt1",
       "name": "Ira Strabordante",
-      "desc": "A fine Turno: recupera 10 SAN\nQuando colpito, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiedi meno di 0 SAN, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 1 Danni Aumentati e 3 Smantellare",
+      "desc": "A fine Turno: recupera 10 PS\nQuando colpito, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiedi meno di 0 PS, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 1 Danni Aumentati e 3 Smantellare",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt2",
       "name": "Decapita gli Heathcliff",
-      "desc": "A fine Turno: recupera 10 SAN\nquando colpito, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiedi meno di 10 SAN, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Smantellare",
+      "desc": "A fine Turno: recupera 10 PS\nquando colpito, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiedi meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Smantellare",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt3",
       "name": "Affetto e Odio",
-      "desc": "A fine Turno: recupera 15 SAN\nSu colpo, ottiene 1 Rapidità e 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 10 SAN, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati",
+      "desc": "A fine Turno: recupera 15 PS\nSu colpo, ottiene 1 Rapidità e 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt4",
       "name": "Promessa Sfumata",
-      "desc": "A fine Turno: recupera 15 SAN\nSu colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 SAN, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nA 1 SAN, recupera il 40% dei PV e 25 SAN (una volta per incontro)",
+      "desc": "A fine Turno: recupera 15 PS\nSu colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nA 1 PS, recupera il 40% dei PV e 25 PS (una volta per incontro)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt5",
       "name": "Promessa Sfumata",
-      "desc": "A fine Turno: recupera 15 SAN\nSu colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 SAN, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nFinché vi è almeno un alleato ancora in vita, i PV di Heatcliff non scendono al di sotto di 1\nA 1 PV, recupera il 40% dei PV e 25 SAN (una volta per incontro) ",
+      "desc": "A fine Turno: recupera 15 PS\nSu colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nFinché vi è almeno un alleato ancora in vita, i PV di Heatcliff non scendono al di sotto di 1\nA 1 PV, recupera il 40% dei PV e 25 PS (una volta per incontro) ",
       "summary": "",
       "undefined": "-"
     },
@@ -2060,25 +2060,25 @@
     {
       "id": "WildHunt",
       "name": "Caccia Infernale",
-      "desc": "- Nello stesso turno in cui questa unità ha guadagnato Caccia Infernale per la prima volta, rimane costantemente a 1 PV; \"resuscita\"(Recupera il 50% dei PV e azzera la SAN) di quest'unità a fine turno.\n- Alla morte, ottiene 1 risorsa E.G.O per la risorsa E.G.O meno posseduta\n- Se quest'unità viene uccisa da un attacco, infligge 3 Pianto contro l'ultimo attaccante\n- Muore alla fine dello stesso turno in cui è stata resuscitata",
+      "desc": "- Nello stesso turno in cui questa unità ha guadagnato Caccia Infernale per la prima volta, rimane costantemente a 1 PV; \"resuscita\"(Recupera il 50% dei PV e azzera i PS) di quest'unità a fine turno.\n- Alla morte, ottiene 1 risorsa E.G.O per la risorsa E.G.O meno posseduta\n- Se quest'unità viene uccisa da un attacco, infligge 3 Pianto contro l'ultimo attaccante\n- Muore alla fine dello stesso turno in cui è stata resuscitata",
       "summary": ""
     },
     {
       "id": "NightPathfinding",
       "name": "Dullahan",
-      "desc": "- Valore Massimo: 3\n- Ottiene 3 Livelli Offensivi\n- Perde 3  livelli difensivi\n- Aumenta i valori minimi e massimi di velocità di 1\n- A fine Turno: Ottiene 1 Dullahan il prossimo turno (A meno di 25 SAN , tuttavia, perde completamente Dullahan)\n- A fine Turno: se quest'unità possiede Dullahan, perde (15 - (Bara/2)) SAN. (min 10)",
+      "desc": "- Valore Massimo: 3\n- Ottiene 3 Livelli Offensivi\n- Perde 3  livelli difensivi\n- Aumenta i valori minimi e massimi di velocità di 1\n- A fine Turno: Ottiene 1 Dullahan il prossimo turno (A meno di 25 PS , tuttavia, perde completamente Dullahan)\n- A fine Turno: se quest'unità possiede Dullahan, perde (15 - (Bara/2)) PS. (min 10)",
       "summary": ""
     },
     {
       "id": "WanderingFootsteps",
       "name": "Rovina Imminente",
-      "desc": "- Unità con SAN: cambia il loro tipo di panico in \"\"Rovina\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni fine Turno e perde 1 Potenza scontro. Quando quest'unità va in Panico, ottiene 5 Pianto, 3 stack di Pianto ogni fine Turno e perde 2 Potenza scontro)\n- Unità senza SAN: -10% probabilità di fare testa\n- Ridotto di 1 A fine Turno\n- Quest'effetto si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Unità senza SAN\"\" ad alcuni nemici che hanno SAN ma non possono avere la tipologia di Panico modificata.",
+      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Rovina\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni fine Turno e perde 1 Potenza scontro. Quando quest'unità va in Panico, ottiene 5 Pianto, 3 stack di Pianto ogni fine Turno e perde 2 Potenza scontro)\n- Unità senza PS: -10% probabilità di fare testa\n- Ridotto di 1 A fine Turno\n- Quest'effetto si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Unità senza PS\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
       "summary": ""
     },
     {
       "id": "WanderingFootsteps_Main",
       "name": "Rovina Imminente",
-      "desc": "- Bersagli con SAN: Cambia il tipo di Panico in 'Rovina'\n- Ridotto di 1  A fine Turno",
+      "desc": "- Bersagli con PS: Cambia il tipo di Panico in 'Rovina'\n- Ridotto di 1  A fine Turno",
       "summary": ""
     },
     {
@@ -2104,7 +2104,7 @@
     {
       "id": "UninvitedGuestPersonality",
       "name": "L'Indesiderato",
-      "desc": "- Valore Massimo: 2\n- Alla morte, l'ultimo attaccante recupera 3 SAN; in seguito, un alleato casuale che non possedeva quest'effetto ottiene 2 stack.\n- Subisce +0.5% più danno per ogni Pianto su sé stesso (max 10%; per gli incontri mirati, Pianto viene conteggiato su ogni parte in modo separato)\n- A fine Turno: si riduce di 1",
+      "desc": "- Valore Massimo: 2\n- Alla morte, l'ultimo attaccante recupera 3 PS; in seguito, un alleato casuale che non possedeva quest'effetto ottiene 2 stack.\n- Subisce +0.5% più danno per ogni Pianto su sé stesso (max 10%; per gli incontri mirati, Pianto viene conteggiato su ogni parte in modo separato)\n- A fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2118,7 +2118,7 @@
     {
       "id": "Retreat",
       "name": "Modalità R&R Strategica",
-      "desc": "- A fine Turno: si riprende dal Vacillamento e si ritira dallo scontro (a meno che non sia un Vacillo forzato; non conta come morte)\n· Nelle battaglie a catena, dà gli slot di quest'unità all'unità che entra e viene spostata in fondo nell'ordine di schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e SAN che aveva alla ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 SAN alla ritirata, torna in battaglia con 0 SAN)",
+      "desc": "- A fine Turno: si riprende dal Vacillamento e si ritira dallo scontro (a meno che non sia un Vacillo forzato; non conta come morte)\n· Nelle battaglie a catena, dà gli slot di quest'unità all'unità che entra e viene spostata in fondo nell'ordine di schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla ritirata, torna in battaglia con 0 PS)",
       "summary": "",
       "undefined": "-"
     },
@@ -2241,7 +2241,7 @@
     {
       "id": "DevyatDimensionalSackSinclair",
       "name": "Baule del Corriere - Sinclair",
-      "desc": "- Valore Base: 0\n- A inizio Turno: ottiene 3 stack\n- le stack non scade alla ritirata; vengono invece immagazzinate\n- A 10+ stack: aumenta i valori minimi e massimi della velocità di 1\n- A 20+ stack: Ottiene 1 Potenza scontro e 1 Danni Contundenti Aumentati\n- A 30+ stack:\n· quando usa un'abilità, subisce (stack/3)% danni ai PV e (stack/3) danni ai PS\n· A fine Turno, subisce (stack/2)% danni ai PV e (stack/2) danni alla SAN (si applica prima della ritirata)",
+      "desc": "- Valore Base: 0\n- A inizio Turno: ottiene 3 stack\n- le stack non scade alla ritirata; vengono invece immagazzinate\n- A 10+ stack: aumenta i valori minimi e massimi della velocità di 1\n- A 20+ stack: Ottiene 1 Potenza scontro e 1 Danni Contundenti Aumentati\n- A 30+ stack:\n· quando usa un'abilità, subisce (stack/3)% danni ai PV e (stack/3) danni ai PS\n· A fine Turno, subisce (stack/2)% danni ai PV e (stack/2) danni ai PS (si applica prima della ritirata)",
       "summary": "",
       "undefined": "-"
     },
@@ -2339,7 +2339,7 @@
     {
       "id": "Retreat_FullStop",
       "name": "Sorveglianza",
-      "desc": "- A fine Turno: si riprende dal Vacillamento e si ritira dall'incontro (a meno che non sia un Vacillamento forzato; non conta come morte)\n· Nelle battaglie a catena, gli slot di questa unità vengono dati all'unità che entra al suo posto, e viene spostata più in fondo possibile nell'ordine di schieramento (fugge completamente dall'Incontro se non ci sono altre Unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e SAN che aveva durante la ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 SAN alla ritirata, torna in battaglia con 0 SAN)"
+      "desc": "- A fine Turno: si riprende dal Vacillamento e si ritira dall'incontro (a meno che non sia un Vacillamento forzato; non conta come morte)\n· Nelle battaglie a catena, gli slot di questa unità vengono dati all'unità che entra al suo posto, e viene spostata più in fondo possibile nell'ordine di schieramento (fugge completamente dall'Incontro se non ci sono altre Unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva durante la ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla ritirata, torna in battaglia con 0 PS)"
     },
     {
       "id": "LogicAtelierAM",
@@ -2354,7 +2354,7 @@
     {
       "id": "RequestedTarget",
       "name": "Bersaglio Richiesto",
-      "desc": "+0.2 Resistanza ai tipi di attacchi con 1.5 o meno Resistanza. Se il bersaglio di quest'effetto muore, viene ottenuta 1 risorsa E.G.O per tutte le affinità, e l'unità che ha ucciso il bersaglio recupera 10 SAN"
+      "desc": "+0.2 Resistanza ai tipi di attacchi con 1.5 o meno Resistanza. Se il bersaglio di quest'effetto muore, viene ottenuta 1 risorsa E.G.O per tutte le affinità, e l'unità che ha ucciso il bersaglio recupera 10 PS"
     },
     {
       "id": "GlowingLantern",
@@ -2376,12 +2376,12 @@
     {
       "id": "Hohenheim_LowMorale",
       "name": "Angoscia",
-      "desc": "A inizio Turno: ottiene 1 Fragilità e 2 Efficenza perdita SAN"
+      "desc": "A inizio Turno: ottiene 1 Fragilità e 2 Efficenza perdita PS"
     },
     {
       "id": "Hohenheim_Panico",
       "name": "Angoscia",
-      "desc": "A inizio Turno: ottiene 2 Fragilità e 3 Efficenza perdita SAN"
+      "desc": "A inizio Turno: ottiene 2 Fragilità e 3 Efficenza perdita PS"
     },
     {
       "id": "BlackCloud",
