@@ -129,21 +129,21 @@
     },
     {
       "id": "PlusCoinValueUp",
-      "name": "Addizione di Testa",
-      "desc": "Aumenta il valore ottenuto facendo Testa di +{0} per questo turno.",
-      "summary": "Valore ottenuto facendo Testa +{0}"
+      "name": "Alza Testa Positiva",
+      "desc": "Aumenta il valore ottenuto facendo Testa con Monete Positive di +{0} per questo turno.",
+      "summary": "Valore Testa Positiva +{0}"
     },
     {
       "id": "MinusCoinValueUp",
-      "name": "Addizione di Croce",
-      "desc": "Aumenta il valore ottenuto facendo Croce di +{0} per questo turno.",
-      "summary": "Valore ottenuto facendo Croce +{0}"
+      "name": "Abbassa Testa Negativa",
+      "desc": "Abbassa il valore ottenuto facendo Testa con Monete Negative di -{0} per questo turno.",
+      "summary": "Valore Testa Negativa -{0}"
     },
     {
       "id": "TimesCoinValueUp",
-      "name": "Multiply Coin Boost",
-      "desc": "Multiply Coin Power +{0} for this turn.",
-      "summary": "Multiply Coin Power +{0}"
+      "name": "Alza Testa Moltiplicativa",
+      "desc": "Aumenta il valore ottenuto facendo Testa con Monete Moltiplicative di +{0} per questo turno.",
+      "summary": "Valore Testa Moltiplicativa +{0}"
     },
     {
       "id": "Disarming",
@@ -177,21 +177,21 @@
     },
     {
       "id": "PlusCoinValueDown",
-      "name": "Sottrazione di Testa",
-      "desc": "Diminuisce il valore ottenuto facendo testa di -{0} per questo turno.",
-      "summary": "Valore ottenuto facendo testa -{0}"
+      "name": "Abbassa Testa Positiva",
+      "desc": "Diminuisce il valore ottenuto facendo Testa con Monete Positive di -{0} per questo turno.",
+      "summary": "Valore Testa Positiva -{0}"
     },
     {
       "id": "MinusCoinValueDown",
-      "name": "Sottrazione di Croce",
-      "desc": "Diminuisce il valore ottenuto facendo croce -{0} per questo turno.",
-      "summary": "Valore ottenuto facendo croce -{0}"
+      "name": "Alza Testa Negativa",
+      "desc": "Alza il valore ottenuto facendo Testa con Monete Negative di +{0} per questo turno.",
+      "summary": "Valore Testa Negativa +{0}"
     },
     {
       "id": "TimesCoinValueDown", 
-      "name": "Multiply Coin Drop",
-      "desc": "Multiply Coin Power -{0} for this turn.",
-      "summary": "Multiply Coin Power -{0}"
+      "name": "Abbassa Testa Moltiplicativa",
+      "desc": "Aumenta il valore ottenuto facendo Testa con Monete Moltiplicative di -{0} per questo turno.",
+      "summary": "Valore Testa Moltiplicativa -{0}"
     },
     {
       "id": "BeingGolden",
@@ -202,8 +202,8 @@
     {
       "id": "MoonLight",
       "name": "Chiaro Di Luna",
-      "desc": "Risorse usate da alcune abilità hanno effetti addizionali.",
-      "summary": "per effetti addizionali"
+      "desc": "Risorsa usata da alcune abilità per effetti aggiuntivi.",
+      "summary": "Per effetti addizionali"
     },
     {
       "id": "Daunted_LowMorale",
@@ -276,8 +276,8 @@
     },
     {
       "id": "Vibration",
-      "name": "Tremito",
-      "desc": "Quando colpito da un attacco che causa Convulsione, aumenta la Soglia di Vacillamento di {0}. Dura {1} turno(i).",
+      "name": "Vibrazione",
+      "desc": "Quando colpito da un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}. Dura {1} turno(i).",
       "summary": "Aumenta la Soglia di Vacillamento di {0}"
     },
     {
@@ -366,7 +366,7 @@
     },
     {
       "id": "Liu_Meursault_Guard_Buff",
-      "name": "Massiccio",
+      "name": "Stoico come una montagna",
       "desc": "Quando viene attaccato, infligge +1 alla quantità di Bruciatura sull'attaccante.",
       "summary": "Stack Bruciatura a chi ha attaccato +1"
     },
@@ -644,7 +644,7 @@
     },
     {
       "id": "Choice_901010",
-      "name": "Svuotato",
+      "name": "Vuoto",
       "desc": "All'inizo del combattimento: Tutti gli alleati senza affinità a Lussuria Vacillano."
     },
     {
@@ -684,7 +684,7 @@
     },
     {
       "id": "Greedy",
-      "name": "Desideroso",
+      "name": "Smania",
       "desc": "Ottiene 2 Fragilità e 10 Lentezza questo turno. Inoltre, ottiene uno slot abilità in più e cambia comportamento.",
       "summary": "Ottiene 2 Fragilità e 10 Lentezza"
     },
@@ -697,7 +697,7 @@
     {
       "id": "GreedyReady",
       "name": "Desideri Limitanti",
-      "desc": "Usa un abilità che applica ‘Desideroso’ in {0} turno(i)."
+      "desc": "Usa un abilità che applica ‘Smania’ in {0} turno(i)."
     },
     {
       "id": "Decay",
@@ -1039,12 +1039,12 @@
     {
       "id": "Exalted",
       "name": "Morale Alto",
-      "desc": "ottiene {0} Danni Aumentati ogni turno (Max 5)\nNon può ottenere questo status mentre è Alticcio",
-      "summary": "ottiene Danni Aumentati in base alla quantità ogni turno; non puoi ottenerlo mentre è Alticcio"
+      "desc": "ottiene {0} Danni Aumentati ogni turno (Max 5)\nNon può ottenere questo status mentre ha Ebbrezza",
+      "summary": "ottiene Danni Aumentati in base alla quantità ogni turno; non puoi ottenerlo mentre ha Ebbrezza"
     },
     {
       "id": "Tipsiness",
-      "name": "Alticcio",
+      "name": "Ebbrezza",
       "desc": "Potenza di Scontro -{0} (Max 5)",
       "summary": "Perdi Potenza di Scontro in base alle stack dell'effetto"
     },
@@ -1062,7 +1062,7 @@
     },
     {
       "id": "ATL_Breath",
-      "name": "Mira Perfetto!",
+      "name": "Mira Perfetta!",
       "desc": "Ottiene 3 Respiro",
       "summary": "표시용"
     },
@@ -1081,14 +1081,14 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando innesca Convulsione o aumenta la Soglia di Vacillamento, infligge {0} * 3 danni fissi e aumenta la Soglia di Vacillamento di {0} * 3%",
-      "summary": "Quando innesca Convulsione o aumenta la Soglia di Vacillamento, infligge danni e aumenta ulteriormente la Soglia di Vacillamento"
+      "desc": "Quando innesca Scoppio Vibrazione o aumenta la Soglia di Vacillamento, infligge {0} * 3 danni fissi e aumenta la Soglia di Vacillamento di {0} * 3%",
+      "summary": "Quando innesca Scoppio Vibrazione o aumenta la Soglia di Vacillamento, infligge danni e aumenta ulteriormente la Soglia di Vacillamento"
     },
     {
       "id": "VibrationAssimilation",
       "name": "Tremiti Sincronizzati",
-      "desc": "In uno scontro, l'avversario ha -1 potenza di scontro per ogni 5 Tremito che possiede",
-      "summary": "In uno scontro, l'avversario ha -1 potenza di scontro per ogni 5 Tremito"
+      "desc": "In uno scontro, l'avversario ha -1 potenza di scontro per ogni 5 Vibrazione che possiede",
+      "summary": "In uno scontro, l'avversario ha -1 potenza di scontro per ogni 5 Vibrazione"
     },
     {
       "id": "CollapseAmpoule",
@@ -1679,8 +1679,8 @@
     },
     {
       "id": "VibrationExplosion",
-      "name": "Convulsione",
-      "desc": "Aumenta la Soglia di Vacillamento in base alla Potenza di Tremito sul bersaglio"
+      "name": "Scoppio Vibrazione",
+      "desc": "Aumenta la Soglia di Vacillamento in base alla Potenza di Vibrazione sul bersaglio"
     },
     {
       "id": "OneOnOneDuel",
@@ -1843,9 +1843,9 @@
     },
     {
       "id": "VibrationCollapse",
-      "name": "Tremito - Rovina",
-      "desc": "Perde 1 livello difensivo per ogni 4 di potenza Tremito su di sè\nPer {1} turno(i): quando colpito da un abilità che causa Convulsione, aumenta la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Tremito agli effetti che ne aumentano potenza/quantità)",
-      "summary": "Perde 1 livello difensivo per ogni 4 di potenza Tremito su di sè\n Aumenta la soglia di vacillamento di {0}"
+      "name": "Vibrazione - Rovina",
+      "desc": "Perde 1 livello difensivo per ogni 4 di potenza Vibrazione su di sè\nPer {1} turno(i): quando colpito da un abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano potenza/quantità)",
+      "summary": "Perde 1 livello difensivo per ogni 4 di potenza Vibrazione su di sè\n Aumenta la soglia di vacillamento di {0}"
     },
     {
       "id": "EchoOfMansion",
@@ -1867,9 +1867,9 @@
     },
     {
       "id": "VibrationCrack",
-      "name": "Tremito - Frattura",
-      "desc": "- Quando Vacilla e quando la somma delle stack e della potenza di Tremito è almeno 20, aumenta il livello di Vacillo di 1\n- Il livello non può superare il massimo quando colpito\nda un attacco che causa Convulsione, aumenta la Soglia di Vacillamento di {0}. Dura {1} turni\n(Interagisce allo stesso modo del normale Tremito agli effetti che ne aumentano potenza/quantità)",
-      "summary": "Quando vacilla e quando la somma delle stack e della potenza di Tremito è almeno 20, umenta il livello di Vacillo di 1\nAumenta la Soglia di Vacillamento di {0}"
+      "name": "Vibrazione - Frattura",
+      "desc": "- Quando Vacilla e quando la somma delle stack e della potenza di Vibrazione è almeno 20, aumenta il livello di Vacillo di 1\n- Il livello non può superare il massimo quando colpito\nda un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}. Dura {1} turni\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano potenza/quantità)",
+      "summary": "Quando vacilla e quando la somma delle stack e della potenza di Vibrazione è almeno 20, umenta il livello di Vacillo di 1\nAumenta la Soglia di Vacillamento di {0}"
     },
     {
       "id": "ForwardToTheKing",
@@ -1886,7 +1886,7 @@
     {
       "id": "Switch_Vibration",
       "name": "Convertitore TTC",
-      "desc": "Converte Tremito o un tipo già convertito di Tremito in un tipo diverso di Tremito.\nLe stack di Tremito non vengono affette dalla conversione."
+      "desc": "Converte Vibrazione o un tipo già convertito di Vibrazione in un tipo diverso di Vibrazione.\nLe stack di Vibrazione non vengono affette dalla conversione."
     },
     {
       "id": "MarkOfButler",
@@ -1898,7 +1898,7 @@
     {
       "id": "LibrarianOfHistoryNormal",
       "name": "Assistente Bibliotecario del Piano della Storia",
-      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Tremito. (Si applica anche agli effetti di stato 'Unici')",
+      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Unici')",
       "summary": ""
     },
     {
@@ -1921,7 +1921,7 @@
     {
       "id": "LibrarianOfHistoryHard",
       "name": "Bibliotecario del Piano della Storia",
-      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Tremito. (Si applica anche agli effetti di stato 'Unici')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
+      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio delle stack e della potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Unici')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
       "summary": ""
     },
     {
@@ -1932,8 +1932,8 @@
     },
     {
       "id": "VibrationEcho",
-      "name": "Tremito - Riverbero",
-      "desc": "- Per {1} Turno(i): Quando si attiva Convulsione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando colpito da un'abilità che causa Convulsione, aumenta la Soglia di Vacillamento del {0}.\n- A fine Turno: Riduce di 1 le stack.\n(Interagisce allo stesso modo del normale Tremito sugli effetti che ne aumentano potenza/stack)",
+      "name": "Vibrazione - Riverbero",
+      "desc": "- Per {1} Turno(i): Quando si attiva Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando colpito da un'abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento del {0}.\n- A fine Turno: Riduce di 1 le stack.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano potenza/stack)",
       "summary": ""
     },
     {
@@ -1945,13 +1945,13 @@
     {
       "id": "VibrationContinue",
       "name": "Tremor - Eterno",
-      "desc": "- Quando colpito da abilità o monete che attivano Convulsione, (Potenza Tremito su se stesso)% possibilità di attivare un'ulteriore Convulsione. (max 50%)\n-Quando colpito da abilità o monete che attivano Convulsione, (stack di Tremito su sè stesso)% possibilità di attivare un'ulteriore Convulsione. (max 50%)\n- Quando colpito da abilità che attivano Convulsione, aumenta la Soglia di Vacillamento del valore della potenza dell'effetto\n- A fine Turno: riduce di 1 le stack\n(Interagisce allo stesso modo del normale Tremito agli effetti che ne aumentano potenza/stack)",
+      "desc": "- Quando colpito da abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da abilità o monete che attivano Scoppio Vibrazione, (stack di Vibrazione su sè stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della potenza dell'effetto\n- A fine Turno: riduce di 1 le stack\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano potenza/stack)",
       "summary": ""
     },
     {
       "id": "TimeSuspend",
       "name": "Tempus Moratorium",
-      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno verrà invece immagazzinato\n- Fine combattimento: se la quantità di quest'effetto è solamente 1, quest'effetto attiva {0} Convulsione(i) dopo aver inflitto {3} danni da Accidia.\n- A fine Turno: ottiene 1 Massa e perde 1 stack\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Convulsione e il danno da Accidia se un altra istanza di Tempus Moratorium è inflitta ad un unità con Tempus Moratorium.\n- Danno immagazzinato: {2}",
+      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno verrà invece immagazzinato\n- Fine combattimento: se la quantità di quest'effetto è solamente 1, quest'effetto attiva {0} Scoppio Vibrazione(i) dopo aver inflitto {3} danni da Accidia.\n- A fine Turno: ottiene 1 Massa e perde 1 stack\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un altra istanza di Tempus Moratorium è inflitta ad un unità con Tempus Moratorium.\n- Danno immagazzinato: {2}",
       "summary": ""
     },
     {
@@ -1962,8 +1962,8 @@
     },
     {
       "id": "VibrationChainPersonality",
-      "name": "Tremito - Catena",
-      "desc": "- Perdi 1 potenza di scontro per ogni 10 Tremore (max 3)\n- Quando colpito da abilità che attivano Convulsione, aumenta la Soglia di Vacillamento in base al valore della potenza dell'effetto \n- A fine Turno: riduci di 1 la quantità\n- (Interagisce allo stesso modo del normale Tremito agli effetti che ne aumentano potenza/stack)",
+      "name": "Vibrazione - Catena",
+      "desc": "- Perdi 1 potenza di scontro per ogni 10 Tremore (max 3)\n- Quando colpito da abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base al valore della potenza dell'effetto \n- A fine Turno: riduci di 1 la quantità\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano potenza/stack)",
       "summary": ""
     },
     {
@@ -2125,7 +2125,7 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a fine turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il prossimo turno:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Raggiro\n  · Quando concatena le abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un incontro mirato)\n  · Alla vittoria di uno scontro, attiva Convulsione\n  · I danni non faranno Vacillare questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a fine turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il prossimo turno:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Raggiro\n  · Quando concatena le abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un incontro mirato)\n  · Alla vittoria di uno scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
       "summary": ""
     },
     {
@@ -2233,8 +2233,8 @@
     },
     {
       "id": "VibrationSpring",
-      "name": "Tremito - CaricaMolla",
-      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni stack o potenza di qualsisi tipo di Tremito con le abilità o gli effetti delle monete, consumando 1 stack di Tremito su sè stesso\n- Quando colpito da mosse che attivano Convulsione, aumenta la Soglia di Vacillamento in base potenza di quest'effetto\n- A fine Turno: riduce di 1 le stack\n- (Interagisce allo stesso modo del normale Tremito agli effetti che ne aumentano potenza/stack)",
+      "name": "Vibrazione - CaricaMolla",
+      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni stack o potenza di qualsisi tipo di Vibrazione con le abilità o gli effetti delle monete, consumando 1 stack di Vibrazione su sè stesso\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base potenza di quest'effetto\n- A fine Turno: riduce di 1 le stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano potenza/stack)",
       "summary": "Max Speed +2\nConsume Tremor Count on self to infligge +1 more Tremor Potency e Count",
       "undefined": "-"
     },
