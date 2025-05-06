@@ -258,7 +258,7 @@
     },
     {
       "id": "Inactible",
-      "name": "Immobilizzato",
+      "name": "Immobile",
       "desc": "Non agisce per questo turno.",
       "summary": "Inattivo"
     },
@@ -745,7 +745,7 @@
     },
     {
       "id": "Enrage",
-      "name": "Frenesia",
+      "name": "Furore",
       "desc": "Ottiene 3 Potenziamento e 3 Fragilità questo turno, e cambia comportamento. Non ottiene Istinti quando attaccato.",
       "summary": "Ottiene 3 Potenziamento & 3 Fragilità"
     },
@@ -900,7 +900,7 @@
     },
     {
       "id": "AssemblePersonality",
-      "name": "Fanatico",
+      "name": "Fanatismo",
       "desc": "Valore Finale delle abilità +{0} contro tutti i nemici affetti da Chiodi per questo turno. (Si applica anche agli scontri)",
       "summary": "Valore Finale +{0}"
     },
@@ -960,9 +960,9 @@
     },
     {
       "id": "Thirst",
-      "name": "Languidezza",
-      "desc": "+{0}0% Cure ricevute dalla passiva [Piatto Spartano].\nQuest'effetto sparisce quando viene utilizzata la passiva.",
-      "summary": "[Piatto Spartano] cura +{0}0% HP"
+      "name": "Languorino",
+      "desc": "+{0}0% Cure ricevute dalla passiva [Cucina Creativa].\nQuest'effetto sparisce quando viene utilizzata la passiva.",
+      "summary": "[Cucina Creativa] cura +{0}0% HP"
     },
     {
       "id": "GainSinStockAdder",
@@ -996,13 +996,13 @@
     },
     {
       "id": "Stressed",
-      "name": "Stressato",
+      "name": "Stress",
       "desc": "A fine Turno: se i PS sono a -25 o inferiore, ottiene 1 Resistenza il prossmo turno",
       "summary": "A fine Turno: se i PS sono a -25 o inferiore, ottiene 1 Resistenza il prossmo turno"
     },
     {
       "id": "Nervous",
-      "name": "Nervoso",
+      "name": "Nervosismo",
       "desc": "A fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il prossimo turno",
       "summary": "A fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il prossimo turno"
     },
@@ -1086,7 +1086,7 @@
     },
     {
       "id": "VibrationAssimilation",
-      "name": "Tremiti Sincronizzati",
+      "name": "Vibrazioni Sincronizzate",
       "desc": "In uno scontro, l'avversario ha -1 potenza di scontro per ogni 5 Vibrazione che possiede",
       "summary": "In uno scontro, l'avversario ha -1 potenza di scontro per ogni 5 Vibrazione"
     },
@@ -1139,13 +1139,13 @@
     },
     {
       "id": "Crazy_LowMorale",
-      "name": "Forsennato",
+      "name": "Forsennatezza",
       "desc": "- Morale Basso\n- Quando ha questo status per la prima volta, colpisce indiscriminatamente le unità",
       "undefined": "-"
     },
     {
       "id": "Crazy_Panic",
-      "name": "Forsennato",
+      "name": "Forsennatezza",
       "desc": "- Panico\n- Attacca indiscriminatamente; Potenza di Scontro +1, e ottiene 2 Danni Aumentati",
       "undefined": "-"
     },
@@ -2444,14 +2444,14 @@
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max quantità: 10\n- Viene usato da alcune abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio Vendicativo del Fratello il prossimo turno\n(Calcolato separatemante dal Marchio Vendicativo; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
+      "desc": "- Max quantità: 10\n- Viene usato da alcune abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio della Vendetta del Fratello il prossimo turno\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RetaliationBookFamily",
       "name": "Marchio Vendicatico del Fratello",
-      "desc": "- Max stack: 1\n- Scade a fine turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio Vendicativo",
+      "desc": "- Max stack: 1\n- Scade a fine turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio della Vendetta",
       "summary": "",
       "undefined": "-"
     },
