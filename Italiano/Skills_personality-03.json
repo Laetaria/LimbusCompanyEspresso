@@ -145,33 +145,33 @@
         {
           "level": 3,
           "name": "Una Giusta Vendetta",
-          "desc": "[StartBattle] Il Livello Offensivo di quest'abilità aumenta di 1 (Rison-A più lunga/3) (Max 4)\nIf the highest A-Reson is Envy A-Reson, Gain 50% additional 'Offense Level' to the 'Offense Level' gained by the above effect (rounded down)",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'abilità aumenta di 1 (Rison-A più lunga/3) (Max 4)\nSe la Rison-A più lunga è Invidia, aggiunge un 50% in più al Livello Offensivo dell'effetto sopra (arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 Sanguinamento"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 Sanguinamento"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 Sanguinamento"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] If target is defeated, 1 ally with the least SP heals 6 SP"
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con i PS più bassi recupera 6 PS"
                 }
               ]
             }
@@ -179,7 +179,7 @@
         },
         {
           "level": 4,
-          "name": "A Just Vengeance",
+          "name": "Una Giusta Vendetta",
           "desc": "[StartBattle] This Skill gains 1 Offense Level by (highest A-Reson./2) (Max 6)\nIf the highest A-Reson is Envy A-Reson., boost the Offense Level gained by the above effect by 50% (rounded down)\nGain double the Offense Level from the above effects in Focused Encounters with 7 or fewer Participant Limits.",
           "coinlist": [
             {
