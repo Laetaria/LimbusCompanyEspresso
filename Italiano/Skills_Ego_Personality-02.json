@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 Burn on target to 1 Defense Level Down (Max 10)"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
                 }
               ]
             }
@@ -22,15 +22,15 @@
           "level": 3,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
+          "desc": "[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Burn"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 Burn on target to 1 Defense Level Down (Max 10)"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
                 }
               ]
             }
@@ -40,15 +40,15 @@
           "level": 4,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
+          "desc": "[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Peso Attacco +1\nA 6+ (Rison-A Lussuria più alta), Peso Attacco addizionale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 Burn on target to 1 Defense Level Down (Max 10)"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
                 }
               ]
             }
@@ -63,15 +63,15 @@
           "level": 1,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttackTail] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 Burn on target to 1 Defense Level Down (Max 10)"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
                 }
               ]
             }
@@ -81,18 +81,18 @@
           "level": 3,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 Burn on target to 1 Defense Level Down (Max 10)"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
                 }
               ]
             }
@@ -102,18 +102,18 @@
           "level": 4,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Peso Attacco +1\nA 6+ (Rison-A Lussuria più alta), Peso Attacco addizionale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 Burn on target to 1 Defense Level Down (Max 10)"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
                 }
               ]
             }
@@ -128,39 +128,39 @@
           "level": 1,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "If target's Speed is slower than this unit's, deal +(2.5 x (Speed difference))% damage (max 25%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 5)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(2.5 x (differenza Velocità))% danni (max 25%)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] in base alla Rison. più alta (max 5)\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +5 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Max Speed by half next turn"
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo"
                 }
               ]
             }
@@ -170,39 +170,39 @@
           "level": 3,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "If target's Speed is slower than this unit's, deal +(<style=\"highlight\">3.5</style> x (Speed difference))% damage (max <style=\"highlight\">35%</style>)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 5)\n<style=\"highlight\">- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max 5)</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(<style=\"highlight\">3.5</style> x (differenza Velocità))% danni (max <style=\"highlight\">35%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] in base alla Rison. più alta (max 5)\n<style=\"highlight\">- Se la Rison. più alta era Accidia, infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max 5)</style>\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +5 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -212,42 +212,42 @@
           "level": 4,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "If target's Speed is slower than this unit's, deal +(<style=\"highlight\">5</style> x (Speed difference))% damage (max <style=\"highlight\">50%</style>)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by (<style=\"highlight\">2</style> x (highest Reson.)) (max <style=\"highlight\">10</style>)\n- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max <style=\"highlight\">10</style>)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(<style=\"highlight\">5</style> x (differenza Velocità))% danni (max <style=\"highlight\">50%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] pari a (<style=\"highlight\">2</style> x (Rison. più alta)) (max <style=\"highlight\">10</style>)\n- Se la Rison-A più alta era Accidia, infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max <style=\"highlight\">10</style>)\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">10</style> [Vibration] and <style=\"highlight\">+10</style> [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">10</style> [Vibration] e <style=\"highlight\">+10</style> Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
