@@ -8,7 +8,7 @@
     {
       "id": "Enhancement",
       "name": "Potenziamento",
-      "desc": "Le Abilità Offensive ottengono Potere finale in base agli effetti delle Stack per un turno."
+      "desc": "Le Abilità Offensive ottengono Valore Finale in base agli effetti delle Stack per un turno."
     },
     {
       "id": "Agility",
@@ -18,12 +18,12 @@
     {
       "id": "Endurance",
       "name": "Resistenza",
-      "desc": "Le Abilità Difensive ottengono Potere finale in base agli effetti delle Stack per un turno."
+      "desc": "Le Abilità Difensive ottengono Valore Finale in base agli effetti delle Stack per un turno."
     },
     {
       "id": "Reduction",
       "name": "Fiacchezza",
-      "desc": "Le Abilità Offensive perdono Potere finale in base agli effetti delle Stack per un turno."
+      "desc": "Le Abilità Offensive perdono Valore Finale in base agli effetti delle Stack per un turno."
     },
     {
       "id": "Binding",
@@ -99,8 +99,8 @@
     {
       "id": "ResultEnhancement",
       "name": "Potere Incrementato",
-      "desc": "Le Abilità ottengono Potenza Finale in base alle Stack per un turno.",
-      "summary": "Potenza Finale dell'abilità +{0}"
+      "desc": "Le Abilità ottengono Valore Finale in base alle Stack per un turno.",
+      "summary": "Valore Finale dell'abilità +{0}"
     },
     {
       "id": "Protection",
@@ -281,12 +281,12 @@
     {
       "id": "AttackUp",
       "name": "Aumento Offensivo",
-      "desc": "Il livello offensivo incrementa in base alla Potenza per un turno."
+      "desc": "Il Livello Offensivo incrementa in base alla Potenza per un turno."
     },
     {
       "id": "AttackDown",
       "name": "Calo Offensivo",
-      "desc": "Il livello offensivo diminuisce in base alla Potenza per un turno."
+      "desc": "Il Livello Offensivo diminuisce in base alla Potenza per un turno."
     },
     {
       "id": "Liu_Meursault_Guard_Buff",
@@ -540,7 +540,7 @@
       "id": "Choice_901009",
       "name": "Photopia",
       "desc": "Ad inizio Combattimento: Valore Finale Abilità -1.",
-      "summary": "Valore finale Abilità -1"
+      "summary": "Valore Finale Abilità -1"
     },
     {
       "id": "Choice_901010",
@@ -818,8 +818,8 @@
     {
       "id": "Tipsiness",
       "name": "Ebbrezza",
-      "desc": "Perde Potenza di Scontro in base alle Stack. (Max 5)",
-      "summary": "Perde Potenza di Scontro in base alle Stack."
+      "desc": "Perde Potere Scontro in base alle Stack. (Max 5)",
+      "summary": "Perde Potere Scontro in base alle Stack."
     },
     {
       "id": "Predation",
@@ -943,7 +943,7 @@
     {
       "id": "Crazy_Panic",
       "name": "Forsennatezza",
-      "desc": "- Panico\n- Attacca indiscriminatamente; Potenza di Scontro +1, e ottiene 2 Danni Aumentati",
+      "desc": "- Panico\n- Attacca indiscriminatamente; Potere Scontro +1, e ottiene 2 Danni Aumentati",
       "undefined": "-"
     },
     {
@@ -1116,7 +1116,7 @@
       "id": "AmberResultUp",
       "name": "Potenzia Accidia",
       "desc": "Le abilità Accidia ottengono Valore Finale in base alle Stack per un turno.",
-      "summary": "Valore finale abilità Accidia +{0}"
+      "summary": "Valore Finale abilità Accidia +{0}"
     },
     {
       "id": "Blue",
@@ -1192,7 +1192,7 @@
     {
       "id": "DuelDeclaration",
       "name": "Guanto di Sfida",
-      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potenza di Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
+      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
     },
     {
       "id": "Aggro",
@@ -1274,17 +1274,17 @@
     {
       "id": "DuelDeclaration_DonQuixote",
       "name": "Guanto di Sfida - Don Quixote",
-      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potenza di Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
+      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
     },
     {
       "id": "DuelDeclaration_Outis",
       "name": "Guanto di Sfida - Outis",
-      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potenza di Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
+      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
     },
     {
       "id": "DuelDeclaration_Sinclair",
       "name": "Guanto di Sfida - Sinclair",
-      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potenza di Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
+      "desc": "- In uno scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Se colpisce, il dichiaratore ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando l'unità infligge Guanto di Sfida ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente."
     },
     {
       "id": "VibrationExplosion",
@@ -1370,7 +1370,7 @@
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 livello difensivo per ogni 4 Potenza Vibrazione su di sè\nQuando viene colpito da un'abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\nA fine turno: riduce le Stack di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Stack)"
+      "desc": "Perde 1 Livello Difensivo per ogni 4 Potenza Vibrazione su di sè\nQuando viene colpito da un'abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\nA fine turno: riduce le Stack di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Stack)"
     },
     {
       "id": "EchoOfMansion",
@@ -1390,7 +1390,7 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando Vacilla e quando la somma delle Stack e della potenza di Vibrazione è almeno 20, aumenta il livello di Vacillo di 1\n- Non può superare il Livello massimo di Vacillamento con quest'effetto\n\nQuando viene colpito da un'attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\nA fine turno: riduce le Stack di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Stack)"
+      "desc": "- Quando Vacilla e quando la somma delle Stack e della potenza di Vibrazione è almeno 20, aumenta la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando viene colpito da un'attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\nA fine turno: riduce le Stack di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Stack)"
     },
     {
       "id": "ForwardToTheKing",
@@ -1455,13 +1455,13 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A fine Turno, con 2+ Stack:\n- Ottiene (Stack di Tempo in Prestito - 1) Rapidità, Potenza di Scontro, e Fragilità il prossimo turno\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il prossimo turno, l'effetto di Tempo in Prestito scade al prossimo turno, e questa unità Vacilla\n\nTurn End: A fine Turno: A 1 Stack, ottiene (Tempo in Prestito - 1) Lentezza il prossimo turno\nA fine Turno: Ottiene 1 Massa, perde Stack",
+      "desc": "A fine Turno, con 2+ Stack:\n- Ottiene (Stack di Tempo in Prestito - 1) Rapidità, Potere Scontro, e Fragilità il prossimo turno\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il prossimo turno, l'effetto di Tempo in Prestito scade al prossimo turno, e questa unità Vacilla\n\nTurn End: A fine Turno: A 1 Stack, ottiene (Tempo in Prestito - 1) Lentezza il prossimo turno\nA fine Turno: Ottiene 1 Massa, perde Stack",
       "summary": ""
     },
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potenza di Scontro per ogni 10 Tremore su sé stesso (max 3)\n- Quando colpito da abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\n- A fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Stack)",
+      "desc": "- Perde 1 Potere Scontro per ogni 10 Tremore su sé stesso (max 3)\n- Quando colpito da abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\n- A fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Stack)",
       "summary": ""
     },
     {
@@ -1521,7 +1521,7 @@
     {
       "id": "WanderingFootsteps",
       "name": "Rovina Imminente",
-      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Ruin\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni fine Turno e perde 1 Potenza di Scontro.  Quando quest'unità va in Panico, ottiene 5 Pianto, 3 Stack di Pianto ogni fine Turno e perde 2 Potenza di Scontro)\n- Unità senza PS: -10% probabilità di lanciare Testa\n- Ridotto di 1 A fine Turno\n- Quest'effetto non si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Units without SP\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
+      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Ruin\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni fine Turno e perde 1 Potere Scontro.  Quando quest'unità va in Panico, ottiene 5 Pianto, 3 Stack di Pianto ogni fine Turno e perde 2 Potere Scontro)\n- Unità senza PS: -10% probabilità di lanciare Testa\n- Ridotto di 1 A fine Turno\n- Quest'effetto non si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Units without SP\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
       "summary": ""
     },
     {
@@ -1539,7 +1539,7 @@
     {
       "id": "WanderingFootsteps_LowMorale",
       "name": "Rovina",
-      "desc": "- Morale Basso\n- Potenza di Scontro -1 su sé stesso. Ottiene 3 Pianto ogni fine Turno",
+      "desc": "- Morale Basso\n- Potere Scontro -1 su sé stesso. Ottiene 3 Pianto ogni fine Turno",
       "summary": "Potenza scontro -1 su sé stesso. Ottiene 3 Pianto ogni fine Turno",
       "undefined": "-"
     },
@@ -1580,7 +1580,7 @@
     {
       "id": "CanDuelGuard",
       "name": "Sorte dell'Incontro",
-      "desc": "- Se vince lo scontro: aumenta la Soglia di Vacillamento del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo scontro: quando colpito, riduce il Valore Finale dell'abilità del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo scontro: non ottiene Valore Finale da queste fonti: Risonanza e disaprità di livello fra le Abilità Offensive",
+      "desc": "- Se vince lo scontro: aumenta la Soglia di Vacillamento del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo scontro: quando colpito, riduce il Valore Finale dell'abilità del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo scontro: non ottiene Valore Finale da queste fonti: Risonanza e disparità di livello fra le Abilità Offensive",
       "summary": ""
     },
     {
@@ -1648,7 +1648,7 @@
     {
       "id": "WornHeartGreg",
       "name": "Cuore Sofferente",
-      "desc": "- Valore Massimo: 10\n- A fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 livello difensivo per ogni 3 Stack\n- A 40% PV o meno, su colpo con le abilità di base, recupera (Stack x 5)% dei danni inflitti su colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
+      "desc": "- Valore Massimo: 10\n- A fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, su colpo con le abilità di base, recupera (Stack x 5)% dei danni inflitti su colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
       "summary": "",
       "undefined": "-"
     },
@@ -1758,7 +1758,7 @@
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "La Sesta Pallottola Magica",
-      "desc": "- Prima di attaccare: ottiene +6 Peso Attaccot\n- Su colpo, aumenta la Soglia di Vacillamento in base al danno inflitto (max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Valore Base Monete Testa -16\n- Valore base Monete Croce -22\n - Potere Testa -8\n - Potere Croce -12"
+      "desc": "- Prima di attaccare: ottiene +6 Peso Attaccot\n- Su colpo, aumenta la Soglia di Vacillamento in base al danno inflitto (max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Valore Base Monete Testa -16\n- Valore Base Monete Croce -22\n - Potere Testa -8\n - Potere Croce -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
@@ -1835,7 +1835,7 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Max Stack: 1\nConverte tutte le monete delle Abilità Offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'abilità e infligge +1 Sanguinamento in più con gli effetti.\nSe perde lo scontro: ottiene Valore finale +3\\nA fine Turno: quest'effetto termina"
+      "desc": "Max Stack: 1\nConverte tutte le monete delle Abilità Offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'abilità e infligge +1 Sanguinamento in più con gli effetti.\nSe perde lo scontro: ottiene Valore Finale +3\\nA fine Turno: quest'effetto termina"
     },
     {
       "id": "BlackCloudBlade",
@@ -1850,7 +1850,7 @@
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
-      "desc": "Max Stack: 1\nValore finale Abilità Difensiva +1\nQuest'effetto scade a fine Turno o dopo che la seguente Abilità termina: 'Regole dei Vicoli'"
+      "desc": "Max Stack: 1\nValore Finale Abilità Difensiva +1\nQuest'effetto scade a fine Turno o dopo che la seguente Abilità termina: 'Regole dei Vicoli'"
     },
     {
       "id": "ScarletResultUp",
