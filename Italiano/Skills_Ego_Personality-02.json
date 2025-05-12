@@ -212,7 +212,7 @@
           "level": 4,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(<style=\"highlight\">5</style> x (differenza Velocità))% danni (max <style=\"highlight\">50%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] pari a (<style=\"highlight\">2</style> x (Rison. più alta)) (max <style=\"highlight\">10</style>)\n- Se la Rison-A più alta era Accidia, infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max <style=\"highlight\">10</style>)\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(<style=\"highlight\">5</style> x (differenza Velocità))% danni (max <style=\"highlight\">50%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] pari a (<style=\"highlight\">2</style> x (Rison. più alta)) (max <style=\"highlight\">10</style>)\n- Se la Rison-A più alta è Accidia, infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max <style=\"highlight\">10</style>)\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
@@ -262,24 +262,24 @@
           "level": 1,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(1.5 x (Speed difference))% damage (max 12%)\n[BeforeAttack] At 3+ highest Reson., inflict 3 [Vibration] Potency",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di quella di quest'unità, infligge +(1.5 x (differenza Velocità))% danni (max 12%)\n[BeforeAttack] A 3+ Rison. più alta, infligge 3 Potenza [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Max Speed by half next turn"
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo"
                 }
               ]
             }
@@ -289,24 +289,24 @@
           "level": 3,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(<style=\"highlight\">2</style> x (Speed difference))% damage (max <style=\"highlight\">16%</style>)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 4)\n<style=\"highlight\">- [BeforeAttack] If the highest Reson. was a Sloth A-Reson., inflict +2 [Vibration] Count</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di quella di quest'unità, infligge +(<style=\"highlight\">2</style> x (differenza Velocità))% danni (max <style=\"highlight\">16%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge 3 Potenza [Vibration] in base alla Rison. più alta (max 4)\n<style=\"highlight\">- [BeforeAttack] Se la Rison. più alta è Accidia, infligge +2 Conteggio [Vibration]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -316,27 +316,27 @@
           "level": 4,
           "name": "Eternità",
           "abName": "Anatra Temporale",
-          "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(<style=\"highlight\">2.5</style> x (Speed difference))% damage (max <style=\"highlight\">20%</style>)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max <style=\"highlight\">5</style>)\n- [BeforeAttack] If the highest Reson. was a Sloth A-Reson., <style=\"highlight\">inflict [Vibration] Count by [Vibration] Potency inflicted (max 5)</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di quella di quest'unità, infligge +(<style=\"highlight\">2.5</style> x (differenza Velocità))% danni (max <style=\"highlight\">20%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge 3 Potenza [Vibration] in base alla Rison. più alta (max <style=\"highlight\">5</style>)\n- [BeforeAttack] Se la Rison-A più alta era Accidia, <style=\"highlight\">infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max 5)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">5</style> [Vibration] and <style=\"highlight\">+5</style> [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Vibration] e <style=\"highlight\">+5</style> Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -351,26 +351,26 @@
           "level": 1,
           "name": "Lazo",
           "abName": "Rosa Cacciatrice",
-          "desc": "Coin Power +1 for every 7 [Burst] on target (max 2)",
+          "desc": "Potere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -380,26 +380,26 @@
           "level": 3,
           "name": "Lazo",
           "abName": "Rosa Cacciatrice",
-          "desc": "<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn\n[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight</style>",
+          "desc": "<style=\"highlight\">Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1</style>\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n<style=\"highlight\">[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n[BeforeAttack] A 4+ Rison. Gola o Lussuria, ottiene +1 Peso Attacco</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -409,26 +409,26 @@
           "level": 4,
           "name": "Lazo",
           "abName": "Rosa Cacciatrice",
-          "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n<style=\"highlight\">- If the said Reson. was a Gluttony Reson., Atk Weight +1</style>",
+          "desc": "Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n[BeforeAttack] A 4+ Rison. più alta, Peso Attacco +1\n<style=\"highlight\">- Se la Rison. era una Rison. Gola, Peso Attacco +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -443,26 +443,26 @@
           "level": 1,
           "name": "Lazo",
           "abName": "Rosa Cacciatrice",
-          "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 7 [Burst] on target (max 2)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Snare]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Snare]"
                 }
               ]
             }
@@ -472,29 +472,29 @@
           "level": 3,
           "name": "Lazo",
           "abName": "Rosa Cacciatrice",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1</style>\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n<style=\"highlight\">[BeforeAttack] Ottiene 2 [Agility] il turno successivo</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Snare]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Snare]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +2% damage for every [Burst] on target (max 30%)"
+                  "desc": "[OnSucceedAttack] Infligge +2% danni per ogni [Burst] sul bersaglio (max 30%)"
                 }
               ]
             }
@@ -504,29 +504,29 @@
           "level": 4,
           "name": "Lazo",
           "abName": "Rosa Cacciatrice",
-          "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n<style=\"highlight\">[EndSkill] If target is Staggered or defeated, gain 1 [ShamrockResultUp] next turn</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n<style=\"highlight\">[EndSkill] Se il bersaglio viene fatto Vacillare o viene sconfitto, ottiene 1 [ShamrockResultUp] il turno successivo</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Snare]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +2% damage for every [Burst] on target (max 60%)"
+                  "desc": "[OnSucceedAttack] Infligge +2% danni per ogni [Burst] sul bersaglio (max 60%)"
                 }
               ]
             }
@@ -541,7 +541,7 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Apply (highest Reson.) [Breath] Potency to all allies (max 4)\n- At 3+ Pride Reson., apply +1 [Breath] Count to the affected units, and apply 1 [ReleaseBreath] as well next turn",
+          "desc": "[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 4)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -563,19 +563,19 @@
           "level": 3,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Apply (highest Reson.) [Breath] Potency to all allies (max <style=\"highlight\">6</style>)\n- At 3+ Pride Reson., apply +1 [Breath] Count to the affected units, and apply 1 [ReleaseBreath] as well next turn",
+          "desc": "[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max <style=\"highlight\">6</style>)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain +1 [Breath] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 20%)</style>"
+                  "desc": "<style=\"highlight\">Infligge +(Potenza [Breath] + Conteggio [Breath])% danni con Colpo Critico (max 20%)</style>"
                 }
               ]
             }
@@ -585,19 +585,19 @@
           "level": 4,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Apply (highest Reson.) [Breath] Potency to all allies (max 6)\n- At 3+ Pride Reson., apply +1 [Breath] Count to the affected units, and apply 1 [ReleaseBreath] as well next turn<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Applica (highest Reson.) Potenza [Breath] a tutti gli alleati (max 6)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max <style=\"highlight\">40%</style>)"
+                  "desc": "Infligge +(Potenza [Breath] + Conteggio [Breath])% danni con Colpo Critico (max <style=\"highlight\">40%</style>)"
                 }
               ]
             }
@@ -612,7 +612,7 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At less than 20 [Breath] Potency, gain up to 20 [Breath] Potency and consume ([Breath] Potency gained x 2)% HP on self\n- Cannot be Staggered or defeated due to this effect\n[BeforeAttack] Apply (highest Reson.) [Breath] Potency to all allies (max 4)\n- At 3+ Pride Reson., apply +1 [Breath] Count to the affected units, and apply 1 [ReleaseBreath] and 1 [IndigoDamageUp] as well next turn",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath], ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può Vacillare o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 4)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -634,19 +634,19 @@
           "level": 3,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At less than 20 [Breath] Potency, gain up to 20 [Breath] Potency and consume ([Breath] Potency gained x 2)% HP on self\n- Cannot be Staggered or defeated due to this effect\n[BeforeAttack] Apply (highest Reson.) [Breath] Potency to all allies (max <style=\"highlight\">6</style>)\n- At 3+ Pride Reson., apply +1 [Breath] Count to the affected units, and apply 1 [ReleaseBreath] and 1 [IndigoDamageUp] as well next turn",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può Vacillare o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max <style=\"highlight\">6</style>)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain +1 [Breath] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 20%)</style>"
+                  "desc": "<style=\"highlight\">Infligge +(Potenza [Breath] + Conteggio [Breath])% danno su Colpo Critico (max 20%)</style>"
                 }
               ]
             }
@@ -656,7 +656,7 @@
           "level": 4,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At less than 20 [Breath] Potency, gain up to 20 [Breath] Potency and consume ([Breath] Potency gained x 2)% HP on self\n- Cannot be Staggered or defeated due to this effect\n[BeforeAttack] Apply (highest Reson.) [Breath] Potency to all allies (max 6)\n- At 3+ Pride Reson., apply +1 [Breath] Count to the affected units, and apply 1 [ReleaseBreath] and 1 [IndigoDamageUp] as well next turn<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può Vacillare o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 6)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
