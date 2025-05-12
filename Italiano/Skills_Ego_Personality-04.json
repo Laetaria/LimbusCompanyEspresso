@@ -71,10 +71,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Sinking"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] All allies gain +1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">E.G.O Resource Amp</color></link></u>."
+                  "desc": "[EndSkill] Applica a tutti gli alleati +1 [GainSinStockAdder]"
                 }
               ]
             }
@@ -84,15 +84,15 @@
           "level": 3,
           "name": "Soda",
           "abName": "Wellcheers",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Sinking"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] All allies gain +1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">E.G.O Resource Amp</color></link></u>."
+                  "desc": "[EndSkill] Applica a tutti gli alleati +1 <[GainSinStockAdder]"
                 }
               ]
             }
@@ -102,15 +102,15 @@
           "level": 4,
           "name": "Soda",
           "abName": "Wellcheers",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 Sinking"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] All allies gain +1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">E.G.O Resource Amp</color></link></u>., apply 1 Haste next turn"
+                  "desc": "[EndSkill] Applica a tutti gli alleati +1 [GainSinStockAdder] e 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -125,15 +125,15 @@
           "level": 1,
           "name": "Ossessione Cieca",
           "abName": "Corrente Torbida Divorasogni",
-          "desc": "[BeforeAttack] Gain 4 Poise",
+          "desc": "[BeforeAttack] Ottiene 4 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -143,15 +143,15 @@
           "level": 3,
           "name": "Ossessione Cieca",
           "abName": "Corrente Torbida Divorasogni",
-          "desc": "[BeforeAttack] Gain 4 Poise\n[EndSkill] Gain 2 Poise for every unit defeated by this Skill",
+          "desc": "[BeforeAttack] Ottiene 4 [Breath]\n[EndSkill] Ottiene 2 [Breath] per ogni unità sconfitta da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -161,15 +161,15 @@
           "level": 4,
           "name": "Ossessione Cieca",
           "abName": "Corrente Torbida Divorasogni",
-          "desc": "[BeforeAttack] Gain 4 Poise\n[EndSkill] Gain 2 Poise for every unit defeated by this Skill",
+          "desc": "[BeforeAttack] Ottiene 4 [Breath]\n[EndSkill] Ottiene 2 [Breath] per ogni unità sconfitta da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -184,12 +184,12 @@
           "level": 1,
           "name": "Ossessione Cieca",
           "abName": "Corrente Torbida Divorasogni",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 Poise. Consume 2 Charge Count to gain 1 Poise (Max 10)\n[EndSkill] Gain +4 Charge Count for every unit defeated by this Skill",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 4 [Breath]. Consuma 2 Conteggio [Charge] per ottenere 1 [Breath] (Max 10)\n[EndSkill] Ottiene +4 Conteggio [Charge] per ogni unità sconfitta da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -199,12 +199,12 @@
           "level": 3,
           "name": "Ossessione Cieca",
           "abName": "Corrente Torbida Divorasogni",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 Poise. Consume 2 Charge Count to gain 1 Poise (Max 10)\n[EndSkill] Gain +4 Charge Count for every unit defeated by this Skill",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 4 [Breath]. Consuma 2 Conteggio [Charge] per ottenere 1 [Breath] (Max 10)\n[EndSkill] Ottiene +4 Conteggio [Charge] per ogni unità sconfitta da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -214,15 +214,15 @@
           "level": 4,
           "name": "Ossessione Cieca",
           "abName": "Corrente Torbida Divorasogni",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 Poise. Consume 2 Charge Count to gain 1 Poise (Max 10)\n[EndSkill] Gain +4 Charge Count for every unit defeated by this Skill",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 4 [Breath]. Consuma 2 Conteggio [Charge] per ottenere 1 [Breath] (Max 10)\n[EndSkill] Ottiene +4 Conteggio [Charge] per ogni unità sconfitta da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] At 10+ [Breath], gain +30% Critical Damage"
+                  "desc": "[CriticalOnSucceedAttack] A 10+ [Breath], ottiene +30% Danno Critico"
                 }
               ]
             }
@@ -237,13 +237,13 @@
           "level": 1,
           "name": "Disprezzo, Timore",
           "abName": "Spirale del Disprezzo",
-          "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max 2)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] (max 7)\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Peso Attacco (max 2)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [GazePersonality] (max 7)\n[EndSkill] Per 2 turni, perde 10 PS a fine turno",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Evenly inflict 10 [Laceration] between all targets"
+                  "desc": "[EndSkill] Infligge 10 [Laceration] equamente tra tutti i bersagli"
                 }
               ]
             }
@@ -253,13 +253,13 @@
           "level": 3,
           "name": "Disprezzo, Timore",
           "abName": "Spirale del Disprezzo",
-          "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max <style=\"highlight\">4</style>)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] (max 7)\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Peso Attacco (max <style=\"highlight\">4</style>)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [GazePersonality] (max 7)\n[EndSkill] Per 2 turni, perde 10 PS a fine turno",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Evenly inflict <style=\"highlight\">15</style> [Laceration] between all targets"
+                  "desc": "[EndSkill] Infligge <style=\"highlight\">15</style> [Laceration] equamente tra tutti i bersagli"
                 }
               ]
             }
@@ -269,13 +269,13 @@
           "level": 4,
           "name": "Disprezzo, Timore",
           "abName": "Spirale del Disprezzo",
-          "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max <style=\"highlight\">6</style>)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] <style=\"highlight\">this turn and next turn</style> (max 7)\n<style=\"highlight\">[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills</style>\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Peso Attacco (max <style=\"highlight\">6</style>)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [GazePersonality] <style=\"highlight\">questo turno e quello successivo</style> (max 7)\n<style=\"highlight\">[EndSkill] Se quest'Abilità era parte di una Rison. Lussuria, ottiene 1 risorsa E.G.O corrispondente alle Affinità delle Abilità offensive di quest'unità</style>\n[EndSkill] Per 2 turni, perde 10 PS a fine turno",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Evenly inflict 15 [Laceration] between all targets<style=\"highlight\"></style>"
+                  "desc": "[EndSkill] Infligge [Laceration] equamente tra tutti i bersagli<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -290,18 +290,18 @@
           "level": 1,
           "name": "Disprezzo, Timore",
           "abName": "Spirale del Disprezzo",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 7 [GazePersonality]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 20%)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge +(somma di Potenza e Conteggio [Laceration] sul bersaglio)% danni (max 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict (1 + (highest Reson. x 1.5)) [Laceration] (max 10, rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge (1 + (Rison. più alta x 1.5)) [Laceration] (max 10, arrotondato per difetto)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] Count"
                 }
               ]
             }
@@ -311,18 +311,18 @@
           "level": 3,
           "name": "Disprezzo, Timore",
           "abName": "Spirale del Disprezzo",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 7 [GazePersonality]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max <style=\"highlight\">40%</style>)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge +(somma di Potenza e Conteggio [Laceration] sul bersaglio)% danni (max <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">(3 + (highest Reson. x 2))</style> [Laceration] (max <style=\"highlight\">15</style>, rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">(3 + (Rison. più alta x 2))</style> [Laceration] (max <style=\"highlight\">15</style>, arrotondato per difetto)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">3</style> [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Laceration]"
                 }
               ]
             }
@@ -332,18 +332,18 @@
           "level": 4,
           "name": "Disprezzo, Timore",
           "abName": "Spirale del Disprezzo",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]\n<style=\"highlight\">[EndSkill] If this Skill was a part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 7 [GazePersonality]\n<style=\"highlight\">[EndSkill] Se quest'Abilità era parte di una Rison. Lussuria, ottiene 1 risorsa E.G.O corrispondente alle Affinità delle Abilità offensive di quest'unità</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max <style=\"highlight\">60%</style>)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge +(somma di Potenza e Conteggio [Laceration] sul bersaglio)% danni (max <style=\"highlight\">60%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">(10 + (highest Reson. x 2.5))</style> [Laceration] (max <style=\"highlight\">25</style>, rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">(10 + (Rison. più alta x 2.5))</style> [Laceration] (max <style=\"highlight\">25</style>, arrotondato per difetto)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">5</style> [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">5</style> Conteggio [Laceration]"
                 }
               ]
             }
@@ -358,7 +358,7 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max 4)\n- At 15+ [Breath], gain Final Power +(highest Reson.) instead (max 4)\n[BeforeAttack] Gain (highest Reson. / 2) [Breath] Count (max 2)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 2)\n[TargetKill] Gain 1 [HoldingBreath] next turn (2 times per turn)",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max 4)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max 4)\n[BeforeAttack] Ottiene (Rison. più alta / 2) Conteggio [Breath] (max 2)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 2)\n[TargetKill] Gain 1 [HoldingBreath] next turn (2 times per turn)",
           "coinlist": [
             {},
             {
