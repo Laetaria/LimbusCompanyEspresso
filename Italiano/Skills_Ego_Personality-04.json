@@ -417,13 +417,13 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n\n[EndSkill] If target is defeated, gain 2 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 2 [Breath] and +2 [Breath] Count",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (una volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 2 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [HoldingBreath] (once per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (una volta per turno)"
                 }
               ]
             }
@@ -433,16 +433,16 @@
           "level": 3,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\nIf an ally is one of this Skill's targets, deal +30% damage\n\n[BeforeAttack] At less than 15 [Breath], consume 10% HP to gain 5 [Breath] and +5 [Breath] Count\n- Cannot be Staggered or defeated due to this effect\n<style=\"highlight\">- Gain 1 [Breath] for every ally targeted by this Skill (max 2)</style>\n\n[EndSkill] If target is defeated, gain 2 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain <style=\"highlight\">4</style> [Breath] and +2 [Breath] Count\n<style=\"highlight\">- Recover half of SP used by this Skill</style>",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n<style=\"highlight\">- Ottiene 1 [Breath] per ogni alleato bersagliato da quest'Abilità (max 2)</style>\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (una volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono <style=\"highlight\">4</style> [Breath] e +2 Conteggio [Breath] \n<style=\"highlight\">- Recupera metà dei PS usati da questa Abilità</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Deal +([Breath] Potency + Count)% damage on Critical Hit (max 20%)</style>"
+                  "desc": "<style=\"highlight\">Infligge +(Potenza + Conteggio [Breath])% danni su Colpo Critico (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [HoldingBreath] (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (una volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -452,16 +452,16 @@
           "level": 4,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\nIf an ally is one of this Skill's targets, deal +30% damage\n\n[BeforeAttack] At less than 15 [Breath], consume 10% HP to gain 5 [Breath] and +5 [Breath] Count\n- Cannot be Staggered or defeated due to this effect\n- Gain <style=\"highlight\">2</style> [Breath] for every ally targeted by this Skill (max <style=\"highlight\">4</style>)\n\n[EndSkill] If target is defeated, gain 3 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 4 [Breath] and +<style=\"highlight\">4</style> [Breath] Count\n<style=\"highlight\">- Recover SP used by this Skill and regain 1 of each E.G.O resources consumed</style>",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n- Ottiene <style=\"highlight\">2</style> [Breath] per ogni alleato bersagliato da quest'Abilità (max <style=\"highlight\">4</style>)\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 3 [HoldingBreath] il turno successivo (una volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 4 [Breath] e +<style=\"highlight\">4</style>Conteggio [Breath]\n<style=\"highlight\">- Recupera i PS ed 1 di ogni risorsa E.G.O usati da questa Abilità</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] Potency + Count)% damage on Critical Hit (max <style=\"highlight\">40%</style>)"
+                  "desc": "Infligge +(Potenza + Conteggio [Breath])% danni su Colpo Critico (max <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">7</style> [HoldingBreath] (once per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">7</style> [HoldingBreath] (una volta per turno)"
                 }
               ]
             }
