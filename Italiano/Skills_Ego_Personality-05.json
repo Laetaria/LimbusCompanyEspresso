@@ -7,15 +7,15 @@
           "level": 1,
           "name": "Rimpianto",
           "abName": "Assassino Dimenticato",
-          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
+          "desc": "[BeforeAttack] Rimuove 1 effetto negativo rimovibile applicato a sé",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]; Infligge un ulteriore (Rison-A Ira /3) Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -25,15 +25,15 @@
           "level": 3,
           "name": "Rimpianto",
           "abName": "Assassino Dimenticato",
-          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
+          "desc": "[BeforeAttack] Rimuove 1 effetto negativo rimovibile applicato a sé",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]; Infligge un ulteriore (Rison-A Ira /3) Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nSe il bersaglio non ha una Soglia di Vacillamento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (6 + 2x(Rison-A Ira))% di quanto è stata alzata la Soglia di Vacillamento"
                 }
               ]
             }
@@ -43,15 +43,15 @@
           "level": 4,
           "name": "Rimpianto",
           "abName": "Assassino Dimenticato",
-          "desc": "[BeforeAttack] Remove 2 random removable negative effects applied to self",
+          "desc": "[BeforeAttack] Rimuove 2 effetti negativi rimovibili applicato a sé",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]; Infligge un ulteriore (Rison-A Ira /3) Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised."
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nSe il bersaglio non ha una Soglia di Vacillamento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (12 + 3x(Rison-A Ira))% di quanto è stata alzata la Soglia di Vacillamento"
                 }
               ]
             }
@@ -66,12 +66,12 @@
           "level": 1,
           "name": "Rimpianto",
           "abName": "Assassino Dimenticato",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se quest'unità ha un effetto negativo su di sé, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst.\nAmount of Stagger Threshold raised by Tremor Burst increases by 30% of Tremor on target.\nReduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nLa quantità di Soglia di Vacillamento che aumenta in base a [VibrationExplosion] incrementa del 30% di [Vibration] sul bersaglio.\nRiduce Conteggio [Vibration] di 1"
                 },
                 {
                   "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn."
