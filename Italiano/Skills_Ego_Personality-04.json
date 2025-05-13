@@ -358,13 +358,13 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max 4)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max 4)\n[BeforeAttack] Ottiene (Rison. più alta / 2) Conteggio [Breath] (max 2)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 2)\n[TargetKill] Gain 1 [HoldingBreath] next turn (2 times per turn)",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max 4)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max 4)\n[BeforeAttack] Ottiene (Rison. più alta / 2) Conteggio [Breath] (max 2)\n- A 5+ Conteggio [Breath], ottiene invece Potere Moneta +(Rison. più alta / 2) (max 2)\n[TargetKill] Ottiene 1 [HoldingBreath] il turno successivo (2 volte per turno)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [HoldingBreath] (once per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (una volta per turno)"
                 }
               ]
             }
@@ -374,16 +374,16 @@
           "level": 3,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max <style=\"highlight\">6</style>)\n- At 15+ [Breath], gain Final Power +(highest Reson.) instead (max <style=\"highlight\">6</style>)\n[BeforeAttack] Gain (highest Reson. / 2) [Breath] Count (max 2)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 2)\n[TargetKill] Gain <style=\"highlight\">2</style> [HoldingBreath] next turn (<style=\"highlight\">4</style> times per turn)",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max <style=\"highlight\">6</style>)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max <style=\"highlight\">6</style>)\n[BeforeAttack] Ottiene (Rison. più alta / 2) Conteggio [Breath] (max 2)\n-  A 5+ Conteggio [Breath], ottiene invece Potere Moneta +(Rison. più alta / 2) (max 2)\n[TargetKill] Ottiene <style=\"highlight\">2</style> [HoldingBreath] il turno successivo (<style=\"highlight\">4</style> volte per turno)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Deal +([Breath] Potency + Count)% damage on Critical Hit (max 20%)</style>"
+                  "desc": "<style=\"highlight\">Infligge +(Potenza + Conteggio [Breath])% danni su Colpo Critico (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [HoldingBreath] (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (una volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -393,16 +393,16 @@
           "level": 4,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max 6)\n- At 15+ [Breath], gain Final Power +(highest Reson.) instead (max 6)\n[BeforeAttack] Gain (highest Reson. / 2) [Breath] Count (max <style=\"highlight\">3</style>)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max <style=\"highlight\">3</style>)\n[TargetKill] Gain 2 [HoldingBreath] next turn (<style=\"highlight\">6</style> times per turn)",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max 6)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max 6)\n[BeforeAttack] (Rison. più alta / 2) Conteggio [Breath] (max <style=\"highlight\">3</style>)\n- A 5+ Conteggio [Breath], ottiene invece Potere Moneta +(Rison. più alta / 2) (max <style=\"highlight\">3</style>)\n[TargetKill] Ottiene 2 [HoldingBreath] il turno successivo (<style=\"highlight\">6</style> volte per turno)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] Potency + Count)% damage on Critical Hit (max <style=\"highlight\">40%</style>)"
+                  "desc": "Infligge +(Potenza + Conteggio [Breath])% danni su Colpo Critico (max <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">4</style> [HoldingBreath] (once per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">4</style> [HoldingBreath] (una volta per turno)"
                 }
               ]
             }
@@ -417,7 +417,7 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\nIf an ally is one of this Skill's targets, deal +30% damage\n\n[BeforeAttack] At less than 15 [Breath], consume 10% HP to gain 5 [Breath] and +5 [Breath] Count\n- Cannot be Staggered or defeated due to this effect\n\n[EndSkill] If target is defeated, gain 2 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 2 [Breath] and +2 [Breath] Count",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n\n[EndSkill] If target is defeated, gain 2 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 2 [Breath] and +2 [Breath] Count",
           "coinlist": [
             {},
             {
