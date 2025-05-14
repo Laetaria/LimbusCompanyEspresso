@@ -84,7 +84,7 @@
           "level": 3,
           "name": "Rimpianto",
           "abName": "Assassino Dimenticato",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se quest'unità ha un effetto negativo su di sé, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -102,15 +102,15 @@
           "level": 4,
           "name": "Rimpianto",
           "abName": "Assassino Dimenticato",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +2",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se quest'unità ha un effetto negativo su di sé, Peso Attacco +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAmount of Stagger Threshold raised by Tremor Burst increases by 50% of Tremor on target.\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nLa quantità di Soglia di Vacillamento che aumenta in base a [VibrationExplosion] incrementa del 40% di [Vibration] sul bersaglio.\nSe il bersaglio non ha una Soglia di Vacillamento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (12 + 3x(Rison-A Ira))%di quanto è stata alzata la Soglia di Vacillamento\nRiduce Conteggio [Vibration] di 1"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn."
+                  "desc": "[EndSkill] Ottiene 3 [Binding] e 1 [HitResultUp] il turno successivo"
                 }
               ]
             }
@@ -125,7 +125,7 @@
           "level": 1,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[BeforeAttack] Gain +8 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 3)",
+          "desc": "[BeforeAttack] Ottiene +8 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad un altro alleato con il Conteggio [Charge] minore\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 3)",
           "coinlist": [
             {
               "coindescs": [
