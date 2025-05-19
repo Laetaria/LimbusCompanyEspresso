@@ -12,10 +12,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -25,18 +25,18 @@
           "level": 3,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[BeforeAttack] If main target has 50%+ HP, Atk Weight +1",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Tremor and +5 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +5 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -46,18 +46,18 @@
           "level": 4,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[BeforeAttack] If main target has 50%+ HP, Atk Weight +1;\nIf main target has 75%+ HP, additional Atk Weight +1",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Peso Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Peso Attacco addizionale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Tremor and +7 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +7 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -72,15 +72,15 @@
           "level": 1,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -90,18 +90,18 @@
           "level": 3,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If main target has 50%+ HP, Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 3 Defense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -111,18 +111,18 @@
           "level": 4,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If main target has 50%+ HP, Atk Weight +1;\nIf main target has 75%+ HP, additional Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Peso Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Peso Attacco addizionale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 5 Defense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
