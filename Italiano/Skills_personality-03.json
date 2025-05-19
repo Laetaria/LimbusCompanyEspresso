@@ -1043,14 +1043,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Enough is Enough",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 5 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
+          "name": "Basta Così",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -1058,14 +1058,14 @@
         },
         {
           "level": 2,
-          "name": "Enough is Enough",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 5 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "name": "Basta Così",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -1073,20 +1073,20 @@
         },
         {
           "level": 4,
-          "name": "Enough is Enough",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 5 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
+          "name": "Basta Così",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -1099,8 +1099,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let All Blossom Free",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[BeforeAttack] At 10+ [BloodArmorPersonalityFirst], Atk Weight +1",
+          "name": "Lasciali Fiorire",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[BeforeAttack] At 10+ [BloodArmorPersonalityFirst], Atk Weight +1",
           "coinlist": [
             {
               "coindescs": [
