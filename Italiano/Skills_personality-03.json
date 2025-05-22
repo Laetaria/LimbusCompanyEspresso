@@ -1100,22 +1100,22 @@
         {
           "level": 1,
           "name": "Lasciali Fiorire",
-          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[BeforeAttack] At 10+ [BloodArmorPersonalityFirst], Atk Weight +1",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every [Laceration] on target (max 25%)"
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
                 },
                 {
-                  "desc": "Deal +5% damage for every 100 [BloodDinner_Accumulation] by self (max 25%)"
+                  "desc": "Infligge +5% danni per ogni 100 [BloodDinner_Accumulation] su sé (max 25%)"
                 }
               ]
             }
@@ -1123,23 +1123,23 @@
         },
         {
           "level": 2,
-          "name": "Let All Blossom Free",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[BeforeAttack] <style=\"highlight\">Atk Weight +1 for every 10 [BloodArmorPersonalityFirst] on self (max 2)</style>",
+          "name": "Lasciali Fiorire",
+          "desc": "Su Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[BeforeAttack] <style=\"highlight\">Peso Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every [Laceration] on target (max 25%)"
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
                 },
                 {
-                  "desc": "Deal +<style=\"highlight\">10</style>% damage for every 100 [BloodDinner_Accumulation] by self (max <style=\"highlight\">50</style>%)"
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">50</style>%)"
                 }
               ]
             }
@@ -1147,23 +1147,23 @@
         },
         {
           "level": 4,
-          "name": "Let All Blossom Free",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[BeforeAttack] Atk Weight +1 for every 10 [BloodArmorPersonalityFirst] on self (max 2)",
+          "name": "Lasciali Fiorire",
+          "desc": "Su Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] Peso Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every [Laceration] on target (max 25%)"
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
                 },
                 {
-                  "desc": "Deal +<style=\"highlight\">15</style>% damage for every 100 [BloodDinner_Accumulation] by self (max <style=\"highlight\">75</style>%)"
+                  "desc": "Infligge +<style=\"highlight\">15</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">75</style>%)"
                 }
               ]
             }
@@ -1176,15 +1176,15 @@
       "levelList": [
         {
           "level": 3,
-          "name": "I Shall Impale",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 10)\n[WhenUse] Clash Power +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] If target has 10+ [Laceration], Coin Power +1\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +10% damage for every 100 [BloodDinner_Accumulation] by self (max 50%)\n[EndSkill] If target is defeated, increase [BloodDinner] by 30; gain 10 [BloodArmorPersonalityFirst] (once per turn)",
+          "name": "Impalerò",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitt ai PV (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\n[WhenUse] Infligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +10% danni per ogni 100 [BloodDinner_Accumulation] su sé (max 50%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 30; ottiene 10 [BloodArmorPersonalityFirst] (una volta per turno)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -1192,15 +1192,15 @@
         },
         {
           "level": 4,
-          "name": "I Shall Impale",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 10)\n[WhenUse] Clash Power +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Laceration] on target (max 2)</style>\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every 100 [BloodDinner_Accumulation] by self (max <style=\"highlight\">100</style>%)\n[EndSkill] If target is defeated, increase [BloodDinner] by <style=\"highlight\">60</style>; gain 10 [BloodArmorPersonalityFirst] (once per turn)",
+          "name": "Impalerò",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitt ai PV (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\n[WhenUse] Infligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +<style=\"highlight\">20</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">100</style>%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">60</style>; ottiene 10 [BloodArmorPersonalityFirst] (una volta per turno)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -1213,14 +1213,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Laughters Shall Subside",
-          "desc": "[DuelCounter]\n[StartBattle] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[StartBattle] To 1 ally with the least HP: apply 1 [SwirlingBloodPersonality] for every 50 [BloodDinner_Common_Accumulation] (max 10, once per turn)",
+          "name": "Le Risate Taceranno",
+          "desc": "[DuelCounter]\n[StartBattle] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner]\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\n[StartBattle] Ad 1 alleato con i PV minori: applica 1 [SwirlingBloodPersonality] per ogni 50 [BloodDinner_Common_Accumulation] (max 10, una volta per turno)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1228,14 +1228,14 @@
         },
         {
           "level": 4,
-          "name": "Laughters Shall Subside",
-          "desc": "[DuelCounter]\n[StartBattle] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[StartBattle] To 1 ally with the least HP: apply 1 [SwirlingBloodPersonality] for every 50 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">15</style>, once per turn)",
+          "name": "Le Risate Taceranno",
+          "desc": "[DuelCounter]\n[StartBattle] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner]\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\n[StartBattle] Ad 1 alleato con i PV minori: applica 1 [SwirlingBloodPersonality] per ogni 50 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">15</style>, una volta per turno)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1248,8 +1248,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Variant Sancho Hardblood Arts 6 - Whip",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Gain 20 [Laceration]\n[WhenUse] Inflict +1 more [Laceration] On Hit for every 10 [BloodArmorPersonalityFirst]. (max 2) After Attack, consume 10 [BloodArmorPersonalityFirst]",
+          "name": "Arte del Sangue Coagulato 6 - Frusta, Variante Sancho",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Su Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Dopo l'attacco, consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1264,7 +1264,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1274,7 +1274,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -1282,8 +1282,8 @@
         },
         {
           "level": 2,
-          "name": "Variant Sancho Hardblood Arts 6 - Whip",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain 20 [Laceration]\n[WhenUse] Inflict +1 more [Laceration] On Hit for every 10 [BloodArmorPersonalityFirst]. (max 2) After Attack, consume 10 [BloodArmorPersonalityFirst]",
+          "name": "Arte del Sangue Coagulato 6 - Frusta, Variante Sancho",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Su Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Dopo l'attacco, consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {},
             {
@@ -1292,7 +1292,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1302,7 +1302,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -1310,8 +1310,8 @@
         },
         {
           "level": 4,
-          "name": "Variant Sancho Hardblood Arts 6 - Whip",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[WhenUse] Gain 20 [Laceration]\n[WhenUse] Inflict +1 more [Laceration] On Hit for every 10 [BloodArmorPersonalityFirst]. (max 2) After Attack, consume 10 [BloodArmorPersonalityFirst]",
+          "name": "Arte del Sangue Coagulato 6 - Frusta, Variante Sancho",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Su Colpo per ogni 10 [BloodArmorPersonalityFirst]. (max 2) Dopo l'attacco, consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {},
             {
@@ -1320,7 +1320,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1330,10 +1330,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Activate [Laceration] on target once (target loses 1 [Laceration] Count)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])</style>"
                 }
               ]
             }
@@ -1346,20 +1346,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Variant Sancho Hardblood Arts 8 - Split Apart",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[BeforeAttack] At 10+ [BloodArmorPersonalityFirst], Atk Weight +1\n[EndSkill] If this Skill had an increased Atk Weight, consume 10 [BloodArmorPersonalityFirst]",
+          "name": "Arte del Sangue Coagulato 6 - Divisione, Variante Sancho",
+          "desc": "Su Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Peso Attacco +1\n[EndSkill] Se quest'Abilità ha aumentato il suo Peso Attacco, consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1369,10 +1369,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +2.5% damage for every [Laceration] on target (max 25%)"
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
                 },
                 {
-                  "desc": "Deal +5% damage for every 100 [BloodDinner_Common_Accumulation] (max 25%)"
+                  "desc": "Infligge +5% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 25%)"
                 }
               ]
             }
@@ -1380,20 +1380,20 @@
         },
         {
           "level": 2,
-          "name": "Variant Sancho Hardblood Arts 8 - Split Apart",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[BeforeAttack] <style=\"highlight\">Gain Atk Weight +1 for every 10 [BloodArmorPersonalityFirst] (max 2)</style>\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every Atk Weight gained",
+          "name": "Arte del Sangue Coagulato 6 - Divisione, Variante Sancho",
+          "desc": "Su Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] <style=\"highlight\">Ottiene Peso Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)</style>\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Peso Attacco ottenuto",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1403,10 +1403,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +2.5% damage for every [Laceration] on target (max 25%)"
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
                 },
                 {
-                  "desc": "Deal +<style=\"highlight\">10</style>% damage for every 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">50</style>%)"
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">50</style>%)"
                 }
               ]
             }
@@ -1414,20 +1414,20 @@
         },
         {
           "level": 4,
-          "name": "Variant Sancho Hardblood Arts 8 - Split Apart",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 10)\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[BeforeAttack] Gain Atk Weight +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every Atk Weight gained<style=\"highlight\"></style>",
+          "name": "Arte del Sangue Coagulato 6 - Divisione, Variante Sancho",
+          "desc": "Su Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Ottiene Peso Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Peso Attacco ottenuto<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1437,10 +1437,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +2.5% damage for every [Laceration] on target (max 25%)"
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
                 },
                 {
-                  "desc": "Deal +<style=\"highlight\">15</style>% damage for every 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">75</style>%)"
+                  "desc": "Infligge +<style=\"highlight\">15</style>% danni per ogni 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">75</style>%)"
                 }
               ]
             }
@@ -1453,8 +1453,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Ascendant Sancho Hardblood Arts - La Sangre",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Base Power +1 for every 10 [BloodArmorPersonalityFirst] on self (max 2)\n[WhenUse] If target has 10+ [Laceration], Coin Power +1\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every 10 [BloodArmorPersonalityFirst]\n[EndSkill] If target is defeated, increase [BloodDinner] by 50. Regain half of [BloodArmorPersonalityFirst] consumed by this Skill (once per turn)",
+          "name": "Tecnica Segreta del Sangue Coagulato di Sancho - La Sangre",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 50. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1483,10 +1483,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +4 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[EndSkill] If target is defeated, inflict 5 [Laceration] and +1 [Laceration] Count against all enemies"
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, infligge 5 [Laceration] e +1 Conteggio [Laceration] a tutti i nemici"
                 }
               ]
             }
@@ -1494,8 +1494,8 @@
         },
         {
           "level": 4,
-          "name": "Ascendant Sancho Hardblood Arts - La Sangre",
-          "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Base Power +1 for every 10 [BloodArmorPersonalityFirst] on self (max <style=\"highlight\">3</style>)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Laceration] on target (max 2)</style>\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every 10 [BloodArmorPersonalityFirst]\n[EndSkill] If target is defeated, increase [BloodDinner] by <style=\"highlight\">100</style>. Regain half of [BloodArmorPersonalityFirst] consumed by this Skill (once per turn)",
+          "name": "Tecnica Segreta del Sangue Coagulato di Sancho - La Sangre",
+          "desc": "Su Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max <style=\"highlight\">3</style>)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Infligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">100</style>. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1524,10 +1524,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">8</style> [Laceration] and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">8</style> [Laceration] e +4 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[EndSkill] If target is defeated, inflict 5 [Laceration] and +1 [Laceration] Count against all enemies"
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, infligge 5 [Laceration] e +1 Conteggio [Laceration] a tutti i nemici"
                 }
               ]
             }
@@ -1540,8 +1540,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
-          "desc": "[DuelCounter]\n[StartBattle] To (3 + (highest Reson. / 2)) allies with the least HP: apply (1 + ([BloodArmorPersonalityFirst] / 15)) [SwirlingBloodPersonality] for every 40 [BloodDinner_Common_Accumulation], then consume half of [BloodArmorPersonalityFirst] on self. (once per ally; rounded down)",
+          "name": "Arte del Sangue Coagulato 15 - Anticipazione del Finale, Variante Sancho",
+          "desc": "[DuelCounter]\n[StartBattle] A (3 + (Rison. più alta / 2)) alleati con i PV minori: applica (1 + ([BloodArmorPersonalityFirst] / 15)) [SwirlingBloodPersonality] per ogni 40 [BloodDinner_Common_Accumulation], poi consuma metà del [BloodArmorPersonalityFirst] su sé (una volta per alleato; arrotondato per difetto).",
           "coinlist": [
             {},
             {
@@ -1550,7 +1550,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1558,8 +1558,8 @@
         },
         {
           "level": 4,
-          "name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
-          "desc": "[DuelCounter]\n[StartBattle] To (3 + (highest Reson. / 2)) allies with the least HP: apply (1 + ([BloodArmorPersonalityFirst] / <style=\"highlight\">10</style>)) [SwirlingBloodPersonality] for every 40 [BloodDinner_Common_Accumulation], then consume half of [BloodArmorPersonalityFirst] on self. (once per ally; rounded down)",
+          "name": "Arte del Sangue Coagulato 15 - Anticipazione del Finale, Variante Sancho",
+          "desc": "[DuelCounter]\n[StartBattle] A (3 + (Rison. più alta / 2)) alleati con i PV minori: applica (1 + ([BloodArmorPersonalityFirst] / <style=\"highlight\">10</style>)) [SwirlingBloodPersonality] per ogni 40 [BloodDinner_Common_Accumulation], poi consuma metà del [BloodArmorPersonalityFirst] su sé (una volta per alleato; arrotondato per difetto).",
           "coinlist": [
             {},
             {
@@ -1568,7 +1568,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
