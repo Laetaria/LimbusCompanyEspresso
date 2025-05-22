@@ -248,7 +248,7 @@
         {
           "level": 1,
           "name": "Mircalla Bramante",
-          "abName": "Quattrcento Rose",
+          "abName": "Quattrocento Rose",
           "desc": "I PV di questa unità non scendono al di sotto di 1 quando si usa quest'abilità.\nPotere di Scontro +1 per ogni 100 [BloodDinner_Accumulation] da quest'unità (max 2)\n[BeforeAttack] A meno di 50 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[EndSkill] Per 3 Turni, perde 10 PS a fine turno.",
           "coinlist": [
             {
@@ -299,7 +299,7 @@
         {
           "level": 3,
           "name": "Mircalla Bramante",
-          "abName": "Quattrcento Rose",
+          "abName": "Quattrocento Rose",
           "desc": "I PV di questa unità non scendono al di sotto di 1 quando si usa quest'abilità.\n<style=\"highlight\">Se il bersaglio ha 10+ [Laceration], Potere Moneta +1</style>\nPotere di Scontro +1 per ogni 100 [BloodDinner_Accumulation] da quest'unità (max <style=\"highlight\">3</style>)\n[BeforeAttack] A meno di <style=\"highlight\">75</style> [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[EndSkill] Per 3 Turni, perde 10 PS a fine turno.",
           "coinlist": [
             {
@@ -350,7 +350,7 @@
         {
           "level": 4,
           "name": "Mircalla Bramante",
-          "abName": "Quattrcento Rose",
+          "abName": "Quattrocento Rose",
           "desc": "I PV di questa unità non scendono al di sotto di 1 quando si usa quest'abilità.\n<style=\"highlight\">Potere Moneta +1 per ogni 10 [Laceration] sul bersaglio (max 2)</style>\nPotere di Scontro +1 per ogni 100 [BloodDinner_Accumulation] da quest'unità (max <style=\"highlight\">5</style>)\n[BeforeAttack] A meno di <style=\"highlight\">100</style> [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[EndSkill] Per 3 Turni, perde 10 PS a fine turno.",
           "coinlist": [
             {
@@ -406,7 +406,7 @@
         {
           "level": 1,
           "name": "Mircalla Bramante",
-          "abName": "Quattrcento Rose",
+          "abName": "Quattrocento Rose",
           "desc": "[CantIdentify]\nBersaglia Casualmente\nI PV di questa unità non scendono al di sotto di 1 quando si usa quest'abilità.\nSe il bersaglio ha 10+ [Laceration], Potere Moneta -1\n[BeforeAttack] A meno di 150 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[BeforeAttack] Ottiene 20 [Laceration], ed attiva [Laceration] su sé immediatamente. Perde 2 Conteggio [Laceration]",
           "coinlist": [
             {
@@ -437,7 +437,7 @@
         {
           "level": 3,
           "name": "Mircalla Bramante",
-          "abName": "Quattrcento Rose",
+          "abName": "Quattrocento Rose",
           "desc": "[CantIdentify]\nBersaglia casualmente\nI PV di questa unità non scendono al di sotto di 1 quando si usa quest'abilità.\nSe il bersaglio ha 10+ [Laceration], Potere Moneta -1\n<style=\"highlight\">A 200+ [BloodDinner_Accumulation] da quest'unità, Potere Moneta -1</style>\n[BeforeAttack] A meno di 150 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[BeforeAttack] Ottiene 20 [Laceration], ed attiva [Laceration] su sé immediatamente. Perde 2 Conteggio [Laceration]",
           "coinlist": [
             {
@@ -468,7 +468,7 @@
         {
           "level": 4,
           "name": "Mircalla Bramante",
-          "abName": "Quattrcento Rose",
+          "abName": "Quattrocento Rose",
           "desc": "[CantIdentify]\nBersaglia casualmente\nI PV di questa unità non scendono al di sotto di 1 quando si usa quest'abilità.\nSe il bersaglio ha 10+ [Laceration], Potere Moneta -1\nA 200+ [BloodDinner_Accumulation] da quest'unità, Potere Moneta -1\n[BeforeAttack] A meno di 150 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[BeforeAttack] Ottiene 20 [Laceration], ed attiva [Laceration] su sé immediatamente. Perde 2 [Laceration] Count<style=\"highlight\"></style>",
           "coinlist": [
             {
@@ -491,6 +491,181 @@
                 },
                 {
                   "desc": "[WinDuelAttack] Si cura del 50% dei danni inflitti ai PV (max 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+     },
+    {
+      "id": 2030811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Red Sheet",
+          "abName": "So That No One Will Cry",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Red Sheet",
+          "abName": "So That No One Will Cry",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Deal +3% damage for every [EntangledCurseTalisman] on target (max 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Red Sheet",
+          "abName": "So That No One Will Cry",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +<style=\"highlight\">5</style>% damage for every [EntangledCurseTalisman] on target (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max <style=\"highlight\">4</style>, rounded down)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Red Sheet",
+          "abName": "So That No One Will Cry",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +5% damage for every [EntangledCurseTalisman] on target (max 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Red Sheet",
+          "abName": "So That No One Will Cry",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +<style=\"highlight\">10</style>% damage for every [EntangledCurseTalisman] on target (max <style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Red Sheet",
+          "abName": "So That No One Will Cry",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +10% damage for every [EntangledCurseTalisman] on target (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max <style=\"highlight\">4</style>, rounded down)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
                 }
               ]
             }
