@@ -12,10 +12,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 allies with the lowest HP Percentages by 10% of Max HP."
+                  "desc": "[OnSucceedAttack] Cura 2 alleati con la percentuale di PV minori del 10% dei PV max di quest'unità."
                 }
               ]
             }
@@ -25,15 +25,15 @@
           "level": 3,
           "name": "Lanterna",
           "abName": "Lanterna Fatata",
-          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "desc": "[BeforeAttack] A 50%- PV, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 allies with the lowest HP by 12% of Max HP."
+                  "desc": "[OnSucceedAttack] Cura 2 alleati con la percentuale di PV minori del 12% dei PV max di quest'unità."
                 }
               ]
             }
@@ -43,15 +43,15 @@
           "level": 4,
           "name": "Lanterna",
           "abName": "Lanterna Fatata",
-          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "desc": "[BeforeAttack] A 50%- PV, Peso Attacco +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] Infligge 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 allies with the lowest HP by 15% of Max HP."
+                  "desc": "[OnSucceedAttack] Cura 2 alleati con la percentuale di PV minori del 15% dei PV max di quest'unità."
                 }
               ]
             }
@@ -66,15 +66,15 @@
           "level": 1,
           "name": "Lanterna",
           "abName": "Lanterna Fatata",
-          "desc": "[CantIdentify] \nTarget the unit with the most HP",
+          "desc": "[CantIdentify] \nBersaglia l'unità con i PV maggiori",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
                 }
               ]
             }
@@ -84,18 +84,18 @@
           "level": 3,
           "name": "Lanterna",
           "abName": "Lanterna Fatata",
-          "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n[BeforeAttack] A 50%- PV, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttackTail] Infligge +3 Conteggio Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 3 Defense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 50% del danno inflitto"
                 }
               ]
             }
@@ -105,18 +105,18 @@
           "level": 4,
           "name": "Lanterna",
           "abName": "Lanterna Fatata",
-          "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n[BeforeAttack] A 50%- PV, Peso Attacco +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 5 Defense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 50% del danno inflitto"
                 }
               ]
             }
@@ -136,10 +136,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no [Combustion], inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 }
               ]
             }
@@ -149,15 +149,15 @@
           "level": 3,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1",
+          "desc": "[BeforeAttack] A 4+ (Rison. Lussuria), Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no [Combustion], inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 }
               ]
             }
@@ -167,18 +167,18 @@
           "level": 4,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1\n[BeforeAttack] At 4+ (Highest Lust A-Reson.), additional Atk Weight +1",
+          "desc": "[BeforeAttack] A 4+ (Rison. Lussuria), Peso Attacco +1\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Peso Attacco aggiuntivo +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no [Combustion], inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 10+ [Combustion], inflict 1 Attack Power Down and 1 Defense Power Down next turn"
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 10+ [Combustion], infligge 1 Attack Power Down e 1 Defense Power Down il turno successivo"
                 }
               ]
             }
@@ -193,15 +193,15 @@
           "level": 1,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no [Combustion], inflict 6 Burn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 6 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 }
               ]
             }
@@ -211,18 +211,18 @@
           "level": 3,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison. Lussuria), Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no [Combustion], inflict 6 Burn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 6 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 10+ [Combustion], inflict 1 Lust Fragility next turn"
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 10+ [Combustion], infligge 1 Lust Fragility il turno successivo"
                 }
               ]
             }
@@ -232,18 +232,18 @@
           "level": 4,
           "name": "9:2",
           "abName": "Profeta della Pelle",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1\n[BeforeAttack] At 4+ (Highest Lust A-Reson), additional Atk Weight +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison. Lussuria), Peso Attacco +1\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Peso Attacco aggiuntivo +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no [Combustion], inflict 6 Burn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 6 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 10+ [Combustion], inflict 2 Lust Fragility next turn"
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 10+ [Combustion], infligge 2 Lust Fragility il turno successivo"
                 }
               ]
             }
@@ -258,21 +258,21 @@
           "level": 1,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[BeforeAttack] At 4+ highest Reson., Atk Weight +1",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Apply 10% of this unit's max HP as Shield to self and 1 other ally with the least current HP, and apply 2 [ShieldManagerCryingToad] as well"
+                  "desc": "[EndSkill] Applica uno Scudo pari al 10% dei PV max di quest'unità a sé e ad 1 altro alleato con i PV più bassi. Applica, inoltre, 2 [ShieldManagerCryingToad]"
                 },
                 {
-                  "desc": "- At 4+ highest Reson., apply it to 1 more ally"
+                  "desc": "- A 4+ Rison. più alta, applica lo Scudo ad 1 alleato in più"
                 },
                 {
-                  "desc": "- If the affected unit already has [ShieldManagerCryingToad], change the [ShieldManagerCryingToad] value to 2"
+                  "desc": "- Se l'unità che riceve lo Scudo ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 [ShieldManagerCryingToad]' and 'change the [ShieldManagerCryingToad] value to 3' instead."
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'."
                 }
               ]
             }
@@ -282,18 +282,18 @@
           "level": 3,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "<style=\"highlight\">[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta - 2) Peso Attacco (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Apply <style=\"highlight\">14%</style> of this unit's max HP as Shield to self and <style=\"highlight\">(1 + (highest Reson. - 2))</style> allies with the least current HP, and apply 2 [ShieldManagerCryingToad] as well\n<style=\"highlight\">(max # of other allies that gain [ShieldManagerCryingToad]: 3)</style>"
+                  "desc": "[EndSkill] Applica uno Scudo pari al <style=\"highlight\">14%</style> dei PV max di quest'unità a sé ed a <style=\"highlight\">(1 + (Rison. più alta - 2))</style> alleati con i PV più bassi. Applica, inoltre, 2 [ShieldManagerCryingToad]\n<style=\"highlight\">(max # di alleati che ottiene [ShieldManagerCryingToad]: 3).</style>"
                 },
                 {
-                  "desc": "- If the affected unit already has [ShieldManagerCryingToad], change the [ShieldManagerCryingToad] value to 2<style=\"highlight\"></style>"
+                  "desc": "- Se l'unità che riceve lo Scudo ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 [ShieldManagerCryingToad]' and 'change the [ShieldManagerCryingToad] value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -303,18 +303,18 @@
           "level": 4,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta - 2) Peso Attacco (max 2)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Apply <style=\"highlight\">20%</style> of this unit's max HP as Shield to self and (1 + (highest Reson. - 2)) allies with the least current HP, and apply 2 [ShieldManagerCryingToad] as well\n(max # of other allies that gain [ShieldManagerCryingToad]: 3)"
+                  "desc": "[EndSkill] Applica uno Scudo pari al <style=\"highlight\">20%</style> dei PV max di quest'unità a sé ed a (1 + (Rison. più alta - 2)) alleati con i PV più bassi. Applica, inoltre, 2 [ShieldManagerCryingToad]\n(max # di alleati che ottiene [ShieldManagerCryingToad]: 3)"
                 },
                 {
-                  "desc": "- If the affected unit already has [ShieldManagerCryingToad], change the [ShieldManagerCryingToad] value to 2<style=\"highlight\"></style>"
+                  "desc": "- Se l'unità che riceve lo Scudo ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 [ShieldManagerCryingToad]' and 'change the [ShieldManagerCryingToad] value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -329,21 +329,21 @@
           "level": 1,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] Gain +5 [Aggro] to this Skill Slot next turn",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, Peso Attacco +1\n[BeforeAttack] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Gain (15 + 2.5(highest Reson.))% of this unit's max HP as Shield to self and gain 2 [ShieldManagerCryingToad]. (max 25%)"
+                  "desc": "[EndSkill] Ottiene uno Scudo pari al (15 + 2.5(Rison. più alta))% dei PV max di quest'unità e 2 [ShieldManagerCryingToad]. (max 25%)"
                 },
                 {
-                  "desc": "- If this unit already has [ShieldManagerCryingToad], change the [ShieldManagerCryingToad] value to 2"
+                  "desc": "- Se quest'unità ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'gain 3 [ShieldManagerCryingToad]' and 'change the [ShieldManagerCryingToad] value to 3' instead."
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'."
                 }
               ]
             }
@@ -353,21 +353,21 @@
           "level": 3,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[CantIdentify]\nTargets Randomly\n<style=\"highlight\">[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)</style>\n[BeforeAttack] Gain <style=\"highlight\">+10 [Aggro]</style> to this Skill Slot next turn",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta - 2) Peso Attacco (max 2)</style>\n[BeforeAttack] Ottiene <style=\"highlight\">+10 [Aggro]</style> su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] Gain (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>(highest Reson.))% of this unit's max HP as Shield to self and gain 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">30%</style>)"
+                  "desc": "[EndSkill] Ottiene uno Scudo pari al (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>(Rison. più alta))% dei PV max di quest'unità e 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "- If this unit already has [ShieldManagerCryingToad], change the [ShieldManagerCryingToad] value to 2<style=\"highlight\"></style>"
+                  "desc": "- Se quest'unità ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 [ShieldManagerCryingToad]' and 'change the [ShieldManagerCryingToad] value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -377,24 +377,24 @@
           "level": 4,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)\n[BeforeAttack] Gain +10 [Aggro] to this Skill Slot next turn<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nBersaglia casualmene\n[BeforeAttack] Ottiene (Rison. più alta - 2) Peso Attacco (max 2)\n[BeforeAttack] Ottiene +10 [Aggro] su questo Slot Abilità il turno successivo<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and <style=\"highlight\">+3 [Sinking] Count</style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e <style=\"highlight\">+3 Conteggio [Sinking]</style>"
                 },
                 {
-                  "desc": "[EndSkill] Gain (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>(highest Reson.))% of this unit's max HP as Shield to self and gain 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">40%</style>)"
+                  "desc": "[EndSkill] Ottiene uno Scudo pari al (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>(Rison. più alta))% dei PV max di quest'unità e 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "- If this unit already has [ShieldManagerCryingToad], change the [ShieldManagerCryingToad] value to 2<style=\"highlight\"></style>"
+                  "desc": "- Se quest'unità ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 [ShieldManagerCryingToad]' and 'change the [ShieldManagerCryingToad] value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">- At 4+ Gloom Reson., gain additional Shield equal to 10% of this unit's max HP</style>"
+                  "desc": "<style=\"highlight\">- A 4+ Rison. Tristezza, ottiene un'ulteriore Scudo pari al 10% dei PV max di quest'unità</style>"
                 }
               ]
             }
@@ -409,22 +409,22 @@
           "level": 1,
           "name": "Chiodo Stregato",
           "abName": "Orsacchiotto Sofferente",
-          "desc": "[EndSkill] If target has [Curse], immediately activate it twice and reduce it by 2",
+          "desc": "[EndSkill] Se il bersaglio ha [Curse], attiva l'effetto immediatamento e lo riduce di 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Curse]\n- Inflict 1 additional [Curse] for every 3 negative effect on target that aren't [Curse] or [NailPersonality] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]\n- Infligge 1 [Curse] in più per ogni 3 effetti negativi sul bersaglio che non sono [Curse] o [NailPersonality] (max 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NailPersonality]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NailPersonality]"
                 }
               ]
             }
