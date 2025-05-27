@@ -12,13 +12,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 2 allies with the least SP"
+                  "desc": "[EndSkill] Applica 1 [AttackDmgUp] all'Affinità con la Risonanza più alta a 2 alleati con i PS minori"
                 },
                 {
-                  "desc": "[EndSkill] Heal 20 SP for 2 allies with the least SP"
+                  "desc": "[EndSkill] Cura 20 PS a 2 alleati con i PS minori"
                 }
               ]
             }
@@ -33,13 +33,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 3 allies with the least SP"
+                  "desc": "[EndSkill] Applica 1 [AttackDmgUp] all'Affinità con la Risonanza più alta a 3 alleati con i PS minori"
                 },
                 {
-                  "desc": "[EndSkill] Heal 20 SP for 3 allies with the least SP"
+                  "desc": "[EndSkill]  Cura 20 PS a 3 alleati con i PS minori"
                 }
               ]
             }
@@ -54,13 +54,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 4 allies with the least SP"
+                  "desc": "[EndSkill] Applica 1 [AttackDmgUp] all'Affinità con la Risonanza più alta a 4 alleati con i PS minori"
                 },
                 {
-                  "desc": "[EndSkill] Heal 20 SP for 4 allies with the least SP"
+                  "desc": "[EndSkill] Cura 20 PS a 4 alleati con i PS minori"
                 }
               ]
             }
@@ -75,18 +75,18 @@
           "level": 1,
           "name": "Festività",
           "abName": "Sandolph",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] This unit loses 10% HP",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Quest'unità perde il 10% dei suoi PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 10 SP"
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 1 Fragility to the Affinity with the highest Resonance count"
+                  "desc": "[OnSucceedAttackTail] Infligge 1 Intensifica all'Affinità con la Risonanza più alta"
                 }
               ]
             }
@@ -96,21 +96,21 @@
           "level": 3,
           "name": "Festività",
           "abName": "Sandolph",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] This unit loses 10% HP",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Quest'unità perde il 10% dei suoi PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 10 SP"
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 Fragility for the Affinity with the highest Resonance count"
+                  "desc": "[OnSucceedAttackTail] Infligge 2 Intensifica all'Affinità con la Risonanza più alta"
                 },
                 {
-                  "desc": "[EndSkillTail] Gain 1 'Damage Up' to the Affinity with the highest Resonance count"
+                  "desc": "[EndSkillTail] Ottiene 1 Danno Aumentato sull'Affinità con la Risonanza più alta"
                 }
               ]
             }
@@ -120,21 +120,21 @@
           "level": 4,
           "name": "Festività",
           "abName": "Sandolph",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] This unit loses 10% HP",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Quest'unità perde il 10% dei suoi PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 10 SP"
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Fragility for the Affinity with the highest Resonance count"
+                  "desc": "[OnSucceedAttack] Infligge 2 Intensifica all'Affinità con la Risonanza più alta"
                 },
                 {
-                  "desc": "[EndSkillTail] Gain 1 'Damage Up' to the Affinity with the highest Resonance count"
+                  "desc": "[EndSkillTail] Ottiene 1 Danno Aumentato sull'Affinità con la Risonanza più alta"
                 }
               ]
             }
@@ -149,18 +149,18 @@
           "level": 1,
           "name": "Vincoli",
           "abName": "Il Re Legato",
-          "desc": "[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Peso Attacco (max 2)\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -170,18 +170,18 @@
           "level": 3,
           "name": "Vincoli",
           "abName": "Il Re Legato",
-          "desc": "[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50%\n[EndSkill] For 3 turns, lose 9 SP at Turn End",
+          "desc": "[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Peso Attacco (max 2)\nLa Soglia di Vacillamente aumentata da [VibrationExplosion] incrementa del 50%\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -191,18 +191,18 @@
           "level": 4,
           "name": "Vincoli",
           "abName": "Il Re Legato",
-          "desc": "[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 100%\n[EndSkill] For 3 turns, lose 8 SP at Turn End",
+          "desc": "[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Peso Attacco (max 2)\nLa Soglia di Vacillamente aumentata da [VibrationExplosion] incrementa del 100%\n[EndSkill] Per 3 turni, perde 10 PS a fine turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -217,21 +217,21 @@
           "level": 1,
           "name": "Vincoli",
           "abName": "Il Re Legato",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Peso Attacco (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -241,24 +241,24 @@
           "level": 3,
           "name": "Vincoli",
           "abName": "Il Re Legato",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50%",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Peso Attacco (max 2)\nLa Soglia di Vacillamente aumentata da [VibrationExplosion] incrementa del 50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -268,27 +268,27 @@
           "level": 4,
           "name": "Vincoli",
           "abName": "Il Re Legato",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50%",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Peso Attacco (max 2)\nLa Soglia di Vacillamente aumentata da [VibrationExplosion] incrementa del 50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] into [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Trigger [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -303,18 +303,18 @@
           "level": 1,
           "name": "Squartatore Dimensionale",
           "abName": "Passeggero Disperso",
-          "desc": "[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than 10 [Charge] Count, consume 15% HP to gain +10 [Charge] Count (this damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max 10%)",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n[BeforeAttack] A meno di 10 Conteggio [Charge], consuma il 15% dei PV per ottenere +10 Conteggio [Charge] (questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +1% danni per ogni Conteggio [Charge] consumato (max 10%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 1)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 1)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 1 of each per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max 1 di ciascuno, per Abilità)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain +2 [Charge] Count"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -324,18 +324,18 @@
           "level": 3,
           "name": "Squartatore Dimensionale",
           "abName": "Passeggero Disperso",
-          "desc": "[BeforeAttack] At <style=\"highlight\">3</style>+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than 10 [Charge] Count, consume 15% HP to gain +10 [Charge] Count (this damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max <style=\"highlight\">20</style>%)",
+          "desc": "[BeforeAttack] A <style=\"highlight\">3</style>+ Rison. più alta, ottiene +1 Peso Attacco\n[BeforeAttack] A meno di 10 Conteggio [Charge], consuma il 15% dei PV per ottenere +10 Conteggio [Charge] (questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +1% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">20</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max <style=\"highlight\">2</style>)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max <style=\"highlight\">2</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max <style=\"highlight\">2</style> of each per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max <style=\"highlight\">2</style> di ciascuno, per Abilità)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -345,18 +345,18 @@
           "level": 4,
           "name": "Squartatore Dimensionale",
           "abName": "Passeggero Disperso",
-          "desc": "[BeforeAttack] Gain <style=\"highlight\">(highest Reson. - 2)</style> Atk Weight <style=\"highlight\">(max 2)</style>\n[BeforeAttack] At less than 10 [Charge] Count, consume <style=\"highlight\">10</style>% HP to gain +10 [Charge] Count (this damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max <style=\"highlight\">30</style>%)",
+          "desc": "[BeforeAttack] Ottiene <style=\"highlight\">(Rison. più alta - 2)</style> Peso Attacco <style=\"highlight\">(max 2)</style>\n[BeforeAttack] A meno di 10 Conteggio [Charge], consuma il <style=\"highlight\">10</style>% dei PV per ottenere +10 Conteggio [Charge] (questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +1% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">30</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 2)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max <style=\"highlight\">3</style> of each per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max <style=\"highlight\">3</style> di ciascuno, per Abilità)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -371,18 +371,18 @@
           "level": 1,
           "name": "Squartatore Dimensionale",
           "abName": "Passeggero Disperso",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than maximum [Charge] Count, consume (missing [Charge] Count x 1.5)% HP to gain up to max [Charge] Count (max [Charge] Count obtainable from this effect: 30. This damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +2% damage for every [Charge] Count consumed (max 20%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n[BeforeAttack] A meno del Conteggio massimo di [Charge], consuma il (Conteggio [Charge] mancante x 1.5)% dei PV per ottenere il Conteggio [Charge] massimo (max Conteggio [Charge] ottenibile da quest'effetto: 30. Questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +2% danni per ogni Conteggio [Charge] consumato (max 20%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 2 of each per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max 2 di ciascuno, per Abilità)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain +2 [Charge] Count"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -392,18 +392,18 @@
           "level": 3,
           "name": "Squartatore Dimensionale",
           "abName": "Passeggero Disperso",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than maximum [Charge] Count, consume (missing [Charge] Count x <style=\"highlight\">1.2</style>)% HP to gain up to max [Charge] Count (max [Charge] Count obtainable from this effect: 30. This damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +2% damage for every [Charge] Count consumed (max <style=\"highlight\">40</style>%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n[BeforeAttack] A meno del Conteggio massimo di [Charge], consuma il (Conteggio [Charge] mancante <style=\"highlight\">1.2</style>)% dei PV per ottenere il Conteggio [Charge] massimo (max Conteggio [Charge] ottenibile da quest'effetto: 30. Questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +2% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">40</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 2)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 2 of each per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max 2 di ciascuno, per Abilità)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -413,18 +413,18 @@
           "level": 4,
           "name": "Squartatore Dimensionale",
           "abName": "Passeggero Disperso",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain <style=\"highlight\">(highest Reson. - 2)</style> Atk Weight <style=\"highlight\">(max 2)</style>\n[BeforeAttack] At less than maximum [Charge] Count, consume <style=\"highlight\">(missing [Charge] Count)%</style> HP to gain up to max [Charge] Count (max [Charge] Count obtainable from this effect: 30. This damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +2% damage for every [Charge] Count consumed (max <style=\"highlight\">60</style>%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] ottiene <style=\"highlight\">(Rison. più alta - 2)</style> Peso Attacco <style=\"highlight\">(max 2)</style>\n[BeforeAttack] A meno del Conteggio massimo di [Charge], consuma il <style=\"highlight\">(Conteggio [Charge] mancante)%</style> dei PV per ottenere il Conteggio [Charge] massimo (max Conteggio [Charge] ottenibile da quest'effetto: 30. Questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +2% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">60</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max <style=\"highlight\">3</style> of each per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max <style=\"highlight\">3</style> di ciascuno, per Abilità)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -439,15 +439,15 @@
           "level": 1,
           "name": "Pallottola Magica",
           "abName": "Der Freischütz",
-          "desc": "Deal +1% damage for every 3 [Combustion] on target (max 10%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict 2 [DarkFlame] against all enemies with [Combustion]",
+          "desc": "Infligge +1% danni per ogni 3 [Combustion] sul bersaglio (max 10%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge 2 [DarkFlame] a tutti i nemici con [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to [FreischutzShotCount]"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] (once per turn for each unit)"
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (una volta per turno per ogni unità)"
                 }
               ]
             }
@@ -457,15 +457,15 @@
           "level": 3,
           "name": "Pallottola Magica",
           "abName": "Der Freischütz",
-          "desc": "Deal +<style=\"highlight\">2</style>% damage for every 3 [Combustion] on target (max <style=\"highlight\">20</style>%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict <style=\"highlight\">3</style> [DarkFlame] against all enemies with [Combustion]",
+          "desc": "Infligge +<style=\"highlight\">2</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">20</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">3</style> [DarkFlame] a tutti i nemici con [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to [FreischutzShotCount]"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] (once per turn for each unit)"
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (una volta per turno per ogni unità)"
                 }
               ]
             }
@@ -475,15 +475,15 @@
           "level": 4,
           "name": "Pallottola Magica",
           "abName": "Der Freischütz",
-          "desc": "Deal +<style=\"highlight\">3</style>% damage for every 3 [Combustion] on target (max <style=\"highlight\">30</style>%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict <style=\"highlight\">4</style> [DarkFlame] against all enemies with [Combustion]",
+          "desc": "Infligge +<style=\"highlight\">3</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">30</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">4</style> [DarkFlame] a tutti i nemici con [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to [FreischutzShotCount]"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] (once per turn for each unit)"
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (una volta per turno per ogni unità)"
                 }
               ]
             }
@@ -498,15 +498,15 @@
           "level": 1,
           "name": "Pallottola Magica",
           "abName": "Der Freischütz",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +1% damage for every 3 [Combustion] on target (max 10%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict 3 [DarkFlame] against all enemies with [Combustion]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +1% danni per ogni 3 [Combustion] sul bersaglio (max 10%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge 3 [DarkFlame] a tutti i nemici con [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to [FreischutzShotCount]"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] (once per turn for each unit)"
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (una volta per turno per ogni unità)"
                 }
               ]
             }
@@ -516,18 +516,18 @@
           "level": 3,
           "name": "Pallottola Magica",
           "abName": "Der Freischütz",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +<style=\"highlight\">2</style>% damage for every 3 [Combustion] on target (max <style=\"highlight\">20</style>%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict <style=\"highlight\">5</style> [DarkFlame] against all enemies with [Combustion]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +<style=\"highlight\">2</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">20</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">5</style> [DarkFlame] a tutti i nemici con [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to [FreischutzShotCount]"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +([FreischutzShotCount] / 3) [Combustion] Count (rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge +([FreischutzShotCount] / 3) Conteggio [Combustion] (arrotondato per difetto)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] (once per turn for each unit)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (una volta per turno per ogni unità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -537,18 +537,18 @@
           "level": 4,
           "name": "Pallottola Magica",
           "abName": "Der Freischütz",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +<style=\"highlight\">3</style>% damage for every 3 [Combustion] on target (max <style=\"highlight\">30</style>%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict <style=\"highlight\">7</style> [DarkFlame] against all enemies with [Combustion]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInflige +<style=\"highlight\">3</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">30</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">7</style> [DarkFlame] a tutti i nemici con [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to [FreischutzShotCount]"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +([FreischutzShotCount] / <style=\"highlight\">2</style>) [Combustion] Count (rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge +([FreischutzShotCount] / <style=\"highlight\">2</style>) Conteggio [Combustion] (arrotondato per difetto)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] (once per turn for each unit)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (una volta per turno per ogni unità)<style=\"highlight\"></style>"
                 }
               ]
             }
