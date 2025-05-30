@@ -1437,8 +1437,8 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Su colpo, infligge {0} Lacerazione; Quando viene colpito, ottiene {0} Lacerazione\nA fine Turno: A 6+ stack, rimuove tutti i talismani e subisce danno fisso in base alle stack",
-      "summary": "Infligge Lacerazione con gli attachi e ottiene Lacerazione quando attaccato"
+      "desc": "Stack Max: 6\nSu colpo, consuma 1 Conteggio Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio Lacerazione è stato consumato; arrotondato per difetto\nQuando viene colpito, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA fine turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
+      "summary": "Su colpo, consuma il Conteggio Lacerazione sul bersaglio per infliggere Lacerazione; quando viee colpito, ottiene Lacerazione e perde 1 Stack"
     },
     {
       "id": "S2Mirror2ndFloor_Hard",
