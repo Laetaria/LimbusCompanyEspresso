@@ -130,19 +130,19 @@
     {
       "id": "PlusCoinValueUp",
       "name": "Alza Testa Positiva",
-      "desc": "Aumenta il valore ottenuto facendo Testa con Monete Positive di +{0} per questo turno.",
+      "desc": "Aumenta il valore ottenuto tirandoTesta con Monete Positive di +{0} per questo turno.",
       "summary": "Valore Testa Positiva +{0}"
     },
     {
       "id": "MinusCoinValueUp",
       "name": "Abbassa Testa Negativa",
-      "desc": "Abbassa il valore ottenuto facendo Testa con Monete Negative di -{0} per questo turno.",
+      "desc": "Abbassa il valore ottenuto tirandoTesta con Monete Negative di -{0} per questo turno.",
       "summary": "Valore Testa Negativa -{0}"
     },
     {
       "id": "TimesCoinValueUp",
       "name": "Alza Testa Moltiplicativa",
-      "desc": "Aumenta il valore ottenuto facendo Testa con Monete Moltiplicative di +{0} per questo turno.",
+      "desc": "Aumenta il valore ottenuto tirandoTesta con Monete Moltiplicative di +{0} per questo turno.",
       "summary": "Valore Testa Moltiplicativa +{0}"
     },
     {
@@ -178,19 +178,19 @@
     {
       "id": "PlusCoinValueDown",
       "name": "Abbassa Testa Positiva",
-      "desc": "Diminuisce il valore ottenuto facendo Testa con Monete Positive di -{0} per questo turno.",
+      "desc": "Diminuisce il valore ottenuto tirandoTesta con Monete Positive di -{0} per questo turno.",
       "summary": "Valore Testa Positiva -{0}"
     },
     {
       "id": "MinusCoinValueDown",
       "name": "Alza Testa Negativa",
-      "desc": "Alza il valore ottenuto facendo Testa con Monete Negative di +{0} per questo turno.",
+      "desc": "Alza il valore ottenuto tirandoTesta con Monete Negative di +{0} per questo turno.",
       "summary": "Valore Testa Negativa +{0}"
     },
     {
       "id": "TimesCoinValueDown", 
       "name": "Abbassa Testa Moltiplicativa",
-      "desc": "Aumenta il valore ottenuto facendo Testa con Monete Moltiplicative di -{0} per questo turno.",
+      "desc": "Aumenta il valore ottenuto tirandoTesta con Monete Moltiplicative di -{0} per questo turno.",
       "summary": "Valore Testa Moltiplicativa -{0}"
     },
     {
@@ -673,7 +673,7 @@
     },
     {
       "id": "Assemble",
-      "name": "Fanatista",
+      "name": "Fanatismo",
       "desc": "Valore Finale delle abilità +{0} contro tutti i nemici che sono affetti da Chiodi per questo turno. (Si applica anche agli Scontri)",
       "summary": "Final Power +{0}"
     },
@@ -846,7 +846,7 @@
     },
     {
       "id": "CrimsonTakeDamageUp",
-      "name": "intensifica Ira",
+      "name": "Intensifica Ira",
       "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Ira per questo turno. (Max 100%)",
       "summary": "Danni da Ira subiti +{0}0%"
     },
@@ -907,7 +907,7 @@
     {
       "id": "MarkOfHeresy",
       "name": "Sguardo",
-      "desc": "Subisce +20% danni in più dalle abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatisti di N.Corp', ottiene inoltre 1 Fanatista al prossimo turno.",
+      "desc": "Subisce +20% danni in più dalle abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatici di N.Corp', ottiene inoltre 1 Fanatismo al prossimo turno.",
       "summary": "Danni Perforanti e Contundenti subiti +20%"
     },
     {
@@ -1437,8 +1437,8 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Stack Max: 6\nSu colpo, consuma 1 Conteggio Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio Lacerazione è stato consumato; arrotondato per difetto\nQuando viene colpito, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA fine turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
-      "summary": "Su colpo, consuma il Conteggio Lacerazione sul bersaglio per infliggere Lacerazione; quando viee colpito, ottiene Lacerazione e perde 1 Stack"
+      "desc": "Stack Max: 6\nSul colpo, consuma 1 Conteggio Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio Lacerazione è stato consumato; arrotondato per difetto\nQuando viene colpito, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA fine turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
+      "summary": "Sul colpo, consuma il Conteggio Lacerazione sul bersaglio per infliggere Lacerazione; quando viee colpito, ottiene Lacerazione e perde 1 Stack"
     },
     {
       "id": "S2Mirror2ndFloor_Hard",
@@ -1715,7 +1715,7 @@
     {
       "id": "OverHeatedGasHarpoon",
       "name": "Arpione a Gas Surriscaldato",
-      "desc": "Per questo turno: Infligge 1 Bruciatura su colpo"
+      "desc": "Per questo turno: Infligge 1 Bruciatura sul colpo"
     },
     {
       "id": "CoverAttack",
@@ -1874,13 +1874,13 @@
     {
       "id": "ForwardToTheKing",
       "name": "Dinanzi Al Re",
-      "desc": "Su Colpo, se l'attaccante utilizza abilità che colpiscono un solo nemico, infligge il 50% del valore della moneta risultante al colpo come (Affinità/tipo di attacco usato come abilità) danni contro altri 2 nemici attaccabili con meno PV.",
+      "desc": "Sul Colpo, se l'attaccante utilizza abilità che colpiscono un solo nemico, infligge il 50% del valore della moneta risultante al colpo come (Affinità/tipo di attacco usato come abilità) danni contro altri 2 nemici attaccabili con meno PV.",
       "summary": ""
     },
     {
       "id": "ForwardToTheBoundKing",
       "name": "Dinanzi Al Re Incatenato",
-      "desc": "Su Colpo, se l'attaccante utilizza abilità che colpiscono un solo nemico, infligge il 100% del valore della moneta risultante al colpo come(Affinità/tipo di attacco usato come abilità) danni contro altri 2 nemici attaccabili con meno PV.",
+      "desc": "Sul Colpo, se l'attaccante utilizza abilità che colpiscono un solo nemico, infligge il 100% del valore della moneta risultante al colpo come(Affinità/tipo di attacco usato come abilità) danni contro altri 2 nemici attaccabili con meno PV.",
       "summary": ""
     },
     {
@@ -1915,7 +1915,7 @@
     {
       "id": "UnstableFeeling",
       "name": "Passione Instabile",
-      "desc": "-Su colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Se questa unità ha concatenato un'abilità difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A fine Turno: perde({0} x 5) PS. (Perdita PS Massimi : 40)",
+      "desc": "-Sul colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Se questa unità ha concatenato un'abilità difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A fine Turno: perde({0} x 5) PS. (Perdita PS Massimi : 40)",
       "summary": " "
     },
     {
@@ -2033,21 +2033,21 @@
     {
       "id": "AaCfPcBa_Alt3",
       "name": "Affetto e Odio",
-      "desc": "A fine Turno: recupera 15 PS\nSu colpo, ottiene 1 Rapidità e 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati",
+      "desc": "A fine Turno: recupera 15 PS\nSul colpo, ottiene 1 Rapidità e 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt4",
       "name": "Promessa Sfumata",
-      "desc": "A fine Turno: recupera 15 PS\nSu colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nA 1 PS, recupera il 40% dei PV e 25 PS (una volta per incontro)",
+      "desc": "A fine Turno: recupera 15 PS\nSul colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nA 1 PS, recupera il 40% dei PV e 25 PS (una volta per incontro)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt5",
       "name": "Promessa Sfumata",
-      "desc": "A fine Turno: recupera 15 PS\nSu colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nFinché vi è almeno un alleato ancora in vita, i PV di Heatcliff non scendono al di sotto di 1\nA 1 PV, recupera il 40% dei PV e 25 PS (una volta per incontro) ",
+      "desc": "A fine Turno: recupera 15 PS\nSul colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danni Aumentati e 3 Aumento Offensivo\nFinché vi è almeno un alleato ancora in vita, i PV di Heatcliff non scendono al di sotto di 1\nA 1 PV, recupera il 40% dei PV e 25 PS (una volta per incontro) ",
       "summary": "",
       "undefined": "-"
     },
@@ -2178,28 +2178,28 @@
     {
       "id": "BloodyHandGregFirst",
       "name": "Mano Insanguinata",
-      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più su colpo con le abilità base",
+      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le abilità base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
       "name": "Mano Insanguinata II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più su colpo con le abilità base",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le abilità base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregThird",
       "name": "Mano Insanguinata III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- su colpo con le abilità di base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più su colpo con le abilità base",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- sul colpo con le abilità di base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le abilità base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WornHeartGreg",
       "name": "Cuore Sofferente",
-      "desc": "- Valore Massimo: 10\n- A fine Turno: ottiene 1 stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 stack\n- A 40% PV o meno, su colpo con le abilità di base, recupera (stack x 5)% dei danni inflitti su colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
+      "desc": "- Valore Massimo: 10\n- A fine Turno: ottiene 1 stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 stack\n- A 40% PV o meno, sul colpo con le abilità di base, recupera (stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
       "summary": "",
       "undefined": "-"
     },
@@ -2289,27 +2289,27 @@
     {
       "id": "FreishutzOutisEgoBullet_2nd",
       "name": "La Seconda Pallottola Magica",
-      "desc": "- Infligge +10% in più di danno\n- Infligge danni ai bersagli che non sono il principale (max bersagli: 4); il bersaglio principale subisce 0 danni \n- Su colpo, infligge 3 Paralisi"
+      "desc": "- Infligge +10% in più di danno\n- Infligge danni ai bersagli che non sono il principale (max bersagli: 4); il bersaglio principale subisce 0 danni \n- Sul colpo, infligge 3 Paralisi"
     },
     {
       "id": "FreishutzOutisEgoBullet_3rd",
       "name": "La Terza Pallottola Magica",
-      "desc": "- Infligge +20% in più di danno\n- Prima di attaccare: ottiene +2 Peso attacco\n- Su colpo, infligge 2 Fiacchezza e 10 Bruciatura"
+      "desc": "- Infligge +20% in più di danno\n- Prima di attaccare: ottiene +2 Peso attacco\n- Sul colpo, infligge 2 Fiacchezza e 10 Bruciatura"
     },
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "La Quarta Pallottola Magica",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Peso attacco\n- Su colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il prossimo turno"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Peso attacco\n- Sul colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il prossimo turno"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
       "name": "La Quinta Pallottola Magica",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +4 Peso attacco\n- Su colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Smantellare il prossimo turno"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +4 Peso attacco\n- Sul colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Smantellare il prossimo turno"
     },
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "La Sesta Pallottola Magica",
-      "desc": "- Prima di attaccare: ottiene +6 Peso Attacco\n- Su colpo, aumenta la Soglia di Vacillamento in base al danno inflitto(max 30)\n- Riusa la moneta per ogni 7 Bruciatura nel bersaglio (max 2 volte)\n- Valore Base monete positive -16\n- Valore Base monete negative -22\n - Potere monete positive -8\n - Potere monete negative -12"
+      "desc": "- Prima di attaccare: ottiene +6 Peso Attacco\n- Sul colpo, aumenta la Soglia di Vacillamento in base al danno inflitto(max 30)\n- Riusa la moneta per ogni 7 Bruciatura nel bersaglio (max 2 volte)\n- Valore Base monete positive -16\n- Valore Base monete negative -22\n - Potere monete positive -8\n - Potere monete negative -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
@@ -2391,7 +2391,7 @@
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Max stack: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento su colpo con le abilità taglienti"
+      "desc": "Max stack: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le abilità taglienti"
     },
     {
       "id": "EngageToBattle",
@@ -2465,7 +2465,7 @@
     {
       "id": "WideAreaRampage",
       "name": "Raffica Incontrollabile",
-      "desc": "- Quando si lancia la Moneta di quest'abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'su colpo' e tutti i danni inflitti da ogni moneta vengono inflitti solo contro il bersaglio casuale selezionato dalla moneta.",
+      "desc": "- Quando si lancia la Moneta di quest'abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'sul colpo' e tutti i danni inflitti da ogni moneta vengono inflitti solo contro il bersaglio casuale selezionato dalla moneta.",
       "summary": "Attacca indiscriminatamente tra i bersagli scelti",
       "undefined": "-"
     },

@@ -1158,7 +1158,7 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Max Stack: 6\nSu colpo, infligge Lacerazione in base alle Stack; Quando viene colpito, ottiene Lacerazione in base alle Stack\nA fine Turno: A 6+ Stack, rimuove tutti i Talismani e subisce danno fisso in base alle Stack.",
+      "desc": "Max Stack: 6\nSul colpo, infligge Lacerazione in base alle Stack; Quando viene colpito, ottiene Lacerazione in base alle Stack\nA fine Turno: A 6+ Stack, rimuove tutti i Talismani e subisce danno fisso in base alle Stack.",
       "summary": "Infligge Lacerazione con gli attacchi ed ottiene Lacerazione quando viene colpito"
     },
     {
@@ -1324,7 +1324,7 @@
     {
       "id": "OverHeatedGasHarpoon",
       "name": "Arpione a Gas Surriscaldato",
-      "desc": "Per 1 turno, infligge 1 Bruciatura su colpo"
+      "desc": "Per 1 turno, infligge 1 Bruciatura sul colpo"
     },
     {
       "id": "CoverAttack",
@@ -1354,17 +1354,17 @@
     {
       "id": "SwordPlayOfTheHomeland",
       "name": "Scherma della Patria",
-      "desc": "- Quando ha 5+ Respiro, quando usa un'abilità, le abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) e infliggono +(30/# delle Monete)% danni su Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni su Colpo Critico"
+      "desc": "- Quando ha 5+ Respiro, quando usa un'abilità, le abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) e infliggono +(30/# delle Monete)% danni sul Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni sul Colpo Critico"
     },
     {
       "id": "SwordPlayOfTheMemorial",
       "name": "Rimembranza",
-      "desc": "- Quando ha 5+ Respiro, quando usa un'abilità, le abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) e infliggono +(30/# delle Monete)% danni su Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni su Colpo Critico"
+      "desc": "- Quando ha 5+ Respiro, quando usa un'abilità, le abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) e infliggono +(30/# delle Monete)% danni sul Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni sul Colpo Critico"
     },
     {
       "id": "RedApricotBlossom",
       "name": "Fiore d'Albicocco Rosso",
-      "desc": "- Sanguinamento Unico\n- Valore Massimoe: 10\n- +10% probabilità che quest'unità venga colpita da un critico se questa unità è il bersaglio principale\n- Quando viene colpita da un colpo critico, ottiene Sanguinamento pari a metà del valore e subisce +(valore x 3)% danni su Colpo Critico\n- Il valore si riduce di 1 quando viene colpito",
+      "desc": "- Sanguinamento Unico\n- Valore Massimoe: 10\n- +10% probabilità che quest'unità venga colpita da un critico se questa unità è il bersaglio principale\n- Quando viene colpita da un colpo critico, ottiene Sanguinamento pari a metà del valore e subisce +(valore x 3)% danni sul Colpo Critico\n- Il valore si riduce di 1 quando viene colpito",
       "summary": "Probabibiltà più alta di venir colpito da un Colpo Critico; subisce più danno se colpito da un Colpo Critico"
     },
     {
@@ -1425,7 +1425,7 @@
     {
       "id": "UnstableFeeling",
       "name": "Passione Instabile",
-      "desc": "- Su colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Quando viene colpita, se questa unità ha concatenato un'Abilità Difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A fine Turno: perde (# turni passati nello status Volatile E.G.O x 5) PS. (Perdita PS Massima: 40)",
+      "desc": "- Sul colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Quando viene colpita, se questa unità ha concatenato un'Abilità Difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A fine Turno: perde (# turni passati nello status Volatile E.G.O x 5) PS. (Perdita PS Massima: 40)",
       "summary": ""
     },
     {
@@ -1627,28 +1627,28 @@
     {
       "id": "BloodyHandGregFirst",
       "name": "Mano Insanguinata",
-      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più su colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
       "name": "Mano Insanguinata II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più su colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregThird",
       "name": "Mano Insanguinata III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- su colpo con le abilità di base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più su colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- sul colpo con le abilità di base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WornHeartGreg",
       "name": "Cuore Sofferente",
-      "desc": "- Valore Massimo: 10\n- A fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, su colpo con le abilità di base, recupera (Stack x 5)% dei danni inflitti su colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
+      "desc": "- Valore Massimo: 10\n- A fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, sul colpo con le abilità di base, recupera (Stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
       "summary": "",
       "undefined": "-"
     },
@@ -1738,27 +1738,27 @@
     {
       "id": "FreishutzOutisEgoBullet_2nd",
       "name": "La Seconda Pallottola Magica",
-      "desc": "- Infligge +10% danni\n- Infligge danni ai bersagli che non sono il principale (max bersagli: 4); l bersaglio principale subisce 0 danni\n- Su colpo, infligge 3 Paralisi"
+      "desc": "- Infligge +10% danni\n- Infligge danni ai bersagli che non sono il principale (max bersagli: 4); l bersaglio principale subisce 0 danni\n- Sul colpo, infligge 3 Paralisi"
     },
     {
       "id": "FreishutzOutisEgoBullet_3rd",
       "name": "La Terza Pallottola Magica",
-      "desc": "- Infligge +20% danni\n- Prima di attaccare: ottiene +2 Peso Attacco\n- Su colpo, infligge 2 Fiacchezza e 10 Bruciatura"
+      "desc": "- Infligge +20% danni\n- Prima di attaccare: ottiene +2 Peso Attacco\n- Sul colpo, infligge 2 Fiacchezza e 10 Bruciatura"
     },
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "La Quarta Pallottola Magica",
-      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +3 Peso Attacco\n- Su colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il prossimo turno"
+      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +3 Peso Attacco\n- Sul colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il prossimo turno"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
       "name": "La Quinta Pallottola Magica",
-      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +4 Peso Attacco\n- Su colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Calo Difensivo il prossimo turno"
+      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +4 Peso Attacco\n- Sul colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Calo Difensivo il prossimo turno"
     },
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "La Sesta Pallottola Magica",
-      "desc": "- Prima di attaccare: ottiene +6 Peso Attaccot\n- Su colpo, aumenta la Soglia di Vacillamento in base al danno inflitto (max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Valore Base Monete Testa -16\n- Valore Base Monete Croce -22\n - Potere Testa -8\n - Potere Croce -12"
+      "desc": "- Prima di attaccare: ottiene +6 Peso Attaccot\n- Sul colpo, aumenta la Soglia di Vacillamento in base al danno inflitto (max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Valore Base Monete Testa -16\n- Valore Base Monete Croce -22\n - Potere Testa -8\n - Potere Croce -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
@@ -1813,7 +1813,7 @@
     {
       "id": "HoldingBreath",
       "name": "Respiro Profondo",
-      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza di Respiro e 5+ Stack di Respiro, consuma (Potenza di Respiro su sè stesso/ 5) Potenza di Respiro per infliggere +(potenza di Respiro consumata x 4)% più danno su colpo critico, e perde 1 Stack",
+      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza di Respiro e 5+ Stack di Respiro, consuma (Potenza di Respiro su sè stesso/ 5) Potenza di Respiro per infliggere +(potenza di Respiro consumata x 4)% più danno sul colpo critico, e perde 1 Stack",
       "summary": "Deal more Damage on Critical Hit"
     },
     {
@@ -1840,7 +1840,7 @@
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Max Stack: 1\nOttiene 1 Potenzia Tagliente\nnfligge 1 Sanguinamento su colpo con le Abilità Taglienti"
+      "desc": "Max Stack: 1\nOttiene 1 Potenzia Tagliente\nnfligge 1 Sanguinamento sul colpo con le Abilità Taglienti"
     },
     {
       "id": "EngageToBattle",
