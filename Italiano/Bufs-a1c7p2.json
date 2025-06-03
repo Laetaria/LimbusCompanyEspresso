@@ -2,22 +2,22 @@
   "dataList": [
     {
       "id": "BloodyHand",
-      "name": "Bloodied Hand",
-      "desc": "- Max Value: 10\n- Base Value: 0\n- At 10 Stack: inflict +1 additional Rupture On Hit with this unit's Skill",
+      "name": "Mano Insanguinata",
+      "desc": "- Valore Max: 10\n- Valore Base: 0\n- A 10 Stack: infligge +1 Lacerazione in più Su Colpo con l'Abilità di quest'unità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns",
-      "name": "Blooming Thorn",
-      "desc": "- Max Value: 10\n- When taking damage from Skills, inflict Bleed equal to half of this effect's Stack against the Attacker (rounded up)",
-      "summary": "Inflict Bleed equal to Stack against the Attacker",
+      "name": "Spina Fiorita",
+      "desc": "- Valore Max: 10\n- Quando subisce danno dalle Abilità, infligge Sanguinamento all'attaccante pari a metà delle Stack di quest'effetto (arrotondato per eccesso)",
+      "summary": "Infligge Sanguinamento all'attaccante pari a metà delle Stack",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns_2nd",
-      "name": "Bloodwoven Thorn",
-      "desc": "- Any effects that gain Blooming Thorn gain this effect instead\n- Max Value: 10\n- Turn Start: gain 1 Offense Level Up per 3 Stack (max 3)\n- When taking damage from Skills, inflict Bleed equal to this effect's Stack against the Attacker, then lose 1 Stack (rounded up)\n- On Hit, inflict +1 more Bleed and Bleed Count with this unit's Skill effects\n- When applying Offense Level Up or Defense Level Up to an other ally with Skill Coin effects, apply 1 Clash Power Up next turn as well\n- All Skills that consume Bloodfeast gain Coin Power +1",
+      "name": "Spina Intrisa di Sangue",
+      "desc": "- Qualsiasi effetto che genererebbe Spina Fiorita, genera invece quest'effetto\n- Valore Max: 10\n- A inizio turno: gain 1 Offense Level Up per 3 Stack (max 3)\n- When taking damage from Skills, inflict Bleed equal to this effect's Stack against the Attacker, then lose 1 Stack (rounded up)\n- On Hit, inflict +1 more Bleed and Bleed Count with this unit's Skill effects\n- When applying Offense Level Up or Defense Level Up to an other ally with Skill Coin effects, apply 1 Clash Power Up next turn as well\n- All Skills that consume Bloodfeast gain Coin Power +1",
       "summary": "Inflict Bleed on the Attacker equal to Stack\nInflict +1 more Bleed Potency & Count\nApply 1 Clash Power Up to allies\nIf the Skill consumes Bloodfeast, Coin Power +1",
       "undefined": "-"
     },
