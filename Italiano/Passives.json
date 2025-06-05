@@ -845,7 +845,7 @@
     {
       "id": 1010621,
       "name": "Cleanup Demonstration",
-      "desc": "1 alleato con il Conteggio più alto dalla [Charge] infligge più danni contro i bersagli con <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u> del bersaglio based on [Burst] sul bersaglio (+1.5% per [Burst]. Max +15% danni)"
+      "desc": "1 alleato con il Conteggio più alto dalla [Charge] infligge più danni contro i bersagli con <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u> del bersaglio in base alla [Burst] sul bersaglio (+1.5% per [Burst]. Max +15% danni)"
     },
     {
       "id": 1120701,
@@ -1009,12 +1009,12 @@
     {
       "id": 1030701,
       "name": "Om Nom Nom",
-      "desc": "Se lo Slot Abilità di questa unità ha [Aggro], Potere di Scontro +1\nCura 4 PV ogni volta che questa unità colpisce i nemici che la bersagliavano con unun'Abilità di Attacco durante la fase di Concatenazione (Per le Anormalità, le Parti che bersagliavano questa unità con un'Abilità di Attacco)"
+      "desc": "Se lo Slot Abilità di questa unità ha [Aggro], Potere di Scontro +1\nCura 4 PV ogni volta che questa unità colpisce i nemici che la bersagliavano con un'Abilità di Attacco durante la fase di Concatenazione (Per le Anormalità, le Parti che bersagliavano questa unità con un'Abilità di Attacco)"
     },
     {
       "id": 1030711,
       "name": "Om Nom Nom",
-      "desc": "Se lo Slot Abilità di questa unità ha [Aggro], Potere di Scontro +1\nCura 6 PV ogni volta che questa unità colpisce i nemici che la bersagliavano con unun'Abilità di Attacco durante la fase di Concatenazione (Per le Anormalità, ogni Parte è calcolata separatamente)"
+      "desc": "Se lo Slot Abilità di questa unità ha [Aggro], Potere di Scontro +1\nCura 6 PV ogni volta che questa unità colpisce i nemici che la bersagliavano con un'Abilità di Attacco durante la fase di Concatenazione (Per le Anormalità, ogni Parte è calcolata separatamente)"
     },
     {
       "id": 1030721,
@@ -1049,7 +1049,7 @@
     {
       "id": 1010811,
       "name": "Sinking Knowledge",
-      "desc": "Quando viene attaccato, infligge 1 [Sinking] on the attacker. Quando viene attaccato while Scudoed, infligge 1 additional [Sinking] on the attacker. (4 volte max)"
+      "desc": "Quando viene attaccato, infligge 1 [Sinking] all'attaccante. Quando viene attaccato mentre ha uno Scudo, infligge 1 [Sinking] in più all'attaccante. (4 volte max)"
     },
     {
       "id": 1010821,
@@ -1568,7 +1568,7 @@
     {
       "id": 1070911,
       "name": "Charge Model L37",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\nA Fine Turno: A 2+ [Charge], ottiene 1 [Agility] il prossimo turno\n<style=\"highlight\">A Fine Turno: A 3+ [Charge], ottiene 1 additional [Agility] e 1 [ParryingResultUp] il prossimo turno</style>",
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\nA Fine Turno: A 2+ [Charge], ottiene 1 [Agility] il prossimo turno\n<style=\"highlight\">A Fine Turno: A 3+ [Charge], ottiene 1 [Agility] in più e 1 [ParryingResultUp] il prossimo turno</style>",
       "summary": "Ottiene [Charge] per ogni 10 Conteggio [Charge] consumato"
     },
     {
@@ -1705,14 +1705,14 @@
     {
       "id": 1051101,
       "name": "Duel Livestream",
-      "desc": "Ottiene 1 [Agility] il prossimo turno per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di base di Attacco: infligge [ConcentratedAttackMeursault] il prossimo turno. (una volta per Abilità)",
-      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con unun'Abilità di base, infligge [ConcentratedAttackMeursault] il prossimo turno"
+      "desc": "Ottiene 1 [Agility] il prossimo turno per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di Attacco di Base: infligge [ConcentratedAttackMeursault] il prossimo turno. (una volta per Abilità)",
+      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità di Base, infligge [ConcentratedAttackMeursault] il prossimo turno"
     },
     {
       "id": 1051111,
       "name": "Duel Livestream",
-      "desc": "Ottiene 1 [Agility] il prossimo turno per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di base di Attacco: infligge [ConcentratedAttackMeursault] il prossimo turno. (una volta per Abilità)\n<style=\"highlight\">Se questa unità attacked the Slot con [ConcentratedAttackMeursault] e defeated its owner o broke the Part, cura 7 PS</style>",
-      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con unun'Abilità di base, infligge [ConcentratedAttackMeursault] il prossimo turno. Cura PS Se Uccide"
+      "desc": "Ottiene 1 [Agility] il prossimo turno per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di Attacco di Base: infligge [ConcentratedAttackMeursault] il prossimo turno. (una volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
+      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità di Base, infligge [ConcentratedAttackMeursault] il prossimo turno. Cura PS Se Uccide"
     },
     {
       "id": 1051121,
@@ -1795,7 +1795,7 @@
     {
       "id": 1091101,
       "name": "Hardblood Thorn",
-      "desc": "Quando un altro alleato subisce danni da [Laceration] o consuma [BloodDinner], ottiene 1 [BloomingThornsRodionFirst] (3 volte per turno)\nCura PV su se stessa di 20% dei danni inflitti con le Abilità di base (max 10 per Abilità)",
+      "desc": "Quando un altro alleato subisce danni da [Laceration] o consuma [BloodDinner], ottiene 1 [BloomingThornsRodionFirst] (3 volte per turno)\nCura PV su se stessa di 20% dei danni inflitti con le Abilità di Base (max 10 per Abilità)",
       "summary": ""
     },
     {
@@ -1807,7 +1807,7 @@
     {
       "id": 1091111,
       "name": "Hardblood Thorn",
-      "desc": "Quando un altro alleato subisce danni da [Laceration] o consuma [BloodDinner], questa unità ottiene 1 [BloomingThornsRodionFirst] (5 volte per turno)\nCura PV su se stessa di 20% dei danni inflitti con le Abilità di base (max 10 per Abilità)\n- A PV massimi, cura 1 alleato con la percentuale di PV più bassa con le cure in eccesso",
+      "desc": "Quando un altro alleato subisce danni da [Laceration] o consuma [BloodDinner], questa unità ottiene 1 [BloomingThornsRodionFirst] (5 volte per turno)\nCura PV su se stessa di 20% dei danni inflitti con le Abilità di Base (max 10 per Abilità)\n- A PV massimi, cura 1 alleato con la percentuale di PV più bassa con le cure in eccesso",
       "summary": ""
     },
     {
@@ -1853,7 +1853,7 @@
     {
       "id": 1031003,
       "name": "Bearer of the Blood Kin",
-      "desc": "In questo Incontro, se un'altra unità di <La Manchaland[TabExplain]> viene sconfitta:\n- Ottiene 1 [BloodArmorPersonalityFirst] in più quando ottiene [BloodArmorPersonalityFirst] con le Abilità di base di Attacco di questa unità\n- Quando 3+ altre unità di <La Manchaland[TabExplain]> vengono sconfitte: ottiene 3 [BloodArmorPersonalityFirst] in più; A Inizio Turno, ottiene 1 [SadLamanchaland]"
+      "desc": "In questo Incontro, se un'altra unità di <La Manchaland[TabExplain]> viene sconfitta:\n- Ottiene 1 [BloodArmorPersonalityFirst] in più quando ottiene [BloodArmorPersonalityFirst] con le Abilità di Attacco di Base di questa unità\n- Quando 3+ altre unità di <La Manchaland[TabExplain]> vengono sconfitte: ottiene 3 [BloodArmorPersonalityFirst] in più; A Inizio Turno, ottiene 1 [SadLamanchaland]"
     },
     {
       "id": 1031004,
@@ -1893,7 +1893,7 @@
     {
       "id": 1071102,
       "name": "Precision Aim",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni 10 [Breath] su se stesso (max 2)\n\nA Fine Turno: se questa unità non intende usare nessunun'Abilità di Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il prossimo turno."
+      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni 10 [Breath] su se stesso (max 2)\n\nA Fine Turno: se questa unità non intende usare nessun'Abilità di Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il prossimo turno."
     },
     {
       "id": 1071103,
@@ -1903,7 +1903,7 @@
     {
       "id": 1071111,
       "name": "Precision Aim",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni 10 [Breath] su se stesso (max 2)\n\n<style=\"highlight\">Inizio Combattimento: se questa unità non intende usare nessunun'Abilità di Attacco (incluse Abilità E.G.O), applica 3 [Breath] a 1 alleato con la Potenza [Breath] più bassa</style>\n\nA Fine Turno: se questa unità non ha usato nessunun'Abilità di Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il prossimo turno"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni 10 [Breath] su se stesso (max 2)\n\n<style=\"highlight\">Inizio Combattimento: se questa unità non intende usare nessun'Abilità di Attacco (incluse Abilità E.G.O), applica 3 [Breath] a 1 alleato con la Potenza [Breath] più bassa</style>\n\nA Fine Turno: se questa unità non ha usato nessun'Abilità di Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il prossimo turno"
     },
     {
       "id": 1071121,
@@ -1938,7 +1938,7 @@
     {
       "id": 1021121,
       "name": "Residual Heat",
-      "desc": "Quando 1 alleato con i PS più bassi infligge [Combustion] con l'effetto Sul Colpo di un'Abilità di base di Attacco, infligge 2 [Combustion] in più (3 volte max)\n- Se il bersaglio che sta attaccando l'alleato has 30+ [Combustion], invece infligge +1 Conteggio [Combustion] (3 volte max)"
+      "desc": "Quando 1 alleato con i PS più bassi infligge [Combustion] con l'effetto Sul Colpo di un'Abilità di Attacco di Base, infligge 2 [Combustion] in più (3 volte max)\n- Se il bersaglio che sta attaccando l'alleato has 30+ [Combustion], invece infligge +1 Conteggio [Combustion] (3 volte max)"
     },
     {
       "id": 1071201,
@@ -1987,12 +1987,12 @@
     {
       "id": 1011201,
       "name": "Inner Ardor",
-      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità di base che infliggono Potenza [Combustion] o Conteggio, gli cura 5 PS in più"
+      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità di Base che infliggono Potenza [Combustion] o Conteggio, gli cura 5 PS in più"
     },
     {
       "id": 1011211,
       "name": "Inner Ardor",
-      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità di base che infliggono Potenza [Combustion] o Conteggio, gli cura 5 PS in più\n- A 4+ Rison. Ira, cura 1 alleato in più"
+      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità di Base che infliggono Potenza [Combustion] o Conteggio, gli cura 5 PS in più\n- A 4+ Rison. Ira, cura 1 alleato in più"
     },
     {
       "id": 1011221,
@@ -2002,7 +2002,7 @@
     {
       "id": 1011231,
       "name": "Liu Defensive Square",
-      "desc": "Per i 2 alleati con meno PS: se ha perso PS questo turno, cura 5 PS A Fine Turno\n- Se suddetti alleati hanno Abilità di base che infliggono Potenza [Combustion] o Conteggio, invece cura 5~10 PS"
+      "desc": "Per i 2 alleati con meno PS: se ha perso PS questo turno, cura 5 PS A Fine Turno\n- Se suddetti alleati hanno Abilità di Base che infliggono Potenza [Combustion] o Conteggio, invece cura 5~10 PS"
     },
     {
       "id": 1121102,
@@ -2022,12 +2022,12 @@
     {
       "id": 1031101,
       "name": "Virescent Pyrojade",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni 5 Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di base di Attacco, infligge [DianxueDonQuixote] il prossimo turno (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni 5 Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di Attacco di Base, infligge [DianxueDonQuixote] il prossimo turno (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)"
     },
     {
       "id": 1031111,
       "name": "Virescent Pyrojade",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni <style=\"highlight\">3</style> Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di base di Attacco, infligge [DianxueDonQuixote] il prossimo turno (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)\n<style=\"highlight\">- Aumenta il massimo di 5% per ogni 1 [DianxueDonQuixote] sul bersaglio</style>"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il prossimo turno per ogni <style=\"highlight\">3</style> Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di Attacco di Base, infligge [DianxueDonQuixote] il prossimo turno (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)\n<style=\"highlight\">- Aumenta il massimo di 5% per ogni 1 [DianxueDonQuixote] sul bersaglio</style>"
     },
     {
       "id": 1031121,
@@ -2067,12 +2067,12 @@
     {
       "id": 1101201,
       "name": "The Middle Never Forgets",
-      "desc": "Quando viene colpito da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità di base di Attacco o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando viene colpito da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità di Attacco di Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101211,
       "name": "The Middle Never Forgets",
-      "desc": "Quando viene colpito da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità di base di Attacco o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando viene colpito da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità di Attacco di Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101221,
@@ -2087,22 +2087,22 @@
     {
       "id": 1061201,
       "name": "Brainwave Charge-focusing Antlers",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n- Infligge +1 [Sinking] in più con le Abilità di base di Attacco (non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)\n- Infligge +([Charge] x 3)% danni con le Abilità di base di Attacco (max 15%)"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n- Infligge +1 [Sinking] in più con le Abilità di Attacco di Base (non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)\n- Infligge +([Charge] x 3)% danni con le Abilità di Attacco di Base (max 15%)"
     },
     {
       "id": 1061211,
       "name": "Brainwave Charge-focusing Antlers",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n<style=\"highlight\">- Infligge +1 [Sinking] in più con le Abilità di base di Attacco per ogni 2 [Charge] (max 2, non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)</style>\n- Infligge +([Charge] x <style=\"highlight\">5</style>)% danni con le Abilità di base di Attacco (max <style=\"highlight\">25%</style>)"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n<style=\"highlight\">- Infligge +1 [Sinking] in più con le Abilità di Attacco di Base per ogni 2 [Charge] (max 2, non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)</style>\n- Infligge +([Charge] x <style=\"highlight\">5</style>)% danni con le Abilità di Attacco di Base (max <style=\"highlight\">25%</style>)"
     },
     {
       "id": 1061221,
       "name": "Charged Pulverization Support",
-      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di base di Attacco che ottiene Conteggio [Charge], infligge +10% danni con l'ultima Moneta"
+      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di Attacco di Base che ottiene Conteggio [Charge], infligge +10% danni con l'ultima Moneta"
     },
     {
       "id": 1061231,
       "name": "Charged Pulverization Support",
-      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di base di Attacco che ottiene Conteggio [Charge], infligge <style=\"highlight\">+15%</style> danni con l'ultima Moneta"
+      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di Attacco di Base che ottiene Conteggio [Charge], infligge <style=\"highlight\">+15%</style> danni con l'ultima Moneta"
     },
     {
       "id": 1121201,
@@ -2143,20 +2143,20 @@
     {
       "id": 1081201,
       "name": "Rupture-breathing Resolve [破吸自桓]",
-      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità di Attacco, ottiene [Breath] equivalente a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] equivalente a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, if this unit's Offense Level is higher than the target's, Potere di Scontro +1\n\nIn uno Scontro, if this unit's Offense Level is higher than the target's, inflict +1 more [Burst] Potency or [Burst] Count with this unit's Base Attack Skills (2 times per turn)",
-      "summary": "In uno Scontro, if this unit's Offense Level is higher than the target's, Potere di Scontro +1\nInflict +1 more [Burst] Potency and [Burst] Count with this unit's Base Attack Skills"
+      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità di Attacco, ottiene [Breath] equivalente a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] equivalente a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] oo Conteggio [Burst] in più con la Abilità di Attacco di Base di questa unità (2 volte per turno)",
+      "summary": "In uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\nInfligge +1 more Potenza [Burst] e Conteggio [Burst] con le Abilità di Attacco di Base"
     },
     {
       "id": 1081202,
       "name": "Launching Maneuver [始動]",
-      "desc": "Upon Retreat: apply 1 Offense Level Up next turn to allies in their Deployment order\n- Number of affected allies = [StartXichun] Stack on self\n- If the affected ally is a \"Jia Family\" unit, apply 2 Offense Level Up next turn instead\n- Does not affect allies that either Return or Substitute next turn\n\nOn the turn this unit Substituted or Returned to the field, gain [WaitingXichun]; then, at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher【始】' against a random target.",
+      "desc": "Quando Si Ritira: applica 1 [AttackUp] il prossimo turno agli alleati in ordine di Schieramento\n- Numero di alleati coinvolti = Stack di [StartXichun] su se stessa\n- Se l'alleato coinvolto è un'unità della \"Famiglia Jia\", invece applica 2 [AttackUp] il prossimo turno\n- Non influenza gli alleati che Ritornano o entrano come Riserva il prossimo turno\n\nNel turno in cui quest'unità entra come Riserva o Ritorna sul campo, ottiene [WaitingXichun]; poi, a Inizio Combattimento, come prima Abilità nella lista di Abilità, usa 'Crimson Strike - Launcher【始】' contro un bersaglio casuale.",
       "summary": "In the turn this unit entered the battle via Substitution or Return: at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher (始)' against a random target"
     },
     {
       "id": 1081221,
       "name": "Lingering Resolve [餘桓]",
-      "desc": "If this unit is defeated in an Encounter, apply [CheerUpXichun] to the subsequently Substituting Identity (the fastest Backup Unit in the Deployment Order) next turn\n\nIn Chain Battles, if this unit is a Backup unit or has Retreated, activate the following:\n- Combat Start: Among the Identities who 1) are at 50% HP or lower, and 2) used a Defense Skill, choose the Identity with the fastest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a [RetreatForCommon] (2 times per Encounter)",
-      "summary": "Turn End: Retreat the Identity that, at Combat Start, has 50% or less HP and has used a Defense Skill this turn"
+      "desc": "Se questa unità viene sconfitta in un Incontro, applica [CheerUpXichun] all'Identità che entra dalla Riserva (l'unità in Riserva più veloce in Ordine di Schieramento) il prossimo turno\n\nNelle Battaglie Consecutive, se questa unità è di Riserva o si è Ritirata, attiva la seguente:\n- Inizio Combattimento: Tra le Identità che: 1) sono a 50% PV o sotto, e 2) hanno usato un'Abilità di Difesa, sceglie l'Identità con l'Ordine di Schieramento più veloce. A Fine Turno, quell'Identità si riprende dallo Stordimento causato dai danni e effettua una [RetreatForCommon] (2 volte per Incontro)",
+      "summary": "Fine Turno: Fa Ritirare l'Identità che, a Inizio Combattimento, ha 50% o meno PV e ha usato un'Abilità di Difesa questo turno"
     }
   ]
 }
