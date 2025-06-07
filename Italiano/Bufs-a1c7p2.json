@@ -3,56 +3,56 @@
     {
       "id": "BloodyHand",
       "name": "Mano Insanguinata",
-      "desc": "- Valore Max: 10\n- Valore Base: 0\n- A 10 Stack: infligge +1 Lacerazione in più Sul Colpo con l'Abilità di quest'unità",
+      "desc": "- Valore Max: 10\n- Valore di Base: 0\n- A 10 Stack: infligge +1 Lacerazione in più Sul Colpo con l'Abilità di quest'unità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns",
       "name": "Spina Fiorita",
-      "desc": "- Valore Max: 10\n- Quando subisce danno dalle Abilità, infligge Sanguinamento all'attaccante pari a metà delle Stack di quest'effetto (arrotondato per eccesso)",
+      "desc": "- Valore Max: 10\n- Quando subisce danni dalle Abilità, infligge Sanguinamento all'attaccante pari a metà delle Stack di quest'effetto (arrotondato per eccesso)",
       "summary": "Infligge Sanguinamento all'attaccante pari a metà delle Stack",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns_2nd",
       "name": "Spina Intrisa di Sangue",
-      "desc": "- Qualsiasi effetto che genererebbe Spina Fiorita, genera invece quest'effetto\n- Valore Max: 10\n- A inizio turno: gain 1 Offense Level Up per 3 Stack (max 3)\n- When taking damage from Skills, inflict Bleed equal to this effect's Stack against the Attacker, then lose 1 Stack (rounded up)\n- On Hit, inflict +1 more Bleed and Bleed Count with this unit's Skill effects\n- When applying Offense Level Up or Defense Level Up to an other ally with Skill Coin effects, apply 1 Clash Power Up next turn as well\n- All Skills that consume Bloodfeast gain Coin Power +1",
-      "summary": "Inflict Bleed on the Attacker equal to Stack\nInflict +1 more Bleed Potency & Count\nApply 1 Clash Power Up to allies\nIf the Skill consumes Bloodfeast, Coin Power +1",
+      "desc": "- Qualsiasi effetto che genererebbe Spina Fiorita, genera invece quest'effetto\n- Valore Max: 10\n- Inizio Turno: ottiene 1 Aumento Offensivo per 3 Stack (max 3)\n- Quando subisce danni dalle Abilità, infligge Sanguinamento all'attaccante pari a metà delle Stack di quest'effetto, poi perde 1 Stack (arrotondato in eccesso)\n- Sul Colpo, infligge +1 Sanguinamento e Conteggio di Sanguinamento aggiuntivi con gli effetti delle Abilità di questa unità\n- Quando applica Aumento Offensivo o Aumento Difensivo ad un'altro alleato con gli effetti delle Monete delle Abilità, applica anche 1 Potere di Scontro Aumentato il prossimo turno\n- Tutte le Abilità che consumano Banchetto di Sangue ottengono Potere Moneta +1",
+      "summary": "Infligge Sanguinamento all'attaccante pari alle Stack\nInfligge +1 Potenza e Conteggio di Sanguinamento in più\nApplica 1 Potere di Scontro Aumentato a tutti gli alleati\nSe l'Abilità consuma Banchetto di Sangue, Potere Moneta +1",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns_3rd",
-      "name": "Bloodmolded Thorn",
-      "desc": "- Any effects that gain Blooming Thorn gain this effect instead\n- Max Value: 10\n- Turn Start: gain 1 Offense Level Up per 2 Stack (max 3)\n- When taking damage from Skills, inflict Bleed equal to this effect's Stack against the Attacker, then lose 1 Stack (rounded up)\n- On Hit, inflict +2 more Bleed and Bleed Count with this unit's Skill effects\n- When applying Offense Level Up or Defense Level Up to an other ally with Skill Coin effects, apply 2 Clash Power Up next turn as well\n- All Skills that consume Bloodfeast gain Coin Power +1\n- When using 'The Parade Repeats for Eternity' Skill, instead of healing HP, heal the same value as SP",
-      "summary": "Inflict Bleed on the Attacker equal to Stack\nInflict +2 more Bleed Potency & Count\nApply 2 Clash Power Up to allies\nIf the Skill consumes Bloodfeast, Coin Power +2 and deal +50% damage",
+      "name": "Spina Composta di Sangue",
+      "desc": "- Qualsiasi effetto che genererebbe Spina Fiorita, genera invece quest'effetto\n- Max Value: 10\n- Inizio Turno: ottiene 1 Aumento Offensivo per 2 Stack (max 3)\n- Quando subisce danni dalle Abilità, infligge Sanguinamento all'attaccante pari a metà delle Stack di quest'effetto, poi perde 1 Stack (arrotondato in eccesso)\n- Sul Colpo, infligge +2 Sanguinamento e Conteggio di Sanguinamento aggiuntivi con gli effetti delle Abilità di questa unità\n- Quando applica Aumento Offensivo o Aumento Difensivo ad un'altro alleato con gli effetti delle Monete delle Abilità, applica anche 2 Potere di Scontro Aumentato il prossimo turno\n- Tutte le Abilità che consumano Banchetto di Sangue ottengono Potere Moneta +1\n- Quando usa l'Abilità 'La Parata si Ripete per l'Eternità', invece di curarsi i PV, si cura di altrettanto come PS",
+      "summary": "Infligge Sanguinamento all'attaccante pari alle Stack\nInfligge +2 Potenza e Conteggio di Sanguinamento in più\nApplica 2 Potere di Scontro Aumentato a tutti gli alleati\nSe l'Abilità consuma Banchetto di Sangue, Potere Moneta +2 e infligge +50% danni",
       "undefined": "-"
     },
     {
       "id": "FestivalFever",
       "name": "Festive Fever",
-      "desc": "- Max Value: 10\n- Turn Start: gain 1 Offense Level Up per 3 Stack (max 3)\n- Used for special skills",
+      "desc": "- Max Value: 10\n- Inizio Turno: gain 1 Aumento Offensivo per 3 Stack (max 3)\n- Used for special skills",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IncompleteParade",
       "name": "Imperfect Parade",
-      "desc": "- Max Value: 50\n- Gain 2 when a Bloodbag dies\n- Gain 3 when a Bloodfiend dies\n- Turn Start: gain 1 Fragile every time this unit consumes 5 cumulative Stack\n- Total Stack consumed: {0}",
+      "desc": "- Max Value: 50\n- Gain 2 when a Bloodbag dies\n- Gain 3 when a Bloodfiend dies\n- Inizio Turno: gain 1 Fragile every time this unit consumes 5 cumulative Stack\n- Total Stack consumed: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBloodDolci_LowMorale",
       "name": "Bridle of Nihility",
-      "desc": "- Low Morale\n- Turn Start: gain 1 Attack Power Up and 3 Defense Level Down\n- Turn End: take 5 SP damage",
+      "desc": "- Low Morale\n- Inizio Turno: gain 1 Attack Power Up and 3 Defense Level Down\n- Turn End: take 5 SP damage",
       "summary": "Gain 1 Attack Power Up & 3 Defense Level Down",
       "undefined": "-"
     },
     {
       "id": "FamineBloodDolci_Panic",
       "name": "Bridle of Nihility",
-      "desc": "- Panic\n- Turn Start: gain 2 Attack Power Up and 6 Defense Level Down\n- Turn End: heal 10 SP",
+      "desc": "- Panic\n- Inizio Turno: gain 2 Attack Power Up and 6 Defense Level Down\n- Turn End: heal 10 SP",
       "summary": "Gain 2 Attack Power Up & 6 Defense Level Down",
       "undefined": "-"
     },
@@ -80,7 +80,7 @@
     {
       "id": "ThornyFall_Panic",
       "name": "Thorns",
-      "desc": "Clash Win: gain 1 Damage Up\nTurn End: gain 2 Clash Power Up next turn",
+      "desc": "Clash Win: gain 1 Damage Up\nTurn End: gain 2 Potere di Scontro Aumentato next turn",
       "summary": "Clash Win: gain 1 Damage Up",
       "undefined": "-"
     },
@@ -108,21 +108,21 @@
     {
       "id": "FamineBloodPriestServant_LowMorale",
       "name": "Hunger",
-      "desc": "- Low Morale\n- Turn Start: gain 1 Clash Power Up and 3 Defense Level Down\n- Turn End: take 5 SP damage",
+      "desc": "- Low Morale\n- Inizio Turno: gain 1 Potere di Scontro Aumentato and 3 Defense Level Down\n- Turn End: take 5 SP damage",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBloodPriestServant_Panic",
       "name": "Hunger",
-      "desc": "- Panic\n- Turn Start: gain 2 Clash Power Up and 6 Defense Level Down\n- Turn End: heal 10 SP",
+      "desc": "- Panic\n- Inizio Turno: gain 2 Potere di Scontro Aumentato and 6 Defense Level Down\n- Turn End: heal 10 SP",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnstoppableFunny",
       "name": "Unstoppable Bliss",
-      "desc": "On Death:\n- Gain 1 E.G.O resource for 3 least-owned E.G.O resources\n- Inflict +3 Bleed Count against an enemy (prioritizes the unit that killed this unit)\n- All allies at 5+ Festive Fever gain 1 Haste next turn\n- All allies without Festive Fever gain 1 Clash Power Up",
+      "desc": "On Death:\n- Gain 1 E.G.O resource for 3 least-owned E.G.O resources\n- Inflict +3 Bleed Count against an enemy (prioritizes the unit that killed this unit)\n- All allies at 5+ Festive Fever gain 1 Haste next turn\n- All allies without Festive Fever gain 1 Potere di Scontro Aumentato",
       "summary": "Gain 1 of each 3 E.G.O resources\nInflict +3 Bleed Count",
       "undefined": "-"
     }

@@ -3,7 +3,7 @@
     {
       "id": "FusionVibration",
       "name": "Sovrapposizione Ondulare",
-      "desc": "- Fonde gli effetti del tipo di Vibrazione aggiunta da Sovrapposizione Ondulare e dal tipo di Vibrazione già presente sul bersaglio in Vibrazione - Sovrapposizione.\n- I valori di Potenza e Conteggio non cambiando durante Sovrapposizione.\n- Quando si innesca Convertitore TTC su Vibrazione - Sovrapposizione, quest'ultimo si attiva come Sovrapposizione Ondulare.\n- A fine turno: si converte in Vibrazione base.",
+      "desc": "- Fonde gli effetti del tipo di Vibrazione aggiunta da Sovrapposizione Ondulare e dal tipo di Vibrazione già presente sul bersaglio in Vibrazione - Sovrapposizione.\n- I valori di Potenza e Conteggio non cambiando durante Sovrapposizione.\n- Quando si innesca Convertitore TTC su Vibrazione - Sovrapposizione, quest'ultimo si attiva come Sovrapposizione Ondulare.\n- A Fine Turno: si converte in Vibrazione base.",
       "summary": ""
     },
     {
@@ -16,7 +16,7 @@
     {
       "id": "VibrationDistribution",
       "name": "Vibrazione - Distribuzione",
-      "desc": "- A fine turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Aumento Offensivo il turno successivo (max 5)\n- Per {1} turni, quando viene colpito da un'Abilità che innesca Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}\n- A fine turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Aumento Offensivo il turno successivo (max 5)\n- Per {1} turni, quando viene colpito da un'Abilità che innesca Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },
@@ -30,21 +30,21 @@
     {
       "id": "VibrationChain",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando viene colpito da un'Abilità che innesca Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}.\n- A fine turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando viene colpito da un'Abilità che innesca Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé\nAumenta la Soglia di Vacillamento di {0}",
       "undefined": "-"
     },
     {
       "id": "TimeRentalTwo",
       "name": "Tempo in Prestito di T Corp.",
-      "desc": "A fine turno:\n- Ottiene {1} Rapidità, Potere di Scontro Aumentato, e Vulnerabilità il turno successivo.\n- A 1 Conteggio, ottiene invece {0} Lentezza il turno successivo.\n- Ottiene 1 Stack e perde 1 Conteggio\n- Se quest'unità ha più Lentezza che Rapidità, l'effetto del Tempo in Prestito termina e quest'unità Vacilla.",
+      "desc": "A Fine Turno:\n- Ottiene {1} Rapidità, Potere di Scontro Aumentato, e Vulnerabilità il turno successivo.\n- A 1 Conteggio, ottiene invece {0} Lentezza il turno successivo.\n- Ottiene 1 Stack e perde 1 Conteggio\n- Se quest'unità ha più Lentezza che Rapidità, l'effetto del Tempo in Prestito termina e quest'unità Vacilla.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAccumulation",
       "name": "Ritardo",
-      "desc": "Finché quest'effetto è attivo, il danno inflitto a quest'unità non viene subito, ma immagazzinato.\nA fine turno: riduce il valore di 1\nA fine turno: Se il valore rimanente di quest'effetto è 1, quest'ultimo scade dopo aver inflitto (2 x danni immagazzinati) danni da Accidia a quest'unità\nQuando quest'effetto è arrivo, il valore non può essere cambiato.",
+      "desc": "Finché quest'effetto è attivo, il danno inflitto a quest'unità non viene subito, ma immagazzinato.\nA Fine Turno: riduce il valore di 1\nA Fine Turno: Se il valore rimanente di quest'effetto è 1, quest'ultimo scade dopo aver inflitto (2 x danni immagazzinati) danni da Accidia a quest'unità\nQuando quest'effetto è arrivo, il valore non può essere cambiato.",
       "summary": "",
       "undefined": "-"
     },
@@ -65,14 +65,14 @@
     {
       "id": "LimitedTime",
       "name": "Tempo Rubato",
-      "desc": "- Ad inizio turno: Quando il valore è 200+, ottiene ({0}- 200)/50 Aumento Offensivo & Aumento Difensivo.\n- A inizio turno: Quando il valore è meno di 200, ottiene (200 - {0})/50 Calo Offensivo & Calo Difensivo.",
+      "desc": "- Ad inizio turno: Quando il valore è 200+, ottiene ({0}- 200)/50 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando il valore è meno di 200, ottiene (200 - {0})/50 Calo Offensivo & Calo Difensivo.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OwnTime",
       "name": "Tempo Condiviso",
-      "desc": "- Ad inizio turno: Quando il valore è 40+, ottiene ({0}- 40)/10 Aumento Offensivo & Aumento Difensivo.\n- A inizio turno: Quando il valore è meno di 40, ottiene (40 - {0})/10 Calo Offensivo & Calo Difensivo.",
+      "desc": "- Ad inizio turno: Quando il valore è 40+, ottiene ({0}- 40)/10 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando il valore è meno di 40, ottiene (40 - {0})/10 Calo Offensivo & Calo Difensivo.",
       "summary": "",
       "undefined": "-"
     },
@@ -86,7 +86,7 @@
     {
       "id": "UnfairDistribution",
       "name": "Divisioni Interne",
-      "desc": "Quando Tempo Condiviso viene speso, i Cervelli non spendono più la stessa quantità di tempo tra tutti loro.\nA inizio turno: tutte le parti perdono Mitigazione pari al numero della parti con valori di Tempo diversi.",
+      "desc": "Quando Tempo Condiviso viene speso, i Cervelli non spendono più la stessa quantità di tempo tra tutti loro.\nA Inizio Turno: tutte le parti perdono Mitigazione pari al numero della parti con valori di Tempo diversi.",
       "summary": "",
       "undefined": "-"
     },

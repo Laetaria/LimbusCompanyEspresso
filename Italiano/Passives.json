@@ -128,7 +128,7 @@
     {
       "id": 1090101,
       "name": "Separa Il Male",
-      "desc": "Sul colpo, infligge 1 [Laceration] col 50% di probabilità."
+      "desc": "Sul Colpo, infligge 1 [Laceration] col 50% di probabilità."
     },
     {
       "id": 1090201,
@@ -573,7 +573,7 @@
     {
       "id": 1070501,
       "name": "Pioggia Di Lacrime",
-      "desc": "All'inizio della fase di combattimento, spende 1 Conteggio [Sinking] e perde PS quanto il [Sinking] attuale.\nPrima di essere colpito da un'attacco, ottiene [Protection] equivalente al suo [Sinking]. (Fino a 5 [Protection] può essere ottenuta)\nQuando viene colpito, ottiene 1 [HitDamageUp] il prossimo turno. (3 per turno)"
+      "desc": "All'inizio della fase di combattimento, spende 1 Conteggio [Sinking] e perde PS quanto il [Sinking] attuale.\nPrima di essere colpito da un'attacco, ottiene [Protection] pari al suo [Sinking]. (Fino a 5 [Protection] può essere ottenuta)\nQuando viene colpito, ottiene 1 [HitDamageUp] il prossimo turno. (3 per turno)"
     },
     {
       "id": 1070521,
@@ -603,7 +603,7 @@
     {
       "id": 1080501,
       "name": "Liquido Gonfiante",
-      "desc": "Se quest'unità fallisce nell'infliggere danni ai PV usando abilità di attacco durante un turno, ottiene uno Scudo equivalente a 5% dei suoi PV Max il prossimo turno. (Max 30)"
+      "desc": "Se quest'unità fallisce nell'infliggere danni ai PV usando abilità di attacco durante un turno, ottiene uno Scudo pari a 5% dei suoi PV Max il prossimo turno. (Max 30)"
     },
     {
       "id": 1080521,
@@ -623,7 +623,7 @@
     {
       "id": 1100601,
       "name": "Staccare I Talismani",
-      "desc": "Sul colpo, se il bersaglio ha [Burst], ottiene 1 [Talisman]."
+      "desc": "Sul Colpo, se il bersaglio ha [Burst], ottiene 1 [Talisman]."
     },
     {
       "id": 1100621,
@@ -673,7 +673,7 @@
     {
       "id": 1080701,
       "name": "Spacca Granchi",
-      "desc": "Sul colpo contro a target con [Vibration], infligge +1 Conteggio [Sinking]"
+      "desc": "Sul Colpo contro a target con [Vibration], infligge +1 Conteggio [Sinking]"
     },
     {
       "id": 1080721,
@@ -683,7 +683,7 @@
     {
       "id": 1100701,
       "name": "Output di Potenza Instabile",
-      "desc": "Sul colpo tirando Testa a 10+ Conteggio [Vibration] su se stesso, infligge +1 [Vibration] e Conteggio [Vibration] con gli effetti delle Monete."
+      "desc": "Sul Colpo tirando Testa a 10+ Conteggio [Vibration] su se stesso, infligge +1 [Vibration] e Conteggio [Vibration] con gli effetti delle Monete."
     },
     {
       "id": 1100721,
@@ -800,12 +800,12 @@
     {
       "id": 1090701,
       "name": "Incandescent Enlightenment",
-      "desc": "Ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il prossimo turno in base ai danni che questa unità ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni equivalenti al 25% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 5)\nSe questa unità ha 3 [KnowledgeExplored] a fine turno, rimuove 1 effetto negativo applicato a a se stessa"
+      "desc": "Ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il prossimo turno in base ai danni che questa unità ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 25% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 5)\nSe questa unità ha 3 [KnowledgeExplored] a Fine Turno, rimuove 1 effetto negativo applicato a a se stessa"
     },
     {
       "id": 1090721,
       "name": "Missionary of Knowledge",
-      "desc": "1 alleato con i PV Max più alti ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il prossimo turno in base ai danni che ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni equivalenti al 15% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 3)"
+      "desc": "1 alleato con i PV Max più alti ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il prossimo turno in base ai danni che ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 15% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 3)"
     },
     {
       "id": 1060701,
@@ -905,12 +905,12 @@
     {
       "id": 1050701,
       "name": "Loyalty",
-      "desc": "- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un'alleato.\n- Se il bersaglio principale ha [RetaliationBook], Valore Finale +1\n- Se un altro alleato parte del Medio è ancora in vita, cura 6 PS a ogni Fine turno"
+      "desc": "- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un'alleato.\n- Se il bersaglio principale ha [RetaliationBook], Valore Finale +1\n- Se un altro alleato parte del Medio è ancora in vita, cura 6 PS a ogni Fine Turno"
     },
     {
       "id": 1050711,
       "name": "Loyalty",
-      "desc": "- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un'alleato.\n- Se il bersaglio principale ha [RetaliationBook], Valore Finale +1\n- Se un altro alleato parte del Medio è ancora in vita oltre a questa unità, questa unità e l'alleato parte del Medio sopravvissuto con meno PS si curano entrambi per 6 PS a ogni Fine turno"
+      "desc": "- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un'alleato.\n- Se il bersaglio principale ha [RetaliationBook], Valore Finale +1\n- Se un altro alleato parte del Medio è ancora in vita oltre a questa unità, questa unità e l'alleato parte del Medio sopravvissuto con meno PS si curano entrambi per 6 PS a ogni Fine Turno"
     },
     {
       "id": 1050721,
@@ -1029,12 +1029,12 @@
     {
       "id": 1060801,
       "name": "Peering Through a Key",
-      "desc": "Scartando un'Abilità, ottiene [AttackDmgUp] equivalente al Grado dell'Abilità Scartata. (Max 3 per turno)"
+      "desc": "Scartando un'Abilità, ottiene [AttackDmgUp] pari al Grado dell'Abilità Scartata. (Max 3 per turno)"
     },
     {
       "id": 1060811,
       "name": "Peering Through a Key",
-      "desc": "Scartando un'Abilità, ottiene [AttackDmgUp] equivalente al Grado dell'Abilità Scartata. (Max 3 per turno)\nQuando gli altri alleati Scartano un'Abilità, e se il Grado dell'Abilità Scartata dell'alleato è maggiore del valore di [KnowledgeExplored] di questa unità, questa unità ottiene +1 [KnowledgeExplored]."
+      "desc": "Scartando un'Abilità, ottiene [AttackDmgUp] pari al Grado dell'Abilità Scartata. (Max 3 per turno)\nQuando gli altri alleati Scartano un'Abilità, e se il Grado dell'Abilità Scartata dell'alleato è maggiore del valore di [KnowledgeExplored] di questa unità, questa unità ottiene +1 [KnowledgeExplored]."
     },
     {
       "id": 1060821,
@@ -1520,7 +1520,7 @@
     {
       "id": 1051001,
       "name": "Study Hall",
-      "desc": "Ogni volta che un'altro alleato Scarta un'Abilità, applica 1 [KnowledgeTraining] all'alleato e se stesso (una volta per Abilità, 3 volte per turno)\nA Fine Turno: il prossimo turno, ottiene [PenetrateDamageUp] e [HitDamageUp] equivalenti al numero di altri alleati che hanno Scartato delle Abilità (max 3)"
+      "desc": "Ogni volta che un'altro alleato Scarta un'Abilità, applica 1 [KnowledgeTraining] all'alleato e se stesso (una volta per Abilità, 3 volte per turno)\nA Fine Turno: il prossimo turno, ottiene [PenetrateDamageUp] e [HitDamageUp] pari al numero di altri alleati che hanno Scartato delle Abilità (max 3)"
     },
     {
       "id": 1051021,
@@ -2143,7 +2143,7 @@
     {
       "id": 1081201,
       "name": "Rupture-breathing Resolve [破吸自桓]",
-      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità di Attacco, ottiene [Breath] equivalente a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] equivalente a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] oo Conteggio [Burst] in più con la Abilità di Attacco di Base di questa unità (2 volte per turno)",
+      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità di Attacco, ottiene [Breath] pari a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] pari a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] oo Conteggio [Burst] in più con la Abilità di Attacco di Base di questa unità (2 volte per turno)",
       "summary": "In uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\nInfligge +1 more Potenza [Burst] e Conteggio [Burst] con le Abilità di Attacco di Base"
     },
     {
