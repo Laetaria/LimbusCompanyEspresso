@@ -138,21 +138,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PV"
                 }
               ]
             }
@@ -470,7 +470,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Main body heals 3 HP"
+                  "desc": "[OnSucceedAttack] Main body heals 3 PV"
                 }
               ]
             },
@@ -511,7 +511,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Main body heals 10 HP"
+                  "desc": "[OnSucceedAttack] Main body heals 10 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 5 Bleed next turn"
@@ -541,7 +541,7 @@
         {
           "level": 1,
           "name": "Work Hard!",
-          "desc": "[WhenUse] Lose 10 HP; Skill Power +1",
+          "desc": "[WhenUse] Lose 10 PV; Skill Power +1",
           "coinlist": [
             {}
           ]
@@ -579,7 +579,7 @@
         {
           "level": 1,
           "name": "Stay Diligent!",
-          "desc": "[WhenUse] Lose 10 HP; Skill Power +1",
+          "desc": "[WhenUse] Lose 10 PV; Skill Power +1",
           "coinlist": [
             {},
             {},
@@ -661,7 +661,7 @@
         {
           "level": 1,
           "name": "PUNISH☆MENT",
-          "desc": "[WhenUse] Lose 10 HP; Skill Power +2",
+          "desc": "[WhenUse] Lose 10 PV; Skill Power +2",
           "coinlist": [
             {},
             {}
@@ -868,7 +868,7 @@
         {
           "level": 1,
           "name": "Twinkle☆Sprinkle Spinny!?",
-          "desc": "[WhenUse] Lose 10 HP; Skill Power +2",
+          "desc": "[WhenUse] Lose 10 PV; Skill Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1075,14 +1075,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 5 PS damage"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 5 PS damage"
                 }
               ]
             }
@@ -1096,7 +1096,7 @@
         {
           "level": 1,
           "name": "Imperfect Imitation",
-          "desc": "Copies a skill that hit this unit\n[WhenUse] Deal 10 SP damage",
+          "desc": "Copies a skill that hit this unit\n[WhenUse] Deal 10 PS damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1119,7 +1119,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10% of Max HP; Gain 1 Instincts"
+                  "desc": "[OnSucceedAttack] Heal 10% of Max PV; Gain 1 Instincts"
                 }
               ]
             }
@@ -1137,7 +1137,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10% of Max HP"
+                  "desc": "[OnSucceedAttack] Heal 10% of Max PV"
                 }
               ]
             },
@@ -1380,7 +1380,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20 HP; Inflict +5 Bleed Count"
+                  "desc": "[OnSucceedAttack] Heal 20 PV; Inflict +5 Bleed Count"
                 }
               ]
             }
@@ -1459,7 +1459,7 @@
         {
           "level": 1,
           "name": "Pained Writhing",
-          "desc": "[WhenUse] Lose 12 HP; Gain 5 Bleed next turn",
+          "desc": "[WhenUse] Lose 12 PV; Gain 5 Bleed next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1492,7 +1492,7 @@
         {
           "level": 1,
           "name": "Pained Struggle",
-          "desc": "[WhenUse] Lose 12 HP; Gain +3 Bleed Count next turn",
+          "desc": "[WhenUse] Lose 12 PV; Gain +3 Bleed Count next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1568,7 +1568,7 @@
         {
           "level": 1,
           "name": "Cackle",
-          "desc": "[WhenUse] Deal 10 SP damage",
+          "desc": "[WhenUse] Deal 10 PS damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1619,7 +1619,7 @@
         {
           "level": 1,
           "name": "Purify",
-          "desc": "[WhenUse] If target's HP is below 30%, Skill Power +2",
+          "desc": "[WhenUse] If target's PV is below 30%, Skill Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1659,7 +1659,7 @@
         {
           "level": 1,
           "name": "I Shall Claim Your Life!",
-          "desc": "[WhenUse] If target's HP is below 30%, Skill Power +2",
+          "desc": "[WhenUse] If target's PV is below 30%, Skill Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1717,7 +1717,7 @@
         {
           "level": 1,
           "name": "You Are Nothing",
-          "desc": "[OnSucceedEvade] Deal 5 SP damage",
+          "desc": "[OnSucceedEvade] Deal 5 PS damage",
           "coinlist": [
             {}
           ]
@@ -1921,12 +1921,12 @@
         {
           "level": 1,
           "name": "Honorable Grip",
-          "desc": "[WhenUse] If target's HP is below 30%, +100% Damage",
+          "desc": "[WhenUse] If target's PV is below 30%, +100% Damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] If target's HP is below 30%, kill them and heal 30 HP\nGain 2 Attack Power Up next turn"
+                  "desc": "[OnSucceedAttackHead] If target's PV is below 30%, kill them and heal 30 PV\nGain 2 Attack Power Up next turn"
                 }
               ]
             }
@@ -1940,7 +1940,7 @@
         {
           "level": 1,
           "name": "Repent!!",
-          "desc": "[WhenUse] If target's HP is below 30%, +100% Damage",
+          "desc": "[WhenUse] If target's PV is below 30%, +100% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -2369,7 +2369,7 @@
         {
           "level": 1,
           "name": "Poison Spray",
-          "desc": "[WhenUse] Lose 6 HP; Gain 5 Bleed next turn",
+          "desc": "[WhenUse] Lose 6 PV; Gain 5 Bleed next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -2395,12 +2395,12 @@
         {
           "level": 1,
           "name": "Bawkbawbawbawk",
-          "desc": "Targets the unit with the least SP",
+          "desc": "Targets the unit with the least PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 5 PS damage"
                 }
               ]
             }
@@ -2414,13 +2414,13 @@
         {
           "level": 1,
           "name": "Babawbawk",
-          "desc": "Targets the unit with the least SP",
+          "desc": "Targets the unit with the least PS",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                  "desc": "[OnSucceedAttack] Heal 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 3 Sinking"
@@ -2450,7 +2450,7 @@
         {
           "level": 1,
           "name": "Baaawkbawk",
-          "desc": "Targets the unit with the least HP",
+          "desc": "Targets the unit with the least PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2469,13 +2469,13 @@
         {
           "level": 1,
           "name": "Bawkbabawk",
-          "desc": "Targets the unit with the least HP",
+          "desc": "Targets the unit with the least PV",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                  "desc": "[OnSucceedAttack] Heal 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 5 Bleed"
@@ -2492,7 +2492,7 @@
         {
           "level": 1,
           "name": "Khgh",
-          "desc": "[OnSucceedEvade] Target loses 15 SP",
+          "desc": "[OnSucceedEvade] Target loses 15 PS",
           "coinlist": [
             {}
           ]
@@ -2530,7 +2530,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                  "desc": "[OnSucceedAttack] Heal 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 2 Paralyze next turn"
@@ -2560,7 +2560,7 @@
         {
           "level": 1,
           "name": "Khgh",
-          "desc": "Targets the unit with the most HP",
+          "desc": "Targets the unit with the most PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2579,13 +2579,13 @@
         {
           "level": 1,
           "name": "Khgaawahk",
-          "desc": "Targets the unit with the most HP",
+          "desc": "Targets the unit with the most PV",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                  "desc": "[OnSucceedAttack] Heal 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
@@ -2641,7 +2641,7 @@
         {
           "level": 1,
           "name": "Krgh!",
-          "desc": "Targets the unit with the least SP",
+          "desc": "Targets the unit with the least PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2739,7 +2739,7 @@
         {
           "level": 1,
           "name": "Keghgh!",
-          "desc": "Targets the unit with the least SP\n[OnSucceedAttack] Spawn a Raw Chicken",
+          "desc": "Targets the unit with the least PS\n[OnSucceedAttack] Spawn a Raw Chicken",
           "coinlist": [
             {
               "coindescs": [
@@ -2889,7 +2889,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 15 SP"
+                  "desc": "[OnSucceedAttack] Target loses 15 PS"
                 },
                 {
                   "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt"
@@ -3180,7 +3180,7 @@
         {
           "level": 1,
           "name": "Coil Up",
-          "desc": "If this skill is on a slot, gain shield by the head's current HP",
+          "desc": "If this skill is on a slot, gain shield by the head's current PV",
           "coinlist": [
             {}
           ]
@@ -3193,7 +3193,7 @@
         {
           "level": 1,
           "name": "Wriggling Head",
-          "desc": "Targets the enemy with the least HP\n[WhenUse] Spend 2 Self-charge\n[DefeatDuel] Lose 2 Self-charge",
+          "desc": "Targets the enemy with the least PV\n[WhenUse] Spend 2 Self-charge\n[DefeatDuel] Lose 2 Self-charge",
           "coinlist": [
             {},
             {
@@ -3213,7 +3213,7 @@
         {
           "level": 1,
           "name": "Wriggling Tail",
-          "desc": "Targets the enemy with the least HP\n[WhenUse] Spend 2 Self-charge\n[DefeatDuel] Lose 3 Self-charge",
+          "desc": "Targets the enemy with the least PV\n[WhenUse] Spend 2 Self-charge\n[DefeatDuel] Lose 3 Self-charge",
           "coinlist": [
             {},
             {},
@@ -3356,7 +3356,7 @@
         {
           "level": 1,
           "name": "Waiting",
-          "desc": "[StartBattle] All enemies lose 20 SP",
+          "desc": "[StartBattle] All enemies lose 20 PS",
           "coinlist": [
             {}
           ]
@@ -3492,7 +3492,7 @@
         {
           "level": 1,
           "name": "Let's Share the Drink!",
-          "desc": "In a clash, give 1 Morale Boost\n[WhenUse] Heal 5% HP",
+          "desc": "In a clash, give 1 Morale Boost\n[WhenUse] Heal 5% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -3539,7 +3539,7 @@
                   "desc": "[OnSucceedAttack] If target has Morale Boost, deal +10% damage for each Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has Tipsy, deal 0 damage, and user loses 50 HP"
+                  "desc": "[OnSucceedAttack] If target has Tipsy, deal 0 damage, and user loses 50 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Remove all Morale Boost or Tipsy"
@@ -3564,7 +3564,7 @@
                   "desc": "[OnSucceedAttack] If target has Morale Boost, deal +100% damage for each Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has Tipsy, deal 0 damage, and user loses 50 HP"
+                  "desc": "[OnSucceedAttack] If target has Tipsy, deal 0 damage, and user loses 50 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Remove all Morale Boost or Tipsy"
@@ -3586,7 +3586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this attacks Fairy Wine, heal 10% HP next turn, and gain 2 Attack Power Up, 2 Haste, and 2 Protection"
+                  "desc": "[OnSucceedAttack] If this attacks Fairy Wine, heal 10% PV next turn, and gain 2 Attack Power Up, 2 Haste, and 2 Protection"
                 }
               ]
             }
@@ -3639,7 +3639,7 @@
         {
           "level": 1,
           "name": "Stinging Memories",
-          "desc": "[WinDuel] Heal 8 SP\n[DefeatDuel] Lose 5 SP",
+          "desc": "[WinDuel] Heal 8 PS\n[DefeatDuel] Lose 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -3672,7 +3672,7 @@
         {
           "level": 1,
           "name": "Thorny Memories",
-          "desc": "[WinDuel] Heal 8 SP\n[DefeatDuel] Lose 5 SP",
+          "desc": "[WinDuel] Heal 8 PS\n[DefeatDuel] Lose 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -3698,7 +3698,7 @@
         {
           "level": 1,
           "name": "Self-defense",
-          "desc": "[DefeatDuel] Lose 8 SP and gain 3 Sinking",
+          "desc": "[DefeatDuel] Lose 8 PS and gain 3 Sinking",
           "coinlist": [
             {
               "coindescs": [
@@ -3746,12 +3746,12 @@
         {
           "level": 1,
           "name": "Sink It All",
-          "desc": "[WhenUse] Lose 30 SP and gain 5 Sinking; Gain Corroding Heart next turn",
+          "desc": "[WhenUse] Lose 30 PS and gain 5 Sinking; Gain Corroding Heart next turn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 15 SP."
+                  "desc": "[OnSucceedAttack] Target loses 15 PS."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 8 Sinking and 8 Poison next turn"
@@ -3768,7 +3768,7 @@
         {
           "level": 1,
           "name": "Get It Away",
-          "desc": "[OnDefeatEvade] Lose 8 SP",
+          "desc": "[OnDefeatEvade] Lose 8 PS",
           "coinlist": [
             {}
           ]
@@ -3906,7 +3906,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 15 SP"
+                  "desc": "[OnSucceedAttack] Target loses 15 PS"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 3 Blooming"
@@ -4102,7 +4102,7 @@
         {
           "level": 1,
           "name": "Borne Scent",
-          "desc": "[WhenUse] Heal 10 HP",
+          "desc": "[WhenUse] Heal 10 PV",
           "coinlist": [
             {}
           ]
@@ -4128,7 +4128,7 @@
         {
           "level": 1,
           "name": "Full Bloom",
-          "desc": "Cannot act\nAt the end of the turn, lose 20 SP\nIf SP reaches -45, fully heal SP, then gain Dazzled Mind next turn\nIf this effect isn't removed for 2 turns, remove it at the end of the turn",
+          "desc": "Cannot act\nAt the end of the turn, lose 20 PS\nIf PS reaches -45, fully heal PS, then gain Dazzled Mind next turn\nIf this effect isn't removed for 2 turns, remove it at the end of the turn",
           "coinlist": [
             {}
           ]
@@ -4477,7 +4477,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Seeds and Overheal; Heal target's HP by 15"
+                  "desc": "[OnSucceedAttack] Inflict 3 Seeds and Overheal; Heal target's PV by 15"
                 }
               ]
             }
@@ -4496,7 +4496,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Fragile and 10 Bleed\nIf target has Nutrient Drain, heal 20 HP, and gain 2 Attack Power Up next turn"
+                  "desc": "[OnSucceedAttack] Inflict 3 Fragile and 10 Bleed\nIf target has Nutrient Drain, heal 20 PV, and gain 2 Attack Power Up next turn"
                 }
               ]
             }
@@ -4510,12 +4510,12 @@
         {
           "level": 1,
           "name": "Please Be My Nutrient",
-          "desc": "[WhenUse] All Trees of Desires heal 15 HP; If there are no Trees of Desires, spawn one",
+          "desc": "[WhenUse] All Trees of Desires heal 15 PV; If there are no Trees of Desires, spawn one",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 HP; Inflict 3 Seeds"
+                  "desc": "[OnSucceedAttack] Heal 10 PV; Inflict 3 Seeds"
                 }
               ]
             }
@@ -4750,7 +4750,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has Bleed, heal 20 HP"
+                  "desc": "[OnSucceedAttack] If target has Bleed, heal 20 PV"
                 }
               ]
             },
@@ -4771,7 +4771,7 @@
         {
           "level": 1,
           "name": "Casting Shade",
-          "desc": "[WhenUse] Spawn a Giant Clover next turn\n[WhenUse] Deal +5% damage per Bleed Count\n[DefeatDuel] The Giant Clover spawns with 70% HP",
+          "desc": "[WhenUse] Spawn a Giant Clover next turn\n[WhenUse] Deal +5% damage per Bleed Count\n[DefeatDuel] The Giant Clover spawns with 70% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -4795,7 +4795,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by 1% of Max HP per target's [Laceration]\nRemove all Bleed Count"
+                  "desc": "[OnSucceedAttack] Heal by 1% of Max PV per target's [Laceration]\nRemove all Bleed Count"
                 }
               ]
             }
@@ -4826,21 +4826,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PV"
                 }
               ]
             }
@@ -5055,7 +5055,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 3% of Max HP to the Core"
+                  "desc": "[OnSucceedAttack] Heal 3% of Max PV to the Core"
                 }
               ]
             }
@@ -5110,7 +5110,7 @@
                   "desc": "[OnSucceedAttackHead] Reuse Coin once (3 times per Skill)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core heals 10 HP"
+                  "desc": "[OnSucceedAttack] Core heals 10 PV"
                 }
               ]
             }
@@ -5153,14 +5153,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 3 HP"
+                  "desc": "[OnSucceedAttack] Core heals 3 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 3 HP"
+                  "desc": "[OnSucceedAttack] Core heals 3 PV"
                 }
               ]
             }
@@ -5179,7 +5179,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 10 HP"
+                  "desc": "[OnSucceedAttack] Core heals 10 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"

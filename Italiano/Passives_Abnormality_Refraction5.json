@@ -13,17 +13,17 @@
     {
       "id": 863003,
       "name": "Summon Targets",
-      "desc": "At 75%- HP, gain a new pattern\nWhen gaining a new pattern, summon G Corp. Head Manager and Downcast Veteran; then, inflict Stigmatized on the target with the least current HP\n- Change Min & Max Speed values on self to 1.\n- Gain 300 Shield HP."
+      "desc": "At 75%- PV, gain a new pattern\nWhen gaining a new pattern, summon G Corp. Head Manager and Downcast Veteran; then, inflict Stigmatized on the target with the least current PV\n- Change Min & Max Speed values on self to 1.\n- Gain 300 Shield PV."
     },
     {
       "id": 863004,
       "name": "Designate Target",
-      "desc": "When using Designated Target Fire or Target Readjustment Fire: among targets with the slowest Speed, inflict [FellBulletMark] against target with the least current HP"
+      "desc": "When using Designated Target Fire or Target Readjustment Fire: among targets with the slowest Speed, inflict [FellBulletMark] against target with the least current PV"
     },
     {
       "id": 863201,
       "name": "Oxygen Supply",
-      "desc": "At the first Turn Start of the turn Sleeping Bag of a Bygone Day appeared, it gains 10 [Breath] Potency and +10 [Breath] Count\n\nTurn End: at less than 10 [Breath] Potency or [Breath] Count, consume HP from the Head Part equal to 2% of the Core's max HP to gain 5 [Breath] and +5 [Breath] Count (cannot be Part broken or defeated due to this effect)"
+      "desc": "At the first Turn Start of the turn Sleeping Bag of a Bygone Day appeared, it gains 10 [Breath] Potency and +10 [Breath] Count\n\nTurn End: at less than 10 [Breath] Potency or [Breath] Count, consume PV from the Head Part equal to 2% of the Core's max PV to gain 5 [Breath] and +5 [Breath] Count (cannot be Part broken or defeated due to this effect)"
     },
     {
       "id": 863202,
@@ -53,7 +53,7 @@
     {
       "id": 863207,
       "name": "Anguished Screaming",
-      "desc": "At 40% or less Core HP, use 'Share the Pain' next turn"
+      "desc": "At 40% or less Core PV, use 'Share the Pain' next turn"
     },
     {
       "id": 863208,
@@ -73,12 +73,12 @@
     {
       "id": 863303,
       "name": "Yearning",
-      "desc": "Turn End: if this unit healed HP, gain 1 [AttackUp] and 1 [DefenseDown] next turn for every 10 HP healed (max 10)"
+      "desc": "Turn End: if this unit healed PV, gain 1 [AttackUp] and 1 [DefenseDown] next turn for every 10 PV healed (max 10)"
     },
     {
       "id": 863304,
       "name": "Bloodthirsty Stench",
-      "desc": "At 100+ [BloodDinner], use a special Skill\nTurn End: at 500+ [BloodDinner_Accumulation] by this unit, or if this unit is at less than 60% HP, gain a new pattern"
+      "desc": "At 100+ [BloodDinner], use a special Skill\nTurn End: at 500+ [BloodDinner_Accumulation] by this unit, or if this unit is at less than 60% PV, gain a new pattern"
     },
     {
       "id": 863305,

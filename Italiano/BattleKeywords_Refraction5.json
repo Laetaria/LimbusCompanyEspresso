@@ -24,7 +24,7 @@
     {
       "id": "MRR503",
       "name": "Refracted Mind",
-      "desc": "3 allies with the least SP heal 8 SP at Turn End (excluding: allies that are Panicked or Corroded)",
+      "desc": "3 allies with the least PS heal 8 PS at Turn End (excluding: allies that are Panicked or Corroded)",
       "summary": "",
       "undefined": "-"
     },
@@ -59,7 +59,7 @@
     {
       "id": "MRR508",
       "name": "Refracted Sinking",
-      "desc": "Deal +(Sinking Potency on the target)% damage against targets at less than 0 SP or without SP (max 45%)",
+      "desc": "Deal +(Sinking Potency on the target)% damage against targets at less than 0 PS or without PS (max 45%)",
       "summary": "",
       "undefined": "-"
     },
@@ -87,7 +87,7 @@
     {
       "id": "MRR512",
       "name": "Lasting Battle Spirit",
-      "desc": "Starting from #7 Deployed Sinner: at the start of the same turn it Substitutes in, heal 30 SP, gain 1 Attack Power Up for the Encounter, and gain 2 E.G.O resource for each one of the Affinities corresponding to their Base Attack Skills",
+      "desc": "Starting from #7 Deployed Sinner: at the start of the same turn it Substitutes in, heal 30 PS, gain 1 Attack Power Up for the Encounter, and gain 2 E.G.O resource for each one of the Affinities corresponding to their Base Attack Skills",
       "summary": "",
       "undefined": "-"
     },
@@ -143,14 +143,14 @@
     {
       "id": "MRR520",
       "name": "Fell Bullet Deluge",
-      "desc": "Whenever an ally dies, inflict fixed damage equal to 50% of the dead ally's max HP against all Parts on all enemies",
+      "desc": "Whenever an ally dies, inflict fixed damage equal to 50% of the dead ally's max PV against all Parts on all enemies",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MRR521",
-      "name": "HP Manipulation",
-      "desc": "+25% Max HP for all allies; remove the first Stagger threshold",
+      "name": "PV Manipulation",
+      "desc": "+25% Max PV for all allies; remove the first Stagger threshold",
       "summary": "",
       "undefined": "-"
     },
@@ -164,7 +164,7 @@
     {
       "id": "MRR523",
       "name": "Bloody Banquet",
-      "desc": "On Hit, if the enemy lost HP, heal HP equal to 10% of the damage dealt. All allies lose 3 Bleed Count at Turn End",
+      "desc": "On Hit, if the enemy lost PV, heal PV equal to 10% of the damage dealt. All allies lose 3 Bleed Count at Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -241,7 +241,7 @@
     {
       "id": "MRR535",
       "name": "버프 이름",
-      "desc": "-50% Max HP for all allies",
+      "desc": "-50% Max PV for all allies",
       "summary": "",
       "undefined": "-"
     },
@@ -254,8 +254,8 @@
     },
     {
       "id": "MRR537",
-      "name": "HP Refraction II",
-      "desc": "Enemy Max HP +20%",
+      "name": "PV Refraction II",
+      "desc": "Enemy Max PV +20%",
       "summary": "",
       "undefined": "-"
     },
@@ -269,7 +269,7 @@
     {
       "id": "MRR539",
       "name": "Bloody Banquet",
-      "desc": "Enemies heal +20% more HP from Skill and Coin effects",
+      "desc": "Enemies heal +20% more PV from Skill and Coin effects",
       "summary": "",
       "undefined": "-"
     },
@@ -290,7 +290,7 @@
     {
       "id": "MRR542",
       "name": "Health Refraction",
-      "desc": "Enemy Max HP +10%",
+      "desc": "Enemy Max PV +10%",
       "summary": "",
       "undefined": "-"
     },
@@ -346,7 +346,7 @@
     {
       "id": "MRR549",
       "name": "Life or Death",
-      "desc": "-25% to max HP on all allies",
+      "desc": "-25% to max PV on all allies",
       "summary": "",
       "undefined": "-"
     },
@@ -360,14 +360,14 @@
     {
       "id": "MRR551",
       "name": "Refracted Bleed",
-      "desc": "Turn Start: inflict 5 Bleed Potency and +3 Count to enemies at max HP (once per enemy per Part per Encounter)",
+      "desc": "Turn Start: inflict 5 Bleed Potency and +3 Count to enemies at max PV (once per enemy per Part per Encounter)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MRR552",
       "name": "버프 이름",
-      "desc": "Whenever an enemy dies, an enemy gains 2 Clash Power Up next turn, starting from the enemy with the least current HP",
+      "desc": "Whenever an enemy dies, an enemy gains 2 Clash Power Up next turn, starting from the enemy with the least current PV",
       "summary": "",
       "undefined": "-"
     },
@@ -472,7 +472,7 @@
     {
       "id": "MRR565",
       "name": "Comfy",
-      "desc": "Raise Min & Max Speed values by 2 for all allies; Max HP +25%",
+      "desc": "Raise Min & Max Speed values by 2 for all allies; Max PV +25%",
       "summary": "",
       "undefined": "-"
     },

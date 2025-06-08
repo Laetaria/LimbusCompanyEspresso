@@ -471,7 +471,7 @@
         {
           "level": 1,
           "name": "Sunset Blade",
-          "desc": "[WhenUse] When in a Volatile E.G.O state, consume 5 SP\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 SP",
+          "desc": "[WhenUse] When in a Volatile E.G.O state, consume 5 PS\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -499,7 +499,7 @@
         {
           "level": 2,
           "name": "Sunset Blade",
-          "desc": "<style=\"highlight\">If target has 4+ [Combustion], Clash Power +1</style>\n[WhenUse] When in a Volatile E.G.O state, consume 5 SP\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 SP",
+          "desc": "<style=\"highlight\">If target has 4+ [Combustion], Clash Power +1</style>\n[WhenUse] When in a Volatile E.G.O state, consume 5 PS\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -527,7 +527,7 @@
         {
           "level": 4,
           "name": "Sunset Blade",
-          "desc": "If target has 4+ [Combustion], Clash Power +1\n[WhenUse] When in a Volatile E.G.O state, consume 5 SP\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n<style=\"highlight\">- At 45 SP, Atk Weight +2 instead</style>\n[EndSkill] When in a Volatile E.G.O state, consume 5 SP",
+          "desc": "If target has 4+ [Combustion], Clash Power +1\n[WhenUse] When in a Volatile E.G.O state, consume 5 PS\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n<style=\"highlight\">- At 45 PS, Atk Weight +2 instead</style>\n[EndSkill] When in a Volatile E.G.O state, consume 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -560,7 +560,7 @@
         {
           "level": 3,
           "name": "Stigmatize",
-          "desc": "If target has 10+ [Combustion], Coin Power +1\nWhen in a Volatile E.G.O State, activate Blazing Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
+          "desc": "If target has 10+ [Combustion], Coin Power +1\nWhen in a Volatile E.G.O State, activate Blazing Strike instead\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -581,7 +581,7 @@
         {
           "level": 4,
           "name": "Stigmatize",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 7 [Combustion] on target (max 2)</style>\nWhen in a Volatile E.G.O state, activate Blazing Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
+          "desc": "<style=\"highlight\">Coin Power +1 for every 7 [Combustion] on target (max 2)</style>\nWhen in a Volatile E.G.O state, activate Blazing Strike instead\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -640,7 +640,7 @@
         {
           "level": 3,
           "name": "Blazing Strike",
-          "desc": "Coin Power +1 for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 30 SP\nDeal +5% damage for every Wrath Reson. (max 30%)\n[EndSkill] Lose 15 SP",
+          "desc": "Coin Power +1 for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 30 PS\nDeal +5% damage for every Wrath Reson. (max 30%)\n[EndSkill] Lose 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -666,7 +666,7 @@
         {
           "level": 4,
           "name": "Blazing Strike",
-          "desc": "Coin Power +<style=\"highlight\">2</style> for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 30 SP\nDeal +<style=\"highlight\">10</style>% damage for every Wrath Reson. (max <style=\"highlight\">60</style>%)\n<style=\"highlight\">If at 4+ highest Wrath A-Reson., deal +20% damage for every Wrath Reson. instead (max 120%)</style>\n[EndSkill] Lose 15 SP",
+          "desc": "Coin Power +<style=\"highlight\">2</style> for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 30 PS\nDeal +<style=\"highlight\">10</style>% damage for every Wrath Reson. (max <style=\"highlight\">60</style>%)\n<style=\"highlight\">If at 4+ highest Wrath A-Reson., deal +20% damage for every Wrath Reson. instead (max 120%)</style>\n[EndSkill] Lose 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -785,7 +785,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] On 1 other ally with the lowest HP percentage, apply 2 Defense Level Up next turn"
+                  "desc": "[WinDuelAttack] On 1 other ally with the lowest PV percentage, apply 2 Defense Level Up next turn"
                 }
               ]
             },
@@ -806,7 +806,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] On <style=\"highlight\">2 other allies</style> with the lowest HP percentage, apply 2 Defense Level Up next turn"
+                  "desc": "[WinDuelAttack] On <style=\"highlight\">2 other allies</style> with the lowest PV percentage, apply 2 Defense Level Up next turn"
                 }
               ]
             },
@@ -832,7 +832,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply 3 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] On 1 other ally with the lowest PV percentage, apply 3 [DefenseUp] next turn"
                 }
               ]
             },
@@ -863,7 +863,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply <style=\"highlight\">4</style> [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] On 1 other ally with the lowest PV percentage, apply <style=\"highlight\">4</style> [DefenseUp] next turn"
                 }
               ]
             },
@@ -1145,7 +1145,7 @@
         {
           "level": 1,
           "name": "Courier Assistance & Crisis Control System",
-          "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!.' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair] / 2)% of this unit's max HP as Shield (max 15%, once per turn)",
+          "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!.' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair] / 2)% of this unit's max PV as Shield (max 15%, once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1159,7 +1159,7 @@
         {
           "level": 4,
           "name": "Courier Assistance & Crisis Control System",
-          "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> of this unit's max HP as Shield (max <style=\"highlight\">25%</style>, once per turn)",
+          "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> of this unit's max PV as Shield (max <style=\"highlight\">25%</style>, once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1178,7 +1178,7 @@
         {
           "level": 1,
           "name": "W-wait, I need to do some maintenance...!",
-          "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
+          "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max PV as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
           "coinlist": [
             {
               "coindescs": [
@@ -1192,7 +1192,7 @@
         {
           "level": 4,
           "name": "W-wait, I need to do some maintenance...!",
-          "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> of this unit's max HP as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[EndBattle] Activate [Retreat]",
+          "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> of this unit's max PV as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[EndBattle] Activate [Retreat]",
           "coinlist": [
             {
               "coindescs": [
@@ -1211,7 +1211,7 @@
         {
           "level": 1,
           "name": "Is it You?!",
-          "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 SP on self",
+          "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 PS on self",
           "coinlist": [
             {
               "coindescs": [
@@ -1232,7 +1232,7 @@
         {
           "level": 2,
           "name": "Is it You?!",
-          "desc": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 SP on self",
+          "desc": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 PS on self",
           "coinlist": [
             {
               "coindescs": [
@@ -1253,7 +1253,7 @@
         {
           "level": 4,
           "name": "Is it You?!",
-          "desc": "If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">5</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 SP on self\n<style=\"highlight\">- At max SP, gain Clash Power +1 instead</style>",
+          "desc": "If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">5</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 PS on self\n<style=\"highlight\">- At max PS, gain Clash Power +1 instead</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1405,7 +1405,7 @@
         {
           "level": 1,
           "name": "Warmup in the East",
-          "desc": "[StartBattle] Gain 20% of missing HP as Shield (once per turn)",
+          "desc": "[StartBattle] Gain 20% of missing PV as Shield (once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1426,7 +1426,7 @@
         {
           "level": 4,
           "name": "Warmup in the East",
-          "desc": "<style=\"highlight\">[StartBattle] Skill behavior changes based on the sum of Envy A-Reson.:\n- At 4+ sum of A-Reson., use 'Payback with Interest' as Counter\n- At 6+ sum of A-Reson., use 'Write 'em all down' as Counter\n(Activates from the leftmost Skill Slot. Activates 2 times per turn)</style>\n[StartBattle] Gain <style=\"highlight\">30%</style> of missing HP as Shield (once per turn)",
+          "desc": "<style=\"highlight\">[StartBattle] Skill behavior changes based on the sum of Envy A-Reson.:\n- At 4+ sum of A-Reson., use 'Payback with Interest' as Counter\n- At 6+ sum of A-Reson., use 'Write 'em all down' as Counter\n(Activates from the leftmost Skill Slot. Activates 2 times per turn)</style>\n[StartBattle] Gain <style=\"highlight\">30%</style> of missing PV as Shield (once per turn)",
           "coinlist": [
             {
               "coindescs": [

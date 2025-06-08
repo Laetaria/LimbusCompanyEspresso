@@ -18,12 +18,12 @@
     {
       "id": 108102,
       "name": "Infectious Gloom",
-      "desc": "Turn Start: Inflict 5 [Sinking] against all enemies except for the one with the most SP\nAfter Attack: if the enemy is defeated, all enemies lose 10 SP; then, inflict 3 [Sinking] and +2 [Sinking] Count against all enemies"
+      "desc": "Turn Start: Inflict 5 [Sinking] against all enemies except for the one with the most PS\nAfter Attack: if the enemy is defeated, all enemies lose 10 PS; then, inflict 3 [Sinking] and +2 [Sinking] Count against all enemies"
     },
     {
       "id": 9018101,
       "name": "Teeth",
-      "desc": "On Hit, heal 5 HP. 50% chance to inflict 1 [Laceration]"
+      "desc": "On Hit, heal 5 PV. 50% chance to inflict 1 [Laceration]"
     },
     {
       "id": 9018102,
@@ -33,7 +33,7 @@
     {
       "id": 9018103,
       "name": "Censored Courage",
-      "desc": "After Attack: if target is either Staggered or defeated, raise this unit's max HP by 20% of the max HP at Encounter Start (max +100%)"
+      "desc": "After Attack: if target is either Staggered or defeated, raise this unit's max PV by 20% of the max PV at Encounter Start (max +100%)"
     },
     {
       "id": 9018104,
@@ -43,17 +43,17 @@
     {
       "id": 9018105,
       "name": "Oddly Uncanny Lantern",
-      "desc": "Combat Start: gain 1 [Vulnerable] for every Identity that targeted this unit (max 5)\nCombat Start: if all enemies attack this unit, Atk Weight +1\n- Gain Offense Level equal to the number of enemies; when this unit heals, heal 5 additional HP"
+      "desc": "Combat Start: gain 1 [Vulnerable] for every Identity that targeted this unit (max 5)\nCombat Start: if all enemies attack this unit, Atk Weight +1\n- Gain Offense Level equal to the number of enemies; when this unit heals, heal 5 additional PV"
     },
     {
       "id": 9018106,
       "name": "BLACK Type Weapon",
-      "desc": "On Hit, inflict both HP and SP damage"
+      "desc": "On Hit, inflict both PV and PS damage"
     },
     {
       "id": 9018201,
       "name": "Censored Wisdom",
-      "desc": "Turn Start: at less than 0 SP, heal 5~20 SP"
+      "desc": "Turn Start: at less than 0 PS, heal 5~20 PS"
     },
     {
       "id": 9018202,
@@ -63,7 +63,7 @@
     {
       "id": 107901,
       "name": "My Siblings Call to Me",
-      "desc": "Turn End: for every 3% missing HP on self, gain 1 Offense Level Up. (max 5)\nTurn End: gain +1 Min & Max Speed next turn for every 300 [BloodDinner]\nThis unit's HP cannot be reduced below 60%."
+      "desc": "Turn End: for every 3% missing PV on self, gain 1 Offense Level Up. (max 5)\nTurn End: gain +1 Min & Max Speed next turn for every 300 [BloodDinner]\nThis unit's PV cannot be reduced below 60%."
     },
     {
       "id": 107902,
@@ -83,7 +83,7 @@
     {
       "id": 107905,
       "name": "More Bloodfeast",
-      "desc": "If the target is defeated at the end of this unit's Attack Skill, increase [BloodDinner] by the target's max HP"
+      "desc": "If the target is defeated at the end of this unit's Attack Skill, increase [BloodDinner] by the target's max PV"
     },
     {
       "id": 108201,
@@ -98,17 +98,17 @@
     {
       "id": 108203,
       "name": "Defense Mechanism",
-      "desc": "Turn Start: gain Shield equal to 30% of missing HP (Shield HP cannot exceed 15% of the max HP)\n- If this unit has [Combustion], lose ([Combustion] Count x 1.5)% Shield HP\n- Shield takes +30% damage from [Burst] effects, and does not lose [Burst] Count when under 3 [Burst] Count\n\nTurn End: if the Shield gained due to this effect is destroyed, for the rest of this Encounter, gain 1 [DefenseDown] for every instance the Shield has been destroyed (max 5)"
+      "desc": "Turn Start: gain Shield equal to 30% of missing PV (Shield PV cannot exceed 15% of the max PV)\n- If this unit has [Combustion], lose ([Combustion] Count x 1.5)% Shield PV\n- Shield takes +30% damage from [Burst] effects, and does not lose [Burst] Count when under 3 [Burst] Count\n\nTurn End: if the Shield gained due to this effect is destroyed, for the rest of this Encounter, gain 1 [DefenseDown] for every instance the Shield has been destroyed (max 5)"
     },
     {
       "id": 108204,
       "name": "Confirmation Bias",
-      "desc": "Turn End: siphon 10 SP from targets with higher SP than this unit (max 3; in descending order of SP; cannot stack on the same target)\n(Does not activate if Hohenheim is Panicked)"
+      "desc": "Turn End: siphon 10 PS from targets with higher PS than this unit (max 3; in descending order of PS; cannot stack on the same target)\n(Does not activate if Hohenheim is Panicked)"
     },
     {
       "id": 108205,
       "name": "Establish Hypothesis",
-      "desc": "On Turn 3: gains a new pattern and prepares to use a powerful Skill.\nAfter turn 3 is over: the above effect activates when this unit has 30+ [Breath] Count at Turn End\n\nIf this unit did not take any HP damage during the preparation period before using the powerful Skill, greatly enhance the Skill (does not count damages taken by Shield HP)"
+      "desc": "On Turn 3: gains a new pattern and prepares to use a powerful Skill.\nAfter turn 3 is over: the above effect activates when this unit has 30+ [Breath] Count at Turn End\n\nIf this unit did not take any PV damage during the preparation period before using the powerful Skill, greatly enhance the Skill (does not count damages taken by Shield PV)"
     },
     {
       "id": 108206,
@@ -118,12 +118,12 @@
     {
       "id": 108207,
       "name": "Inadequate Defense Mechanism",
-      "desc": "When weakened due to a Choice Event, this Passive replaces 「Defense Mechanism」\n\nTurn Start: gain Shield equal to 15% of missing HP (Shield HP cannot exceed 5% of the max HP)\n- If this unit has [Combustion], lose ([Combustion] Count x 2)% Shield HP\n- Shield takes +60% damage from [Burst] effects, and does not lose [Burst] Count when under 3 [Burst] Count\n\nTurn End: if the Shield gained due to this effect is destroyed, for the rest of this Encounter, gain 2 [DefenseDown] for every instance the Shield has been destroyed (max 10)"
+      "desc": "When weakened due to a Choice Event, this Passive replaces 「Defense Mechanism」\n\nTurn Start: gain Shield equal to 15% of missing PV (Shield PV cannot exceed 5% of the max PV)\n- If this unit has [Combustion], lose ([Combustion] Count x 2)% Shield PV\n- Shield takes +60% damage from [Burst] effects, and does not lose [Burst] Count when under 3 [Burst] Count\n\nTurn End: if the Shield gained due to this effect is destroyed, for the rest of this Encounter, gain 2 [DefenseDown] for every instance the Shield has been destroyed (max 10)"
     },
     {
       "id": 108208,
       "name": "Self-doubt",
-      "desc": "When weakened due to a Choice Event, this Passive replaces 「Confirmation Bias」\n\nTurn Start: lose 15 SP\nTurn End: siphon 5 SP from targets with higher SP than this unit (max 3; in descending order of SP; cannot stack on the same target)\n(Does not activate if Hohenheim is Panicked)"
+      "desc": "When weakened due to a Choice Event, this Passive replaces 「Confirmation Bias」\n\nTurn Start: lose 15 PS\nTurn End: siphon 5 PS from targets with higher PS than this unit (max 3; in descending order of PS; cannot stack on the same target)\n(Does not activate if Hohenheim is Panicked)"
     },
     {
       "id": 108209,
@@ -133,7 +133,7 @@
     {
       "id": 108210,
       "name": "Defense Mechanism",
-      "desc": "Turn Start: gain Shield equal to 30% of missing HP (Shield HP cannot exceed 15% of the max HP)\n- If this unit has [Combustion], lose ([Combustion] Count x 1.5)% Shield HP\n- Shield takes +100% damage from [Burst] effects\n\nTurn End: if the Shield gained due to this effect is destroyed, for the rest of this Encounter, gain 1 [DefenseDown] for every instance the Shield has been destroyed (max 5)"
+      "desc": "Turn Start: gain Shield equal to 30% of missing PV (Shield PV cannot exceed 15% of the max PV)\n- If this unit has [Combustion], lose ([Combustion] Count x 1.5)% Shield PV\n- Shield takes +100% damage from [Burst] effects\n\nTurn End: if the Shield gained due to this effect is destroyed, for the rest of this Encounter, gain 1 [DefenseDown] for every instance the Shield has been destroyed (max 5)"
     },
     {
       "id": 108211,

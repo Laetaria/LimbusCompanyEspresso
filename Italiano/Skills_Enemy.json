@@ -15,7 +15,7 @@
         {
           "level": 1,
           "name": "Keep Down",
-          "desc": "[OnSucceedAttack] Inflict 2 Bind; Heal 5% of Max HP"
+          "desc": "[OnSucceedAttack] Inflict 2 Bind; Heal 5% of Max PV"
         }
       ]
     },
@@ -93,7 +93,7 @@
         {
           "level": 1,
           "name": "Mind Wave",
-          "desc": "[5xPostLine]\n[OnSucceedAttack] Target loses 20 SP"
+          "desc": "[5xPostLine]\n[OnSucceedAttack] Target loses 20 PS"
         }
       ]
     },
@@ -632,14 +632,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Target loses 5 SP"
+                  "desc": "[OnSucceedAttackHead] Target loses 5 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Target loses 5 SP"
+                  "desc": "[OnSucceedAttackHead] Target loses 5 PS"
                 }
               ]
             }
@@ -677,7 +677,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Target loses 15 SP"
+                  "desc": "[OnSucceedAttackHead] Target loses 15 PS"
                 }
               ]
             }
@@ -706,7 +706,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Target loses 5 SP"
+                  "desc": "[OnSucceedAttackHead] Target loses 5 PS"
                 }
               ]
             }
@@ -902,7 +902,7 @@
         {
           "level": 1,
           "name": "Shank",
-          "desc": "[BeforeAttack] If target has less than 50% HP, use Coin 1 and 2 an additional time",
+          "desc": "[BeforeAttack] If target has less than 50% PV, use Coin 1 and 2 an additional time",
           "coinlist": [
             {
               "coindescs": [
@@ -1185,21 +1185,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] Heal 2 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] Heal 2 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] Heal 2 PS"
                 }
               ]
             }
@@ -1226,7 +1226,7 @@
         {
           "level": 1,
           "name": "Duelo de Baile",
-          "desc": "[WinDuel] Target loses 5 SP",
+          "desc": "[WinDuel] Target loses 5 PS",
           "coinlist": [
             {},
             {},
@@ -1247,7 +1247,7 @@
         {
           "level": 1,
           "name": "Puñales Joviales",
-          "desc": "If target's SP is below 0, Skill Power +1",
+          "desc": "If target's PS is below 0, Skill Power +1",
           "coinlist": [
             {}
           ]
@@ -1260,7 +1260,7 @@
         {
           "level": 1,
           "name": "¡Olé!",
-          "desc": "[OnSucceedEvade] Target loses 5 SP",
+          "desc": "[OnSucceedEvade] Target loses 5 PS",
           "coinlist": [
             {}
           ]
@@ -1286,7 +1286,7 @@
         {
           "level": 1,
           "name": "Pasos Pasionales",
-          "desc": "[WhenUse] Heal 5 SP",
+          "desc": "[WhenUse] Heal 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1326,7 +1326,7 @@
         {
           "level": 1,
           "name": "¿Eso es todo?",
-          "desc": "[WinDuel] Deal 10 SP damage",
+          "desc": "[WinDuel] Deal 10 PS damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1385,7 +1385,7 @@
         {
           "level": 1,
           "name": "Pañata Party~!",
-          "desc": "[WhenUse] If target's SP is below 0, crit chance increases in proportion to target's SP",
+          "desc": "[WhenUse] If target's PS is below 0, crit chance increases in proportion to target's PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1404,7 +1404,7 @@
         {
           "level": 1,
           "name": "¡Excelente!",
-          "desc": "[OnSucceedEvade] Lower user's Stagger Threshold by 5; Deal 5 SP damage",
+          "desc": "[OnSucceedEvade] Lower user's Stagger Threshold by 5; Deal 5 PS damage",
           "coinlist": [
             {}
           ]
@@ -1417,7 +1417,7 @@
         {
           "level": 1,
           "name": "I'll Tear Ya Apart",
-          "desc": "If target's SP is lower than user's, Skill Power +1",
+          "desc": "If target's PS is lower than user's, Skill Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1448,7 +1448,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 15 PS damage"
                 }
               ]
             }
@@ -1462,13 +1462,13 @@
         {
           "level": 1,
           "name": "Insult Barrage",
-          "desc": "[WinDuel] Heal 10 SP for a random ally",
+          "desc": "[WinDuel] Heal 10 PS for a random ally",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 5 PS damage"
                 }
               ]
             }
@@ -1482,7 +1482,7 @@
         {
           "level": 1,
           "name": "Ey!",
-          "desc": "[WinDuel] Target loses 15 SP",
+          "desc": "[WinDuel] Target loses 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1514,7 +1514,7 @@
         {
           "level": 1,
           "name": "I'll Crack Ya Skull",
-          "desc": "If target's SP is lower than user's, Skill Power +1",
+          "desc": "If target's PS is lower than user's, Skill Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1605,8 +1605,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Activate HP Bullet",
-          "desc": "[WhenUse] Heal 10 HP",
+          "name": "Activate PV Bullet",
+          "desc": "[WhenUse] Heal 10 PV",
           "coinlist": [
             {}
           ]
@@ -2107,7 +2107,7 @@
         {
           "level": 1,
           "name": "Unite",
-          "desc": "[WinDuel] Heal 15 SP for 2 allies with the least SP",
+          "desc": "[WinDuel] Heal 15 PS for 2 allies with the least PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2212,7 +2212,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 SP for 2 allies with the least SP"
+                  "desc": "[OnSucceedAttack] Heal 10 PS for 2 allies with the least PS"
                 }
               ]
             }
@@ -2265,7 +2265,7 @@
         {
           "level": 1,
           "name": "Spike Drive",
-          "desc": "At less than 50% HP, inflict +1 N Corp's Nails",
+          "desc": "At less than 50% PV, inflict +1 N Corp's Nails",
           "coinlist": [
             {
               "coindescs": [
@@ -2723,7 +2723,7 @@
         {
           "level": 1,
           "name": "Flash; Flash;",
-          "desc": "[WhenUse] Target loses 10 SP",
+          "desc": "[WhenUse] Target loses 10 PS",
           "coinlist": [
             {}
           ]
@@ -3611,7 +3611,7 @@
         {
           "level": 1,
           "name": "Final Warmup",
-          "desc": "[StartBattle] Gain 4 Protection\nHeal 15 SP",
+          "desc": "[StartBattle] Gain 4 Protection\nHeal 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -3688,7 +3688,7 @@
         {
           "level": 1,
           "name": "Cover, Cover!",
-          "desc": "[StartBattle] Heal 5% of Max HP",
+          "desc": "[StartBattle] Heal 5% of Max PV",
           "coinlist": [
             {}
           ]
@@ -3762,7 +3762,7 @@
         {
           "level": 1,
           "name": "Taking Cover!",
-          "desc": "[StartBattle] Heal 5% of Max HP",
+          "desc": "[StartBattle] Heal 5% of Max PV",
           "coinlist": [
             {}
           ]
@@ -3774,7 +3774,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Administering HP Ampule",
+          "name": "Administering PV Ampule",
           "desc": "[CantDuel][WhenUse] Targets allies\nHeal by damage number\nDeals no damage",
           "coinlist": [
             {
@@ -4312,7 +4312,7 @@
         {
           "level": 1,
           "name": "Fluid Guard",
-          "desc": "[WhenUse] Heal 5% of Max HP\nGain 2 Fragile next turn\n[EndBattle] Remove all Tipsy",
+          "desc": "[WhenUse] Heal 5% of Max PV\nGain 2 Fragile next turn\n[EndBattle] Remove all Tipsy",
           "coinlist": [
             {
               "coindescs": [
@@ -4545,7 +4545,7 @@
         {
           "level": 1,
           "name": "No Trespassing",
-          "desc": "Targets the unit with the most HP",
+          "desc": "Targets the unit with the most PV",
           "coinlist": [
             {},
             {
@@ -4693,10 +4693,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 5 SP"
+                  "desc": "[OnSucceedAttack] Target loses 5 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Target loses 5 SP"
+                  "desc": "[OnSucceedAttackHead] Target loses 5 PS"
                 }
               ]
             }
@@ -4768,7 +4768,7 @@
         {
           "level": 1,
           "name": "No Trespassing",
-          "desc": "Targets the unit with the most HP",
+          "desc": "Targets the unit with the most PV",
           "coinlist": [
             {},
             {

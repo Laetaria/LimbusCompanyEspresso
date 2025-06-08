@@ -47,33 +47,33 @@
     {
       "id": 9748,
       "name": "Hardship",
-      "desc": "Clash Win: Heal SP equal to the number of Clashes (max 3)\nIf the affected unit is already at 45+ SP, gain (# of Clashes/2) [AttackUp] next turn (max 3)",
+      "desc": "Clash Win: Heal PS equal to the number of Clashes (max 3)\nIf the affected unit is already at 45+ PS, gain (# of Clashes/2) [AttackUp] next turn (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9748,
-          "simpleDesc": "On Clash Win, heal SP equal to number of Clashes"
+          "simpleDesc": "On Clash Win, heal PS equal to number of Clashes"
         }
       ]
     },
     {
       "id": 9749,
       "name": "Crown of Thorns",
-      "desc": "Turn Start: 1 ally with the least SP heals 8 SP (unless they are in Panic or in E.G.O Corrosion)\nIf the said ally was already at max SP, Clash Power +1 for this turn\nFor this turn: [MentalSystemResultIncrease_Typo] +1, [MentalSystemResultDecrease_Typo] -1",
+      "desc": "Turn Start: 1 ally with the least PS heals 8 PS (unless they are in Panic or in E.G.O Corrosion)\nIf the said ally was already at max PS, Clash Power +1 for this turn\nFor this turn: [MentalSystemResultIncrease_Typo] +1, [MentalSystemResultDecrease_Typo] -1",
       "simpleDesc": [
         {
           "abilityID": 9749,
-          "simpleDesc": "Turn Start: heal 8 SP to 1 ally with the least SP"
+          "simpleDesc": "Turn Start: heal 8 PS to 1 ally with the least PS"
         }
       ]
     },
     {
       "id": 9750,
       "name": "Rest",
-      "desc": "Lose 1 less SP when an ally loses SP due to their own Base Attack Skill effect\nIf the target has [Sinking], deal +2% damage for every Heads Coin this Attack Skill flipped when attacking (max 16%)",
+      "desc": "Lose 1 less PS when an ally loses PS due to their own Base Attack Skill effect\nIf the target has [Sinking], deal +2% damage for every Heads Coin this Attack Skill flipped when attacking (max 16%)",
       "simpleDesc": [
         {
           "abilityID": 9750,
-          "simpleDesc": "Lose 1 less SP when an ally loses SP due to their own Base Attack Skill effect"
+          "simpleDesc": "Lose 1 less PS when an ally loses PS due to their own Base Attack Skill effect"
         },
         {
           "abilityID": 97501,

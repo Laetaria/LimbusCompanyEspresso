@@ -96,15 +96,15 @@
     {
       "id": 9004,
       "name": "Phlebotomy Pack",
-      "desc": "When hitting an enemy with a Skill, heal 12.5% of the character's missing HP. (Once per character per turn.)\n\nIf the Skill's Affinity was Wrath, heal 25% of missing HP instead.",
+      "desc": "When hitting an enemy with a Skill, heal 12.5% of the character's missing PV. (Once per character per turn.)\n\nIf the Skill's Affinity was Wrath, heal 25% of missing PV instead.",
       "simpleDesc": [
         {
           "abilityID": 9004,
-          "simpleDesc": "Heal 12.5% of missing HP"
+          "simpleDesc": "Heal 12.5% of missing PV"
         },
         {
           "abilityID": 90041,
-          "simpleDesc": "Heal 25% of missing HP"
+          "simpleDesc": "Heal 25% of missing PV"
         }
       ]
     },
@@ -301,7 +301,7 @@
     {
       "id": 9013,
       "name": "Talisman Bundle",
-      "desc": "Whenever an ally deals 12+ HP damage to an enemy with a Skill, inflict 2 [Burst] Potency on target.\n\nWhen using a Slash Skill, inflict 4 [Burst] Potency instead.",
+      "desc": "Whenever an ally deals 12+ PV damage to an enemy with a Skill, inflict 2 [Burst] Potency on target.\n\nWhen using a Slash Skill, inflict 4 [Burst] Potency instead.",
       "simpleDesc": [
         {
           "abilityID": 9013,
@@ -316,7 +316,7 @@
     {
       "id": 19013,
       "name": "Talisman Bundle+",
-      "desc": "Whenever an ally deals 12+ HP damage to an enemy with a Skill, inflict <style=\"upgradeHighlight\">3 [Burst] Potency</style> on target.\n\nWhen using a Slash Skill, inflict <style=\"upgradeHighlight\">5 [Burst] Potency</style> instead.",
+      "desc": "Whenever an ally deals 12+ PV damage to an enemy with a Skill, inflict <style=\"upgradeHighlight\">3 [Burst] Potency</style> on target.\n\nWhen using a Slash Skill, inflict <style=\"upgradeHighlight\">5 [Burst] Potency</style> instead.",
       "simpleDesc": [
         {
           "abilityID": 19013,
@@ -331,7 +331,7 @@
     {
       "id": 29013,
       "name": "Talisman Bundle++",
-      "desc": "Whenever an ally deals <style=\"upgradeHighlight\">1+ HP damage to an enemy with a Skill</style>, inflict 3 [Burst] Potency on target.\n\nWhen using a Slash Skill, inflict 5 [Burst] Potency and <style=\"upgradeHighlight\">+1 [Burst] Count</style> instead.",
+      "desc": "Whenever an ally deals <style=\"upgradeHighlight\">1+ PV damage to an enemy with a Skill</style>, inflict 3 [Burst] Potency on target.\n\nWhen using a Slash Skill, inflict 5 [Burst] Potency and <style=\"upgradeHighlight\">+1 [Burst] Count</style> instead.",
       "simpleDesc": [
         {
           "abilityID": 9013,
@@ -439,15 +439,15 @@
     {
       "id": 9017,
       "name": "Lithograph",
-      "desc": "Whenever an enemy is Staggered, the ally with the least HP heals 5% of their Max HP.\n\nIf said ally has Gluttony Affinity Attack Skills, heal 10% of Max HP instead.",
+      "desc": "Whenever an enemy is Staggered, the ally with the least PV heals 5% of their Max PV.\n\nIf said ally has Gluttony Affinity Attack Skills, heal 10% of Max PV instead.",
       "simpleDesc": [
         {
           "abilityID": 9017,
-          "simpleDesc": "Heal 5% of Max HP"
+          "simpleDesc": "Heal 5% of Max PV"
         },
         {
           "abilityID": 90171,
-          "simpleDesc": "Heal 10% of Max HP"
+          "simpleDesc": "Heal 10% of Max PV"
         }
       ]
     },
@@ -643,11 +643,11 @@
     {
       "id": 9027,
       "name": "Lowest Star",
-      "desc": "When hitting an enemy with a Blunt Skill or a Pride Affinity Skill, inflict 2 fixed SP damage on target.\n\nAllies with less than 0 SP deal 10% damage.",
+      "desc": "When hitting an enemy with a Blunt Skill or a Pride Affinity Skill, inflict 2 fixed PS damage on target.\n\nAllies with less than 0 PS deal 10% damage.",
       "simpleDesc": [
         {
           "abilityID": 9027,
-          "simpleDesc": "Deal 2 SP damage"
+          "simpleDesc": "Deal 2 PS damage"
         },
         {
           "abilityID": 90271,
@@ -658,11 +658,11 @@
     {
       "id": 19027,
       "name": "Lowest Star+",
-      "desc": "When hitting an enemy with a Blunt Skill or a Pride Affinity Skill, inflict <style=\"upgradeHighlight\">3 fixed SP damage on target</style>.\n\nAllies with less than 0 SP deal <style=\"upgradeHighlight\">15% damage</style>.",
+      "desc": "When hitting an enemy with a Blunt Skill or a Pride Affinity Skill, inflict <style=\"upgradeHighlight\">3 fixed PS damage on target</style>.\n\nAllies with less than 0 PS deal <style=\"upgradeHighlight\">15% damage</style>.",
       "simpleDesc": [
         {
           "abilityID": 19027,
-          "simpleDesc": "Deal 3 SP damage"
+          "simpleDesc": "Deal 3 PS damage"
         },
         {
           "abilityID": 190271,
@@ -673,11 +673,11 @@
     {
       "id": 29027,
       "name": "Lowest Star++",
-      "desc": "When hitting an enemy with a Blunt Skill or a Pride Affinity Skill, inflict <style=\"upgradeHighlight\">5 fixed SP damage on target</style>.\n\nAllies with less than 0 SP deal <style=\"upgradeHighlight\">25% damage</style>.",
+      "desc": "When hitting an enemy with a Blunt Skill or a Pride Affinity Skill, inflict <style=\"upgradeHighlight\">5 fixed PS damage on target</style>.\n\nAllies with less than 0 PS deal <style=\"upgradeHighlight\">25% damage</style>.",
       "simpleDesc": [
         {
           "abilityID": 29027,
-          "simpleDesc": "Deal 5 SP damage"
+          "simpleDesc": "Deal 5 PS damage"
         },
         {
           "abilityID": 290271,
@@ -688,15 +688,15 @@
     {
       "id": 9028,
       "name": "Prejudice",
-      "desc": "First Turn Start of an Encounter: the ally with the least HP heals 15% of their Max HP.\n\nWhen activating Pride Absolute Resonance, the ally with the least HP heals 12.5% of their missing HP at Combat Start.",
+      "desc": "First Turn Start of an Encounter: the ally with the least PV heals 15% of their Max PV.\n\nWhen activating Pride Absolute Resonance, the ally with the least PV heals 12.5% of their missing PV at Combat Start.",
       "simpleDesc": [
         {
           "abilityID": 9028,
-          "simpleDesc": "Heal 15% of Max HP"
+          "simpleDesc": "Heal 15% of Max PV"
         },
         {
           "abilityID": 90281,
-          "simpleDesc": "Heal 12.5% of missing HP"
+          "simpleDesc": "Heal 12.5% of missing PV"
         }
       ]
     },
@@ -823,7 +823,7 @@
     {
       "id": 9035,
       "name": "Voodoo Doll",
-      "desc": "Turn Start: deal 3 fixed Envy Affinity damage to all enemies.\n\nInflict 1 [ResultReduction] to enemies with 33% or less HP.",
+      "desc": "Turn Start: deal 3 fixed Envy Affinity damage to all enemies.\n\nInflict 1 [ResultReduction] to enemies with 33% or less PV.",
       "simpleDesc": [
         {
           "abilityID": 9035,
@@ -838,7 +838,7 @@
     {
       "id": 19035,
       "name": "Voodoo Doll+",
-      "desc": "Turn Start: deal <style=\"upgradeHighlight\">4 fixed Envy Affinity damage</style> to all enemies.\n\nInflict 1 [ResultReduction] to enemies with <style=\"upgradeHighlight\">50% or less HP</style>.",
+      "desc": "Turn Start: deal <style=\"upgradeHighlight\">4 fixed Envy Affinity damage</style> to all enemies.\n\nInflict 1 [ResultReduction] to enemies with <style=\"upgradeHighlight\">50% or less PV</style>.",
       "simpleDesc": [
         {
           "abilityID": 19035,
@@ -853,7 +853,7 @@
     {
       "id": 29035,
       "name": "Voodoo Doll++",
-      "desc": "Turn Start: deal <style=\"upgradeHighlight\">5 fixed Envy Affinity damage</style> to all enemies.\n\n<style=\"upgradeHighlight\">Inflict 2 [ResultReduction]</style> to enemies with 50% or less HP.",
+      "desc": "Turn Start: deal <style=\"upgradeHighlight\">5 fixed Envy Affinity damage</style> to all enemies.\n\n<style=\"upgradeHighlight\">Inflict 2 [ResultReduction]</style> to enemies with 50% or less PV.",
       "simpleDesc": [
         {
           "abilityID": 29035,
@@ -868,33 +868,33 @@
     {
       "id": 9036,
       "name": "Carmilla",
-      "desc": "At the start of a non-Focused Encounter, all enemies take fixed damage equal to 20% of their Max HP.",
+      "desc": "At the start of a non-Focused Encounter, all enemies take fixed damage equal to 20% of their Max PV.",
       "simpleDesc": [
         {
           "abilityID": 9036,
-          "simpleDesc": "Deal 20% of Max HP as fixed damage"
+          "simpleDesc": "Deal 20% of Max PV as fixed damage"
         }
       ]
     },
     {
       "id": 19036,
       "name": "Carmilla+",
-      "desc": "At the start of a non-Focused Encounter, all enemies <style=\"upgradeHighlight\">take fixed damage equal to 25% of their Max HP</style>.",
+      "desc": "At the start of a non-Focused Encounter, all enemies <style=\"upgradeHighlight\">take fixed damage equal to 25% of their Max PV</style>.",
       "simpleDesc": [
         {
           "abilityID": 19036,
-          "simpleDesc": "Deal 25% of Max HP as fixed damage"
+          "simpleDesc": "Deal 25% of Max PV as fixed damage"
         }
       ]
     },
     {
       "id": 29036,
       "name": "Carmilla++",
-      "desc": "At the start of a non-Focused Encounter, all enemies <style=\"upgradeHighlight\">take fixed damage equal to 30% of their Max HP</style>.",
+      "desc": "At the start of a non-Focused Encounter, all enemies <style=\"upgradeHighlight\">take fixed damage equal to 30% of their Max PV</style>.",
       "simpleDesc": [
         {
           "abilityID": 29036,
-          "simpleDesc": "Deal 30% of Max HP as fixed damage"
+          "simpleDesc": "Deal 30% of Max PV as fixed damage"
         }
       ]
     },
@@ -923,11 +923,11 @@
     {
       "id": 9039,
       "name": "Homeward",
-      "desc": "Encounter Start: all participating allies heal 12% of their Max HP.",
+      "desc": "Encounter Start: all participating allies heal 12% of their Max PV.",
       "simpleDesc": [
         {
           "abilityID": 9039,
-          "simpleDesc": "Heal 12% of Max HP"
+          "simpleDesc": "Heal 12% of Max PV"
         }
       ]
     },
@@ -1263,7 +1263,7 @@
     {
       "id": 9049,
       "name": "Thorny Path",
-      "desc": "When hitting and dealing HP damage to an enemy with a Skill that inflicts [Sinking] Potency or 'Unique Sinking', inflict 3 [Sinking] Potency and +2 [Sinking] Count at Turn End. (Once per enemy per turn)\n\nWhen activating Lust Absolute Resonance, inflict 2 [Sinking] Potency and +3 [Sinking] Count to all enemies(for Abnormalities, a random Part) at Combat Start.",
+      "desc": "When hitting and dealing PV damage to an enemy with a Skill that inflicts [Sinking] Potency or 'Unique Sinking', inflict 3 [Sinking] Potency and +2 [Sinking] Count at Turn End. (Once per enemy per turn)\n\nWhen activating Lust Absolute Resonance, inflict 2 [Sinking] Potency and +3 [Sinking] Count to all enemies(for Abnormalities, a random Part) at Combat Start.",
       "simpleDesc": [
         {
           "abilityID": 9049,
@@ -1278,7 +1278,7 @@
     {
       "id": 19049,
       "name": "Thorny Path+",
-      "desc": "When hitting and dealing HP damage to an enemy with a Skill that inflicts [Sinking] Potency or 'Unique Sinking', inflict 3 [Sinking] Potency and +2 [Sinking] Count at Turn End. (Once per enemy per turn)\n\nWhen <style=\"upgradeHighlight\">activating Lust Resonance</style>, inflict 2 [Sinking] Potency and +3 [Sinking] Count to all enemies(for Abnormalities, a random Part) at Combat Start.",
+      "desc": "When hitting and dealing PV damage to an enemy with a Skill that inflicts [Sinking] Potency or 'Unique Sinking', inflict 3 [Sinking] Potency and +2 [Sinking] Count at Turn End. (Once per enemy per turn)\n\nWhen <style=\"upgradeHighlight\">activating Lust Resonance</style>, inflict 2 [Sinking] Potency and +3 [Sinking] Count to all enemies(for Abnormalities, a random Part) at Combat Start.",
       "simpleDesc": [
         {
           "abilityID": 19049,
@@ -1293,7 +1293,7 @@
     {
       "id": 29049,
       "name": "Thorny Path++",
-      "desc": "When hitting and dealing HP damage to an enemy with a Skill that inflicts [Sinking] Potency or 'Unique Sinking', inflict <style=\"upgradeHighlight\">4 [Sinking] Potency and +3 [Sinking] Count</style> at Turn End. (Once per enemy per turn)\n\nWhen activating Lust Resonance, inflict 3 [Sinking] Potency and +3 [Sinking] Count to all enemies(for Abnormalities, a random Part) at Combat Start.",
+      "desc": "When hitting and dealing PV damage to an enemy with a Skill that inflicts [Sinking] Potency or 'Unique Sinking', inflict <style=\"upgradeHighlight\">4 [Sinking] Potency and +3 [Sinking] Count</style> at Turn End. (Once per enemy per turn)\n\nWhen activating Lust Resonance, inflict 3 [Sinking] Potency and +3 [Sinking] Count to all enemies(for Abnormalities, a random Part) at Combat Start.",
       "simpleDesc": [
         {
           "abilityID": 29049,
@@ -1585,7 +1585,7 @@
     {
       "id": 9059,
       "name": "Midwinter Nightmare",
-      "desc": "When hitting and dealing HP damage to an enemy with a Skill, inflict 3 [Sinking] Potency.\n\nIf the Skill's Affinity was Gluttony, inflict 5 [Sinking] Potency instead.",
+      "desc": "When hitting and dealing PV damage to an enemy with a Skill, inflict 3 [Sinking] Potency.\n\nIf the Skill's Affinity was Gluttony, inflict 5 [Sinking] Potency instead.",
       "simpleDesc": [
         {
           "abilityID": 9059,
@@ -1608,7 +1608,7 @@
         },
         {
           "abilityID": 90601,
-          "simpleDesc": "Inflict ([Burst] Potency x [Burst] Count) Gluttony HP damage, then reduce [Burst] Count by 2"
+          "simpleDesc": "Inflict ([Burst] Potency x [Burst] Count) Gluttony PV damage, then reduce [Burst] Count by 2"
         }
       ]
     },
@@ -1623,7 +1623,7 @@
         },
         {
           "abilityID": 190601,
-          "simpleDesc": "Inflict ([Burst] Potency x [Burst] Count) Gluttony HP damage, then reduce [Burst] Count by 1"
+          "simpleDesc": "Inflict ([Burst] Potency x [Burst] Count) Gluttony PV damage, then reduce [Burst] Count by 1"
         }
       ]
     },
@@ -1638,7 +1638,7 @@
         },
         {
           "abilityID": 290601,
-          "simpleDesc": "Inflict ([Burst] Potency x [Burst] Count) Gluttony HP damage"
+          "simpleDesc": "Inflict ([Burst] Potency x [Burst] Count) Gluttony PV damage"
         }
       ]
     },
@@ -1769,7 +1769,7 @@
     {
       "id": 9065,
       "name": "Artistic Sense",
-      "desc": "Deal +35% damage against enemies suffering negative effects (Low Morale, Panic) from SP loss.\n\nWhen [Sinking]'s effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
+      "desc": "Deal +35% damage against enemies suffering negative effects (Low Morale, Panic) from PS loss.\n\nWhen [Sinking]'s effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
       "simpleDesc": [
         {
           "abilityID": 9065,
@@ -1784,7 +1784,7 @@
     {
       "id": 19065,
       "name": "Artistic Sense+",
-      "desc": "<style=\"upgradeHighlight\">Deal +40% damage against enemies with 0 or less SP.</style>\n\nWhen [Sinking]'s effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
+      "desc": "<style=\"upgradeHighlight\">Deal +40% damage against enemies with 0 or less PS.</style>\n\nWhen [Sinking]'s effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
       "simpleDesc": [
         {
           "abilityID": 19065,
@@ -1799,7 +1799,7 @@
     {
       "id": 29065,
       "name": "Artistic Sense++",
-      "desc": "<style=\"upgradeHighlight\">Deal +50% damage against enemies without Sanity or ones with 0 or less SP.</style>\n\nWhen [Sinking]'s effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
+      "desc": "<style=\"upgradeHighlight\">Deal +50% damage against enemies without Sanity or ones with 0 or less PS.</style>\n\nWhen [Sinking]'s effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
       "simpleDesc": [
         {
           "abilityID": 29065,
@@ -1859,11 +1859,11 @@
     {
       "id": 9067,
       "name": "Special Contract",
-      "desc": "Enemies Staggered by taking Skill damage also receive fixed damage by 33% of their Max HP (for Abnormalities, the Part's HP), and are inflicted with 2 [Vulnerable] next turn. (Once per Encounter)",
+      "desc": "Enemies Staggered by taking Skill damage also receive fixed damage by 33% of their Max PV (for Abnormalities, the Part's PV), and are inflicted with 2 [Vulnerable] next turn. (Once per Encounter)",
       "simpleDesc": [
         {
           "abilityID": 9067,
-          "simpleDesc": "Deal 33% of Max HP as fixed damage; Inflict 2 [Vulnerable] next turn"
+          "simpleDesc": "Deal 33% of Max PV as fixed damage; Inflict 2 [Vulnerable] next turn"
         }
       ]
     },
@@ -2068,7 +2068,7 @@
     {
       "id": 9074,
       "name": "Headless Portrait",
-      "desc": "Combat Start: Inflict 2 [Sinking] Potency on all enemies with less than 0 SP. (for Abnormalities, one random part)\n\nFor each Envy Affinity Skill used, randomly inflict 1 [Sinking] Potency between all enemies next turn. (for Abnormalities, one random part)",
+      "desc": "Combat Start: Inflict 2 [Sinking] Potency on all enemies with less than 0 PS. (for Abnormalities, one random part)\n\nFor each Envy Affinity Skill used, randomly inflict 1 [Sinking] Potency between all enemies next turn. (for Abnormalities, one random part)",
       "simpleDesc": [
         {
           "abilityID": 9074,
@@ -2083,7 +2083,7 @@
     {
       "id": 19074,
       "name": "Headless Portrait+",
-      "desc": "Combat Start: Inflict <style=\"upgradeHighlight\">3 [Sinking] Potency</style> on all enemies with less than 0 SP. (for Abnormalities, one random part)\n\nFor each Envy Affinity Skill used, randomly inflict <style=\"upgradeHighlight\">2 [Sinking] Potency</style> between all enemies next turn. (for Abnormalities, one random part)",
+      "desc": "Combat Start: Inflict <style=\"upgradeHighlight\">3 [Sinking] Potency</style> on all enemies with less than 0 PS. (for Abnormalities, one random part)\n\nFor each Envy Affinity Skill used, randomly inflict <style=\"upgradeHighlight\">2 [Sinking] Potency</style> between all enemies next turn. (for Abnormalities, one random part)",
       "simpleDesc": [
         {
           "abilityID": 19074,
@@ -2098,7 +2098,7 @@
     {
       "id": 29074,
       "name": "Headless Portrait++",
-      "desc": "Combat Start: Inflict <style=\"upgradeHighlight\">4 [Sinking] Potency and +1 [Sinking] Count</style> on all enemies with less than 0 SP. (for Abnormalities, one random part)\n\nFor each Envy Affinity Skill used, randomly inflict <style=\"upgradeHighlight\">3 [Sinking] Potency</style> between all enemies next turn. (for Abnormalities, one random part)",
+      "desc": "Combat Start: Inflict <style=\"upgradeHighlight\">4 [Sinking] Potency and +1 [Sinking] Count</style> on all enemies with less than 0 PS. (for Abnormalities, one random part)\n\nFor each Envy Affinity Skill used, randomly inflict <style=\"upgradeHighlight\">3 [Sinking] Potency</style> between all enemies next turn. (for Abnormalities, one random part)",
       "simpleDesc": [
         {
           "abilityID": 29074,
@@ -2170,22 +2170,22 @@
     {
       "id": 9076,
       "name": "First-aid Kit",
-      "desc": "Turn Start: one ally under 50% HP heals 25% of Max HP. (Once per Encounter; does not activate if the ally is dead)",
+      "desc": "Turn Start: one ally under 50% PV heals 25% of Max PV. (Once per Encounter; does not activate if the ally is dead)",
       "simpleDesc": [
         {
           "abilityID": 9076,
-          "simpleDesc": "Heal 25% of Max HP"
+          "simpleDesc": "Heal 25% of Max PV"
         }
       ]
     },
     {
       "id": 9077,
       "name": "Painkiller",
-      "desc": "Turn Start: Staggered allies heal by 12.5% of Max HP and gain 3 [Protection] for this turn.",
+      "desc": "Turn Start: Staggered allies heal by 12.5% of Max PV and gain 3 [Protection] for this turn.",
       "simpleDesc": [
         {
           "abilityID": 9077,
-          "simpleDesc": "Heal by 12.5% of Max HP; Gain 3 [Protection]"
+          "simpleDesc": "Heal by 12.5% of Max PV; Gain 3 [Protection]"
         }
       ]
     },
@@ -2225,11 +2225,11 @@
     {
       "id": 9081,
       "name": "Faith",
-      "desc": "After using a Plus Coin Skill, fully heal the ally's SP at the next Turn Start. (Unless corroded)",
+      "desc": "After using a Plus Coin Skill, fully heal the ally's PS at the next Turn Start. (Unless corroded)",
       "simpleDesc": [
         {
           "abilityID": 9036,
-          "simpleDesc": "Fully heal SP"
+          "simpleDesc": "Fully heal PS"
         }
       ]
     },
@@ -2291,7 +2291,7 @@
     {
       "id": 9085,
       "name": "Non-disclosure Agreement",
-      "desc": "Turn Start: A random ally deals +10% damage (effective until Non-disclosure Agreement effect expires).\n\nThe ally deals additional +10% damage every time it hits with a Skill and deals HP damage to an enemy (Max +40% damage). If the ally takes HP damage, the Gift's effect expires. At the next Turn Start, apply the same Gift effect to another random ally. (effect expires if no other allies can be selected)",
+      "desc": "Turn Start: A random ally deals +10% damage (effective until Non-disclosure Agreement effect expires).\n\nThe ally deals additional +10% damage every time it hits with a Skill and deals PV damage to an enemy (Max +40% damage). If the ally takes PV damage, the Gift's effect expires. At the next Turn Start, apply the same Gift effect to another random ally. (effect expires if no other allies can be selected)",
       "simpleDesc": [
         {
           "abilityID": 9085,
@@ -2369,7 +2369,7 @@
     {
       "id": 9089,
       "name": "Rusted Muzzle",
-      "desc": "When hitting and dealing 12+ HP damage to an enemy with a Skill, inflict 2 [Laceration] Potency.\n\nWhen using a Slash Skill, inflict 4 [Laceration] Potency instead.",
+      "desc": "When hitting and dealing 12+ PV damage to an enemy with a Skill, inflict 2 [Laceration] Potency.\n\nWhen using a Slash Skill, inflict 4 [Laceration] Potency instead.",
       "simpleDesc": [
         {
           "abilityID": 9089,
@@ -2384,7 +2384,7 @@
     {
       "id": 19089,
       "name": "Rusted Muzzle+",
-      "desc": "When hitting and dealing 12+ HP damage to an enemy with a Skill, inflict <style=\"upgradeHighlight\">3 [Laceration] Potency</style> on target.\n\nWhen using a Slash Skill, inflict <style=\"upgradeHighlight\">5 [Laceration] Potency</style> instead.",
+      "desc": "When hitting and dealing 12+ PV damage to an enemy with a Skill, inflict <style=\"upgradeHighlight\">3 [Laceration] Potency</style> on target.\n\nWhen using a Slash Skill, inflict <style=\"upgradeHighlight\">5 [Laceration] Potency</style> instead.",
       "simpleDesc": [
         {
           "abilityID": 19089,
@@ -2399,7 +2399,7 @@
     {
       "id": 29089,
       "name": "Rusted Muzzle++",
-      "desc": "Whenever an ally deals <style=\"upgradeHighlight\">1+ HP damage to an enemy with a Skill</style>, inflict 3 [Laceration] Potency on target.\n\nWhen using a Slash Skill, inflict 5 [Laceration] Potency and <style=\"upgradeHighlight\">+1 [Laceration] Count</style> instead.",
+      "desc": "Whenever an ally deals <style=\"upgradeHighlight\">1+ PV damage to an enemy with a Skill</style>, inflict 3 [Laceration] Potency on target.\n\nWhen using a Slash Skill, inflict 5 [Laceration] Potency and <style=\"upgradeHighlight\">+1 [Laceration] Count</style> instead.",
       "simpleDesc": [
         {
           "abilityID": 29089,
@@ -2470,7 +2470,7 @@
     {
       "id": 9092,
       "name": "Coupled Oscillation",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nFirst Turn Start of a wave: Inflict 5 [Vibration] and +5 [Vibration] Count to all enemies. (or all Abnormality parts)\n\nApply 5 [Vibration] Potency and 2 [Vulnerable] this turn and next turn to enemies affected by [VibrationExplosion]. (activates once per Attack Skill that triggers [VibrationExplosion])\n\nAfter triggering 3 [VibrationExplosion] to a target this turn, Stagger the target at the next Turn Start and add a new Stagger Threshold at 66% and 33% marks of the target's current HP. (once per Encounter)\n\nWhen triggering [Switch_Vibration] or [FusionVibration], inflict 1 [Vulnerable] (3 times per turn)",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nFirst Turn Start of a wave: Inflict 5 [Vibration] and +5 [Vibration] Count to all enemies. (or all Abnormality parts)\n\nApply 5 [Vibration] Potency and 2 [Vulnerable] this turn and next turn to enemies affected by [VibrationExplosion]. (activates once per Attack Skill that triggers [VibrationExplosion])\n\nAfter triggering 3 [VibrationExplosion] to a target this turn, Stagger the target at the next Turn Start and add a new Stagger Threshold at 66% and 33% marks of the target's current PV. (once per Encounter)\n\nWhen triggering [Switch_Vibration] or [FusionVibration], inflict 1 [Vulnerable] (3 times per turn)",
       "simpleDesc": [
         {
           "abilityID": 9092,
@@ -2574,7 +2574,7 @@
     {
       "id": 9096,
       "name": "Black Sheet Music",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nOn Hit against an enemy with a Skill: inflict 5 [Sinking] Potency.\n\nTurn Start: enemies or Parts with [Sinking] regain ([Sinking] Count each enemy lost On Hit last turn / 2) [Sinking] Count.\n\nIf the Base Attack Skill hits against a target with less than 0 SP(for enemies without SP, if they have 1.2+ Gloom Resist.), inflict ([Sinking] Potency / 10) Gloom Affinity damage (min 1, this effect can activate up to 10 times per turn)",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nOn Hit against an enemy with a Skill: inflict 5 [Sinking] Potency.\n\nTurn Start: enemies or Parts with [Sinking] regain ([Sinking] Count each enemy lost On Hit last turn / 2) [Sinking] Count.\n\nIf the Base Attack Skill hits against a target with less than 0 PS(for enemies without PS, if they have 1.2+ Gloom Resist.), inflict ([Sinking] Potency / 10) Gloom Affinity damage (min 1, this effect can activate up to 10 times per turn)",
       "simpleDesc": [
         {
           "abilityID": 9096,
@@ -2750,7 +2750,7 @@
     {
       "id": 9102,
       "name": "Polarization",
-      "desc": "If the ally has 30 or more SP than the target, deal +7.5% damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without SP, their 'SP' counts as 0)",
+      "desc": "If the ally has 30 or more PS than the target, deal +7.5% damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without PS, their 'PS' counts as 0)",
       "simpleDesc": [
         {
           "abilityID": 9102,
@@ -2761,7 +2761,7 @@
     {
       "id": 19102,
       "name": "Polarization+",
-      "desc": "If the ally has <style=\"upgradeHighlight\">25</style> or more SP than the target, deal <style=\"upgradeHighlight\">+12.5%</style> more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without SP, their 'SP' counts as 0)",
+      "desc": "If the ally has <style=\"upgradeHighlight\">25</style> or more PS than the target, deal <style=\"upgradeHighlight\">+12.5%</style> more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without PS, their 'PS' counts as 0)",
       "simpleDesc": [
         {
           "abilityID": 19102,
@@ -2772,7 +2772,7 @@
     {
       "id": 29102,
       "name": "Polarization++",
-      "desc": "If the ally has <style=\"upgradeHighlight\">15</style> or more SP than the target, deal <style=\"upgradeHighlight\">+20%</style> more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without SP, their 'SP' counts as 0)",
+      "desc": "If the ally has <style=\"upgradeHighlight\">15</style> or more PS than the target, deal <style=\"upgradeHighlight\">+20%</style> more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without PS, their 'PS' counts as 0)",
       "simpleDesc": [
         {
           "abilityID": 29102,
@@ -2816,7 +2816,7 @@
     {
       "id": 9104,
       "name": "Ardent Flower",
-      "desc": "[Effect applies only to #1, #2 Deployed Identities]\n\nWhen an ally attacks an enemy, if target has ([Combustion] Potency on self)% or less HP(for Abnormalities, Core HP), deal +50% damage with Attack Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'.",
+      "desc": "[Effect applies only to #1, #2 Deployed Identities]\n\nWhen an ally attacks an enemy, if target has ([Combustion] Potency on self)% or less PV(for Abnormalities, Core PV), deal +50% damage with Attack Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'.",
       "simpleDesc": [
         {
           "abilityID": 9104,
@@ -3289,45 +3289,45 @@
     {
       "id": 9123,
       "name": "Rags",
-      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal 5 additional SP(once per turn) upon Clash Win; if at max SP, deal +7.5% damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP)% damage; if already at less than -15 SP, deal +15% damage.",
+      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal 5 additional PS(once per turn) upon Clash Win; if at max PS, deal +7.5% damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher PS, reduce PS to -15 and deal +(amount of lost PS)% damage; if already at less than -15 PS, deal +15% damage.",
       "simpleDesc": [
         {
           "abilityID": 9123,
-          "simpleDesc": "At max SP, deal +7.5% damage"
+          "simpleDesc": "At max PS, deal +7.5% damage"
         },
         {
           "abilityID": 91231,
-          "simpleDesc": "At -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP)% damage; if already at less than -15 SP, deal +15% damage"
+          "simpleDesc": "At -15 or higher PS, reduce PS to -15 and deal +(amount of lost PS)% damage; if already at less than -15 PS, deal +15% damage"
         }
       ]
     },
     {
       "id": 19123,
       "name": "Rags+",
-      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal <style=\"upgradeHighlight\">6</style> additional SP(once per turn) upon Clash Win; if at max SP, deal +<style=\"upgradeHighlight\">10</style>% damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP <style=\"upgradeHighlight\">+ 5</style>)% damage; if already at less than -15 SP, deal +<style=\"upgradeHighlight\">20</style>% damage.",
+      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal <style=\"upgradeHighlight\">6</style> additional PS(once per turn) upon Clash Win; if at max PS, deal +<style=\"upgradeHighlight\">10</style>% damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher PS, reduce PS to -15 and deal +(amount of lost PS <style=\"upgradeHighlight\">+ 5</style>)% damage; if already at less than -15 PS, deal +<style=\"upgradeHighlight\">20</style>% damage.",
       "simpleDesc": [
         {
           "abilityID": 19123,
-          "simpleDesc": "At max SP, deal +10% damage"
+          "simpleDesc": "At max PS, deal +10% damage"
         },
         {
           "abilityID": 191231,
-          "simpleDesc": "At -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP + 5)% damage; if already at less than -15 SP, deal +20% damage"
+          "simpleDesc": "At -15 or higher PS, reduce PS to -15 and deal +(amount of lost PS + 5)% damage; if already at less than -15 PS, deal +20% damage"
         }
       ]
     },
     {
       "id": 29123,
       "name": "Rags++",
-      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal <style=\"upgradeHighlight\">7</style> additional SP(once per turn) upon Clash Win; if at max SP, deal +<style=\"upgradeHighlight\">12.5</style>% damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher SP, reduce SP to -15 and deal +(SP lost <style=\"upgradeHighlight\">+ 10</style>)% damage; if already at less than -15 SP, deal +<style=\"upgradeHighlight\">25</style>% damage.",
+      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal <style=\"upgradeHighlight\">7</style> additional PS(once per turn) upon Clash Win; if at max PS, deal +<style=\"upgradeHighlight\">12.5</style>% damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher PS, reduce PS to -15 and deal +(PS lost <style=\"upgradeHighlight\">+ 10</style>)% damage; if already at less than -15 PS, deal +<style=\"upgradeHighlight\">25</style>% damage.",
       "simpleDesc": [
         {
           "abilityID": 29123,
-          "simpleDesc": "At max SP, deal +12.5% damage"
+          "simpleDesc": "At max PS, deal +12.5% damage"
         },
         {
           "abilityID": 291231,
-          "simpleDesc": "At -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP + 10)% damage; if already at less than -15 SP, deal +25% damage"
+          "simpleDesc": "At -15 or higher PS, reduce PS to -15 and deal +(amount of lost PS + 10)% damage; if already at less than -15 PS, deal +25% damage"
         }
       ]
     },
@@ -3338,7 +3338,7 @@
       "simpleDesc": [
         {
           "abilityID": 9124,
-          "simpleDesc": "Inflict 2 [Sinking] Potency and +2 [Sinking] Count against 1 random enemy with the least SP"
+          "simpleDesc": "Inflict 2 [Sinking] Potency and +2 [Sinking] Count against 1 random enemy with the least PS"
         }
       ]
     },
@@ -3349,7 +3349,7 @@
       "simpleDesc": [
         {
           "abilityID": 19124,
-          "simpleDesc": "Inflict 3 [Sinking] Potency and +2 [Sinking] Count against 1 random enemy with the least SP"
+          "simpleDesc": "Inflict 3 [Sinking] Potency and +2 [Sinking] Count against 1 random enemy with the least PS"
         }
       ]
     },
@@ -3360,14 +3360,14 @@
       "simpleDesc": [
         {
           "abilityID": 29124,
-          "simpleDesc": "Inflict 4 [Sinking] Potency and +3 [Sinking] Count against 1 random enemy with the least SP"
+          "simpleDesc": "Inflict 4 [Sinking] Potency and +3 [Sinking] Count against 1 random enemy with the least PS"
         }
       ]
     },
     {
       "id": 9125,
       "name": "Distant Star",
-      "desc": "When activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect from a Base Attack Skill that inflicts or gains [Sinking] Potency, [Sinking] Count, or 'Unique Sinking', heal 3 SP at Turn End (2 times per turn per Identity)\n\nIf the said unit was at 45 SP at Turn Start, the effect changes to the following: when activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect with a Base Attack Skill, inflict +2 [Sinking] Count on the target (2 times per turn per Identity)",
+      "desc": "When activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect from a Base Attack Skill that inflicts or gains [Sinking] Potency, [Sinking] Count, or 'Unique Sinking', heal 3 PS at Turn End (2 times per turn per Identity)\n\nIf the said unit was at 45 PS at Turn Start, the effect changes to the following: when activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect with a Base Attack Skill, inflict +2 [Sinking] Count on the target (2 times per turn per Identity)",
       "simpleDesc": [
         {
           "abilityID": 9124,
@@ -3378,7 +3378,7 @@
     {
       "id": 9126,
       "name": "Fragment of Decay",
-      "desc": "Activates when using E.G.O Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking'.\n\nGain Final Power equal to (Gloom E.G.O resource + sum of other E.G.O resources/3) consumed and deal +50% damage\n\nGloom E.G.O Skills: Inflict additional [Sinking] Count Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(SP consumed to activate E.G.O Skill x 2.5)% damage.",
+      "desc": "Activates when using E.G.O Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking'.\n\nGain Final Power equal to (Gloom E.G.O resource + sum of other E.G.O resources/3) consumed and deal +50% damage\n\nGloom E.G.O Skills: Inflict additional [Sinking] Count Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(PS consumed to activate E.G.O Skill x 2.5)% damage.",
       "simpleDesc": [
         {
           "abilityID": 9126,
@@ -3386,7 +3386,7 @@
         },
         {
           "abilityID": 91261,
-          "simpleDesc": "If conditions are met: Inflict additional [Sinking] Count based on E.G.O grades Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(SP consumed to activate E.G.O Skill x 2.5)% damage"
+          "simpleDesc": "If conditions are met: Inflict additional [Sinking] Count based on E.G.O grades Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(PS consumed to activate E.G.O Skill x 2.5)% damage"
         }
       ]
     },
@@ -3571,33 +3571,33 @@
     {
       "id": 9133,
       "name": "Uncapped Defibrilator",
-      "desc": "Turn End: heal HP and SP equal to the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn.\n\nIf this unit has 50%- remaining HP, boost the heal amount by x1.5.",
+      "desc": "Turn End: heal PV and PS equal to the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn.\n\nIf this unit has 50%- remaining PV, boost the heal amount by x1.5.",
       "simpleDesc": [
         {
           "abilityID": 9133,
-          "simpleDesc": "Heal HP and SP equal to the amount of [Charge] Count consumed"
+          "simpleDesc": "Heal PV and PS equal to the amount of [Charge] Count consumed"
         }
       ]
     },
     {
       "id": 19133,
       "name": "Uncapped Defibrilator+",
-      "desc": "Turn End: heal HP and SP equal to <style=\"upgradeHighlight\">(the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn + 1)</style>.\n\nIf this unit has 50%- remaining HP, boost the heal amount by <style=\"upgradeHighlight\">x2</style>.",
+      "desc": "Turn End: heal PV and PS equal to <style=\"upgradeHighlight\">(the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn + 1)</style>.\n\nIf this unit has 50%- remaining PV, boost the heal amount by <style=\"upgradeHighlight\">x2</style>.",
       "simpleDesc": [
         {
           "abilityID": 19133,
-          "simpleDesc": "Heal HP and SP equal to (the amount of [Charge] Count consumed + 1)"
+          "simpleDesc": "Heal PV and PS equal to (the amount of [Charge] Count consumed + 1)"
         }
       ]
     },
     {
       "id": 29133,
       "name": "Uncapped Defibrilator++",
-      "desc": "Turn End: heal HP and SP equal to (the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn <style=\"upgradeHighlight\">+ 2</style>).\n\nIf this unit has <style=\"upgradeHighlight\">75</style>%- remaining HP, boost the heal amount by x2.",
+      "desc": "Turn End: heal PV and PS equal to (the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn <style=\"upgradeHighlight\">+ 2</style>).\n\nIf this unit has <style=\"upgradeHighlight\">75</style>%- remaining PV, boost the heal amount by x2.",
       "simpleDesc": [
         {
           "abilityID": 29133,
-          "simpleDesc": "Heal HP and SP equal to (the amount of [Charge] Count consumed + 2)"
+          "simpleDesc": "Heal PV and PS equal to (the amount of [Charge] Count consumed + 2)"
         }
       ]
     },
@@ -3790,7 +3790,7 @@
     {
       "id": 9140,
       "name": "Resolution",
-      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain 1 [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' HP gets capped to 75% of Max HP. In return, take 50% damage and receive 50% reduced heal. (activates immediately upon entering an Encounter)",
+      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain 1 [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' PV gets capped to 75% of Max PV. In return, take 50% damage and receive 50% reduced heal. (activates immediately upon entering an Encounter)",
       "simpleDesc": [
         {
           "abilityID": 9140,
@@ -3798,14 +3798,14 @@
         },
         {
           "abilityID": 91401,
-          "simpleDesc": "HP gets capped to 75% of Max HP. In return, take 50% damage and receive 50% reduced heal."
+          "simpleDesc": "PV gets capped to 75% of Max PV. In return, take 50% damage and receive 50% reduced heal."
         }
       ]
     },
     {
       "id": 19140,
       "name": "Resolution+",
-      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain <style=\"upgradeHighlight\">2</style> [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' HP gets capped to <style=\"upgradeHighlight\">50%</style> of Max HP. In return, take <style=\"upgradeHighlight\">75% damage and receive 75%</style> reduced heal. (activates immediately upon entering an Encounter)",
+      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain <style=\"upgradeHighlight\">2</style> [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' PV gets capped to <style=\"upgradeHighlight\">50%</style> of Max PV. In return, take <style=\"upgradeHighlight\">75% damage and receive 75%</style> reduced heal. (activates immediately upon entering an Encounter)",
       "simpleDesc": [
         {
           "abilityID": 19140,
@@ -3813,14 +3813,14 @@
         },
         {
           "abilityID": 191401,
-          "simpleDesc": "HP gets capped to 50% of Max HP. In return, take 75% damage and receive 75% reduced heal."
+          "simpleDesc": "PV gets capped to 50% of Max PV. In return, take 75% damage and receive 75% reduced heal."
         }
       ]
     },
     {
       "id": 29140,
       "name": "Resolution++",
-      "desc": "All allies with 2 or more Slash Skills: gain Clash Power +1 on the first turn, and gain 2 [Agility] & <style=\"upgradeHighlight\">Final Power +1</style> starting from the second turn.\n\nShi Assoc. faction Identities' max heal ceiling gets capped to <style=\"upgradeHighlight\">49%</style> of Max HP. In return, take 75% damage and receive 75% reduced heal. (activates immediately upon entering an Encounter)",
+      "desc": "All allies with 2 or more Slash Skills: gain Clash Power +1 on the first turn, and gain 2 [Agility] & <style=\"upgradeHighlight\">Final Power +1</style> starting from the second turn.\n\nShi Assoc. faction Identities' max heal ceiling gets capped to <style=\"upgradeHighlight\">49%</style> of Max PV. In return, take 75% damage and receive 75% reduced heal. (activates immediately upon entering an Encounter)",
       "simpleDesc": [
         {
           "abilityID": 29140,
@@ -3828,7 +3828,7 @@
         },
         {
           "abilityID": 291401,
-          "simpleDesc": "HP gets capped to 49% of Max HP. In return, take 75% damage and receive 75% reduced heal."
+          "simpleDesc": "PV gets capped to 49% of Max PV. In return, take 75% damage and receive 75% reduced heal."
         }
       ]
     },
@@ -3880,7 +3880,7 @@
     {
       "id": 9142,
       "name": "Sundered Memory",
-      "desc": "[Effects apply only to #1 and #2 Deployed Identities]\n\nSlash Attack Skills(including E.G.O Skills) gain Base Power +2, Plus Coin Power +1, and Minus Coin Power -1\n\nOn Clash Win with a Slash Attack Skill(except E.G.O Skills), deal +30% damage with that Skill; On Hit with that Skill, deal +5% damage for every 5% missing HP on self (max 20%)",
+      "desc": "[Effects apply only to #1 and #2 Deployed Identities]\n\nSlash Attack Skills(including E.G.O Skills) gain Base Power +2, Plus Coin Power +1, and Minus Coin Power -1\n\nOn Clash Win with a Slash Attack Skill(except E.G.O Skills), deal +30% damage with that Skill; On Hit with that Skill, deal +5% damage for every 5% missing PV on self (max 20%)",
       "simpleDesc": [
         {
           "abilityID": 9142,
@@ -3888,7 +3888,7 @@
         },
         {
           "abilityID": 91421,
-          "simpleDesc": "Slash Skills deal more damage; deal more damage based on missing HP"
+          "simpleDesc": "Slash Skills deal more damage; deal more damage based on missing PV"
         }
       ]
     },
@@ -4135,7 +4135,7 @@
     {
       "id": 9149,
       "name": "Compression Bandage",
-      "desc": "[Effects apply only to #5 Deployed Identity]\n\nWhen hitting an enemy with a Blunt Skill, deal 3 bonus Blunt damage.\n\nGloom Affinity Attack Skill: heal an additional 3 HP as well.",
+      "desc": "[Effects apply only to #5 Deployed Identity]\n\nWhen hitting an enemy with a Blunt Skill, deal 3 bonus Blunt damage.\n\nGloom Affinity Attack Skill: heal an additional 3 PV as well.",
       "simpleDesc": [
         {
           "abilityID": 9149,
@@ -4143,14 +4143,14 @@
         },
         {
           "abilityID": 91491,
-          "simpleDesc": "Heal additional 3 HP"
+          "simpleDesc": "Heal additional 3 PV"
         }
       ]
     },
     {
       "id": 19149,
       "name": "Compression Bandage+",
-      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~5</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">4</style> HP as well.",
+      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~5</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">4</style> PV as well.",
       "simpleDesc": [
         {
           "abilityID": 19149,
@@ -4158,14 +4158,14 @@
         },
         {
           "abilityID": 191491,
-          "simpleDesc": "Heal additional 4 HP"
+          "simpleDesc": "Heal additional 4 PV"
         }
       ]
     },
     {
       "id": 29149,
       "name": "Compression Bandage++",
-      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~7</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">6</style> HP as well.",
+      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~7</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">6</style> PV as well.",
       "simpleDesc": [
         {
           "abilityID": 29149,
@@ -4173,7 +4173,7 @@
         },
         {
           "abilityID": 291491,
-          "simpleDesc": "Heal additional 6 HP."
+          "simpleDesc": "Heal additional 6 PV."
         }
       ]
     },
@@ -4296,11 +4296,11 @@
     {
       "id": 9154,
       "name": "Imposed Weight",
-      "desc": "If there are no other allies remaining at Turn End, consume 5% of the remaining HP next turn to gain 2 [Enhancement]. (does not activate at 25%- HP)\n\nIf this unit has 50%- HP, gain 3 [Enhancement] instead.",
+      "desc": "If there are no other allies remaining at Turn End, consume 5% of the remaining PV next turn to gain 2 [Enhancement]. (does not activate at 25%- PV)\n\nIf this unit has 50%- PV, gain 3 [Enhancement] instead.",
       "simpleDesc": [
         {
           "abilityID": 9154,
-          "simpleDesc": "Consume 5% of the remaining HP next turn to gain 2 [Enhancement]"
+          "simpleDesc": "Consume 5% of the remaining PV next turn to gain 2 [Enhancement]"
         }
       ]
     },
@@ -4419,7 +4419,7 @@
     {
       "id": 9165,
       "name": "Interlocked Cogs",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen [VibrationExplosion] triggers on a target for the 6th time this turn, add an additional Stagger Threshold at 0% mark of their current HP (once per Encounter)\n\nInflict 1 [Vulnerable] when triggering [Switch_Vibration] or [FusionVibration] (once per turn)",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen [VibrationExplosion] triggers on a target for the 6th time this turn, add an additional Stagger Threshold at 0% mark of their current PV (once per Encounter)\n\nInflict 1 [Vulnerable] when triggering [Switch_Vibration] or [FusionVibration] (once per turn)",
       "simpleDesc": [
         {
           "abilityID": 9165,
@@ -4449,7 +4449,7 @@
     {
       "id": 9174,
       "name": "Tangled Bones",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: enemies with [Sinking](for Abnormalities, all Parts) regain ([Sinking] Count lost on hit last turn / 3) [Sinking] Count.\n\nIf the Base Attack Skill hits against a target with less than 0 SP(for enemies without SP, if they have 1.5+ Gloom Resist.), inflict ([Sinking] Potency / 10) Gloom Affinity damage (min 1, 10 times per turn for this effect)",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: enemies with [Sinking](for Abnormalities, all Parts) regain ([Sinking] Count lost on hit last turn / 3) [Sinking] Count.\n\nIf the Base Attack Skill hits against a target with less than 0 PS(for enemies without PS, if they have 1.5+ Gloom Resist.), inflict ([Sinking] Potency / 10) Gloom Affinity damage (min 1, 10 times per turn for this effect)",
       "simpleDesc": [
         {
           "abilityID": 9174,
@@ -4641,7 +4641,7 @@
     {
       "id": 9192,
       "name": "Layered Bandages",
-      "desc": "Turn End: among allies with Bleed, the Identity with the least HP heals 5% of their max HP.",
+      "desc": "Turn End: among allies with Bleed, the Identity with the least PV heals 5% of their max PV.",
       "simpleDesc": [
         {
           "abilityID": 9192,
@@ -4652,7 +4652,7 @@
     {
       "id": 19192,
       "name": "Layered Bandages+",
-      "desc": "Turn End: among allies with Bleed, <style=\"upgradeHighlight\">two</style> Identities with the least HP heal 5% of their max HP.",
+      "desc": "Turn End: among allies with Bleed, <style=\"upgradeHighlight\">two</style> Identities with the least PV heal 5% of their max PV.",
       "simpleDesc": [
         {
           "abilityID": 19192,
@@ -4768,7 +4768,7 @@
     {
       "id": 9196,
       "name": "Broken Greatsword",
-      "desc": "Slash Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Slash base Attack Skills this turn. (max 3)\n\nAllies with Slash Attack Type for all of their base Attack Skills gain 2 [SlashDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nWhen using Guard(except Power Guard), gain 1 [Protection] and 3 [DefenseUp] (once per Identity per turn). When, in a single turn, an allied Identity takes 2 instances of HP or Shield HP damage by getting attacked by enemy's single-target Attack Skill, gain 1 [DefenseUp] next turn (max 3)\n\nAt Turn Start, Zwei Association Identities gain 2 [Enhancement] and 1 [SlashResultUp]; then, gain 2 [DefenseUp] for every other Zwei Association Identity (max 8)",
+      "desc": "Slash Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Slash base Attack Skills this turn. (max 3)\n\nAllies with Slash Attack Type for all of their base Attack Skills gain 2 [SlashDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nWhen using Guard(except Power Guard), gain 1 [Protection] and 3 [DefenseUp] (once per Identity per turn). When, in a single turn, an allied Identity takes 2 instances of PV or Shield PV damage by getting attacked by enemy's single-target Attack Skill, gain 1 [DefenseUp] next turn (max 3)\n\nAt Turn Start, Zwei Association Identities gain 2 [Enhancement] and 1 [SlashResultUp]; then, gain 2 [DefenseUp] for every other Zwei Association Identity (max 8)",
       "simpleDesc": [
         {
           "abilityID": 9196,
@@ -4990,7 +4990,7 @@
     {
       "id": 9204,
       "name": "The Book of Vengeance",
-      "desc": "Blunt Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Blunt base Attack Skills this turn. (max 3)\n\nAllies with Blunt Attack Type for all of their base Attack Skills gain 2 [HitDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nWhen using a Counter Skill(except Power Counters), gain 7.5% of this unit's max HP as Shield HP and deal +20% damage. Cannot be Staggered by damage when using a Counter Skill (once per Identity per Encounter)\n\nAt Turn Start, The Middle Identities gain 1 [HitResultUp] and 2 [Endurance]; when The Middle Identity uses a Counter Skill, the above Counter Skill enhancement activates twice per Encounter and deals +40% damage instead.",
+      "desc": "Blunt Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Blunt base Attack Skills this turn. (max 3)\n\nAllies with Blunt Attack Type for all of their base Attack Skills gain 2 [HitDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nWhen using a Counter Skill(except Power Counters), gain 7.5% of this unit's max PV as Shield PV and deal +20% damage. Cannot be Staggered by damage when using a Counter Skill (once per Identity per Encounter)\n\nAt Turn Start, The Middle Identities gain 1 [HitResultUp] and 2 [Endurance]; when The Middle Identity uses a Counter Skill, the above Counter Skill enhancement activates twice per Encounter and deals +40% damage instead.",
       "simpleDesc": [
         {
           "abilityID": 9204,

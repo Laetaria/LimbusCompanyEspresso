@@ -17,7 +17,7 @@
     {
       "id": "WornHeart",
       "name": "Ailing Heart",
-      "desc": "- Max Stack: 10\n- Enters Encounter with 3 Stack\n- Turn Start: gain 1 Defense Level Down for every Stack\n- Turn Start: gain 1 Offense Level Up for every 2 Stack\n- Turn Start: at 10 Stack, gain 3 Fragile and lose 5 SP\n- At 10 Stack: On Hit, heal 40% of the damage dealt to this unit's Part and Core, and gain 2 Bloodied Hand",
+      "desc": "- Max Stack: 10\n- Enters Encounter with 3 Stack\n- Turn Start: gain 1 Defense Level Down for every Stack\n- Turn Start: gain 1 Offense Level Up for every 2 Stack\n- Turn Start: at 10 Stack, gain 3 Fragile and lose 5 PS\n- At 10 Stack: On Hit, heal 40% of the damage dealt to this unit's Part and Core, and gain 2 Bloodied Hand",
       "summary": "",
       "undefined": "-"
     },
@@ -31,21 +31,21 @@
     {
       "id": "Guilt_LowMorale",
       "name": "Guilt",
-      "desc": "Turn End: gain 1 Fragility and SP Heal Efficiency Down",
+      "desc": "Turn End: gain 1 Fragility and PS Heal Efficiency Down",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_Panic",
       "name": "Guilt",
-      "desc": "Turn End: gain 2 Fragility and 1 SP Heal Efficiency Down",
+      "desc": "Turn End: gain 2 Fragility and 1 PS Heal Efficiency Down",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MentalIncreaseDown",
-      "name": "SP Heal Efficiency Down",
-      "desc": "SP Heal Efficiency decreases by the effect's Stack",
+      "name": "PS Heal Efficiency Down",
+      "desc": "PS Heal Efficiency decreases by the effect's Stack",
       "summary": "",
       "undefined": "-"
     },
@@ -73,14 +73,14 @@
     {
       "id": "TinyCarmilla",
       "name": "Little Carmilla",
-      "desc": "- Max Stack: 3\n- Gain 2 Bleed every time this unit gains Little Carmilla\n- Turn End: gain +2 Bleed Count\n- Turn End: at 3 Stack, take fixed damage equal to 15% of this unit's max HP, heal HP equal to 5% of each enemy's max HP, then this effect expires",
+      "desc": "- Max Stack: 3\n- Gain 2 Bleed every time this unit gains Little Carmilla\n- Turn End: gain +2 Bleed Count\n- Turn End: at 3 Stack, take fixed damage equal to 15% of this unit's max PV, heal PV equal to 5% of each enemy's max PV, then this effect expires",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OneDropNutrition",
       "name": "A Drop of Nourishment",
-      "desc": "- Max Stack: 10\n- Gain 1 Stack every time this unit heals 10% of its max HP with its HP-healing Attacks\n- HP healed: {0}%",
+      "desc": "- Max Stack: 10\n- Gain 1 Stack every time this unit heals 10% of its max PV with its PV-healing Attacks\n- PV healed: {0}%",
       "summary": "",
       "undefined": "-"
     },
@@ -94,7 +94,7 @@
     {
       "id": "SwirlingBlood",
       "name": "Luccichio【Sanguimonio】",
-      "desc": "- While this effect is active: when this unit takes damage, the Attacker gains 5 Bleed After Attack.\n- While this effect is active: the Shield HP does not expire at Turn End\n- When conditions are met, gain 3 Fragile until this effect expires and this unit gains a new pattern",
+      "desc": "- While this effect is active: when this unit takes damage, the Attacker gains 5 Bleed After Attack.\n- While this effect is active: the Shield PV does not expire at Turn End\n- When conditions are met, gain 3 Fragile until this effect expires and this unit gains a new pattern",
       "summary": "",
       "undefined": "-"
     },
@@ -199,14 +199,14 @@
     {
       "id": "WeightOfResponsibility_LowMorale",
       "name": "Time to abandon my dream...",
-      "desc": "- Low Morale\n- Gain 2 Attack Power Up and 1 Fragile; raise max Speed value by 2\n- Heal +30% more HP when healing\n- Turn End: if the current Returning Bloodlust is lower than its value at Turn Start, gain 2 Offense Level Up and 2 Defense Level Down",
+      "desc": "- Low Morale\n- Gain 2 Attack Power Up and 1 Fragile; raise max Speed value by 2\n- Heal +30% more PV when healing\n- Turn End: if the current Returning Bloodlust is lower than its value at Turn Start, gain 2 Offense Level Up and 2 Defense Level Down",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_Panic",
       "name": "... for my Family, as their Father...",
-      "desc": "- Panic\n- Gain 2 Attack Power Up, 2 Haste, and 2 Fragile\n- Heal +50% more HP when healing\n- Turn End: if the current Returning Bloodlust is lower than its value at Turn Start, gain 3 Offense Level Up and 5 Defense Level Down",
+      "desc": "- Panic\n- Gain 2 Attack Power Up, 2 Haste, and 2 Fragile\n- Heal +50% more PV when healing\n- Turn End: if the current Returning Bloodlust is lower than its value at Turn Start, gain 3 Offense Level Up and 5 Defense Level Down",
       "summary": "",
       "undefined": "-"
     },
@@ -227,21 +227,21 @@
     {
       "id": "DecreamentalDefense",
       "name": "Crippling Injury",
-      "desc": "- Yet to recover from the wounds gained in the previous battle.\n- Massively reduce max HP\n- Turn Start: gain 1 Defense Level Down for every cumulative turn (max 15)",
+      "desc": "- Yet to recover from the wounds gained in the previous battle.\n- Massively reduce max PV\n- Turn Start: gain 1 Defense Level Down for every cumulative turn (max 15)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDream",
       "name": "IN CUI SI RACCONTA DELL'ALLONTANAMENTO DAL SANGUE PIÙ DENSO DELL'ACQUA",
-      "desc": "- At every Turn End: gain 1 Haste and 3 Offense Level Up next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 1 Clash Power Up next turn (once per turn)",
+      "desc": "- At every Turn End: gain 1 Haste and 3 Offense Level Up next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 PS\n- On Kill, gain 1 Clash Power Up next turn (once per turn)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_LowMorale",
       "name": "Reawakening Joy Of Carnage",
-      "desc": "- Low Morale\nGain 2 Attack Power Up at every Turn Start; +2 SP Efficiency",
+      "desc": "- Low Morale\nGain 2 Attack Power Up at every Turn Start; +2 PS Efficiency",
       "summary": "",
       "undefined": "-"
     },

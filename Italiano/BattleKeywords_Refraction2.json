@@ -15,8 +15,8 @@
     {
       "id": "PassedPortal_Green",
       "name": "Poisonous Dimension",
-      "desc": "Max HP +20%",
-      "summary": "Max HP +20%"
+      "desc": "Max PV +20%",
+      "summary": "Max PV +20%"
     },
     {
       "id": "PassedPortal_Yellow",
@@ -86,13 +86,13 @@
     {
       "id": "BloomingRose",
       "name": "Blooming Sin",
-      "desc": "At the end of the turn\n- Gain 1 Count.\n- Bound Identity loses HP equal to 25% of Max HP.\n- Lose 10% of E.G.O resource corresponding to the Rose's.\n- The Sign of Roses heals HP equal to 5% of its Max HP.\n\nAt 4 Count,\n- Bound Identity dies.\n- Lose all of E.G.O resource corresponding to the Rose's.",
+      "desc": "At the end of the turn\n- Gain 1 Count.\n- Bound Identity loses PV equal to 25% of Max PV.\n- Lose 10% of E.G.O resource corresponding to the Rose's.\n- The Sign of Roses heals PV equal to 5% of its Max PV.\n\nAt 4 Count,\n- Bound Identity dies.\n- Lose all of E.G.O resource corresponding to the Rose's.",
       "summary": ""
     },
     {
       "id": "EatingSin",
       "name": "Drenched Sin",
-      "desc": "Max HP increases by (E.G.O resource drained)%\n\nOn Death\n- Recover E.G.O resource it drained.\n- Heal bound Identity's HP by (25% of Identity's Max HP * Blooming Sin Count).",
+      "desc": "Max PV increases by (E.G.O resource drained)%\n\nOn Death\n- Recover E.G.O resource it drained.\n- Heal bound Identity's PV by (25% of Identity's Max PV * Blooming Sin Count).",
       "summary": ""
     },
     {

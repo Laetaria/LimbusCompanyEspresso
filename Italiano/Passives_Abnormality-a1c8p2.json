@@ -13,7 +13,7 @@
         {
             "id": 113701,
             "name": "Effloresced E.G.O::Érlì",
-            "desc": "First Turn Start: heal 30 SP and gain [ExaminationOfQiu]"
+            "desc": "First Turn Start: heal 30 PS and gain [ExaminationOfQiu]"
         },
         {
             "id": 113702,
@@ -33,7 +33,7 @@
         {
             "id": 113706,
             "name": "Heed me, Zilu",
-            "desc": "Gains a new pattern at 85% HP\nEnter a new phase at 60% HP"
+            "desc": "Gains a new pattern at 85% PV\nEnter a new phase at 60% PV"
         },
         {
             "id": 113707,
@@ -43,7 +43,7 @@
         {
             "id": 113708,
             "name": "Overwhelm",
-            "desc": "When an Identity's HP drops to 1 or below, retreat them from the Encounter"
+            "desc": "When an Identity's PV drops to 1 or below, retreat them from the Encounter"
         },
         {
             "id": 113301,
@@ -53,7 +53,7 @@
         {
             "id": 113302,
             "name": "Shin (心) Radiance",
-            "desc": "First Turn Start: heal 30 SP\nGains a new pattern at 85% HP\nGain 500 Shield at Turn Start, at 60% HP\n- After this effect activates, this unit does not drop below 1 HP"
+            "desc": "First Turn Start: heal 30 PS\nGains a new pattern at 85% PV\nGain 500 Shield at Turn Start, at 60% PV\n- After this effect activates, this unit does not drop below 1 PV"
         },
         {
             "id": 114101,
@@ -68,7 +68,7 @@
         {
             "id": 114104,
             "name": "I will ask again",
-            "desc": "Ends the Encounter at 50% HP "
+            "desc": "Ends the Encounter at 50% PV "
         },
         {
             "id": 114105,
@@ -83,7 +83,7 @@
         {
             "id": 113709,
             "name": "Infinite Song of Erudition",
-            "desc": "After Attack: heal 5 SP for every Deathrite on the target\nOn Hit, when the target's Deathrite is triggered, heal 3 SP for every Deathrite triggered"
+            "desc": "After Attack: heal 5 PS for every Deathrite on the target\nOn Hit, when the target's Deathrite is triggered, heal 3 PS for every Deathrite triggered"
         },
         {
             "id": 114107,
@@ -103,17 +103,17 @@
         {
             "id": 115703,
             "name": "Returning the Pain",
-            "desc": "Deal +1% damage for every 1% missing HP on self (max 50%)"
+            "desc": "Deal +1% damage for every 1% missing PV on self (max 50%)"
         },
         {
             "id": 115801,
             "name": "Bolus of... Immortality?",
-            "desc": "On Hit with a Skill: heal 10% of the damage dealt (rounded down)\nIf target has [MadFeather], heal additional ([MadFeather] Stack on target)% HP"
+            "desc": "On Hit with a Skill: heal 10% of the damage dealt (rounded down)\nIf target has [MadFeather], heal additional ([MadFeather] Stack on target)% PV"
         },
         {
             "id": 115802,
             "name": "I'VE NEVER FELT BETTER!",
-            "desc": "On Hit, heal 3 SP on self"
+            "desc": "On Hit, heal 3 PS on self"
         },
         {
             "id": 115803,
@@ -128,17 +128,17 @@
         {
             "id": 115805,
             "name": "Rampage",
-            "desc": "Offense Level +1 and Defense Level -1 for every 15% HP this unit cumulatively lost in this Encounter (max 6)"
+            "desc": "Offense Level +1 and Defense Level -1 for every 15% PV this unit cumulatively lost in this Encounter (max 6)"
         },
         {
             "id": 115901,
             "name": "Wounded",
-            "desc": "Encounter Start: enters the battle with 80% HP"
+            "desc": "Encounter Start: enters the battle with 80% PV"
         },
         {
             "id": 115902,
             "name": "Master of the Deathrite Monks",
-            "desc": "Turn End: at 20 or less SP, this unit siphons 10 SP from 3 random allies with the highest SP to heal its own SP\n\nTurn Start: Apply 2 [AttackDmgUp] to all other allies with -20 or less SP"
+            "desc": "Turn End: at 20 or less PS, this unit siphons 10 PS from 3 random allies with the highest PS to heal its own PS\n\nTurn Start: Apply 2 [AttackDmgUp] to all other allies with -20 or less PS"
         },
         {
             "id": 115903,
@@ -148,12 +148,12 @@
         {
             "id": 115904,
             "name": "Dammit... Take them out!",
-            "desc": "In this Encounter, if this unit takes damage that brings this unit's HP down to half or less, nullify that damage and end the turn. Then, move to the rearmost position of the Substitution order (when Staggered, recover immediately)\n\nIf there are no more enemies to Substitute in, or if there aren't enough of them left, (as in, if there are more dead enemies this turn than there are waiting to Substitute into the Encounter) this effect does not activate"
+            "desc": "In this Encounter, if this unit takes damage that brings this unit's PV down to half or less, nullify that damage and end the turn. Then, move to the rearmost position of the Substitution order (when Staggered, recover immediately)\n\nIf there are no more enemies to Substitute in, or if there aren't enough of them left, (as in, if there are more dead enemies this turn than there are waiting to Substitute into the Encounter) this effect does not activate"
         },
         {
             "id": 115905,
             "name": "The Battle's End",
-            "desc": "When Wang Qingshan loses all HP in this Encounter, the Encounter ends"
+            "desc": "When Wang Qingshan loses all PV in this Encounter, the Encounter ends"
         },
         {
             "id": 116701,
@@ -173,7 +173,7 @@
         {
             "id": 116704,
             "name": "The Battle's End",
-            "desc": "When Shi Hua... something? loses all HP in this Encounter, the Encounter ends"
+            "desc": "When Shi Hua... something? loses all PV in this Encounter, the Encounter ends"
         },
         {
             "id": 116705,
@@ -183,7 +183,7 @@
         {
             "id": 116001,
             "name": "That's how you use your human resources",
-            "desc": "Turn Start: if this unit has 50% or less HP, sacrifice a random Shi Family Mercenary to heal (10% of this unit's HP + 50% of the sacrificed unit's HP) HP, heal 25 SP, and recover from Stagger (once per turn)"
+            "desc": "Turn Start: if this unit has 50% or less PV, sacrifice a random Shi Family Mercenary to heal (10% of this unit's PV + 50% of the sacrificed unit's PV) PV, heal 25 PS, and recover from Stagger (once per turn)"
         },
         {
             "id": 116002,
@@ -193,22 +193,22 @@
         {
             "id": 116003,
             "name": "The Battle's End",
-            "desc": "When Shi Sijing loses all HP in this Encounter, the Encounter ends"
+            "desc": "When Shi Sijing loses all PV in this Encounter, the Encounter ends"
         },
         {
             "id": 115704,
             "name": "The Battle's End",
-            "desc": "When Xue Pan loses all HP in this Encounter, the Encounter ends"
+            "desc": "When Xue Pan loses all PV in this Encounter, the Encounter ends"
         },
         {
             "id": 115806,
             "name": "The Battle's End",
-            "desc": "When Shi Yihua loses all HP in this Encounter, the Encounter ends"
+            "desc": "When Shi Yihua loses all PV in this Encounter, the Encounter ends"
         },
         {
             "id": 114401,
             "name": "My Lord",
-            "desc": "Turn Start: heal 30 SP\nTurn Start: gain up to 500 Shield\n- This unit does not drop below 1 HP"
+            "desc": "Turn Start: heal 30 PS\nTurn Start: gain up to 500 Shield\n- This unit does not drop below 1 PV"
         }
     ]
 }

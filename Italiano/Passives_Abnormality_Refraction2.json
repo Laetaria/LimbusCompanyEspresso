@@ -13,7 +13,7 @@
     {
       "id": 853903,
       "name": "Last Struggle",
-      "desc": "At 15% HP, this unit gains 10 Bind and 1 Attack Power Down every turn\nNewly spawned Old Umbrellas have 30% more HP. Uses 'Cries Seeking Something' every turn."
+      "desc": "At 15% PV, this unit gains 10 Bind and 1 Attack Power Down every turn\nNewly spawned Old Umbrellas have 30% more PV. Uses 'Cries Seeking Something' every turn."
     },
     {
       "id": 853904,
@@ -38,7 +38,7 @@
     {
       "id": 854101,
       "name": "Deteriorated Persistence",
-      "desc": "If Shield HP is fully depleted after using a defensive skill, gain 3 Offense Level Down and 3 Fragile next turn."
+      "desc": "If Shield PV is fully depleted after using a defensive skill, gain 3 Offense Level Down and 3 Fragile next turn."
     },
     {
       "id": 854102,
@@ -83,7 +83,7 @@
     {
       "id": 854301,
       "name": "Fairy Wine",
-      "desc": "When defeated by an Identity, all Identities gain 5 Tipsy next turn.\nIf not defeated, Fairy Gentleman heals 10% HP and gains 2 Attack Power Up, 2 Haste, and 2 Protection.\nExpires at the end of the turn"
+      "desc": "When defeated by an Identity, all Identities gain 5 Tipsy next turn.\nIf not defeated, Fairy Gentleman heals 10% PV and gains 2 Attack Power Up, 2 Haste, and 2 Protection.\nExpires at the end of the turn"
     },
     {
       "id": 854401,
@@ -118,7 +118,7 @@
     {
       "id": 854601,
       "name": "Contaminating Leaf",
-      "desc": "At the start of every turn, Fairy-Long-Legs and Fairy Gentleman gain 3 HP Healing Boost and 1 Attack Power Up.\nIf the Clover survives for 4+ turns, gain additional 1 Attack Power Up and 2 Damage Up."
+      "desc": "At the start of every turn, Fairy-Long-Legs and Fairy Gentleman gain 3 PV Healing Boost and 1 Attack Power Up.\nIf the Clover survives for 4+ turns, gain additional 1 Attack Power Up and 2 Damage Up."
     },
     {
       "id": 854701,
@@ -143,7 +143,7 @@
     {
       "id": 854801,
       "name": "Fairy Wine",
-      "desc": "When defeated by an Identity, all Identities gain 5 Tipsy next turn.\nIf not defeated, Fairy Gentleman heals 10% HP and gains 2 Attack Power Up, 2 Haste, and 2 Protection.\nExpires at the end of the turn"
+      "desc": "When defeated by an Identity, all Identities gain 5 Tipsy next turn.\nIf not defeated, Fairy Gentleman heals 10% PV and gains 2 Attack Power Up, 2 Haste, and 2 Protection.\nExpires at the end of the turn"
     },
     {
       "id": 854901,
@@ -163,7 +163,7 @@
     {
       "id": 854904,
       "name": "Ceppo Rotto",
-      "desc": "Quando il corpo è rotto, la Fatina avrà il 60% dei suoi HP massimi al momento del ripristino.\nQuando il corpo è rotto, il nucleo si cura +20 PV con gli Effetti Abilità."
+      "desc": "Quando il corpo è rotto, la Fatina avrà il 60% dei suoi PV massimi al momento del ripristino.\nQuando il corpo è rotto, il nucleo si cura +20 PV con gli Effetti Abilità."
     },
     {
       "id": 854905,
@@ -183,7 +183,7 @@
     {
       "id": 855001,
       "name": "Dimensional Escape",
-      "desc": "Starting from turn 2, escape to a Dimensional Rift every few turns.\nWhen all parts are Staggered, escape to a Dimensional Rift next turn.\nCannot be Staggered while inside a Dimensional Rift.\nWhen Core is at 30% or less HP, does not escape to a Dimensional Rift."
+      "desc": "Starting from turn 2, escape to a Dimensional Rift every few turns.\nWhen all parts are Staggered, escape to a Dimensional Rift next turn.\nCannot be Staggered while inside a Dimensional Rift.\nWhen Core is at 30% or less PV, does not escape to a Dimensional Rift."
     },
     {
       "id": 855002,
@@ -213,7 +213,7 @@
     {
       "id": 856101,
       "name": "Poisonous Dimension",
-      "desc": "Core gains +20% Max HP after passing through the Poisonous Dimension"
+      "desc": "Core gains +20% Max PV after passing through the Poisonous Dimension"
     },
     {
       "id": 856201,
@@ -228,7 +228,7 @@
     {
       "id": 855101,
       "name": "Golden Time",
-      "desc": "At the end of the turn, if the HP is between 6% and 24%, Core parts instantly heal up to 80% of Max HP, and recover from stagger. (One-time only)"
+      "desc": "At the end of the turn, if the PV is between 6% and 24%, Core parts instantly heal up to 80% of Max PV, and recover from stagger. (One-time only)"
     },
     {
       "id": 855102,
@@ -253,7 +253,7 @@
     {
       "id": 855501,
       "name": "Returning Past",
-      "desc": "If at 50+ <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Accumulated Past</color></link></u>, and if Core's HP is less than or equal to 80%, Core gains 200 HP by spending 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Accumulated Past</color></link></u>."
+      "desc": "If at 50+ <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Accumulated Past</color></link></u>, and if Core's PV is less than or equal to 80%, Core gains 200 PV by spending 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Accumulated Past</color></link></u>."
     },
     {
       "id": 855502,
@@ -293,22 +293,22 @@
     {
       "id": 855601,
       "name": "Eternal Yoke",
-      "desc": "Max HP increases by (Cycle Count X 5)%.\nDeal (Cycle Count X 5)% damage"
+      "desc": "Max PV increases by (Cycle Count X 5)%.\nDeal (Cycle Count X 5)% damage"
     },
     {
       "id": 855602,
       "name": "Broken Sign",
-      "desc": "When the sign is broken, Rose loses Max HP"
+      "desc": "When the sign is broken, Rose loses Max PV"
     },
     {
       "id": 855603,
       "name": "Scattered Flesh",
-      "desc": "When the flesh is broken, Core loses Max HP"
+      "desc": "When the flesh is broken, Core loses Max PV"
     },
     {
       "id": 855604,
       "name": "Singular Vine",
-      "desc": "When a Rose is defeated, Core and flesh loses 30 HP.\nLose 0.1 Resistance to the corresponding Sin Affinity during this encounter (Stackable)"
+      "desc": "When a Rose is defeated, Core and flesh loses 30 PV.\nLose 0.1 Resistance to the corresponding Sin Affinity during this encounter (Stackable)"
     },
     {
       "id": 856401,

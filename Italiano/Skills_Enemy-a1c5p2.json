@@ -11,14 +11,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackTail] Deal 2 SP damage"
+                                    "desc": "[OnSucceedAttackTail] Deal 2 PS damage"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackTail] Deal 2 SP damage"
+                                    "desc": "[OnSucceedAttackTail] Deal 2 PS damage"
                                 }
                             ]
                         }
@@ -32,7 +32,7 @@
                 {
                     "level": 1,
                     "name": "Engrave Horror",
-                    "desc": "[WinDuel] Deal 10 SP damage to target; this unit heals 10 HP",
+                    "desc": "[WinDuel] Deal 10 PS damage to target; this unit heals 10 PV",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -51,12 +51,12 @@
                 {
                     "level": 1,
                     "name": "Reap Horror",
-                    "desc": "If target's SP is below 20, heal 20% more HP from this attack",
+                    "desc": "If target's PS is below 20, heal 20% more PV from this attack",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackTail] Deal 3 SP damage"
+                                    "desc": "[OnSucceedAttackTail] Deal 3 PS damage"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Heal by 30% of damage dealt"
@@ -66,7 +66,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackTail] Deal 3 SP damage"
+                                    "desc": "[OnSucceedAttackTail] Deal 3 PS damage"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Heal by 30% of damage dealt"
@@ -83,7 +83,7 @@
                 {
                     "level": 1,
                     "name": "Paralyze Mind",
-                    "desc": "If target's SP is below -15, deal +50% damage",
+                    "desc": "If target's PS is below -15, deal +50% damage",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -234,7 +234,7 @@
                 {
                     "level": 1,
                     "name": ".-.. -",
-                    "desc": "[WinDuel] Deal 1 SP damage to target for each surviving Pallidified ally (not counting this unit)",
+                    "desc": "[WinDuel] Deal 1 PS damage to target for each surviving Pallidified ally (not counting this unit)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -263,7 +263,7 @@
                 {
                     "level": 1,
                     "name": "-... .…",
-                    "desc": "If the target has <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Sinking</link></u></color>, the HP heal effect also applies to 1 other Pallidified ally with the lowest SP",
+                    "desc": "If the target has <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Sinking</link></u></color>, the PV heal effect also applies to 1 other Pallidified ally with the lowest PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -295,7 +295,7 @@
                 {
                     "level": 1,
                     "name": ".--- .",
-                    "desc": "If the target has <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Sinking</link></u></color>, the HP heal effect also applies to 1 other Pallidified ally with the lowest SP",
+                    "desc": "If the target has <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Sinking</link></u></color>, the PV heal effect also applies to 1 other Pallidified ally with the lowest PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -317,7 +317,7 @@
                 {
                     "level": 1,
                     "name": "-. .…",
-                    "desc": "[WhenUse] If the target has <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Pallid Noise</link></u></color>, all other Pallidified allies heal 30 HP",
+                    "desc": "[WhenUse] If the target has <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Pallid Noise</link></u></color>, all other Pallidified allies heal 30 PV",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -329,7 +329,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Heal 20 HP on self"
+                                    "desc": "[OnSucceedAttack] Heal 20 PV on self"
                                 }
                             ]
                         }
@@ -509,7 +509,7 @@
                 {
                     "level": 1,
                     "name": "--. . ...-",
-                    "desc": "If the target has <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Pallid Noise</link></u></color>, deal 1 SP damage to target for every other surviving ally",
+                    "desc": "If the target has <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Pallid Noise</link></u></color>, deal 1 PS damage to target for every other surviving ally",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -691,7 +691,7 @@
                 {
                     "level": 1,
                     "name": "-.- ..",
-                    "desc": "[WhenUse] Gain 2 Protection\nWhen attacked while this unit has Shield, inflict 1 Pallid Noise to the target\n[EndBattle] Heal HP by x2 of the remaining Shield HP.",
+                    "desc": "[WhenUse] Gain 2 Protection\nWhen attacked while this unit has Shield, inflict 1 Pallid Noise to the target\n[EndBattle] Heal PV by x2 of the remaining Shield PV.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -831,7 +831,7 @@
                                     "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Deal 20 fixed HP damage"
+                                    "desc": "[OnSucceedAttack] Deal 20 fixed PV damage"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze next turn"
@@ -969,7 +969,7 @@
                                     "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Deal 20 fixed HP damage"
+                                    "desc": "[OnSucceedAttack] Deal 20 fixed PV damage"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Inflict 3 Paralyze next turn"

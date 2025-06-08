@@ -38,7 +38,7 @@
         {
           "level": 1,
           "name": "...to Clean",
-          "desc": "[WhenUse] If the target is at 10 or less SP, inflict 2 [AttackDown]\n[WinDuel] Inflict 1 [Vulnerable]",
+          "desc": "[WhenUse] If the target is at 10 or less PS, inflict 2 [AttackDown]\n[WinDuel] Inflict 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -67,7 +67,7 @@
         {
           "level": 1,
           "name": "...mmands...!",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Sinking] on target (max 3)\n[WinDuel] All allies heal 5 SP",
+          "desc": "[WhenUse] Base Power +1 for every 3 [Sinking] on target (max 3)\n[WinDuel] All allies heal 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -148,7 +148,7 @@
         {
           "level": 1,
           "name": "Slipp...",
-          "desc": "If this unit has remaining Shield HP at Turn End, lower Stagger threshold by 50",
+          "desc": "If this unit has remaining Shield PV at Turn End, lower Stagger threshold by 50",
           "coinlist": [
             {}
           ]
@@ -219,21 +219,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 }
               ]
             }
@@ -282,7 +282,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[StartBattle] Gain 20 additional Shield HP for every surviving ally",
+          "desc": "[StartBattle] Gain 20 additional Shield PV for every surviving ally",
           "coinlist": [
             {
               "coindescs": [
@@ -400,7 +400,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[OnSucceedEvade] Heal 5 SP (2 times max)",
+          "desc": "[OnSucceedEvade] Heal 5 PS (2 times max)",
           "coinlist": [
             {
               "coindescs": [

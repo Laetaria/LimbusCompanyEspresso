@@ -28,12 +28,12 @@
     {
       "id": 816604,
       "name": "Ressentiment",
-      "desc": "When this unit has 35% or less HP: If the target has a higher HP percentage than this unit, Clash Power +2"
+      "desc": "When this unit has 35% or less PV: If the target has a higher PV percentage than this unit, Clash Power +2"
     },
     {
       "id": 816605,
       "name": "Spite-driven",
-      "desc": "If this Unit's current HP percentage is 30% or less:\n- Blunt Skills Deal +20% damage\n- Gain 1 [Enhancement] and 2 [Vulnerable] with every turn that passes. (3 times max)"
+      "desc": "If this Unit's current PV percentage is 30% or less:\n- Blunt Skills Deal +20% damage\n- Gain 1 [Enhancement] and 2 [Vulnerable] with every turn that passes. (3 times max)"
     },
     {
       "id": 816606,
@@ -43,7 +43,7 @@
     {
       "id": 817101,
       "name": "Superiority",
-      "desc": "Clash Win: If this unit's Speed is faster than the target's, heal 3 SP"
+      "desc": "Clash Win: If this unit's Speed is faster than the target's, heal 3 PS"
     },
     {
       "id": 817102,
@@ -73,57 +73,57 @@
     {
       "id": 817203,
       "name": "Continuing Revenge",
-      "desc": "Gains a new pattern at 75% and 35% of max HP.\nWhen this unit gains a new pattern, halve the Potency and Count of every negative effect on self"
+      "desc": "Gains a new pattern at 75% and 35% of max PV.\nWhen this unit gains a new pattern, halve the Potency and Count of every negative effect on self"
     },
     {
       "id": 9101602,
       "name": "Antagonism",
-      "desc": "If the target's current HP is higher than this unit's, Clash Power +2 and deal +20% damage"
+      "desc": "If the target's current PV is higher than this unit's, Clash Power +2 and deal +20% damage"
     },
     {
       "id": 9101603,
       "name": "Long-awaited Moment",
-      "desc": "Clash Win: Heal 5 SP on self\nClash Lose against Heathcliff: Lose 5 SP and gain 2 [Binding] next turn. (Once per turn)\nIf this unit did not land a single hit against Heathcliff this turn, lose 5 SP at Turn End"
+      "desc": "Clash Win: Heal 5 PS on self\nClash Lose against Heathcliff: Lose 5 PS and gain 2 [Binding] next turn. (Once per turn)\nIf this unit did not land a single hit against Heathcliff this turn, lose 5 PS at Turn End"
     },
     {
       "id": 9101606,
       "name": "Vying Spirit",
-      "desc": "The lower this unit's HP gets, the higher this unit's Defense Level gets\nDefense Level +1 for every 10% missing HP on self (rounded down)"
+      "desc": "The lower this unit's PV gets, the higher this unit's Defense Level gets\nDefense Level +1 for every 10% missing PV on self (rounded down)"
     },
     {
       "id": 821601,
       "name": "Wild Hunt of Desolation",
-      "desc": "Cannot be defeated at 0 HP. HP does not drop below 1."
+      "desc": "Cannot be defeated at 0 PV. PV does not drop below 1."
     },
     {
       "id": 817401,
       "name": "A Distant Identity",
-      "desc": "Turn End: If both Hands are at 1 HP, become Immobilized."
+      "desc": "Turn End: If both Hands are at 1 PV, become Immobilized."
     },
     {
       "id": 817402,
       "name": "Cold Body",
-      "desc": "HP does not drop below 1."
+      "desc": "PV does not drop below 1."
     },
     {
       "id": 817403,
       "name": "A Shaky Ego",
-      "desc": "Turn End: If both Hands are at 1 HP, gain Shield next turn.\nOnce the Shield is fully depleted, become Immobilized."
+      "desc": "Turn End: If both Hands are at 1 PV, gain Shield next turn.\nOnce the Shield is fully depleted, become Immobilized."
     },
     {
       "id": 819201,
       "name": "Misery-severing Hand",
-      "desc": "If the other Hand is at 2+ HP at the next Turn End after the turn in which this Hand reaches 1 HP, this unit heals HP equal to 50% of the other Hand's HP. (rounded down)"
+      "desc": "If the other Hand is at 2+ PV at the next Turn End after the turn in which this Hand reaches 1 PV, this unit heals PV equal to 50% of the other Hand's PV. (rounded down)"
     },
     {
       "id": 821401,
       "name": "Deep Bereavement",
-      "desc": "Become Staggered as long as this unit's HP is at 1. The HP does not drop below 1."
+      "desc": "Become Staggered as long as this unit's PV is at 1. The PV does not drop below 1."
     },
     {
       "id": 817404,
       "name": "Broken Heart",
-      "desc": "Turn Start: If there is a Hand with 2+ HP, gain 10 [Protection], and all Resistance values become 0.2.\nTurn Start: If both Hands are at 1 HP, [Protection] expires, and all Resistance values revert to default values."
+      "desc": "Turn Start: If there is a Hand with 2+ PV, gain 10 [Protection], and all Resistance values become 0.2.\nTurn Start: If both Hands are at 1 PV, [Protection] expires, and all Resistance values revert to default values."
     },
     {
       "id": 817405,
@@ -133,7 +133,7 @@
     {
       "id": 816408,
       "name": "Moment of Vengeance",
-      "desc": "Clash Win: Heal 5 SP on self\nClash Lose: Lose 5 SP and gain 2 [Binding] next turn. (Once per turn)\nIf this unit did not land a single hit this turn, lose 5 SP at Turn End"
+      "desc": "Clash Win: Heal 5 PS on self\nClash Lose: Lose 5 PS and gain 2 [Binding] next turn. (Once per turn)\nIf this unit did not land a single hit this turn, lose 5 PS at Turn End"
     },
     {
       "id": 9101607,

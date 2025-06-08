@@ -200,18 +200,18 @@
     {
       "id": 9172,
       "name": "Cantabile",
-      "desc": "When using base Attack Skills, if target has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 3)",
+      "desc": "When using base Attack Skills, if target has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) PS on self (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9172,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Heal PS based on Sinking on the target"
         }
       ]
     },
     {
       "id": 9173,
       "name": "Faded Overcoat",
-      "desc": "Turn End: if there are 3+ enemies with -45 SP, all allies gain 2 [AttackUp] next turn",
+      "desc": "Turn End: if there are 3+ enemies with -45 PS, all allies gain 2 [AttackUp] next turn",
       "simpleDesc": [
         {
           "abilityID": 9173,
@@ -222,22 +222,22 @@
     {
       "id": 9175,
       "name": "Surging Globe",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen using a base Attack Skill, if the enemy has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 5)\n\nTurn End: next turn, all allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen using a base Attack Skill, if the enemy has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) PS on self (max 5)\n\nTurn End: next turn, all allies gain [AttackUp] equal to the number of enemies with -45 PS (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9175,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Heal PS based on Sinking on the target"
         },
         {
           "abilityID": 91751,
-          "simpleDesc": "All allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)"
+          "simpleDesc": "All allies gain [AttackUp] equal to the number of enemies with -45 PS (max 3)"
         }
       ]
     },
     {
       "id": 9176,
       "name": "Impending Wave",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen hitting and dealing HP damage to an enemy with a Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking', inflict 4 [Sinking] Potency and +3 [Sinking] Count at Turn End (once per turn for each enemy)\nCombat Start: when activating Gloom or Lust A-Reson., inflict 3 [Sinking] and +3 [Sinking] on all enemies (for Abnormalities, a random Part)\n\nAfter using a base Attack Skill, if target has 10+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 5) and inflict the same amount as [DefenseDown] against the target (max 5; once per turn for each enemy)\n\nTurn End: all allies gain [AttackUp] equal to the number of enemies with -45 SP or without SP next turn (max 6)\n\nWhen activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect from a Base Attack Skill that inflicts or gains [Sinking] Potency, [Sinking] Count, or 'Unique Sinking', heal 5 SP at Turn End (2 times per turn per Identity)\nIf the unit was at 45 SP at Turn Start, the effect changes to the following: when hitting and activating the [Sinking] effect(including 'Unique Sinking') on the target with a base Attack Skill, inflict +3 [Sinking] Count against the targeted enemy (2 times per turn per Identity)",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen hitting and dealing PV damage to an enemy with a Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking', inflict 4 [Sinking] Potency and +3 [Sinking] Count at Turn End (once per turn for each enemy)\nCombat Start: when activating Gloom or Lust A-Reson., inflict 3 [Sinking] and +3 [Sinking] on all enemies (for Abnormalities, a random Part)\n\nAfter using a base Attack Skill, if target has 10+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) PS on self (max 5) and inflict the same amount as [DefenseDown] against the target (max 5; once per turn for each enemy)\n\nTurn End: all allies gain [AttackUp] equal to the number of enemies with -45 PS or without PS next turn (max 6)\n\nWhen activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect from a Base Attack Skill that inflicts or gains [Sinking] Potency, [Sinking] Count, or 'Unique Sinking', heal 5 PS at Turn End (2 times per turn per Identity)\nIf the unit was at 45 PS at Turn Start, the effect changes to the following: when hitting and activating the [Sinking] effect(including 'Unique Sinking') on the target with a base Attack Skill, inflict +3 [Sinking] Count against the targeted enemy (2 times per turn per Identity)",
       "simpleDesc": [
         {
           "abilityID": 9176,

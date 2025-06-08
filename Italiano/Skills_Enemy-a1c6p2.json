@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Deter Rulebreakers",
-          "desc": "[WhenUse] If the target has [Laceration], heal 4 SP",
+          "desc": "[WhenUse] If the target has [Laceration], heal 4 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -40,7 +40,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -50,7 +50,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             }
@@ -96,7 +96,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "If this unit has remaining Shield HP at Turn End, gain 2 [AttackDmgUp] next turn",
+          "desc": "If this unit has remaining Shield PV at Turn End, gain 2 [AttackDmgUp] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -115,7 +115,7 @@
         {
           "level": 1,
           "name": "Dispose Rulebreakers",
-          "desc": "[WhenUse] If the target has [Laceration], heal 4 SP",
+          "desc": "[WhenUse] If the target has [Laceration], heal 4 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -149,7 +149,7 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -159,7 +159,7 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             }
@@ -205,7 +205,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "If this unit has remaining Shield HP at Turn End, gain 2 [AttackDmgUp] next turn",
+          "desc": "If this unit has remaining Shield PV at Turn End, gain 2 [AttackDmgUp] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -261,7 +261,7 @@
                   "desc": "[OnSucceedAttack] Inflict [Burst] equal to ([Laceration]/2) on target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 7 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 7 PS"
                 }
               ]
             }
@@ -283,7 +283,7 @@
                   "desc": "[OnSucceedAttack] Inflict 8 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -293,7 +293,7 @@
                   "desc": "[OnSucceedAttack] Inflict [Burst] equal to [Laceration] on target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 10 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 10 PS"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] If the target has 5+ [Laceration], reuse this Skill (once)"
@@ -370,7 +370,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -380,7 +380,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -443,7 +443,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "If this unit has remaining Shield HP at Turn End, gain 3 [AttackDmgUp] next turn",
+          "desc": "If this unit has remaining Shield PV at Turn End, gain 3 [AttackDmgUp] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -503,7 +503,7 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -513,7 +513,7 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 SP"
+                  "desc": "[OnSucceedAttack] If target has [Laceration], heal 5 PS"
                 }
               ]
             },
@@ -576,7 +576,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "If this unit has remaining Shield HP at Turn End, gain 3 [AttackDmgUp] next turn",
+          "desc": "If this unit has remaining Shield PV at Turn End, gain 3 [AttackDmgUp] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -831,7 +831,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown]"
@@ -841,7 +841,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown]"
@@ -851,7 +851,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown]"
@@ -980,21 +980,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
                 }
               ]
             }
@@ -1043,7 +1043,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[StartBattle] Gain 20 additional Shield HP for every surviving other ally",
+          "desc": "[StartBattle] Gain 20 additional Shield PV for every surviving other ally",
           "coinlist": [
             {
               "coindescs": [

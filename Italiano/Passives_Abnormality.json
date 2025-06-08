@@ -9,7 +9,7 @@
     {
       "id": 800102,
       "name": "NOT FOR DISPLAY1",
-      "desc": "After the head regenerates once, bringing the head's HP to 50% initiates a choice prompt."
+      "desc": "After the head regenerates once, bringing the head's PV to 50% initiates a choice prompt."
     },
     {
       "id": 800103,
@@ -40,7 +40,7 @@
     {
       "id": 800203,
       "name": "Let the Fire Festival Ignite",
-      "desc": "If both Arms are destroyed or the main body's HP is brought to 70%, the battle proceeds to the next phase."
+      "desc": "If both Arms are destroyed or the main body's PV is brought to 70%, the battle proceeds to the next phase."
     },
     {
       "id": 800204,
@@ -50,12 +50,12 @@
     {
       "id": 800205,
       "name": "NOT FOR DISPLAY",
-      "desc": "When HP is brought to 60%, choice prompt 2 is initiated."
+      "desc": "When PV is brought to 60%, choice prompt 2 is initiated."
     },
     {
       "id": 800206,
       "name": "Let the Star Festival Fall",
-      "desc": "When HP is brought to 25%, the battle proceeds to the next phase."
+      "desc": "When PV is brought to 25%, the battle proceeds to the next phase."
     },
     {
       "id": 800207,
@@ -65,12 +65,12 @@
     {
       "id": 800301,
       "name": "Idolatry",
-      "desc": "Does not die at 0 HP; instead, remains on the stage as an immobile and untargetable unit.\nSuppressed when the Doomsday Calendar is suppressed."
+      "desc": "Does not die at 0 PV; instead, remains on the stage as an immobile and untargetable unit.\nSuppressed when the Doomsday Calendar is suppressed."
     },
     {
       "id": 800801,
       "name": "Cracked Gold",
-      "desc": "Heals HP every turn based on the amount of Golden Sheen."
+      "desc": "Heals PV every turn based on the amount of Golden Sheen."
     },
     {
       "id": 800901,
@@ -115,7 +115,7 @@
     {
       "id": 801302,
       "name": "Ensnaring Desires",
-      "desc": "The unit becomes Desirous every time it loses 30% of its HP."
+      "desc": "The unit becomes Desirous every time it loses 30% of its PV."
     },
     {
       "id": 801904,
@@ -135,7 +135,7 @@
     {
       "id": 802403,
       "name": "Regenerating Shell",
-      "desc": "At the end of the turn, if the unit didn't take any damage from attacks during the turn, heal 5% HP and gain 1 Instincts."
+      "desc": "At the end of the turn, if the unit didn't take any damage from attacks during the turn, heal 5% PV and gain 1 Instincts."
     },
     {
       "id": 802404,
@@ -155,7 +155,7 @@
     {
       "id": 802503,
       "name": "Shimmering Rage",
-      "desc": "At less than 50% HP, enters Frenzy every turn."
+      "desc": "At less than 50% PV, enters Frenzy every turn."
     },
     {
       "id": 802701,
@@ -170,12 +170,12 @@
     {
       "id": 802801,
       "name": "Rotting Skin",
-      "desc": "At the start of the turn, if at less than 50% HP, inflict 3 Poison when attacked."
+      "desc": "At the start of the turn, if at less than 50% PV, inflict 3 Poison when attacked."
     },
     {
       "id": 802802,
       "name": "Molt",
-      "desc": "After this part is broken, if the other arm is not broken at the end of the following turn, this part regenerates with the same HP as it."
+      "desc": "After this part is broken, if the other arm is not broken at the end of the following turn, this part regenerates with the same PV as it."
     },
     {
       "id": 802803,
@@ -205,7 +205,7 @@
     {
       "id": 802903,
       "name": "You Must Accept the Pain!",
-      "desc": "At the start of the turn, if the unbroken part has Bleed or Burn, heal 15% of Max HP and gain 3 Attack Power Up.\nThe healing and status effects gained are decreased based on the number of A Sign, down to 0."
+      "desc": "At the start of the turn, if the unbroken part has Bleed or Burn, heal 15% of Max PV and gain 3 Attack Power Up.\nThe healing and status effects gained are decreased based on the number of A Sign, down to 0."
     },
     {
       "id": 802904,
@@ -220,7 +220,7 @@
     {
       "id": 803002,
       "name": "Blooming Purity",
-      "desc": "If Kromer's main body is brought to 50% HP, she gains Purity for the remaining turns."
+      "desc": "If Kromer's main body is brought to 50% PV, she gains Purity for the remaining turns."
     },
     {
       "id": 803003,
@@ -235,7 +235,7 @@
     {
       "id": 803102,
       "name": "Fluid Sac",
-      "desc": "While the Fluid Sac status is active, the Core heals (20 * Fluid Sac Count) HP."
+      "desc": "While the Fluid Sac status is active, the Core heals (20 * Fluid Sac Count) PV."
     },
     {
       "id": 803103,
@@ -260,7 +260,7 @@
     {
       "id": 803401,
       "name": "Bongy Chicken Struts",
-      "desc": "At the end of the turn, deal 3 SP damage to a random enemy."
+      "desc": "At the end of the turn, deal 3 PS damage to a random enemy."
     },
     {
       "id": 803701,
@@ -270,12 +270,12 @@
     {
       "id": 803901,
       "name": "Vigorous Volaille",
-      "desc": "At the end of the turn, heal 5 HP for each Raw Chicken in battle."
+      "desc": "At the end of the turn, heal 5 PV for each Raw Chicken in battle."
     },
     {
       "id": 803902,
       "name": "Gloomy Gallus",
-      "desc": "At the end of the turn, deal 5 SP damage to all enemies for each Raw Chicken in battle."
+      "desc": "At the end of the turn, deal 5 PS damage to all enemies for each Raw Chicken in battle."
     },
     {
       "id": 803903,
@@ -320,7 +320,7 @@
     {
       "id": 804503,
       "name": "Undying Persistence",
-      "desc": "Every 5 turns, gains a Shield equal to the head's HP."
+      "desc": "Every 5 turns, gains a Shield equal to the head's PV."
     },
     {
       "id": 804504,
@@ -340,7 +340,7 @@
     {
       "id": 804603,
       "name": "Last Struggle",
-      "desc": "At 15% HP, the unit's Speed is fixed at 1, and gains 1 Attack Power Down.\nNewly spawned Old Umbrellas have 30% more HP. Uses 'Cries Seeking Something' every turn."
+      "desc": "At 15% PV, the unit's Speed is fixed at 1, and gains 1 Attack Power Down.\nNewly spawned Old Umbrellas have 30% more PV. Uses 'Cries Seeking Something' every turn."
     },
     {
       "id": 804701,
@@ -370,7 +370,7 @@
     {
       "id": 804301,
       "name": "Perilous Mind",
-      "desc": "At the end of each turn, lose 10 SP."
+      "desc": "At the end of each turn, lose 10 PS."
     },
     {
       "id": 804302,
@@ -385,12 +385,12 @@
     {
       "id": 804304,
       "name": "Determination",
-      "desc": "When recovering from panic, fully heal SP, and gain 2 Haste and 2 Attack Power Up."
+      "desc": "When recovering from panic, fully heal PS, and gain 2 Haste and 2 Attack Power Up."
     },
     {
       "id": 804305,
       "name": "Lobotomy E.G.O",
-      "desc": "Starts the battle with 1200 Shield HP"
+      "desc": "Starts the battle with 1200 Shield PV"
     },
     {
       "id": 805301,
@@ -405,17 +405,17 @@
     {
       "id": 804402,
       "name": "Flowering Mind",
-      "desc": "When HP drops to 50%, proceeds to the next phase. HP does not go below 50% until the phase changes."
+      "desc": "When PV drops to 50%, proceeds to the next phase. PV does not go below 50% until the phase changes."
     },
     {
       "id": 804403,
       "name": "Dueling",
-      "desc": "When HP falls below 50%, uses a special skill to target 1 unit, then becomes immune to Stagger and Panic for the next 2 turns.\nIf Yi Sang has 'Dueling', Dongbaek gains 1 Attack Power Up.\nIf Yi Sang wins the duel, all allies gain 3 Damage Up next turn.\nIf Dongbaek wins the duel, Dongbaek fully heals SP."
+      "desc": "When PV falls below 50%, uses a special skill to target 1 unit, then becomes immune to Stagger and Panic for the next 2 turns.\nIf Yi Sang has 'Dueling', Dongbaek gains 1 Attack Power Up.\nIf Yi Sang wins the duel, all allies gain 3 Damage Up next turn.\nIf Dongbaek wins the duel, Dongbaek fully heals PS."
     },
     {
       "id": 804404,
       "name": "Cost of Blooming",
-      "desc": "If 'Magnificent Spring Breeze' loses in a clash, lose 10 SP"
+      "desc": "If 'Magnificent Spring Breeze' loses in a clash, lose 10 PS"
     },
     {
       "id": 805401,
@@ -435,12 +435,12 @@
     {
       "id": 804903,
       "name": "Self Destruction",
-      "desc": "All skills target indiscriminately. With each skill used, this unit loses 2% of Max HP."
+      "desc": "All skills target indiscriminately. With each skill used, this unit loses 2% of Max PV."
     },
     {
       "id": 804904,
       "name": "Self Salvation",
-      "desc": "HP healing effects heal twice as much."
+      "desc": "PV healing effects heal twice as much."
     },
     {
       "id": 805601,
@@ -450,22 +450,22 @@
     {
       "id": 805602,
       "name": "Earnest Accomplishment",
-      "desc": "While this unit has Earnest Accomplishment, the following effects apply:\n- Can only be defeated with Dongrang's attacks.\n- If a Sinner drops this unit's HP to 1, the Sinner heals HP, and this unit gains Empty Honor.\n- If Dongrang defeats this unit, Dongrang heals HP and powers up next turn."
+      "desc": "While this unit has Earnest Accomplishment, the following effects apply:\n- Can only be defeated with Dongrang's attacks.\n- If a Sinner drops this unit's PV to 1, the Sinner heals PV, and this unit gains Empty Honor.\n- If Dongrang defeats this unit, Dongrang heals PV and powers up next turn."
     },
     {
       "id": 805603,
       "name": "Empty Honor",
-      "desc": "While this unit has Empty Honor, the following effects apply:\n- Can only be defeated with Dongrang's attacks.\n- If Dongrang defeats this unit, Dongrang loses HP, gains 1 Emptiness, and is weakened next turn"
+      "desc": "While this unit has Empty Honor, the following effects apply:\n- Can only be defeated with Dongrang's attacks.\n- If Dongrang defeats this unit, Dongrang loses PV, gains 1 Emptiness, and is weakened next turn"
     },
     {
       "id": 805701,
       "name": "Borne Fruition",
-      "desc": "The unit that defeated this unit heals by 5% of Max HP, and gains 1 Haste and 1 Attack Power Up next turn"
+      "desc": "The unit that defeated this unit heals by 5% of Max PV, and gains 1 Haste and 1 Attack Power Up next turn"
     },
     {
       "id": 805001,
       "name": "Toward the Ideal",
-      "desc": "When the HP is brought to 85% and 50% of Max HP, respectively, spawns 2 Trees of Desires and changes behavior."
+      "desc": "When the PV is brought to 85% and 50% of Max PV, respectively, spawns 2 Trees of Desires and changes behavior."
     },
     {
       "id": 806001,
@@ -475,12 +475,12 @@
     {
       "id": 805004,
       "name": "Price of Neglect",
-      "desc": "If 'Time of Harvest' loses in a clash, lose 5 SP"
+      "desc": "If 'Time of Harvest' loses in a clash, lose 5 PS"
     },
     {
       "id": 805005,
       "name": "Bitter Smile",
-      "desc": "When in panic, gain 2 Protection and reset SP to 0 at the start of the next turn."
+      "desc": "When in panic, gain 2 Protection and reset PS to 0 at the start of the next turn."
     },
     {
       "id": 805006,
@@ -495,12 +495,12 @@
     {
       "id": 805002,
       "name": "Toward the Ideal",
-      "desc": "When the HP is brought to 85% of Max HP, spawns 2 Trees of Desires and changes behavior."
+      "desc": "When the PV is brought to 85% of Max PV, spawns 2 Trees of Desires and changes behavior."
     },
     {
       "id": 805003,
       "name": "Toward the Ideal",
-      "desc": "When the HP is brought to 50% of Max HP, spawns 2 Trees of Desires and changes behavior."
+      "desc": "When the PV is brought to 50% of Max PV, spawns 2 Trees of Desires and changes behavior."
     },
     {
       "id": 805801,
@@ -530,7 +530,7 @@
     {
       "id": 805901,
       "name": "Manufactured Respite",
-      "desc": "If the giant clover is present, this unit heals 30 HP at the end of the turn."
+      "desc": "If the giant clover is present, this unit heals 30 PV at the end of the turn."
     },
     {
       "id": 805902,
@@ -545,22 +545,22 @@
     {
       "id": 806201,
       "name": "Contaminating Leaf",
-      "desc": "At the start of the turn, give 1 HP Healing Boost and 1 Attack Power Up to Fairy-Long-Legs."
+      "desc": "At the start of the turn, give 1 PV Healing Boost and 1 Attack Power Up to Fairy-Long-Legs."
     },
     {
       "id": 80620101,
       "name": "Contaminating Leaf",
-      "desc": "At the start of the turn, give 1 HP Healing Boost and 1 Attack Power Up to Fairy-Long-Legs."
+      "desc": "At the start of the turn, give 1 PV Healing Boost and 1 Attack Power Up to Fairy-Long-Legs."
     },
     {
       "id": 826301,
       "name": "Momentary Satiation",
-      "desc": "Turn End: If the ally with [PreparedMeat] is at 1 HP, kill the ally; then, all Parts gain 5 [Vulnerable], [Reduction], and [Disarming]."
+      "desc": "Turn End: If the ally with [PreparedMeat] is at 1 PV, kill the ally; then, all Parts gain 5 [Vulnerable], [Reduction], and [Disarming]."
     },
     {
       "id": 826302,
       "name": "Ravening Hunger",
-      "desc": "Turn Start: If there are surviving allies at 25%- HP, kill all allies.\nHeal (# of allies killed x 5)% of max Core HP.\nTurn End: If there are no surviving allies, gain 20 [Enhancement] next turn."
+      "desc": "Turn Start: If there are surviving allies at 25%- PV, kill all allies.\nHeal (# of allies killed x 5)% of max Core PV.\nTurn End: If there are no surviving allies, gain 20 [Enhancement] next turn."
     },
     {
       "id": 826303,
@@ -570,7 +570,7 @@
     {
       "id": 826304,
       "name": "Invitation to a Meal",
-      "desc": "Turn End: All Sinners heal 10 SP, and gain +1 E.G.O resource for all Affinities"
+      "desc": "Turn End: All Sinners heal 10 PS, and gain +1 E.G.O resource for all Affinities"
     },
     {
       "id": 826501,
@@ -580,12 +580,12 @@
     {
       "id": 826502,
       "name": "Bottomless Hunger",
-      "desc": "After defeating an ally, heal 20 Core HP; then, gain 1 [Vulnerable] next turn."
+      "desc": "After defeating an ally, heal 20 Core PV; then, gain 1 [Vulnerable] next turn."
     },
     {
       "id": 826503,
       "name": "Hunger",
-      "desc": "Turn End: If this unit failed to defeat an ally with Prepared Meat, gain 1 [Hunger]. At 75%- HP, gain 2. At 50%- HP, gain 3.\nTurn Start: If this unit defeated an ally with Prepared Meat, lose 1 [Hunger]."
+      "desc": "Turn End: If this unit failed to defeat an ally with Prepared Meat, gain 1 [Hunger]. At 75%- PV, gain 2. At 50%- PV, gain 3.\nTurn Start: If this unit defeated an ally with Prepared Meat, lose 1 [Hunger]."
     },
     {
       "id": 826504,
@@ -600,7 +600,7 @@
     {
       "id": 811801,
       "name": "Returning Past",
-      "desc": "If at 50+ [AccumulatedPastMirror], and if Core's HP is less than or equal to 80%, Core gains 200 HP by spending 50 [AccumulatedPastMirror] at Turn End"
+      "desc": "If at 50+ [AccumulatedPastMirror], and if Core's PV is less than or equal to 80%, Core gains 200 PV by spending 50 [AccumulatedPastMirror] at Turn End"
     },
     {
       "id": 811802,
@@ -615,17 +615,17 @@
     {
       "id": 826401,
       "name": "Care",
-      "desc": "Turn Start: Heal 15% of max HP"
+      "desc": "Turn Start: Heal 15% of max PV"
     },
     {
       "id": 826402,
       "name": "Keep It Fresh",
-      "desc": "HP does not drop below 1"
+      "desc": "PV does not drop below 1"
     },
     {
       "id": 814201,
       "name": "Dueling",
-      "desc": "When HP falls below 50%, uses a special skill to target 1 unit, then becomes immune to Stagger and Panic for the next 2 turns.\nIf Yi Sang has 'Dueling', Dongbaek gains 1 Attack Power Up.\nIf Yi Sang wins the duel, all allies gain 3 Damage Up next turn.\nIf Dongbaek wins the duel, Dongbaek fully heals SP."
+      "desc": "When PV falls below 50%, uses a special skill to target 1 unit, then becomes immune to Stagger and Panic for the next 2 turns.\nIf Yi Sang has 'Dueling', Dongbaek gains 1 Attack Power Up.\nIf Yi Sang wins the duel, all allies gain 3 Damage Up next turn.\nIf Dongbaek wins the duel, Dongbaek fully heals PS."
     }
   ]
 }

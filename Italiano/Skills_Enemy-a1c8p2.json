@@ -372,7 +372,7 @@
         {
           "level": 1,
           "name": "Frantic Pummel",
-          "desc": "[StartBattle] At 50%- HP, convert the third Coin of this Skill to [SuperCoin]\n[WhenUse] Clash Power +1 for every 4 [Burst] on target (max 2)",
+          "desc": "[StartBattle] At 50%- PV, convert the third Coin of this Skill to [SuperCoin]\n[WhenUse] Clash Power +1 for every 4 [Burst] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -391,7 +391,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Heal ([DefenseUp] Stack on self)% HP on self (max 10%)"
+                  "desc": "[WinDuelAttack] Heal ([DefenseUp] Stack on self)% PV on self (max 10%)"
                 }
               ]
             }
@@ -405,7 +405,7 @@
         {
           "level": 1,
           "name": "Prone",
-          "desc": "[WhenUse] Gain Shield equal to 10% of Max HP",
+          "desc": "[WhenUse] Gain Shield equal to 10% of Max PV",
           "coinlist": [
             {}
           ]
@@ -453,7 +453,7 @@
                   "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 other ally with the least HP percentage by 5% of this unit's Max HP"
+                  "desc": "[OnSucceedAttackHead] Heal 1 other ally with the least PV percentage by 5% of this unit's Max PV"
                 }
               ]
             }
@@ -467,7 +467,7 @@
         {
           "level": 1,
           "name": "Frantic Volley",
-          "desc": "[StartBattle] At 50%- HP, convert the third Coin of this Skill to [SuperCoin]\n[WhenUse] Base Power +1 for every 4 [Burst] on target (max 2)",
+          "desc": "[StartBattle] At 50%- PV, convert the third Coin of this Skill to [SuperCoin]\n[WhenUse] Base Power +1 for every 4 [Burst] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -486,7 +486,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Heal 2 allies, including this unit, with the least HP percentage by 10% of this unit's Max HP"
+                  "desc": "[WinDuelAttack] Heal 2 allies, including this unit, with the least PV percentage by 10% of this unit's Max PV"
                 }
               ]
             }
@@ -553,7 +553,7 @@
         {
           "level": 1,
           "name": "Frantic Swinging",
-          "desc": "[StartBattle] At 50%- HP, convert the third Coin of this Skill to [SuperCoin]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)",
+          "desc": "[StartBattle] At 50%- PV, convert the third Coin of this Skill to [SuperCoin]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -572,7 +572,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Deal +(missing HP percentage on self)% damage (max 50%)"
+                  "desc": "Deal +(missing PV percentage on self)% damage (max 50%)"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Reuse this Skill (1 time max)"
@@ -681,7 +681,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Defend",
-          "desc": "[StartBattle] Gain (20 - this unit's SP) Shield (min 0, max 20)",
+          "desc": "[StartBattle] Gain (20 - this unit's PS) Shield (min 0, max 20)",
           "coinlist": [
             {}
           ]
@@ -745,7 +745,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Execution",
-          "desc": "[StartBattle] At -30 SP or less, convert this Skill's final Coin to [SuperCoin]\n[DefeatDuel] Reduce this Skill's Base Power by 75% (rounded down)\n[WhenUse] Final Power +1 for every 4 [Burst] on target (max 3)",
+          "desc": "[StartBattle] At -30 PS or less, convert this Skill's final Coin to [SuperCoin]\n[DefeatDuel] Reduce this Skill's Base Power by 75% (rounded down)\n[WhenUse] Final Power +1 for every 4 [Burst] on target (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -784,7 +784,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Vile Burst",
-          "desc": "[StartBattle] Final Power +1 for every 10 SP below 0 (max 3)\n[DefeatDuel] Reduce this Skill's Base Power by 75% (rounded down); also, this Skill's damage or effect cannot stagger the target(s)\n[EndSkill] Reset SP to 0",
+          "desc": "[StartBattle] Final Power +1 for every 10 PS below 0 (max 3)\n[DefeatDuel] Reduce this Skill's Base Power by 75% (rounded down); also, this Skill's damage or effect cannot stagger the target(s)\n[EndSkill] Reset PS to 0",
           "coinlist": [
             {
               "coindescs": [
@@ -819,7 +819,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Defend",
-          "desc": "[StartBattle] Gain (20 - this unit's SP) Shield (min 0, max 40)",
+          "desc": "[StartBattle] Gain (20 - this unit's PS) Shield (min 0, max 40)",
           "coinlist": [
             {}
           ]

@@ -628,7 +628,7 @@
         {
           "level": 1,
           "name": "Expend Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 2% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Gain ([KnowledgeExplored] x 2% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {
               "coindescs": [
@@ -649,7 +649,7 @@
         {
           "level": 2,
           "name": "Expend Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Gain ([KnowledgeExplored] x 3% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {
               "coindescs": [
@@ -670,7 +670,7 @@
         {
           "level": 4,
           "name": "Expend Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1",
+          "desc": "Gain ([KnowledgeExplored] x 3% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -696,7 +696,7 @@
         {
           "level": 1,
           "name": "Seal Shut",
-          "desc": "Gain ([KnowledgeExplored] x 4% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Gain ([KnowledgeExplored] x 4% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {},
             {
@@ -718,7 +718,7 @@
         {
           "level": 2,
           "name": "Seal Shut",
-          "desc": "Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+          "desc": "Gain ([KnowledgeExplored] x 5% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
           "coinlist": [
             {},
             {
@@ -740,7 +740,7 @@
         {
           "level": 4,
           "name": "Seal Shut",
-          "desc": "Gain ([KnowledgeExplored] x 6% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+          "desc": "Gain ([KnowledgeExplored] x 6% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
           "coinlist": [
             {},
             {
@@ -767,7 +767,7 @@
         {
           "level": 3,
           "name": "Grace of Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 9% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Gain +8 Aggro to this Skill Slot next turn",
+          "desc": "Gain ([KnowledgeExplored] x 9% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Gain +8 Aggro to this Skill Slot next turn",
           "coinlist": [
             {},
             {},
@@ -784,7 +784,7 @@
         {
           "level": 4,
           "name": "Grace of Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 12% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn\n[WhenUse] At 50%- HP, Coin Power +1",
+          "desc": "Gain ([KnowledgeExplored] x 12% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn\n[WhenUse] At 50%- PV, Coin Power +1",
           "coinlist": [
             {},
             {},
@@ -1374,7 +1374,7 @@
         {
           "level": 4,
           "name": "FromTheCoffinAButterflyTakesFlight",
-          "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% HP. (max 20% per turn)",
+          "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% PV. (max 20% per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1535,7 +1535,7 @@
         {
           "level": 3,
           "name": "the idiosyncrasies of the source may be utilized with greater flexibility",
-          "desc": "Deal +0.5% damage for every 1% missing HP on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 2)\n[WhenUse] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 SP",
+          "desc": "Deal +0.5% damage for every 1% missing PV on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 2)\n[WhenUse] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1566,7 +1566,7 @@
         {
           "level": 4,
           "name": "the idiosyncrasies of the source may be utilized with greater flexibility",
-          "desc": "Deal +0.8% damage for every 1% missing HP on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 3)\n[WhenUse] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 SP",
+          "desc": "Deal +0.8% damage for every 1% missing PV on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 3)\n[WhenUse] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1804,7 +1804,7 @@
         {
           "level": 3,
           "name": "Flow of the Sword",
-          "desc": "If target has 6+ [Combustion], Coin Power +1\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 10 SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+          "desc": "If target has 6+ [Combustion], Coin Power +1\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 10 PS for 1 other ally with the least PS\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
           "coinlist": [
             {
               "coindescs": [
@@ -1842,7 +1842,7 @@
         {
           "level": 4,
           "name": "Flow of the Sword",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)</style>\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15</style> SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)</style>\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15</style> PS for 1 other ally with the least PS\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
           "coinlist": [
             {
               "coindescs": [

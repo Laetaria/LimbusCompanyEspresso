@@ -3,7 +3,7 @@
     {
       "id": 9427,
       "name": "Town-protecting Harpoon",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nTurn End: At less than 30% HP, gain 1 [Enhancement] next turn",
+      "desc": "[Effects apply only to #6 Deployed Identity]\n\nTurn End: At less than 30% PV, gain 1 [Enhancement] next turn",
       "simpleDesc": [
         {
           "abilityID": 9427,
@@ -14,7 +14,7 @@
     {
       "id": 19427,
       "name": "Town-protecting Harpoon+",
-      "desc": "[Effects apply only to #6 Deployed Identity]\nTurn End: at less than 40% HP, gain 1 [Enhancement] next turn\n\nTurn End: if there is a Staggered ally, gain +6 [Aggro] next turn and gain 4 [DefenseUp] next turn",
+      "desc": "[Effects apply only to #6 Deployed Identity]\nTurn End: at less than 40% PV, gain 1 [Enhancement] next turn\n\nTurn End: if there is a Staggered ally, gain +6 [Aggro] next turn and gain 4 [DefenseUp] next turn",
       "simpleDesc": [
         {
           "abilityID": 19427,
@@ -29,7 +29,7 @@
     {
       "id": 29427,
       "name": "Town-protecting Harpoon++",
-      "desc": "[Effects apply only to #6 Deployed Identity]\nTurn End: at less than 50% HP, gain 1 [Enhancement] next turn\n\nTurn End: if there is a Staggered ally, gain +6 [Aggro] next turn and gain 4 [DefenseUp] next turn",
+      "desc": "[Effects apply only to #6 Deployed Identity]\nTurn End: at less than 50% PV, gain 1 [Enhancement] next turn\n\nTurn End: if there is a Staggered ally, gain +6 [Aggro] next turn and gain 4 [DefenseUp] next turn",
       "simpleDesc": [
         {
           "abilityID": 29427,
@@ -63,30 +63,30 @@
     {
       "id": 9431,
       "name": "Broken Violin",
-      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 45%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 20%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)",
+      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 45%- PV, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 20%- PV, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)",
       "simpleDesc": [
         {
           "abilityID": 9431,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 PV Healing Boost"
         },
         {
           "abilityID": 94311,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 PV Healing Boost"
         }
       ]
     },
     {
       "id": 19431,
       "name": "Broken Violin+",
-      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 65%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 40%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)\n\nWhen winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (max 20%)",
+      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 65%- PV, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 40%- PV, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)\n\nWhen winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (max 20%)",
       "simpleDesc": [
         {
           "abilityID": 19431,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 PV Healing Boost"
         },
         {
           "abilityID": 194311,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 PV Healing Boost"
         },
         {
           "abilityID": 194312,
@@ -97,15 +97,15 @@
     {
       "id": 29431,
       "name": "Broken Violin++",
-      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 65%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 40%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)\n\nWhen winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 3)% damage (max 30%)",
+      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 65%- PV, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 40%- PV, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)\n\nWhen winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 3)% damage (max 30%)",
       "simpleDesc": [
         {
           "abilityID": 29431,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 PV Healing Boost"
         },
         {
           "abilityID": 294311,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 PV Healing Boost"
         },
         {
           "abilityID": 294312,
@@ -131,7 +131,7 @@
     {
       "id": 9435,
       "name": "Butler Style Binding Arts",
-      "desc": "Turn Start: inflict 1 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest HP percentage: if target is Staggered, deal +7.5% damage for every Stagger Level.",
+      "desc": "Turn Start: inflict 1 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest PV percentage: if target is Staggered, deal +7.5% damage for every Stagger Level.",
       "simpleDesc": [
         {
           "abilityID": 9435,
@@ -146,7 +146,7 @@
     {
       "id": 19435,
       "name": "Butler Style Binding Arts+",
-      "desc": "Turn Start: inflict 2 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest HP percentage: if target is Staggered, deal +10% damage for every Stagger Level.",
+      "desc": "Turn Start: inflict 2 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest PV percentage: if target is Staggered, deal +10% damage for every Stagger Level.",
       "simpleDesc": [
         {
           "abilityID": 19435,
@@ -161,7 +161,7 @@
     {
       "id": 29435,
       "name": "Butler Style Binding Arts++",
-      "desc": "Turn Start: inflict 3 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest HP percentage: if target is Staggered, deal +12.5% damage for every Stagger Level.",
+      "desc": "Turn Start: inflict 3 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest PV percentage: if target is Staggered, deal +12.5% damage for every Stagger Level.",
       "simpleDesc": [
         {
           "abilityID": 29435,
@@ -176,7 +176,7 @@
     {
       "id": 9436,
       "name": "Refraction Glass Pod",
-      "desc": "Regular Encounters) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\nif target is at -45 SP, deal ([Sinking] Potency on target) / 5) Gloom damage (3 times per Skill)\n\nIncontri Mirati) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\ndeal ([Sinking] Potency on target) / 10) Gloom damage (2 times per Skill)",
+      "desc": "Regular Encounters) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\nif target is at -45 PS, deal ([Sinking] Potency on target) / 5) Gloom damage (3 times per Skill)\n\nIncontri Mirati) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\ndeal ([Sinking] Potency on target) / 10) Gloom damage (2 times per Skill)",
       "simpleDesc": [
         {
           "abilityID": 9436,
@@ -202,11 +202,11 @@
     {
       "id": 9438,
       "name": "Token of Victory",
-      "desc": "On Kill, 1 ally with the least SP heals 3 SP.\n\nAfter Attack: if an enemy with 10+ (sum of [Laceration], 'Unique Bleed', and [Burst]) is defeated, 1 ally gains 2 [AttackUp] next turn (prioritizes the ally who killed that enemy)",
+      "desc": "On Kill, 1 ally with the least PS heals 3 PS.\n\nAfter Attack: if an enemy with 10+ (sum of [Laceration], 'Unique Bleed', and [Burst]) is defeated, 1 ally gains 2 [AttackUp] next turn (prioritizes the ally who killed that enemy)",
       "simpleDesc": [
         {
           "abilityID": 9438,
-          "simpleDesc": "Heal 3 SP"
+          "simpleDesc": "Heal 3 PS"
         },
         {
           "abilityID": 9438,

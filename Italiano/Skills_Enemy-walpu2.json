@@ -84,7 +84,7 @@
                 {
                     "level": 1,
                     "name": "Defend",
-                    "desc": "If this unit has Shield HP, inflict 2 Bleed next turn On Hit",
+                    "desc": "If this unit has Shield PV, inflict 2 Bleed next turn On Hit",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -148,7 +148,7 @@
                 {
                     "level": 1,
                     "name": "Pain",
-                    "desc": "Prioritizes targets with Bleed\nWhen this unit defeats the target with an attack, enemy with the lowest SP loses 10 SP.",
+                    "desc": "Prioritizes targets with Bleed\nWhen this unit defeats the target with an attack, enemy with the lowest PS loses 10 PS.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -156,7 +156,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 10% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Target loses (Bleed on target) SP"
+                                    "desc": "[OnSucceedAttackHead] Target loses (Bleed on target) PS"
                                 }
                             ]
                         },
@@ -166,7 +166,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 10% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Target loses (Bleed on target) SP"
+                                    "desc": "[OnSucceedAttackHead] Target loses (Bleed on target) PS"
                                 }
                             ]
                         },
@@ -251,7 +251,7 @@
                 {
                     "level": 1,
                     "name": "Pain",
-                    "desc": "Prioritizes targets with Bleed\nWhen this unit defeats the target with an attack, enemy with the lowest SP loses 10 SP.\nWhen this unit defeats the target with an attack, reuse Skill on a different target.",
+                    "desc": "Prioritizes targets with Bleed\nWhen this unit defeats the target with an attack, enemy with the lowest PS loses 10 PS.\nWhen this unit defeats the target with an attack, reuse Skill on a different target.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -259,7 +259,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 20% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target) SP"
+                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target) PS"
                                 }
                             ]
                         },
@@ -269,7 +269,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 20% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target) SP"
+                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target) PS"
                                 }
                             ]
                         },
@@ -377,7 +377,7 @@
                 {
                     "level": 1,
                     "name": "Pain",
-                    "desc": "Prioritizes targets with Bleed\nWhen this unit defeats the target with an attack, enemy with the lowest SP loses 15 SP.\nWhen this unit defeats the target with an attack, reuse Skill on a different target.",
+                    "desc": "Prioritizes targets with Bleed\nWhen this unit defeats the target with an attack, enemy with the lowest PS loses 15 PS.\nWhen this unit defeats the target with an attack, reuse Skill on a different target.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -385,7 +385,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 20% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target/2) SP"
+                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target/2) PS"
                                 }
                             ]
                         },
@@ -395,7 +395,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 20% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target/2) SP"
+                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target/2) PS"
                                 }
                             ]
                         },
@@ -405,7 +405,7 @@
                                     "desc": "[OnSucceedAttack] If target has Bleed, deal 20% of damage dealt as bonus damage"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target/2) SP"
+                                    "desc": "[OnSucceedAttack] Target loses (Bleed on target/2) PS"
                                 }
                             ]
                         },

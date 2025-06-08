@@ -78,7 +78,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses 5 SP"
+                                    "desc": "[OnSucceedAttack] Target loses 5 PS"
                                 }
                             ]
                         }
@@ -92,7 +92,7 @@
                 {
                     "level": 1,
                     "name": "Domineer",
-                    "desc": "[StartBattle] Apply 1 Attack Power Up to all allies\n[StartBattle] Inflict 2 Attack Power Down to 2 enemies with the least SP",
+                    "desc": "[StartBattle] Apply 1 Attack Power Up to all allies\n[StartBattle] Inflict 2 Attack Power Down to 2 enemies with the least PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -130,12 +130,12 @@
                 {
                     "level": 1,
                     "name": "Watch Your Back!",
-                    "desc": "If target has less than 0 SP, Coin Power +3",
+                    "desc": "If target has less than 0 PS, Coin Power +3",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Heal 10 SP on self"
+                                    "desc": "[OnSucceedAttack] Heal 10 PS on self"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Inflict 2 Bind and 2 Attack Power Down next turn"
@@ -145,7 +145,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses 20 SP"
+                                    "desc": "[OnSucceedAttack] Target loses 20 PS"
                                 }
                             ]
                         }
@@ -197,7 +197,7 @@
                 {
                     "level": 1,
                     "name": "MY HAIR COUPOOOOOOOOOOONS!!!",
-                    "desc": "If the main target has less than 0 SP, Final Power +5",
+                    "desc": "If the main target has less than 0 PS, Final Power +5",
                     "coinlist": [
                         {
                             "coindescs": [

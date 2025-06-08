@@ -8,7 +8,7 @@
       "options": [
         {
           "message": "Offer the person.",
-          "messageDesc": "All allies lose SP. Gain an E.G.O Gift.",
+          "messageDesc": "All allies lose PS. Gain an E.G.O Gift.",
           "result": [
             "Satisfied, the clay dolls carried the corpse-to-be off into the distance."
           ]
@@ -37,7 +37,7 @@
       "options": [
         {
           "message": "Offer the person.",
-          "messageDesc": "All allies lose SP. Gain an E.G.O Gift.",
+          "messageDesc": "All allies lose PS. Gain an E.G.O Gift.",
           "result": [
             "Satisfied, the clay dolls carried the corpse-to-be off into the distance."
           ]
@@ -80,14 +80,14 @@
       "options": [
         {
           "message": "Carefully move past the gross swarm.",
-          "messageDesc": "All allies lose SP",
+          "messageDesc": "All allies lose PS",
           "result": [
             "“Ewwww… One got on my leg!”\n\nEveryone managed to get through the passage, but their disgust is clearly visible.\nThey seem fatigued by the experience."
           ]
         },
         {
           "message": "Enough is enough. Crush the cockroaches with the Sinners.",
-          "messageDesc": "Gregor loses a lot of SP. Begin a combat encounter. Win to gain an E.G.O Gift.",
+          "messageDesc": "Gregor loses a lot of PS. Begin a combat encounter. Win to gain an E.G.O Gift.",
           "result": [
             "“Tsk…”\n\nGregor turned away from the carnage, discontent.\nSoon after, a crowd of angry bug-soldiers came charging for us."
           ]
@@ -144,14 +144,14 @@
       "options": [
         {
           "message": "Take on the challenge.",
-          "messageDesc": "Rodion gains SP. Run Wrath, Sloth, and Gloom checks. Pass to heal all allies' SP and gain an E.G.O Gift.",
+          "messageDesc": "Rodion gains PS. Run Wrath, Sloth, and Gloom checks. Pass to heal all allies' PS and gain an E.G.O Gift.",
           "result": [
             "“You know this is where I shine!”\n\nRodya proudly proclaimed as she stepped forward.\nYou can see a mixture of anticipation and excitement on her face."
           ]
         },
         {
           "message": "Forget games! Crush them in battle.",
-          "messageDesc": "Rodion loses SP. Begin a combat encounter. Win to gain an E.G.O Gift.",
+          "messageDesc": "Rodion loses PS. Begin a combat encounter. Win to gain an E.G.O Gift.",
           "result": [
             "This is not the time for gaming of all things.\nLet's just deal with those crazed cyborgs and move on.\n\n“…Psh.”\n\nRodya smacked her lips in dissatisfaction, but you know you can't always afford to give every Sinner what they want."
           ]
@@ -226,7 +226,7 @@
       "options": [
         {
           "message": "Pull the lever.",
-          "messageDesc": "50% chance to gain an E.G.O Gift. Failure results in HP and SP damage.",
+          "messageDesc": "50% chance to gain an E.G.O Gift. Failure results in PV and PS damage.",
           "result": [
             "The machine stopped at last.\n\n“Huh… Would you look at that!”\n\nA small wooden chest rose from the floor.\nYou carefully open it to find a bundle of torches.\n\nIt's not much, but they should give you momentary relief in the dark.\nYou take the torches out of the room.",
             "The machine stopped at last.\n\n“W-What's happening?!”\n\nIn the machine's stead, the room now began to tremble and crack.\nA moment later, the ceiling split open, giving way for thousands of nails diving downward.\n\n“Outside, now!”\n\n“Dammit, I told you it was a bad idea to mess with it!”\n\nYou and the Sinners quickly evacuated the room, but not without harm."
@@ -318,7 +318,7 @@
       "options": [
         {
           "message": "Wait for the torture to end.",
-          "messageDesc": "Certain Identities lose SP",
+          "messageDesc": "Certain Identities lose PS",
           "result": [
             "While the scene is horrible to behold, we are no valiant knights.\nA wise manager wouldn't risk losing all their Sinners over some juvenile impulse.\nIn that case…\n\n“…Understood.”\n\nSinclair gave you a vexing glare as you placed a hand on his shoulder, but he soon hung his head low and assented.\n\n…Hopefully, this was the right call.\nYou decided to watch and wait until the torture was over."
           ]
@@ -340,7 +340,7 @@
       "options": [
         {
           "message": "Examine the dead Inquisitor.",
-          "messageDesc": "Run a Gluttony check. Pass to gain an E.G.O Gift. Fail to lose HP and SP."
+          "messageDesc": "Run a Gluttony check. Pass to gain an E.G.O Gift. Fail to lose PV and PS."
         },
         {
           "message": "Leave without touching it.",
@@ -358,7 +358,7 @@
       "options": [
         {
           "message": "Free the prosthetic.",
-          "messageDesc": "Sinclair heals SP. Begin a combat encounter. Win to gain an E.G.O Gift.",
+          "messageDesc": "Sinclair heals PS. Begin a combat encounter. Win to gain an E.G.O Gift.",
           "result": [
             "“…I knew I could count on you.”\n\nSinclair jumped in as soon as you told him what to do.\nAs you expected, a number of prosthetic people were bound by ropes.\n\n“Get out of here, quickly!”\n\nAs soon as he untied them, they hurriedly ran out of the room.\n\n“Tch… The heretics!”\n\nWe were a little late to leave; the Inquisitors shouted as they entered the room.\nIt seems conflict is unavoidable.",
             "“…I knew I could count on you.”\n\nSinclair jumped in as soon as you told him what to do.\nAs you expected, a number of prosthetic people were bound by ropes.\n\n“Get out of here, quickly!”\n\nAs soon as he untied them, they hurriedly ran out of the room.\n\n“Bastards, not even a simple thank you.”\n\nSome of the Sinners complained,\nbut Sinclair looked satisfied with the deed.\n\nCalming them down, we left the room."
@@ -366,7 +366,7 @@
         },
         {
           "message": "Leave the prosthetic.",
-          "messageDesc": "Sinclair loses SP.",
+          "messageDesc": "Sinclair loses PS.",
           "result": [
             "“N—No… How could…”\n\nSinclair seems to be shocked by your answer.\nAs unfortunate as this is, losing manpower while trying to save those people would be a fatal detriment for the coming engagements.\n\n[H. He. Help. H. Hel…]\n\nWe left in a hurry, leaving behind their plaintive cries."
           ]
@@ -429,7 +429,7 @@
       "options": [
         {
           "message": "Perform the rite.",
-          "messageDesc": "Run a Gloom check. Selected Identity loses SP. Pass to gain an E.G.O Gift."
+          "messageDesc": "Run a Gloom check. Selected Identity loses PS. Pass to gain an E.G.O Gift."
         },
         {
           "message": "Leave the room.",
@@ -482,7 +482,7 @@
       "options": [
         {
           "message": "Perform the rite.",
-          "messageDesc": "Run a Wrath check. Selected Identity loses HP. Pass to gain an E.G.O Gift."
+          "messageDesc": "Run a Wrath check. Selected Identity loses PV. Pass to gain an E.G.O Gift."
         },
         {
           "message": "Leave the room.",
@@ -909,14 +909,14 @@
       "options": [
         {
           "message": "Use the ampule for everyone.",
-          "messageDesc": "All allies that lost HP fully heal.\nAllies with full HP lose HP and SP.",
+          "messageDesc": "All allies that lost PV fully heal.\nAllies with full PV lose PV and PS.",
           "result": [
             "Shouldn't hurt to let all the Sinners benefit from it.\nI pressed the 'group' button.\n\"Ngh!\"\n\"This is weird... I'm feeling sick all of a sudden.\"\nA number of Sinners groaned in pain.\nThinking about what they had in common... I realized that they were all uninjured.\n\"This must not be something you may administer to healthy individuals.\"\n...Better be careful next time."
           ]
         },
         {
           "message": "Use the ampule on the Sinner in the worst state.",
-          "messageDesc": "The ally with the least HP heals to full HP.",
+          "messageDesc": "The ally with the least PV heals to full PV.",
           "result": [
             "{affectedTarget} looked like the Sinner in the sorriest state, so we stood them at the injector and pressed the 'single' button.\n...The Sinner seems to have gotten much better!"
           ]

@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Illuminate Thy Vacuity",
-          "desc": "Gain (Insight x 3% of Max HP) Shield if this Skill is Discarded",
+          "desc": "Gain (Insight x 3% of Max PV) Shield if this Skill is Discarded",
           "coinlist": [
             {},
             {},
@@ -22,7 +22,7 @@
         {
           "level": 2,
           "name": "Illuminate Thy Vacuity",
-          "desc": "Gain (Insight x 4% of Max HP) Shield if this Skill is Discarded\n[WhenUse] If Insight is 2 or higher, gain Coin Power by (Insight -1)",
+          "desc": "Gain (Insight x 4% of Max PV) Shield if this Skill is Discarded\n[WhenUse] If Insight is 2 or higher, gain Coin Power by (Insight -1)",
           "coinlist": [
             {},
             {},
@@ -38,7 +38,7 @@
         {
           "level": 4,
           "name": "Illuminate Thy Vacuity",
-          "desc": "Gain (Insight x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] If Insight is 2 or higher, gain Coin Power by (Insight -1)",
+          "desc": "Gain (Insight x 5% of Max PV) Shield if this Skill is Discarded\n[WhenUse] If Insight is 2 or higher, gain Coin Power by (Insight -1)",
           "coinlist": [
             {},
             {},
@@ -59,7 +59,7 @@
         {
           "level": 1,
           "name": "Weight of Knowledge",
-          "desc": "Gain (Insight x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 2 Aggro next turn",
+          "desc": "Gain (Insight x 5% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 2 Aggro next turn",
           "coinlist": [
             {},
             {},
@@ -76,7 +76,7 @@
         {
           "level": 2,
           "name": "Weight of Knowledge",
-          "desc": "Gain (Insight x 8% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 3 Aggro next turn",
+          "desc": "Gain (Insight x 8% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 3 Aggro next turn",
           "coinlist": [
             {},
             {},
@@ -93,7 +93,7 @@
         {
           "level": 4,
           "name": "Weight of Knowledge",
-          "desc": "Gain (Insight x 10% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 5 Aggro next turn\n[WhenUse] If target has 5+ [Sinking], gain Clash Power +2",
+          "desc": "Gain (Insight x 10% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 5 Aggro next turn\n[WhenUse] If target has 5+ [Sinking], gain Clash Power +2",
           "coinlist": [
             {},
             {},
@@ -115,7 +115,7 @@
         {
           "level": 3,
           "name": "Excruciating Study",
-          "desc": "Gain (Insight x 15% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 2 Skills of the lowest ranks in all of this unit's Skill Slots\n[WhenUse] This Slot gains 3 Aggro next turn",
+          "desc": "Gain (Insight x 15% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 2 Skills of the lowest ranks in all of this unit's Skill Slots\n[WhenUse] This Slot gains 3 Aggro next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -138,7 +138,7 @@
         {
           "level": 4,
           "name": "Excruciating Study",
-          "desc": "Gain (Insight x 20% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 2 Skills of the lowest ranks in all of this unit's Skill Slots\n[WhenUse] This Slot gains 5 Aggro next turn\n[WhenUse] If target has 7+ [Sinking], gain Coin Power +1",
+          "desc": "Gain (Insight x 20% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 2 Skills of the lowest ranks in all of this unit's Skill Slots\n[WhenUse] This Slot gains 5 Aggro next turn\n[WhenUse] If target has 7+ [Sinking], gain Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -932,7 +932,7 @@
         {
           "level": 1,
           "name": "Courier Support & Control Sequence",
-          "desc": "[StartBattle] At 15+ [DevyatDimensionalSack], activate 'Just... a Strategic Time Off!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield (max 15%, once per turn)\n[WhenUse] Gain 2 [DevyatDimensionalSack] (once per turn)\n- At less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]",
+          "desc": "[StartBattle] At 15+ [DevyatDimensionalSack], activate 'Just... a Strategic Time Off!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSack]/2)% of this unit's max PV as Shield (max 15%, once per turn)\n[WhenUse] Gain 2 [DevyatDimensionalSack] (once per turn)\n- At less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]",
           "coinlist": [
             {}
           ]
@@ -940,7 +940,7 @@
         {
           "level": 4,
           "name": "Courier Support & Control Sequence",
-          "desc": "[StartBattle] At 15+ [DevyatDimensionalSack], activate 'Just... a Strategic Time Off!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSack])%</style> of this unit's max HP as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[WhenUse] Gain 2 [DevyatDimensionalSack] (once per turn)\n- At less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]",
+          "desc": "[StartBattle] At 15+ [DevyatDimensionalSack], activate 'Just... a Strategic Time Off!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSack])%</style> of this unit's max PV as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[WhenUse] Gain 2 [DevyatDimensionalSack] (once per turn)\n- At less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]",
           "coinlist": [
             {}
           ]
@@ -953,7 +953,7 @@
         {
           "level": 1,
           "name": "Just... a Strategic Time Off!",
-          "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
+          "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSack]/2)% of this unit's max PV as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
           "coinlist": [
             {}
           ]
@@ -961,7 +961,7 @@
         {
           "level": 4,
           "name": "Just... a Strategic Time Off!",
-          "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSack])%</style> of this unit's max HP as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[EndBattle] Activate [Retreat]",
+          "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSack])%</style> of this unit's max PV as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[EndBattle] Activate [Retreat]",
           "coinlist": [
             {}
           ]
@@ -974,7 +974,7 @@
         {
           "level": 1,
           "name": "Begone...",
-          "desc": "[StartBattle] On self and 1 ally with the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
+          "desc": "[StartBattle] On self and 1 ally with the highest max PV: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
           "coinlist": [
             {},
             {
@@ -992,7 +992,7 @@
         {
           "level": 2,
           "name": "Begone...",
-          "desc": "[StartBattle] On self and 1 ally with the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "desc": "[StartBattle] On self and 1 ally with the highest max PV: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
           "coinlist": [
             {},
             {
@@ -1010,7 +1010,7 @@
         {
           "level": 4,
           "name": "Begone...",
-          "desc": "[StartBattle] On self and 1 ally with the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
+          "desc": "[StartBattle] On self and 1 ally with the highest max PV: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
           "coinlist": [
             {},
             {
@@ -1033,7 +1033,7 @@
         {
           "level": 1,
           "name": "In Finely Ground Mistfall",
-          "desc": "[StartBattle] On self and 1 ally with the least max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
+          "desc": "[StartBattle] On self and 1 ally with the least max PV: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,7 +1061,7 @@
         {
           "level": 2,
           "name": "In Finely Ground Mistfall",
-          "desc": "[StartBattle] On self and 1 ally with the least max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "desc": "[StartBattle] On self and 1 ally with the least max PV: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1089,7 +1089,7 @@
         {
           "level": 4,
           "name": "In Finely Ground Mistfall",
-          "desc": "[StartBattle] On self and 1 ally with the least max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
+          "desc": "[StartBattle] On self and 1 ally with the least max PV: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [

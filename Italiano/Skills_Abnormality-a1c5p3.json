@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal SP damage by the number of lit Candles"
+                  "desc": "[OnSucceedAttack] Deal PS damage by the number of lit Candles"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal SP damage by the number of lit Candles"
+                  "desc": "[OnSucceedAttack] Deal PS damage by the number of lit Candles"
                 }
               ]
             }
@@ -64,12 +64,12 @@
         {
           "level": 1,
           "name": "9:2",
-          "desc": "Snuffs out all Candles next turn.\nUpon hitting targets with [AaCePcBa], target loses additional 5% of its max HP.\n[DefeatDuel] Inflict 10 Burn. Inflict target with Marked next turn.\n[EndBattle] All Candles heal to max HP.",
+          "desc": "Snuffs out all Candles next turn.\nUpon hitting targets with [AaCePcBa], target loses additional 5% of its max PV.\n[DefeatDuel] Inflict 10 Burn. Inflict target with Marked next turn.\n[EndBattle] All Candles heal to max PV.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] Target's max PV decreases by 10%."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 5 Burn and +2 Burn Count"
@@ -79,7 +79,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] Target's max PV decreases by 10%."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 5 Burn and +2 Burn Count"
@@ -96,12 +96,12 @@
         {
           "level": 1,
           "name": "6:5",
-          "desc": "[CantDuel][CantChangeTarget]\nTake damage in the target's place. Get staggered next turn.\nInflict Marked on a random enemy without [AaCePcBa].\n[EndBattle] All Candles heal to max HP",
+          "desc": "[CantDuel][CantChangeTarget]\nTake damage in the target's place. Get staggered next turn.\nInflict Marked on a random enemy without [AaCePcBa].\n[EndBattle] All Candles heal to max PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] This unit's max PV decreases by 10%."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 10 Burn on self"
@@ -111,7 +111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] This unit's max PV decreases by 10%."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 10 Burn on self"
@@ -334,7 +334,7 @@
                   "desc": "[OnSucceedAttack] Inflict 10 Poison"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 7 SP"
+                  "desc": "[OnSucceedAttack] Lose 7 PS"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 3 Larva"
@@ -469,7 +469,7 @@
         {
           "level": 1,
           "name": "Blind Obsession",
-          "desc": "[DefeatDuel] This unit's Fluorescence Part loses 34% of Max HP.\n[DefeatDuel] Gain 1 Blind Obsession",
+          "desc": "[DefeatDuel] This unit's Fluorescence Part loses 34% of Max PV.\n[DefeatDuel] Gain 1 Blind Obsession",
           "coinlist": [
             {
               "coindescs": [
@@ -526,7 +526,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Sinking and +2 Sinking Count"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain -2 SP Loss Efficiency next turn"
+                  "desc": "[OnSucceedAttackHead] Gain -2 PS Loss Efficiency next turn"
                 }
               ]
             },
@@ -547,7 +547,7 @@
         {
           "level": 1,
           "name": "Wayward Blind Obsession",
-          "desc": "[CantDuel][CantChangeTarget] Targets destroyed Flotsam\n[EndSkill] Fluorescence Part loses 34% of Max HP.\n[EndBattle] Gain 1 Blind Obsession.",
+          "desc": "[CantDuel][CantChangeTarget] Targets destroyed Flotsam\n[EndSkill] Fluorescence Part loses 34% of Max PV.\n[EndBattle] Gain 1 Blind Obsession.",
           "coinlist": [
             {
               "coindescs": [
@@ -636,7 +636,7 @@
         {
           "level": 1,
           "name": "Tear Up Wound",
-          "desc": "[WinDuel] Heal 5 SP.\nDeal +5% damage per [Laceration] on target",
+          "desc": "[WinDuel] Heal 5 PS.\nDeal +5% damage per [Laceration] on target",
           "coinlist": [
             {
               "coindescs": [
@@ -677,7 +677,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             },
@@ -687,7 +687,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             },
@@ -697,7 +697,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             },
@@ -707,7 +707,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             }
@@ -788,7 +788,7 @@
         {
           "level": 1,
           "name": "Carve Wound",
-          "desc": "[WinDuel] Heal 5 SP.\nDeal +5% damage per [Laceration] on target",
+          "desc": "[WinDuel] Heal 5 PS.\nDeal +5% damage per [Laceration] on target",
           "coinlist": [
             {
               "coindescs": [
@@ -836,7 +836,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             },
@@ -846,7 +846,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             },
@@ -856,7 +856,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             },
@@ -866,7 +866,7 @@
                   "desc": "[OnSucceedAttack] Gain +1 Poise Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP"
+                  "desc": "[OnSucceedAttack] Heal 4 PS"
                 }
               ]
             }
@@ -1105,21 +1105,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal Core and Part HP by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Heal Core and Part PV by 50% of damage dealt"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal Core and Part HP by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Heal Core and Part PV by 50% of damage dealt"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal Core and Part HP by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Heal Core and Part PV by 50% of damage dealt"
                 }
               ]
             }
@@ -1133,7 +1133,7 @@
         {
           "level": 1,
           "name": "Must... Protect",
-          "desc": "[TurnStartBattle] Upon using this Skill, if this unit has more than 0 Assist Barrier, activate Assist Defense.\n[StartBattle] Gain 10% of max HP as Assist Barrier.",
+          "desc": "[TurnStartBattle] Upon using this Skill, if this unit has more than 0 Assist Barrier, activate Assist Defense.\n[StartBattle] Gain 10% of max PV as Assist Barrier.",
           "coinlist": [
             {
               "coindescs": [
@@ -1155,7 +1155,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal Core and Part HP by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Heal Core and Part PV by 50% of damage dealt"
                 }
               ]
             },
@@ -1165,7 +1165,7 @@
                   "desc": "[OnSucceedAttack] Inflict Tangle"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal Core and Part HP by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Heal Core and Part PV by 50% of damage dealt"
                 }
               ]
             }
@@ -1391,7 +1391,7 @@
         {
           "level": 1,
           "name": "Obey My Orders",
-          "desc": "[WhenUse] Heal 10 SP for self and 1 other ally with the least SP ",
+          "desc": "[WhenUse] Heal 10 PS for self and 1 other ally with the least PS ",
           "coinlist": [
             {
               "coindescs": [
@@ -1501,7 +1501,7 @@
         {
           "level": 1,
           "name": "Foolishness!",
-          "desc": "[WhenUse] Heal 5 SP\n[OnSucceedEvade] Target loses 5 SP",
+          "desc": "[WhenUse] Heal 5 PS\n[OnSucceedEvade] Target loses 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1537,7 +1537,7 @@
         {
           "level": 1,
           "name": "Be Fearless!",
-          "desc": "[WhenUse] Heal 10 SP on self. 1 other ally with the highest SP loses 10 SP",
+          "desc": "[WhenUse] Heal 10 PS on self. 1 other ally with the highest PS loses 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1579,7 +1579,7 @@
         {
           "level": 1,
           "name": "Tempering of Death",
-          "desc": "[WhenUse] Apply Undefiable Command to 1 ally with the lowest SP\n[DefeatDuel] Raise Stagger Threshold by 20 for 1 ally with the lowest SP",
+          "desc": "[WhenUse] Apply Undefiable Command to 1 ally with the lowest PS\n[DefeatDuel] Raise Stagger Threshold by 20 for 1 ally with the lowest PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1630,7 +1630,7 @@
         {
           "level": 1,
           "name": "Stab to Kill",
-          "desc": "Targets the unit with the least Max HP",
+          "desc": "Targets the unit with the least Max PV",
           "coinlist": [
             {
               "coindescs": [
@@ -1669,7 +1669,7 @@
         {
           "level": 1,
           "name": "Murky Innocence",
-          "desc": "[DefeatDuel] Gain 2 Defense Power Down. Lose 10 SP on self",
+          "desc": "[DefeatDuel] Gain 2 Defense Power Down. Lose 10 PS on self",
           "coinlist": [
             {
               "coindescs": [
@@ -1701,7 +1701,7 @@
         {
           "level": 1,
           "name": "Weight of Guilt",
-          "desc": "Targets 3 units with the least Max HP\n[StartBattle] Gain Base Power +2 and Atk Weight +1 for every 5 Pip's Ego\n[WhenUse] Lose 3 Pip's Ego",
+          "desc": "Targets 3 units with the least Max PV\n[StartBattle] Gain Base Power +2 and Atk Weight +1 for every 5 Pip's Ego\n[WhenUse] Lose 3 Pip's Ego",
           "coinlist": [
             {
               "coindescs": [
@@ -1712,7 +1712,7 @@
                   "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30 "
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Target loses 10 SP"
+                  "desc": "[OnSucceedAttackHead] Target loses 10 PS"
                 }
               ]
             }
@@ -1784,7 +1784,7 @@
         {
           "level": 1,
           "name": "Echoing Cry",
-          "desc": "Deal +5% damage for every 1 Bleed on target\nIf target does not have Prey Mark, Coin Power +1\n[DefeatDuel] Lose 5 SP",
+          "desc": "Deal +5% damage for every 1 Bleed on target\nIf target does not have Prey Mark, Coin Power +1\n[DefeatDuel] Lose 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1792,7 +1792,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies"
+                  "desc": "[OnSucceedAttack] Inflict 3 PS damage on 3 random enemies"
                 }
               ]
             },
@@ -1802,7 +1802,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies"
+                  "desc": "[OnSucceedAttack] Inflict 3 PS damage on 3 random enemies"
                 }
               ]
             },
@@ -1812,7 +1812,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies"
+                  "desc": "[OnSucceedAttack] Inflict 3 PS damage on 3 random enemies"
                 }
               ]
             },
@@ -1822,7 +1822,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies"
+                  "desc": "[OnSucceedAttack] Inflict 3 PS damage on 3 random enemies"
                 }
               ]
             },
@@ -1832,7 +1832,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies"
+                  "desc": "[OnSucceedAttack] Inflict 3 PS damage on 3 random enemies"
                 },
                 {
                   "desc": "[OnSucceedAttack] Reuse the final Coin once for every 10 Starbuck's Ego"
@@ -1885,7 +1885,7 @@
         {
           "level": 1,
           "name": "Ammenda Sbiancata",
-          "desc": "[WhenUse] Lose 5 Queequeg's Ego\n[WinDuel] Gain 6 Defense Level Up\n[DefeatDuel] Lose 5 SP",
+          "desc": "[WhenUse] Lose 5 Queequeg's Ego\n[WinDuel] Gain 6 Defense Level Up\n[DefeatDuel] Lose 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1907,7 +1907,7 @@
         {
           "level": 1,
           "name": "Insidious Pallidification",
-          "desc": "[StartBattle] Gain 10% of Max HP as Shield. For every Queequeg's Ego, gain additional 0.5% of Max HP as additional Shield.\nWhen attacked while Shielded, attacker loses 5 SP\nWhen attacked, use this Skill once for every 10 Queequeg's Ego",
+          "desc": "[StartBattle] Gain 10% of Max PV as Shield. For every Queequeg's Ego, gain additional 0.5% of Max PV as additional Shield.\nWhen attacked while Shielded, attacker loses 5 PS\nWhen attacked, use this Skill once for every 10 Queequeg's Ego",
           "coinlist": [
             {
               "coindescs": [

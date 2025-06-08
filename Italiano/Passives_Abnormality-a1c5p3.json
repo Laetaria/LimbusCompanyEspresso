@@ -3,17 +3,17 @@
     {
       "id": 810001,
       "name": "The All-Illuminating Light",
-      "desc": "If every Candle is snuffed and at full HP, gain resistance until all Candles are lit again.\nWhen all Candles are lit, lose resistance."
+      "desc": "If every Candle is snuffed and at full PV, gain resistance until all Candles are lit again.\nWhen all Candles are lit, lose resistance."
     },
     {
       "id": 810002,
       "name": "Darkness Deterred",
-      "desc": "Light all Candles every 4 turns after a Candle is snuffed. All Candles' HP is reduced to 1."
+      "desc": "Light all Candles every 4 turns after a Candle is snuffed. All Candles' PV is reduced to 1."
     },
     {
       "id": 810701,
       "name": "Burning Embers",
-      "desc": "HP does not drop below 1.\nAt 1 HP, light the Candles and uses an Attack Skill."
+      "desc": "PV does not drop below 1.\nAt 1 PV, light the Candles and uses an Attack Skill."
     },
     {
       "id": 810702,
@@ -28,7 +28,7 @@
     {
       "id": 810102,
       "name": "Cracked Shell",
-      "desc": "At 10% Core HP, gains a new pattern."
+      "desc": "At 10% Core PV, gains a new pattern."
     },
     {
       "id": 810103,
@@ -63,7 +63,7 @@
     {
       "id": 810203,
       "name": "Siltcurrent",
-      "desc": "Starting from turn 2, all Identities without [AaCePcBb] are inflicted with 1 Bind and 1 Paralyze; Identities without [AaCePcBb] lose 3 SP."
+      "desc": "Starting from turn 2, all Identities without [AaCePcBb] are inflicted with 1 Bind and 1 Paralyze; Identities without [AaCePcBb] lose 3 PS."
     },
     {
       "id": 810801,
@@ -78,42 +78,42 @@
     {
       "id": 810803,
       "name": "Destroyed Flotsam",
-      "desc": "HP does not drop below 1 upon defeat.\nTurns into a Destroyed Flotsam."
+      "desc": "PV does not drop below 1 upon defeat.\nTurns into a Destroyed Flotsam."
     },
     {
       "id": 810301,
       "name": "Captain's Orders",
-      "desc": "Turn Start: If not at -45 SP, heal (# of surviving other allies x 5) SP.\nTurn Start: If at -45 SP, recover from panic at Turn End and reset SP to 0."
+      "desc": "Turn Start: If not at -45 PS, heal (# of surviving other allies x 5) PS.\nTurn Start: If at -45 PS, recover from panic at Turn End and reset PS to 0."
     },
     {
       "id": 810302,
       "name": "Mutilated Tattoos",
-      "desc": "Every time a Pequod Town faction ally is defeated, lose 1 Poise Count and 10 SP."
+      "desc": "Every time a Pequod Town faction ally is defeated, lose 1 Poise Count and 10 PS."
     },
     {
       "id": 810303,
       "name": "The Indomitable Harpooneer",
-      "desc": "The lower this unit's HP gets, the more damage this unit's Skills deal."
+      "desc": "The lower this unit's PV gets, the more damage this unit's Skills deal."
     },
     {
       "id": 810304,
       "name": "Injected Hatred and Animosity",
-      "desc": "Turn End: If 50%- of max HP, move on to Phase 2.\nThis unit's HP does not drop below 1 before Phase 2 start.\nPhase 2 Start: Heal HP to 50% of max HP and summon 4 allies. Inflict [AaCePcBj] against 1 enemy with the lowest HP percentage at the start of every turn."
+      "desc": "Turn End: If 50%- of max PV, move on to Phase 2.\nThis unit's PV does not drop below 1 before Phase 2 start.\nPhase 2 Start: Heal PV to 50% of max PV and summon 4 allies. Inflict [AaCePcBj] against 1 enemy with the lowest PV percentage at the start of every turn."
     },
     {
       "id": 810305,
       "name": "Engraved Hatred and Animosity",
-      "desc": "At 1 HP, heal up to 50% of max HP and gain 2 Attack Power Up next turn. (Once per encounter)"
+      "desc": "At 1 PV, heal up to 50% of max PV and gain 2 Attack Power Up next turn. (Once per encounter)"
     },
     {
       "id": 810306,
       "name": "Clouded Mind",
-      "desc": "When Staggered and when at less than 0 SP at Turn End, reset SP to 0."
+      "desc": "When Staggered and when at less than 0 PS at Turn End, reset PS to 0."
     },
     {
       "id": 810401,
       "name": "Engraved Hatred and Animosity",
-      "desc": "Turn End: At 50- HP, gain 2 Haste and 2 Attack Power Up next turn. (once per encounter)"
+      "desc": "Turn End: At 50- PV, gain 2 Haste and 2 Attack Power Up next turn. (once per encounter)"
     },
     {
       "id": 810402,
@@ -123,27 +123,27 @@
     {
       "id": 810501,
       "name": "Captain of the Pequod",
-      "desc": "Turn Start: If not at -45 SP, heal 15 SP.\nTurn End: If panicked, recover from panic. Reset SP to 0."
+      "desc": "Turn Start: If not at -45 PS, heal 15 PS.\nTurn End: If panicked, recover from panic. Reset PS to 0."
     },
     {
       "id": 810503,
       "name": "Muddled Orders",
-      "desc": "When this unit is Staggered, and when all other allies are at less than 0 SP at Turn End, reset their SP to 0."
+      "desc": "When this unit is Staggered, and when all other allies are at less than 0 PS at Turn End, reset their PS to 0."
     },
     {
       "id": 810504,
       "name": "Coldhearted Decision",
-      "desc": "Phase 2 Start: Fully heal HP; Queequeg and Starbuck no longer activate Captain's Orders Passive. Also, Queequeg no longer gets Staggered even when her Assist Defense Shield value reaches 0."
+      "desc": "Phase 2 Start: Fully heal PV; Queequeg and Starbuck no longer activate Captain's Orders Passive. Also, Queequeg no longer gets Staggered even when her Assist Defense Shield value reaches 0."
     },
     {
       "id": 810601,
       "name": "Ahab",
-      "desc": "Turn Start: If not at -45 SP, heal 15 SP.\nTurn End: If panicked, recover from panic. Reset SP to 0 and gain 2 Attack Power Up and 2 Defense Power Up."
+      "desc": "Turn Start: If not at -45 PS, heal 15 PS.\nTurn End: If panicked, recover from panic. Reset PS to 0 and gain 2 Attack Power Up and 2 Defense Power Up."
     },
     {
       "id": 810602,
       "name": "Pip's Sin and Innocence",
-      "desc": "Phase Start: Gain 20 Pip's Ego.\nTurn End: Heal 3 SP for every Pip's Ego.\nTurn End: If [AaCePcBo] is at 0, get Staggered next turn."
+      "desc": "Phase Start: Gain 20 Pip's Ego.\nTurn End: Heal 3 PS for every Pip's Ego.\nTurn End: If [AaCePcBo] is at 0, get Staggered next turn."
     },
     {
       "id": 810603,
@@ -163,27 +163,27 @@
     {
       "id": 810606,
       "name": "The Indomitable Harpooneer",
-      "desc": "The lower this unit's HP gets, the more damage this unit deals with its Skills.\nDeal 1% more HP for every 0.75% missing HP on self\n(Max 100%. Maxes out when this unit is at 25% HP)"
+      "desc": "The lower this unit's PV gets, the more damage this unit deals with its Skills.\nDeal 1% more PV for every 0.75% missing PV on self\n(Max 100%. Maxes out when this unit is at 25% PV)"
     },
     {
       "id": 810607,
       "name": "Price of Nobility",
-      "desc": "Gain Offense Level and Defense Level every time this unit gains other characters' Ego\nLose SP when losing certain Skill Clashes"
+      "desc": "Gain Offense Level and Defense Level every time this unit gains other characters' Ego\nLose PS when losing certain Skill Clashes"
     },
     {
       "id": 814101,
       "name": "The All-Illuminating Light",
-      "desc": "If every Candle is snuffed and at full HP, gain resistance until all Candles are lit again.\nWhen all Candles are lit, lose resistance."
+      "desc": "If every Candle is snuffed and at full PV, gain resistance until all Candles are lit again.\nWhen all Candles are lit, lose resistance."
     },
     {
       "id": 814102,
       "name": "Darkness Deterred",
-      "desc": "Light all Candles every 4 turns after a Candle is snuffed. All Candles' HP is reduced to 1."
+      "desc": "Light all Candles every 4 turns after a Candle is snuffed. All Candles' PV is reduced to 1."
     },
     {
       "id": 813601,
       "name": "Burning Embers",
-      "desc": "HP does not drop below 1.\nAt 1 HP, light the Candles and uses an Attack Skill."
+      "desc": "PV does not drop below 1.\nAt 1 PV, light the Candles and uses an Attack Skill."
     },
     {
       "id": 813602,
@@ -198,7 +198,7 @@
     {
       "id": 813702,
       "name": "Cracked Shell",
-      "desc": "At 10% Core HP, gains a new pattern."
+      "desc": "At 10% Core PV, gains a new pattern."
     },
     {
       "id": 813703,
@@ -233,7 +233,7 @@
     {
       "id": 813903,
       "name": "Siltcurrent",
-      "desc": "Starting from turn 2, all Identities without [AaCePcBb] are inflicted with 1 Bind and 1 Paralyze; Identities without [AaCePcBb] lose 3 SP."
+      "desc": "Starting from turn 2, all Identities without [AaCePcBb] are inflicted with 1 Bind and 1 Paralyze; Identities without [AaCePcBb] lose 3 PS."
     },
     {
       "id": 814001,
@@ -248,7 +248,7 @@
     {
       "id": 814003,
       "name": "Destroyed Flotsam",
-      "desc": "HP does not drop below 1 upon defeat.\nTurns into a Destroyed Flotsam."
+      "desc": "PV does not drop below 1 upon defeat.\nTurns into a Destroyed Flotsam."
     }
   ]
 }

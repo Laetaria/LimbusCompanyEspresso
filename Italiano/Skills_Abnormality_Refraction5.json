@@ -132,7 +132,7 @@
         {
           "level": 1,
           "name": "Designated Target Fire",
-          "desc": "Attacks the target with [FellBulletMark]\nCoin Power +1 for every 5 [Breath] on self (max 2)\nBase Power +1 for every 3 [Breath] Count on self (max 3)\n[WhenUse] If the main target does not have [FellBulletMark], gain 1 [Paralysis] and 3 [Vulnerable]\n[EndSkill] If the target is defeated, gain 10 [Breath] and lower every enemy's SP by 15",
+          "desc": "Attacks the target with [FellBulletMark]\nCoin Power +1 for every 5 [Breath] on self (max 2)\nBase Power +1 for every 3 [Breath] Count on self (max 3)\n[WhenUse] If the main target does not have [FellBulletMark], gain 1 [Paralysis] and 3 [Vulnerable]\n[EndSkill] If the target is defeated, gain 10 [Breath] and lower every enemy's PS by 15",
           "coinlist": [
             {
               "coindescs": [
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Target Readjustment Fire",
-          "desc": "[CantIdentify]\n[CantChangeTarget]\nPrioritizes the target with [FellBulletMark]\nIf this unit failed to attack the Stigmatized target, cancel this Skill.\nCoin Power +1 for every 5 [Breath] on self (max 2)\nBase Power +1 for every 3 [Breath] Count on self (max 3)\n[EndSkill] If the target is defeated, gain 10 [Breath] and lower every enemy's SP by 15",
+          "desc": "[CantIdentify]\n[CantChangeTarget]\nPrioritizes the target with [FellBulletMark]\nIf this unit failed to attack the Stigmatized target, cancel this Skill.\nCoin Power +1 for every 5 [Breath] on self (max 2)\nBase Power +1 for every 3 [Breath] Count on self (max 3)\n[EndSkill] If the target is defeated, gain 10 [Breath] and lower every enemy's PS by 15",
           "coinlist": [
             {
               "coindescs": [
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Prone",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Breath] Potency on self (max 5)\n[WhenUse] Gain 4 [Breath] Potency\n- At 50%- HP, also gain +4 [Breath] Count",
+          "desc": "[WhenUse] Final Power +1 for every 4 [Breath] Potency on self (max 5)\n[WhenUse] Gain 4 [Breath] Potency\n- At 50%- PV, also gain +4 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Nutrient Craving",
-          "desc": "Activates at 100+ [BloodDinner]\n[EndBattle] Consume up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' HP by [BloodDinner] consumed\n- Gain 1 [AttackUp] next turn for every 20 [BloodDinner] consumed",
+          "desc": "Activates at 100+ [BloodDinner]\n[EndBattle] Consume up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' PV by [BloodDinner] consumed\n- Gain 1 [AttackUp] next turn for every 20 [BloodDinner] consumed",
           "coinlist": [
             {
               "coindescs": [
@@ -663,7 +663,7 @@
         {
           "level": 1,
           "name": "Brambles that Yearn",
-          "desc": "[WhenUse] Consume up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' HP by [BloodDinner] consumed\n- This Skill gains Final Power +1 for every 20 [BloodDinner] consumed\n[DefeatDuel] Final Power -5\n[EndSkill] If this Skill consumed less than 30 [BloodDinner], gain 2 [Vulnerable] next turn",
+          "desc": "[WhenUse] Consume up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' PV by [BloodDinner] consumed\n- This Skill gains Final Power +1 for every 20 [BloodDinner] consumed\n[DefeatDuel] Final Power -5\n[EndSkill] If this Skill consumed less than 30 [BloodDinner], gain 2 [Vulnerable] next turn",
           "coinlist": [
             {
               "coindescs": [

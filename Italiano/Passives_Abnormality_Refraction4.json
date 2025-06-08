@@ -23,7 +23,7 @@
     {
       "id": 860505,
       "name": "You Must Be the Interloper's Family?",
-      "desc": "When an enemy has [UninvitedGuest], inflict [UninvitedGuest] against an enemy without [UninvitedGuest] every time this unit loses 10% of its HP (max 4 enemies)"
+      "desc": "When an enemy has [UninvitedGuest], inflict [UninvitedGuest] against an enemy without [UninvitedGuest] every time this unit loses 10% of its PV (max 4 enemies)"
     },
     {
       "id": 860601,
@@ -58,7 +58,7 @@
     {
       "id": 860803,
       "name": "Want to be Free",
-      "desc": "At 25% HP, starting this turn, gain 1 of the following every turn. The values are cumulative and do not expire.\n- Gain 1 [ParryingResultUp]\n- Gain 1 [AttackDmgUp]\n- Gain 1 [Vulnerable]"
+      "desc": "At 25% PV, starting this turn, gain 1 of the following every turn. The values are cumulative and do not expire.\n- Gain 1 [ParryingResultUp]\n- Gain 1 [AttackDmgUp]\n- Gain 1 [Vulnerable]"
     },
     {
       "id": 860804,
@@ -103,7 +103,7 @@
     {
       "id": 828001,
       "name": "Retainer of the King in Binds",
-      "desc": "- Gain [BandageOfTheBoundKing] and [BigWelcome] for this Encounter.\n- At every Turn Start, the King in Binds blesses this unit with grace.\n- The grace of the King in Binds changes every turn, in the following order: [Enhancement], SP Heal, and HP Heal. If there are less than 6 surviving Retainers(Peccatulum Invidiae), boost the grace's strength."
+      "desc": "- Gain [BandageOfTheBoundKing] and [BigWelcome] for this Encounter.\n- At every Turn Start, the King in Binds blesses this unit with grace.\n- The grace of the King in Binds changes every turn, in the following order: [Enhancement], PS Heal, and PV Heal. If there are less than 6 surviving Retainers(Peccatulum Invidiae), boost the grace's strength."
     },
     {
       "id": 828002,
@@ -128,22 +128,22 @@
     {
       "id": 828005,
       "name": "Refracted Mind",
-      "desc": "Entry SP +30"
+      "desc": "Entry PS +30"
     },
     {
       "id": 828006,
       "name": "Refracted Mind",
-      "desc": "Entry SP -20"
+      "desc": "Entry PS -20"
     },
     {
       "id": 828007,
       "name": "Refracted Mind",
-      "desc": "Entry SP +45"
+      "desc": "Entry PS +45"
     },
     {
       "id": 828008,
       "name": "Refracted Mind",
-      "desc": "Entry SP +20"
+      "desc": "Entry PS +20"
     }
   ]
 }

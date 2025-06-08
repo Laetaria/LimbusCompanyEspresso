@@ -28,7 +28,7 @@
         {
             "id": 9015207,
             "name": "Bloodbag",
-            "desc": "When hit, gain +1 [Laceration] Count.\nGain 1 [HardenedBlood] every time this unit loses 20% HP.\nIf there is a Bloodfiend on the field, regardless of whether it is an ally or an enemy, increase [BloodDinner] by 30"
+            "desc": "When hit, gain +1 [Laceration] Count.\nGain 1 [HardenedBlood] every time this unit loses 20% PV.\nIf there is a Bloodfiend on the field, regardless of whether it is an ally or an enemy, increase [BloodDinner] by 30"
         },
         {
             "id": 9015401,
@@ -43,7 +43,7 @@
         {
             "id": 9015403,
             "name": "Thirst for Blood",
-            "desc": "- Prioritizes targets with [Laceration]\nTurn End: if this unit failed to deal any damage this turn, gain 2 [Vulnerable] and 2 Offense Level Up next turn\n- Turn End: if this unit dealt damage this turn, heal 5 SP"
+            "desc": "- Prioritizes targets with [Laceration]\nTurn End: if this unit failed to deal any damage this turn, gain 2 [Vulnerable] and 2 Offense Level Up next turn\n- Turn End: if this unit dealt damage this turn, heal 5 PS"
         },
         {
             "id": 9015404,
@@ -98,12 +98,12 @@
         {
             "id": 9016102,
             "name": "The Man-eating Bear",
-            "desc": "Deal +25% damage against targets with 50%- HP"
+            "desc": "Deal +25% damage against targets with 50%- PV"
         },
         {
             "id": 9016103,
             "name": "Big & Scary",
-            "desc": "In a Clash, the opponent just might lose 1 SP, maybe"
+            "desc": "In a Clash, the opponent just might lose 1 PS, maybe"
         }
     ]
 }

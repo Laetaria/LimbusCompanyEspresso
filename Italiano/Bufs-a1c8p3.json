@@ -27,7 +27,7 @@
     {
       "id": "Prey",
       "name": "Prey",
-      "desc": "- In a Clash with an enemy, Clash Power -5\n- Combat Start:\n· If this unit equipped an Attack Skill, deal -50% damage against Lei Heng with Attack Skills\n· If this unit equipped a Defense Skill, take -75% damage from Lei Heng\n- If this unit wins a Clash against Lei Heng while under this effect, gain 3 of the least-owned E.G.O Resources\n- Expires at Turn End; this unit heals 10 SP",
+      "desc": "- In a Clash with an enemy, Clash Power -5\n- Combat Start:\n· If this unit equipped an Attack Skill, deal -50% damage against Lei Heng with Attack Skills\n· If this unit equipped a Defense Skill, take -75% damage from Lei Heng\n- If this unit wins a Clash against Lei Heng while under this effect, gain 3 of the least-owned E.G.O Resources\n- Expires at Turn End; this unit heals 10 PS",
       "summary": ""
     },
     {
@@ -39,25 +39,25 @@
     {
       "id": "BattleSense",
       "name": "Inner Strength [底力]",
-      "desc": "- Max Stack: 25\n- Consumed by certain Skills; at Turn End, heal SP equal to the Stack consumed by the end of the turn\n- Gain 1 Stack with every Clash (max 5 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 2 Stack when hitting with an Unopposed Attack (max 10 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack; max 2)\n- Gains a different buff when using a specific pattern\n\n- Total Stacks Consumed: {0}",
+      "desc": "- Max Stack: 25\n- Consumed by certain Skills; at Turn End, heal PS equal to the Stack consumed by the end of the turn\n- Gain 1 Stack with every Clash (max 5 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 2 Stack when hitting with an Unopposed Attack (max 10 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack; max 2)\n- Gains a different buff when using a specific pattern\n\n- Total Stacks Consumed: {0}",
       "summary": ""
     },
     {
       "id": "RestoredBattleSense",
       "name": "Extreme Strength [極力]",
-      "desc": "- Max Stack: 50\n- Counts as \"Inner Strength\". Consumed by certain Skills; at Turn End, heal SP equal to the Stack consumed by the end of the turn.\n- Gain 2 Stack with every Clash (max 10 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 3 Stack when hitting with an Unopposed Attack (max 15 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack, max 5)\n\n- Total Stacks Consumed: {0}",
+      "desc": "- Max Stack: 50\n- Counts as \"Inner Strength\". Consumed by certain Skills; at Turn End, heal PS equal to the Stack consumed by the end of the turn.\n- Gain 2 Stack with every Clash (max 10 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 3 Stack when hitting with an Unopposed Attack (max 15 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack, max 5)\n\n- Total Stacks Consumed: {0}",
       "summary": ""
     },
     {
       "id": "Irritation",
       "name": "Unrelenting Spirit [剛氣]",
-      "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 20% missing HP on self (max 3 each)\n- Inflict +2 more Tremor Potency with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coin of 'Triple Slash - Burst' to an Unbreakable Coin\n- This buff changes into Unrelenting Spirit - Shin when using a specific pattern",
+      "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 20% missing PV on self (max 3 each)\n- Inflict +2 more Tremor Potency with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coin of 'Triple Slash - Burst' to an Unbreakable Coin\n- This buff changes into Unrelenting Spirit - Shin when using a specific pattern",
       "summary": ""
     },
     {
       "id": "HugeIrritation",
       "name": "Unrelenting Spirit - Shin [剛氣-心]",
-      "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 15% missing HP on self (max 5 each)\n- Inflict +3 more Tremor Potency and +1 more Tremor Count with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coins of 'Double Slash - Blast' and 'Triple Slash - Burst' to Unbreakable Coins",
+      "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 15% missing PV on self (max 5 each)\n- Inflict +3 more Tremor Potency and +1 more Tremor Count with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coins of 'Double Slash - Blast' and 'Triple Slash - Burst' to Unbreakable Coins",
       "summary": ""
     },
     {
@@ -69,13 +69,13 @@
     {
       "id": "BeastEyes_LowMorale",
       "name": "Beastly Instinct - Low Morale",
-      "desc": "- Deals +(HP percentage difference / 2)% damage to targets with higher HP percentages that this unit's (max 10%)\n- Turn Start: gain 1 Final Power Up, 1 Damage Up, and 1 Fragile",
+      "desc": "- Deals +(PV percentage difference / 2)% damage to targets with higher PV percentages that this unit's (max 10%)\n- Turn Start: gain 1 Final Power Up, 1 Damage Up, and 1 Fragile",
       "summary": ""
     },
     {
       "id": "BeastEyes_Panic",
       "name": "Beastly Instinct - Panic",
-      "desc": "- Deals +(HP percentage difference)% damage to targets with higher HP percentages that this unit's (max 25%)\n- Turn Start: gain 1 Coin Power Up, 2 Damage Up, and 2 Fragile\n- Next Turn Start: heal SP equal to this unit's missing HP percentage (max 25)",
+      "desc": "- Deals +(PV percentage difference)% damage to targets with higher PV percentages that this unit's (max 25%)\n- Turn Start: gain 1 Coin Power Up, 2 Damage Up, and 2 Fragile\n- Next Turn Start: heal PS equal to this unit's missing PV percentage (max 25)",
       "summary": ""
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": "EgoErodeReplica",
       "name": "E.G.O Corrosion - N Corp.",
-      "desc": "- Max Stack: 10\n- The following effects activate at every Turn Start:\n· Lose SP by the effect's Stack\n· Gain 1 Attack Power Up for every 3 Stack\n- At Max Stack, take 5% HP damage at Turn End",
+      "desc": "- Max Stack: 10\n- The following effects activate at every Turn Start:\n· Lose PS by the effect's Stack\n· Gain 1 Attack Power Up for every 3 Stack\n- At Max Stack, take 5% PV damage at Turn End",
       "summary": ""
     },
     {
@@ -177,7 +177,7 @@
     {
       "id": "EgoErodeMemory_LowMorale",
       "name": "Heart Toward the New Era",
-      "desc": "- Low Morale\n- On Hit, consume 3 SP on self to inflict 2 Sinking",
+      "desc": "- Low Morale\n- On Hit, consume 3 PS on self to inflict 2 Sinking",
       "summary": ""
     },
     {
@@ -195,19 +195,19 @@
     {
       "id": "Obedient",
       "name": "Hollow Obedience",
-      "desc": "- Clash Power -2 in Clashes against Jia Mu\n- Expires when this unit's SP reaches 45, or when the Stack drops to 0\n- Turn End: lose 1 Stack",
+      "desc": "- Clash Power -2 in Clashes against Jia Mu\n- Expires when this unit's PS reaches 45, or when the Stack drops to 0\n- Turn End: lose 1 Stack",
       "summary": ""
     },
     {
       "id": "ExpensiveJade",
       "name": "Precious Jade's Cradle",
-      "desc": "- Enter an 'Immobilized' state where this unit's buffs, HP, and SP cannot be changed. Forms a Precious Jade connected to this unit",
+      "desc": "- Enter an 'Immobilized' state where this unit's buffs, PV, and PS cannot be changed. Forms a Precious Jade connected to this unit",
       "summary": ""
     },
     {
       "id": "FamilyTreasure",
       "name": "Explosive Amusement",
-      "desc": "- On Turn End:\n· Base Stack: 1\n· The unit connected to this unit heals 25% HP and loses 20 SP\n· Gain 1 Stack\n· At 3 Stack, use a self-detonation Skill. If this unit is killed by self-detonation, inflict the caged character with 3 Hollow Obedience next turn",
+      "desc": "- On Turn End:\n· Base Stack: 1\n· The unit connected to this unit heals 25% PV and loses 20 PS\n· Gain 1 Stack\n· At 3 Stack, use a self-detonation Skill. If this unit is killed by self-detonation, inflict the caged character with 3 Hollow Obedience next turn",
       "summary": ""
     },
     {
@@ -219,31 +219,31 @@
     {
       "id": "Honglu_Xi",
       "name": "Happiness",
-      "desc": "- Hong Lu's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's SP by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "desc": "- Hong Lu's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% PV instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's PS by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "Honglu_Le",
       "name": "Happiness, Joy",
-      "desc": "- Hong Lu's Final Power +1\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "desc": "- Hong Lu's Final Power +1\n- On Clash Win, heal 5 PS for 1 ally with the least PS (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% PV instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "Honglu_Ai",
       "name": "Happiness, Joy, Sorrow",
-      "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 PS for 1 ally with the least PS (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% PV instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "Honglu_Nu",
       "name": "Happiness, Joy, Sorrow, Wrath",
-      "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 SP at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 PS at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% PV instead\n- Increases damage dealt by 30% of the total PV percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "SupremeEternalLife",
       "name": "Sublime Immortality",
-      "desc": "- Turn Start: Jia Mu's Core and every Part gain 5% of each of their max HP as Shield",
+      "desc": "- Turn Start: Jia Mu's Core and every Part gain 5% of each of their max PV as Shield",
       "summary": ""
     },
     {
@@ -279,13 +279,13 @@
     {
       "id": "LongLastingHongwonWill_LowMorale",
       "name": "Infinitely Bequeathing Will of Hongyuan",
-      "desc": "- Low Morale\n- Gain 2 Attack Power Up and 1 Fragile\n- Units generated by this unit gain 3 Defense Level Down\n- Deal +20% damage. If the Palanquin Part's HP drops to 0, deal -10% damage instead",
+      "desc": "- Low Morale\n- Gain 2 Attack Power Up and 1 Fragile\n- Units generated by this unit gain 3 Defense Level Down\n- Deal +20% damage. If the Palanquin Part's PV drops to 0, deal -10% damage instead",
       "summary": ""
     },
     {
       "id": "LongLastingHongwonWill_Panic",
       "name": "Infinitely Bequeathing Will of Hongyuan",
-      "desc": "- Panic\n- Gain 2 Attack Power Up and 2 Fragile\n- Units generated by this unit gain 6 Defense Level Down\n- Deal +30% damage. If the Palanquin Part's HP drops to 0, deal -15% damage instead",
+      "desc": "- Panic\n- Gain 2 Attack Power Up and 2 Fragile\n- Units generated by this unit gain 6 Defense Level Down\n- Deal +30% damage. If the Palanquin Part's PV drops to 0, deal -15% damage instead",
       "summary": ""
     },
     {

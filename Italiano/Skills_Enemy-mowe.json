@@ -70,7 +70,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
+                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
                   "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
                 }
               ]
@@ -168,7 +168,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
+                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
                   "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
                 }
               ]
@@ -265,7 +265,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
+                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
                   "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
                 }
               ]
@@ -353,7 +353,7 @@
         {
           "level": 1,
           "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% HP to gain Coin Power +2",
+          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% PV to gain Coin Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -368,7 +368,7 @@
                   "desc": "[OnSucceedAttack] Inflict 6 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
+                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
                   "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
                 }
               ]
@@ -456,7 +456,7 @@
         {
           "level": 1,
           "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% HP to gain Coin Power +2",
+          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% PV to gain Coin Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -471,7 +471,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
+                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
                   "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
                 }
               ]
@@ -568,7 +568,7 @@
         {
           "level": 1,
           "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% HP to gain Coin Power +2",
+          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% PV to gain Coin Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -586,7 +586,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
+                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
                   "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
                 }
               ]
@@ -668,7 +668,7 @@
         {
           "level": 1,
           "name": "Hardblood Harpoon",
-          "desc": "[WhenUse] Consume 10% HP on self to gain +10 [Charge] Count",
+          "desc": "[WhenUse] Consume 10% PV on self to gain +10 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -719,7 +719,7 @@
         {
           "level": 1,
           "name": "Activate Prosthesis",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% HP and gain +5 [Charge] Count",
+          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% PV and gain +5 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -741,7 +741,7 @@
         {
           "level": 1,
           "name": "Hardblood Reflux",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% HP and gain +5 [Charge] Count",
+          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% PV and gain +5 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -783,7 +783,7 @@
         {
           "level": 1,
           "name": "Bioenergy Conversion Charge",
-          "desc": "[WhenUse] Consume 10% HP on self to gain +15 [Charge] Count",
+          "desc": "[WhenUse] Consume 10% PV on self to gain +15 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -837,7 +837,7 @@
         {
           "level": 1,
           "name": "Hardblood Transfusion",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% HP and gain +5 [Charge] Count",
+          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% PV and gain +5 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -866,7 +866,7 @@
         {
           "level": 1,
           "name": "Bioenergy Conversion Recharge",
-          "desc": "[WhenUse] Consume 10% HP on self to gain +15 [Charge] Count",
+          "desc": "[WhenUse] Consume 10% PV on self to gain +15 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [

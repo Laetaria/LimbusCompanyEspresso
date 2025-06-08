@@ -84,7 +84,7 @@
     {
       "id": 9708,
       "name": "Trash Crab Brain Wine",
-      "desc": "When an ally attacks an enemy that has [Burst] with a Skill that inflicts [Burst] Potency or Count, deal +([Burst] Count x 1.25)% damage. (max 50%)\n\nWhen an ally recovers from Stagger, heal 20% of max HP. (2 times per Encounter)",
+      "desc": "When an ally attacks an enemy that has [Burst] with a Skill that inflicts [Burst] Potency or Count, deal +([Burst] Count x 1.25)% damage. (max 50%)\n\nWhen an ally recovers from Stagger, heal 20% of max PV. (2 times per Encounter)",
       "simpleDesc": [
         {
           "abilityID": 9708,
@@ -92,7 +92,7 @@
         },
         {
           "abilityID": 97081,
-          "simpleDesc": "Heal 20% of Max HP"
+          "simpleDesc": "Heal 20% of Max PV"
         }
       ]
     },
@@ -114,7 +114,7 @@
     {
       "id": 9710,
       "name": "Huge Gift Sack",
-      "desc": "Turn Start: apply 2 [Breath], 2 [Breath] Count, and 2 [Protection] to the ally with the least HP.",
+      "desc": "Turn Start: apply 2 [Breath], 2 [Breath] Count, and 2 [Protection] to the ally with the least PV.",
       "simpleDesc": [
         {
           "abilityID": 9710,
@@ -125,15 +125,15 @@
     {
       "id": 9711,
       "name": "Sad Plushie",
-      "desc": "Deal +(absolute value of SP/1.5)% damage. (min 0%)\n\nWhen an ally with Plus Coin Skills recovers from Stagger, fully heal SP. (does not activate when Corroded)\n\nFor an ally with all Minus Coin Skills: gain 3 [Paralysis] at Turn Start.",
+      "desc": "Deal +(absolute value of PS/1.5)% damage. (min 0%)\n\nWhen an ally with Plus Coin Skills recovers from Stagger, fully heal PS. (does not activate when Corroded)\n\nFor an ally with all Minus Coin Skills: gain 3 [Paralysis] at Turn Start.",
       "simpleDesc": [
         {
           "abilityID": 9711,
-          "simpleDesc": "Deal +(absolute value of SP/1.5)% damage. (min 0%)"
+          "simpleDesc": "Deal +(absolute value of PS/1.5)% damage. (min 0%)"
         },
         {
           "abilityID": 97111,
-          "simpleDesc": "When recovering from Stagger, fully heal SP"
+          "simpleDesc": "When recovering from Stagger, fully heal PS"
         },
         {
           "abilityID": 97112,

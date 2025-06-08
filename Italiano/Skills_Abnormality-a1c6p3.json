@@ -467,7 +467,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target does not have a Stagger Threshold, deal 200 HP damage."
+                  "desc": "[OnSucceedAttack] If the target does not have a Stagger Threshold, deal 200 PV damage."
                 },
                 {
                   "desc": "[OnSucceedAttack] Raise Stagger Threshold by 200"
@@ -604,7 +604,7 @@
         {
           "level": 1,
           "name": "Evasione",
-          "desc": "[OnSucceedEvade] Heal 5 SP\n[OnSucceedEvade] Gain 1 more Slot just for the next Turn. (1 time max)",
+          "desc": "[OnSucceedEvade] Heal 5 PS\n[OnSucceedEvade] Gain 1 more Slot just for the next Turn. (1 time max)",
           "coinlist": [
             {
               "coindescs": [
@@ -1042,7 +1042,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 100% of the target's max HP"
+                  "desc": "[OnSucceedAttack] Deal damage equal to 100% of the target's max PV"
                 }
               ]
             }
@@ -1088,7 +1088,7 @@
         {
           "level": 1,
           "name": "Every Catherine Must Die",
-          "desc": "[CantDuel]\nIf all Hands' HP are at 1, deal 0 damage\n[StartBattle] All other allies gain 2 [Vulnerable] and 2 [Enhancement]\n[EndSkill] Gain 1 [AaCfPcBn]",
+          "desc": "[CantDuel]\nIf all Hands' PV are at 1, deal 0 damage\n[StartBattle] All other allies gain 2 [Vulnerable] and 2 [Enhancement]\n[EndSkill] Gain 1 [AaCfPcBn]",
           "coinlist": [
             {
               "coindescs": [
@@ -1112,7 +1112,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 15% of max HP"
+                  "desc": "[OnSucceedAttack] Deal damage equal to 15% of max PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict [AaCfPcBn]"
@@ -1224,7 +1224,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 15% of max HP"
+                  "desc": "[OnSucceedAttack] Deal damage equal to 15% of max PV"
                 }
               ]
             }
@@ -1315,7 +1315,7 @@
         {
           "level": 1,
           "name": "This is My...",
-          "desc": "Prioritize targets with the least HP\n[WhenUse] If the target has less than 70% HP, Clash Power +2",
+          "desc": "Prioritize targets with the least PV\n[WhenUse] If the target has less than 70% PV, Clash Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1456,7 +1456,7 @@
         {
           "level": 1,
           "name": "Gua...",
-          "desc": "If this Unit has remaining Shield HP at Turn End, gain 4 [Protection] next turn",
+          "desc": "If this Unit has remaining Shield PV at Turn End, gain 4 [Protection] next turn",
           "coinlist": [
             {
               "coindescs": [

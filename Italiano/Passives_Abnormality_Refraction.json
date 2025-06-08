@@ -3,7 +3,7 @@
     {
       "id": 850101,
       "name": "Reminisced Augmentation",
-      "desc": "At the start of the turn, if at less than 50% HP, heal 20% of Max HP."
+      "desc": "At the start of the turn, if at less than 50% PV, heal 20% of Max PV."
     },
     {
       "id": 851001,
@@ -13,7 +13,7 @@
     {
       "id": 851002,
       "name": "Blue Resin",
-      "desc": "When an Eye Part breaks, the enemy with the least SP loses 35 SP."
+      "desc": "When an Eye Part breaks, the enemy with the least PS loses 35 PS."
     },
     {
       "id": 851003,
@@ -33,11 +33,11 @@
     {
       "id": 852101,
       "name": "Overload",
-      "desc": "At the start of the turn, if below 60 HP, enter a powered-up state."
+      "desc": "At the start of the turn, if below 60 PV, enter a powered-up state."
     },
     {
       "id": 852301,
-      "name": "Overloaded HP Bullet",
+      "name": "Overloaded PV Bullet",
       "desc": "At the start of the turn, gain 2 Damage Up and 2 Fragile."
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": 852705,
       "name": "Nirmāna",
-      "desc": "Whenever the Mūrti recovers, its Max HP increases by 20%."
+      "desc": "Whenever the Mūrti recovers, its Max PV increases by 20%."
     },
     {
       "id": 852706,
@@ -73,12 +73,12 @@
     {
       "id": 852707,
       "name": "Bhaishajya",
-      "desc": "At the start of the turn, fully recover HP."
+      "desc": "At the start of the turn, fully recover PV."
     },
     {
       "id": 852102,
-      "name": "HP Ampule Injection",
-      "desc": "At the start of the turn, if this unit's HP is not at full, heal 25% of Max HP. (Up to 3 times)"
+      "name": "PV Ampule Injection",
+      "desc": "At the start of the turn, if this unit's PV is not at full, heal 25% of Max PV. (Up to 3 times)"
     }
   ]
 }

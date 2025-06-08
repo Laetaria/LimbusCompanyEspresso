@@ -56,7 +56,7 @@
         {
           "level": 1,
           "name": "Client Protection",
-          "desc": "[WhenUse] Apply 2 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)",
+          "desc": "[WhenUse] Apply 2 Defense Level Up to the ally with the lowest PV percentage (3 times per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -84,7 +84,7 @@
         {
           "level": 2,
           "name": "Client Protection",
-          "desc": "[WhenUse] Apply 3 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)\nAt 5+ Defense Level Up, Clash Power +1",
+          "desc": "[WhenUse] Apply 3 Defense Level Up to the ally with the lowest PV percentage (3 times per turn)\nAt 5+ Defense Level Up, Clash Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -112,7 +112,7 @@
         {
           "level": 4,
           "name": "Client Protection",
-          "desc": "[WhenUse] Apply 4 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)\nAt 5+ Defense Level Up, Clash Power +2",
+          "desc": "[WhenUse] Apply 4 Defense Level Up to the ally with the lowest PV percentage (3 times per turn)\nAt 5+ Defense Level Up, Clash Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -145,13 +145,13 @@
         {
           "level": 3,
           "name": "Law and Order",
-          "desc": "At 5+ Defense Level Up, Coin Power +1\n[WinDuel] Heal 2 HP",
+          "desc": "At 5+ Defense Level Up, Coin Power +1\n[WinDuel] Heal 2 PV",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Apply 1 Haste and 2 Defense Level Up to the ally with the lowest HP percentage next turn"
+                  "desc": "Apply 1 Haste and 2 Defense Level Up to the ally with the lowest PV percentage next turn"
                 }
               ]
             }
@@ -160,13 +160,13 @@
         {
           "level": 4,
           "name": "Law and Order",
-          "desc": "At 5+ Defense Level Up, Coin Power +1\n[WinDuel] Heal 4 HP",
+          "desc": "At 5+ Defense Level Up, Coin Power +1\n[WinDuel] Heal 4 PV",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Apply 1 Haste and 2 Defense Level Up to the ally with the lowest HP percentage next turn"
+                  "desc": "Apply 1 Haste and 2 Defense Level Up to the ally with the lowest PV percentage next turn"
                 },
                 {
                   "desc": "If the ally is a Zwei Association Fixer, apply an additional 1 Haste, 1 Defense Level Up"
@@ -343,7 +343,7 @@
         {
           "level": 3,
           "name": "Unleashed Violence",
-          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nDeal +3% Damage for every type of negative effect on target (Max 15%)\n[EnemyKill] Gain +2 Tremor Count",
+          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 PS\nDeal +3% Damage for every type of negative effect on target (Max 15%)\n[EnemyKill] Gain +2 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
         {
           "level": 4,
           "name": "Unleashed Violence",
-          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nDeal +6% Damage for every type of negative effect on target (Max 30%)\n[EnemyKill] Gain +2 Tremor Count",
+          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 PS\nDeal +6% Damage for every type of negative effect on target (Max 30%)\n[EnemyKill] Gain +2 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
@@ -872,7 +872,7 @@
         {
           "level": 1,
           "name": "Charge Countercurrent",
-          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
+          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% PV to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
           "coinlist": [
             {},
             {},
@@ -888,7 +888,7 @@
         {
           "level": 2,
           "name": "Charge Countercurrent",
-          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% PV to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {},
@@ -904,7 +904,7 @@
         {
           "level": 4,
           "name": "Charge Countercurrent",
-          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
+          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% PV to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
           "coinlist": [
             {},
             {},
@@ -1205,7 +1205,7 @@
         {
           "level": 3,
           "name": "Drawn by Flame",
-          "desc": "[StartBattle] Gain 7 [Combustion] and +1 [Combustion] Count\n[BeforeUse] At 30+ [Combustion], activate 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’ instead\n[WhenUse] Deal +7.5% damage for every 5 [Combustion] on self (max 30%)\n[WhenUse] At 10+ ([Combustion] on self + [Combustion] on target), Base Power +1\n[WhenUse] If this unit is missing 30%+ HP, Coin Power +1",
+          "desc": "[StartBattle] Gain 7 [Combustion] and +1 [Combustion] Count\n[BeforeUse] At 30+ [Combustion], activate 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’ instead\n[WhenUse] Deal +7.5% damage for every 5 [Combustion] on self (max 30%)\n[WhenUse] At 10+ ([Combustion] on self + [Combustion] on target), Base Power +1\n[WhenUse] If this unit is missing 30%+ PV, Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 4,
           "name": "Drawn by Flame",
-          "desc": "[StartBattle] Gain 7 [Combustion] and +1 [Combustion] Count\n[BeforeUse] At 30+ [Combustion], activate 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’ instead\n[WhenUse] Deal +12.5% damage for every 5 [Combustion] on self (max 50%)\n[WhenUse] Base Power +1 for every 10 ([Combustion] on self + [Combustion] on target) (max 2)\n[WhenUse] If this unit is missing 30%+ HP, Coin Power +1 (max 2)",
+          "desc": "[StartBattle] Gain 7 [Combustion] and +1 [Combustion] Count\n[BeforeUse] At 30+ [Combustion], activate 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’ instead\n[WhenUse] Deal +12.5% damage for every 5 [Combustion] on self (max 50%)\n[WhenUse] Base Power +1 for every 10 ([Combustion] on self + [Combustion] on target) (max 2)\n[WhenUse] If this unit is missing 30%+ PV, Coin Power +1 (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1275,7 +1275,7 @@
         {
           "level": 1,
           "name": "Sintonia Massima S.F.A 【Corrosione Deteriorata】",
-          "desc": "After using this Skill, dies.\n- If HP drops to 1 while using this Skill, maintains HP at 1 for the duration of the Skill.\n[WhenUse] Deal +7.5% damage for every 5 [Combustion] on self (max 30%)\n[WhenUse] At 10+ ([Combustion] on self + [Combustion] on target), Base Power +1\n[WhenUse] Coin Power +1 for every 30% missing HP on self (max 2)\n[BeforeAttack] Atk Weight +1 for every 20% missing HP on self (max 2)",
+          "desc": "After using this Skill, dies.\n- If PV drops to 1 while using this Skill, maintains PV at 1 for the duration of the Skill.\n[WhenUse] Deal +7.5% damage for every 5 [Combustion] on self (max 30%)\n[WhenUse] At 10+ ([Combustion] on self + [Combustion] on target), Base Power +1\n[WhenUse] Coin Power +1 for every 30% missing PV on self (max 2)\n[BeforeAttack] Atk Weight +1 for every 20% missing PV on self (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1303,7 +1303,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +10% damage for every 20% missing HP on self (max 30%)"
+                  "desc": "[OnSucceedAttack] Deal +10% damage for every 20% missing PV on self (max 30%)"
                 }
               ]
             }
@@ -1312,7 +1312,7 @@
         {
           "level": 4,
           "name": "Sintonia Massima S.F.A 【Corrosione Deteriorata】",
-          "desc": "After using this Skill, dies.\n- If HP drops to 1 while using this Skill, maintains HP at 1 for the duration of the Skill.\n[WhenUse] Deal +12.5% damage for every 5 [Combustion] on self (max 50%)\n[WhenUse] Base Power +1 for every 10 ([Combustion] on self + [Combustion] on target) (max 2)\n[WhenUse] Coin Power +1 for every 30% missing HP on self (max 3)\n[BeforeAttack] Atk Weight +1 for every 20% missing HP on self (max 4)",
+          "desc": "After using this Skill, dies.\n- If PV drops to 1 while using this Skill, maintains PV at 1 for the duration of the Skill.\n[WhenUse] Deal +12.5% damage for every 5 [Combustion] on self (max 50%)\n[WhenUse] Base Power +1 for every 10 ([Combustion] on self + [Combustion] on target) (max 2)\n[WhenUse] Coin Power +1 for every 30% missing PV on self (max 3)\n[BeforeAttack] Atk Weight +1 for every 20% missing PV on self (max 4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1340,7 +1340,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +10% damage for every 20% missing HP on self (max 30%)"
+                  "desc": "[OnSucceedAttack] Deal +10% damage for every 20% missing PV on self (max 30%)"
                 }
               ]
             }
@@ -1581,7 +1581,7 @@
         {
           "level": 1,
           "name": "It Shall be Done.",
-          "desc": "[DuelCounter]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Gain 3 [LegStrength]",
+          "desc": "[DuelCounter]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] This Skill gains +1 Offense Level for every 10% PV this unit has cumulatively lost in this Encounter (max 6; based on max PV at the time of activation)\n[WhenUse] Gain 3 [LegStrength]",
           "coinlist": [
             {
               "coindescs": [
@@ -1602,7 +1602,7 @@
         {
           "level": 4,
           "name": "It Shall be Done.",
-          "desc": "[DuelCounter]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Gain 3 [LegStrength]\n<style=\"highlight\">[WhenUse] If this unit's Speed is faster than the target's by 2 or more, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] This Skill gains +1 Offense Level for every 10% PV this unit has cumulatively lost in this Encounter (max 6; based on max PV at the time of activation)\n[WhenUse] Gain 3 [LegStrength]\n<style=\"highlight\">[WhenUse] If this unit's Speed is faster than the target's by 2 or more, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1722,7 +1722,7 @@
         {
           "level": 1,
           "name": "Swiftfeet Protection",
-          "desc": "[CanDuelGuard]\nExclusive Skill for [SupportProtect]\n[BeforeUse] At 10+ [EnhanceZilu], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Cannot be Staggered by damage until this Skill ends\n[WhenUse] Gain 2 [Protection] (once per turn)",
+          "desc": "[CanDuelGuard]\nExclusive Skill for [SupportProtect]\n[BeforeUse] At 10+ [EnhanceZilu], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] This Skill gains +1 Defense Level for every 10% PV this unit has cumulatively lost in this Encounter (max 6; based on max PV at the time of activation)\n[WhenUse] Cannot be Staggered by damage until this Skill ends\n[WhenUse] Gain 2 [Protection] (once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Swiftfeet Protection",
-          "desc": "[CanDuelGuard]\nExclusive Skill for [SupportProtect]\n[BeforeUse] At 10+ [EnhanceZilu], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Cannot be Staggered by damage until this Skill ends\n[WhenUse] Gain 2 [Protection] (once per turn)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\nExclusive Skill for [SupportProtect]\n[BeforeUse] At 10+ [EnhanceZilu], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] This Skill gains +1 Defense Level for every 10% PV this unit has cumulatively lost in this Encounter (max 6; based on max PV at the time of activation)\n[WhenUse] Cannot be Staggered by damage until this Skill ends\n[WhenUse] Gain 2 [Protection] (once per turn)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [

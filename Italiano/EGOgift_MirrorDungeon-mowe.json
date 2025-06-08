@@ -14,22 +14,22 @@
     {
       "id": 9733,
       "name": "Canned Ice Cream",
-      "desc": "When an ally loses HP due to their own Attack Skill effect, heal half of the HP lost due to the Skill effect at the next Turn Start. (rounded down)\n\nWhen an ally heals HP due to an E.G.O Skill effect, heal +12.5% more HP. (rounded down)",
+      "desc": "When an ally loses PV due to their own Attack Skill effect, heal half of the PV lost due to the Skill effect at the next Turn Start. (rounded down)\n\nWhen an ally heals PV due to an E.G.O Skill effect, heal +12.5% more PV. (rounded down)",
       "simpleDesc": [
         {
           "abilityID": 9733,
-          "simpleDesc": "Heal HP at the next Turn Start"
+          "simpleDesc": "Heal PV at the next Turn Start"
         },
         {
           "abilityID": 97331,
-          "simpleDesc": "Enhance E.G.O HP Heal effects"
+          "simpleDesc": "Enhance E.G.O PV Heal effects"
         }
       ]
     },
     {
       "id": 9734,
       "name": "E-Type Dimensional Dagger",
-      "desc": "Skill 1s that gain [Charge] Count or 'Unique Charge' gain Clash Power +1 and deal +5% damage.\n\nIf that Skill 1 was a Single-coin Skill, gain Clash Power +1 and deal +12.5% damage instead.\n\nIf a W Corp. Identity dealt damage to an enemy with an Envy Skill(including E.G.O Skills), inflict 2 HP Healing Down. (does not stack)",
+      "desc": "Skill 1s that gain [Charge] Count or 'Unique Charge' gain Clash Power +1 and deal +5% damage.\n\nIf that Skill 1 was a Single-coin Skill, gain Clash Power +1 and deal +12.5% damage instead.\n\nIf a W Corp. Identity dealt damage to an enemy with an Envy Skill(including E.G.O Skills), inflict 2 PV Healing Down. (does not stack)",
       "simpleDesc": [
         {
           "abilityID": 9734,
@@ -41,14 +41,14 @@
         },
         {
           "abilityID": 97342,
-          "simpleDesc": "Inflict 2 HP Healing Down"
+          "simpleDesc": "Inflict 2 PV Healing Down"
         }
       ]
     },
     {
       "id": 9735,
       "name": "Portable Barrier Battery",
-      "desc": "Skill 1s that gain [Charge] Count or 'Unique Charge' gain Clash Power +2.\n\nWhen using a Skill 1 that gains [Charge] Count, gain +2 [Charge] Count and 1 [ChargeForceField]. (once per turn)\n\nIf a W Corp. Identity takes HP damage due to any effect other than a direct damage, gain 5 [ChargeForceField]. (once per turn)",
+      "desc": "Skill 1s that gain [Charge] Count or 'Unique Charge' gain Clash Power +2.\n\nWhen using a Skill 1 that gains [Charge] Count, gain +2 [Charge] Count and 1 [ChargeForceField]. (once per turn)\n\nIf a W Corp. Identity takes PV damage due to any effect other than a direct damage, gain 5 [ChargeForceField]. (once per turn)",
       "simpleDesc": [
         {
           "abilityID": 9735,
@@ -82,7 +82,7 @@
     {
       "id": 9737,
       "name": "Cardiovascular Reactive Module",
-      "desc": "When an ally with [Charge] Count or 'Unique Charge' loses a Clash, gain Shield equal to ([Charge] Count + 'Unique Charge'). (once per turn)\n\nWhen at 50%- HP, gain (([Charge] Count + 'Unique Charge') x 2) Shield instead. (once per turn)\n\nIf a MultiCrack Office Identity received HP damage during this Encounter: next turn, they heal 33% of the HP lost last turn. (rounded down)",
+      "desc": "When an ally with [Charge] Count or 'Unique Charge' loses a Clash, gain Shield equal to ([Charge] Count + 'Unique Charge'). (once per turn)\n\nWhen at 50%- PV, gain (([Charge] Count + 'Unique Charge') x 2) Shield instead. (once per turn)\n\nIf a MultiCrack Office Identity received PV damage during this Encounter: next turn, they heal 33% of the PV lost last turn. (rounded down)",
       "simpleDesc": [
         {
           "abilityID": 9737,
@@ -90,7 +90,7 @@
         },
         {
           "abilityID": 97371,
-          "simpleDesc": "Heal HP based on HP lost last turn"
+          "simpleDesc": "Heal PV based on PV lost last turn"
         }
       ]
     },
@@ -112,11 +112,11 @@
     {
       "id": 9739,
       "name": "Crystallized Blood",
-      "desc": "Turn End: If this unit has [Laceration], halve the [Laceration] Potency on self and heal ([Laceration] Potency reduced x [Laceration] Count on self) HP. (rounded down. Can heal up to 10% of max HP at once)",
+      "desc": "Turn End: If this unit has [Laceration], halve the [Laceration] Potency on self and heal ([Laceration] Potency reduced x [Laceration] Count on self) PV. (rounded down. Can heal up to 10% of max PV at once)",
       "simpleDesc": [
         {
           "abilityID": 9739,
-          "simpleDesc": "Halve Bleed Potency on self, heal HP"
+          "simpleDesc": "Halve Bleed Potency on self, heal PV"
         }
       ]
     },
@@ -161,7 +161,7 @@
     {
       "id": 9742,
       "name": "Perpetual Generator Servos",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge' effects. (Not counting E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nBase Attack Skills that consume [Charge] Count or 'Unique Charge': gain Coin Power +1 and deal +(sum of [Charge] Count and 'Unique Charge' consumed by that Skill x 4)% damage (max 40%)\n\nWhen allies with [Charge] Count or 'Unique Charge' engage in a Clash with base Attack Skills: Clash Power +1; gain 2 [AttackUp] at Turn Start for every instance of Clash Win in that Clash during this Encounter. (max 6)\n\nIn this Encounter, when an ally takes damage that would kill them, consume all [Charge] Count and 'Unique Charge' on self; then, immediately heal (10 + sum of [Charge] Count and 'Unique Charge' consumed)% HP (once per Encounter); then, gain 3 [Protection] until the ally is defeated.",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge' effects. (Not counting E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nBase Attack Skills that consume [Charge] Count or 'Unique Charge': gain Coin Power +1 and deal +(sum of [Charge] Count and 'Unique Charge' consumed by that Skill x 4)% damage (max 40%)\n\nWhen allies with [Charge] Count or 'Unique Charge' engage in a Clash with base Attack Skills: Clash Power +1; gain 2 [AttackUp] at Turn Start for every instance of Clash Win in that Clash during this Encounter. (max 6)\n\nIn this Encounter, when an ally takes damage that would kill them, consume all [Charge] Count and 'Unique Charge' on self; then, immediately heal (10 + sum of [Charge] Count and 'Unique Charge' consumed)% PV (once per Encounter); then, gain 3 [Protection] until the ally is defeated.",
       "simpleDesc": [
         {
           "abilityID": 9742,

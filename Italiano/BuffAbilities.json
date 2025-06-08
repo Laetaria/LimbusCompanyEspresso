@@ -16,7 +16,7 @@
     },
     {
       "id": "MaxHpMultiplierRail",
-      "desc": "Max HP {0}%"
+      "desc": "Max PV {0}%"
     },
     {
       "id": "SlotWeightAdder",
@@ -32,7 +32,7 @@
     },
     {
       "id": "AtkAdderIfNotDamagedPrevTurn",
-      "desc": "Offense Level {0} if user took no HP damage for a turn\n(Shield damage ≠ HP damage)"
+      "desc": "Offense Level {0} if user took no PV damage for a turn\n(Shield damage ≠ PV damage)"
     },
     {
       "id": "MaxSpeedAdderAsStack",
@@ -48,7 +48,7 @@
     },
     {
       "id": "TakeHpHealMultiplier",
-      "desc": "HP Healed from Skill and Coin Effects {0}%"
+      "desc": "PV Healed from Skill and Coin Effects {0}%"
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
@@ -60,7 +60,7 @@
     },
     {
       "id": "MaxHpMultiplier",
-      "desc": "Max HP {0}%"
+      "desc": "Max PV {0}%"
     },
     {
       "id": "AtkAndDefAdder",
@@ -158,7 +158,7 @@
     },
     {
       "id": "DefaultMaxHpMultiplier",
-      "desc": "Max HP {0}%"
+      "desc": "Max PV {0}%"
     },
     {
       "id": "ResistAdderForLastBoss",
@@ -166,11 +166,11 @@
     },
     {
       "id": "MRR519P",
-      "desc": "Whenever an ally dies, inflict fixed damage equal to 20% of the dead ally's max HP against all enemies"
+      "desc": "Whenever an ally dies, inflict fixed damage equal to 20% of the dead ally's max PV against all enemies"
     },
     {
       "id": "HealSelfOnSucceedAttackByDmgRatio",
-      "desc": "On Hit, if the hit reduced the target's HP, heal by {0}% of the damage dealt"
+      "desc": "On Hit, if the hit reduced the target's PV, heal by {0}% of the damage dealt"
     },
     {
       "id": "MRR524P",
@@ -214,7 +214,7 @@
     },
     {
       "id": "MRR520P",
-      "desc": "On death, inflict fixed damage equal to {0}% of the dead unit's max HP against all enemies (for Incontri Mirati, all Parts)"
+      "desc": "On death, inflict fixed damage equal to {0}% of the dead unit's max PV against all enemies (for Incontri Mirati, all Parts)"
     },
     {
       "id": "MRR517",
@@ -238,7 +238,7 @@
     },
     {
       "id": "MRR508",
-      "desc": "Deal +({0} Potency on the target)% damage against targets at less than 0 SP or without SP (max 45%)"
+      "desc": "Deal +({0} Potency on the target)% damage against targets at less than 0 PS or without PS (max 45%)"
     },
     {
       "id": "MRR509P",
@@ -266,7 +266,7 @@
     },
     {
       "id": "MRR512",
-      "desc": "Starting from #7 Deployed Sinner, at the start of the same turn it Substitutes in, heal {0} SP, gain {2} {1} for the Encounter, and gain {3} E.G.O resource for each one of their Skills 1, 2, and 3"
+      "desc": "Starting from #7 Deployed Sinner, at the start of the same turn it Substitutes in, heal {0} PS, gain {2} {1} for the Encounter, and gain {3} E.G.O resource for each one of their Skills 1, 2, and 3"
     },
     {
       "id": "AddSinStockOnKillTargetByUsedSkillAttribute",
@@ -290,7 +290,7 @@
     },
     {
       "id": "MRR503",
-      "desc": "{0} allies with the least SP heal {1} SP at Turn End (excluding: allies that are Panicked or Corroded)"
+      "desc": "{0} allies with the least PS heal {1} PS at Turn End (excluding: allies that are Panicked or Corroded)"
     },
     {
       "id": "CriticalDamageBoostWithBuffUse",
@@ -310,11 +310,11 @@
     },
     {
       "id": "MRR551",
-      "desc": "Turn Start: at max HP, gain {1} {0} Potency and +{2} Count (once per enemy per Part per Encounter)"
+      "desc": "Turn Start: at max PV, gain {1} {0} Potency and +{2} Count (once per enemy per Part per Encounter)"
     },
     {
       "id": "MRR552",
-      "desc": "On death, 1 ally with the least current HP gains {1} {0} next turn"
+      "desc": "On death, 1 ally with the least current PV gains {1} {0} next turn"
     },
     {
       "id": "MRR553",

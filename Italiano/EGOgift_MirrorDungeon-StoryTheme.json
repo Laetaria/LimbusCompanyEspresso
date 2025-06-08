@@ -119,7 +119,7 @@
     {
       "id": 9415,
       "name": "Squalidity",
-      "desc": "When an ally attacks an enemy that has [Laceration] with a Skill that inflicts [Laceration] Potency, Count or 'Unique Bleed', deal +15% damage against the target.\n\nIf the target has 33%- HP, inflict +25% damage against the target instead.",
+      "desc": "When an ally attacks an enemy that has [Laceration] with a Skill that inflicts [Laceration] Potency, Count or 'Unique Bleed', deal +15% damage against the target.\n\nIf the target has 33%- PV, inflict +25% damage against the target instead.",
       "simpleDesc": [
         {
           "abilityID": 9415,
@@ -134,7 +134,7 @@
     {
       "id": 9416,
       "name": "Wholeness",
-      "desc": "If the ally wins a Clash using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', inflict 2~3 [NailPersonality].\n\nIf the ally is an 'N Corp. Fanatic'., gain 1 Fanatic at Turn Start, and deal +25% damage against targets with [Laceration].\n\nActivate a special effect when there are 5+ 'N Corp. Fanatic' Identities(only counts Identities on the field at Encounter Start):\n- 'N Corp. Fanatic' Identities gain Final Power +1, Plus Coin Power +1, Minus Coin Power -1, and Attack Skills inflict +1 more [NailPersonality]. If an 'N Corp. Fanatic' Identity is at max SP at Turn Start, gain 3 [AttackDmgUp].",
+      "desc": "If the ally wins a Clash using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', inflict 2~3 [NailPersonality].\n\nIf the ally is an 'N Corp. Fanatic'., gain 1 Fanatic at Turn Start, and deal +25% damage against targets with [Laceration].\n\nActivate a special effect when there are 5+ 'N Corp. Fanatic' Identities(only counts Identities on the field at Encounter Start):\n- 'N Corp. Fanatic' Identities gain Final Power +1, Plus Coin Power +1, Minus Coin Power -1, and Attack Skills inflict +1 more [NailPersonality]. If an 'N Corp. Fanatic' Identity is at max PS at Turn Start, gain 3 [AttackDmgUp].",
       "simpleDesc": [
         {
           "abilityID": 9416,
@@ -247,7 +247,7 @@
     {
       "id": 9433,
       "name": "Chief Butler's Secret Arts",
-      "desc": "First Turn Start of a wave: select 1 enemy with the slowest Speed(or a random Abnormality part), and inflict 5 [Binding] for 5 turns starting next turn.\n\nClash Win: If this unit's Speed is faster than the target's, heal SP equal to the Speed difference, and gain 'Offense Level' equal to the half of that Speed difference. (only applies to the Skill used to win the Clash. Max 'Offense Level' gain: 3)",
+      "desc": "First Turn Start of a wave: select 1 enemy with the slowest Speed(or a random Abnormality part), and inflict 5 [Binding] for 5 turns starting next turn.\n\nClash Win: If this unit's Speed is faster than the target's, heal PS equal to the Speed difference, and gain 'Offense Level' equal to the half of that Speed difference. (only applies to the Skill used to win the Clash. Max 'Offense Level' gain: 3)",
       "simpleDesc": [
         {
           "abilityID": 9433,
@@ -255,14 +255,14 @@
         },
         {
           "abilityID": 94331,
-          "simpleDesc": "Heal SP, and gain Offense Level equal to the amount of SP healed"
+          "simpleDesc": "Heal PS, and gain Offense Level equal to the amount of PS healed"
         }
       ]
     },
     {
       "id": 9434,
       "name": "Handheld Mirror",
-      "desc": "First Turn Start of a wave: select 2 enemies with the slowest Speed(or 2 random Abnormality parts. The effect does not stack if the enemy is singular) and inflict 5 [Binding] and 3 [DefenseDown] at Turn Start starting next turn.\n\nWhen the enemy recovers from Stagger, and if they don't have any remaining Stagger Thresholds, create a new Stagger Threshold at 66% mark of the target's current HP (3 times per Encounter). If an ally Staggers an enemy with an Attack Skill(except E.G.O Skills) that applies [Vibration] Potency or [Vibration] Count(including on self or on ally), randomly inflict [Vibration] Potency equal to half of the [Vibration] Potency on target between other enemies(or other Abnormality parts), and increase [Vibration] Potency on the Staggered target by x2.",
+      "desc": "First Turn Start of a wave: select 2 enemies with the slowest Speed(or 2 random Abnormality parts. The effect does not stack if the enemy is singular) and inflict 5 [Binding] and 3 [DefenseDown] at Turn Start starting next turn.\n\nWhen the enemy recovers from Stagger, and if they don't have any remaining Stagger Thresholds, create a new Stagger Threshold at 66% mark of the target's current PV (3 times per Encounter). If an ally Staggers an enemy with an Attack Skill(except E.G.O Skills) that applies [Vibration] Potency or [Vibration] Count(including on self or on ally), randomly inflict [Vibration] Potency equal to half of the [Vibration] Potency on target between other enemies(or other Abnormality parts), and increase [Vibration] Potency on the Staggered target by x2.",
       "simpleDesc": [
         {
           "abilityID": 9433,
@@ -270,7 +270,7 @@
         },
         {
           "abilityID": 94331,
-          "simpleDesc": "Create a new Stagger Threshold at 66% mark of the target's current HP"
+          "simpleDesc": "Create a new Stagger Threshold at 66% mark of the target's current PV"
         },
         {
           "abilityID": 94332,

@@ -125,7 +125,7 @@
         {
           "level": 1,
           "name": "Waiting",
-          "desc": "[StartBattle] All enemies lose 20 SP",
+          "desc": "[StartBattle] All enemies lose 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "Coil Up",
-          "desc": "If this Skill is on a slot, head gains 50 Shield HP for every <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Self-charge</color></link></u>.\nIf the head is broken, gain 25 Shield HP for every <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Self-charge instead.</color></link></u>\nSpend 1 Self-charge for every amount of Shield HP lost equal to the Shield HP gained for every Self-charge",
+          "desc": "If this Skill is on a slot, head gains 50 Shield PV for every <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Self-charge</color></link></u>.\nIf the head is broken, gain 25 Shield PV for every <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Self-charge instead.</color></link></u>\nSpend 1 Self-charge for every amount of Shield PV lost equal to the Shield PV gained for every Self-charge",
           "coinlist": [
             {}
           ]
@@ -329,7 +329,7 @@
         {
           "level": 1,
           "name": "Wriggling Head",
-          "desc": "Targets the enemy with the least HP\n[WhenUse] Spend 1 Self-charge\n[DefeatDuel] Lose 1 Self-charge",
+          "desc": "Targets the enemy with the least PV\n[WhenUse] Spend 1 Self-charge\n[DefeatDuel] Lose 1 Self-charge",
           "coinlist": [
             {},
             {
@@ -349,7 +349,7 @@
         {
           "level": 1,
           "name": "Wriggling Tail",
-          "desc": "Targets the enemy with the least HP\n[WhenUse] Spend 1 Self-charge\n[DefeatDuel] Lose 2 Self-charge",
+          "desc": "Targets the enemy with the least PV\n[WhenUse] Spend 1 Self-charge\n[DefeatDuel] Lose 2 Self-charge",
           "coinlist": [
             {},
             {},
@@ -397,7 +397,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5% of Max HP"
+                  "desc": "[OnSucceedAttack] Heal 5% of Max PV"
                 }
               ]
             }
@@ -481,7 +481,7 @@
         {
           "level": 1,
           "name": "Have a Swig!",
-          "desc": "[StartBattle] Summon Fairy Wine next turn\n[DefeatDuel] Fairy Wine summoned at 70% HP",
+          "desc": "[StartBattle] Summon Fairy Wine next turn\n[DefeatDuel] Fairy Wine summoned at 70% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -702,7 +702,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, heal 25 HP"
+                  "desc": "[OnSucceedAttack] If target has <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, heal 25 PV"
                 }
               ]
             },
@@ -712,7 +712,7 @@
                   "desc": "[OnSucceedAttack] If target has 2+ Bleed Count, inflict 5 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, heal 25 HP"
+                  "desc": "[OnSucceedAttack] If target has <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, heal 25 PV"
                 }
               ]
             }
@@ -726,7 +726,7 @@
         {
           "level": 1,
           "name": "Casting Shade",
-          "desc": "[StartBattle] Spawn a Refracted Clover next turn.\n[DefeatDuel] The Refracted Clover spawns with 50% HP.",
+          "desc": "[StartBattle] Spawn a Refracted Clover next turn.\n[DefeatDuel] The Refracted Clover spawns with 50% PV.",
           "coinlist": [
             {
               "coindescs": [
@@ -753,7 +753,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 1% of Max HP for every <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u> on target"
+                  "desc": "[OnSucceedAttack] Heal 1% of Max PV for every <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u> on target"
                 },
                 {
                   "desc": "[OnSucceedAttack] Spend 1 Bleed Count from target"
@@ -797,7 +797,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5% of Max HP"
+                  "desc": "[OnSucceedAttack] Heal 5% of Max PV"
                 }
               ]
             }
@@ -881,7 +881,7 @@
         {
           "level": 1,
           "name": "Have a Swig!",
-          "desc": "[StartBattle] Summon Fairy Wine next turn\n[DefeatDuel] Fairy Wine summoned at 50% HP",
+          "desc": "[StartBattle] Summon Fairy Wine next turn\n[DefeatDuel] Fairy Wine summoned at 50% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -927,7 +927,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core, Body heals 15 HP"
+                  "desc": "[OnSucceedAttack] Core, Body heals 15 PV"
                 }
               ]
             }
@@ -1106,7 +1106,7 @@
         {
           "level": 1,
           "name": "Rip Space",
-          "desc": "At 10+ Charge Count, spend 10 Charge Count and gain Clash Power +5 and deal +100% damage\nAt 10- Charge Count, spend 100 Core HP and deal +80% damage\nThis skill does not reduce the unit's HP to 0.",
+          "desc": "At 10+ Charge Count, spend 10 Charge Count and gain Clash Power +5 and deal +100% damage\nAt 10- Charge Count, spend 100 Core PV and deal +80% damage\nThis skill does not reduce the unit's PV to 0.",
           "coinlist": [
             {
               "coindescs": [
@@ -1472,7 +1472,7 @@
         {
           "level": 1,
           "name": "To the Garden of Infinity",
-          "desc": "[CantDuel]\n[WhenUse] Apply Crown of Thorns and eliminate all effects on self\nIf Core has less than 40% HP, Roses will spawn in Power-up States",
+          "desc": "[CantDuel]\n[WhenUse] Apply Crown of Thorns and eliminate all effects on self\nIf Core has less than 40% PV, Roses will spawn in Power-up States",
           "coinlist": [
             {}
           ]
@@ -1532,7 +1532,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Bleed and 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal the Rose with the lowest HP percentages for 10 HP"
+                  "desc": "[OnSucceedAttack] Heal the Rose with the lowest PV percentages for 10 PV"
                 }
               ]
             }
@@ -1565,7 +1565,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 30 HP"
+                  "desc": "[OnSucceedAttack] Core heals 30 PV"
                 }
               ]
             }
@@ -1584,7 +1584,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 30 HP"
+                  "desc": "[OnSucceedAttack] Core heals 30 PV"
                 }
               ]
             }
@@ -1868,7 +1868,7 @@
         {
           "level": 1,
           "name": "Restless Gluttony",
-          "desc": "[WhenUse] If target has Rupture, boost HP healing by +50%",
+          "desc": "[WhenUse] If target has Rupture, boost PV healing by +50%",
           "coinlist": [
             {
               "coindescs": [
@@ -2094,7 +2094,7 @@
         {
           "level": 1,
           "name": "Dimensional Leap",
-          "desc": "If this Dimensional Rift remains, Max HP +20%",
+          "desc": "If this Dimensional Rift remains, Max PV +20%",
           "coinlist": [
             {}
           ]

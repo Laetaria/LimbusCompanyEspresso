@@ -582,7 +582,7 @@
         {
           "level": 3,
           "name": "Magic Bullet Fire",
-          "desc": "Deal +0.5% damage for every [Combustion] on target (Max 15%)\n\n[BeforeAttack] Gain 1 [FreischutzShotCount]\n- Lose (([FreischutzShotCount] -1)x5) SP\n- Atk Weight becomes equal to [FreischutzShotCount] value\n- At 10 or less SP, 50% chance to attack indiscriminately\n\n[EndSkill] If at 7 [FreischutzShotCount], reset to 0 (Counts as spending the last Ammo)",
+          "desc": "Deal +0.5% damage for every [Combustion] on target (Max 15%)\n\n[BeforeAttack] Gain 1 [FreischutzShotCount]\n- Lose (([FreischutzShotCount] -1)x5) PS\n- Atk Weight becomes equal to [FreischutzShotCount] value\n- At 10 or less PS, 50% chance to attack indiscriminately\n\n[EndSkill] If at 7 [FreischutzShotCount], reset to 0 (Counts as spending the last Ammo)",
           "coinlist": [
             {
               "coindescs": [
@@ -596,7 +596,7 @@
         {
           "level": 4,
           "name": "Magic Bullet Fire",
-          "desc": "<style=\"highlight\">Deal +1% damage for every [Combustion] on target (Max 30%)</style>\n\n[BeforeAttack] Gain 1 [FreischutzShotCount]\n- Lose (([FreischutzShotCount] -1)x5) SP\n- Atk Weight becomes equal to [FreischutzShotCount] value\n- At 10 or less SP, 50% chance to attack indiscriminately\n\n[EndSkill] If at 7 [FreischutzShotCount], reset to 0 (Counts as spending the last Ammo)",
+          "desc": "<style=\"highlight\">Deal +1% damage for every [Combustion] on target (Max 30%)</style>\n\n[BeforeAttack] Gain 1 [FreischutzShotCount]\n- Lose (([FreischutzShotCount] -1)x5) PS\n- Atk Weight becomes equal to [FreischutzShotCount] value\n- At 10 or less PS, 50% chance to attack indiscriminately\n\n[EndSkill] If at 7 [FreischutzShotCount], reset to 0 (Counts as spending the last Ammo)",
           "coinlist": [
             {
               "coindescs": [
@@ -615,7 +615,7 @@
         {
           "level": 1,
           "name": "The Price of a Bullet",
-          "desc": "[WhenUse] Gain 1 [FreischutzShotCount] (Once per turn)\n[EndSkillAll] Lose SP equal to [FreischutzShotCount]",
+          "desc": "[WhenUse] Gain 1 [FreischutzShotCount] (Once per turn)\n[EndSkillAll] Lose PS equal to [FreischutzShotCount]",
           "coinlist": [
             {}
           ]
@@ -623,7 +623,7 @@
         {
           "level": 4,
           "name": "The Price of a Bullet",
-          "desc": "[WhenUse] Gain 1 [FreischutzShotCount] (Once per turn)\n[WhenUse] Gain Final Power equal to ([FreischutzShotCount] x2)\n[EndSkillAll] Lose SP equal to [FreischutzShotCount]",
+          "desc": "[WhenUse] Gain 1 [FreischutzShotCount] (Once per turn)\n[WhenUse] Gain Final Power equal to ([FreischutzShotCount] x2)\n[EndSkillAll] Lose PS equal to [FreischutzShotCount]",
           "coinlist": [
             {}
           ]
@@ -962,7 +962,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP"
+                  "desc": "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest PS"
                 }
               ]
             }
@@ -983,7 +983,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP. <style=\"highlight\">If the affected ally is a member of the Ring, apply 1 [PenetrateResultUp] as well</style>"
+                  "desc": "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest PS. <style=\"highlight\">If the affected ally is a member of the Ring, apply 1 [PenetrateResultUp] as well</style>"
                 }
               ]
             }
@@ -1259,7 +1259,7 @@
         {
           "level": 1,
           "name": "Sewing",
-          "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count",
+          "desc": "On Hit with this Skill: heal 10% of the PV damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -1280,7 +1280,7 @@
         {
           "level": 2,
           "name": "Sewing",
-          "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "desc": "On Hit with this Skill: heal 10% of the PV damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1307,7 +1307,7 @@
         {
           "level": 4,
           "name": "Sewing",
-          "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
+          "desc": "On Hit with this Skill: heal 10% of the PV damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1339,7 +1339,7 @@
         {
           "level": 1,
           "name": "Scission",
-          "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
+          "desc": "On Hit with this Skill: heal 10% of the PV damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1373,7 +1373,7 @@
         {
           "level": 2,
           "name": "Scission",
-          "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "desc": "On Hit with this Skill: heal 20% of the PV damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1407,7 +1407,7 @@
         {
           "level": 4,
           "name": "Scission",
-          "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1<style=\"highlight\"></style>",
+          "desc": "On Hit with this Skill: heal 20% of the PV damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1446,7 +1446,7 @@
         {
           "level": 3,
           "name": "I'll Make You a New Dress!",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] Consume 15 [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If target is killed, increase [BloodDinner] by 10. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)",
+          "desc": "On Hit with this Skill: heal 30% of the PV damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] Consume 15 [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If target is killed, increase [BloodDinner] by 10. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1481,7 +1481,7 @@
         {
           "level": 4,
           "name": "I'll Make You a New Dress!",
-          "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n<style=\"highlight\">- At 20+ [BloodScissorPersonalityFirst], replace the above effect with Atk Weight +2 instead</style>\n[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] Consume <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If target is killed, increase [BloodDinner] by <style=\"highlight\">20</style>. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)\n<style=\"highlight\">- If target is [LineCuttingPersonality], additionally increase [BloodDinner] by 20 more, and gain 5 [BloodScissorPersonalityFirst] (once per turn)</style>",
+          "desc": "On Hit with this Skill: heal 30% of the PV damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n<style=\"highlight\">- At 20+ [BloodScissorPersonalityFirst], replace the above effect with Atk Weight +2 instead</style>\n[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] Consume <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If target is killed, increase [BloodDinner] by <style=\"highlight\">20</style>. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)\n<style=\"highlight\">- If target is [LineCuttingPersonality], additionally increase [BloodDinner] by 20 more, and gain 5 [BloodScissorPersonalityFirst] (once per turn)</style>",
           "coinlist": [
             {
               "coindescs": [

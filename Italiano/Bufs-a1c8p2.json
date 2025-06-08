@@ -27,7 +27,7 @@
     {
       "id": "Teaching",
       "name": "Dialogues",
-      "desc": "Max Stack: 3\n- Turn End: heal 5 SP\n- When HP drops to 0 during the Encounter, heal up to max HP (activates as many times as this unit has Stacks)\n- Activated: {0} time(s)",
+      "desc": "Max Stack: 3\n- Turn End: heal 5 PS\n- When PV drops to 0 during the Encounter, heal up to max PV (activates as many times as this unit has Stacks)\n- Activated: {0} time(s)",
       "summary": ""
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "QiuAndHonglu",
       "name": "My True Heart...",
-      "desc": "- Hong Lu's Skills gain +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least SP heals 5 SP\n- When an ally dies, remaining allies at Turn End gain 1 Offense Level Up next turn (once per turn)",
+      "desc": "- Hong Lu's Skills gain +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least PS heals 5 PS\n- When an ally dies, remaining allies at Turn End gain 1 Offense Level Up next turn (once per turn)",
       "summary": ""
     },
     {
@@ -111,7 +111,7 @@
     {
       "id": "OminousTalisman",
       "name": "Omen Talisman",
-      "desc": "- Max Stack: 10\n- When dropping to 0 Stack: take Gluttony damage and SP damage equal to Rupture Potency on self, then expires (max SP damage: 20)\n- When losing Omen Talismans, gain Rupture Potency equal to the number of Omen Talismans lost; then, gain half of Rupture Potency lost as Rupture Count (rounded down)\n※ Cannot gain additional Stacks of this effect while it is already active",
+      "desc": "- Max Stack: 10\n- When dropping to 0 Stack: take Gluttony damage and PS damage equal to Rupture Potency on self, then expires (max PS damage: 20)\n- When losing Omen Talismans, gain Rupture Potency equal to the number of Omen Talismans lost; then, gain half of Rupture Potency lost as Rupture Count (rounded down)\n※ Cannot gain additional Stacks of this effect while it is already active",
       "summary": "",
       "undefined": "-"
     },
@@ -146,14 +146,14 @@
     {
       "id": "MadFeather_LowMorale",
       "name": "Double-edged Feather",
-      "desc": "- Low Morale\nTurn Start: gain 1 Fragile and 1 HP Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
+      "desc": "- Low Morale\nTurn Start: gain 1 Fragile and 1 PV Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_Panic",
       "name": "Double-edged Feather",
-      "desc": "-Panic\nTurn Start: gain 2 Fragile and 2 HP Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
+      "desc": "-Panic\nTurn Start: gain 2 Fragile and 2 PV Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
       "summary": "",
       "undefined": "-"
     },

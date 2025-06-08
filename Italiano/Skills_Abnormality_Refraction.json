@@ -6,7 +6,7 @@
                 {
                     "level": 1,
                     "name": "Crying Slap",
-                    "desc": "[WhenUse] Target loses 15 SP",
+                    "desc": "[WhenUse] Target loses 15 PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -25,15 +25,15 @@
                 {
                     "level": 1,
                     "name": "Gloomy Slap",
-                    "desc": "[StartDuel] Target heals 5 SP",
+                    "desc": "[StartDuel] Target heals 5 PS",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[AlwaysUse] Deal SP damage by half of damage displayed"
+                                    "desc": "[AlwaysUse] Deal PS damage by half of damage displayed"
                                 },
                                 {
-                                    "desc": "[AlwaysUse] No HP damage is dealt"
+                                    "desc": "[AlwaysUse] No PV damage is dealt"
                                 }
                             ]
                         }
@@ -47,7 +47,7 @@
                 {
                     "level": 1,
                     "name": "Melty Eyeball",
-                    "desc": "[WhenUse] Target loses 5 SP\nIf target's SP is below 0, +10% Damage",
+                    "desc": "[WhenUse] Target loses 5 PS\nIf target's PS is below 0, +10% Damage",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -59,7 +59,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Deal bonus SP damage by target's Sinking"
+                                    "desc": "[OnSucceedAttackHead] Deal bonus PS damage by target's Sinking"
                                 }
                             ]
                         }
@@ -73,7 +73,7 @@
                 {
                     "level": 1,
                     "name": "Gushing Gloom",
-                    "desc": "[WhenUse] Target loses 5 SP\nTargets the enemy with the most Sinking",
+                    "desc": "[WhenUse] Target loses 5 PS\nTargets the enemy with the most Sinking",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -92,7 +92,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Deal bonus SP damage by target's Sinking"
+                                    "desc": "[OnSucceedAttackHead] Deal bonus PS damage by target's Sinking"
                                 }
                             ]
                         }
@@ -106,7 +106,7 @@
                 {
                     "level": 1,
                     "name": "Eyeball Weight",
-                    "desc": "[DefeatDuel] Cancel all skills\n[DefeatDuel] Gain 3 Fragile\nIf the target is below 0 SP, +10% Damage",
+                    "desc": "[DefeatDuel] Cancel all skills\n[DefeatDuel] Gain 3 Fragile\nIf the target is below 0 PS, +10% Damage",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -125,12 +125,12 @@
                 {
                     "level": 1,
                     "name": "Melted Eyeball",
-                    "desc": "[WhenUse] Target loses 5 SP\nIf target's SP is below 0, +10% Damage",
+                    "desc": "[WhenUse] Target loses 5 PS\nIf target's PS is below 0, +10% Damage",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Deal bonus SP damage by target's Sinking"
+                                    "desc": "[OnSucceedAttackHead] Deal bonus PS damage by target's Sinking"
                                 }
                             ]
                         }
@@ -144,7 +144,7 @@
                 {
                     "level": 1,
                     "name": "Melted Eyeball",
-                    "desc": "[WhenUse] Target loses 5 SP\nIf target's SP is below 0, +10% Damage",
+                    "desc": "[WhenUse] Target loses 5 PS\nIf target's PS is below 0, +10% Damage",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -312,7 +312,7 @@
                 {
                     "level": 1,
                     "name": "Processing Transfer Reg",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\nTargets unit with most HP\n[WhenUse] Spend all Charge",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\nTargets unit with most PV\n[WhenUse] Spend all Charge",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -376,7 +376,7 @@
                 {
                     "level": 1,
                     "name": "Forbid Entry",
-                    "desc": "[DefeatDuel] Heal 10 HP",
+                    "desc": "[DefeatDuel] Heal 10 PV",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -388,7 +388,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Deal HP damage equal to Rupture Potency\nRemove all Rupture from target"
+                                    "desc": "[OnSucceedAttackHead] Deal PV damage equal to Rupture Potency\nRemove all Rupture from target"
                                 }
                             ]
                         }
@@ -441,7 +441,7 @@
                 {
                     "level": 1,
                     "name": "No Trespassing",
-                    "desc": "Targets the unit with the most HP",
+                    "desc": "Targets the unit with the most PV",
                     "coinlist": [
                         {},
                         {

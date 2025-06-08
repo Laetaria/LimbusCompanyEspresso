@@ -44,7 +44,7 @@
     },
     {
       "id": "Aggro",
-      "name": "Raggiro",
+      "name": "Provocazione",
       "desc": "",
       "undefined": "-"
     },
@@ -86,14 +86,14 @@
     {
       "id": "EgoErode",
       "name": "Corrosione E.G.O",
-      "desc": "Ignora gli Ordini ed usa solo abilità corrotte",
-      "summary": "Fuori Controllo; usa abilità corrotte",
+      "desc": "Ignora gli Ordini ed usa solo Abilità corrotte",
+      "summary": "Fuori Controllo; usa Abilità corrotte",
       "undefined": "-"
     },
     {
       "id": "Charge",
       "name": "Carica",
-      "desc": "Risorsa usata da alcune abilità per effetti aggiuntivi. Stack Massime: 20. Perde 1 stack alla fine del turno.\n\n<color=#1aece7>Stack Totali Consumate: {2}</color>",
+      "desc": "Risorsa usata da alcune Abilità per effetti aggiuntivi. Stack Massime: 20. Perde 1 stack alla fine del turno.\n\n<color=#1aece7>Stack Totali Consumate: {2}</color>",
       "summary": "Risorsa Mossa Specifica",
       "undefined": "-"
     },
@@ -106,8 +106,8 @@
     {
       "id": "ResultEnhancement",
       "name": "Potere Incrementato",
-      "desc": "Risultato Finale delle abilità +{0} per questo turno.",
-      "summary": "Valore Finale abilità +{0}"
+      "desc": "Risultato Finale delle Abilità +{0} per questo turno.",
+      "summary": "Valore Finale Abilità +{0}"
     },
     {
       "id": "Protection",
@@ -118,7 +118,7 @@
     {
       "id": "AttackDmgUp",
       "name": "Danno Aumentato",
-      "desc": "Infligge il +{0}0% danni in più con le abilità per questo turno. (Max 100%)",
+      "desc": "Infligge il +{0}0% danni in più con le Abilità per questo turno. (Max 100%)",
       "summary": "+{0}0% Danni Inflitti"
     },
     {
@@ -149,18 +149,18 @@
       "id": "Disarming",
       "name": "Esposizione",
       "desc": "Valore Finale delle Abilità Difensive -{0} per questo turno.",
-      "summary": "Valore Finale abilità Difensive -{0}"
+      "summary": "Valore Finale Abilità Difensive -{0}"
     },
     {
       "id": "ResultReduction",
       "name": "Strenuo",
-      "desc": "Valore Finale di qualsiasi abilità -{0} per questo turno.",
-      "summary": "Valore Finale abilità -{0}"
+      "desc": "Valore Finale di qualsiasi Abilità -{0} per questo turno.",
+      "summary": "Valore Finale Abilità -{0}"
     },
     {
       "id": "AttackDmgDown",
       "name": "Danno Ridotto",
-      "desc": "Infligge -{0}0% con le abilità in questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% con le Abilità in questo turno. (Max 100%)",
       "summary": "-{0}0% Danni in meno"
     },
     {
@@ -202,7 +202,7 @@
     {
       "id": "MoonLight",
       "name": "Chiaro Di Luna",
-      "desc": "Risorsa usata da alcune abilità per effetti aggiuntivi.",
+      "desc": "Risorsa usata da alcune Abilità per effetti aggiuntivi.",
       "summary": "Per effetti addizionali"
     },
     {
@@ -247,7 +247,7 @@
     {
       "id": "Run_LowMorale",
       "name": "Fuga",
-      "desc": "Non agisce. Quando viene colpita, questa unità muore al termine dell'abilità.",
+      "desc": "Non agisce. Quando viene colpita, questa unità muore al termine dell'Abilità.",
       "summary": "Inactive & Fleeing"
     },
     {
@@ -284,7 +284,7 @@
       "id": "Burst",
       "name": "Lacerazione",
       "desc": "La(e) prossima(e) {1} volta(e) che quest'unità viene colpita, subisce {0} danni fissi.",
-      "summary": "{0} danno(i) fisso(i) sugli HP"
+      "summary": "{0} danno(i) fisso(i) sugli PV"
     },
     {
       "id": "Sinking",
@@ -307,8 +307,8 @@
     {
       "id": "WaterPocket",
       "name": "Sacca di Fluido",
-      "desc": "Cura {0} x 20 PV.",
-      "summary": "Cura PV"
+      "desc": "Cura di {0} x 20 PV.",
+      "summary": "Cura dei PV"
     },
     {
       "id": "DogThunder",
@@ -319,7 +319,7 @@
     {
       "id": "Run_Panic",
       "name": "Oppressione",
-      "desc": "Non agisce. Quando colpita, quest'unità muore al termine dell'abilità.",
+      "desc": "Non agisce. Quando colpita, quest'unità muore al termine dell'Abilità.",
       "summary": "Inattivo ed In Fuga"
     },
     {
@@ -331,7 +331,7 @@
     {
       "id": "Emergency_Operation",
       "name": "Chirurgia Fai da Te",
-      "desc": "Aumenta i PV massimi del 25% e la Potenza delle abilità di 1 per ogni stack.\nOgni turno, aumenta di 1 le stack.\nMuore quando le stack arrivano a 5.",
+      "desc": "Aumenta i PV massimi del 25% e la Potenza delle Abilità di 1 per ogni stack.\nOgni turno, aumenta di 1 le stack.\nMuore quando le stack arrivano a 5.",
       "summary": "Dies at 5 Count"
     },
     {
@@ -388,19 +388,19 @@
     {
       "id": "SlashDamageUp",
       "name": "Aumento Danno Tagliente",
-      "desc": "Infligge +{0}0% danni con le abilità Taglienti durante questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% danni con le Abilità Taglienti durante questo turno. (Max 100%)",
       "summary": "Danno Tagliente +{0}0%"
     },
     {
       "id": "PenetrateDamageUp",
       "name": "Aumento Danno Perforante",
-      "desc": "Infligge +{0}0% danni con le abilità Perforanti durante questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% danni con le Abilità Perforanti durante questo turno. (Max 100%)",
       "summary": "Danni Perforanti +{0}0%"
     },
     {
       "id": "HitDamageUp",
       "name": "Aumento Danno Contundente",
-      "desc": "Infligge +{0}0% danni con le abilità Contundenti durante questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% danni con le Abilità Contundenti durante questo turno. (Max 100%)",
       "summary": "Danni Contundenti +{0}0%"
     },
     {
@@ -421,19 +421,19 @@
     {
       "id": "SlashDamageDown",
       "name": "Taglio Depotenziato",
-      "desc": "Infligge -{0}0% danni con le abilità Taglienti durante questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% danni con le Abilità Taglienti durante questo turno. (Max 100%)",
       "summary": "Danno Tagliente -{0}0%"
     },
     {
       "id": "PenetrateDamageDown",
       "name": "Perforante Depotenziato",
-      "desc": "Infligge -{0}0% danni con le abilità perforanti durante questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% danni con le Abilità perforanti durante questo turno. (Max 100%)",
       "summary": "Danno Perforante -{0}0%"
     },
     {
       "id": "HitDamageDown",
       "name": "Contundente Depotenziato",
-      "desc": "Infligge -{0}0% danni con le abilità contundenti durante questo turno (Max 100%)",
+      "desc": "Infligge -{0}0% danni con le Abilità contundenti durante questo turno (Max 100%)",
       "summary": "Danno Contundente -{0}0%"
     },
     {
@@ -509,85 +509,85 @@
     {
       "id": "CrimsonDamageDown",
       "name": "Ira Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Ira per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Ira per questo turno. (Max 100%)",
       "summary": "Danno da Ira -{0}0%"
     },
     {
       "id": "ScarletDamageDown",
       "name": "Lussuria Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Lussuria per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Lussuria per questo turno. (Max 100%)",
       "summary": "Danno da Lussuria -{0}0%"
     },
     {
       "id": "AmberDamageDown",
       "name": "Sloth Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Accidia per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Accidia per questo turno. (Max 100%)",
       "summary": "Danno da Accidia -{0}0%"
     },
     {
       "id": "ShamrockDamageDown",
       "name": "Gola Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Gola per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Gola per questo turno. (Max 100%)",
       "summary": "Danno da gola -{0}0%"
     },
     {
       "id": "AzureDamageDown",
       "name": "Tristezza Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Tristezza per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Tristezza per questo turno. (Max 100%)",
       "summary": "Danno da Tristezza -{0}0%"
     },
     {
       "id": "IndigoDamageDown",
       "name": "Superbia Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Superbia per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Superbia per questo turno. (Max 100%)",
       "summary": "Danno da superbia -{0}0%"
     },
     {
       "id": "VioletDamageDown",
       "name": "Invidia Depotenziata",
-      "desc": "Infligge -{0}0% Danni con le abilità che infliggono Danni da Invidia per questo turno. (Max 100%)",
+      "desc": "Infligge -{0}0% Danni con le Abilità che infliggono Danni da Invidia per questo turno. (Max 100%)",
       "summary": "Envy damage -{0}0%"
     },
     {
       "id": "CrimsonDamageUp",
       "name": "Ira Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Ira per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Ira per questo turno. (Max 100%)",
       "summary": "Danno da Ira +{0}0%"
     },
     {
       "id": "ScarletDamageUp",
       "name": "Lussuria Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Lussuria per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Lussuria per questo turno. (Max 100%)",
       "summary": "Danno da Lussuria +{0}0%"
     },
     {
       "id": "AmberDamageUp",
       "name": "Accidia Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Accidia per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Accidia per questo turno. (Max 100%)",
       "summary": "Danno da Accidia +{0}0%"
     },
     {
       "id": "ShamrockDamageUp",
       "name": "Gola Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Gola per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Gola per questo turno. (Max 100%)",
       "summary": "Danno da Gola +{0}0%"
     },
     {
       "id": "AzureDamageUp",
       "name": "Tristezza Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Tristezza per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Tristezza per questo turno. (Max 100%)",
       "summary": "Danno da Tristezza +{0}0%"
     },
     {
       "id": "IndigoDamageUp",
       "name": "Superbia Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Superbia per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Superbia per questo turno. (Max 100%)",
       "summary": "Danno da Superbia +{0}0%"
     },
     {
       "id": "VioletDamageUp",
       "name": "Invidia Potenziata",
-      "desc": "Infligge +{0}0% Danni con le abilità che infliggono Danni da Invidia per questo turno. (Max 100%)",
+      "desc": "Infligge +{0}0% Danni con le Abilità che infliggono Danni da Invidia per questo turno. (Max 100%)",
       "summary": "Danno da Invidia +{0}0%"
     },
     {
@@ -605,8 +605,8 @@
     {
       "id": "Bullet",
       "name": "Munizioni",
-      "desc": "Risorsa usata da alcune abilità. Alcuni attacchi vengono cancellati se le Munizioni sono a 0.",
-      "summary": "Risorsa per alcune abilità"
+      "desc": "Risorsa usata da alcune Abilità. Alcuni attacchi vengono cancellati se le Munizioni sono a 0.",
+      "summary": "Risorsa per alcune Abilità"
     },
     {
       "id": "Meursault_Last_Remodeling",
@@ -633,13 +633,13 @@
     {
       "id": "Choice_901007",
       "name": "Addio Gentile",
-      "desc": "A inizio Turno: Cura 10 PV e PS. (fino a 3 turni)",
+      "desc": "A inizio Turno: Cura di 10 PV e PS. (fino a 3 turni)",
       "summary": "PV & PS +10"
     },
     {
       "id": "Choice_901009",
       "name": "Photopia",
-      "desc": "Tutti gli alleati subiscono -1 al valore finale delle abilità per il prossimo Incontro",
+      "desc": "Tutti gli alleati subiscono -1 al valore finale delle Abilità per il prossimo Incontro",
       "summary": "Valore Finale Abilità -1"
     },
     {
@@ -674,7 +674,7 @@
     {
       "id": "Assemble",
       "name": "Fanatismo",
-      "desc": "Valore Finale delle abilità +{0} contro tutti i nemici che sono affetti da Chiodi per questo turno. (Si applica anche agli Scontri)",
+      "desc": "Valore Finale delle Abilità +{0} contro tutti i nemici che sono affetti da Chiodi per questo turno. (Si applica anche agli Scontri)",
       "summary": "Final Power +{0}"
     },
     {
@@ -685,7 +685,7 @@
     {
       "id": "Greedy",
       "name": "Smania",
-      "desc": "Ottiene 2 Fragilità e 10 Lentezza questo turno. Inoltre, ottiene uno slot abilità in più e cambia comportamento.",
+      "desc": "Ottiene 2 Fragilità e 10 Lentezza questo turno. Inoltre, ottiene uno slot Abilità in più e cambia comportamento.",
       "summary": "Ottiene 2 Fragilità e 10 Lentezza"
     },
     {
@@ -697,7 +697,7 @@
     {
       "id": "GreedyReady",
       "name": "Desideri Limitanti",
-      "desc": "Usa un abilità che applica 'Smania' in {0} turno(i)."
+      "desc": "Usa un Abilità che applica 'Smania' in {0} turno(i)."
     },
     {
       "id": "Decay",
@@ -769,121 +769,121 @@
     {
       "id": "SlashTakeDamageDown",
       "name": "Mitiga Tagliente",
-      "desc": "Subisce -{0}0% danni dalle abilità Taglienti in questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità Taglienti in questo turno. (Max 100%)",
       "summary": "Danni Taglienti subiti -{0}0%"
     },
     {
       "id": "PenetrateTakeDamageDown",
       "name": "Mitiga Perforante",
-      "desc": "Subisce -{0}0% danni dalle abilità perforanti in questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità perforanti in questo turno. (Max 100%)",
       "summary": "Danni Perforanti subiti -{0}0%"
     },
     {
       "id": "HitTakeDamageDown",
       "name": "Mitiga Contundente",
-      "desc": "Subisce -{0}0% danni dalle abilità contundenti in questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità contundenti in questo turno. (Max 100%)",
       "summary": "Danni Contundenti subiti -{0}0%"
     },
     {
       "id": "CrimsonTakeDamageDown",
       "name": "Mitiga Ira",
-      "desc": "Subisce -{0}0% danni dalle abilità che infliggono danni da Ira per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Ira per questo turno. (Max 100%)",
       "summary": "Danni da Ira subiti -{0}0%"
     },
     {
       "id": "ScarletTakeDamageDown",
       "name": "Mitiga Lussuria",
-      "desc": "Subisce -{0}0% danni dalle abilità che infliggono danni da Lussuria per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Lussuria per questo turno. (Max 100%)",
       "summary": "Danni da Lussuria subiti -{0}0%"
     },
     {
       "id": "AmberTakeDamageDown",
       "name": "Mitiga Accidia",
-      "desc": "Subisce -{0}0% danni dalle abilità che infliggono danni da Accidia per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Accidia per questo turno. (Max 100%)",
       "summary": "Danni da Accidia subiti -{0}0%"
     },
     {
       "id": "ShamrockTakeDamageDown",
       "name": "Mitiga Gola",
-      "desc": "Subisce -{0}0% danni dalle abilità che infliggono danni da Gola per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Gola per questo turno. (Max 100%)",
       "summary": "Danni da Gola subiti-{0}0%"
     },
     {
       "id": "AzureTakeDamageDown",
       "name": "Mitiga Tristezza",
-      "desc": "Subisce -{0}0% danni dalle abilità che infliggono danni da Tristezza per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Tristezza per questo turno. (Max 100%)",
       "summary": "Danni da Tristezza subiti -{0}0%"
     },
     {
       "id": "IndigoTakeDamageDown",
       "name": "Mitiga Superbia",
-      "desc": "Subisce -{0}0% danni dalle abilità che infliggono danni da Superbia per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Superbia per questo turno. (Max 100%)",
       "summary": "Danni da Superbia subiti -{0}0%"
     },
     {
       "id": "VioletTakeDamageDown",
       "name": "Mitiga Invidia",
-      "desc": "Subisce -{0}0% Danni dalle abilità che infliggono danni da invidia per questo turno. (Max 100%)",
+      "desc": "Subisce -{0}0% Danni dalle Abilità che infliggono danni da invidia per questo turno. (Max 100%)",
       "summary": "Danno da Invidia subiti -{0}0%"
     },
     {
       "id": "SlashTakeDamageUp",
       "name": "Intensifica Tagliente",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da taglio per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da taglio per questo turno. (Max 100%)",
       "summary": "Danni da Tagliente subiti +{0}0%"
     },
     {
       "id": "PenetrateTakeDamageUp",
       "name": "Intensifica Perforante",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni perforanti per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni perforanti per questo turno. (Max 100%)",
       "summary": "Danni Perforanti subiti +{0}0%"
     },
     {
       "id": "HitTakeDamageUp",
       "name": "Intensifica Contundente",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni contundenti per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni contundenti per questo turno. (Max 100%)",
       "summary": "Danni Contundente subiti +{0}0%"
     },
     {
       "id": "CrimsonTakeDamageUp",
       "name": "Intensifica Ira",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Ira per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Ira per questo turno. (Max 100%)",
       "summary": "Danni da Ira subiti +{0}0%"
     },
     {
       "id": "ScarletTakeDamageUp",
       "name": "Intensifica Lussuria",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Lussuria per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Lussuria per questo turno. (Max 100%)",
       "summary": "Danni da Lussuria +{0}0%"
     },
     {
       "id": "AmberTakeDamageUp",
       "name": "Intensifica Accidia",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Accidia per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Accidia per questo turno. (Max 100%)",
       "summary": "Danni da Accidia subiti +{0}0%"
     },
     {
       "id": "ShamrockTakeDamageUp",
       "name": "Intensifica Gola",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Gola per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Gola per questo turno. (Max 100%)",
       "summary": "Danni da Gola subiti +{0}0%"
     },
     {
       "id": "AzureTakeDamageUp",
       "name": "Intensifica Tristezza",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Tristezza per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Tristezza per questo turno. (Max 100%)",
       "summary": "Danni da Tristezza +{0}0%"
     },
     {
       "id": "IndigoTakeDamageUp",
       "name": "Intensifica Superbia",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Superbia per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Superbia per questo turno. (Max 100%)",
       "summary": "Danni da Superbia +{0}0%"
     },
     {
       "id": "VioletTakeDamageUp",
       "name": "Intensifica Invidia",
-      "desc": "Subisce +{0}0% danni dalle abilità che infliggono danni da Invidia per questo turno. (Max 100%)",
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Invidia per questo turno. (Max 100%)",
       "summary": "Danni da Invidia +{0}0%"
     },
     {
@@ -901,20 +901,20 @@
     {
       "id": "AssemblePersonality",
       "name": "Fanatismo",
-      "desc": "Valore Finale delle abilità +{0} contro tutti i nemici affetti da Chiodi per questo turno. (Si applica anche agli Scontri)",
+      "desc": "Valore Finale delle Abilità +{0} contro tutti i nemici affetti da Chiodi per questo turno. (Si applica anche agli Scontri)",
       "summary": "Valore Finale +{0}"
     },
     {
       "id": "MarkOfHeresy",
       "name": "Sguardo",
-      "desc": "Subisce +20% danni in più dalle abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatici di N.Corp', ottiene inoltre 1 Fanatismo al prossimo turno.",
+      "desc": "Subisce +20% danni in più dalle Abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatici di N.Corp', ottiene inoltre 1 Fanatismo al prossimo turno.",
       "summary": "Danni Perforanti e Contundenti subiti +20%"
     },
     {
       "id": "HitResultUp",
       "name": "Potenzia Contundente",
-      "desc": "Valore Finale delle abilità Contundenti di +{0} per questo turno.",
-      "summary": "Valore Finale abilità Contundenti +{0}"
+      "desc": "Valore Finale delle Abilità Contundenti di +{0} per questo turno.",
+      "summary": "Valore Finale Abilità Contundenti +{0}"
     },
     {
       "id": "WeaknessAnalysis",
@@ -937,8 +937,8 @@
     {
       "id": "VioletResultUp",
       "name": "Potenzia Invidia",
-      "desc": "Valore Finale abilità di tipo Invidia +{0} per questo turno.",
-      "summary": "Valore Finale abilità Invidia +{0}"
+      "desc": "Valore Finale Abilità di tipo Invidia +{0} per questo turno.",
+      "summary": "Valore Finale Abilità Invidia +{0}"
     },
     {
       "id": "CyclingKarma",
@@ -950,7 +950,7 @@
       "id": "TakeHpHealReduce",
       "name": "Cure PV ridotte",
       "desc": "Gli effetti curativi vengono ridotti del -{0}0% da passive, Abilità, e da lanci delle monete. (Max 5)",
-      "summary": "Cura -{0}0%"
+      "summary": "Cura di -{0}0%"
     },
     {
       "id": "AttackLevelAdder",
@@ -962,12 +962,12 @@
       "id": "Thirst",
       "name": "Languorino",
       "desc": "+{0}0% Cure ricevute dalla passiva [Cucina Creativa].\nQuest'effetto sparisce quando viene utilizzata la passiva.",
-      "summary": "[Cucina Creativa] cura +{0}0% HP"
+      "summary": "[Cucina Creativa] cura +{0}0% PV"
     },
     {
       "id": "GainSinStockAdder",
       "name": "Amplifica Risorse E.G.O",
-      "desc": "Ottiene +{0} Risorse E.G.O dalle abilità utilizzate questo turno.",
+      "desc": "Ottiene +{0} Risorse E.G.O dalle Abilità utilizzate questo turno.",
       "summary": "+{0} Risorse E.G.O ottienute"
     },
     {
@@ -1254,8 +1254,8 @@
     {
       "id": "CrimsonResultUp",
       "name": "Potenzia Ira",
-      "desc": "Valore Finale delle abilità di attributo Ira +{0} per questo turno",
-      "summary": "Valore Finale delle abilità di attributo Ira +{0}"
+      "desc": "Valore Finale delle Abilità di attributo Ira +{0} per questo turno",
+      "summary": "Valore Finale delle Abilità di attributo Ira +{0}"
     },
     {
       "id": "EmittedCurrent",
@@ -1330,8 +1330,8 @@
     {
       "id": "AmberResultUp",
       "name": "Potenzia Accidia",
-      "desc": "Valore Finale abilità di tipo Accidia +{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Accidia +{0}"
+      "desc": "Valore Finale Abilità di tipo Accidia +{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Accidia +{0}"
     },
     {
       "id": "EgoAwakenDongrangTreeDisplay",
@@ -1347,7 +1347,7 @@
     {
       "id": "EgoAwakenDongrangShardOfBrokenConnection",
       "name": "Scheggia di un Legame Spezzato",
-      "desc": "Le abilità di Yi Sang ottiengono +2 Valore Finale\nQuando un alleato muore, gli alleati rimanenti ottengono 1 Rapidità e 1 Potenziamento il prossimo turno (una volta per turno)\nFinché c'è almeno un alleato in vita, Yi Sang non può morire",
+      "desc": "Le Abilità di Yi Sang ottiengono +2 Valore Finale\nQuando un alleato muore, gli alleati rimanenti ottengono 1 Rapidità e 1 Potenziamento il prossimo turno (una volta per turno)\nFinché c'è almeno un alleato in vita, Yi Sang non può morire",
       "summary": ""
     },
     {
@@ -1371,14 +1371,14 @@
     {
       "id": "Choice_9010400101",
       "name": "Determinato",
-      "desc": "Tutti gli alleati ottengono +2 al Valore Finale delle abilità per il resto della battaglia",
-      "summary": "+2 Valore Finale delle abilità"
+      "desc": "Tutti gli alleati ottengono +2 al Valore Finale delle Abilità per il resto della battaglia",
+      "summary": "+2 Valore Finale delle Abilità"
     },
     {
       "id": "Choice_90104002",
       "name": "Desiderio Intenso",
-      "desc": "Tutti gli alleati ottengono +1 al valore finale delle abilità per il resto della battaglia",
-      "summary": "+1 valore finale delle abilità"
+      "desc": "Tutti gli alleati ottengono +1 al valore finale delle Abilità per il resto della battaglia",
+      "summary": "+1 valore finale delle Abilità"
     },
     {
       "id": "S2Mirror2ndFloor",
@@ -1407,8 +1407,8 @@
     {
       "id": "SkillPowerUp",
       "name": "Valore di Base Potenziato",
-      "desc": "Valore di Base delle abilità +{0} per questo turno.",
-      "summary": "Valore di Base delle abilità +{0}"
+      "desc": "Valore di Base delle Abilità +{0} per questo turno.",
+      "summary": "Valore di Base delle Abilità +{0}"
     },
     {
       "id": "MaxHpMultiplier",
@@ -1419,7 +1419,7 @@
     {
       "id": "StickCoinHeadAndTailToMaxPer",
       "name": "Possibilità Schiacciante",
-      "desc": "Ogni tre turni, tutte le monete di qualsiasi abilità cadranno dalla stessa faccia in base al tipo di moneta usata",
+      "desc": "Ogni tre turni, tutte le monete di qualsiasi Abilità cadranno dalla stessa faccia in base al tipo di moneta usata",
       "summary": "Ogni 3 turni, tutte le monete cadono sulla stessa faccia"
     },
     {
@@ -1487,8 +1487,8 @@
     },
     {
       "id": "Aggro",
-      "name": "Raggiro",
-      "desc": "Negli incontri mirati, gli slot con Raggiro elevato hanno più probabilità di essere presi di mira."
+      "name": "Provocazione",
+      "desc": "Negli incontri mirati, gli slot con Provocazione elevato hanno più probabilità di essere presi di mira."
     },
     {
       "id": "BurstVulnerable",
@@ -1498,12 +1498,12 @@
     {
       "id": "EmergencyFeed",
       "name": "Razioni d'Emergenza",
-      "desc": "Alla fine del turno, se questa unità ha curato il 15% o più HP, il corpo viene ripristinato il prossimo turno."
+      "desc": "Alla fine del turno, se questa unità ha curato il 15% o più PV, il corpo viene ripristinato il prossimo turno."
     },
     {
       "id": "Bullet_Crab",
       "name": "Proiettile Crostaceo",
-      "desc": "Risorsa utilizzata da alcune abilità per effetti aggiuntivi."
+      "desc": "Risorsa utilizzata da alcune Abilità per effetti aggiuntivi."
     },
     {
       "id": "SinkingVulnerable",
@@ -1518,7 +1518,7 @@
     {
       "id": "PseudoLastBoss_KingCrap",
       "name": "Furia Crostacea",
-      "desc": "All'inizio del turno, applica Potenziamento a tutti gli altri granchi alleati, e ottiene 2 Mitigazione se il guscio non è stato rotto.\n-5 PS al bersaglio quando usa un'abilità.\nQuando i PS sono al 50%, ogni parte ottiene 2 Potenziamento e 2 Fragilità."
+      "desc": "All'inizio del turno, applica Potenziamento a tutti gli altri granchi alleati, e ottiene 2 Mitigazione se il guscio non è stato rotto.\n-5 PS al bersaglio quando usa un'Abilità.\nQuando i PS sono al 50%, ogni parte ottiene 2 Potenziamento e 2 Fragilità."
     },
     {
       "id": "ChargeForceField",
@@ -1528,8 +1528,8 @@
     {
       "id": "SlashResultUp",
       "name": "Potenziamento Taglio",
-      "desc": "Valore Finale delle abilità Taglienti di +{0} per questo turno.",
-      "summary": "Valore Finale delle abilità Taglienti di +{0}"
+      "desc": "Valore Finale delle Abilità Taglienti di +{0} per questo turno.",
+      "summary": "Valore Finale delle Abilità Taglienti di +{0}"
     },
     {
       "id": "RailBuffForLine2_A_ENEMY",
@@ -1610,7 +1610,7 @@
     {
       "id": "Discard",
       "name": "Scarta",
-      "desc": "- Elimina le Abilità che soddisfano la condizione e sono selezionabili durante la fase di concatenazione  (Le difese e gli E.G.O non sono calcolati. Non elimina le mosse in arrivo)\n- Le abilità scartate non potranno attivare effetti delle monete o delle abilità tranne quelli che ne prevedono lo Scarto, e non daranno risorse E.G.O."
+      "desc": "- Elimina le Abilità che soddisfano la condizione e sono selezionabili durante la fase di concatenazione  (Le difese e gli E.G.O non sono calcolati. Non elimina le mosse in arrivo)\n- Le Abilità scartate non potranno attivare effetti delle monete o delle Abilità tranne quelli che ne prevedono lo Scarto, e non daranno risorse E.G.O."
     },
     {
       "id": "RailBuffForLine2_M_ALLY",
@@ -1659,8 +1659,8 @@
     {
       "id": "PenetrateResultUp",
       "name": "Potenziamento Perforante",
-      "desc": "Valore Finale delle abilità Perforanti di +{0} per questo turno.",
-      "summary": "Valore Finale delle abilità Perforanti di +{0}"
+      "desc": "Valore Finale delle Abilità Perforanti di +{0} per questo turno.",
+      "summary": "Valore Finale delle Abilità Perforanti di +{0}"
     },
     {
       "id": "DuelDeclaration_DonQuixote",
@@ -1685,7 +1685,7 @@
     {
       "id": "OneOnOneDuel",
       "name": "Contesa",
-      "desc": "Stabilito quando lo slot attaccato viene preso di mira da una singola unità, e solamente da quella singola unità. Questa condizione si verifica solo tra l'unità attaccante e lo slot attaccato. (Non si applica alle abilità riutilizzate)"
+      "desc": "Stabilito quando lo slot attaccato viene preso di mira da una singola unità, e solamente da quella singola unità. Questa condizione si verifica solo tra l'unità attaccante e lo slot attaccato. (Non si applica alle Abilità riutilizzate)"
     },
     {
       "id": "BulletFreischutz",
@@ -1695,7 +1695,7 @@
     {
       "id": "FreischutzShotCount",
       "name": "Pallottola Magica",
-      "desc": "- Valore Massimo: 7\n- Il valore cambia in base agli effetti delle abilità.\n- [Unico per Lobotomy E.G.O::Pallottola Magica Outis]\n· Valore di Base della terza abilità +{0}\n· Potenza Moneta della terza abilità +{1}"
+      "desc": "- Valore Massimo: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Unico per Lobotomy E.G.O::Pallottola Magica Outis]\n· Valore di Base della terza Abilità +{0}\n· Potenza Moneta della terza Abilità +{1}"
     },
     {
       "id": "DarkFlame",
@@ -1705,7 +1705,7 @@
     {
       "id": "CtrlTeamCaptain",
       "name": "Capitano del Team di Controllo",
-      "desc": "- Slot Abilità +1\n- Modifica le abilità che possono essere usate: Ottiene 1 uso della terza abilità, ma perde 1 utilizzo della prima abilità\n- Quando quest'unità uccide un nemico con un'abilità, 2 alleati (inclusa quest'unità) con meno PS recuperano 25 PS. Ottiene +2 Risorse E.G.O dell'affinità della mossa con cui ha ucciso un nemico; ottiene +1 risorse E.G.O per tutte le affinità"
+      "desc": "- Slot Abilità +1\n- Modifica le Abilità che possono essere usate: Ottiene 1 uso della terza Abilità, ma perde 1 utilizzo della prima Abilità\n- Quando quest'unità uccide un nemico con un'Abilità, 2 alleati (inclusa quest'unità) con meno PS recuperano 25 PS. Ottiene +2 Risorse E.G.O dell'affinità della mossa con cui ha ucciso un nemico; ottiene +1 risorse E.G.O per tutte le affinità"
     },
     {
       "id": "HeatedGasHarpoon",
@@ -1720,7 +1720,7 @@
     {
       "id": "CoverAttack",
       "name": "Attacco Assistito",
-      "desc": "- Se l'unità A applica quest'effetto all'unita B: l'unità B eseguirà un attacco indifendibile contro lo stesso nemico attaccato dall'abilità dell'unità A. Si attiva alla fine dell'attacco dell'unità A.\n- Quest'effetto non influisce sulla rotazione delle mosse dell'unità B."
+      "desc": "- Se l'unità A applica quest'effetto all'unita B: l'unità B eseguirà un attacco indifendibile contro lo stesso nemico attaccato dall'Abilità dell'unità A. Si attiva alla fine dell'attacco dell'unità A.\n- Quest'effetto non influisce sulla rotazione delle mosse dell'unità B."
     },
     {
       "id": "ReCompulsion",
@@ -1730,8 +1730,8 @@
     {
       "id": "IndigoResultUp",
       "name": "Potenzia Superbia",
-      "desc": "Valore Finale abilità di tipo Superbia +{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Superbia +{0}"
+      "desc": "Valore Finale Abilità di tipo Superbia +{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Superbia +{0}"
     },
     {
       "id": "BladeResultUpTier1",
@@ -1742,20 +1742,20 @@
     {
       "id": "BladeResultUpTier2",
       "name": "Spada della Patria - Penetrazione",
-      "desc": "Valore Finale dell'abilità secondaria +{0} per questo turno.",
-      "summary": "Valore Finale dell'abilità secondaria +{0}"
+      "desc": "Valore Finale dell'Abilità secondaria +{0} per questo turno.",
+      "summary": "Valore Finale dell'Abilità secondaria +{0}"
     },
     {
       "id": "SwordPlayOfTheHomeland",
       "name": "Scherma della Patria",
-      "desc": "- Quando possiede 5 Respiro o superiore, all'utilizzo di un abilitò, le abilità 1 e 2 ottengono Potere Moneta +(3/# di monete, minimo 1) e infliggono +(30/# di monete)% danni critici\n- quando possiede 7 Respiro o superiore, all'utilizzo di un abilità, l'abilità 3 infligge +(30/# di monete)%  +(50/# di monete)% danni critici",
-      "summary": "Potenzia le abilità oltre una certa soglia di Respiro"
+      "desc": "- Quando possiede 5 Respiro o superiore, all'utilizzo di un abilitò, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di monete, minimo 1) e infliggono +(30/# di monete)% danni critici\n- quando possiede 7 Respiro o superiore, all'utilizzo di un Abilità, l'Abilità 3 infligge +(30/# di monete)%  +(50/# di monete)% danni critici",
+      "summary": "Potenzia le Abilità oltre una certa soglia di Respiro"
     },
     {
       "id": "SwordPlayOfTheMemorial",
       "name": "Rimembranza",
-      "desc": "Quando possiedi 5 Respiro o superiore, all'utilizzo di un abilitò, le abilità 1 e 2 ottengono Potere Moneta +(3/# di monete, minimo 1) e infliggono +(30/# di monete)% danni critici\n- quando possiede 7 Respiro o superiore, all'utilizzo di un abilità, l'abilità 3 infligge +(30/# di monete)%  +(50/# di monete)% danni critici",
-      "summary": "Potenzia le abilità oltre una certa soglia di Respiro"
+      "desc": "Quando possiedi 5 Respiro o superiore, all'utilizzo di un abilitò, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di monete, minimo 1) e infliggono +(30/# di monete)% danni critici\n- quando possiede 7 Respiro o superiore, all'utilizzo di un Abilità, l'Abilità 3 infligge +(30/# di monete)%  +(50/# di monete)% danni critici",
+      "summary": "Potenzia le Abilità oltre una certa soglia di Respiro"
     },
     {
       "id": "RedApricotBlossom",
@@ -1766,103 +1766,103 @@
     {
       "id": "ShamrockResultUp",
       "name": "Potenzia Gola",
-      "desc": "Valore Finale abilità di tipo Gola +{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Gola +{0}"
+      "desc": "Valore Finale Abilità di tipo Gola +{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Gola +{0}"
     },
     {
       "id": "ScarletResultUp",
       "name": "Potenzia Lussuria",
-      "desc": "Valore Finale abilità di tipo Lussuria +{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Lussuria +{0}"
+      "desc": "Valore Finale Abilità di tipo Lussuria +{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Lussuria +{0}"
     },
     {
       "id": "AzureResultUp",
       "name": "Potenzia Tristezza",
-      "desc": "Valore Finale abilità di tipo Tristezza +{0} per questo turno.",
-      "summary": "Valore Finale delle abilità di tipo Tristezza +{0}"
+      "desc": "Valore Finale Abilità di tipo Tristezza +{0} per questo turno.",
+      "summary": "Valore Finale delle Abilità di tipo Tristezza +{0}"
     },
     {
       "id": "HitResultDown",
       "name": "Contundente Debilitato",
-      "desc": "Valore Finale abilità Contundenti -{0} per questo turno.",
-      "summary": "Valore Finale abilità Contundenti -{0}"
+      "desc": "Valore Finale Abilità Contundenti -{0} per questo turno.",
+      "summary": "Valore Finale Abilità Contundenti -{0}"
     },
     {
       "id": "PenetrateResultDown",
       "name": "Perforante Debilitato",
-      "desc": "Valore Finale abilità Perforanti -{0} per questo turno.",
-      "summary": "Valore Finale abilità Perforanti -{0}"
+      "desc": "Valore Finale Abilità Perforanti -{0} per questo turno.",
+      "summary": "Valore Finale Abilità Perforanti -{0}"
     },
     {
       "id": "SlashResultDown",
       "name": "Taglio Debilitato",
-      "desc": "Valore Finale abilità Taglienti -{0} per questo turno.",
-      "summary": "Valore Finale abilità Taglienti -{0}"
+      "desc": "Valore Finale Abilità Taglienti -{0} per questo turno.",
+      "summary": "Valore Finale Abilità Taglienti -{0}"
     },
     {
       "id": "CrimsonResultDown",
       "name": "Ira Debilitata",
-      "desc": "Valore Finale abilità di tipo Ira -{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Ira -{0}"
+      "desc": "Valore Finale Abilità di tipo Ira -{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Ira -{0}"
     },
     {
       "id": "ScarletResultDown",
       "name": "Lussuria Debilitata",
-      "desc": "Valore Finale abilità di tipo Lussuria -{0} per questo turno",
-      "summary": "Valore Finale abilità di tipo Lussuria -{0}}"
+      "desc": "Valore Finale Abilità di tipo Lussuria -{0} per questo turno",
+      "summary": "Valore Finale Abilità di tipo Lussuria -{0}}"
     },
     {
       "id": "ShamrockResultDown",
       "name": "Gola Debilitata",
-      "desc": "Valore Finale abilità di tipo Gola -{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Gola -{0}"
+      "desc": "Valore Finale Abilità di tipo Gola -{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Gola -{0}"
     },
     {
       "id": "AmberResultDown",
       "name": "Accidia Debilitata",
-      "desc": "Valore Finale abilità di tipo Accidia -{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Accidia -{0}"
+      "desc": "Valore Finale Abilità di tipo Accidia -{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Accidia -{0}"
     },
     {
       "id": "AzureResultDown",
       "name": "Tristezza Debilitata",
-      "desc": "Valore Finale abilità di tipo Tristezza -{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Tristezza -{0}"
+      "desc": "Valore Finale Abilità di tipo Tristezza -{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Tristezza -{0}"
     },
     {
       "id": "IndigoResultDown",
       "name": "Superbia Debilitata",
-      "desc": "Valore Finale abilità di tipo Superbia -{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Superbia -{0}"
+      "desc": "Valore Finale Abilità di tipo Superbia -{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Superbia -{0}"
     },
     {
       "id": "VioletResultDown",
       "name": "Invidia Depotenziata",
-      "desc": "Valore Finale abilità di tipo Invidia -{0} per questo turno.",
-      "summary": "Valore Finale abilità di tipo Invidia -{0} "
+      "desc": "Valore Finale Abilità di tipo Invidia -{0} per questo turno.",
+      "summary": "Valore Finale Abilità di tipo Invidia -{0} "
     },
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando colpito da un abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/quantità)",
+      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando colpito da un Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/quantità)",
       "summary": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\n Aumenta la soglia di vacillamento di {0}"
     },
     {
       "id": "EchoOfMansion",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Main",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Sub",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle abilità o dalle monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
@@ -1874,13 +1874,13 @@
     {
       "id": "ForwardToTheKing",
       "name": "Dinanzi Al Re",
-      "desc": "Sul Colpo, se l'attaccante utilizza abilità che colpiscono un solo nemico, infligge il 50% del valore della moneta risultante al colpo come (Affinità/tipo di attacco usato come abilità) danni contro altri 2 nemici attaccabili con meno PV.",
+      "desc": "Sul Colpo, se l'attaccante utilizza Abilità che colpiscono un solo nemico, infligge il 50% del valore della moneta risultante al colpo come (Affinità/tipo di attacco usato come Abilità) danni contro altri 2 nemici attaccabili con meno PV.",
       "summary": ""
     },
     {
       "id": "ForwardToTheBoundKing",
       "name": "Dinanzi Al Re Incatenato",
-      "desc": "Sul Colpo, se l'attaccante utilizza abilità che colpiscono un solo nemico, infligge il 100% del valore della moneta risultante al colpo come(Affinità/tipo di attacco usato come abilità) danni contro altri 2 nemici attaccabili con meno PV.",
+      "desc": "Sul Colpo, se l'attaccante utilizza Abilità che colpiscono un solo nemico, infligge il 100% del valore della moneta risultante al colpo come(Affinità/tipo di attacco usato come Abilità) danni contro altri 2 nemici attaccabili con meno PV.",
       "summary": ""
     },
     {
@@ -1891,7 +1891,7 @@
     {
       "id": "MarkOfButler",
       "name": "M.M.",
-      "desc": "Potenzia le abilità di Capo Maggiordomo della Famiglia Edgar Ryōshū contro i nemici affetti da questo stato.\nRidotto di 1 A Fine Turno",
+      "desc": "Potenzia le Abilità di Capo Maggiordomo della Famiglia Edgar Ryōshū contro i nemici affetti da questo stato.\nRidotto di 1 A Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -1915,7 +1915,7 @@
     {
       "id": "UnstableFeeling",
       "name": "Passione Instabile",
-      "desc": "-Sul Colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Se questa unità ha concatenato un'abilità difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A Fine Turno: perde({0} x 5) PS. (Perdita PS Massimi : 40)",
+      "desc": "-Sul Colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Se questa unità ha concatenato un'Abilità difensiva all'inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A Fine Turno: perde({0} x 5) PS. (Perdita PS Massimi : 40)",
       "summary": " "
     },
     {
@@ -1933,19 +1933,19 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Per {1} Turno(i): Quando si attiva Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando colpito da un'abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento del {0}.\n- A Fine Turno: Riduce di 1 le stack.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/stack)",
+      "desc": "- Per {1} Turno(i): Quando si attiva Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando colpito da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento del {0}.\n- A Fine Turno: Riduce di 1 le stack.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/stack)",
       "summary": ""
     },
     {
       "id": "ShieldManagerCryingToad",
       "name": "Piangibolla",
-      "desc": "Quest'effetto conta come 'Gestione dello Scudo'.\n- A Fine Turno: riduce di 1 le stack\n- Quest'unità non perde scudo a Fine Turno finché possiede Piangibolla (a meno che non venga eliminato da abilità o effetti)\n- Se lo scudo affetto da Piangibolla si rompe dopo aver subito danni, infligge 4 Pianto Potenza/stack contro l'attaccante. (Quanto di quel '4' sia Potenza o quantità viene deciso in modo casuale)\n- Quest'unità può accumulare valore al suo scudo sfruttando quest'effetto. Tuttavia, finché Piangibolla è attivo, il valore dello scudo non potrà superare il 60% dei PV massimi di quest'unità.",
+      "desc": "Quest'effetto conta come 'Gestione dello Scudo'.\n- A Fine Turno: riduce di 1 le stack\n- Quest'unità non perde scudo a Fine Turno finché possiede Piangibolla (a meno che non venga eliminato da Abilità o effetti)\n- Se lo scudo affetto da Piangibolla si rompe dopo aver subito danni, infligge 4 Pianto Potenza/stack contro l'attaccante. (Quanto di quel '4' sia Potenza o quantità viene deciso in modo casuale)\n- Quest'unità può accumulare valore al suo scudo sfruttando quest'effetto. Tuttavia, finché Piangibolla è attivo, il valore dello scudo non potrà superare il 60% dei PV massimi di quest'unità.",
       "summary": ""
     },
     {
       "id": "VibrationContinue",
       "name": "Tremor - Eterno",
-      "desc": "- Quando colpito da abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da abilità o monete che attivano Scoppio Vibrazione, (stack di Vibrazione su sè stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 le stack\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/stack)",
+      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (stack di Vibrazione su sè stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 le stack\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/stack)",
       "summary": ""
     },
     {
@@ -1963,7 +1963,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perdi 1 Potenza di Scontro per ogni 10 Tremore (max 3)\n- Quando colpito da abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 la quantità\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/stack)",
+      "desc": "- Perdi 1 Potenza di Scontro per ogni 10 Tremore (max 3)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 la quantità\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/stack)",
       "summary": ""
     },
     {
@@ -1975,25 +1975,25 @@
     {
       "id": "ContemptPersonality",
       "name": "Disprezzo dello Sguardo",
-      "desc": "- Ottiene 7 Mitigazione\n- Ottiene 7 Danni ridotti\n- Uno slot abilità di questa unità guadagna +20 Raggiro\n- Non può ottenere Sguardo di Disprezzo finchè Disprezzo dello Sguardo è attivo\n- A Fine Turno: quest'effetto scade",
+      "desc": "- Ottiene 7 Mitigazione\n- Ottiene 7 Danni ridotti\n- Uno slot Abilità di questa unità guadagna +20 Provocazione\n- Non può ottenere Sguardo di Disprezzo finchè Disprezzo dello Sguardo è attivo\n- A Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
       "id": "KnowledgeTraining",
       "name": "Erudizione",
-      "desc": "- Valore Massimo: 6\n- Quando scarta un abilità, ottiene (Erudizione x 1.5)% di PV massimi di quest'unità come scudo (una volta per turno)\n- Se quest'unità scarta un'abilità mentre possiede 2+ Intuito, ottiene 1 Potere Scontro (una volta per turno)\n- Ridotto di 1 quando subisce danni ai PV dopo essere stato colpito da un'abilità offensiva nemica\n- Scade se l'unità Vacilla",
+      "desc": "- Valore Massimo: 6\n- Quando scarta un Abilità, ottiene (Erudizione x 1.5)% di PV massimi di quest'unità come scudo (una volta per turno)\n- Se quest'unità scarta un'Abilità mentre possiede 2+ Intuito, ottiene 1 Potere Scontro (una volta per turno)\n- Ridotto di 1 quando subisce danni ai PV dopo essere stato colpito da un'Abilità offensiva nemica\n- Scade se l'unità Vacilla",
       "summary": ""
     },
     {
       "id": "BoseProjektil",
       "name": "Memorie Lacerate",
-      "desc": "- Valore Massimo : 7\n- Usato per alcune abilità",
+      "desc": "- Valore Massimo : 7\n- Usato per alcune Abilità",
       "summary": ""
     },
     {
       "id": "ChargeLoad",
       "name": "Ricarica",
-      "desc": "-Valore massimo: 6\n- Le abilità offensive che hanno consumato stack di Carica : infliggono +({0} x 2.5)% danni in più (max 15%)\n- Se l'unità che sfrutta quest'effetto è un Impiegato di W.corp, infligge +({0} x 5)% danni in più. (max 30%)\n- A Fine Turno: quest'effetto scade",
+      "desc": "-Valore massimo: 6\n- Le Abilità offensive che hanno consumato stack di Carica : infliggono +({0} x 2.5)% danni in più (max 15%)\n- Se l'unità che sfrutta quest'effetto è un Impiegato di W.corp, infligge +({0} x 5)% danni in più. (max 30%)\n- A Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
@@ -2111,7 +2111,7 @@
     {
       "id": "DevyatDimensionalSack",
       "name": "Baule del Corriere - Rodion",
-      "desc": "- Valore di Base: 0\n- A inizio Turno: ottiene 3 stack\n- Le stack non scadono alla ritirata; vengono invece immagazzinate\n- A 10+ stack: aumenta i valori minimi e massimi di velocitò di 1\n- A 20+ stack: Ottiene 1 Potenza Scontro e 1 Danni Taglienti Aumentati\n- A 30 quantità o superiore:\n· quando usi un'abilità, prendi (quantità/3)% danni ai PV e (quantità/3) danni ai PS\n· A Fine Turno, subisce (quantità/2)% danni ai PV (quantità/2) danni ai PS (si applica prima della ritirata)",
+      "desc": "- Valore di Base: 0\n- A inizio Turno: ottiene 3 stack\n- Le stack non scadono alla ritirata; vengono invece immagazzinate\n- A 10+ stack: aumenta i valori minimi e massimi di velocitò di 1\n- A 20+ stack: Ottiene 1 Potenza Scontro e 1 Danni Taglienti Aumentati\n- A 30 quantità o superiore:\n· quando usi un'Abilità, prendi (quantità/3)% danni ai PV e (quantità/3) danni ai PS\n· A Fine Turno, subisce (quantità/2)% danni ai PV (quantità/2) danni ai PS (si applica prima della ritirata)",
       "summary": "",
       "undefined": "-"
     },
@@ -2125,13 +2125,13 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il prossimo turno:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Raggiro\n  · Quando concatena le abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un incontro mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il prossimo turno:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un incontro mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
       "summary": ""
     },
     {
       "id": "CanDuelGuard",
       "name": "Sorte dell'Incontro",
-      "desc": "- A Scontro Vinto: Aumenta la Soglia di Vacillamento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando colpito, riduce il Valore Finale dell'abilità del bersaglio del Valore Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le abilità offensive",
+      "desc": "- A Scontro Vinto: Aumenta la Soglia di Vacillamento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando colpito, riduce il Valore Finale dell'Abilità del bersaglio del Valore Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
       "summary": ""
     },
     {
@@ -2178,49 +2178,49 @@
     {
       "id": "BloodyHandGregFirst",
       "name": "Mano Insanguinata",
-      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le abilità base",
+      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
       "name": "Mano Insanguinata II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le abilità base",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregThird",
       "name": "Mano Insanguinata III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- sul colpo con le abilità di base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le abilità base",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 stack\n- sul colpo con le Abilità di base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WornHeartGreg",
       "name": "Cuore Sofferente",
-      "desc": "- Valore Massimo: 10\n- A Fine Turno: ottiene 1 stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 stack\n- A 40% PV o meno, sul colpo con le abilità di base, recupera (stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per abilità)",
+      "desc": "- Valore Massimo: 10\n- A Fine Turno: ottiene 1 stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 stack\n- A 40% PV o meno, sul colpo con le Abilità di base, recupera (stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per Abilità)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionFirst",
       "name": "Spina Fiorita",
-      "desc": "- Valore Massimo 10\n- Stadio 1: Spina Fiorita\n- Ottiene 1 Livello Difensivo per ogni 2 stack (max 5)\n- Quando colpito, infligge 1 Sanguinamento contro l'attaccante e perde 1 stack\n- [Esclusivo di La Principessa di La Manchaland Rodion]\n· A stack massime, passa al prossimo stadio.\n· Infligge +(Stadio - 1) Sanguinamento e Lacerazione in più con gli effetti delle monete delle abilità di base di questa unità.\n· Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.",
+      "desc": "- Valore Massimo 10\n- Stadio 1: Spina Fiorita\n- Ottiene 1 Livello Difensivo per ogni 2 stack (max 5)\n- Quando colpito, infligge 1 Sanguinamento contro l'attaccante e perde 1 stack\n- [Esclusivo di La Principessa di La Manchaland Rodion]\n· A stack massime, passa al prossimo stadio.\n· Infligge +(Stadio - 1) Sanguinamento e Lacerazione in più con gli effetti delle monete delle Abilità di base di questa unità.\n· Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionSecond",
       "name": "Spina Fiorita II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Spina Fiorita\n- Ottiene 1 Livello Difensivo per ogni 2 stack (max 5)\n- Quando colpito, infligge 1 Sanguinamento contro l'attaccante e perde 1 stack\n- [Esclusivo di La Principessa di La Manchaland Rodion]\n· A stack massime, passa al prossimo stadio.\n· Infligge +(Stadio - 1) Sanguinamento e Lacerazione con gli effetti delle monete delle abilità di base di questa unità.\n· Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Spina Fiorita\n- Ottiene 1 Livello Difensivo per ogni 2 stack (max 5)\n- Quando colpito, infligge 1 Sanguinamento contro l'attaccante e perde 1 stack\n- [Esclusivo di La Principessa di La Manchaland Rodion]\n· A stack massime, passa al prossimo stadio.\n· Infligge +(Stadio - 1) Sanguinamento e Lacerazione con gli effetti delle monete delle Abilità di base di questa unità.\n· Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionThird",
       "name": "Spina Fiorita III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Spina Fiorita\n- Ottiene 1 Livello Difensivo per ogni 2 stack (max 5)\n- Quando colpito, infligge 1 Sanguinamento contro l'attaccante e perde 1 stack\n- [Esclusivo di La Principessa di La Manchaland Rodion]\n· A stack massime, passa al prossimo stadio.\n· Infligge +(Stadio - 1) Sanguinamento e Lacerazione con gli effetti delle monete delle abilità di base di questa unità.\n· Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Spina Fiorita\n- Ottiene 1 Livello Difensivo per ogni 2 stack (max 5)\n- Quando colpito, infligge 1 Sanguinamento contro l'attaccante e perde 1 stack\n- [Esclusivo di La Principessa di La Manchaland Rodion]\n· A stack massime, passa al prossimo stadio.\n· Infligge +(Stadio - 1) Sanguinamento e Lacerazione con gli effetti delle monete delle Abilità di base di questa unità.\n· Ritorna allo stadio precedente se le stack scendono sotto il minimo richiesto.",
       "summary": "",
       "undefined": "-"
     },
@@ -2234,14 +2234,14 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni stack o Potenza di qualsisi tipo di Vibrazione con le abilità o gli effetti delle monete, consumando 1 stack di Vibrazione su sè stesso\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base Potenza di quest'effetto\n- A Fine Turno: riduce di 1 le stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/stack)",
+      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni stack o Potenza di qualsisi tipo di Vibrazione con le Abilità o gli effetti delle monete, consumando 1 stack di Vibrazione su sè stesso\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base Potenza di quest'effetto\n- A Fine Turno: riduce di 1 le stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/stack)",
       "summary": "Max Speed +2\nConsume Tremor Count on self to infligge +1 more Tremor Potency e Count",
       "undefined": "-"
     },
     {
       "id": "DevyatDimensionalSackSinclair",
       "name": "Baule del Corriere - Sinclair",
-      "desc": "- Valore di Base: 0\n- A inizio Turno: ottiene 3 stack\n- le stack non scade alla ritirata; vengono invece immagazzinate\n- A 10+ stack: aumenta i valori minimi e massimi della velocità di 1\n- A 20+ stack: Ottiene 1 Potenza Scontro e 1 Danni Contundenti Aumentati\n- A 30+ stack:\n· quando usa un'abilità, subisce (stack/3)% danni ai PV e (stack/3) danni ai PS\n· A Fine Turno, subisce (stack/2)% danni ai PV e (stack/2) danni ai PS (si applica prima della ritirata)",
+      "desc": "- Valore di Base: 0\n- A inizio Turno: ottiene 3 stack\n- le stack non scade alla ritirata; vengono invece immagazzinate\n- A 10+ stack: aumenta i valori minimi e massimi della velocità di 1\n- A 20+ stack: Ottiene 1 Potenza Scontro e 1 Danni Contundenti Aumentati\n- A 30+ stack:\n· quando usa un'Abilità, subisce (stack/3)% danni ai PV e (stack/3) danni ai PS\n· A Fine Turno, subisce (stack/2)% danni ai PV e (stack/2) danni ai PS (si applica prima della ritirata)",
       "summary": "",
       "undefined": "-"
     },
@@ -2324,7 +2324,7 @@
     {
       "id": "CoveringFire",
       "name": "Bersaglio Individuato",
-      "desc": "Se l'unità A applica quest'effetto all'unità B: l'unità B eseguirà un attacco indifendibile con l'abilità secondaria sullo stesso nemico che A ha attaccato. Si attiva alla fine dell'attacco dell'unità A.\n- La mossa usata da B non influisce sulle mosse presenti sulla Barra Mosse."
+      "desc": "Se l'unità A applica quest'effetto all'unità B: l'unità B eseguirà un attacco indifendibile con l'Abilità secondaria sullo stesso nemico che A ha attaccato. Si attiva alla fine dell'attacco dell'unità A.\n- La mossa usata da B non influisce sulle mosse presenti sulla Barra Mosse."
     },
     {
       "id": "FullReload",
@@ -2349,7 +2349,7 @@
     {
       "id": "MeleeCover",
       "name": "Supporto in Mischia",
-      "desc": "- se l'uniità A applica quest'effetto all'unità B: l'unità B esegue un attacco indifendibile con l'abilità 'Supporto in mischia' contro lo stesso nemico che l'unità A ha attaccato. Si attiva alla fine dell'abilità di A.\n- L'abilità che viene usata dall'effetto 'Supporto in Mischia' in influenza la Barra Mosse di B"
+      "desc": "- se l'uniità A applica quest'effetto all'unità B: l'unità B esegue un attacco indifendibile con l'Abilità 'Supporto in mischia' contro lo stesso nemico che l'unità A ha attaccato. Si attiva alla fine dell'Abilità di A.\n- L'Abilità che viene usata dall'effetto 'Supporto in Mischia' in influenza la Barra Mosse di B"
     },
     {
       "id": "RequestedTarget",
@@ -2359,7 +2359,7 @@
     {
       "id": "GlowingLantern",
       "name": "Esca Fatata",
-      "desc": "- Max stack: 5\n- A inizio Turno: lo Slot più a sinistra della Barra Mosse ottiene +10 Raggiro\n- Subisce +50% in più di danno\n- Quando viene colpito, infligge 1 Lacerazione all'attaccante (3 volte per le abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
+      "desc": "- Max stack: 5\n- A inizio Turno: lo Slot più a sinistra della Barra Mosse ottiene +10 Provocazione\n- Subisce +50% in più di danno\n- Quando viene colpito, infligge 1 Lacerazione all'attaccante (3 volte per le Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
     },
     {
       "id": "HoldingBreath",
@@ -2386,22 +2386,22 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Max stack: 1\n Converte tutte le monete delle abilità offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Valore Finale +3\nA Fine Turno: quest'effetto termina"
+      "desc": "Max stack: 1\n Converte tutte le monete delle Abilità offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Valore Finale +3\nA Fine Turno: quest'effetto termina"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Max stack: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le abilità taglienti"
+      "desc": "Max stack: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti"
     },
     {
       "id": "EngageToBattle",
       "name": "Pronti alla Battaglia",
-      "desc": "Valore Massimo: 1\n+1 a Potenza e alle stack di Sanguinamento inflitte con le abilità o con gli effetti delle monete di quest'unità\nOttiene 1 Potenziamento Taglio e 3 Danni Taglienti Aumentati per la durata dello Scontro"
+      "desc": "Valore Massimo: 1\n+1 a Potenza e alle stack di Sanguinamento inflitte con le Abilità o con gli effetti delle monete di quest'unità\nOttiene 1 Potenziamento Taglio e 3 Danni Taglienti Aumentati per la durata dello Scontro"
     },
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
-      "desc": "Max stack: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa abilità termina: 'Regole dei Vicoli'"
+      "desc": "Max stack: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'"
     },
     {
       "id": "NebulizerExhale",
@@ -2416,7 +2416,7 @@
     {
       "id": "FirePunchFuel",
       "name": "Carburante del Distretto 12",
-      "desc": "Max stack: 100\nViene usato da alcume abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
+      "desc": "Max stack: 100\nViene usato da alcume Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
       "summary": "",
       "undefined": "-"
     },
@@ -2444,7 +2444,7 @@
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max quantità: 10\n- Viene usato da alcune abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A Fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio della Vendetta del Fratello il prossimo turno\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
+      "desc": "- Max quantità: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A Fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio della Vendetta del Fratello il prossimo turno\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
@@ -2465,7 +2465,7 @@
     {
       "id": "WideAreaRampage",
       "name": "Raffica Incontrollabile",
-      "desc": "- Quando si lancia la Moneta di quest'abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'sul colpo' e tutti i danni inflitti da ogni moneta vengono inflitti solo contro il bersaglio casuale selezionato dalla moneta.",
+      "desc": "- Quando si lancia la Moneta di quest'Abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'sul colpo' e tutti i danni inflitti da ogni moneta vengono inflitti solo contro il bersaglio casuale selezionato dalla moneta.",
       "summary": "Attacca indiscriminatamente tra i bersagli scelti",
       "undefined": "-"
     },
@@ -2542,14 +2542,14 @@
     {
       "id": "DragonLance",
       "name": "Flower-burying Wedge [埋花櫼]",
-      "desc": "Base Stack: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: gain 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\n- Turn End: gain 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon defeat or Retreat\n\n- When this unit takes damage that brings their HP down to 0: instead of letting this unit's HP drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their HP down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
+      "desc": "Base Stack: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: gain 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\n- Turn End: gain 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon defeat or Retreat\n\n- When this unit takes damage that brings their PV down to 0: instead of letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CondensedBlood",
       "name": "Tarnished Blood",
-      "desc": "Max Stack: 5\n- Turn End: take 20% HP damage per Stack (cannot be Staggered by this effect)\n- Gain 1 Stack at Turn End\n- Expires upon death or Retreat",
+      "desc": "Max Stack: 5\n- Turn End: take 20% PV damage per Stack (cannot be Staggered by this effect)\n- Gain 1 Stack at Turn End\n- Expires upon death or Retreat",
       "summary": "",
       "undefined": "-"
     },
@@ -2563,7 +2563,7 @@
     {
       "id": "YesdragonNodie",
       "name": "Denial [不許]",
-      "desc": "When this unit takes damage that brings their HP down to 0: this unit's HP does not drop below 1; recover from Stagger due to damage.\nIf the above effect activated, dies at Turn End.\nExpires upon death, Retreat, or Turn End",
+      "desc": "When this unit takes damage that brings their PV down to 0: this unit's PV does not drop below 1; recover from Stagger due to damage.\nIf the above effect activated, dies at Turn End.\nExpires upon death, Retreat, or Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -2598,7 +2598,7 @@
     {
       "id": "RetreatForCommon",
       "name": "Battlefield Retreat",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of PV and PS this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 PS when retreating, reset PS to 0 instead)",
       "summary": "",
       "undefined": "-"
     }

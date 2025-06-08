@@ -14,7 +14,7 @@
     {
       "id": "PassedPortal_Green",
       "name": "Poisonous Dimension",
-      "desc": "Pass through the Dimensional Rift to gain +20% Max HP"
+      "desc": "Pass through the Dimensional Rift to gain +20% Max PV"
     },
     {
       "id": "PassedPortal_Yellow",
@@ -82,13 +82,13 @@
     {
       "id": "BloomingRose",
       "name": "Blooming Sin",
-      "desc": "At the end of the turn\n- Gain 1 Count.\n- {2} loses HP equal to 25% of Max HP.\n- Lose 10% of {1} E.G.O resource.\n- The Sign of Roses heals 5% of Max HP.\n\nAt 4 Count,\n- {2} dies.\n- Lose all of {1} E.G.O resource.",
+      "desc": "At the end of the turn\n- Gain 1 Count.\n- {2} loses PV equal to 25% of Max PV.\n- Lose 10% of {1} E.G.O resource.\n- The Sign of Roses heals 5% of Max PV.\n\nAt 4 Count,\n- {2} dies.\n- Lose all of {1} E.G.O resource.",
       "summary": ""
     },
     {
       "id": "EatingSin",
       "name": "Drenched Sin",
-      "desc": "Gain Max HP by {0}%(E.G.O resource drained).\n\nOn Death\n- Regain {0} of {1} E.G.O resource.\n- {2} heals HP by (25% of Identity's Max HP x Blooming Sin Stack at death).",
+      "desc": "Gain Max PV by {0}%(E.G.O resource drained).\n\nOn Death\n- Regain {0} of {1} E.G.O resource.\n- {2} heals PV by (25% of Identity's Max PV x Blooming Sin Stack at death).",
       "summary": ""
     },
     {

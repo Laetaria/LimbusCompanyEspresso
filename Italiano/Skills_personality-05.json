@@ -428,7 +428,7 @@
         {
           "level": 3,
           "name": "Yield My Flesh",
-          "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+15% Damage on Critical Hit\nDeal +0.5% damage per 1% missing HP on self (Max 25%)",
+          "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+15% Damage on Critical Hit\nDeal +0.5% damage per 1% missing PV on self (Max 25%)",
           "coinlist": [
             {}
           ]
@@ -436,7 +436,7 @@
         {
           "level": 4,
           "name": "Yield My Flesh",
-          "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +3% damage on Critical Hit for every Poise Potency on self (Max 75%)\n+30% Damage on Critical Hit\nDeal +0.5% damage per 1% missing HP on self (Max 25%)",
+          "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +3% damage on Critical Hit for every Poise Potency on self (Max 75%)\n+30% Damage on Critical Hit\nDeal +0.5% damage per 1% missing PV on self (Max 25%)",
           "coinlist": [
             {}
           ]
@@ -463,7 +463,7 @@
         {
           "level": 4,
           "name": "Overthrow",
-          "desc": "[WhenUse] Gain 1 Slash Power Up next turn (1 time max)\n<style=\"highlight\">Deal +0.5% damage for every 1% missing HP on self (Max 25%)</style>",
+          "desc": "[WhenUse] Gain 1 Slash Power Up next turn (1 time max)\n<style=\"highlight\">Deal +0.5% damage for every 1% missing PV on self (Max 25%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -482,7 +482,7 @@
         {
           "level": 1,
           "name": "To Claim Their Bones",
-          "desc": "[BeforeAttack] At 10+ [Breath], Atk Weight +1\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+20% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)",
+          "desc": "[BeforeAttack] At 10+ [Breath], Atk Weight +1\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+20% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing PV on self (Max 25%)",
           "coinlist": [
             {},
             {},
@@ -502,7 +502,7 @@
         {
           "level": 4,
           "name": "To Claim Their Bones",
-          "desc": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +2)</style>\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+<style=\"highlight\">30</style>% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% damage (In Incontri Mirati, a single Part)</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +2)</style>\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+<style=\"highlight\">30</style>% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing PV on self (Max 25%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% damage (In Incontri Mirati, a single Part)</style>",
           "coinlist": [
             {},
             {},
@@ -711,7 +711,7 @@
         {
           "level": 1,
           "name": "Studious Dedication",
-          "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Gain ([KnowledgeExplored] x 3% of Max PV) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {},
             {
@@ -726,7 +726,7 @@
         {
           "level": 2,
           "name": "Studious Dedication",
-          "desc": "Gain ([KnowledgeExplored] x <style=\"highlight\">4%</style> of Max HP) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the lowest rank in all of this unit's Skill Slots\n<style=\"highlight\">[WhenUse] At 2+ [KnowledgeExplored], Clash Power +1\n[WinDuel] Gain 2 [KnowledgeTraining] (once per turn)</style>",
+          "desc": "Gain ([KnowledgeExplored] x <style=\"highlight\">4%</style> of Max PV) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the lowest rank in all of this unit's Skill Slots\n<style=\"highlight\">[WhenUse] At 2+ [KnowledgeExplored], Clash Power +1\n[WinDuel] Gain 2 [KnowledgeTraining] (once per turn)</style>",
           "coinlist": [
             {},
             {
@@ -741,7 +741,7 @@
         {
           "level": 4,
           "name": "Studious Dedication",
-          "desc": "Gain ([KnowledgeExplored] x <style=\"highlight\">5%</style> of Max HP) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the lowest rank in all of this unit's Skill Slots\n<style=\"highlight\">[WhenUse] Gain ([KnowledgeExplored] - 1) Clash Power (max 2)</style>\n[WinDuel] Gain 2 [KnowledgeTraining] (once per turn)",
+          "desc": "Gain ([KnowledgeExplored] x <style=\"highlight\">5%</style> of Max PV) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the lowest rank in all of this unit's Skill Slots\n<style=\"highlight\">[WhenUse] Gain ([KnowledgeExplored] - 1) Clash Power (max 2)</style>\n[WinDuel] Gain 2 [KnowledgeTraining] (once per turn)",
           "coinlist": [
             {},
             {

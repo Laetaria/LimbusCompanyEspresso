@@ -194,7 +194,7 @@
         {
           "level": 1,
           "name": "Even Sharper",
-          "desc": "[WhenUse] Consume up to 20 [BloodDinner]; gain 1 [BloodScissor] and heal 3 SP for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner] with this Skill, gain 30 [Laceration]\n[WhenUse] If the target has 6+ [Laceration], Clash Power +1\n[WhenUse] Coin Power +1 for every 5 [Laceration] on self (max 2)",
+          "desc": "[WhenUse] Consume up to 20 [BloodDinner]; gain 1 [BloodScissor] and heal 3 PS for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner] with this Skill, gain 30 [Laceration]\n[WhenUse] If the target has 6+ [Laceration], Clash Power +1\n[WhenUse] Coin Power +1 for every 5 [Laceration] on self (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
         {
           "level": 1,
           "name": "SNIP!!",
-          "desc": "[WhenUse] Consume up to 30 [BloodDinner]; gain 1 [BloodScissor] and heal 3 SP for every 10 [BloodDinner] consumed\n[WhenUse] If the target has [LineCutting], Clash Power +5\nHeal 5 SP on every hit against [LineCutting]",
+          "desc": "[WhenUse] Consume up to 30 [BloodDinner]; gain 1 [BloodScissor] and heal 3 PS for every 10 [BloodDinner] consumed\n[WhenUse] If the target has [LineCutting], Clash Power +5\nHeal 5 PS on every hit against [LineCutting]",
           "coinlist": [
             {
               "coindescs": [
@@ -253,7 +253,7 @@
         {
           "level": 1,
           "name": "I'll Cut You Up Too!",
-          "desc": "[BeforeAttack] Atk Weight +1 for every Stage of [BloodScissor] (max 2)\n[WhenUse] Consume up to 30 [BloodDinner]; gain 1 [BloodScissor] and heal 3 SP for every 10 [BloodDinner] consumed\n[WhenUse] If the target has 6+ [Laceration], Clash Power +2",
+          "desc": "[BeforeAttack] Atk Weight +1 for every Stage of [BloodScissor] (max 2)\n[WhenUse] Consume up to 30 [BloodDinner]; gain 1 [BloodScissor] and heal 3 PS for every 10 [BloodDinner] consumed\n[WhenUse] If the target has 6+ [Laceration], Clash Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -304,7 +304,7 @@
         {
           "level": 1,
           "name": "I'll Cut You Together!",
-          "desc": "[BeforeAttack] Atk Weight +1 for every Stage of [BloodScissor]\n[WhenUse] Consume up to 100 [BloodDinner]; gain 1 [BloodScissor] and heal 3 SP for every 10 [BloodDinner] consumed\n[WhenUse] If the target has 6+ [Laceration], Clash Power +2\n[EndSkill] Consume 10 [BloodScissor]",
+          "desc": "[BeforeAttack] Atk Weight +1 for every Stage of [BloodScissor]\n[WhenUse] Consume up to 100 [BloodDinner]; gain 1 [BloodScissor] and heal 3 PS for every 10 [BloodDinner] consumed\n[WhenUse] If the target has 6+ [Laceration], Clash Power +2\n[EndSkill] Consume 10 [BloodScissor]",
           "coinlist": [
             {
               "coindescs": [
@@ -384,15 +384,15 @@
         {
           "level": 1,
           "name": "I Don't Need Ugly Things!!",
-          "desc": "[CantChangeTarget]\nPrioritizes targets with the least HP percentage",
+          "desc": "[CantChangeTarget]\nPrioritizes targets with the least PV percentage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target is at 30%- HP, kill the target"
+                  "desc": "[OnSucceedAttack] If the target is at 30%- PV, kill the target"
                 },
                 {
-                  "desc": "[EnemyKill] Increase [BloodDinner] by 30% of the defeated enemy's max HP"
+                  "desc": "[EnemyKill] Increase [BloodDinner] by 30% of the defeated enemy's max PV"
                 },
                 {
                   "desc": "[EnemyKill] gain 4 [Vulnerable] next turn"

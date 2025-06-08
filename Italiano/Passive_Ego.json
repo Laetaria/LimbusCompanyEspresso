@@ -58,7 +58,7 @@
     {
       "id": 2050211,
       "name": "Final Augment",
-      "desc": "If the E.G.O Skill <Screwloose Wallop> is used at less than 25% HP, gain 3 Attack Power Up, Defense Power Up, and Haste every turn, but then die in 3 turns."
+      "desc": "If the E.G.O Skill <Screwloose Wallop> is used at less than 25% PV, gain 3 Attack Power Up, Defense Power Up, and Haste every turn, but then die in 3 turns."
     },
     {
       "id": 2050311,
@@ -68,7 +68,7 @@
     {
       "id": 2060111,
       "name": "Ripple",
-      "desc": "At the start of the combat phase, heal SP for the ally with the least SP by the count of your highest A-Reson. value, excluding those in Panic."
+      "desc": "At the start of the combat phase, heal PS for the ally with the least PS by the count of your highest A-Reson. value, excluding those in Panic."
     },
     {
       "id": 2060211,
@@ -103,12 +103,12 @@
     {
       "id": 2090111,
       "name": "Severance",
-      "desc": "+1 SP Heal Efficiency, -1 SP Loss Efficiency"
+      "desc": "+1 PS Heal Efficiency, -1 PS Loss Efficiency"
     },
     {
       "id": 2090211,
       "name": "Spark of Flame",
-      "desc": "After defeating an enemy that has [Combustion], heal HP by (Wrath A-Reson.)% of Max HP."
+      "desc": "After defeating an enemy that has [Combustion], heal PV by (Wrath A-Reson.)% of Max PV."
     },
     {
       "id": 2090311,
@@ -118,7 +118,7 @@
     {
       "id": 2100111,
       "name": "Unstable",
-      "desc": "If a skill's Coin hits with a different side from the previous Coin in the same skill, lose 5 SP and gain 1 Damage Up this turn. (3 times per turn)"
+      "desc": "If a skill's Coin hits with a different side from the previous Coin in the same skill, lose 5 PS and gain 1 Damage Up this turn. (3 times per turn)"
     },
     {
       "id": 2100211,
@@ -138,12 +138,12 @@
     {
       "id": 2110311,
       "name": "Emptying",
-      "desc": "At the start of the turn, gain 1 Lust DMG Up.\nGain 1 more when below 0 SP."
+      "desc": "At the start of the turn, gain 1 Lust DMG Up.\nGain 1 more when below 0 PS."
     },
     {
       "id": 2120111,
       "name": "Uncontrolled Morph",
-      "desc": "At the start of the turn, if below 25% HP, heal 15 HP and gain 2 Protection.\nWhen this effect activates, inflict 1 random other ally & 1 random enemy with +2 SP Loss Efficiency."
+      "desc": "At the start of the turn, if below 25% PV, heal 15 PV and gain 2 Protection.\nWhen this effect activates, inflict 1 random other ally & 1 random enemy with +2 PS Loss Efficiency."
     },
     {
       "id": 2120211,
@@ -153,7 +153,7 @@
     {
       "id": 2120311,
       "name": "Nutrient Absorption",
-      "desc": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Reson.)% of Max HP."
+      "desc": "After defeating an enemy that has Rupture, heal PV by (Gluttony A-Reson.)% of Max PV."
     },
     {
       "id": 2030311,
@@ -183,7 +183,7 @@
     {
       "id": 2060311,
       "name": "Entangled Phenomena Restoration",
-      "desc": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. \n(Max +4 per turn.)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proportion to the amount spent. (Cannot heal over 25% Max HP.)"
+      "desc": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. \n(Max +4 per turn.)\nWhen PV falls to 0 for the first time during battle, spend all Charge Count and heal in proportion to the amount spent. (Cannot heal over 25% Max PV.)"
     },
     {
       "id": 2050411,
@@ -193,7 +193,7 @@
     {
       "id": 2080411,
       "name": "Slaying Amid Cheers",
-      "desc": "When attacking a target with less than 30% HP, Wrath skills deal +20% damage."
+      "desc": "When attacking a target with less than 30% PV, Wrath skills deal +20% damage."
     },
     {
       "id": 2110411,
@@ -203,7 +203,7 @@
     {
       "id": 2070311,
       "name": "Temperamental Discharge",
-      "desc": "When hit, spend 1 Charge Count to heal 2.5% of Max HP\nAt less than 40% HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)"
+      "desc": "When hit, spend 1 Charge Count to heal 2.5% of Max PV\nAt less than 40% PV, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)"
     },
     {
       "id": 2120411,
@@ -213,7 +213,7 @@
     {
       "id": 2010511,
       "name": "Ray of Sun After Rain",
-      "desc": "At the start of the turn, all allies heal 3 SP"
+      "desc": "At the start of the turn, all allies heal 3 PS"
     },
     {
       "id": 2040311,
@@ -223,7 +223,7 @@
     {
       "id": 2040411,
       "name": "Predator",
-      "desc": "If this unit healed more than 10% of its Max HP this turn, gain 1 Attack Power Up next turn."
+      "desc": "If this unit healed more than 10% of its Max PV this turn, gain 1 Attack Power Up next turn."
     },
     {
       "id": 2040511,
@@ -233,17 +233,17 @@
     {
       "id": 2060411,
       "name": "Seagull Squawking Of The Distant Seas",
-      "desc": "When an enemy is defeated, the ally with the least SP heals 1 SP.\nWhenever an enemy is defeated, the amount of SP healed increases by 2. (Max 9)\nThe amount is reset at the start of a new wave."
+      "desc": "When an enemy is defeated, the ally with the least PS heals 1 PS.\nWhenever an enemy is defeated, the amount of PS healed increases by 2. (Max 9)\nThe amount is reset at the start of a new wave."
     },
     {
       "id": 2100411,
       "name": "Fairy Lure",
-      "desc": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal (3 + (Gluttony A-Reson.))% HP"
+      "desc": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal (3 + (Gluttony A-Reson.))% PV"
     },
     {
       "id": 2070411,
       "name": "Dhyāna",
-      "desc": "Raise Max HP by 15% of this Identity's base Max HP when recovering from Staggered state.\nThen, heal by 15% of current Max HP. If at less than 30% of current Max HP, heal by 25% instead.\n(3 times per encounter. At Encounter End, revert to base Max HP. Current HP value will be adjusted to reflect the HP percentage at the time of Encounter End.)"
+      "desc": "Raise Max PV by 15% of this Identity's base Max PV when recovering from Staggered state.\nThen, heal by 15% of current Max PV. If at less than 30% of current Max PV, heal by 25% instead.\n(3 times per encounter. At Encounter End, revert to base Max PV. Current PV value will be adjusted to reflect the PV percentage at the time of Encounter End.)"
     },
     {
       "id": 2050511,
@@ -258,7 +258,7 @@
     {
       "id": 2060511,
       "name": "Green Slime",
-      "desc": "If struck at less than 50% HP, inflict 1 Rupture on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)"
+      "desc": "If struck at less than 50% PV, inflict 1 Rupture on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)"
     },
     {
       "id": 2040611,
@@ -268,7 +268,7 @@
     {
       "id": 2080511,
       "name": "Temeritous Voyage",
-      "desc": "At the end of the turn, inflict 5 Sinking to 1 other ally with the lowest HP; Apply 1 Haste and 3 Offense Level Up next turn"
+      "desc": "At the end of the turn, inflict 5 Sinking to 1 other ally with the lowest PV; Apply 1 Haste and 3 Offense Level Up next turn"
     },
     {
       "id": 2090411,
@@ -278,12 +278,12 @@
     {
       "id": 2100511,
       "name": "Prophecy of Ruin",
-      "desc": "On Heads Hit with a Lust affinity Skill, lower this unit and the target's SP by 4.\n(Does not work against targets without Sanity)\nGain 5 Lust E.G.O resources On Kill with a Lust affinity Skill"
+      "desc": "On Heads Hit with a Lust affinity Skill, lower this unit and the target's PS by 4.\n(Does not work against targets without Sanity)\nGain 5 Lust E.G.O resources On Kill with a Lust affinity Skill"
     },
     {
       "id": 2090511,
       "name": "Sentencing from Above",
-      "desc": "Whenever an enemy is Staggered, the ally with the least HP percentage heals 4% of their Max HP. (Once per turn)"
+      "desc": "Whenever an enemy is Staggered, the ally with the least PV percentage heals 4% of their Max PV. (Once per turn)"
     },
     {
       "id": 2070511,
@@ -338,8 +338,8 @@
     {
       "id": 2080611,
       "name": "Gluttony",
-      "desc": "If the main target took HP damage this turn and isn't at max HP at Skill Use:\nOn Hit,\n- When this unit is at max HP, deal +5~+10% damage.\n- When this unit isn't at max HP, heal 2~5 HP. \n(7 times per turn)",
-      "summary": "If the target isn't at max HP, deal more damage On Hit or heal HP On Hit"
+      "desc": "If the main target took PV damage this turn and isn't at max PV at Skill Use:\nOn Hit,\n- When this unit is at max PV, deal +5~+10% damage.\n- When this unit isn't at max PV, heal 2~5 PV. \n(7 times per turn)",
+      "summary": "If the target isn't at max PV, deal more damage On Hit or heal PV On Hit"
     },
     {
       "id": 2090611,
@@ -390,7 +390,7 @@
     {
       "id": 2080711,
       "name": "Interloper Reception",
-      "desc": "If the target has [UninvitedGuestPersonality] or any of the Panic Type changing effects, Clash Power +1.\nOn Hit against the said target, heal 1 ally with the least SP for 5 SP. (once per turn)"
+      "desc": "If the target has [UninvitedGuestPersonality] or any of the Panic Type changing effects, Clash Power +1.\nOn Hit against the said target, heal 1 ally with the least PS for 5 PS. (once per turn)"
     },
     {
       "id": 2020711,
@@ -406,12 +406,12 @@
     {
       "id": 2030711,
       "name": "Spiring Crimson Blossom",
-      "desc": "Every time 10+ [Laceration] damage occurs, heal 1 SP on self (10 per turn)"
+      "desc": "Every time 10+ [Laceration] damage occurs, heal 1 PS on self (10 per turn)"
     },
     {
       "id": 2090711,
       "name": "Iron Stake against the Heart",
-      "desc": "When inflicting [Laceration] or 'Unique Bleed' against an enemy with Base Attack Skills, inflict 1 [DefenseDown] (once per turn)\n- If the target has [Laceration] or 'Unique Bleed', inflict additional 2 [Laceration] (once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 [Curse] against the target enemy (2 times per turn)",
+      "desc": "When inflicting [Laceration] or 'Unique Bleed' against an enemy with Base Attack Skills, inflict 1 [DefenseDown] (once per turn)\n- If the target has [Laceration] or 'Unique Bleed', inflict additional 2 [Laceration] (once per turn)\n\nIf an ally, including this unit, takes direct PV damage from the enemy, inflict 1 [Curse] against the target enemy (2 times per turn)",
       "summary": ""
     },
     {
@@ -422,7 +422,7 @@
     {
       "id": 2050711,
       "name": "Bloodthirsty Banquet",
-      "desc": "When this unit deals or takes [Laceration] damage, heal HP equal to the [Laceration] damage (max 10 per turn)\n- When activating a Skill/Coin effect that inflicts [Laceration], if target has [RoseWedge], inflict 1 [Laceration] against the target. (2 times per turn)"
+      "desc": "When this unit deals or takes [Laceration] damage, heal PV equal to the [Laceration] damage (max 10 per turn)\n- When activating a Skill/Coin effect that inflicts [Laceration], if target has [RoseWedge], inflict 1 [Laceration] against the target. (2 times per turn)"
     },
     {
       "id": 2010711,
@@ -458,12 +458,12 @@
     {
       "id": 2020811,
       "name": "Breath",
-      "desc": "Next Turn Start after using this E.G.O Skill: gain 1 [NebulizerExhale] (once per turn)\n- This value Stacks throughout the Encounter\n\nCombat Start: gain 1 [NebulizerExhale] every time this unit applies 10 [Breath] Count to allies with [NebulizerExhale] effects\n\nTurn End: starting from allies with the lowest HP percentages, heal ([NebulizerExhale] Stack)% HP for (highest Reson.) allies (max 6)\n- If the unit receiving healing has 20+ [Breath] Potency, activate healing 1 more time"
+      "desc": "Next Turn Start after using this E.G.O Skill: gain 1 [NebulizerExhale] (once per turn)\n- This value Stacks throughout the Encounter\n\nCombat Start: gain 1 [NebulizerExhale] every time this unit applies 10 [Breath] Count to allies with [NebulizerExhale] effects\n\nTurn End: starting from allies with the lowest PV percentages, heal ([NebulizerExhale] Stack)% PV for (highest Reson.) allies (max 6)\n- If the unit receiving healing has 20+ [Breath] Potency, activate healing 1 more time"
     },
     {
       "id": 2090811,
       "name": "Blazing Amusement",
-      "desc": "When a target with 10+ [Combustion] Count is defeated, inflict the [Combustion] Count on target between all enemies and heal SP 8 on self (in Incontri Mirati, between all Parts; 3 max per target, 2 times per turn)\n- At max SP, heal 5 SP for 1 ally with the least SP instead"
+      "desc": "When a target with 10+ [Combustion] Count is defeated, inflict the [Combustion] Count on target between all enemies and heal PS 8 on self (in Incontri Mirati, between all Parts; 3 max per target, 2 times per turn)\n- At max PS, heal 5 PS for 1 ally with the least PS instead"
     },
     {
       "id": 2030811,
@@ -483,7 +483,7 @@
     {
       "id": 2100811,
       "name": "Crying Tears",
-      "desc": "- Turn End: If this unit had a negative effect or lost its HP or SP, heal 5 SP.\n- If this unit or an ally is defeated, inflict 1 [Vulnerable] to all enemies next turn (once per turn)"
+      "desc": "- Turn End: If this unit had a negative effect or lost its PV or PS, heal 5 PS.\n- If this unit or an ally is defeated, inflict 1 [Vulnerable] to all enemies next turn (once per turn)"
     }
   ]
 }

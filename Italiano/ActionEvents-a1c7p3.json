@@ -8,14 +8,14 @@
             "options": [
                 {
                     "message": "Hug the teddy bear.",
-                    "messageDesc": "Select to reduce the Abnormality's Clash Power. Pass a Lust check, and the selected Identity loses some HP but greatly heals SP",
+                    "messageDesc": "Select to reduce the Abnormality's Clash Power. Pass a Lust check, and the selected Identity loses some PV but greatly heals PS",
                     "result": [
                         ""
                     ]
                 },
                 {
                     "message": "Look away.",
-                    "messageDesc": "All Identities lose SP",
+                    "messageDesc": "All Identities lose PS",
                     "result": [
                         "Perhaps the nails looked too threatening.\n\nNo one wanted to get close to the bear plush.\n\nIt slumps its shoulders, clearly hurt.\n\nIt's clear that most Sinners felt bad about this decision."
                     ]
@@ -30,7 +30,7 @@
             "options": [
                 {
                     "message": "Purchase the All-day Pass",
-                    "messageDesc": "All allies lose HP. Gain an E.G.O Gift.",
+                    "messageDesc": "All allies lose PV. Gain an E.G.O Gift.",
                     "result": [
                         "Each Sinner paid for their own All-day Pass with their blood.\n\nSome of them were none to happy about this decision, but they all agreed to go with All-day Passes.\n\nWe should be able to experience every attraction here as long as we have this ticket."
                     ]
@@ -81,7 +81,7 @@
             "options": [
                 {
                     "message": "Pay with blood and get a commemorative picture taken.",
-                    "messageDesc": "Some Sinners lose HP. Gain an E.G.O Gift",
+                    "messageDesc": "Some Sinners lose PV. Gain an E.G.O Gift",
                     "result": [
                         "Some Sinners agreed to pay with blood for some pictures.\n\nI can't help but feel the pain of Don Quixote's absence now that we're standing all together for a group photo.\n\nWhen we received the photograph, which appeared after the flash, the Parade marched far, far away from us as the warped space returned to normal.\n\nThe photograph in my hands was gone, replaced with a Bloodfiend's mask."
                     ]
@@ -102,7 +102,7 @@
             "options": [
                 {
                     "message": "Pay with Blood to enter the raffle.",
-                    "messageDesc": "A random Sinner loses HP. Random chance to gain an E.G.O Gift",
+                    "messageDesc": "A random Sinner loses PV. Random chance to gain an E.G.O Gift",
                     "result": [
                         "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n<i>You get... nothing!</i>\n\nWith a sad jingle, the machine comes to a slow stop before falling silent.\n\nThe chances of pulling what we want is probably pretty low.",
                         "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n<i>YOU WIN! YOU WIN!</i>\n\nA loud, jolly jingle plays, and a cube-shaped crystal made of blood rolls out of the machine.\n\nIt might be useful for something."
@@ -131,7 +131,7 @@
             "options": [
                 {
                     "message": "Pay with Blood to enter the raffle.",
-                    "messageDesc": "A random Sinner loses HP. Random chance to gain an E.G.O Gift",
+                    "messageDesc": "A random Sinner loses PV. Random chance to gain an E.G.O Gift",
                     "result": [
                         "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n<i>You get... nothing!</i>\n\nWith a sad jingle, the machine comes to a slow stop before falling silent.\n\nThe chances of pulling what we want is probably pretty low.",
                         "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n<i>YOU WIN! YOU WIN!</i>\n\nA loud, jolly jingle plays, and a cube-shaped crystal made of blood rolls out of the machine.\n\nIt might be useful for something."

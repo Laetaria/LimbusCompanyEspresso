@@ -223,7 +223,7 @@
                 {
                     "level": 1,
                     "name": "Gua...",
-                    "desc": "If this Unit has remaining Shield HP at Turn End, gain 1 [AttackUp] next turn",
+                    "desc": "If this Unit has remaining Shield PV at Turn End, gain 1 [AttackUp] next turn",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -330,7 +330,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "If this Unit has remaining Shield HP at Turn End, gain 1 [AttackUp] next turn"
+                                    "desc": "If this Unit has remaining Shield PV at Turn End, gain 1 [AttackUp] next turn"
                                 }
                             ]
                         }
@@ -395,7 +395,7 @@
                 {
                     "level": 1,
                     "name": "Hold... Them Ba...",
-                    "desc": "[WhenUse] Inflict 3 SP damage\n[WhenUse] If the target has [Burst], Base Power +1 for every 4 [Burst] Potency on target (max 3)",
+                    "desc": "[WhenUse] Inflict 3 PS damage\n[WhenUse] If the target has [Burst], Base Power +1 for every 4 [Burst] Potency on target (max 3)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -497,7 +497,7 @@
                 {
                     "level": 1,
                     "name": "Break...through",
-                    "desc": "[WhenUse] Inflict 3 SP damage\n[WhenUse] If the target has [Burst], Base Power +1 for every 3 [Burst] Count on target (max 3)",
+                    "desc": "[WhenUse] Inflict 3 PS damage\n[WhenUse] If the target has [Burst], Base Power +1 for every 3 [Burst] Count on target (max 3)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -570,7 +570,7 @@
                 {
                     "level": 1,
                     "name": "Grasping Vulnerabilities",
-                    "desc": "[WhenUse] If this unit's Speed is faster than the target's, heal 3 SP on self",
+                    "desc": "[WhenUse] If this unit's Speed is faster than the target's, heal 3 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -638,7 +638,7 @@
                 {
                     "level": 1,
                     "name": "Evasione",
-                    "desc": "[OnSucceedEvade] Heal 3 SP on self",
+                    "desc": "[OnSucceedEvade] Heal 3 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -679,7 +679,7 @@
                 {
                     "level": 1,
                     "name": "Neutralization Technique",
-                    "desc": "[WhenUse] If this unit's Speed is faster than the target's, heal 3 SP on self",
+                    "desc": "[WhenUse] If this unit's Speed is faster than the target's, heal 3 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -747,7 +747,7 @@
                 {
                     "level": 1,
                     "name": "Evasione",
-                    "desc": "[OnSucceedEvade] Heal 3 SP on self",
+                    "desc": "[OnSucceedEvade] Heal 3 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -788,7 +788,7 @@
                 {
                     "level": 1,
                     "name": "Suppression",
-                    "desc": "[WhenUse] If this unit's Speed is faster than the target's, heal 5 SP on self",
+                    "desc": "[WhenUse] If this unit's Speed is faster than the target's, heal 5 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -890,7 +890,7 @@
                 {
                     "level": 1,
                     "name": "Evasione",
-                    "desc": "[OnSucceedEvade] Heal 5 SP on self",
+                    "desc": "[OnSucceedEvade] Heal 5 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -938,7 +938,7 @@
                 {
                     "level": 1,
                     "name": "Twisting",
-                    "desc": "[WinDuel] If the target's HP is at 100%, deal +30% damage\n[DefeatDuel] Gain 3 [DefenseDown]",
+                    "desc": "[WinDuel] If the target's PV is at 100%, deal +30% damage\n[DefeatDuel] Gain 3 [DefenseDown]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1010,7 +1010,7 @@
                 {
                     "level": 1,
                     "name": "Evasione",
-                    "desc": "[OnSucceedEvade] Heal 3 SP on self",
+                    "desc": "[OnSucceedEvade] Heal 3 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1101,7 +1101,7 @@
                 {
                     "level": 1,
                     "name": "Rat Herding",
-                    "desc": "[WinDuel] If the target's HP is at 80%+, deal +50% damage\n[DefeatDuel] Gain 2 [DefenseDown]",
+                    "desc": "[WinDuel] If the target's PV is at 80%+, deal +50% damage\n[DefeatDuel] Gain 2 [DefenseDown]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1176,7 +1176,7 @@
                 {
                     "level": 1,
                     "name": "Box Conferment",
-                    "desc": "[WhenUse] If this unit's Speed is faster than the target's by 3 or more, Clash Power +2\n[WinDuel] Heal 10 SP on self",
+                    "desc": "[WhenUse] If this unit's Speed is faster than the target's by 3 or more, Clash Power +2\n[WinDuel] Heal 10 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1205,7 +1205,7 @@
                 {
                     "level": 1,
                     "name": "Evasione",
-                    "desc": "[OnSucceedEvade] Heal 5 SP on self",
+                    "desc": "[OnSucceedEvade] Heal 5 PS on self",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1321,7 +1321,7 @@
                 {
                     "level": 1,
                     "name": "Blocco",
-                    "desc": "If this unit has remaining Shield HP at Turn End, lower Stagger threshold by 10\nIf this unit's Shield HP is depleted, the last attacker heals 10 SP",
+                    "desc": "If this unit has remaining Shield PV at Turn End, lower Stagger threshold by 10\nIf this unit's Shield PV is depleted, the last attacker heals 10 PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1437,7 +1437,7 @@
                 {
                     "level": 1,
                     "name": "Blocco",
-                    "desc": "If this unit has remaining Shield HP at Turn End, lower Stagger threshold by 10\nIf this unit's Shield HP is depleted, the last attacker heals 10 SP",
+                    "desc": "If this unit has remaining Shield PV at Turn End, lower Stagger threshold by 10\nIf this unit's Shield PV is depleted, the last attacker heals 10 PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1488,7 +1488,7 @@
                 {
                     "level": 1,
                     "name": "Time to Clean!",
-                    "desc": "[WhenUse] If the target is at 10 or less SP, inflict 2 [AttackDown]\n[WinDuel] Inflict 1 [Vulnerable]",
+                    "desc": "[WhenUse] If the target is at 10 or less PS, inflict 2 [AttackDown]\n[WinDuel] Inflict 1 [Vulnerable]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1517,7 +1517,7 @@
                 {
                     "level": 1,
                     "name": "As Mistress Commands...!",
-                    "desc": "[WhenUse] Base Power +1 for every 3 [Sinking] Potency on target (max 3)\n[WinDuel] All allies heal 5 SP",
+                    "desc": "[WhenUse] Base Power +1 for every 3 [Sinking] Potency on target (max 3)\n[WinDuel] All allies heal 5 PS",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1562,7 +1562,7 @@
                 {
                     "level": 1,
                     "name": "Not Even a Speck of Dust!",
-                    "desc": "[StartBattle] Apply 3 [AttackUp] and heal 15 SP for all allies, including this unit\n[StartBattle] Inflict 1 [Vulnerable] to all other allies",
+                    "desc": "[StartBattle] Apply 3 [AttackUp] and heal 15 PS for all allies, including this unit\n[StartBattle] Inflict 1 [Vulnerable] to all other allies",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1601,7 +1601,7 @@
                 {
                     "level": 1,
                     "name": "Slippery Rat!",
-                    "desc": "If this unit has remaining Shield HP at Turn End, lower Stagger threshold by 50\nIf this unit's Shield HP is depleted, all enemies heal 10 SP",
+                    "desc": "If this unit has remaining Shield PV at Turn End, lower Stagger threshold by 50\nIf this unit's Shield PV is depleted, all enemies heal 10 PS",
                     "coinlist": [
                         {
                             "coindescs": [

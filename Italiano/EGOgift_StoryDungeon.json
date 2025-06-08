@@ -14,22 +14,22 @@
     {
       "id": 1002,
       "name": "Shoddy Dressing",
-      "desc": "All allies gain +10% Max HP.",
+      "desc": "All allies gain +10% Max PV.",
       "simpleDesc": [
         {
           "abilityID": 1002,
-          "simpleDesc": "Max HP +10%"
+          "simpleDesc": "Max PV +10%"
         }
       ]
     },
     {
       "id": 1003,
       "name": "Festered Fragment",
-      "desc": "At the start of the turn, allies with 50% or less health heal 5 HP.",
+      "desc": "At the start of the turn, allies with 50% or less health heal 5 PV.",
       "simpleDesc": [
         {
           "abilityID": 1003,
-          "simpleDesc": "Allies at <50% health heal 5 HP"
+          "simpleDesc": "Allies at <50% health heal 5 PV"
         }
       ]
     },
@@ -91,19 +91,19 @@
     {
       "id": 1013,
       "name": "Toy Screw",
-      "desc": "All allies gain +10% Max HP.",
+      "desc": "All allies gain +10% Max PV.",
       "abnormalityName": "Cyborg",
       "simpleDesc": [
         {
           "abilityID": 1013,
-          "simpleDesc": "Max HP +10%"
+          "simpleDesc": "Max PV +10%"
         }
       ]
     },
     {
       "id": 1014,
       "name": "Rainbow Mainspring",
-      "desc": "At the start of the turn, apply 2 Protection to the ally with the least HP.",
+      "desc": "At the start of the turn, apply 2 Protection to the ally with the least PV.",
       "simpleDesc": [
         {
           "abilityID": 1014,
@@ -114,7 +114,7 @@
     {
       "id": 1015,
       "name": "Rusty Mainspring",
-      "desc": "At the start of the turn, apply 1 Protection to the ally with the least HP.",
+      "desc": "At the start of the turn, apply 1 Protection to the ally with the least PV.",
       "simpleDesc": [
         {
           "abilityID": 1015,
@@ -125,11 +125,11 @@
     {
       "id": 1016,
       "name": "Emergency Surgical Kit",
-      "desc": "During battle, if an ally takes lethal damage, their HP won't go below 1.\nOn the next turn, fully heal their HP and gain 3 Surgery.\nThey will die at the end of the battle.\n(Activates once per dungeon, then the Gift expires.)",
+      "desc": "During battle, if an ally takes lethal damage, their PV won't go below 1.\nOn the next turn, fully heal their PV and gain 3 Surgery.\nThey will die at the end of the battle.\n(Activates once per dungeon, then the Gift expires.)",
       "simpleDesc": [
         {
           "abilityID": 1016,
-          "simpleDesc": "Fully heal HP"
+          "simpleDesc": "Fully heal PV"
         },
         {
           "abilityID": 10161,
@@ -269,11 +269,11 @@
     {
       "id": 1040,
       "name": "Sparkling Skull",
-      "desc": "At the start of the turn, if the character took 10+ damage last turn, heal 5-15 HP.",
+      "desc": "At the start of the turn, if the character took 10+ damage last turn, heal 5-15 PV.",
       "simpleDesc": [
         {
           "abilityID": 1040,
-          "simpleDesc": "Heal 5-15 HP"
+          "simpleDesc": "Heal 5-15 PV"
         }
       ]
     },
@@ -324,11 +324,11 @@
     {
       "id": 1046,
       "name": "Green Skin",
-      "desc": "If an ally takes a lethal attack, they heal 50% of their Max HP.\n(Once per dungeon and expires after activation.)",
+      "desc": "If an ally takes a lethal attack, they heal 50% of their Max PV.\n(Once per dungeon and expires after activation.)",
       "simpleDesc": [
         {
           "abilityID": 1046,
-          "simpleDesc": "Heal 50% of Max HP"
+          "simpleDesc": "Heal 50% of Max PV"
         }
       ]
     },
@@ -368,11 +368,11 @@
     {
       "id": 1051,
       "name": "Nagel und Hammer Scriptures",
-      "desc": "When using a Pride skill, lose 5 SP, but boost its damage by 5%",
+      "desc": "When using a Pride skill, lose 5 PS, but boost its damage by 5%",
       "simpleDesc": [
         {
           "abilityID": 1051,
-          "simpleDesc": "Pride skills cost 5 SP"
+          "simpleDesc": "Pride skills cost 5 PS"
         },
         {
           "abilityID": 10511,
@@ -438,7 +438,7 @@
     {
       "id": 2001,
       "name": "Small Ampule",
-      "desc": "At the start of the turn, allies under 40% HP heal 100% of Max HP. (Once per floor)",
+      "desc": "At the start of the turn, allies under 40% PV heal 100% of Max PV. (Once per floor)",
       "simpleDesc": [
         {
           "abilityID": 2001,
@@ -493,11 +493,11 @@
     {
       "id": 2006,
       "name": "Trace of Stars",
-      "desc": "When below 0 SP, Gloom and Sloth skills have +1 Final Power",
+      "desc": "When below 0 PS, Gloom and Sloth skills have +1 Final Power",
       "simpleDesc": [
         {
           "abilityID": 2006,
-          "simpleDesc": "Gloom and Sloth skill Final Power +1 when SP is below 0"
+          "simpleDesc": "Gloom and Sloth skill Final Power +1 when PS is below 0"
         }
       ]
     },

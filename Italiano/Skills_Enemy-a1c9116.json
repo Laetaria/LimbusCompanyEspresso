@@ -207,7 +207,7 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 HP"
+                  "desc": "[OnSucceedAttack] Heal 2 PV"
                 }
               ]
             }
@@ -265,7 +265,7 @@
                   "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
                 },
                 {
-                  "desc": "On Hit with this Coin, heal 30% of the HP damage dealt"
+                  "desc": "On Hit with this Coin, heal 30% of the PV damage dealt"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Reuse this Coin (3 times per Skill)"
@@ -338,7 +338,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 HP"
+                  "desc": "[OnSucceedAttack] Heal 8 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
@@ -351,7 +351,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 HP"
+                  "desc": "[OnSucceedAttack] Heal 8 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lower user's Stagger Threshold by 8"
@@ -842,7 +842,7 @@
         {
           "level": 1,
           "name": "Vengeance awaits you all!",
-          "desc": "Deal +10% damage for every 2 [MiddleFingerBook] on the target (max 50%)\n[BeforeAttack] At 40% or less HP, gain Atk Weight +1\n[WhenUse] If the main target has [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] Coin Power +1 for every 3 enemy with [MiddleFingerBook] (max 2)\n[WhenUse] Clash Power +1 for every 2 [MiddleFingerBook] on the main target (max 5)\n[EndSkill] If this unit killed a target with [MiddleFingerBook], gain 1 [PlusCoinValueUp] next turn (2 times per turn)\n[EndSkill] Remove [MiddleFingerBook] on all targets that were hit",
+          "desc": "Deal +10% damage for every 2 [MiddleFingerBook] on the target (max 50%)\n[BeforeAttack] At 40% or less PV, gain Atk Weight +1\n[WhenUse] If the main target has [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] Coin Power +1 for every 3 enemy with [MiddleFingerBook] (max 2)\n[WhenUse] Clash Power +1 for every 2 [MiddleFingerBook] on the main target (max 5)\n[EndSkill] If this unit killed a target with [MiddleFingerBook], gain 1 [PlusCoinValueUp] next turn (2 times per turn)\n[EndSkill] Remove [MiddleFingerBook] on all targets that were hit",
           "coinlist": [
             {
               "coindescs": [
@@ -883,7 +883,7 @@
                   "desc": "[OnSucceedAttack] Raise Stagger Threshold by 20"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 fixed HP damage"
+                  "desc": "[OnSucceedAttack] Deal 15 fixed PV damage"
                 }
               ]
             },
@@ -893,7 +893,7 @@
                   "desc": "[OnSucceedAttack] Raise Stagger Threshold by 20"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 fixed HP damage"
+                  "desc": "[OnSucceedAttack] Deal 15 fixed PV damage"
                 }
               ]
             }

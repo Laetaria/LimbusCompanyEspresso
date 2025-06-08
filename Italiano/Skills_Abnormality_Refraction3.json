@@ -99,7 +99,7 @@
         {
           "level": 1,
           "name": "Scattering Gossypium",
-          "desc": "Among targets with [MRcAfBa], attack the unit with the least HP\n[WhenUse] If the main target is the target with the most [Laceration], Base Power +5\n[EndBattle] [MRcAfBb] state expires next turn.",
+          "desc": "Among targets with [MRcAfBa], attack the unit with the least PV\n[WhenUse] If the main target is the target with the most [Laceration], Base Power +5\n[EndBattle] [MRcAfBb] state expires next turn.",
           "coinlist": [
             {
               "coindescs": [
@@ -172,7 +172,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +4 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal HP equal to [Laceration] on target"
+                  "desc": "[OnSucceedAttack] Heal PV equal to [Laceration] on target"
                 }
               ]
             },
@@ -182,7 +182,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +4 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal HP equal to [Laceration] on target"
+                  "desc": "[OnSucceedAttack] Heal PV equal to [Laceration] on target"
                 }
               ]
             }
@@ -510,7 +510,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 10 PS damage"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 20"
@@ -542,7 +542,7 @@
                   "desc": "[OnSucceedAttack] Inflict 8 [Laceration] and +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 15 PS damage"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 30"
@@ -559,7 +559,7 @@
         {
           "level": 1,
           "name": "Evasione",
-          "desc": "[OnSucceedEvade] Deal 4 SP damage",
+          "desc": "[OnSucceedEvade] Deal 4 PS damage",
           "coinlist": [
             {
               "coindescs": [
@@ -578,12 +578,12 @@
         {
           "level": 1,
           "name": "6:5",
-          "desc": "[CantDuel][CantChangeTarget]\nTake damage in the target's place. Get staggered next turn.\nInflict Marked on a random enemy without [AaCePcBa].\n[EndBattle] All Candles heal to Max HP",
+          "desc": "[CantDuel][CantChangeTarget]\nTake damage in the target's place. Get staggered next turn.\nInflict Marked on a random enemy without [AaCePcBa].\n[EndBattle] All Candles heal to Max PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 5%."
+                  "desc": "[OnSucceedAttack] This unit's max PV decreases by 5%."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 10 Burn on self"
@@ -593,7 +593,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 5%."
+                  "desc": "[OnSucceedAttack] This unit's max PV decreases by 5%."
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 10 Burn on self"
@@ -618,7 +618,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 [Combustion] and +2 [Combustion] Count on target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 20 HP on self"
+                  "desc": "[OnSucceedAttack] Heal 20 PV on self"
                 }
               ]
             }
@@ -632,7 +632,7 @@
         {
           "level": 1,
           "name": "Insidious Pallidification",
-          "desc": "[StartBattle] Gain 10% of Max HP as Shield. For every Queequeg's Ego, gain additional 0.3% of Max HP as additional Shield.\nWhen attacked while Shielded, attacker loses 5 SP\nWhen attacked, use this Skill once for every 10 Queequeg's Ego",
+          "desc": "[StartBattle] Gain 10% of Max PV as Shield. For every Queequeg's Ego, gain additional 0.3% of Max PV as additional Shield.\nWhen attacked while Shielded, attacker loses 5 PS\nWhen attacked, use this Skill once for every 10 Queequeg's Ego",
           "coinlist": [
             {
               "coindescs": [

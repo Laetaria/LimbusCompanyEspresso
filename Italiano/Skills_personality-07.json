@@ -117,7 +117,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 50%- HP, inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] At 50%- PV, inflict 1 Bleed"
                 }
               ]
             },
@@ -127,7 +127,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 50%- HP, inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] At 50%- PV, inflict 1 Bleed"
                 }
               ]
             },
@@ -152,10 +152,10 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 75%- HP, inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] At 75%- PV, inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 50%- HP, inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] At 50%- PV, inflict 1 Bleed"
                 }
               ]
             },
@@ -165,10 +165,10 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 75%- HP, inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] At 75%- PV, inflict 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 50%- HP, inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] At 50%- PV, inflict 1 Bleed"
                 }
               ]
             },
@@ -497,7 +497,7 @@
         {
           "level": 1,
           "name": "Photoelectric Mark",
-          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
+          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% PV to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
           "coinlist": [
             {},
             {},
@@ -513,7 +513,7 @@
         {
           "level": 2,
           "name": "Photoelectric Mark",
-          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% PV to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -538,7 +538,7 @@
         {
           "level": 4,
           "name": "Photoelectric Mark",
-          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
+          "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% PV to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -711,7 +711,7 @@
         {
           "level": 1,
           "name": "Memorial Procession",
-          "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[EndSkill] If this unit has [NightPathfinding], lose 10 SP",
+          "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[EndSkill] If this unit has [NightPathfinding], lose 10 PS",
           "coinlist": [
             {},
             {
@@ -736,7 +736,7 @@
         {
           "level": 2,
           "name": "Memorial Procession",
-          "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1\n<style=\"highlight\">[WhenUse] At 4+ [Coffin], Atk Weight +1\n[WhenUse] If this unit has [NightPathfinding], Atk Weight +1</style>\n[EndSkill] If this unit has [NightPathfinding], lose 10 SP",
+          "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1\n<style=\"highlight\">[WhenUse] At 4+ [Coffin], Atk Weight +1\n[WhenUse] If this unit has [NightPathfinding], Atk Weight +1</style>\n[EndSkill] If this unit has [NightPathfinding], lose 10 PS",
           "coinlist": [
             {},
             {
@@ -761,7 +761,7 @@
         {
           "level": 4,
           "name": "Memorial Procession",
-          "desc": "[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 Sinking on target (max 2)</style>\n[WhenUse] <style=\"highlight\">Atk Weight +1 for every 4 [Coffin] on self (max 2)</style>\n[WhenUse] If this unit has [NightPathfinding], Atk Weight +1\n[EndSkill] If this unit has [NightPathfinding], lose 10 SP",
+          "desc": "[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 Sinking on target (max 2)</style>\n[WhenUse] <style=\"highlight\">Atk Weight +1 for every 4 [Coffin] on self (max 2)</style>\n[WhenUse] If this unit has [NightPathfinding], Atk Weight +1\n[EndSkill] If this unit has [NightPathfinding], lose 10 PS",
           "coinlist": [
             {},
             {
@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Requiem",
-          "desc": "[WinDuel] Heal 10 SP\n[BeforeUse] If this unit has [NightPathfinding], activate 'Lament, Mourn, and Despair' instead\n[WhenUse] Coin Power +1 for every 6 [Sinking] on target (max 2)\n[WhenUse] Deal +7% damage for every [Coffin] on self (max 70%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]",
+          "desc": "[WinDuel] Heal 10 PS\n[BeforeUse] If this unit has [NightPathfinding], activate 'Lament, Mourn, and Despair' instead\n[WhenUse] Coin Power +1 for every 6 [Sinking] on target (max 2)\n[WhenUse] Deal +7% damage for every [Coffin] on self (max 70%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Requiem",
-          "desc": "[WinDuel] Heal 10 SP\n[BeforeUse] If this unit has [NightPathfinding], activate 'Lament, Mourn, and Despair' instead\n[WhenUse] Coin Power +1 for <style=\"highlight\">every 3</style> [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal +12% damage for every [Coffin] on self (max 120%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]",
+          "desc": "[WinDuel] Heal 10 PS\n[BeforeUse] If this unit has [NightPathfinding], activate 'Lament, Mourn, and Despair' instead\n[WhenUse] Coin Power +1 for <style=\"highlight\">every 3</style> [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal +12% damage for every [Coffin] on self (max 120%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -865,7 +865,7 @@
         {
           "level": 3,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] If this unit has [NightPathfinding] and has 15+ SP, use Lament, Mourn, and Despair as Counter (once per turn)</style>\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n<style=\"highlight\">[WhenUse] If target has 6+ [Sinking], Coin Power +1</style>\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] If this unit has [NightPathfinding] and has 15+ PS, use Lament, Mourn, and Despair as Counter (once per turn)</style>\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n<style=\"highlight\">[WhenUse] If target has 6+ [Sinking], Coin Power +1</style>\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -880,7 +880,7 @@
         {
           "level": 4,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n[BeforeUse] If this unit has [NightPathfinding] and has 15+ SP, use Lament, Mourn, and Despair as Counter (once per turn)\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 3 [Sinking] on target (max 2)</style>\n<style=\"highlight\">[WinDuel] Gain [AttackUp] next turn equal to (# of Clashes/3) (max 3, once per turn)</style>\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+          "desc": "[DuelCounter]\n[BeforeUse] If this unit has [NightPathfinding] and has 15+ PS, use Lament, Mourn, and Despair as Counter (once per turn)\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 3 [Sinking] on target (max 2)</style>\n<style=\"highlight\">[WinDuel] Gain [AttackUp] next turn equal to (# of Clashes/3) (max 3, once per turn)</style>\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Lament, Mourn, and Despair",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max 2)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +7% damage for every Coffin on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal 1 additional SP for every missing SP; max 25)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] Lose 15 PS\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max 2)\n[WhenUse] Deal more damage the further this unit's PS value is from 45 (+0.3% damage for every missing PS, max 21%)\n[WhenUse] Deal +7% damage for every Coffin on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]\n[EndSkill] At less than 0 PS, heal 10 PS. When at less than 0 PS, heal more PS the further this unit's PS value is from 0 (heal 1 additional PS for every missing PS; max 25)\n[EndBattle] Lose [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -921,7 +921,7 @@
                   "desc": "[EnemyKill] Inflict ([Sinking] on killed target/3) Sinking on 2 random enemies (max 4)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] Heal 15 PS"
                 }
               ]
             }
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Lament, Mourn, and Despair",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10</style>% damage for every Coffin on self (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every [NightPathfinding] on self (max <style=\"highlight\">60</style>%)\n[WhenUse] Gain <style=\"highlight\">2</style> [Coffin]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3</style> [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal <style=\"highlight\">2</style> additional SP for every missing SP; max <style=\"highlight\">50</style>)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] Lose 15 PS\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal more damage the further this unit's PS value is from 45 (+0.3% damage for every missing PS, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10</style>% damage for every Coffin on self (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every [NightPathfinding] on self (max <style=\"highlight\">60</style>%)\n[WhenUse] Gain <style=\"highlight\">2</style> [Coffin]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3</style> [Coffin]\n[EndSkill] At less than 0 PS, heal 10 PS. When at less than 0 PS, heal more PS the further this unit's PS value is from 0 (heal <style=\"highlight\">2</style> additional PS for every missing PS; max <style=\"highlight\">50</style>)\n[EndBattle] Lose [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -951,7 +951,7 @@
                   "desc": "[EnemyKill] Inflict ([Sinking] on killed target/<style=\"highlight\">2</style>) Sinking on 2 random enemies (max <style=\"highlight\">8</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] Heal 15 PS"
                 }
               ]
             }
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Lament, Mourn, and Despair",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max 2)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +7% damage for every Coffin on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal 1 additional SP for every missing SP; max 25)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] Lose 15 PS\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max 2)\n[WhenUse] Deal more damage the further this unit's PS value is from 45 (+0.3% damage for every missing PS, max 21%)\n[WhenUse] Deal +7% damage for every Coffin on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]\n[EndSkill] At less than 0 PS, heal 10 PS. When at less than 0 PS, heal more PS the further this unit's PS value is from 0 (heal 1 additional PS for every missing PS; max 25)\n[EndBattle] Lose [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -986,7 +986,7 @@
                   "desc": "[EnemyKill] Inflict ([Sinking] on killed target/3) Sinking on 2 random enemies (max 4)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] Heal 15 PS"
                 }
               ]
             }
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Lament, Mourn, and Despair",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10</style>% damage for every Coffin on self (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every [NightPathfinding] on self (max <style=\"highlight\">60</style>%)\n[WhenUse] Gain <style=\"highlight\">2</style> [Coffin]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3</style> [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal <style=\"highlight\">2</style> additional SP for every missing SP; max <style=\"highlight\">50</style>)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] Lose 15 PS\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal more damage the further this unit's PS value is from 45 (+0.3% damage for every missing PS, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10</style>% damage for every Coffin on self (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every [NightPathfinding] on self (max <style=\"highlight\">60</style>%)\n[WhenUse] Gain <style=\"highlight\">2</style> [Coffin]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3</style> [Coffin]\n[EndSkill] At less than 0 PS, heal 10 PS. When at less than 0 PS, heal more PS the further this unit's PS value is from 0 (heal <style=\"highlight\">2</style> additional PS for every missing PS; max <style=\"highlight\">50</style>)\n[EndBattle] Lose [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -1016,7 +1016,7 @@
                   "desc": "[EnemyKill] Inflict ([Sinking] on killed target/<style=\"highlight\">2</style>) Sinking on 2 random enemies (max <style=\"highlight\">8</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] Heal 15 PS"
                 }
               ]
             }

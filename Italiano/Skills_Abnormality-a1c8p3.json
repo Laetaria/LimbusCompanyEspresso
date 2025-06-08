@@ -142,7 +142,7 @@
         {
           "level": 1,
           "name": "Blasting Shatterslash [爆碎斬]",
-          "desc": "Prioritizes targets with [Prey]\nCan clash with this Skill regardless of Speed\nCoin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 3)\n[DefeatDuel] Lose 10 SP",
+          "desc": "Prioritizes targets with [Prey]\nCan clash with this Skill regardless of Speed\nCoin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 3)\n[DefeatDuel] Lose 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -453,7 +453,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 10 PS damage"
                 }
               ]
             },
@@ -667,7 +667,7 @@
         {
           "level": 1,
           "name": "Bullet Drenched with the Blood of a Comrade",
-          "desc": "[CantChangeTarget]\nPrioritizes N Corp. Employees\n- If this unit failed to attack the targeted unit, cancel this Skill\n[WhenUse] Gain 5 [Breath]\n[EndBattle] Heal 20 SP",
+          "desc": "[CantChangeTarget]\nPrioritizes N Corp. Employees\n- If this unit failed to attack the targeted unit, cancel this Skill\n[WhenUse] Gain 5 [Breath]\n[EndBattle] Heal 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -675,7 +675,7 @@
                   "desc": "This Coin deals damage only against the main target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict (target's HP at the \"On Hit' timing) Pride bonus damage with the final Coin"
+                  "desc": "[OnSucceedAttack] Inflict (target's PV at the \"On Hit' timing) Pride bonus damage with the final Coin"
                 },
                 {
                   "desc": "[OnSucceedAttack] Kills the target"
@@ -708,7 +708,7 @@
         {
           "level": 1,
           "name": "Reminiscence Shattering Bullet",
-          "desc": "[WideAreaRampage]\nDeal +10% damage for every [BoseProjektilReplica] on self\n[WhenUse] Lose 10 SP\n[EndSkill] Spend all [BoseProjektilReplica] on self",
+          "desc": "[WideAreaRampage]\nDeal +10% damage for every [BoseProjektilReplica] on self\n[WhenUse] Lose 10 PS\n[EndSkill] Spend all [BoseProjektilReplica] on self",
           "coinlist": [
             {
               "coindescs": [
@@ -722,7 +722,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] Lose 5 PS"
                 }
               ]
             },
@@ -738,7 +738,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] Lose 5 PS"
                 }
               ]
             },
@@ -754,7 +754,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] Lose 5 PS"
                 }
               ]
             },
@@ -770,7 +770,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] Lose 5 PS"
                 }
               ]
             }
@@ -901,7 +901,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] Heal 2 PS"
                 }
               ]
             },
@@ -914,7 +914,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] Heal 2 PS"
                 }
               ]
             },
@@ -927,7 +927,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] Heal 2 PS"
                 }
               ]
             }
@@ -986,7 +986,7 @@
         {
           "level": 1,
           "name": "Completed Heixian Bolus - You [酉] - Defense",
-          "desc": "[CanDuelGuard]\n[WhenUse] If target has 5+ (sum of [Laceration] + [Burst]), Coin Power +2\n[WhenUse] Heal 8 SP\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count",
+          "desc": "[CanDuelGuard]\n[WhenUse] If target has 5+ (sum of [Laceration] + [Burst]), Coin Power +2\n[WhenUse] Heal 8 PS\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -1105,7 +1105,7 @@
         {
           "level": 1,
           "name": "You do not know the fate of a Hierarch without the Xianren's care! ",
-          "desc": "[WhenUse] Heal 25 SP\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Heal 25 PS\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "Nothing But a Meaningless Struggle...!",
-          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 SP. At 0 SP, heal 30 SP instead.",
+          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 PS. At 0 PS, heal 30 PS instead.",
           "coinlist": [
             {
               "coindescs": [
@@ -1175,7 +1175,7 @@
         {
           "level": 1,
           "name": "Still, you can do nothing",
-          "desc": "[WhenUse] Gain [OutpouringAnger]\n[WhenUse] Heal 8 SP\n[WhenUse] If the main target has less than 50% HP, or if the main target has 10+ (sum of [Burst] and [Laceration]), convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Gain 1 [Vulnerable]\n- When losing a clash against Hong Lu, gain 2 [Vulnerable] instead",
+          "desc": "[WhenUse] Gain [OutpouringAnger]\n[WhenUse] Heal 8 PS\n[WhenUse] If the main target has less than 50% PV, or if the main target has 10+ (sum of [Burst] and [Laceration]), convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Gain 1 [Vulnerable]\n- When losing a clash against Hong Lu, gain 2 [Vulnerable] instead",
           "coinlist": [
             {
               "coindescs": [
@@ -1186,13 +1186,13 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage and raise target's Stagger Threshold by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Deal 10 PS damage and raise target's Stagger Threshold by 50% of damage dealt"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 SP"
+                  "desc": "[OnSucceedAttack] Heal 8 PS"
                 }
               ]
             }
@@ -1206,7 +1206,7 @@
         {
           "level": 1,
           "name": "A Hierarch without the Xianren's blessing is a Hierarch in name only; she will die an insect's death!!!",
-          "desc": "[WhenUse] At 30% or less Core HP: Coin Power +3, deal +30% damage\n[WhenUse] At less than 50% Core HP: convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] At 30% or less Core PV: Coin Power +3, deal +30% damage\n[WhenUse] At less than 50% Core PV: convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -1220,7 +1220,7 @@
                   "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP"
+                  "desc": "[OnSucceedAttack] Heal 5 PS"
                 }
               ]
             },
@@ -1236,7 +1236,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP"
+                  "desc": "[OnSucceedAttack] Heal 5 PS"
                 }
               ]
             }
@@ -1250,7 +1250,7 @@
         {
           "level": 1,
           "name": "Be honored to be in audience of such a great man",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[WhenUse] Gain 2 [Enhancement], 2 [Endurance], and 2 [AttackDmgUp] to the Body Part next turn\n[WhenUse] Heal this unit's SP up to 30 SP\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[WhenUse] Gain 2 [Enhancement], 2 [Endurance], and 2 [AttackDmgUp] to the Body Part next turn\n[WhenUse] Heal this unit's PS up to 30 PS\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -1272,7 +1272,7 @@
         {
           "level": 1,
           "name": "Be with this little girl, O Xianren",
-          "desc": "[StartBattle] Body and Core Parts gain Shield equal to 10% of their max HP, respectively\n[WhenUse] Body Part gains 1 [Enhancement], 1 [Endurance], and 2 [AttackDmgUp] next turn\n[WhenUse] Heal 15 SP",
+          "desc": "[StartBattle] Body and Core Parts gain Shield equal to 10% of their max PV, respectively\n[WhenUse] Body Part gains 1 [Enhancement], 1 [Endurance], and 2 [AttackDmgUp] next turn\n[WhenUse] Heal 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1313,12 +1313,12 @@
         {
           "level": 1,
           "name": "Please give me, Shi Miyin, your strength!",
-          "desc": "If target has 50%+ HP, Coin Power +1",
+          "desc": "If target has 50%+ PV, Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% HP for the ally with the least HP"
+                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% PV for the ally with the least PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
@@ -1328,7 +1328,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% HP for the ally with the least HP"
+                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% PV for the ally with the least PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
@@ -1353,7 +1353,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target is an ally, siphon their remaining HP and their [ImperfectEternalLife]. Then, apply the same amount of [ImperfectEternalLife] Stack to all of this unit's Parts next turn. Eliminate the Siphoned unit afterward."
+                  "desc": "[OnSucceedAttack] If the target is an ally, siphon their remaining PV and their [ImperfectEternalLife]. Then, apply the same amount of [ImperfectEternalLife] Stack to all of this unit's Parts next turn. Eliminate the Siphoned unit afterward."
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 8 [Laceration] and 8 [Burst]"
@@ -1378,7 +1378,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 PS damage"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
@@ -1395,7 +1395,7 @@
         {
           "level": 1,
           "name": "I'll be docile",
-          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 SP. At 0 SP, heal 30 SP instead.",
+          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 PS. At 0 PS, heal 30 PS instead.",
           "coinlist": [
             {
               "coindescs": [
@@ -1414,7 +1414,7 @@
         {
           "level": 1,
           "name": "I'll be your amusement",
-          "desc": "[CantDuel]\n[EndSkill] Kills this unit and heals Jia Mu's SP up to 45 SP. Apply 2 [Enhancement] and 5 [AttackDmgUp] to Jia Mu next turn",
+          "desc": "[CantDuel]\n[EndSkill] Kills this unit and heals Jia Mu's PS up to 45 PS. Apply 2 [Enhancement] and 5 [AttackDmgUp] to Jia Mu next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1422,7 +1422,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 SP damage "
+                  "desc": "[OnSucceedAttack] Deal 15 PS damage "
                 },
                 {
                   "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt"
@@ -1439,12 +1439,12 @@
         {
           "level": 1,
           "name": "Give me your vitality",
-          "desc": "If target has 50%+ HP, Coin Power +1",
+          "desc": "If target has 50%+ PV, Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20% of Max HP"
+                  "desc": "[OnSucceedAttack] Heal 20% of Max PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
@@ -1454,7 +1454,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20% of Max HP"
+                  "desc": "[OnSucceedAttack] Heal 20% of Max PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
@@ -1471,7 +1471,7 @@
         {
           "level": 1,
           "name": "Please me",
-          "desc": "If target has 50% HP, Clash Power +2\n[WhenUse] Heal 10 SP for Jia Mu",
+          "desc": "If target has 50% PV, Clash Power +2\n[WhenUse] Heal 10 PS for Jia Mu",
           "coinlist": [
             {
               "coindescs": [

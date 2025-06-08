@@ -350,7 +350,7 @@
         {
           "level": 1,
           "name": "Cut them Down, Mao",
-          "desc": "[WhenUse] Heal 10 SP\n[WhenUse] If target has 5+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [Burst]",
+          "desc": "[WhenUse] Heal 10 PS\n[WhenUse] If target has 5+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -755,7 +755,7 @@
         {
           "level": 1,
           "name": "Heishou - Mao Linkstrike - Bladestorm",
-          "desc": "[WhenUse] Heal 10 SP\n[WhenUse] Coin Power +1 for every 5 [Burst] on target (max 2)\n[WinDuel] Inflict 2 [Burst]",
+          "desc": "[WhenUse] Heal 10 PS\n[WhenUse] Coin Power +1 for every 5 [Burst] on target (max 2)\n[WinDuel] Inflict 2 [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -807,7 +807,7 @@
         {
           "level": 1,
           "name": "Heed Me, Zilu",
-          "desc": "[WhenUse] Heal 10 SP\n[WhenUse] Coin Power +1 for every 5 [Burst] on target (max 2)\n[WinDuel] Inflict 2 [Burst]",
+          "desc": "[WhenUse] Heal 10 PS\n[WhenUse] Coin Power +1 for every 5 [Burst] on target (max 2)\n[WinDuel] Inflict 2 [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1048,7 +1048,7 @@
                   "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 5 PS damage"
                 }
               ]
             },
@@ -1061,7 +1061,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Deal 5 PS damage"
                 }
               ]
             }
@@ -1075,7 +1075,7 @@
         {
           "level": 1,
           "name": "Jump In!!",
-          "desc": "[WhenUse] Heal 15 SP\n[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[EndSkill] 1 Jar with the least current HP uses the Skill 'Leaping Cracked Jar' at the target (ignores Stagger)",
+          "desc": "[WhenUse] Heal 15 PS\n[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[EndSkill] 1 Jar with the least current PV uses the Skill 'Leaping Cracked Jar' at the target (ignores Stagger)",
           "coinlist": [
             {
               "coindescs": [
@@ -1125,7 +1125,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Talisman Strike",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Burst] on target (max 3)\n[WhenUse] Clash Power +1 for every 30% missing HP on self (max 2)",
+          "desc": "[WhenUse] Final Power +1 for every 4 [Burst] on target (max 3)\n[WhenUse] Clash Power +1 for every 30% missing PV on self (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1147,7 +1147,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Trigger Effect",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Burst] on target (max 3)\n[WhenUse] Clash Power +1 for every 30% missing HP on self (max 2)",
+          "desc": "[WhenUse] Final Power +1 for every 4 [Burst] on target (max 3)\n[WhenUse] Clash Power +1 for every 30% missing PV on self (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1201,7 +1201,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Vilerage",
-          "desc": "[StartBattle] Atk Weight +1 for every 20% missing HP on self (max 4)\n[WhenUse] Final Power +1 for every 4 [Burst] on target (max 4\n[DefeatDuel] Deal -50% damage; this Skill cannot Stagger the target with damage or effect\n[EndSkill] If this Skill has defeated an enemy, apply 2 [ResultEnhancement] and 2 [AttackDmgUp] to all allies, including this unit, next turn (once per turn)",
+          "desc": "[StartBattle] Atk Weight +1 for every 20% missing PV on self (max 4)\n[WhenUse] Final Power +1 for every 4 [Burst] on target (max 4\n[DefeatDuel] Deal -50% damage; this Skill cannot Stagger the target with damage or effect\n[EndSkill] If this Skill has defeated an enemy, apply 2 [ResultEnhancement] and 2 [AttackDmgUp] to all allies, including this unit, next turn (once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1351,7 +1351,7 @@
         {
           "level": 1,
           "name": "Know Your Place!",
-          "desc": "[WideAreaRampage]\n[WhenUse] Consume 3% HP on self (this damage does not kill this unit)",
+          "desc": "[WideAreaRampage]\n[WhenUse] Consume 3% PV on self (this damage does not kill this unit)",
           "coinlist": [
             {
               "coindescs": [
@@ -1411,7 +1411,7 @@
         {
           "level": 1,
           "name": "Kowtow Before Me!",
-          "desc": "[CantIdentify]\n[WhenUse] Consume 5% HP on self (this damage does not kill this unit)",
+          "desc": "[CantIdentify]\n[WhenUse] Consume 5% PV on self (this damage does not kill this unit)",
           "coinlist": [
             {
               "coindescs": [
@@ -1728,7 +1728,7 @@
         {
           "level": 1,
           "name": "Swiftfeet Protection",
-          "desc": "[CanDuelGuard]\n[BeforeUse] At 2+ [SupportProtect], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] Gain 1 Defense Level for every 5% HP this unit cumulatively lost in this Encounter (max 10)\n[WhenUse] Cannot be Staggered by damage until this Skill ends",
+          "desc": "[CanDuelGuard]\n[BeforeUse] At 2+ [SupportProtect], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] Gain 1 Defense Level for every 5% PV this unit cumulatively lost in this Encounter (max 10)\n[WhenUse] Cannot be Staggered by damage until this Skill ends",
           "coinlist": [
             {
               "coindescs": [

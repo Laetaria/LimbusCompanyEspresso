@@ -136,7 +136,7 @@
         {
           "level": 3,
           "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest PV percentage",
           "coinlist": [
             {},
             {},
@@ -155,7 +155,7 @@
         {
           "level": 4,
           "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest PV percentage",
           "coinlist": [
             {},
             {},
@@ -348,12 +348,12 @@
         {
           "level": 3,
           "name": "Rampage",
-          "desc": "At 8+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.3% damage per 1% missing HP)",
+          "desc": "At 8+ Speed, Coin Power +1\nDeal more damage based on target's missing PV (+0.3% damage per 1% missing PV)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 SP per Bleed on target (Max 5)"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PS per Bleed on target (Max 5)"
                 }
               ]
             },
@@ -377,12 +377,12 @@
         {
           "level": 4,
           "name": "Rampage",
-          "desc": "At 6+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)",
+          "desc": "At 6+ Speed, Coin Power +1\nDeal more damage based on target's missing PV (+0.5% damage per 1% missing PV)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 SP per Bleed on target (Max 10)"
+                  "desc": "[OnSucceedAttackHead] Heal 1 PS per Bleed on target (Max 10)"
                 }
               ]
             },
@@ -548,7 +548,7 @@
                   "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 PS"
                 }
               ]
             }
@@ -567,7 +567,7 @@
                   "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 PS"
                 }
               ]
             }
@@ -828,7 +828,7 @@
         {
           "level": 1,
           "name": "Wait?!",
-          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max 7)",
+          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield PV (max 7)",
           "coinlist": [
             {}
           ]
@@ -836,7 +836,7 @@
         {
           "level": 4,
           "name": "Wait?!",
-          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max <style=\"highlight\">13</style>)",
+          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield PV (max <style=\"highlight\">13</style>)",
           "coinlist": [
             {}
           ]
@@ -1041,7 +1041,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 15+ [Burst], or has less than 30% HP, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] If target has 15+ [Burst], or has less than 30% PV, Reuse this Coin (once per Skill)"
                 }
               ]
             }

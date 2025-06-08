@@ -33,17 +33,17 @@
     {
       "id": 9020601,
       "name": "Experiment Goal - Germination",
-      "desc": "Turn Start: if this unit isn't at max HP, heal 80% of the missing HP\n- With every healing, halve the healing effect of this Passive by half (halves down to 10% minimum; applies only when this unit heals more than 1 HP)\n- Does not activate when Staggered\n\nAfter this unit is Staggered for the first time, or when the healing effect is reduced to its minimum, gain 3 [Vulnerable] at every Turn Start"
+      "desc": "Turn Start: if this unit isn't at max PV, heal 80% of the missing PV\n- With every healing, halve the healing effect of this Passive by half (halves down to 10% minimum; applies only when this unit heals more than 1 PV)\n- Does not activate when Staggered\n\nAfter this unit is Staggered for the first time, or when the healing effect is reduced to its minimum, gain 3 [Vulnerable] at every Turn Start"
     },
     {
       "id": 9020701,
       "name": "Experiment Goal - Blossom",
-      "desc": "When this unit takes damage that brings its HP down to 0, and maintain this unit's HP at 1 until the next turn; deal +50% damage (once per Encounter)\n\nDoes not activate when Staggered"
+      "desc": "When this unit takes damage that brings its PV down to 0, and maintain this unit's PV at 1 until the next turn; deal +50% damage (once per Encounter)\n\nDoes not activate when Staggered"
     },
     {
       "id": 9020801,
       "name": "Talisman Sorcerer",
-      "desc": "Whenever this unit inflicts [OminousTalisman] against an enemy, lose 10 SP\n\nAgainst targets with [OminousTalisman], deal +(0 - SP on self)% damage (max 30%, min 0%)"
+      "desc": "Whenever this unit inflicts [OminousTalisman] against an enemy, lose 10 PS\n\nAgainst targets with [OminousTalisman], deal +(0 - PS on self)% damage (max 30%, min 0%)"
     },
     {
       "id": 9020802,
@@ -58,12 +58,12 @@
     {
       "id": 9020901,
       "name": "Skilled Talisman Sorcerer",
-      "desc": "Whenever this unit inflicts [OminousTalisman] against an enemy, lose 10 SP\n\nAgainst targets with [OminousTalisman], deal +(10 - SP on self)% damage (max 50%, min 0%)"
+      "desc": "Whenever this unit inflicts [OminousTalisman] against an enemy, lose 10 PS\n\nAgainst targets with [OminousTalisman], deal +(10 - PS on self)% damage (max 50%, min 0%)"
     },
     {
       "id": 9020902,
       "name": "Soul Siphon Technique",
-      "desc": "Turn Start: at 50% or less HP, sacrifice a random Wicked Deathrite Monk to heal (10% of this unit's HP + 50% of the sacrificed unit's HP) HP, heal 25 SP, and recover from Stagger (once per turn)"
+      "desc": "Turn Start: at 50% or less PV, sacrifice a random Wicked Deathrite Monk to heal (10% of this unit's PV + 50% of the sacrificed unit's PV) PV, heal 25 PS, and recover from Stagger (once per turn)"
     },
     {
       "id": 9020903,
