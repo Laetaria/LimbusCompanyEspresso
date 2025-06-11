@@ -93,7 +93,7 @@
     {
       "id": "Charge",
       "name": "Carica",
-      "desc": "Risorsa usata da alcune Abilità per effetti aggiuntivi. Stack Massime: 20. Perde 1 stack alla fine del turno.\n\n<color=#1aece7>Stack Totali Consumate: {2}</color>",
+      "desc": "Risorsa usata da alcune Abilità per effetti aggiuntivi. Conteggio Massimo: 20. Perde 1 stack alla fine del turno.\n\n<color=#1aece7>Conteggio Totale Consumato: {2}</color>",
       "summary": "Risorsa Mossa Specifica",
       "undefined": "-"
     },
@@ -350,7 +350,7 @@
       "id": "Muckworm",
       "name": "Vermi",
       "desc": "A Fine Turno: subisce danni da Gola in base alle stack, poi diminuisce di 1; +1 alle stack di Sanguinamento.",
-      "summary": "Danno da Gola; Stack Sanguinamento +1"
+      "summary": "Danno da Gola; Conteggio di Sanguinamento +1"
     },
     {
       "id": "AttackUp",
@@ -367,8 +367,8 @@
     {
       "id": "Liu_Meursault_Guard_Buff",
       "name": "Stoico come una montagna",
-      "desc": "Quando viene attaccato, infligge +1 alla quantità di Bruciatura sull'attaccante.",
-      "summary": "Stack Bruciatura a chi ha attaccato +1"
+      "desc": "Quando viene attaccato, infligge +1 al Conteggio di Bruciatura sull'attaccante.",
+      "summary": "Conteggio di Bruciatura a chi ha attaccato +1"
     },
     {
       "id": "SlashResistUp",
@@ -1648,7 +1648,7 @@
     {
       "id": "Unjust_Enrichment",
       "name": "Guadagni Illeciti",
-      "desc": "- Ottenuto facendo testa contro i bersagli afflitti da Sanguinamento (Max 4)\n-Quando la passiva 'Bullets are Pricey' viene attivata, consuma tutti i Guadagni Illeciti per fare danni extra"
+      "desc": "- Ottenuto facendo testa contro i bersagli afflitti da Sanguinamento (Max 4)\n-Quando la passiva 'Le Pallottole Costano' viene attivata, consuma tutti i Guadagni Illeciti per fare danni extra"
     },
     {
       "id": "RetaliationBook",
@@ -1885,7 +1885,7 @@
     },
     {
       "id": "Switch_Vibration",
-      "name": "Convertitore TTC",
+      "name": "Convertitore di Ampiezza",
       "desc": "Converte Vibrazione o un tipo già convertito di Vibrazione in un tipo diverso di Vibrazione.\nLe stack di Vibrazione non vengono affette dalla conversione."
     },
     {
@@ -1951,7 +1951,7 @@
     {
       "id": "TimeSuspend",
       "name": "Tempus Moratorium",
-      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno verrà invece immagazzinato\n- Fine combattimento: se la quantità di quest'effetto è solamente 1, quest'effetto attiva {0} Scoppio Vibrazione(i) dopo aver inflitto {3} danni da Accidia.\n- A Fine Turno: ottiene 1 Massa e perde 1 stack\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un altra istanza di Tempus Moratorium è inflitta ad un unità con Tempus Moratorium.\n- Danno immagazzinato: {2}",
+      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno verrà invece immagazzinato\n- Fine combattimento: se le Stack di quest'effetto sono 1, quest'effetto attiva {0} Scoppio Vibrazione(i) dopo aver inflitto {3} danni da Accidia.\n- A Fine Turno: ottiene 1 Massa e perde 1 stack\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un altra istanza di Tempus Moratorium è inflitta ad un unità con Tempus Moratorium.\n- Danno immagazzinato: {2}",
       "summary": ""
     },
     {

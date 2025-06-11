@@ -80,7 +80,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttackHead] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
                 }
               ]
             }
@@ -101,7 +101,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
                 }
               ]
             }
@@ -122,7 +122,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Charge Count, gain 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> for every 5 Charge Count next turn (Max 4)"
+                  "desc": "[OnSucceedAttack] At 5+ Charge Count, gain 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> for every 5 Charge Count next turn (Max 4)"
                 }
               ]
             }
@@ -135,8 +135,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest PV percentage",
+          "name": "Deploy [ChargeForceField]",
+          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest PV percentage",
           "coinlist": [
             {},
             {},
@@ -146,7 +146,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
                 }
               ]
             }
@@ -154,8 +154,8 @@
         },
         {
           "level": 4,
-          "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest PV percentage",
+          "name": "Deploy [ChargeForceField]",
+          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest PV percentage",
           "coinlist": [
             {},
             {},
@@ -165,7 +165,7 @@
                   "desc": "[OnSucceedAttack] Inflict 5 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
                 }
               ]
             }
@@ -179,7 +179,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[WhenUse] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 times per turn)",
+          "desc": "[WhenUse] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (3 times per turn)",
           "coinlist": [
             {}
           ]
@@ -187,7 +187,7 @@
         {
           "level": 4,
           "name": "Blocco",
-          "desc": "[WhenUse] Gain <style=\"highlight\">3</style> <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 times per turn)",
+          "desc": "[WhenUse] Gain <style=\"highlight\">3</style> <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (3 times per turn)",
           "coinlist": [
             {}
           ]

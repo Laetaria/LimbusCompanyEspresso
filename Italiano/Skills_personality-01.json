@@ -6,13 +6,13 @@
         {
           "level": 1,
           "name": "Stay Calm",
-          "desc": "Gain +3 Tremor Count if this Skill is Discarded",
+          "desc": "Ottiene +3 Conteggio di [Vibration] se [Discard] questa Abilità",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio di [Vibration]"
                 }
               ]
             }
@@ -21,13 +21,13 @@
         {
           "level": 2,
           "name": "Stay Calm",
-          "desc": "If this Skill is Discarded, gain +4 Tremor Count\n[WhenUse] Gain +2 Tremor Count",
+          "desc": "Se [Discard] questa Abilità, ottiene +4 Conteggio di [Vibration]\n[WhenUse] Ottiene +2 Conteggio di [Vibration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
                 }
               ]
             }
@@ -36,13 +36,13 @@
         {
           "level": 4,
           "name": "Stay Calm",
-          "desc": "If this Skill is Discarded, gain +4 Tremor Count\n[WhenUse] Gain +2 Tremor Count\nAt 5+ Tremor Count, gain Coin Power +1",
+          "desc": "Se [Discard] questa Abilità, ottiene +4 Conteggio di [Vibration]\n[WhenUse] Ottiene +2 Conteggio di [Vibration]\nA 5+ Conteggio di [Vibration], ottiene Potere Moneta +1",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
                 }
               ]
             }
@@ -56,12 +56,12 @@
         {
           "level": 1,
           "name": "Gamble",
-          "desc": "If this Skill is Discarded, gain +3 Tremor Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+          "desc": "Se [Discard] questa Abilità, ottiene +3 Conteggio di [Vibration]\n[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Tremor Count, trigger Tremor Burst. Reduce target's Tremor Count by 2"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio di [Vibration], causa [VibrationExplosion]. Abbassa il Conteggio di [Vibration] del bersaglio di 2"
                 }
               ]
             }
@@ -70,15 +70,15 @@
         {
           "level": 2,
           "name": "Gamble",
-          "desc": "If this Skill is Discarded, gain +4 Tremor Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+          "desc": "Se [Discard] questa Abilità, ottiene +4 Conteggio di [Vibration]\n[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Tremor Count, trigger Tremor Burst. Reduce target's Tremor Count by 2"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio di [Vibration], causa [VibrationExplosion]. Abbassa il Conteggio di [Vibration] del bersaglio di 2"
                 }
               ]
             }
@@ -87,15 +87,15 @@
         {
           "level": 4,
           "name": "Gamble",
-          "desc": "If this Skill is Discarded, gain +4 Tremor Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+          "desc": "Se [Discard] questa Abilità, ottiene +4 Conteggio di [Vibration]\n[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Tremor Count, trigger Tremor Burst. Reduce target's Tremor Count by 2"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio di [Vibration], causa [VibrationExplosion]. Abbassa il Conteggio di [Vibration] del bersaglio di 2"
                 }
               ]
             }
@@ -109,15 +109,15 @@
         {
           "level": 3,
           "name": "Grinding the Molars",
-          "desc": "[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] Spend 10 Tremor Count to gain Coin Power +1",
+          "desc": "[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità\n[WhenUse] Spende 10 Conteggio di [Vibration] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Tremor"
+                  "desc": "[OnSucceedAttack] Infligge 4 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Se l'Abilità ha speso del Conteggio di [Vibration], causa [VibrationExplosion]"
                 }
               ]
             },
@@ -125,10 +125,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 Defense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Se l'Abilità ha speso del Conteggio di [Vibration], causa [VibrationExplosion]"
                 }
               ]
             }
@@ -137,15 +137,15 @@
         {
           "level": 4,
           "name": "Grinding the Molars",
-          "desc": "[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] Spend 10 Tremor Count to gain Coin Power +2",
+          "desc": "[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità\n[WhenUse] Spende 10 Conteggio di [Vibration] per ottenere Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Tremor"
+                  "desc": "[OnSucceedAttack] Infligge 4 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Se l'Abilità ha speso del Conteggio di [Vibration], causa [VibrationExplosion]"
                 }
               ]
             },
@@ -153,10 +153,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 2 Defense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] Se l'Abilità ha speso del Conteggio di [Vibration], causa [VibrationExplosion]"
                 }
               ]
             }
@@ -170,7 +170,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+          "desc": "[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità",
           "coinlist": [
             {}
           ]
@@ -178,7 +178,7 @@
         {
           "level": 4,
           "name": "Blocco",
-          "desc": "[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+          "desc": "[WhenUse] [Discard] 1 Abilità di Grado più basso in tutti gli Slot Abilità dell'unità",
           "coinlist": [
             {}
           ]
@@ -191,12 +191,12 @@
         {
           "level": 1,
           "name": "Dimensional Slit",
-          "desc": "[WhenUse] Gain +2 Charge Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
                 }
               ]
             }
@@ -205,15 +205,15 @@
         {
           "level": 2,
           "name": "Dimensional Slit",
-          "desc": "[WhenUse] Gain +2 Charge Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -222,15 +222,15 @@
         {
           "level": 4,
           "name": "Dimensional Slit",
-          "desc": "[WhenUse] Gain +2 Charge Count\nAt 10+ Charge Count, Coin Power +2",
+          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]\nA 10+ Conteggio di [Charge], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Charge Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Rupture"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -244,19 +244,19 @@
         {
           "level": 1,
           "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +5 Charge Count",
+          "desc": "[WhenUse] Ottiene +5 Conteggio di [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il prossimo turno"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -265,22 +265,22 @@
         {
           "level": 2,
           "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +6 Charge Count\nAt 10+ Charge Count, Coin Power +1",
+          "desc": "[WhenUse] Ottiene +6 Conteggio di [Charge]\nA 10+ Conteggio di [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Charge Count, inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio di [Charge], infligge 3 [Burst]"
                 }
               ]
             }
@@ -289,22 +289,22 @@
         {
           "level": 4,
           "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +7 Charge Count\nAt 10+ Charge Count, Coin Power +1",
+          "desc": "[WhenUse] Ottiene +7 Conteggio di [Charge]\nA 10+ Conteggio di [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Charge Count, inflict 3 Rupture and +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio di [Charge], infligge 3 [Burst] e +2 Conteggio di [Burst]"
                 }
               ]
             }
@@ -318,32 +318,32 @@
         {
           "level": 3,
           "name": "Dimensional Rift",
-          "desc": "[WhenUse] At less than 15 Charge Count, consume 10 Charge Count to gain +1 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +2 Coin Power",
+          "desc": "[WhenUse] A meno di 15 Conteggio di [Charge], consuma 10 Conteggio di [Charge] per ottenere +1 Potere Moneta\n[WhenUse] Consuma 15 Conteggio di [Charge] per ottenere +2 Potere Moneta",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Rupture for every 5 Charge Count consumed by the Skill (Max 6)"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] per ogni 5 Conteggio di [Charge] consumato dall'Abilità (Max 6)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the Skill consumed 15 Charge Count upon use, inflict 2 Dimensional Rift"
+                  "desc": "[OnSucceedAttack] Se l'Abilità ha consumato 15 Conteggio di [Charge] all'uso, infligge 2 [DimensionRift]"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 3 Charge Barrier"
+                  "desc": "[EnemyKill] Ottiene 3 [ChargeForceField]"
                 }
               ]
             }
@@ -352,32 +352,32 @@
         {
           "level": 4,
           "name": "Dimensional Rift",
-          "desc": "[WhenUse] At less than 15 Charge Count, consume 10 Charge Count to gain +1 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +2 Coin Power\n[BeforeAttack] If 15 Charge Count has been consumed, inflict +3 Rupture Count",
+          "desc": "[WhenUse] A meno di 15 Conteggio di [Charge], consuma 10 Conteggio di [Charge] per ottenere +1 Potere Moneta\n[WhenUse] Consuma 15 Conteggio di [Charge] per ottenere +2 Potere Moneta\n[BeforeAttack] If 15 Conteggio di [Charge] has been consumed, infligge +3 Conteggio di [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture for every 5 Charge Count consumed by the Skill (Max 9)"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] per ogni 5 Conteggio di [Charge] consumato dall'Abilità (Max 9)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the Skill consumed 15 Charge Count upon use, inflict 2 Dimensional Rift"
+                  "desc": "[OnSucceedAttack] Se l'Abilità ha consumato 15 Conteggio di [Charge] all'uso, infligge 2 [DimensionRift]"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 5 Charge Barrier"
+                  "desc": "[EnemyKill] Ottiene 5 [ChargeForceField]"
                 }
               ]
             }
@@ -391,7 +391,7 @@
         {
           "level": 1,
           "name": "Hollow Dimension",
-          "desc": "Base Power +1 per 5 Charge Count (Max 2)",
+          "desc": "Potere di Base +1 per 5 Conteggio di [Charge] (Max 2)",
           "coinlist": [
             {}
           ]
@@ -399,7 +399,7 @@
         {
           "level": 4,
           "name": "Hollow Dimension",
-          "desc": "Base Power +1 per 5 Charge Count (Max 2)\n[OnSucceedEvade] +1 Potency when applying Rupture for the first time with a Skill effect next turn (Max +3 per turn)",
+          "desc": "Potere di Base +1 per 5 Conteggio di [Charge] (Max 2)\n[OnSucceedEvade] +1 Potency when applying [Burst] for the first time with a Skill effect il prossimo turno (Max +3 per turn)",
           "coinlist": [
             {}
           ]
@@ -412,13 +412,13 @@
         {
           "level": 1,
           "name": "Impale",
-          "desc": "[WhenUse] Gain +2 Poise Count",
+          "desc": "[WhenUse] Ottiene +2 Poise Count",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bleed"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 Bleed"
                 }
               ]
             }
@@ -427,16 +427,16 @@
         {
           "level": 2,
           "name": "Impale",
-          "desc": "[WhenUse] Gain +2 Poise Count",
+          "desc": "[WhenUse] Ottiene +2 Poise Count",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il prossimo turno"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 2 Bleed"
                 }
               ]
             }
@@ -445,16 +445,16 @@
         {
           "level": 4,
           "name": "Impale",
-          "desc": "[WhenUse] Gain +2 Poise Count",
+          "desc": "[WhenUse] Ottiene +2 Poise Count",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 2 Bleed"
                 }
               ]
             }
@@ -468,19 +468,19 @@
         {
           "level": 1,
           "name": "Relentless Stabbing",
-          "desc": "[WhenUse] Gain +2 Poise Count\nAt 5+ Poise, Clash Power +2",
+          "desc": "[WhenUse] Ottiene +2 Poise Count\nA 5+ Poise, Clash Power +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 2 Poise"
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 Poise"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 1 Bleed"
                 }
               ]
             }
@@ -489,19 +489,19 @@
         {
           "level": 2,
           "name": "Relentless Stabbing",
-          "desc": "[WhenUse] Gain +2 Poise Count\nAt 5+ Poise, Clash Power +2",
+          "desc": "[WhenUse] Ottiene +2 Poise Count\nA 5+ Poise, Clash Power +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 2 Poise"
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 Poise"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 1 Bleed"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Reuse this Coin (1 time max)"
@@ -513,19 +513,19 @@
         {
           "level": 4,
           "name": "Relentless Stabbing",
-          "desc": "[WhenUse] Gain +2 Poise Count\nAt 5+ Poise, Clash Power +3",
+          "desc": "[WhenUse] Ottiene +2 Poise Count\nA 5+ Poise, Clash Power +3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 Poise"
+                  "desc": "[OnSucceedAttack] Ottiene 2 Poise"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 1 Bleed"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Reuse this Coin (3 times max)"
@@ -542,22 +542,22 @@
         {
           "level": 3,
           "name": "Ambush",
-          "desc": "[WhenUse] Gain 5 Poise",
+          "desc": "[WhenUse] Ottiene 5 Poise",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 Poise Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Poise Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 4 Bleed"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +4 Bleed Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +4 Bleed Count"
                 }
               ]
             }
@@ -566,22 +566,22 @@
         {
           "level": 4,
           "name": "Ambush",
-          "desc": "[WhenUse] Gain 5 Poise\nAt 7+ Poise, Coin Power +1",
+          "desc": "[WhenUse] Ottiene 5 Poise\nA 7+ Poise, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Poise Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Poise Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 4 Bleed"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +6 Bleed Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +6 Bleed Count"
                 }
               ]
             }
@@ -628,7 +628,7 @@
         {
           "level": 1,
           "name": "Expend Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 2% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Ottiene ([KnowledgeExplored] x 2% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {
               "coindescs": [
@@ -649,7 +649,7 @@
         {
           "level": 2,
           "name": "Expend Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 3% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Ottiene ([KnowledgeExplored] x 3% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {
               "coindescs": [
@@ -670,7 +670,7 @@
         {
           "level": 4,
           "name": "Expend Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 3% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1",
+          "desc": "Ottiene ([KnowledgeExplored] x 3% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -696,20 +696,20 @@
         {
           "level": 1,
           "name": "Seal Shut",
-          "desc": "Gain ([KnowledgeExplored] x 4% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "Ottiene ([KnowledgeExplored] x 4% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttackHead] Infligge [Sinking] equal to [KnowledgeExplored]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttackHead] Infligge [Sinking] equal to [KnowledgeExplored]"
                 }
               ]
             }
@@ -718,20 +718,20 @@
         {
           "level": 2,
           "name": "Seal Shut",
-          "desc": "Gain ([KnowledgeExplored] x 5% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+          "desc": "Ottiene ([KnowledgeExplored] x 5% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Ottiene +3 Aggro to this Skill Slot il prossimo turno",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttackHead] Infligge [Sinking] equal to [KnowledgeExplored]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttackHead] Infligge [Sinking] equal to [KnowledgeExplored]"
                 }
               ]
             }
@@ -740,20 +740,20 @@
         {
           "level": 4,
           "name": "Seal Shut",
-          "desc": "Gain ([KnowledgeExplored] x 6% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+          "desc": "Ottiene ([KnowledgeExplored] x 6% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] [Discard] 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Potere Moneta +1\n[WhenUse] Ottiene +3 Aggro to this Skill Slot il prossimo turno",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttack] Infligge [Sinking] equal to [KnowledgeExplored]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttack] Infligge [Sinking] equal to [KnowledgeExplored]"
                 }
               ]
             }
@@ -767,7 +767,7 @@
         {
           "level": 3,
           "name": "Grace of Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 9% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Gain +8 Aggro to this Skill Slot next turn",
+          "desc": "Ottiene ([KnowledgeExplored] x 9% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] Ottiene +8 Aggro to this Skill Slot il prossimo turno",
           "coinlist": [
             {},
             {},
@@ -775,7 +775,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Sinking] Count"
                 }
               ]
             }
@@ -784,7 +784,7 @@
         {
           "level": 4,
           "name": "Grace of Knowledge",
-          "desc": "Gain ([KnowledgeExplored] x 12% of Max PV) Shield if this Skill is Discarded\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn\n[WhenUse] At 50%- PV, Coin Power +1",
+          "desc": "Ottiene ([KnowledgeExplored] x 12% of Max PV) Shield se [Discard] questa Abilità\n[WhenUse] Ottiene +10 Aggro to this Skill Slot il prossimo turno\n[WhenUse] A 50%- PV, Potere Moneta +1",
           "coinlist": [
             {},
             {},
@@ -792,7 +792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 [Sinking] Count"
                 }
               ]
             }
@@ -806,7 +806,7 @@
         {
           "level": 1,
           "name": "Fixated Study",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+          "desc": "[WhenUse] Randomly [Discard] 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Ottiene +3 Aggro to this Skill Slot il prossimo turno",
           "coinlist": [
             {
               "coindescs": [
@@ -820,7 +820,7 @@
         {
           "level": 4,
           "name": "Fixated Study",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Gain +5 Aggro to this Skill Slot next turn",
+          "desc": "[WhenUse] Randomly [Discard] 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Ottiene +5 Aggro to this Skill Slot il prossimo turno",
           "coinlist": [
             {
               "coindescs": [
@@ -845,14 +845,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -867,14 +867,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -889,14 +889,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -915,13 +915,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target"
+                  "desc": "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin per ogni type of negative effect on target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge +2 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             }
@@ -935,13 +935,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target"
+                  "desc": "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin per ogni type of negative effect on target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             }
@@ -950,18 +950,18 @@
         {
           "level": 4,
           "name": "Sanguine Pointillism",
-          "desc": "Clash Power +1 for every 3 [Laceration] on target (max 2)\nCoin Power +1 for every 3 [Laceration] Count on target (max 2)",
+          "desc": "Clash Power +1 per ogni 3 [Laceration] on target (max 2)\nPotere Moneta +1 per ogni 3 [Laceration] Count on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 40% chance to Reuse Coin. +20% more chance to Reuse Coin for every type of negative effect on target (2 times max per Skill)"
+                  "desc": "[OnSucceedAttack] 40% chance to Reuse Coin. +20% more chance to Reuse Coin per ogni type of negative effect on target (2 times max per Skill)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             }
@@ -981,30 +981,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count. If target has 4+ types of negative effects, inflict +2 additional [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count. If target has 4+ types of negative effects, infligge +2 additional [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]. If target has 4+ types of negative effects, inflict 2 additional [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]. If target has 4+ types of negative effects, infligge 2 additional [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge 2 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +15% damage for every type of negative effect on target (max 75%)"
+                  "desc": "Deal +15% damage per ogni type of negative effect on target (max 75%)"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or Defeated, inflict 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random."
+                  "desc": "[EndSkill] If target is Staggered or Defeated, infligge 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random."
                 }
               ]
             }
@@ -1013,36 +1013,36 @@
         {
           "level": 4,
           "name": "Hematic Coloring",
-          "desc": "Clash Power +1 for every 3 [Laceration] on target (max 2)\nCoin Power +1 for every 3 [Laceration] Count on target (max 2)",
+          "desc": "Clash Power +1 per ogni 3 [Laceration] on target (max 2)\nPotere Moneta +1 per ogni 3 [Laceration] Count on target (max 2)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count. If target has 3+ types of negative effects, inflict +2 additional [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count. If target has 3+ types of negative effects, infligge +2 additional [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]. If target has 3+ types of negative effects, inflict 2 additional [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]. If target has 3+ types of negative effects, infligge 2 additional [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
+                  "desc": "[OnSucceedAttack] Infligge 2 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random."
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +25% damage for every type of negative effect on target (max 125%)"
+                  "desc": "Deal +25% damage per ogni type of negative effect on target (max 125%)"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or Defeated, inflict 2 Potency for 1 of the following effects on 2 enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random."
+                  "desc": "[EndSkill] If target is Staggered or Defeated, infligge 2 Potency for 1 of the following effects on 2 enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random."
                 }
               ]
             }
@@ -1056,7 +1056,7 @@
         {
           "level": 1,
           "name": "Beat the Brush",
-          "desc": "If target has 6+ [Laceration], Base Power +5",
+          "desc": "If target has 6+ [Laceration], Potere di Base +5",
           "coinlist": [
             {
               "coindescs": [
@@ -1070,7 +1070,7 @@
         {
           "level": 4,
           "name": "Beat the Brush",
-          "desc": "Base Power +1 for every 1 [Laceration] on target (Max 10)",
+          "desc": "Potere di Base +1 per ogni 1 [Laceration] on target (Max 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -1094,20 +1094,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             }
@@ -1116,25 +1116,25 @@
         {
           "level": 2,
           "name": "Celebration for the Departed",
-          "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+          "desc": "If the sum of the target's [Sinking] e both [SinkingWhite] is 6 or higher, Potere Moneta +1\n[WinDuel] Infligge +2 [Sinking] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             }
@@ -1143,25 +1143,25 @@
         {
           "level": 4,
           "name": "Celebration for the Departed",
-          "desc": "<style=\"highlight\">At 10+ [BulletLament], Clash Power +1</style>\nIf the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+          "desc": "<style=\"highlight\">A 10+ [BulletLament], Clash Power +1</style>\nIf the sum of the target's [Sinking] e both [SinkingWhite] is 6 or higher, Potere Moneta +1\n[WinDuel] Infligge +2 [Sinking] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             }
@@ -1180,20 +1180,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consume 5 of [BulletLament]"
+                  "desc": "Consuma 5 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             }
@@ -1202,25 +1202,25 @@
         {
           "level": 2,
           "name": "Solemn Lament for the Living",
-          "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+          "desc": "If the sum of the target's [Sinking] e both [SinkingWhite] is 6 or higher, Potere Moneta +1\n[WinDuel] Infligge +1 [Sinking] Count\n[EndSkill] Ottiene (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., ottiene (highest Reson. x 2) of [BulletLament] (max 12)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consume 5 of [BulletLament]"
+                  "desc": "Consuma 5 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             }
@@ -1229,25 +1229,25 @@
         {
           "level": 4,
           "name": "Solemn Lament for the Living",
-          "desc": "At 10+ [BulletLament], Clash Power +1\n<style=\"highlight\">Coin Power +1 for every 6 value</style> of the sum of the target's [Sinking] and both [SinkingWhite] <style=\"highlight\">(max 2)</style>\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n- If the said Reson. was at 4+ A-Reson., [ReloadLament] instead",
+          "desc": "A 10+ [BulletLament], Clash Power +1\n<style=\"highlight\">Potere Moneta +1 per ogni 6 value</style> of the sum of the target's [Sinking] e both [SinkingWhite] <style=\"highlight\">(max 2)</style>\n[WinDuel] Infligge +1 [Sinking] Count\n[EndSkill] Ottiene (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., ottiene (highest Reson. x 2) of [BulletLament] (max 12)\n- If the said Reson. was at 4+ A-Reson., [ReloadLament] instead",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consume 5 of [BulletLament]"
+                  "desc": "Consuma 5 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             }
@@ -1261,45 +1261,45 @@
         {
           "level": 3,
           "name": "Goodbye Now, A Sorrow In You",
-          "desc": "Base Power +1 for every 10 value of [BulletLament] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+          "desc": "Potere di Base +1 per ogni 10 value of [BulletLament] (max 2)\n[WinDuel] Infligge +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 6 of [BulletLament]"
+                  "desc": "Consuma 6 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume all of [BulletLament] on self"
+                  "desc": "Consuma all of [BulletLament] on self"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +2% damage for every value of [BulletLament] consumed by this Skill"
+                  "desc": "[OnSucceedAttack] Deal +2% damage per ogni value of [BulletLament] consumed by this Skill"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+                  "desc": "[OnSucceedAttack] Infligge Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living e The Departed on target"
                 }
               ]
             }
@@ -1308,45 +1308,45 @@
         {
           "level": 4,
           "name": "Goodbye Now, A Sorrow In You",
-          "desc": "Base Power +1 for every <style=\"highlight\">5</style> value of [BulletLament] <style=\"highlight\">(max 4)</style>\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+          "desc": "Potere di Base +1 per ogni <style=\"highlight\">5</style> value of [BulletLament] <style=\"highlight\">(max 4)</style>\nPotere Moneta +1 per ogni 6 value of the sum of the target's [Sinking] e both [SinkingWhite] (max 2)\n[WinDuel] Infligge +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consume 1 of [BulletLament]"
+                  "desc": "Consuma 1 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume 6 of [BulletLament]"
+                  "desc": "Consuma 6 of [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Consume all of [BulletLament] on self"
+                  "desc": "Consuma all of [BulletLament] on self"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                  "desc": "[OnSucceedAttack] Infligge [SinkingWhite] equal to [BulletLament] consumed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +4% damage for every value of [BulletLament] consumed by this Skill"
+                  "desc": "[OnSucceedAttack] Deal +4% damage per ogni value of [BulletLament] consumed by this Skill"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+                  "desc": "[OnSucceedAttack] Infligge Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living e The Departed on target"
                 }
               ]
             }
@@ -1374,7 +1374,7 @@
         {
           "level": 4,
           "name": "FromTheCoffinAButterflyTakesFlight",
-          "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% PV. (max 20% per turn)",
+          "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Ottiene Shield equal to (the sum of both [SinkingWhite] on the selected target)% PV. (max 20% per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -1393,7 +1393,7 @@
         {
           "level": 1,
           "name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
-          "desc": "[WhenUse] Gain +2 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with its effects",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst]: this Skill does not infligge [Burst] with its effects",
           "coinlist": [
             {
               "coindescs": [
@@ -1401,7 +1401,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
@@ -1411,7 +1411,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1420,7 +1420,7 @@
         {
           "level": 2,
           "name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
-          "desc": "[StartBattle] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 2)\n[WhenUse] Gain +3 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with its effects\n[DefeatDuel] [Burst] Potency inflicted by this Skill +1",
+          "desc": "[StartBattle] On Clash Lose, ottiene Final Power equal to the number of Skills targeting this unit (max 2)\n[WhenUse] Ottiene +3 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst]: this Skill does not infligge [Burst] with its effects\n[DefeatDuel] [Burst] Potency infliggeed by this Skill +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1428,7 +1428,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
@@ -1438,7 +1438,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1447,7 +1447,7 @@
         {
           "level": 4,
           "name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
-          "desc": "[StartBattle] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 3)\n[WhenUse] Gain +3 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with its effects\n[DefeatDuel] [Burst] Potency inflicted by this Skill +2",
+          "desc": "[StartBattle] On Clash Lose, ottiene Final Power equal to the number of Skills targeting this unit (max 3)\n[WhenUse] Ottiene +3 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst]: this Skill does not infligge [Burst] with its effects\n[DefeatDuel] [Burst] Potency infliggeed by this Skill +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1455,7 +1455,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
@@ -1465,7 +1465,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1479,7 +1479,7 @@
         {
           "level": 1,
           "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
-          "desc": "[WhenUse] Gain +2 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst]: this Skill does not infligge Conteggio di [Burst] with its effects",
           "coinlist": [
             {
               "coindescs": [
@@ -1487,7 +1487,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
                 }
               ]
             }
@@ -1496,7 +1496,7 @@
         {
           "level": 2,
           "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
-          "desc": "[StartBattle] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 3)\n[WhenUse] Gain +3 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects\n[DefeatDuel] [Burst] Count inflicted by this Skill +1",
+          "desc": "[StartBattle] On Clash Lose, ottiene Final Power equal to the number of Skills targeting this unit (max 3)\n[WhenUse] Ottiene +3 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst]: this Skill does not infligge Conteggio di [Burst] with its effects\n[DefeatDuel] Conteggio di [Burst] infliggeed by this Skill +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1504,7 +1504,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
                 }
               ]
             }
@@ -1513,7 +1513,7 @@
         {
           "level": 4,
           "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
-          "desc": "[StartBattle] <style=\"highlight\">On Clash Lose, gain (# of Skills targeting this unit x 2) Final Power (max 6)</style>\n[WhenUse] Gain +4 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects\n[DefeatDuel] [Burst] Count inflicted by this Skill +2",
+          "desc": "[StartBattle] <style=\"highlight\">On Clash Lose, ottiene (# of Skills targeting this unit x 2) Final Power (max 6)</style>\n[WhenUse] Ottiene +4 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst]: this Skill does not infligge Conteggio di [Burst] with its effects\n[DefeatDuel] Conteggio di [Burst] infliggeed by this Skill +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1521,7 +1521,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
                 }
               ]
             }
@@ -1535,29 +1535,29 @@
         {
           "level": 3,
           "name": "the idiosyncrasies of the source may be utilized with greater flexibility",
-          "desc": "Deal +0.5% damage for every 1% missing PV on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 2)\n[WhenUse] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 PS",
+          "desc": "Deal +0.5% damage per ogni 1% missing PV on self\n[StartBattle] Potere di Base +1 per ogni Skill that targets this unit (max 2)\n[WhenUse] Ottiene 2 [GlowingLantern] (once per turn)\n[WhenUse] Ottiene +6 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst], this Skill does not infligge [Burst] Potency or Count with its effects; instead, ottiene Potere di Base +1\n[EndSkill] Heal 30 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [[Binding]ing] il prossimo turno"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1566,29 +1566,29 @@
         {
           "level": 4,
           "name": "the idiosyncrasies of the source may be utilized with greater flexibility",
-          "desc": "Deal +0.8% damage for every 1% missing PV on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 3)\n[WhenUse] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 PS",
+          "desc": "Deal +0.8% damage per ogni 1% missing PV on self\n[StartBattle] Potere di Base +1 per ogni Skill that targets this unit (max 3)\n[WhenUse] Ottiene 3 [GlowingLantern] (once per turn)\n[WhenUse] Ottiene +8 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst], this Skill does not infligge [Burst] Potency or Count with its effects; instead, ottiene Potere di Base +1\n[EndSkill] Heal 30 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [[Binding]ing] il prossimo turno"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1601,13 +1601,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
-          "desc": "[StartBattle] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its effects; instead, gain Base Power +3",
+          "name": "Yet, the degree to which that attunement e synchronization are achieved may resultantly allow the user to be devoured",
+          "desc": "[StartBattle] Ottiene 2 [GlowingLantern] (once per turn)\n[WhenUse] Ottiene +6 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst], this Skill does not infligge Conteggio di [Burst] with its effects; instead, ottiene Potere di Base +3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
                 }
               ]
             }
@@ -1615,13 +1615,13 @@
         },
         {
           "level": 4,
-          "name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
-          "desc": "[StartBattle] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its effects; instead, gain Base Power +3",
+          "name": "Yet, the degree to which that attunement e synchronization are achieved may resultantly allow the user to be devoured",
+          "desc": "[StartBattle] Ottiene 3 [GlowingLantern] (once per turn)\n[WhenUse] Ottiene +8 [Aggro] il prossimo turno\n[WhenUse] If target has 15+ [Burst] e 3+ Conteggio di [Burst], this Skill does not infligge Conteggio di [Burst] with its effects; instead, ottiene Potere di Base +3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
                 }
               ]
             }
@@ -1635,19 +1635,19 @@
         {
           "level": 1,
           "name": "Flame Hew",
-          "desc": "If target has 6+ [Combustion], Coin Power +1",
+          "desc": "If target has 6+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1656,19 +1656,19 @@
         {
           "level": 2,
           "name": "Flame Hew",
-          "desc": "If target has <style=\"highlight\">3</style>+ [Combustion], Coin Power +1",
+          "desc": "If target has <style=\"highlight\">3</style>+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1677,25 +1677,25 @@
         {
           "level": 4,
           "name": "Flame Hew",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 3 [Combustion] on target (max 2)</style>\n<style=\"highlight\">Deal +10% damage for every 10 [Combustion] on target (max 30%)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 3 [Combustion] on target (max 2)</style>\n<style=\"highlight\">Deal +10% damage per ogni 10 [Combustion] on target (max 30%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1709,26 +1709,26 @@
         {
           "level": 1,
           "name": "Frontal Assault",
-          "desc": "If target has 6+ [Combustion], Coin Power +1",
+          "desc": "If target has 6+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target"
+                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], infligge +2 [Combustion] Count on target"
                 }
               ]
             }
@@ -1737,29 +1737,29 @@
         {
           "level": 2,
           "name": "Frontal Assault",
-          "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)",
+          "desc": "Potere Moneta +1 per ogni 6 [Combustion] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every [Combustion] on target (max 30%)"
+                  "desc": "Deal +2.5% damage per ogni [Combustion] on target (max 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], infligge +2 [Combustion] Count on target<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1768,29 +1768,29 @@
         {
           "level": 4,
           "name": "Frontal Assault",
-          "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)",
+          "desc": "Potere Moneta +1 per ogni 6 [Combustion] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +<style=\"highlight\">5</style>% damage for every [Combustion] on target (max <style=\"highlight\">60</style>%)"
+                  "desc": "Deal +<style=\"highlight\">5</style>% damage per ogni [Combustion] on target (max <style=\"highlight\">60</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], infligge +2 [Combustion] Count on target<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1804,36 +1804,36 @@
         {
           "level": 3,
           "name": "Flow of the Sword",
-          "desc": "If target has 6+ [Combustion], Coin Power +1\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 10 PS for 1 other ally with the least PS\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+          "desc": "If target has 6+ [Combustion], Potere Moneta +1\nDeal +10% damage per ogni 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 10 PS for 1 other ally with the least PS\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2% damage for every [Combustion] on target (max 60%)"
+                  "desc": "Deal +2% damage per ogni [Combustion] on target (max 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
+                  "desc": "[OnSucceedAttack] Infligge Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
                 }
               ]
             }
@@ -1842,36 +1842,36 @@
         {
           "level": 4,
           "name": "Flow of the Sword",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)</style>\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15</style> PS for 1 other ally with the least PS\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Combustion] on target (max 2)</style>\nDeal +10% damage per ogni 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15</style> PS for 1 other ally with the least PS\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2% damage for every [Combustion] on target (max 60%)"
+                  "desc": "Deal +2% damage per ogni [Combustion] on target (max 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
+                  "desc": "[OnSucceedAttack] Infligge Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
                 }
               ]
             }
@@ -1885,19 +1885,19 @@
         {
           "level": 1,
           "name": "Flame Counter",
-          "desc": "[BeforeHit] Gain Shield equal to [Combustion] on target (max 10, once per turn)",
+          "desc": "[BeforeHit] Ottiene Shield equal to [Combustion] on target (max 10, once per turn)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]\n- If this unit has Shield, infligge 1 additional [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]\n- If this unit has Shield, infligge 1 additional [Combustion]"
                 }
               ]
             }
@@ -1906,19 +1906,19 @@
         {
           "level": 4,
           "name": "Flame Counter",
-          "desc": "[BeforeHit] Gain Shield equal to [Combustion] on target (max 15, once per turn)\n[WhenUse] If target has 10+ [Combustion], deal +10% damage",
+          "desc": "[BeforeHit] Ottiene Shield equal to [Combustion] on target (max 15, once per turn)\n[WhenUse] If target has 10+ [Combustion], deal +10% damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]\n- If this unit has Shield, infligge 1 additional [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]\n- If this unit has Shield, infligge 1 additional [Combustion]"
                 }
               ]
             }
