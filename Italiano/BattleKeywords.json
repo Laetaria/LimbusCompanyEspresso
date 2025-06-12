@@ -171,7 +171,7 @@
     {
       "id": "MinusCoinValueDown",
       "name": "Alza Testa Negativa",
-      "desc": "Alza il valore ottenuto con Monete Negative in base alle Stack."
+      "desc": "Aumenta il valore ottenuto con Monete Negative in base alle Stack."
     },
     {
       "id": "TimesCoinValueDown",
@@ -854,14 +854,14 @@
     {
       "id": "InterlockingTime",
       "name": "Deflagrazione Differita",
-      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il prossimo turno.",
-      "summary": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il prossimo turno."
+      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo.",
+      "summary": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo."
     },
     {
       "id": "TimeRental",
       "name": "Prendere Tempo",
-      "desc": "Alla fine del turno, ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Lentezza e 1 Fiacchezza il prossimo turno.",
-      "summary": "Alla fine del turno, ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Lentezza e 1 Fiacchezza il prossimo turno."
+      "desc": "Alla fine del turno, ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Lentezza e 1 Fiacchezza il turno successivo.",
+      "summary": "Alla fine del turno, ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Lentezza e 1 Fiacchezza il turno successivo."
     },
     {
       "id": "ATL_EndureLaceration",
@@ -884,8 +884,8 @@
     {
       "id": "Scared",
       "name": "Paura",
-      "desc": "A Fine Turno: Se i PS sono -20 o inferiore, ottiene 1 Mitigazione il prossimo turno",
-      "summary": "A Fine Turno: Se i PS sono -20 o inferiore, ottiene 1 Mitigazione il prossimo turno"
+      "desc": "A Fine Turno: Se i PS sono -20 o inferiore, ottiene 1 Mitigazione il turno successivo",
+      "summary": "A Fine Turno: Se i PS sono -20 o inferiore, ottiene 1 Mitigazione il turno successivo"
     },
     {
       "id": "Stressed",
@@ -896,8 +896,8 @@
     {
       "id": "Nervous",
       "name": "Nervosismo",
-      "desc": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Fortificazione il prossimo turno",
-      "summary": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Fortificazione il prossimo turno"
+      "desc": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Fortificazione il turno successivo",
+      "summary": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Fortificazione il turno successivo"
     },
     {
       "id": "ATL_Agility",
@@ -997,13 +997,13 @@
     {
       "id": "DongbaekFullBloom",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, ed ottiene 'Mente Frastornata' il prossimo turno.\nSe quest'effetto non viene rimosso per 2 turni, verrà rimosso alla fine del turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, ed ottiene 'Mente Frastornata' il turno successivo.\nSe quest'effetto non viene rimosso per 2 turni, verrà rimosso alla fine del turno.",
       "summary": ""
     },
     {
       "id": "DongbaekFascination",
       "name": "Mente Frastornata",
-      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il prossimo turno.\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso alla fine del turno",
+      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il turno successivo.\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso alla fine del turno",
       "summary": ""
     },
     {
@@ -1085,7 +1085,7 @@
     {
       "id": "DistortedDongrangFruition",
       "name": "Frutti del Duro Lavoro",
-      "desc": "Chiunque uccida quest'unità recupera PV e ottiene 1 Rapidità e 1 Potenziamento il prossimo turno"
+      "desc": "Chiunque uccida quest'unità recupera PV e ottiene 1 Rapidità e 1 Potenziamento il turno successivo"
     },
     {
       "id": "EgoAwakenDongrangRadiantDesire",
@@ -1131,7 +1131,7 @@
     {
       "id": "DongbaekFullBloomDisplay",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, e ottiene 'Mente Frastornata' il prossimo turno.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, e ottiene 'Mente Frastornata' il turno successivo.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
       "summary": ""
     },
     {
@@ -1207,7 +1207,7 @@
     {
       "id": "EmergencyFeed",
       "name": "Razioni d'Emergenza",
-      "desc": "Alla fine del turno, se questa unità si è curata del 15% o più PV, il suo corpo viene ripristinato il prossimo turno."
+      "desc": "Alla fine del turno, se questa unità si è curata del 15% o più PV, il suo corpo viene ripristinato il turno successivo."
     },
     {
       "id": "Bullet_Crab",
@@ -1375,7 +1375,7 @@
     {
       "id": "EchoOfMansion",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio di Pianto quando ottiene Potenza o Conteggio di Pianto dalle Abilità o dagli effetti delle Monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di lanciare Testa\n- Ridotto di 1 a Fine Turno\nQuest'effetto non si accumula; infliggere quest'effetto sostituisce il valore corrente con il valore inflitto.\n※ Applica le condizioni di \"Unità senza PS\" ad alcuni nemici che non hanno PS, ma che non possono cambiare il loro tipo di Panico."
+      "desc": "- 50% chance di ottenere +1 Conteggio di Pianto quando ottiene Potenza o Conteggio di Pianto dalle Abilità o dagli effetti delle Monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di lanciare Testa\n- Ridotto di 1 a Fine Turno\nQuest'effetto non si accumula; infliggere quest'effetto sostituisce il valore corrente con il valore inflitto.\n※ Applica le condizioni di \"Unità senza PS\" ad alcuni nemici che non hanno PS, ma che non possono cambiare il loro tipo di Panico."
     },
     {
       "id": "Switch_Vibration",
@@ -1455,7 +1455,7 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A Fine Turno, con 2+ Stack:\n- Ottiene (Stack di Tempo in Prestito - 1) Rapidità, Potere di Scontro, e Fragilità il prossimo turno\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il prossimo turno, l'effetto di Tempo in Prestito scade al prossimo turno, e questa unità Vacilla\n\nTurn End: A Fine Turno: A 1 Stack, ottiene (Tempo in Prestito - 1) Lentezza il prossimo turno\nA Fine Turno: Ottiene 1 Massa, perde Stack",
+      "desc": "A Fine Turno, con 2+ Stack:\n- Ottiene (Stack di Tempo in Prestito - 1) Rapidità, Potere di Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, l'effetto di Tempo in Prestito scade al prossimo turno, e questa unità Vacilla\n\nTurn End: A Fine Turno: A 1 Stack, ottiene (Tempo in Prestito - 1) Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Massa, perde Stack",
       "summary": ""
     },
     {
@@ -1503,7 +1503,7 @@
     {
       "id": "Coffin",
       "name": "Bara",
-      "desc": "- Valore Massimo: 10\n- A Fine Turno:\n  - Ottiene 2 Danno Aumentato il prossimo turno per ogni 3 Stack (max 6)\n  - Aumenta la velocità minima di 1 il prossimo turno per ogni 4 Stack (max 2)\n  - Ottiene 1 Potenza di Scontro il prossimo turno per ogni 5 Stack (max 2)",
+      "desc": "- Valore Massimo: 10\n- A Fine Turno:\n  - Ottiene 2 Danno Aumentato il turno successivo per ogni 3 Stack (max 6)\n  - Aumenta la velocità minima di 1 il turno successivo per ogni 4 Stack (max 2)\n  - Ottiene 1 Potenza di Scontro il turno successivo per ogni 5 Stack (max 2)",
       "summary": ""
     },
     {
@@ -1515,7 +1515,7 @@
     {
       "id": "NightPathfinding",
       "name": "Dullahan",
-      "desc": "- Valore Massimo: 3\n- Ottiene 3 Livello Offensivo\n- Perde 3 Livello Difensivo\n- Aumenta il valore min. e max della Velocità di 1\n- A Fine Turno: Ottiene 1 Dullahan il prossimo turno (A meno di 25 PS , tuttavia, perde completamente Dullahan)\n- A Fine Turno: se quest'unità possiede Dullahan, perde (15 - (Bara/2)) PS. (min 10)",
+      "desc": "- Valore Massimo: 3\n- Ottiene 3 Livello Offensivo\n- Perde 3 Livello Difensivo\n- Aumenta il valore min. e max della Velocità di 1\n- A Fine Turno: Ottiene 1 Dullahan il turno successivo (A meno di 25 PS , tuttavia, perde completamente Dullahan)\n- A Fine Turno: se quest'unità possiede Dullahan, perde (15 - (Bara/2)) PS. (min 10)",
       "summary": ""
     },
     {
@@ -1574,7 +1574,7 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n-  Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il prossimo turno:\n  · Fissa la Velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla sua Velocità (solo durante un Incontro Mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n-  Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la Velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla sua Velocità (solo durante un Incontro Mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
       "summary": ""
     },
     {
@@ -1620,7 +1620,7 @@
     {
       "id": "Snare",
       "name": "Lazo",
-      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene una quantità di Lacerazione pari al valore corrente della Velocità di quest'unità (max 5), e ottiene 1 Lentezza il prossimo turno\n- A Fine Turno: riduce le Stack di 1",
+      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene una quantità di Lacerazione pari al valore corrente della Velocità di quest'unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduce le Stack di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -1748,12 +1748,12 @@
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "La Quarta Pallottola Magica",
-      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +3 Peso Attacco\n- Sul Colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il prossimo turno"
+      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +3 Peso Attacco\n- Sul Colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
       "name": "La Quinta Pallottola Magica",
-      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +4 Peso Attacco\n- Sul Colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Calo Difensivo il prossimo turno"
+      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +4 Peso Attacco\n- Sul Colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Calo Difensivo il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_6th",
@@ -1891,14 +1891,14 @@
     {
       "id": "VengeanceBookSinclair",
       "name": "Libro della Vendetta [Sinclair]",
-      "desc": "- Max Stack: 30\n- Infligge più danno pari a (Stack)% (max 30%)\n- Ottiene i seguenti effetti il prossimo turno in base alle Stack:\n· A 10+ Stack: ottiene 1 Danno Contundente Aumentato\n· A 20+ Stack: Velocità Massima +1, ottiene 1 Potere Incrementato\n· A 30+ Stack: ottiene 2 Danno Contundente Potenziato",
+      "desc": "- Max Stack: 30\n- Infligge più danno pari a (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danno Contundente Aumentato\n· A 20+ Stack: Velocità Massima +1, ottiene 1 Potere Incrementato\n· A 30+ Stack: ottiene 2 Danno Contundente Potenziato",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o Passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con le Stack maggiori quantità di quest'effetto ottiene 1 Marchio della Vendetta Fraterno il prossimo turno\n(Calcolato separatemante da Marchio della Vendetta; se più di una singola unità ha il valore più alto di quest'effetto, viene bersagliata l'unità coi PV maggiori)",
+      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o Passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con le Stack maggiori quantità di quest'effetto ottiene 1 Marchio della Vendetta Fraterno il turno successivo\n(Calcolato separatemante da Marchio della Vendetta; se più di una singola unità ha il valore più alto di quest'effetto, viene bersagliata l'unità coi PV maggiori)",
       "summary": "",
       "undefined": "-"
     },

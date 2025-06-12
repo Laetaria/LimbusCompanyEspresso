@@ -184,7 +184,7 @@
     {
       "id": "MinusCoinValueDown",
       "name": "Alza Testa Negativa",
-      "desc": "Alza il valore ottenuto tirandoTesta con Monete Negative di +{0} per questo turno.",
+      "desc": "Aumenta il valore ottenuto tirando Testa con Monete Negative di +{0} per questo turno.",
       "summary": "Valore Testa Negativa +{0}"
     },
     {
@@ -991,8 +991,8 @@
     {
       "id": "Scared",
       "name": "Paura",
-      "desc": "A Fine Turno: se i PS sono a -20 o inferiore, ottiene 1 Mitigazione il prossimo turno.",
-      "summary": "A Fine Turno: se i PS sono a -20 o inferiore, ottiene 1 Mitigazione il prossimo turno ."
+      "desc": "A Fine Turno: se i PS sono a -20 o inferiore, ottiene 1 Mitigazione il turno successivo.",
+      "summary": "A Fine Turno: se i PS sono a -20 o inferiore, ottiene 1 Mitigazione il turno successivo ."
     },
     {
       "id": "Stressed",
@@ -1003,8 +1003,8 @@
     {
       "id": "Nervous",
       "name": "Nervosismo",
-      "desc": "A Fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il prossimo turno",
-      "summary": "A Fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il prossimo turno"
+      "desc": "A Fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il turno successivo",
+      "summary": "A Fine Turno: se i PS sono a -15 o inferiore , ottiene 5 Fortificazione il turno successivo"
     },
     {
       "id": "ShardOfUmbrella",
@@ -1099,8 +1099,8 @@
     {
       "id": "InterlockingTime",
       "name": "Deflagrazione Differita",
-      "desc": "Riduce il danno finale del 30% e lo immagazzina. At 3 stack, prende danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il prossimo turno.",
-      "summary": "Riduci il danno finale del 30% e lo immagazzina. At 3 stack, prende danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Lentezza il prossimo turno."
+      "desc": "Riduce il danno finale del 30% e lo immagazzina. At 3 stack, prende danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo.",
+      "summary": "Riduci il danno finale del 30% e lo immagazzina. At 3 stack, prende danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Lentezza il turno successivo."
     },
     {
       "id": "TimeRental",
@@ -1230,13 +1230,13 @@
     {
       "id": "DongbaekFullBloom",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, dopodiché ottiene 'Mente Frastornata' il prossimo turno.\nse quest'effetto non viene rimosso per 2 turni verrà rimosso alla fine del turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, dopodiché ottiene 'Mente Frastornata' il turno successivo.\nse quest'effetto non viene rimosso per 2 turni verrà rimosso alla fine del turno.",
       "summary": ""
     },
     {
       "id": "DongbaekFascination",
       "name": "Mente Frastornata",
-      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il prossimo turno\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso alla fine del turno",
+      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il turno successivo\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso alla fine del turno",
       "summary": ""
     },
     {
@@ -1295,7 +1295,7 @@
     {
       "id": "DistortedDongrangFruition",
       "name": "Frutti del Duro Lavoro",
-      "desc": "Chiunque uccida quest'unità recupera PV e ottiene 1 Rapidità e 1 Potenziamento il prossimo turno"
+      "desc": "Chiunque uccida quest'unità recupera PV e ottiene 1 Rapidità e 1 Potenziamento il turno successivo"
     },
     {
       "id": "EgoAwakenDongrangRadiantDesire",
@@ -1341,13 +1341,13 @@
     {
       "id": "DongbaekFullBloomDisplay",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, e ottiene 'Mente Frastornata' il prossimo turno.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, e ottiene 'Mente Frastornata' il turno successivo.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
       "summary": ""
     },
     {
       "id": "EgoAwakenDongrangShardOfBrokenConnection",
       "name": "Scheggia di un Legame Spezzato",
-      "desc": "Le Abilità di Yi Sang ottiengono +2 Valore Finale\nQuando un alleato muore, gli alleati rimanenti ottengono 1 Rapidità e 1 Potenziamento il prossimo turno (una volta per turno)\nFinché c'è almeno un alleato in vita, Yi Sang non può morire",
+      "desc": "Le Abilità di Yi Sang ottiengono +2 Valore Finale\nQuando un alleato muore, gli alleati rimanenti ottengono 1 Rapidità e 1 Potenziamento il turno successivo (una volta per turno)\nFinché c'è almeno un alleato in vita, Yi Sang non può morire",
       "summary": ""
     },
     {
@@ -1483,7 +1483,7 @@
     {
       "id": "DuelDeclaration",
       "name": "Guanto di Sfida",
-      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere di Scontro, e ottiene 1 Rapidità il prossimo turno dopo aver portato a segno un attacco. (4 volte per turno) L'effetto viene rimosso quando il Guanto di Sfida viene inflitto ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di sfida differente."
+      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere di Scontro, e ottiene 1 Rapidità il turno successivo dopo aver portato a segno un attacco. (4 volte per turno) L'effetto viene rimosso quando il Guanto di Sfida viene inflitto ad un altro bersaglio. L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di sfida differente."
     },
     {
       "id": "Aggro",
@@ -1498,7 +1498,7 @@
     {
       "id": "EmergencyFeed",
       "name": "Razioni d'Emergenza",
-      "desc": "Alla fine del turno, se questa unità ha curato il 15% o più PV, il corpo viene ripristinato il prossimo turno."
+      "desc": "Alla fine del turno, se questa unità ha curato il 15% o più PV, il corpo viene ripristinato il turno successivo."
     },
     {
       "id": "Bullet_Crab",
@@ -1523,7 +1523,7 @@
     {
       "id": "ChargeForceField",
       "name": "Scudo Energetico",
-      "desc": "- Ottiene ({0} x 3) Scudo.\n- Perde 1 Scudo Energetico # dopo aver perso ({0} x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., tutti gli effetti di Scudo Energetico si attivano a ({0} x 5) invece che a ({0} x 3))\n- A Fine Turno: Ottiene quantità di Carica per ogni Scudo Energetico #, e il prossimo turno lo scudo ottenuto da Scudo energetico e Scudo energetico vengono rimossi"
+      "desc": "- Ottiene ({0} x 3) Scudo.\n- Perde 1 Scudo Energetico # dopo aver perso ({0} x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., tutti gli effetti di Scudo Energetico si attivano a ({0} x 5) invece che a ({0} x 3))\n- A Fine Turno: Ottiene quantità di Carica per ogni Scudo Energetico #, e il turno successivo lo scudo ottenuto da Scudo energetico e Scudo energetico vengono rimossi"
     },
     {
       "id": "SlashResultUp",
@@ -1665,17 +1665,17 @@
     {
       "id": "DuelDeclaration_DonQuixote",
       "name": "Guanto di Sfida - Don Quixote",
-      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il prossimo turno dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
+      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il turno successivo dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
     },
     {
       "id": "DuelDeclaration_Outis",
       "name": "Guanto di Sfida - Outis",
-      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il prossimo turno dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
+      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il turno successivo dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
     },
     {
       "id": "DuelDeclaration_Sinclair",
       "name": "Guanto di Sfida - Sinclair",
-      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il prossimo turno dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
+      "desc": "In uno Scontro tra l'unità che ha inflitto lo status e l'unità che ha subito lo status, il dichiaratore ha +1 Potenza di Scontro, e ottiene 1 Rapidità il turno successivo dopo aver portato a segno un attacco. (4 volte per turno)l'effetto viene rimosso quando il Guanto di sfida viene lanciato contro un altro bersaglio. Rimpiazzato quando un Guanto di sfida differente viene lanciato."
     },
     {
       "id": "VibrationExplosion",
@@ -1850,13 +1850,13 @@
     {
       "id": "EchoOfMansion",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Main",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il prossimo turno\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 stack di Pianto quando ottiene stack o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
@@ -1957,7 +1957,7 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A Fine Turno, con 2+ stack:\n- Ottiene {1} Rapidità, Potere di Scontro, e Fragilità il prossimo turno\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il prossimo turno, L'effetto di Tempo in Prestito scade al prossimo turno, e questa unità Vacilla\n\nA Fine Turno: A 1 stack, ottiene {0} Lentezza il prossimo turno\nA Fine Turno: Ottiene 1 Massa, perde stack",
+      "desc": "A Fine Turno, con 2+ stack:\n- Ottiene {1} Rapidità, Potere di Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, L'effetto di Tempo in Prestito scade al prossimo turno, e questa unità Vacilla\n\nA Fine Turno: A 1 stack, ottiene {0} Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Massa, perde stack",
       "summary": ""
     },
     {
@@ -2005,56 +2005,56 @@
     {
       "id": "AaCfPaBa_Alt1",
       "name": "Lutto Infinito",
-      "desc": "A inizio Turno: recupera 5 PS\nQuando colpito, perde 3 PS e ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
+      "desc": "A inizio Turno: recupera 5 PS\nQuando colpito, perde 3 PS e ottiene 2 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPaBa_Alt2",
       "name": "Decapita gli Heathcliff",
-      "desc": "A inizio Turno: recupera 10 PS\nQuando colpito, ottiene 2 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
+      "desc": "A inizio Turno: recupera 10 PS\nQuando colpito, ottiene 2 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiede meno di 0 PS, ottiene 3 Potenziamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt1",
       "name": "Ira Strabordante",
-      "desc": "A Fine Turno: recupera 10 PS\nQuando colpito, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiedi meno di 0 PS, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 1 Danno Aumentato e 3 Calo Difensivo",
+      "desc": "A Fine Turno: recupera 10 PS\nQuando colpito, ottiene 1 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiedi meno di 0 PS, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 1 Danno Aumentato e 3 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt2",
       "name": "Decapita gli Heathcliff",
-      "desc": "A Fine Turno: recupera 10 PS\nquando colpito, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiedi meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 3 Danno Aumentato e 3 Calo Difensivo",
+      "desc": "A Fine Turno: recupera 10 PS\nquando colpito, ottiene 1 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiedi meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se questa unità possiede Dullahan, ottiene 3 Danno Aumentato e 3 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt3",
       "name": "Affetto e Odio",
-      "desc": "A Fine Turno: recupera 15 PS\nSul Colpo, ottiene 1 Rapidità e 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danno Aumentato",
+      "desc": "A Fine Turno: recupera 15 PS\nSul Colpo, ottiene 1 Rapidità e 1 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiede meno di 10 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danno Aumentato",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt4",
       "name": "Promessa Sfumata",
-      "desc": "A Fine Turno: recupera 15 PS\nSul Colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danno Aumentato e 3 Aumento Offensivo\nA 1 PS, recupera il 40% dei PV e 25 PS (una volta per incontro)",
+      "desc": "A Fine Turno: recupera 15 PS\nSul Colpo, ottiene 1 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danno Aumentato e 3 Aumento Offensivo\nA 1 PS, recupera il 40% dei PV e 25 PS (una volta per incontro)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt5",
       "name": "Promessa Sfumata",
-      "desc": "A Fine Turno: recupera 15 PS\nSul Colpo, ottiene 1 Aumento Offensivo il prossimo turno (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danno Aumentato e 3 Aumento Offensivo\nFinché vi è almeno un alleato ancora in vita, i PV di Heatcliff non scendono al di sotto di 1\nA 1 PV, recupera il 40% dei PV e 25 PS (una volta per incontro) ",
+      "desc": "A Fine Turno: recupera 15 PS\nSul Colpo, ottiene 1 Aumento Offensivo il turno successivo (3 volte per turno)\nA inizio Turno: se possiede meno di 20 PS, ottiene 3 Potenziamento\nA inizio Turno: se quest'unità possiede Dullahan, ottiene 3 Danno Aumentato e 3 Aumento Offensivo\nFinché vi è almeno un alleato ancora in vita, i PV di Heatcliff non scendono al di sotto di 1\nA 1 PV, recupera il 40% dei PV e 25 PS (una volta per incontro) ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Coffin",
       "name": "Bara",
-      "desc": "- Valore Massimo: 10\n- A Fine Turno:\n  - Ottiene 2 Danno Aumentato il prossimo turno per ogni 3 stack (max 6)\n  - Aumenta la velocità minima di 1 il prossimo turno per ogni 4 stack (max 2)\n  - Ottiene 1 Potenza di Scontro il prossimo turno per ogni 5 stack (max 2)",
+      "desc": "- Valore Massimo: 10\n- A Fine Turno:\n  - Ottiene 2 Danno Aumentato il turno successivo per ogni 3 stack (max 6)\n  - Aumenta la velocità minima di 1 il turno successivo per ogni 4 stack (max 2)\n  - Ottiene 1 Potenza di Scontro il turno successivo per ogni 5 stack (max 2)",
       "summary": ""
     },
     {
@@ -2066,7 +2066,7 @@
     {
       "id": "NightPathfinding",
       "name": "Dullahan",
-      "desc": "- Valore Massimo: 3\n- Ottiene 3 Livelli Offensivi\n- Perde 3  livelli difensivi\n- Aumenta i valori minimi e massimi di velocità di 1\n- A Fine Turno: Ottiene 1 Dullahan il prossimo turno (A meno di 25 PS , tuttavia, perde completamente Dullahan)\n- A Fine Turno: se quest'unità possiede Dullahan, perde (15 - (Bara/2)) PS. (min 10)",
+      "desc": "- Valore Massimo: 3\n- Ottiene 3 Livelli Offensivi\n- Perde 3  livelli difensivi\n- Aumenta i valori minimi e massimi di velocità di 1\n- A Fine Turno: Ottiene 1 Dullahan il turno successivo (A meno di 25 PS , tuttavia, perde completamente Dullahan)\n- A Fine Turno: se quest'unità possiede Dullahan, perde (15 - (Bara/2)) PS. (min 10)",
       "summary": ""
     },
     {
@@ -2125,7 +2125,7 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il prossimo turno:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un incontro mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un incontro mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
       "summary": ""
     },
     {
@@ -2171,7 +2171,7 @@
     {
       "id": "Snare",
       "name": "Lazo",
-      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene una quantità di Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Lentezza il prossimo turno\n- A Fine Turno: riduci di 1",
+      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene una quantità di Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduci di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2299,12 +2299,12 @@
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "La Quarta Pallottola Magica",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Peso attacco\n- Sul Colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il prossimo turno"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Peso attacco\n- Sul Colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
       "name": "La Quinta Pallottola Magica",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +4 Peso attacco\n- Sul Colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Calo Difensivo il prossimo turno"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +4 Peso attacco\n- Sul Colpo, infligge 10 Bruciatura; in seguito, infligge 4 Calo Offesivo e 4 Calo Difensivo il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_6th",
@@ -2437,14 +2437,14 @@
     {
       "id": "VengeanceBookSinclair",
       "name": "Libro della Vendetta [Sinclair]",
-      "desc": "- Max stack: 30\n- Infligge più danno pari al (stack)% (max 30%)\n- Ottiene i seguenti effetti il prossimo turno in base alle stack:\n· A 10+ stack: ottiene 1 Danni Contundenti Aumentati\n· A 20+ stack: Velocità Massima +1, ottiene 1 Possenza\n· A 30+ stack: ottiene 2 Danni Contundenti Potenziati",
+      "desc": "- Max stack: 30\n- Infligge più danno pari al (stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle stack:\n· A 10+ stack: ottiene 1 Danni Contundenti Aumentati\n· A 20+ stack: Velocità Massima +1, ottiene 1 Possenza\n· A 30+ stack: ottiene 2 Danni Contundenti Potenziati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max quantità: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A Fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio della Vendetta del Fratello il prossimo turno\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
+      "desc": "- Max quantità: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alla quantità (max 20%)\n- A Fine Turno: l'unità con la maggiore quantità di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
