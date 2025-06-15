@@ -439,7 +439,7 @@
                   "desc": "[DefeatDuel] Subisce 20 danni"
                 },
                 {
-                  "desc": "[DefeatDuel] Perde 1 Buccia Dorata"
+                  "desc": "[DefeatDuel] Perde 1 [BeingGolden]"
                 }
               ]
             }
@@ -470,7 +470,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Main body heals 3 PV"
+                  "desc": "[OnSucceedAttack] Il corpo principale si cura di 3 PV"
                 }
               ]
             },
@@ -622,7 +622,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 [Rapidità] il turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Agility] il turno successivo"
                 }
               ]
             }
@@ -829,7 +829,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 [Rapidità] il turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Agility] il turno successivo"
                 }
               ]
             }
@@ -2510,7 +2510,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 3 [Rapidità] il turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Agility] il turno successivo"
                 }
               ]
             }
@@ -2906,7 +2906,7 @@
         {
           "level": 1,
           "name": "Heated Cries",
-          "desc": "[WinDuel] Ottiene 1 [Rapidità] e 1 [Enhancement] il turno successivo",
+          "desc": "[WinDuel] Ottiene 1 [Agility] e 1 [Enhancement] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2928,7 +2928,7 @@
         {
           "level": 1,
           "name": "Heated Screams",
-          "desc": "[WinDuel] Ottiene 1 [Rapidità] e 1 [Enhancement] il turno successivo",
+          "desc": "[WinDuel] Ottiene 1 [Agility] e 1 [Enhancement] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -3369,7 +3369,7 @@
         {
           "level": 1,
           "name": "Entangling Talisman",
-          "desc": "[WhenUse] Infligge 2 Entangled Curse Talisman",
+          "desc": "[WhenUse] Infligge 2 [WrappedCurseTag]",
           "coinlist": [
             {
               "coindescs": [
@@ -3388,12 +3388,12 @@
         {
           "level": 1,
           "name": "Cumulating Curse",
-          "desc": "[WhenUse] Infligge 1 Entangled Curse Talisman",
+          "desc": "[WhenUse] Infligge 1 [WrappedCurseTag]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge Entangled Curse Talisman by target's Entangled Curse Talisman"
+                  "desc": "[OnSucceedAttack] Infligge [WrappedCurseTag] pari a [WrappedCurseTag] del bersaglio"
                 }
               ]
             },
@@ -3421,7 +3421,7 @@
         {
           "level": 1,
           "name": "So That No One Will Cry",
-          "desc": "[EndBattle] Remove all Reattached Curse Talisman",
+          "desc": "[EndBattle] Rimuovi ogni [ReattachedCurseTag]",
           "coinlist": [
             {},
             {},
@@ -3447,7 +3447,7 @@
         {
           "level": 1,
           "name": "Transferring Talisman",
-          "desc": "[WhenUse] Remove all Entangled Curse Talisman from target; Ottiene the same amount of Reattached Curse Talisman",
+          "desc": "[WhenUse] Rimuovi ogni [WrappedCurseTag] dal bersaglio; Ottiene la stessa quantità di [ReattachedCurseTag]",
           "coinlist": [
             {}
           ]
@@ -3460,7 +3460,7 @@
         {
           "level": 1,
           "name": "Proliferating Curse",
-          "desc": "[WhenUse] Infligge Entangled Curse Talisman by target's Entangled Curse Talisman",
+          "desc": "[WhenUse] Infligge [WrappedCurseTag] in base a [WrappedCurseTag] del bersaglio",
           "coinlist": [
             {}
           ]
@@ -3473,7 +3473,7 @@
         {
           "level": 1,
           "name": "Wanna Get Drunk?",
-          "desc": "In a clash, give 1 Morale Boost",
+          "desc": "In uno Scontro, infligge 1 [Exalted]",
           "coinlist": [
             {
               "coindescs": [
@@ -3492,7 +3492,7 @@
         {
           "level": 1,
           "name": "Let's Share the Drink!",
-          "desc": "In a clash, give 1 Morale Boost\n[WhenUse] Si cura di 5% PV",
+          "desc": "In uno Scontro, infligge 1 [Exalted]\n[WhenUse] Si cura del 5% di PV",
           "coinlist": [
             {
               "coindescs": [
@@ -3511,13 +3511,13 @@
         {
           "level": 1,
           "name": "This is All I Got!",
-          "desc": "In a Clash, give 2 Morale Boost\nPrioritizes enemies with [Vibration]",
+          "desc": "In uno Scontro, infligge 2 [Exalted]\nDà priorità ai nemici con [Vibration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion] by target's [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion] in base a [Vibration] Count del bersaglio"
                 }
               ]
             }
@@ -3531,18 +3531,18 @@
         {
           "level": 1,
           "name": "I'll Have This!",
-          "desc": "[CantDuel]\nCannot be redirected\nPrioritizes enemies with Morale Boost\nSe il bersaglio ha no Tipsy, Clash Power +5",
+          "desc": "[CantDuel]\nCannot be redirected\nDà priorità ai nemici con [Exalted]\nSe il bersaglio non ha [Tipsiness], Potere di Scontro +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha Morale Boost, infligge +10% danni for each Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Exalted], infligge +10% danni per ogni Stack"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha Tipsy, infligge 0 danni, e user loses 50 PV"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Tipsiness], infligge 0 danni, e chi la usa perde 50 PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove all Morale Boost or Tipsy"
+                  "desc": "[OnSucceedAttack] Rimuovi ogni [Exalted] o [Tipsiness]"
                 }
               ]
             }
@@ -3556,18 +3556,18 @@
         {
           "level": 1,
           "name": "I'll Have This!",
-          "desc": "Prioritizes enemies with Morale Boost\nSe il bersaglio ha no Tipsy, Clash Power +5",
+          "desc": "Dà priorità ai nemici con [Exalted]\nSe il bersaglio non ha [Tipsiness], Potere di Scontro +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha Morale Boost, infligge +100% danni for each Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Exalted], infligge +100% danni per ogni Stack"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha Tipsy, infligge 0 danni, e user loses 50 PV"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Tipsiness], infligge 0 danni, e chi la usa perde 50 PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove all Morale Boost or Tipsy"
+                  "desc": "[OnSucceedAttack] Rimuovi ogni [Exalted] o [Tipsiness]"
                 }
               ]
             }
@@ -3581,12 +3581,12 @@
         {
           "level": 1,
           "name": "Not This Time!",
-          "desc": "Prioritizes Fairy Wine",
+          "desc": "Dà priorità al Vino di Fata",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this attacks Fairy Wine, heal 10% PV il turno successivo, e gain 2 [Enhancement], 2 [Rapidità], e 2 Protection"
+                  "desc": "[OnSucceedAttack] Se questa attacca Vino di Fata, si cura di 10% PV il turno successivo, e ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
                 }
               ]
             }
@@ -3612,8 +3612,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fairy Wine",
-          "desc": "[WhenUse] Convert opponent's Morale Boost into Tipsy",
+          "name": "Vino di Fata",
+          "desc": "[WhenUse] Converte il [Exalted] del nemico in [Tipsiness]",
           "coinlist": [
             {}
           ]
@@ -3626,7 +3626,7 @@
         {
           "level": 1,
           "name": "Scattering Sorrow",
-          "desc": "[EndSkill] Infligge +2 Conteggio di [Burst] e +2 Conteggio di [Sinking] to all enemies",
+          "desc": "[EndSkill] Infligge +2 Conteggio di [Burst] e +2 Conteggio di [Sinking] a tutti i nemici",
           "coinlist": [
             {}
           ]
@@ -3698,7 +3698,7 @@
         {
           "level": 1,
           "name": "Self-defense",
-          "desc": "[DefeatDuel] Perde 8 PS e gain 3 [Sinking]",
+          "desc": "[DefeatDuel] Perde 8 PS e ottiene 3 [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -3746,7 +3746,7 @@
         {
           "level": 1,
           "name": "Sink It All",
-          "desc": "[WhenUse] Perde 30 PS e gain 5 [Sinking]; Ottiene Corroding Heart il turno successivo",
+          "desc": "[WhenUse] Perde 30 PS e ottiene 5 [Sinking]; Ottiene [ErodingMind] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -3781,7 +3781,7 @@
         {
           "level": 1,
           "name": "Don't Touch Me...!",
-          "desc": "[StartBattle] Ottiene Thorns",
+          "desc": "[StartBattle] Ottiene [Thorn]",
           "coinlist": [
             {}
           ]
@@ -3802,7 +3802,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             },
@@ -3812,7 +3812,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -3831,14 +3831,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DongbaekFlorescence]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -3852,7 +3852,7 @@
         {
           "level": 1,
           "name": "Flowering Buds",
-          "desc": "Spawn 2 flowers il turno successivo\nIf there are 4 flowers present, instead raise the level of a lowest-level flower by 1",
+          "desc": "Pianta 2 fiori il turno successivo\nSe ci sono 4 fiori, invece incrementa il livello del fiore dal livello più basso di 1",
           "coinlist": [
             {
               "coindescs": [
@@ -3860,7 +3860,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -3874,19 +3874,19 @@
         {
           "level": 1,
           "name": "Like Flowers in Full Bloom...",
-          "desc": "[WhenUse] Infligge 3 Blooming",
+          "desc": "[WhenUse] Infligge 3 [DongbaekFlorescence]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             },
@@ -3901,7 +3901,7 @@
         {
           "level": 1,
           "name": "Magnificent Spring Breeze",
-          "desc": "Ottiene +5 Valore Finale for each living Soon-to-bloom Flower\n\n[EndSkill] Remove all Soon-to-bloom Flowers",
+          "desc": "Ottiene +5 Valore Finale per ogni Fiore Che Sboccerà Presto in vita\n\n[EndSkill] Rimuovi tutti i Fiori Che Sbocceranno Presto",
           "coinlist": [
             {
               "coindescs": [
@@ -3909,7 +3909,7 @@
                   "desc": "[OnSucceedAttack] Il bersaglio perde 15 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -3923,7 +3923,7 @@
         {
           "level": 1,
           "name": "Must Cover With Dirt",
-          "desc": "[WhenUse] Infligge Dueling il turno successivo",
+          "desc": "[WhenUse] Infligge [DongbaekShowdown] il turno successivo",
           "coinlist": [
             {}
           ]
@@ -3936,7 +3936,7 @@
         {
           "level": 1,
           "name": "Flowering Glory",
-          "desc": "[StartBattle] Ottiene 10 Protection\n[DefeatDuel] Ottiene 1 Scattering Petals",
+          "desc": "[StartBattle] Ottiene 10 [Protection]\n[DefeatDuel] Ottiene 1 [DongbaekScatterPetal]",
           "coinlist": [
             {}
           ]
@@ -3949,7 +3949,7 @@
         {
           "level": 1,
           "name": "Withering Flower",
-          "desc": "[StartBattle] Ottiene 10 Protection\n[DefeatDuel] Ottiene 3 Scattering Petals",
+          "desc": "[StartBattle] Ottiene 10 [Protection]\n[DefeatDuel] Ottiene 3 [DongbaekScatterPetal]",
           "coinlist": [
             {}
           ]
@@ -3962,12 +3962,12 @@
         {
           "level": 1,
           "name": "Culminating Fragrance",
-          "desc": "If target is Fully Bloomed, infligge +100% danni",
+          "desc": "Se il bersaglio è in [DongbaekFullBloom], infligge +100% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target is Fully Bloomed, stagger them e remove the effect"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è in [DongbaekFullBloom], lo fa Vacillare e rimuove l'effetto"
                 }
               ]
             },
@@ -3998,7 +3998,7 @@
         {
           "level": 1,
           "name": "Piquant Scent",
-          "desc": "[OnSucceedEvade] Infligge 1 Blooming",
+          "desc": "[OnSucceedEvade] Infligge 1 [DongbaekFlorescence]",
           "coinlist": [
             {}
           ]
@@ -4011,7 +4011,7 @@
         {
           "level": 1,
           "name": "Awaiting the Moment",
-          "desc": "[StartBattle] Ottiene 5 Protection",
+          "desc": "[StartBattle] Ottiene 5 [Protection]",
           "coinlist": [
             {}
           ]
@@ -4029,7 +4029,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -4048,14 +4048,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -4074,21 +4074,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Blooming"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DongbaekFlorescence]"
                 }
               ]
             }
@@ -4114,8 +4114,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fully Bloomed",
-          "desc": "[DefeatDuel] This unit is defeated",
+          "name": "[DongbaekFullBloom]",
+          "desc": "[DefeatDuel] Questa unità viene sconfitta",
           "coinlist": [
             {}
           ]
@@ -4128,7 +4128,7 @@
         {
           "level": 1,
           "name": "Full Bloom",
-          "desc": "Cannot act\nA the end of the turn, lose 20 PS\nIf PS reaches -45, fully heal PS, then gain Dazzled Mind il turno successivo\nIf this effect isn't removed for 2 turns, remove it at the end of the turn",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, ed ottiene 'Mente Frastornata' il turno successivo.\nSe quest'effetto non viene rimosso per 2 turni, verrà rimosso alla fine del turno.",
           "coinlist": [
             {}
           ]
@@ -4141,7 +4141,7 @@
         {
           "level": 1,
           "name": "You're Empty As Well",
-          "desc": "[WhenUse] Infligge Empty Mark il turno successivo",
+          "desc": "[WhenUse] Infligge [DistortedDongrangEmptyMark] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -4198,7 +4198,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di by danni infligget"
+                  "desc": "[OnSucceedAttack] Si cura pari ai danni inflitti"
                 }
               ]
             }
@@ -4212,19 +4212,19 @@
         {
           "level": 1,
           "name": "Thinning",
-          "desc": "Infligge +50% danni ai bersagli con Empty Mark\n[DefeatDuel] Ottiene 1 [Vulnerable] il turno successivo",
+          "desc": "Infligge +50% danni ai bersagli con [DistortedDongrangEmptyMark]\n[DefeatDuel] Ottiene 1 [Vulnerable] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di by danni infligget\nSe il bersaglio ha Empty Mark, gain 1 [Enhancement] il turno successivo"
+                  "desc": "[OnSucceedAttack] Si cura pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di by danni infligget\nSe il bersaglio ha Empty Mark, gain 1 [Enhancement] il turno successivo"
+                  "desc": "[OnSucceedAttack] Si cura pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -4257,26 +4257,26 @@
         {
           "level": 1,
           "name": "Still Not Enough...",
-          "desc": "Targets a random friendly unit",
+          "desc": "Bersaglia un'unità alleata casuale",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Si cura di by 25% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Si cura del 25% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Si cura di by 25% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Si cura del 25% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb 1 random positive status effect from target e gain it il turno successivo"
+                  "desc": "[OnSucceedAttack] Assorbe 1 effetto di stato positivo casuale del bersaglio e lo ottiene il turno successivo"
                 }
               ]
             }
@@ -4290,19 +4290,19 @@
         {
           "level": 1,
           "name": "Must Fill...",
-          "desc": "Targets a random unit",
+          "desc": "Bersaglia un'unità casuale",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb 1 random positive status effect from target e gain it il turno successivo"
+                  "desc": "[OnSucceedAttack] Assorbe 1 effetto di stato positivo casuale del bersaglio e lo ottiene il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply +5 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Applica +5 Conteggio di [Laceration]"
                 }
               ]
             }
@@ -4425,7 +4425,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Seeds il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge 3 [EgoAwakenDongrangSeed] il turno successivo"
                 }
               ]
             }
@@ -4444,21 +4444,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Seeds; if target already has Seeds, inflict 1 more"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EgoAwakenDongrangSeed]; se il bersaglio ha già [EgoAwakenDongrangSeed], infligge 1 in più"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Seeds; if target already has Seeds, inflict 1 more"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EgoAwakenDongrangSeed]; se il bersaglio ha già [EgoAwakenDongrangSeed], infligge 1 in più"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Seeds; if target already has Seeds, inflict 1 more"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EgoAwakenDongrangSeed]; se il bersaglio ha già [EgoAwakenDongrangSeed], infligge 1 in più"
                 }
               ]
             }
@@ -4477,7 +4477,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Seeds e Overheal; Si cura di target's PV by 15"
+                  "desc": "[OnSucceedAttack] Infligge 3 [EgoAwakenDongrangSeed] e [EgoAwakenDongrangOverHeal]; Cura i PV del bersaglio di 15"
                 }
               ]
             }
@@ -4496,7 +4496,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] e 10 [Laceration]\nSe il bersaglio ha Nutrient Drain, heal 20 PV, e gain 2 [Enhancement] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] e 10 [Laceration]\nSe il bersaglio ha [EgoAwakenDongrangTree], si cura di 20 PV, e ottiene 2 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -4510,12 +4510,12 @@
         {
           "level": 1,
           "name": "Please Be My Nutrient",
-          "desc": "[WhenUse] All Trees of Desires heal 15 PV; If there are no Trees of Desires, spawn one",
+          "desc": "[WhenUse] Tutti gli Alberi dei Desideri si curano di 15 PV; Se non ci sono Alberi dei Desideri, ne pianta uno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di 10 PV; Infligge 3 Seeds"
+                  "desc": "[OnSucceedAttack] Si cura di 10 PV; Infligge 3 [EgoAwakenDongrangSeed]"
                 }
               ]
             }
@@ -4534,14 +4534,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Seeds"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EgoAwakenDongrangSeed]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Seeds"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EgoAwakenDongrangSeed]"
                 }
               ]
             }
@@ -4627,7 +4627,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Reduce target's Defense Level by 2 il turno successivo"
+                  "desc": "[OnSucceedAttack] Decrementa il Livello Difensivo del bersaglio di 2 il turno successivo"
                 }
               ]
             }
@@ -4641,7 +4641,7 @@
         {
           "level": 1,
           "name": "Encroaching Stems",
-          "desc": "[WinDuel] Se il bersaglio ha [Burst], inflict +2 Conteggio di [Burst]",
+          "desc": "[WinDuel] Se il bersaglio ha [Burst], infligge +2 Conteggio di [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -4665,7 +4665,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Vibration] by target's [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Burst] del bersaglio"
                 },
                 {
                   "desc": "[OnSucceedAttack] Causa [VibrationExplosion]"
@@ -4682,7 +4682,7 @@
         {
           "level": 1,
           "name": "Hard Branches",
-          "desc": "[StartBattle] Ottiene 3 Protection",
+          "desc": "[StartBattle] Ottiene 3 [Protection]",
           "coinlist": [
             {}
           ]
@@ -4700,13 +4700,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], inflict 1 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge 1 [Paralysis]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ Conteggio di [Laceration], inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ Conteggio di [Laceration], infligge 5 [Laceration]"
                 }
               ]
             }
@@ -4725,7 +4725,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], inflict 1 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge 1 [Binding] il turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
@@ -4750,14 +4750,14 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], heal 20 PV"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], si cura di 20 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ Conteggio di [Laceration], inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ Conteggio di [Laceration], infligge 5 [Laceration]"
                 }
               ]
             }
@@ -4771,12 +4771,12 @@
         {
           "level": 1,
           "name": "Casting Shade",
-          "desc": "[WhenUse] Spawn a Giant Clover il turno successivo\n[WhenUse] Infligge +5% danni per Conteggio di [Laceration]\n[DefeatDuel] The Giant Clover spawns with 70% PV",
+          "desc": "[WhenUse] Pianta un Quadrifoglio Gigante il turno successivo\n[WhenUse] Infligge +5% danni per Conteggio di [Laceration]\n[DefeatDuel] Il Quadrifoglio Gigante appare con il 70% dei PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Remove all Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Rimuovi ogni Conteggio di [Laceration]"
                 }
               ]
             }
@@ -4795,7 +4795,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di by 1% dei PV Max per target's [Laceration]\nRemove all Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Si cura di 1% dei PV Massimi pari al [Laceration] del bersaglio\nRimuovi ogni Conteggio di [Laceration]"
                 }
               ]
             }
@@ -4821,7 +4821,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Golosi Avidi",
+          "name": "Gola Avida",
           "coinlist": [
             {
               "coindescs": [
@@ -4853,7 +4853,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Roll",
+          "name": "Rotolamento",
           "coinlist": [
             {}
           ]
@@ -4865,7 +4865,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slothful Grip",
+          "name": "Presa Pigra",
           "coinlist": [
             {
               "coindescs": [
@@ -4914,7 +4914,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fire Off",
+          "name": "Spruzza",
           "coinlist": [
             {}
           ]
@@ -4926,7 +4926,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bursting Gloom",
+          "name": "Tristezza Prorompente",
           "coinlist": [
             {
               "coindescs": [
@@ -4944,7 +4944,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Strike Down",
+          "name": "Colpo in Basso",
           "coinlist": [
             {}
           ]
@@ -4956,7 +4956,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Piercing Lust",
+          "name": "Lussuria Penetrante",
           "coinlist": [
             {
               "coindescs": [
@@ -4974,7 +4974,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Grind",
+          "name": "Macinazione",
           "coinlist": [
             {}
           ]
@@ -4986,7 +4986,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prideful Runover",
+          "name": "Frantumare Orgoglioso",
           "coinlist": [
             {
               "coindescs": [
@@ -5012,7 +5012,7 @@
         {
           "level": 1,
           "name": "Queen's Decree",
-          "desc": "[StartBattle] Infligge 1 [PreparedMeat] to a random ally without [PreparedMeat]",
+          "desc": "[StartBattle] Infligge 1 [PreparedMeat] a un alleato casuale senza [PreparedMeat]",
           "coinlist": [
             {}
           ]
@@ -5050,12 +5050,12 @@
         {
           "level": 1,
           "name": "Predation",
-          "desc": "If the target has 5+ [Laceration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di 3% dei PV Max to the Core"
+                  "desc": "[OnSucceedAttack] Cura il Nucleo di 3% dei PV Max"
                 }
               ]
             }
@@ -5069,7 +5069,7 @@
         {
           "level": 1,
           "name": "Starved Fluttering",
-          "desc": "A 3+ [Hunger], Potere Moneta +1\nIf the target has 5+ [Laceration], Potere Moneta +1",
+          "desc": "A 3+ [Hunger], Potere Moneta +1\nSe il bersaglio ha 5+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -5102,15 +5102,15 @@
         {
           "level": 1,
           "name": "Ravening Hunger",
-          "desc": "[CantIdentify]\nPrioritizes targets with [PreparedMeat]\nIf the target has 5 +[Laceration], Potere Moneta +1\nIf the target has [PreparedMeat], Potere Moneta +10\nPotere Moneta -5 for every broken Arm Part\n[TargetKill] All Parts gain 2 [Enhancement] for the Encounter (stackable)",
+          "desc": "[CantIdentify]\nDà priorità ai bersagli con [PreparedMeat]\nSe il bersaglio ha 5 +[Laceration], Potere Moneta +1\nSe il bersaglio ha [PreparedMeat], Potere Moneta +10\nPotere Moneta -5 Per ogni Parte Braccio rotta\n[TargetKill] Tutte le parti ottengono 2 [Enhancement] durante l'Incontro (additivo)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Reuse Coin once (3 times per Skill)"
+                  "desc": "[OnSucceedAttackHead] Riusa la Moneta una volta (3 volte per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core heals 10 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo si cura di 10 PV"
                 }
               ]
             }
@@ -5136,7 +5136,7 @@
         {
           "level": 1,
           "name": "Time to Pay for My Care",
-          "desc": "[StartBattle] Infligge 1 [PreparedMeat] a tutti gli alleati without [PreparedMeat]",
+          "desc": "[StartBattle] Infligge 1 [PreparedMeat] a tutti gli alleati senza [PreparedMeat]",
           "coinlist": [
             {}
           ]
@@ -5153,14 +5153,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 3 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo si cura di 3 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 3 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo si cura di 3 PV"
                 }
               ]
             }
@@ -5174,12 +5174,12 @@
         {
           "level": 1,
           "name": "Gluttony",
-          "desc": "If the target has 5+ [Laceration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 10 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo si cura di 10 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Laceration]"
@@ -5196,7 +5196,7 @@
         {
           "level": 1,
           "name": "Tiny Wingbeat",
-          "desc": "If the target has 5+ [Laceration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
