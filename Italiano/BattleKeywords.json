@@ -271,7 +271,7 @@
     {
       "id": "PinkRibbon_Ishmael",
       "name": "Nastri Rosa",
-      "desc": "Il Conteggio incrementano di 1 ogni volta che l'unità tira una Moneta offensiva.\nAlla fine del turno, infligge Lentezza pari alle Stack, e poi rimuove l'effetto."
+      "desc": "Le Stack incrementano di 1 ogni volta che l'unità tira una Moneta offensiva.\nAlla fine del turno, infligge Lentezza pari alle Stack, e poi rimuove l'effetto."
     },
     {
       "id": "Muckworm",
@@ -701,7 +701,7 @@
     {
       "id": "MarkOfHeresy",
       "name": "Sguardo",
-      "desc": "Subisce +20% danni in più dalle Abilità Perforanti e Contundenti per un turno.\nL'alleato che sconfigge l'unità marchiata si cura di 10 PS; se l'alleato è un 'Fanatismo di N Corp.', applica anche 1 Fanatismo il turno successivo."
+      "desc": "Subisce +20% danni in più dalle Abilità Perforanti e Contundenti per un turno.\nL'alleato che sconfigge l'unità marchiata si cura di 10 PS; se l'alleato è un 'Fanatico di N Corp.', applica anche 1 Fanatismo il turno successivo."
     },
     {
       "id": "HitResultUp",
@@ -896,8 +896,8 @@
     {
       "id": "Nervous",
       "name": "Nervosismo",
-      "desc": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Fortificazione il turno successivo",
-      "summary": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Fortificazione il turno successivo"
+      "desc": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Resistenza il turno successivo",
+      "summary": "A Fine Turno: se i PS sono -15 o inferiore , ottiene 5 Resistenza il turno successivo"
     },
     {
       "id": "ATL_Agility",
@@ -1105,7 +1105,7 @@
     {
       "id": "EgoAwakenDongrangOverHeal",
       "name": "Crescita Eccessiva",
-      "desc": "Il Conteggio aumentano in base ai PV recuperati da Dongrang;  50+ Stack, subisce danno da Gola pari alle Stack e ottiene 5 Vulnerabilità, ed infine rimuove quest'effetto."
+      "desc": "Le Stack aumentano in base ai PV recuperati da Dongrang;  50+ Stack, subisce danno da Gola pari alle Stack e ottiene 5 Vulnerabilità, ed infine rimuove quest'effetto."
     },
     {
       "id": "SinkingSurge",
@@ -1152,7 +1152,7 @@
     {
       "id": "KCorpSerum",
       "name": "Fiala di K. Corp",
-      "desc": "A inizio Turno: Se le Stack sono meno di 4, si cura di (Stack * 5)% dei PV Max\nA 4+ Stack, l'unitàmuore",
+      "desc": "A inizio Turno: Se le Stack sono meno di 4, si cura di (Stack * 5)% dei PV Max\nA 4+ Stack, l'unità muore",
       "summary": ""
     },
     {
@@ -1169,15 +1169,15 @@
     },
     {
       "id": "Choice_9010400101",
-      "name": "Determinato",
+      "name": "Determinazione",
       "desc": "Tutti gli alleati ottengono +2 al Valore Finale delle Abilità per il resto della battaglia",
       "summary": "Valore Finale delle Abilità +2"
     },
     {
       "id": "Choice_90104002",
       "name": "Desiderio Intenso",
-      "desc": "Tutti gli alleati ottengono +1 Potere Abilità per il resto della battaglia",
-      "summary": "Potere Abilità +1"
+      "desc": "Tutti gli alleati ottengono +1 Valore Finale per il resto della battaglia",
+      "summary": "Valore Finale +1"
     },
     {
       "id": "MentalSystemResultIncrease_Typo",
@@ -1232,7 +1232,7 @@
     {
       "id": "ChargeForceField",
       "name": "Scudo Energetico",
-      "desc": "- Ottiene (Scudo Energetico # x 3) Scudo.\n- Perde 1 Scudo Energetico dopo aver perso (Scudo Energetico # x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., TUTTI gli effetti di Scudo Energetico si attivano a (Scudo Energetico # x 5) nvece che a (Scudo Energetico # x 3))\n- A Fine Turno: Ottiene quantità di Carica per ogni Scudo Energetico #; nel turno successivo, lo scudo ottenuto da Scudo energetico e Scudo Energetico vengono rimossi"
+      "desc": "- Ottiene (Scudo Energetico # x 3) Scudo.\n- Perde 1 Scudo Energetico dopo aver perso (Scudo Energetico # x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., TUTTI gli effetti di Scudo Energetico si attivano a (Scudo Energetico # x 5) nvece che a (Scudo Energetico # x 3))\n- A Fine Turno: Ottiene Conteggio di Carica per ogni Scudo Energetico #; nel turno successivo, lo scudo ottenuto da Scudo energetico e Scudo Energetico vengono rimossi"
     },
     {
       "id": "SlashResultUp",
@@ -1442,20 +1442,20 @@
     },
     {
       "id": "VibrationContinue",
-      "name": "Vibrazione - Eterno",
+      "name": "Vibrazione - Eternità",
       "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando viene colpito da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio di Vibrazione su sé stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
       "id": "TimeSuspend",
       "name": "Tempus Moratorium",
-      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno viene immagazzinato\n- A fine combattimento: se rimane solo 1 Stack,  quest'effetto attiva Scoppio Vibrazione dopo aver inflitto il (100 + (Massa x 15)% del danno immagazzinato come danno da Accidia\n- A Fine Turno: ottiene 1 Massa e perde 1 Stack\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un altra istanza di Tempus Moratorium è inflitta ad un unità con Tempus Moratorium.",
+      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno viene immagazzinato\n- A fine combattimento: se rimane solo 1 Conteggio,  quest'effetto attiva Scoppio Vibrazione dopo aver inflitto il (100 + (Potenza x 15)% del danno immagazzinato come danno da Accidia\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.",
       "summary": ""
     },
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A Fine Turno, con 2+ Stack:\n- Ottiene (Stack di Tempo in Prestito - 1) Rapidità, Potere di Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, l'effetto di Tempo in Prestito scade al turno successivo, e questa unità Vacilla\n\nTurn End: A Fine Turno: A 1 Stack, ottiene (Tempo in Prestito - 1) Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Massa, perde Stack",
+      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene (Conteggio di Tempo in Prestito - 1) Rapidità, Potere di Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, l'effetto di Tempo in Prestito scade al turno successivo, e questa unità Vacilla\n\nTurn End: A Fine Turno: A 1 Conteggio, ottiene (Tempo in Prestito - 1) Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
       "summary": ""
     },
     {
@@ -1552,7 +1552,7 @@
     },
     {
       "id": "UninvitedGuestPersonality",
-      "name": "L'Indesiderato",
+      "name": "Spiacevole",
       "desc": "- Valore Massimo: 2\n- Alla morte, l'ultimo attaccante recupera 3 PS; in seguito, un alleato casuale che non possedeva quest'effetto ne ottiene 2 Stack.\n- Subisce +0.5% più danno per ogni Pianto su sé stesso (max 10%; per gli incontri mirati, Pianto viene conteggiato su ogni parte in modo separato)\n- A Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
@@ -1574,7 +1574,7 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n-  Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la Velocità di quest'unità al minimo\n  · Ottiene 5 Fortificazione\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla sua Velocità (solo durante un Incontro Mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n-  Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la Velocità di quest'unità al minimo\n  · Ottiene 5 Resistenza\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla sua Velocità (solo durante un Incontro Mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
       "summary": ""
     },
     {
@@ -1620,7 +1620,7 @@
     {
       "id": "Snare",
       "name": "Lazo",
-      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene una quantità di Lacerazione pari al valore corrente della Velocità di quest'unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduce le Stack di 1",
+      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio di Lacerazione pari al valore corrente della Velocità di quest'unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduce le Stack di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -1648,7 +1648,7 @@
     {
       "id": "WornHeartGreg",
       "name": "Cuore Sofferente",
-      "desc": "- Valore Massimo: 10\n- A Fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Fortificazione per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, sul colpo con le Abilità di base, recupera (Stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per Abilità)",
+      "desc": "- Valore Massimo: 10\n- A Fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Resistenza per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, sul colpo con le Abilità di base, recupera (Stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per Abilità)",
       "summary": "",
       "undefined": "-"
     },
@@ -1690,38 +1690,38 @@
     {
       "id": "DevyatDimensionalSackSinclair",
       "name": "Baule del Corriere - Sinclair",
-      "desc": "- Valore di Base: 0\n- A inizio Turno: ottiene 3 Stack\n- Il Conteggio non scadono alla ritirata, ma vengono invece immagazzinate\n- A 10+ Stack: aumenta i valori min e max della Velocità di 1\n- A 20+ Stack: Ottiene 1 Potenza Scontro e 1 Danno Contundente Aumentato\n-  quando usa un'Abilità, subisce (Stack/3)% danni ai PV e (Stack/3) danni ai PS\n· A Fine Turno, subisce (Stack/2)% danni ai PV e (Stack/2) danni alla PS (si applica prima della ritirata)",
+      "desc": "- Valore di Base: 0\n- A inizio Turno: ottiene 3 Stack\n- Le Stack non scadono alla ritirata, ma vengono invece immagazzinate\n- A 10+ Stack: aumenta i valori min e max della Velocità di 1\n- A 20+ Stack: Ottiene 1 Potenza Scontro e 1 Danno Contundente Aumentato\n-  quando usa un'Abilità, subisce (Stack/3)% danni ai PV e (Stack/3) danni ai PS\n· A Fine Turno, subisce (Stack/2)% danni ai PV e (Stack/2) danni alla PS (si applica prima della ritirata)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Zazen",
       "name": "Dhyāna",
-      "desc": "- Quantità Massima: 108\n- Infligge +1% danni in più per ogni Stack",
+      "desc": "- Stack Massime: 108\n- Infligge +1% danni in più per ogni Stack",
       "summary": "Infligge più danni"
     },
     {
       "id": "SwirlingBloodPersonality",
       "name": "Sangue Vorticoso【Sanguidemone】",
-      "desc": "- Quantità Massima: 50\n-  Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle Stack nel momento in cui viene applicato\n-Scade a Fine Turno",
+      "desc": "- Stack Massime: 50\n-  Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle Stack nel momento in cui viene applicato\n-Scade a Fine Turno",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalityFirst",
       "name": "Sangue Coagulato",
-      "desc": "- Valore Massimo: 10\n- Stadio 1 Sangue Coagulato\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- Aumenta i valori minimi e massimi di velocità di 1 per ogni 10 Sangue Coagulato\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Fortificazione in base alle Stack",
+      "desc": "- Valore Massimo: 10\n- Stadio 1 Sangue Coagulato\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- Aumenta i valori minimi e massimi di velocità di 1 per ogni 10 Sangue Coagulato\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Resistenza in base alle Stack",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalitySecond",
       "name": "Sangue Coagulato II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 5 Stack\n- Aumenta i valori massimi e minimi di velocità di 1\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Fortificazione in base alle Stack",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 5 Stack\n- Aumenta i valori massimi e minimi di velocità di 1\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Resistenza in base alle Stack",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalityThird",
       "name": "Sangue Coagulato III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo e 1 Fortificazione per ogni 5 Stack\n- Aumenta i valori minimi e massimi di velocità di 2\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Fortificazione in base alle Stack",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo e 1 Resistenza per ogni 5 Stack\n- Aumenta i valori minimi e massimi di velocità di 2\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Resistenza in base alle Stack",
       "summary": ""
     },
     {
@@ -1763,7 +1763,7 @@
     {
       "id": "FreishutzOutisEgoBullet_7th",
       "name": "La Settima Pallottola Magica",
-      "desc": "- Infligge +200% danni\n- Infligge +2.5% più danni per ogni 1% PV mancanti al bersaglio (max 200%)\n- Prima di attaccare: per questo attacco, se la resistenza al danno perforante sul nemico e su sè stesso sono meno di 2.0, cambia in Fatale (x2.0)\n- Dopo l'attacco: quest'unità muore"
+      "desc": "- Infligge +200% danni\n- Infligge +2.5% più danni per ogni 1% PV mancanti al bersaglio (max 200%)\n- Prima di attaccare: per questo attacco, se la resistenza al danno perforante sul nemico e su di sè sono meno di 2.0, cambia in Fatale (x2.0)\n- Dopo l'attacco: quest'unità muore"
     },
     {
       "id": "FreishutzOutisEgoBulletCnt",
@@ -1819,7 +1819,7 @@
     {
       "id": "NebulizerInhale",
       "name": "Nebulizzatore β",
-      "desc": "- Max Stack: 5\n- Quest'effetto persiste per tutto l'incontro\n- Quando si attiva la Risonanza Superbia Assoluta: All'inizio del combattimento, applica 3 Respiro e +3 Conteggio di Respiro su sè stesso e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
+      "desc": "- Max Stack: 5\n- Quest'effetto persiste per tutto l'incontro\n- Quando si attiva la Risonanza Superbia Assoluta: All'inizio del combattimento, applica 3 Respiro e +3 Conteggio di Respiro su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
       "summary": "Ottiene Respiro e Conteggio di Respiro"
     },
     {
@@ -1845,7 +1845,7 @@
     {
       "id": "EngageToBattle",
       "name": "Pronti alla Battaglia",
-      "desc": "Valore Massimo: 1\n+1 a Potenza e alle Conteggio di Sanguinamento inflitte con le Abilità o con gli effetti delle monete di quest'unità\nOttiene 1 Potenzia Tagliente e 3 Danno Tagliente Aumentato per la durata dell'incontro"
+      "desc": "Valore Massimo: 1\n+1 a Potenza e al Conteggio di Sanguinamento inflitte con le Abilità o con gli effetti delle monete di quest'unità\nOttiene 1 Potenzia Tagliente e 3 Danno Tagliente Aumentato per la durata dell'incontro"
     },
     {
       "id": "CloudWall",
@@ -1898,7 +1898,7 @@
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o Passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con le Stack maggiori quantità di quest'effetto ottiene 1 Marchio della Vendetta Fraterno il turno successivo\n(Calcolato separatemante da Marchio della Vendetta; se più di una singola unità ha il valore più alto di quest'effetto, viene bersagliata l'unità coi PV maggiori)",
+      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o Passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con le Stack maggiori di quest'effetto ottiene 1 Marchio della Vendetta Fraterno il turno successivo\n(Calcolato separatemante da Marchio della Vendetta; se più di una singola unità ha il valore più alto di quest'effetto, viene bersagliata l'unità coi PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
