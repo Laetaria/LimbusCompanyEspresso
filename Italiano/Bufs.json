@@ -253,7 +253,7 @@
     {
       "id": "Nail",
       "name": "Chiodi di N Corp",
-      "desc": "A inizio Turno: Ottiene 1 Sanguinamento e aumenta il Conteggio di Sanguinamento di {0}.\nA Fine Turno: L'effetto di 1.",
+      "desc": "A inizio Turno: Ottiene 1 Sanguinamento e aumenta il Conteggio Sanguinamento di {0}.\nA Fine Turno: L'effetto di 1.",
       "summary": "Ottiene e Sanguinamento e aggiunge +{0} o di Sanguinamento"
     },
     {
@@ -349,8 +349,8 @@
     {
       "id": "Muckworm",
       "name": "Vermi",
-      "desc": "A Fine Turno: subisce danni da Gola in base alle Stack, poi diminuisce di 1; +1 alle Conteggio di Sanguinamento.",
-      "summary": "Danno da Gola; Conteggio di Sanguinamento +1"
+      "desc": "A Fine Turno: subisce danni da Gola in base alle Stack, poi diminuisce di 1; +1 alle Conteggio Sanguinamento.",
+      "summary": "Danno da Gola; Conteggio Sanguinamento +1"
     },
     {
       "id": "AttackUp",
@@ -368,7 +368,7 @@
       "id": "Liu_Meursault_Guard_Buff",
       "name": "Stoico come una montagna",
       "desc": "Quando viene attaccato, infligge +1 o di Bruciatura sull'attaccante.",
-      "summary": "Conteggio di Bruciatura a chi ha attaccato +1"
+      "summary": "Conteggio Bruciatura a chi ha attaccato +1"
     },
     {
       "id": "SlashResistUp",
@@ -895,8 +895,8 @@
     {
       "id": "NailPersonality",
       "name": "Chiodi",
-      "desc": "Sanguinamento Speciale\nA inizio Turno: Ottiene 1 Sanguinamento e aumenta il Conteggio di Sanguinamento di {0}.\nA Fine Turno: dimezza le Stack di quest'effetto. (Arrotondato per difetto)",
-      "summary": "Ottiene 1 Sanguinamento e aggiungi +{0} Conteggio di Sanguinamento "
+      "desc": "Sanguinamento Speciale\nA inizio Turno: Ottiene 1 Sanguinamento e aumenta il Conteggio Sanguinamento di {0}.\nA Fine Turno: dimezza le Stack di quest'effetto. (Arrotondato per difetto)",
+      "summary": "Ottiene 1 Sanguinamento e aggiungi +{0} Conteggio Sanguinamento "
     },
     {
       "id": "AssemblePersonality",
@@ -985,8 +985,8 @@
     {
       "id": "DimensionRift",
       "name": "Squarcio Dimensionale",
-      "desc": "A Fine Turno: Ottiene +{0} Conteggio di Lacerazione ",
-      "summary": "Aumenta il Conteggio di Lacerazione"
+      "desc": "A Fine Turno: Ottiene +{0} Conteggio Lacerazione ",
+      "summary": "Aumenta il Conteggio Lacerazione"
     },
     {
       "id": "Scared",
@@ -1039,12 +1039,12 @@
     {
       "id": "Exalted",
       "name": "Morale Alto",
-      "desc": "ottiene {0} Danno Aumentato ogni turno (Max 5)\nNon può ottenere questo status mentre ha Ebbrezza",
-      "summary": "ottiene Danno Aumentato in base alle Stack ogni turno; non puoi ottenerlo mentre ha Ebbrezza"
+      "desc": "ottiene {0} Danno Aumentato ogni turno (Max 5)\nNon può ottenere questo status mentre è Alticcio",
+      "summary": "ottiene Danno Aumentato in base alle Stack ogni turno; non puoi ottenerlo mentre è Alticcio"
     },
     {
       "id": "Tipsiness",
-      "name": "Ebbrezza",
+      "name": "Alticcio",
       "desc": "Potere di Scontro -{0} (Max 5)",
       "summary": "Perdi Potere di Scontro in base alle Stack dell'effetto"
     },
@@ -1260,7 +1260,7 @@
     {
       "id": "EmittedCurrent",
       "name": "Scarica di Corrente",
-      "desc": "Quando Colpito, l'attaccante guadagna 1 Conteggio di Carica; quando colpito da un attacco Tristezza, ottiene 1 Conteggio di Lacerazione, poi riduce le Stack di 1"
+      "desc": "Quando Colpito, l'attaccante guadagna 1 Conteggio Carica; quando colpito da un attacco Tristezza, ottiene 1 Conteggio Lacerazione, poi riduce le Stack di 1"
     },
     {
       "id": "DistortedDongrangRadiantVanity",
@@ -1320,7 +1320,7 @@
     {
       "id": "SinkingSurge",
       "name": "Pianto Incessante",
-      "desc": "Infligge danni ai PS pari a (Conteggio di Pianto * Potenza di Pianto), per poi rimuovere Pianto\nSe i PS del bersaglio sono a -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza PS subiscono sempre danni da Tristezza)"
+      "desc": "Infligge danni ai PS pari a (Conteggio Pianto * Potenza di Pianto), per poi rimuovere Pianto\nSe i PS del bersaglio sono a -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza PS subiscono sempre danni da Tristezza)"
     },
     {
       "id": "Blue",
@@ -1437,8 +1437,8 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Stack Max: 6\nSul Colpo, consuma 1 Conteggio di Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio di Lacerazione è stato consumato; arrotondato per difetto\nQuando subisce un colpo, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA Fine Turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
-      "summary": "Sul Colpo, consuma il Conteggio di Lacerazione sul bersaglio per infliggere Lacerazione; quando subisce un colpo, ottiene Lacerazione e perde 1 Stack"
+      "desc": "Stack Max: 6\nSul Colpo, consuma 1 Conteggio Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio Lacerazione è stato consumato; arrotondato per difetto\nQuando subisce un colpo, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA Fine Turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
+      "summary": "Sul Colpo, consuma il Conteggio Lacerazione sul bersaglio per infliggere Lacerazione; quando subisce un colpo, ottiene Lacerazione e perde 1 Stack"
     },
     {
       "id": "S2Mirror2ndFloor_Hard",
@@ -1523,7 +1523,7 @@
     {
       "id": "ChargeForceField",
       "name": "Scudo Energetico",
-      "desc": "- Ottiene ({0} x 3) Scudo.\n- Perde 1 Scudo Energetico # dopo aver perso ({0} x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., tutti gli effetti di Scudo Energetico si attivano a ({0} x 5) invece che a ({0} x 3))\n- A Fine Turno: Ottiene Conteggio di Carica per ogni Scudo Energetico #, e il turno successivo lo scudo ottenuto da Scudo energetico e Scudo energetico vengono rimossi"
+      "desc": "- Ottiene ({0} x 3) Scudo.\n- Perde 1 Scudo Energetico # dopo aver perso ({0} x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., tutti gli effetti di Scudo Energetico si attivano a ({0} x 5) invece che a ({0} x 3))\n- A Fine Turno: Ottiene Conteggio Carica per ogni Scudo Energetico #, e il turno successivo lo scudo ottenuto da Scudo energetico e Scudo energetico vengono rimossi"
     },
     {
       "id": "SlashResultUp",
@@ -1850,19 +1850,19 @@
     {
       "id": "EchoOfMansion",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio di Pianto quando ottiene Conteggio o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 Conteggio Pianto quando ottiene Conteggio o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Main",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio di Pianto quando ottiene Conteggio o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 Conteggio Pianto quando ottiene Conteggio o Potenza di Pianto dalle Abilità o dalle monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Sub",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio di Pianto quando ottiene Conteggio o Potenza di Pianto dalle Abilità o dalle monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 Conteggio Pianto quando ottiene Conteggio o Potenza di Pianto dalle Abilità o dalle monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
@@ -1886,7 +1886,7 @@
     {
       "id": "Switch_Vibration",
       "name": "Convertitore di Ampiezza",
-      "desc": "Converte Vibrazione o un tipo già convertito di Vibrazione in un tipo diverso di Vibrazione.\nIl Conteggio di Vibrazione non viene affetto dalla conversione."
+      "desc": "Converte Vibrazione o un tipo già convertito di Vibrazione in un tipo diverso di Vibrazione.\nIl Conteggio Vibrazione non viene affetto dalla conversione."
     },
     {
       "id": "MarkOfButler",
@@ -1945,7 +1945,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Conteggio di Vibrazione su di sè)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1993,13 +1993,13 @@
     {
       "id": "ChargeLoad",
       "name": "Ricarica",
-      "desc": "-Valore massimo: 6\n- Le Abilità offensive che hanno consumato Conteggio di Carica : infliggono +({0} x 2.5)% danni in più (max 15%)\n- Se l'unità che sfrutta quest'effetto è un Impiegato di W. Corp, infligge +({0} x 5)% danni in più. (max 30%)\n- A Fine Turno: quest'effetto scade",
+      "desc": "-Valore massimo: 6\n- Le Abilità offensive che hanno consumato Conteggio Carica : infliggono +({0} x 2.5)% danni in più (max 15%)\n- Se l'unità che sfrutta quest'effetto è un Impiegato di W. Corp, infligge +({0} x 5)% danni in più. (max 30%)\n- A Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
       "id": "PhotoElectricity",
       "name": "Fotoelettricità",
-      "desc": "Valore Massimo: 3\nQuando quest'unità viene colpita, l'attaccante guadagna Conteggio di Carica pari al valore (una volta per Abilità)\n- Se l'attaccante possiede meno di 5 Conteggio di Carica, ottiene +3 Carica addizionale\nA Fine Turno: quest'effetto scade",
+      "desc": "Valore Massimo: 3\nQuando quest'unità viene colpita, l'attaccante guadagna Conteggio Carica pari al valore (una volta per Abilità)\n- Se l'attaccante possiede meno di 5 Conteggio Carica, ottiene +3 Carica addizionale\nA Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
@@ -2072,7 +2072,7 @@
     {
       "id": "WanderingFootsteps",
       "name": "Rovina Imminente",
-      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Rovina\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni Fine Turno e perde 1 Potenza Scontro. Quando quest'unità va in Panico, ottiene 5 Pianto, 3 Conteggio di Pianto ogni Fine Turno e perde 2 Potenza Scontro)\n- Unità senza PS: -10% probabilità di fare testa\n- Ridotto di 1 A Fine Turno\n- Quest'effetto si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Unità senza PS\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
+      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Rovina\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni Fine Turno e perde 1 Potenza Scontro. Quando quest'unità va in Panico, ottiene 5 Pianto, 3 Conteggio Pianto ogni Fine Turno e perde 2 Potenza Scontro)\n- Unità senza PS: -10% probabilità di fare testa\n- Ridotto di 1 A Fine Turno\n- Quest'effetto si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Unità senza PS\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
       "summary": ""
     },
     {
@@ -2097,13 +2097,13 @@
     {
       "id": "WanderingFootsteps_Panico",
       "name": "Rovina",
-      "desc": "- Panico\n- Potere di Scontro -2 su sé stesso. Ottiene 5 Pianto e +3 Conteggio di Pianto ogni Fine Turno",
-      "summary": "Potere di Scontro -2 su sé stesso. Ottiene 5 Pianto e +3 Conteggio di Pianto ogni Fine Turno",
+      "desc": "- Panico\n- Potere di Scontro -2 su sé stesso. Ottiene 5 Pianto e +3 Conteggio Pianto ogni Fine Turno",
+      "summary": "Potere di Scontro -2 su sé stesso. Ottiene 5 Pianto e +3 Conteggio Pianto ogni Fine Turno",
       "undefined": "-"
     },
     {
       "id": "UninvitedGuestPersonality",
-      "name": "Spiacevole",
+      "name": "L'Indesiderato",
       "desc": "- Valore Massimo: 2\n- Alla morte, l'ultimo attaccante recupera 3 PS; in seguito, un alleato casuale che non possedeva quest'effetto ottiene 2 Stack.\n- Subisce +0.5% più danno per ogni Pianto su sé stesso (max 10%; per gli incontri mirati, Pianto viene conteggiato su ogni parte in modo separato)\n- A Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
@@ -2164,14 +2164,14 @@
     {
       "id": "LineCuttingPersonality",
       "name": "Manichino da Cucito",
-      "desc": "- Valore Massimo: 1\n- Subisce +0.5% più danni per ogni Conteggio di Sanguinamento (max 10%)\n- A Fine Turno: ridotto di 1",
+      "desc": "- Valore Massimo: 1\n- Subisce +0.5% più danni per ogni Conteggio Sanguinamento (max 10%)\n- A Fine Turno: ridotto di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Snare",
       "name": "Lazo",
-      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio di Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduci di 1",
+      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduci di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2234,7 +2234,7 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni Conteggio o Potenza di qualsisi tipo di Vibrazione con le Abilità o gli effetti delle monete, consumando 1 Conteggio di Vibrazione su di sè\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base Potenza di quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni Conteggio o Potenza di qualsisi tipo di Vibrazione con le Abilità o gli effetti delle monete, consumando 1 Conteggio Vibrazione su di sè\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base Potenza di quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Max Speed +2\nConsume Vibrazione Count on self to infligge +1 more Vibrazione Potency e Count",
       "undefined": "-"
     },
@@ -2364,14 +2364,14 @@
     {
       "id": "HoldingBreath",
       "name": "Respiro Profondo",
-      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza di Respiro e 5+ Conteggio di Respiro, consuma (Conteggio di Respiro su di sè/ 5) Potenza di Respiro per infliggere +(Potenza di Respiro consumata x 4)% più danno critico, e perde 1 Stack",
+      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza di Respiro e 5+ Conteggio Respiro, consuma (Conteggio Respiro su di sè/ 5) Potenza di Respiro per infliggere +(Potenza di Respiro consumata x 4)% più danno critico, e perde 1 Stack",
       "summary": "Infligge più danno con Colpo Critico"
     },
     {
       "id": "NebulizerInhale",
       "name": "Nebulizzatore β",
-      "desc": "- Max Staxk: 5\n- Quest'effetto persiste per tutto l'incontro\n- Quando si attiva una risonanza Supberia Assoluta: All'inizio del combattimento, applica 3 Respiro e +3 Conteggio di Respiro su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
-      "summary": "Ottiene Respiro e Conteggio di Respiro"
+      "desc": "- Max Staxk: 5\n- Quest'effetto persiste per tutto l'incontro\n- Quando si attiva una risonanza Supberia Assoluta: All'inizio del combattimento, applica 3 Respiro e +3 Conteggio Respiro su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
+      "summary": "Ottiene Respiro e Conteggio Respiro"
     },
     {
       "id": "Hohenheim_LowMorale",
@@ -2396,7 +2396,7 @@
     {
       "id": "EngageToBattle",
       "name": "Pronti alla Battaglia",
-      "desc": "Valore Massimo: 1\n+1 a Potenza e alle Conteggio di Sanguinamento inflitte con le Abilità o con gli effetti delle monete di quest'unità\nOttiene 1 Potenziamento Taglio e 3 Danni Taglienti Aumentati per la durata dello Scontro"
+      "desc": "Valore Massimo: 1\n+1 a Potenza e alle Conteggio Sanguinamento inflitte con le Abilità o con gli effetti delle monete di quest'unità\nOttiene 1 Potenziamento Taglio e 3 Danni Taglienti Aumentati per la durata dello Scontro"
     },
     {
       "id": "CloudWall",
@@ -2406,12 +2406,12 @@
     {
       "id": "NebulizerExhale",
       "name": "Nebulizzatore α",
-      "desc": "- Max Stack: 5\n- Quest'effetto persiste durante tutto l'incontro\n- All'inizio del combattimento: applica 1 Potenza di Respiro e +1 Conteggio di Respiro su tutti gli alleati, inclusa quest'unità."
+      "desc": "- Max Stack: 5\n- Quest'effetto persiste durante tutto l'incontro\n- All'inizio del combattimento: applica 1 Potenza di Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
     },
     {
       "id": "ReleaseBreath",
       "name": "Espirazione Superficiale",
-      "desc": "- Valore Massimo: 1\n- At 20 Potenza di Respiro o superiore, ottiene +1 Conteggio quando questa unità guadagna Potenza o Conteggio di Respiro\n- Scade A Fine Turno"
+      "desc": "- Valore Massimo: 1\n- At 20 Potenza di Respiro o superiore, ottiene +1 Conteggio quando questa unità guadagna Potenza o Conteggio Respiro\n- Scade A Fine Turno"
     },
     {
       "id": "FirePunchFuel",

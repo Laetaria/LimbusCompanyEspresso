@@ -93,7 +93,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -109,7 +109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]; Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]; Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -125,7 +125,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]; Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]; Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -356,7 +356,7 @@
         {
           "level": 4,
           "name": "Riposte",
-          "desc": "[WinDuel] Infligge 3 [Paralysis] il turno successivo\n[WinDuel] Infligge 1 Conteggio di [Burst]",
+          "desc": "[WinDuel] Infligge 3 [Paralysis] il turno successivo\n[WinDuel] Infligge 1 Conteggio [Burst]",
           "keywords": [
             "Paralysis"
           ],
@@ -431,7 +431,7 @@
         {
           "level": 4,
           "name": "Postura d'Attacco",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "keywords": [],
           "coinlist": [
             {
@@ -451,7 +451,7 @@
         {
           "level": 1,
           "name": "Mezzo Giro",
-          "desc": "[WinDuel] Ottiene +1 Conteggio di [Breath] il turno successivo",
+          "desc": "[WinDuel] Ottiene +1 Conteggio [Breath] il turno successivo",
           "keywords": [],
           "coinlist": [
             {},
@@ -461,7 +461,7 @@
         {
           "level": 2,
           "name": "Mezzo Giro",
-          "desc": "[WinDuel] Ottiene +2 Conteggio di [Breath] il turno successivo",
+          "desc": "[WinDuel] Ottiene +2 Conteggio [Breath] il turno successivo",
           "keywords": [],
           "coinlist": [
             {},
@@ -471,7 +471,7 @@
         {
           "level": 4,
           "name": "Mezzo Giro",
-          "desc": "[WinDuel] Ottiene +2 Conteggio di [Breath] il turno successivo",
+          "desc": "[WinDuel] Ottiene +2 Conteggio [Breath] il turno successivo",
           "keywords": [],
           "coinlist": [
             {},
@@ -683,7 +683,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge]"
                 }
               ]
             }
@@ -697,7 +697,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -706,12 +706,12 @@
         {
           "level": 4,
           "name": "Ciclo Energetico",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -731,7 +731,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge] per infliggere 4 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 4 [Binding] il turno successivo"
                 }
               ]
             }
@@ -746,7 +746,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge] per infliggere 4 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 4 [Binding] il turno successivo"
                 }
               ]
             }
@@ -755,19 +755,19 @@
         {
           "level": 4,
           "name": "Salto",
-          "desc": "[WhenUse] Ottiene +3 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge] per infliggere 4 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 4 [Binding] il turno successivo"
                 }
               ]
             }
@@ -788,7 +788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 5 Conteggio di [Charge] per infliggere 2 [Reduction] e 3 [Paralysis] il turno successivo"
+                  "desc": "[OnSucceedAttack] Spende 5 Conteggio [Charge] per infliggere 2 [Reduction] e 3 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -797,14 +797,14 @@
         {
           "level": 4,
           "name": "Sovraccarico",
-          "desc": "A 5+ Conteggio di [Charge], Potere di Scontro +2",
+          "desc": "A 5+ Conteggio [Charge], Potere di Scontro +2",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 5 Conteggio di [Charge] per infliggere 2 [Reduction] e 3 [Paralysis] il turno successivo"
+                  "desc": "[OnSucceedAttack] Spende 5 Conteggio [Charge] per infliggere 2 [Reduction] e 3 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -859,7 +859,7 @@
         {
           "level": 4,
           "name": "Colpo Singolo",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1088,7 +1088,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1137,7 +1137,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -1146,7 +1146,7 @@
         {
           "level": 4,
           "name": "Strappa",
-          "desc": "A 5+ Conteggio di [Charge], Potere Moneta +2",
+          "desc": "A 5+ Conteggio [Charge], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1154,7 +1154,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             }
@@ -1189,14 +1189,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
@@ -1212,19 +1212,19 @@
         {
           "level": 4,
           "name": "Salto",
-          "desc": "A 7+ Conteggio di [Charge], Potere Moneta +1",
+          "desc": "A 7+ Conteggio [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
@@ -1245,7 +1245,7 @@
         {
           "level": 3,
           "name": "Strappa-spazio",
-          "desc": "[WhenUse] Spende 10 Conteggio di [Charge] per ottenere +4 Potere Moneta\nA meno di 10 Conteggio di [Charge], perde 20% PV",
+          "desc": "[WhenUse] Spende 10 Conteggio [Charge] per ottenere +4 Potere Moneta\nA meno di 10 Conteggio [Charge], perde 20% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -1712,7 +1712,7 @@
         {
           "level": 4,
           "name": "Colpo Preciso",
-          "desc": "Se il bersaglio ha 2+ Conteggio di [Laceration], infligge +20% danni",
+          "desc": "Se il bersaglio ha 2+ Conteggio [Laceration], infligge +20% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1743,7 +1743,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1764,7 +1764,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 2 [AttackDmgDown]"
@@ -1776,7 +1776,7 @@
         {
           "level": 4,
           "name": "Ripulita",
-          "desc": "Se il bersaglio ha 5+ Conteggio di [Laceration], infligge +20% danni",
+          "desc": "Se il bersaglio ha 5+ Conteggio [Laceration], infligge +20% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1788,7 +1788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Laceration] "
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration] "
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 2 [AttackDmgDown]"
@@ -1817,7 +1817,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 5 [AttackDown]"
@@ -1829,7 +1829,7 @@
         {
           "level": 4,
           "name": "Cumulo Vorticoso",
-          "desc": "Se il bersaglio ha 9+ Conteggio di [Laceration], infligge +40% danni",
+          "desc": "Se il bersaglio ha 9+ Conteggio [Laceration], infligge +40% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1841,7 +1841,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 5 [AttackDown]"
@@ -1959,7 +1959,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -1994,7 +1994,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -2182,7 +2182,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 3 [Combustion] su 2 nemici casuali"
@@ -2213,7 +2213,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 3 [Combustion] su 2 nemici casuali"
@@ -2262,7 +2262,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
                 }
               ]
             }
@@ -2271,12 +2271,12 @@
         {
           "level": 4,
           "name": "Strappa",
-          "desc": "[WhenUse] Ottiene 2 [SlashTakeDamageDown]\nOttiene +3 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene 2 [SlashTakeDamageDown]\nOttiene +3 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
                 }
               ]
             }
@@ -2340,7 +2340,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge] per infliggere 2 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 2 [SlashTakeDamageUp]"
                 }
               ]
             }
@@ -2349,7 +2349,7 @@
         {
           "level": 4,
           "name": "Ciclo Energetico",
-          "desc": "If a 5+ Conteggio di [Charge], Potere Moneta +1",
+          "desc": "If a 5+ Conteggio [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2371,7 +2371,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge] per infliggere 2 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 2 [SlashTakeDamageUp]"
                 }
               ]
             }
@@ -2390,28 +2390,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             }
@@ -2420,33 +2420,33 @@
         {
           "level": 4,
           "name": "Energy Current",
-          "desc": "If a 5+ Conteggio di [Charge], Potere Moneta +1",
+          "desc": "If a 5+ Conteggio [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             }
@@ -2468,7 +2468,7 @@
         {
           "level": 4,
           "name": "Blocco",
-          "desc": "[StartBattle] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[StartBattle] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {}
           ]
@@ -2708,7 +2708,7 @@
         {
           "level": 2,
           "name": "Cloud Cutter",
-          "desc": "[BeforeAttack] Se il bersaglio ha meno di 4 Conteggio di [Laceration], usa di nuovo le Monete 1 e 2",
+          "desc": "[BeforeAttack] Se il bersaglio ha meno di 4 Conteggio [Laceration], usa di nuovo le Monete 1 e 2",
           "keywords": [],
           "coinlist": [
             {
@@ -2730,7 +2730,7 @@
         {
           "level": 4,
           "name": "Cloud Cutter",
-          "desc": "[BeforeAttack] Se il bersaglio ha meno di 4 Conteggio di [Laceration], usa di nuovo le Monete 1 e 2",
+          "desc": "[BeforeAttack] Se il bersaglio ha meno di 4 Conteggio [Laceration], usa di nuovo le Monete 1 e 2",
           "keywords": [],
           "coinlist": [
             {
@@ -3123,7 +3123,7 @@
         {
           "level": 4,
           "name": "Extreme Edge",
-          "desc": "Sotto il 50% di PV, Valore Finale +2\n[WhenUse] Ottiene +3 Conteggio di [Breath]",
+          "desc": "Sotto il 50% di PV, Valore Finale +2\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {}
           ]
@@ -3186,7 +3186,7 @@
         {
           "level": 4,
           "name": "Flashing Strike",
-          "desc": "A 10+ Conteggio di [Breath], Valore Finale +2\nSotto il 50% di PV, Peso Attacco +1",
+          "desc": "A 10+ Conteggio [Breath], Valore Finale +2\nSotto il 50% di PV, Peso Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -3220,7 +3220,7 @@
         {
           "level": 4,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Perde 5 PV\nA 3+ Conteggio di [Breath], Danni +50%",
+          "desc": "[WhenUse] Perde 5 PV\nA 3+ Conteggio [Breath], Danni +50%",
           "coinlist": [
             {}
           ]
@@ -3252,7 +3252,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge]"
                 }
               ]
             }
@@ -3283,7 +3283,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
                 }
               ]
             }
@@ -3415,7 +3415,7 @@
         {
           "level": 4,
           "name": "Evasione",
-          "desc": "[WhenUse] Ottiene +1 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
           "coinlist": [
             {}
           ]
@@ -3433,7 +3433,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -3447,7 +3447,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -3557,7 +3557,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
@@ -3567,7 +3567,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -3576,7 +3576,7 @@
         {
           "level": 4,
           "name": "Mind Strike",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -3584,7 +3584,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
@@ -3594,7 +3594,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -3613,7 +3613,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -3622,12 +3622,12 @@
         {
           "level": 2,
           "name": "Flaying Surge",
-          "desc": "[WhenUse] Ottiene +5 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -3636,12 +3636,12 @@
         {
           "level": 4,
           "name": "Flaying Surge",
-          "desc": "[WhenUse] Ottiene +7 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +7 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Mind Whip",
-          "desc": "[StartBattle] Spende tutto il Conteggio di [Charge]\nSe sotto 10 Conteggio di [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un'attacco incontrastato",
+          "desc": "[StartBattle] Spende tutto il Conteggio [Charge]\nSe sotto 10 Conteggio [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un'attacco incontrastato",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3702,7 @@
         {
           "level": 4,
           "name": "Mind Whip",
-          "desc": "[StartBattle] Spende 8 Conteggio di [Charge]\nSe a meno di 8 Conteggio di [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un'attacco incontrastato",
+          "desc": "[StartBattle] Spende 8 Conteggio [Charge]\nSe a meno di 8 Conteggio [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un'attacco incontrastato",
           "coinlist": [
             {
               "coindescs": [
@@ -3762,7 +3762,7 @@
         {
           "level": 4,
           "name": "Evasione",
-          "desc": "[OnSucceedEvade] Ottiene +1 Conteggio di [Charge]",
+          "desc": "[OnSucceedEvade] Ottiene +1 Conteggio [Charge]",
           "coinlist": [
             {}
           ]
@@ -3852,14 +3852,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -3874,14 +3874,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -3896,14 +3896,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Breath] "
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath] "
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Breath] "
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath] "
                 }
               ]
             }
@@ -3939,7 +3939,7 @@
         {
           "level": 4,
           "name": "Prendi Fiato",
-          "desc": "A 5+ Conteggio di [Breath], +50% Danni Critici",
+          "desc": "A 5+ Conteggio [Breath], +50% Danni Critici",
           "keywords": [],
           "coinlist": [
             {
@@ -3976,13 +3976,13 @@
         {
           "level": 4,
           "name": "Contrattacco",
-          "desc": "A 5+ Conteggio di [Breath], +50% Danni Critici",
+          "desc": "A 5+ Conteggio [Breath], +50% Danni Critici",
           "keywords": [],
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -4083,14 +4083,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio di [Vibration]"
+                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio di [Vibration]"
+                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -4116,14 +4116,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio di [Burst]"
+                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio di [Burst]"
+                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
@@ -4139,7 +4139,7 @@
         {
           "level": 4,
           "name": "Suppress",
-          "desc": "Se il bersaglio ha 5+ Conteggio di [Vibration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 5+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -4151,14 +4151,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio di [Burst]"
+                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio di [Burst]"
+                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
@@ -4290,7 +4290,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -4448,7 +4448,7 @@
         {
           "level": 2,
           "name": "Scattering Slash",
-          "desc": "[WhenUse] Ottiene +1 Conteggio di [Breath]",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -4475,7 +4475,7 @@
         {
           "level": 4,
           "name": "Scattering Slash",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Breath]\nA 5+ [Breath], Potere Moneta +2",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\nA 5+ [Breath], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -4548,7 +4548,7 @@
         {
           "level": 4,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Ottiene 1 [Protection]\n[WhenUse] Ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] Ottiene 1 [Protection]\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {}
           ]
@@ -4877,7 +4877,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -4892,7 +4892,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             }
@@ -4901,13 +4901,13 @@
         {
           "level": 4,
           "name": "Slice then Stab",
-          "desc": "If a 3+ Conteggio di [Breath], Potere Moneta +1",
+          "desc": "If a 3+ Conteggio [Breath], Potere Moneta +1",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Breath] "
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath] "
                 }
               ]
             }
@@ -4977,7 +4977,7 @@
         {
           "level": 4,
           "name": "Serie di Tagli",
-          "desc": "[DefeatDuel] Ottiene 2 [Enhancement] il turno successivo\n[WinDuel] Do not spend Conteggio di [Breath] with critical attacks landed con quest'Abilità",
+          "desc": "[DefeatDuel] Ottiene 2 [Enhancement] il turno successivo\n[WinDuel] Do not spend Conteggio [Breath] with critical attacks landed con quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
@@ -5027,7 +5027,7 @@
         {
           "level": 4,
           "name": "Per Strappare le Ossa",
-          "desc": "A 10+ Conteggio di [Breath], +150% Danni Critici",
+          "desc": "A 10+ Conteggio [Breath], +150% Danni Critici",
           "coinlist": [
             {
               "coindescs": [
@@ -5057,7 +5057,7 @@
         {
           "level": 4,
           "name": "Newsprung Counter",
-          "desc": "[WhenUse] Ottiene 1 [AttackDmgUp] il turno successivo\n[WhenUse] Ottiene +3 Conteggio di [Breath]",
+          "desc": "[WhenUse] Ottiene 1 [AttackDmgUp] il turno successivo\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {}
           ]
@@ -5325,7 +5325,7 @@
                   "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -5335,7 +5335,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -5359,7 +5359,7 @@
                   "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -5369,7 +5369,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -5404,7 +5404,7 @@
         {
           "level": 4,
           "name": "Pañata Party",
-          "desc": "Se i PS del bersaglio sono sotto 0, aumenta la probabilità di critico in proporzione ai suoi PS\nSe l'unità ha 5+ Conteggio di [Breath], +30% Danni Critici",
+          "desc": "Se i PS del bersaglio sono sotto 0, aumenta la probabilità di critico in proporzione ai suoi PS\nSe l'unità ha 5+ Conteggio [Breath], +30% Danni Critici",
           "coinlist": [
             {
               "coindescs": [
@@ -5431,7 +5431,7 @@
         {
           "level": 4,
           "name": "Evasione",
-          "desc": "[OnSucceedEvade] Ottiene +1 Conteggio di [Breath]",
+          "desc": "[OnSucceedEvade] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {}
           ]
@@ -5563,7 +5563,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -5652,7 +5652,7 @@
         {
           "level": 2,
           "name": "Acupuncture",
-          "desc": "[WinDuel] Ottiene +1 Conteggio di [Breath]",
+          "desc": "[WinDuel] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {},
             {
@@ -5667,7 +5667,7 @@
         {
           "level": 4,
           "name": "Acupuncture",
-          "desc": "[WinDuel] Ottiene +2 Conteggio di [Breath]",
+          "desc": "[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {},
             {
@@ -5930,7 +5930,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -5944,7 +5944,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 1 [PenetrateTakeDamageUp]"
@@ -5961,7 +5961,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 1 [PenetrateTakeDamageUp]"
@@ -7319,7 +7319,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown] il turno successivo"
@@ -7329,7 +7329,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown] il turno successivo"
@@ -7346,7 +7346,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il turno successivo"
@@ -7356,7 +7356,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il turno successivo"
@@ -7373,7 +7373,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il turno successivo"
@@ -7383,7 +7383,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il turno successivo"
@@ -7515,7 +7515,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -7536,7 +7536,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Combustion]; a 30+ PS, ne infligge 1 in più; a 45+ PS, infligge 2 in più"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]; a 30+ PS, ne infligge 1 in più; a 45+ PS, infligge 2 in più"
                 }
               ]
             }
@@ -7545,7 +7545,7 @@
         {
           "level": 4,
           "name": "Flowing Flame",
-          "desc": "Se il bersaglio ha 6+ Conteggio di [Combustion], Potere Moneta +2",
+          "desc": "Se il bersaglio ha 6+ Conteggio [Combustion], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -7557,7 +7557,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Combustion]; a 30+ PS, ne infligge 1 in più; a 45+ PS, infligge 2 in più"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]; a 30+ PS, ne infligge 1 in più; a 45+ PS, infligge 2 in più"
                 }
               ]
             }
@@ -7576,7 +7576,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]; se il bersaglio ha già [Combustion], infligge +1 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]; se il bersaglio ha già [Combustion], infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -7586,7 +7586,7 @@
                   "desc": "[OnSucceedAttackHead] Si cura di 6 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio di [Combustion], alza la Soglia di Vacillamento del 30% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio [Combustion], alza la Soglia di Vacillamento del 30% dei danni inflitti"
                 }
               ]
             }
@@ -7595,12 +7595,12 @@
         {
           "level": 4,
           "name": "Crimson Blaze Fist",
-          "desc": "Se il bersaglio ha 6+ Conteggio di [Combustion], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 6+ Conteggio [Combustion], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]; se il bersaglio ha già [Combustion], infligge +1 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]; se il bersaglio ha già [Combustion], infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -7610,7 +7610,7 @@
                   "desc": "[OnSucceedAttackHead] Si cura di 6 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio di [Combustion], alza la Soglia di Vacillamento del 30% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio [Combustion], alza la Soglia di Vacillamento del 30% dei danni inflitti"
                 }
               ]
             }
@@ -7642,7 +7642,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -7663,7 +7663,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -7684,7 +7684,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -7914,7 +7914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]; Infligge 1 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]; Infligge 1 [Binding] il turno successivo"
                 }
               ]
             }
@@ -7928,7 +7928,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Laceration]; Infligge 2 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]; Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -7942,7 +7942,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Laceration]; Infligge 2 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]; Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -7991,7 +7991,7 @@
         {
           "level": 4,
           "name": "Butcher Viand",
-          "desc": "Se il bersaglio ha 10+ Conteggio di [Laceration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 10+ Conteggio [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -8155,7 +8155,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Infligge +1 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttackTail] Infligge +1 Conteggio [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
@@ -8385,7 +8385,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [NailPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
@@ -8398,7 +8398,7 @@
                   "desc": "[OnSucceedAttackHead] Se il bersaglio ha 5+ [NailPersonality], infligge 2 [Paralysis] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -8422,7 +8422,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 2 [NailPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
@@ -8435,7 +8435,7 @@
                   "desc": "[OnSucceedAttackHead] Se il bersaglio ha 5+ [NailPersonality], infligge 2 [Paralysis] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -8470,14 +8470,14 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -8494,14 +8494,14 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -8510,7 +8510,7 @@
         {
           "level": 4,
           "name": "Rev Up",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -8518,14 +8518,14 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -8544,15 +8544,15 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio di [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio di [Vibration] di 1",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
                 }
               ]
             }
@@ -8566,15 +8566,15 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio di [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene riusata\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio di [Vibration] di 1",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene riusata\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
                 }
               ]
             }
@@ -8583,20 +8583,20 @@
         {
           "level": 4,
           "name": "Vibration Compression",
-          "desc": "Se il bersaglio ha 10+ Conteggio di [Vibration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 10+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio di [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene riusata\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio di [Vibration] di 1",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion]\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene riusata\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion]\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
                 }
               ]
             }
@@ -8610,12 +8610,12 @@
         {
           "level": 3,
           "name": "Let's Rack Up Some Scores",
-          "desc": "[WhenUse] Ottiene +6 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +6 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
@@ -8625,14 +8625,14 @@
                   "desc": "[OnSucceedAttackHead] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion].\nDopo [VibrationExplosion], riduce il Conteggio di [Vibration] di 1"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion].\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion].\nDopo [VibrationExplosion], riduce il Conteggio di [Vibration] di 1"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion].\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio Vacilla, infligge il 25% dei danni inflitti come danni aggiuntivi"
@@ -8649,7 +8649,7 @@
         {
           "level": 1,
           "name": "Preheat",
-          "desc": "[StartBattle] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[StartBattle] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {}
           ]
@@ -8693,7 +8693,7 @@
         {
           "level": 4,
           "name": "Saddled Tasks",
-          "desc": "Se il bersaglio ha 5+ Conteggio di [Vibration], Potere Moneta +2",
+          "desc": "Se il bersaglio ha 5+ Conteggio [Vibration], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -8760,7 +8760,7 @@
         {
           "level": 4,
           "name": "Forced Break",
-          "desc": "Se il bersaglio ha 7+ Conteggio di [Vibration], Valore Finale +1",
+          "desc": "Se il bersaglio ha 7+ Conteggio [Vibration], Valore Finale +1",
           "coinlist": [
             {
               "coindescs": [
@@ -8794,7 +8794,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Charge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
@@ -8804,7 +8804,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
@@ -8814,7 +8814,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
@@ -8824,8 +8824,8 @@
             {
               "coindescs": [
                 {
-                "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nQuando causa [VibrationExplosion], riduce il Conteggio di [Vibration] di 3, poi spende tutto il Conteggio di [Charge] per alzare ancora la Soglia di Vacillamento del (Conteggio di [Charge] x 5)% (Max 50%)",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio di [Vibration] di 3; Spende Conteggio di [Charge] per alzare ancora la Soglia di Vacillamento"
+                "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nQuando causa [VibrationExplosion], riduce il Conteggio [Vibration] di 3, poi spende tutto il Conteggio [Charge] per alzare ancora la Soglia di Vacillamento del (Conteggio [Charge] x 5)% (Max 50%)",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio [Vibration] di 3; Spende Conteggio [Charge] per alzare ancora la Soglia di Vacillamento"
                 }
               ]
             }
@@ -8834,12 +8834,12 @@
         {
           "level": 4,
           "name": "Finishing Runup",
-          "desc": "Se il bersaglio ha 10+ Conteggio di [Vibration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 10+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Charge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
@@ -8849,7 +8849,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
@@ -8859,7 +8859,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
@@ -8869,8 +8869,8 @@
             {
               "coindescs": [
                 {
-                "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nQuando causa [VibrationExplosion], riduce il Conteggio di [Vibration] di 3, poi spende tutto il Conteggio di [Charge] per alzare ancora la Soglia di Vacillamento del (Conteggio di [Charge] x 5)% (Max 50%)",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio di [Vibration] di 3; Spende Conteggio di [Charge] per alzare ancora la Soglia di Vacillamento"
+                "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nQuando causa [VibrationExplosion], riduce il Conteggio [Vibration] di 3, poi spende tutto il Conteggio [Charge] per alzare ancora la Soglia di Vacillamento del (Conteggio [Charge] x 5)% (Max 50%)",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio [Vibration] di 3; Spende Conteggio [Charge] per alzare ancora la Soglia di Vacillamento"
                 }
               ]
             }
@@ -8912,7 +8912,7 @@
         {
           "level": 2,
           "name": "Rev Up",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {},
             {
@@ -8927,7 +8927,7 @@
         {
           "level": 4,
           "name": "Rev Up",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {},
             {
@@ -8936,7 +8936,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio di [Vibration], infligge 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio [Vibration], infligge 3 [Burst]"
                 }
               ]
             }
@@ -8955,10 +8955,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -8967,15 +8967,15 @@
         {
           "level": 2,
           "name": "Grease Chains",
-          "desc": "[WhenUse] Ottiene +3 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -8984,15 +8984,15 @@
         {
           "level": 4,
           "name": "Grease Chains",
-          "desc": "[WhenUse] Ottiene +3 Conteggio di [Charge]",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -9011,7 +9011,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio di [Vibration] di 2; poi consuma fino a 4 Conteggio di [Charge] su di sé per infliggere Conteggio di [Burst] pari al Conteggio di [Charge] consumato"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio [Vibration] di 2; poi consuma fino a 4 Conteggio [Charge] su di sé per infliggere Conteggio [Burst] pari al Conteggio [Charge] consumato"
                 }
               ]
             },
@@ -9040,12 +9040,12 @@
         {
           "level": 4,
           "name": "Let's Grind 'Em",
-          "desc": "Se il bersaglio ha 5+ Conteggio di [Vibration], Potere Moneta +1",
+          "desc": "Se il bersaglio ha 5+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio di [Vibration] di 2; poi consuma fino a 4 Conteggio di [Charge] su di sé per infliggere Conteggio di [Burst] pari al Conteggio di [Charge] consumato"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion], poi riduce il Conteggio [Vibration] di 2; poi consuma fino a 4 Conteggio [Charge] su di sé per infliggere Conteggio [Burst] pari al Conteggio [Charge] consumato"
                 }
               ]
             },
@@ -9058,7 +9058,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio Vacilla, infligge +10% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio di [Vibration], infligge 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio [Vibration], infligge 3 [Burst]"
                 }
               ]
             },
@@ -9071,7 +9071,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio Vacilla, infligge +10% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio di [Vibration], infligge 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio [Vibration], infligge 3 [Burst]"
                 }
               ]
             }
@@ -9098,7 +9098,7 @@
         {
           "level": 1,
           "name": "Umbrella Thwack",
-          "desc": "[WhenUse] Ottiene +1 Conteggio di [Sinking]",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Sinking]",
           "coinlist": [
             {},
             {},
@@ -9108,7 +9108,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackTail] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -9117,7 +9117,7 @@
         {
           "level": 2,
           "name": "Umbrella Thwack",
-          "desc": "[WhenUse] Ottiene +1 Conteggio di [Sinking]",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Sinking]",
           "coinlist": [
             {},
             {},
@@ -9127,7 +9127,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -9136,7 +9136,7 @@
         {
           "level": 4,
           "name": "Umbrella Thwack",
-          "desc": "[WhenUse] Ottiene +1 Conteggio di [Sinking]\n[DefeatDuel] Ottiene 3 [Sinking]",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Sinking]\n[DefeatDuel] Ottiene 3 [Sinking]",
           "coinlist": [
             {},
             {},
@@ -9146,7 +9146,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -9258,7 +9258,7 @@
         {
           "level": 1,
           "name": "Spread Out!",
-          "desc": "[WhenUse] Ottiene 6 [Sinking] e +3 Conteggio di [Sinking]",
+          "desc": "[WhenUse] Ottiene 6 [Sinking] e +3 Conteggio [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -9341,20 +9341,20 @@
         {
           "level": 1,
           "name": "Sprouting Bud",
-          "desc": "[WhenUse] Ottiene +2 Conteggio di [Vibration]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Sinking] il turno successivo"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Sinking] il turno successivo"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking] il turno successivo"
                 }
               ]
             }
@@ -9363,20 +9363,20 @@
         {
           "level": 2,
           "name": "Sprouting Bud",
-          "desc": "[WhenUse] Ottiene +3 Conteggio di [Vibration]",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking] il turno successivo"
                 }
               ]
             }
@@ -9385,20 +9385,20 @@
         {
           "level": 4,
           "name": "Sprouting Bud",
-          "desc": "[WhenUse] Ottiene +3 Conteggio di [Vibration]",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Sinking] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking] il turno successivo"
                 }
               ]
             }
@@ -9412,7 +9412,7 @@
         {
           "level": 1,
           "name": "Moment's Floral Breeze",
-          "desc": "[StartBattle] Spende 6 Conteggio di [Vibration] per trasformarla in un'Abilità Massiva con 3 Peso Attacco",
+          "desc": "[StartBattle] Spende 6 Conteggio [Vibration] per trasformarla in un'Abilità Massiva con 3 Peso Attacco",
           "coinlist": [
             {
               "coindescs": [
@@ -9440,7 +9440,7 @@
         {
           "level": 2,
           "name": "Moment's Floral Breeze",
-          "desc": "[StartBattle] Spende 6 Conteggio di [Vibration] per trasformarla in un'Abilità Massiva con 3 Peso Attacco",
+          "desc": "[StartBattle] Spende 6 Conteggio [Vibration] per trasformarla in un'Abilità Massiva con 3 Peso Attacco",
           "coinlist": [
             {
               "coindescs": [
@@ -9468,7 +9468,7 @@
         {
           "level": 4,
           "name": "Moment's Floral Breeze",
-          "desc": "[StartBattle] Spende 6 Conteggio di [Vibration] per trasformarla in un'Abilità Massiva con 3 Peso Attacco\nSe il bersaglio principale ha 6+ Conteggio di [Sinking], Potere Moneta +1",
+          "desc": "[StartBattle] Spende 6 Conteggio [Vibration] per trasformarla in un'Abilità Massiva con 3 Peso Attacco\nSe il bersaglio principale ha 6+ Conteggio [Sinking], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -9501,19 +9501,19 @@
         {
           "level": 1,
           "name": "Bloodsteeped Scent",
-          "desc": "[DefeatDuel] Perde 20 PS\n[WhenUse] Ottiene 6 Conteggio di [Vibration]",
+          "desc": "[DefeatDuel] Perde 20 PS\n[WhenUse] Ottiene 6 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -9523,7 +9523,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], causa Pianto Incessante"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se l'unità ha 10+ Conteggio di [Vibration], infligge 30% dei danni inflitti come danni aggiuntivi"
+                  "desc": "[OnSucceedAttack] Se l'unità ha 10+ Conteggio [Vibration], infligge 30% dei danni inflitti come danni aggiuntivi"
                 }
               ]
             }
@@ -9532,19 +9532,19 @@
         {
           "level": 4,
           "name": "Bloodsteeped Scent",
-          "desc": "[DefeatDuel] Perde 20 PS\n[WhenUse] Ottiene 6 Conteggio di [Vibration]",
+          "desc": "[DefeatDuel] Perde 20 PS\n[WhenUse] Ottiene 6 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -9554,7 +9554,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], causa Pianto Incessante"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se l'unità ha 10+ Conteggio di [Vibration], infligge 40% dei danni inflitti come danni aggiuntivi"
+                  "desc": "[OnSucceedAttack] Se l'unità ha 10+ Conteggio [Vibration], infligge 40% dei danni inflitti come danni aggiuntivi"
                 }
               ]
             }
@@ -9586,7 +9586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -9603,7 +9603,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -9620,7 +9620,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -9707,7 +9707,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nDopo aver causato [VibrationExplosion], riduce il Conteggio di [Vibration] di 4. Infligge 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nDopo aver causato [VibrationExplosion], riduce il Conteggio [Vibration] di 4. Infligge 5 [Burst]"
                 }
               ]
             }
@@ -9721,7 +9721,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nDopo aver causato [VibrationExplosion], riduce il Conteggio di [Vibration] di 4. Infligge 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion]\nDopo aver causato [VibrationExplosion], riduce il Conteggio [Vibration] di 4. Infligge 5 [Burst]"
                 }
               ]
             }
@@ -9865,7 +9865,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge Conteggio di [Burst] pari alla quantità di [KCorpSerum]; Infligge +5% danni per ogni [KCorpSerum]"
+                  "desc": "[OnSucceedAttack] Infligge Conteggio [Burst] pari alla quantità di [KCorpSerum]; Infligge +5% danni per ogni [KCorpSerum]"
                 }
               ]
             }
@@ -9886,7 +9886,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge Conteggio di [Burst] pari alla quantità di [KCorpSerum]; Infligge +5% danni per [KCorpSerum]"
+                  "desc": "[OnSucceedAttack] Infligge Conteggio [Burst] pari alla quantità di [KCorpSerum]; Infligge +5% danni per [KCorpSerum]"
                 }
               ]
             }
@@ -10087,7 +10087,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Talisman], infligge +1 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Talisman], infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -10108,7 +10108,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Talisman], infligge +3 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Talisman], infligge +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -10222,7 +10222,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 2 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -10250,7 +10250,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 2 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -10278,7 +10278,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 2 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge 2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -10292,7 +10292,7 @@
         {
           "level": 1,
           "name": "Inner Gate Elbow Strike",
-          "desc": "Se il bersaglio ha 6+ [Combustion] e Conteggio di [Combustion], infligge +30% danni",
+          "desc": "Se il bersaglio ha 6+ [Combustion] e Conteggio [Combustion], infligge +30% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -10311,7 +10311,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
@@ -10327,7 +10327,7 @@
         {
           "level": 4,
           "name": "Inner Gate Elbow Strike",
-          "desc": "Se il bersaglio ha 6+ [Combustion] e Conteggio di [Combustion], infligge +50% danni",
+          "desc": "Se il bersaglio ha 6+ [Combustion] e Conteggio [Combustion], infligge +50% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -10346,7 +10346,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
@@ -10372,7 +10372,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -10386,12 +10386,12 @@
         {
           "level": 1,
           "name": "Weighty Bash",
-          "desc": "A 10+ Conteggio di [Charge], Valore Finale +1",
+          "desc": "A 10+ Conteggio [Charge], Valore Finale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -10400,12 +10400,12 @@
         {
           "level": 2,
           "name": "Weighty Bash",
-          "desc": "A 10+ Conteggio di [Charge], Valore Finale +1\nA Velocità 7+, infligge +25% Danni",
+          "desc": "A 10+ Conteggio [Charge], Valore Finale +1\nA Velocità 7+, infligge +25% Danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -10414,12 +10414,12 @@
         {
           "level": 4,
           "name": "Weighty Bash",
-          "desc": "A 10+ Conteggio di [Charge], Valore Finale +2\nA Velocità 7+, infligge +25% Danni\n[WhenUse] Ottiene +2 Conteggio di [Charge]",
+          "desc": "A 10+ Conteggio [Charge], Valore Finale +2\nA Velocità 7+, infligge +25% Danni\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -10438,21 +10438,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -10461,26 +10461,26 @@
         {
           "level": 2,
           "name": "Demolish",
-          "desc": "A Velocità 7+, infligge +1 Conteggio di [Laceration] con quest'Abilità",
+          "desc": "A Velocità 7+, infligge +1 Conteggio [Laceration] con quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -10489,26 +10489,26 @@
         {
           "level": 4,
           "name": "Demolish",
-          "desc": "A Velocità 7+, infligge +1 Conteggio di [Laceration] con quest'Abilità\n[WhenUse] Ottiene +4 Conteggio di [Charge]",
+          "desc": "A Velocità 7+, infligge +1 Conteggio [Laceration] con quest'Abilità\n[WhenUse] Ottiene +4 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio di [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -10522,31 +10522,31 @@
         {
           "level": 1,
           "name": "Rhino Ram",
-          "desc": "[WhenUse] A 10+ Conteggio di [Charge], Potere Moneta +1",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -10556,31 +10556,31 @@
         {
           "level": 4,
           "name": "Rhino Ram",
-          "desc": "[WhenUse] A 10+ Conteggio di [Charge], Potere Moneta +2",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio di [Charge]; Infligge +1 Conteggio di [Laceration]"
+                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -10595,7 +10595,7 @@
         {
           "level": 1,
           "name": "Bioelectricity Induction",
-          "desc": "[WhenUse] Se attaccato quando ha uno scudo, ottiene +1 Conteggio di [Charge] (Max 10 per turn)",
+          "desc": "[WhenUse] Se attaccato quando ha uno scudo, ottiene +1 Conteggio [Charge] (Max 10 per turn)",
           "coinlist": [
             {}
           ]
@@ -10603,7 +10603,7 @@
         {
           "level": 4,
           "name": "Bioelectricity Induction",
-          "desc": "[WhenUse] Se attaccato quando ha uno scudo, ottiene +2 Conteggio di [Charge] (Max 10 per turn)",
+          "desc": "[WhenUse] Se attaccato quando ha uno scudo, ottiene +2 Conteggio [Charge] (Max 10 per turn)",
           "coinlist": [
             {}
           ]
@@ -10621,14 +10621,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -10642,14 +10642,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -10658,19 +10658,19 @@
         {
           "level": 4,
           "name": "Careful Obstruction",
-          "desc": "[WhenUse] Ottiene +2 [Aggro] per questo Slot Abilità il turno successivo\n[DefeatDuel] Ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] per questo Slot Abilità il turno successivo\n[DefeatDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -10684,7 +10684,7 @@
         {
           "level": 1,
           "name": "Focused Defense",
-          "desc": "[WhenUse] A 15+ Shield, ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] A 15+ Shield, ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {}
           ]
@@ -10692,12 +10692,12 @@
         {
           "level": 2,
           "name": "Focused Defense",
-          "desc": "[WhenUse] A 15+ Shield, ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] A 15+ Shield, ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             },
@@ -10707,12 +10707,12 @@
         {
           "level": 4,
           "name": "Focused Defense",
-          "desc": "[WhenUse] A 15+ Shield, ottiene +2 Conteggio di [Breath]\n[WhenUse] Ottiene +4 [Aggro] per questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +2 Conteggio di [Breath]",
+          "desc": "[WhenUse] A 15+ Shield, ottiene +2 Conteggio [Breath]\n[WhenUse] Ottiene +4 [Aggro] per questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio di [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             },
@@ -11038,7 +11038,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -11047,7 +11047,7 @@
         {
           "level": 2,
           "name": "The Wrap-up",
-          "desc": "[WinDuel] Infligge +1 Conteggio di [Burst]",
+          "desc": "[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -11055,7 +11055,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -11064,7 +11064,7 @@
         {
           "level": 4,
           "name": "The Wrap-up",
-          "desc": "[WinDuel] Infligge +1 Conteggio di [Burst]",
+          "desc": "[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -11072,7 +11072,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -11091,7 +11091,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             },
@@ -11115,7 +11115,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge +2 Conteggio di [Burst] contro il nemico con il Conteggio di [Burst] più basso"
+                  "desc": "[EnemyKill] Infligge +2 Conteggio [Burst] contro il nemico con il Conteggio [Burst] più basso"
                 }
               ]
             }
@@ -11129,7 +11129,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio di [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             },
@@ -11153,7 +11153,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge +2 Conteggio di [Burst] contro il nemico con il Conteggio di [Burst] più basso"
+                  "desc": "[EnemyKill] Infligge +2 Conteggio [Burst] contro il nemico con il Conteggio [Burst] più basso"
                 }
               ]
             }
@@ -11276,7 +11276,7 @@
         {
           "level": 2,
           "name": "Dissect Target",
-          "desc": "Se il bersaglio ha 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Potere Moneta +1\n[WinDuel] Infligge +3 Conteggio di [Burst]",
+          "desc": "Se il bersaglio ha 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Potere Moneta +1\n[WinDuel] Infligge +3 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -11298,7 +11298,7 @@
         {
           "level": 4,
           "name": "Dissect Target",
-          "desc": "Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (Max 2)\n[WinDuel] Infligge +3 Conteggio di [Burst]",
+          "desc": "Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (Max 2)\n[WinDuel] Infligge +3 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -11353,7 +11353,7 @@
         {
           "level": 4,
           "name": "Profiling",
-          "desc": "[WhenUse] Infligge +10% danni per ogni 3 [Burst] sul bersaglio (Max 50%)\n[WinDuel] Infligge +2 Conteggio di [Burst]",
+          "desc": "[WhenUse] Infligge +10% danni per ogni 3 [Burst] sul bersaglio (Max 50%)\n[WinDuel] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
