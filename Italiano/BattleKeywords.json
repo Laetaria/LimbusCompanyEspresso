@@ -271,7 +271,7 @@
     {
       "id": "PinkRibbon_Ishmael",
       "name": "Nastri Rosa",
-      "desc": "Le Stack incrementano di 1 ogni volta che l'unità tira una Moneta offensiva.\nAlla fine del turno, infligge Lentezza pari alle Stack, e poi rimuove l'effetto."
+      "desc": "Le Stack incrementano di 1 ogni volta che l'unità lancia una Moneta offensiva.\nAlla fine del turno, infligge Lentezza pari alle Stack, e poi rimuove l'effetto."
     },
     {
       "id": "Muckworm",
@@ -506,7 +506,7 @@
     {
       "id": "Bullet",
       "name": "Munizioni",
-      "desc": "Usati da alcune Abilità. Alcuni attacchi vengono cancellati se non ci sono Munizioni"
+      "desc": "Usate da alcune Abilità. Alcuni attacchi vengono cancellati se non ci sono Munizioni"
     },
     {
       "id": "Meursault_Last_Remodeling",
@@ -1319,7 +1319,7 @@
     {
       "id": "HeatedGasHarpoon",
       "name": "Arpione a Gas Incandescente",
-      "desc": "Per 1 turno, infligge 1 Bruciatura quando tira Testa"
+      "desc": "Per 1 turno, infligge 1 Bruciatura quando lancia Testa"
     },
     {
       "id": "OverHeatedGasHarpoon",
@@ -1467,7 +1467,7 @@
     {
       "id": "GazePersonality",
       "name": "Sguardo di Disprezzo",
-      "desc": "- Valore Massimo: 7\n- Infligge +7% danni in più per ogni Sguardo di Disprezzo\n- A Fine Turno: quest'effetto scade\n- A Fine Turno: se il valore di Sguardo di Disprezzo è 7, al posto di scadere, viene convertito in Disprezzo dello Sguardo nel prossimo turno.\n\n[Disprezzo dello Sguardo]\n- Ottiene 7 Mitigazione\n- Ottiene 7 Danno Ridotto\n- Uno degli slot di quest'unità ottiene +20 One of this unit's Slots gains +20 Provocazione\n- Non può ottenere Sguardo di Disprezzo finchè Disprezzo dello Sguardo è attivo\n- A Fine Turno: quest'effetto scade",
+      "desc": "- Valore Massimo: 7\n- Infligge +7% danni in più per ogni Sguardo di Disprezzo\n- A Fine Turno: quest'effetto scade\n- A Fine Turno: se il valore di Sguardo di Disprezzo è 7, al posto di scadere, viene convertito in Disprezzo dello Sguardo nel prossimo turno.\n\n[Disprezzo dello Sguardo]\n- Ottiene 7 Mitigazione\n- Ottiene 7 Danno Ridotto\n- Uno degli slot di quest'unità ottiene +20 One of this unit's Slots ottienes +20 Provocazione\n- Non può ottenere Sguardo di Disprezzo finchè Disprezzo dello Sguardo è attivo\n- A Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
@@ -1778,12 +1778,12 @@
     {
       "id": "FullReload",
       "name": "Ricaricare",
-      "desc": "Lose all currently owned Ammo, and reload it back to full"
+      "desc": "Lose all currently owned Munizioni, and reload it back to full"
     },
     {
       "id": "Bullet_LogicAtelier",
       "name": "Munizioni - Atelier Logic",
-      "desc": "Munizione Unica\nMunizione speciale dell'Atelier Logic\n- Questa munizione non può essere persa o guagagnata da effetti esterni"
+      "desc": "Munizione Unica\nMunizione speciale dell'Atelier Logic\n- Questa munizione non può essere persa o ottenuta da effetti esterni"
     },
     {
       "id": "Retreat_FullStop",
@@ -1933,21 +1933,21 @@
     {
       "id": "BurstPoison",
       "name": "Deathrite【Venom】",
-      "desc": "Base Stack: 5\n- Deathrite\n- When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n- When losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n- When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture Potency on self\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "desc": "Base Stack: 5\n- Deathrite\n- When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n- When losing Stacks due to this effect, ottiene 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n- When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture Potency on self\n- ※ Cannot ottiene additional Stacks of this effect while it is already active",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SnakeStance",
       "name": "Serpent Arm",
-      "desc": "Max Stack: 3\nTurn End: gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain 5 Poise\nTurn End: lose 1 Stack",
+      "desc": "Max Stack: 3\nTurn End: ottiene 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, ottiene 5 Poise\nTurn End: lose 1 Stack",
       "summary": "",
       "undefined": "-"
      },
     {
       "id": "BurstZilu",
       "name": "Deathrite 【Fissure】",
-      "desc": "- Base Stack: 3\n- When getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\n· When this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self\n※ Cannot gain additional Stacks of this effect while it is already active.",
+      "desc": "- Base Stack: 3\n- When getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and ottiene 1 Bind next turn\n· When this effect activates, if this unit is to ottiene 3 or more Bind next turn, lose 2 Stacks invece di ottieneing Bind\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self\n※ Cannot ottiene additional Stacks of this effect while it is already active.",
       "summary": "",
       "undefined": "-"
     },
@@ -1961,7 +1961,7 @@
     {
       "id": "EnhanceZilu",
       "name": "Tianjiu Star's Blade",
-      "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, gain 1 Haste next turn\n- Used for certain Skills",
+      "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, ottiene 1 Haste next turn\n- Used for certain Skills",
       "summary": "",
       "undefined": "-"
     },
@@ -1982,21 +1982,21 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Twisted Curse Talisman",
-      "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n※ Cannot gain additional Stacks of this effect while it is already active",
+      "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: ottiene +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, ottiene (Stack / 4) Attack Power Down next turn (max 2)\n※ Cannot ottiene additional Stacks of this effect while it is already active",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CentipedePoison",
       "name": "Centipede Venom",
-      "desc": "- Max Stack: 20\n- Turn End: gain (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
+      "desc": "- Max Stack: 20\n- Turn End: ottiene (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DragonLance",
       "name": "Flower-burying Wedge [埋花櫼]",
-      "desc": "Base Stack: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: gain 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\n- Turn End: gain 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon death or Retreat\n\n- When this unit takes damage that brings their PV down to 0: instead of letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
+      "desc": "Base Stack: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: ottiene 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, ottiene 1 Tarnished Blood (once per Encounter)\n- Turn End: ottiene 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon death or Retreat\n\n- When this unit takes damage that brings their PV down to 0: invece di letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
       "summary": "",
       "undefined": "-"
     },
@@ -2058,8 +2058,8 @@
      },
     {
       "id": "FireBulletPropellant",
-      "name": "Scorch Propellant Ammo",
-      "desc": "- Max Capacity: 15\n- Unique Ammo\n- Spent by certain Skills\n- Counts as \"Ammo\"",
+      "name": "Munizioni a Carburante Rovente",
+      "desc": "- Capacità Max: 15\n- Munizioni Speciali\n- Usate da alcune Abilità\n- Conta come \"Munizioni\"",
       "summary": "",
       "undefined": "-"
     },
@@ -2073,14 +2073,14 @@
     {
       "id": "BulletPropellantAlly",
       "name": "Tigermark Round",
-      "desc": "- Unique Ammo\n- At 8+ (cumulative sum of Tigermark Rounds and Savage Tigermark Rounds spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive\n- Max Capacity: 12",
+      "desc": "- Munizioni Speciali\n- At 8+ (somma totale di Tigermark Rounds e Savage Tigermark Rounds utilizzate), ottiene Unrelenting Spirit - Shin [剛氣-心] invece di Unrelenting Spirit [剛氣] dalla Passiva di questa unità\n- Capacità Max: 12",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BulletPropellantSpecialAlly",
       "name": "Savage Tigermark Round",
-      "desc": "- Unique Ammo\n- At 8+ (cumulative sum of Tigermark Rounds and Savage Tigermark Rounds spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive\n- Actives the same way as Tigermark Round does\n- Max Capacity: 8",
+      "desc": "- Munizioni Speciali\n- At 8+ (somma totale di Tigermark Rounds e Savage Tigermark Rounds utilizzate), ottiene Unrelenting Spirit - Shin [剛氣-心] invece di Unrelenting Spirit [剛氣] dalla Passiva di questa unità\n- Si attiva allo stesso modo di Tigermark Round\n- Capacità Max: 8",
       "summary": "",
       "undefined": "-"
     },
@@ -2101,7 +2101,7 @@
     {
       "id": "BeastEyesAlly",
       "name": "Overheat",
-      "desc": "- Loses this effect when this unit gains Savage Tigermark Round\n- Min & Max Speed +2\n- Base Attack Skills Lose (cumulative number of Tigermark & Savage Tigermark Rounds spent / 2) Clash Power (max 10); however, gain the following effects(cumulative):\n· 8+ Rounds spent: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n· 14+ Rounds spent: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n· 20+ Rounds Spent: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
+      "desc": "- Loses this effect when this unit ottienes Savage Tigermark Round\n- Min & Max Speed +2\n- Base Attack Skills Lose (cumulative number of Tigermark & Savage Tigermark Rounds spent / 2) Clash Power (max 10); however, ottiene the following effects(cumulative):\n· 8+ Rounds spent: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n· 14+ Rounds spent: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n· 20+ Rounds Spent: Deal +(HP percentage difference)% damage aottienest targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
       "summary": "",
       "undefined": "-"
     }

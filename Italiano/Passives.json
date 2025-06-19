@@ -173,7 +173,7 @@
     {
       "id": 1110301,
       "name": "Aiuto Morale",
-      "desc": "il turno successivo, applica 2 [Agility] a se stessa e agli alleati che sono adiacenti a quest'unità sul Pannello di Controllo questo turno."
+      "desc": "il turno successivo, applica 2 [Agility] a sé e agli alleati che sono adiacenti a quest'unità sul Pannello di Controllo questo turno."
     },
     {
       "id": 1120101,
@@ -678,7 +678,7 @@
     {
       "id": 1080721,
       "name": "Cacciagranchi",
-      "desc": "Quando un alleato con i PV Max più bassi tira Testa, infligge +1 Conteggio [Sinking] quando infligge Conteggio [Vibration] sul bersaglio con gli effetti delle Monete."
+      "desc": "Quando un alleato con i PV Max più bassi lancia Testa, infligge +1 Conteggio [Sinking] quando infligge Conteggio [Vibration] sul bersaglio con gli effetti delle Monete."
     },
     {
       "id": 1100701,
@@ -800,7 +800,7 @@
     {
       "id": 1090701,
       "name": "Incandescent Enlightenment",
-      "desc": "Ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il turno successivo in base ai danni che questa unità ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 25% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 5)\nSe questa unità ha 3 [KnowledgeExplored] a Fine Turno, rimuove 1 effetto negativo applicato a a se stessa"
+      "desc": "Ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il turno successivo in base ai danni che questa unità ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 25% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 5)\nSe questa unità ha 3 [KnowledgeExplored] a Fine Turno, rimuove 1 effetto negativo applicato a a sé"
     },
     {
       "id": 1090721,
@@ -1705,13 +1705,13 @@
     {
       "id": 1051101,
       "name": "Duel Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di Attacco di Base: infligge [ConcentratedAttackMeursault] il turno successivo. (una volta per Abilità)",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (una volta per Abilità)",
       "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità di Base, infligge [ConcentratedAttackMeursault] il turno successivo"
     },
     {
       "id": 1051111,
       "name": "Duel Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di Attacco di Base: infligge [ConcentratedAttackMeursault] il turno successivo. (una volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità di Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (una volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
       "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità di Base, infligge [ConcentratedAttackMeursault] il turno successivo. Cura dei PS Se Uccide"
     },
     {
@@ -1853,7 +1853,7 @@
     {
       "id": 1031003,
       "name": "Bearer of the Blood Kin",
-      "desc": "In questo Incontro, se un'altra unità di <La Manchaland[TabExplain]> viene sconfitta:\n- Ottiene 1 [BloodArmorPersonalityFirst] in più quando ottiene [BloodArmorPersonalityFirst] con le Abilità di Attacco di Base di questa unità\n- Quando 3+ altre unità di <La Manchaland[TabExplain]> vengono sconfitte: ottiene 3 [BloodArmorPersonalityFirst] in più; A Inizio Turno, ottiene 1 [SadLamanchaland]"
+      "desc": "In questo Incontro, se un'altra unità di <La Manchaland[TabExplain]> viene sconfitta:\n- Ottiene 1 [BloodArmorPersonalityFirst] in più quando ottiene [BloodArmorPersonalityFirst] con le Abilità di Attacco Base di questa unità\n- Quando 3+ altre unità di <La Manchaland[TabExplain]> vengono sconfitte: ottiene 3 [BloodArmorPersonalityFirst] in più; A Inizio Turno, ottiene 1 [SadLamanchaland]"
     },
     {
       "id": 1031004,
@@ -1938,7 +1938,7 @@
     {
       "id": 1021121,
       "name": "Residual Heat",
-      "desc": "Quando 1 alleato con i PS più bassi infligge [Combustion] con l'effetto Sul Colpo di un'Abilità di Attacco di Base, infligge 2 [Combustion] in più (3 volte max)\n- Se il bersaglio che sta attaccando l'alleato has 30+ [Combustion], invece infligge +1 Conteggio [Combustion] (3 volte max)"
+      "desc": "Quando 1 alleato con i PS più bassi infligge [Combustion] con l'effetto Sul Colpo di un'Abilità di Attacco Base, infligge 2 [Combustion] in più (3 volte max)\n- Se il bersaglio che sta attaccando l'alleato has 30+ [Combustion], invece infligge +1 Conteggio [Combustion] (3 volte max)"
     },
     {
       "id": 1071201,
@@ -2022,12 +2022,12 @@
     {
       "id": 1031101,
       "name": "Virescent Pyrojade",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 5 Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di Attacco di Base, infligge [DianxueDonQuixote] il turno successivo (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 5 Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di Attacco Base, infligge [DianxueDonQuixote] il turno successivo (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)"
     },
     {
       "id": 1031111,
       "name": "Virescent Pyrojade",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni <style=\"highlight\">3</style> Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di Attacco di Base, infligge [DianxueDonQuixote] il turno successivo (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)\n<style=\"highlight\">- Aumenta il massimo di 5% per ogni 1 [DianxueDonQuixote] sul bersaglio</style>"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni <style=\"highlight\">3</style> Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità di Attacco Base, infligge [DianxueDonQuixote] il turno successivo (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)\n<style=\"highlight\">- Aumenta il massimo di 5% per ogni 1 [DianxueDonQuixote] sul bersaglio</style>"
     },
     {
       "id": 1031121,
@@ -2067,12 +2067,12 @@
     {
       "id": 1101201,
       "name": "The Middle Never Forgets",
-      "desc": "Quando viene colpito da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità di Attacco di Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando viene colpito da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità di Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101211,
       "name": "The Middle Never Forgets",
-      "desc": "Quando viene colpito da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità di Attacco di Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando viene colpito da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità di Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101221,
@@ -2087,22 +2087,22 @@
     {
       "id": 1061201,
       "name": "Brainwave Charge-focusing Antlers",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n- Infligge +1 [Sinking] in più con le Abilità di Attacco di Base (non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)\n- Infligge +([Charge] x 3)% danni con le Abilità di Attacco di Base (max 15%)"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n- Infligge +1 [Sinking] in più con le Abilità di Attacco Base (non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)\n- Infligge +([Charge] x 3)% danni con le Abilità di Attacco Base (max 15%)"
     },
     {
       "id": 1061211,
       "name": "Brainwave Charge-focusing Antlers",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n<style=\"highlight\">- Infligge +1 [Sinking] in più con le Abilità di Attacco di Base per ogni 2 [Charge] (max 2, non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)</style>\n- Infligge +([Charge] x <style=\"highlight\">5</style>)% danni con le Abilità di Attacco di Base (max <style=\"highlight\">25%</style>)"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] totale in questo Incontro\n\nA 2+ [Charge]:\n<style=\"highlight\">- Infligge +1 [Sinking] in più con le Abilità di Attacco Base per ogni 2 [Charge] (max 2, non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)</style>\n- Infligge +([Charge] x <style=\"highlight\">5</style>)% danni con le Abilità di Attacco Base (max <style=\"highlight\">25%</style>)"
     },
     {
       "id": 1061221,
       "name": "Charged Pulverization Support",
-      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di Attacco di Base che ottiene Conteggio [Charge], infligge +10% danni con l'ultima Moneta"
+      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di Attacco Base che ottiene Conteggio [Charge], infligge +10% danni con l'ultima Moneta"
     },
     {
       "id": 1061231,
       "name": "Charged Pulverization Support",
-      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di Attacco di Base che ottiene Conteggio [Charge], infligge <style=\"highlight\">+15%</style> danni con l'ultima Moneta"
+      "desc": "1 alleato con più [Charge]: quando usa un'Abilità di Attacco Base che ottiene Conteggio [Charge], infligge <style=\"highlight\">+15%</style> danni con l'ultima Moneta"
     },
     {
       "id": 1121201,
@@ -2143,8 +2143,8 @@
     {
       "id": 1081201,
       "name": "Rupture-breathing Resolve [破吸自桓]",
-      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità di Attacco, ottiene [Breath] pari a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] pari a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] oo Conteggio [Burst] in più con la Abilità di Attacco di Base di questa unità (2 volte per turno)",
-      "summary": "In uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\nInfligge +1 more Potenza [Burst] e Conteggio [Burst] con le Abilità di Attacco di Base"
+      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità di Attacco, ottiene [Breath] pari a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] pari a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] oo Conteggio [Burst] in più con la Abilità di Attacco Base di questa unità (2 volte per turno)",
+      "summary": "In uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere di Scontro +1\nInfligge +1 more Potenza [Burst] e Conteggio [Burst] con le Abilità di Attacco Base"
     },
     {
       "id": 1081202,
@@ -2161,55 +2161,55 @@
     {
       "id": 1101301,
       "name": "Ammunition Tribute",
-      "desc": "When the 1 ally Identity with the fastest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. (can spend up to 3 ammunition) (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento maggiore che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondata in difetto), consuma [FireBulletPropellant] su di sé pari alla quantità di [Bullet] che l'unità affetta ha usato e la rifornisce con tante [Bullet] quante le [FireBulletPropellant] consumate da questa unità. (può consumare fino a 3 munizioni) (una volta per Incontro)\n\n- Se l'Identità che riceve [Bullet] è un'Identità del Pollice di rango più alto, fornisce 1 [Bullet] che usa in più\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente.\n- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia.",
       "summary": ""
     },
     {
       "id": 1101311,
       "name": "Ammunition Tribute",
-      "desc": "When the 1 ally Identity with the fastest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. <style=\"highlight\">(can spend up to 5 ammunition)</style> (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento maggiore che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondata in difetto), consuma [FireBulletPropellant] su di sé pari alla quantità di [Bullet] che l'unità affetta ha usato e la rifornisce con tante [Bullet] quante le [FireBulletPropellant] consumate da questa unità. <style=\"highlight\">(può consumare fino a 5 munizioni)</style> (una volta per Incontro)\n\n- Se l'Identità che riceve [Bullet] è un'Identità del Pollice di rango più alto, fornisce 1 [Bullet] che usa in più\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente.\n- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia.",
       "summary": ""
     },
     {
       "id": 1101312,
       "name": "Bayonets",
-      "desc": "Always Active: begin Encounters with 15 [FireBulletPropellant]\n\nIf this unit spent [FireBulletPropellant] with Skills or Passives, gain [AttackDmgUp] equal to the amount spent next turn (max 3)\n\nWhen flipping a Coin that spends [FireBulletPropellant]: while not having [FireBulletPropellant] does not cancel this unit's attacks, the Coin's On Hit \"inflict [Combustion]\" and \"inflict [Combustion] Count\" effects do not activate",
+      "desc": "Sempre Attiva: inizia l'Incontro con 15 [FireBulletPropellant]\n\nSe questa unità ha usato [FireBulletPropellant] con Abilità o Passive, ottiene [AttackDmgUp] pari a quante usate il turno seguente (max 3)\n\nQuando lancia una Moneta che consuma [FireBulletPropellant]: anche se non avere [FireBulletPropellant] non annulla gli attacchi di questa unità, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano",
       "summary": ""
     },
     {
       "id": 1101321,
       "name": "Reloader",
-      "desc": "When the 1 ally Identity with the fastest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), regain half of the maximum [Bullet] capacity (rounded up; once per Encounter; max [Bullet] regained: 5)\n\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will gain them at random\n- If either Potency or Count of [Bullet] is maxed out, gain whichever is not maxed\n- This effect does not activate if there are no Identities that use [Bullet]",
+      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento maggiore che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondato in difetto), recupera [Bullet] quanto la metà della sua capacità massima (arrotondate in eccesso; una volta per Incontro; massime [Bullet] recuperate: 5)\n\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia\n- Questo effetto non si attiva se non ci sono Identità con [Bullet]",
       "summary": ""
     },
     {
       "id": 1051202,
       "name": "Chachihu [揷翅虎]",
-      "desc": "Always Active: begin Encounters with 12 [BulletPropellantAlly]\n\nWhen flipping a Coin that consumes [BulletPropellantAlly] or [BulletPropellantSpecialAlly]: while not having those 'Unique Ammo' does not cancel this unit's attacks, the Coin's On Hit \"inflict [Combustion]\" and \"inflict [Combustion] Count\" effects do not activate\n\nIf this unit equipped Defense Skills for the first time in this Encounter, or if this unit spent all of his [BulletPropellantAlly], or if this unit is Staggered: at the end of that turn, reload 8 [BulletPropellantSpecialAlly] and gain 1 [IrritationAlly] (once per Encounter)\n- If this effect activates while this unit is Staggered, recover from Stagger (unless it's a forced Stagger)\n- Remove all [BulletPropellantAlly] if this unit has any leftover [BulletPropellantAlly]\n- At 8+ (sum of [BulletPropellantAlly] and [BulletPropellantSpecialAlly] spent), convert [IrritationAlly] to [HugeIrritationAlly]\n\nWhen this unit uses a Base Attack Skill that spends the final Round of [BulletPropellantSpecialAlly]...\n- Gain Atk Weight +2 before attacking\n- Gain 1 [BeastEyesAlly] next turn",
+      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla gli attacchi di questa unità, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha equipaggiato delle Abilità di Difesa per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità Vacilla: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (una volta per Incontro)\n- Se questo effetto si attiva quando questa unità Vacilla, si riprende dal Vacillamento (a meno che non sia un Vacillamento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellconverte tutte le Monete diopellantSpecialAllyusate), conv(i)rte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità di Attacco Base che consuma l'ultima [BulletPropellantSpecialAlly]...\n- Ottiene Peso Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
       "summary": ""
     },
     {
       "id": 1051201,
       "name": "Tiantui Star's Blade [天退星刀]",
-      "desc": "When this unit has [BulletPropellantAlly]:\n- At 1+ [BulletPropellantAlly], convert all Coins of 'Tanglecleaver' into [SuperCoin]s\n- Skill Coins that spend [BulletPropellantAlly] gain +1 Power (activates only as long as the Coin has Rounds left to spend)\n\nWhen this unit has [BulletPropellantSpecialAlly]:\n- At 1+ [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills to [SuperCoin]s\n- At 0 [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills that spend 'Unique Ammo' to [SuperCoin]s\n- Skill Coins that spend [BulletPropellantSpecialAlly] gain +2 Power (activates only as long as the Coin has Rounds left to spend)",
+      "desc": "Quando questa unità ha [BulletPropellantAlly]:\n- A 1+ [BulletPropellantAlly], converte tutte le Monete di 'Tanglecleaver' in [SuperCoin]\n- Le Monete delle Abilità che usano [BulletPropellantAlly] ottengono +1 Potere (si attiva finché la Moneta ha Munizioni da consumare)\n\nQuando questa unità ha [BulletPropellantSpecialAlly]:\n- A 1+ [BulletPropellantSpecialAlly] converte tutte le Monete delle Abilità di Attacco Base di questa unità in [SuperCoin]\n- A 0 [BulletPropellantSpecialAlly] converte tutte le Monete delle Abilità di Attacco Base che usano 'Munizioni Speciali' di questa unità in [SuperCoin]\n- Le Monete delle Abilità che usano [BulletPropellantSpecialAlly] ottengono +2 Potere (si attiva finché la Moneta ha Munizioni da consumare)",
       "summary": ""
     },
     {
       "id": 1051211,
       "name": "Tiantui Star's Blade [天退星刀]",
-      "desc": "When this unit has [BulletPropellantAlly]:\n- At 1+ [BulletPropellantAlly], convert all Coins of 'Tanglecleaver' into [SuperCoin]s\n- Skill Coins that spend [BulletPropellantAlly] gain +1 Power <style=\"highlight\">and deal +10% damage</style> (activates only as long as the Coin has Rounds left to spend)\n\nWhen this unit has [BulletPropellantSpecialAlly]:\n- At 1+ [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills to [SuperCoin]s\n- At 0 [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills that spend 'Unique Ammo' to [SuperCoin]s\n- Skill Coins that spend [BulletPropellantAlly] gain +2 Power, <style=\"highlight\">deal +30% damage, and inflict +2 more [Combustion] Potency and [Combustion] Count On Hit with those Coins</style> (activates only as long as the Coin has Rounds left to spend)",
+      "desc": "Quando questa unità ha [BulletPropellantAlly]:\n- A 1+ [BulletPropellantAlly], converte tutte le Monete di 'Tanglecleaver' in [SuperCoin]\n- Le Monete delle Abilità che usano [BulletPropellantAlly] ottengono +1 Potere <style=\"highlight\">e infligge +10% danni</style> (si attiva finché la Moneta ha Munizioni da consumare)\n\nQuando questa unità ha [BulletPropellantSpecialAlly]:\n- A 1+ [BulletPropellantSpecialAlly] converte tutte le Monete delle Abilità di Attacco Base di questa unità in [SuperCoin]\n- A 0 [BulletPropellantSpecialAlly] converte tutte le Monete delle Abilità di Attacco Base che usano 'Munizioni Speciali' di questa unità in [SuperCoin]\n- Le Monete delle Abilità che usano [BulletPropellantAlly] ottengono +2 Potere, <style=\"highlight\">infliggono +30% danni, e infliggono +2 Potere [Combustion] e Conteggio [Combustion] aggiuntivi Sul Colpo con quelle Monete</style> (si attiva finché la Moneta ha Munizioni da consumare)",
       "summary": ""
     },
     {
       "id": 1051221,
       "name": "Savage Tiger's Lunge",
-      "desc": "When 1 ally with the fastest Speed uses a Skill that spends [Bullet], if their Speed is faster than the target's by 3 or more, deal +(Speed difference × 2)% more damage (max 10%).\n(This effect does not activate if the affected unit lacks the [Bullet] buff entirely. However, it will activate if they have the [Bullet] buff, even if they have 0 rounds left)",
+      "desc": "Quando 1 alleato con la Velocità più alta usa un'Abilità che consuma [Bullet], se la sua Velocità è maggiore del bersaglio di 3 o più, infligge +(differenza di Velocità × 2)% più danni (max 10%).\n(Questo effetto non si attiva se l'unità affetta manca interamente del buff [Bullet]. Ma, si attiverà se ha il buff [Bullet], anche se ne ha 0 rimanenti)",
       "summary": ""
     },
     {
       "id": 1051231,
       "name": "Savage Tiger's Lunge",
-      "desc": "When 1 ally with the fastest Speed uses a Skill that spends [Bullet], if their Speed is faster than the target's by 3 or more, deal +(Speed difference × <style=\"highlight\">3</style>)% more damage (max <style=\"highlight\">15%</style>).\n(This effect does not activate if the affected unit lacks the [Bullet] buff entirely. However, it will activate if they have the [Bullet] buff, even if they have 0 rounds left)",
+      "desc": "Quando 1 alleato con la Velocità più alta usa un'Abilità che consuma [Bullet], se la sua Velocità è maggiore del bersaglio di 3 o più, infligge +(differenza di Velocità × <style=\"highlight\">3</style>)% più danni (max <style=\"highlight\">15%</style>).\n(Questo effetto non si attiva se l'unità affetta manca interamente del buff [Bullet]. Ma, si attiverà se ha il buff [Bullet], anche se ne ha 0 rimanenti)",
       "summary": ""
     }
   ]
