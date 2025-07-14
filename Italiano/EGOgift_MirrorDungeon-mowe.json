@@ -2,197 +2,197 @@
   "dataList": [
     {
       "id": 9732,
-      "name": "Economy Class Discount Voucher",
-      "desc": "Turn End: among Identities with 5- Speed, the one with the slowest Speed gains 1 [Agility] next turn.",
+      "name": "Buono Sconto per Seconda Classe",
+      "desc": "Alla Fine del Turno: tra le Identità con 5- Velocità, quella più lenta ottiene 1 [Agility] al turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9732,
-          "simpleDesc": "Gain 1 Haste next turn"
+          "simpleDesc": "Ottiene 1 Rapidità al turno successivo"
         }
       ]
     },
     {
       "id": 9733,
-      "name": "Canned Ice Cream",
-      "desc": "When an ally loses PV due to their own Attack Skill effect, heal half of the PV lost due to the Skill effect at the next Turn Start. (rounded down)\n\nWhen an ally heals PV due to an E.G.O Skill effect, heal +12.5% more PV. (rounded down)",
+      "name": "Gelato in Scatola",
+      "desc": "Quando un alleato perde PV a causa dell'effetto delle sue stesse Abilità, cura metà dei PV persi a causa dell'Abilità all'Inizio del Turno successivo. (arrotondato per difetto)\n\nQuando un alleato cura dei PV per gli effetti di un'Abilità E.G.O, ottiene +12.5% PV extra. (arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9733,
-          "simpleDesc": "Heal PV at the next Turn Start"
+          "simpleDesc": "Cura PV all'Inizio del Turno successivo"
         },
         {
           "abilityID": 97331,
-          "simpleDesc": "Enhance E.G.O PV Heal effects"
+          "simpleDesc": "Potenzia le cure PV degli E.G.O"
         }
       ]
     },
     {
       "id": 9734,
-      "name": "E-Type Dimensional Dagger",
-      "desc": "Skill 1s that gain [Charge] Count or 'Unique Charge' gain Clash Power +1 and deal +5% damage.\n\nIf that Skill 1 was a Single-coin Skill, gain Clash Power +1 and deal +12.5% damage instead.\n\nIf a W Corp. Identity dealt damage to an enemy with an Envy Skill(including E.G.O Skills), inflict 2 PV Healing Down. (does not stack)",
+      "name": "Daga Dimensionale di Tipo E",
+      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Carica Unica' ottiene Potenza di Scontro +1 ed infligge +5% danno.\n\nSe l'Abilità 1 in questione ha una sola moneta, ottiene invece Potenza di Scontro +1 ed infligge +12.5% danni.\n\nSe un'Identità della W Corp. ha inflitto danno utilizzando un'Abilità Invidia (E.G.O inclusi), essa infligge anche 2 Cure PV Ridotte. (non si accumula)",
       "simpleDesc": [
         {
           "abilityID": 9734,
-          "simpleDesc": "Skill 1 gains Clash Power and deals more damage"
+          "simpleDesc": "L'Abilità 1 ottiene Potenza di Scontro e più danno"
         },
         {
           "abilityID": 97341,
-          "simpleDesc": "Skill 1 gains Clash Power and deals more damage"
+          "simpleDesc": "L'Abilità 1 ottiene Potenza di Scontro e più danno"
         },
         {
           "abilityID": 97342,
-          "simpleDesc": "Inflict 2 PV Healing Down"
+          "simpleDesc": "infligge 2 Cure PV Ridotte"
         }
       ]
     },
     {
       "id": 9735,
-      "name": "Portable Barrier Battery",
-      "desc": "Skill 1s that gain [Charge] Count or 'Unique Charge' gain Clash Power +2.\n\nWhen using a Skill 1 that gains [Charge] Count, gain +2 [Charge] Count and 1 [ChargeForceField]. (once per turn)\n\nIf a W Corp. Identity takes PV damage due to any effect other than a direct damage, gain 5 [ChargeForceField]. (once per turn)",
+      "name": "Batteria per Barriera Portatile",
+      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Carica Unica' ottiene Potenza di Scontro +1.\n\nQuando si utilizza un'Abilità 1 che genera Conteggio [Charge], guadagna invece +2 Conteggio [Charge] ed 1 [ChargeForceField]. (una volta per turno)\n\nSe un'Identità della W Corp. subisce danni ai PV per via di qualsiasi effetto eccetto danni diretti, essa guadanga 5 [ChargeForceField]. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9735,
-          "simpleDesc": "Skill 1 gains Clash Power, Charge Count, and [ChargeForceField]"
+          "simpleDesc": "L'Abilità 1 ottiene Potenza di Scontro, Conteggio Carica e Scudo Energetico"
         },
         {
           "abilityID": 97351,
-          "simpleDesc": "Gain [ChargeForceField]"
+          "simpleDesc": "Ottiene Scudo Energetico"
         }
       ]
     },
     {
       "id": 9736,
-      "name": "Biogenerative Battery",
-      "desc": "Allies with [Charge] Count or 'Unique Charge' gain 1 Offense Level with every Clash. (max 6. Resets After Attack)\n\nTurn End: Identities with 10+ ([Charge] Count + 'Unique Charge') gain 1 [Agility] next turn. At 18+ ([Charge] Count + 'Unique Charge'), gain 3 [AttackUp] as well.",
+      "name": "Batteria Biorigenerante",
+      "desc": "Gli alleati con Conteggio [Charge] o 'Carica Unica' ottengono 1 Aumento Offensivo con ogni Scontro. (max 6. Si resetta dopo gli attacchi)\n\nAlla Fine del Turno: le Identità con 10+ (Conteggio [Charge] + 'Carica Unica') ottengono 1 [Agility] al turno successivo. A 18+ (Conteggio [Charge] + 'Carica Unica'), ottengono anche 3 [AttackUp].",
       "simpleDesc": [
         {
           "abilityID": 9736,
-          "simpleDesc": "Gain Offense Level"
+          "simpleDesc": "Ottiene Aumento Offensivo"
         },
         {
           "abilityID": 97361,
-          "simpleDesc": "Gain Haste"
+          "simpleDesc": "Ottiene Rapidità"
         },
         {
           "abilityID": 97362,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "Ottiene Aumento Offensivo"
         }
       ]
     },
     {
       "id": 9737,
-      "name": "Cardiovascular Reactive Module",
-      "desc": "When an ally with [Charge] Count or 'Unique Charge' loses a Clash, gain Shield equal to ([Charge] Count + 'Unique Charge'). (once per turn)\n\nWhen at 50%- PV, gain (([Charge] Count + 'Unique Charge') x 2) Shield instead. (once per turn)\n\nIf a MultiCrack Office Identity received PV damage during this Encounter: next turn, they heal 33% of the PV lost last turn. (rounded down)",
+      "name": "Modulo Stimolante Cardiovascolare",
+      "desc": "Quando un alleato con Conteggio [Charge] o 'Carica Unica' perde uno Scontro, questo ottiene Scudo pari a (Conteggio [Charge] + 'Carica Unica'). (una volta per turno)\n\nQuando si trova a 50%- PV, ottiene invece ((Conteggio [Charge] + 'Carica Unica') x 2) Scudo. (una volta per turno)\n\nSe un'Identità dell'Ufficio MultiCrack riceve danni ai PV durante l'Incontro: al prossimo turno, si cura 33% dei PV persi il turno precedente. (arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9737,
-          "simpleDesc": "Gain Shield"
+          "simpleDesc": "Ottiene Scudo"
         },
         {
           "abilityID": 97371,
-          "simpleDesc": "Heal PV based on PV lost last turn"
+          "simpleDesc": "Si cura in base ai PV persi il turno precedente"
         }
       ]
     },
     {
       "id": 9738,
-      "name": "Prosthetic Joint Servos",
-      "desc": "Next turn: allies gain [Agility] and [Charge] Count equal to the number of [Charge] Count or 'Unique Charge' gaining base Attack Skills they used this turn. (max 2)\n\nWhen a MultiCrack Office Identity gains or consumes [Charge] Count with a base Attack Skill, they gain +1 additional [Charge] Count. (max 2)",
+      "name": "Giuntura per Protesi Meccanica",
+      "desc": "Al Turno Successivo: gli alleati ottengono [Agility] e Conteggio [Charge] pari al numero di Abilità Attacco utilizzate in questo turno che includono accumlo di [Charge] o 'Carica Unica'. (max 2)\n\nQuando un'Identità dell'Ufficio MultiCrack ottiene o consuma Conteggio [Charge] utilizzando un'Abilità Attacco base, ottiene +1 Conteggio [Charge] in più. (max 2)",
       "simpleDesc": [
         {
           "abilityID": 9738,
-          "simpleDesc": "Gain Haste and Charge Count"
+          "simpleDesc": "Ottiene Rapidità e Conteggio Carica"
         },
         {
           "abilityID": 97381,
-          "simpleDesc": "Gain more Charge Count"
+          "simpleDesc": "Ottiene più Conteggio Carica"
         }
       ]
     },
     {
       "id": 9739,
-      "name": "Crystallized Blood",
-      "desc": "Turn End: If this unit has [Laceration], halve the [Laceration] Potency on self and heal ([Laceration] Potency reduced x [Laceration] Count on self) PV. (rounded down. Can heal up to 10% of max PV at once)",
+      "name": "Sangue Cristallizzato",
+      "desc": "Alla Fine del Turno: se questo personaggio ha [Laceration], dimezza la Potenza [Laceration] su di sè e si cura di (Potenza [Laceration] ridotta x Conteggio [Laceration] su sè) PV. (arrotondato per difetto. Si cura fino al 10% dei PV massimi in una volta sola)",
       "simpleDesc": [
         {
           "abilityID": 9739,
-          "simpleDesc": "Halve Bleed Potency on self, heal PV"
+          "simpleDesc": "Dimezza Potenza Sanguinamento e cura PV"
         }
       ]
     },
     {
       "id": 9740,
-      "name": "Automated Joints",
-      "desc": "Turn Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge' effects. (Not counting E.G.O Skills, only counts Identities on the field)\n\nBase Attack Skills that consume [Charge] Count or 'Unique Charge': gain Coin Power +1 and deal +(sum of [Charge] Count and 'Unique Charge' consumed by that Skill x 4)% damage (max 40%)\n\nTurn End: allies with [Charge] Count or 'Unique Charge' gain 1 [Agility] (max 2) and 1 [AttackDmgUp] (max 3) next turn for every instance they used a base Attack Skill that consumes [Charge] Count or 'Unique Charge' in this Encounter.\n\nIf a MultiCrack Office Identity has 5+ [Charge], they gain Coin Power +1 to base Attack Skills.",
+      "name": "Giunture Cibernetiche",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permette di ottenere Conteggio [Charge] o 'Carica Unica'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nLe Abilità Base che consumano Conteggio [Charge] o 'Carica Unica': ottengono Potenziamento Moneta +1 ed infliggono +(somma conteggio [Charge] e 'Carica Unica' consumata dalle Abilità x 4)% danno (max 40%)\n\nAlla Fine del Turno: gli alleati con Conteggio [Charge] o 'Carica Unica' ottengono 1 [Agility] (max 2) ed 1 [AttackDmgUp] (max 3) per ogni volta che hanno utilizzato un'Abilità Attacco base che conusuma Conteggio [Charge] o 'Carica Unica' durante questo Incontro.\n\nSe un'Identità dell'Ufficio MultiCrack ha 5+ [Charge], questa ottiene Potenziamento Moneta +1 per le Abilità Attacco base.",
       "simpleDesc": [
         {
           "abilityID": 9740,
-          "simpleDesc": "Gain Coin Power and deal more damage"
+          "simpleDesc": "Ottiene Potenziameno Moneta ed infligge più danno"
         },
         {
           "abilityID": 97401,
-          "simpleDesc": "Gain Haste and Damage Up next turn"
+          "simpleDesc": "Ottiene Rapidità e Danno Aumentato il turno successivo"
         },
         {
           "abilityID": 97402,
-          "simpleDesc": "Gain Coin Power"
+          "simpleDesc": "Ottiene Potenziameno Moneta"
         }
       ]
     },
     {
       "id": 9741,
-      "name": "Overcharged Battery",
-      "desc": "Turn Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge' effects. (Not counting E.G.O Skills, only counts Identities on the field)\n\nBase Attack Skills that consume [Charge] Count or 'Unique Charge': gain Coin Power +1 and deal +(sum of [Charge] Count and 'Unique Charge' consumed by that Skill x 4)% damage (max 40%)\n\nWhen allies with [Charge] Count or 'Unique Charge' engage in Clashes with base Attack Skills: Clash Power +2; gain +3 [Charge] Count upon Clash Win, and lose 6 [Charge] Count upon Clash Lose.\n\nWhen winning a Clash with an Envy Affinity base Attack Skill, inflict 1 [VioletTakeDamageUp]. (stacks 3 times)",
+      "name": "Batteria Sovraccarica",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permette di ottenere Conteggio [Charge] o 'Carica Unica'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nLe Abilità Base che consumano Conteggio [Charge] o 'Carica Unica': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Unica' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Carica Unica' prendono parte agli Scontri con Abilità Attacco base: Potenza di Scontro +2; ottengono +3 Conteggio [Charge] vincendo Scontri, e perdono 6 Conteggio [Charge] perdendo Scontri.\n\nQuando viene vinto uno Scontro utilizzando un'Abilità Attacco base con Affinità Invidia, infligge 1 [VioletTakeDamageUp]. (si accumula fino a 3 volte)",
       "simpleDesc": [
         {
           "abilityID": 9741,
-          "simpleDesc": "Gain Coin Power and deal more damage"
+          "simpleDesc": "Ottiene Potenziamento Moneta ed infligge più danno"
         },
         {
           "abilityID": 97411,
-          "simpleDesc": "Gain Clash Power; gain Charge Count upon Clash Win, lose Charge Count upon Clash Lose"
+          "simpleDesc": "Ottiene Potenza di Scontro; ottiene Conteggio Carica vincendo Scontri, perde Conteggio perdendo Scontri"
         },
         {
           "abilityID": 97412,
-          "simpleDesc": "Inflict Envy Fragility"
+          "simpleDesc": "Infligge Vulnerabilità Invidia"
         }
       ]
     },
     {
       "id": 9742,
-      "name": "Perpetual Generator Servos",
-      "desc": "Turn Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge' effects. (Not counting E.G.O Skills, only counts Identities on the field)\n\nBase Attack Skills that consume [Charge] Count or 'Unique Charge': gain Coin Power +1 and deal +(sum of [Charge] Count and 'Unique Charge' consumed by that Skill x 4)% damage (max 40%)\n\nWhen allies with [Charge] Count or 'Unique Charge' engage in a Clash with base Attack Skills: Clash Power +1; gain 2 [AttackUp] at Turn Start for every instance of Clash Win in that Clash during this Encounter. (max 6)\n\nIn this Encounter, when an ally takes damage that would kill them, consume all [Charge] Count and 'Unique Charge' on self; then, immediately heal (10 + sum of [Charge] Count and 'Unique Charge' consumed)% PV (once per Encounter); then, gain 3 [Protection] until the ally is defeated.",
+      "name": "Generatore Perpetuo Cibernetico",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permettono di ottenere Conteggio [Charge] o 'Carica Unica'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nAbilità Base che consumano Conteggio [Charge] o 'Carica Unica': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Unica' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Carica Unica' prendono parte a Scontri con Abilità Attacco base: Potenza di Scontro +1; ottengono 2 [AttackUp] all'Inizio del Turno per ogni volta che è stato vinto uno Scontro durante questo Incontro. (max 6)\n\nSe durante l'Incontro un alleato subisce danni che lo ucciderebbero, consuma tutto il Conteggio [Charge] e 'Carica Unica' che possiede; dopodiché si cura del (10 + somma Conteggio [Charge] e 'Carica Unica' consumati)%  PV (una volta per Incontro); successivamente, ottiene 3 [Protection] finquando non viene sconfitto.",
       "simpleDesc": [
         {
           "abilityID": 9742,
-          "simpleDesc": "Gain Coin Power and deal more damage"
+          "simpleDesc": "Ottiene Potenziamento Moneta ed infligge più danno"
         },
         {
           "abilityID": 97421,
-          "simpleDesc": "Gain Clash Power and Offense Level Up"
+          "simpleDesc": "Ottiene Potenza di Scontro ed Aumento Offensivo"
         },
         {
           "abilityID": 97422,
-          "simpleDesc": "Immediately before death, consume Charge Count to instantly heal and gain Protection"
+          "simpleDesc": "Subito prima di morire, consuma il Conteggio Carica per curarsi ed ottenere Mitigazione"
         }
       ]
     },
     {
       "id": 9743,
-      "name": "Hearts-powered Jewel",
-      "desc": "Turn Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge' effects. (Not counting E.G.O Skills, only counts Identities on the field)\n\nBase Attack Skills that consume [Charge] Count: gain Coin Power +1 and deal +(sum of [Charge] Count and 'Unique Charge' consumed by that Skill x 4)% damage (max 40%)\n\nWhen allies have 15+ ([Charge] Count + 'Unique Charge'): when they use a Skill 3 that consumes [Charge] Count or 'Unique Charge', and if there are remaining [Charge] Count or 'Unique Charge' After Attack, consume all remaining [Charge] Count and 'Unique Charge' to deal (sum of [Charge] Count and 'Unique Charge' consumed x 7.5)% fixed bonus damage. (max 75%)\n\nMax [Charge] Count +5.",
+      "name": "Gioiello ad Alimentazione Cardiaca",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità d'Attacco che permettono di ottenere Conteggio [Charge] o 'Carica Unica'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nLe Abilità Base che consumano Conteggio [Charge] o 'Carica Unica': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Unica' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati hanno 15+ Conteggio ([Charge] + 'Carica Unica'): quando si utilizza un'Abilità 3 che consuma Conteggio [Charge] o 'Carica unica' e se rimane del Conteggio [Charge] o 'Carica Unica', dopo l'Attacco, consuma tutto il Conteggio [Charge] e 'Carica Unica' rimanente per infliggere (somma Conteggio [Charge] e 'Carica Unica' consumate x 7.5)% danno bonus. (max 75%)\n\nConteggio [Charge] massime +5.",
       "simpleDesc": [
         {
           "abilityID": 9743,
-          "simpleDesc": "Gain Coin Power and deal more damage"
+          "simpleDesc": "Ottiene Potenziamento Moneta ed infligge più danno"
         },
         {
           "abilityID": 97431,
-          "simpleDesc": "Spend additional Charge Count to deal bonus damage"
+          "simpleDesc": "Consuma Conteggio Carica extra per infliggere ulteriori danni"
         },
         {
           "abilityID": 97432,
-          "simpleDesc": "Max Charge Count +5"
+          "simpleDesc": "Conteggio Carica massime +5"
         }
       ]
     }
