@@ -122,7 +122,7 @@
     {
       "id": 19005,
       "name": "Cleride Sanguinea+",
-      "desc": "Quando si<style=\"upgradeHighlight\">colpisce un nemico con un'Abilità che infligge Potenza [Laceration] o 'Sanguinamento Unico', o un'Abilità con Affinità Ira</style>, <style=\"upgradeHighlight\">infligge 5 Potenza [Laceration]</style>.",
+      "desc": "Quando si <style=\"upgradeHighlight\">colpisce un nemico con un'Abilità che infligge Potenza [Laceration] o 'Sanguinamento Unico', o un'Abilità con Affinità Ira</style>, <style=\"upgradeHighlight\">infligge 5 Potenza [Laceration]</style>.",
       "simpleDesc": [
         {
           "abilityID": 19005,
@@ -144,11 +144,11 @@
     {
       "id": 9006,
       "name": "Caffè e Gru",
-      "desc": "Inizio Turno: Ottieni +1 risorsa E.G.O di un'Affinità casuale che non corrisponde ad un'Abilità Attacco usata durante l'ultimo turno.\n\n Se un'Abilità Affine Lussuria è stata usata durante l'ultimo turno: Ottieni Ottieni invece +1 risorsa EGO per ogni Affinità a cui non corrisponde nessuna Abilità Attacco Affine usata durante l'ultimo turno.",
+      "desc": "Inizio Turno: Ottieni +1 risorsa E.G.O di un'Affinità casuale che non corrisponde ad un'Abilità Attacco usata durante l'ultimo turno.\n\n Se un'Abilità con Affinità Lussuria è stata usata durante l'ultimo turno: Ottieni invece +1 risorsa EGO per ogni Affinità a cui non corrisponde nessuna Affinità Abilità Attacco usata durante l'ultimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9006,
-          "simpleDesc": "+1 risorsa E.G.O di una casuale Affinità non usata durante il precedente turno"
+          "simpleDesc": "+1 risorsa E.G.O di un'Affinità casuale non usata durante il precedente turno"
         },
         {
           "abilityID": 90061,
@@ -163,11 +163,11 @@
       "simpleDesc": [
         {
           "abilityID": 9007,
-          "simpleDesc": "The first Attack Skill to deal damage to an enemy deals fixed damage by half of the damage dealt"
+          "simpleDesc": "Il primo Attacco di quest'Abilità che infligge danno ad un nemico infligge danno pari alla metà del danno inflitto"
         },
         {
           "abilityID": 90071,
-          "simpleDesc": "The first Attack Skill to deal damage to an enemy deals fixed damage by half of the damage dealt"
+          "simpleDesc": "Il primo Attacco di quest'Abilità che infligge danno ad un nemico infligge danno pari alla metà del danno inflitto"
         }
       ]
     },
@@ -290,11 +290,11 @@
     {
       "id": 9012,
       "name": "Espressione d'Oggi",
-      "desc": "Dopo aver sconfitto un nemico usando un'Abilità Affine Pigrizia o un'Abilità Contundente, aumenta il Potere delle Abilità Contundenti di 2 fino alla fine del prossimo turno.",
+      "desc": "Dopo aver sconfitto un nemico usando un'Abilità Affinità Pigrizia o un'Abilità Contundente, aumenta il Potere delle Abilità Contundenti di 2 fino alla fine del prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9012,
-          "simpleDesc": "Abilità Contundenti Potere +2"
+          "simpleDesc": "Potere Abilità Contundente +2"
         }
       ]
     },
@@ -346,7 +346,7 @@
     {
       "id": 9014,
       "name": "Moneta Commemorativa Arrugginita",
-      "desc": "Se la prima Abilità Attacco con una singola moneta che un alleato ha usato durante la fase del combattimento non sconfigge nessun nemico, usa l'abilità attacco una seconda volta.\n\nDopo aver sconfitto un nemico usando un'Abilità Affine Pigrizia o un'Abilità con una sola moneta, l'alleato ottiene +1 Potere Abilità per il prossimo turno.",
+      "desc": "Se la prima Abilità Attacco con una singola moneta che un alleato ha usato durante la fase del combattimento non sconfigge alcun nemico, l'abilità attacco viene usata una seconda volta.\n\nDopo aver sconfitto un nemico usando un'Abilità Affinità Pigrizia o un'Abilità con una sola moneta, l'alleato ottiene +1 Potere Abilità per il prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9014,
