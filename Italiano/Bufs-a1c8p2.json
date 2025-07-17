@@ -2,200 +2,200 @@
   "dataList": [
     {
       "id": "ExaminationOfQiu",
-      "name": "A Sliver of Anticipation",
-      "desc": "He's not giving it his all.\n- Lose 35 Base Offense Level, Lose 35 Base Defense Level\n- Deal +30% damage with Unopposed Attacks",
+      "name": "Un Soffio di Aspettativa",
+      "desc": "Non stà dando il massimo.\n- Perde 35 Livello Offensivo di Base, Perde 35 Livello Difensivo di Base\n- Infligge +30% danni con gli Attacchi Incontrastati",
       "summary": ""
     },
     {
       "id": "BurstStop",
-      "name": "Deathrite 【Halt】",
-      "desc": "Base Stack: 4\n- Deathrite\n- When getting Rupture triggered while this unit has 3+ Bind, lose 1 Stack\n- When losing Stacks, raise this unit's Stagger Threshold by 10\n- At 0 Stack, raise this unit's Stagger Threshold by Rupture Potency on self, then expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Anatema 【Ferma】",
+      "desc": "Stack di Base: 4\n- Anatema\n- Quando la Lacerazione di questa unità viene attivata e ha 3+ Lentezza, perde 1 Stack\n- Quando perde delle Stack, alza la Soglia di Vacillamento di questa unità di 10\n- A 0 Stack, alza la Soglia di Vacillamento di questa unità quanto la Potenza Lacerazione su di sé, poi si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": ""
     },
     {
       "id": "BurstSuppress",
-      "name": "Deathrite 【Impede】",
+      "name": "Anatema 【Intralcia】",
       "desc": "Base Stack: 10\n- Deathrite\n- When this unit loses other Deathrites' Stacks due to their conditions, lose 1 Stack (max 4 per turn)\n- At 0 Stack, gain 6 Offense Level Down for the next turn, then expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
       "summary": ""
     },
     {
       "id": "BurstWave",
-      "name": "Deathrite 【Wane】",
-      "desc": "Base Stack: 10\n- Deathrite\nWhen the unit that inflicted this effect triggers Rupture, lose 1 Stack\n- Also lose 1 Stack of a random Deathrite on self, except for this Deathrite\n- At 0 Stack, expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Anatema 【Declino】",
+      "desc": "Stack di Base: 10\n- Anatema\nQuando l'unità che ha inflitto questo effetto attiva Lacerazione, perde 1 Stack\n- Inoltre perde 1 Stack di Anatema su di sé di tipo casuale escluso questo\n- A 0 Stack, si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": ""
     },
     {
       "id": "Teaching",
-      "name": "Dialogues",
-      "desc": "Max Stack: 3\n- Turn End: heal 5 PS\n- When PV drops to 0 during the Encounter, heal up to max PV (activates as many times as this unit has Stacks)\n- Activated: {0} time(s)",
+      "name": "Dialoghi",
+      "desc": "Max Stack: 3\n- A Fine Turno: si cura di 5 PS\n- Quando i PV finiscono a 0 durante l'Incontro, si cura fino ai PV max (si attiva tante volte quante le Stack possedute)\n- Attivato: {0} volta(e)",
       "summary": ""
     },
     {
       "id": "BurstWeakness",
-      "name": "Deathrite 【Enfeeble】",
-      "desc": "Base Stack: 5\n- Deathrite\n- If the target's Speed is faster than this unit's, and if the Speed difference 5 or greater: when getting Rupture triggered, lose 1 Stack\n- When losing Stacks, gain 1 Defense Level Down next turn (once per turn)\n- At 0 Stack, gain 3 Defense Level Down and 1 Bind next turn, then expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Anatema 【Indebolisci】",
+      "desc": "Stack di Base: 5\n- Anatema\n- Se la Velocità del bersaglio è maggiore di questa unità, e se la differenza di Velocità è di 5 o maggiore: quando la sua Lacerazione si attiva, perde 1 Stack\n- Quando perde delle Stack, ottiene 1 Calo Difensivo il turno successivo (una volta per turno)\n- A 0 Stack, ottiene 3 Calo Difensivo e 1 Lentezza il turno successivo, poi si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": ""
     },
     {
       "id": "Qiu_LowMorale",
       "name": "Jia Qiu",
-      "desc": "- Low Morale\n- Deal +10% damage against targets that aren't Hong Lu",
+      "desc": "- Morale Basso\n- Infligge +10% danni contro i bersagli che non sono Hong Lu",
       "summary": ""
     },
     {
       "id": "Qiu_Panic",
       "name": "Jia Qiu",
-      "desc": "- Panic\n- Deal +20% damage against targets that aren't Hong Lu",
+      "desc": "- Panico\n- Infligge +20% danni contro i bersagli che non sono Hong Lu",
       "summary": ""
     },
     {
       "id": "QiuAndHonglu",
       "name": "My True Heart...",
-      "desc": "- Hong Lu's Skills gain +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least PS heals 5 PS\n- When an ally dies, remaining allies at Turn End gain 1 Offense Level Up next turn (once per turn)",
+      "desc": "- Le Abilità di Hong Lu ottengono +1 Valore Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con meno PS si cura di 5 PS\n- Quando un'alleato muore, gli alleati rimasti A Fine Turno ottengono 1 Aumento Offensivo il turno successivo (una volta per turno)",
       "summary": ""
     },
     {
       "id": "ProtectStance",
-      "name": "Protective Stance",
-      "desc": "Max Stack: 2\nThis effect does not compound in potency; stacking it only extends its duration\nReduced by 1 at Turn End\nWhen a unit gains this effect, gain the following effects next turn:\n- Gain 2 Protection\n- Gain 5 Aggro to each of this unit's Slots",
+      "name": "Postura Protettiva",
+      "desc": "Max Stack: 2\nQuesto effetto non sale di potenza; le stack estendono solo la durata\nSi riduce di 1 A Fine Turno\nQuando un'unità ottiene questo effetto, ottiene gli effetti seguenti il turno successivo:\n- Ottiene 2 Mitigazione\n- Ottiene 5 Provocazione su ognuno degli Slot di questa unità",
       "summary": ""
     },
     {
       "id": "ZiluDebuff",
-      "name": "Bloodthirst Suppressed",
-      "desc": "- Lose 20 Base Offense Level, Lose 20 Base Defense Level",
+      "name": "Sete di Sangue Soppressa",
+      "desc": "- Perde 20 Livello Offensivo di Base, Perde 20 Livello Difensivo di Base",
       "summary": ""
     },
     {
       "id": "WitheredWood_LowMorale",
-      "name": "Eldtree Mutation",
-      "desc": "- Low Morale\n- Gain 1 Damage Up, 1 Fragile, and 1 Rupture Fragility",
+      "name": "Mutazione dell'Albero Antico",
+      "desc": "- Morale Basso\n- Ottiene 1 Danno Aumentato, 1 Vulnerabilità, e 1 Debolezza a Lacerazione",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WitheredWood_Panic",
-      "name": "Eldtree Mutation",
-      "desc": "- Panic\n- Gain 2 Damage Up, 2 Fragile, and 2 Rupture Fragility",
+      "name": "Mutazione dell'Albero Antico",
+      "desc": "- Panico\n- Ottiene 2 Danno Aumentato, 2 Vulnerabilità, e 2 Debolezza a Lacerazione",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_LowMorale",
-      "name": "Heart of Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +2\nTurn Start: gain 2 Damage Up and 1 Fragile",
+      "name": "Cuore Malvagio",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere di Scontro +2\nA Inizio Turno: ottiene 2 Danno Aumentato e 1 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_Panic",
-      "name": "Heart of Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +3\nTurn Start: gain 3 Damage Up and 2 Fragile",
+      "name": "Cuore Malvagio",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere di Scontro +3\nA Inizio Turno: ottiene 3 Danno Aumentato e 2 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_LowMorale",
-      "name": "Heart of Oppressive Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +2\nTurn Start: gain 3 Damage Up and 1 Fragile",
+      "name": "Cuore dalla Malvagità Opprimente",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere di Scontro +2\nA Inizio Turno: ottiene 3 Danno Aumentato e 1 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_Panic",
-      "name": "Heart of Oppressive Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +3\nTurn Start: gain 4 Damage Up and 2 Fragile",
+      "name": "Cuore dalla Malvagità Opprimente",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere di Scontro +3\nA Inizio Turno: ottiene 4 Danno Aumentato e 2 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OminousTalisman",
-      "name": "Omen Talisman",
-      "desc": "- Max Stack: 10\n- When dropping to 0 Stack: take Gluttony damage and PS damage equal to Rupture Potency on self, then expires (max PS damage: 20)\n- When losing Omen Talismans, gain Rupture Potency equal to the number of Omen Talismans lost; then, gain half of Rupture Potency lost as Rupture Count (rounded down)\n※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Talismano Funesto",
+      "desc": "- Max Stack: 10\n- Quando le Stack scendono a 0: subisce danni da Gola e danni ai PS pari alla Potenza Lacerazione su di sé, poi si esaurisce (max danni ai PS: 20)\n- Quando perde i Talismani Funesti, ottiene Potenza Lacerazione pari al numero di Talismani Funesti persi; poi, ottiene metà della Potenza Lacerazione persa come Conteggio Lacerazione arrotondato in basso)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RepressedMurderousIntendTwo",
-      "name": "Concealed Bloodthirst",
-      "desc": "Lose 5 Base Offense Level\nLose 5 Base Defense Level",
+      "name": "Sete di Sangue Nascosta",
+      "desc": "Perde 5 Livello Offensivo di Base\nPerde 5 Livello Difensivo di Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UncontrolledChargeAxe_LowMorale",
-      "name": "Charge Circuitry Countercurrent",
-      "desc": "- Low Morale\nWhen Clashing against targets with Rupture, gain +3 Charge Count and 1 Fragile (2 times per turn)",
+      "name": "Controcorrente del Circuito di Carica",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Lacerazione, ottiene +3 Conteggio Carica e 1 Vulnerabilità (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UncontrolledChargeAxe_Panic",
-      "name": "Charge Circuitry Countercurrent",
-      "desc": "- Panic\nWhen Clashing against targets with Rupture, gain +5 Charge Count, 1 Damage Up, and 2 Fragile (2 times per turn)",
+      "name": "Controcorrente del Circuito di Carica",
+      "desc": "- Panico\nQuando si Scontra con i bersagli che hanno Lacerazione, ottiene +5 Conteggio Carica, 1 Danno Aumentato, e 2 Vulnerabilità (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather",
-      "name": "Eyeball Pinion",
-      "desc": "- Max Stack: 10\n- Turn End: gain (Stack / 2) Rupture Count and Bleed Count (rounded down)\n- Turn End: lose 1 Stack",
+      "name": "Ali Occhiute",
+      "desc": "- Max Stack: 10\n- A Fine Turno: ottiene (Stack / 2) Conteggio Lacerazione e Conteggio Sanguinamento arrotondato in basso)\n- A Fine Turno: perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_LowMorale",
-      "name": "Double-edged Feather",
-      "desc": "- Low Morale\nTurn Start: gain 1 Fragile and 1 PV Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
+      "name": "Piuma A Doppio Taglio",
+      "desc": "- Morale Basso\nA Inizio Turno: ottiene 1 Vulnerabilità e 1 Cure PV Aumentate. Sul Colpo, infligge 1 Lacerazione e 1 Sanguinamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_Panic",
-      "name": "Double-edged Feather",
-      "desc": "-Panic\nTurn Start: gain 2 Fragile and 2 PV Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
+      "name": "Piuma A Doppio Taglio",
+      "desc": "-Panico\nA Inizio Turno: ottiene 2 Vulnerabilità e 2 Cure PV Aumentate. Sul Colpo, infligge 1 Lacerazione e 1 Sanguinamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_LowMorale",
-      "name": "Charge Order",
-      "desc": "- Low Morale\nTurn Start: gain 1 Fragile and apply 1 Damage Up to all allies",
+      "name": "Ordine di Assalto",
+      "desc": "- Morale Basso\nA Inizio Turno: ottiene 1 Vulnerabilità e applica 1 Danno Aumentato a tutti gli alleati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_Panic",
-      "name": "Charge Order",
-      "desc": "- Panic\nTurn Start: gain 2 Fragile and apply 2 Damage Up to all allies",
+      "name": "Ordine di Assalto",
+      "desc": "- Panico\nA Inizio Turno: ottiene 2 Vulnerabilità e applica 2 Danno Aumentato a tutti gli alleati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_LowMorale",
-      "name": "Angst",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +2\nTurn Start: gain 2 Damage Up and 1 Fragile",
+      "name": "Risentimento",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere di Scontro +2\nA Inizio Turno: ottiene 2 Danno Aumentato e 1 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_Panic",
-      "name": "Angst",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +3\nTurn Start: gain 3 Damage Up and 2 Fragile",
+      "name": "Risentimento",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere di Scontro +3\nA Inizio Turno: ottiene 3 Danno Aumentato e 2 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_LowMorale",
-      "name": "Catching Breath",
-      "desc": "- Low Morale\nTurn Start: gain 2 Defense Level Up and lose 2 Poise Potency",
+      "name": "Prendere Fiato",
+      "desc": "- Morale Basso\nA Inizio Turno: ottiene 2 Aumento Difensivo e perde 2 Potenza Respiro",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_Panic",
-      "name": "Catching Breath",
-      "desc": "- Panic\nTurn Start: gain 5 Defense Level Up and lose 5 Poise Potency",
+      "name": "Prendere Fiato",
+      "desc": "- Panico\nA Inizio Turno: ottiene 5 Aumento Difensivo e perde 5 Potenza Respiro",
       "summary": "",
       "undefined": "-"
     }

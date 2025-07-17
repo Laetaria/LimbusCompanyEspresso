@@ -206,7 +206,7 @@
     {
       "id": "Vibration",
       "name": "Vibrazione",
-      "desc": "Quando viene colpito da un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza dell'effetto.\nAlla fine del turno, riduce il Conteggio di 1."
+      "desc": "Quando viene colpito da un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza dell'effetto.\nAlla fine del turno, riduce il Conteggio di 1."
     },
     {
       "id": "Burst",
@@ -495,7 +495,7 @@
     },
     {
       "id": "Curse",
-      "name": "Maledizione",
+      "name": "Maleficio",
       "desc": "A Fine Turno: Il turno successivo, ottiene casualmente un'effetto, e poi ne riduce le Stack di 1.\n1 Fiacchezza/1 Esposizione/2 Calo Offensivo/2 Calo Difensivo."
     },
     {
@@ -836,8 +836,8 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando innesca Scoppio Vibrazione o aumenta la Soglia di Vacillamento, infligge 3 danni fissi per Stack e aumenta la Soglia di Vacillamento di 3% per Stack.",
-      "summary": "Quando innesca Scoppio Vibrazione o aumenta la Soglia di Vacillamento, infligge danno ed aumenta la Soglia di Vacillamento."
+      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge 3 danni fissi per Stack e alza la Soglia di Vacillamento di 3% per Stack.",
+      "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge danno ed alza la Soglia di Vacillamento."
     },
     {
       "id": "VibrationAssimilation",
@@ -1289,7 +1289,7 @@
     {
       "id": "VibrationExplosion",
       "name": "Scoppio Vibrazione",
-      "desc": "Aumenta la Soglia di Vacillamento in base alla Potenza di Vibrazione sul bersaglio"
+      "desc": "Alza la Soglia di Vacillamento in base alla Potenza di Vibrazione sul bersaglio"
     },
     {
       "id": "OneOnOneDuel",
@@ -1370,7 +1370,7 @@
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 Potenza Vibrazione su di sè\nQuando viene colpito da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
+      "desc": "Perde 1 Livello Difensivo per ogni 4 Potenza Vibrazione su di sè\nQuando viene colpito da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
     },
     {
       "id": "EchoOfMansion",
@@ -1390,7 +1390,7 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza di Vibrazione è almeno 20, aumenta la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando viene colpito da un'attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
+      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza di Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando viene colpito da un'attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
     },
     {
       "id": "ForwardToTheKing",
@@ -1431,7 +1431,7 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Quando si attiva Scoppio Vibrazione, subisce danni da Accidia pari alla Potenza di Vibrazione su di sé.\n- Quando colpito da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza.\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando si attiva Scoppio Vibrazione, subisce danni da Accidia pari alla Potenza di Vibrazione su di sé.\n- Quando colpito da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza.\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1443,7 +1443,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando viene colpito da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando viene colpito da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1461,7 +1461,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere di Scontro per ogni 10 Tremore su sé stesso (max 3)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza\n- A Fine Turno: riduce di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere di Scontro per ogni 10 Tremore su sé stesso (max 3)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\n- A Fine Turno: riduce di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1580,7 +1580,7 @@
     {
       "id": "CanDuelGuard",
       "name": "Sorte dell'Incontro",
-      "desc": "- A Scontro Vinto: aumenta la Soglia di Vacillamento del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo Scontro: quando colpito, riduce il Valore Finale dell'Abilità del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo Scontro: non ottiene Valore Finale da queste fonti: Risonanza e disparità di livello fra le Abilità Offensive",
+      "desc": "- A Scontro Vinto: alza la Soglia di Vacillamento del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo Scontro: quando colpito, riduce il Valore Finale dell'Abilità del bersaglio in base al valore finale del Potere di Scontro dell'unità.\n- Se perde lo Scontro: non ottiene Valore Finale da queste fonti: Risonanza e disparità di livello fra le Abilità Offensive",
       "summary": ""
     },
     {
@@ -1683,7 +1683,7 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Massima + 2\n- Usa 1 Vibrazione su sé stesso per infliggere 1 Potenza di Vibrazione o Conteggio quando quest'unità infligge Vibrazione con le sue Abilità o con gli effetti delle Monete\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base alla Potenza di quest'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Velocità Massima + 2\n- Usa 1 Vibrazione su sé stesso per infliggere 1 Potenza di Vibrazione o Conteggio quando quest'unità infligge Vibrazione con le sue Abilità o con gli effetti delle Monete\n- Quando colpito da mosse che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza di quest'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },
@@ -1697,13 +1697,13 @@
     {
       "id": "Zazen",
       "name": "Dhyāna",
-      "desc": "- Stack Massime: 108\n- Infligge +1% danni in più per ogni Stack",
+      "desc": "- Stack Max: 108\n- Infligge +1% danni in più per ogni Stack",
       "summary": "Infligge più danni"
     },
     {
       "id": "SwirlingBloodPersonality",
       "name": "Sangue Vorticoso【Sanguidemone】",
-      "desc": "- Stack Massime: 50\n-  Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle Stack nel momento in cui viene applicato\n-Scade a Fine Turno",
+      "desc": "- Stack Max: 50\n-  Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle Stack nel momento in cui viene applicato\n-Scade a Fine Turno",
       "summary": ""
     },
     {
@@ -1733,7 +1733,7 @@
     {
       "id": "FreishutzOutisEgoBullet_1st",
       "name": "La Prima Pallottola Magica",
-      "desc": "- Infligge +20% danni\n- Aumenta la Soglia di Vacillamento del bersaglio in base al danno inflitto (max 30)"
+      "desc": "- Infligge +20% danni\n- Alza la Soglia di Vacillamento del bersaglio in base al danno inflitto (max 30)"
     },
     {
       "id": "FreishutzOutisEgoBullet_2nd",
@@ -1748,7 +1748,7 @@
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "La Quarta Pallottola Magica",
-      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +3 Peso Attacco\n- Sul Colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
+      "desc": "- Infligge +30% danni\n- Prima di attaccare: ottiene +3 Peso Attacco\n- Sul Colpo, Alza la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
@@ -1758,7 +1758,7 @@
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "La Sesta Pallottola Magica",
-      "desc": "- Prima di attaccare: ottiene +6 Peso Attaccot\n- Sul Colpo, aumenta la Soglia di Vacillamento in base al danno inflitto (max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Valore di Base Monete Testa -16\n- Valore di Base Monete Croce -22\n - Potere Testa -8\n - Potere Croce -12"
+      "desc": "- Prima di attaccare: ottiene +6 Peso Attaccot\n- Sul Colpo, alza la Soglia di Vacillamento in base al danno inflitto (max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Valore di Base Monete Testa -16\n- Valore di Base Monete Croce -22\n - Potere Testa -8\n - Potere Croce -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",

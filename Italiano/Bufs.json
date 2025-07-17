@@ -277,8 +277,8 @@
     {
       "id": "Vibration",
       "name": "Vibrazione",
-      "desc": "Quando colpito da un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}. Dura {1} turno(i).",
-      "summary": "Aumenta la Soglia di Vacillamento di {0}"
+      "desc": "Quando colpito da un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}. Dura {1} turno(i).",
+      "summary": "Alza la Soglia di Vacillamento di {0}"
     },
     {
       "id": "Burst",
@@ -592,7 +592,7 @@
     },
     {
       "id": "Curse",
-      "name": "Maledizione",
+      "name": "Maleficio",
       "desc": "A Fine Turno: durante il turno successivo, ottiene a caso uno tra questi effetti, poi le Stack si riducono di 1.\n1 Fiacchezza/1 Esposizione/2 Fiacchezza/2 Calo Difensivo.",
       "summary": "Ottiene uno stato negativo, poi riduci di 1 le Stack"
     },
@@ -725,7 +725,7 @@
       "id": "Cromer_Ecstasy",
       "name": "Estatica",
       "desc": "Tutte le resistenze fisiche delle Fauci cambiano in 'Fatale'.",
-      "summary": "Indebolisce le resistente fis. di una parte"
+      "summary": "Indebolisce le resistenze fis. di una parte"
     },
     {
       "id": "Cromer_Madness",
@@ -1081,8 +1081,8 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando innesca Scoppio Vibrazione o aumenta la Soglia di Vacillamento, infligge {0} * 3 danni fissi e aumenta la Soglia di Vacillamento di {0} * 3%",
-      "summary": "Quando innesca Scoppio Vibrazione o aumenta la Soglia di Vacillamento, infligge danni e aumenta ulteriormente la Soglia di Vacillamento"
+      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge {0} * 3 danni fissi e alza la Soglia di Vacillamento di {0} * 3%",
+      "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge danni e aumenta ulteriormente la Soglia di Vacillamento"
     },
     {
       "id": "VibrationAssimilation",
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "TakeHpHealIncrease",
-      "name": "Cure PV aumentate",
+      "name": "Cure PV Aumentate",
       "desc": "Si cura di +{0}0% PV dalle passive, Abilità, e dagli effetti delle monete. (Max 5)",
       "summary": "Cure PV +{0}0%"
     },
@@ -1680,7 +1680,7 @@
     {
       "id": "VibrationExplosion",
       "name": "Scoppio Vibrazione",
-      "desc": "Aumenta la Soglia di Vacillamento in base alla Potenza di Vibrazione sul bersaglio"
+      "desc": "Alza la Soglia di Vacillamento in base alla Potenza di Vibrazione sul bersaglio"
     },
     {
       "id": "OneOnOneDuel",
@@ -1844,7 +1844,7 @@
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando colpito da un Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando colpito da un Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\n Aumenta la soglia di vacillamento di {0}"
     },
     {
@@ -1868,8 +1868,8 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza di Vibrazione è almeno 20, aumenta la Soglia di Vacillamento di 1\n- Il livello non può superare il massimo quando colpito\nda un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento di {0}. Dura {1} turni\n(Interagisce allo stesso modo della normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
-      "summary": "Quando vacilla e quando la somma del Conteggio e della Potenza di Vibrazione è almeno 20, aumenta la Soglia di Vacillamento di 1\nAumenta la Soglia di Vacillamento di {0}"
+      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza di Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Il livello non può superare il massimo quando colpito\nda un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}. Dura {1} turni\n(Interagisce allo stesso modo della normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "summary": "Quando vacilla e quando la somma del Conteggio e della Potenza di Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\nAlza la Soglia di Vacillamento di {0}"
     },
     {
       "id": "ForwardToTheKing",
@@ -1933,7 +1933,7 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Per {1} Turno(i): Quando si attiva Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando colpito da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Vacillamento del {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Per {1} Turno(i): Quando si attiva Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando colpito da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento del {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1945,7 +1945,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su se stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n-Quando colpito da Abilità o monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1963,7 +1963,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perdi 1 Potenza di Scontro per ogni 10 Vibrazionee (max 3)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Perdi 1 Potenza di Scontro per ogni 10 Vibrazionee (max 3)\n- Quando colpito da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -2131,7 +2131,7 @@
     {
       "id": "CanDuelGuard",
       "name": "Sorte dell'Incontro",
-      "desc": "- A Scontro Vinto: Aumenta la Soglia di Vacillamento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando colpito, riduce il Valore Finale dell'Abilità del bersaglio del Valore Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
+      "desc": "- A Scontro Vinto: Alza la Soglia di Vacillamento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando colpito, riduce il Valore Finale dell'Abilità del bersaglio del Valore Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
       "summary": ""
     },
     {
@@ -2234,7 +2234,7 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni Conteggio o Potenza di qualsisi tipo di Vibrazione con le Abilità o gli effetti delle monete, consumando 1 Conteggio Vibrazione su di sè\n- Quando colpito da mosse che attivano Scoppio Vibrazione, aumenta la Soglia di Vacillamento in base Potenza di quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni Conteggio o Potenza di qualsisi tipo di Vibrazione con le Abilità o gli effetti delle monete, consumando 1 Conteggio Vibrazione su di sè\n- Quando colpito da mosse che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base Potenza di quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Max Speed +2\nConsume Vibrazione Count on self to infligge +1 more Vibrazione Potency e Count",
       "undefined": "-"
     },
@@ -2248,13 +2248,13 @@
     {
       "id": "Zazen",
       "name": "Dhyāna",
-      "desc": "- Stack Massime: 108\n- Infligge +1% danni in più per ogni Stack",
+      "desc": "- Stack Max: 108\n- Infligge +1% danni in più per ogni Stack",
       "summary": "Infligge più danni"
     },
     {
       "id": "SwirlingBloodPersonality",
       "name": "Sangue Vorticoso【Sanguidemone】",
-      "desc": "-Stack Massime: 50\n- Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo ai PV pari alle Stack nel momento in cui viene applicato\n-Scade A Fine Turno",
+      "desc": "-Stack Max: 50\n- Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo ai PV pari alle Stack nel momento in cui viene applicato\n-Scade A Fine Turno",
       "summary": ""
     },
     {
@@ -2284,7 +2284,7 @@
     {
       "id": "FreishutzOutisEgoBullet_1st",
       "name": "La Prima Pallottola Magica",
-      "desc": "- Infligge +20% in più di danno\n- Aumenta la Soglia di Vacillamento in base al danno inflitto (max 30)"
+      "desc": "- Infligge +20% in più di danno\n- Alza la Soglia di Vacillamento in base al danno inflitto (max 30)"
     },
     {
       "id": "FreishutzOutisEgoBullet_2nd",
@@ -2299,7 +2299,7 @@
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "La Quarta Pallottola Magica",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Peso attacco\n- Sul Colpo, Aumenta la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Peso attacco\n- Sul Colpo, Alza la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
@@ -2309,7 +2309,7 @@
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "La Sesta Pallottola Magica",
-      "desc": "- Prima di attaccare: ottiene +6 Peso Attacco\n- Sul Colpo, aumenta la Soglia di Vacillamento in base al danno inflitto(max 30)\n- Riusa la moneta per ogni 7 Bruciatura nel bersaglio (max 2 volte)\n- Valore di Base monete positive -16\n- Valore di Base monete negative -22\n - Potere monete positive -8\n - Potere monete negative -12"
+      "desc": "- Prima di attaccare: ottiene +6 Peso Attacco\n- Sul Colpo, alza la Soglia di Vacillamento in base al danno inflitto(max 30)\n- Riusa la moneta per ogni 7 Bruciatura nel bersaglio (max 2 volte)\n- Valore di Base monete positive -16\n- Valore di Base monete negative -22\n - Potere monete positive -8\n - Potere monete negative -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
@@ -2344,7 +2344,7 @@
     {
       "id": "LogicAtelierAM",
       "name": "Concentrazione【Cecchino】",
-      "desc": "- Max Stack: 4 \n- A Fine Turno: ottiene 1 Stack"
+      "desc": "- Stack Max: 4 \n- A Fine Turno: ottiene 1 Stack"
     },
     {
       "id": "MeleeCover",
@@ -2359,12 +2359,12 @@
     {
       "id": "GlowingLantern",
       "name": "Esca Fatata",
-      "desc": "- Max Stack: 5\n- A inizio Turno: lo Slot più a sinistra della Barra Mosse ottiene +10 Provocazione\n- Subisce +50% in più di danno\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per le Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
+      "desc": "- Stack Max: 5\n- A inizio Turno: lo Slot più a sinistra della Barra Mosse ottiene +10 Provocazione\n- Subisce +50% in più di danno\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per le Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
     },
     {
       "id": "HoldingBreath",
       "name": "Respiro Profondo",
-      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza di Respiro e 5+ Conteggio Respiro, consuma (Conteggio Respiro su di sè/ 5) Potenza di Respiro per infliggere +(Potenza di Respiro consumata x 4)% più danno critico, e perde 1 Stack",
+      "desc": "- Stack Max: 20\n- Quando si effettua un critico, a 15+ Potenza di Respiro e 5+ Conteggio Respiro, consuma (Conteggio Respiro su di sè/ 5) Potenza di Respiro per infliggere +(Potenza di Respiro consumata x 4)% più danno critico, e perde 1 Stack",
       "summary": "Infligge più danno con Colpo Critico"
     },
     {
@@ -2386,12 +2386,12 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Max Stack: 1\n Converte tutte le monete delle Abilità offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Valore Finale +3\nA Fine Turno: quest'effetto termina"
+      "desc": "Stack Max: 1\n Converte tutte le monete delle Abilità offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Valore Finale +3\nA Fine Turno: quest'effetto termina"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Max Stack: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti"
+      "desc": "Stack Max: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti"
     },
     {
       "id": "EngageToBattle",
@@ -2401,12 +2401,12 @@
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
-      "desc": "Max Stack: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'"
+      "desc": "Stack Max: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'"
     },
     {
       "id": "NebulizerExhale",
       "name": "Nebulizzatore α",
-      "desc": "- Max Stack: 5\n- Quest'effetto persiste durante tutto l'incontro\n- All'inizio del combattimento: applica 1 Potenza di Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
+      "desc": "- Stack Max: 5\n- Quest'effetto persiste durante tutto l'incontro\n- All'inizio del combattimento: applica 1 Potenza di Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
     },
     {
       "id": "ReleaseBreath",
@@ -2416,49 +2416,49 @@
     {
       "id": "FirePunchFuel",
       "name": "Carburante del Distretto 12",
-      "desc": "Max Stack: 100\nViene usato da alcume Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
+      "desc": "Stack Max: 100\nViene usato da alcume Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FirePunchFuelOverheated",
       "name": "Carburante Surriscaldato",
-      "desc": "Max Stack: 100\nConsumare Carburante del Distretto 12 mentre l'unità è nello stato Carburante Surriscaldato consuma Carburante Surriscaldato\nConsumare Carburante Surriscaldato conta come consumare Carburante del Distretto 12\nA 50+ Stack, diventa Carburante del Distretto 12\nCarburante consumato: {0}",
+      "desc": "Stack Max: 100\nConsumare Carburante del Distretto 12 mentre l'unità è nello stato Carburante Surriscaldato consuma Carburante Surriscaldato\nConsumare Carburante Surriscaldato conta come consumare Carburante del Distretto 12\nA 50+ Stack, diventa Carburante del Distretto 12\nCarburante consumato: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DianxueDonQuixote",
       "name": "Colpo al Nervo - Don Quixote",
-      "desc": "- Max Stack: 3\n- L'unità che ha inflitto questo Colpo al Nervo ottiene i seguenti effetti in base alle Stack di Colpo al Nervo del bersaglio (o della Parte bersagliata)\n· 1x Stack: Ottiene Potere di Scontro +1\n· 2x Stack: Ottiene Potere di Base +1\n· 3x Stack: Ottiene Potere di Scontro +1 e Potere di Base +1\n- L'effetto termina se l'unità che l'ha inflitto infligge quest'effetto contro un bersaglio o una Parte diversa\n- L'effetto viene sostituito quando un'altra unità infligge Colpo al Nervo",
+      "desc": "- Stack Max: 3\n- L'unità che ha inflitto questo Colpo al Nervo ottiene i seguenti effetti in base alle Stack di Colpo al Nervo del bersaglio (o della Parte bersagliata)\n· 1x Stack: Ottiene Potere di Scontro +1\n· 2x Stack: Ottiene Potere di Base +1\n· 3x Stack: Ottiene Potere di Scontro +1 e Potere di Base +1\n- L'effetto termina se l'unità che l'ha inflitto infligge quest'effetto contro un bersaglio o una Parte diversa\n- L'effetto viene sostituito quando un'altra unità infligge Colpo al Nervo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VengeanceBookSinclair",
       "name": "Libro della Vendetta [Sinclair]",
-      "desc": "- Max Stack: 30\n- Infligge più danno pari al (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danni Contundenti Aumentati\n· A 20+ Stack: Velocità Massima +1, ottiene 1 Possenza\n· A 30+ Stack: ottiene 2 Danni Contundenti Potenziati",
+      "desc": "- Stack Max: 30\n- Infligge più danno pari al (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danni Contundenti Aumentati\n· A 20+ Stack: Velocità Massima +1, ottiene 1 Possenza\n· A 30+ Stack: ottiene 2 Danni Contundenti Potenziati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con più Stack di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
+      "desc": "- Stack Max: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con più Stack di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RetaliationBookFamily",
       "name": "Marchio Vendicatico del Fratello",
-      "desc": "- Max Stack: 1\n- Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio della Vendetta",
+      "desc": "- Stack Max: 1\n- Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio della Vendetta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BirdCage",
       "name": "Gabbia Bruciante",
-      "desc": "Max Stack: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni Stack che ha (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto)\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre l'effetto è già attivo",
+      "desc": "Stack Max: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni Stack che ha (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto)\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre l'effetto è già attivo",
       "summary": "Resistenza ad Ira +0.1 per ogni Stack",
       "undefined": "-"
     },
@@ -2486,7 +2486,7 @@
     {
       "id": "SnakeStance",
       "name": "Serpent Arm",
-      "desc": "Max Stack: 3\nTurn End: gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain 5 Poise\nTurn End: lose 1 Stack",
+      "desc": "Stack Max: 3\nTurn End: gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain 5 Poise\nTurn End: lose 1 Stack",
       "summary": "",
       "undefined": "-"
     },
@@ -2500,21 +2500,21 @@
     {
       "id": "SupportProtect",
       "name": "Assist Defense",
-      "desc": "- Max Stack: 3\n- When an ally is about take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the exclusive Skill that activates for Assist Defense\n- When there are multiple allies with Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\n- Does not activate for allies who equipped Defense Skills\n- Expires at Turn End",
+      "desc": "- Stack Max: 3\n- When an ally is about take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the exclusive Skill that activates for Assist Defense\n- When there are multiple allies with Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\n- Does not activate for allies who equipped Defense Skills\n- Expires at Turn End",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EnhanceZilu",
       "name": "Tianjiu Star's Blade",
-      "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, gain 1 Haste next turn\n- Used for certain Skills",
+      "desc": "- Stack Max: 20\n- At 10+ Stack: at Turn End, gain 1 Haste next turn\n- Used for certain Skills",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstVulnerableZilu",
       "name": "Mark of Decay",
-      "desc": "- Max Stack: 1\n- Take +10% damage from Gluttony Skills\n- Take +10% damage from Deathrite\n- Removed at Turn End",
+      "desc": "- Stack Max: 1\n- Take +10% damage from Gluttony Skills\n- Take +10% damage from Deathrite\n- Removed at Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -2528,35 +2528,35 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Twisted Curse Talisman",
-      "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n※ Cannot gain additional Stacks of this effect while it is already active",
+      "desc": "- Stack Max: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n※ Cannot gain additional Stacks of this effect while it is already active",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CentipedePoison",
       "name": "Centipede Venom",
-      "desc": "- Max Stack: 20\n- Turn End: gain (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
+      "desc": "- Stack Max: 20\n- Turn End: gain (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DragonLance",
       "name": "Flower-burying Wedge [埋花櫼]",
-      "desc": "Base Stack: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: gain 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\n- Turn End: gain 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon defeat or Retreat\n\n- When this unit takes damage that brings their PV down to 0: instead of letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
+      "desc": "Base Stack: 0\nStack Max: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: gain 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\n- Turn End: gain 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon defeat or Retreat\n\n- When this unit takes damage that brings their PV down to 0: instead of letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CondensedBlood",
       "name": "Tarnished Blood",
-      "desc": "Max Stack: 5\n- Turn End: take 20% PV damage per Stack (cannot be Staggered by this effect)\n- Gain 1 Stack at Turn End\n- Expires upon death or Retreat",
+      "desc": "Stack Max: 5\n- Turn End: take 20% PV damage per Stack (cannot be Staggered by this effect)\n- Gain 1 Stack at Turn End\n- Expires upon death or Retreat",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonSelf",
       "name": "Flower-burying Pin [埋花針]",
-      "desc": "Max Stack: 20\n- Gain 1 Stack at Turn End or when hit\n- Gain 1 Offense Level per 5 Stack\n- If the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\n- Expires upon death or Retreat",
+      "desc": "Stack Max: 20\n- Gain 1 Stack at Turn End or when hit\n- Gain 1 Offense Level per 5 Stack\n- If the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\n- Expires upon death or Retreat",
       "summary": "",
       "undefined": "-"
     },
@@ -2577,21 +2577,21 @@
     {
       "id": "WaitingXichun",
       "name": "Ready [待]",
-      "desc": "- Max Stack: 3\n- Number of turns this unit spent in Retreat or as a Backup unit",
+      "desc": "- Stack Max: 3\n- Number of turns this unit spent in Retreat or as a Backup unit",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StartXichun",
       "name": "Launcher [始]",
-      "desc": "- Max Stack: 6\n- Number of turns this unit spent active in the Encounter\n- Expires upon Retreat\n- Gain 1 Stack at Turn End",
+      "desc": "- Stack Max: 6\n- Number of turns this unit spent active in the Encounter\n- Expires upon Retreat\n- Gain 1 Stack at Turn End",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CheerUpXichun",
       "name": "Assist [援]",
-      "desc": "- Max Stack: 1\n- If target has 5+ types of negative effects, Clash Power +1, deal +10% damage",
+      "desc": "- Stack Max: 1\n- If target has 5+ types of negative effects, Clash Power +1, deal +10% damage",
       "summary": "",
       "undefined": "-"
     },
@@ -2633,14 +2633,14 @@
     {
       "id": "IrritationAlly",
       "name": "Unrelenting Spirit [剛氣]",
-      "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency and Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round and Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [剛氣-心] next turn\n- Max Stack: 1",
+      "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency and Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round and Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [剛氣-心] next turn\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
       "name": "Unrelenting Spirit - Shin [剛氣-心]",
-      "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency and Tremor Count with this unit's Skills\n- Max Stack: 1",
+      "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency and Tremor Count with this unit's Skills\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2654,21 +2654,21 @@
     {
       "id": "RoseThorn",
       "name": "Gluttonous Thorn (貪食棘)",
-      "desc": "Max Stack: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then lose 1 Gluttonous Thorn (貪食棘). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Defense Level Down next turn equal to Bloodfeast increased (max Defense Level Down gain: 5)",
+      "desc": "Stack Max: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then lose 1 Gluttonous Thorn (貪食棘). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Defense Level Down next turn equal to Bloodfeast increased (max Defense Level Down gain: 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FellBulletPersonality",
       "name": "Fell Bullet",
-      "desc": "Max Stack: 1\n+3% damage on Critical Hit for every Torn Memory (max 18%)\nOn Hit, inflict 1 Bleed (3 per turn)\nOn Kill, gain 3 Poise and +2 Poise Count (2 times per turn)\nExpires at Turn End",
+      "desc": "Stack Max: 1\n+3% damage on Critical Hit for every Torn Memory (max 18%)\nOn Hit, inflict 1 Bleed (3 per turn)\nOn Kill, gain 3 Poise and +2 Poise Count (2 times per turn)\nExpires at Turn End",
       "summary": "Deal more Crit damage, inflict more Bleed",
       "undefined": "-"
     },
     {
       "id": "ChoSuperCharge",
       "name": "Near-light Superbattery",
-      "desc": "- Max Stack: 100\n- When consuming Charge Count, add the amount consumed to this buff's Stack\n- Max Charge Count Cap +10\n- Gain 1 Charge Count when allies gain Charge Potency or Count\n- When this unit consumes Charge Count with its Skills, consume the same amount of Charge Count 1 more time (when there isn't enough Charge Count, consume as much as available)\n- Deal +10% damage for every 10 Stack\n- Enemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (max +0.5 Resist; does not activate against Staggered enemies)\n- When the Identity with this effect dies, the buff transfers to the ally who is second earliest to this unit in the Deployment order. The Stack carries over as well.\n- This effect works on 'Unique Charge' as well.",
+      "desc": "- Stack Max: 100\n- When consuming Charge Count, add the amount consumed to this buff's Stack\n- Max Charge Count Cap +10\n- Gain 1 Charge Count when allies gain Charge Potency or Count\n- When this unit consumes Charge Count with its Skills, consume the same amount of Charge Count 1 more time (when there isn't enough Charge Count, consume as much as available)\n- Deal +10% damage for every 10 Stack\n- Enemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (max +0.5 Resist; does not activate against Staggered enemies)\n- When the Identity with this effect dies, the buff transfers to the ally who is second earliest to this unit in the Deployment order. The Stack carries over as well.\n- This effect works on 'Unique Charge' as well.",
       "summary": "",
       "undefined": "-"
     },
@@ -2682,7 +2682,7 @@
     {
       "id": "WaveSinking",
       "name": "Reflux",
-      "desc": "- Max Stack: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for units without SP, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack",
+      "desc": "- Stack Max: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for units without SP, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack",
       "summary": "",
       "undefined": "-"
     }
