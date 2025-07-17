@@ -5,27 +5,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cascading Despair",
-          "desc": "[WhenUse] If target has 4+ [Sinking], Coin Power +1\n[WinDuel] Inflict [ColdBlackTear] equal to the # of remaining Coins",
+          "name": "Disperazione a Cascata",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Sinking], Potere Moneta +1\n[WinDuel] Infligge [ColdBlackTear] pari al numero di Monete rimanenti",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -38,36 +38,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sharp Teardrops",
-          "desc": "[WhenUse] If target has 4+ [Sinking], Coin Power +1\n[WhenUse] If target has 20 or higher SP, Base Power +1\n[WinDuel] Inflict [ColdBlackTear] equal to the # of remaining Coins",
+          "name": "Lacrime Affilate",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Sinking], Potere +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Base +1\n[WinDuel] Infligge [ColdBlackTear] pari al numero di Monete rimanenti",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -80,8 +80,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "River of Despairing Tears",
-          "desc": "[WhenUse] Base Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 1+ [ColdBlackTear], Coin Power +1\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Fiume di Lacrime Disperate",
+          "desc": "[WhenUse] Potere Base +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 1+ [ColdBlackTear], Potere Moneta +1\n[DefeatDuel] Ingligge -80% danni; i danni inflitti da quest'Abilità non possono far Vacillare il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -89,7 +89,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -99,7 +99,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -109,7 +109,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -119,7 +119,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -129,7 +129,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             }
@@ -142,13 +142,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Shared Sorrow, Dulled",
-          "desc": "[WhenUse] Inflict 1 [ColdBlackTear]",
+          "name": "Tristezza Condivisa, Offuscata",
+          "desc": "[WhenUse] Infligge 1 [ColdBlackTear]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [ColdBlackTear], inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [ColdBlackTear], infligge 1 [Vulnerable]"
                 }
               ]
             }
@@ -161,8 +161,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Violent Cascade of Hollow Despair",
-          "desc": "Prioritizes targets with the most [ColdBlackTear]\n[WhenUse] If the main target has 5+ [ColdBlackTear], Coin Power +5",
+          "name": "Violenta Cascata della Disperazione Vacua",
+          "desc": "Dà priorità ai bersagli con le stack maggiori di [ColdBlackTear]\n[WhenUse] Se il bersaglio ha 5+ [ColdBlackTear], Potere Moneta +5",
           "coinlist": [
             {
               "coindescs": [
@@ -170,7 +170,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal fixed damage equal to ([ColdBlackTear] Stack on target x 6)% of target's max HP, then remove all [ColdBlackTear] on target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno fisso pari al ([ColdBlackTear] Stack sul bersaglio x 6)% dei PV max del bersaglio, per poi rimuovere tutte le Stack di [ColdBlackTear] sul bersaglio"
                 }
               ]
             }
@@ -183,8 +183,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Arcana: Tear and Pierce",
-          "desc": "Uses this Skill when an enemy uses Arcana[TabExplain] Slave, and when this unit does not have [CollapsedPride]\nCounterattacks only Arcana Slave",
+          "name": "Arcana: Strappa e Perfora",
+          "desc": "Usa quest'Abilità quando un nemico usa Fulmin​e Arcano, e quando quest'unità non ha [CollapsedPride]\nContrattaccat solo Fulmin​e Arcano",
           "coinlist": [
             {
               "coindescs": [
@@ -192,7 +192,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [ColdBlackTear]"
                 }
               ]
             },
@@ -202,7 +202,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -212,7 +212,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -222,7 +222,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ColdBlackTear]"
                 }
               ]
             },
@@ -232,7 +232,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal fixed damage equal to ([ColdBlackTear] Stack on target x 6)% of target's max HP, then remove all [ColdBlackTear] on target (ignores Resistances)"
+                  "desc": "[OnSucceedAttack] Infligge danno fisso pari al ([ColdBlackTear] Stack sul bersaglio x 6)% dei PV max del bersaglio, per poi rimuovere tutte le Stack di [ColdBlackTear] sul bersaglio (ignora le Resistenze)"
                 }
               ]
             }
@@ -245,20 +245,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -271,23 +271,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -300,26 +300,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -332,13 +332,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato per difetto)"
                 }
               ]
             }
@@ -351,8 +351,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Contegio [ColdBlackTear] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -360,7 +360,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
                 }
               ]
             }
@@ -373,20 +373,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -399,23 +399,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -428,26 +428,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -460,13 +460,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato oer difetto)"
                 }
               ]
             }
@@ -479,8 +479,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Conteggio [ColdBlackTear] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -488,7 +488,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
                 }
               ]
             }
@@ -501,20 +501,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -527,23 +527,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge [Sinking]"
                 }
               ]
             }
@@ -556,26 +556,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -588,13 +588,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato per difetto)"
                 }
               ]
             }
@@ -607,8 +607,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Conteggio [ColdBlackTear] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -616,7 +616,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
                 }
               ]
             }
@@ -629,20 +629,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -655,23 +655,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -684,26 +684,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher SP, Base Power +1\n[WhenUse] If target has 20 or higher SP, Coin Power +1",
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -716,13 +716,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato per difetto)"
                 }
               ]
             }
@@ -735,8 +735,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Conteggio [ColdBlackTear] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -744,7 +744,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
                 }
               ]
             }
