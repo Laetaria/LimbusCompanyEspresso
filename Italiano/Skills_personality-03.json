@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 Sanguinamento"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 Sanguinamento"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -1961,7 +1961,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge [VillainMark] contro il bersaglio principale il turno successivo</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge [VillainMark] al bersaglio principale il turno successivo</style>"
                 }
               ]
             }
@@ -1985,7 +1985,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] contro il bersaglio principale il turno successivo"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] al bersaglio principale il turno successivo"
                 }
               ]
             }
@@ -2180,19 +2180,19 @@
         {
           "level": 1,
           "name": "Vattene dalla mia testa...",
-          "desc": "If this unit has [HystericGauge], Clash Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
+          "desc": "Se quest'unità ha [HystericGauge], Potere di Scontro +1\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2201,22 +2201,22 @@
         {
           "level": 2,
           "name": "Vattene dalla mia testa...",
-          "desc": "If this unit has [HystericGauge], <style=\"highlight\">Base Power +1</style>\n<style=\"highlight\">[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1</style>\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
+          "desc": "Se quest'unità ha [HystericGauge], <style=\"highlight\">Potere di Scontro +1</style>\n<style=\"highlight\">[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1</style>\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate] Count<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Inflict [VillainMark] against the main target next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Infligge [VillainMark] al bersaglio principale il turno successivo</style>"
                 }
               ]
             }
@@ -2225,22 +2225,22 @@
         {
           "level": 4,
           "name": "Vattene dalla mia testa...",
-          "desc": "<style=\"highlight\">Base Power +1 for every [HystericGauge] on self (max 2)\n- At 3 [HystericGauge], gain +1 Atk Weight\n- Deal -50% damage against sub-targets</style>\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +<style=\"highlight\">5</style> [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
+          "desc": "<style=\"highlight\">Potere Bae +1 per ogni [HystericGauge] su di sé (max 2)\n- A 3 [HystericGauge], ottiene +1 Peso Attacco\n- Infliffe -50% danni ai bersagli secondari</style>\n[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict [VillainMark] against the main target next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] al bersaglio principale il turno successivo"
                 }
               ]
             }
