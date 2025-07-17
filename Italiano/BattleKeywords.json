@@ -1304,12 +1304,12 @@
     {
       "id": "FreischutzShotCount",
       "name": "Pallottola Magica",
-      "desc": "- Max: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Unico per Lobotomy E.G.O::Pallottola Magica Outis]\n· Più il valore è alto, più il Valore di Base e il Potere della Moneta dell'Abilità 3"
+      "desc": "- Max: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Esclusiva a Lobotomy E.G.O::Pallottola Magica Outis]\n· Più il valore è alto, più il Valore di Base e il Potere della Moneta dell'Abilità 3"
     },
     {
       "id": "DarkFlame",
       "name": "Fiamma Oscura",
-      "desc": "- Bruciatura Unica\n- Valore Massimo: 7\n- Il bersaglio perde Livello Difensivo pari al valore di quest'effetto\n- A Fine Turno: Infligge (Valore x Bruciatura sul bersaglio) danni da Superbia, poi l'effetto viene rimosso"
+      "desc": "- Bruciatura Speciale\n- Valore Massimo: 7\n- Il bersaglio perde Livello Difensivo pari al valore di quest'effetto\n- A Fine Turno: Infligge (Valore x Bruciatura sul bersaglio) danni da Superbia, poi l'effetto viene rimosso"
     },
     {
       "id": "CtrlTeamCaptain",
@@ -1778,12 +1778,12 @@
     {
       "id": "FullReload",
       "name": "Ricaricare",
-      "desc": "Lose all currently owned Munizioni, and reload it back to full"
+      "desc": "Lose all currently owned Munizioni, e reload it back to full"
     },
     {
       "id": "Bullet_LogicAtelier",
       "name": "Munizioni - Atelier Logic",
-      "desc": "Munizione Unica\nMunizione speciale dell'Atelier Logic\n- Questa munizione non può essere persa o ottenuta da effetti esterni"
+      "desc": "Munizione Speciale\nMunizione speciale dell'Atelier Logic\n- Questa munizione non può essere persa o ottenuta da effetti esterni"
     },
     {
       "id": "Retreat_FullStop",
@@ -1932,22 +1932,22 @@
     },
     {
       "id": "BurstPoison",
-      "name": "Deathrite【Venom】",
-      "desc": "Base Stack: 5\n- Deathrite\n- When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n- When losing Stacks due to this effect, ottiene 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n- When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture Potency on self\n- ※ Cannot ottiene additional Stacks of this effect while it is already active",
+      "name": "Anatema【Venom】",
+      "desc": "Stack di Base: 5\n- Anatema\n- Quando la Lacerazione viene attivata da un Colpo Critico dal bersaglio, perde 1 Stack\n- Quando perde Stack a causa di questo effeto, ottiene 1 Calo Offensivo or 1 Calo Difensivo (3 volte per turno)\n- Quando perde Stack a causa di questo effeto, se le Stack scendono a 0, subisce danni da Gola pari alla Potenza Lacerazione\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SnakeStance",
       "name": "Serpent Arm",
-      "desc": "Max Stack: 3\nTurn End: ottiene 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, ottiene 5 Poise\nTurn End: lose 1 Stack",
+      "desc": "Max Stack: 3\nTurn End: ottiene 3 Respiro e +2 Conteggio Respiro il turno successivo\nOn Base Attack Skill use, if target has Rupture, ottiene 5 Respiro\nTurn End: perde 1 Stack",
       "summary": "",
       "undefined": "-"
      },
     {
       "id": "BurstZilu",
-      "name": "Deathrite 【Fissure】",
-      "desc": "- Base Stack: 3\n- When getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and ottiene 1 Bind next turn\n· When this effect activates, if this unit is to ottiene 3 or more Bind next turn, lose 2 Stacks invece di ottieneing Bind\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self\n※ Cannot ottiene additional Stacks of this effect while it is already active.",
+      "name": "Anatema 【Fissure】",
+      "desc": "- Stack di Base: 3\n- Quando la Lacerazione viene attivata while this unit has Anatema, perde 1 Stack, e ottiene 1 Bind il turno successivo\n· When this effect activates, if this unit is to ottiene 3 or more Bind il turno successivo, perde 2 Stacks invece di ottieneing Bind\n- At 0 Stack, subisce danni da Gola pari alla Potenza Lacerazione\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
       "summary": "",
       "undefined": "-"
     },
@@ -1961,14 +1961,14 @@
     {
       "id": "EnhanceZilu",
       "name": "Tianjiu Star's Blade",
-      "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, ottiene 1 Haste next turn\n- Used for certain Skills",
+      "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, ottiene 1 Haste il turno successivo\n- Used for certain Skills",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstVulnerableZilu",
       "name": "Mark of Decay",
-      "desc": "- Max Stack: 1\n- Take +10% damage from Gluttony Skills\n- Take +10% damage from Deathrite\n- Removed at Turn End",
+      "desc": "- Max Stack: 1\n- Take +10% damage from Gluttony Skills\n- Take +10% damage from Anatema\n- Removed at Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -1982,21 +1982,21 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Twisted Curse Talisman",
-      "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: ottiene +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, ottiene (Stack / 4) Attack Power Down next turn (max 2)\n※ Cannot ottiene additional Stacks of this effect while it is already active",
+      "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: ottiene +1 Rupture Count; subisce danni da Gola pari alla Potenza Lacerazione (once per turn)\n- When this effect expires, ottiene (Stack / 4) Attack Power Down il turno successivo (max 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CentipedePoison",
       "name": "Centipede Venom",
-      "desc": "- Max Stack: 20\n- Turn End: ottiene (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
+      "desc": "- Max Stack: 20\n- Turn End: ottiene (Stack / 4) Calo Difensivo il turno successivo (rounded down)\n- Turn End: take Gluttony damage equal to Stack, e halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DragonLance",
       "name": "Flower-burying Wedge [埋花櫼]",
-      "desc": "Base Stack: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: ottiene 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, ottiene 1 Tarnished Blood (once per Encounter)\n- Turn End: ottiene 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon death or Retreat\n\n- When this unit takes damage that brings their PV down to 0: invece di letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
+      "desc": "Stack di Base: 0\nMax Stack: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: ottiene 2 Offense Level Up e 2 Calo Difensivo\n- Turn Start: at 3+ Stack, ottiene 1 Tarnished Blood (once per Encounter)\n- Turn End: ottiene 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon death or Retreat\n\n- When this unit takes damage that brings their PV down to 0: invece di letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed il turno successivo",
       "summary": "",
       "undefined": "-"
     },
@@ -2010,7 +2010,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Flower-burying Pin [埋花針]",
-      "desc": "Max Stack: 20\n- Gain 1 Stack at Turn End or when hit\n- Gain 1 Offense Level per 5 Stack\n- If the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\n- Expires upon death or Retreat",
+      "desc": "Max Stack: 20\n- Gain 1 Stack at Turn End or when hit\n- Gain 1 Offense Level per 5 Stack\n- If the unit with this effect dies, inflict Gluttony damage equal to Stack e inflict 5 Rupture\n- Expires upon death or Retreat",
       "summary": "",
       "undefined": "-"
     },
@@ -2052,7 +2052,7 @@
     {
       "id": "RetreatForCommon",
       "name": "Battlefield Retreat",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of PV and PS this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 PS when retreating, reset PS to 0 instead)",
+      "desc": "- Turn End: recover from Stagger e Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit e move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with il turno successivo. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of PV e PS this unit had when it retreated, e eliminate all effects on self save for a select few (if this unit had less than 0 PS when retreating, reset PS to 0 instead)",
       "summary": "",
       "undefined": "-"
      },
@@ -2087,14 +2087,14 @@
     {
       "id": "IrritationAlly",
       "name": "Unrelenting Spirit [剛氣]",
-      "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency and Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round and Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [剛氣-心] next turn\n- Max Stack: 1",
+      "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency e Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round e Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [剛氣-心] il turno successivo\n- Max Stack: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
       "name": "Unrelenting Spirit - Shin [剛氣-心]",
-      "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency and Tremor Count with this unit's Skills\n- Max Stack: 1",
+      "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency e Tremor Count with this unit's Skills\n- Max Stack: 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2108,7 +2108,7 @@
     {
       "id": "RoseThorn",
       "name": "Gluttonous Thorn (貪食棘)",
-      "desc": "Max Stack: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then lose 1 Gluttonous Thorn (貪食棘). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Defense Level Down next turn equal to Bloodfeast increased (max Defense Level Down gain: 5)",
+      "desc": "Max Stack: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then perde 1 Gluttonous Thorn (貪食棘). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Calo Difensivo il turno successivo equal to Bloodfeast increased (max Calo Difensivo gain: 5)",
       "summary": "",
       "undefined": "-"
     },
@@ -2136,7 +2136,7 @@
     {
       "id": "FellBulletPersonality",
       "name": "Fell Bullet",
-      "desc": "Max Stack: 1\n+3% damage on Critical Hit for every Torn Memory (max 18%)\nOn Hit, inflict 1 Bleed (3 per turn)\nOn Kill, gain 3 Poise and +2 Poise Count (2 times per turn)\nExpires at Turn End",
+      "desc": "Max Stack: 1\n+3% damage on Critical Hit for every Torn Memory (max 18%)\nOn Hit, inflict 1 Bleed (3 per turn)\nOn Kill, gain 3 Respiro e +2 Conteggio Respiro (2 volte per turno)\nExpires at Turn End",
       "summary": "Deal more Crit damage, inflict more Bleed",
       "undefined": "-"
     }

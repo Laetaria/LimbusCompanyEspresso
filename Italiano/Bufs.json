@@ -1695,12 +1695,12 @@
     {
       "id": "FreischutzShotCount",
       "name": "Pallottola Magica",
-      "desc": "- Valore Massimo: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Unico per Lobotomy E.G.O::Pallottola Magica Outis]\n· Valore di Base della terza Abilità +{0}\n· Potenza Moneta della terza Abilità +{1}"
+      "desc": "- Valore Massimo: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Esclusiva a Lobotomy E.G.O::Pallottola Magica Outis]\n· Valore di Base della terza Abilità +{0}\n· Potenza Moneta della terza Abilità +{1}"
     },
     {
       "id": "DarkFlame",
       "name": "Fiamma Oscura",
-      "desc": "- Bruciatura Unica\n- Valore massimo: 7\n- Livello Difensivo del bersaglio -{0}\n- A Fine Turno: Infligge ({0} x Bruciatura nel bersaglio) danni da Superbia, infine quest'effetto sparisce"
+      "desc": "- Bruciatura Speciale\n- Valore massimo: 7\n- Livello Difensivo del bersaglio -{0}\n- A Fine Turno: Infligge ({0} x Bruciatura nel bersaglio) danni da Superbia, infine quest'effetto sparisce"
     },
     {
       "id": "CtrlTeamCaptain",
@@ -1898,7 +1898,7 @@
     {
       "id": "LibrarianOfHistoryNormal",
       "name": "Assistente Bibliotecario del Piano della Storia",
-      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- Infligge il doppio del Conteggio e della Potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Unici')",
+      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- Infligge il doppio del Conteggio e della Potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')",
       "summary": ""
     },
     {
@@ -1921,7 +1921,7 @@
     {
       "id": "LibrarianOfHistoryHard",
       "name": "Bibliotecario del Piano della Storia",
-      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio del Conteggio e della Potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Unici')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
+      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio del Conteggio e della Potenza di Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
       "summary": ""
     },
     {
@@ -2334,7 +2334,7 @@
     {
       "id": "Bullet_LogicAtelier",
       "name": "Munizioni - Atelier Logic",
-      "desc": "Munizione Unica:\n Munizione speciale dell'Atelier Logic \n- Questa munizione non può essere persa o ottenuta da effetti esterni"
+      "desc": "Munizione Speciale:\n Munizione speciale dell'Atelier Logic \n- Questa munizione non può essere persa o ottenuta da effetti esterni"
     },
     {
       "id": "Retreat_FullStop",
@@ -2478,8 +2478,8 @@
     },
     {
       "id": "BurstPoison",
-      "name": "Deathrite【Venom】",
-      "desc": "Base Stack: 5\n- When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n- When losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n- When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture Potency on self\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Anatema【Veleno】",
+      "desc": "Base Stack: 5\n- When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n- When losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n- When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture Potency on self\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
@@ -2492,8 +2492,8 @@
     },
     {
       "id": "BurstZilu",
-      "name": "Deathrite 【Fissure】",
-      "desc": "- Base Stack: 3\n- When getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\n· When this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self\n※ Cannot gain additional Stacks of this effect while it is already active.",
+      "name": "Anatema 【Crepa】",
+      "desc": "- Base Stack: 3\n- When getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\n· When this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
       "summary": "",
       "undefined": "-"
     },
@@ -2528,7 +2528,7 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Twisted Curse Talisman",
-      "desc": "- Stack Max: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n※ Cannot gain additional Stacks of this effect while it is already active",
+      "desc": "- Stack Max: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
