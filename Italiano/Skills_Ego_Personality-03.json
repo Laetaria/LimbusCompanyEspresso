@@ -72,7 +72,7 @@
           "level": 1,
           "name": "Tumulo dei Desideri",
           "abName": "Venerazione della Pagoda",
-          "desc": "[CantIdentify]\nTargets randomly\n",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n",
           "coinlist": [
             {
               "coindescs": [
@@ -96,7 +96,7 @@
           "level": 3,
           "name": "Tumulo dei Desideri",
           "abName": "Venerazione della Pagoda",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
@@ -120,7 +120,7 @@
           "level": 4,
           "name": "Tumulo dei Desideri",
           "abName": "Venerazione della Pagoda",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
@@ -591,7 +591,7 @@
           "level": 1,
           "name": "Red Sheet",
           "abName": "So That No One Will Cry",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
@@ -619,7 +619,7 @@
           "level": 3,
           "name": "Red Sheet",
           "abName": "So That No One Will Cry",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
@@ -647,7 +647,7 @@
           "level": 4,
           "name": "Red Sheet",
           "abName": "So That No One Will Cry",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
           "coinlist": [
             {
               "coindescs": [
@@ -678,9 +678,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "In the Name of Love and Hate - Major Arcana Slave!!!",
-          "abName": "The Queen of Hatred",
-          "desc": "[BeforeAttack] Apply 1 [MagicalGirlResponse] to (1 + (Envy Reson. / 3)) random other allies (max 3 allies)\n\n[BeforeAttack] Gain +([Charge] - 1) Atk Weight (max 3)\n\n[EndSkill] Consume all [Charge] Count on self to heal (2 + (Envy Reson. / 2)) allies with the least HP percentages by ([Charge] Count consumed)% HP (max 5 allies, max 5%)\n\n[EndSkill] If this unit is Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [ArcanaQueenOfHate]",
+          "name": "Nel Nome dell'Amore e dell'Odio - Fulmine Arcano Maggiore!!!",
+          "abName": "La Regina dell'Odio",
+          "desc": "[BeforeAttack] Applica 1 [MagicalGirlResponse] ad altri (1 + (Rison. Invidia / 3)) alleati casuali (max 3 alleati)\n\n[BeforeAttack] Ottiene +([Charge] - 1) Peso Attacco (max 3)\n\n[EndSkill] Consuma tutto il Conteggio [Charge] su di sé per curare (2 + (Rison. Invidia / 2)) alleati con la percentuale più bassa di PV del (Conteggio [Charge] consumato)% dei PV (max 5 alleati, max 5%)\n\n[EndSkill] Se quest'unità è Lobotomy E.G.O::Nel Nome dell'Amore e dell'Odio Don Quixote, ottiene 1 [ArcanaQueenOfHate]",
           "coinlist": [
             {
               "coindescs": [
@@ -688,7 +688,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Charge] Count (5 per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge] (5 per turno)"
                 }
               ]
             },
@@ -698,10 +698,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict [VillainMark] against the main target next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge [VillainMark] al bersaglio principale il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [Burst] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Burst] (max 2)"
                 }
               ]
             }
@@ -709,9 +709,9 @@
         },
         {
           "level": 3,
-          "name": "In the Name of Love and Hate - Major Arcana Slave!!!",
-          "abName": "The Queen of Hatred",
-          "desc": "[BeforeAttack] Apply 1 [MagicalGirlResponse] to (1 + (Envy Reson. / 3)) random other allies (max 3 allies)\n<style=\"highlight\">- If this unit has [MagicalGirlAppear], apply 2 [MagicalGirlResponse] to (1 + (Envy Reson. / 3)) random other allies instead (max 3 allies)</style>\n\n[BeforeAttack] Gain +([Charge] - 1) Atk Weight (max <style=\"highlight\">5</style>)\n[EndSkill] Consume all [Charge] Count on self to heal (2 + (Envy Reson. / 2)) allies with the least HP percentages by ([Charge] Count consumed)% HP (max 5 allies, max <style=\"highlight\">8</style>%)\n\n[EndSkill] If this unit is Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [ArcanaQueenOfHate]",
+          "name": "Nel Nome dell'Amore e dell'Odio - Fulmine Arcano Maggiore!!!",
+          "abName": "La Regina dell'Odio",
+          "desc": "[BeforeAttack] Applica 1 [MagicalGirlResponse] a (1 + (Rison. Invidia / 3)) altri alleati casuali (max 3 alleati)\n<style=\"highlight\">- Se quest'unità ha [MagicalGirlAppear], applica invece 2 [MagicalGirlResponse] ad altri (1 + (Rison. Invidia / 3)) alleati casuali (max 3 alleati)</style>\n\n[BeforeAttack] Ottiene +([Charge] - 1) Peso Attacco (max <style=\"highlight\">5</style>)\n[EndSkill] Consuma tutto il Conteggio [Charge] su di sé per curare (2 + (Rison. Invidia / 2)) alleati con la percentuale più bassa di PV del (Conteggio [Charge] consumato)% dei PV (max 5 alleati, max <style=\"highlight\">8</style>%)\n\n[EndSkill] Se quest'unità è Lobotomy E.G.O::Nel Nome dell'Amore e dell'Odio Don Quixote, ottiene 1 [ArcanaQueenOfHate]",
           "coinlist": [
             {
               "coindescs": [
@@ -719,7 +719,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Charge] Count (5 per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge] (5 per turno)"
                 }
               ]
             },
@@ -729,10 +729,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict [VillainMark] against the main target next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge [VillainMark] al bersaglio principale il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [Burst] (max <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Burst] (max <style=\"highlight\">3</style>)"
                 }
               ]
             }
@@ -740,9 +740,9 @@
         },
         {
           "level": 4,
-          "name": "In the Name of Love and Hate - Major Arcana Slave!!!",
-          "abName": "The Queen of Hatred",
-          "desc": "[BeforeAttack] Apply 1 [MagicalGirlResponse] to (1 + (Envy Reson. / <style=\"highlight\">2</style>)) random other allies (max <style=\"highlight\">4</style> allies)\n- If this unit has [MagicalGirlAppear], apply 2 [MagicalGirlResponse] to (1 + (Envy Reson. / <style=\"highlight\">2</style>)) random other allies instead (max <style=\"highlight\">4</style> allies)\n\n[BeforeAttack] Gain +([Charge] - 1) Atk Weight (max 5)\n<style=\"highlight\">- If this unit has [MagicalGirlAppear], gain +([Charge]) Atk Weight instead (max 5)</style>\n\n[EndSkill] Consume all [Charge] Count on self to heal (2 + (Envy Reson. / 2)) allies with the least HP percentages by ([Charge] Count consumed)% HP (max 5 allies, max <style=\"highlight\">10</style>%)\n\n[EndSkill] If this unit is Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [ArcanaQueenOfHate]",
+          "name": "Nel Nome dell'Amore e dell'Odio - Fulmine Arcano Maggiore!!!",
+          "abName": "La Regina dell'Odio",
+          "desc": "[BeforeAttack] Applica 1 [MagicalGirlResponse] a (1 + (Rison. Invidia / <style=\"highlight\">2</style>)) altri alleati casual (max <style=\"highlight\">4</style> allies)\n- Se quest'unità ha [MagicalGirlAppear], applica invece 2 [MagicalGirlResponse] ad altri (1 + (Rison. Invidia / <style=\"highlight\">2</style>)) alleati casuali (max <style=\"highlight\">4</style> allies)\n\n[BeforeAttack] Ottiene +([Charge] - 1) Peso Attacco (max 5)\n<style=\"highlight\">- Se quest'unità ha [MagicalGirlAppear], ottiene invece +([Charge]) Peso Attacco (max 5)</style>\n\n[EndSkill]Consuma tutto il Conteggio [Charge] su di sé per curare (2 + (Rison. Invidia / 2)) alleati con la percentuale più bassa di PV del (Conteggio [Charge] consumato)% dei PV (max 5 alleati, max <style=\"highlight\">10</style>%)\n\n[EndSkill] Se quest'unità è Lobotomy E.G.O::Nel Nome dell'Amore e dell'Odio Don Quixote, ottiene 1 [ArcanaQueenOfHate]",
           "coinlist": [
             {
               "coindescs": [
@@ -750,7 +750,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">2</style> [Charge] Count (<style=\"highlight\">10</style> per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">2</style> Conteggio [Charge] (<style=\"highlight\">10</style> per turno)"
                 }
               ]
             },
@@ -760,13 +760,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [VillainMark] against the main target next turn"
+                  "desc": "[OnSucceedAttack] Infligge [VillainMark] al bersaglio principale il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [Burst] (max <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Burst] (max <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "<style=\"highlight\">- If this unit has [MagicalGirlAppear], inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">- Se quest'unità ha [MagicalGirlAppear], infligge +1 [Burst] Count</style>"
                 }
               ]
             }
@@ -779,9 +779,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Maximized Reversed Arcana Slave - Erasure of Hatred",
-          "abName": "The Queen of Hatred",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain +([Charge]) Atk Weight (max 5)\n\n[BeforeAttack] Consume all [Charge] Count and deal +1% more damage for every [Charge] Count consumed (max 20%)\n\n[BeforeAttack] If the main target has [VillainMark], deal +3% damage for every [Charge] (max 15%)\n\n[BeforeAttack] Deal +5% damage for every 3 Envy Reson. (max 10%, rounded down)\n\n[BeforeAttack] Base Power -12 for every Cracked Coin (max -24)\n\n[EndSkill] If this unit is a Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [HystericGauge]",
+          "name": "Fulmine Arcano Rovesciato Potenziato - Obliterazione dell'Odio",
+          "abName": "La Regina dell'Odio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +([Charge]) Peso Attacco (max 5)\n\n[BeforeAttack] Consuma tutto il Conteggio [Charge] ed infligge +1% danni in più per ogni Conteggio [Charge] consumato (max 20%)\n\n[BeforeAttack] Se il bersaglio principale ha [VillainMark], infligge +3% danni per ogni [Charge] (max 15%)\n\n[BeforeAttack] Infligge +5% danni per ogni 3 Rison. Invidia (max 10%, arrotondato per difetto)\n\n[BeforeAttack] Potere Base -12 per ogni Moneta Infranta (max -24)\n\n[EndSkill] If this unit is a Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [HystericGauge]",
           "coinlist": [
             {
               "coindescs": [
@@ -789,7 +789,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Charge] Count (7 times per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge] (7 volte per turno)"
                 }
               ]
             },
@@ -799,10 +799,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict [VillainMark] against the main target next turn"
+                  "desc": "[OnSucceedAttackTail] Infligge [VillainMark] al bersaglio principale il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [Sinking] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Sinking] (max 2)"
                 }
               ]
             }
@@ -810,9 +810,9 @@
         },
         {
           "level": 3,
-          "name": "Maximized Reversed Arcana Slave - Erasure of Hatred",
-          "abName": "The Queen of Hatred",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain +([Charge]) Atk Weight (max 5)\n<style=\"highlight\">- If this unit has [NoVillain], gain +([Charge] + 1) Atk Weight instead (max 5)</style>\n\n[BeforeAttack] Consume all [Charge] Count and deal +<style=\"highlight\">2</style>% more damage for every [Charge] Count consumed (max <style=\"highlight\">40</style>%)\n\n[BeforeAttack] If the main target has [VillainMark], deal +<style=\"highlight\">5</style>% damage for every [Charge] (max <style=\"highlight\">25</style>%)\n<style=\"highlight\">- If this unit has [HystericGauge], deal +7% damage for every [Charge] instead (max 35%)</style>\n\n[BeforeAttack] Deal +<style=\"highlight\">7</style>% damage for every 2 Envy Reson. (max <style=\"highlight\">21</style>%, rounded down)\n\n[BeforeAttack] Base Power -12 for every Cracked Coin (max -24)\n\n[EndSkill] If this unit is a Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [HystericGauge]",
+          "name": "Fulmine Arcano Rovesciato Potenziato - Obliterazione dell'Odio",
+          "abName": "La Regina dell'Odio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +([Charge]) Peso Attacco (max 5)\n<style=\"highlight\">- Se quest'unità ha [NoVillain], ottiene invece +([Charge] + 1) Peso Attacco (max 5)</style>\n\n[BeforeAttack] Consuma tutto il Conteggio [Charge] ed infligge +<style=\"highlight\">2</style>% danni in più per ogni Conteggio [Charge] consumato (max <style=\"highlight\">40</style>%)\n\n[BeforeAttack] Se il bersaglio principale ha [VillainMark], infligge +<style=\"highlight\">5</style>% danni per ogni [Charge] (max <style=\"highlight\">25</style>%)\n<style=\"highlight\">- Se quest'unità ha [HystericGauge], infligge invece +7% danni per ogni [Charge] (max 35%)</style>\n\n[BeforeAttack] Infligge +<style=\"highlight\">7</style>% danni per ogni 2 Rison. Invidia (max <style=\"highlight\">21</style>%, arrotondato per difetto)\n\n[BeforeAttack] Potere Base -12 per ogni Moneta Infranta (max -24)\n\n[EndSkill] Se quest'unità è Lobotomy E.G.O::Nel Nome dell'Amore e dell'Odio Don Quixote, ottiene 1 [HystericGauge]",
           "coinlist": [
             {
               "coindescs": [
@@ -820,7 +820,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count (<style=\"highlight\">10</style> per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">10</style> per turno)"
                 }
               ]
             },
@@ -830,10 +830,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict [VillainMark] against the main target next turn"
+                  "desc": "[OnSucceedAttackTail] Infligge [VillainMark] al bersaglio principale il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [Sinking] (max <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Sinking] (max <style=\"highlight\">3</style>)"
                 }
               ]
             }
@@ -841,9 +841,9 @@
         },
         {
           "level": 4,
-          "name": "Maximized Reversed Arcana Slave - Erasure of Hatred",
-          "abName": "The Queen of Hatred",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain +([Charge]) Atk Weight (max 5)\n- If this unit has [NoVillain], gain +([Charge] + 1) Atk Weight instead (max 5)\n\n[BeforeAttack] Consume all [Charge] Count and deal <style=\"highlight\">+2.5%</style> more damage for every [Charge] Count consumed (max <style=\"highlight\">50</style>%)\n\n[BeforeAttack] If the main target has [VillainMark], deal +5% damage for every [Charge] (max 25%)\n- If this unit has [HystericGauge], deal +<style=\"highlight\">10</style>% damage for every [Charge] instead (max <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Deal+<style=\"highlight\">10</style>% damage for every 2 Envy Reson. (max <style=\"highlight\">30</style>%, rounded down)\n\n[BeforeAttack] Base Power -12 for every Cracked Coin (max -24)\n\n[EndSkill] If this unit is a Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 [HystericGauge]",
+          "name": "Fulmine Arcano Rovesciato Potenziato - Obliterazione dell'Odio",
+          "abName": "La Regina dell'Odio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +([Charge]) Peso Attacco (max 5)\n- Se quest'unità ha [NoVillain], ottiene invece +([Charge] + 1) Peso Attacco (max 5)\n\n[BeforeAttack] Consuma tutto il Conteggio [Charge] ed infligge <style=\"highlight\">+2.5%</style> danni in più per ogni Conteggio [Charge] consumato (max <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Se il bersaglio principale ha [VillainMark], infligge +5% danni per ogni [Charge] (max 25%)\n- Se quest'unità ha [HystericGauge], infligge invece +<style=\"highlight\">10</style>% danni per ogni [Charge] (max <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Infligge +<style=\"highlight\">10</style>% danni per ogni 2 Rison. Invidia (max <style=\"highlight\">30</style>%, arrotondato per difetto)\n\n[BeforeAttack] Potere Base -12 per ogni Moneta Infranta (max -24)\n\n[EndSkill] Se quest'unità è Lobotomy E.G.O::Nel Nome dell'Amore e dell'Odio Don Quixote, ottiene 1 [HystericGauge]",
           "coinlist": [
             {
               "coindescs": [
@@ -851,7 +851,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count (<style=\"highlight\">14</style> per turn)"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">14</style> per turno)"
                 }
               ]
             },
@@ -861,13 +861,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict [VillainMark] against the main target next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] al bersaglio principale il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([Charge] - 1) [Sinking] (max <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Sinking] (max <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "<style=\"highlight\">- If this unit has [NoVillain], inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">- Se quest'unità ha [NoVillain], infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             }
