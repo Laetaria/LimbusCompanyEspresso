@@ -3,20 +3,20 @@
     {
       "id": "FusionVibration",
       "name": "Sovrapposizione Ondulare",
-      "desc": "- Fonde gli effetti del tipo di Vibrazione aggiunta da Sovrapposizione Ondulare e dal tipo di Vibrazione già presente sul bersaglio in Vibrazione - Sovrapposizione.\n- I valori di Potenza e Conteggio non cambiando durante Sovrapposizione.\n- Quando si innesca Convertitore di Ampiezza su Vibrazione - Sovrapposizione, quest'ultimo si attiva come Sovrapposizione Ondulare.\n- A Fine Turno: si converte in Vibrazione base.",
+      "desc": "- Fonde gli effetti del tipo di Vibrazione aggiunta da Sovrapposizione Ondulare e dal tipo di Vibrazione già presente sul bersaglio in Vibrazione - Sovrapposizione.\n- I valori di Potenza e Conteggio non cambiando durante Sovrapposizione.\n- Quando si attiva Convertitore di Ampiezza su Vibrazione - Sovrapposizione, quest'ultimo si attiva come Sovrapposizione Ondulare.\n- A Fine Turno: si converte in Vibrazione base.",
       "summary": ""
     },
     {
       "id": "VibrationNesting",
       "name": "Vibrazione - Sovrapposizione",
-      "desc": "- Ottenuto tramite Sovrapposizione Ondulare\n- Quando si innesca Convertitore di Ampiezza, aggiunge gli effetti del tipo di Vibrazione risultante alla lista dei tipi di Vibrazione sotto il nome di Vibrazione - Sovrapposizione.",
+      "desc": "- Ottenuto tramite Sovrapposizione Ondulare\n- Quando si attiva Convertitore di Ampiezza, aggiunge gli effetti del tipo di Vibrazione risultante alla lista dei tipi di Vibrazione sotto il nome di Vibrazione - Sovrapposizione.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationDistribution",
       "name": "Vibrazione - Distribuzione",
-      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Aumento Offensivo il turno successivo (max 5)\n- Per {1} turni, quando viene colpito da un'Abilità che innesca Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Aumento Offensivo il turno successivo (max 5)\n- Per {1} turni, quando viene colpito da un'Abilità che attiva Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },
@@ -30,7 +30,7 @@
     {
       "id": "VibrationChain",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando viene colpito da un'Abilità che innesca Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando viene colpito da un'Abilità che attiva Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé\nAlza la Soglia di Vacillamento di {0}",
       "undefined": "-"
     },
