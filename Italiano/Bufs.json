@@ -1986,7 +1986,7 @@
     },
     {
       "id": "BoseProjektil",
-      "name": "Memorie Lacerate",
+      "name": "Ricordi Lacerati",
       "desc": "- Valore Massimo : 7\n- Usato per alcune Abilità",
       "summary": ""
     },
@@ -2479,126 +2479,126 @@
     {
       "id": "BurstPoison",
       "name": "Anatema【Veleno】",
-      "desc": "Base Stack: 5\n- When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n- When losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n- When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture Potency on self\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "desc": "Stack Base: 5\n- Quando un colpo critico del bersaglio innesca Lacerazione, perdi 1 Stack\n- Quando uno stack viene diminuito per via di questo effetto, ottieni 1 Calo Offensivo o 1 Calo Difensivo (3 volte per turno)\n- Quando uno stack viene diminuito per via di questo effetto, se gli Stack calano a 0, subisci danno da Gola pari alla potenza di Lacerazione su questa unità\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SnakeStance",
-      "name": "Serpent Arm",
-      "desc": "Stack Max: 3\nTurn End: gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain 5 Poise\nTurn End: lose 1 Stack",
+      "name": "Braccia di Serpente",
+      "desc": "Stack Massimi: 3\nfine tuno: ottieni 3 Respiro e +2 Conteggio di Respiro al prossimo turno\nAll'utilizzo di attacchi con abilità base, se il bersaglio è afflitto da Lacerazione, ottieni 5 Respiro\nFine turno: perdi 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstZilu",
       "name": "Anatema 【Crepa】",
-      "desc": "- Base Stack: 3\n- When getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\n· When this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
+      "desc": "- Base Stack: 3\n- Quando viene innescata Lacerazione nel mentre questa unità è afflitta da Anatema, perdi 1 Stack, e ottieni 1 Lentezza il prossimo turno\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Lentezza il prossimo turno, perdi 2 Stack al posto di ottenere Lentezza\n- A 0 Stack, subisci danno da Gola damage pari alla potenza di Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SupportProtect",
-      "name": "Assist Defense",
-      "desc": "- Stack Max: 3\n- When an ally is about take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the exclusive Skill that activates for Assist Defense\n- When there are multiple allies with Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\n- Does not activate for allies who equipped Defense Skills\n- Expires at Turn End",
+      "name": "Guardia Assistita",
+      "desc": "- Stack Massime: 3\n- Quando un alleato sta per subire un attacco non corrisposto da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su se stesso; Poi, esegui l'abilità esclusiva che viene attivata per la Guardia Assistita\n- Quando sono presenti più alleati con le stack di Guardia Assistita, La priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di stack\n- Non viene attivato per gli alleati che utilizzano un abilità difensiva\n- Scade alla fine del turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EnhanceZilu",
-      "name": "Tianjiu Star's Blade",
-      "desc": "- Stack Max: 20\n- At 10+ Stack: at Turn End, gain 1 Haste next turn\n- Used for certain Skills",
+      "name": "Lama della stella Tianjiu",
+      "desc": "- Stack Massimi: 20\n- A 10+ Stack: alla fine del turno, ottieni 1 Rapidità al prossimo turno\n- Usato per alcune abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstVulnerableZilu",
-      "name": "Mark of Decay",
-      "desc": "- Stack Max: 1\n- Take +10% damage from Gluttony Skills\n- Take +10% damage from Deathrite\n- Removed at Turn End",
+      "name": "Mark Del Deterioramento",
+      "desc": "- Stack Massime: 1\n- Subisci +10% danni dalle abilità Di tipo Gola \n- Subisci +10% danni da Anatema\n- Rimosso a fine turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SupportProtectTypo",
-      "name": "Assist Defense",
+      "name": "Guardia Assistita",
       "desc": "",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EntangledCurseTalisman",
-      "name": "Twisted Curse Talisman",
-      "desc": "- Stack Max: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "name": "Talismano Maledetto Contorto",
+      "desc": "- Stack Masime: 10\n- Scade a fine turno\n- A 10+ Stack, Quando subisci 30+ danni da un Abilità: ottieni +1 Conteggio di Lacerazione; Subisci danno da Gola pari alla potenza di Lacerazione su questa unità(una volta per turno)\n- Quando questo effetto scade, Guadagna (Stack / 4) Calo Offensivo il prossimo turno (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CentipedePoison",
-      "name": "Centipede Venom",
-      "desc": "- Stack Max: 20\n- Turn End: gain (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
+      "name": "Veleno Del Centopiedi",
+      "desc": "- Stack Massime: 20\n- Alla fine del turno: guadagna (Stack / 4) Calo Difensivo il prossimo turno (Arrotondato per difetto)\n- alla fine del turno: prendi danno da Gola pari agli stack, e dimezza gli stack (arrotondato per difetto)\nAlla Morte, Si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stacks di Veleno Del Centopiedi.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DragonLance",
-      "name": "Flower-burying Wedge [埋花櫼]",
-      "desc": "Base Stack: 0\nStack Max: 3\n- All Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\n- Turn Start: gain 2 Offense Level Up and 2 Defense Level Down\n- Turn Start: at 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\n- Turn End: gain 1 Stack\n※ Cannot raise the effect's Stack by any other means than the ones above\n- Expires upon defeat or Retreat\n\n- When this unit takes damage that brings their PV down to 0: instead of letting this unit's PV drop below 1, or becoming Staggered or Defeated, use the 'Tears of the Tarnished Blood - The End' Skill at the very end of that turn. Remove the Flower-burying Wedge when the Skill ends.\nWhen this unit takes damage that brings their PV down to 1 at Turn End, use 'Tears of the Tarnished Blood - The End' Skill based on this unit's Speed next turn",
+      "name": "Lancia Tumula-Fiori [埋花櫼]",
+      "desc": "Base Stack: 0\nStack Max: 3\n- Tutte le monete nell'abilità base più a sinistra sulla Dashboard diventano Monete Infrangibili\n- All'inizio del turno: ottieni due 2 Aumento Offensivo e 2 Aumento Difensivo\n- All'inizio del turno: a 3+ Stack, ottieni 1 Sangue Immondo (una volta per incontro)\n- alla fine del turno: ottieni 1 Stack\n※ non puoi aumentare le stack di questo effetto in nessun modo che non sia quello sopracitato \n- Scade alla morte o alla ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o farla vacillare o sconfiggere, usa l'abilità 'Tears of the Tarnished Blood - The End'  alla fine di quello stesso turno. Rimuovi La Lancia Tumula-Fiori alla fine del turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 alla fine del turno, usa l'abilità 'Tears of the Tarnished Blood - The End' in base alla velocità di questa unità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CondensedBlood",
-      "name": "Tarnished Blood",
-      "desc": "Stack Max: 5\n- Turn End: take 20% PV damage per Stack (cannot be Staggered by this effect)\n- Gain 1 Stack at Turn End\n- Expires upon death or Retreat",
+      "name": "Sangue Immondo",
+      "desc": "Stack Massimi: 5\n- Alla fine del turno: subisci danni pari al 20% di PV per Stack (questo effettto non può far vacillare)\n- Guadagni 1 Stack alla fine del turno\n- Scade alla morte o alla ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonSelf",
-      "name": "Flower-burying Pin [埋花針]",
-      "desc": "Stack Max: 20\n- Gain 1 Stack at Turn End or when hit\n- Gain 1 Offense Level per 5 Stack\n- If the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\n- Expires upon death or Retreat",
+      "name": "Spillo Tumula-Fiori [埋花針]",
+      "desc": "Stack Massimi: 20\n- Ottieni 1 Stack a fine turno o quando colpito\n- ottirni 1 livello offensivo ogni 5 Stack\n- Se l'unità con qiesto effetto muore, infliggi danno da Gola pari agli stack e infliggi 5 Lacerazione\n- Scade alla morte o alla ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonNodie",
-      "name": "Denial [不許]",
-      "desc": "When this unit takes damage that brings their PV down to 0: this unit's PV does not drop below 1; recover from Stagger due to damage.\nIf the above effect activated, dies at Turn End.\nExpires upon death, Retreat, or Turn End",
+      "name": "Abiura [不許]",
+      "desc": "Quando questa unità prende un danno che orta i suoi PV a 0: i PV di questa unità non scendono sotto 1; guarisci dal vacillare causato dal danno.\nse l'effetto sovracitato viene attivato, muori alla fine del turno.\nScade alla morte, alla ritirata e alla fine del turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonBurst",
-      "name": "Razor Thorn",
+      "name": "Spina Affilata",
       "desc": "",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WaitingXichun",
-      "name": "Ready [待]",
-      "desc": "- Stack Max: 3\n- Number of turns this unit spent in Retreat or as a Backup unit",
+      "name": "Riposo [待]",
+      "desc": "- Stack Massime: 3\n- Numero di turni che questa unità ha speso nelle retrovie o in ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StartXichun",
-      "name": "Launcher [始]",
-      "desc": "- Stack Max: 6\n- Number of turns this unit spent active in the Encounter\n- Expires upon Retreat\n- Gain 1 Stack at Turn End",
+      "name": "Avvio[始]",
+      "desc": "- Stack Massimi: 6\n- Numero di turni che questa unità ha speso attiva sul campo\n- Scade alla ritirata\n- Ottieni 1 Stack alla fine del turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CheerUpXichun",
-      "name": "Assist [援]",
-      "desc": "- Stack Max: 1\n- If target has 5+ types of negative effects, Clash Power +1, deal +10% damage",
+      "name": "Tifo [援]",
+      "desc": "- Stack Massimi: 1\n- Se il bersaglio ha 5+ effetti negativi, Potenza Scontro +1, infliggi +10% danni",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RetreatForCommon",
-      "name": "Battlefield Retreat",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of PV and PS this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 PS when retreating, reset PS to 0 instead)",
+      "name": "Ritirata Dal Campo di Battaglia",
+      "desc": "- Alla fine del turno: Guarisci dal Vacillare e ritirati dall'incontro (non ha effettoi su un vacillamento forzato; non conta come morte)\n· Nelle battaglie a catena, dà gli slot di quest'unità all'unità che entra e viene spostata in fondo nell'ordine di schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla ritirata, torna in battaglia con 0)",
       "summary": "",
       "undefined": "-"
      },
@@ -2618,71 +2618,71 @@
     },
     {
       "id": "BulletPropellantAlly",
-      "name": "Tigermark Round",
-      "desc": "- Unique Ammo\n- At 8+ (cumulative sum of Tigermark Rounds and Savage Tigermark Rounds spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive\n- Cumulative Rounds spent: {0}\n- Max Capacity: 12",
+      "name": "Proiettili Tigre",
+      "desc": "- Munizione Unica\n- A 8+ (Somma totale di Proiettili Tigre e Proiettili Tigre Selvaggi spesi), ottieni Spirito Implacabile - Shin [剛氣-心] al posto di Spirito Implacabile [剛氣] dalla passiva di questa Unità\n- Proiettili totali spesi: {0}\n-Capacità Massima: 12",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BulletPropellantSpecialAlly",
-      "name": "Savage Tigermark Round",
-      "desc": "- Unique Ammo\n- At 8+ (cumulative sum of Tigermark Rounds and Savage Tigermark Rounds spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive\n- Cumulative Rounds spent: {0}\n- Actives the same way as Tigermark Round does\n- Max Capacity: 8",
+      "name": "Proiettili Tigre Selvaggi",
+      "desc": "- Munizione Unica\n-A 8+ (Somma totale di Proiettili Tigre e Proiettili Tigre Selvaggi spesi), ottieni Spirito Implacabile - Shin [剛氣-心] al posto di Spirito Implacabile [剛氣] dalla passiva di questa Unità\n- Proiettili totali spesi: {0} \n- Si attivano allo stesso modo dei Proiettili Tigre\n- Cpacità massima: 8",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IrritationAlly",
-      "name": "Unrelenting Spirit [剛氣]",
-      "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency and Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round and Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [剛氣-心] next turn\n- Stack Max: 1",
+      "name": "Spirito Implacabile [剛氣]",
+      "desc": "- Velocità minima e massima +1\n- Se questa unnità è più veloce di almeno 3 punti rispetto all'avversario, infliggi +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infliggi +1 Potenza e Conteggio di Vibrazione con le abilità di questa Unità\n- Se questa unità ha speso 8+ (somma di Proiettili Tigre e Proiettili Tigre Selvaggi): alla fine del turno, converti questo buff in Spirito Implacabile - Shin [剛氣-心] al prossimo turno\n- Stack Massimo: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
-      "name": "Unrelenting Spirit - Shin [剛氣-心]",
-      "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency and Tremor Count with this unit's Skills\n- Stack Max: 1",
+      "name": "Spirito Implacabile - Shin [剛氣-心]",
+      "desc": "- Velocità minima e massima +3\n- Se questa unnità è più veloce di almeno 3 punti rispetto all'avversario, infliggi +(Differenza di Velocità x 5)% danni (massimo 40%)\n- Infliggi +2 Potenza e Conteggio di vibrazione con le abilità di questa unità\n- Stack Massimo: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BeastEyesAlly",
-      "name": "Overheat",
-      "desc": "- Loses this effect when this unit gains Savage Tigermark Round\n- Min & Max Speed +2\n- Base Attack Skills Lose (cumulative number of Tigermark & Savage Tigermark Rounds spent / 2) Clash Power (max 10); however, gain the following effects(cumulative):\n· Cumulative Rounds spent: {0}\n· 8+ Rounds spent: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n· 14+ Rounds spent: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n· 20+ Rounds Spent: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
+      "name": "Surriscaldamento",
+      "desc": "- Perdi questo effetto quando questa unità ottiene Proiettili Tigre Selvaggi\n- Velocità minima e massima +2\n- Le abilità base di questa unità perdono (numero totale di Proiettili Tigre e Proiettili Tigre Selvaggi / 2) Potenza Scontro (max 10); Tuttavia, ottieni i seguenti effetti(cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottieni 1 Mitigazione per ogni 10% di HP mancanti a inizio turnio (max 5)\n· 14+ Proiettili Spesi: Quando perdi uno scontro, Le monete infrangibili sulle abilità base di qiesto personaggio infliggono +(75 + percentuale di HP mancanti)% danni (max 150%)\n· 20+ proiettili Spesi: infliggi +(differenza HP in percentuale)% danni contro obbiettivi che hnno una percentuale di HP rimanenti più alta di questa unità (max 50%; Abilità E.G.O Escluse)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RoseThorn",
-      "name": "Gluttonous Thorn (貪食棘)",
-      "desc": "Stack Max: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then lose 1 Gluttonous Thorn (貪食棘). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Defense Level Down next turn equal to Bloodfeast increased (max Defense Level Down gain: 5)",
+      "name": "Spina Ingorda (貪食棘)",
+      "desc": "Stack Massimi: 9\n\nAlla fine del turnio: Ottieni conteggio di Sanguinamento pari alla Risonanza Lussuria, poi perdi 1 Spina Ingorda (貪食棘). (Massimo Conteggio di Sangionamento Ottenibile: 5)\n\nQuando Questa Unità possiede questo effetto, se ottiene una Potenza di Sanguiamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottieni Calo Difensivo nil prossimo turno pari all'aumento di Banchetto di Sangue (masimo Calo Difensivo ottenibile: 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FellBulletPersonality",
-      "name": "Fell Bullet",
-      "desc": "Stack Max: 1\n+3% damage on Critical Hit for every Torn Memory (max 18%)\nOn Hit, inflict 1 Bleed (3 per turn)\nOn Kill, gain 3 Poise and +2 Poise Count (2 times per turn)\nExpires at Turn End",
+      "name": "Proiettile Crudele",
+      "desc": "Stack Massimo: 1\n+3% danno critico per Memorie Lacerate(max 18%)\nSu Colpo, infliggi 1 Sanguinamento (3 per turno)\n Su Uccisione, guadagna 3 Respiro e +2 Conteggio di Respiro (2 volte per turno)\nScade alla fine del turno",
       "summary": "Deal more Crit damage, inflict more Bleed",
       "undefined": "-"
     },
     {
       "id": "ChoSuperCharge",
-      "name": "Near-light Superbattery",
-      "desc": "- Stack Max: 100\n- When consuming Charge Count, add the amount consumed to this buff's Stack\n- Max Charge Count Cap +10\n- Gain 1 Charge Count when allies gain Charge Potency or Count\n- When this unit consumes Charge Count with its Skills, consume the same amount of Charge Count 1 more time (when there isn't enough Charge Count, consume as much as available)\n- Deal +10% damage for every 10 Stack\n- Enemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (max +0.5 Resist; does not activate against Staggered enemies)\n- When the Identity with this effect dies, the buff transfers to the ally who is second earliest to this unit in the Deployment order. The Stack carries over as well.\n- This effect works on 'Unique Charge' as well.",
+      "name": "Superbatteria Semi Luminescente",
+      "desc": "- Stack Massimi: 100\n- Quando Consumi Conteggio di Carica, aggiungi la quantità consumata alle stack di questo effetto\n- limite Conteggio Massimo Carica +10\n- Ottieni 1 Conteggio di Carica quando gli alleati ottengono Potenza o Conteggio di Carica\n- Quando Questa unità consuma Carica, consuma lo stesso numero di Conteggio di Carica un altra volta (Quando non è abbastanza, consuma tutta quella disponibilee)\n- infliggi +10% danni in più per ogni 10 Carica Consumata\n- i nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità ogni 20 stack (max +0.5 Resistenza; non si attiva quando il nemico vacilla)\n- Quando l'identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'ordine di schieramento. Gli stack vengono trasferiti a loro volta.\n- Questo effetto funziona pure con gli effeti di 'Carica Unica' .",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ShareCharge",
-      "name": "Self Resonance Circuitry",
-      "desc": "Total sum of Charge Count currently owned by all allies\n\nCumulative Charge Count consumed by allies: {0}\n\nOn Hit with a Skill: deal +(sum of charge count on all allies / 3)% damage\nAll allies gain 1 Offense Level Up for every 100 cumulative Charge Count consumed by allies",
+      "name": "Circuito a Risonanza Autonoma",
+      "desc": "Somma totale del Conteggio di Carica di tutti gli Alleati\n\nConteggio di Carica Totale Speso Dagli Alleati: {0}\n\nSu Colpo con una abilità: infliggi +(somma totale di Conteggio di Carica degli alleati / 3)% danni\nTutti gli alleati Ottengono 1 Aumento Offensivo per ogni 100 Conteggio di Carica Cumulativo consumato dagli alleati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WaveSinking",
-      "name": "Reflux",
-      "desc": "- Stack Max: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for units without SP, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack",
+      "name": "Riflusso",
+      "desc": "- Stack Massime: 3\nQuando Colpito, ottieni Potenza di Pianto pari agli stack\n\nAlla fine del turno: Se questa unità ha -30 o meno SP, attiva i seguenti effetti (per unità senza SP, si attiva a 60+ Potenza di Pianto)\n- Subisci (Potenza Pianto sull'unità x Stack) Danno da Tristezza\n- Infliggi 1 Riflusso contro 2 altri bersagli con meno SP (per le Anoralità si applica alle parti);poi, infliggi (Potenza Pianto x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisci gli stack di Riflusso all'alleato con il maggior numero di Stack di Rflusso",
       "summary": "",
       "undefined": "-"
     }
