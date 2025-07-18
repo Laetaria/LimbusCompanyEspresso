@@ -92,7 +92,7 @@
     },
     {
       "id": "VillainMark",
-      "name": "Marchio di Cattiveria",
+      "name": "Marchio del Cattivo",
       "desc": "- Subisce +10% danni da Don Quixote\n\n- Si applica solo al primo bersaglio che subisce quell'effetto questo turno",
       "summary": ""
     },
@@ -122,43 +122,43 @@
     },
     {
       "id": "ProtectiveSword",
-      "name": "Protecting Sword",
+      "name": "Spada Protettiva",
       "desc": "- Inizio Turno: ottiene 1 Aumento Difensivo per ogni Stack (max 5)\n- Inizio Turno: +(Stack x 3) Provocazione sullo Slot Abilità più a sinistra sul Pannello di Controllo (max 15)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
       "summary": ""
     },
     {
       "id": "DespairAlly",
       "name": "Disperazione",
-      "desc": "- Inizio Turno: ottiene 1 Piercing Sword per ogni -8 PS (max 5)\n- A Fine Scontro, infligge +1 Conteggio Pianto (una volta per turno)\n- Sul Colpo con la prima moneta di un'Abilità di Attacco di Base, infligge +1 Conteggio Pianto (una volta per turno)\n- per ogni -20 PS, infligge +1 more Conteggio Pianto con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità di Base di questa unità con Abilità con Monete Negative",
+      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni -8 PS (max 5)\n- A Fine Scontro, infligge +1 Conteggio Pianto (una volta per turno)\n- Sul Colpo con la prima moneta di un'Abilità di Attacco di Base, infligge +1 Conteggio Pianto (una volta per turno)\n- per ogni -20 PS, infligge +1 more Conteggio Pianto con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità di Base di questa unità con Abilità con Monete Negative",
       "summary": ""
     },
     {
       "id": "PenetratingSword",
-      "name": "Piercing Sword",
-      "desc": "- Inizio Turno: ottiene 1 Offense Level Up per ogni Stack (max 5)\n- Inizio Turno: -(Stack x 0.15) Provocazione to all Skill Slots on the Dashboard (max 0.75)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
+      "name": "Spada Perforante",
+      "desc": "- Inizio Turno: ottiene 1 Aumento Offensivo per ogni Stack (max 5)\n- Inizio Turno: -(Stack x 0.15) Provocazione a tutti gli Slot Abilità sul Pannello di Controllo (max 0.75)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
       "summary": ""
     },
     {
       "id": "SwordCutwithTear",
-      "name": "Tear-sharpened",
-      "desc": "- Inizio Turno: ottiene 5 Deep Tears\n· a 3 Stack, ottiene altre 5 Deep Tears\n- Fine Turno: perde (Stack x 15) PS\n- Le Abilità di Attacco di Base infliggono +(Stack x 10)% danni (max 30%)\n- Se questa unità ha Benedizione, ottiene Potere di Scontro Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Se questa unità ha Disperazione, ottiene Potenziamento Perforante pari alle Stack dell'effetto a Inizio Turno\n- Max Stack: 3",
+      "name": "Lacrime Taglienti",
+      "desc": "- Inizio Turno: ottiene 5 Lacrime Intense\n· a 3 Stack, ottiene altre 5 Deep Tears\n- Fine Turno: perde (Stack x 15) PS\n- Le Abilità di Attacco di Base infliggono +(Stack x 10)% danni (max 30%)\n- Se questa unità ha Benedizione, ottiene Potere di Scontro Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Se questa unità ha Disperazione, ottiene Potenziamento Perforante pari alle Stack dell'effetto a Inizio Turno\n- Max Stack: 3",
       "summary": ""
     },
     {
       "id": "BlackTearsAlly",
-      "name": "Deep Tears",
+      "name": "Lacrime Intense",
       "desc": "- Carica Speciale (Potenza fissa)\n- Risorsa usata da alcune abilità per effetti aggiuntivi\n- Max Stack: 20",
       "summary": ""
     },
     {
       "id": "KnightBless",
       "name": "Benedizione",
-      "desc": "- Inizio Turno: ottiene 2 Mitigazione\n- Cambia qualunque Resistenza a Tipo di Attacco maggiore di 1 a 1 (se non Vacillante)",
+      "desc": "- Inizio Turno: ottiene 2 Mitigazione\n- Cambia le Resistenze ai tipi di Attacco maggiore di 1 a 1 (se non Vacilla)",
       "summary": ""
     },
     {
       "id": "TraumaShield",
-      "name": "Trauma Shield",
+      "name": "Scudo Anti-Trauma",
       "desc": "- Riduce i danni ai PS dai nemici dell' 80%\n- Reduce i danni da Pianto subiti dell'80%\n- Si riduce di 1 a Fine Turno",
       "summary": ""
     }
