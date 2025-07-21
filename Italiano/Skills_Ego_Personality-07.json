@@ -394,7 +394,7 @@
           "level": 1,
           "name": "Inerzia Asimmetrica",
           "abName": "Tempo-a-molla Sempreinpiedi",
-          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Conteggio [Vibration] (max 6, 20 per turno)\n- Se la Rison. era Accidia, attiva [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Conteggio [Vibration] (max 6, 20 per turno)\n- Se la Rison. era Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -412,7 +412,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando attiva [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era una 4+ Rison-A Accidia, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era una 4+ Rison-A Accidia, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
                 }
               ]
             }
@@ -422,7 +422,7 @@
           "level": 3,
           "name": "Inerzia Asimmetrica",
           "abName": "Tempo-a-molla Sempreinpiedi",
-          "desc": "[BeforeAttack] Ottiene (<style=\"highlight\">2 +</style> Rison. più alta) Conteggio [Vibration] (max <style=\"highlight\">8</style>, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, attiva [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "desc": "[BeforeAttack] Ottiene (<style=\"highlight\">2 +</style> Rison. più alta) Conteggio [Vibration] (max <style=\"highlight\">8</style>, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -440,7 +440,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando attiva [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">Rison-A Accidia</style>, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">Rison-A Accidia</style>, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
                 }
               ]
             }
@@ -450,7 +450,7 @@
           "level": 4,
           "name": "Inerzia Asimmetrica",
           "abName": "Tempo-a-molla Sempreinpiedi",
-          "desc": "[BeforeAttack] Ottiene (<style=\"highlight\">4 +</style> Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, attiva [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "desc": "[BeforeAttack] Ottiene (<style=\"highlight\">4 +</style> Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -468,7 +468,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando attiva [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">3+ Rison-A Accidia</style>, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">3+ Rison-A Accidia</style>, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
                 }
               ]
             }
@@ -483,7 +483,7 @@
           "level": 1,
           "name": "Inerzia Asimmetrica",
           "abName": "Tempo-a-molla Sempreinpiedi",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (2 + Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, attiva [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (2 + Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -504,7 +504,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando attiva [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era 4+ Rison-A Accidia, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era 4+ Rison-A Accidia, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
                 }
               ]
             }
@@ -514,7 +514,7 @@
           "level": 3,
           "name": "Inerzia Asimmetrica",
           "abName": "Tempo-a-molla Sempreinpiedi",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (<style=\"highlight\">4 +</style> Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, attiva [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (<style=\"highlight\">4 +</style> Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -535,7 +535,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando attiva [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">Rison-A Accidia</style>, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">Rison-A Accidia</style>, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
                 }
               ]
             }
@@ -545,7 +545,7 @@
           "level": 4,
           "name": "Inerzia Asimmetrica",
           "abName": "Tempo-a-molla Sempreinpiedi",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (4 + Rison. più alta) Conteggio [Vibration] (max <style=\"highlight\">10</style>, 20 per turn)\n- Se la Rison. più alta era Rison. Accidia, attiva [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (4 + Rison. più alta) Conteggio [Vibration] (max <style=\"highlight\">10</style>, 20 per turn)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -566,7 +566,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando attiva [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">3+ Rison. Accidia</style>, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">3+ Rison. Accidia</style>, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
                 }
               ]
             }
