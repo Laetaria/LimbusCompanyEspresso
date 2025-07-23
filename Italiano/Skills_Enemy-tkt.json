@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Via con Te",
+          "name": "Vattene",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -14,10 +14,10 @@
                   "desc": "[OnSucceedAttack] Ottiene Conteggio [Vibration] pari al Conteggio [Vibration] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Conteggio [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 Conteggio [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Schifose Catene dell'Orologio!",
-          "desc": "Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Innesca [Switch_Vibration] e converte [Vibration] su di sé in [VibrationDistribution]",
+          "desc": "Potere di Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Innesca [Switch_Vibration] e converte [Vibration] su di sé in [VibrationDistribution]",
           "coinlist": [
             {
               "coindescs": [
@@ -121,7 +121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene [Vibration] pari al [Vibration] sul bersaglio"
+                  "desc": "[OnSucceedAttack] Ottiene [Vibration] pari alla [Vibration] sul bersaglio"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
@@ -181,12 +181,12 @@
         {
           "level": 1,
           "name": "Vili Catene dell'Orologio!",
-          "desc": "Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Innesca [Switch_Vibration] e lo converte in [VibrationDistribution] pari al [Vibration] su di sé",
+          "desc": "Potere di Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Innesca [Switch_Vibration] in [VibrationDistribution] pari alla [Vibration] su di sé",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene [Vibration] pari al [Vibration] sul bersaglio"
+                  "desc": "[OnSucceedAttack] Ottiene [Vibration] pari alla [Vibration] sul bersaglio"
                 }
               ]
             },
@@ -306,7 +306,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Non Posso Usare Quest'Arma Adesso",
+          "name": "Non Posso Usare Quell'Arma Adesso",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -326,7 +326,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cambia [Switch_Vibration] in [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationCollapse]"
                 }
               ]
             }
@@ -386,8 +386,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Per il Bene SuperioreFor the Greater Good",
-          "desc": "[CantDuel]\n[StartBattle] Ottiene tutto il Conteggio [Vibration] degli altri alleati su di sé; il [Vibration] su tutti gli altri alleati scade\n[StartBattle] Ottiene 1 [AttackUp] per ogni 3 conteggio [Vibration] su di sé\n[WhenUse] Ottiene 9 Conteggio [Vibration]",
+          "name": "Per il Bene Superiore",
+          "desc": "[CantDuel]\n[StartBattle] Attira tutto il Conteggio [Vibration] degli altri alleati su di sé; il [Vibration] su tutti gli altri alleati scade\n[StartBattle] Ottiene 1 [AttackUp] per ogni 3 Conteggio [Vibration] su di sé\n[WhenUse] Ottiene 9 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -431,7 +431,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Raccolta Passo-passo",
+          "name": "Ispezione per la Raccolta",
           "desc": "[WhenUse] Ottiene +1 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -461,7 +461,7 @@
         {
           "level": 1,
           "name": "Per Favore, Fermati.",
-          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 4+ Conteggio [Vibration], Potere Scontro +1",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 4+ Conteggio [Vibration], Potere di Scontro +1",
           "coinlist": [
             {
               "coindescs": [
@@ -495,8 +495,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Riscossione Effettiva.",
-          "desc": "[WhenUse] Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] A 5+ Conteggio [Vibration], infligge +10% danni per ogni Conteggio [Vibration]. (max 100%)\n[EndSkill] Consuma tutto il Conteggio [Vibration] su di sé",
+          "name": "Riscossione Imposta.",
+          "desc": "[WhenUse] Potere di Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] A 5+ Conteggio [Vibration], infligge +10% danni per ogni Conteggio [Vibration]. (max 100%)\n[EndSkill] Consuma tutto il Conteggio [Vibration] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -533,7 +533,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 4+ Conteggio [Vibration], cambia [Switch_Vibration] in [VibrationChain]"
+                  "desc": "[OnSucceedAttack] A 4+ Conteggio [Vibration], innesca [Switch_Vibration] in [VibrationChain]"
                 }
               ]
             }
@@ -546,7 +546,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tempo Preso in Prestito",
+          "name": "Prendi-Tempo",
           "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] ed ottiene +3 Conteggio [TimeRentalTwo]",
           "coinlist": [
             {
@@ -587,7 +587,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Amputatore Velocizzato della T Corp.",
+          "name": "Amputatore Accelerato della T Corp.",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -623,22 +623,22 @@
         {
           "level": 1,
           "name": "Il Tuo Orologio, Prego.",
-          "desc": "[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1\n[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WinDuel] Consuma 3 Conteggio [Vibration] su di sé Count on self and gain +1 [TimeRentalTwo] Count",
+          "desc": "[WhenUse] A 5+ Conteggio [Vibration], Potere di Scontro +1\n[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WinDuel] Consuma 3 Conteggio [Vibration] su di sé e ottiene +1 Conteggio [TimeRentalTwo]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Switch_Vibration] into [VibrationChain]"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio [Vibration], innesca [Switch_Vibration] in [VibrationChain]"
                 }
               ]
             }
@@ -651,37 +651,37 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Enforcing Collections.",
-          "desc": "[WhenUse] Gain +3 [Vibration] Count\n[WhenUse] Base Power +1 for every 4 [Vibration] Count on self (max 3)\n[WinDuel] Consume 5 [Vibration] Count on self and gain +3 [TimeRentalTwo] Count",
+          "name": "Riscossione Imposta.",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]\n[WhenUse] Potere Base +1 per ogni 4 Conteggio [Vibration] su di sé (max 3)\n[WinDuel] Consuma 5 Conteggio [Vibration] su di sé e ottiene +3 Conteggio [TimeRentalTwo]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict 1 Fragile"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere 1 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere +3 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict 8 [Vibration]"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere 8 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] Count on self to trigger [VibrationExplosion]; then, reuse this Coin (1 time max)"
+                  "desc": "[OnSucceedAttack] Consuma 2 Conteggio [Vibration] su di sé per innescare [VibrationExplosion]; infine, riusa questa Moneta (1 volta max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 5 [Vibration] Count on self to inflict 2 [TimeAccumulation]"
+                  "desc": "[OnSucceedAttack] Consuma 5 Conteggio [Vibration] su di sé per infliggere 2 [TimeAccumulation]"
                 }
               ]
             }
@@ -694,8 +694,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Borrow Time",
-          "desc": "[StartBattle] Consume 4 [Vibration] Count and gain +3 [TimeRentalTwo] Count\n[StartBattle] Gain +2 [Vibration] Count",
+          "name": "Prendi-Tempo",
+          "desc": "[StartBattle] Consuma 4 Conteggio [Vibration] e ottiene +3 Conteggio [TimeRentalTwo]\n[StartBattle] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -713,16 +713,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prepare To Collect",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "name": "Preparati a Riscuotere",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 3+ [Vibration] Count, inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] A 3+ Conteggio [Vibration], inflict 3 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -735,23 +735,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "T Corp. Time Snare",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "name": "Laccio Temporale della T.Corp",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict 2 [Paralysis] next turn. Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere 2 [Paralysis] il turno successivo. Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict 2 [Paralysis] next turn. Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere 2 [Paralysis] il turno successivo. Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -764,20 +764,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stand Still.",
-          "desc": "[WhenUse] At 5+ [Vibration] Count, Clash Power +1\n[WhenUse] Gain +2 [Vibration] Count\n[WinDuel] Consume 3 [Vibration] Count on self and gain +1 [TimeRentalTwo] Count",
+          "name": "Fermati.",
+          "desc": "[WhenUse] A 5+ Conteggio [Vibration], Potere di Scontro +1\n[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WinDuel] Consuma 3 Conteggio [Vibration] su di sé e ottiene +1 Conteggio [TimeRentalTwo]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] Count on self to inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Consuma 2 Conteggio [Vibration] su di sé per infliggere 2 [Binding] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] Count on self to inflict 2 [ParryingResultDown] next turn"
+                  "desc": "[OnSucceedAttack] Consuma 2 Conteggio [Vibration] su di sé per infliggere 2 [ParryingResultDown] il turno successivo"
                 }
               ]
             }
@@ -790,37 +790,37 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Enforcing Collections.",
-          "desc": "[WhenUse] Gain +3 [Vibration] Count\n[WhenUse] Base Power +1 for every 4 [Vibration] Count on self (max 3)\n[WinDuel] Consume 5 [Vibration] Count on self and gain +3 [TimeRentalTwo] Count",
+          "name": "Riscossione Imposta.",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]\n[WhenUse] Potere Base +1 per ogni 4 Conteggio [Vibration] su di sé (max 3)\n[WinDuel] Consuma 5 Conteggio [Vibration] su di sé e ottiene +3 Conteggio [TimeRentalTwo]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict 1 Fragile"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere 1 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere +3 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self to inflict 8 [Vibration]"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé per infliggere 8 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] Count on self to trigger [VibrationExplosion]; then, reuse this Coin (1 time max)"
+                  "desc": "[OnSucceedAttack] Consuma 2 Conteggio [Vibration] su di sé per innescare [VibrationExplosion]; infine, riusa questa Moneta (1 volta max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 5 [Vibration] Count on self to inflict 2 [TimeAccumulation]"
+                  "desc": "[OnSucceedAttack] Consuma 5 Conteggio [Vibration] su di sé per infliggere 2 [TimeAccumulation]"
                 }
               ]
             }
@@ -833,8 +833,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Borrow Time",
-          "desc": "[StartBattle] Consume 4 [Vibration] Count and gain +3 [TimeRentalTwo] Count\n[StartBattle] Gain +2 [Vibration] Count",
+          "name": "Prendi-Tempo",
+          "desc": "[StartBattle] Consuma 4 Conteggio [Vibration] e ottiene +3 Conteggio [TimeRentalTwo]\n[StartBattle] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
