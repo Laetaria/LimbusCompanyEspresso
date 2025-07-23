@@ -30,14 +30,14 @@
     {
       "id": "VibrationChain",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando viene colpito da un'Abilità che attiva Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
-      "summary": "Perde 1 Potere di Scontro per ogni 10 Potenza Vibrazione su sé\nAlza la Soglia di Vacillamento di {0}",
+      "desc": "- Perde 1 Potere Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando viene colpito da un'Abilità che attiva Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "summary": "Perde 1 Potere Scontro per ogni 10 Potenza Vibrazione su sé\nAlza la Soglia di Vacillamento di {0}",
       "undefined": "-"
     },
     {
       "id": "TimeRentalTwo",
       "name": "Tempo in Prestito di T Corp.",
-      "desc": "A Fine Turno:\n- Ottiene {1} Rapidità, Potere di Scontro Aumentato, e Vulnerabilità il turno successivo.\n- A 1 Conteggio, ottiene invece {0} Lentezza il turno successivo.\n- Ottiene 1 Stack e perde 1 Conteggio\n- Se quest'unità ha più Lentezza che Rapidità, l'effetto del Tempo in Prestito termina e quest'unità Vacilla.",
+      "desc": "A Fine Turno:\n- Ottiene {1} Rapidità, Potere Scontro Aumentato, e Vulnerabilità il turno successivo.\n- A 1 Conteggio, ottiene invece {0} Lentezza il turno successivo.\n- Ottiene 1 Stack e perde 1 Conteggio\n- Se quest'unità ha più Lentezza che Rapidità, l'effetto del Tempo in Prestito termina e quest'unità Vacilla.",
       "summary": "",
       "undefined": "-"
     },
@@ -50,16 +50,16 @@
     },
     {
       "id": "ParryingResultDown",
-      "name": "Potere di Scontro Ridotto",
-      "desc": "In uno Scontro, perde Potere di Scontro pari al valore dell'effetto",
+      "name": "Potere Scontro Ridotto",
+      "desc": "In uno Scontro, perde Potere Scontro pari al valore dell'effetto",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultUp",
-      "name": "Potere di Scontro Aumentato",
-      "desc": "In uno Scontro, ottiene Potere di Scontro pari al valore dell'effetto",
-      "summary": "In uno Scontro, ottiene Potere di Scontro pari al valore dell'effetto",
+      "name": "Potere Scontro Aumentato",
+      "desc": "In uno Scontro, ottiene Potere Scontro pari al valore dell'effetto",
+      "summary": "In uno Scontro, ottiene Potere Scontro pari al valore dell'effetto",
       "undefined": "-"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "id": "TimeKillerWatch",
-      "name": "Bersaglio Temporale",
+      "name": "Vittima Temporale",
       "desc": "Bersaglio dello Squartatempo mentre Accelerazione Temporale è attiva.",
       "summary": "",
       "undefined": "-"

@@ -29,15 +29,15 @@
     {
       "id": 9734,
       "name": "Daga Dimensionale di Tipo E",
-      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Carica Speciale' ottiene Potere di Scontro +1 ed infligge +5% danno.\n\nSe l'Abilità 1 in questione ha una sola moneta, ottiene invece Potere di Scontro +1 ed infligge +12.5% danni.\n\nSe un'Identità della W Corp. ha inflitto danno utilizzando un'Abilità Invidia (E.G.O inclusi), essa infligge anche 2 Cure PV Ridotte. (non si accumula)",
+      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Carica Speciale' ottiene Potere Scontro +1 ed infligge +5% danno.\n\nSe l'Abilità 1 in questione ha una sola moneta, ottiene invece Potere Scontro +1 ed infligge +12.5% danni.\n\nSe un'Identità della W Corp. ha inflitto danno utilizzando un'Abilità Invidia (E.G.O inclusi), essa infligge anche 2 Cure PV Ridotte. (non si accumula)",
       "simpleDesc": [
         {
           "abilityID": 9734,
-          "simpleDesc": "L'Abilità 1 ottiene Potere di Scontro e più danno"
+          "simpleDesc": "L'Abilità 1 ottiene Potere Scontro e più danno"
         },
         {
           "abilityID": 97341,
-          "simpleDesc": "L'Abilità 1 ottiene Potere di Scontro e più danno"
+          "simpleDesc": "L'Abilità 1 ottiene Potere Scontro e più danno"
         },
         {
           "abilityID": 97342,
@@ -48,11 +48,11 @@
     {
       "id": 9735,
       "name": "Batteria per Barriera Portatile",
-      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Carica Speciale' ottiene Potere di Scontro +1.\n\nQuando si utilizza un'Abilità 1 che genera Conteggio [Charge], guadagna invece +2 Conteggio [Charge] ed 1 [ChargeForceField]. (una volta per turno)\n\nSe un'Identità della W Corp. subisce danni ai PV per via di qualsiasi effetto eccetto danni diretti, essa guadanga 5 [ChargeForceField]. (una volta per turno)",
+      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Carica Speciale' ottiene Potere Scontro +1.\n\nQuando si utilizza un'Abilità 1 che genera Conteggio [Charge], guadagna invece +2 Conteggio [Charge] ed 1 [ChargeForceField]. (una volta per turno)\n\nSe un'Identità della W Corp. subisce danni ai PV per via di qualsiasi effetto eccetto danni diretti, essa guadanga 5 [ChargeForceField]. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9735,
-          "simpleDesc": "L'Abilità 1 ottiene Potere di Scontro, Conteggio Carica e Scudo Energetico"
+          "simpleDesc": "L'Abilità 1 ottiene Potere Scontro, Conteggio Carica e Scudo Energetico"
         },
         {
           "abilityID": 97351,
@@ -142,7 +142,7 @@
     {
       "id": 9741,
       "name": "Batteria Sovraccarica",
-      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permette di ottenere Conteggio [Charge] o 'Carica Speciale'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nLe Abilità Base che consumano Conteggio [Charge] o 'Carica Speciale': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Speciale' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Carica Speciale' prendono parte agli Scontri con Abilità Attacco base: Potere di Scontro +2; ottengono +3 Conteggio [Charge] vincendo Scontri, e perdono 6 Conteggio [Charge] perdendo Scontri.\n\nQuando viene vinto uno Scontro utilizzando un'Abilità Attacco base con Affinità Invidia, infligge 1 [VioletTakeDamageUp]. (si accumula fino a 3 volte)",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permette di ottenere Conteggio [Charge] o 'Carica Speciale'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nLe Abilità Base che consumano Conteggio [Charge] o 'Carica Speciale': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Speciale' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Carica Speciale' prendono parte agli Scontri con Abilità Attacco base: Potere Scontro +2; ottengono +3 Conteggio [Charge] vincendo Scontri, e perdono 6 Conteggio [Charge] perdendo Scontri.\n\nQuando viene vinto uno Scontro utilizzando un'Abilità Attacco base con Affinità Invidia, infligge 1 [VioletTakeDamageUp]. (si accumula fino a 3 volte)",
       "simpleDesc": [
         {
           "abilityID": 9741,
@@ -150,7 +150,7 @@
         },
         {
           "abilityID": 97411,
-          "simpleDesc": "Ottiene Potere di Scontro; ottiene Conteggio Carica vincendo Scontri, perde Conteggio perdendo Scontri"
+          "simpleDesc": "Ottiene Potere Scontro; ottiene Conteggio Carica vincendo Scontri, perde Conteggio perdendo Scontri"
         },
         {
           "abilityID": 97412,
@@ -161,7 +161,7 @@
     {
       "id": 9742,
       "name": "Generatore Perpetuo Cibernetico",
-      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permettono di ottenere Conteggio [Charge] o 'Carica Speciale'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nAbilità Base che consumano Conteggio [Charge] o 'Carica Speciale': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Speciale' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Carica Speciale' prendono parte a Scontri con Abilità Attacco base: Potere di Scontro +1; ottengono 2 [AttackUp] all'Inizio del Turno per ogni volta che è stato vinto uno Scontro durante questo Incontro. (max 6)\n\nSe durante l'Incontro un alleato subisce danni che lo ucciderebbero, consuma tutto il Conteggio [Charge] e 'Carica Speciale' che possiede; dopodiché si cura del (10 + somma Conteggio [Charge] e 'Carica Speciale' consumati)%  PV (una volta per Incontro); successivamente, ottiene 3 [Protection] finquando non viene sconfitto.",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che permettono di ottenere Conteggio [Charge] o 'Carica Speciale'. (Abilità E.G.O escluse, vale solo per le Identità sul campo all'Inizio dell'Incontro)\n\nAbilità Base che consumano Conteggio [Charge] o 'Carica Speciale': ottengono Potenziamento Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Carica Speciale' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Carica Speciale' prendono parte a Scontri con Abilità Attacco base: Potere Scontro +1; ottengono 2 [AttackUp] all'Inizio del Turno per ogni volta che è stato vinto uno Scontro durante questo Incontro. (max 6)\n\nSe durante l'Incontro un alleato subisce danni che lo ucciderebbero, consuma tutto il Conteggio [Charge] e 'Carica Speciale' che possiede; dopodiché si cura del (10 + somma Conteggio [Charge] e 'Carica Speciale' consumati)%  PV (una volta per Incontro); successivamente, ottiene 3 [Protection] finquando non viene sconfitto.",
       "simpleDesc": [
         {
           "abilityID": 9742,
@@ -169,7 +169,7 @@
         },
         {
           "abilityID": 97421,
-          "simpleDesc": "Ottiene Potere di Scontro ed Aumento Offensivo"
+          "simpleDesc": "Ottiene Potere Scontro ed Aumento Offensivo"
         },
         {
           "abilityID": 97422,
