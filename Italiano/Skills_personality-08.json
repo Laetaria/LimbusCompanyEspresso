@@ -343,7 +343,7 @@
         {
           "level": 4,
           "name": "Pursue Them to the End!",
-          "desc": "[StartBattle] Applica 3 Offense Level Up a 2 alleati adiacenti a questa unità sul Pannello di Controllo\n[WhenUse] Ogni Rison. della Rison. più alta aggiunge 20% di probabilità che questa unità ordini all'alleato alla sua immediata destra(sul Pannello di Controllo) di usare [CoverAttack] questo turno.\n- A 4+ Rison-A più alta, applica 2 [AttackDmgUp] all'alleato\n- A 4+ Rison-A Superbia, applica anche 2 [IndigoResultUp]",
+          "desc": "[StartBattle] Applica 3 [AttackUp] a 2 alleati adiacenti a questa unità sul Pannello di Controllo\n[WhenUse] Ogni Rison. della Rison. più alta aggiunge 20% di probabilità che questa unità ordini all'alleato alla sua immediata destra(sul Pannello di Controllo) di usare [CoverAttack] questo turno.\n- A 4+ Rison-A più alta, applica 2 [AttackDmgUp] all'alleato\n- A 4+ Rison-A Superbia, applica anche 2 [IndigoResultUp]",
           "coinlist": [
             {},
             {
@@ -895,7 +895,7 @@
         {
           "level": 3,
           "name": "Ward",
-          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 3)\n[WhenUse] If questa unità è in [DefensiveStance], infligge +50% danni\n[WhenUse] Potere Moneta +1 per ogni 4 [DefenseUp] su di sé (max 2)\n[WhenUse] Ottiene +8 [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 3)\n[WhenUse] Se questa unità è in [DefensiveStance], infligge +50% danni\n[WhenUse] Potere Moneta +1 per ogni 4 [DefenseUp] su di sé (max 2)\n[WhenUse] Ottiene +8 [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -920,7 +920,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If questa unità è in [DefensiveStance], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Se questa unità è in [DefensiveStance], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -929,7 +929,7 @@
         {
           "level": 4,
           "name": "Ward",
-          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max <style=\"highlight\">5</style>)\n[WhenUse] If questa unità è in [DefensiveStance], infligge +<style=\"highlight\">70</style>% danni\n[WhenUse] Potere Moneta +1 per ogni 4 [DefenseUp] su di sé (max <style=\"highlight\">4</style>)\n[WhenUse] Ottiene +<style=\"highlight\">10</style> [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max <style=\"highlight\">5</style>)\n[WhenUse] Se questa unità è in [DefensiveStance], infligge +<style=\"highlight\">70</style>% danni\n[WhenUse] Potere Moneta +1 per ogni 4 [DefenseUp] su di sé (max <style=\"highlight\">4</style>)\n[WhenUse] Ottiene +<style=\"highlight\">10</style> [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -954,7 +954,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If questa unità è in [DefensiveStance], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Se questa unità è in [DefensiveStance], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
