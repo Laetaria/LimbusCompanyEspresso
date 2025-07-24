@@ -432,7 +432,7 @@
         {
           "level": 1,
           "name": "Expend Knowledge",
-          "desc": "[WhenUse] Scarta 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità",
+          "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità",
           "coinlist": [
             {
               "coindescs": [
@@ -446,7 +446,7 @@
         {
           "level": 2,
           "name": "Expend Knowledge",
-          "desc": "[WhenUse] Scarta 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] A 3+ [KnowledgeExplored], Potere Scontro +1",
+          "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] A 3+ [KnowledgeExplored], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
@@ -463,7 +463,7 @@
         {
           "level": 4,
           "name": "Expend Knowledge",
-          "desc": "[WhenUse] Scarta 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] Potere Scontro +([KnowledgeExplored] - 1)",
+          "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] Potere Scontro +([KnowledgeExplored] - 1)",
           "coinlist": [
             {
               "coindescs": [
@@ -485,7 +485,7 @@
         {
           "level": 1,
           "name": "Unveil",
-          "desc": "[WhenUse] Scarta casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
+          "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
           "coinlist": [
             {},
             {},
@@ -501,7 +501,7 @@
         {
           "level": 2,
           "name": "Unveil",
-          "desc": "[WhenUse] Scarta casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n[WhenUse] A 3+ [KnowledgeExplored], Potere Moneta +1",
+          "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n[WhenUse] A 3+ [KnowledgeExplored], Potere Moneta +1",
           "coinlist": [
             {},
             {},
@@ -517,7 +517,7 @@
         {
           "level": 4,
           "name": "Unveil",
-          "desc": "[WhenUse] Scarta casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n[WhenUse] Potere Moneta +([KnowledgeExplored] - 1)",
+          "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n[WhenUse] Potere Moneta +([KnowledgeExplored] - 1)",
           "coinlist": [
             {},
             {},
@@ -581,7 +581,7 @@
         {
           "level": 1,
           "name": "Guiding Steps",
-          "desc": "[WhenUse] Scarta casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
+          "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
           "coinlist": [
             {}
           ]
@@ -589,7 +589,7 @@
         {
           "level": 4,
           "name": "Guiding Steps",
-          "desc": "[WhenUse] Scarta casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
+          "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
           "coinlist": [
             {}
           ]
@@ -968,7 +968,7 @@
         {
           "level": 4,
           "name": "Bonecrusher",
-          "desc": "Se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst]; invece, ottiene Potere Moneta +1\n- Se il bersaglio è un <Bloodfiend> o <Bloodbag>, ottiene ancora Potere Moneta +1\n[WinDuel] Infligge +1 Conteggio [Burst]",
+          "desc": "Se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst]; invece, ottiene Potere Moneta +1\n- Se il bersaglio è un <Sanguimonio> o <Bloodbag>, ottiene ancora Potere Moneta +1\n[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1022,7 +1022,7 @@
         {
           "level": 4,
           "name": "A Cheerful Hunt's End",
-          "desc": "Se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst]; invece, ottiene Potere Moneta +1\n- Se il bersaglio è un <Bloodfiend> o <Bloodbag>, ottiene ancora Potere Moneta +1\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "desc": "Se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst]; invece, ottiene Potere Moneta +1\n- Se il bersaglio è un <Sanguimonio> o <Bloodbag>, ottiene ancora Potere Moneta +1\n[WinDuel] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
