@@ -1381,7 +1381,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la percentuale di PV più bassa di ([PenanceFirst]/3)% dei PV massimi di quell'unità"
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di ([PenanceFirst]/3)% dei PV massimi di quell'unità"
                 },
                 {
                   "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] - 10) PS (min 0)"
@@ -1418,7 +1418,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la percentuale di PV più bassa di ([PenanceFirst]/<style=\"highlight\">2</style>)% dei PV massimi di quell'unità"
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di ([PenanceFirst]/<style=\"highlight\">2</style>)% dei PV massimi di quell'unità"
                 },
                 {
                   "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] - 10) PS (min 0)<style=\"highlight\"></style>"
@@ -1498,7 +1498,7 @@
                   "desc": "Infligge +2.5% danni per ogni [RedEyeFirst] e [PenanceFirst] consumati (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la percentuale di PV più bassa di ([PenanceFirst] consumata / 2)% dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di ([PenanceFirst] consumata / 2)% dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] consumata - 10) PS\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
@@ -1529,7 +1529,7 @@
                   "desc": "Infligge <style=\"highlight\">+4%</style> more danni per ogni [RedEyeFirst] e [PenanceFirst] consumati (max <style=\"highlight\">160%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la percentuale di PV più bassa di <style=\"highlight\">([PenanceFirst] consumata)%</style> dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di <style=\"highlight\">([PenanceFirst] consumata)%</style> dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] consumata - <style=\"highlight\">5</style>) PS\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"

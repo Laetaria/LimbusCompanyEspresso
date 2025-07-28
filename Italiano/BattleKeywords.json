@@ -206,17 +206,17 @@
     {
       "id": "Vibration",
       "name": "Vibrazione",
-      "desc": "Quando viene colpito da un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza dell'effetto.\nAlla fine del turno, riduce il Conteggio di 1."
+      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza dell'effetto.\nAlla fine del turno, riduce il Conteggio di 1."
     },
     {
       "id": "Burst",
       "name": "Lacerazione",
-      "desc": "Quando viene colpito, subisce danni fissi in base alla Potenza dell'effetto.\nInfine, riduce il Conteggio di 1."
+      "desc": "Quando subisce un colpo, subisce danni fissi in base alla Potenza dell'effetto.\nInfine, riduce il Conteggio di 1."
     },
     {
       "id": "Sinking",
       "name": "Pianto",
-      "desc": "Quando viene colpito da un attacco, subisce danni fissi ai PS in base alla Potenza dell'effetto.\n(Le Unità senza Sanità subiscono invece danno da Tristezza.)\nInfine, riduce il Conteggio di 1."
+      "desc": "Quando subisce un colpo da un attacco, subisce danni fissi ai PS in base alla Potenza dell'effetto.\n(Le Unità senza Sanità subiscono invece danno da Tristezza.)\nInfine, riduce il Conteggio di 1."
     },
     {
       "id": "Breath",
@@ -241,7 +241,7 @@
     {
       "id": "Run_Panic",
       "name": "Oppressione",
-      "desc": "Non può agire per un turno. Quando viene colpito, scappa dalla battaglia dopo che l'Abilità dell'attaccante termina."
+      "desc": "Non può agire per un turno. Quando subisce un colpo, scappa dalla battaglia dopo che l'Abilità dell'attaccante termina."
     },
     {
       "id": "Operation",
@@ -1158,8 +1158,8 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Max Stack: 6\nSul Colpo, infligge Lacerazione in base alle Stack; Quando viene colpito, ottiene Lacerazione in base alle Stack\nA Fine Turno: A 6+ Stack, rimuove tutti i Talismani e subisce danno fisso in base alle Stack.",
-      "summary": "Infligge Lacerazione con gli attacchi ed ottiene Lacerazione quando viene colpito"
+      "desc": "Max Stack: 6\nSul Colpo, infligge Lacerazione in base alle Stack; Quando subisce un colpo, ottiene Lacerazione in base alle Stack\nA Fine Turno: A 6+ Stack, rimuove tutti i Talismani e subisce danno fisso in base alle Stack.",
+      "summary": "Infligge Lacerazione con gli attacchi ed ottiene Lacerazione quando subisce un colpo"
     },
     {
       "id": "Choice_90104001",
@@ -1364,13 +1364,13 @@
     {
       "id": "RedApricotBlossom",
       "name": "Fiore d'Albicocco Rosso",
-      "desc": "- Sanguinamento Speciale\n- Valore Massimoe: 10\n- +10% probabilità che quest'unità venga colpita da un critico se questa unità è il bersaglio principale\n- Quando viene colpita da un colpo critico, ottiene Sanguinamento pari a metà del valore e subisce +(valore x 3)% danni sul Colpo Critico\n- Il valore si riduce di 1 quando viene colpito",
-      "summary": "Probabibiltà più alta di venir colpito da un Colpo Critico; subisce più danno se colpito da un Colpo Critico"
+      "desc": "- Sanguinamento Speciale\n- Valore Massimoe: 10\n- +10% probabilità che quest'unità venga colpita da un Critico se questa unità è il bersaglio principale\n- Quando subisce un colpo da un colpo critico, ottiene Sanguinamento pari a metà del valore e subisce +(valore x 3)% danni sul Colpo Critico\n- Il valore si riduce di 1 quando subisce un colpo",
+      "summary": "Probabilità più alta di venir colpito da un Colpo Critico; subisce più danno se colpito da un Colpo Critico"
     },
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 Potenza Vibrazione su di sè\nQuando viene colpito da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
+      "desc": "Perde 1 Livello Difensivo per ogni 4 Potenza Vibrazione su di sè\nQuando subisce un colpo da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
     },
     {
       "id": "EchoOfMansion",
@@ -1390,7 +1390,7 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando viene colpito da un'attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
+      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando subisce un colpo da un'attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
     },
     {
       "id": "ForwardToTheKing",
@@ -1425,7 +1425,7 @@
     {
       "id": "UnstableFeeling",
       "name": "Passione Instabile",
-      "desc": "- Sul Colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Quando viene colpita, se questa unità ha concatenato un'Abilità Difensiva all'Inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A Fine Turno: perde (# turni passati nello status Volatile E.G.O x 5) PS. (Perdita PS Massima: 40)",
+      "desc": "- Sul Colpo, infligge 1 Bruciatura\n- Se il bersaglio principale è afflitto da Bruciatura, Valore Finale +1\n- Quando subisce un colpo, se questa unità ha concatenato un'Abilità Difensiva all'Inizio del combattimento, infligge 1 Bruciatura per colpo contro l'attaccante per questo turno\n- A Fine Turno: perde (# turni passati nello status Volatile E.G.O x 5) PS. (Perdita PS Massima: 40)",
       "summary": ""
     },
     {
@@ -1443,7 +1443,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando subisce un'Attacco da Abilità o Monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando viene colpito da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando subisce un'Attacco da Abilità o Monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un colpo da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1808,7 +1808,7 @@
     {
       "id": "GlowingLantern",
       "name": "Esca Fatata",
-      "desc": "- Max Stack: 5\n- A Inizio Turno: lo Slot più a sinistra della Barra Abilità ottiene +10 Provocazione\n- Subisce +50% danni\n- Quando viene colpito, infligge 1 Lacerazione all'attaccante (3 volte per Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
+      "desc": "- Max Stack: 5\n- A Inizio Turno: lo Slot più a sinistra della Barra Abilità ottiene +10 Provocazione\n- Subisce +50% danni\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
     },
     {
       "id": "HoldingBreath",

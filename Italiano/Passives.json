@@ -368,7 +368,7 @@
     {
       "id": 1120121,
       "name": "Codice Gene: G-0",
-      "desc": "All'inizio della fase di combattimento, l'alleato con meno PV cura 5 PV."
+      "desc": "All'inizio della fase di combattimento, l'alleato con meno PV si cura di 5 PV."
     },
     {
       "id": 1120221,
@@ -378,7 +378,7 @@
     {
       "id": 1120321,
       "name": "Codice Gene: G-3",
-      "desc": "The alleato con i PV più bassi cura 5 PV dopo aver vinto uno Scontro."
+      "desc": "The alleato con i PV più bassi si cura di 5 PV dopo aver vinto uno Scontro."
     },
     {
       "id": 1000101,
@@ -528,7 +528,7 @@
     {
       "id": 1120421,
       "name": "Aiuto Cuoco",
-      "desc": "All'inizio della fase di combattimento, l'alleato con meno PV cura 5 PV.\nMigliora la cura della Passiva di Chef de Cuisine B.R. Ryōshū 'Cucina Creativa' di 5."
+      "desc": "All'inizio della fase di combattimento, l'alleato con meno PV si cura di 5 PV.\nMigliora la cura della Passiva di Chef de Cuisine B.R. Ryōshū 'Cucina Creativa' di 5."
     },
     {
       "id": 1100501,
@@ -563,7 +563,7 @@
     {
       "id": 1050501,
       "name": "Stanchezza Cronica",
-      "desc": "In uno Scontro, l'avversario ha -1 Potere Scontro se ha 5+ [Vibration].\nQuando si riprende dal Vacillamento, cura 5% dei PV Max."
+      "desc": "In uno Scontro, l'avversario ha -1 Potere Scontro se ha 5+ [Vibration].\nQuando si riprende dal Vacillamento, si cura di 5% dei PV Max."
     },
     {
       "id": 1050521,
@@ -573,12 +573,12 @@
     {
       "id": 1070501,
       "name": "Pioggia Di Lacrime",
-      "desc": "All'inizio della fase di combattimento, spende 1 Conteggio [Sinking] e perde PS quanto il [Sinking] attuale.\nPrima di essere colpito da un'attacco, ottiene [Protection] pari al suo [Sinking]. (Fino a 5 [Protection] può essere ottenuta)\nQuando viene colpito, ottiene 1 [HitDamageUp] il turno successivo. (3 per turno)"
+      "desc": "All'inizio della fase di combattimento, spende 1 Conteggio [Sinking] e perde PS quanto il [Sinking] attuale.\nPrima di essere colpito da un'attacco, ottiene [Protection] pari al suo [Sinking]. (Fino a 5 [Protection] può essere ottenuta)\nQuando subisce un colpo, ottiene 1 [HitDamageUp] il turno successivo. (3 per turno)"
     },
     {
       "id": 1070521,
       "name": "Ombrello Consumato",
-      "desc": "1 alleato con i PS più bassi perde 10 PS quando viene colpito da un'attacco e ottiene 1 [HitDamageUp] il turno successivo. (Una volta per turno)"
+      "desc": "1 alleato con i PS più bassi perde 10 PS quando subisce un colpo da un'attacco e ottiene 1 [HitDamageUp] il turno successivo. (Una volta per turno)"
     },
     {
       "id": 1120501,
@@ -613,12 +613,12 @@
     {
       "id": 1060501,
       "name": "Attiva Ampolla Rigenerativa",
-      "desc": "Quando viene colpito, se ha meno di 20% PV, si cura di 90% dei PV Max e ottiene 1 [KCorpSerum].\nDopo l'attivazione, ottiene 1 [Vulnerable] ogni turno per il resto del combattimento. (Una volta per Incontro)"
+      "desc": "Quando subisce un colpo, se ha meno di 20% PV, si cura di 90% dei PV Max e ottiene 1 [KCorpSerum].\nDopo l'attivazione, ottiene 1 [Vulnerable] ogni turno per il resto del combattimento. (Una volta per Incontro)"
     },
     {
       "id": 1060521,
       "name": "Ampolla Di Alta Qualità",
-      "desc": "All'inizio della fase di combattimento, dai 2 [KCorpSerum] a 1 alleato con la percentuale di PV più bassa."
+      "desc": "All'inizio della fase di combattimento, dai 2 [KCorpSerum] a 1 alleato con la minore percentuale di PV."
     },
     {
       "id": 1100601,
@@ -658,7 +658,7 @@
     {
       "id": 1090621,
       "name": "Protezione Designata",
-      "desc": "All'inizio della fase di combattimento, 1 alleato con la percentuale di PV più bassa ottiene 1 Scudo per 1 Conteggio [Breath] il turno successivo. (Max 10)"
+      "desc": "All'inizio della fase di combattimento, 1 alleato con la minore percentuale di PV ottiene 1 Scudo per 1 Conteggio [Breath] il turno successivo. (Max 10)"
     },
     {
       "id": 1030501,
@@ -713,7 +713,7 @@
     {
       "id": 1020521,
       "name": "Richiesta di Protezione Ricevuta",
-      "desc": "All'inizio della fase di combattimento, applica 2 Livello Difensivo all'alleato con la percentuale di PV più bassa\nSe i PV del bersaglio sono sotto il 50%, applica altri 2 [DefenseUp]"
+      "desc": "All'inizio della fase di combattimento, applica 2 Livello Difensivo all'alleato con la minore percentuale di PV\nSe i PV del bersaglio sono sotto il 50%, applica altri 2 [DefenseUp]"
     },
     {
       "id": 1040501,
@@ -835,12 +835,12 @@
     {
       "id": 1010601,
       "name": "Mente Vuota",
-      "desc": "- A Fine Turno, ottiene 1 [Agility] per 5 Conteggio [Charge] su se stesso il turno successivo. (Max 2)\n- Se l'Abilità di questa unità ha consumato Conteggio [Charge], applica 3 [ChargeForceField] a 1 alleato con la percentuale di PV più bassa"
+      "desc": "- A Fine Turno, ottiene 1 [Agility] per 5 Conteggio [Charge] su se stesso il turno successivo. (Max 2)\n- Se l'Abilità di questa unità ha consumato Conteggio [Charge], applica 3 [ChargeForceField] a 1 alleato con la minore percentuale di PV"
     },
     {
       "id": 1010611,
       "name": "Mente Vuota",
-      "desc": "- A Fine Turno, ottiene 1 [Agility] per 5 Conteggio [Charge] su se stesso il turno successivo. (Max 3)\n- Se l'Abilità di questa unità ha consumato Conteggio [Charge], applica 3 [ChargeForceField] a 1 alleato con la percentuale di PV più bassa"
+      "desc": "- A Fine Turno, ottiene 1 [Agility] per 5 Conteggio [Charge] su se stesso il turno successivo. (Max 3)\n- Se l'Abilità di questa unità ha consumato Conteggio [Charge], applica 3 [ChargeForceField] a 1 alleato con la minore percentuale di PV"
     },
     {
       "id": 1010621,
@@ -1614,8 +1614,8 @@
     {
       "id": 1041011,
       "name": "Spiderhead/Skullface",
-      "desc": "Quando colpisce un nemico con una Moneta che ottiene [RedEyeFirst]:\n- Infligge +([RedEyeFirst]/2)% danni\n<style=\"highlight\">- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge altri +([RedEyeFirst]/2)% danni</style>\n- Se il bersaglio ha [Laceration], ottiene 1 [RedEyeFirst] (3 volte per turno)\n\nQuando colpisce un nemico con una Moneta che ottiene [PenanceFirst]:\n- Infligge +([PenanceFirst]/2)% danni\n<style=\"highlight\">- Se i PS del bersaglio sono minori di quelli di questa unità, infligge altri +([PenanceFirst]/2)% danni(bersagli senza PS: i loro PS Contano come 0)</style>\n- A 20+ PS, ottiene 1 [PenanceFirst] (3 volte per turno)\n\n<style=\"highlight\">Quando viene colpita da un nemico, ottiene 1 [PenanceFirst] (max 3)</style>",
-      "summary": "Le Monete che ottengono Occhi Rossi infliggono più danni; se il bersaglio ha [Laceration], ottiene 1 Occhi Rossi\nLe Monete che ottengono Penitenza infliggono più danni; a 20+ PS, ottiene 1 Penitenza\nQuando viene colpita da un nemico, ottiene 1 Penitenza (max 3)"
+      "desc": "Quando colpisce un nemico con una Moneta che ottiene [RedEyeFirst]:\n- Infligge +([RedEyeFirst]/2)% danni\n<style=\"highlight\">- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge altri +([RedEyeFirst]/2)% danni</style>\n- Se il bersaglio ha [Laceration], ottiene 1 [RedEyeFirst] (3 volte per turno)\n\nQuando colpisce un nemico con una Moneta che ottiene [PenanceFirst]:\n- Infligge +([PenanceFirst]/2)% danni\n<style=\"highlight\">- Se i PS del bersaglio sono minori di quelli di questa unità, infligge altri +([PenanceFirst]/2)% danni(bersagli senza PS: i loro PS Contano come 0)</style>\n- A 20+ PS, ottiene 1 [PenanceFirst] (3 volte per turno)\n\n<style=\"highlight\">Quando subisce un colpo da un nemico, ottiene 1 [PenanceFirst] (max 3)</style>",
+      "summary": "Le Monete che ottengono Occhi Rossi infliggono più danni; se il bersaglio ha [Laceration], ottiene 1 Occhi Rossi\nLe Monete che ottengono Penitenza infliggono più danni; a 20+ PS, ottiene 1 Penitenza\nQuando subisce un colpo da un nemico, ottiene 1 Penitenza (max 3)"
     },
     {
       "id": 1041002,
@@ -1626,8 +1626,8 @@
     {
       "id": 1041021,
       "name": "Eat e Sleep",
-      "desc": "Inizio Combattimento:\n- 1 alleato con la percentuale di PV più bassa cura 3 PV\n- 1 alleato con i PS più bassi cura 3 PS",
-      "summary": "Cura di PV per 1 alleato con la percentuale di PV più bassa, cura PS per 1 alleato con meno PS"
+      "desc": "Inizio Combattimento:\n- 1 alleato con la minore percentuale di PV cura 3 PV\n- 1 alleato con i PS più bassi cura 3 PS",
+      "summary": "Cura di PV per 1 alleato con la minore percentuale di PV, cura PS per 1 alleato con meno PS"
     },
     {
       "id": 1011001,
@@ -1700,7 +1700,7 @@
     {
       "id": 1101021,
       "name": "Contract Target Protection",
-      "desc": "A Fine Turno: applica 1 [Agility] e 3 [DefenseUp] a 1 alleato con la percentuale di PV più bassa il turno successivo"
+      "desc": "A Fine Turno: applica 1 [Agility] e 3 [DefenseUp] a 1 alleato con la minore percentuale di PV il turno successivo"
     },
     {
       "id": 1051101,
@@ -1783,13 +1783,13 @@
     {
       "id": 1121021,
       "name": "Don Quixote Hardblood Arts 6: Whip",
-      "desc": "1 alleato con la percentuale di PV più bassa cura 3 PV Sul Colpo (3 volte per turno)",
+      "desc": "1 alleato con la minore percentuale di PV cura 3 PV Sul Colpo (3 volte per turno)",
       "summary": ""
     },
     {
       "id": 1121031,
       "name": "Don Quixote Hardblood Arts 6: Whip",
-      "desc": "1 alleato con la percentuale di PV più bassa cura 3 PV Sul Colpo (3 volte per turno)\n- Se il bersaglio colpito da quell'alleato ha [Laceration], cura 3 PV in più",
+      "desc": "1 alleato con la minore percentuale di PV cura 3 PV Sul Colpo (3 volte per turno)\n- Se il bersaglio colpito da quell'alleato ha [Laceration], cura 3 PV in più",
       "summary": ""
     },
     {
@@ -1807,7 +1807,7 @@
     {
       "id": 1091111,
       "name": "Hardblood Thorn",
-      "desc": "Quando un altro alleato subisce danni da [Laceration] o consuma [BloodDinner], questa unità ottiene 1 [BloomingThornsRodionFirst] (5 volte per turno)\nCura di PV su se stessa di 20% dei danni inflitti con le Abilità Base (max 10 per Abilità)\n- A PV massimi, cura 1 alleato con la percentuale di PV più bassa con le cure in eccesso",
+      "desc": "Quando un altro alleato subisce danni da [Laceration] o consuma [BloodDinner], questa unità ottiene 1 [BloomingThornsRodionFirst] (5 volte per turno)\nCura di PV su se stessa di 20% dei danni inflitti con le Abilità Base (max 10 per Abilità)\n- A PV massimi, cura 1 alleato con la minore percentuale di PV con le cure in eccesso",
       "summary": ""
     },
     {
@@ -1987,22 +1987,22 @@
     {
       "id": 1011201,
       "name": "Inner Ardor",
-      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità Base che infliggono Potenza [Combustion] o Conteggio, gli cura 5 PS in più"
+      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità Base che infliggono Potenza [Combustion] o Conteggio, si cura di 5 PS in più"
     },
     {
       "id": 1011211,
       "name": "Inner Ardor",
-      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità Base che infliggono Potenza [Combustion] o Conteggio, gli cura 5 PS in più\n- A 4+ Rison. Ira, cura 1 alleato in più"
+      "desc": "A Fine Turno: cura 1 alleato con i PS più bassi per (5 + Rison. più alta) (max 10) (excludes: se stesso e gli alleati che sono nel Panico o Corrosi)\n- Se quell'alleato ha delle Abilità Base che infliggono Potenza [Combustion] o Conteggio, si cura di 5 PS in più\n- A 4+ Rison. Ira, cura 1 alleato in più"
     },
     {
       "id": 1011221,
       "name": "Liu Defensive Square",
-      "desc": "Per i 2 alleati con meno PS: se ha perso PS questo turno, cura 5 PS A Fine Turno"
+      "desc": "Per i 2 alleati con meno PS: se ha perso PS questo turno, si cura di 5 PS A Fine Turno"
     },
     {
       "id": 1011231,
       "name": "Liu Defensive Square",
-      "desc": "Per i 2 alleati con meno PS: se ha perso PS questo turno, cura 5 PS A Fine Turno\n- Se suddetti alleati hanno Abilità Base che infliggono Potenza [Combustion] o Conteggio, invece cura 5~10 PS"
+      "desc": "Per i 2 alleati con meno PS: se ha perso PS questo turno, si cura di 5 PS A Fine Turno\n- Se suddetti alleati hanno Abilità Base che infliggono Potenza [Combustion] o Conteggio, invece si cura di 5~10 PS"
     },
     {
       "id": 1121102,
@@ -2067,22 +2067,22 @@
     {
       "id": 1101201,
       "name": "The Middle Never Forgets",
-      "desc": "Quando viene colpito da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando subisce un colpo da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101211,
       "name": "The Middle Never Forgets",
-      "desc": "Quando viene colpito da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando subisce un colpo da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101221,
       "name": "We've Got Your Back",
-      "desc": "Inizio Combattimento: 1 alleato con la percentuale di PV più bassi ottiene 2 [DefenseUp]"
+      "desc": "Inizio Combattimento: 1 alleato con la minore percentuale di PV ottiene 2 [DefenseUp]"
     },
     {
       "id": 1101231,
       "name": "We've Got Your Back",
-      "desc": "Inizio Combattimento: 1 alleato con la percentuale di PV più bassi ottiene 2 [DefenseUp]\n<style=\"highlight\">- Se quell'alleato è parte del Medio, ottiene anche 2 [AttackUp]</style>"
+      "desc": "Inizio Combattimento: 1 alleato con la minore percentuale di PV ottiene 2 [DefenseUp]\n<style=\"highlight\">- Se quell'alleato è parte del Medio, ottiene anche 2 [AttackUp]</style>"
     },
     {
       "id": 1061201,

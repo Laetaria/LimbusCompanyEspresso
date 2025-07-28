@@ -720,7 +720,7 @@
         {
           "level": 1,
           "name": "Baule da Corriere - Coltello Deteriorante",
-          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non consuma il Conteggio [Burst] del bersaglio Sul Colpo, ma non infligge [Burst] con gli effetti Sul Colpo di questa Abilità",
+          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non consuma il Conteggio [Burst] del bersaglio Sul Colpo, ma non infligge [Burst] con i suoi effetti Sul Colpo",
           "coinlist": [
             {
               "coindescs": [
@@ -741,7 +741,7 @@
         {
           "level": 2,
           "name": "Baule da Corriere - Coltello Deteriorante",
-          "desc": "<style=\"highlight\">A 10+ [DevyatDimensionalSack], o se il bersaglio ha 6+ [Burst], Potere Moneta +1</style>\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non consuma il Conteggio [Burst] del bersaglio Sul Colpo, ma non infligge [Burst] con gli effetti Sul Colpo di questa Abilità",
+          "desc": "<style=\"highlight\">A 10+ [DevyatDimensionalSack], o se il bersaglio ha 6+ [Burst], Potere Moneta +1</style>\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non consuma il Conteggio [Burst] del bersaglio Sul Colpo, ma non infligge [Burst] con i suoi effetti Sul Colpo",
           "coinlist": [
             {
               "coindescs": [
@@ -762,7 +762,7 @@
         {
           "level": 4,
           "name": "Baule da Corriere - Coltello Deteriorante",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 10 [DevyatDimensionalSack] o per ogni 6 [Burst] sul bersaglio (max 2)</style>\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non consuma il Conteggio [Burst] del bersaglio Sul Colpo, ma non infligge [Burst] con gli effetti Sul Colpo di questa Abilità",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 10 [DevyatDimensionalSack] o per ogni 6 [Burst] sul bersaglio (max 2)</style>\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non consuma il Conteggio [Burst] del bersaglio Sul Colpo, ma non infligge [Burst] con i suoi effetti Sul Colpo",
           "coinlist": [
             {
               "coindescs": [
@@ -932,7 +932,7 @@
         {
           "level": 1,
           "name": "Sequenza di Supporto & Controllo Corriere",
-          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (una volta per turno)\n[StartBattle] Se questa Abilità viene attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (una volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (una volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
           "coinlist": [
             {}
           ]
@@ -940,7 +940,7 @@
         {
           "level": 4,
           "name": "Sequenza di Supporto & Controllo Corriere",
-          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (una volta per turno)\n[StartBattle] Se questa Abilità viene attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (una volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (una volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
           "coinlist": [
             {}
           ]
@@ -953,7 +953,7 @@
         {
           "level": 1,
           "name": "È Solo... una Pausa Strategica!",
-          "desc": "[StartBattle] Se questa Abilità viene attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[EndBattle] Attiva [Retreat]",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {}
           ]
@@ -961,7 +961,7 @@
         {
           "level": 4,
           "name": "È Solo... una Pausa Strategica!",
-          "desc": "[StartBattle] Se questa Abilità viene attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[EndBattle] Attiva [Retreat]",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {}
           ]
