@@ -660,7 +660,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Beheading",
+          "name": "Decapita",
           "desc": "[WhenUse] Se il bersaglio ha 8+ [Sinking], Potere Scontro +1",
           "coinlist": [
             {},
@@ -675,7 +675,7 @@
         },
         {
           "level": 2,
-          "name": "Beheading",
+          "name": "Decapita",
           "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Scontro +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 3+ Conteggio [Sinking], Potere Moneta +1</style>",
           "coinlist": [
             {},
@@ -690,7 +690,7 @@
         },
         {
           "level": 4,
-          "name": "Beheading",
+          "name": "Decapita",
           "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)</style>",
           "coinlist": [
             {},
@@ -710,7 +710,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Memorial Procession",
+          "name": "Corteo Funebre",
           "desc": "[WhenUse] Se il bersaglio ha 5+ [Sinking], Potere Moneta +1\n[EndSkill] Se questa unità ha [NightPathfinding], perde 10 PS",
           "coinlist": [
             {},
@@ -735,7 +735,7 @@
         },
         {
           "level": 2,
-          "name": "Memorial Procession",
+          "name": "Corteo Funebre",
           "desc": "[WhenUse] Se il bersaglio ha 5+ [Sinking], Potere Moneta +1\n<style=\"highlight\">[WhenUse] A 4+ [Coffin], Peso Attacco +1\n[WhenUse] Se questa unità ha [NightPathfinding], Peso Attacco +1</style>\n[EndSkill] Se questa unità ha [NightPathfinding], perde 10 PS",
           "coinlist": [
             {},
@@ -760,7 +760,7 @@
         },
         {
           "level": 4,
-          "name": "Memorial Procession",
+          "name": "Corteo Funebre",
           "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Sinking] sul bersaglio (max 2)</style>\n[WhenUse] <style=\"highlight\">Peso Attacco +1 per ogni 4 [Coffin] su di sé (max 2)</style>\n[WhenUse] Se questa unità ha [NightPathfinding], Peso Attacco +1\n[EndSkill] Se questa unità ha [NightPathfinding], perde 10 PS",
           "coinlist": [
             {},
@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Requiem",
-          "desc": "[WinDuel] Si cura di 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], al suo posto attiva 'Lament, Mourn, and Despair'\n[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
+          "desc": "[WinDuel] Si cura di 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Requiem",
-          "desc": "[WinDuel] Si cura di 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], al suo posto attiva 'Lament, Mourn, and Despair'\n[WhenUse] Potere Moneta +1 for <style=\"highlight\">every 3</style> [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +12% danni per ogni [Coffin] su di sé (max 120%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
+          "desc": "[WinDuel] Si cura di 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 for <style=\"highlight\">every 3</style> [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +12% danni per ogni [Coffin] su di sé (max 120%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -865,7 +865,7 @@
         {
           "level": 3,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lament, Mourn, and Despair' come Contrattacco (una volta per turno)</style>\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (una volta per turno)</style>\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -880,7 +880,7 @@
         {
           "level": 4,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lament, Mourn, and Despair' come Contrattacco (una volta per turno)\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WinDuel] Ottiene [AttackUp] il turno successivo pari a (# di Scontri/3) (max 3, una volta per turno)</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
+          "desc": "[DuelCounter]\n[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (una volta per turno)\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WinDuel] Ottiene [AttackUp] il turno successivo pari a (# di Scontri/3) (max 3, una volta per turno)</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -899,7 +899,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Lament, Mourn, and Despair",
+          "name": "Lamenta, Piangi e Dispera",
           "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Infligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
@@ -929,7 +929,7 @@
         },
         {
           "level": 4,
-          "name": "Lament, Mourn, and Despair",
+          "name": "Lamenta, Piangi e Dispera",
           "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\n[WhenUse] Infligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\n[WhenUse] Infligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
@@ -964,7 +964,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Lament, Mourn, and Despair",
+          "name": "Lamenta, Piangi e Dispera",
           "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Infligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
@@ -994,7 +994,7 @@
         },
         {
           "level": 4,
-          "name": "Lament, Mourn, and Despair",
+          "name": "Lamenta, Piangi e Dispera",
           "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\n[WhenUse] Infligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\n[WhenUse] Infligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
@@ -1029,7 +1029,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Return Fire",
+          "name": "Rispondi al Fuoco",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1057,7 +1057,7 @@
         },
         {
           "level": 2,
-          "name": "Return Fire",
+          "name": "Rispondi al Fuoco",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 1 [Agility] il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
@@ -1088,7 +1088,7 @@
         },
         {
           "level": 4,
-          "name": "Return Fire",
+          "name": "Rispondi al Fuoco",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
@@ -1124,7 +1124,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Headshot",
+          "name": "Colpo alla Testa",
           "desc": "[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1141,7 +1141,7 @@
         },
         {
           "level": 2,
-          "name": "Headshot",
+          "name": "Colpo alla Testa",
           "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 30%)</style>\n[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
@@ -1164,7 +1164,7 @@
         },
         {
           "level": 4,
-          "name": "Headshot",
+          "name": "Colpo alla Testa",
           "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità <style=\"highlight\">(max 50%)</style>\n[WhenUse] Ottiene 3 [Breath] e +<style=\"highlight\">2</style> Conteggio [Breath]\n[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
@@ -1192,8 +1192,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Goin' for the Bullseye",
-          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], al suo posto attiva 'AL-HV Pulverisation Round'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni",
+          "name": "Punta al Centro",
+          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], attiva al suo posto 'Cartuccia Polverizzante AL-AV'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1212,8 +1212,8 @@
         },
         {
           "level": 4,
-          "name": "Goin' for the Bullseye",
-          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], al suo posto attiva 'AL-HV Pulverisation Round'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni\n<style=\"highlight\">[EndSkill] Ottiene +2 Conteggio [Breath]</style>",
+          "name": "Punta al Centro",
+          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], attiva al suo posto 'Cartuccia Polverizzante AL-AV'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni\n<style=\"highlight\">[EndSkill] Ottiene +2 Conteggio [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,8 +1240,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Combat Poise",
-          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Taking Cover'\n[WhenUse] Se il Rappresentante dell'Ufficio Full-Stop Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
+          "name": "Calma in Battaglia",
+          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Full-Stop Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": []
@@ -1250,8 +1250,8 @@
         },
         {
           "level": 4,
-          "name": "Combat Poise",
-          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Taking Cover'\n[WhenUse] Se il Rappresentante dell'Ufficio Full-Stop Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 3 [Breath] (3 volte per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
+          "name": "Calma in Battaglia",
+          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Full-Stop Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 3 [Breath] (3 volte per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": []
@@ -1265,7 +1265,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "AL-HV Pulverisation Round",
+          "name": "Cartuccia Polverizzante AL-AV",
           "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 25)% danni",
           "coinlist": [
             {
@@ -1285,7 +1285,7 @@
         },
         {
           "level": 4,
-          "name": "AL-HV Pulverisation Round",
+          "name": "Cartuccia Polverizzante AL-AV",
           "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 25)% danni\n<style=\"highlight\">[EndSkill] Ottiene +5 Conteggio [Breath]</style>",
           "coinlist": [
             {
@@ -1313,7 +1313,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Taking Cover",
+          "name": "Vado al Riparo",
           "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Full-Stop Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
           "coinlist": [
             {
@@ -1327,7 +1327,7 @@
         },
         {
           "level": 4,
-          "name": "Taking Cover",
+          "name": "Vado al Riparo",
           "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Full-Stop Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n<style=\"highlight\">[WinDuel] Infligge 1 [PenetrateResistDown] (una volta per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
           "coinlist": [
             {
