@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Tremor Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Vibration]"
                 }
               ]
             },
@@ -20,7 +20,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Tremor Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -29,16 +29,16 @@
         {
           "level": 2,
           "name": "Fierce Assault",
-          "desc": "At 10+ Tremor Count, Coin Power +1",
+          "desc": "A 10+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
@@ -46,10 +46,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -58,16 +58,16 @@
         {
           "level": 4,
           "name": "Fierce Assault",
-          "desc": "At 10+ Tremor Count, Coin Power +1",
+          "desc": "A 10+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
@@ -75,10 +75,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 Tremor Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -92,12 +92,12 @@
         {
           "level": 1,
           "name": "Steady...",
-          "desc": "[WhenUse] Gain +2 Tremor Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -106,12 +106,12 @@
         {
           "level": 2,
           "name": "Steady...",
-          "desc": "[WhenUse] Gain +4 Tremor Count",
+          "desc": "[WhenUse] Ottiene +4 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Tremor"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 }
               ]
             }
@@ -120,12 +120,12 @@
         {
           "level": 4,
           "name": "Steady...",
-          "desc": "[WhenUse] Gain +6 Tremor Count",
+          "desc": "[WhenUse] Ottiene +6 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 Tremor"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
                 }
               ]
             }
@@ -144,7 +144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Tremor Count, spend all Tremor Count to inflict target with the same amount of Tremor Count\n[OnSucceedAttack] At less than 10 Tremor Count, gain 6 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Vibration], spende tutto il Conteggio [Vibration] per infliggere al bersaglio la stessa quantità di Conteggio [Vibration]\n[OnSucceedAttack] A meno di 10 Conteggio [Vibration], ottiene 6 [Vibration] e innesca [VibrationExplosion] su di sé\nInfligge Danni Contundenti pari ai danni da [VibrationExplosion]"
                 }
               ]
             }
@@ -153,12 +153,12 @@
         {
           "level": 4,
           "name": "Gamble",
-          "desc": "Coin Power +1 for every 10 Tremor Count on self (Max 2)",
+          "desc": "Potere Moneta +1 per ogni 10 Conteggio [Vibration] su di sé (Max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Tremor Count, spend all Tremor Count to inflict target with the same amount of Tremor Count\n[OnSucceedAttack] At less than 10 Tremor Count, gain 10 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Vibration], spende tutto il Conteggio [Vibration] per infliggere al bersaglio la stessa quantità di Conteggio [Vibration]\n[OnSucceedAttack] A meno di 10 Conteggio [Vibration], ottiene 10 [Vibration] e innesca [VibrationExplosion] su di sé\nInfligge Danni Contundenti pari ai danni da [VibrationExplosion]"
                 }
               ]
             }
@@ -172,7 +172,7 @@
         {
           "level": 1,
           "name": "Crab Bastards...!",
-          "desc": "[WhenUse] Gain 1 Rupture Protection (3 times per turn)",
+          "desc": "[WhenUse] Ottiene 1 [BurstProtection] (3 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -191,19 +191,19 @@
         {
           "level": 1,
           "name": "Remise",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -212,19 +212,19 @@
         {
           "level": 2,
           "name": "Remise",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -233,19 +233,19 @@
         {
           "level": 4,
           "name": "Remise",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -259,19 +259,19 @@
         {
           "level": 1,
           "name": "Engagement",
-          "desc": "[WinDuel] Gain +2 [Breath] Count",
+          "desc": "[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -281,19 +281,19 @@
         {
           "level": 2,
           "name": "Engagement",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -303,19 +303,19 @@
         {
           "level": 4,
           "name": "Engagement",
-          "desc": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1 per ogni 2 differenza di Velocità (Max 2)\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -330,12 +330,12 @@
         {
           "level": 3,
           "name": "Contre Attaque",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WinDuel] Consume 10 [Breath] Count. Gain [Breath] equal to [Breath] Count consumed.\n[WinDuel] If this unit conducted a [OneOnOneDuel] with the target Slot's Attack Skill, inflict 1 [Vulnerable] On Hit (Twice per turn)",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WinDuel] Consuma 10 Conteggio [Breath]. Ottiene [Breath] pari a Conteggio [Breath] consumato.\n[WinDuel] Se questa unità ha intrapreso una [OneOnOneDuel] con l'Abilità Attacco dello Slot bersagliato, infligge 1 [Vulnerable] Sul Colpo (Due volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DuelDeclaration_Sinclair]"
+                  "desc": "[OnSucceedAttack] Infligge [DuelDeclaration_Sinclair]"
                 }
               ]
             },
@@ -343,7 +343,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "+30% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -352,12 +352,12 @@
         {
           "level": 4,
           "name": "Contre Attaque",
-          "desc": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[WinDuel] Consume 10 [Breath] Count. Gain [Breath] equal to [Breath] Count consumed. Against targets with [DuelDeclaration_Sinclair], gain [Breath] equal to ([Breath] Count consumed x 2) instead\n[WinDuel] If this unit conducted a [OneOnOneDuel] with the target Slot's Attack Skill, inflict 1 [Vulnerable] On Hit (Twice per turn)",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1 per ogni 2 differenza di Velocità (Max 3)\n[WinDuel] Consuma 10 Conteggio [Breath]. Ottiene [Breath] pari a Conteggio [Breath] consumato. Contro i bersagli con [DuelDeclaration_Sinclair], ottiene [Breath] pari a (Conteggio [Breath] consumato x 2) instead\n[WinDuel] Se questa unità ha intrapreso una [OneOnOneDuel] con l'Abilità Attacco dello Slot bersagliato, infligge 1 [Vulnerable] Sul Colpo (Due volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [DuelDeclaration_Sinclair]"
+                  "desc": "[OnSucceedAttack] Infligge [DuelDeclaration_Sinclair]"
                 }
               ]
             },
@@ -365,7 +365,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+50% Damage on Critical Hit"
+                  "desc": "+50% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -411,17 +411,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fierce Charge",
+          "name": "Carica Feroce",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)",
-                  "summary": "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin"
+                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (una volta per Abilità)",
+                  "summary": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta"
                 }
               ]
             }
@@ -429,17 +429,17 @@
         },
         {
           "level": 2,
-          "name": "Fierce Charge",
+          "name": "Carica Feroce",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)",
-                  "summary": "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin"
+                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (una volta per Abilità)",
+                  "summary": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta"
                 }
               ]
             }
@@ -447,17 +447,17 @@
         },
         {
           "level": 4,
-          "name": "Fierce Charge",
+          "name": "Carica Feroce",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)",
-                  "summary": "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse this Coin"
+                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (una volta per Abilità)",
+                  "summary": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa questa Moneta"
                 }
               ]
             }
@@ -470,27 +470,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sunset Blade",
-          "desc": "[WhenUse] When in a Volatile E.G.O state, consume 5 PS\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 PS",
+          "name": "Lama del Tramonto",
+          "desc": "[WhenUse] Quando è in stato di E.G.O Volatile, consuma 5 PS\n[BeforeAttack] Quando è in stato di E.G.O Volatile, Peso Attacco +1\n[EndSkill] Quando è in stato di E.G.O Volatile, consuma 5 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -498,27 +498,27 @@
         },
         {
           "level": 2,
-          "name": "Sunset Blade",
-          "desc": "<style=\"highlight\">If target has 4+ [Combustion], Clash Power +1</style>\n[WhenUse] When in a Volatile E.G.O state, consume 5 PS\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 PS",
+          "name": "Lama del Tramonto",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 4+ [Combustion], Potere Scontro +1</style>\n[WhenUse] Quando è in stato di E.G.O Volatile, consuma 5 PS\n[BeforeAttack] Quando è in stato di E.G.O Volatile, Peso Attacco +1\n[EndSkill] Quando è in stato di E.G.O Volatile, consuma 5 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -526,27 +526,27 @@
         },
         {
           "level": 4,
-          "name": "Sunset Blade",
-          "desc": "If target has 4+ [Combustion], Clash Power +1\n[WhenUse] When in a Volatile E.G.O state, consume 5 PS\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n<style=\"highlight\">- At 45 PS, Atk Weight +2 instead</style>\n[EndSkill] When in a Volatile E.G.O state, consume 5 PS",
+          "name": "Lama del Tramonto",
+          "desc": "Se il bersaglio ha 4+ [Combustion], Potere Scontro +1\n[WhenUse] Quando è in stato di E.G.O Volatile, consuma 5 PS\n[BeforeAttack] Quando è in stato di E.G.O Volatile, Peso Attacco +1\n<style=\"highlight\">- A 45 PS, invece Peso Attacco +2</style>\n[EndSkill] Quando è in stato di E.G.O Volatile, consuma 5 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -559,20 +559,20 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Stigmatize",
-          "desc": "If target has 10+ [Combustion], Coin Power +1\nWhen in a Volatile E.G.O State, activate Blazing Strike instead\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 10 PS",
+          "name": "Stigmatizza",
+          "desc": "Se il bersaglio ha 10+ [Combustion], Potere Moneta +1\nQuando è in stato di E.G.O Volatile, attiva al suo posto Colpo Fiammeggiante\n[WinDuel] Si cura di 10 PS\n[DefeatDuel] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             }
@@ -580,20 +580,20 @@
         },
         {
           "level": 4,
-          "name": "Stigmatize",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 7 [Combustion] on target (max 2)</style>\nWhen in a Volatile E.G.O state, activate Blazing Strike instead\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 10 PS",
+          "name": "Stigmatizza",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 7 [Combustion] sul bersaglio (max 2)</style>\nQuando è in stato di E.G.O Volatile, attiva al suo posto Colpo Fiammeggiante\n[WinDuel] Si cura di 10 PS\n[DefeatDuel] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             }
@@ -606,8 +606,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Rue",
-          "desc": "When in a Volatile E.G.O state, Base Power +1 for every 2 [Combustion] on target (max 10)",
+          "name": "Rimorso",
+          "desc": "Quando è in stato di E.G.O Volatile, Potere Base +1 per ogni 2 [Combustion] sul bersaglio (max 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -620,8 +620,8 @@
         },
         {
           "level": 4,
-          "name": "Rue",
-          "desc": "When in a Volatile E.G.O state, Base Power +1 for every 2 [Combustion] on target (max <style=\"highlight\">20</style>)",
+          "name": "Rimorso",
+          "desc": "Quando è in stato di E.G.O Volatile, Potere Base +1 per ogni 2 [Combustion] sul bersaglio (max <style=\"highlight\">20</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -639,25 +639,25 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Blazing Strike",
-          "desc": "Coin Power +1 for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 30 PS\nDeal +5% damage for every Wrath Reson. (max 30%)\n[EndSkill] Lose 15 PS",
+          "name": "Colpo Fiammeggiante",
+          "desc": "Potere Moneta +1 per ogni 4 (somma della Potenza [Combustion] su tutti i nemici) (max 8)\n[WinDuel] Si cura di 10 PS\n[DefeatDuel] Perde 30 PS\nInfligge +5% danni per ogni Rison. Ira (max 30%)\n[EndSkill] Perde 15 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every 1 [Combustion] on target (max 100%)",
-                  "summary": "Deal more damage based on [Combustion] on target"
+                  "desc": "Infligge +2.5% danni per ogni 1 [Combustion] sul bersaglio (max 100%)",
+                  "summary": "Infligge più danni based on [Combustion] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [Combustion], inflict 2 [Combustion] against (# of highest Reson.) random enemies",
-                  "summary": "[OnSucceedAttack] Inflict [Combustion] based on Reson."
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Combustion], infligge 2 [Combustion] contro (# della Rison. più alta) nemici casuali",
+                  "summary": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion]"
                 },
                 {
-                  "desc": "[EnemyKill] Randomly inflict [Combustion] Potency of the defeated target between all enemies (max 10. Negli Incontri Mirati, between all Parts)",
-                  "summary": "[EnemyKill] Inflict [Combustion] to random enemies"
+                  "desc": "[EnemyKill] Infligge casualmente la Potenza [Combustion] sul bersaglio sconfitto divisa tra tutti i nemici (max 10. Negli Incontri Mirati, tra tutte le Parti)",
+                  "summary": "[EnemyKill] Infligge [Combustion] to nemici casuali"
                 }
               ]
             }
@@ -665,25 +665,25 @@
         },
         {
           "level": 4,
-          "name": "Blazing Strike",
-          "desc": "Coin Power +<style=\"highlight\">2</style> for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 PS\n[DefeatDuel] Lose 30 PS\nDeal +<style=\"highlight\">10</style>% damage for every Wrath Reson. (max <style=\"highlight\">60</style>%)\n<style=\"highlight\">If at 4+ highest Wrath A-Reson., deal +20% damage for every Wrath Reson. instead (max 120%)</style>\n[EndSkill] Lose 15 PS",
+          "name": "Colpo Fiammeggiante",
+          "desc": "Potere Moneta +<style=\"highlight\">2</style> per ogni 4 (somma della Potenza [Combustion] su tutti i nemici) (max 8)\n[WinDuel] Si cura di 10 PS\n[DefeatDuel] Perde 30 PS\nInfligge +<style=\"highlight\">10</style>% danni per ogni Rison. Ira (max <style=\"highlight\">60</style>%)\n<style=\"highlight\">Se a 4+ Rison-A Ira più alta, allora infligge +20% danni per ogni Rison. Ira (max 120%)</style>\n[EndSkill] Perde 15 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +<style=\"highlight\">4</style>% damage for every 1 [Combustion] on target (max <style=\"highlight\">120</style>%)",
-                  "summary": "Deal more damage based on [Combustion] on target"
+                  "desc": "Infligge +<style=\"highlight\">4</style>% danni per ogni 1 [Combustion] sul bersaglio (max <style=\"highlight\">120</style>%)",
+                  "summary": "Infligge più danni based on [Combustion] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [Combustion], inflict 2 [Combustion] against (# of highest Reson.) random enemies\n<style=\"highlight\">- If the above Reson. was a Wrath Reson., inflict +1 [Combustion] Count as well</style>",
-                  "summary": "[OnSucceedAttack] Inflict [Combustion] based on Reson."
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Combustion], infligge 2 [Combustion] contro (# della Rison. più alta) nemici casuali\n<style=\"highlight\">- Se la Rison. era una Rison. Ira, infligge anche +1 Conteggio [Combustion]</style>",
+                  "summary": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion]"
                 },
                 {
-                  "desc": "[EnemyKill] Randomly inflict [Combustion] Potency of the defeated target between all enemies (max 10. Negli Incontri Mirati, between all Parts)",
-                  "summary": "[EnemyKill] Inflict [Combustion] to random enemies"
+                  "desc": "[EnemyKill] Infligge casualmente la Potenza [Combustion] sul bersaglio sconfitto divisa tra tutti i nemici (max 10. Negli Incontri Mirati, tra tutte le Parti)",
+                  "summary": "[EnemyKill] Infligge [Combustion] to nemici casuali"
                 }
               ]
             }
@@ -697,19 +697,19 @@
         {
           "level": 1,
           "name": "Suppressing.",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp]\n[WinDuel] Gain +2 [Vibration] Count",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp]\n[WinDuel] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[WinDuelAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 [DefenseUp] il turno successivo"
                 }
               ]
             }
@@ -718,19 +718,19 @@
         {
           "level": 2,
           "name": "Suppressing.",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain <style=\"highlight\">2</style> [DefenseUp]\n<style=\"highlight\">[WhenUse] If target has 4+ [Vibration] Count, Clash Power +1</style>\n[WinDuel] Gain +2 [Vibration] Count",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene <style=\"highlight\">2</style> [DefenseUp]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 4+ Conteggio [Vibration], Potere Scontro +1</style>\n[WinDuel] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 [DefenseUp] il turno successivo"
                 }
               ]
             }
@@ -739,19 +739,19 @@
         {
           "level": 4,
           "name": "Suppressing.",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 2 [DefenseUp]\n[WhenUse] If target has 4+ [Vibration] Count, Clash Power +<style=\"highlight\">2</style>\n[WinDuel] Gain +<style=\"highlight\">3</style> [Vibration] Count",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 2 [DefenseUp]\n[WhenUse] Se il bersaglio ha 4+ Conteggio [Vibration], Potere Scontro +<style=\"highlight\">2</style>\n[WinDuel] Ottiene +<style=\"highlight\">3</style> Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [DefenseUp] il turno successivo"
                 }
               ]
             }
@@ -765,13 +765,13 @@
         {
           "level": 1,
           "name": "Combat Preparation",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WinDuel] Gain +2 [Vibration] Count",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On 1 other ally with [DefenseUp], apply (([DefenseUp] on the ally)/3) [AttackUp] next turn (once per turn, max 3)"
+                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con [DefenseUp], applica (([DefenseUp] sull'alleato)/3) [AttackUp] il turno successivo (una volta per turno, max 3)"
                 }
               ]
             }
@@ -780,19 +780,19 @@
         {
           "level": 2,
           "name": "Combat Preparation",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] At 4+ [DefenseUp], Coin Power +1</style>\n[WinDuel] Gain +<style=\"highlight\">3</style> [Vibration] Count",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 3)\n[WhenUse] A 4+ [DefenseUp], Potere Moneta +1</style>\n[WinDuel] Ottiene +<style=\"highlight\">3</style> Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] On 1 other ally with the lowest PV percentage, apply 2 Defense Level Up next turn"
+                  "desc": "[WinDuelAttack] Ad 1 altro alleato con la minore percentuale di PV, applica 2 [DefenseUp] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On 1 other ally with [DefenseUp], apply (([DefenseUp] on the ally)/<style=\"highlight\">2</style>) [AttackUp] next turn (once per turn, max 3)"
+                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con [DefenseUp], applica (([DefenseUp] sull'alleato)/<style=\"highlight\">2</style>) [AttackUp] il turno successivo (una volta per turno, max 3)"
                 }
               ]
             }
@@ -801,19 +801,19 @@
         {
           "level": 4,
           "name": "Combat Preparation",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] At 4+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +3 [Vibration] Count<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 3)\n[WhenUse] A 4+ [DefenseUp], Potere Moneta +1\n[WinDuel] Ottiene +3 Conteggio [Vibration]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] On <style=\"highlight\">2 other allies</style> with the lowest PV percentage, apply 2 Defense Level Up next turn"
+                  "desc": "[WinDuelAttack] A <style=\"highlight\">2 altri alleati</style> con la minore percentuale di PV, applica 2 [DefenseUp] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On <style=\"highlight\">2 other allies</style> with [DefenseUp], apply (([DefenseUp] on the ally)/2) [AttackUp] next turn (once per turn, max 3)"
+                  "desc": "[OnSucceedAttack] A <style=\"highlight\">2 altri alleati</style> con [DefenseUp], applica (([DefenseUp] sull'alleato)/2) [AttackUp] il turno successivo (una volta per turno, max 3)"
                 }
               ]
             }
@@ -827,12 +827,12 @@
         {
           "level": 3,
           "name": "Fence",
-          "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 2)\n[WhenUse] Coin Power +1 for every 3 [DefenseUp] on self (max 2)",
+          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Potere Moneta +1 per ogni 3 [DefenseUp] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On 1 other ally with the lowest PV percentage, apply 3 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con la minore percentuale di PV, applica 3 [DefenseUp] il turno successivo"
                 }
               ]
             },
@@ -846,10 +846,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume up to 8 [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target"
+                  "desc": "[OnSucceedAttack] Consuma fino a 8 Conteggio [Vibration] su di sé, e infligge la stessa quantità di Conteggio [Vibration] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -858,12 +858,12 @@
         {
           "level": 4,
           "name": "Fence",
-          "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">4</style>)\n[WhenUse] Coin Power +1 for every 3 [DefenseUp] on self (max <style=\"highlight\">3</style>)",
+          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max <style=\"highlight\">4</style>)\n[WhenUse] Potere Moneta +1 per ogni 3 [DefenseUp] su di sé (max <style=\"highlight\">3</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] On 1 other ally with the lowest PV percentage, apply <style=\"highlight\">4</style> [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con la minore percentuale di PV, applica <style=\"highlight\">4</style> [DefenseUp] il turno successivo"
                 }
               ]
             },
@@ -877,10 +877,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume up to 8 [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target"
+                  "desc": "[OnSucceedAttack] Consuma fino a 8 Conteggio [Vibration] su di sé, e infligge la stessa quantità di Conteggio [Vibration] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -894,7 +894,7 @@
         {
           "level": 1,
           "name": "Zwei Knight's Greatsword Form - Guard",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +2 [Vibration] Count (once per turn)\n[WinDuel] Trigger [VibrationExplosion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +2 Conteggio [Vibration] (una volta per turno)\n[WinDuel] Innesca [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -908,7 +908,7 @@
         {
           "level": 4,
           "name": "Zwei Knight's Greatsword Form - Guard",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +<style=\"highlight\">3</style> [Vibration] Count (once per turn)\n[WinDuel] Trigger [VibrationExplosion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Vibration] (una volta per turno)\n[WinDuel] Innesca [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -927,19 +927,19 @@
         {
           "level": 1,
           "name": "Courier Trunk - Decay Hammer",
-          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with this Skill's On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)",
+          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 1 additional [DevyatDimensionalSackSinclair]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DevyatDimensionalSackSinclair]\n- Se questa unità ha meno di 15 [DevyatDimensionalSackSinclair], ottiene 1 [DevyatDimensionalSackSinclair] aggiuntivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -948,19 +948,19 @@
         {
           "level": 2,
           "name": "Courier Trunk - Decay Hammer",
-          "desc": "At 10+ [DevyatDimensionalSackSinclair], or if target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)",
+          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 1 additional [DevyatDimensionalSackSinclair]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DevyatDimensionalSackSinclair]\n- Se questa unità ha meno di 15 [DevyatDimensionalSackSinclair], ottiene 1 [DevyatDimensionalSackSinclair] aggiuntivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count\n- At 15+ [DevyatDimensionalSackSinclair], inflict +1 additional [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]\n- A 15+ [DevyatDimensionalSackSinclair], infligge +1 Conteggio [Burst] in più"
                 }
               ]
             }
@@ -969,19 +969,19 @@
         {
           "level": 4,
           "name": "Courier Trunk - Decay Hammer",
-          "desc": "Coin Power +1 for every 10 [DevyatDimensionalSackSinclair] on self or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)",
+          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 1 additional [DevyatDimensionalSackSinclair]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DevyatDimensionalSackSinclair]\n- Se questa unità ha meno di 15 [DevyatDimensionalSackSinclair], ottiene 1 [DevyatDimensionalSackSinclair] aggiuntivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count\n- At 15+ [DevyatDimensionalSackSinclair], inflict +1 additional [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]\n- A 15+ [DevyatDimensionalSackSinclair], infligge +1 Conteggio [Burst] in più"
                 }
               ]
             }
@@ -995,26 +995,26 @@
         {
           "level": 1,
           "name": "Courier Trunk - Demolition Gadget",
-          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count with this Skill's On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)",
+          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 2 additional [DevyatDimensionalSackSinclair]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DevyatDimensionalSackSinclair]\n- Se questa unità ha meno di 15 [DevyatDimensionalSackSinclair], ottiene 2 [DevyatDimensionalSackSinclair] aggiuntivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -1023,26 +1023,26 @@
         {
           "level": 2,
           "name": "Courier Trunk - Demolition Gadget",
-          "desc": "At 10+ [DevyatDimensionalSackSinclair], or if target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] or [Burst] Count with its On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)\n[WhenUse] At 20- [DevyatDimensionalSackSinclair], gain 1 [Agility] next turn (once per turn)",
+          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)\n[WhenUse] A 20- [DevyatDimensionalSackSinclair], ottiene 1 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 2 additional [DevyatDimensionalSackSinclair]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DevyatDimensionalSackSinclair]\n- Se questa unità ha meno di 15 [DevyatDimensionalSackSinclair], ottiene 2 [DevyatDimensionalSackSinclair] aggiuntivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\n- A 15+ [DevyatDimensionalSackSinclair], infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- A 15+ [DevyatDimensionalSackSinclair], infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -1051,26 +1051,26 @@
         {
           "level": 4,
           "name": "Courier Trunk - Demolition Gadget",
-          "desc": "Coin Power +1 for every 10 [DevyatDimensionalSackSinclair] on self or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] or [Burst] Count with its On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)\n[WhenUse] At 30- [DevyatDimensionalSackSinclair], gain 1 [Agility] next turn (once per turn)",
+          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)\n[WhenUse] A 30- [DevyatDimensionalSackSinclair], ottiene 1 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 2 additional [DevyatDimensionalSackSinclair]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DevyatDimensionalSackSinclair]\n- Se questa unità ha meno di 15 [DevyatDimensionalSackSinclair], ottiene 2 [DevyatDimensionalSackSinclair] aggiuntivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +<style=\"highlight\">2</style> [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\n- A 15+ [DevyatDimensionalSackSinclair], infligge +<style=\"highlight\">2</style> Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +<style=\"highlight\">2</style> [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- A 15+ [DevyatDimensionalSackSinclair], infligge +<style=\"highlight\">2</style> Conteggio [Burst]"
                 }
               ]
             }
@@ -1084,26 +1084,26 @@
         {
           "level": 3,
           "name": "Poludnitsa... I trust you!",
-          "desc": "At 10+ [DevyatDimensionalSackSinclair], or if target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] or [Burst] Count with its On Hit effects; instead, the final Coin gains +2 Coin Power\n[WhenUse] If target has 15+ [Burst], deal +3% damage for every [DevyatDimensionalSackSinclair] (max 90%)",
+          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, l'ultima Moneta ottiene +2 Potere Moneta\n[WhenUse] Se il bersaglio ha 15+ [Burst], infligge +3% danni per ogni [DevyatDimensionalSackSinclair] (max 90%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count\n- Inflict +1 additional [Burst] Count for every 10 [DevyatDimensionalSackSinclair] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]\n- Infligge +1 Conteggio [Burst] in più per ogni 10 [DevyatDimensionalSackSinclair] (max 2)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]\n- Inflict +1 additional [Burst] for every 10 [DevyatDimensionalSackSinclair] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- Infligge +1 additional [Burst] per ogni 10 [DevyatDimensionalSackSinclair] (max 2)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill failed to increase the final Coin Power, gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Se questa Abilità non è riuscita ad incrementare il Potere della Moneta finale, ottiene 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -1112,26 +1112,26 @@
         {
           "level": 4,
           "name": "Poludnitsa... I trust you!",
-          "desc": "Coin Power +1 for every 10 [DevyatDimensionalSackSinclair] on self or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] or [Burst] Count with its On Hit effects; instead, the final Coin gains +4 Coin Power\n[WhenUse] If target has 15+ [Burst], deal +4% damage for every [DevyatDimensionalSackSinclair] (max 120%)",
+          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, l'ultima Moneta ottiene +4 Potere Moneta\n[WhenUse] Se il bersaglio ha 15+ [Burst], infligge +4% danni per ogni [DevyatDimensionalSackSinclair] (max 120%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count\n- Inflict +1 additional [Burst] Count for every 10 [DevyatDimensionalSackSinclair] (max <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]\n- Infligge +1 Conteggio [Burst] in più per ogni 10 [DevyatDimensionalSackSinclair] (max <style=\"highlight\">3</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]\n- Inflict +1 additional [Burst] for every <style=\"highlight\">8</style> [DevyatDimensionalSackSinclair] (max <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- Infligge +1 additional [Burst] per ogni <style=\"highlight\">8</style> [DevyatDimensionalSackSinclair] (max <style=\"highlight\">4</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill's effect to raise its final Coin Power did not activate, gain 2 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Se l'effetto di questa Abilità per incrementare il Potere della Moneta finale non si è attivato, ottiene 2 [Agility] il turno successivo"
                 }
               ]
             }
@@ -1145,7 +1145,7 @@
         {
           "level": 1,
           "name": "Courier Assistance & Crisis Control System",
-          "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!.' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair] / 2)% of this unit's max PV as Shield (max 15%, once per turn)",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair] / 2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1159,7 +1159,7 @@
         {
           "level": 4,
           "name": "Courier Assistance & Crisis Control System",
-          "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> of this unit's max PV as Shield (max <style=\"highlight\">25%</style>, once per turn)",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1177,8 +1177,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "W-wait, I need to do some maintenance...!",
-          "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max PV as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
+          "name": "A-aspetta, devo fare manutenzione...!",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair])% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {
               "coindescs": [
@@ -1191,8 +1191,8 @@
         },
         {
           "level": 4,
-          "name": "W-wait, I need to do some maintenance...!",
-          "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> of this unit's max PV as Shield (max <style=\"highlight\">25%</style>, once per turn)\n[EndBattle] Activate [Retreat]",
+          "name": "A-aspetta, devo fare manutenzione...!",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {
               "coindescs": [
@@ -1210,20 +1210,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Is it You?!",
-          "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 PS on self",
+          "name": "Saresti Tu?!",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Si cura di 5 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -1231,20 +1231,20 @@
         },
         {
           "level": 2,
-          "name": "Is it You?!",
-          "desc": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 PS on self",
+          "name": "Saresti Tu?!",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">3</style> [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Si cura di 5 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict 1 [Laceration]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict 1 [Laceration]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -1252,20 +1252,20 @@
         },
         {
           "level": 4,
-          "name": "Is it You?!",
-          "desc": "If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">5</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Heal 5 PS on self\n<style=\"highlight\">- At max PS, gain Clash Power +1 instead</style>",
+          "name": "Saresti Tu?!",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Si cura di 5 PS\n<style=\"highlight\">- A PS max, ottiene Potere Scontro +1 instead</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1278,21 +1278,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Payback with Interest",
-          "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[StartBattle] This Skill gains (highest Reson. / 3) Offense Level (max 2, rounded down)",
+          "name": "Ripaga con Interesse",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 3) Livello Offensivo (max 2, arrotondato in difetto)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 4+ Reson. that includes this Skill, deal +10% damage"
+                  "desc": "A 4+ Rison. che include questa Abilità, infligge +10% danni"
                 }
               ]
             }
@@ -1300,21 +1300,21 @@
         },
         {
           "level": 2,
-          "name": "Payback with Interest",
-          "desc": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] This Skill Slot gains <style=\"highlight\">3</style> [Aggro] next turn\n[StartBattle] This Skill gains (highest Reson. / <style=\"highlight\">2</style>) Offense Level (max <style=\"highlight\">3</style>, rounded down)",
+          "name": "Ripaga con Interesse",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Questo Slot Abilità ottiene <style=\"highlight\">3</style> [Aggro] il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / <style=\"highlight\">2</style>) Livello Offensivo (max <style=\"highlight\">3</style>, arrotondato in difetto)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 4+ Reson. that includes this Skill, deal <style=\"highlight\">+15%</style> more damage"
+                  "desc": "A 4+ Rison. che include questa Abilità, infligge <style=\"highlight\">+15%</style> più danni"
                 }
               ]
             }
@@ -1322,21 +1322,21 @@
         },
         {
           "level": 4,
-          "name": "Payback with Interest",
-          "desc": "If target has 6+ [Laceration], Coin Power +1\n[WhenUse] This Skill Slot gains <style=\"highlight\">5</style> [Aggro] next turn\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n<style=\"highlight\">- If the said Reson. includes an A-Reson., double the Offense Level gained from the above effect</style>",
+          "name": "Ripaga con Interesse",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Questo Slot Abilità ottiene <style=\"highlight\">5</style> [Aggro] il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato in difetto)\n<style=\"highlight\">- Se quella Rison. include una Rison-A, raddoppia il Livello Offensivo ottenuto dal suddetto effetto</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At <style=\"highlight\">3</style>+ Reson. that includes this Skill, deal <style=\"highlight\">+20%</style> more damage"
+                  "desc": "A <style=\"highlight\">3</style>+ Rison. che include questa Abilità, infligge <style=\"highlight\">+20%</style> più danni"
                 }
               ]
             }
@@ -1349,24 +1349,24 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Write 'em all down",
-          "desc": "Deal +1% damage for every 2 [VengeanceBookSinclair] (max 15%)\nIf target has 6+ [Laceration], Coin Power +1\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)",
+          "name": "Scrivete tutto",
+          "desc": "Infligge +1% danni per ogni 2 [VengeanceBookSinclair] (max 15%)\nSe il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato in difetto)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every Reson. that includes this Skill (max 15%)"
+                  "desc": "Infligge +2.5% danni per ogni Rison. che include questa Abilità (max 15%)"
                 },
                 {
-                  "desc": "Deal +7.5% damage for every 10 [VengeanceBookSinclair] (max 22.5%)"
+                  "desc": "Infligge +7.5% danni per ogni 10 [VengeanceBookSinclair] (max 22.5%)"
                 }
               ]
             }
@@ -1374,24 +1374,24 @@
         },
         {
           "level": 4,
-          "name": "Write 'em all down",
-          "desc": "Deal +1% damage for every <style=\"highlight\">1</style> [VengeanceBookSinclair] (max <style=\"highlight\">30%</style>)\n<style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n<style=\"highlight\">- If the said Reson. includes an A-Reson., double the Offense Level gained from the above effect</style>",
+          "name": "Scrivete tutto",
+          "desc": "Infligge +1% danni per ogni <style=\"highlight\">1</style> [VengeanceBookSinclair] (max <style=\"highlight\">30%</style>)\n<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato in difetto)\n<style=\"highlight\">- Se quella Rison. include una Rison-A, raddoppia il Livello Offensivo ottenuto dal suddetto effetto</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">4</style> [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+5%</style> more damage for every Reson. that includes this Skill (max <style=\"highlight\">30%</style>)"
+                  "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni Rison. che include questa Abilità (max <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "Deal <style=\"highlight\">+15%</style> more damage for every 10 [VengeanceBookSinclair] (max <style=\"highlight\">45%</style>)"
+                  "desc": "Infligge <style=\"highlight\">+15%</style> più danni per ogni 10 [VengeanceBookSinclair] (max <style=\"highlight\">45%</style>)"
                 }
               ]
             }
@@ -1404,20 +1404,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Warmup in the East",
-          "desc": "[StartBattle] Gain 20% of missing PV as Shield (once per turn)",
+          "name": "Riscaldamento nell'Est",
+          "desc": "[StartBattle] Ottiene 20% dei suoi PV mancanti come Scudo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -1425,20 +1425,20 @@
         },
         {
           "level": 4,
-          "name": "Warmup in the East",
-          "desc": "<style=\"highlight\">[StartBattle] Skill behavior changes based on the sum of Envy A-Reson.:\n- At 4+ sum of A-Reson., use 'Payback with Interest' as Counter\n- At 6+ sum of A-Reson., use 'Write 'em all down' as Counter\n(Activates from the leftmost Skill Slot. Activates 2 times per turn)</style>\n[StartBattle] Gain <style=\"highlight\">30%</style> of missing PV as Shield (once per turn)",
+          "name": "Riscaldamento nell'Est",
+          "desc": "<style=\"highlight\">[StartBattle] Il comportamento dell'Abilità cambia in base alla Rison-A Invidia totale:\n- A 4+ somma di Rison-A, usa 'Ripaga con Interesse' come Contrattacco\n- A 6+ somma di Rison-A, usa 'Scrivete tutto' come Contrattacco\nSi attiva a partire dallo Slot Abilità più a sinistra. Si attiva 2 volte per turno)</style>\n[StartBattle] Ottiene <style=\"highlight\">30%</style> dei suoi PV mancanti come Scudo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1457,14 +1457,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 }
               ]
             }
@@ -1473,19 +1473,19 @@
         {
           "level": 2,
           "name": "Adherence to Propriety.",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 (somma di [Combustion] e [Vibration] sul bersaglio) (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 }
               ]
             }
@@ -1494,19 +1494,19 @@
         {
           "level": 4,
           "name": "Adherence to Propriety.",
-          "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n<style=\"highlight\">[WhenUse] If target has 'Unique Tremor' as [Vibration], Clash Power +1</style>",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 (somma di [Combustion] e [Vibration] sul bersaglio) (max 2)\n<style=\"highlight\">[WhenUse] Se la [Vibration] del bersaglio è '[Vibration] Speciale', Potere Scontro +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 }
               ]
             }
@@ -1520,22 +1520,22 @@
         {
           "level": 1,
           "name": "Respect the Thumb.",
-          "desc": "[WhenUse] If target has 6+ (sum of [Combustion] and [Vibration]), Coin Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ (somma di [Combustion] e [Vibration]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -1544,25 +1544,25 @@
         {
           "level": 2,
           "name": "Respect the Thumb.",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 (somma di [Combustion] e [Vibration] sul bersaglio) (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio ha 10+ [VibrationIgnition], infligge +1 Conteggio [Combustion]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1571,25 +1571,25 @@
         {
           "level": 4,
           "name": "Respect the Thumb.",
-          "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 4 (sum of [Combustion] and [Vibration] on target) (max 30%)\n[WhenUse] If target has 10+ 'Unique Tremor', Base Power +2</style>",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 (somma di [Combustion] e [Vibration] sul bersaglio) (max 2)\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 4 (somma di [Combustion] e [Vibration] sul bersaglio) (max 30%)\n[WhenUse] Se il bersaglio ha 10+ '[Vibration] Speciale', Potere Base +2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict <style=\"highlight\">+2</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [VibrationIgnition], infligge <style=\"highlight\">+2</style> Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1603,62 +1603,62 @@
         {
           "level": 3,
           "name": "Thruster Compression",
-          "desc": "[WhenUse] Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] At 3+ [FireBulletPropellant], Base Power +1",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 (somma di [Combustion] e [Vibration] sul bersaglio) (max 2)\n[WhenUse] A 3+ [FireBulletPropellant], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [FireBulletPropellant]"
+                  "desc": "Consuma 1 [FireBulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +20% damage"
+                  "desc": "Se questa unità ha consumato [FireBulletPropellant] a causa dell'effetto di questa Moneta, infligge +20% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [FireBulletPropellant]"
+                  "desc": "Consuma 1 [FireBulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +20% damage"
+                  "desc": "Se questa unità ha consumato [FireBulletPropellant] a causa dell'effetto di questa Moneta, infligge +20% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [FireBulletPropellant]"
+                  "desc": "Consuma 1 [FireBulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +20% damage"
+                  "desc": "Se questa unità ha consumato [FireBulletPropellant] a causa dell'effetto di questa Moneta, infligge +20% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit spent [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Se questa unità ha consumato [FireBulletPropellant], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -1667,65 +1667,65 @@
         {
           "level": 4,
           "name": "Thruster Compression",
-          "desc": "[WhenUse] Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] At 3+ [FireBulletPropellant], <style=\"highlight\">Base Power +3, deal +30% damage, and convert the Coins to [SuperCoin]s</style>",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 (somma di [Combustion] e [Vibration] sul bersaglio) (max 2)\n[WhenUse] A 3+ [FireBulletPropellant], <style=\"highlight\">Potere Base +3, infligge +30% danni, e converte le Monete in [SuperCoin]s</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [FireBulletPropellant]"
+                  "desc": "Consuma 1 [FireBulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25%</style> damage"
+                  "desc": "Se questa unità ha consumato [FireBulletPropellant] a causa dell'effetto di questa Moneta, infligge <style=\"highlight\">+25%</style> danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+3</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+3</style> Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [FireBulletPropellant]"
+                  "desc": "Consuma 1 [FireBulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25%</style> damage"
+                  "desc": "Se questa unità ha consumato [FireBulletPropellant] a causa dell'effetto di questa Moneta, infligge <style=\"highlight\">+25%</style> danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [FireBulletPropellant]"
+                  "desc": "Consuma 1 [FireBulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25%</style> damage"
+                  "desc": "Se questa unità ha consumato [FireBulletPropellant] a causa dell'effetto di questa Moneta, infligge <style=\"highlight\">+25%</style> danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit spent [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Se questa unità ha consumato [FireBulletPropellant], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Skill spent 3 [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa Abilità ha consumato 3 [FireBulletPropellant], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
                 }
               ]
             }
@@ -1739,7 +1739,7 @@
         {
           "level": 1,
           "name": "Ferrous Guard",
-          "desc": "Inflict 1 [Vibration] against the Attacker when hit as long as this unit has remaining Shield (3 times per turn)",
+          "desc": "Infligge 1 [Vibration] contro l'attaccante quando subisce un colpo finché questa unità ha ancora uno Scudo (3 volte per turno)",
           "coinlist": [
             {}
           ]
@@ -1747,7 +1747,7 @@
         {
           "level": 4,
           "name": "Ferrous Guard",
-          "desc": "Inflict <style=\"highlight\">2</style> [Vibration] against the Attacker when hit as long as this unit has remaining Shield (<style=\"highlight\">4</style> times per turn)",
+          "desc": "Infligge <style=\"highlight\">2</style> [Vibration] contro l'attaccante quando subisce un colpo finché questa unità ha ancora uno Scudo (<style=\"highlight\">4</style> volte per turno)",
           "coinlist": [
             {}
           ]
