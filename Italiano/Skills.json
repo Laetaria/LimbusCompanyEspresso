@@ -500,7 +500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+50% Danni con un Colpo Critico"
+                  "desc": "+50% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -523,7 +523,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+70% Danni con un Colpo Critico"
+                  "desc": "+70% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -552,7 +552,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+70% Danni con un Colpo Critico"
+                  "desc": "+70% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -8551,8 +8551,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], Riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nSe la Moneta viene Riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se Riusata.\nSe la Moneta viene Riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
                 }
               ]
             }
@@ -8573,8 +8573,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene riusata\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], Riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene Riusata\nSe la Moneta viene Riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion].\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se Riusata.\nSe la Moneta viene Riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
                 }
               ]
             }
@@ -8595,8 +8595,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene riusata\nSe la Moneta viene riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
-                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion]\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se riusata.\nSe la Moneta viene riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]\nA 3+ Conteggio [Charge], Riusa questa Moneta se è uscita Testa (Fino a 2 volte)\nInfligge 2 [Vibration] in più ogni volta che la Moneta viene Riusata\nSe la Moneta viene Riusata due volte, infligge [Vibration], poi causa [VibrationExplosion]\nDopo [VibrationExplosion], riduce il Conteggio [Vibration] di 1",
+                  "summary": "[OnSucceedAttack] Causa [VibrationExplosion]\nRiusa una Moneta secondo le condizioni; Infligge +2 [Vibration] se Riusata.\nSe la Moneta viene Riusata due volte, causa [VibrationExplosion], poi riduce il Conteggio [Vibration]"
                 }
               ]
             }
@@ -10877,7 +10877,7 @@
         {
           "level": 4,
           "name": "Flèche",
-          "desc": "[WhenUse] Ottiene 2 [Agility] il turno successivo\n[WinDuel] Infligge più danni in base al numero di Scontri (+5% per numero di Scontri, Max 50%)",
+          "desc": "[WhenUse] Ottiene 2 [Agility] il turno successivo\n[WinDuel] Infligge più danni in base al Numero di Scontri (+5% per Numero di Scontri, Max 50%)",
           "coinlist": [
             {},
             {
@@ -10897,7 +10897,7 @@
         {
           "level": 3,
           "name": "Salut!",
-          "desc": "A Velocità 10+, Potere Moneta +2\n[WinDuel] Infligge più danni in base al numero di Scontri (+5% per numero di Scontri, Max 50%)",
+          "desc": "A Velocità 10+, Potere Moneta +2\n[WinDuel] Infligge più danni in base al Numero di Scontri (+5% per Numero di Scontri, Max 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -10912,7 +10912,7 @@
         {
           "level": 4,
           "name": "Salut!",
-          "desc": "A Velocità 10+, Potere Moneta +3\n[WinDuel] Infligge più danni in base al numero di Scontri (+10% per numero di Scontri, Max 100%)",
+          "desc": "A Velocità 10+, Potere Moneta +3\n[WinDuel] Infligge più danni in base al Numero di Scontri (+10% per Numero di Scontri, Max 100%)",
           "coinlist": [
             {
               "coindescs": [

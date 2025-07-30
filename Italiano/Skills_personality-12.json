@@ -6,13 +6,13 @@
         {
           "level": 1,
           "name": "Standoff",
-          "desc": "[WhenUse] Gain 2 Defense Level Up",
+          "desc": "[WhenUse] Ottiene 2 [DefenseUp]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 Haste next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -21,13 +21,13 @@
         {
           "level": 2,
           "name": "Standoff",
-          "desc": "[WhenUse] Gain 2 Defense Level Up\n[DefeatDuel] Gain Shield by (3 * Defense Level Up on self); Gain 1 Defense Level Up next turn",
+          "desc": "[WhenUse] Ottiene 2 [DefenseUp]\n[DefeatDuel] Ottiene Scudo pari a (3 * [DefenseUp] su di sé); Ottiene 1 [DefenseUp] il turno successivo",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Haste next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -36,13 +36,13 @@
         {
           "level": 4,
           "name": "Standoff",
-          "desc": "[WhenUse] Gain 2 Defense Level Up\n[DefeatDuel] Gain Shield by (5 * Defense Level Up on self); Gain 2 Defense Level Up next turn",
+          "desc": "[WhenUse] Ottiene 2 [DefenseUp]\n[DefeatDuel] Ottiene Scudo pari a (5 * [DefenseUp] su di sé); Ottiene 2 [DefenseUp] il turno successivo",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 Haste next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Agility] il turno successivo"
                 }
               ]
             }
@@ -56,19 +56,19 @@
         {
           "level": 1,
           "name": "Flexible Suppression",
-          "desc": "[WhenUse] Gain 2 Defense Level Up",
+          "desc": "[WhenUse] Ottiene 2 [DefenseUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [DefenseUp] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [DefenseUp] il turno successivo"
                 }
               ]
             },
@@ -76,7 +76,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "At 6+ Defense Level Up, deal +20% damage"
+                  "desc": "A 6+ [DefenseUp], infligge +20% danni"
                 }
               ]
             }
@@ -85,19 +85,19 @@
         {
           "level": 2,
           "name": "Flexible Suppression",
-          "desc": "[WhenUse] Gain 3 Defense Level Up\n[WhenUse] Gain +2 Aggro to this Skill Slot next turn",
+          "desc": "[WhenUse] Ottiene 3 [DefenseUp]\n[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DefenseUp] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DefenseUp] il turno successivo"
                 }
               ]
             },
@@ -105,7 +105,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "At 6+ Defense Level Up, deal +30% damage"
+                  "desc": "A 6+ [DefenseUp], infligge +30% danni"
                 }
               ]
             }
@@ -114,19 +114,19 @@
         {
           "level": 4,
           "name": "Flexible Suppression",
-          "desc": "[WhenUse] Gain 3 Defense Level Up\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn\nAt 6+ Defense Level Up, Clash Power +1",
+          "desc": "[WhenUse] Ottiene 3 [DefenseUp]\n[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\nA 6+ [DefenseUp], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DefenseUp] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DefenseUp] il turno successivo"
                 }
               ]
             },
@@ -134,7 +134,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "At 6+ Defense Level Up, deal +40% damage"
+                  "desc": "A 6+ [DefenseUp], infligge +40% danni"
                 }
               ]
             }
@@ -148,14 +148,14 @@
         {
           "level": 3,
           "name": "Guardian",
-          "desc": "[WhenUse] Apply 2 Defense Power Up and 3 Defense Level Up to all allies\nAt 6+ Defense Level Up, Coin Power +1\nAt 10+ Defense Level Up, deal +30% damage",
+          "desc": "[WhenUse] Applica 2 Defense Power Up and 3 [DefenseUp] a tutti gli alleati\nA 6+ [DefenseUp], Potere Moneta +1\nA 10+ [DefenseUp], infligge +30% danni",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 3 Defense Level Up to all allies next turn"
+                  "desc": "[OnSucceedAttack] Applica 3 [DefenseUp] a tutti gli alleati il turno successivo"
                 }
               ]
             }
@@ -164,14 +164,14 @@
         {
           "level": 4,
           "name": "Guardian",
-          "desc": "[WhenUse] Apply 2 Defense Power Up and 3 Defense Level Up to all allies\nCoin Power +1 per 6 Defense Level Up (Max 3)\nAt 10+ Defense Level Up, deal +50% damage",
+          "desc": "[WhenUse] Applica 2 Defense Power Up and 3 [DefenseUp] a tutti gli alleati\nPotere Moneta +1 per 6 [DefenseUp] (Max 3)\nA 10+ [DefenseUp], infligge +50% danni",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 3 Defense Level Up to all allies next turn"
+                  "desc": "[OnSucceedAttack] Applica 3 [DefenseUp] a tutti gli alleati il turno successivo"
                 }
               ]
             }
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "The Best Defense",
-          "desc": "[StartBattle] Gain Shield by (2 * Defense Level Up on self)",
+          "desc": "[StartBattle] Ottiene Scudo pari a (2 * [DefenseUp] su di sé)",
           "coinlist": [
             {}
           ]
@@ -193,7 +193,7 @@
         {
           "level": 4,
           "name": "The Best Defense",
-          "desc": "[StartBattle] Gain Shield by (2 * Defense Level Up on self)\n[WhenUse] Gain +5 Aggro to this Skill Slot next turn",
+          "desc": "[StartBattle] Ottiene Scudo pari a (2 * [DefenseUp] su di sé)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {}
           ]
@@ -206,7 +206,7 @@
         {
           "level": 1,
           "name": "Negotiation Start",
-          "desc": "[WhenUse] Gain 2 Poise",
+          "desc": "[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -216,7 +216,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -225,22 +225,22 @@
         {
           "level": 2,
           "name": "Negotiation Start",
-          "desc": "[WhenUse] Gain 3 Poise",
+          "desc": "[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -249,22 +249,22 @@
         {
           "level": 4,
           "name": "Negotiation Start",
-          "desc": "[WhenUse] Gain 3 Poise\nIf target has 7+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, Coin Power +1",
+          "desc": "[WhenUse] Ottiene 3 [Breath]\nSe il bersaglio ha 7+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -278,22 +278,22 @@
         {
           "level": 1,
           "name": "Unilateral Business",
-          "desc": "[WhenUse] Gain +2 Poise Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 3 Poise"
+                  "desc": "[OnSucceedAttackHead] Ottiene 3 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -302,28 +302,28 @@
         {
           "level": 2,
           "name": "Unilateral Business",
-          "desc": "[WhenUse] Gain +3 Poise Count",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 4 Poise"
+                  "desc": "[OnSucceedAttackHead] Ottiene 4 [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "+30% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -332,28 +332,28 @@
         {
           "level": 4,
           "name": "Unilateral Business",
-          "desc": "Coin Power +1 for every 7 Bleed on target (Max 2)\n[WhenUse] Gain +3 Poise Count",
+          "desc": "Potere Moneta +1 per ogni 7 [Laceration] sul bersaglio (Max 2)\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 Poise"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bleed"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "+50% Damage on Critical Hit"
+                  "desc": "+50% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -367,22 +367,22 @@
         {
           "level": 3,
           "name": "Foregone Conclusion",
-          "desc": "[WhenUse] Gain 1 Poise per 3 Bleed on target (Max 5)\nAt 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Poise</color></color></link></u>, Coin Power +1",
+          "desc": "[WhenUse] Ottiene 1 [Breath] per 3 [Laceration] sul bersaglio (Max 5)\nA 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u>, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +2 Bleed Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 Ammo"
+                  "desc": "Consuma 1 [Bullet]"
                 },
                 {
-                  "desc": "+50% Damage on Critical Hit"
+                  "desc": "+50% Danni sul Colpo Critico"
                 }
               ]
             }
@@ -391,25 +391,25 @@
         {
           "level": 4,
           "name": "Foregone Conclusion",
-          "desc": "[WhenUse] Gain 1 Poise for every 3 Bleed on target (Max 10)\nGain Coin Power +1 for every 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Poise</color></color></link></u> on self (Max +3)",
+          "desc": "[WhenUse] Ottiene 1 [Breath] per ogni 3 [Laceration] sul bersaglio (Max 10)\nOttiene Potere Moneta +1 per ogni 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u> su di sé (Max +3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +2 Bleed Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 Ammo"
+                  "desc": "Consuma 1 [Bullet]"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "+100% Danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 1 Plus Coin Boost next turn"
+                  "desc": "[EnemyKill] Ottiene 1 [PlusCoinValueUp] il turno successivo"
                 }
               ]
             }
@@ -423,7 +423,7 @@
         {
           "level": 1,
           "name": "Take a Breather",
-          "desc": "[OnSucceedEvade] Gain 1 Poise (Max 3 per turn)",
+          "desc": "[OnSucceedEvade] Ottiene 1 [Breath] (Max 3 per turno)",
           "coinlist": [
             {}
           ]
@@ -431,7 +431,7 @@
         {
           "level": 4,
           "name": "Take a Breather",
-          "desc": "[OnSucceedEvade] Gain 1 Poise (Max 5 per turn)",
+          "desc": "[OnSucceedEvade] Ottiene 1 [Breath] (Max 5 per turno)",
           "coinlist": [
             {}
           ]
@@ -444,12 +444,12 @@
         {
           "level": 1,
           "name": "Lenticular Rend",
-          "desc": "[WinDuel] Inflict 1 [Laceration]",
+          "desc": "[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -458,12 +458,12 @@
         {
           "level": 2,
           "name": "Lenticular Rend",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 7+ [Laceration], Clash Power +1</style>\n[WinDuel] Inflict 1 [Laceration]",
+          "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +1</style>\n[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -472,12 +472,12 @@
         {
           "level": 3,
           "name": "Lenticular Rend",
-          "desc": "[WhenUse_Force] <color=#EBCAA2>If target has 7+ [Laceration], Clash Power +1</color>\n[WinDuel] Inflict 1 [Laceration]",
+          "desc": "[WhenUse_Force] <color=#EBCAA2>Se il bersaglio ha 7+ [Laceration], Potere Scontro +1</color>\n[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -486,12 +486,12 @@
         {
           "level": 4,
           "name": "Lenticular Rend",
-          "desc": "[WhenUse] If target has 7+ [Laceration], Clash Power +<style=\"highlight\">2</style>\n[WinDuel] Inflict 1 [Laceration]",
+          "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +<style=\"highlight\">2</style>\n[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -510,17 +510,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [Laceration], inflict 1 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Laceration], infligge 1 [Reduction] il turno successivo"
                 }
               ]
             }
@@ -534,17 +534,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [Laceration], inflict 1 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Laceration], infligge 1 [Reduction] il turno successivo"
                 }
               ]
             }
@@ -553,22 +553,22 @@
         {
           "level": 4,
           "name": "Shadow Cloud",
-          "desc": "[WhenUse] If target has 7+ [Laceration], Clash Power +2",
+          "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 7+ [Laceration], inflict 1 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 7+ [Laceration], infligge 1 [Reduction] il turno successivo"
                 }
               ]
             }
@@ -582,32 +582,32 @@
         {
           "level": 3,
           "name": "Shadowcloud Shattercleave",
-          "desc": "[WhenUse] If target has 7+ [Laceration], Clash Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 7+ [Laceration], inflict 1 Offense Level Down next turn "
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 7+ [Laceration], infligge 1 [AttackDown] il turno successivo "
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 7+ [Laceration], inflict 1 Offense Level Down next turn "
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 7+ [Laceration], infligge 1 [AttackDown] il turno successivo "
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [Laceration], inflict 1 Plus Coin Drop next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Laceration], infligge 1 [PlusCoinValueDown] il turno successivo"
                 }
               ]
             }
@@ -616,35 +616,35 @@
         {
           "level": 4,
           "name": "Shadowcloud Shattercleave",
-          "desc": "[WhenUse] If target has 7+ [Laceration], Clash Power +1\n[WhenUse] If target has 10+ [Laceration], Coin Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 7+ [Laceration], inflict 1 Offense Level Down next turn "
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 7+ [Laceration], infligge 1 [AttackDown] il turno successivo "
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 7+ [Laceration], inflict 1 Offense Level Down next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 7+ [Laceration], infligge 1 [AttackDown] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has <style=\"highlight\">7</style>+ [Laceration], inflict 1 Plus Coin Drop next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha <style=\"highlight\">7</style>+ [Laceration], infligge 1 [PlusCoinValueDown] il turno successivo"
                 }
               ]
             }
@@ -684,7 +684,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -693,12 +693,12 @@
         {
           "level": 2,
           "name": "Sabre Slash",
-          "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +2",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -707,12 +707,12 @@
         {
           "level": 4,
           "name": "Sabre Slash",
-          "desc": "[WhenUse] Coin Power +1 for every 3 [Sinking] on target (max 2)\n[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)\n[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -726,19 +726,19 @@
         {
           "level": 1,
           "name": "Remise",
-          "desc": "[WinDuel] Inflict +1 [Sinking] Count",
+          "desc": "[WinDuel] Infligge +1 Conteggio [Sinking]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Sinking], ottiene 1 [Agility] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -747,19 +747,19 @@
         {
           "level": 2,
           "name": "Remise",
-          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +1 [Sinking] Count",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[WinDuel] Infligge +1 Conteggio [Sinking]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Sinking], ottiene 1 [Agility] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -768,19 +768,19 @@
         {
           "level": 4,
           "name": "Remise",
-          "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +1\n[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +2 [Sinking] Count",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[WinDuel] Infligge +2 Conteggio [Sinking]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Sinking], ottiene 1 [Agility] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -794,33 +794,33 @@
         {
           "level": 3,
           "name": "Nightmare Hunt",
-          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[EndSkill] If target is Staggered, inflict +3 [Sinking] Count\n[EndSkill] If target is defeated, inflict +3 [Sinking] Count on 1 random enemy",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[EndSkill] Se il bersaglio Vacilla, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] ad 1 nemico casuale",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb 10 [Sinking] from the target and gain 1 [PlusCoinValueUp] and 1 [AttackDmgUp] next turn. 50% chance to gain the above effects without absorbing [Sinking]"
+                  "desc": "[OnSucceedAttack] Assorbe 10 [Sinking] dal bersaglio e ottiene 1 [PlusCoinValueUp] e 1 [AttackDmgUp] il turno successivo. 50% probabilità di ottenere i suddetti effetti senza assorbire [Sinking]"
                 }
               ]
             }
@@ -829,33 +829,33 @@
         {
           "level": 4,
           "name": "Nightmare Hunt",
-          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 3)\n[EndSkill] If target is Staggered, inflict +3 [Sinking] Count\n[EndSkill] If target is defeated, inflict +3 [Sinking] Count on 2 random enemies",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 3)\n[EndSkill] Se il bersaglio Vacilla, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] on 2 random nemici",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb 10 [Sinking] from the target and gain 1 [PlusCoinValueUp] and 3 [AttackDmgUp] next turn. 50% chance to gain the above effects without absorbing [Sinking]"
+                  "desc": "[OnSucceedAttack] Assorbe 10 [Sinking] dal bersaglio e ottiene 1 [PlusCoinValueUp] e 3 [AttackDmgUp] il turno successivo. 50% probabilità di ottenere i suddetti effetti senza assorbire [Sinking]"
                 }
               ]
             }
@@ -869,7 +869,7 @@
         {
           "level": 1,
           "name": "Do You Wish to Weep?",
-          "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Sinking], Potere Moneta +1",
           "coinlist": [
             {}
           ]
@@ -877,7 +877,7 @@
         {
           "level": 4,
           "name": "Do You Wish to Weep?",
-          "desc": "[WhenUse] Coin Power +1 for every 3 [Sinking] on target (max 3)",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 3)",
           "coinlist": [
             {}
           ]
@@ -890,22 +890,22 @@
         {
           "level": 1,
           "name": "Sacrifice for the Family",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 10 [Laceration]\n- At 50%+ PV, gain +15 additional [Laceration]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 10 [Laceration]\n- A 50%+ PV, ottiene 15 [Laceration] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [BloodyHandGregFirst]"
                 }
               ]
             }
@@ -914,22 +914,22 @@
         {
           "level": 2,
           "name": "Sacrifice for the Family",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain 10 [Laceration]\n- At 50%+ PV, gain 15 additional [Laceration]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 10 [Laceration]\n- A 50%+ PV, ottiene 15 [Laceration] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">2</style> [BloodyHandGregFirst]"
                 }
               ]
             }
@@ -938,22 +938,22 @@
         {
           "level": 4,
           "name": "Sacrifice for the Family",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[WhenUse] Gain 10 [Laceration]\n- At 50%+ PV, gain 15 additional [Laceration]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 10 [Laceration]\n- A 50%+ PV, ottiene 15 [Laceration] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">3</style> [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">3</style> [BloodyHandGregFirst]"
                 }
               ]
             }
@@ -967,22 +967,22 @@
         {
           "level": 1,
           "name": "Suffocating Guilt",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 10 [Laceration]\n[WhenUse] At 5+ [WornHeartGreg], consume up to 60 [BloodDinner]; then, gain 1 [BloodyHandGregFirst] for every 6 [BloodDinner] consumed\n- At less than 5 [WornHeartGreg], gain 10 [Laceration] and 2 [BloodyHandGregFirst]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [BloodyHandGregFirst]"
                 }
               ]
             }
@@ -991,22 +991,22 @@
         {
           "level": 2,
           "name": "Suffocating Guilt",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain 10 [Laceration]\n[WhenUse] At 5+ [WornHeartGreg], consume up to 60 [BloodDinner]; then, gain 1 [BloodyHandGregFirst] for every 6 [BloodDinner] consumed\n- At less than 5 [WornHeartGreg], gain 10 [Laceration] and 2 [BloodyHandGregFirst]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">2</style> [BloodyHandGregFirst]"
                 }
               ]
             }
@@ -1015,22 +1015,22 @@
         {
           "level": 4,
           "name": "Suffocating Guilt",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[WhenUse] Gain 10 [Laceration]\n[WhenUse] At 5+ [WornHeartGreg], consume up to 60 [BloodDinner]; then, gain 1 [BloodyHandGregFirst] for every 6 [BloodDinner] consumed\n- At less than 5 [WornHeartGreg], gain 10 [Laceration] and <style=\"highlight\">3</style> [BloodyHandGregFirst]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e <style=\"highlight\">3</style> [BloodyHandGregFirst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">3</style> [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">3</style> [BloodyHandGregFirst]"
                 }
               ]
             }
@@ -1044,32 +1044,32 @@
         {
           "level": 3,
           "name": "The Unforgivable Sin",
-          "desc": "On Hit with this Skill: heal 50% of the PV damage dealt (max 100 per Skill)\n[WhenUse] Deal +1% damage for every 1% missing PV on self (max 60%)\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume every excess Stack of [BloodyHandGregFirst] past 10 Stack to gain the following effects:\n- Heal (Stacks consumed x 3) PV on self\n- If this unit consumed 10+ Stack, Coin Power +1\n[WhenUse] Gain 10 [Laceration]\n[EndSkill] Heal 10% PV on self",
+          "desc": "Sul Colpo con questa Abilità: si cura di 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge +1% danni per ogni 1% di PV mancanti su di sé (max 60%)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura di (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura di 10% PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [BloodyHandGregFirst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1078,32 +1078,32 @@
         {
           "level": 4,
           "name": "The Unforgivable Sin",
-          "desc": "On Hit with this Skill: heal 50% of the PV damage dealt (max 100 per Skill)\n[WhenUse] Deal <style=\"highlight\">+1.5%</style> more damage for every 1% missing PV on self <style=\"highlight\">(max 90%)</style>\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume every excess Stack of [BloodyHandGregFirst] past 10 Stack to gain the following effects:\n- Heal (Stacks consumed x 3) PV on self\n- If this unit consumed 10+ Stack, Coin Power +1\n<style=\"highlight\">- If this unit consumed 20 Stack, Reuse the final Coin</style>\n[WhenUse] Gain 10 [Laceration]\n[EndSkill] Heal 10% PV on self",
+          "desc": "Sul Colpo con questa Abilità: si cura di 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge <style=\"highlight\">+1.5%</style> more danni per ogni 1% di PV mancanti su di sé <style=\"highlight\">(max 90%)</style>\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura di (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n<style=\"highlight\">- Se questa unità ha consumato 20 Stack, Riusa l'ultima Moneta</style>\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura di 10% PV",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">3</style> [BloodyHandGregFirst]"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">3</style> [BloodyHandGregFirst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 }
               ]
             }
@@ -1117,7 +1117,7 @@
         {
           "level": 1,
           "name": "Faded Patience",
-          "desc": "[StartBattle] Gain 3 [WornHeartGreg] (once per turn)",
+          "desc": "[StartBattle] Ottiene 3 [WornHeartGreg] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1131,7 +1131,7 @@
         {
           "level": 4,
           "name": "Faded Patience",
-          "desc": "<style=\"highlight\">[StartBattle] At 40%+ PV, gain 5 [Laceration] and activate [Laceration] up to 3 times on self (once per turn; lose [Laceration] Count equal to the number of times it was activated)\n[StartBattle] At less than 40% PV, consume up to 20 [BloodDinner] and heal the same value as PV (once per turn)</style>\n[StartBattle] Gain 3 [WornHeartGreg] (once per turn)",
+          "desc": "<style=\"highlight\">[StartBattle] A 40%+ PV, ottiene 5 [Laceration] e attiva [Laceration] fino a 3 volte su di sé (una volta per turno; perde Conteggio [Laceration] pari al numero di volte che si è attivato)\n[StartBattle] A meno di 40% PV, consuma fino a 20 [BloodDinner] e si cura di altrettanti PV (una volta per turno)</style>\n[StartBattle] Ottiene 3 [WornHeartGreg] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1150,19 +1150,19 @@
         {
           "level": 1,
           "name": "Flamethrow",
-          "desc": "If target has 6+ [Combustion], Coin Power +1",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Consuma 15 [FirePunchFuel] e infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -1171,19 +1171,19 @@
         {
           "level": 2,
           "name": "Flamethrow",
-          "desc": "If target has <style=\"highlight\">3</style>+ [Combustion], Coin Power +1",
+          "desc": "Se il bersaglio ha <style=\"highlight\">3</style>+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Consuma 15 [FirePunchFuel] e infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -1192,19 +1192,19 @@
         {
           "level": 4,
           "name": "Flamethrow",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 3 Burn on target (max 2)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 3 [Combustion] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +<style=\"highlight\">2</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Consuma 15 [FirePunchFuel] e infligge +<style=\"highlight\">2</style> Conteggio [Combustion]"
                 }
               ]
             }
@@ -1218,25 +1218,25 @@
         {
           "level": 1,
           "name": "I'll burn away every last drop of your filthy blood",
-          "desc": "If target has 6+ [Combustion], Coin Power +1\nWhen in [FirePunchFuelOverheated] state, deal +10% damage with Coins that consumed [FirePunchFuel]",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Moneta +1\nQuando è in stato di [FirePunchFuelOverheated], infligge +10% danni con le Monete che hanno consumato [FirePunchFuel]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict 1 [Combustion] against 2 enemies with the least [Combustion] Potency"
+                  "desc": "[OnSucceedAttack] Consuma 10 [FirePunchFuel] e infligge 1 [Combustion] contro i 2 nemici con meno Potenza [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against 1 enemy with the least [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Consuma 10 [FirePunchFuel] e infligge +1 Conteggio [Combustion] contro 1 nemico con meno Conteggio [Combustion]"
                 }
               ]
             }
@@ -1245,25 +1245,25 @@
         {
           "level": 2,
           "name": "I'll burn away every last drop of your filthy blood",
-          "desc": "If target has 6+ [Combustion], Coin Power +1\nCoins that consumed [FirePunchFuel] deal +10% damage\n<style=\"highlight\">- When in [FirePunchFuelOverheated] state, deal +20% damage instead</style>",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Moneta +1\nLe Monete che hanno consumato [FirePunchFuel] infliggono +10% danni\n<style=\"highlight\">- Quando è in stato di [FirePunchFuelOverheated], invece infligge +20% danni</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict 1 [Combustion] against 2 enemies with the least [Combustion] Potency<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Consuma 10 [FirePunchFuel] e infligge 1 [Combustion] contro i 2 nemici con meno Potenza [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against <style=\"highlight\">2 enemies</style> with the least [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Consuma 10 [FirePunchFuel] e infligge +1 Conteggio [Combustion] contro i <style=\"highlight\">2 nemici</style> con meno Conteggio [Combustion]"
                 }
               ]
             }
@@ -1272,25 +1272,25 @@
         {
           "level": 4,
           "name": "I'll burn away every last drop of your filthy blood",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)</style>\nCoins that consumed [FirePunchFuel] deal +<style=\"highlight\">15</style>% damage\n- When in [FirePunchFuelOverheated] state, deal +<style=\"highlight\">30</style>% damage instead",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Combustion] sul bersaglio (max 2)</style>\nLe Monete che hanno consumato [FirePunchFuel] infliggono +<style=\"highlight\">15</style>% danni\n- Quando è in stato di [FirePunchFuelOverheated], invece infligge +<style=\"highlight\">30</style>% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict <style=\"highlight\">2</style> [Combustion] against 2 enemies with the least [Combustion] Potency"
+                  "desc": "[OnSucceedAttack] Consuma 10 [FirePunchFuel] e infligge <style=\"highlight\">2</style> [Combustion] contro i 2 nemici con meno Potenza [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against 2 enemies with the least [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Consuma 10 [FirePunchFuel] e infligge +1 Conteggio [Combustion] contro i 2 nemici con meno Conteggio [Combustion]"
                 }
               ]
             }
@@ -1304,26 +1304,26 @@
         {
           "level": 3,
           "name": "Firefist",
-          "desc": "If target has 3+ [Combustion] Count, Coin Power +1\n[WhenUse] Base Power +1 for every 6 [Combustion] on target (max 2)\n[WhenUse] Consume up to 25 [FirePunchFuel] and deal +1% damage for every [FirePunchFuel] consumed (max 25%)\n- When in [FirePunchFuelOverheated] state, deal +3% damage for every [FirePunchFuel] consumed instead (max 75%)\n[EndSkill] If target is defeated, or if this Skill consumed [FirePunchFuel], gain 1 [HitDamageUp] next turn",
+          "desc": "Se il bersaglio ha 3+ Conteggio [Combustion], Potere Moneta +1\n[WhenUse] Potere Base +1 per ogni 6 [Combustion] sul bersaglio (max 2)\n[WhenUse] Consuma fino a 25 [FirePunchFuel] e infligge +1% danni per ogni [FirePunchFuel] consumato (max 25%)\n- Quando è in stato di [FirePunchFuelOverheated], invece infligge +3% danni per ogni [FirePunchFuel] consumato (max 75%)\n[EndSkill] Se il bersaglio viene sconfitto, o se questa Abilità ha consumato [FirePunchFuel], ottiene 1 [HitDamageUp] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict 1 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se questa unità ha consumato [FirePunchFuel], infligge 1 [Combustion] e +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict 1 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se questa unità ha consumato [FirePunchFuel], infligge 1 [Combustion] e +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% damage for every [FirePunchFuel] consumed by this Skill (max 25%)\n- When in [FirePunchFuelOverheated] state, deal +3% damage for every [FirePunchFuel] consumed instead (max 75%)"
+                  "desc": "[OnSucceedAttack] Infligge +1% danni per ogni [FirePunchFuel] consumato da questa Abilità (max 25%)\n- Quando è in stato di [FirePunchFuelOverheated], invece infligge +3% danni per ogni [FirePunchFuel] consumato (max 75%)"
                 }
               ]
             }
@@ -1332,26 +1332,26 @@
         {
           "level": 4,
           "name": "Firefist",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 3 [Combustion] Count on target (max 2)</style>\n[WhenUse] Base Power +1 for every 6 [Combustion] on target (max <style=\"highlight\">3</style>)\n[WhenUse] Consume up to 25 [FirePunchFuel] and deal +<style=\"highlight\">2</style>% damage for every [FirePunchFuel] consumed (max <style=\"highlight\">50</style>%)\n- When in [FirePunchFuelOverheated] state, deal +<style=\"highlight\">4</style>% damage for every [FirePunchFuel] consumed (max <style=\"highlight\">100</style>%)\n[EndSkill] If target is defeated, or if this Skill consumed [FirePunchFuel], gain <style=\"highlight\">2</style> [HitDamageUp] next turn",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 3 Conteggio [Combustion] sul bersaglio (max 2)</style>\n[WhenUse] Potere Base +1 per ogni 6 [Combustion] sul bersaglio (max <style=\"highlight\">3</style>)\n[WhenUse] Consuma fino a 25 [FirePunchFuel] e infligge +<style=\"highlight\">2</style>% danni per ogni [FirePunchFuel] consumato (max <style=\"highlight\">50</style>%)\n- Quando è in stato di [FirePunchFuelOverheated], infligge +<style=\"highlight\">4</style>% danni per ogni [FirePunchFuel] consumato (max <style=\"highlight\">100</style>%)\n[EndSkill] Se il bersaglio viene sconfitto, o se questa Abilità ha consumato [FirePunchFuel], ottiene <style=\"highlight\">2</style> [HitDamageUp] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict <style=\"highlight\">2</style> [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se questa unità ha consumato [FirePunchFuel], infligge <style=\"highlight\">2</style> [Combustion] e +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict <style=\"highlight\">2</style> [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se questa unità ha consumato [FirePunchFuel], infligge <style=\"highlight\">2</style> [Combustion] e +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +<style=\"highlight\">2</style>% damage for every [FirePunchFuel] consumed by this Skill (max <style=\"highlight\">50</style>%)\n- When in [FirePunchFuelOverheated] state, deal +<style=\"highlight\">4</style>% damage for every [FirePunchFuel] consumed instead (max <style=\"highlight\">100</style>%)"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style>% danni per ogni [FirePunchFuel] consumato da questa Abilità (max <style=\"highlight\">50</style>%)\n- Quando è in stato di [FirePunchFuelOverheated], invece infligge +<style=\"highlight\">4</style>% danni per ogni [FirePunchFuel] consumato (max <style=\"highlight\">100</style>%)"
                 }
               ]
             }
@@ -1365,12 +1365,12 @@
         {
           "level": 1,
           "name": "I have to keep going for big sis",
-          "desc": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene 100 [FirePunchFuel]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1379,12 +1379,12 @@
         {
           "level": 4,
           "name": "I have to keep going for big sis",
-          "desc": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene 100 [FirePunchFuel]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1398,19 +1398,19 @@
         {
           "level": 1,
           "name": "Snake Fang",
-          "desc": "[WhenUse] Gain +1 [Breath] Count",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1419,22 +1419,22 @@
         {
           "level": 2,
           "name": "Snake Fang",
-          "desc": "<style=\"highlight\">[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+          "desc": "<style=\"highlight\">[WhenUse] Se la somma della Potenza [Breath] su di sé e la Potenza [Burst] sul bersaglio è 10 o maggiore, Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Se questa unità ha [SnakeStance], infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             }
@@ -1443,22 +1443,22 @@
         {
           "level": 4,
           "name": "Snake Fang",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Se questa unità ha [SnakeStance], infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1472,29 +1472,29 @@
         {
           "level": 1,
           "name": "Blindsiding Cleave",
-          "desc": "[WinDuel] Inflict +1 [Burst] Count\n[WinDuel] Gain +1 [Breath] Count",
+          "desc": "[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison]"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison]"
                 }
               ]
             }
@@ -1503,32 +1503,32 @@
         {
           "level": 2,
           "name": "Blindsiding Cleave",
-          "desc": "<style=\"highlight\">[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1</style>\n[WinDuel] Inflict +1 [Burst] Count\n[WinDuel] Gain +<style=\"highlight\">2</style> [Breath] Count",
+          "desc": "<style=\"highlight\">[WhenUse] Se la somma della Potenza [Breath] su di sé e la Potenza [Burst] sul bersaglio è 10 o maggiore, Potere Moneta +1</style>\n[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 30+ [Breath], consuma 10 [Breath] su di sé per Riusare questa Moneta una volta (1 volta max)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1537,35 +1537,35 @@
         {
           "level": 4,
           "name": "Blindsiding Cleave",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)</style>\n[WinDuel] Inflict +<style=\"highlight\">2</style> [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 2)</style>\n[WinDuel] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A 30+ [Breath], consuma 10 [Breath] su di sé per Riusare questa Moneta una volta (1 volta max)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [SnakeStance]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [SnakeStance]</style>"
                 }
               ]
             }
@@ -1579,24 +1579,24 @@
         {
           "level": 3,
           "name": "Serpentshear Puncturing Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 4)\n- If this unit has [SnakeStance], Coin Power +1 for every 5 (sum of this unit's [Breath] Potency and target's [Burst] Potency) instead (max 6)\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] If target has 5+ [Burst], gain 5 [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every ([Breath] Potency on self + [Burst] Potency on target) (max 150%)"
+                  "desc": "Infligge +5% danni per ogni (Potenza [Breath] su di sé + Potenza [Burst] sul bersaglio) (max 150%)"
                 },
                 {
-                  "desc": "If this unit has [SnakeStance], deal +75% Damage on Critical Hit"
+                  "desc": "Se questa unità ha [SnakeStance], infligge +75% Danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce [BurstPoison] on target by 2"
+                  "desc": "[OnSucceedAttack] Riduce [BurstPoison] sul bersaglio di 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 3"
+                  "desc": "[CriticalOnSucceedAttack] Riduce [BurstPoison] sul bersaglio di 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison]"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison]"
                 }
               ]
             }
@@ -1605,27 +1605,27 @@
         {
           "level": 4,
           "name": "Serpentshear Puncturing Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 4)\n- If this unit has [SnakeStance], Coin Power +1 for every 5 (sum of this unit's [Breath] Potency and target's [Burst] Potency) instead (max 6)\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] If target has 5+ [Burst], gain 5 [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+10%</style> damage for every ([Breath] Potency on self + [Burst] Potency on target) <style=\"highlight\">(max 200%)</style>"
+                  "desc": "Infligge <style=\"highlight\">+10%</style> danni per ogni (Potenza [Breath] su di sé + Potenza [Burst] sul bersaglio) <style=\"highlight\">(max 200%)</style>"
                 },
                 {
-                  "desc": "If this unit has [SnakeStance], deal <style=\"highlight\">+100%</style> Damage on Critical Hit"
+                  "desc": "Se questa unità ha [SnakeStance], infligge <style=\"highlight\">+100%</style> Danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce [BurstPoison] on target by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Riduce [BurstPoison] sul bersaglio di 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 3<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Riduce [BurstPoison] sul bersaglio di 3<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +2 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +2 Conteggio [Burst]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1639,7 +1639,7 @@
         {
           "level": 1,
           "name": "Reversal Kick",
-          "desc": "[CanDuelGuard] \n[StartBattle] Gain 3 [SnakeStance] next turn",
+          "desc": "[CanDuelGuard] \n[StartBattle] Ottiene 3 [SnakeStance] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1653,7 +1653,7 @@
         {
           "level": 4,
           "name": "Reversal Kick",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 3 [SnakeStance] next turn\n<style=\"highlight\">[WhenUse] At 10+ [Breath] Count, Coin Power +1</style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 3 [SnakeStance] il turno successivo\n<style=\"highlight\">[WhenUse] A 10+ Conteggio [Breath], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
