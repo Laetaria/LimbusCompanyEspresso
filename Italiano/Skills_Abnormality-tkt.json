@@ -65,7 +65,7 @@
         {
           "level": 1,
           "name": "Estrazione",
-          "desc": "Quando si trova in stato di [TimeAcceleration], Potere Moneta +1\n[DefeatDuel] A meno del 75% dei PV, consuma 50 [LimitedTime] ed ottiene Potere Scontro +2 (una volta per turno)",
+          "desc": "Quando si trova in stato di [TimeAcceleration], Potere Moneta +1\n[WhenUse] A meno del 75% dei PV, consuma 50 [LimitedTime] ed ottiene Potere Scontro +2 (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -105,7 +105,7 @@
         {
           "level": 1,
           "name": "Mutilare",
-          "desc": "[DefeatDuel] A meno del 75% dei PV, consuma 75 [LimitedTime] ed ottiene Potere Scontro +2\n[BeforeAttack] Quando si trova in stato di [TimeAcceleration], ottiene +1 Peso Attacco",
+          "desc": "[WhenUse] A meno del 75% dei PV, consuma 75 [LimitedTime] ed ottiene Potere Scontro +2\n[BeforeAttack] Quando si trova in stato di [TimeAcceleration], ottiene +1 Peso Attacco",
           "coinlist": [
             {
               "coindescs": [
@@ -228,7 +228,7 @@
         {
           "level": 1,
           "name": "Estrazione",
-          "desc": "Quando si trova in stato di [TimeAcceleration], Potere Moneta +1\n[DefeatDuel] A meno del 75% dei PV, consuma 50 [OwnTime] ed ottiene Potere Scontro +2 (una volta per turno)",
+          "desc": "Quando si trova in stato di [TimeAcceleration], Potere Moneta +1\n[WhenUse] A meno del 75% dei PV, consuma 50 [OwnTime] ed ottiene Potere Scontro +2 (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Mutilare",
-          "desc": "[DefeatDuel] A meno del 75% dei PV, consuma [OwnTime] ed ottiene Potere Scontro +2\n[BeforeAttack] Quando si trova in stato di [TimeAcceleration], ottiene +1 Peso Attacco\n[BeforeAttack] A meno del 60% dei PV, consuma 10 [OwnTime] ottiene +1 Peso Attacco",
+          "desc": "[WhenUse] A meno del 75% dei PV, consuma [OwnTime] ed ottiene Potere Scontro +2\n[BeforeAttack] Quando si trova in stato di [TimeAcceleration], ottiene +1 Peso Attacco\n[BeforeAttack] A meno del 60% dei PV, consuma 10 [OwnTime] ottiene +1 Peso Attacco",
           "coinlist": [
             {
               "coindescs": [
