@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Have You No Shame?",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At 5+ [Vibration] Count, Clash Power +1",
+          "name": "Non Ti Vergogni?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -31,20 +31,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I See, You Have No Shame",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At 5+ [Vibration] Count, Clash Power +1",
+          "name": "Capisco, Sei Senza Vergogna",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             }
@@ -57,23 +57,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Can You Protect Them?",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At 5+ [Vibration] Count, Clash Power +1",
+          "name": "Li Puoi Proteggere?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ [Vibration] Count on self, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Vibration] su di sé, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -86,27 +86,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Can't Use That Weapon Now",
-          "desc": "[WhenUse] Gain +3 [Vibration] Count\n[WhenUse] At 5+ [Vibration] Count, Clash Power +1",
+          "name": "Non Posso Usare Quell'Arma Adesso",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationCollapse]"
                 }
               ]
             }
@@ -119,8 +119,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ready For A Beating?",
-          "desc": "Prioritizes targets with [VibrationCollapse]\n[WhenUse] Apply [Vibration] Count equal to [Vibration] Count on self to all other allies\n[WhenUse] Trigger [Switch_Vibration] on all allies(including this unit) to convert their [Vibration] to [VibrationDistribution]\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Pronti Per Prenderle?",
+          "desc": "Dà priorità ai bersagli con [VibrationCollapse]\n[WhenUse] Applica Conteggio [Vibration] pari al Conteggio [Vibration] su di sé a tutti gli altri alleati\n[WhenUse] Innesca [Switch_Vibration] su tutti gli alleati(inclusa questa unità) per convertire la loro [Vibration] in [VibrationDistribution]\n[DefeatDuel] Infligge -80% danni e i danni inflitti da questa abilità non fanno Vacillare il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 10 [Vibration]"
                 }
               ]
             },
@@ -152,7 +152,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationEcho]"
                 }
               ]
             }
@@ -165,8 +165,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[StartBattle] Gain 5 x ([Vibration] Count on self) Shield HP (max 60)",
+          "name": "Guardia",
+          "desc": "[StartBattle] Ottiene 5 x (Conteggio [Vibration] su di sé) Scudo PV (max 60)",
           "coinlist": [
             {
               "coindescs": [
@@ -184,39 +184,39 @@
       "levelList": [
         {
           "level": 1,
-          "name": "For the Greater Good",
-          "desc": "[CantDuel]\n[StartBattle] Draw all other allies' [Vibration] Count to self; [Vibration] on all allies expire\n[StartBattle] Gain 1 [AttackUp] for every 3 [Vibration] Count on self\n[WhenUse] Gain 10 [Vibration] Count",
+          "name": "Per Il Bene Superiore",
+          "desc": "[CantDuel]\n[StartBattle] Raccoglie il Conteggio [Vibration] di tutti gli alleati su di sé; la [Vibration] su tutti gli alleati si esaurisce\n[StartBattle] Ottiene 1 [AttackUp] per ogni 3 Conteggio [Vibration] su di sé\n[WhenUse] Ottiene 10 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 20% bonus Sloth damage for every [Vibration] Count on self"
+                  "desc": "[OnSucceedAttack] Infligge 20% danni Accidia in più per ogni Conteggio [Vibration] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 20% bonus Sloth damage for every [Vibration] Count on self"
+                  "desc": "[OnSucceedAttack] Infligge 20% danni Accidia in più per ogni Conteggio [Vibration] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self, and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé, e innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self, and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé, e innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] Count on self, and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé, e innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }

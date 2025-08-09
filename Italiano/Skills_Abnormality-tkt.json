@@ -104,7 +104,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutilare",
+          "name": "Mutilazione",
           "desc": "[WhenUse] A meno del 75% dei PV, consuma 75 [LimitedTime] ed ottiene Potere Scontro +2\n[BeforeAttack] Quando si trova in stato di [TimeAcceleration], ottiene +1 Peso Attacco",
           "coinlist": [
             {
@@ -130,7 +130,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tempo da Risparmiare",
+          "name": "Time to be Saved",
           "desc": "[CantDuel]\nInfligge [TimeKillerWatch] al bersaglio che ha usato un'Abilità Attacco su quest'unità\n[StartBattle] Consuma 200 [LimitedTime] ed ottiene [TimeAcceleration] il turno successivo",
           "coinlist": [
             {
@@ -332,12 +332,12 @@
         {
           "level": 1,
           "name": "Tempo Ammazzatempo",
-          "desc": "[CantDuel]\nLa Velocità di quest'unità è fissata a 12.\nNon può Vacillare in questo turno.\n[WhenUse] Consuma 400 [OwnTime].",
+          "desc": "[CantDuel]\nLa Velocità di quest'unità è bloccata a 12.\nNon può Vacillare per questo turno.\n[WhenUse] Consuma 400 [OwnTime].",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cancella il tempo del bersaglio. Quando quest'unità cancella il tempo del bersaglio, tutte le Parti ripristinano al massimo il valore di [OwnTime] ed ottengono 10 Rapidità e 10 Attacco Aumentato il turno successivo."
+                  "desc": "[OnSucceedAttack] Elimina il tempo del bersaglio. Quando quest'unità elimina il tempo del bersaglio, tutte le Parti ripristinano al massimo il valore di [OwnTime] ed ottengono 10 [Agility] e 10 [Enhancement] il turno successivo."
                 }
               ]
             }
@@ -516,7 +516,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Abbiamo Bisogno di Più Tempo!",
+          "name": "Ci Serve Più Tempo!",
           "desc": "",
           "coinlist": [
             {}

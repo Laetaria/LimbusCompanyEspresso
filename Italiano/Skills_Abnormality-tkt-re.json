@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Are You Afraid?",
-          "desc": "When in [TimeAcceleration] state, Clash Power +1\n[DefeatDuel] At 75%- HP, consume 40 [LimitedTime] and gain 1 [Protection] (once per turn)",
+          "name": "Hai Paura?",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Scontro +1\n[DefeatDuel] A 75%- PV, consuma 40 [LimitedTime] e ottiene 1 [Protection] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -31,27 +31,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Punishment For Time Killers",
-          "desc": "When in [TimeAcceleration] state, Clash Power +2\n[WhenUse] At 700+ [LimitedTime], inflict +3 [Laceration] Count\n[WhenUse] At 500+ [LimitedTime], inflict +1 [Laceration] Count\n[WhenUse] At 400+ [LimitedTime], consume 20 [LimitedTime] and inflict +1 more [Laceration] Potency and Count with this Skill",
+          "name": "Punizione per gli Ammazza Tempo",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Scontro +2\n[WhenUse] A 700+ [LimitedTime], infligge +3 Conteggio [Laceration]\n[WhenUse] A 500+ [LimitedTime], infligge +1 Conteggio [Laceration]\n[WhenUse] A 400+ [LimitedTime], consuma 20 [LimitedTime] e infligge +1 Potenza e Conteggio [Laceration] con questa Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -64,8 +64,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Extraction",
-          "desc": "When in [TimeAcceleration] state, Coin Power +1\n[WhenUse] At 75%- HP, consume 40 [LimitedTime] and gain Clash Power +2\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Estrazione",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Moneta +1\n[WhenUse] A 75%- PV, consuma 40 [LimitedTime] e ottiene Potere Scontro +2\n[DefeatDuel] Infligge -80% danni e i danni inflitti da questa Abilità non fanno Vacillare il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -73,7 +73,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -83,7 +83,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -93,7 +93,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -103,7 +103,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -116,8 +116,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutilate",
-          "desc": "[WhenUse] At 75%- HP, consume 60 [LimitedTime] and gain Clash Power +2\n[BeforeAttack] When in [TimeAcceleration] state, gain +1 Atk Weight",
+          "name": "Mutilazione",
+          "desc": "[WhenUse] A 75%- PV, consuma 60 [LimitedTime] e ottiene Potere Scontro +2\n[BeforeAttack] Quando è in stato di [TimeAcceleration], ottiene +1 Peso Attacco",
           "coinlist": [
             {
               "coindescs": [
@@ -125,7 +125,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -135,7 +135,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             }
@@ -148,8 +148,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to be Saved",
-          "desc": "[CantDuel]\nInflict [TimeKillerWatch] against the target that used an Attack Skill against this unit\n[StartBattle] Consume 200 [LimitedTime] and gain [TimeAcceleration] next turn",
+          "name": "Tempo da Risparmiare",
+          "desc": "[CantDuel]\nInfligge [TimeKillerWatch] al il bersaglio che ha usato un'Abilità Attacco contro questa unità\n[StartBattle] Consuma 200 [LimitedTime] e ottiene [TimeAcceleration] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -167,8 +167,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
-          "desc": "[WhenUse] Base Power +1 for every 100 [LimitedTime] (max 3)",
+          "name": "Evasione",
+          "desc": "[WhenUse] Potere Base +1 per ogni 100 [LimitedTime] (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -186,20 +186,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "My...",
-          "desc": "[DefeatDuel] Gain 1 [Vulnerable]",
+          "name": "Il Mio...",
+          "desc": "[DefeatDuel] Ottiene 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -212,34 +212,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Running Out of Time",
-          "desc": "[DefeatDuel] Gain 1 [Vulnerable]",
+          "name": "A Corto di Tempo",
+          "desc": "[DefeatDuel] Ottiene 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -252,20 +252,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Are You Afraid?",
-          "desc": "When in [TimeAcceleration] state, Clash Power +1\n[DefeatDuel] At 75%- HP, consume 40 [OwnTime] and gain 1 [Protection] (once per turn)",
+          "name": "Hai Paura?",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Scontro +1\n[DefeatDuel] A 75%- PV, consuma 40 [OwnTime] e ottiene 1 [Protection] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -278,27 +278,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Punishment For Time Killers",
-          "desc": "When in [TimeAcceleration] state, Clash Power +2\n[WhenUse] At 600+ (sum of [OwnTime] on all Parts), inflict +3 [Laceration] Count\n[WhenUse] At 500+ (sum of [OwnTime] on all Parts), inflict +1 [Laceration] Count\n[WhenUse] At 400+ (sum of [OwnTime] on all Parts), consume 20 [OwnTime] and inflict +1 more [Laceration] Potency and Count with this Skill",
+          "name": "Punizione per gli Ammazza Tempo",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Scontro +2\n[WhenUse] A 600+ (somma di [OwnTime] su tutte le Parti), infligge +3 Conteggio [Laceration]\n[WhenUse] A 500+ (somma di [OwnTime] su tutte le Parti), infligge +1 Conteggio [Laceration]\n[WhenUse] A 400+ (somma di [OwnTime] su tutte le Parti), consuma 20 [OwnTime] e infligge +1 Potenza e Conteggio [Laceration] in più con questa Abilità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -311,8 +311,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Extraction",
-          "desc": "When in [TimeAcceleration] state, Coin Power +1\n[WhenUse] At 75%- HP, consume 40 [OwnTime] and gain Clash Power +2\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Estrazione",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Moneta +1\n[WhenUse] A 75%- PV, consuma 40 [OwnTime] e ottiene Potere Scontro +2\n[DefeatDuel] Infligge -80% danni e i danni inflitti da questa Abilità non fanno Vacillare il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -320,7 +320,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -330,7 +330,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -340,7 +340,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -350,7 +350,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -363,8 +363,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutilate",
-          "desc": "[WhenUse] At 75%- HP, consume 60 [OwnTime] and gain Clash Power +2\n[BeforeAttack] When in [TimeAcceleration] state, gain +3 Atk Weight\n[BeforeAttack] At 60%- HP, consume 10 [OwnTime] and gain +1 Atk Weight",
+          "name": "Mutilazione",
+          "desc": "[WhenUse] A 75%- PV, consuma 60 [OwnTime] e ottiene Potere Scontro +2\n[BeforeAttack] Quando è in stato di [TimeAcceleration], ottiene +3 Peso Attacco\n[BeforeAttack] A 60%- PV, consuma 10 [OwnTime] e ottiene +1 Peso Attacco",
           "coinlist": [
             {
               "coindescs": [
@@ -372,7 +372,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -382,7 +382,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             }
@@ -395,8 +395,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to be Saved",
-          "desc": "[CantDuel]\nInflict [TimeKillerWatch] against the target that used an Attack Skill against this unit\n[StartBattle] Consume 200 [OwnTime] and gain [TimeAcceleration] next turn)",
+          "name": "Tempo da Risparmiare",
+          "desc": "[CantDuel]\nInfligge [TimeKillerWatch] al il bersaglio che ha usato un'Abilità Attacco contro questa unità\n[StartBattle] Consuma 200 [OwnTime] e ottiene [TimeAcceleration] il turno successivo)",
           "coinlist": [
             {
               "coindescs": [
@@ -415,7 +415,7 @@
         {
           "level": 1,
           "name": "Evade",
-          "desc": "[WhenUse] Base Power +1 for every 50 sum of [OwnTime] across all Parts (max 3)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 50 somma di [OwnTime] su tutte le Parti (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -433,13 +433,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Timekilling Time",
-          "desc": "[CantDuel]\nThis unit's Speed is fixed at 24.\nCannot be Staggered this turn.\n[WhenUse] Takes a total of 400 [OwnTime] from everyone, then consumes it.",
+          "name": "Tempo Ammazzatempo",
+          "desc": "[CantDuel]\nLa Velocità di questa unità è bloccata a 24.\nNon può Vacillare per questo turno.\n[WhenUse] Prende un totale di 400 [OwnTime] da tutti, poi lo consuma.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Erase the target's time. Once this unit erases the target's time, all Parts recover [OwnTime] to their max values and gain 10 Haste and 10 Attack Power Up next turn."
+                  "desc": "[OnSucceedAttack] Elimina il tempo del bersaglio. Una volta che questa unità ha eliminato il tempo del bersaglio, tutte le Parti ripristinano al massimo il valore di [OwnTime] ed ottengono 10 [Agility] e 10 [Enhancement] il turno successivo."
                 }
               ]
             }
@@ -452,7 +452,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "We Need More Time!",
+          "name": "Ci Serve Più Tempo!",
           "desc": "",
           "coinlist": [
             {}
