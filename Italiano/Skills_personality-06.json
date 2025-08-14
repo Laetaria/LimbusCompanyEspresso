@@ -1995,7 +1995,7 @@
         {
           "level": 1,
           "name": "Energy Condensation",
-          "desc": "[WhenUse] A 10+ Conteggio [Charge], Potere Moneta +2\n[WhenUse] Ottiene +3 Conteggio [Charge] (once per turno)",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], Potere Moneta +2\n[WhenUse] Ottiene +3 Conteggio [Charge] (una volta per turno)",
           "coinlist": [
             {}
           ]
@@ -2015,20 +2015,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Wish to Open the Path",
-          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses)",
+          "name": "Intendo Fare Strada",
+          "desc": "[StartBattle] Applica 1 [Endurance] a 1 + (Rison. più alta / 3) altri alleati. (una volta per turno; max 3; dà priorità ai bersagli con [SupportProtect]; include Difesa di Supporto speciali)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -2036,20 +2036,20 @@
         },
         {
           "level": 2,
-          "name": "I Wish to Open the Path",
-          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses as well)\n<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>",
+          "name": "Intendo Fare Strada",
+          "desc": "[StartBattle] Applica 1 [Endurance] a 1 + (Rison. più alta / 3) altri alleati. (una volta per turno; max 3; dà priorità ai bersagli con [SupportProtect]; include anche Difesa di Supporto speciali)\n<style=\"highlight\">[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2057,20 +2057,20 @@
         },
         {
           "level": 4,
-          "name": "I Wish to Open the Path",
-          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses)\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ types of negative effects, Clash Power +1</style>",
+          "name": "Intendo Fare Strada",
+          "desc": "[StartBattle] Applica 1 [Endurance] a 1 + (Rison. più alta / 3) altri alleati. (una volta per turno; max 3; dà priorità ai bersagli con [SupportProtect]; include Difesa di Supporto speciali)\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 3+ tipi di effetti negativi, Potere Scontro +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">3</style> [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2083,20 +2083,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]",
-          "desc": "[WhenUse] Gain 2 [Breath]",
+          "name": "Falciare Assoluto di Ambizioni del Sangue Immondo [汚血絕志竟成]",
+          "desc": "[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -2113,7 +2113,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -2121,30 +2121,20 @@
         },
         {
           "level": 2,
-          "name": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]",
-          "desc": "<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>\n[WhenUse] Gain <style=\"highlight\">3</style> [Breath]",
+          "name": "Falciare Assoluto di Ambizioni del Sangue Immondo [汚血絕志竟成]",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1</style>\n[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]</style>"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -2154,10 +2144,20 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Deal +50% damage</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+                  "desc": "<style=\"highlight\">Infligge +50% danni</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 }
               ]
             }
@@ -2165,30 +2165,20 @@
         },
         {
           "level": 4,
-          "name": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]",
-          "desc": "<style=\"highlight\">[StartBattle] Apply 1 [ShamrockDamageUp] to all other allies that have Gluttony Skills equipped this turn (once per turn)</style>\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Burst] on target + [Breath] on self) (max 2)</style>\n[WhenUse] Gain 3 [Breath]",
+          "name": "Falciare Assoluto di Ambizioni del Sangue Immondo [汚血絕志竟成]",
+          "desc": "<style=\"highlight\">[StartBattle] Applica 1 [ShamrockDamageUp] a tutti gli altri alleati che hanno preparato Abilità Gola questo turno (una volta per turno)</style>\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -2198,13 +2188,23 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Deal +50% damage<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">+50% Damage on Critical Hit</style>"
+                  "desc": "Infligge +50% danni<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "<style=\"highlight\">+50% Danni sul Colpo Critico</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2217,8 +2217,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Answer Me, Heishou Packs",
-          "desc": "This Skill does not trigger Defense Skills\n\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit with the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+          "name": "Andate, Branchi di Heishou",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (una volta per turno)\n- Dopo che [HeishouCombo] si è conclusa, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Non si è attivata [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia conclusa, invece usa 'Lotta Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2226,10 +2226,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackDown] for every 2 types of negative effect on target (max 3)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown] per ogni 2 tipi di effetti negativi sul bersaglio (max 3)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [DefenseDown] for every type of Deathrite on target (max 3)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni tipo di Anatema sul bersaglio (max 3)"
                 }
               ]
             }
@@ -2237,8 +2237,8 @@
         },
         {
           "level": 4,
-          "name": "Answer Me, Heishou Packs",
-          "desc": "This Skill does not trigger Defense Skills\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 4 ([Burst] on target + [Breath] on self) (max 3)</style>\n[WhenUse] Gain <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit with the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+          "name": "Andate, Branchi di Heishou",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (una volta per turno)\n- Dopo che [HeishouCombo] si è conclusa, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Non si è attivata [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia conclusa, invece usa 'Lotta Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2246,10 +2246,10 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackDown] for every 2 types of negative effect on target (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown] per ogni 2 tipi di effetti negativi sul bersaglio (max 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [DefenseDown] for every type of Deathrite on target (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni tipo di Anatema sul bersaglio (max 3)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2262,8 +2262,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Heishou Keenclaw [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou with the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou with the least HP percentage (once per turn)",
+          "name": "Artiglio dell'Heishou [黑獣利爪]",
+          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Idnetità del Branco Heishou alleate (una volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (una volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2276,8 +2276,8 @@
         },
         {
           "level": 4,
-          "name": "Heishou Keenclaw [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou with the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou with the least HP percentage (once per turn)<style=\"highlight\"></style>",
+          "name": "Artiglio dell'Heishou [黑獣利爪]",
+          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Idnetità del Branco Heishou alleate (una volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (una volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (una volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2295,23 +2295,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Carve the Path of a Lord",
-          "desc": "[WhenUse] If this unit activated combo with a Heishou Pack Adept Identity: Base Power +1, Coin Power +1\n\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Deal +5% damage for every [HeishouComboCountHonglu]\n[EndSkill] Gain [HeishouComboCountHonglu] depending on which Heishou Pack Identity activated [HeishouCombo]",
+          "name": "Creo il Cammino di un Lord",
+          "desc": "[WhenUse] Se questa unità ha attivato una combinazione con un'Identità Eccelsa del Ramo Heishou: Potere Base +1, Potere Moneta +1\n\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]\n[EndSkill] Ottiene [HeishouComboCountHonglu] in base a quale Identità del Branco Heishou ha attivato [HeishouCombo]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] For 2 ally Heishou Pack Identities with the least SP, heal 10 SP and apply 1 [Enhancement] next turn"
+                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno SP, le cura di 10 SP e applica 1 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -2319,29 +2319,29 @@
         },
         {
           "level": 4,
-          "name": "I Carve the Path of a Lord",
-          "desc": "[WhenUse] If this unit activated combo with a Heishou Pack Adept Identity: Base Power +1, Coin Power +1\n\n<style=\"highlight\">Deal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)</style>\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Burst] on target + Poise on self) (max 3)</style>\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 types of negative effects on target (max 30%)</style>\n[WhenUse] Deal <style=\"highlight\">+10%</style> damage for every [HeishouComboCountHonglu]\n[EndSkill] Gain [HeishouComboCountHonglu] depending on which Heishou Identity activated [HeishouCombo]",
+          "name": "Creo il Cammino di un Lord",
+          "desc": "[WhenUse] Se questa unità ha attivato una combinazione con un'Identità Eccelsa del Ramo Heishou: Potere Base +1, Potere Moneta +1\n\n<style=\"highlight\">Infligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale di PV mancanti su di sé) (max 50%)</style>\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]\n[EndSkill] Ottiene [HeishouComboCountHonglu] in base a quale Identità del Branco Heishou ha attivato [HeishouCombo]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Deal +50% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">Infligge +50% Danni sul Colpo Critico</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [SlashResistDown] il turno successivo (una volta per turno)</style>"
                 },
                 {
-                  "desc": "[EnemyKill] For 2 ally Heishou Pack Identities with the least SP, heal 10 SP and apply 1 [Enhancement] next turn<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno SP, le cura di 10 SP e applica 1 [Enhancement] il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2354,36 +2354,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lonesome Stand: Sacrifice to Claim The Garden [孑孑單身, 捨生取园]",
-          "desc": "Deal +10% damage for every [HeishouDeathCount] on self\nDeal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] At 3+ [HeishouDeathCount], gain +1 Atk Weight\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Deal +5% damage for every [HeishouComboCountHonglu]",
+          "name": "Lotta Solitaria: Sacrificio per Conquistare il Giardino [孑孑單身, 捨生取园]",
+          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale di PV mancanti su di sé) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Peso Attacco\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +10% damage for every type of negative effect on target (max 50%)"
+                  "desc": "Infligge +10% danni per ogni tipo di effetti negativi sul bersaglio (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] il turno successivo (una volta per turno)"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 1 [Enhancement] next turn"
+                  "desc": "[EnemyKill] Ottiene 1 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -2391,36 +2391,36 @@
         },
         {
           "level": 4,
-          "name": "Lonesome Stand: Sacrifice to Claim The Garden [孑孑單身, 捨生取园]",
-          "desc": "Deal +10% damage for every [HeishouDeathCount] on self\nDeal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] At 3+ [HeishouDeathCount], gain +1 Atk Weight\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Burst] on target + [Breath] on self) (max 3)</style>\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 types of negative effects on target (max 30%)</style>\n[WhenUse] Deal <style=\"highlight\">+10%</style> damage for every [HeishouComboCountHonglu]",
+          "name": "Lotta Solitaria: Sacrificio per Conquistare il Giardino [孑孑單身, 捨生取园]",
+          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale di PV mancanti su di sé) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Peso Attacco\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +10% damage for every type of negative effect on target (max 50%)<style=\"highlight\"></style>"
+                  "desc": "Infligge +10% danni per ogni tipo di effetti negativi sul bersaglio (max 50%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] il turno successivo (una volta per turno)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Gain <style=\"highlight\">2</style> [Enhancement] next turn"
+                  "desc": "[EnemyKill] Ottiene <style=\"highlight\">2</style> [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -2433,8 +2433,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lordsguard",
-          "desc": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters with conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+          "name": "Guardia del Lord",
+          "desc": "[CanDuelGuard]\nQuesta Abilità conta come Difesa di Supporto[TabExplain] solo per l'unità che ha usato l'Abilità, e non innesca gli effetti di altri personaggi con condizioni che includono attivazioni di [SupportProtect].\n[WhenUse] Se il bersaglio ha 3+ tipi di effetti negativi, Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [

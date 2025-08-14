@@ -188,7 +188,7 @@
       "summary": "Valore Testa Negativa +{0}"
     },
     {
-      "id": "TimesCoinValueDown", 
+      "id": "TimesCoinValueDown",
       "name": "Abbassa Testa Moltiplicativa",
       "desc": "Aumenta il valore ottenuto tirandoTesta con Monete Moltiplicative di -{0} per questo turno.",
       "summary": "Valore Testa Moltiplicativa -{0}"
@@ -675,7 +675,7 @@
       "id": "Assemble",
       "name": "Fanatismo",
       "desc": "Valore Finale delle Abilità +{0} contro tutti i nemici che sono affetti da Chiodi per questo turno. (Si applica anche agli Scontri)",
-      "summary": "Final Power +{0}"
+      "summary": "Potere Finale +{0}"
     },
     {
       "id": "ReinforcedAssemble",
@@ -965,7 +965,7 @@
       "summary": "[Cucina Creativa] cura +{0}0% PV"
     },
     {
-      "id": "GainSinStockAdder",
+      "id": "OttieneSinStockAdder",
       "name": "Amplifica Risorse E.G.O",
       "desc": "Ottiene +{0} Risorse E.G.O dalle Abilità utilizzate questo turno.",
       "summary": "+{0} Risorse E.G.O ottienute"
@@ -1099,8 +1099,8 @@
     {
       "id": "InterlockingTime",
       "name": "Deflagrazione Differita",
-      "desc": "Riduce il danno finale del 30% e lo immagazzina. At 3 Stack, prende danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo.",
-      "summary": "Riduci il danno finale del 30% e lo immagazzina. At 3 Stack, prende danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Lentezza il turno successivo."
+      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo.",
+      "summary": "Riduci il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Lentezza il turno successivo."
     },
     {
       "id": "TimeRental",
@@ -1122,7 +1122,7 @@
     {
       "id": "Bull_Sadness",
       "name": "Tristezza Irrisolta",
-      "desc": "Ottiene Attacco Diminuito in base alle Stack nel prossimo turno.\nA Fine Turno: At 3+ Stack, cambia in Cordoglio Crescente.",
+      "desc": "Ottiene Attacco Diminuito in base alle Stack nel prossimo turno.\nA Fine Turno: A 3+ Stack, cambia in Cordoglio Crescente.",
       "summary": ""
     },
     {
@@ -1437,7 +1437,7 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Max Stack: 6\nSul Colpo, consuma 1 Conteggio Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio Lacerazione è stato consumato; arrotondato per difetto\nQuando subisce un colpo, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA Fine Turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
+      "desc": "Stack Max: 6\nSul Colpo, consuma 1 Conteggio Lacerazione per infliggere (Stack / 2) Lacerazione (infligge almeno 1 Lacerazione se il Conteggio Lacerazione è stato consumato; arrotondato per difetto\nQuando subisce un colpo, ottiene (Stack / 2) Lacerazione e perde 1 Stack (ottiene almeno 1 Lacerazione; arrotondato per difetto)\nA Fine Turno: a 6+ Stack, rimuove tutti i Talismani su di sé e subisce danno fisso in base alle Stack",
       "summary": "Sul Colpo, consuma il Conteggio Lacerazione sul bersaglio per infliggere Lacerazione; quando subisce un colpo, ottiene Lacerazione e perde 1 Stack"
     },
     {
@@ -2178,14 +2178,14 @@
     {
       "id": "BloodyHandGregFirst",
       "name": "Mano Insanguinata",
-      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- At Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
       "name": "Mano Insanguinata II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- At 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
@@ -2234,8 +2234,8 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Massima+ 2\n- Infligge 1 in più di ogni Conteggio o Potenza qualsisi tipo di Vibrazione con le Abilità o gli effetti delle Monete, consumando 1 Conteggio Vibrazione su di sè\n- Quando subisce un'Attacco da mosse che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
-      "summary": "Max Speed +2\nConsume Vibrazione Count on self to infligge +1 more Vibrazione Potency e Count",
+      "desc": "- Velocità Max+ 2\n- Infligge 1 in più di ogni Conteggio o Potenza qualsisi tipo di Vibrazione con le Abilità o gli effetti delle Monete, consumando 1 Conteggio Vibrazione su di sè\n- Quando subisce un'Attacco da mosse che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "summary": "Velocità Max +2\nConsume Vibrazione Count on self to infligge +1 more Vibrazione Potency e Count",
       "undefined": "-"
     },
     {
@@ -2248,13 +2248,13 @@
     {
       "id": "Zazen",
       "name": "Dhyāna",
-      "desc": "- Max Stack: 108\n- Infligge +1% danni in più per ogni Stack",
+      "desc": "- Stack Max: 108\n- Infligge +1% danni in più per ogni Stack",
       "summary": "Infligge più danni"
     },
     {
       "id": "SwirlingBloodPersonality",
       "name": "Sangue Vorticoso【Sanguimonio】",
-      "desc": "-Max Stack: 50\n- Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo ai PV pari alle Stack nel momento in cui viene applicato\n-Scade A Fine Turno",
+      "desc": "-Stack Max: 50\n- Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo ai PV pari alle Stack nel momento in cui viene applicato\n-Scade A Fine Turno",
       "summary": ""
     },
     {
@@ -2344,7 +2344,7 @@
     {
       "id": "LogicAtelierAM",
       "name": "Concentrazione【Cecchino】",
-      "desc": "- Max Stack: 4 \n- A Fine Turno: ottiene 1 Stack"
+      "desc": "- Stack Max: 4 \n- A Fine Turno: ottiene 1 Stack"
     },
     {
       "id": "MeleeCover",
@@ -2359,12 +2359,12 @@
     {
       "id": "GlowingLantern",
       "name": "Esca Fatata",
-      "desc": "- Max Stack: 5\n- A inizio Turno: lo Slot più a sinistra della Barra Mosse ottiene +10 Provocazione\n- Subisce +50% in più di danno\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per le Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
+      "desc": "- Stack Max: 5\n- A inizio Turno: lo Slot più a sinistra della Barra Mosse ottiene +10 Provocazione\n- Subisce +50% in più di danno\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per le Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
     },
     {
       "id": "HoldingBreath",
       "name": "Respiro Profondo",
-      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza Respiro e 5+ Conteggio Respiro, consuma (Conteggio Respiro su di sè/ 5) Potenza Respiro per infliggere +(Potenza Respiro consumata x 4)% più danno Critico, e perde 1 Stack",
+      "desc": "- Stack Max: 20\n- Quando si effettua un critico, a 15+ Potenza Respiro e 5+ Conteggio Respiro, consuma (Conteggio Respiro su di sè/ 5) Potenza Respiro per infliggere +(Potenza Respiro consumata x 4)% più danno Critico, e perde 1 Stack",
       "summary": "Infligge più danno con Colpo Critico"
     },
     {
@@ -2386,12 +2386,12 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Max Stack: 1\n Converte tutte le Monete delle Abilità offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillamento quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Valore Finale +3\nA Fine Turno: quest'effetto termina"
+      "desc": "Stack Max: 1\n Converte tutte le Monete delle Abilità offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillamento quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Valore Finale +3\nA Fine Turno: quest'effetto termina"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Max Stack: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti"
+      "desc": "Stack Max: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti"
     },
     {
       "id": "EngageToBattle",
@@ -2401,64 +2401,64 @@
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
-      "desc": "Max Stack: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'"
+      "desc": "Stack Max: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'"
     },
     {
       "id": "NebulizerExhale",
       "name": "Nebulizzatore α",
-      "desc": "- Max Stack: 5\n- Quest'effetto persiste durante tutto l'Incontro\n- All'inizio del combattimento: applica 1 Potenza Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
+      "desc": "- Stack Max: 5\n- Quest'effetto persiste durante tutto l'Incontro\n- All'inizio del combattimento: applica 1 Potenza Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
     },
     {
       "id": "ReleaseBreath",
       "name": "Espirazione Superficiale",
-      "desc": "- Valore Massimo: 1\n- At 20 Potenza Respiro o superiore, ottiene +1 Conteggio quando questa unità ottiene Potenza o Conteggio Respiro\n- Scade A Fine Turno"
+      "desc": "- Valore Massimo: 1\n- A 20 Potenza Respiro o superiore, ottiene +1 Conteggio quando questa unità ottiene Potenza o Conteggio Respiro\n- Scade A Fine Turno"
     },
     {
       "id": "FirePunchFuel",
       "name": "Carburante del Distretto 12",
-      "desc": "Max Stack: 100\nViene usato da alcume Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
+      "desc": "Stack Max: 100\nViene usato da alcume Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FirePunchFuelOverheated",
       "name": "Carburante Surriscaldato",
-      "desc": "Max Stack: 100\nConsumare Carburante del Distretto 12 mentre l'unità è nello stato Carburante Surriscaldato consuma Carburante Surriscaldato\nConsumare Carburante Surriscaldato conta come consumare Carburante del Distretto 12\nA 50+ Stack, diventa Carburante del Distretto 12\nCarburante consumato: {0}",
+      "desc": "Stack Max: 100\nConsumare Carburante del Distretto 12 mentre l'unità è nello stato Carburante Surriscaldato consuma Carburante Surriscaldato\nConsumare Carburante Surriscaldato conta come consumare Carburante del Distretto 12\nA 50+ Stack, diventa Carburante del Distretto 12\nCarburante consumato: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DianxueDonQuixote",
       "name": "Colpo al Nervo - Don Quixote",
-      "desc": "- Max Stack: 3\n- L'unità che ha inflitto questo Colpo al Nervo ottiene i seguenti effetti in base alle Stack di Colpo al Nervo del bersaglio (o della Parte bersagliata)\n· 1x Stack: Ottiene Potere Scontro +1\n· 2x Stack: Ottiene Potere di Base +1\n· 3x Stack: Ottiene Potere Scontro +1 e Potere di Base +1\n- L'effetto termina se l'unità che l'ha inflitto infligge quest'effetto contro un bersaglio o una Parte diversa\n- L'effetto viene sostituito quando un'altra unità infligge Colpo al Nervo",
+      "desc": "- Stack Max: 3\n- L'unità che ha inflitto questo Colpo al Nervo ottiene i seguenti effetti in base alle Stack di Colpo al Nervo del bersaglio (o della Parte bersagliata)\n· 1x Stack: Ottiene Potere Scontro +1\n· 2x Stack: Ottiene Potere di Base +1\n· 3x Stack: Ottiene Potere Scontro +1 e Potere di Base +1\n- L'effetto termina se l'unità che l'ha inflitto infligge quest'effetto contro un bersaglio o una Parte diversa\n- L'effetto viene sostituito quando un'altra unità infligge Colpo al Nervo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VengeanceBookSinclair",
       "name": "Libro della Vendetta [Sinclair]",
-      "desc": "- Max Stack: 30\n- Infligge più danno pari al (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danni Contundenti Aumentati\n· A 20+ Stack: Velocità Massima +1, ottiene 1 Possenza\n· A 30+ Stack: ottiene 2 Danni Contundenti Potenziati",
+      "desc": "- Stack Max: 30\n- Infligge più danno pari al (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danni Contundenti Aumentati\n· A 20+ Stack: Velocità Max +1, ottiene 1 Possenza\n· A 30+ Stack: ottiene 2 Danni Contundenti Potenziati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con più Stack di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
+      "desc": "- Stack Max: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con più Stack di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RetaliationBookFamily",
       "name": "Marchio Vendicatico del Fratello",
-      "desc": "- Max Stack: 1\n- Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio della Vendetta",
+      "desc": "- Stack Max: 1\n- Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio della Vendetta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BirdCage",
       "name": "Gabbia Bruciante",
-      "desc": "Max Stack: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni sua Stack (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto)\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre l'effetto è già attivo",
+      "desc": "Stack Max: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni sua Stack (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto)\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre l'effetto è già attivo",
       "summary": "Resistenza ad Ira +0.1 per ogni Stack",
       "undefined": "-"
     },
@@ -2486,7 +2486,7 @@
     {
       "id": "SnakeStance",
       "name": "Braccia di Serpente",
-      "desc": "Max Stack: 3\nFine Turno: ottiene 3 Respiro e +2 Conteggio Respiro al prossimo turno\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Respiro\nFine turno: perde 1 Stack",
+      "desc": "Stack Max: 3\nFine Turno: ottiene 3 Respiro e +2 Conteggio Respiro al prossimo turno\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Respiro\nFine turno: perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
@@ -2499,28 +2499,28 @@
     },
     {
       "id": "SupportProtect",
-      "name": "Assistenza - Guardia",
-      "desc": "- Max Stack: 3\n- Quando un alleato sta per subire un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; Infine, esegue l'Abilità esclusiva che viene attivata per Assistenza - Guardia\n- Quando sono presenti più alleati con le Stack di Assistenza - Guardia, la priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di Stack\n- Non viene attivata per gli alleati che utilizzano un'Abilità Difensiva\n- Scade a Fine Turno",
+      "name": "Difesa di Supporto",
+      "desc": "- Stack Max: 3\n- Quando un alleato sta per subire un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; Infine, esegue l'Abilità esclusiva che viene attivata per Difesa di Supporto\n- Quando sono presenti più alleati con le Stack di Difesa di Supporto, la priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di Stack\n- Non viene attivata per gli alleati che utilizzano un'Abilità Difensiva\n- Scade a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EnhanceZilu",
       "name": "Lama della Stella Tianjiu",
-      "desc": "- Max Stack: 20\n- A 10+ Stack: a Fine Turno, ottiene 1 Rapidità al prossimo turno\n- Usata per alcune Abilità",
+      "desc": "- Stack Max: 20\n- A 10+ Stack: a Fine Turno, ottiene 1 Rapidità al prossimo turno\n- Usata per alcune Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstVulnerableZilu",
       "name": "Marchio Del Deterioramento",
-      "desc": "- Max Stack: 1\n- Subisce +10% danni dalle Abilità Gola \n- Subisce +10% danni da Anatema\n- Rimosso a Fine Turno",
+      "desc": "- Stack Max: 1\n- Subisce +10% danni dalle Abilità Gola \n- Subisce +10% danni da Anatema\n- Rimosso a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SupportProtectTypo",
-      "name": "Assistenza - Guardia",
+      "name": "Difesa di Supporto",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -2528,14 +2528,14 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Talismano Maledetto Contorto",
-      "desc": "- Max Stack: 10\n- Scade a Fine Turno\n- A 10+ Stack, quando subisce 30+ danni da un'Abilità: ottiene +1 Conteggio Lacerazione; Subisce danni da Gola pari alla potenza Lacerazione su questa unità(una volta per turno)\n- Quando questo effetto scade, ottiene (Stack / 4) Calo Offensivo il prossimo turno (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "desc": "- Stack Max: 10\n- Scade a Fine Turno\n- A 10+ Stack, quando subisce 30+ danni da un'Abilità: ottiene +1 Conteggio Lacerazione; Subisce danni da Gola pari alla potenza Lacerazione su questa unità(una volta per turno)\n- Quando questo effetto scade, ottiene (Stack / 4) Calo Offensivo il prossimo turno (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CentipedePoison",
       "name": "Veleno Del Centopiedi",
-      "desc": "- Max Stack: 20\n- A Fine Turno: ottiene (Stack / 4) Calo Difensivo il prossimo turno (Arrotondato per difetto)\n- A Fine Turno: subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
+      "desc": "- Stack Max: 20\n- A Fine Turno: ottiene (Stack / 4) Calo Difensivo il prossimo turno (Arrotondato per difetto)\n- A Fine Turno: subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
       "summary": "",
       "undefined": "-"
     },
@@ -2549,14 +2549,14 @@
     {
       "id": "CondensedBlood",
       "name": "Sangue Immondo",
-      "desc": "Max Stack: 5\n- A Fine Turno: subisce danni pari al 20% di PV per Stack (questo effettto non può far Vacillare)\n- Guadagna 1 Stack a Fine Turno\n- Scade alla morte o alla Ritirata",
+      "desc": "Stack Max: 5\n- A Fine Turno: subisce danni pari al 20% di PV per Stack (questo effettto non può far Vacillare)\n- Guadagna 1 Stack a Fine Turno\n- Scade alla morte o alla Ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Max Stack: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Scade alla morte o alla Ritirata",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Scade alla morte o alla Ritirata",
       "summary": "",
       "undefined": "-"
     },
@@ -2576,22 +2576,22 @@
     },
     {
       "id": "WaitingXichun",
-      "name": "Riposo [待]",
-      "desc": "- Max Stack: 3\n- Numero di turni che questa unità ha passato come Rinforzo o in Ritirata",
+      "name": "Attesa [待]",
+      "desc": "- Stack Max: 3\n- Numero di turni che questa unità ha passato come Rinforzo o in Ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StartXichun",
       "name": "Lancio [始]",
-      "desc": "- Max Stack: 6\n- Numero di turni che questa unità ha passato attiva sul campo\n- Scade alla Ritirata\n- Ottiene 1 Stack a Fine Turno",
+      "desc": "- Stack Max: 6\n- Numero di turni che questa unità ha passato attiva sul campo\n- Scade alla Ritirata\n- Ottiene 1 Stack a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CheerUpXichun",
       "name": "Tifo [援]",
-      "desc": "- Max Stack: 1\n- Se il bersaglio ha 5+ effetti negativi, Potere Scontro +1, infligge +10% danni",
+      "desc": "- Stack Max: 1\n- Se il bersaglio ha 5+ effetti negativi, Potere Scontro +1, infligge +10% danni",
       "summary": "",
       "undefined": "-"
     },
@@ -2601,7 +2601,7 @@
       "desc": "- A Fine Turno: Guarisce dal Vacillamento e si ritira dall'Incontro (non ha effetto su un Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0)",
       "summary": "",
       "undefined": "-"
-     },
+    },
     {
       "id": "FireBulletPropellant",
       "name": "Munizioni a Carburante Rovente",
@@ -2633,14 +2633,14 @@
     {
       "id": "IrritationAlly",
       "name": "Spirito Implacabile [剛氣]",
-      "desc": "- Velocità Minima e Massima +1\n- Se questa unità ha Velocità maggiore di almeno 3 rispetto all'avversario, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le Abilità di questa Unità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al prossimo turno\n- Max Stack: 1",
+      "desc": "- Velocità Minima e Massima +1\n- Se questa unità ha Velocità maggiore di almeno 3 rispetto all'avversario, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le Abilità di questa Unità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al prossimo turno\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
       "name": "Spirito Implacabile - Shin [剛氣-心]",
-      "desc": "- Velocità Minima e Massima +3\n- Se questa unità ha Velocità maggiore di almeno 3 rispetto all'avversario, infligge +(Differenza di Velocità x 5)% danni (massimo 40%)\n- Infligge +2 Potenza e Conteggio Vibrazione con le Abilità di questa unità\n- Max Stack: 1",
+      "desc": "- Velocità Minima e Massima +3\n- Se questa unità ha Velocità maggiore di almeno 3 rispetto all'avversario, infligge +(Differenza di Velocità x 5)% danni (massimo 40%)\n- Infligge +2 Potenza e Conteggio Vibrazione con le Abilità di questa unità\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2654,21 +2654,21 @@
     {
       "id": "RoseThorn",
       "name": "Spina Ingorda (貪食棘)",
-      "desc": "Max Stack: 9\n\nA Fine Turno: Ottiene Conteggio Sanguinamento pari alla Risonanza Lussuria, poi perde 1 Spina Ingorda (貪食棘). (Massimo Conteggio Sanguinamento Ottenibile: 5)\n\nQuando questa Unità possiede questo effetto, se ottiene una Potenza Sanguinamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottiene Calo Difensivo il prossimo turno pari all'aumento di Banchetto di Sangue (massimo Calo Difensivo ottenibile: 5)",
+      "desc": "Stack Max: 9\n\nA Fine Turno: Ottiene Conteggio Sanguinamento pari alla Risonanza Lussuria, poi perde 1 Spina Ingorda (貪食棘). (Massimo Conteggio Sanguinamento Ottenibile: 5)\n\nQuando questa Unità possiede questo effetto, se ottiene una Potenza Sanguinamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottiene Calo Difensivo il prossimo turno pari all'aumento di Banchetto di Sangue (massimo Calo Difensivo ottenibile: 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FellBulletPersonality",
       "name": "Proiettile Crudele",
-      "desc": "Max Stack: 1\n+3% danno Critico per Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Respiro e +2 Conteggio Respiro (2 volte per turno)\nScade a Fine Turno",
+      "desc": "Stack Max: 1\n+3% danno Critico per Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Respiro e +2 Conteggio Respiro (2 volte per turno)\nScade a Fine Turno",
       "summary": "Infligge più danni Critici, infligge più Sanguinamento",
       "undefined": "-"
     },
     {
       "id": "ChoSuperCharge",
       "name": "Superbatteria Semi Luminescente",
-      "desc": "- Max Stack: 100\n- Quando consuma Conteggio Carica, aggiunge la quantità consumata alle Stack di questo effetto\n- Limite Conteggio Massimo Carica +10\n- Ottiene 1 Conteggio Carica quando gli alleati ottengono Potenza o Conteggio Carica\n- Quando questa unità consuma Carica, consuma lo stesso numero di Conteggio Carica un'altra volta (Quando non ha abbastanza Conteggio, consuma tutto quello disponibile)\n- Infligge +10% danni in più per ogni 10 Stack\n- I nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità per ogni 20 Stack (max +0.5 Resistenza; non si attiva quando il nemico Vacilla)\n- Quando l'Identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'Ordine di Schieramento. Le Stack vengono trasferite a loro volta.\n- Questo effetto funziona anche con gli effetti di 'Carica Speciale'.",
+      "desc": "- Stack Max: 100\n- Quando consuma Conteggio Carica, aggiunge la quantità consumata alle Stack di questo effetto\n- Limite Conteggio Massimo Carica +10\n- Ottiene 1 Conteggio Carica quando gli alleati ottengono Potenza o Conteggio Carica\n- Quando questa unità consuma Carica, consuma lo stesso numero di Conteggio Carica un'altra volta (Quando non ha abbastanza Conteggio, consuma tutto quello disponibile)\n- Infligge +10% danni in più per ogni 10 Stack\n- I nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità per ogni 20 Stack (max +0.5 Resistenza; non si attiva quando il nemico Vacilla)\n- Quando l'Identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'Ordine di Schieramento. Le Stack vengono trasferite a loro volta.\n- Questo effetto funziona anche con gli effetti di 'Carica Speciale'.",
       "summary": "",
       "undefined": "-"
     },
@@ -2682,105 +2682,105 @@
     {
       "id": "WaveSinking",
       "name": "Riflusso",
-      "desc": "- Max Stack: 3\nQuando Subisce un'Attacco, ottiene Potenza Pianto pari alle Stack\n\nA Fine Turno: Se questa unità ha -30 o meno SP, attiva i seguenti effetti (per unità senza SP, si attiva a 60+ Potenza Pianto)\n- Subisce (Potenza Pianto sull'unità x Stack) Danno da Tristezza\n- Infligge 1 Riflusso contro 2 altri bersagli con meno SP (per le Anormalità si applica alle parti); infine, infligge (Potenza Pianto x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisce le Stack di Riflusso all'alleato con il maggior numero di Stack di Riflusso",
+      "desc": "- Stack Max: 3\nQuando Subisce un'Attacco, ottiene Potenza Pianto pari alle Stack\n\nA Fine Turno: Se questa unità ha -30 o meno PS, attiva i seguenti effetti (per unità senza PS, si attiva a 60+ Potenza Pianto)\n- Subisce (Potenza Pianto sull'unità x Stack) Danno da Tristezza\n- Infligge 1 Riflusso contro 2 altri bersagli con meno PS (per le Anormalità si applica alle parti); infine, infligge (Potenza Pianto x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisce le Stack di Riflusso all'alleato con il maggior numero di Stack di Riflusso",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouDeathCount",
-      "name": "Life from Death [死中求活]",
-      "desc": "- Max Stack: 5\n- Turn Start: activate the following\n· Gain 1 Offense Level Up for every 1 Stack (max 5)\n· Gain 1 Damage Up for every 2 Stack (max 2)\n· Gain 1 Attack Power Up at 3+ Stack",
+      "name": "Vita dalla Morte [死中求活]",
+      "desc": "- Stack Max: 5\n- Inizio Turno: attiva i seguenti\n· Ottiene 1 Aumento Offensivo per ogni 1 Stack (max 5)\n· Ottiene 1 Danno Aumentato per ogni 2 Stack (max 2)\n· Ottiene 1 Attacco Aumentato a 3+ Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouCombo",
-      "name": "Exalted Command",
-      "desc": "- If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End. (Does not activate as Empowered Skills)\n- The Skill used as an Assist Attack does not affect Unit B's upcoming Skills list.\n- Does not activate if affected ally's Skill 3 is not unlocked.",
+      "name": "Comando Eccelso",
+      "desc": "- Se l'Unità A applica questo effetto all'Unità B: L'Unità B risponde con un'Attacco incontrastato con la sua Abilità 3 Base contro la stessa Unità nemica attaccata dall'Unità A con l'Abilità. Si attiva alla fine dell'Abilità Attacco dell'Unità A. (Non attiva delle Abilità Potenziate)\n- L'Abilità usata come Attacco di Supporto non influenza la lista di Abilità in arrivo dell'Unità B.\n- Non si attiva se l'Abilità 3 dell'alleato affetto non è sbloccata.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouComboCount",
-      "name": "Unrelenting Storm",
-      "desc": "- Number of times this unit activated combo with The Lord of Hongyuan Hong Lu Identity\n- Max Stack: 2\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Up for every Stack",
+      "name": "Tempesta Implacabile",
+      "desc": "- Numero di volte in cui questa unità ha usato una combinazione con l'Identità Lord di Hongyuan Hong Lu\n- Stack Max: 2\n- Inizio Turno: ottiene 1 Aumento Offensivo e 1 Aumento Difensivo per ogni Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouAttack",
-      "name": "Your Will Guides My Blade.",
-      "desc": "- If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy unit A attacked with its Skill. Activates at unit A's Skill Attack End.\n- The Skill used as an Assist Attack does not affect Unit B's upcoming Skills list.",
+      "name": "La Sua Volontà Guida La Mia Spada.",
+      "desc": "- Se l'Unità A applica questo effetto all'Unità B: L'Unità B risponde con un'Attacco incontrastato la sua Abilità 1 contro la stessa Unità nemica attaccata dall'Unità A con l'Abilità. Si attiva alla fine dell'Abilità Attacco dell'Unità A.\n- L'Abilità usata come Attacco di Supporto non influenza la lista di Abilità in arrivo dell'Unità B.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouSupportProtect",
-      "name": "Lordsguard",
-      "desc": "- Unique Assist Defense\n- Max Stack: 1\n- When The Lord of Hongyuan Hong Lu is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, copy and use The Lord of Hongyuan Hong Lu's 'Lordsguard' Skill\n- When there are multiple allies with Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\n- This effect counts as Assist Defense, and is counted toward calculating Assist Defense Stacks\n- Expires at Turn End",
+      "name": "Guardia del Lord",
+      "desc": "- Difesa di Supporto Speciale\n- Stack Max: 1\n- Quando Il Lord di Hongyuan sta per subire un'Attacco Incontrastato di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; infine, copia e usa l'Abilità 'Guardia del Lord' del Lord di Hongyuan Hong Lu\n- Quando ci sono più alleati con Stack di Difesa di Supporto, l'alleato con le maggiori Stack ha priorità di attivazione\n- Questo effetto conta come Difesa di Supporto, e viene contato per le Stack di Difesa di Supporto\n- Si esaurisce a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouSynergy",
-      "name": "Leash-holder of All Heishou",
-      "desc": "- Max Stack: 11\n- Gain the following effects based on Stack:\n· For every 1 Stack, gain 1 Max Speed (max 5) and deal +1% damage with Skills\n· For every 2 Stack, gain 1 Min Speed (max 2) and 1 Defense Level Up (max 5)\n· For every 3 Stack, gain 1 Offense Level (max 3)\n· At 5+ Stack, gain 1 Damage Up and apply 1 Offense Level Up to all Heishou Pack Identities",
+      "name": "Col Guinzaglio di Ogni Heishou",
+      "desc": "- Stack Max: 11\n- Ottiene i seguenti effetti in base alle Stack:\n· Per ogni 1 Stack, ottiene 1 Velocità Max (max 5) e infligge +1% danni con le Abilità\n· Per ogni 2 Stack, ottiene 1 Velocità Min (max 2) e 1 Aumento Difensivo (max 5)\n· Per ogni 3 Stack, ottiene 1 Livello Offensivo (max 3)\n· A 5+ Stack, ottiene 1 Danno Aumentato e applica 1 Aumento Offensivo a tutte le Identità del Branco Heishou",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouComboCountHonglu",
-      "name": "Heishou Bolus Contamination [黑獣丸染]",
-      "desc": "- Max Stack: 11\n- Empowers The Lord of Hongyuan Hong Lu based on which Heishou he activated combo with\n- The Heishou Bolus Contamination effects can stack with each other\n\n· Heishou - Mao Adept Faust: take -5% damage from Skills\n· Heishou - Mao Ryōshū: if this unit's Speed is faster than the target's, deal +5% damage\n· Heishou - Mao Outis: inflict +1 Rupture Count On Hit with Unopposed Attacks (once per turn)\n· Heishou - Si Rodion: Inflict 1 Rupture On Critical Hit (3 times per turn)\n· Heishou - Si Gregor: Gain +1 Poise Count when dealing Rupture damage (once per turn)",
+      "name": "Contaminazione del Bolo Heishou [黑獣丸染]",
+      "desc": "- Stack Max: 11\n- Rafforza Il Lord di Hongyuan Hong Lu in base a con quale Heishou ha attivato una combinazione\n- Gli effetti di Contaminazione del Bolo Heishou si possono sovrapporre\n\n· Heishou - Eccelsa del Ramo Mao Faust: subisce -5% danni dalle Abilità\n· Heishou - Mao Ryōshū: se la Velocità di questa unità è maggiore del bersaglio, infligge +5% danni\n· Heishou - Mao Outis: infligge +1 Conteggio Lacerazione Sul Colpo con gli Attacchi Incontrastati (una volta per turno)\n· Heishou - Si Rodion: Infligge 1 Lacerazione Sul Colpo Critico (3 volte per turno)\n· Heishou - Si Gregor: Ottiene +1 Conteggio Respiro quando infligge danni da Lacerazione (una volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DarkHongluQiuAndHonglu",
-      "name": "One Who Walks The Way of the Hegemon",
-      "desc": "- Hong Lu's Skills gain +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least SP heals 5 SP\n- When an ally dies, next turn, this unit gains 2 Attack Power Up and remaining allies gain 1 Attack Power Up (once per turn)",
+      "name": "Colui che Segue la Via del Condottiero",
+      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS si cura di 5 PS\n- Alla morte di un'alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (una volta per turno)",
       "summary": ""
     },
     {
       "id": "DarkHongluTeaching",
-      "name": "Uncompromising Imposition",
-      "desc": "Max Stack: 3\n- Turn End: heal 5 SP\n- When HP drops to 0 during the Encounter, heal up to max HP (activates as many times as this unit has Stacks)\n- When healed by this effect, gain 1 Final Power Up next turn\n- Activated: {0} times",
+      "name": "Imposizione Irremovibile",
+      "desc": "Stack Max: 3\n- Fine Turno: si cura di 5 PS\n- Quando i PV scendono a 0 durante l'Incontro, si cura di fino ai PV max (si attiva tante volte quante le Stack dell'unità)\n- Quando si cura per questo effetto, ottiene 1 Potere Finale Incrementato il turno successivo\n-Attivato: {0} volte",
       "summary": ""
     },
     {
       "id": "DarkHongluParryGahwan",
-      "name": "You're Ridiculous, Big Brother.",
-      "desc": "In Clashes against Jia Huan, Clash Power +2",
+      "name": "Sei Ridicolo, Fratello.",
+      "desc": "Negli Scontri con Jia Huan, Potere Scontro +2",
       "summary": ""
     },
     {
       "id": "DarkHonglu_EGOResourceup",
-      "name": "No Matter How Many Must Bleed...",
-      "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, gain 2 additional E.G.O resources of the Skill's Affinity (once per turn)\n- When this unit takes damage, it gains 2 Slash DMG Up next turn (once per turn)",
+      "name": "Non Importa Quanti Sanguineranno...",
+      "desc": "[Effetto Esclusivo a Hong Lu]\n- Per questo Incontro: dopo aver usato un'Abilità Attacco, ottiene 2 risorse aggiuntive dell'Affinità dell'Abilità (una volta per turno)\n- Quando questa unità subisce danni, ottiene 2 Aumento Danno Tagliente il turno successivo (una volta per turno)",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Xi",
-      "name": "Happiness",
-      "desc": "- Hong Lu's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's SP by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "Felicità",
+      "desc": "- Potere Scontro di Hong Lu +1\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Annulla l'effetto che trasforma questa unità in Giada Preziosa una volta. Scontrandosi contro Abilità che trasformano questa unità in una Giada Preziosa, Potere Scontro +5; se questa unità vince lo Scontro, questa unità non diventa una Giada Preziosa, si riprende dal Vacillamento, riduce i PS di Jia Mu di 10, e infligge 2 Vulnerabilità a Jia Mu\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Le",
-      "name": "Happiness, Joy",
-      "desc": "- Hong Lu's Final Power +1\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "Felicità, Gioia",
+      "desc": "- Potere Finale di Hong Lu +1\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Ai",
-      "name": "Happiness, Joy, Sorrow",
-      "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "Felicità, Gioia, Tristezza",
+      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un'alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
-      "name": "Happiness, Joy, Sorrow, Wrath",
-      "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 SP at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "Felicità, Gioia, Tristezza, Ira",
+      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un'alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     }
   ]
