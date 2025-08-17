@@ -1647,8 +1647,8 @@
     },
     {
       "id": "Unjust_Enrichment",
-      "name": "Guadagna Illeciti",
-      "desc": "- Ottenuto facendo testa contro i bersagli afflitti da Sanguinamento (Max 4)\n-Quando la Passiva 'Le Pallottole Costano' viene attivata, consuma tutti i Guadagna Illeciti per fare danni extra"
+      "name": "Guadagni Illeciti",
+      "desc": "- Ottenuto facendo testa contro i bersagli afflitti da Sanguinamento (Max 4)\n-Quando la Passiva 'Le Pallottole Costano' viene attivata, consuma tutti i Guadagni Illeciti per fare danni extra"
     },
     {
       "id": "RetaliationBook",
@@ -2485,7 +2485,7 @@
     },
     {
       "id": "SnakeStance",
-      "name": "Braccia di Serpente",
+      "name": "Braccio di Serpente",
       "desc": "Stack Max: 3\nFine Turno: ottiene 3 Respiro e +2 Conteggio Respiro al prossimo turno\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Respiro\nFine turno: perde 1 Stack",
       "summary": "",
       "undefined": "-"
@@ -2542,28 +2542,28 @@
     {
       "id": "DragonLance",
       "name": "Lancia Tumula-Fiori [埋花櫼]",
-      "desc": "Stack Base: 0\nStack Max: 3\n- Tutte le Monete dell'Abilità Base più a sinistra sull Pannello di Controllo diventano Monete Infrangibili\n- A Inizio Turno: ottiene due 2 Aumento Offensivo e 2 Aumento Difensivo\n- A Inizio Turno: a 3+ Stack, ottiene 1 Sangue Immondo (una volta per Incontro)\n- A Fine Turno: ottiene 1 Stack\n※ Non può aumentare le Stack di questo effetto in nessun modo oltre al suddetto \n- Scade alla morte o alla Ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o farla Vacillare o Sconfiggere, usa l'Abilità 'Lacrime del Sangue Immondo - The End'  alla fine di quello stesso turno. Rimuove La Lancia Tumula-Fiori a Fine Turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 a Fine Turno, usa l'Abilità 'Lacrime del Sangue Immondo - The End' in base alla Velocità di questa unità",
+      "desc": "Stack Base: 0\nStack Max: 3\n- Tutte le Monete dell'Abilità Base più a sinistra sull Pannello di Controllo diventano Monete Infrangibili\n- A Inizio Turno: ottiene due 2 Aumento Offensivo e 2 Aumento Difensivo\n- A Inizio Turno: a 3+ Stack, ottiene 1 Sangue Immondo (una volta per Incontro)\n- A Fine Turno: ottiene 1 Stack\n※ Non può aumentare le Stack di questo effetto in nessun modo oltre al suddetto \n- Scade alla morte o alla Ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o farla Vacillare o Sconfiggere, usa l'Abilità 'Lacrime del Sangue Immondo - La Fine'  alla fine di quello stesso turno. Rimuove La Lancia Tumula-Fiori a Fine Turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 a Fine Turno, usa l'Abilità 'Lacrime del Sangue Immondo - La Fine' in base alla Velocità di questa unità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CondensedBlood",
       "name": "Sangue Immondo",
-      "desc": "Stack Max: 5\n- A Fine Turno: subisce danni pari al 20% di PV per Stack (questo effettto non può far Vacillare)\n- Guadagna 1 Stack a Fine Turno\n- Scade alla morte o alla Ritirata",
+      "desc": "Stack Max: 5\n- A Fine Turno: subisce danni pari al 20% di PV per Stack (non può Vacillare a causa di questo effetto)\n- Ottiene 1 Stack a Fine Turno\n- Esaurito alla morte o alla Ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Scade alla morte o alla Ritirata",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito morte o alla Ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonNodie",
       "name": "Abiura [不許]",
-      "desc": "Quando questa unità subisce un danno che porta i suoi PV a 0: i PV di questa unità non scendono sotto 1; guarisci dal Vacillamento causato dal danno.\nse l'effetto sovracitato viene attivato, muori a Fine Turno.\nScade alla morte, alla Ritirata e a Fine Turno",
+      "desc": "Quando questa unità subisce un danno che porta i suoi PV a 0: i PV di questa unità non scendono sotto 1; guarisce dal Vacillamento causato dal danno.\nse l'effetto sovracitato viene attivato, muore a Fine Turno.\nEsaurita alla morte, alla Ritirata e a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -2590,7 +2590,7 @@
     },
     {
       "id": "CheerUpXichun",
-      "name": "Tifo [援]",
+      "name": "Aiuto [援]",
       "desc": "- Stack Max: 1\n- Se il bersaglio ha 5+ effetti negativi, Potere Scontro +1, infligge +10% danni",
       "summary": "",
       "undefined": "-"
@@ -2598,7 +2598,7 @@
     {
       "id": "RetreatForCommon",
       "name": "Ritirata Dal Campo di Battaglia",
-      "desc": "- A Fine Turno: Guarisce dal Vacillamento e si ritira dall'Incontro (non ha effetto su un Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0)",
+      "desc": "- A Fine Turno: Si riprende dal Vacillamento e si ritira dall'Incontro (non ha effetto su un Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di ritirata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0)",
       "summary": "",
       "undefined": "-"
     },
@@ -2633,35 +2633,35 @@
     {
       "id": "IrritationAlly",
       "name": "Spirito Implacabile [剛氣]",
-      "desc": "- Velocità Minima e Massima +1\n- Se questa unità ha Velocità maggiore di almeno 3 rispetto all'avversario, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le Abilità di questa Unità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al prossimo turno\n- Stack Max: 1",
+      "desc": "- Velocità Min e Max +1\n- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le proprie Abilità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al prossimo turno\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
       "name": "Spirito Implacabile - Shin [剛氣-心]",
-      "desc": "- Velocità Minima e Massima +3\n- Se questa unità ha Velocità maggiore di almeno 3 rispetto all'avversario, infligge +(Differenza di Velocità x 5)% danni (massimo 40%)\n- Infligge +2 Potenza e Conteggio Vibrazione con le Abilità di questa unità\n- Stack Max: 1",
+      "desc": "- Velocità Min e Max +3\n- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 5)% danni (massimo 40%)\n- Infligge +2 Potenza e Conteggio Vibrazione con le proprie Abilità\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BeastEyesAlly",
       "name": "Surriscaldamento",
-      "desc": "- Perde questo effetto quando questa unità ottiene Proiettili Marchio di Tigre Selvaggi\n- Velocità Minima e Massima +2\n- Le Abilità Base di questa unità perdono (numero totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi / 2) Potere Scontro (max 10); Tuttavia, ottiene i seguenti effetti(cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottiene 1 Mitigazione per ogni 10% di PV mancanti a Inizio Turno (max 5)\n· 14+ Proiettili Spesi: Quando perde uno Scontro, Le Monete Infrangibili sulle Abilità Base di questo personaggio infliggono +(75 + percentuale di PV mancanti)% danni (max 150%)\n· 20+ Proiettili Spesi: infligge +(differenza di PV in percentuale)% danni contro obiettivi che hanno una percentuale di PV rimanenti maggiore di questa unità (max 50%; Abilità E.G.O Escluse)",
+      "desc": "- Perde questo effetto quando questa unità ottiene Proiettili Marchio di Tigre Selvaggi\n- Velocità Min e Max +2\n- Le Abilità Base di questa unità perdono (numero totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi / 2) Potere Scontro (max 10); Tuttavia, ottiene i seguenti effetti(cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottiene 1 Mitigazione per ogni 10% di PV mancanti a Inizio Turno (max 5)\n· 14+ Proiettili Spesi: Quando perde uno Scontro, Le Monete Infrangibili sulle Abilità Base di questo personaggio infliggono +(75 + percentuale di PV mancanti)% danni (max 150%)\n· 20+ Proiettili Spesi: infligge +(differenza di PV in percentuale)% danni contro obiettivi che hanno una percentuale di PV rimanenti maggiore di questa unità (max 50%; Abilità E.G.O Escluse)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RoseThorn",
       "name": "Spina Ingorda (貪食棘)",
-      "desc": "Stack Max: 9\n\nA Fine Turno: Ottiene Conteggio Sanguinamento pari alla Risonanza Lussuria, poi perde 1 Spina Ingorda (貪食棘). (Massimo Conteggio Sanguinamento Ottenibile: 5)\n\nQuando questa Unità possiede questo effetto, se ottiene una Potenza Sanguinamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottiene Calo Difensivo il prossimo turno pari all'aumento di Banchetto di Sangue (massimo Calo Difensivo ottenibile: 5)",
+      "desc": "Stack Max: 9\n\nA Fine Turno: Ottiene Conteggio Sanguinamento pari alla Rison. Lussuria, poi perde 1 Spina Ingorda (貪食棘). (Massimo Conteggio Sanguinamento Ottenibile: 5)\n\nQuando questa Unità possiede questo effetto, se ottiene una Potenza Sanguinamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottiene Calo Difensivo il prossimo turno pari all'aumento di Banchetto di Sangue (massimo Calo Difensivo ottenibile: 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FellBulletPersonality",
       "name": "Proiettile Crudele",
-      "desc": "Stack Max: 1\n+3% danno Critico per Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Respiro e +2 Conteggio Respiro (2 volte per turno)\nScade a Fine Turno",
+      "desc": "Stack Max: 1\n+3% danno Critico per ogni Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Respiro e +2 Conteggio Respiro (2 volte per turno)\nSi esaurisce a Fine Turno",
       "summary": "Infligge più danni Critici, infligge più Sanguinamento",
       "undefined": "-"
     },
@@ -2682,7 +2682,7 @@
     {
       "id": "WaveSinking",
       "name": "Riflusso",
-      "desc": "- Stack Max: 3\nQuando Subisce un'Attacco, ottiene Potenza Pianto pari alle Stack\n\nA Fine Turno: Se questa unità ha -30 o meno PS, attiva i seguenti effetti (per unità senza PS, si attiva a 60+ Potenza Pianto)\n- Subisce (Potenza Pianto sull'unità x Stack) Danno da Tristezza\n- Infligge 1 Riflusso contro 2 altri bersagli con meno PS (per le Anormalità si applica alle parti); infine, infligge (Potenza Pianto x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisce le Stack di Riflusso all'alleato con il maggior numero di Stack di Riflusso",
+      "desc": "- Stack Max: 3\nQuando Subisce un'Attacco, ottiene Potenza Pianto pari alle Stack\n\nA Fine Turno: Se questa unità ha -30 o meno PS, attiva i seguenti effetti (per unità senza PS, si attiva a 60+ Potenza Pianto)\n- Subisce (Potenza Pianto sull'unità x Stack) Danno da Tristezza\n- Infligge 1 Riflusso contro 2 altri bersagli con meno PS (per le Anormalità, Parti); infine, infligge (Potenza Pianto x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisce le Stack di Riflusso all'alleato con il maggior numero di Stack di Riflusso",
       "summary": "",
       "undefined": "-"
     },
