@@ -1205,7 +1205,7 @@
         {
           "level": 3,
           "name": "Drawn by Flame",
-          "desc": "[StartBattle] Ottiene 7 [Combustion] e +1 Conteggio [Combustion]\n[BeforeUse] A 30+ [Combustion], attiva al suo posto 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’\n[WhenUse] Infligge +7.5% danni per ogni 5 [Combustion] su di sé (max 30%)\n[WhenUse] A 10+ ([Combustion] su di sé + [Combustion] sul bersaglio), Potere di Base +1\n[WhenUse] Se a questa unità mancano 30%+ PV, Potere Moneta +1",
+          "desc": "[StartBattle] Ottiene 7 [Combustion] e +1 Conteggio [Combustion]\n[BeforeUse] A 30+ [Combustion], attiva al suo posto 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’\n[WhenUse] Infligge +7.5% danni per ogni 5 [Combustion] su di sé (max 30%)\n[WhenUse] A 10+ ([Combustion] su di sé + [Combustion] sul bersaglio), Potere Base +1\n[WhenUse] Se a questa unità mancano 30%+ PV, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 4,
           "name": "Drawn by Flame",
-          "desc": "[StartBattle] Ottiene 7 [Combustion] e +1 Conteggio [Combustion]\n[BeforeUse] A 30+ [Combustion], attiva al suo posto 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’\n[WhenUse] Infligge +12.5% danni per ogni 5 [Combustion] su di sé (max 50%)\n[WhenUse] Potere di Base +1 per ogni 10 ([Combustion] su di sé + [Combustion] sul bersaglio) (max 2)\n[WhenUse] Se a questa unità mancano 30%+ PV, Potere Moneta +1 (max 2)",
+          "desc": "[StartBattle] Ottiene 7 [Combustion] e +1 Conteggio [Combustion]\n[BeforeUse] A 30+ [Combustion], attiva al suo posto 'Sintonia Massima S.F.A 【Corrosione Deteriorata】’\n[WhenUse] Infligge +12.5% danni per ogni 5 [Combustion] su di sé (max 50%)\n[WhenUse] Potere Base +1 per ogni 10 ([Combustion] su di sé + [Combustion] sul bersaglio) (max 2)\n[WhenUse] Se a questa unità mancano 30%+ PV, Potere Moneta +1 (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1275,7 +1275,7 @@
         {
           "level": 1,
           "name": "Sintonia Massima S.F.A 【Corrosione Deteriorata】",
-          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +7.5% danni per ogni 5 [Combustion] su di sé (max 30%)\n[WhenUse] A 10+ ([Combustion] su di sé + [Combustion] sul bersaglio), Potere di Base +1\n[WhenUse] Potere Moneta +1 per ogni 30% di PV mancanti su di sé (max 2)\n[BeforeAttack] Peso Attacco +1 per ogni 20% di PV mancanti su di sé (max 2)",
+          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +7.5% danni per ogni 5 [Combustion] su di sé (max 30%)\n[WhenUse] A 10+ ([Combustion] su di sé + [Combustion] sul bersaglio), Potere Base +1\n[WhenUse] Potere Moneta +1 per ogni 30% di PV mancanti su di sé (max 2)\n[BeforeAttack] Peso Attacco +1 per ogni 20% di PV mancanti su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1312,7 +1312,7 @@
         {
           "level": 4,
           "name": "Sintonia Massima S.F.A 【Corrosione Deteriorata】",
-          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +12.5% danni per ogni 5 [Combustion] su di sé (max 50%)\n[WhenUse] Potere di Base +1 per ogni 10 ([Combustion] su di sé + [Combustion] sul bersaglio) (max 2)\n[WhenUse] Potere Moneta +1 per ogni 30% di PV mancanti su di sé (max 3)\n[BeforeAttack] Peso Attacco +1 per ogni 20% di PV mancanti su di sé (max 4)",
+          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +12.5% danni per ogni 5 [Combustion] su di sé (max 50%)\n[WhenUse] Potere Base +1 per ogni 10 ([Combustion] su di sé + [Combustion] sul bersaglio) (max 2)\n[WhenUse] Potere Moneta +1 per ogni 30% di PV mancanti su di sé (max 3)\n[BeforeAttack] Peso Attacco +1 per ogni 20% di PV mancanti su di sé (max 4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1602,7 +1602,7 @@
         {
           "level": 4,
           "name": "It Shall be Done.",
-          "desc": "[DuelCounter]\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[WhenUse] Quest'Abilità ottiene +1 Livello Offensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, ottiene Potere di Base in base alla differenza di Velocità (Potere di Base +1 per ogni 2 differenza di Velocità; max 2)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[WhenUse] Quest'Abilità ottiene +1 Livello Offensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, ottiene Potere Base in base alla differenza di Velocità (Potere Base +1 per ogni 2 differenza di Velocità; max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
