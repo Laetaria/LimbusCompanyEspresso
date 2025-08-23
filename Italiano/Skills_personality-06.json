@@ -2218,7 +2218,7 @@
         {
           "level": 3,
           "name": "Andate, Branchi di Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (una volta per turno)\n- Dopo che [HeishouCombo] si è conclusa, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Non si è attivata [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia conclusa, invece usa 'Lotta Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (una volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "Andate, Branchi di Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (una volta per turno)\n- Dopo che [HeishouCombo] si è conclusa, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Non si è attivata [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia conclusa, invece usa 'Lotta Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (una volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2263,7 +2263,7 @@
         {
           "level": 1,
           "name": "Artiglio dell'Heishou [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Idnetità del Branco Heishou alleate (una volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (una volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (una volta per turno)",
+          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Identità del Branco Heishou alleate (una volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (una volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2277,7 +2277,7 @@
         {
           "level": 4,
           "name": "Artiglio dell'Heishou [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Idnetità del Branco Heishou alleate (una volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (una volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (una volta per turno)<style=\"highlight\"></style>",
+          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Identità del Branco Heishou alleate (una volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (una volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (una volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
