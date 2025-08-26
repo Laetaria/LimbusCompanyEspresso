@@ -82,7 +82,7 @@
     },
     {
       "id": "LoseTurnOnRoundEnd",
-      "desc": "Fine Turno: perde {0} Conteggio"
+      "desc": "Fine Turno: perde Conteggio {0}"
     },
     {
       "id": "Vibration",
@@ -178,7 +178,7 @@
     },
     {
       "id": "MRR525",
-      "desc": "Fine Turno: perde {1} {0} Conteggio"
+      "desc": "Fine Turno: perde {1} Conteggio {0}"
     },
     {
       "id": "CoinScaleAdderByAtkType",
@@ -222,7 +222,7 @@
     },
     {
       "id": "MRR5051",
-      "desc": "Sul Colpo con Abilità che hanno consumato 8+ {0} Conteggio: +0.1 a {1} Resistenza sul bersaglio per questo incontro\n- Una Volta per Abilità per Nemico\n- Massima modifica di Resistenza con questo effetto: 0.3"
+      "desc": "Sul Colpo con Abilità che hanno consumato 8+ Conteggio {0}: +0.1 a {1} Resistenza sul bersaglio per questo incontro\n- Una Volta per Abilità per Nemico\n- Massima modifica di Resistenza con questo effetto: 0.3"
     },
     {
       "id": "MRR5052",
@@ -246,11 +246,11 @@
     },
     {
       "id": "GiveBuffOnFirstRoundStartPerWave",
-      "desc": "Primo Inizio Turno di un'ondata: ottiene {1} Potenza {0} e +{2} {0} Conteggio"
+      "desc": "Primo Inizio Turno di un'ondata: ottiene {1} Potenza {0} e +{2} Conteggio {0}"
     },
     {
       "id": "GiveBuffOnBattleStartAR",
-      "desc": "Se è stata attivata {0} Rison., tutti gli alleati ottengono {2} {1} Potenza e +{3} {1} Conteggio a Inizio Combattimento"
+      "desc": "Se è stata attivata {0} Rison., tutti gli alleati ottengono {2} Potenza {1} e +{3} Conteggio {1} a Inizio Combattimento"
     },
     {
       "id": "MRR511PMaxSpeedAdder",
@@ -294,7 +294,7 @@
     },
     {
       "id": "CriticalDamageBoostWithBuffUse",
-      "desc": "Sul Critico,se con più di {1} Potenza {0}, consuma fino a {1} della Potenza {0} in eccessso per infliggere +(Potenza Respiro consumata x {2})% danni sul Colpo Critico (max {3}%)"
+      "desc": "Sul Critico, se con più di {1} Potenza {0}, consuma fino a {1} della Potenza {0} in eccessso per infliggere +(Potenza Respiro consumata x {2})% danni sul Colpo Critico (max {3}%)"
     },
     {
       "id": "GainSinStockOnDieByDefaultSkill",
@@ -326,11 +326,11 @@
     },
     {
       "id": "MRR557",
-      "desc": "Infligge +(10 + Potenza {0} + {0} Conteggio)% danni sul Colpo Critico (max 50%)"
+      "desc": "Infligge +(10 + Potenza {0} + Conteggio {0})% danni sul Colpo Critico (max 50%)"
     },
     {
       "id": "LacerationStackAndTurnAdderIfNotZero",
-      "desc": "+{0} to {1} Potenza e Conteggio inflitti con gli effetti di Abilità e Monete"
+      "desc": "+{0} a Potenza e Conteggio {1} inflitti con gli effetti di Abilità e Monete"
     },
     {
       "id": "AttackDmgMultiplierSpecificType",
