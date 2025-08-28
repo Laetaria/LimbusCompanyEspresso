@@ -2,92 +2,92 @@
   "dataList": [
     {
       "id": "BurstAgility",
-      "name": "Deathrite【Haste】",
-      "desc": "- Base Stack: 3\n- When getting Rupture triggered by getting hit by an Attack Skill from a target with 10+ Speed, lose 1 Stack and gain +1 Rupture Count\n- At 0 Stack, take Gluttony damage equal to Rupture Potency on self; then, this effect expires\n※ Cannot gain additional Stacks of this effect while it is already active",
-      "summary": "If conditions are met: inflict Gluttony bonus damage",
+      "name": "Anatema【Rapidità】",
+      "desc": "Base Stack: 3\nQuando viene attivata Lacerazione subendo un'Abilità Attacco da un bersaglio con 10+ Velocità, perde 1 Stack e ottiene +1 Conteggio Lacerazione\nA 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "summary": "Se le condizioni vengono raggiunte: infligge danni Gola bonus",
       "undefined": "-"
     },
     {
       "id": "LegStrength",
       "name": "Strider【Mao】",
-      "desc": "Max Stack: 3\nTurn End: gain 5 Haste next turn\nReduced by 1 at Turn End",
-      "summary": "If conditions are met: inflict Gluttony bonus damage",
+      "desc": "Stack Max: 3\nFine Turno: ottiene 5 Rapidità il turno successivo\nRidotta di 1 a Fine Turno",
+      "summary": "Se le condizioni vengono raggiunte: infligge danni Gola bonus",
       "undefined": "-"
     },
     {
       "id": "DarkBeast_LowMorale",
-      "name": "Deception",
-      "desc": "- Morale Basso\n- If this unit's Speed is faster than the target or when using an Unopposed Attack, deal +10% damage against the target",
+      "name": "Inganno",
+      "desc": "- Morale Basso\n- Se la Velocità di questa unità è maggiore del bersaglio o quando usa un'Attacco Incontrastato, infligge +10% danni al nemico",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DarkBeast_Panic",
-      "name": "Deception",
-      "desc": "- Panico\n- If this unit's Speed is faster than the target or when using an Unopposed Attack, deal +20% damage against the target; if this unit's Speed is faster than the target's, take -20% damage",
+      "name": "Inganno",
+      "desc": "- Panico\n- Se la Velocità di questa unità è maggiore del bersaglio o quando usa un'Attacco Incontrastato, infligge +20% danni al nemico; se la Velocità di questa unità è maggiore del bersaglio, subisce -20% danni",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RepressedMurderousIntend",
-      "name": "Repressed Bloodthirst",
-      "desc": "Base Offense Level -10\nBase Defense Level -10",
+      "name": "Sete di Sangue Repressa",
+      "desc": "Livello Offensivo Base -10\nLivello Difensivo Base -10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeighedMurderousIntend",
-      "name": "Crushed Bloodthirst",
-      "desc": "Base Offense Level -25\nBase Defense Level -25",
+      "name": "Sete di Sangue Schiacciata",
+      "desc": "Livello Offensivo Base -25\nLivello Difensivo Base -25",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFingerBook",
-      "name": "Vendetta Mark",
-      "desc": "Max Stack: 10\nWhen attacked by The Middle, take +3% damage per Stack (max 30%)",
+      "name": "Marchio di Vendetta",
+      "desc": "Stack Max: 10\nSubisce +3% danni per Stack (max 30%) dagli attacchi del Medio",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Persistent",
-      "name": "Persistence",
-      "desc": "Max Stack: 4\nWhen taking lethal damage, 80% chance to not take that damage, heal 60 PV, recover from Stagger, and lose this effect\n\nThe above effects do not activate under the following conditions:\n- When the Coin damage taken exceeds this unit's max PV\n- When this unit has the PV Healing Down effect\nReduced by 1 at Turn End",
+      "name": "Persistenza",
+      "desc": "Stack Max: 4\nQuando subisce danni letali, 80% di probabilità di ignorare quei danni, curarsi di 60 PV, riprendersi da Vacillamento, e perdere questo effetto\n\nQuesgli effetti non si attivano nelle seguenti condizioni:\n- Quando i danni subiti dalla Moneta superano i PV massimi di questa unità\n- Quando questa unità ha l'effetto Cure PV Ridotte\nSi riduce di 1 a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BackstreetsNight_LowMorale",
-      "name": "Night in the Backstreets",
-      "desc": "- Morale Basso\n- Turn Start: gain 1 Attack Power Up, 1 PV Healing Boost, and 1 Fragile",
+      "name": "Notte nei Vicoli",
+      "desc": "- Morale Basso\n- Inizio Turno: ottiene 1 Attacco Aumentato, 1 Cure PV Aumentate, e 1 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BackstreetsNight_Panic",
-      "name": "Night in the Backstreets",
-      "desc": "- Panico\n- Turn Start: gain 2 Attack Power Up, 2 PV Healing Boost, and 1 Fragile",
+      "name": "Notte nei Vicoli",
+      "desc": "- Panico\n- Inizio Turno: ottiene 2 Attacco Aumentato, 2 Cure PV Aumentate, e 1 Vulnerabilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperA",
-      "name": "The First Wave",
-      "desc": "The first wave ends after {0} turn(s)",
+      "name": "La Prima Ondata",
+      "desc": "La prima ondata termina dopo {0} turno/i",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperB",
-      "name": "The Second Wave",
-      "desc": "The second wave ends after {0} turn(s)",
+      "name": "La Seconda Ondata",
+      "desc": "La seconda ondata termina dopo {0} turno/i",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperC",
-      "name": "The Third Wave",
-      "desc": "The third wave ends after {0} turn(s)",
+      "name": "La Terza Ondata",
+      "desc": "La terza ondata termina dopo {0} turno/i",
       "summary": "",
       "undefined": "-"
     }

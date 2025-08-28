@@ -948,7 +948,7 @@
     },
     {
       "id": "TakeHpHealReduce",
-      "name": "Cure PV ridotte",
+      "name": "Cure PV Ridotte",
       "desc": "Gli effetti curativi vengono ridotti del -{0}0% da passive, Abilità, e da lanci delle Monete. (Max 5)",
       "summary": "Cura di -{0}0%"
     },
@@ -2465,7 +2465,7 @@
     {
       "id": "WideAreaRampage",
       "name": "Raffica Incontrollabile",
-      "desc": "- Quando si lancia la Moneta di quest'Abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'sul colpo' e tutti i danni inflitti da ogni Moneta vengono inflitti solo contro il bersaglio casuale selezionato dalla Moneta.",
+      "desc": "- Quando si lancia la Moneta di quest'Abilità, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli\n· La prima Moneta colpisce sempre il bersaglio principale\n· Tutti gli effetti 'sul colpo' e tutti i danni inflitti da ogni Moneta vengono inflitti solo al bersaglio casuale selezionato dalla Moneta.",
       "summary": "Attacca indiscriminatamente tra i bersagli scelti",
       "undefined": "-"
     },
@@ -2781,6 +2781,36 @@
       "id": "DarkHonglu_Nu",
       "name": "Felicità, Gioia, Tristezza, Ira",
       "desc": "- Valore Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un'alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "summary": ""
+    },
+    {
+      "id": "ChickenStance",
+      "name": "Bloodflame [血炎]",
+      "desc": "- Max Stack: 3\n- This unit inflicts +1 more Burn and Rupture Potency with its Base Skills\n- While this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n· If this unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\n- Lose 1 Stack at Turn End",
+      "summary": "Inflict +1 more Burn or Rupture"
+    },
+    {
+      "id": "LegStrengthHorseYisang",
+      "name": "Strider【Wu】",
+      "desc": "- Max Stack: 3\n- Turn End: gain 2 Haste and (Stack x 2) Aggro next turn\n- Before Attack: inflict (Stack) Tremor Potency against the main target (max 6 per turn)\n- Lose 1 Stack at Turn End",
+      "summary": ""
+    },
+    {
+      "id": "ConcussionYisang",
+      "name": "Concussion",
+      "desc": "- Max Stack: 2\n- Multiply the amount of Stagger Threshold raised by Tremor Burst and Rupture damage dealt against this unit by 1.2 (rounded down)\n- Lose 1 Stack at Turn End",
+      "summary": ""
+    },
+    {
+      "id": "BreakthroughHorse",
+      "name": "Linebreaker",
+      "desc": "- Max Stack: 5\n- Turn Start: gain (Stack x 10) Shield for the turn\n- At max Stack, gain 2 Final Power\n- When hit: if this unit took 100+ damage from a single Skill, gain 1 Protection after that Skill ends (2 times per turn; includes damage against Shield HP; does not count damage from Keywords)",
+      "summary": ""
+    },
+    {
+      "id": "BattlefieldHorse",
+      "name": "Commanding Cry",
+      "desc": "- Gain 1 Clash Power and 2 Defense Level\n- Expires at Turn End",
       "summary": ""
     }
   ]
