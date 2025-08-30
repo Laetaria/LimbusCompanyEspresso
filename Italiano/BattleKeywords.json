@@ -1158,7 +1158,7 @@
     {
       "id": "Talisman",
       "name": "Talismano",
-      "desc": "Max Stack: 6\nSul Colpo, infligge Lacerazione in base alle Stack; Quando subisce un colpo, ottiene Lacerazione in base alle Stack\nA Fine Turno: A 6+ Stack, rimuove tutti i Talismani e subisce danno fisso in base alle Stack.",
+      "desc": "Stack Max: 6\nSul Colpo, infligge Lacerazione in base alle Stack; Quando subisce un colpo, ottiene Lacerazione in base alle Stack\nA Fine Turno: A 6+ Stack, rimuove tutti i Talismani e subisce danno fisso in base alle Stack.",
       "summary": "Infligge Lacerazione con gli attacchi ed ottiene Lacerazione quando subisce un colpo"
     },
     {
@@ -1455,7 +1455,7 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene (Conteggio Tempo in Prestito - 1) Rapidità, Potere Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, l'effetto di Tempo in Prestito scade al turno successivo, e questa unità Vacilla\n\nTurn End: A Fine Turno: A 1 Conteggio, ottiene (Tempo in Prestito - 1) Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
+      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene (Conteggio Tempo in Prestito - 1) Rapidità, Potere Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, l'effetto di Tempo in Prestito scade al turno successivo, e questa unità Vacilla\n\nFine Turno: A Fine Turno: A 1 Conteggio, ottiene (Tempo in Prestito - 1) Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
       "summary": ""
     },
     {
@@ -1697,13 +1697,13 @@
     {
       "id": "Zazen",
       "name": "Dhyāna",
-      "desc": "- Max Stack: 108\n- Infligge +1% danni in più per ogni Stack",
+      "desc": "- Stack Max: 108\n- Infligge +1% danni in più per ogni Stack",
       "summary": "Infligge più danni"
     },
     {
       "id": "SwirlingBloodPersonality",
       "name": "Sangue Vorticoso【Sanguimonio】",
-      "desc": "- Max Stack: 50\n-  Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle Stack nel momento in cui viene applicato\n-Scade a Fine Turno",
+      "desc": "- Stack Max: 50\n-  Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Banchetto di Sangue.\n- Ottiene uno scudo PV pari alle Stack nel momento in cui viene applicato\n-Scade a Fine Turno",
       "summary": ""
     },
     {
@@ -1778,7 +1778,7 @@
     {
       "id": "FullReload",
       "name": "Ricaricare",
-      "desc": "Lose all currently owned Munizioni, e reload it back to full"
+      "desc": "Perde tutte le munizioni e le ricarica"
     },
     {
       "id": "Bullet_LogicAtelier",
@@ -1793,12 +1793,12 @@
     {
       "id": "LogicAtelierAM",
       "name": "Concentrazione【Cecchino】",
-      "desc": "- Max Stack: 4\n- A Fine Turno: ottiene 1 Stack"
+      "desc": "- Stack Max: 4\n- A Fine Turno: ottiene 1 Stack"
     },
     {
       "id": "MeleeCover",
       "name": "Supporto in Mischia",
-      "desc": "- Se l'uniità A applica quest'effetto all'unità B: l'unità B esegue un Attacco Incontrastato con l'Abilità 'Supporto in Mischia' contro lo stesso nemico che l'unità A ha attaccato. Si attiva alla fine dell'Abilità di A.\n- L'Abilità che viene usata dall'effetto 'Supporto in Mischia' non influenza la Barra Abilità di B"
+      "desc": "- Se l'unità A applica quest'effetto all'unità B: l'unità B esegue un Attacco Incontrastato con l'Abilità 'Supporto in Mischia' contro lo stesso nemico che l'unità A ha attaccato. Si attiva alla fine dell'Abilità di A.\n- L'Abilità che viene usata dall'effetto 'Supporto in Mischia' non influenza la Barra Abilità di B"
     },
     {
       "id": "RequestedTarget",
@@ -1808,18 +1808,18 @@
     {
       "id": "GlowingLantern",
       "name": "Esca Fatata",
-      "desc": "- Max Stack: 5\n- A Inizio Turno: lo Slot più a sinistra della Barra Abilità ottiene +10 Provocazione\n- Subisce +50% danni\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
+      "desc": "- Stack Max: 5\n- A Inizio Turno: lo Slot più a sinistra della Barra Abilità ottiene +10 Provocazione\n- Subisce +50% danni\n- Quando subisce un colpo, infligge 1 Lacerazione all'attaccante (3 volte per Abilità del bersaglio)\n· A meno del 50% dei PV, infligge 1 Lacerazione in più\n· Se il bersaglio ha 15+ Lacerazione, quest'effetto non infligge Lacerazione\n- Ridotto di 1 a Fine Turno"
     },
     {
       "id": "HoldingBreath",
       "name": "Respiro Profondo",
-      "desc": "- Max Stack: 20\n- Quando si effettua un critico, a 15+ Potenza Respiro e 5+ Conteggio Respiro, consuma (Potenza Respiro su di sé/ 5) Potenza Respiro per infliggere +(Potenza Respiro consumata x 4)% più danno sul colpo critico, e perde 1 Stack",
+      "desc": "- Stack Max: 20\n- Quando si effettua un critico, a 15+ Potenza Respiro e 5+ Conteggio Respiro, consuma (Potenza Respiro su di sé/ 5) Potenza Respiro per infliggere +(Potenza Respiro consumata x 4)% più danno sul colpo critico, e perde 1 Stack",
       "summary": "Infligge più Danni con Colpo Critico"
     },
     {
       "id": "NebulizerInhale",
       "name": "Nebulizzatore β",
-      "desc": "- Max Stack: 5\n- Quest'effetto persiste per tutto l'incontro\n- Quando si attiva la Risonanza Superbia Assoluta: All'Inizio del combattimento, applica 3 Respiro e +3 Conteggio Respiro su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
+      "desc": "- Stack Max: 5\n- Quest'effetto persiste per tutto l'incontro\n- Quando si attiva la Risonanza Superbia Assoluta: All'Inizio del combattimento, applica 3 Respiro e +3 Conteggio Respiro su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
       "summary": "Ottiene Respiro e Conteggio Respiro"
     },
     {
@@ -1835,12 +1835,12 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Max Stack: 1\nConverte tutte le Monete delle Abilità Offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità e infligge +1 Sanguinamento in più con gli effetti.\nSe perde lo Scontro: ottiene Valore Finale +3\\nA Fine Turno: quest'effetto termina"
+      "desc": "Stack Max: 1\nConverte tutte le Monete delle Abilità Offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità e infligge +1 Sanguinamento in più con gli effetti.\nSe perde lo Scontro: ottiene Valore Finale +3\\nA Fine Turno: quest'effetto termina"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Max Stack: 1\nOttiene 1 Potenzia Tagliente\nnfligge 1 Sanguinamento sul colpo con le Abilità Taglienti"
+      "desc": "Stack Max: 1\nOttiene 1 Potenzia Tagliente\nnfligge 1 Sanguinamento sul colpo con le Abilità Taglienti"
     },
     {
       "id": "EngageToBattle",
@@ -1850,7 +1850,7 @@
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
-      "desc": "Max Stack: 1\nValore Finale Abilità Difensiva +1\nQuest'effetto scade a Fine Turno o dopo che la seguente Abilità termina: 'Regole dei Vicoli'"
+      "desc": "Stack Max: 1\nValore Finale Abilità Difensiva +1\nQuest'effetto scade a Fine Turno o dopo che la seguente Abilità termina: 'Regole dei Vicoli'"
     },
     {
       "id": "ScarletResultUp",
@@ -1860,7 +1860,7 @@
     {
       "id": "NebulizerExhale",
       "name": "Nebulizzatore α",
-      "desc": "- Max Stack: 5\n- Quest'effetto persiste durante tutto l'incontro\n- All'Inizio del combattimento: applica 1 Potenza Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
+      "desc": "- Stack Max: 5\n- Quest'effetto persiste durante tutto l'incontro\n- All'Inizio del combattimento: applica 1 Potenza Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
     },
     {
       "id": "ReleaseBreath",
@@ -1870,49 +1870,49 @@
     {
       "id": "FirePunchFuel",
       "name": "Carburante del Distretto 12",
-      "desc": "Max Stack: 100\nViene usato da alcune Abilità.\nA meno di 50, diventa Carburante Surriscaldato",
+      "desc": "Stack Max: 100\nViene usato da alcune Abilità.\nA meno di 50, diventa Carburante Surriscaldato",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FirePunchFuelOverheated",
       "name": "Carburante Surriscaldato",
-      "desc": "Max Stack: 100\nConsumare Carburante del Distretto 12 mentre l'unità è nello stato Carburante Surriscaldato consuma invece Carburante Surriscaldato\nConsumare Carburante Surriscaldato conta come consumare Carburante del Distretto 12\nA 50+ Stack, diventa Carburante del Distretto 12",
+      "desc": "Stack Max: 100\nConsumare Carburante del Distretto 12 mentre l'unità è nello stato Carburante Surriscaldato consuma invece Carburante Surriscaldato\nConsumare Carburante Surriscaldato conta come consumare Carburante del Distretto 12\nA 50+ Stack, diventa Carburante del Distretto 12",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DianxueDonQuixote",
       "name": "Colpo al Nervo - Don Quixote",
-      "desc": "- Max Stack: 3\n- L'unità che ha inflitto questo Colpo al Nervo ottiene i seguenti effetti in base alle Stack di Colpo al Nervo del bersaglio (o della Parte bersagliata)\n· 1x Stack: Ottiene Potere Scontro +1\n· 2x Stack: Ottiene Potere Base +1\n· 3x Stack: Ottiene Potere Scontro +1 e Potere Base +1\n- L'effetto termina se l'unità che l'ha inflitto infligge quest'effetto contro un bersaglio o una Parte diversa\n- L'effetto viene sostituito quando un'altra unità infligge Colpo al Nervo",
+      "desc": "- Stack Max: 3\n- L'unità che ha inflitto questo Colpo al Nervo ottiene i seguenti effetti in base alle Stack di Colpo al Nervo del bersaglio (o della Parte bersagliata)\n· 1x Stack: Ottiene Potere Scontro +1\n· 2x Stack: Ottiene Potere Base +1\n· 3x Stack: Ottiene Potere Scontro +1 e Potere Base +1\n- L'effetto termina se l'unità che l'ha inflitto infligge quest'effetto contro un bersaglio o una Parte diversa\n- L'effetto viene sostituito quando un'altra unità infligge Colpo al Nervo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VengeanceBookSinclair",
       "name": "Libro della Vendetta [Sinclair]",
-      "desc": "- Max Stack: 30\n- Infligge più danno pari a (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danno Contundente Aumentato\n· A 20+ Stack: Velocità Max +1, ottiene 1 Potere Incrementato\n· A 30+ Stack: ottiene 2 Danno Contundente Potenziato",
+      "desc": "- Stack Max: 30\n- Infligge più danno pari a (Stack)% (max 30%)\n- Ottiene i seguenti effetti il turno successivo in base alle Stack:\n· A 10+ Stack: ottiene 1 Danno Contundente Aumentato\n· A 20+ Stack: Velocità Max +1, ottiene 1 Potere Incrementato\n· A 30+ Stack: ottiene 2 Danno Contundente Potenziato",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Max Stack: 10\n- Viene usato da alcune Abilità o Passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con le Stack maggiori di quest'effetto ottiene 1 Marchio della Vendetta Fraterno il turno successivo\n(Calcolato separatemante da Marchio della Vendetta; se più di una singola unità ha il valore più alto di quest'effetto, viene bersagliata l'unità coi PV maggiori)",
+      "desc": "- Stack Max: 10\n- Viene usato da alcune Abilità o Passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con le Stack maggiori di quest'effetto ottiene 1 Marchio della Vendetta Fraterno il turno successivo\n(Calcolato separatemante da Marchio della Vendetta; se più di una singola unità ha il valore più alto di quest'effetto, viene bersagliata l'unità coi PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RetaliationBookFamily",
       "name": "Marchio della Vendetta Fraterno",
-      "desc": "- Max Stack: 1\n-  Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il proprio Marchio della Vendetta",
+      "desc": "- Stack Max: 1\n-  Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il proprio Marchio della Vendetta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BirdCage",
       "name": "Gabbia Bruciante",
-      "desc": "Max Stack: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni Stack che ha (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre quest'ultimo è già attivo",
+      "desc": "Stack Max: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni Stack che ha (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre quest'ultimo è già attivo",
       "summary": "Resistenza ad Ira +0.1 per ogni Stack",
       "undefined": "-"
     },
@@ -1989,7 +1989,7 @@
     {
       "id": "CentipedePoison",
       "name": "Veleno Del Centopiedi",
-      "desc": "- Max Stack: 20\n- Turn End: ottiene (Stack / 4) Calo Difensivo il turno successivo (rounded down)\n- Turn End: take Gluttony damage equal to Stack, e halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Incontri Mirati, a different Part) with none or the least Centipede Venom Stacks.",
+      "desc": "- Stack Max: 20\n- A Fine Turno: ottiene (Stack / 4) Calo Difensivo il prossimo turno (Arrotondato per difetto)\n- A Fine Turno: subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
       "summary": "",
       "undefined": "-"
     },
@@ -2010,7 +2010,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Max Stack: 20\n- Gain 1 Stack at Turn End or when hit\n- Gain 1 Offense Level per 5 Stack\n- If the unit with this effect dies, inflict Gluttony damage equal to Stack e inflict 5 Rupture\n- Expires upon death or Retreat",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
       "summary": "",
       "undefined": "-"
     },
@@ -2239,32 +2239,32 @@
     },
     {
       "id": "ChickenStance",
-      "name": "Bloodflame [血炎]",
-      "desc": "- Max Stack: 3\n- This unit inflicts +1 more Burn and Rupture Potency with its Base Skills\n- While this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n· If this unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\n- Lose 1 Stack at Turn End",
-      "summary": "Inflict +1 more Burn or Rupture"
+      "name": "Sanguifiamma [血炎]",
+      "desc": "- Stack Max: 3\n- Questa unità infligge +1 Potenza Bruciatura e Lacerazione aggiuntive con le sue Abilità Base\n- Mentre questa unità ha questo effetto, si cura di 3 PS quando fa Vacillare o uccide un nemico (3 volte per turno)\n· Se i PS di questa unità sono al massimo all'attivazione di questo effetto, ottiene 1 Aumento Offensivo e 1 Rapidità il turno successivo\n- Perde 1 Stack a Fine Turno",
+      "summary": "Infligge +1 Potenza Bruciatura o Lacerazione"
     },
     {
       "id": "LegStrengthHorseYisang",
-      "name": "Strider【Wu】",
-      "desc": "- Max Stack: 3\n- Turn End: gain 2 Haste and (Stack x 2) Aggro next turn\n- Before Attack: inflict (Stack) Tremor Potency against the main target (max 6 per turn)\n- Lose 1 Stack at Turn End",
+      "name": "Scattante【Wu】",
+      "desc": "- Stack Max: 3\n- Fine Turno: ottiene 2 Rapidità e (Stack x 2) Provocazione il turno successivo\n- Prima di Attaccare: infligge (Stack) Potenza Vibrazione contro il bersaglio principale (max 6 per turno)\n- Perde 1 Stack a Fine Turno",
       "summary": ""
     },
     {
       "id": "ConcussionYisang",
-      "name": "Concussion",
-      "desc": "- Max Stack: 2\n- Multiply the amount of Stagger Threshold raised by Tremor Burst and Rupture damage dealt against this unit by 1.2 (rounded down)\n- Lose 1 Stack at Turn End",
+      "name": "Concussione",
+      "desc": "- Stack Max: 2\n- Moltiplica di quanto la Soglia di Vacillamento viene alzata dallo Scoppio Vibrazione e i danni da Lacerazione subiti da questa unità per 1.2 (arrotondato in difetto)\n- Perde 1 Stack a Fine Turno",
       "summary": ""
     },
     {
       "id": "BreakthroughHorse",
-      "name": "Linebreaker",
-      "desc": "- Max Stack: 5\n- Turn Start: gain (Stack x 10) Shield for the turn\n- At max Stack, gain 2 Final Power\n- When hit: if this unit took 100+ damage from a single Skill, gain 1 Protection after that Skill ends (2 times per turn; includes damage against Shield HP; does not count damage from Keywords)",
+      "name": "Sfondalinee",
+      "desc": "- Stack Max: 5\n- Inizio Turno: ottiene (Stack x 10) Scudo per questo turno\n- A Stack max, ottiene 2 Potere Finale\n- Quando subisce un colpo: se questa unità subisce 100+ danni da una sola Abilità, ottiene 1 Mitigazione dopo che l'Abilità si è conclusa (2 volte per turno; include i danni allo Scudo PV; non considera i danni dai Tratti)",
       "summary": ""
     },
     {
       "id": "BattlefieldHorse",
-      "name": "Commanding Cry",
-      "desc": "- Gain 1 Clash Power and 2 Defense Level\n- Expires at Turn End",
+      "name": "Grido Deciso",
+      "desc": "- Ottiene 1 Potere Scontro e 2 Livello Difensivo\n- Si esaurisce a Fine Turno",
       "summary": ""
     }
   ]

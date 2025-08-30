@@ -2349,7 +2349,7 @@
     {
       "id": "MeleeCover",
       "name": "Supporto in Mischia",
-      "desc": "- se l'uniità A applica quest'effetto all'unità B: l'unità B esegue un Attacco Incontrastato con l'Abilità 'Supporto in mischia' contro lo stesso nemico che l'unità A ha attaccato. Si attiva alla fine dell'Abilità di A.\n- L'Abilità che viene usata dall'effetto 'Supporto in Mischia' in influenza la Barra Mosse di B"
+      "desc": "- se l'unità A applica quest'effetto all'unità B: l'unità B esegue un Attacco Incontrastato con l'Abilità 'Supporto in mischia' contro lo stesso nemico che l'unità A ha attaccato. Si attiva alla fine dell'Abilità di A.\n- L'Abilità che viene usata dall'effetto 'Supporto in Mischia' in influenza la Barra Mosse di B"
     },
     {
       "id": "RequestedTarget",
@@ -2450,7 +2450,7 @@
     },
     {
       "id": "RetaliationBookFamily",
-      "name": "Marchio Vendicatico del Fratello",
+      "name": "Marchio della Vendetta Fraterno",
       "desc": "- Stack Max: 1\n- Scade a Fine Turno\n- Tutte le unità trattano questo bersaglio come se avessero il suo Marchio della Vendetta",
       "summary": "",
       "undefined": "-"
@@ -2556,7 +2556,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito morte o alla Ritirata",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni da Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
       "summary": "",
       "undefined": "-"
     },
@@ -2785,32 +2785,32 @@
     },
     {
       "id": "ChickenStance",
-      "name": "Bloodflame [血炎]",
-      "desc": "- Max Stack: 3\n- This unit inflicts +1 more Burn and Rupture Potency with its Base Skills\n- While this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n· If this unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\n- Lose 1 Stack at Turn End",
-      "summary": "Inflict +1 more Burn or Rupture"
+      "name": "Sanguifiamma [血炎]",
+      "desc": "- Stack Max: 3\n- Questa unità infligge +1 Potenza Bruciatura e Lacerazione aggiuntive con le sue Abilità Base\n- Mentre questa unità ha questo effetto, si cura di 3 PS quando fa Vacillare o uccide un nemico (3 volte per turno)\n· Se i PS di questa unità sono al massimo all'attivazione di questo effetto, ottiene 1 Aumento Offensivo e 1 Rapidità il turno successivo\n- Perde 1 Stack a Fine Turno",
+      "summary": "Infligge +1 Potenza Bruciatura o Lacerazione"
     },
     {
       "id": "LegStrengthHorseYisang",
-      "name": "Strider【Wu】",
-      "desc": "- Max Stack: 3\n- Turn End: gain 2 Haste and (Stack x 2) Aggro next turn\n- Before Attack: inflict (Stack) Tremor Potency against the main target (max 6 per turn)\n- Lose 1 Stack at Turn End",
+      "name": "Scattante【Wu】",
+      "desc": "- Stack Max: 3\n- Fine Turno: ottiene 2 Rapidità e (Stack x 2) Provocazione il turno successivo\n- Prima di Attaccare: infligge (Stack) Potenza Vibrazione contro il bersaglio principale (max 6 per turno)\n- Perde 1 Stack a Fine Turno",
       "summary": ""
     },
     {
       "id": "ConcussionYisang",
-      "name": "Concussion",
-      "desc": "- Max Stack: 2\n- Multiply the amount of Stagger Threshold raised by Tremor Burst and Rupture damage dealt against this unit by 1.2 (rounded down)\n- Lose 1 Stack at Turn End",
+      "name": "Concussione",
+      "desc": "- Stack Max: 2\n- Moltiplica di quanto la Soglia di Vacillamento viene alzata dallo Scoppio Vibrazione e i danni da Lacerazione subiti da questa unità per 1.2 (arrotondato in difetto)\n- Perde 1 Stack a Fine Turno",
       "summary": ""
     },
     {
       "id": "BreakthroughHorse",
-      "name": "Linebreaker",
-      "desc": "- Max Stack: 5\n- Turn Start: gain (Stack x 10) Shield for the turn\n- At max Stack, gain 2 Final Power\n- When hit: if this unit took 100+ damage from a single Skill, gain 1 Protection after that Skill ends (2 times per turn; includes damage against Shield HP; does not count damage from Keywords)",
+      "name": "Sfondalinee",
+      "desc": "- Stack Max: 5\n- Inizio Turno: ottiene (Stack x 10) Scudo per questo turno\n- A Stack max, ottiene 2 Potere Finale\n- Quando subisce un colpo: se questa unità subisce 100+ danni da una sola Abilità, ottiene 1 Mitigazione dopo che l'Abilità si è conclusa (2 volte per turno; include i danni allo Scudo PV; non considera i danni dai Tratti)",
       "summary": ""
     },
     {
       "id": "BattlefieldHorse",
-      "name": "Commanding Cry",
-      "desc": "- Gain 1 Clash Power and 2 Defense Level\n- Expires at Turn End",
+      "name": "Grido Deciso",
+      "desc": "- Ottiene 1 Potere Scontro e 2 Livello Difensivo\n- Si esaurisce a Fine Turno",
       "summary": ""
     }
   ]
