@@ -2267,20 +2267,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cut Down and Trample",
-          "desc": "[WhenUse] If target has 5+ ([Burst] + [Vibration]), Coin Power +1",
+          "name": "Abbatti e Calpesta",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ ([Burst] + [Vibration]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 }
               ]
             }
@@ -2288,23 +2288,23 @@
         },
         {
           "level": 2,
-          "name": "Cut Down and Trample",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, Coin Power +1</style>\n[WhenUse] If target has 5+ ([Burst] + [Vibration]), Coin Power +1",
+          "name": "Abbatti e Calpesta",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1</style>\n[WhenUse] Se il bersaglio ha 5+ ([Burst] + [Vibration]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Burst]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2312,23 +2312,23 @@
         },
         {
           "level": 4,
-          "name": "Cut Down and Trample",
-          "desc": "If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] If target has 5+ ([Burst] + [Vibration]), Coin Power +1\n<style=\"highlight\">[WinDuel] Inflict 1 [Binding] next turn (2 times per turn)</style>",
+          "name": "Abbatti e Calpesta",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ ([Burst] + [Vibration]), Potere Moneta +1\n<style=\"highlight\">[WinDuel] Infligge 1 [Binding] il turno successivo (2 volte per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
                 }
               ]
             }
@@ -2341,23 +2341,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Crescent Blade Strike [月刀擊]",
-          "desc": "[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)\n[WhenUse] Gain 1 [Agility] next turn (once per turn)",
+          "name": "Colpo della Lama Crescente [月刀擊]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -2365,26 +2365,26 @@
         },
         {
           "level": 2,
-          "name": "Crescent Blade Strike [月刀擊]",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, Coin Power +1</style>\n[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)\n[WhenUse] Gain <style=\"highlight\">2</style> [Agility] next turn (once per turn)",
+          "name": "Colpo della Lama Crescente [月刀擊]",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1</style>\n[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has Deathrite, inflict 1 [ConcussionYisang]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio ha Anatema, infligge 1 [ConcussionYisang]</style>"
                 }
               ]
             }
@@ -2392,29 +2392,29 @@
         },
         {
           "level": 4,
-          "name": "Crescent Blade Strike [月刀擊]",
-          "desc": "If this unit's Speed is faster than the target's:\n- Coin Power +1\n<style=\"highlight\">- If this unit's Speed is faster than the target's by 2 or more, deal +([BreakthroughHorse] on self x 20)% damage (max 100%)</style>\n\n[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)\n[WhenUse] Gain 2 [Agility] next turn (once per turn)",
+          "name": "Colpo della Lama Crescente [月刀擊]",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio:\n- Potere Moneta +1\n<style=\"highlight\">- Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, infligge +([BreakthroughHorse] su di sé x 20)% danni (max 100%)</style>\n\n[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target doesn't have Deathrite, inflict 1 [ConcussionYisang]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha Anatema, infligge 1 [ConcussionYisang]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has Deathrite, inflict 3 [Burst]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio ha Anatema, infligge 3 [Burst]</style>"
                 }
               ]
             }
@@ -2427,36 +2427,36 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Cavalry's Vanguard Charge",
-          "desc": "If this unit's Speed is faster than the target's:\n- Final Power +1\n- Deal +([BreakthroughHorse] on self x 10)% damage (max 40%)\n\nDeal +(Shield HP on self x 2)% damage (max 50%)\n\n[BeforeUse] At 5 [BreakthroughHorse], consume all of it to activate 'Obsidian Stormrider's Crescent Decapitator' instead\n[WhenUse] Gain 3 [LegStrengthHorseYisang]\n[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)",
+          "name": "Carica della Cavalleria di Avanguardia",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio:\n- Valore Finale +1\n- Infligge +([BreakthroughHorse] su di sé x 10)% danni (max 40%)\n\nInfligge +(Scudo PV su di sé x 2)% danni (max 50%)\n\n[BeforeUse] A 5 [BreakthroughHorse], le consuma tutte per attivare al suo posto 'Decapitazione Crescente del Cavalcatempesta di Ossidiana'\n[WhenUse] Ottiene 3 [LegStrengthHorseYisang]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 2+ [LegStrengthHorseYisang], inflict 1 [ConcussionYisang]"
+                  "desc": "[OnSucceedAttack] A 2+ [LegStrengthHorseYisang], infligge 1 [ConcussionYisang]"
                 }
               ]
             }
@@ -2464,39 +2464,39 @@
         },
         {
           "level": 4,
-          "name": "Cavalry's Vanguard Charge",
-          "desc": "If this unit's Speed is faster than the target's:\n- Final Power +1\n- Deal +([BreakthroughHorse] on self x <style=\"highlight\">20</style>)% damage (max <style=\"highlight\">80</style>%)\n\nDeal +(Shield HP on self x 2)% damage (max 50%)\n\n[BeforeUse] At 5 [BreakthroughHorse], consume all of it to activate 'Obsidian Stormrider's Crescent Decapitator' instead\n[WhenUse] Gain 3 [LegStrengthHorseYisang]\n[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)\n<style=\"highlight\">[WhenUse] At 3+ [BreakthroughHorse], convert all Coins to [SuperCoin]s</style>",
+          "name": "Carica della Cavalleria di Avanguardia",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio:\n- Valore Finale +1\n- Infligge +([BreakthroughHorse] su di sé x <style=\"highlight\">20</style>)% danni (max <style=\"highlight\">80</style>%)\n\nInfligge +(Scudo PV su di sé x 2)% danni (max 50%)\n\n[BeforeUse] A 5 [BreakthroughHorse], le consuma tutte per attivare al suo posto 'Decapitazione Crescente del Cavalcatempesta di Ossidiana'\n[WhenUse] Ottiene 3 [LegStrengthHorseYisang]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)\n<style=\"highlight\">[WhenUse] A 3+ [BreakthroughHorse], converte tutte le Monete in [SuperCoin]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "<style=\"highlight\">- At 3+ [BreakthroughHorse], inflict additional 1 [Binding]</style>"
+                  "desc": "<style=\"highlight\">- A 3+ [BreakthroughHorse], infligge ancora 1 [Binding]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 2+ [LegStrengthHorseYisang], inflict <style=\"highlight\">2</style> [ConcussionYisang]"
+                  "desc": "[OnSucceedAttack] A 2+ [LegStrengthHorseYisang], infligge <style=\"highlight\">2</style> [ConcussionYisang]"
                 }
               ]
             }
@@ -2509,8 +2509,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Preparation Afore the Charge.",
-          "desc": "[CanDuelGuard] \n[StartBattle] Gain 3 [LegStrengthHorseYisang] next turn",
+          "name": "Preparazione alla Carica.",
+          "desc": "[CanDuelGuard] \n[StartBattle] Ottiene 3 [LegStrengthHorseYisang] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2523,8 +2523,8 @@
         },
         {
           "level": 4,
-          "name": "Preparation Afore the Charge.",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 3 [LegStrengthHorseYisang] next turn\n<style=\"highlight\">[EndBattle] Remove 1 random removable negative effect applied to self (once per turn)</style>",
+          "name": "Preparazione alla Carica.",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 3 [LegStrengthHorseYisang] il turno successivo\n<style=\"highlight\">[EndBattle] Rimuove 1 effetto negativo casuale su di sé (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2542,8 +2542,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Obsidian Stormrider's Crescent Decapitator [黑風馬脚月斬]",
-          "desc": "If this unit's Speed is faster than the target's, Final Power +1\n[WhenUse] Apply 1 [BattlefieldHorse] to all other allies next turn (once per turn)\n[WhenUse] Gain 3 [LegStrengthHorseYisang]\n[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)\n[WinDuel] If this unit's Speed is faster than the target's, deal +50% damage",
+          "name": "Decapitazione Crescente del Cavalcatempesta di Ossidiana [黑風馬脚月斬]",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Valore Finale +1\n[WhenUse] Applica 1 [BattlefieldHorse] a tutti gli altri alleati il turno successivo (una volta per turno)\n[WhenUse] Ottiene 3 [LegStrengthHorseYisang]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)\n[WinDuel] Se la Velocità di questa unità è maggiore del bersaglio, infligge +50% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -2551,10 +2551,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 }
               ]
             },
@@ -2564,10 +2564,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
@@ -2577,7 +2577,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ConcussionYisang]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ConcussionYisang]"
                 }
               ]
             },
@@ -2587,10 +2587,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -2598,8 +2598,8 @@
         },
         {
           "level": 4,
-          "name": "Obsidian Stormrider's Crescent Decapitator [黑風馬脚月斬]",
-          "desc": "If this unit's Speed is faster than the target's, Final Power +1\n[WhenUse] Apply 1 [BattlefieldHorse] to all other allies next turn (once per turn)\n[WhenUse] Gain 3 [LegStrengthHorseYisang]\n[WhenUse] Coin Power +1 for every 5 ([Burst] + [Vibration]) on target (max 2)\n[WinDuel] If this unit's Speed is faster than the target's, deal +50% damage\n<style=\"highlight\">[WinDuel] Inflict 1 [ConcussionYisang] against the main target</style>",
+          "name": "Decapitazione Crescente del Cavalcatempesta di Ossidiana [黑風馬脚月斬]",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Valore Finale +1\n[WhenUse] Applica 1 [BattlefieldHorse] a tutti gli altri alleati il turno successivo (una volta per turno)\n[WhenUse] Ottiene 3 [LegStrengthHorseYisang]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Burst] + [Vibration]) sul bersaglio (max 2)\n[WinDuel] Se la Velocità di questa unità è maggiore del bersaglio, infligge +50% danni\n<style=\"highlight\">[WinDuel] Infligge 1 [ConcussionYisang] al bersaglio principale</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2607,10 +2607,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 }
               ]
             },
@@ -2620,10 +2620,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
@@ -2633,7 +2633,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ConcussionYisang]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ConcussionYisang]"
                 }
               ]
             },
@@ -2643,10 +2643,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
