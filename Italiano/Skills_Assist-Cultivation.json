@@ -5,32 +5,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Crimson Cleave",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Burst] on the target (max 2)",
+          "name": "Taglio Cremisi",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             }
@@ -43,19 +43,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Plastered Sleep, Unrestrained Ripples",
-          "desc": "Can draw any attack to this unit regardless of Speed\n[WhenUse] Base Power +1 for every 3 [Breath] (max 3)\n[WhenUse] Base Power +3 for every type of negative effect on target (max 9)\n[WhenUse] Gain 5 [Agility] next turn (once per turn)\n[WhenUse] Gain 10 [Breath] and +2 [Breath] Count",
+          "name": "Sonno Ubriaco, Onde Libere",
+          "desc": "Può dirigere qualunque attacco verso questa unità indipendentemente dalla Velocità\n[WhenUse] Potere Base +1 per ogni 3 [Breath] (max 3)\n[WhenUse] Potere Base +3 per ogni tipo di effetto negativo sul bersaglio (max 9)\n[WhenUse] Ottiene 5 [Agility] il turno successivo (una volta per turno)\n[WhenUse] Ottiene 10 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 7 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal +300% damage"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +300% danni"
                 }
               ]
             }

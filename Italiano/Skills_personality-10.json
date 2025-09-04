@@ -1759,7 +1759,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oh, Let the Smell of Burning Blood...",
+          "name": "Oh, Che L'Odore di Sangue Infiammato...",
           "desc": "",
           "coinlist": [
             {
@@ -1772,14 +1772,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -1787,8 +1787,8 @@
         },
         {
           "level": 2,
-          "name": "Oh, Let the Smell of Burning Blood...",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>",
+          "name": "Oh, Che L'Odore di Sangue Infiammato...",
+          "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1800,14 +1800,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1815,8 +1815,8 @@
         },
         {
           "level": 4,
-          "name": "Oh, Let the Smell of Burning Blood...",
-          "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\"></style>",
+          "name": "Oh, Che L'Odore di Sangue Infiammato...",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1828,20 +1828,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Combustion]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [Combustion]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             }
@@ -1854,27 +1854,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... Fuel My Rampage.",
+          "name": "... Alimenti la Mia Furia.",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1882,27 +1882,27 @@
         },
         {
           "level": 2,
-          "name": "... Fuel My Rampage.",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>",
+          "name": "... Alimenti la Mia Furia.",
+          "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1910,36 +1910,36 @@
         },
         {
           "level": 4,
-          "name": "... Fuel My Rampage.",
-          "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\"></style>",
+          "name": "... Alimenti la Mia Furia.",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Wrath damage</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge (10% dei danni finali di questa Moneta) danni Ira bonus</style>"
                 }
               ]
             }
@@ -1952,8 +1952,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Bloodflame Massacre [血炎亂舞]",
-          "desc": "[WideAreaRampage]\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+          "name": "Massacro Sanguifiamma [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n[StartBattle] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, converte ogni Moneta in [SuperCoin]\n[WhenUse] Ottiene 1 [ChickenStance]\n[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n[DefeatDuel] Applica 2 [Combustion] sul bersaglio e sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -1965,30 +1965,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -1996,8 +1996,8 @@
         },
         {
           "level": 4,
-          "name": "Bloodflame Massacre [血炎亂舞]",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Deal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%)</style>\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on target (max 2)</style>\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 20% missing HP on self (max 2)</style>\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+          "name": "Massacro Sanguifiamma [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +1% danni per ogni 2% (percentuale di PV mancanti del bersaglio + percentuale dei propri PV mancanti) (max 50%)</style>\n[StartBattle] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, converte ogni Moneta in [SuperCoin]\n[WhenUse] Ottiene 1 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 20% dei propri PV mancanti (max 2)</style>\n[DefeatDuel] Applica 2 [Combustion] sul bersaglio e sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -2009,36 +2009,36 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Gluttony damage</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge (10% dei danni finali di questa Moneta) danni Gola bonus</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Deal (20% of this Coin's final damage) bonus Gluttony damage against all targets</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge (20% dei danni finali di questa Moneta) danni Gola bonus a tutti i bersagli</style>"
                 }
               ]
             }
@@ -2051,20 +2051,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rooster's Deathstrike [鷄窮則殺]",
-          "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+          "name": "Colpo Mortale del Gallo [鷄窮則殺]",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n[DefeatDuel] Applica 2 [Combustion] sul bersaglio e sé stesso",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -2072,20 +2072,20 @@
         },
         {
           "level": 4,
-          "name": "Rooster's Deathstrike [鷄窮則殺]",
-          "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n<style=\"highlight\">[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1</style>\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n<style=\"highlight\">[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)</style>\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+          "name": "Colpo Mortale del Gallo [鷄窮則殺]",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 10+ ([Combustion] + [Burst]), Potere Base +1</style>\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Questa Abilità infligge +1% danni per ogni 3% dei PV persi in totale nell'Incontro da questa unità (max 30%)</style>\n[DefeatDuel] Applica 2 [Combustion] sul bersaglio e sé stesso",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }

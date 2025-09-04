@@ -1275,7 +1275,7 @@
         {
           "level": 1,
           "name": "Sintonia Massima S.F.A 【Corrosione Deteriorata】",
-          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +7.5% danni per ogni 5 [Combustion] su di sé (max 30%)\n[WhenUse] A 10+ ([Combustion] su di sé + [Combustion] sul bersaglio), Potere Base +1\n[WhenUse] Potere Moneta +1 per ogni 30% di PV mancanti su di sé (max 2)\n[BeforeAttack] Peso Attacco +1 per ogni 20% di PV mancanti su di sé (max 2)",
+          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +7.5% danni per ogni 5 [Combustion] su di sé (max 30%)\n[WhenUse] A 10+ ([Combustion] su di sé + [Combustion] sul bersaglio), Potere Base +1\n[WhenUse] Potere Moneta +1 per ogni 30% dei propri PV mancanti (max 2)\n[BeforeAttack] Peso Attacco +1 per ogni 20% dei propri PV mancanti (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1303,7 +1303,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +10% danni per ogni 20% di PV mancanti su di sé (max 30%)"
+                  "desc": "[OnSucceedAttack] Infligge +10% danni per ogni 20% dei propri PV mancanti (max 30%)"
                 }
               ]
             }
@@ -1312,7 +1312,7 @@
         {
           "level": 4,
           "name": "Sintonia Massima S.F.A 【Corrosione Deteriorata】",
-          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +12.5% danni per ogni 5 [Combustion] su di sé (max 50%)\n[WhenUse] Potere Base +1 per ogni 10 ([Combustion] su di sé + [Combustion] sul bersaglio) (max 2)\n[WhenUse] Potere Moneta +1 per ogni 30% di PV mancanti su di sé (max 3)\n[BeforeAttack] Peso Attacco +1 per ogni 20% di PV mancanti su di sé (max 4)",
+          "desc": "Dopo aver usato questa Abilità, muore.\n- Se i PV vanno sotto 1 mentre usa questa Abilità, mantiene i PV a 1 finché non conclude l'Abilità.\n[WhenUse] Infligge +12.5% danni per ogni 5 [Combustion] su di sé (max 50%)\n[WhenUse] Potere Base +1 per ogni 10 ([Combustion] su di sé + [Combustion] sul bersaglio) (max 2)\n[WhenUse] Potere Moneta +1 per ogni 30% dei propri PV mancanti (max 3)\n[BeforeAttack] Peso Attacco +1 per ogni 20% dei propri PV mancanti (max 4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1340,7 +1340,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +10% danni per ogni 20% di PV mancanti su di sé (max 30%)"
+                  "desc": "[OnSucceedAttack] Infligge +10% danni per ogni 20% dei propri PV mancanti (max 30%)"
                 }
               ]
             }
