@@ -35,7 +35,7 @@
     {
       "id": "MD6106",
       "name": "Potere Finale Aumentato VII",
-      "desc": "Potere Scontro +1, Potere Finale +2 Livello Offensivo +2, Livello Difensivo +2, PV Max +37.5%, Danni Inflitti +10%, PV Max Boss +30%"
+      "desc": "Potere Scontro +1, Potere Finale +2, Livello Offensivo +2, Livello Difensivo +2, PV Max +37.5%, Danni Inflitti +10%, PV Max Boss +30%"
     },
     {
       "id": "MD6107",
@@ -205,7 +205,7 @@
     {
       "id": "MD6Limit105",
       "name": "Interferenza Ego I",
-      "desc": "Raddoppia la quantità di Risorse E.G.O consumate quando si usano le Abilità E.G.O"
+      "desc": "Raddoppia la quantità di Risorse E.G.O consumate quando si usano le Abilità E.G.O\n(Questa Avversità non interagisce con gli effetti dei Doni E.G.O)"
     },
     {
       "id": "MD6Limit111",
@@ -255,7 +255,7 @@
     {
       "id": "MD6Limit125",
       "name": "Interferenza Ego II",
-      "desc": "Triplica la quantità di Risorse E.G.O consumate quando si usano le Abilità E.G.O"
+      "desc": "Triplica la quantità di Risorse E.G.O consumate quando si usano le Abilità E.G.O\n(Non interagisce con gli effetti dei Doni E.G.O)\n\n※ Se un'Avversità di grado minore è già presente, sovrascrive quell'effetto"
     },
     {
       "id": "MD6Limit131",
@@ -306,6 +306,94 @@
       "id": "MD6Limit145",
       "name": "Affaticamento PS II",
       "desc": "In combattimento, gli alleati non si possono curare sopra i 30 SP\n\n※ Se un'Avversità di grado minore è già presente, sovrascrive quell'effetto"
+    },
+    {
+      "id": "DerivativeHugeIrritation",
+      "name": "Spirito Implacabile - Shin [剛氣-心]",
+      "desc": "- Inizio Turno: ottiene 1 gain 1 Danno Aumentato e 1 Potere Incrementato per ogni 15% dei propri PV mancanti (max 5 di ognuno)\n- Infligge +3 Potenza Vibrazione e +1 Conteggio Vibrazione con le sue Abilità\n- Se la Velocità di questa unità è meggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 5)% danni (max 40%)\n- Converte le ultime Monete di 'Doppio Taglio - Scoppia' e 'Triplo Taglio - Esplodi' in Monete Infrangibili",
+      "summary": ""
+    },
+    {
+      "id": "GiveMeCandy",
+      "iconId": "CandyForCharon",
+      "name": "Dolcetto",
+      "desc": "Stack Max: 99\n- State nascondendo tutti i dolcetti?",
+      "summary": ""
+    },
+    {
+      "id": "HungryCharon",
+      "name": "Rabbia Affamata",
+      "desc": "Stack Max: 3\nHo fame. Voglio i dolcetti adesso",
+      "summary": ""
+    },
+    {
+      "id": "FullCharon",
+      "name": "Soddisfazione",
+      "desc": "Inizio Turno: per ogni 2 Stack, ottiene 1 Potere Scontro Diminuito (max 5)",
+      "summary": ""
+    },
+    {
+      "id": "GiveMeCandy_LowMoral",
+      "name": "Dolcetto",
+      "desc": "- Morale Basso\n- When Clashing against Identities with [GiveMeCandy], Potere Scontro +3; quando si scontra con altre Identità, Potere Scontro -1",
+      "summary": "Il Potere Scontro Fluttua secondo la condizione",
+      "undefined": "-"
+    },
+    {
+      "id": "GiveMeCandy_Panic",
+      "name": "Dolcetto",
+      "desc": "- Panico\n- Quando si scontra con le Identità che hanno [GiveMeCandy], Potere Scontro +5; quando si scontra con altre Identità, Potere Scontro -2",
+      "summary": "Il Potere Scontro Fluttua secondo la condizione",
+      "undefined": "-"
+    },
+    {
+      "id": "UnfinishedDreamMirror",
+      "name": "IN CUI SI RACCONTA DELLA LIBERAZIONE DAL SANGUE PIÙ DENSO DELL'ACQUA",
+      "desc": "- Ad Ogni Fine Turno: ottiene 1 Rapidità e 3 Aumento Offensivo il turno successivo\n- Ottiene 2 Aumento Offensivo in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, si cura di 3 SP\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il turno successivo (una volta per turno)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnfinishedDreamSanchoMirror",
+      "name": "In cui si racconta della schiavitù del sangue più denso dell'acqua.",
+      "desc": "- Ottiene 2 Sangue Coagulato in più ogni volta che quest'unità ottiene Sangue Coagulato. (5 volte per turno)\n- Ad Ogni Fine Turno: ottiene 1 Rapidità e 3 Aumento Offensivo il turno successivo\n- Ottiene 2 Aumento Offensivo in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, si cura di 3 SP\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il turno successivo (una volta per turno)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FragmentOfHopeFamilyMirror",
+      "name": "O compagni della mia cara figlia",
+      "desc": "Potere Scontro +1 per Stack (max 4)\nInfligge +5% danni",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FragmentOfHopeTwoFamilyMirror",
+      "name": "Sognate il suo sogno con lei al mio posto",
+      "desc": "Potere Scontro +2 per ogni valore (max 8)\n- Applica uno Scudo a sé stesso e a tutti gli alleati a Inizio Combattimento\n- Sul colpo, infligge 1 danno fisso",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VerEmergencyCandy",
+      "name": "Dolcetto di Scorta",
+      "desc": "Fine Turno: a meno del 60% di PV...\nSi cura del 30% di PV, si cura 15 PS, perde 1 Dolcetto di Scorta, e 1 Fame\nA 0 Stack, applica 1 Soddisfazione Incandescente, poi si esaurisce",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VerHunger",
+      "name": "Fame",
+      "desc": "Stack Max: 3\nFine Turno: ottiene 2 Aumento Offensivo e 1 Danno Aumentato il turno successivo per ogni Stack\nAlle Stack massime(3), perde 5% PV a Fine Turno",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VerShiningFullness",
+      "name": "Soddisfazione Incandescente",
+      "desc": "Ottiene 30% PV base per questo Incontro\nInizio Turno: si cura i PV e PS al massimo (una volta per Incontro)",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }
