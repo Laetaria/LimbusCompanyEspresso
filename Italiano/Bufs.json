@@ -2812,6 +2812,27 @@
       "name": "Grido Deciso",
       "desc": "- Ottiene 1 Potere Scontro e 2 Livello Difensivo\n- Si esaurisce a Fine Turno",
       "summary": ""
+    },
+    {
+      "id": "VibrationBleeding",
+      "name": "Vibrazione - Emorragia",
+      "desc": "- Allo Scoppio Vibrazione, subisce Danni Lussuria pari alla (somma della Potenza Vibrazione e Sanguinamento / 2), e perde 1 Conteggio Sanguinamento\n- Quando subisce un colpo dalle Abilità che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento di questa unità per la Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di 1\n(Interagisce come la Vibrazione normale con gli effetti che aumentano o diminuiscono la Potenza/Conteggio Vibrazione)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GazeRyoshu",
+      "name": "Sguardo",
+      "desc": "- Stack Max: 7\n- Subisce e infligge +10% da e contro Ryōshū per ogni 1 Stack di Sguardo\n- Alla morte, si trasferisce all' alleato di questa unità(negli Incontri Mirati, una Parte Diversa) con i meno o nessun Disprezzo o Sguardo (questo attacco non si attiva se questa unità è stata uccisa durante l'Abilità Attacco 'Cascading Gaze of Awe Underneath Contempt')\n- Fine Turno: a 7 Stack, questo effetto si converte in Disprezzo il turno successivo",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ContemptRyoshu",
+      "name": "Disprezzo",
+      "desc": "- Stack Max: 1\n- Subisce e infligge -50% da e contro Ryōshū\n- I bersagli con Disprezzo non possono ottenere Sguardo\n- Alla morte, si trasferisce all' alleato di questa unità(negli Incontri Mirati, una Parte Diversa) con i meno o nessun Disprezzo o Sguardo (questo attacco non si attiva se questa unità è stata uccisa durante l'Abilità Attacco 'Cascading Gaze of Awe Underneath Contempt')\n- Fine Turno: si esaurisce; infine, quest'unità ottiene 7 Sguardo il turno successivo",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }
