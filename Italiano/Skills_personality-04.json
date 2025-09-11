@@ -1808,6 +1808,454 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1041201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cosa Spregevole",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cosa Spregevole",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] A 6+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cosa Spregevole",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cadi in Soggezione",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cadi in Soggezione",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] A 6+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ Conteggio [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cadi in Soggezione",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [GazeRyoshu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ Conteggio [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Soggezione, Disprezzo",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di Soggezione Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] A 8+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +5% danni per ogni 1 [GazeRyoshu] sul bersaglio (max 35%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GazeRyoshu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Soggezione, Disprezzo",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più<style=\"highlight\"></style>\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di Soggezione Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 8 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max <style=\"highlight\">40</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 1 [GazeRyoshu] sul bersaglio (max <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [GazeRyoshu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prendere",
+          "desc": "[StartBattle] Se questa unità non ha [ContemptPersonality], e si trova 7+ (somma di [GazeRyoshu] su tutti i nemici) o 1+ (somma di [ContemptRyoshu] su tutti i nemici), ottiene [ContemptPersonality] (una volta per turno)\n[WhenUse] Se questa unità ha [ContemptPersonality], Potere Finale +5\n[WhenUse] Quando subisce un colpo mentre usa questa Abilità, infligge +1 Conteggio [Laceration] all'attaccante (3 volte per turno)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Prendere",
+          "desc": "[StartBattle] Se questa unità non ha [ContemptPersonality], e si trova 7+ (somma di [GazeRyoshu] su tutti i nemici) o 1+ (somma di [ContemptRyoshu] su tutti i nemici), ottiene [ContemptPersonality] (una volta per turno)\n[WhenUse] Se questa unità ha [ContemptPersonality], Potere Finale +10\n[WhenUse] Quando subisce un colpo mentre usa questa Abilità, infligge +1 Conteggio [Laceration] all'attaccante (3 volte per turno)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Sguardo di Soggezione Sotto al Disprezzo Discendente",
+          "desc": "Gli effetti esterni non possono far Riusare questa Abilità\nBersaglia con priorità i nemici con [GazeRyoshu] o [ContemptRyoshu] come bersagli secondari\n- Infligge -50% danni ai bersagli secondari\nSe vi è un solo bersaglio, infligge +200% danni (per gli Incontri Mirati, una Parte)\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio principale (max 2)\n[WhenUse] Infligge +2% danni per ogni ([Laceration] + [Vibration]) sul bersaglio principale (max 50%)\n[WhenUse] Infligge +7% danni per ogni 1 (somma di [GazeRyoshu] su tutti i bersagli dell'attacco) (max 49%)\n[EndSkill] Consuma [GazeRyoshu] o [ContemptRyoshu] su tutti i bersagli colpiti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Se il bersaglio ha [ContemptRyoshu], infligge +180% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sguardo di Soggezione Sotto al Disprezzo Discendente",
+          "desc": "Gli effetti esterni non possono far Riusare questa Abilità\nBersaglia con priorità i nemici con [GazeRyoshu] o [ContemptRyoshu] come bersagli secondari<style=\"highlight\"></style>\n- Infligge -50% danni ai bersagli secondari\nSe vi è un solo bersaglio, infligge +200% danni (per gli Incontri Mirati, una Parte)\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +2% danni per ogni ([Laceration] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">100</style>%)\n[WhenUse] Infligge +10% danni per ogni 1 (somma di [GazeRyoshu] su tutti i bersagli dell'attacco) (max 70%)\n[EndSkill] Consuma [GazeRyoshu] o [ContemptRyoshu] su tutti i bersagli colpiti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Se il bersaglio ha [ContemptRyoshu], infligge +<style=\"highlight\">235</style>% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration] e +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041206,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Farò Fuoco / Quando Vuoi",
+          "desc": "[StartBattle] Dà priorità a E.G.O di N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū\n[StartBattle] Ottiene +1 Peso Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente il bersaglio principale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente i bersagli secondari"
+                },
+                {
+                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O di N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
+                },
+                {
+                  "desc": "Infligge +30% danni per ogni [BoseProjektil] su di sé (max 210%)"
+                },
+                {
+                  "desc": "+2.5% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">25%</style>)"
+                },
+                {
+                  "desc": "+7% Danni sul Colpo Critico per ogni [BoseProjektil] su di sé (max 49%)"
+                },
+                {
+                  "desc": "Infligge +1% danni per ogni 1% di PV mancanti sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Farò Fuoco / Quando Vuoi",
+          "desc": "[StartBattle] Dà priorità a E.G.O di N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū\n[StartBattle] Ottiene +1 Peso Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente il bersaglio principale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente i bersagli secondari"
+                },
+                {
+                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O di N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">40</style>% danni per ogni [BoseProjektil] su di sé (max <style=\"highlight\">280</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">5</style>% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">10</style>% Danni sul Colpo Critico per ogni [BoseProjektil] su di sé (max <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "Infligge +1% danni per ogni 1% di PV mancanti sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

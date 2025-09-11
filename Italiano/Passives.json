@@ -2361,6 +2361,32 @@
       "id": 1011421,
       "name": "L'esoscheletro d'Ossidiana taglierà e proteggerà la mia carne",
       "desc": "Applica l'effetto seguente all'alleato con i maggiori PV Max\n- Inizio Combattimento: ottiene (differenza della Velocità dell'unità affetta tra questo e il turno passato x 2) Livello Difensivo (max 5; se l'unità affetta non era una Partecipante Attiva nel turno passato, il calcolo usa il suo valore di Velocità minima)\n- Inizio Combattimento: se l'unità affetta è sotto il 50% dei PV, e se la differenza di Velocità tra questo e il turno passato è di 3 o superiore, si cura di 50 PV (una volta per Incontro)"
+    },
+    {
+      "id": 1041201,
+      "name": "La Mano di @#$ Che Mi È Sfuggita",
+      "desc": "Sul Colpo contro i nemici, infligge 1 [GazeRyoshu] (una volta per turno per nemico)\n- Se questa unità ha [GazePersonality], infligge +1 [GazeRyoshu] in più\n\nQuando subisce un colpo da un nemico, infligge 1 [GazeRyoshu] all'attaccante (una volta per Abilità; 3 volte per turno)\n- Se questa unità ha [ContemptPersonality]: quando viene colpita dall'ultima Moneta del nemico, infligge (10% dei danni inflitti da quell'ultima Moneta) danni Accidia (max 10 per Abilità; max 30 per turno)\n\nSe questa unità ha usato le sue Abilità Attacco Base per consumare [GazeRyoshu] o [ContemptRyoshu] su un nemico:\nIl Turno Successivo, ottiene (([GazeRyoshu] del nemico consumato/2) + ([ContemptRyoshu] del nemico consumato x 3)) [GazePersonality] (6 per turno; arrotondato al difetto)"
+    },
+    {
+      "id": 1041211,
+      "name": "La Mano di @#$ Che Mi È Sfuggita",
+      "desc": "Sul Colpo contro i nemici, infligge <style=\"highlight\">2</style> [GazeRyoshu] (una volta per turno per nemico)\n- Se questa unità ha [GazePersonality], infligge +1 [GazeRyoshu] in più\n\nQuando subisce un colpo da un nemico, infligge 1 [GazeRyoshu] all'attaccante (una volta per Abilità; 3 volte per turno)\n- Se questa unità ha [ContemptPersonality]: quando viene colpita dall'ultima Moneta del nemico, infligge (<style=\"highlight\">20</style>% dei danni inflitti da quell'ultima Moneta) danni Accidia (max <style=\"highlight\">20</style> per Abilità; max <style=\"highlight\">60</style> per turno)\n\nSe questa unità ha usato le sue Abilità Attacco Base per consumare [GazeRyoshu] o [ContemptRyoshu] su un nemico:\nIl Turno Successivo, ottiene (([GazeRyoshu] del nemico consumato/2) + ([ContemptRyoshu] del nemico consumato x 3)) [GazePersonality] (6 per turno; arrotondato al difetto)"
+    },
+    {
+      "id": 1041202,
+      "name": "Presa Che Vieta di Cadere",
+      "desc": "Quando Vacilla, ottiene 4 [Protection] e ottiene [ContemptPersonality] il turno successivo (una volta per Incontro)\n\nAlla morte, applica i seguenti effetti ai 3 nemici con il più [GazeRyoshu] o [ContemptRyoshu] (in ordine discendente; negli Incontri Mirati, alle Parti)\n- Infligge 2 [Binding] il turno successivo\n- Infligge 2 [Laceration] e +1 Conteggio [Laceration]\n- Infligge 2 [Vibration] e +1 Conteggio [Vibration]"
+    },
+    {
+      "id": 1041203,
+      "name": "Lasciate che vi mostri qualcosa di molto interessante",
+      "desc": "Inizio Combattimento: L'Abilità di E.G.O di N Corp.::<noparse>Proiettile Maledetto</noparse> 'Fuoco al Bersaglio Cambiato' ottiene i seguenti effetti:\n- Prima di usare l'Abilità, se E.G.O di N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū ha [ContemptPersonality] e può usare le sue Abilità base, usa 'Farò Fuoco / Quando Vuoi' contro Ryōshū (una volta per turno; 'Farò Fuoco / Quando Vuoi' riflettte il Grado Legame di Yi Sang)\n- Prima di usare l'Abilità, se il bersaglio principale non è E.G.O di N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū, e se può usare le sue Abilità base, Ryōshū usa la sua Abilità 1 come Attacco Incontrastato contro il bersaglio principale (una volta per turno; [CantIdentify]; Abilità 1 infligge -50% danni; l'Abilità non uccide il bersaglio principale)"
+    },
+    {
+      "id": 1041221,
+      "name": "Scorre ed è pianto",
+      "desc": "Se l'alleato con l'ordine di Schieramento più alto colpisce un nemico con un'attacco, infligge 1 [Laceration] (una volta per nemico per turno)\n- Se il bersaglio ha [Laceration], infligge inoltre +1 Conteggio [Laceration]\n\nSe l'alleato con l'ordine di Schieramento più alto viene colpito da un nemico, infligge 1 [Vibration] all'attaccante (3 volte per turno)\n- Se l'attaccante ha [Vibration], infligge inoltre +1 Conteggio [Vibration]",
+      "summary": "Sul Colpo, infligge [Laceration]; infligge inoltre Conteggio se il bersaglio ha già l'effetto\nQuando subisce un colpo, infligge [Vibration]; infligge inoltre Conteggio se il bersaglio ha già l'effetto"
     }
   ]
 }
