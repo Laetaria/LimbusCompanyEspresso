@@ -174,11 +174,11 @@
     {
       "id": 9008,
       "name": "Paletto di Ferro Sporco",
-      "desc": "Quando si colpisce un nemico con un' Abilità con una sola Moneta, infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del prossimo turno.\nSe il bersaglio ha già [Laceration] o 'Sanguinament​o Speciale', invece infligge 3 Potenza [Laceration].",
+      "desc": "Quando si colpisce un nemico con un' Abilità con una sola Moneta, infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del turno successivo.\nSe il bersaglio ha già [Laceration] o 'Sanguinament​o Speciale', invece infligge 3 Potenza [Laceration].",
       "simpleDesc": [
         {
           "abilityID": 9008,
-          "simpleDesc": "Infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del prossimo turno"
+          "simpleDesc": "Infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del turno successivo"
         },
         {
           "abilityID": 90081,
@@ -290,7 +290,7 @@
     {
       "id": 9012,
       "name": "Espressione d'Oggi",
-      "desc": "Dopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità Contundente, aumenta il Potere delle Abilità Contundenti dell'unità di 2 fino alla fine del prossimo turno.",
+      "desc": "Dopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità Contundente, aumenta il Potere delle Abilità Contundenti dell'unità di 2 fino alla fine del turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9012,
@@ -346,7 +346,7 @@
     {
       "id": 9014,
       "name": "Moneta Commemorativa Arrugginita",
-      "desc": "Se la prima Abilità Attacco con una singola Moneta che un alleato ha usato durante la fase del combattimento non sconfigge nessun nemico, usa l'Abilità Attacco una seconda volta.\n\nDopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità con una sola Moneta, l'alleato ottiene +1 Potere Abilità per il prossimo turno.",
+      "desc": "Se la prima Abilità Attacco con una singola Moneta che un alleato ha usato durante la fase del combattimento non sconfigge nessun nemico, usa l'Abilità Attacco una seconda volta.\n\nDopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità con una sola Moneta, l'alleato ottiene +1 Potere Abilità per il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9014,
@@ -1113,7 +1113,7 @@
     {
       "id": 9045,
       "name": "Scorcio di Fiamme",
-      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere (Potenza [Combustion] x Conteggio [Combustion] consumato) danno Ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il prossimo turno. (Max 3)",
+      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere (Potenza [Combustion] x Conteggio [Combustion] consumato) danno Ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il turno successivo. (Max 3)",
       "simpleDesc": [
         {
           "abilityID": 9045,
@@ -1128,7 +1128,7 @@
     {
       "id": 19045,
       "name": "Scorcio di Fiamme+",
-      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 1.5)</style> danno Ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il prossimo turno. <style=\"upgradeHighlight\">(Max 5)</style>",
+      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 1.5)</style> danno Ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il turno successivo. <style=\"upgradeHighlight\">(Max 5)</style>",
       "simpleDesc": [
         {
           "abilityID": 19045,
@@ -1143,7 +1143,7 @@
     {
       "id": 29045,
       "name": "Scorcio di Fiamme++",
-      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 2)</style> danno ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il prossimo turno. <style=\"upgradeHighlight\">(Max 8)</style>",
+      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 2)</style> danno ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il turno successivo. <style=\"upgradeHighlight\">(Max 8)</style>",
       "simpleDesc": [
         {
           "abilityID": 29045,
@@ -1488,7 +1488,7 @@
     {
       "id": 9054,
       "name": "Componente Liquefatta",
-      "desc": "Inizio Turno: i nemici con [Sinking] perdono 3 'Livello Offensivo' e 'Livello Difensivo' per il prossimo Turno.",
+      "desc": "Inizio Turno: i nemici con [Sinking] perdono 3 'Livello Offensivo' e 'Livello Difensivo' per il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9054,
@@ -1559,7 +1559,7 @@
     {
       "id": 9057,
       "name": "Occhiali per la Visione Notturna",
-      "desc": "Questo Dono si attiva quando un alleato ha 15+ Conteggio [Charge] a Inizio Turno.\n\nInizio Combattimento: l'alleato con 15+ Conteggio [Charge] perde 3 Conteggio [Charge] ed ottiene 5 'Livello Offensivo' per il prossimo Turno.",
+      "desc": "Questo Dono si attiva quando un alleato ha 15+ Conteggio [Charge] a Inizio Turno.\n\nInizio Combattimento: l'alleato con 15+ Conteggio [Charge] perde 3 Conteggio [Charge] ed ottiene 5 'Livello Offensivo' per il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9057,
@@ -1859,7 +1859,7 @@
     {
       "id": 9067,
       "name": "Contratto Speciale",
-      "desc": "I Nemici che Vacillano a causa di danni da Abilità ricevono ulteriore danno fisso pari al 33% dei loro PV Massimi (per le Anormalità, i PV della Parte in questione), e gli viene inflitto 2 [Vulnerable] al prossimo Turno. (Una volta per incontro)",
+      "desc": "I Nemici che Vacillano a causa di danni da Abilità ricevono ulteriore danno fisso pari al 33% dei loro PV Massimi (per le Anormalità, i PV della Parte in questione), e gli viene inflitto 2 [Vulnerable] al turno successivo. (Una volta per incontro)",
       "simpleDesc": [
         {
           "abilityID": 9067,
@@ -2470,7 +2470,7 @@
     {
       "id": 9092,
       "name": "Oscillazione Accoppiata",
-      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration] o 'Vibrazion​e Speciale'. (tranne per le Abilità E.G.O, tiene in considerazione solo le Identità sul campo a Inizio dell'Incontro)\n\nPrimo Inizio Turno di un'Ondata: Infligge 5 Potenza [Vibration] e +5 Conteggio [Vibration] a tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nApplica 5 Potenza [Vibration] e 2 [Vulnerable] questo ed il prossimo turno ai nemici affetti da [VibrationExplosion]. (si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])\n\nDopo aver innescato 3 [VibrationExplosion] ad un bersaglio questo turno, fa Vacillare il bersaglio al prossimo Inizio Turno ed aggiunge una nuova Soglia di Vacillamento al 66% ed al 33% dei PV attuali del bersaglio. (una volta per Incontro)\n\nQuando si innesca[Switch_Vibration] o [FusionVibration], infligge 1 [Vulnerable] (3 volte per turno)",
+      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration] o 'Vibrazion​e Speciale'. (tranne per le Abilità E.G.O, tiene in considerazione solo le Identità sul campo a Inizio dell'Incontro)\n\nPrimo Inizio Turno di un'Ondata: Infligge 5 Potenza [Vibration] e +5 Conteggio [Vibration] a tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nApplica 5 Potenza [Vibration] e 2 [Vulnerable] questo ed il turno successivo ai nemici affetti da [VibrationExplosion]. (si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])\n\nDopo aver innescato 3 [VibrationExplosion] ad un bersaglio questo turno, fa Vacillare il bersaglio al prossimo Inizio Turno ed aggiunge una nuova Soglia di Vacillamento al 66% ed al 33% dei PV attuali del bersaglio. (una volta per Incontro)\n\nQuando si innesca[Switch_Vibration] o [FusionVibration], infligge 1 [Vulnerable] (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9092,
@@ -2783,33 +2783,33 @@
     {
       "id": 9103,
       "name": "Dolore di Rabbia Soffocata",
-      "desc": "[Gli Effetti si applicano solo alle Prime e Seconde Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 1 [Agility] e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si applicano solo alle Prime e Seconde Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il turno successivo. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 1 [Agility] e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9103,
-          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel prossimo turno."
+          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel turno successivo."
         }
       ]
     },
     {
       "id": 19103,
       "name": "Dolore di Rabbia Soffocata+",
-      "desc": "[Gli Effetti si aplicano solo alle Prime, alle Seconde, <style=\"upgradeHighlight\">ed alle Terze</style> Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece <style=\"upgradeHighlight\">2 [Agility]</style> e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si aplicano solo alle Prime, alle Seconde, <style=\"upgradeHighlight\">ed alle Terze</style> Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il turno successivo. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece <style=\"upgradeHighlight\">2 [Agility]</style> e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 19103,
-          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel prossimo turno."
+          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel turno successivo."
         }
       ]
     },
     {
       "id": 29103,
       "name": "Dolore di Rabbia Soffocata++",
-      "desc": "[Gli Effetti si applicano solo alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si applicano solo alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il turno successivo. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 29103,
-          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel prossimo turno."
+          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel turno successivo."
         }
       ]
     },
@@ -2842,33 +2842,33 @@
     {
       "id": 9106,
       "name": "Inno Interrotto",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel prossimo turno.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9106,
-          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel prossimo turno."
+          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel turno successivo."
         }
       ]
     },
     {
       "id": 19106,
       "name": "Inno Interrotto+",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> nel prossimo turno.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> nel turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 19106,
-          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed 1 [AttackDmgUp] nel prossimo turno."
+          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed 1 [AttackDmgUp] nel turno successivo."
         }
       ]
     },
     {
       "id": 29106,
       "name": "Inno Interrotto++",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], ed <style=\"upgradeHighlight\">2 [AttackUp]</style> nel prossimo turno.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], ed <style=\"upgradeHighlight\">2 [AttackUp]</style> nel turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 29106,
-          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 2 [Agility], 1 [AttackDmgUp], ed 2 [AttackUp] nel prossimo turno."
+          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 2 [Agility], 1 [AttackDmgUp], ed 2 [AttackUp] nel turno successivo."
         }
       ]
     },
@@ -2941,7 +2941,7 @@
     {
       "id": 9109,
       "name": "Tregua",
-      "desc": "[Gli Effetti si applicano alle Prime ed alle Seconde Identità Schierate]\n\nSi attiva dopo uno Scontro Vinto usando un'Abilità che infligge Potenza, Conteggio [Laceration] o 'Sanguinament​o Speciale'\n\nInfligge +(# delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari alla valore del prossimo turno.\n\nPer Le abilità con meno di 2 Monete, usa invece (# delle monete rimanenti+3) nel calcolo.",
+      "desc": "[Gli Effetti si applicano alle Prime ed alle Seconde Identità Schierate]\n\nSi attiva dopo uno Scontro Vinto usando un'Abilità che infligge Potenza, Conteggio [Laceration] o 'Sanguinament​o Speciale'\n\nInfligge +(# delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari alla valore del turno successivo.\n\nPer Le abilità con meno di 2 Monete, usa invece (# delle monete rimanenti+3) nel calcolo.",
       "simpleDesc": [
         {
           "abilityID": 9109,
@@ -2971,33 +2971,33 @@
     {
       "id": 9111,
       "name": "Fiala di Bio-Veleno",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge 0.5(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge 0.5(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9110,
-          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel prossimo turno"
+          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel turno successivo"
         }
       ]
     },
     {
       "id": 19111,
       "name": "Fiala di Bio-Veleno+",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">0.75</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">0.75</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 19110,
-          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel prossimo turno"
+          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel turno successivo"
         }
       ]
     },
     {
       "id": 29111,
       "name": "Fiala di Bio-Veleno++",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">1.25</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">1.25</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 29110,
-          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel prossimo turno"
+          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel turno successivo"
         }
       ]
     },
@@ -3094,15 +3094,15 @@
     {
       "id": 9114,
       "name": "Sinestesia Specchio-Tattile",
-      "desc": "Quando un alleato fa Vacillare un nemico con un'Abilità Attacco(escluse le Abilità E.G.O) che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration], applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici (o una Parte casuale dell'Anormalità) durante il prossimo turno.\n\nSe non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio di 1.5 durante il prossimo turno.",
+      "desc": "Quando un alleato fa Vacillare un nemico con un'Abilità Attacco(escluse le Abilità E.G.O) che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration], applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici (o una Parte casuale dell'Anormalità) durante il turno successivo.\n\nSe non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio di 1.5 durante il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9114,
-          "simpleDesc": "Se si riscontrano le condizioni date: applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici nel prossimo turno."
+          "simpleDesc": "Se si riscontrano le condizioni date: applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici nel turno successivo."
         },
         {
           "abilityID": 91141,
-          "simpleDesc": "Se non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio 1.5 nel prossimo turno."
+          "simpleDesc": "Se non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio 1.5 nel turno successivo."
         }
       ]
     },
@@ -3143,11 +3143,11 @@
     {
       "id": 9117,
       "name": "Polvere da Sparo Fumante",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nFine Turno: se un'Abilità Attacco infligge Potenza o Conteggio [Burst] è stata usata almeno una volta durante l'ultimo turno, ottiene 1 [Agility] nel prossimo turno.\n\nSe la Velocità dell'unità è 6+, le Abilità Attacco che infliggono Potenza o Conteggio [Burst] infliggono +12.5% danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nFine Turno: se un'Abilità Attacco infligge Potenza o Conteggio [Burst] è stata usata almeno una volta durante l'ultimo turno, ottiene 1 [Agility] nel turno successivo.\n\nSe la Velocità dell'unità è 6+, le Abilità Attacco che infliggono Potenza o Conteggio [Burst] infliggono +12.5% danni.",
       "simpleDesc": [
         {
           "abilityID": 9117,
-          "simpleDesc": "Se si riscontrano le condizioni date: ottiene 1 [Agility] nel prossimo turno."
+          "simpleDesc": "Se si riscontrano le condizioni date: ottiene 1 [Agility] nel turno successivo."
         },
         {
           "abilityID": 91171,

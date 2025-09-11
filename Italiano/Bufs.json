@@ -1122,7 +1122,7 @@
     {
       "id": "Bull_Sadness",
       "name": "Tristezza Irrisolta",
-      "desc": "Ottiene Attacco Diminuito in base alle Stack nel prossimo turno.\nA Fine Turno: A 3+ Stack, cambia in Cordoglio Crescente.",
+      "desc": "Ottiene Attacco Diminuito in base alle Stack nel turno successivo.\nA Fine Turno: A 3+ Stack, cambia in Cordoglio Crescente.",
       "summary": ""
     },
     {
@@ -1280,7 +1280,7 @@
     {
       "id": "DistortedDongrangEmptyHonor",
       "name": "Onore Futile",
-      "desc": "Se quest'unità viene uccisa da Dongrang, quest'ultimo perderà PV , otterrà 1 Vuoto interiore, e verrà indebolito nel prossimo turno"
+      "desc": "Se quest'unità viene uccisa da Dongrang, quest'ultimo perderà PV , otterrà 1 Vuoto interiore, e verrà indebolito nel turno successivo"
     },
     {
       "id": "DistortedDongrangMomentaryGlory",
@@ -1969,7 +1969,7 @@
     {
       "id": "GazePersonality",
       "name": "Sguardo di Disprezzo",
-      "desc": "- Valore Massimo: 7\n- Infligge +7% danni in più per ogni Sguardo di Disprezzo\n- A Fine Turno: quest'effetto scade\n- A Fine Turno: se il valore di Sguardo di Disprezzo è 7, viene convertito in Disprezzo dello Sguardo nel prossimo turno, al posto di scadere",
+      "desc": "- Valore Massimo: 7\n- Infligge +7% danni in più per ogni Sguardo di Disprezzo\n- A Fine Turno: quest'effetto scade\n- A Fine Turno: se il valore di Sguardo di Disprezzo è 7, viene convertito in Disprezzo dello Sguardo nel turno successivo, al posto di scadere",
       "summary": ""
     },
     {
@@ -2486,14 +2486,14 @@
     {
       "id": "SnakeStance",
       "name": "Braccio di Serpente",
-      "desc": "Stack Max: 3\nFine Turno: ottiene 3 Respiro e +2 Conteggio Respiro al prossimo turno\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Respiro\nFine turno: perde 1 Stack",
+      "desc": "Stack Max: 3\nFine Turno: ottiene 3 Respiro e +2 Conteggio Respiro al turno successivo\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Respiro\nFine turno: perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstZilu",
       "name": "Anatema 【Crepa】",
-      "desc": "- Stack Base: 3\n- Quando viene attivata Lacerazione mentre questa unità è afflitta da Anatema, perde 1 Stack, e ottiene 1 Lentezza il prossimo turno\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Lentezza il prossimo turno, perde 2 Stack al posto di ottenere Lentezza\n- A 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
+      "desc": "- Stack Base: 3\n- Quando viene attivata Lacerazione mentre questa unità è afflitta da Anatema, perde 1 Stack, e ottiene 1 Lentezza il turno successivo\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Lentezza il turno successivo, perde 2 Stack al posto di ottenere Lentezza\n- A 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
       "summary": "",
       "undefined": "-"
     },
@@ -2507,7 +2507,7 @@
     {
       "id": "EnhanceZilu",
       "name": "Lama della Stella Tianjiu",
-      "desc": "- Stack Max: 20\n- A 10+ Stack: a Fine Turno, ottiene 1 Rapidità al prossimo turno\n- Usata per alcune Abilità",
+      "desc": "- Stack Max: 20\n- A 10+ Stack: a Fine Turno, ottiene 1 Rapidità al turno successivo\n- Usata per alcune Abilità",
       "summary": "",
       "undefined": "-"
     },
@@ -2528,14 +2528,14 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Talismano Maledetto Contorto",
-      "desc": "- Stack Max: 10\n- Scade a Fine Turno\n- A 10+ Stack, quando subisce 30+ danni da un'Abilità: ottiene +1 Conteggio Lacerazione; Subisce danni da Gola pari alla potenza Lacerazione su questa unità(una volta per turno)\n- Quando questo effetto scade, ottiene (Stack / 4) Calo Offensivo il prossimo turno (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "desc": "- Stack Max: 10\n- Scade a Fine Turno\n- A 10+ Stack, quando subisce 30+ danni da un'Abilità: ottiene +1 Conteggio Lacerazione; Subisce danni da Gola pari alla potenza Lacerazione su questa unità(una volta per turno)\n- Quando questo effetto scade, ottiene (Stack / 4) Calo Offensivo il turno successivo (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CentipedePoison",
       "name": "Veleno Del Centopiedi",
-      "desc": "- Stack Max: 20\n- A Fine Turno: ottiene (Stack / 4) Calo Difensivo il prossimo turno (Arrotondato per difetto)\n- A Fine Turno: subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
+      "desc": "- Stack Max: 20\n- A Fine Turno: ottiene (Stack / 4) Calo Difensivo il turno successivo (Arrotondato per difetto)\n- A Fine Turno: subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
       "summary": "",
       "undefined": "-"
     },
@@ -2633,7 +2633,7 @@
     {
       "id": "IrritationAlly",
       "name": "Spirito Implacabile [剛氣]",
-      "desc": "- Velocità Min e Max +1\n- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le proprie Abilità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al prossimo turno\n- Stack Max: 1",
+      "desc": "- Velocità Min e Max +1\n- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le proprie Abilità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al turno successivo\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2654,7 +2654,7 @@
     {
       "id": "RoseThorn",
       "name": "Spina Ingorda (貪食棘)",
-      "desc": "Stack Max: 9\n\nA Fine Turno: Ottiene Conteggio Sanguinamento pari alla Rison. Lussuria, poi perde 1 Spina Ingorda (貪食棘). (Massimo Conteggio Sanguinamento Ottenibile: 5)\n\nQuando questa Unità possiede questo effetto, se ottiene una Potenza Sanguinamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottiene Calo Difensivo il prossimo turno pari all'aumento di Banchetto di Sangue (massimo Calo Difensivo ottenibile: 5)",
+      "desc": "Stack Max: 9\n\nA Fine Turno: Ottiene Conteggio Sanguinamento pari alla Rison. Lussuria, poi perde 1 Spina Ingorda (貪食棘). (Massimo Conteggio Sanguinamento Ottenibile: 5)\n\nQuando questa Unità possiede questo effetto, se ottiene una Potenza Sanguinamento superiore a 99, aumenta Banchetto di Sangue della potenza inflitta in eccesso; in seguito, ottiene Calo Difensivo il turno successivo pari all'aumento di Banchetto di Sangue (massimo Calo Difensivo ottenibile: 5)",
       "summary": "",
       "undefined": "-"
     },
