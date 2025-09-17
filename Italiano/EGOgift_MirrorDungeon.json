@@ -2816,7 +2816,7 @@
     {
       "id": 9104,
       "name": "Fiore Ardente",
-      "desc": "[L'Effetto si applica solo alla Pimra e Seconda Identità Schierate]\n\nQuando un alleato attacca un nemico, se il bersaglio ha (Potenza [Combustion] su se stesso)% o meno PV(per le Anormalità, i PV del Nucleo), infligge +50% danni con Abilità Attacco che infliggono Potenza, Conteggio [Combustion], o 'Bruciatur​a Speciale'.",
+      "desc": "[L'Effetto si applica solo alla Prima e Seconda Identità Schierate]\n\nQuando un alleato attacca un nemico, se il bersaglio ha (Potenza [Combustion] su se stesso)% o meno PV(per le Anormalità, i PV del Nucleo), infligge +50% danni con Abilità Attacco che infliggono Potenza, Conteggio [Combustion], o 'Bruciatur​a Speciale'.",
       "simpleDesc": [
         {
           "abilityID": 9104,
@@ -3378,7 +3378,7 @@
     {
       "id": 9126,
       "name": "Frammento di Decadimento",
-      "desc": "SI attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Sinking] o 'Pianto Unico'.\n\nOttiene Potere Finale pari (Risorse E.G.O Tristezza + somma delle altre risors E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Tristezza: Infligge Conteggio [Sinking] aggiuntivo in base Count Before ai Gradi E.G.O prima dell'Attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(PS consumati per l'Abilità E.G.O x 2.5)% Danni.",
+      "desc": "SI attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Sinking] o 'Pianto Unico'.\n\nOttiene Potere Finale pari (Risorse E.G.O Tristezza + somma delle altre risors E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Tristezza: Infligge Conteggio [Sinking] aggiuntivo in base ai Gradi E.G.O prima dell'Attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(PS consumati per l'Abilità E.G.O x 2.5)% Danni.",
       "simpleDesc": [
         {
           "abilityID": 9126,
@@ -3525,265 +3525,265 @@
     },
     {
       "id": 9132,
-      "name": "UPS System",
-      "desc": "Turn End: If at less than 3 [Charge] Count, gain +3 [Charge] Count next Turn Start.\n\nTurn End: If at 3+ [Charge] Count, gain 1 [AttackDmgUp] next Turn Start.",
+      "name": "Sistema UPS",
+        "desc": "Fine Turno: A meno di 3 Conteggio [Charge], l'alleato ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno.\n\nFine Turno: Se all'alleato rimane almeno 3+ Conteggio [Charge], ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 9132,
-          "simpleDesc": "Gain +3 [Charge] Count next Turn Start"
+          "simpleDesc": "Ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno"
         },
         {
           "abilityID": 91321,
-          "simpleDesc": "Gain 1 [AttackDmgUp] next Turn Start"
+          "simpleDesc": "Ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno"
         }
       ]
     },
     {
       "id": 19132,
-      "name": "UPS System+",
-      "desc": "Turn End: If at less than <style=\"upgradeHighlight\">4</style> [Charge] Count, gain +3 [Charge] Count next Turn Start.\n\nTurn End: If at <style=\"upgradeHighlight\">4+</style> [Charge] Count, gain 1 [AttackDmgUp] next Turn Start.",
+      "name": "Sistema UPS+",
+      "desc": "Fine Turno: A meno di <style=\"upgradeHighlight\">4</style> Conteggio [Charge], l'alleato ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno.\n\nFine Turno: Se all'alleato rimane almeno <style=\"upgradeHighlight\">4+</style> Conteggio [Charge], ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 19132,
-          "simpleDesc": "Gain +3 [Charge] Count next Turn Start"
+          "simpleDesc": "Ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno"
         },
         {
           "abilityID": 191321,
-          "simpleDesc": "Gain 1 [AttackDmgUp] next Turn Start"
+          "simpleDesc": "Ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno"
         }
       ]
     },
     {
       "id": 29132,
-      "name": "UPS System++",
-      "desc": "Turn End: If at less than <style=\"upgradeHighlight\">5</style> [Charge] Count, gain <style=\"upgradeHighlight\">+4</style> [Charge] Count next Turn Start.\n\nTurn End: If at <style=\"upgradeHighlight\">5+</style> [Charge] Count, gain <style=\"upgradeHighlight\">2</style> [AttackDmgUp] next Turn Start.",
+      "name": "Sistema UPS++",
+      "desc": "Fine Turno: A meno di <style=\"upgradeHighlight\">5</style> Conteggio [Charge], l'alleato ottiene <style=\"upgradeHighlight\">+4</style> Conteggio [Charge] nel prossimo Inizio Turno.\n\nnFine Turno: Se all'alleato rimane almeno <style=\"upgradeHighlight\">4+</style> Conteggio [Charge], ottiene <style=\"upgradeHighlight\">2</style> [AttackDmgUp] nel prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 29132,
-          "simpleDesc": "Gain +4 [Charge] Count next Turn Start"
+          "simpleDesc": "Ottiene +4 Conteggio [Charge] nel prossimo Inizio Turno"
         },
         {
           "abilityID": 291321,
-          "simpleDesc": "Gain 2 [AttackDmgUp] next Turn Start"
+          "simpleDesc": "Ottiene 2 [AttackDmgUp] nel prossimo Inizio Turno"
         }
       ]
     },
     {
       "id": 9133,
-      "name": "Uncapped Defibrilator",
-      "desc": "Turn End: heal PV and PS equal to the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn.\n\nIf this unit has 50%- remaining PV, boost the heal amount by x1.5.",
+      "name": "Defibrillatore Scoperto",
+      "desc": "Fine Turno: Cura i PV ed i PS pari alla somma del Conteggio [Charge] e 'Carica Unica' consumato durante le Abilità Attacco di questo turno.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del x1.5.",
       "simpleDesc": [
         {
           "abilityID": 9133,
-          "simpleDesc": "Heal PV and PS equal to the amount of [Charge] Count consumed"
+          "simpleDesc": "Cura PV e PS pari al Conteggio [Charge] consumato"
         }
       ]
     },
     {
       "id": 19133,
-      "name": "Uncapped Defibrilator+",
-      "desc": "Turn End: heal PV and PS equal to <style=\"upgradeHighlight\">(the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn + 1)</style>.\n\nIf this unit has 50%- remaining PV, boost the heal amount by <style=\"upgradeHighlight\">x2</style>.",
+      "name": "Defibrillatore Scoperto+",
+      "desc": "Fine Turno: Cura i PV ed i PS pari a <style=\"upgradeHighlight\">(somma del Conteggio [Charge] e 'Carica Unica' consumato durante le Abilità Attacco di questo turno + 1)</style>.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del <style=\"upgradeHighlight\">x2</style>.",
       "simpleDesc": [
         {
           "abilityID": 19133,
-          "simpleDesc": "Heal PV and PS equal to (the amount of [Charge] Count consumed + 1)"
+          "simpleDesc": "Cura PV e PS pari a (Conteggio [Charge] consumato + 1)"
         }
       ]
     },
     {
       "id": 29133,
-      "name": "Uncapped Defibrilator++",
-      "desc": "Turn End: heal PV and PS equal to (the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn <style=\"upgradeHighlight\">+ 2</style>).\n\nIf this unit has <style=\"upgradeHighlight\">75</style>%- remaining PV, boost the heal amount by x2.",
+      "name": "Defibrillatore Scoperto++",
+      "desc": "Fine Turno: Cura i PV ed i PS pari a (somma del Conteggio [Charge] e 'Carica Unica' consumato durante le Abilità Attacco di questo turno <style=\"upgradeHighlight\">+ 2</style>).\n\nSe all'unità rimangono meno del <style=\"upgradeHighlight\">75</style>% dei PV, moltiplica la cura del x2.",
       "simpleDesc": [
         {
           "abilityID": 29133,
-          "simpleDesc": "Heal PV and PS equal to (the amount of [Charge] Count consumed + 2)"
+          "simpleDesc": "Cura PV e PS pari a (Conteggio [Charge] consumato + 2)"
         }
       ]
     },
     {
       "id": 9134,
-      "name": "Patrolling Flashlight",
-      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals +10% damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply 2 [ChargeForceField] next turn.",
+      "name": "Torcia da Pattuglia",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Unique Charge', l'Abilità 1 delle Identità ottiene Potenza di Scontro +1 ed infliggono il 10% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica 2 [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9134,
-          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +10% damage"
+          "simpleDesc": "Le abilità 1 ottengono Potenza di Scontro +1 ed infliggono +10% danni"
         },
         {
           "abilityID": 91341,
-          "simpleDesc": "Apply 2 [ChargeForceField] next turn"
+          "simpleDesc": "Applica 2 [ChargeForceField] nel prossimo turno"
         }
       ]
     },
     {
       "id": 19134,
-      "name": "Patrolling Flashlight+",
-      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals <style=\"upgradeHighlight\">+15</style>% damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply <style=\"upgradeHighlight\">3</style> [ChargeForceField] next turn.",
+      "name": "Torcia da Pattuglia+",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Carica Unica', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">15</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 19134,
-          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +15% damage"
+          "simpleDesc": "Le abilità 1 ottengono Potenza di Scontro +1 ed infliggono +15% danni"
         },
         {
           "abilityID": 191341,
-          "simpleDesc": "Apply 3 [ChargeForceField] next turn"
+          "simpleDesc": "Applica 3 [ChargeForceField] nel prossimo turno"
         }
       ]
     },
     {
       "id": 29134,
-      "name": "Patrolling Flashlight++",
-      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals <style=\"upgradeHighlight\">+25</style>% damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply <style=\"upgradeHighlight\">4</style> [ChargeForceField] next turn.",
+      "name": "Torcia da Pattuglia++",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Carica Unica', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 29134,
-          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +25% damage"
+          "simpleDesc": "Le abilità 1 ottengono Potenza di Scontro +1 ed infliggono +25% danni"
         },
         {
           "abilityID": 291341,
-          "simpleDesc": "Apply 4 [ChargeForceField] next turn"
+          "simpleDesc": "Applica 4 [ChargeForceField] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9135,
-      "name": "Imitative Generator",
-      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nActivates when the unit has 10+ ([Charge] Count + 'Unique Charge') at Turn Start.\n\nCoin Power +1 to Skill 3 that gains or consumes [Charge] Count or 'Unique Charge'.\n\nIf the said Skill has less than 5 Base Power, deal +25% damage; if it has 5+ Base Power, gain an additional Coin Power +1.",
+      "name": "Generatore Imitativo",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nSi attiva quando l'unità ha 10 o più (Conteggio [Charge] + 'Carica Unica') all'Inizio Turno.\n\nPotere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o 'Carica Unica'.\n\nSe l'Abilità in questione ha meno 5 Potere Base, infligge il 25% di danni aggiuntivi; se ha invece più di 5 Potere Base, ottiene Potere Moneta +1.",
       "simpleDesc": [
         {
           "abilityID": 9135,
-          "simpleDesc": "Coin Power +1 to Skill 3 that consumes [Charge] Count or 'Unique Charge'"
+          "simpleDesc": "Potere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o 'Carica Unica'"
         },
         {
           "abilityID": 91351,
-          "simpleDesc": "Deal +25% damage or gain an additional Coin Power +1"
+          "simpleDesc": "Infligge +25% danni o ottiene Potere Moneta +1"
         }
       ]
     },
     {
       "id": 9136,
-      "name": "Fragment of Friction",
-      "desc": "Activates when using E.G.O Awakening Skills that gain or consume [Charge] Count or 'Unique Charge'.\n\nGain Final Power equal to (Envy E.G.O resource + sum of other E.G.O resources/3) consumed and deal +50% damage\n\nEnvy E.G.O Skills: gain additional [Charge] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(([Charge] Count on self + 'Unique Charge') x 5)% damage. (200% max)",
+      "name": "Frammento di Dissidio",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Conteggio [Charge] o 'Carica Unica'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Invidia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Invidia: conferisce Conteggio [Charge] in base ai Gradi E.G.O prima dell'Attacco(ZAYIN conferisce +2 Conteggio, TETH conferisce +3 Conteggio, HE conferisce +4 Conteggio, e così via), ed infligge +((Conteggio [Charge] su se stesso + 'Carica Unica') x 5)% Danni. (200% max)",
       "simpleDesc": [
         {
           "abilityID": 9136,
-          "simpleDesc": "Gain Final Power equal to (Envy E.G.O resource + sum of other E.G.O resources/3) consumed, and deal more damage"
+          "simpleDesc": "Ottiene Potere Finale pari a (Risorse E.G.O Invidia + somma delle altre risorse E.G.O/3) consumate, ed infligge danni aggiuntivi"
         },
         {
           "abilityID": 91361,
-          "simpleDesc": "Gain additional [Charge] Count (ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +([Charge] Count on self x 5)% damage."
+          "simpleDesc": "Se si riscontrano le condizioni date:ottiene Conteggio [Charge] Prima dell'Attacco (ZAYIN conferisce Conteggio +2, TETH conferisce Conteggio +3, HE conferisce Conteggio +4, e così via), ed infligge +(Conteggio [Charge] su se stesso x 5)% danni."
         }
       ]
     },
     {
       "id": 9137,
-      "name": "Scalpel",
-      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nTurn End: Identity with Slash Attack Skills gain (# of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 3 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "name": "Bisturi",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (# delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 3 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 9137,
-          "simpleDesc": "Gain [Agility] next turn"
+          "simpleDesc": "Ottiene [Agility] nel prossimo turno"
         }
       ]
     },
     {
       "id": 19137,
-      "name": "Scalpel+",
-      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nTurn End: Identity with Slash Attack Skills gain (<style=\"upgradeHighlight\">1 +</style> # of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 4 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "name": "Bisturi+",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (<style=\"upgradeHighlight\">1 +</style> # delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 19137,
-          "simpleDesc": "Gain [Agility] next turn"
+          "simpleDesc": "Ottiene [Agility] nel prossimo turno"
         }
       ]
     },
     {
       "id": 29137,
-      "name": "Scalpel++",
-      "desc": "[Effects apply only to the #4<style=\"upgradeHighlight\">, #5</style> Deployed Identities]\n\nTurn End: Identity with Slash Attack Skills gain (1 + # of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 4 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "name": "Bisturi++",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Quinta</style> Identità Schierate]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (1 + # of Slash Attack Skills they have) [Agility] delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 29137,
-          "simpleDesc": "Gain [Agility] next turn"
+          "simpleDesc": "Ottiene [Agility] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9138,
-      "name": "Deceptive Accord",
-      "desc": "[Effects apply only to #5 Deployed Identity]\n\nIf there is a 3+ Speed difference between this unit and the enemy targeted by this unit, deal +15% damage with Slash Skills.",
+      "name": "Cadenza Ingannevole",
+      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3+ nella Velocità tra l'unità e l'avversario attaccato, infligge il 15% dei danni in più con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 9138,
-          "simpleDesc": "Slash Skills deal +15% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +15% danni"
         }
       ]
     },
     {
       "id": 19138,
-      "name": "Deceptive Accord+",
-      "desc": "[Effects apply only to #5 Deployed Identity]\n\nIf there is a 3+ Speed difference between this unit and the enemy targeted by this unit, deal <style=\"upgradeHighlight\">+20%</style> more damage with Slash Skills.",
+      "name": "Cadenza Ingannevole+",
+      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3+ nella Velocità tra l'unità e l'avversario attaccato, infligge il <style=\"upgradeHighlight\">20%</style> dei danni in più con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 19138,
-          "simpleDesc": "Slash Skills deal +20% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +20% danni"
         }
       ]
     },
     {
       "id": 29138,
-      "name": "Deceptive Accord++",
-      "desc": "[Effects apply only to #5 <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nIf there is a <style=\"upgradeHighlight\">2+</style> Speed difference between this unit and the enemy targeted by this unit, deal +20% damage with Slash Skills.",
+      "name": "Cadenza Ingannevole++",
+      "desc": "[Gli Effetti si applicano solo alla Quinta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nSe c'è una differenza di <style=\"upgradeHighlight\">2+</style> nella Velocità tra l'unità e l'avversario attaccato, infligge il 20% dei danni in più con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 29138,
-          "simpleDesc": "Slash Skills deal +20% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +20% danni"
         }
       ]
     },
     {
       "id": 9139,
-      "name": "Tailor's Scissors",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 and deal +10% damage.\n\nSingle-Coin Skills gain Clash Power +1 and deal +20% damage instead.",
+      "name": "Forbici da Sarto",
+      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 ed infliggono il 10% di danni aggiuntivi.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il 20% dei danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 9139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +10% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +10% danni"
         },
         {
           "abilityID": 91391,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +20% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +20% danni"
         }
       ]
     },
     {
       "id": 19139,
-      "name": "Tailor's Scissors+",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#4</style>, #6 Deployed Identities]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 <style=\"upgradeHighlight\">and deal +15% damage</style>.\n\nSingle-Coin Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+25%</style> more damage instead.",
+      "name": "Forbici da Sarto+",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 15% di danni aggiuntivi.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25%</style> dei danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 19139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +15% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +15% danni"
         },
         {
           "abilityID": 191391,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +25% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +25% danni"
         }
       ]
     },
     {
       "id": 29139,
-      "name": "Tailor's Scissors++",
-      "desc": "[Effects apply only to #4, #6 Deployed Identities]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 <style=\"upgradeHighlight\">and deal +20% damage</style>.\n\nSingle-Coin Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+30%</style> more damage instead.",
+      "name": "Forbici da Sarto++",
+      "desc": "[Gli Effetti si applicano solo alla Quarta e Sesta Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 20% di danni aggiuntivi.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">30%</style> dei danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 29139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +20% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +20% danni"
         },
         {
           "abilityID": 29139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +30% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +30% danni"
         }
       ]
     },
