@@ -174,11 +174,11 @@
     {
       "id": 9008,
       "name": "Paletto di Ferro Sporco",
-      "desc": "Quando si colpisce un nemico con un' Abilità con una sola Moneta, infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del turno successivo.\nSe il bersaglio ha già [Laceration] o 'Sanguinament​o Speciale', invece infligge 3 Potenza [Laceration].",
+      "desc": "Quando si colpisce un nemico con un' Abilità con una sola Moneta, infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del prossimo turno.\nSe il bersaglio ha già [Laceration] o 'Sanguinament​o Speciale', invece infligge 3 Potenza [Laceration].",
       "simpleDesc": [
         {
           "abilityID": 9008,
-          "simpleDesc": "Infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del turno successivo"
+          "simpleDesc": "Infligge 1 Potenza [Laceration]. Infligge 2 [DefenseDown] fino alla fine del prossimo turno"
         },
         {
           "abilityID": 90081,
@@ -290,7 +290,7 @@
     {
       "id": 9012,
       "name": "Espressione d'Oggi",
-      "desc": "Dopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità Contundente, aumenta il Potere delle Abilità Contundenti dell'unità di 2 fino alla fine del turno successivo.",
+      "desc": "Dopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità Contundente, aumenta il Potere delle Abilità Contundenti dell'unità di 2 fino alla fine del prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9012,
@@ -346,7 +346,7 @@
     {
       "id": 9014,
       "name": "Moneta Commemorativa Arrugginita",
-      "desc": "Se la prima Abilità Attacco con una singola Moneta che un alleato ha usato durante la fase del combattimento non sconfigge nessun nemico, usa l'Abilità Attacco una seconda volta.\n\nDopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità con una sola Moneta, l'alleato ottiene +1 Potere Abilità per il turno successivo.",
+      "desc": "Se la prima Abilità Attacco con una singola Moneta che un alleato ha usato durante la fase del combattimento non sconfigge nessun nemico, usa l'Abilità Attacco una seconda volta.\n\nDopo aver sconfitto un nemico usando un'Abilità di Affinità Accidia o un'Abilità con una sola Moneta, l'alleato ottiene +1 Potere Abilità per il prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9014,
@@ -642,7 +642,7 @@
     },
     {
       "id": 9027,
-      "name": "Infima Stella",
+      "name": "Stella Infima",
       "desc": "Quando si colpisce un nemico con un'Abilità Contundente o un'Abilità di Affinità Superbia, infligge 2 danni PS fissi sul bersaglio.\n\nGli alleati con meno di 0 PS infliggono il 10% di danni in più.",
       "simpleDesc": [
         {
@@ -657,7 +657,7 @@
     },
     {
       "id": 19027,
-      "name": "Infima Stella+",
+      "name": "Stella Infima+",
         "desc": "Quando si colpisce un nemico con un'Abilità Contundente o un'Abilità di Affinità Superbia, infligge <style=\"upgradeHighlight\">3 danni PS fissi sul bersaglio.</style>.\n\nGli alleati con meno di 0 PS infliggono <style=\"upgradeHighlight\">il 15% di danni in più</style>.",
       "simpleDesc": [
         {
@@ -672,7 +672,7 @@
     },
     {
       "id": 29027,
-      "name": "Infima Stella++",
+      "name": "Stella Infima++",
       "desc": "Quando si colpisce un nemico con un'Abilità Contundente o un'Abilità di Affinità Superbia, infligge <style=\"upgradeHighlight\">5 danni PS fissi sul bersaglio.</style>.\n\nGli alleati con meno di 0 PS infliggono <style=\"upgradeHighlight\">il 25% di danni in più</style>.",
       "simpleDesc": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "id": 9042,
-      "name": "Fumo e Fili Spinati", 
+      "name": "Fumo e Filo Spinato", 
       "desc": "Contro i nemici, gli alleati infliggono x2 Potenza [Laceration] con le Effetto Abilità.\n\nFine Turno: i nemici con [Laceration] o 'Sanguinament​o Speciale' perdono 2 Velocità al turno successivo.",
       "simpleDesc": [
         {
@@ -1004,7 +1004,7 @@
     },
     {
       "id": 19042,
-      "name": "Fumo e Fili Spinati+",
+      "name": "Fumo e Filo Spinato+",
       "desc": "Contro i nemici, gli alleati infliggono x2 Potenza [Laceration] con le Effetto Abilità.\n\nFine Turno: i nemici con [Laceration] o 'Sanguinament​o Speciale' perdono <style=\"upgradeHighlight\">3</style> Velocità al turno successivo.",
       "simpleDesc": [
         {
@@ -1019,7 +1019,7 @@
     },
     {
       "id": 29042,
-      "name": "Fumo e Fili Spinati++",
+      "name": "Fumo e Filo Spinato++",
       "desc": "Contro i nemici, gli alleati infliggono <style=\"upgradeHighlight\">x2.5 Potenza [Laceration]</style> con le Effetto Abilità.\n\nFine Turno: i nemici con [Laceration] o 'Sanguinament​o Speciale' perdono 3 Velocità al turno successivo.",
       "simpleDesc": [
         {
@@ -1113,7 +1113,7 @@
     {
       "id": 9045,
       "name": "Scorcio di Fiamme",
-      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere (Potenza [Combustion] x Conteggio [Combustion] consumato) danno Ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il turno successivo. (Max 3)",
+      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere (Potenza [Combustion] x Conteggio [Combustion] consumato) danno Ira aggiuntivo. (può consumare fino a 5 Conteggio [Combustion]) I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme) Livello Difensivo per il prossimo turno. (Max 3)",
       "simpleDesc": [
         {
           "abilityID": 9045,
@@ -1128,7 +1128,7 @@
     {
       "id": 19045,
       "name": "Scorcio di Fiamme+",
-      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 1.5)</style> danno Ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il turno successivo. <style=\"upgradeHighlight\">(Max 5)</style>",
+      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 1.5)</style> danno Ira aggiuntivo. <style=\"upgradeHighlight\">(può consumare fino a 7 Conteggio [Combustion]) I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme) Livello Difensivo per il prossimo turno. <style=\"upgradeHighlight\">(Max 5)</style>",
       "simpleDesc": [
         {
           "abilityID": 19045,
@@ -1143,7 +1143,7 @@
     {
       "id": 29045,
       "name": "Scorcio di Fiamme++",
-      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 2)</style> danno ira aggiuntivo. I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme)/2 Livello Difensivo per il turno successivo. <style=\"upgradeHighlight\">(Max 8)</style>",
+      "desc": "Fine Turno: consuma metà del Conteggio [Combustion] sui nemici con [Combustion] per infliggere <style=\"upgradeHighlight\">(Potenza [Combustion] x Conteggio [Combustion] consumato x 2)</style> danno ira aggiuntivo. <style=\"upgradeHighlight\">(può consumare fino a 10 Conteggio [Combustion]) I bersagli perderanno (Conteggio [Combustion] consumato da Scorcio di Fiamme) Livello Difensivo per il prossimo turno. <style=\"upgradeHighlight\">(Max 8)</style>",
       "simpleDesc": [
         {
           "abilityID": 29045,
@@ -1157,7 +1157,7 @@
     },
     {
       "id": 9046,
-      "name": "Bocchino",
+      "name": "Pipa",
       "desc": "Inizio Turno: gli alleati con [Breath] ottengono 1 [ResultEnhancement].\n\nGli alleati con 5+ Conteggio [Breath] ottengono invece 2 [ResultEnhancement].",
       "simpleDesc": [
         {
@@ -1307,7 +1307,7 @@
     },
     {
       "id": 9050,
-      "name": "Cotone Rosso-Tinto",
+      "name": "Cotone Rosso-Macchiato",
       "desc": "Primo Inizio Turno di un Incontro: infligge 1 Potenza [Laceration] e +15 Conteggio [Laceration] a tutti i nemici (o tutte le parti dell'Anormalità).\n\nInizio Turno: i nemici con Potenza [Laceration] perdono (Potenza [Laceration]/3) 'Livello Offensivo' e 'Livello Difensivo' per il turno. (Si limita a 30 Potenza [Laceration] accumulata)",
       "simpleDesc": [
         {
@@ -1322,7 +1322,7 @@
     },
     {
       "id": 19050,
-      "name": "Cotone Rosso-Tinto+",
+      "name": "Cotone Rosso-Macchiato+",
       "desc": "<style=\"upgradeHighlight\">Primo Inizio Turno di un'ondata</style>: infligge <style=\"upgradeHighlight\">2 Potenza [Laceration]</style> e +15 Conteggio [Laceration] a tutti i nemici (o tutte le parti dell'Anormalità).\n\nInizio Turno: i nemici con Potenza [Laceration] perdono (Potenza [Laceration]/3) 'Livello Offensivo' e 'Livello Difensivo' per il turno. (Si limita a 30 Potenza [Laceration] accumulata)",
       "simpleDesc": [
         {
@@ -1337,7 +1337,7 @@
     },
     {
       "id": 29050,
-      "name": "Cotone Rosso-Tinto++",
+      "name": "Cotone Rosso-Macchiato++",
       "desc": "Primo Inizio Turno di un'ondata: infligge <style=\"upgradeHighlight\">4 Potenza [Laceration] e +20 Conteggio [Laceration]</style> a tutti i nemici (o tutte le parti dell'Anormalità).\n\nInizio Turno: i nemici con Potenza [Laceration] perdono <style=\"upgradeHighlight\">(Potenza [Laceration]/2)</style> 'Livello Offensivo' e 'Livello Difensivo' per il turno. (Si limita a 30 Potenza [Laceration] accumulata)",
       "simpleDesc": [
         {
@@ -1488,7 +1488,7 @@
     {
       "id": 9054,
       "name": "Componente Liquefatta",
-      "desc": "Inizio Turno: i nemici con [Sinking] perdono 3 'Livello Offensivo' e 'Livello Difensivo' per il turno successivo.",
+      "desc": "Inizio Turno: i nemici con [Sinking] perdono 3 'Livello Offensivo' e 'Livello Difensivo' per il prossimo Turno.",
       "simpleDesc": [
         {
           "abilityID": 9054,
@@ -1499,7 +1499,7 @@
     {
       "id": 9055,
       "name": "Acquazzone",
-      "desc": "Inizio Turno: Infligge (Conteggio del Turno Attuale x 2) Potenza [Vibration] e +2 Conteggio [Vibration] a tutti i nemici (o tutte le Parti dell'Anormalità).\n\nFine Turno: Innesca [VibrationExplosion] su tutti i nemici (o tutte le Parti dell'Anormalità).",
+      "desc": "Inizio Turno: Infligge (Conteggio dei Turni Attuali x 2) Potenza [Vibration] e +2 Conteggio [Vibration] a tutti i nemici (o tutte le Parti dell'Anormalità).\n\nFine Turno: Innesca [VibrationExplosion] su tutti i nemici (o tutte le Parti dell'Anormalità).",
       "simpleDesc": [
         {
           "abilityID": 9055,
@@ -1514,7 +1514,7 @@
     {
       "id": 19055,
       "name": "Acquazzone+",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">(3+ Conteggio del Turno Attuale x 2) Potenza [Vibration] e +3 Conteggio [Vibration]</style> su tutti i nemici (o tutte le Parti dell'Anormalità).\n\nFine Turno: Innesca [VibrationExplosion] su tutti i nemici (o tutte le Parti dell'Anormalità).",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">(3+ Conteggio dei Turni Attuali x 2) Potenza [Vibration] e +3 Conteggio [Vibration]</style> su tutti i nemici (o tutte le Parti dell'Anormalità).\n\nFine Turno: Innesca [VibrationExplosion] su tutti i nemici (o tutte le Parti dell'Anormalità).",
       "simpleDesc": [
         {
           "abilityID": 19055,
@@ -1529,7 +1529,7 @@
     {
       "id": 29055,
       "name": "Acquazzone++",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">(5+ Conteggio del Turno Attuale x 2) Potenza [Vibration] e +3 Conteggio [Vibration]</style> su tutti i nemici (o tutte le Parti dell'Anormalità).\n\nFine Turno: Innesca <style=\"upgradeHighlight\"> 2 [VibrationExplosion]</style> su tutti i nemici (o tutte le Parti dell'Anormalità)",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">(5+ Conteggio dei Turni Attuali x 2) Potenza [Vibration] e +3 Conteggio [Vibration]</style> su tutti i nemici (o tutte le Parti dell'Anormalità).\n\nFine Turno: Innesca <style=\"upgradeHighlight\"> 2 [VibrationExplosion]</style> su tutti i nemici (o tutte le Parti dell'Anormalità)",
       "simpleDesc": [
         {
           "abilityID": 29055,
@@ -1544,7 +1544,7 @@
     {
       "id": 9056,
       "name": "Quadrifoglio",
-      "desc": "Quando un alleato con [Breath] a Inizio del Combattimento infligge un Colpo Critico ad un nemico, ottiene 5 Potenza [Breath] e +2 Conteggio [Breath] al prossimo Inizio Turno. (Una volta per Turno)\n\nSe l'Affinità dell'Abilità era Gola, ottiene invece 7 Potenza [Breath] e +3 Conteggio [Breath] al prossimo Inizio Turno.",
+      "desc": "Quando un alleato, che ha [Breath] dall'Inizio del Combattimento, infligge un Colpo Critico ad un nemico, ottiene 5 Potenza [Breath] e +2 Conteggio [Breath] al prossimo Inizio Turno. (Una volta per Turno)\n\nSe l'Affinità dell'Abilità era Gola, ottiene invece 7 Potenza [Breath] e +3 Conteggio [Breath] al prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 9056,
@@ -1559,7 +1559,7 @@
     {
       "id": 9057,
       "name": "Occhiali per la Visione Notturna",
-      "desc": "Questo Dono si attiva quando un alleato ha 15+ Conteggio [Charge] a Inizio Turno.\n\nInizio Combattimento: l'alleato con 15+ Conteggio [Charge] perde 3 Conteggio [Charge] ed ottiene 5 'Livello Offensivo' per il turno successivo.",
+      "desc": "Questo Dono si attiva quando un alleato ha 15+ Conteggio [Charge] a Inizio Turno.\n\nInizio Combattimento: l'alleato con 15+ Conteggio [Charge] perde 3 Conteggio [Charge] ed ottiene 5 'Livello Offensivo' per il prossimo Turno.",
       "simpleDesc": [
         {
           "abilityID": 9057,
@@ -1570,7 +1570,7 @@
     {
       "id": 9058,
       "name": "Frammento di Disco",
-      "desc": "Inizio Turno: ottieni +1 risorsa E.G.O di un'Affinità casuale per tutte le Abilità E.G.O non corrispondenti alla Gola usate nel precedente turno.\n\nSe un'Abilità E.G.O Affinità Gola è stata usata, ottieni invece +3 risorse E.G.O di un'Affinità casuale per ogni Abilità E.G.O di Gola usate nel precedente Turno.",
+      "desc": "Inizio Turno: ottieni +1 risorsa E.G.O di un'Affinità casuale pari a tutte le Abilità E.G.O non affini a Gola usate nel precedente turno.\n\nSe è stata usata un'Abilità E.G.O Affinità Gola, ottieni invece +3 risorse E.G.O di un'Affinità casuale per ogni Abilità E.G.O Gola usate nel precedente Turno.",
       "simpleDesc": [
         {
           "abilityID": 9058,
@@ -1585,7 +1585,7 @@
     {
       "id": 9059,
       "name": "Incubo di Mezzo Inverno",
-      "desc": "Quando si colpisce un nemico e si infliggono danno ai PV nemici con un'Abilità, infligge 3 Potenza [Sinking].\n\nSe l'Affinità dell'Abilità era Gola, infligge invece 5 Potenza [Sinking].",
+      "desc": "Quando si colpisce e si infligge danno ai PV di un nemico con un'Abilità, infligge 3 Potenza [Sinking].\n\nSe l'Affinità dell'Abilità era Gola, infligge invece 5 Potenza [Sinking].",
       "simpleDesc": [
         {
           "abilityID": 9059,
@@ -1600,7 +1600,7 @@
     {
       "id": 9060,
       "name": "Fremito",
-      "desc": "Inizio Turno: infligge 3 Potenza [Burst] e +3 Conteggio [Burst] su tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nFine Turno: Infligge (Potenza [Burst] x Conteggio [Burst]) danno Gola a tutti i nemici. (per le Anormalità, a tutte le Parti) (questo Conteggio [Burst] si ferma a 5)",
+      "desc": "Inizio Turno: infligge 3 Potenza [Burst] e +3 Conteggio [Burst] su tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nFine Turno: Infligge (Potenza [Burst] x Conteggio [Burst]) danno Gola a tutti i nemici. (per le Anormalità, a tutte le Parti) (arriva fino ad un massimo di 5 Conteggio [Burst])",
       "simpleDesc": [
         {
           "abilityID": 9060,
@@ -1615,7 +1615,7 @@
     {
       "id": 19060,
       "name": "Fremito+",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">4 Potenza [Burst]</style> e +3 Conteggio [Burst] su tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nFine Turno: Infligge (Potenza [Burst] x Conteggio [Burst]) danno Gola a tutti i nemici. (per le Anormalità, a tutte le Parti) <style=\"upgradeHighlight\">(questo Conteggio [Burst] si ferma a 7)</style>",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">4 Potenza [Burst]</style> e +3 Conteggio [Burst] su tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nFine Turno: Infligge (Potenza [Burst] x Conteggio [Burst]) danno Gola a tutti i nemici. (per le Anormalità, a tutte le Parti) <style=\"upgradeHighlight\">(arriva fino ad un massimo di 7 Conteggio [Burst])</style>",
       "simpleDesc": [
         {
           "abilityID": 19060,
@@ -1630,7 +1630,7 @@
     {
       "id": 29060,
       "name": "Fremito++",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">6 Potenza [Burst]</style> e +3 Conteggio [Burst] su tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nFine Turno: Infligge (Potenza [Burst] x Conteggio [Burst]) danno Gola a tutti i nemici. (per le Anormalità, a tutte le Parti) <style=\"upgradeHighlight\">(questo Conteggio [Burst] si ferma a 10)</style>",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">6 Potenza [Burst]</style> e +3 Conteggio [Burst] su tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nFine Turno: Infligge (Potenza [Burst] x Conteggio [Burst]) danno Gola a tutti i nemici. (per le Anormalità, a tutte le Parti) <style=\"upgradeHighlight\">(arriva fino ad un massimo di 10 Conteggio [Burst])</style>",
       "simpleDesc": [
         {
           "abilityID": 29060,
@@ -1645,7 +1645,7 @@
     {
       "id": 9061,
       "name": "Avanzi Scheletrici",
-      "desc": "Infliggi +12.5% danno e subisci -12.5% danno contro i nemici con [Sinking] a Inizio del Combattimento.\n\nGli Alleati con Abilità Affinità Tristezza infliggono invece +20% danni e subiscono -20% danni.",
+      "desc": "Infliggi il 12.5% danni in più e subisci il 12.5% di danni in meno contro i nemici con [Sinking] a Inizio del Combattimento.\n\nGli Alleati con Abilità Affinità Tristezza infliggono invece il 20% danni in più e subiscono il 20% danni in meno.",
       "simpleDesc": [
         {
           "abilityID": 9061,
@@ -1668,7 +1668,7 @@
     {
       "id": 9062,
       "name": "Curriculum Vitae",
-      "desc": "Fine Turno: gli alleati con 7+ Conteggio (Conteggio [Charge] + 'Caric​a Speciale') ottengono 1 [Agility] al turno successivo.\n\nSe l'alleato ha Abilità Affinità Tristezza, ottiene invece 2 [Agility] ed 1 [ResultEnhancement] al turno successivo.",
+      "desc": "Fine Turno: gli alleati con 7+ Conteggio (Conteggio [Charge] + 'Caric​a Speciale') ottengono 1 [Agility] il turno successivo.\n\nSe l'alleato ha Abilità Affinità Tristezza, ottiene invece 2 [Agility] ed 1 [ResultEnhancement] il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9062,
@@ -1683,7 +1683,7 @@
     {
       "id": 19062,
       "name": "Curriculum Vitae+",
-      "desc": "Fine Turno: gli alleati con 7+ Conteggio (Conteggio [Charge] + 'Caric​a Speciale') ottengono <style=\"upgradeHighlight\">2 [Agility] al turno successivo.</style>\n\nSe l'alleato ha Abilità Affinità Tristezza, ottiene invece <style=\"upgradeHighlight\">3 [Agility]</style> ed 1 [ResultEnhancement] al turno successivo.",
+      "desc": "Fine Turno: gli alleati con 7+ Conteggio (Conteggio [Charge] + 'Caric​a Speciale') ottengono <style=\"upgradeHighlight\">2 [Agility] il turno successivo.</style>\n\nSe l'alleato ha Abilità Affinità Tristezza, ottiene invece <style=\"upgradeHighlight\">3 [Agility]</style> ed 1 [ResultEnhancement] il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 19062,
@@ -1698,7 +1698,7 @@
     {
       "id": 29062,
       "name": "Curriculum Vitae++",
-      "desc": "Fine Turno: gli alleati con 7+ Conteggio (Conteggio [Charge] + 'Caric​a Speciale') ottengono <style=\"upgradeHighlight\">3 [Agility] al turno successivo.</style>\n\nSe l'alleato ha Abilità Affinità Tristezza, ottiene invece <style=\"upgradeHighlight\">4 [Agility]</style> ed 1 [ResultEnhancement] al turno successivo.",
+      "desc": "Fine Turno: gli alleati con 7+ Conteggio (Conteggio [Charge] + 'Caric​a Speciale') ottengono <style=\"upgradeHighlight\">3 [Agility] il turno successivo.</style>\n\nSe l'alleato ha Abilità Affinità Tristezza, ottiene invece <style=\"upgradeHighlight\">4 [Agility]</style> ed 1 [ResultEnhancement] il turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 29062,
@@ -1712,8 +1712,8 @@
     },
     {
       "id": 9063,
-      "name": "Pendalo di Nostalgia",
-      "desc": "Inizio Combattimento: un alleato casuale ottiene 3 Potenza [Breath]. (Dà la Priorità alle Identità con Abilità Attacco che conferiscono Conteggio [Breath])\n\nDa la priorità agli alleati con Abilità Affinità Tristezza; questi alleati ottengono 3 Potenza [Breath] e +2 Conteggio [Breath].",
+      "name": "Ciondolo Nostalgico",
+      "desc": "Inizio Combattimento: un alleato casuale ottiene 3 Potenza [Breath]. (Dà la Priorità alle Identità con Abilità Attacco che conferiscono Conteggio [Breath])\n\nDà la priorità agli alleati con Abilità Affinità Tristezza; questi alleati ottengono 3 Potenza [Breath] e +2 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 9063,
@@ -1727,8 +1727,8 @@
     },
     {
       "id": 19063,
-      "name": "Pendalo di Nostalgia+",
-      "desc": "Inizio Combattimento: un alleato casuale ottiene <style=\"upgradeHighlight\">4 Potenza [Breath]</style>. (Dà la Priorità alle Identità con Abilità Attacco che conferiscono Conteggio [Breath])\n\nDa la priorità agli alleati con Abilità Affinità Tristezza; questi alleati ottengono <style=\"upgradeHighlight\">4 Potenza [Breath] e +3 Conteggio [Breath].</style>",
+      "name": "Ciondolo Nostalgico+",
+      "desc": "Inizio Combattimento: un alleato casuale ottiene <style=\"upgradeHighlight\">4 Potenza [Breath]</style>. (Dà la Priorità alle Identità con Abilità Attacco che conferiscono Conteggio [Breath])\n\nDà la priorità agli alleati con Abilità Affinità Tristezza; questi alleati ottengono <style=\"upgradeHighlight\">4 Potenza [Breath] e +3 Conteggio [Breath].</style>",
       "simpleDesc": [
         {
           "abilityID": 19063,
@@ -1742,8 +1742,8 @@
     },
     {
       "id": 29063,
-      "name": "Pendalo di Nostalgia++",
-      "desc": "Inizio Combattimento: <style=\"upgradeHighlight\">due alleati casuali</style> ottengono 4 Potenza [Breath]. (Dà la Priorità alle Identità con Abilità Attacco che conferiscono Conteggio [Breath])\n\nDa la priorità agli alleati con Abilità Affinità Tristezza; questi alleati ottengono 4 Potenza [Breath] e +3 Conteggio [Breath].",
+      "name": "Ciondolo Nostalgico++",
+      "desc": "Inizio Combattimento: <style=\"upgradeHighlight\">due alleati casuali</style> ottengono 4 Potenza [Breath]. (Dà la Priorità alle Identità con Abilità Attacco che conferiscono Conteggio [Breath])\n\nDà la priorità agli alleati con Abilità Affinità Tristezza; questi alleati ottengono 4 Potenza [Breath] e +3 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 29063,
@@ -1757,8 +1757,8 @@
     },
     {
       "id": 9064,
-      "name": "Rivoltella in Frantumi",
-      "desc": "Inizio Turno: i nemici (o le Parti dell'Anormalità) con [Burst] hanno il loro 'Livello Offensivo' e 'Livello Difensivo' ridotto di 2 per il seguente Turno.",
+      "name": "Revolver in Frantumi",
+      "desc": "Inizio Turno: i nemici (o le Parti dell'Anormalità) con [Burst] hanno il loro 'Livello Offensivo' e 'Livello Difensivo' ridotto di 2 per il Turno.",
       "simpleDesc": [
         {
           "abilityID": 9064,
@@ -1768,8 +1768,8 @@
     },
     {
       "id": 9065,
-      "name": "Senso Artistico",
-      "desc": "Infligge +35% dei danni contro i nemici che soffrono di effetti negativi (Morale Basso, Panico) dato dalla perdita di PS.\n\nQuando gli effetti del [Sinking] si applicano a nemici senza la Sanità, l'Affinità dei danni inflitti cambia in base a quale sia la più efficace.",
+      "name": "Estro",
+      "desc": "Infligge +35% dei danni contro i nemici che soffrono effetti negativi (Morale Basso, Panico) causati dalla perdita di PS.\n\nQuando si applicano di [Sinking] a nemici senza Sanità, l'Affinità dei danni inflitti cambia in quella più efficace.",
       "simpleDesc": [
         {
           "abilityID": 9065,
@@ -1783,8 +1783,8 @@
     },
     {
       "id": 19065,
-      "name": "Senso Artistico+",
-      "desc": "<style=\"upgradeHighlight\">Infligge +40% dei danni contro i nemici con 0 o meno PS.</style>\n\nQuando gli effetti del [Sinking] si applicano a nemici senza la Sanità, l'Affinità dei danni inflitti cambia in base a quale sia la più efficace.",
+      "name": "Estro+",
+      "desc": "<style=\"upgradeHighlight\">Infligge +40% dei danni contro i nemici con 0 o meno PS.</style>\n\nQuando si applicano di [Sinking] a nemici senza Sanità, l'Affinità dei danni inflitti cambia cambia in quella più efficace.",
       "simpleDesc": [
         {
           "abilityID": 19065,
@@ -1798,8 +1798,8 @@
     },
     {
       "id": 29065,
-      "name": "Senso Artistico++",
-      "desc": "<style=\"upgradeHighlight\">Infligge +50% dei danni contro i nemici con 0 o meno PS.</style>\n\nQuando gli effetti del [Sinking] si applicano a nemici senza la Sanità, l'Affinità dei danni inflitti cambia in base a quale sia la più efficace.",
+      "name": "Estro++",
+      "desc": "<style=\"upgradeHighlight\">Infligge +50% dei danni contro i nemici con 0 o meno PS.</style>\n\nQuando si applicano di [Sinking] a nemici senza Sanità, l'Affinità dei danni inflitti cambia in quella più efficace.",
       "simpleDesc": [
         {
           "abilityID": 29065,
@@ -1814,7 +1814,7 @@
     {
       "id": 9066,
       "name": "Nebulizzatore",
-      "desc": "Primo Inizio Turno di un Incontro: tutti gli alleati ottengono 4 Potenza [Breath] e +4 Conteggio [Breath].\n\nQuando si attiva Risonanza Assoluta Superbia, tutti gli alleati ottengono 2 Potenza [Breath] e +2 Conteggio [Breath] a Inizio del Combattimento.\n- [Non si cumula] Quando la Passiva 'Respiro' dell'EGO Thoracalgia Ryōshū si attiva, quest'effetto non si attiva",
+      "desc": "Primo Inizio Turno di un Incontro: tutti gli alleati ottengono 4 Potenza [Breath] e +4 Conteggio [Breath].\n\nQuando si attiva Risonanza Assoluta Superbia, tutti gli alleati ottengono 2 Potenza [Breath] e +2 Conteggio [Breath] a Inizio del Combattimento.\n- [Non cumulabile] Quando la Passiva 'Respiro' dell'EGO Thoracalgia Ryōshū si attiva, quest'effetto non si attiva",
       "simpleDesc": [
         {
           "abilityID": 9066,
@@ -1829,7 +1829,7 @@
     {
       "id": 19066,
       "name": "Nebulizzatore+",
-      "desc": "<style=\"upgradeHighlight\">Primo Inizio Turno di un'Ondata</style>: tutti gli alleati ottengono <style=\"upgradeHighlight\">5 Potenza [Breath]</style> e +4 Conteggio [Breath].\n\nQuando si attiva Risonanza Assoluta Superbia, tutti gli alleati ottengono <style=\"upgradeHighlight\">3 Potenza [Breath]</style> e +2 Conteggio [Breath].\n- [Non si cumula] Quando la Passiva 'Respiro' dell'EGO Thoracalgia Ryōshū si attiva, quest'effetto non si attiva",
+      "desc": "<style=\"upgradeHighlight\">Primo Inizio Turno di un'Ondata</style>: tutti gli alleati ottengono <style=\"upgradeHighlight\">5 Potenza [Breath]</style> e +4 Conteggio [Breath].\n\nQuando si attiva Risonanza Assoluta Superbia, tutti gli alleati ottengono <style=\"upgradeHighlight\">3 Potenza [Breath]</style> e +2 Conteggio [Breath].\n- [Non cumulabile] Quando la Passiva 'Respiro' dell'EGO Thoracalgia Ryōshū si attiva, quest'effetto non si attiva",
       "simpleDesc": [
         {
           "abilityID": 19066,
@@ -1844,7 +1844,7 @@
     {
       "id": 29066,
       "name": "Nebulizzatore++",
-      "desc": "Primo Inizio Turno di un'Ondata: tutti gli alleati ottengono 5 Potenza [Breath] e <style=\"upgradeHighlight\">+5 Conteggio [Breath] </style>.\n\nQuando si attiva <style=\"upgradeHighlight\">Risonanza Superbia</style>, tutti gli alleati ottengono 3 Potenza [Breath] e <style=\"upgradeHighlight\">+3 Conteggio [Breath]</style> a Inizio del Combattimento.\n- [Non si cumula] Quando la Passiva 'Respiro' dell'EGO Thoracalgia Ryōshū si attiva, quest'effetto non si attiva",
+      "desc": "Primo Inizio Turno di un'Ondata: tutti gli alleati ottengono 5 Potenza [Breath] e <style=\"upgradeHighlight\">+5 Conteggio [Breath] </style>.\n\nQuando si attiva <style=\"upgradeHighlight\">Risonanza Superbia</style>, tutti gli alleati ottengono 3 Potenza [Breath] e <style=\"upgradeHighlight\">+3 Conteggio [Breath]</style> a Inizio del Combattimento.\n- [Non cumulabile] Quando la Passiva 'Respiro' dell'EGO Thoracalgia Ryōshū si attiva, quest'effetto non si attiva",
       "simpleDesc": [
         {
           "abilityID": 29066,
@@ -1859,7 +1859,7 @@
     {
       "id": 9067,
       "name": "Contratto Speciale",
-      "desc": "I Nemici che Vacillano a causa di danni da Abilità ricevono ulteriore danno fisso pari al 33% dei loro PV Massimi (per le Anormalità, i PV della Parte in questione), e gli viene inflitto 2 [Vulnerable] al turno successivo. (Una volta per incontro)",
+      "desc": "I Nemici che Vacillano a causa di danni di un'Abilità subiscono un ulteriore danno fisso pari al 33% dei loro PV Massimi (per le Anormalità, i PV della Parte in questione), e gli viene inflitto 2 [Vulnerable] al prossimo Turno. (Una volta per incontro)",
       "simpleDesc": [
         {
           "abilityID": 9067,
@@ -1869,7 +1869,7 @@
     },
     {
       "id": 9068,
-      "name": "Gran Benvenuto",
+      "name": "Entrata Trionfale",
       "desc": "Inizio dell'Incontro: ottieni +5 risorse E.G.O Superbia.\n\nQuando un nemico muore, ottieni +2 risorse E.G.O Superbia e +1 risorsa E.G.O per 2 Affinità casuali.",
       "simpleDesc": [
         {
@@ -1885,7 +1885,7 @@
     {
       "id": 9069,
       "name": "Protezioni per i Polsi",
-      "desc": "Inizio Turno: gli alleati con 5+ (Conteggio [Charge] + 'Caric​a Speciale') ottengono 1 [AttackDmgUp].\n\nSe un alleato ha Abilità Attacco di Affinità Superbia, ottengono invece 2 [AttackDmgUp].",
+      "desc": "Inizio Turno: gli alleati con 5+ (Conteggio [Charge] + 'Caric​a Speciale') ottengono 1 [AttackDmgUp].\n\nSe un alleato ha Abilità Attacco di Affinità Superbia, ottiene invece 2 [AttackDmgUp].",
       "simpleDesc": [
         {
           "abilityID": 9069,
@@ -1900,7 +1900,7 @@
     {
       "id": 19069,
       "name": "Protezioni per i Polsi+",
-      "desc": "Inizio Turno: gli alleati con <style=\"upgradeHighlight\">3+ (Conteggio [Charge] + 'Caric​a Speciale')</style> ottengono 1 [AttackDmgUp].\n\nSe un alleato ha Abilità Attacco di Affinità Superbia, ottengono invece 2 [AttackDmgUp] instead.",
+      "desc": "Inizio Turno: gli alleati con <style=\"upgradeHighlight\">3+ (Conteggio [Charge] + 'Caric​a Speciale')</style> ottengono 1 [AttackDmgUp].\n\nSe un alleato ha Abilità Attacco di Affinità Superbia, ottiene invece 2 [AttackDmgUp] instead.",
       "simpleDesc": [
         {
           "abilityID": 19069,
@@ -1915,7 +1915,7 @@
     {
       "id": 29069,
       "name": "Protezioni per i Polsi++",
-      "desc": "Inizio Turno: gli alleati con <style=\"upgradeHighlight\">(Conteggio [Charge] + 'Caric​a Speciale') ottengono 2 [AttackDmgUp]</style>.\n\nISe un alleato ha Abilità Attacco di Affinità Superbia, ottengono invece <style=\"upgradeHighlight\">3 [AttackDmgUp].</style>",
+      "desc": "Inizio Turno: gli alleati con <style=\"upgradeHighlight\">(Conteggio [Charge] + 'Caric​a Speciale') ottengono 2 [AttackDmgUp]</style>.\n\nISe un alleato ha Abilità Attacco di Affinità Superbia, otteiene invece <style=\"upgradeHighlight\">3 [AttackDmgUp].</style>",
       "simpleDesc": [
         {
           "abilityID": 29069,
@@ -1930,7 +1930,7 @@
     {
       "id": 9070,
       "name": "Specchio Nitido, Acqua Calma",
-      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a x1,7.\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene 10 [AttackUp] al turno successivo. (si attiva una volta per Identità, per turno)",
+      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a x1,7.\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene 10 [AttackUp] al turno successivo. (si attiva una volta per Identità, una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9070,
@@ -1941,7 +1941,7 @@
     {
       "id": 19070,
       "name": "Specchio Nitido, Acqua Calma+",
-      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">12 [AttackUp]</style> al turno successivo. (si attiva una volta per Identità, per turno)",
+      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">12 [AttackUp]</style> al turno successivo. (si attiva una volta per Identità, una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 19070,
@@ -1952,7 +1952,7 @@
     {
       "id": 29070,
       "name": "Specchio Nitido, Acqua Calma++",
-      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.5.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">15 [AttackUp]</style> al turno successivo. (si attiva una volta per Identità, per turno)",
+      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.5.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">15 [AttackUp]</style> al turno successivo. (si attiva una volta per Identità, una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 29070,
@@ -1963,7 +1963,7 @@
     {
       "id": 9071,
       "name": "Disco Carbonizzato",
-      "desc": "Quando un nemico con [Combustion] viene sconfitto (Per le Anormalità, quando un Nucleo viene sconfitto), infligge metà della Potenza [Combustion] del nemico sconfitto ad un nemico con la minore Potenza [Combustion] al prossimo Inizio Turno.\n\nInizio Turno: infligge 4 [AttackDown] ai nemici con [Combustion] al turno successivo.",
+      "desc": "Quando un nemico con [Combustion] viene sconfitto (Per le Anormalità, quando un Nucleo viene sconfitto), infligge metà della Potenza [Combustion] del nemico sconfitto ad un nemico con la minore Potenza [Combustion] al prossimo Inizio Turno.\n\nInizio Turno: infligge 4 [AttackDown] ai nemici con [Combustion] nel turno.",
       "simpleDesc": [
         {
           "abilityID": 9071,
@@ -2022,8 +2022,8 @@
     },
     {
       "id": 9073,
-      "name": "Kit di Endorfina",
-      "desc": "Quando si ottiene Potenza [Breath] da delle Abilità effetto, ottieni 1 Potenza [Breath] e +1 Conteggio [Breath].\n\nSe l'Affinità dell'Abilità era Invidia, l'alleato ottiene invece 2 Potenza [Breath] e +2 Conteggio [Breath].",
+      "name": "Kit di Endorfine",
+      "desc": "Quando si ottiene Potenza [Breath] da degli effetti delle Abilità, ottieni 1 Potenza [Breath] e +1 Conteggio [Breath].\n\nSe l'Affinità dell'Abilità era Invidia, l'alleato ottiene invece 2 Potenza [Breath] e +2 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 9073,
@@ -2037,8 +2037,8 @@
     },
     {
       "id": 19073,
-      "name": "Kit di Endorfina+",
-      "desc": "Quando si ottiene Potenza [Breath] da delle Abilità effetto, ottieni <style=\"upgradeHighlight\">2 Potenza [Breath] e +2 Conteggio [Breath]</style>.\n\nSe l'Affinità dell'Abilità era Invidia, l'alleato <style=\"upgradeHighlight\">ottiene invece 3 Potenza [Breath] e +3 Conteggio [Breath]</style>.",
+      "name": "Kit di Endorfine+",
+      "desc": "Quando si ottiene Potenza [Breath] da degli effetti delle Abilità, ottieni <style=\"upgradeHighlight\">2 Potenza [Breath] e +2 Conteggio [Breath]</style>.\n\nSe l'Affinità dell'Abilità era Invidia, l'alleato <style=\"upgradeHighlight\">ottiene invece 3 Potenza [Breath] e +3 Conteggio [Breath]</style>.",
       "simpleDesc": [
         {
           "abilityID": 19073,
@@ -2052,8 +2052,8 @@
     },
     {
       "id": 29073,
-      "name": "Kit di Endorfina++",
-      "desc": "Quando si ottiene Potenza [Breath] da delle Abilità effetto, ottieni <style=\"upgradeHighlight\">3 Potenza [Breath] e +3 Conteggio [Breath]</style>.\n\nSe l'Affinità dell'Abilità era Invidia, l'alleato <style=\"upgradeHighlight\">ottiene invece 4 Potenza [Breath] e +4 Conteggio [Breath]</style>.",
+      "name": "Kit di Endorfine++",
+      "desc": "Quando si ottiene Potenza [Breath] da degli effetti delle Abilità, ottieni <style=\"upgradeHighlight\">3 Potenza [Breath] e +3 Conteggio [Breath]</style>.\n\nSe l'Affinità dell'Abilità era Invidia, l'alleato <style=\"upgradeHighlight\">ottiene invece 4 Potenza [Breath] e +4 Conteggio [Breath]</style>.",
       "simpleDesc": [
         {
           "abilityID": 29073,
@@ -2068,7 +2068,7 @@
     {
       "id": 9074,
       "name": "Ritratto Senza Volto",
-      "desc": "Inizio del Combattimento: Infligge 2 Potenza [Sinking] su tutti i nemici con meno di 0 PS. (Per le Anormalità, una Parte casuale)\n\nPer ogni Abilità Affinità Invidia usata, infligge casualmente 1 Potenza [Sinking] tra tutti i nemici al turno successivo. (Per le Anormalità, una Parte casuale)",
+      "desc": "Inizio del Combattimento: Infligge 2 Potenza [Sinking] su tutti i nemici con meno di 0 PS. (Per le Anormalità, una Parte casuale)\n\nPer ogni Abilità Affinità Invidia usata, infligge casualmente 1 Potenza [Sinking] tra tutti i nemici nel turno successivo. (Per le Anormalità, una Parte casuale)",
       "simpleDesc": [
         {
           "abilityID": 9074,
@@ -2083,7 +2083,7 @@
     {
       "id": 19074,
       "name": "Ritratto Senza Volto+",
-      "desc": "Inizio del Combattimento: Infligge <style=\"upgradeHighlight\">3 Potenza [Sinking] </style> su tutti i nemici con meno di 0 PS. (Per le Anormalità, una Parte casuale)\n\nPer ogni Abilità Affinità Invidia usata, infligge casualmente <style=\"upgradeHighlight\">2 Potenza [Sinking]</style> tra tutti i nemici al turno successivo. (Per le Anormalità, una Parte casuale)",
+      "desc": "Inizio del Combattimento: Infligge <style=\"upgradeHighlight\">3 Potenza [Sinking] </style> su tutti i nemici con meno di 0 PS. (Per le Anormalità, una Parte casuale)\n\nPer ogni Abilità Affinità Invidia usata, infligge casualmente <style=\"upgradeHighlight\">2 Potenza [Sinking]</style> tra tutti i nemici nel turno successivo. (Per le Anormalità, una Parte casuale)",
       "simpleDesc": [
         {
           "abilityID": 19074,
@@ -2098,7 +2098,7 @@
     {
       "id": 29074,
       "name": "Ritratto Senza Volto++",
-      "desc": "Inizio del Combattimento: Infligge <style=\"upgradeHighlight\">4 Potenza [Sinking] e +1 Conteggio [Sinking] </style> su tutti i nemici con meno di 0 PS. (Per le Anormalità, una Parte casuale)\n\nPer ogni Abilità Affinità Invidia usata, infligge casualmente <style=\"upgradeHighlight\">3 Potenza [Sinking]</style> tra tutti i nemici al turno successivo. (Per le Anormalità, una Parte casuale)",
+      "desc": "Inizio del Combattimento: Infligge <style=\"upgradeHighlight\">4 Potenza [Sinking] e +1 Conteggio [Sinking] </style> su tutti i nemici con meno di 0 PS. (Per le Anormalità, una Parte casuale)\n\nPer ogni Abilità Affinità Invidia usata, infligge casualmente <style=\"upgradeHighlight\">3 Potenza [Sinking]</style> tra tutti i nemici nel turno successivo. (Per le Anormalità, una Parte casuale)",
       "simpleDesc": [
         {
           "abilityID": 29074,
@@ -2113,7 +2113,7 @@
     {
       "id": 9075,
       "name": "Guanti Ricaricabili",
-      "desc": "Conteggio Max [Charge] +10.\n\nInizio dell'Incontro: Tutti gli alleati ottengono +5 Conteggio [Charge].\n\nInizio Turno: Tutti gli alleati ottengono +2 Conteggio [Charge].",
+      "desc": "Conteggio Max [Charge] +10.\n\nInizio dell'Incontro: Tutti gli alleati ottengono +5 Conteggio [Charge].\n\nInizio Turno: Tutti gli alleati ottengono +2 Conteggio [Charge].\n\n[Effetto Esclusivo della Prima Identità Schierata] Inizio dell'Incontro: ottiene 1 [ChoSuperCharge]",
       "simpleDesc": [
         {
           "abilityID": 9075,
@@ -2132,7 +2132,7 @@
     {
       "id": 19075,
       "name": "Guanti Ricaricabili+",
-      "desc": "Conteggio Max [Charge] +10.\n\nInizio dell'Incontro: Tutti gli alleati ottengono <style=\"upgradeHighlight\">+6 Conteggio [Charge].</style>\n\nInizio Turno: Tutti gli alleati ottengono +<style=\"upgradeHighlight\">3</style> Conteggio [Charge].",
+      "desc": "Conteggio Max [Charge] +10.\n\nInizio dell'Incontro: Tutti gli alleati ottengono <style=\"upgradeHighlight\">+6 Conteggio [Charge].</style>\n\nInizio Turno: Tutti gli alleati ottengono +<style=\"upgradeHighlight\">3</style> Conteggio [Charge]. \n\n[Effetto Esclusivo della Prima Identità Schierata] Inizio dell'Incontro: ottiene <style=\"upgradeHighlight\">10</style> [ChoSuperCharge]",
       "simpleDesc": [
         {
           "abilityID": 19075,
@@ -2151,7 +2151,7 @@
     {
       "id": 29075,
       "name": "Guanti Ricaricabili++",
-      "desc": "Conteggio Max [Charge] +10.\n\nInizio dell'Incontro: Tutti gli alleati ottengono <style=\"upgradeHighlight\">+8 Conteggio [Charge].</style>\n\nInizio Turno: Tutti gli alleati ottengono +<style=\"upgradeHighlight\">4</style> Conteggio [Charge].",
+      "desc": "Conteggio Max [Charge] +10.\n\nInizio dell'Incontro: Tutti gli alleati ottengono <style=\"upgradeHighlight\">+8 Conteggio [Charge].</style>\n\nInizio Turno: Tutti gli alleati ottengono +<style=\"upgradeHighlight\">4</style> Conteggio [Charge]. \n\n[Effetto Esclusivo della Prima Identità Schierata] Inizio dell'Incontro: ottiene <style=\"upgradeHighlight\">20</style> [ChoSuperCharge]",
       "simpleDesc": [
         {
           "abilityID": 29075,
@@ -2181,7 +2181,7 @@
     {
       "id": 9077,
       "name": "Antidolorifico",
-      "desc": "Inizio Turno: gli alleati Vacillanti si curano del 12.5% dei loro PV Massimi ed ottengono 3 [Protection] per questo turno.",
+      "desc": "Inizio Turno: gli alleati che stanno Vacillando si curano del 12.5% dei loro PV Massimi ed ottengono 3 [Protection] per questo turno.",
       "simpleDesc": [
         {
           "abilityID": 9077,
@@ -2203,7 +2203,7 @@
     {
       "id": 9079,
       "name": "Urna Dorata",
-      "desc": "Ottieni +20% Costo dopo aver vinto un Incontro di combattimento. (Non affetto dai Potenziamenti Iniziali o altri Doni E.G.O)",
+      "desc": "Ottieni il 20% in più di Costo dopo aver vinto un Incontro di combattimento. (Non influenzato dai Potenziamenti Iniziali o altri Doni E.G.O)",
       "simpleDesc": [
         {
           "abilityID": 9079,
@@ -2214,7 +2214,7 @@
     {
       "id": 9080,
       "name": "Cartello di Sopravvivenza",
-      "desc": "Una volta sconfitto il Boss del Piano: ottieni (80 + # di Identità che ha partepicato all'Incontro x 5) Costo aggiuntivo (non affetto da effetti che aumentano il guadagno di Costo dopo aver concluso un Incontro)",
+      "desc": "Una volta sconfitto il Boss del Piano: ottieni (80 + # delle Identità che hanno partepicato all'Incontro x 5) Costo aggiuntivo (non affetto da effetti che aumentano il guadagno di Costo dopo aver concluso un Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9080,
@@ -2269,7 +2269,7 @@
     {
       "id": 9083,
       "name": "Memoria Lunare",
-      "desc": "Tutti i tipi di danno ed Affinità a cui un nemico è resistente (per le Anormalità tutte le Parti) diventano 'Fatale'.",
+      "desc": "Tutti i tipi di danno ed Affinità a cui un nemico è resistente (per le Anormalità tutte le Parti) cambiano in 'Fatale'.",
       "simpleDesc": [
         {
           "abilityID": 9083,
@@ -2280,7 +2280,7 @@
     {
       "id": 9084,
       "name": "Effigie Antica",
-      "desc": "Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge (8 + LV di Vacillamento x 4) Potenza [Laceration] e (8 + LV di Vacillamento x4)/2 [AttackDown] su di loro. (Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
+      "desc": "Inizio Turno: durante il prossimo turno viene applicato ad uno degli alleati più veloci 5 [Agility].\n\nProssimo Inizio Turno: seleziona un altro degli alleati più veloci (senza l'effetto applicato da Effigie Antica) per poi riapplicare l'effetto. (l'effetto scade se non ci sono altri alleati a cui applicare l'effetto)",
       "simpleDesc": [
         {
           "abilityID": 9084,
@@ -2291,7 +2291,7 @@
     {
       "id": 9085,
       "name": "Accordo di Non Divulgazione",
-      "desc": "Inizio Turno: Un alleato casuale infligge +10% dei danni (efficace finchè gli effetti di Accordo di Non Divulgazione scadono).\n\nL'alleato infligge +10% di danni aggiuntivi tutte le volte che un'Abilità infligge danno ai PV ad un nemico (Max +40% di danno in più). Se l'alleato subisce danni ai PV, l'effetto del Dono svanisce. Al prossimo Inizio Turno, applica gli stessi effetti ad un'altro alleato casuale. (Scade se nessun alleato può venir selezionato)",
+      "desc": "Inizio Turno: Un alleato casuale infligge +10% dei danni (efficace finchè gli effetti di Accordo di Non Divulgazione scadono).\n\nL'alleato infligge +10% di danni aggiuntivi tutte le volte che un'Abilità infligge danno ai PV ad un nemico (Max +40% di danno in più). Se l'alleato subisce danni ai PV, l'effetto del Dono svanisce. All'inizio del turno successivo, applica lo stesso effetto ad un'altro alleato casuale. (Scade se nessun alleato può venir selezionato)",
       "simpleDesc": [
         {
           "abilityID": 9085,
@@ -2301,7 +2301,7 @@
     },
     {
       "id": 9086,
-      "name": "Riverberazione",
+      "name": "Riverbero",
       "desc": "Fine Turno: Infligge 2 [Binding] ai nemici (per le Anormalità, le loro Parti) con 10+ Potenza [Vibration].\n\nSe il bersaglio ha 20+ Potenza [Vibration], applica invece 2 [Binding] ed 1 [Paralysis].",
       "simpleDesc": [
         {
@@ -2470,7 +2470,7 @@
     {
       "id": 9092,
       "name": "Oscillazione Accoppiata",
-      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration] o 'Vibrazion​e Speciale'. (tranne per le Abilità E.G.O, tiene in considerazione solo le Identità sul campo a Inizio dell'Incontro)\n\nPrimo Inizio Turno di un'Ondata: Infligge 5 Potenza [Vibration] e +5 Conteggio [Vibration] a tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nApplica 5 Potenza [Vibration] e 2 [Vulnerable] questo ed il turno successivo ai nemici affetti da [VibrationExplosion]. (si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])\n\nDopo aver innescato 3 [VibrationExplosion] ad un bersaglio questo turno, fa Vacillare il bersaglio al prossimo Inizio Turno ed aggiunge una nuova Soglia di Vacillamento al 66% ed al 33% dei PV attuali del bersaglio. (una volta per Incontro)\n\nQuando si innesca[Switch_Vibration] o [FusionVibration], infligge 1 [Vulnerable] (3 volte per turno)",
+      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration] o 'Vibrazion​e Speciale'. (tranne per le Abilità E.G.O, tiene in considerazione solo le Identità sul campo a Inizio dell'Incontro)\n\nPrimo Inizio Turno di un'Ondata: Infligge 5 Potenza [Vibration] e +5 Conteggio [Vibration] a tutti i nemici. (o tutte le Parti dell'Anormalità)\n\nApplica 5 Potenza [Vibration] e 2 [Vulnerable] questo ed il prossimo turno ai nemici affetti da [VibrationExplosion]. (si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])\n\nDopo aver innescato 3 [VibrationExplosion] ad un bersaglio questo turno, fa Vacillare il bersaglio al prossimo Inizio Turno ed aggiunge una nuova Soglia di Vacillamento al 66% ed al 33% dei PV attuali del bersaglio. (una volta per Incontro)\n\nQuando si innesca[Switch_Vibration] o [FusionVibration], infligge 1 [Vulnerable] (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9092,
@@ -2638,7 +2638,7 @@
     {
       "id": 9098,
       "name": "Borsello Fortunato",
-      "desc": "Inizio dell'Incontro:  Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Breath]. (tranne per le Abilità E.G.O, tiene in considerazione solo le Identità sul campo a Inizio dell'Incontro)\n\nInizio del Combattimento: se un alleato casuale con [Breath] fa un Danno Critico ad un nemico con un'Abilità, tutti gli alleati ottengono 7 Potenza [Breath] e +7 Conteggio [Breath] al prossimo Inizio Turno. (Una volta per Turno)\n\nLe Abilità 3 delle Identità con Abilità che applicano o ottengono Potenza o Conteggio [Breath] (non include le Abilità E.G.O): Potere Finale +3, Potere Moneta +(12/# delle Monete), danno inflitto +(50/# delle Monete)%.\n\nInizio del Combattimento: un alleato casuale ottiene 3 Potenza [Breath] Potency. (da la priorità alle Identità che applicano o ottengono Potenza o Conteggio [Breath] con le loro Abilità Attacco) Dà la Priorità agli alleati con Abilità Affinità Tristezza; loro otterrano 3 Potenza [Breath] e +2 Conteggio [Breath].",
+      "desc": "Inizio dell'Incontro:  Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Breath]. (tranne per le Abilità E.G.O, tiene in considerazione solo le Identità sul campo a Inizio dell'Incontro)\n\nInizio del Combattimento: se un alleato casuale con [Breath] fa un Danno Critico ad un nemico con un'Abilità, tutti gli alleati ottengono 7 Potenza [Breath] e +7 Conteggio [Breath] al prossimo Inizio Turno. (Una volta per Turno)\n\nLe Abilità 3 delle Identità con Abilità che applicano o ottengono Potenza o Conteggio [Breath] (tranne per le Abilità E.G.O): Potere Finale +3, Potere Moneta +(12/# delle Monete), danno inflitto +(50/# delle Monete)%.\n\nInizio del Combattimento: un alleato casuale ottiene 3 Potenza [Breath] Potency. (da la priorità alle Identità che applicano o ottengono Potenza o Conteggio [Breath] con le loro Abilità Attacco) Dà la Priorità agli alleati con Abilità Affinità Tristezza; loro otterrano 3 Potenza [Breath] e +2 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 9098,
@@ -2783,33 +2783,33 @@
     {
       "id": 9103,
       "name": "Dolore di Rabbia Soffocata",
-      "desc": "[Gli Effetti si applicano solo alle Prime e Seconde Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il turno successivo. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 1 [Agility] e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si applicano solo alle Prime e Seconde Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 1 [Agility] e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9103,
-          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel turno successivo."
+          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel prossimo turno."
         }
       ]
     },
     {
       "id": 19103,
       "name": "Dolore di Rabbia Soffocata+",
-      "desc": "[Gli Effetti si aplicano solo alle Prime, alle Seconde, <style=\"upgradeHighlight\">ed alle Terze</style> Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il turno successivo. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece <style=\"upgradeHighlight\">2 [Agility]</style> e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si aplicano solo alle Prime, alle Seconde, <style=\"upgradeHighlight\">ed alle Terze</style> Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece <style=\"upgradeHighlight\">2 [Agility]</style> e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 19103,
-          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel turno successivo."
+          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel prossimo turno."
         }
       ]
     },
     {
       "id": 29103,
       "name": "Dolore di Rabbia Soffocata++",
-      "desc": "[Gli Effetti si applicano solo alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il turno successivo. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si applicano solo alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto ad un nemico che ha [Combustion] o 'Bruciatur​a Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 29103,
-          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel turno successivo."
+          "simpleDesc": "Quando infligge [Combustion] o 'Bruciatur​a Speciale' con un'Abilità Effetto, ottiene 1 [Agility] nel prossimo turno."
         }
       ]
     },
@@ -2842,33 +2842,33 @@
     {
       "id": 9106,
       "name": "Inno Interrotto",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel turno successivo.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9106,
-          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel turno successivo."
+          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] nel prossimo turno."
         }
       ]
     },
     {
       "id": 19106,
       "name": "Inno Interrotto+",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> nel turno successivo.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 19106,
-          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed 1 [AttackDmgUp] nel turno successivo."
+          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed 1 [AttackDmgUp] nel prossimo turno."
         }
       ]
     },
     {
       "id": 29106,
       "name": "Inno Interrotto++",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], ed <style=\"upgradeHighlight\">2 [AttackUp]</style> nel turno successivo.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], ed <style=\"upgradeHighlight\">2 [AttackUp]</style> nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 29106,
-          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 2 [Agility], 1 [AttackDmgUp], ed 2 [AttackUp] nel turno successivo."
+          "simpleDesc": "Se tutti i nemici hanno [Laceration], tutti gli alleati ottengono 2 [Agility], 1 [AttackDmgUp], ed 2 [AttackUp] nel prossimo turno."
         }
       ]
     },
@@ -2941,7 +2941,7 @@
     {
       "id": 9109,
       "name": "Tregua",
-      "desc": "[Gli Effetti si applicano alle Prime ed alle Seconde Identità Schierate]\n\nSi attiva dopo uno Scontro Vinto usando un'Abilità che infligge Potenza, Conteggio [Laceration] o 'Sanguinament​o Speciale'\n\nInfligge +(# delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari alla valore del turno successivo.\n\nPer Le abilità con meno di 2 Monete, usa invece (# delle monete rimanenti+3) nel calcolo.",
+      "desc": "[Gli Effetti si applicano alle Prime ed alle Seconde Identità Schierate]\n\nSi attiva dopo uno Scontro Vinto usando un'Abilità che infligge Potenza, Conteggio [Laceration] o 'Sanguinament​o Speciale'\n\nInfligge +(# delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari alla valore del prossimo turno.\n\nPer Le abilità con meno di 2 Monete, usa invece (# delle monete rimanenti+3) nel calcolo.",
       "simpleDesc": [
         {
           "abilityID": 9109,
@@ -2956,7 +2956,7 @@
     {
       "id": 9110,
       "name": "Frammento di Seduzione",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Laceration] o 'Sanguinament​o Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Lussuria + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Lussuria: Infligge Conteggio [Laceration] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via) ed infligge danno Lussuria aggiunto pari alla Potenza [Laceration] sul bersaglio,",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Laceration] o 'Sanguinament​o Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Lussuria + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Lussuria: Infligge Conteggio [Laceration] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via) ed infligge danno Lussuria aggiuntivo pari alla Potenza [Laceration] sul bersaglio,",
       "simpleDesc": [
         {
           "abilityID": 9110,
@@ -2971,33 +2971,33 @@
     {
       "id": 9111,
       "name": "Fiala di Bio-Veleno",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge 0.5(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel turno successivo",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge 0.5(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 9110,
-          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel turno successivo"
+          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel prossimo turno"
         }
       ]
     },
     {
       "id": 19111,
       "name": "Fiala di Bio-Veleno+",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">0.75</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel turno successivo",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">0.75</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 19110,
-          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel turno successivo"
+          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel prossimo turno"
         }
       ]
     },
     {
       "id": 29111,
       "name": "Fiala di Bio-Veleno++",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">1.25</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel turno successivo",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">1.25</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 29110,
-          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel turno successivo"
+          "simpleDesc": "Se si riscontrano le condizioni date: infligge danno Accidia ad un nemico casuale nel prossimo turno"
         }
       ]
     },
@@ -3094,15 +3094,15 @@
     {
       "id": 9114,
       "name": "Sinestesia Specchio-Tattile",
-      "desc": "Quando un alleato fa Vacillare un nemico con un'Abilità Attacco(escluse le Abilità E.G.O) che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration], applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici (o una Parte casuale dell'Anormalità) durante il turno successivo.\n\nSe non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio di 1.5 durante il turno successivo.",
+      "desc": "Quando un alleato fa Vacillare un nemico con un'Abilità Attacco(escluse le Abilità E.G.O) che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration], applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici (o una Parte casuale dell'Anormalità) durante il prossimo turno.\n\nSe non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio di 1.5 durante il prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9114,
-          "simpleDesc": "Se si riscontrano le condizioni date: applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici nel turno successivo."
+          "simpleDesc": "Se si riscontrano le condizioni date: applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici nel prossimo turno."
         },
         {
           "abilityID": 91141,
-          "simpleDesc": "Se non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio 1.5 nel turno successivo."
+          "simpleDesc": "Se non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio 1.5 nel prossimo turno."
         }
       ]
     },
@@ -3143,11 +3143,11 @@
     {
       "id": 9117,
       "name": "Polvere da Sparo Fumante",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nFine Turno: se un'Abilità Attacco infligge Potenza o Conteggio [Burst] è stata usata almeno una volta durante l'ultimo turno, ottiene 1 [Agility] nel turno successivo.\n\nSe la Velocità dell'unità è 6+, le Abilità Attacco che infliggono Potenza o Conteggio [Burst] infliggono +12.5% danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nFine Turno: se un'Abilità Attacco infligge Potenza o Conteggio [Burst] è stata usata almeno una volta durante l'ultimo turno, ottiene 1 [Agility] nel prossimo turno.\n\nSe la Velocità dell'unità è 6+, le Abilità Attacco che infliggono Potenza o Conteggio [Burst] infliggono +12.5% danni.",
       "simpleDesc": [
         {
           "abilityID": 9117,
-          "simpleDesc": "Se si riscontrano le condizioni date: ottiene 1 [Agility] nel turno successivo."
+          "simpleDesc": "Se si riscontrano le condizioni date: ottiene 1 [Agility] nel prossimo turno."
         },
         {
           "abilityID": 91171,
@@ -3229,7 +3229,7 @@
     {
       "id": 9121,
       "name": "Frammento di Desiderio",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Burst].\n\nOttiene Potere Finale pari a (Risorse E.G.O Gola + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Gola: Infligge Conteggio [Burst] aggiuntivo in base ai Gradi E.G.O prima dell'attacco (ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(# delle Risorse E.G.O differenti usate x 15)% danni",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Burst].\n\nOttiene Potere Finale pari a (Risorse E.G.O Gola + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Gola: Infligge Conteggio [Burst] aggiuntivo in base ai Gradi E.G.O prima dell'attacco (ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(# delle Risorse E.G.O differenti usate x 15)% Danni.",
       "simpleDesc": [
         {
           "abilityID": 9121,
@@ -3378,7 +3378,7 @@
     {
       "id": 9126,
       "name": "Frammento di Decadimento",
-      "desc": "SI attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Sinking] o 'Pianto Unico'.\n\nOttiene Potere Finale pari (Risorse E.G.O Tristezza + somma delle altre risors E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Tristezza: Infligge Conteggio [Sinking] aggiuntivo in base Count Before ai Gradi E.G.O prima dell'Attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(PS consumati per l'Abilità E.G.O x 2.5)% danni.",
+      "desc": "SI attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Sinking] o 'Pianto Unico'.\n\nOttiene Potere Finale pari (Risorse E.G.O Tristezza + somma delle altre risors E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Tristezza: Infligge Conteggio [Sinking] aggiuntivo in base ai Gradi E.G.O prima dell'Attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(PS consumati per l'Abilità E.G.O x 2.5)% Danni.",
       "simpleDesc": [
         {
           "abilityID": 9126,
@@ -3386,644 +3386,644 @@
         },
         {
           "abilityID": 91261,
-          "simpleDesc": "Se si riscontrano le condizioni date: Infligge Conteggio [Sinking] aggiuntivo aggiuntivo prima dell'Attack(ZAYIN infligge Conteggio +2, TETH infligge Conteggio +3, HE infligge Conteggio +4, e così via), ed infligge +(PS usati per l'Abilità E.G.O x 2.5)% danni"
+          "simpleDesc": "Se si riscontrano le condizioni date: Infligge Conteggio [Sinking] aggiuntivo aggiuntivo prima dell'Attacco(ZAYIN infligge Conteggio +2, TETH infligge Conteggio +3, HE infligge Conteggio +4, e così via), ed infligge +(PS usati per l'Abilità E.G.O x 2.5)% danni"
         }
       ]
     },
     {
       "id": 9127,
-      "name": "Devil's Share",
-      "desc": "Turn End: apply 1 [Agility] next turn to 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count. (both effects can apply on the same Identity)\n\nIf the ally has Lust Affinity Attack Skills, apply 2 [Agility] instead. (except E.G.O Skills)",
+      "name": "Quota del Diavolo",
+      "desc": "Fine Turno: applica 1 [Agility] nel prossimo turno all'alleato con la maggiore Potenza [Breath] ed all'alleato con il maggiore Conteggio [Breath]. (entrambi gli effetti possono applicarsi sulla stessa Identità)\n\nSe l'alleato ha Abilità Affinità Lussuria, applica invece 2 [Agility]. (escluse le Abilità E.G.O)",
       "simpleDesc": [
         {
           "abilityID": 9127,
-          "simpleDesc": "Apply 1 [Agility] next turn."
+          "simpleDesc": "Applica 1 [Agility] nel prossimo turno."
         }
       ]
     },
     {
       "id": 19127,
-      "name": "Devil's Share+",
-      "desc": "Turn End: apply 1 [Agility] <style=\"upgradeHighlight\">and 1 [AttackUp]</style> next turn to 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count. (both effects can apply on the same Identity)\n\nIf the ally has Lust Affinity Attack Skills, apply 2 [Agility] <style=\"upgradeHighlight\">and 2 [AttackUp]</style> instead. (except E.G.O Skills)",
+      "name": "Quota del Diavolo+",
+      "desc": "Fine Turno: applica 1 [Agility] <style=\"upgradeHighlight\">ed 1 [AttackUp]</style> nel prossimo turno all'alleato con la maggiore Potenza [Breath] ed all'alleato con il maggiore Conteggio [Breath]. (entrambi gli effetti possono applicarsi sulla stessa Identità)\n\nSe l'alleato ha Abilità Affinità Lussuria, applica invece 2 [Agility] <style=\"upgradeHighlight\">e 2 [AttackUp]</style>. (escluse le Abilità E.G.O)",
       "simpleDesc": [
         {
           "abilityID": 19127,
-          "simpleDesc": "Apply 1 [Agility] and 1 [AttackDmgUp] next turn."
+          "simpleDesc": "Applica 1 [Agility] ed 1 [AttackDmgUp] nel prossimo turno."
         }
       ]
     },
     {
       "id": 29127,
-      "name": "Devil's Share++",
-      "desc": "Turn End: apply 1 [Agility], 1 [AttackUp], <style=\"upgradeHighlight\">and 1 [AttackDmgUp]</style> next turn to 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count. (both effects can apply on the same Identity)\n\nIf the ally has Lust Affinity Attack Skills, apply 2 [Agility], 2 [AttackUp], <style=\"upgradeHighlight\">and 2 [AttackDmgUp]</style> instead. (except E.G.O Skills)",
+      "name": "Quota del Diavolo++",
+      "desc": "Fine Turno: applica 1 [Agility], 1 [AttackUp], <style=\"upgradeHighlight\">ed 1 [AttackDmgUp]</style> nel prossimo turno all'alleato con la maggiore Potenza [Breath] ed all'alleato con il maggiore Conteggio [Breath]. (entrambi gli effetti possono applicarsi sulla stessa Identità)\n\nSe l'alleato ha Abilità Affinità Lussuria, applica invece 2 [Agility], 2 [AttackUp] <style=\"upgradeHighlight\">e 2 [AttackDmgUp]</style>. (escluse le Abilità E.G.O)",
       "simpleDesc": [
         {
           "abilityID": 29127,
-          "simpleDesc": "Apply 2 [Agility] and 1 [AttackDmgUp] next turn"
+          "simpleDesc": "Applica 2 [Agility] ed 1 [AttackDmgUp] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9128,
-      "name": "Emerald Elytra",
-      "desc": "First Turn Start of a wave: 1 fastest ally gains 3 [Breath] Potency and 2 [Breath] Count.\n\nIf the ally has Envy Affinity Attack Skills, gain 4 [Breath] Potency and 3 [Breath] Count instead.",
+      "name": "Elitra di Smeraldo",
+      "desc": "Primo Inizio turno di un'Ondata: l'alleato più veloce ottiene 3 Potenza [Breath] e 2 Conteggio [Breath].\n\nSe l'alleato ha Abilità Affinità Invidia, ottiene invece 4 Potenza [Breath] e 3 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 9128,
-          "simpleDesc": "1 fastest ally gains 3 [Breath] Potency and 2 [Breath] Count."
+          "simpleDesc": "l'alleato più veloce ottiene 3 Potenza [Breath] e 2 Conteggio [Breath]"
         }
       ]
     },
     {
       "id": 19128,
-      "name": "Emerald Elytra+",
-      "desc": "First Turn Start of a wave: 1 fastest ally gains <style=\"upgradeHighlight\">4</style> [Breath] Potency and <style=\"upgradeHighlight\">4</style> [Breath] Count.\n\nIf the ally has Envy Affinity Attack Skills, gain <style=\"upgradeHighlight\">5</style> [Breath] Potency and <style=\"upgradeHighlight\">5</style> [Breath] Count instead.",
+      "name": "Elitra di Smeraldo+",
+      "desc": "Primo Inizio turno di un'Ondata: l'alleato più veloce ottiene <style=\"upgradeHighlight\">4</style> Potenza [Breath] e <style=\"upgradeHighlight\">4</style> Conteggio [Breath].\n\nSe l'alleato ha Abilità Affinità Invidia, ottiene invece <style=\"upgradeHighlight\">5</style> Potenza [Breath] e <style=\"upgradeHighlight\">5</style> Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 19128,
-          "simpleDesc": "1 fastest ally gains 4 [Breath] Potency and 4 [Breath] Count."
+          "simpleDesc": "l'alleato più veloce ottiene 4 Potenza [Breath] e 4 Conteggio [Breath]"
         }
       ]
     },
     {
       "id": 29128,
-      "name": "Emerald Elytra++",
-      "desc": "<style=\"upgradeHighlight\">Turn Start:</style> 1 fastest ally gains 4 [Breath] Potency and 4 [Breath] Count.\n\nIf the ally has Envy Affinity Attack Skills, gain 5 [Breath] Potency and 5 [Breath] Count instead.",
+      "name": "Elitra di Smeraldo++",
+      "desc": "<style=\"upgradeHighlight\">Inizio Turno:</style> l'alleato più veloce ottiene 4 Potenza [Breath] e 4 Conteggio [Breath].\n\nSe l'alleato ha Abilità Affinità Invidia, ottiene invece 5 Potenza [Breath] e 5 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 29128,
-          "simpleDesc": "1 fastest ally gains 4 [Breath] Potency and 4 [Breath] Count"
+          "simpleDesc": "l'alleato più veloce ottiene 4 Potenza [Breath] e 4 Conteggio [Breath]"
         }
       ]
     },
     {
       "id": 9129,
-      "name": "Old Wooden Doll",
-      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nOn Crit, inflict 1 [DefenseDown] next turn. (3 times per turn per Identity)\n[Cannot Stack] When Red Sheet Don Quixote's E.G.O Passive activates, this effect does not activate.",
+      "name": "Vecchia Bambola di Legno",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nI Danni Critici infliggono 1 [DefenseDown] nel prossimo turno. (3 volte per turno per Identità)\n[Non si cumula] Quando la Passiva di Foglio Rosso Don Quixote E.G.O viene attivata, questo effetto non viene applicato.",
       "simpleDesc": [
         {
           "abilityID": 9129,
-          "simpleDesc": "Inflict 1 [DefenseDown] next turn"
+          "simpleDesc": "Infligge 1 [DefenseDown] nel prossimo turno"
         }
       ]
     },
     {
       "id": 19129,
-      "name": "Old Wooden Doll+",
-      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nOn Crit, inflict 1 [DefenseDown] next turn. (<style=\"upgradeHighlight\">4</style> times per turn per Identity)\n[Cannot Stack] When Red Sheet Don Quixote's E.G.O Passive activates, this effect does not activate.",
+      "name": "Vecchia Bambola di Legno+",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nOI Danni Critici infliggono 1 [DefenseDown] nel prossimo turno. (<style=\"upgradeHighlight\">4</style> volte per turno per Identità)\n[Non si cumula] Quando la Passiva di Foglio Rosso Don Quixote E.G.O viene attivata, questo effetto non viene applicato.",
       "simpleDesc": [
         {
           "abilityID": 19129,
-          "simpleDesc": "Inflict 1 [DefenseDown] next turn"
+          "simpleDesc": "Infligge 1 [DefenseDown] nel prossimo turno"
         }
       ]
     },
     {
       "id": 29129,
-      "name": "Old Wooden Doll++",
-      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nOn Crit, inflict 1 [DefenseDown] next turn. (<style=\"upgradeHighlight\">6</style> times per turn per Identity)\n[Cannot Stack] When Red Sheet Don Quixote's E.G.O Passive activates, this effect does not activate.",
+      "name": "Vecchia Bambola di Legno++",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nI Danni Critici infliggono 1 [DefenseDown] nel prossimo turno. (<style=\"upgradeHighlight\">6</style> volte per turno per Identità)\n[Non si cumula] Quando la Passiva di Foglio Rosso Don Quixote E.G.O viene attivata, questo effetto non viene applicato.",
       "simpleDesc": [
         {
           "abilityID": 29129,
-          "simpleDesc": "Inflict 1 Defense Level Down next turn"
+          "simpleDesc": "Infligge 1 [DefenseDown] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9130,
-      "name": "Finifugality",
-      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nTurn Start: allies with 10+ (sum of [Breath] Potency and Count) gain Clash Power +1 and 1 [AttackDmgUp].\n\nAt 20+ sum, gain Clash Power +1 and 3 [AttackDmgUp] instead.\n\nAt 40+ sum, gain Clash Power +2 and 3 [AttackDmgUp] instead.",
+      "name": "Finifugalità",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: gli alleati con 10+ (somma di Potenza e Conteggio [Breath]) ottengono +1 Potenza di Scontro ed 1 [AttackDmgUp].\n\nAlla somma di 20+, ottengono invece +1 Potenza di Scontro e 3 [AttackDmgUp].\n\nAlla somma di 40+, ottengono invece +2 Potenza di Scontro e 3 [AttackDmgUp].",
       "simpleDesc": [
         {
           "abilityID": 9130,
-          "simpleDesc": "Ally gains Clash Power +1 and 1 [AttackDmgUp]."
+          "simpleDesc": "gli alleati ottengono +1 Potenza di Scontro ed 1 [AttackDmgUp]."
         },
         {
           "abilityID": 91301,
-          "simpleDesc": "Gain Clash Power +1 and 3 [AttackDmgUp]."
+          "simpleDesc": "gli alleati ottengono +1 Potenza di Scontro ed 3 [AttackDmgUp]."
         },
         {
           "abilityID": 91302,
-          "simpleDesc": "Gain Clash Power +2 and 3 [AttackDmgUp]."
+          "simpleDesc": "gli alleati ottengono +2 Potenza di Scontro ed 3 [AttackDmgUp]."
         }
       ]
     },
     {
       "id": 9131,
-      "name": "Fragment of Conceit",
-      "desc": "Activates when using E.G.O Skills that apply or gain [Breath] Potency or Count.\n\nGain Final Power equal to (Pride E.G.O resource + sum of other E.G.O resources/3) consumed and deal +50% damage\n\nPride E.G.O Skills: gain additional [Breath] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(sum of all E.G.O resources consumed x 8)% damage.",
+      "name": "Frammento di Presunzione",
+      "desc": "i attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Breath].\n\nOttiene Potere Finale pari a (Risorse E.G.O Superbia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Superbia: ottiene conteggio [Breath] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN conferisce +2 Conteggio, TETH conferisce +3 Conteggio, HE conferisce +4 Conteggio, e così via) ed infligge +(somma di tutte le Risorse E.G.O consumate x 8)% Danni.",
       "simpleDesc": [
         {
           "abilityID": 9131,
-          "simpleDesc": "Gain Final Power equal to (Pride E.G.O resource + sum of other E.G.O resources/3) consumed, and deal more damage"
+          "simpleDesc": "Ottiene Potere Finale pari a (Risorse E.G.O Superbia + Sommma delle altre Risorse E.G.O/3) consumate, ed infligge più danni"
         },
         {
           "abilityID": 91311,
-          "simpleDesc": "Pride E.G.O Awakening Skills: gain additional [Breath] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(sum of all E.G.O resources consumed x 8)% damage."
+          "simpleDesc": "Se si riscontrano le condizioni date:ottiene Conteggio [Breath] Prima dell'Attacco (ZAYIN conferisce Conteggio +2, TETH conferisce Conteggio +3, HE conferisce Conteggio +4, e così via) ed infligge +(somma du tutte le risorse E.G.O consumate x 8)% danni."
         }
       ]
     },
     {
       "id": 9132,
-      "name": "UPS System",
-      "desc": "Turn End: If at less than 3 [Charge] Count, gain +3 [Charge] Count next Turn Start.\n\nTurn End: If at 3+ [Charge] Count, gain 1 [AttackDmgUp] next Turn Start.",
+      "name": "Sistema UPS",
+        "desc": "Fine Turno: A meno di 3 Conteggio [Charge], l'alleato ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno.\n\nFine Turno: Se all'alleato rimane almeno 3+ Conteggio [Charge], ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 9132,
-          "simpleDesc": "Gain +3 [Charge] Count next Turn Start"
+          "simpleDesc": "Ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno"
         },
         {
           "abilityID": 91321,
-          "simpleDesc": "Gain 1 [AttackDmgUp] next Turn Start"
+          "simpleDesc": "Ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno"
         }
       ]
     },
     {
       "id": 19132,
-      "name": "UPS System+",
-      "desc": "Turn End: If at less than <style=\"upgradeHighlight\">4</style> [Charge] Count, gain +3 [Charge] Count next Turn Start.\n\nTurn End: If at <style=\"upgradeHighlight\">4+</style> [Charge] Count, gain 1 [AttackDmgUp] next Turn Start.",
+      "name": "Sistema UPS+",
+      "desc": "Fine Turno: A meno di <style=\"upgradeHighlight\">4</style> Conteggio [Charge], l'alleato ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno.\n\nFine Turno: Se all'alleato rimane almeno <style=\"upgradeHighlight\">4+</style> Conteggio [Charge], ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 19132,
-          "simpleDesc": "Gain +3 [Charge] Count next Turn Start"
+          "simpleDesc": "Ottiene +3 Conteggio [Charge] nel prossimo Inizio Turno"
         },
         {
           "abilityID": 191321,
-          "simpleDesc": "Gain 1 [AttackDmgUp] next Turn Start"
+          "simpleDesc": "Ottiene 1 [AttackDmgUp] nel prossimo Inizio Turno"
         }
       ]
     },
     {
       "id": 29132,
-      "name": "UPS System++",
-      "desc": "Turn End: If at less than <style=\"upgradeHighlight\">5</style> [Charge] Count, gain <style=\"upgradeHighlight\">+4</style> [Charge] Count next Turn Start.\n\nTurn End: If at <style=\"upgradeHighlight\">5+</style> [Charge] Count, gain <style=\"upgradeHighlight\">2</style> [AttackDmgUp] next Turn Start.",
+      "name": "Sistema UPS++",
+      "desc": "Fine Turno: A meno di <style=\"upgradeHighlight\">5</style> Conteggio [Charge], l'alleato ottiene <style=\"upgradeHighlight\">+4</style> Conteggio [Charge] nel prossimo Inizio Turno.\n\nnFine Turno: Se all'alleato rimane almeno <style=\"upgradeHighlight\">4+</style> Conteggio [Charge], ottiene <style=\"upgradeHighlight\">2</style> [AttackDmgUp] nel prossimo Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 29132,
-          "simpleDesc": "Gain +4 [Charge] Count next Turn Start"
+          "simpleDesc": "Ottiene +4 Conteggio [Charge] nel prossimo Inizio Turno"
         },
         {
           "abilityID": 291321,
-          "simpleDesc": "Gain 2 [AttackDmgUp] next Turn Start"
+          "simpleDesc": "Ottiene 2 [AttackDmgUp] nel prossimo Inizio Turno"
         }
       ]
     },
     {
       "id": 9133,
-      "name": "Uncapped Defibrilator",
-      "desc": "Turn End: heal PV and PS equal to the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn.\n\nIf this unit has 50%- remaining PV, boost the heal amount by x1.5.",
+      "name": "Defibrillatore Scoperto",
+      "desc": "Fine Turno: Cura i PV ed i PS pari alla somma del Conteggio [Charge] e 'Carica Unica' consumato durante le Abilità Attacco di questo turno.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del x1.5.",
       "simpleDesc": [
         {
           "abilityID": 9133,
-          "simpleDesc": "Heal PV and PS equal to the amount of [Charge] Count consumed"
+          "simpleDesc": "Cura PV e PS pari al Conteggio [Charge] consumato"
         }
       ]
     },
     {
       "id": 19133,
-      "name": "Uncapped Defibrilator+",
-      "desc": "Turn End: heal PV and PS equal to <style=\"upgradeHighlight\">(the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn + 1)</style>.\n\nIf this unit has 50%- remaining PV, boost the heal amount by <style=\"upgradeHighlight\">x2</style>.",
+      "name": "Defibrillatore Scoperto+",
+      "desc": "Fine Turno: Cura i PV ed i PS pari a <style=\"upgradeHighlight\">(somma del Conteggio [Charge] e 'Carica Unica' consumato durante le Abilità Attacco di questo turno + 1)</style>.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del <style=\"upgradeHighlight\">x2</style>.",
       "simpleDesc": [
         {
           "abilityID": 19133,
-          "simpleDesc": "Heal PV and PS equal to (the amount of [Charge] Count consumed + 1)"
+          "simpleDesc": "Cura PV e PS pari a (Conteggio [Charge] consumato + 1)"
         }
       ]
     },
     {
       "id": 29133,
-      "name": "Uncapped Defibrilator++",
-      "desc": "Turn End: heal PV and PS equal to (the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn <style=\"upgradeHighlight\">+ 2</style>).\n\nIf this unit has <style=\"upgradeHighlight\">75</style>%- remaining PV, boost the heal amount by x2.",
+      "name": "Defibrillatore Scoperto++",
+      "desc": "Fine Turno: Cura i PV ed i PS pari a (somma del Conteggio [Charge] e 'Carica Unica' consumato durante le Abilità Attacco di questo turno <style=\"upgradeHighlight\">+ 2</style>).\n\nSe all'unità rimangono meno del <style=\"upgradeHighlight\">75</style>% dei PV, moltiplica la cura del x2.",
       "simpleDesc": [
         {
           "abilityID": 29133,
-          "simpleDesc": "Heal PV and PS equal to (the amount of [Charge] Count consumed + 2)"
+          "simpleDesc": "Cura PV e PS pari a (Conteggio [Charge] consumato + 2)"
         }
       ]
     },
     {
       "id": 9134,
-      "name": "Patrolling Flashlight",
-      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals +10% damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply 2 [ChargeForceField] next turn.",
+      "name": "Torcia da Pattuglia",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Unique Charge', l'Abilità 1 delle Identità ottiene Potenza di Scontro +1 ed infliggono il 10% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica 2 [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9134,
-          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +10% damage"
+          "simpleDesc": "Le abilità 1 ottengono Potenza di Scontro +1 ed infliggono +10% danni"
         },
         {
           "abilityID": 91341,
-          "simpleDesc": "Apply 2 [ChargeForceField] next turn"
+          "simpleDesc": "Applica 2 [ChargeForceField] nel prossimo turno"
         }
       ]
     },
     {
       "id": 19134,
-      "name": "Patrolling Flashlight+",
-      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals <style=\"upgradeHighlight\">+15</style>% damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply <style=\"upgradeHighlight\">3</style> [ChargeForceField] next turn.",
+      "name": "Torcia da Pattuglia+",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Carica Unica', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">15</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 19134,
-          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +15% damage"
+          "simpleDesc": "Le abilità 1 ottengono Potenza di Scontro +1 ed infliggono +15% danni"
         },
         {
           "abilityID": 191341,
-          "simpleDesc": "Apply 3 [ChargeForceField] next turn"
+          "simpleDesc": "Applica 3 [ChargeForceField] nel prossimo turno"
         }
       ]
     },
     {
       "id": 29134,
-      "name": "Patrolling Flashlight++",
-      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals <style=\"upgradeHighlight\">+25</style>% damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply <style=\"upgradeHighlight\">4</style> [ChargeForceField] next turn.",
+      "name": "Torcia da Pattuglia++",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Carica Unica', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 29134,
-          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +25% damage"
+          "simpleDesc": "Le abilità 1 ottengono Potenza di Scontro +1 ed infliggono +25% danni"
         },
         {
           "abilityID": 291341,
-          "simpleDesc": "Apply 4 [ChargeForceField] next turn"
+          "simpleDesc": "Applica 4 [ChargeForceField] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9135,
-      "name": "Imitative Generator",
-      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nActivates when the unit has 10+ ([Charge] Count + 'Unique Charge') at Turn Start.\n\nCoin Power +1 to Skill 3 that gains or consumes [Charge] Count or 'Unique Charge'.\n\nIf the said Skill has less than 5 Base Power, deal +25% damage; if it has 5+ Base Power, gain an additional Coin Power +1.",
+      "name": "Generatore Imitativo",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nSi attiva quando l'unità ha 10 o più (Conteggio [Charge] + 'Carica Unica') all'Inizio Turno.\n\nPotere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o 'Carica Unica'.\n\nSe l'Abilità in questione ha meno 5 Potere Base, infligge il 25% di danni aggiuntivi; se ha invece più di 5 Potere Base, ottiene Potere Moneta +1.",
       "simpleDesc": [
         {
           "abilityID": 9135,
-          "simpleDesc": "Coin Power +1 to Skill 3 that consumes [Charge] Count or 'Unique Charge'"
+          "simpleDesc": "Potere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o 'Carica Unica'"
         },
         {
           "abilityID": 91351,
-          "simpleDesc": "Deal +25% damage or gain an additional Coin Power +1"
+          "simpleDesc": "Infligge +25% danni o ottiene Potere Moneta +1"
         }
       ]
     },
     {
       "id": 9136,
-      "name": "Fragment of Friction",
-      "desc": "Activates when using E.G.O Awakening Skills that gain or consume [Charge] Count or 'Unique Charge'.\n\nGain Final Power equal to (Envy E.G.O resource + sum of other E.G.O resources/3) consumed and deal +50% damage\n\nEnvy E.G.O Skills: gain additional [Charge] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(([Charge] Count on self + 'Unique Charge') x 5)% damage. (200% max)",
+      "name": "Frammento di Dissidio",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Conteggio [Charge] o 'Carica Unica'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Invidia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Invidia: conferisce Conteggio [Charge] in base ai Gradi E.G.O prima dell'Attacco(ZAYIN conferisce +2 Conteggio, TETH conferisce +3 Conteggio, HE conferisce +4 Conteggio, e così via), ed infligge +((Conteggio [Charge] su se stesso + 'Carica Unica') x 5)% Danni. (200% max)",
       "simpleDesc": [
         {
           "abilityID": 9136,
-          "simpleDesc": "Gain Final Power equal to (Envy E.G.O resource + sum of other E.G.O resources/3) consumed, and deal more damage"
+          "simpleDesc": "Ottiene Potere Finale pari a (Risorse E.G.O Invidia + somma delle altre risorse E.G.O/3) consumate, ed infligge danni aggiuntivi"
         },
         {
           "abilityID": 91361,
-          "simpleDesc": "Gain additional [Charge] Count (ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +([Charge] Count on self x 5)% damage."
+          "simpleDesc": "Se si riscontrano le condizioni date:ottiene Conteggio [Charge] Prima dell'Attacco (ZAYIN conferisce Conteggio +2, TETH conferisce Conteggio +3, HE conferisce Conteggio +4, e così via), ed infligge +(Conteggio [Charge] su se stesso x 5)% danni."
         }
       ]
     },
     {
       "id": 9137,
-      "name": "Scalpel",
-      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nTurn End: Identity with Slash Attack Skills gain (# of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 3 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "name": "Bisturi",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (# delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 3 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 9137,
-          "simpleDesc": "Gain [Agility] next turn"
+          "simpleDesc": "Ottiene [Agility] nel prossimo turno"
         }
       ]
     },
     {
       "id": 19137,
-      "name": "Scalpel+",
-      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nTurn End: Identity with Slash Attack Skills gain (<style=\"upgradeHighlight\">1 +</style> # of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 4 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "name": "Bisturi+",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (<style=\"upgradeHighlight\">1 +</style> # delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 19137,
-          "simpleDesc": "Gain [Agility] next turn"
+          "simpleDesc": "Ottiene [Agility] nel prossimo turno"
         }
       ]
     },
     {
       "id": 29137,
-      "name": "Scalpel++",
-      "desc": "[Effects apply only to the #4<style=\"upgradeHighlight\">, #5</style> Deployed Identities]\n\nTurn End: Identity with Slash Attack Skills gain (1 + # of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 4 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "name": "Bisturi++",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Quinta</style> Identità Schierate]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (1 + # of Slash Attack Skills they have) [Agility] delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 29137,
-          "simpleDesc": "Gain [Agility] next turn"
+          "simpleDesc": "Ottiene [Agility] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9138,
-      "name": "Deceptive Accord",
-      "desc": "[Effects apply only to #5 Deployed Identity]\n\nIf there is a 3+ Speed difference between this unit and the enemy targeted by this unit, deal +15% damage with Slash Skills.",
+      "name": "Cadenza Ingannevole",
+      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3+ nella Velocità tra l'unità e l'avversario attaccato, infligge il 15% dei danni in più con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 9138,
-          "simpleDesc": "Slash Skills deal +15% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +15% danni"
         }
       ]
     },
     {
       "id": 19138,
-      "name": "Deceptive Accord+",
-      "desc": "[Effects apply only to #5 Deployed Identity]\n\nIf there is a 3+ Speed difference between this unit and the enemy targeted by this unit, deal <style=\"upgradeHighlight\">+20%</style> more damage with Slash Skills.",
+      "name": "Cadenza Ingannevole+",
+      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3+ nella Velocità tra l'unità e l'avversario attaccato, infligge il <style=\"upgradeHighlight\">20%</style> dei danni in più con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 19138,
-          "simpleDesc": "Slash Skills deal +20% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +20% danni"
         }
       ]
     },
     {
       "id": 29138,
-      "name": "Deceptive Accord++",
-      "desc": "[Effects apply only to #5 <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nIf there is a <style=\"upgradeHighlight\">2+</style> Speed difference between this unit and the enemy targeted by this unit, deal +20% damage with Slash Skills.",
+      "name": "Cadenza Ingannevole++",
+      "desc": "[Gli Effetti si applicano solo alla Quinta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nSe c'è una differenza di <style=\"upgradeHighlight\">2+</style> nella Velocità tra l'unità e l'avversario attaccato, infligge il 20% dei danni in più con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 29138,
-          "simpleDesc": "Slash Skills deal +20% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +20% danni"
         }
       ]
     },
     {
       "id": 9139,
-      "name": "Tailor's Scissors",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 and deal +10% damage.\n\nSingle-Coin Skills gain Clash Power +1 and deal +20% damage instead.",
+      "name": "Forbici da Sarto",
+      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 ed infliggono il 10% di danni aggiuntivi.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il 20% dei danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 9139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +10% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +10% danni"
         },
         {
           "abilityID": 91391,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +20% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +20% danni"
         }
       ]
     },
     {
       "id": 19139,
-      "name": "Tailor's Scissors+",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#4</style>, #6 Deployed Identities]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 <style=\"upgradeHighlight\">and deal +15% damage</style>.\n\nSingle-Coin Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+25%</style> more damage instead.",
+      "name": "Forbici da Sarto+",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 15% di danni aggiuntivi.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25%</style> dei danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 19139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +15% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +15% danni"
         },
         {
           "abilityID": 191391,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +25% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +25% danni"
         }
       ]
     },
     {
       "id": 29139,
-      "name": "Tailor's Scissors++",
-      "desc": "[Effects apply only to #4, #6 Deployed Identities]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 <style=\"upgradeHighlight\">and deal +20% damage</style>.\n\nSingle-Coin Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+30%</style> more damage instead.",
+      "name": "Forbici da Sarto++",
+      "desc": "[Gli Effetti si applicano solo alla Quarta e Sesta Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 20% di danni aggiuntivi.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">30%</style> dei danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 29139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +20% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +20% danni"
         },
         {
           "abilityID": 29139,
-          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +30% damage"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +30% danni"
         }
       ]
     },
-    {
+       {
       "id": 9140,
-      "name": "Resolution",
-      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain 1 [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' PV gets capped to 75% of Max PV. In return, take 50% damage and receive 50% reduced heal. (activates immediately upon entering an Encounter)",
+      "name": "Risolutezza",
+      "desc": "Tutti gli alleati con almeno 2 Abilità Taglienti: Durante l'Incontro, ottiene Potere di Scontro +1 durante il primo turno, ed ottengono 1 [Agility] e Potere di Scontro +1 a partire dal secondo turno.\n\nLe Identità della Associazione Shi hanno i loro PV ridotti al 75% dei loro PV massimi. In compenso, subiscono solo il 50% dei danni e ricevono il 50% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9140,
-          "simpleDesc": "All allies with 2 or more Slash Skills gain Clash Power"
+          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere di Scontro"
         },
         {
           "abilityID": 91401,
-          "simpleDesc": "PV gets capped to 75% of Max PV. In return, take 50% damage and receive 50% reduced heal."
+          "simpleDesc": "PV vengono ridotti al 75% dei loro PV Massimi. In cambio, subiscono il 50% dei danni e ricevono 50% di cura ridotta."
         }
       ]
     },
     {
       "id": 19140,
-      "name": "Resolution+",
-      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain <style=\"upgradeHighlight\">2</style> [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' PV gets capped to <style=\"upgradeHighlight\">50%</style> of Max PV. In return, take <style=\"upgradeHighlight\">75% damage and receive 75%</style> reduced heal. (activates immediately upon entering an Encounter)",
+      "name": "Risolutezza+",
+      "desc": "Tutti gli alleati con almeno 2 Abilità Taglienti: Durante l'Incontro, ottiene Potere di Scontro +1 durante il primo turno, ed ottengono <style=\"upgradeHighlight\">2</style> [Agility] e Potere di Scontro +1 a partire dal secondo turno\n\nLe Identità della Associazione Shi hanno i loro PV ridotti al <style=\"upgradeHighlight\">50%</style> dei loro PV massimi. In compenso, subiscono solo il <style=\"upgradeHighlight\">75% dei danni e ricevono il 75%</style> di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro)",
       "simpleDesc": [
         {
           "abilityID": 19140,
-          "simpleDesc": "All allies with 2 or more Slash Skills gain Clash Power"
+          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere di Scontro"
         },
         {
           "abilityID": 191401,
-          "simpleDesc": "PV gets capped to 50% of Max PV. In return, take 75% damage and receive 75% reduced heal."
+          "simpleDesc": "PV vengono ridotti al 50% dei loro PV Massimi. In cambio, subiscono il 75% dei danni e ricevono 75% di cura ridotta."
         }
       ]
     },
     {
       "id": 29140,
-      "name": "Resolution++",
-      "desc": "All allies with 2 or more Slash Skills: gain Clash Power +1 on the first turn, and gain 2 [Agility] & <style=\"upgradeHighlight\">Final Power +1</style> starting from the second turn.\n\nShi Assoc. faction Identities' max heal ceiling gets capped to <style=\"upgradeHighlight\">49%</style> of Max PV. In return, take 75% damage and receive 75% reduced heal. (activates immediately upon entering an Encounter)",
+      "name": "Risolutezza++",
+      "desc": "Tutti gli alleati con almeno 2 Abilità Taglienti: Durante l'Incontro, ottiene Potere di Scontro +1 durante il primo turno, ed ottengono 2 [Agility] e <style=\"upgradeHighlight\">Potere Finale +1</style> a partire dal secondo turno\n\nLe Identità della Associazione Shi hanno i loro PV ridotti al <style=\"upgradeHighlight\">49%</style> dei loro PV massimi. In compenso, subiscono solo il 75% dei danni e ricevono il 75% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro)",
       "simpleDesc": [
         {
           "abilityID": 29140,
-          "simpleDesc": "All allies with 2 or more Slash Skills gain Clash Power"
+          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere di Scontro"
         },
         {
           "abilityID": 291401,
-          "simpleDesc": "PV gets capped to 49% of Max PV. In return, take 75% damage and receive 75% reduced heal."
+          "simpleDesc": "PV vengono ridotti al 49% dei loro PV Massimi. In cambio, subiscono il 75% dei danni e ricevono 75% di cura ridotta."
         }
       ]
     },
     {
       "id": 9141,
-      "name": "Moment of Sentencing",
-      "desc": "[Effects apply only to #3, #4 Deployed Identities]\n\nUnopposed Slash Skills deal +10% damage\n\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage",
+      "name": "Momento della Sentenza",
+      "desc": "[Gli Effetti si applicano solo alla Terza e Quarta Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il 10% in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (40/# delle Monete rimanenti)% in più di danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 9141,
-          "simpleDesc": "Slash Skills deal +10% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +10% danni"
         },
         {
           "abilityID": 91411,
-          "simpleDesc": "Slash Skills deal +(40/# of remaining Coins)% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +(40/numero delle monete rimanenti)% danni"
         }
       ]
     },
     {
       "id": 19141,
-      "name": "Moment of Sentencing+",
-      "desc": "[Effects apply only to #3, #4, and <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nUnopposed Slash Skills deal +10% damage\n\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage",
+      "name": "Momento della Sentenza+",
+      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta <style=\"upgradeHighlight\">ed alla Quinta</style> Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il 10% in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (40/# delle Monete rimanenti)% in più di danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 19141,
-          "simpleDesc": "Slash Skills deal +10% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +10% danni"
         },
         {
           "abilityID": 191411,
-          "simpleDesc": "Slash Skills deal +(40/# of remaining Coins)% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +(40/numero delle monete rimanenti)% danni"
         }
       ]
     },
     {
       "id": 29141,
-      "name": "Moment of Sentencing++",
-      "desc": "[Effects apply only to #3, #4, #5, and <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nUnopposed Slash Skills deal <style=\"upgradeHighlight\">+12.5%</style> more damage\n\nClash Win: Slash Skills deal +(<style=\"upgradeHighlight\">50</style>/# of remaining Coins)% damage",
+      "name": "Momento della Sentenza++",
+      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta, alla Quinta ed <style=\"upgradeHighlight\">alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il <style=\"upgradeHighlight\">12.5%</style> in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (<style=\"upgradeHighlight\">50</style>/# delle Monete rimanenti)% in più di danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 29141,
-          "simpleDesc": "Slash Skills deal +12.5% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +12.5% danni"
         },
         {
           "abilityID": 291411,
-          "simpleDesc": "Slash Skills deal +(50/# of remaining Coins)% damage"
+          "simpleDesc": "Abilità Taglienti infliggono +(50/numero delle monete rimanenti)% danni"
         }
       ]
     },
     {
       "id": 9142,
-      "name": "Sundered Memory",
-      "desc": "[Effects apply only to #1 and #2 Deployed Identities]\n\nSlash Attack Skills(including E.G.O Skills) gain Base Power +2, Plus Coin Power +1, and Minus Coin Power -1\n\nOn Clash Win with a Slash Attack Skill(except E.G.O Skills), deal +30% damage with that Skill; On Hit with that Skill, deal +5% damage for every 5% missing PV on self (max 20%)",
+      "name": "Memorie Divise",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco Taglienti (incluse le Abilità E.G.O) ottengono Potere Base +2, Potere Moneta Positivo +1, e Potere Moneta Negativo -1\n\nQuando si vince uno Scontro con un'Abilità Attacco Tagliente (escluse le Abilità E.G.O), infligge il 30% di danni aggiuntivi con quell'Abilità; ogni colpo della seguente Abilità infligge il 5% in più di danni per ogni 5% di PV mancanti su se stessi, per un massimo del 20%",
       "simpleDesc": [
         {
           "abilityID": 9142,
-          "simpleDesc": "Slash Skill Power Up"
+            "simpleDesc": "Abilità Taglienti potenziate"
         },
         {
           "abilityID": 91421,
-          "simpleDesc": "Slash Skills deal more damage; deal more damage based on missing PV"
+          "simpleDesc": "Abilità Taglienti fanno più danni; infliggono più danni in base ai PV mancanti"
         }
       ]
     },
     {
       "id": 9143,
-      "name": "Carpenter's Nail",
-      "desc": "[Effects apply only to #4 Deployed Identity]\n\nIf this unit has 2+ Pierce Attack Skills, gain 1 [PenetrateDamageUp] at Turn Start.",
+      "name": "Chiodo del Carpentiere",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nSe l'unità ha 2 o più Abilità Attacco Perforanti, ottiene 1 [PenetrateDamageUp] all'Inizio del Turno.",
       "simpleDesc": [
         {
           "abilityID": 9143,
-          "simpleDesc": "Gain 1 [PenetrateDamageUp]"
+          "simpleDesc": "Ottiene 1 [PenetrateDamageUp]"
         }
       ]
     },
     {
       "id": 19143,
-      "name": "Carpenter's Nail+",
-      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nIf this unit has 2+ Pierce Attack Skills, gain <style=\"upgradeHighlight\">2</style> [PenetrateDamageUp] at Turn Start.",
+      "name": "Chiodo del Carpentiere+",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nSe l'unità ha 2 o più Abilità Attacco Perforanti, ottiene <style=\"upgradeHighlight\">2</style> [PenetrateDamageUp] all'Inizio del Turno.",
       "simpleDesc": [
         {
           "abilityID": 19143,
-          "simpleDesc": "Gain 2 [PenetrateDamageUp]"
+          "simpleDesc": "Ottiene 2 [PenetrateDamageUp]"
         }
       ]
     },
     {
       "id": 29143,
-      "name": "Carpenter's Nail++",
-      "desc": "[Effects apply only to #4, <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nIf this unit has 2+ Pierce Attack Skills, gain 2 [PenetrateDamageUp] at Turn Start.",
+      "name": "Chiodo del Carpentiere++",
+      "desc": "[Gli Effetti si applicano solo alla Quarta ed alla <style=\"upgradeHighlight\">Quinta</style> Identità Schierate]\n\nSe l'unità ha 2 o più Abilità Attacco Perforanti, ottiene 2 [PenetrateDamageUp] all'Inizio del Turno.",
       "simpleDesc": [
         {
           "abilityID": 29143,
-          "simpleDesc": "Gain 2 [PenetrateDamageUp]"
+          "simpleDesc": "Ottiene 2 [PenetrateDamageUp]"
         }
       ]
     },
     {
       "id": 9144,
-      "name": "Once, A Blessing",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (once per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] next turn. (once per turn)",
+      "name": "Benedizione d'Un Tempo",
+      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nQuando si colpisce un nemico con un'Abilità Perforante, ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossiom turno. (una volta per turno)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva nel prossimo turno. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9144,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "Ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossimo turno"
         },
         {
           "abilityID": 91441,
-          "simpleDesc": "Gain 1 additional [Agility] next turn"
+          "simpleDesc": "Ottiene 1 [Agility] aggiuntiva nel prossimo turno"
         }
       ]
     },
     {
       "id": 19144,
-      "name": "Once, A Blessing+",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#5</style>, #6 Deployed Identities]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (once per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">1 additional [PenetrateDamageUp]</style> next turn. (once per turn)",
+      "name": "Benedizione d'Un Tempo+",
+      "desc": "[Gli Effetti si applicano solo alla <style=\"upgradeHighlight\">Quinta</style> ed alla Sesta Identità Schierate]\n\nQuando si colpisce un nemico con un'Abilità Perforante, ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossiom turno. (una volta per turno)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva e <style=\"upgradeHighlight\">1 [PenetrateDamageUp]</style> aggiuntiva nel prossimo turno. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 19144,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "Ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossimo turno"
         },
         {
           "abilityID": 191441,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "Ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossimo turno"
         }
       ]
     },
     {
       "id": 29144,
-      "name": "Once, A Blessing++",
-      "desc": "[Effects apply only to #5, #6 Deployed Identities]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">2</style> additional [PenetrateDamageUp] next turn. (once per turn)",
+      "name": "Benedizione d'Un Tempo++",
+      "desc": "[Gli Effetti si applicano solo alla Quinta e Sesta Identità Schierate]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">2</style> additional [PenetrateDamageUp] next turn. (once per turn)",
       "simpleDesc": [
         {
           "abilityID": 29144,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "Ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossimo turno"
         },
         {
           "abilityID": 291441,
-          "simpleDesc": "Gain 1 [Agility] and 2 [PenetrateDamageUp] next turn"
+          "simpleDesc": "Ottiene 1 [Agility] ed 2 [PenetrateDamageUp] nel prossimo turno"
         }
       ]
     },
     {
       "id": 9145,
-      "name": "Torn Bandolier",
-      "desc": "Pierce Skills gain Clash Power +1\n\nSkills that consume [Bullet] deal +(40/# of Coins)% damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter per Identity)",
+      "name": "Bandoliera Strappata",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/# delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce i [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9145,
-          "simpleDesc": "Pierce Skills gain Clash Power +1"
+          "simpleDesc": "Abilità Perforanti ottengono Potere di Scontro +1"
         },
         {
           "abilityID": 91451,
-          "simpleDesc": "Skills deal +(40/# of Coins)% damage"
+          "simpleDesc": "Le Abilità infliggono il +(40/# delle Monete)% danni"
         },
         {
           "abilityID": 91452,
-          "simpleDesc": "Next Turn Start: gain 2 [Bullet]"
+          "simpleDesc": "Prossimo Inizio Turno: ottiene 2 [Bullet]"
         }
       ]
     },
     {
       "id": 19145,
-      "name": "Torn Bandolier+",
-      "desc": "Pierce Skills gain Clash Power +1 <style=\"upgradeHighlight\">and deal +5% damage</style>\n\nSkills that consume [Bullet] deal +(<style=\"upgradeHighlight\">50</style>/# of Coins)% damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter per Identity)",
+      "name": "Bandoliera Strappata+",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/# delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce i [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19145,
-          "simpleDesc": "Pierce Skills gain Clash Power +1 and deal +5% damage"
+          "simpleDesc": "Abilità Perforanti ottengono Potere di Scontro +1 ed infligge +5% damage"
         },
         {
           "abilityID": 191451,
-          "simpleDesc": "Skills deal +(40/# of Coins)% damage"
+          "simpleDesc": "Le Abilità infliggono il +(50/# delle Monete)% danni"
         },
         {
           "abilityID": 191452,
-          "simpleDesc": "Next Turn Start: gain 2 [Bullet]"
+          "simpleDesc": "Prossimo Inizio Turno: ottiene 2 [Bullet]"
         }
       ]
     },
     {
       "id": 29145,
-      "name": "Torn Bandolier++",
-      "desc": "Pierce Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+10%</style> more damage\n\nSkills that consume [Bullet] deal +(<style=\"upgradeHighlight\">60</style>/# of Coins)% damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter per Identity)",
+      "name": "Bandoliera Strappata++",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/# delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce i [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29145,
-          "simpleDesc": "Pierce Skills gain Clash Power +1 and deal +10% damage"
+          "simpleDesc": "Abilità Perforanti ottengono Potere di Scontro +1 ed infligge +10% damage"
         },
         {
           "abilityID": 291451,
-          "simpleDesc": "Skills deal +(40/# of Coins)% damage"
+          "simpleDesc": "Le Abilità infliggono il +(60/# delle Monete)% danni"
         },
         {
           "abilityID": 291452,
-          "simpleDesc": "Next Turn Start: gain 2 [Bullet]"
+          "simpleDesc": "Prossimo Inizio Turno: ottiene 2 [Bullet]"
         }
       ]
     },
