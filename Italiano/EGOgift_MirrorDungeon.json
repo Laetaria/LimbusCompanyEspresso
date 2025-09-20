@@ -2638,7 +2638,7 @@
     {
       "id": 9098,
       "name": "Borsello Fortunato",
-      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Breath], l'effetto durerà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nInizio del Combattimento: se un alleato casuale con [Breath] fa un Danno Critico ad un nemico con un'Abilità, tutti gli alleati ottengono 7 Potenza [Breath] e +7 Conteggio [Breath] al prossimo Inizio Turno. (Una volta per Turno)\n\nLe Abilità 3 delle Identità con Abilità che applicano o ottengono Potenza o Conteggio [Breath] (tranne per le Abilità E.G.O): Potere Finale +3, Potere Moneta +(12/# delle Monete), danno inflitto +(50/# delle Monete)%.\n\nInizio del Combattimento: un alleato casuale ottiene 3 Potenza [Breath] Potency. (da la priorità alle Identità che applicano o ottengono Potenza o Conteggio [Breath] con le loro Abilità Attacco) Dà la Priorità agli alleati con Abilità Affinità Tristezza; loro otterrano 3 Potenza [Breath] e +2 Conteggio [Breath].",
+      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Breath], l'effetto durerà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nInizio del Combattimento: se un alleato casuale con [Breath] fa un Danno Critico ad un nemico con un'Abilità, tutti gli alleati ottengono 7 Potenza [Breath] e +7 Conteggio [Breath] al prossimo Inizio Turno. (Una volta per Turno)\n\nLe Abilità 3 delle Identità con Abilità che applicano o ottengono Potenza o Conteggio [Breath] (tranne per le Abilità E.G.O): Potere Finale +3, Potere Moneta +(12/n° delle Monete), danno inflitto +(50/n° delle Monete)%.\n\nInizio del Combattimento: un alleato casuale ottiene 3 Potenza [Breath] Potency. (da la priorità alle Identità che applicano o ottengono Potenza o Conteggio [Breath] con le loro Abilità Attacco) Dà la Priorità agli alleati con Abilità Affinità Tristezza; loro otterrano 3 Potenza [Breath] e +2 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 9098,
@@ -2646,7 +2646,7 @@
         },
         {
           "abilityID": 90981,
-          "simpleDesc": "Abilità 3: Potere Finale +3, Potere Moneta +(12/# delle Monete), danno inflitto +(50/# delle Monete)%"
+          "simpleDesc": "Abilità 3: Potere Finale +3, Potere Moneta +(12/n° delle Monete), danno inflitto +(50/n° delle Monete)%"
         },
         {
           "abilityID": 90982,
@@ -2689,8 +2689,8 @@
     },
     {
       "id": 9100,
-      "name": "T-1 Macchina di Moto Continuo",
-     "desc": "Inizio Turno: Questo Dono si attiva quando 5 o più identità hanno Abilità Attacco che conferiscono Conteggio [Charge] o 'Carica Speciale', l'effetto durerà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nInizio Turno: tutti gli alleati ottengono 7 [ChargeForceField]. (una volta per ondata)\n\nInizio Turno: tutti gli alleati ottengono ((Conteggio [Charge])/5 +1) [AttackDmgUp]. (massimo di 9, viene arrotondato; incluso 'Carica Speciale')\n\nOgni Identità ottiene (totale Conteggio [Charge] consumato usando Abilità Attacco durante questo Incontro / 4) Aumento Livello Offensivo all'Inizio Turno. (raggiunge il suo massimo dopo aver consumato 40 Conteggio [Charge])\n\nOgni Identità ottiene 1 [Charge] tutte le volte che consuma 10 Conteggio [Charge]. (5 volte per Identità per Incontro; non interagisce con 'Carica Speciale' di Potenza Fissa)\n\nInizio Turno: tutti gli alleati ottengono 1 [Enhancement] per ogni 2 Potenza [Charge] su se stessi (massimo di 3)",
+      "name": "Macchina a Moto Continuo T-1",
+     "desc": "Inizio Turno: Questo Dono si attiva quando 5 o più identità hanno Abilità Attacco che conferiscono Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'effetto durerà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nInizio Turno: tutti gli alleati ottengono 7 [ChargeForceField]. (una volta per ondata)\n\nInizio Turno: tutti gli alleati ottengono ((Conteggio [Charge])/5 +1) [AttackDmgUp]. (max 9, viene arrotondato; incluso '<noparse>Carica</noparse> Speciale')\n\nOgni Identità ottiene (totale Conteggio [Charge] consumato usando Abilità Attacco durante questo Incontro / 4) Aumento Livello Offensivo all'Inizio Turno. (raggiunge il suo massimo dopo aver consumato 40 Conteggio [Charge])\n\nOgni Identità ottiene 1 [Charge] tutte le volte che consuma 10 Conteggio [Charge]. (5 volte per Identità per Incontro; non interagisce con '<noparse>Carica</noparse> Speciale' di Potenza Fissa)\n\nInizio Turno: tutti gli alleati ottengono 1 [Enhancement] per ogni 2 Potenza [Charge] su se stessi (max di 3)",
       "simpleDesc": [
         {
           "abilityID": 9100,
@@ -2717,33 +2717,33 @@
     {
       "id": 9101,
       "name": "Paraffina Sciolta",
-      "desc": "Quando si vince uno scontro con un'Abilità che infligge Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge (# delle monete rimanenti/2) Potenza [Combustion] sul bersaglio.",
+      "desc": "Quando si vince uno scontro con un'Abilità che infligge Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge (n° delle monete rimanenti/2) Potenza [Combustion] sul bersaglio.",
       "simpleDesc": [
         {
           "abilityID": 9101,
-          "simpleDesc": "Scontro Vinto: Infligge (# delle monete rimanenti/2) Potenza [Combustion]"
+          "simpleDesc": "Scontro Vinto: Infligge (n° delle monete rimanenti/2) Potenza [Combustion]"
         }
       ]
     },
     {
       "id": 19101,
       "name": "Paraffina Sciolta+",
-      "desc": "Quando si vince uno scontro con un'Abilità che infligge Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge <style=\"upgradeHighlight\">(# delle monete rimanenti/2 + 1)</style> Potenza [Combustion] sul bersaglio.",
+      "desc": "Quando si vince uno scontro con un'Abilità che infligge Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge <style=\"upgradeHighlight\">(n° delle monete rimanenti/2 + 1)</style> Potenza [Combustion] sul bersaglio.",
       "simpleDesc": [
         {
           "abilityID": 19101,
-          "simpleDesc": "Scontro Vinto: Infligge (# delle monete rimanenti/2 + 1) Potenza [Combustion]"
+          "simpleDesc": "Scontro Vinto: Infligge (n° delle monete rimanenti/2 + 1) Potenza [Combustion]"
         }
       ]
     },
     {
       "id": 29101,
       "name": "Paraffina Sciolta++",
-      "desc": "Quando si vince uno scontro con un'Abilità che infligge Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge <style=\"upgradeHighlight\">(# delle monete rimanenti + 1)</style> Potenza [Combustion] sul bersaglio.",
+      "desc": "Quando si vince uno scontro con un'Abilità che infligge Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge <style=\"upgradeHighlight\">(n° delle monete rimanenti + 1)</style> Potenza [Combustion] sul bersaglio.",
       "simpleDesc": [
         {
           "abilityID": 29101,
-          "simpleDesc": "Scontro Vinto: Infligge (# delle monete rimanenti + 1) Potenza [Combustion]"
+          "simpleDesc": "Scontro Vinto: Infligge (n° delle monete rimanenti + 1) Potenza [Combustion]"
         }
       ]
     },
@@ -2783,7 +2783,7 @@
     {
       "id": 9103,
       "name": "Dolore di Rabbia Soffocata",
-      "desc": "[Gli Effetti si applicano solo alle Prime e Seconde Identità Schierate]\n\nQuando si infligge [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con gli Effetti delle Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 1 [Agility] e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si applicano solo alle Prime e Seconde Identità Schierate]\n\nQuando si infligge [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con gli Effetti delle Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità interessata ha già [Agility], ottiene invece 1 [Agility] e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9103,
@@ -2794,7 +2794,7 @@
     {
       "id": 19103,
       "name": "Dolore di Rabbia Soffocata+",
-      "desc": "[Gli Effetti si aplicano solo alle Prime, alle Seconde, <style=\"upgradeHighlight\">ed alle Terze</style> Identità Schierate]\n\nQuando si infligge [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con gli Effetti delle Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece <style=\"upgradeHighlight\">2 [Agility]</style> e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si aplicano solo alla Prima, alla Seconda, <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nQuando si infligge [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con gli Effetti delle Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità interessata ha già [Agility], ottiene invece <style=\"upgradeHighlight\">2 [Agility]</style> e 2 [AttackUp]. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 19103,
@@ -2805,7 +2805,7 @@
     {
       "id": 29103,
       "name": "Dolore di Rabbia Soffocata++",
-      "desc": "[Gli Effetti si applicano solo alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si infligge [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con gli Effetti delle Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità affetta ha già [Agility], ottiene invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>. (1 volta per Abilità, 2 volte per Turno)",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nQuando si infligge [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con gli Effetti delle Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', ottiene 1 [Agility] durante il prossimo turno. (2 volte per Abilità, 2 volte per Turno)\n\nSe l'unità interessata ha già [Agility], ottiene invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>. (1 volta per Abilità, 2 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 29103,
@@ -2816,7 +2816,7 @@
     {
       "id": 9104,
       "name": "Fiore Ardente",
-      "desc": "[L'Effetto si applica solo alla Prima e Seconda Identità Schierate]\n\nQuando un alleato attacca un nemico, se il bersaglio ha (Potenza [Combustion] su se stesso)% o meno PV(per le Anormalità, i PV del Nucleo), infligge +50% danni con Abilità Attacco che infliggono Potenza, Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'.",
+      "desc": "[L'Effetto si applica solo alla Prima e Seconda Identità Schierate]\n\nQuando un alleato attacca un nemico, se il bersaglio ha il (Potenza [Combustion] su se stesso)% o meno PV(per le Anormalità, i PV del Nucleo), infligge il 50% in più di danni con Abilità Attacco che infliggono Potenza, Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'.",
       "simpleDesc": [
         {
           "abilityID": 9104,
@@ -2827,7 +2827,7 @@
     {
       "id": 9105,
       "name": "Frammento di Fuoco Infernale",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Ira + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Ira: Infligge Conteggio [Combustion] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via) ed infligge +(Peso Attacco/# dei Bersagli x 20)% Danni.",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Ira + Somma delle altre risorse E.G.O/3) consumate ed infligge il 50% in più di danni.\n\nAbilità E.G.O Ira: Infligge Conteggio [Combustion] aggiuntivo in base ai gradi E.G.O prima dell'attacco (ZAYIN infligge +2 Conteggio, TETH infligge +3, HE infligge +4, e così via) ed infligge il (Peso Attacco/n° dei Bersagli x 20)% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9105,
@@ -2853,7 +2853,7 @@
     {
       "id": 19106,
       "name": "Inno Interrotto+",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] ed <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> nel prossimo turno.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono 1 [Agility] e <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 19106,
@@ -2864,7 +2864,7 @@
     {
       "id": 29106,
       "name": "Inno Interrotto++",
-      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], ed <style=\"upgradeHighlight\">2 [AttackUp]</style> nel prossimo turno.",
+      "desc": "Inizio Combattimento: se tutti i nemici (o parti dell'Anormalità) hanno [Laceration], tutti gli alleati ottengono <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], e <style=\"upgradeHighlight\">2 [AttackUp]</style> nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 29106,
@@ -2875,7 +2875,7 @@
     {
       "id": 9107,
       "name": "Fascio Aggrovigliato",
-        "desc": "Quando l'alleato con la maggiore velocità infligge danni ad un nemico con un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infligge +12.5% danni aggiuntivi.",
+        "desc": "Quando l'alleato con la maggiore velocità infligge danni ad un nemico con un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infligge il 12.5% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9107,
@@ -2886,7 +2886,7 @@
     {
       "id": 19107,
       "name": "Fascio Aggrovigliato+",
-      "desc": "Quando <style=\"upgradeHighlight\">2</style> con la maggiore velocità infliggono danni ad un nemico con un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale, infligge <style=\"upgradeHighlight\">+15%</style> danni aggiuntivi.",
+      "desc": "Quando <style=\"upgradeHighlight\">2</style> con la maggiore velocità infliggono danni ad un nemico con un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale, infligge il <style=\"upgradeHighlight\">15%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19107,
@@ -2897,7 +2897,7 @@
     {
       "id": 29107,
       "name": "Fascio Aggrovigliato++",
-      "desc": "Quando <style=\"upgradeHighlight\">3</style> con la maggiore velocità infliggono danni ad un nemico con un'Abilità che infligge Potenza, Conteggio [Laceration] Potency, Count, or 'Unique Bleed', infligge <style=\"upgradeHighlight\">+20%</style> danni aggiuntivi.",
+      "desc": "Quando <style=\"upgradeHighlight\">3</style> con la maggiore velocità infliggono danni ad un nemico con un'Abilità che infligge Potenza, Conteggio [Laceration] Potency, Count, or 'Unique Bleed', infligge il <style=\"upgradeHighlight\">20%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29107,
@@ -2908,7 +2908,7 @@
     {
       "id": 9108,
       "name": "Soggezione",
-      "desc": "[Gli Effetti si applicano alle Prime ed alle Seconde Identità Schierate]\n\nQuando si usano Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', e se il bersaglio principale ha 7+ Conteggio [Laceration], infligge +10% danni aggiuntivi.",
+      "desc": "[L'Effetto si applica alla Prima e alla Seconda Identità Schierate]\n\nQuando si usano Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', e se il bersaglio principale ha 7+ Conteggio [Laceration], infligge il 10% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9108,
@@ -2919,7 +2919,7 @@
     {
       "id": 19108,
       "name": "Soggezione+",
-      "desc": "[Gli Effetti si applicano alle Prime, alle Seconde ed<style=\"upgradeHighlight\">alle Terze</style> Identità Schierate]\n\nQuando si usano Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', e se il bersaglio principale ha 5+ Conteggio [Laceration], infligge <style=\"upgradeHighlight\">+15%</style> danni aggiuntivi.",
+      "desc": "[L'Effetto si applica alla Prima, alla Seconda e <style=\"upgradeHighlight\">alla Terza</style> Identità Schierate]\n\nQuando si usano Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', e se il bersaglio principale ha 5+ Conteggio [Laceration], infligge il <style=\"upgradeHighlight\">15%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19108,
@@ -2930,7 +2930,7 @@
     {
       "id": 29108,
       "name": "Soggezione++",
-      "desc": "[Gli Effetti si applicano alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si usano Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', e se il bersaglio principale ha 3+ Conteggio [Laceration] infligge <style=\"upgradeHighlight\">+20%</style> danni aggiuntivi.",
+      "desc": "[L'Effetto si applicano alla Prima, alla Seconda e alla Terza Identità Schierate]\n\nQuando si usano Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', e se il bersaglio principale ha 3+ Conteggio [Laceration] infligge il <style=\"upgradeHighlight\">20%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29108,
@@ -2941,22 +2941,22 @@
     {
       "id": 9109,
       "name": "Tregua",
-      "desc": "[Gli Effetti si applicano alle Prime ed alle Seconde Identità Schierate]\n\nSi attiva dopo uno Scontro Vinto usando un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'\n\nInfligge +(# delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari alla valore del prossimo turno.\n\nPer Le abilità con meno di 2 Monete, usa invece (# delle monete rimanenti+3) nel calcolo.",
+      "desc": "[Gli Effetti si applicano alla Prima e alla Seconda Identità Schierate]\n\nSi attiva dopo aver vinto uno Scontro usando un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'\n\nInfligge +(n° delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari alla valore del prossimo turno.\n\nPer Le abilità con meno di 2 Monete, usa invece (n° delle Monete rimanenti + 3) nel calcolo.",
       "simpleDesc": [
         {
           "abilityID": 9109,
-          "simpleDesc": "Infligge +(# delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari al valore del prossimo"
+          "simpleDesc": "Infligge +(n° delle monete rimanenti/2) Conteggio [Laceration] sul bersaglio, ed ottiene [AttackUp] pari al valore del prossimo"
         },
         {
           "abilityID": 91091,
-          "simpleDesc": "Per le abilità con meno di 2 Monete, usa invece (# numero delle monete rimanenti+3) nel calcolo"
+          "simpleDesc": "Per le abilità con meno di 2 Monete, usa invece (n° numero delle monete rimanenti+3) nel calcolo"
         }
       ]
     },
     {
       "id": 9110,
       "name": "Frammento di Seduzione",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Lussuria + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Lussuria: Infligge Conteggio [Laceration] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via) ed infligge danno Lussuria aggiuntivo pari alla Potenza [Laceration] sul bersaglio,",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Lussuria + Somma delle altre risorse E.G.O/3) consumate ed infligge il 50% in più di danni.\n\nAbilità E.G.O Lussuria: Infligge Conteggio [Laceration] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3, HE infligge +4, e così via) ed infligge danno Lussuria aggiuntivo pari alla Potenza [Laceration] sul bersaglio,",
       "simpleDesc": [
         {
           "abilityID": 9110,
@@ -2971,7 +2971,7 @@
     {
       "id": 9111,
       "name": "Fiala di Bio-Veleno",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge 0.5(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge 0.5 (Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale (o una Parte casuale dell'Anormalità) nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9110,
@@ -2982,7 +2982,7 @@
     {
       "id": 19111,
       "name": "Fiala di Bio-Veleno+",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">0.75</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">0.75</style> (Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 19110,
@@ -2993,7 +2993,7 @@
     {
       "id": 29111,
       "name": "Fiala di Bio-Veleno++",
-      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">1.25</style>(Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
+      "desc": "Se un bersaglio con Potenza [Vibration] viene sconfitto, infligge <style=\"upgradeHighlight\">1.25</style> (Potenza [Vibration] + Conteggio sul bersaglio) danno Accidia ad un nemico casuale(o una Parte casuale dell'Anormalità) nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 29110,
@@ -3004,40 +3004,40 @@
     {
       "id": 9112,
       "name": "Pelle Velenosa",
-      "desc": "Quando si vince uno Scontro con un'Abilità che applica (se stesso incluso) Potenza o Conteggio [Vibration], infligge (# delle Monete rimanenti/2) Potenza [Vibration] sul bersaglio.",
+      "desc": "Quando si vince uno Scontro con un'Abilità che applica (a sé stesso incluso) Potenza o Conteggio [Vibration], infligge (n° delle Monete rimanenti/2) Potenza [Vibration] sul bersaglio.",
       "simpleDesc": [
         {
           "abilityID": 9110,
-          "simpleDesc": "Scontro Vinto: Infligge (# delle Monete rimanenti/2) Potenza [Vibration] sul bersaglio"
+          "simpleDesc": "Scontro Vinto: Infligge (n° delle Monete rimanenti/2) Potenza [Vibration] sul bersaglio"
         }
       ]
     },
     {
       "id": 19112,
       "name": "Pelle Velenosa+",
-      "desc": "Quando si vince uno Scontro con un'Abilità che applica (se stesso incluso) Potenza o Conteggio [Vibration], infligge <style=\"upgradeHighlight\">(# delle Monete rimanenti)</style> Potenza [Vibration] sul bersaglio.",
+      "desc": "Quando si vince uno Scontro con un'Abilità che applica (a sé stesso incluso) Potenza o Conteggio [Vibration], infligge <style=\"upgradeHighlight\">(n° delle Monete rimanenti)</style> Potenza [Vibration] sul bersaglio.",
       "simpleDesc": [
         {
           "abilityID": 19110,
-          "simpleDesc": "Scontro Vinto: Infligge (# delle Monete rimanenti) Potenza [Vibration] sul bersaglio"
+          "simpleDesc": "Scontro Vinto: Infligge (n° delle Monete rimanenti) Potenza [Vibration] sul bersaglio"
         }
       ]
     },
     {
       "id": 29112,
       "name": "Pelle Velenosa++",
-      "desc": "Quando si vince uno Scontro con un'Abilità che applica (se stesso incluso) Potenza o Conteggio [Vibration], infligge (# delle Monete rimanenti) Potenza [Vibration] e <style=\"upgradeHighlight\">(# delle Monete rimanenti/2) Conteggio [Vibration]</style> sul bersaglio.",
+      "desc": "Quando si vince uno Scontro con un'Abilità che applica (a sé stesso incluso) Potenza o Conteggio [Vibration], infligge (n° delle Monete rimanenti) Potenza [Vibration] e <style=\"upgradeHighlight\">(n° delle Monete rimanenti/2) Conteggio [Vibration]</style> sul bersaglio.",
       "simpleDesc": [
         {
           "abilityID": 29110,
-          "simpleDesc": "Scontro Vinto: Infligge (# delle Monete rimanenti/2) Potenza [Vibration] ed (# delle Monete rimanenti/2) Conteggio [Vibration] sul bersaglio."
+          "simpleDesc": "Scontro Vinto: Infligge (n° delle Monete rimanenti/2) Potenza [Vibration] ed (n° delle Monete rimanenti/2) Conteggio [Vibration] sul bersaglio."
         }
       ]
     },
     {
       "id": 9113,
       "name": "Liquore dall'Aspro Aroma",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2.\n\nSe il bersaglio principale ha [Vibration] e sta Vacillando, infligge +(Livello di Vacillamento x 7.5)% danni con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infligge invece +(Livello di Vacillamento x 15)% danni con l'Abilità.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2.\n\nSe il bersaglio principale ha [Vibration] e sta Vacillando, infligge il (Livello di Vacillamento x 7.5)% in più di danni con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infligge invece il (Livello di Vacillamento x 15)% in più di danni con l'Abilità.",
       "simpleDesc": [
         {
           "abilityID": 9113,
@@ -3056,7 +3056,7 @@
     {
       "id": 19113,
       "name": "Liquore dall'Aspro Aroma+",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nLe Abilità che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2.\n\nSe il bersaglio principale ha [Vibration] e sta Vacillando, infligge +(Livello di Vacillamento x <style=\"upgradeHighlight\">10</style>)% danni con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infligge invece +(Livello di Vacillamento x <style=\"upgradeHighlight\">20</style>)% danni con l'Abilità.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nLe Abilità che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2.\n\nSe il bersaglio principale ha [Vibration] e sta Vacillando, infligge il (Livello di Vacillamento x <style=\"upgradeHighlight\">10</style>)% in più di danni con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infligge invece il (Livello di Vacillamento x <style=\"upgradeHighlight\">20</style>)% in più di danni con l'Abilità.",
       "simpleDesc": [
         {
           "abilityID": 19113,
@@ -3075,7 +3075,7 @@
     {
       "id": 29113,
       "name": "Liquore dall'Aspro Aroma++",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nLe Abilità che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' <style=\"upgradeHighlight\">+3.</style>\n\nSe il bersaglio principale ha [Vibration] e sta Vacillando, infligge +(Livello di Vacillamento x <style=\"upgradeHighlight\">12.5</style>)% damage with the Skill\n\n% danni con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infligge invece +(Livello di Vacillamento x <style=\"upgradeHighlight\">25</style>)% danni con l'Abilità.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nLe Abilità che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' <style=\"upgradeHighlight\">+3.</style>\n\nSe il bersaglio principale ha [Vibration] e sta Vacillando, infligge il (Livello di Vacillamento x <style=\"upgradeHighlight\">12.5</style>)% in più di danni con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infligge invece il (Livello di Vacillamento x <style=\"upgradeHighlight\">25</style>)% in più di danni con l'Abilità.",
       "simpleDesc": [
         {
           "abilityID": 29113,
@@ -3094,7 +3094,7 @@
     {
       "id": 9114,
       "name": "Sinestesia Specchio-Tattile",
-      "desc": "Quando un alleato fa Vacillare un nemico con un'Abilità Attacco(escluse le Abilità E.G.O) che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration], applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici (o una Parte casuale dell'Anormalità) durante il prossimo turno.\n\nSe non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio di 1.5 durante il prossimo turno.",
+      "desc": "Quando un alleato fa Vacillare un nemico con un'Abilità Attacco (escluse le Abilità E.G.O) che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration], applica casualmente 1/3 della Potenza [Vibration] sul bersaglio tra tutti i nemici (o una Parte casuale dell'Anormalità) durante il prossimo turno.\n\nSe non ci sono altri nemici a cui applicare l'effetto, moltiplica la Potenza [Vibration] sul bersaglio di 1.5 durante il prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9114,
@@ -3109,7 +3109,7 @@
      {
       "id": 9115,
       "name": "Molla a Orologeria",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità che applicano (su se stessi inclusi) Potenza o Conteggio [Vibration] ottengono Potenza di Scontro +1\n\nQuando si infligge danno ad un nemico con [Vibration] usando un'Abilità Attacco (escluse le Abilità E.G.O) che infligge Potenza o Conteggio [Vibration], infligge +([Vibration] Potenza sul bersaglio + 5)% danni.\n\nPer le Abilità Superbia: infligge +(somma della Potenza e Conteggio [Vibration] sul bersaglio +5)% danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration] ottengono Potenza di Scontro +1\n\nQuando si infligge danno ad un nemico con [Vibration] usando un'Abilità Attacco (escluse le Abilità E.G.O) che infligge Potenza o Conteggio [Vibration], infligge +([Vibration] Potenza sul bersaglio + 5)% danni.\n\nPer le Abilità Superbia: infligge +(somma della Potenza e Conteggio [Vibration] sul bersaglio +5)% danni.",
       "simpleDesc": [
         {
           "abilityID": 9115,
@@ -3128,7 +3128,7 @@
     {
       "id": 9116,
       "name": "Frammento of Inerzia",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'.\n\n\n\nOttiene Potere Finale pari a (Risorse E.G.O Accidia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Accidia: infligge Conteggio [Vibration] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(Potenza [Vibration] sul bersaglio x 1.5)% Danni.",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Accidia + Somma delle altre risorse E.G.O/3) consumate ed infligge il 50% in più di danni.\n\nAbilità E.G.O Accidia: infligge Conteggio [Vibration] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3, HE infligge +4, e così via), ed infligge il (Potenza [Vibration] sul bersaglio x 1.5)% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9116,
@@ -3143,7 +3143,7 @@
     {
       "id": 9117,
       "name": "Polvere da Sparo Fumante",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nFine Turno: se un'Abilità Attacco infligge Potenza o Conteggio [Burst] è stata usata almeno una volta durante l'ultimo turno, ottiene 1 [Agility] nel prossimo turno.\n\nSe la Velocità dell'unità è 6+, le Abilità Attacco che infliggono Potenza o Conteggio [Burst] infliggono +12.5% danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nFine Turno: se un'Abilità Attacco che infligge Potenza o Conteggio [Burst] è stata usata almeno una volta durante l'ultimo turno, ottiene 1 [Agility] nel prossimo turno.\n\nSe la Velocità dell'unità è pari o maggiore a 6, le Abilità Attacco che infliggono Potenza o Conteggio [Burst] infliggono il 12.5% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9117,
@@ -3157,8 +3157,8 @@
     },
     {
       "id": 9118,
-      "name": "Palo Osseo",
-      "desc": "Gli effeteti di [Burst] infliggono +100% danni ai nemici con degli Scudi",
+      "name": "Palo d'Ossa",
+      "desc": "Gli effeteti di [Burst] infliggono il 100% in più di danni ai nemici con degli Scudi",
       "simpleDesc": [
         {
           "abilityID": 9118,
@@ -3169,7 +3169,7 @@
     {
       "id": 9119,
       "name": "Ombrello Logoro",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge +2 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece 3 Potenza [Burst] e +2 Conteggio [Burst].",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge +2 Conteggio [Burst] contro il bersaglio (una volta per turno, una volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece 3 Potenza [Burst] e +2 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 9119,
@@ -3184,7 +3184,7 @@
     {
       "id": 19119,
       "name": "Ombrello Logoro+",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">2 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">4</style> Potenza [Burst] e +2 Conteggio [Burst].",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">2 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (una volta per turno, una volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">4</style> Potenza [Burst] e +2 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 19119,
@@ -3199,7 +3199,7 @@
     {
       "id": 29119,
       "name": "Ombrello Logoro++",
-      "desc": "[Gli Effetti si applicano alle Prime, alle Seconde ed alle Terze Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">4 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">6</style> Potenza [Burst] e +3 Conteggio [Burst].",
+      "desc": "[L'Effetto si applica alla Prima, alla Seconda ed alle Terze Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">4 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (una volta per turno, una volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">6</style> Potenza [Burst] e +3 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 29119,
@@ -3214,7 +3214,7 @@
     {
       "id": 9120,
       "name": "Cercamorte",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco (escluse le Abilità E.G.O) che infliggono Potenza o Conteggio [Burst] ottengono Potenza Scontro +1, 'Livello Offensivo' +2, ed infliggono +15% danni.\n\n\nLe Abilità con Singola Moneta ottengono invece Potere Scontro +2, 'Livello Offensivo' +2, ed infliggono +40% danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco (escluse le Abilità E.G.O) che infliggono Potenza o Conteggio [Burst] ottengono Potenza di Scontro +1, 'Livello Offensivo' +2, ed infliggono il 15% in più di danni.\n\n\nLe Abilità con Singola Moneta ottengono invece Potere di Scontro +2, 'Livello Offensivo' +2, ed infliggono il 40% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9120,
@@ -3229,7 +3229,7 @@
     {
       "id": 9121,
       "name": "Frammento di Desiderio",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Burst].\n\nOttiene Potere Finale pari a (Risorse E.G.O Gola + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Gola: Infligge Conteggio [Burst] aggiuntivo in base ai Gradi E.G.O prima dell'attacco (ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(# delle Risorse E.G.O differenti usate x 15)% Danni.",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Burst].\n\nOttiene Potere Finale pari a (Risorse E.G.O Gola + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Gola: Infligge Conteggio [Burst] aggiuntivo in base ai Gradi E.G.O prima dell'attacco (ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(n° delle Risorse E.G.O differenti usate x 15)% Danni.",
       "simpleDesc": [
         {
           "abilityID": 9121,
@@ -3237,14 +3237,14 @@
         },
         {
           "abilityID": 91211,
-          "simpleDesc": "Infligge Conteggio [Burst] basato sui gradi E.G.O (ZAYIN infligge Conteggio +2, TETH infligge Conteggio +3, HE infligge Conteggio +4, e così via), ed infligge +(# delle diverse risorse E.G.O usate x 15)% danni"
+          "simpleDesc": "Infligge Conteggio [Burst] basato sui gradi E.G.O (ZAYIN infligge Conteggio +2, TETH infligge Conteggio +3, HE infligge Conteggio +4, e così via), ed infligge +(n° delle diverse risorse E.G.O usate x 15)% danni"
         }
       ]
     },
     {
       "id": 9122,
       "name": "Trappola di Alberantico",
-      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenzam Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono +5% danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potenza Scontro +1  ed infliggono +10% danni.",
+      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il 5% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potenza di Scontro +1 ed infliggono il 10% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9122,
@@ -3259,7 +3259,7 @@
     {
       "id": 19122,
       "name": "Trappola di Alberantico+",
-      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenzam Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono +<style=\"upgradeHighlight\">7.5</style>% danni.\n\nLe Abilità con meno di 2 Monete ottengono invece +<style=\"upgradeHighlight\">12.5</style>% danni.",
+      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il <style=\"upgradeHighlight\">7.5</style>% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potenza di Scontro +1 ed il <style=\"upgradeHighlight\">12.5</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19122,
@@ -3274,7 +3274,7 @@
     {
       "id": 29122,
       "name": "Trappola di Alberantico++",
-      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenzam Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono +<style=\"upgradeHighlight\">10</style>% danni.\n\nLe Abilità con meno di 2 Monete ottengono invece +<style=\"upgradeHighlight\">15</style>% danni.",
+      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il <style=\"upgradeHighlight\">10</style>% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potenza di Scontro +1 ed il <style=\"upgradeHighlight\">15</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29122,
@@ -3289,7 +3289,7 @@
     {
       "id": 9123,
       "name": "Stracci",
-      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano 5 PS aggiuntivi (una volta per turno) nel caso di Scontro Vinto; se hanno max PS, infligge +7.5% danni aggiuntivi.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge +(valore dei PS perduti)% danni; se l'alleato ha meno di -15 PS, infligge +15% danni.",
+      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano 5 PS aggiuntivi (una volta per turno) nel caso di Scontro Vinto; se i PS sono al massimo, infligge il 7.5% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti)% in più di danni; se l'alleato ha meno di -15 PS, infligge il 15% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9123,
@@ -3304,7 +3304,7 @@
     {
       "id": 19123,
       "name": "Stracci+",
-      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">6</style> PS aggiuntivi (una volta per turno) nel caso di Scontro Vinto; se hanno max PS, infligge +<style=\"upgradeHighlight\">10</style>% danni aggiuntivi.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge +(valore dei PS perduti <style=\"upgradeHighlight\">+ 5</style>)% danni; se l'alleato ha meno di -15 PS, infligge +<style=\"upgradeHighlight\">20</style>% danni.",
+      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">6</style> PS aggiuntivi (una volta per turno) nel caso di Scontro Vinto; se i PS sono al massimo, infligge il <style=\"upgradeHighlight\">10</style>% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti <style=\"upgradeHighlight\">+ 5</style>)% in più di danni; se l'alleato ha meno di -15 PS, infligge il <style=\"upgradeHighlight\">20</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19123,
@@ -3319,7 +3319,7 @@
     {
       "id": 29123,
       "name": "Stracci++",
-      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">7</style> PS aggiuntivi (una volta per turno) nel caso di Scontro Vinto; se hanno max PS, infligge +<style=\"upgradeHighlight\">12.5</style>% danni aggiuntivi.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge +(valore dei PS perduti <style=\"upgradeHighlight\">+ 10</style>)% danni;  se l'alleato ha meno di -15 PS, infligge +<style=\"upgradeHighlight\">25</style>% danni.",
+      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">7</style> PS aggiuntivi (una volta per turno) nel caso di Scontro Vinto; se i PS sono al massimo, infligge il <style=\"upgradeHighlight\">12.5</style>% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti <style=\"upgradeHighlight\">+ 10</style>)% in più di danni; se l'alleato ha meno di -15 PS, infligge il <style=\"upgradeHighlight\">25</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29123,
@@ -3334,7 +3334,7 @@
     {
       "id": 9124,
       "name": "Grandezza",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con 10+ (Potenza + Conteggio [Sinking]), infligge 2 Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\nIn Incontri Mirati: infligge invece 4 Potenza [Sinking] e +2 Conteggio [Sinking] (una volta per turno per Identità).",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con 10 o più (Potenza + Conteggio [Sinking]), infligge 2 Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge invece 4 Potenza [Sinking] e +2 Conteggio [Sinking] (una volta per turno, una volta per Identità).",
       "simpleDesc": [
         {
           "abilityID": 9124,
@@ -3345,7 +3345,7 @@
     {
       "id": 19124,
       "name": "Grandezza+",
-      "desc": "Gli Effetti si applicano solo alla Prima, alla Seconda ed <style=\"upgradeHighlight\">alla Terza</style> Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">8</style>+ (Potenza + Conteggio [Sinking]), infligge <style=\"upgradeHighlight\">3</style> Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\nIn Incontri Mirati: infligge invece <style=\"upgradeHighlight\">5</style> Potenza [Sinking] e +2 Conteggio [Sinking] (una volta per Identità).",
+      "desc": "Gli Effetti si applicano solo alla Prima, alla Seconda ed <style=\"upgradeHighlight\">alla Terza</style> Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">8</style> o più (Potenza + Conteggio [Sinking]), infligge <style=\"upgradeHighlight\">3</style> Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge invece <style=\"upgradeHighlight\">5</style> Potenza [Sinking] e +2 Conteggio [Sinking] (una volta per Identità).",
       "simpleDesc": [
         {
           "abilityID": 19124,
@@ -3356,7 +3356,7 @@
     {
       "id": 29124,
       "name": "Grandezza++",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">5</style>+ (Potenza + Conteggio [Sinking]), infligge 3 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\nIn Incontri Mirati: infligge 5 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] (una volta per Identità)",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">5</style> o più (Potenza + Conteggio [Sinking]), infligge 3 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge 5 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] (una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29124,
@@ -3367,7 +3367,7 @@
     {
       "id": 9125,
       "name": "Stella Distante",
-      "desc": "Quando si attiva l'effetto di [Sinking] (incluso il '<noparse>Pianto</noparse> Speciale') sul bersaglio con un Effetto Sul Colpo di un'Abilità Attacco Base che infligge o conferisce Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', cura 3 PS a Fine Turno (2 per turno per Identità)\n\nSe l'unità aveva 45 PS all'Inizio Turno, l'effetto cambia con il seguente: Quando si attiva l'effetto di [Sinking] (incluso il '<noparse>Pianto</noparse> Speciale') sul bersaglio con un Effetto Sul Colpo di un'Abilità Attacco Base che infligge o conferisce Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', infligge +2 Conteggio [Sinking] sul bersaglio (2 per turno per Identità)",
+      "desc": "Quando si attiva l'effetto di [Sinking] (incluso il '<noparse>Pianto</noparse> Speciale') sul bersaglio con Effetto Sul Colpo di un'Abilità Attacco Base che infligge o conferisce Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', cura 3 PS a Fine Turno (2 per turno per Identità)\n\nSe l'unità aveva 45 PS all'Inizio Turno, l'effetto cambia con il seguente: Quando si attiva l'effetto di [Sinking] (incluso il '<noparse>Pianto</noparse> Speciale') sul bersaglio con Effetto Sul Colpo di un'Abilità Attacco Base che infligge o conferisce Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', infligge +2 Conteggio [Sinking] sul bersaglio (2 per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9124,
@@ -3378,7 +3378,7 @@
     {
       "id": 9126,
       "name": "Frammento di Decadimento",
-      "desc": "SI attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale'.\n\nOttiene Potere Finale pari (Risorse E.G.O Tristezza + somma delle altre risors E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Tristezza: Infligge Conteggio [Sinking] aggiuntivo in base ai Gradi E.G.O prima dell'Attacco(ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge +(PS consumati per l'Abilità E.G.O x 2.5)% Danni.",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale'.\n\nOttiene Potere Finale pari (Risorse E.G.O Tristezza + somma delle altre risors E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Tristezza: Infligge Conteggio [Sinking] aggiuntivo in base ai Gradi E.G.O prima dell'Attacco (ZAYIN infligge +2 Conteggio, TETH infligge +3 Conteggio, HE infligge +4 Conteggio, e così via), ed infligge il (PS consumati per l'Abilità E.G.O x 2.5)% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9126,
@@ -3470,7 +3470,7 @@
     {
       "id": 19129,
       "name": "Vecchia Bambola di Legno+",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nOI Danni Critici infliggono 1 [DefenseDown] nel prossimo turno. (<style=\"upgradeHighlight\">4</style> volte per turno per Identità)\n[Non si cumula] Quando la Passiva di Foglio Rosso Don Quixote E.G.O viene attivata, questo effetto non viene applicato.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nI Danni Critici infliggono 1 [DefenseDown] nel prossimo turno. (<style=\"upgradeHighlight\">4</style> volte per turno per Identità)\n[Non si cumula] Quando la Passiva di Foglio Rosso Don Quixote E.G.O viene attivata, questo effetto non viene applicato.",
       "simpleDesc": [
         {
           "abilityID": 19129,
@@ -3492,7 +3492,7 @@
     {
       "id": 9130,
       "name": "Finifugalità",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: gli alleati con 10+ (somma di Potenza e Conteggio [Breath]) ottengono +1 Potenza di Scontro ed 1 [AttackDmgUp].\n\nAlla somma di 20+, ottengono invece +1 Potenza di Scontro e 3 [AttackDmgUp].\n\nAlla somma di 40+, ottengono invece +2 Potenza di Scontro e 3 [AttackDmgUp].",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: gli alleati con 10 o più (somma di Potenza e Conteggio [Breath]) ottengono +1 Potenza di Scontro ed 1 [AttackDmgUp].\n\nAlla somma di 20 o più, ottengono invece +1 Potenza di Scontro e 3 [AttackDmgUp].\n\nAlla somma di 40 o più, ottengono invece +2 Potenza di Scontro e 3 [AttackDmgUp].",
       "simpleDesc": [
         {
           "abilityID": 9130,
@@ -3511,7 +3511,7 @@
     {
       "id": 9131,
       "name": "Frammento di Presunzione",
-      "desc": "i attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Breath].\n\nOttiene Potere Finale pari a (Risorse E.G.O Superbia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Superbia: ottiene conteggio [Breath] aggiuntivo in base ai gradi E.G.O prima dell'attacco(ZAYIN conferisce +2 Conteggio, TETH conferisce +3 Conteggio, HE conferisce +4 Conteggio, e così via) ed infligge +(somma di tutte le Risorse E.G.O consumate x 8)% Danni.",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Potenza o Conteggio [Breath].\n\nOttiene Potere Finale pari a (Risorse E.G.O Superbia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni\n\nAbilità E.G.O Superbia: ottiene conteggio [Breath] aggiuntivo in base ai gradi E.G.O prima dell'attacco (ZAYIN conferisce +2 Conteggio, TETH conferisce +3, HE conferisce +4, e così via) ed infligge il (somma di tutte le Risorse E.G.O consumate x 8)% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9131,
@@ -3571,7 +3571,7 @@
     {
       "id": 9133,
       "name": "Defibrillatore Scoperto",
-      "desc": "Fine Turno: Cura i PV ed i PS pari alla somma del Conteggio [Charge] e 'Carica Speciale' consumato durante le Abilità Attacco di questo turno.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del x1.5.",
+      "desc": "Fine Turno: Cura i PV ed i PS pari alla somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumato durante le Abilità Attacco di questo turno.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del x1.5.",
       "simpleDesc": [
         {
           "abilityID": 9133,
@@ -3582,7 +3582,7 @@
     {
       "id": 19133,
       "name": "Defibrillatore Scoperto+",
-      "desc": "Fine Turno: Cura i PV ed i PS pari a <style=\"upgradeHighlight\">(somma del Conteggio [Charge] e 'Carica Speciale' consumato durante le Abilità Attacco di questo turno + 1)</style>.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del <style=\"upgradeHighlight\">x2</style>.",
+      "desc": "Fine Turno: Cura i PV ed i PS pari a <style=\"upgradeHighlight\">(somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumato durante le Abilità Attacco di questo turno + 1)</style>.\n\nSe all'unità rimangono meno del 50% dei PV, moltiplica la cura del <style=\"upgradeHighlight\">x2</style>.",
       "simpleDesc": [
         {
           "abilityID": 19133,
@@ -3593,7 +3593,7 @@
     {
       "id": 29133,
       "name": "Defibrillatore Scoperto++",
-      "desc": "Fine Turno: Cura i PV ed i PS pari a (somma del Conteggio [Charge] e 'Carica Speciale' consumato durante le Abilità Attacco di questo turno <style=\"upgradeHighlight\">+ 2</style>).\n\nSe all'unità rimangono meno del <style=\"upgradeHighlight\">75</style>% dei PV, moltiplica la cura del x2.",
+      "desc": "Fine Turno: Cura i PV ed i PS pari a (somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumato durante le Abilità Attacco di questo turno <style=\"upgradeHighlight\">+ 2</style>).\n\nSe all'unità rimangono meno del <style=\"upgradeHighlight\">75</style>% dei PV, moltiplica la cura del x2.",
       "simpleDesc": [
         {
           "abilityID": 29133,
@@ -3604,7 +3604,7 @@
     {
       "id": 9134,
       "name": "Torcia da Pattuglia",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Unique Charge', l'Abilità 1 delle Identità ottiene Potenza di Scontro +1 ed infliggono il 10% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica 2 [ChargeForceField] nel prossimo turno.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottiene Potenza di Scontro +1 ed infliggono il 10% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica 2 [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9134,
@@ -3619,7 +3619,7 @@
     {
       "id": 19134,
       "name": "Torcia da Pattuglia+",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Carica Speciale', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">15</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel prossimo turno.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">15</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 19134,
@@ -3634,7 +3634,7 @@
     {
       "id": 29134,
       "name": "Torcia da Pattuglia++",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o 'Carica Speciale', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel prossimo turno.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nInizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottengono Potenza di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nFine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 29134,
@@ -3649,11 +3649,11 @@
     {
       "id": 9135,
       "name": "Generatore Imitativo",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nSi attiva quando l'unità ha 10 o più (Conteggio [Charge] + 'Carica Speciale') all'Inizio Turno.\n\nPotere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o 'Carica Speciale'.\n\nSe l'Abilità in questione ha meno 5 Potere Base, infligge il 25% di danni aggiuntivi; se ha invece più di 5 Potere Base, ottiene Potere Moneta +1.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nSi attiva quando l'unità ha 10 o più (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') all'Inizio Turno.\n\nPotere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'.\n\nSe l'Abilità in questione ha meno di 5 Potere Base, infligge il 25% in più di danni; se ha invece più di 5 Potere Base, ottiene Potere Moneta +1.",
       "simpleDesc": [
         {
           "abilityID": 9135,
-          "simpleDesc": "Potere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o 'Carica Speciale'"
+          "simpleDesc": "Potere Moneta +1 per le Abilità 3 che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'"
         },
         {
           "abilityID": 91351,
@@ -3664,7 +3664,7 @@
     {
       "id": 9136,
       "name": "Frammento di Dissidio",
-      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Conteggio [Charge] o 'Carica Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Invidia + Somma delle altre risorse E.G.O/3) consumate ed infligge +50% danni.\n\nAbilità E.G.O Invidia: conferisce Conteggio [Charge] in base ai Gradi E.G.O prima dell'Attacco(ZAYIN conferisce +2 Conteggio, TETH conferisce +3 Conteggio, HE conferisce +4 Conteggio, e così via), ed infligge +((Conteggio [Charge] su se stesso + 'Carica Speciale') x 5)% Danni. (200% max)",
+      "desc": "Si attiva quando si usa un'Abilità E.G.O che applica Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'.\n\nOttiene Potere Finale pari a (Risorse E.G.O Invidia + Somma delle altre risorse E.G.O/3) consumate ed infligge il 50% in più di danni.\n\nAbilità E.G.O Invidia: conferisce Conteggio [Charge] in base ai Gradi E.G.O prima dell'Attacco(ZAYIN conferisce +2 Conteggio, TETH conferisce +3, HE conferisce +4, e così via), ed infligge il ((Conteggio [Charge] su se stesso + '<noparse>Carica</noparse> Speciale') x 5)% in più di Danni. (200% max)",
       "simpleDesc": [
         {
           "abilityID": 9136,
@@ -3679,7 +3679,7 @@
     {
       "id": 9137,
       "name": "Bisturi",
-      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (# delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 3 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (n° delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 3 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 9137,
@@ -3690,7 +3690,7 @@
     {
       "id": 19137,
       "name": "Bisturi+",
-      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (<style=\"upgradeHighlight\">1 +</style> # delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
+      "desc": "[Gli Effetti si applicano solo alla Quarta Identità Schierata]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (<style=\"upgradeHighlight\">1 +</style> n° delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 19137,
@@ -3701,7 +3701,7 @@
     {
       "id": 29137,
       "name": "Bisturi++",
-      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Quinta</style> Identità Schierate]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (1 + # of Slash Attack Skills they have) [Agility] delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Quinta</style> Identità Schierate]\n\nFine Turno: le Identità con Abilità Attacco Tagliente ottengono (1 + n° of Slash Attack Skills they have) [Agility] delle Abilità Attacco Tagliente che hanno) [Agility] nel prossimo turno. (es. Un'Identità con Abilità 1, Abilità 2 ed Abilità 3 otterrà 4 [Agility] nel prossimo turno. Le Abilità E.G.O ed i Contrattacchi non vengono considerati)",
       "simpleDesc": [
         {
           "abilityID": 29137,
@@ -3712,7 +3712,7 @@
     {
       "id": 9138,
       "name": "Cadenza Ingannevole",
-      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3+ nella Velocità tra l'unità e l'avversario attaccato, infligge il 15% dei danni in più con le Abilità Taglieti.",
+      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3 o più nella Velocità tra l'unità e l'avversario attaccato, infligge il 15% in più di danni con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 9138,
@@ -3723,7 +3723,7 @@
     {
       "id": 19138,
       "name": "Cadenza Ingannevole+",
-      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3+ nella Velocità tra l'unità e l'avversario attaccato, infligge il <style=\"upgradeHighlight\">20%</style> dei danni in più con le Abilità Taglieti.",
+      "desc": "[Gli Effetti si applicano solo alla Quinta Identità Schierata]\n\nSe c'è una differenza di 3 o più nella Velocità tra l'unità e l'avversario attaccato, infligge il <style=\"upgradeHighlight\">20%</style> in più di danni con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 19138,
@@ -3734,7 +3734,7 @@
     {
       "id": 29138,
       "name": "Cadenza Ingannevole++",
-      "desc": "[Gli Effetti si applicano solo alla Quinta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nSe c'è una differenza di <style=\"upgradeHighlight\">2+</style> nella Velocità tra l'unità e l'avversario attaccato, infligge il 20% dei danni in più con le Abilità Taglieti.",
+      "desc": "[Gli Effetti si applicano solo alla Quinta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nSe c'è una differenza di <style=\"upgradeHighlight\">2</style> o più nella Velocità tra l'unità e l'avversario attaccato, infligge il 20% in più di danni con le Abilità Taglieti.",
       "simpleDesc": [
         {
           "abilityID": 29138,
@@ -3745,7 +3745,7 @@
     {
       "id": 9139,
       "name": "Forbici da Sarto",
-      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 ed infliggono il 10% di danni aggiuntivi.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il 20% dei danni aggiuntivi.",
+      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 ed infliggono il 10% in più di danni.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il 20% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9139,
@@ -3760,7 +3760,7 @@
     {
       "id": 19139,
       "name": "Forbici da Sarto+",
-      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 15% di danni aggiuntivi.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25%</style> dei danni aggiuntivi.",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 15% in più di danni.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19139,
@@ -3775,7 +3775,7 @@
     {
       "id": 29139,
       "name": "Forbici da Sarto++",
-      "desc": "[Gli Effetti si applicano solo alla Quarta e Sesta Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 20% di danni aggiuntivi.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">30%</style> dei danni aggiuntivi.",
+      "desc": "[Gli Effetti si applicano solo alla Quarta e Sesta Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potenza di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 20% in più di danni.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">30%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29139,
@@ -3835,7 +3835,7 @@
     {
       "id": 9141,
       "name": "Momento della Sentenza",
-      "desc": "[Gli Effetti si applicano solo alla Terza e Quarta Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il 10% in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (40/# delle Monete rimanenti)% in più di danni aggiuntivi.",
+      "desc": "[Gli Effetti si applicano solo alla Terza e Quarta Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il 10% in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (40/n° delle Monete rimanenti)% in più di danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 9141,
@@ -3850,7 +3850,7 @@
     {
       "id": 19141,
       "name": "Momento della Sentenza+",
-      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta <style=\"upgradeHighlight\">ed alla Quinta</style> Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il 10% in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (40/# delle Monete rimanenti)% in più di danni aggiuntivi.",
+      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta <style=\"upgradeHighlight\">ed alla Quinta</style> Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il 10% in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (40/n° delle Monete rimanenti)% in più di danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 19141,
@@ -3865,7 +3865,7 @@
     {
       "id": 29141,
       "name": "Momento della Sentenza++",
-      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta, alla Quinta ed <style=\"upgradeHighlight\">alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il <style=\"upgradeHighlight\">12.5%</style> in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (<style=\"upgradeHighlight\">50</style>/# delle Monete rimanenti)% in più di danni aggiuntivi.",
+      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta, alla Quinta ed <style=\"upgradeHighlight\">alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti Incontrastate infliggono il <style=\"upgradeHighlight\">12.5%</style> in più dei danni.\n\nScontro Vinto: le Abilità Taglienti infliggono il (<style=\"upgradeHighlight\">50</style>/n° delle Monete rimanenti)% in più di danni aggiuntivi.",
       "simpleDesc": [
         {
           "abilityID": 29141,
@@ -3880,7 +3880,7 @@
     {
       "id": 9142,
       "name": "Memorie Divise",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco Taglienti (incluse le Abilità E.G.O) ottengono Potere Base +2, Potere Moneta Positivo +1, e Potere Moneta Negativo -1\n\nQuando si vince uno Scontro con un'Abilità Attacco Tagliente (escluse le Abilità E.G.O), infligge il 30% di danni aggiuntivi con quell'Abilità; ogni colpo della seguente Abilità infligge il 5% in più di danni per ogni 5% di PV mancanti su se stessi, per un massimo del 20%",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco Taglienti (incluse le Abilità E.G.O) ottengono Potere Base +2, Potere Moneta Positivo +1, e Potere Moneta Negativo -1\n\nQuando si vince uno Scontro con un'Abilità Attacco Tagliente (escluse le Abilità E.G.O), infligge il 30% in più di danni con quell'Abilità; ogni colpo della seguente Abilità infligge il 5% in più di danni per ogni 5% di PV mancanti su se stessi, per un massimo del 20%",
       "simpleDesc": [
         {
           "abilityID": 9142,
@@ -3958,7 +3958,7 @@
     {
       "id": 29144,
       "name": "Benedizione d'Un Tempo++",
-      "desc": "[Gli Effetti si applicano solo alla Quinta e Sesta Identità Schierate]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">2</style> additional [PenetrateDamageUp] next turn. (once per turn)",
+      "desc": "[Gli Effetti si applicano solo alla Quinta e Sesta Identità Schierate]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva e <style=\"upgradeHighlight\">2</style> aggiuntiva nel prossimo turno. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 29144,
@@ -3973,7 +3973,7 @@
     {
       "id": 9145,
       "name": "Bandoliera Strappata",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/# delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce i [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9145,
@@ -3981,7 +3981,7 @@
         },
         {
           "abilityID": 91451,
-          "simpleDesc": "Le Abilità infliggono il +(40/# delle Monete)% danni"
+          "simpleDesc": "Le Abilità infliggono il +(40/n° delle Monete)% danni"
         },
         {
           "abilityID": 91452,
@@ -3992,7 +3992,7 @@
     {
       "id": 19145,
       "name": "Bandoliera Strappata+",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/# delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce i [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19145,
@@ -4000,7 +4000,7 @@
         },
         {
           "abilityID": 191451,
-          "simpleDesc": "Le Abilità infliggono il +(50/# delle Monete)% danni"
+          "simpleDesc": "Le Abilità infliggono il +(50/n° delle Monete)% danni"
         },
         {
           "abilityID": 191452,
@@ -4011,7 +4011,7 @@
     {
       "id": 29145,
       "name": "Bandoliera Strappata++",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/# delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce i [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29145,
@@ -4019,7 +4019,7 @@
         },
         {
           "abilityID": 291451,
-          "simpleDesc": "Le Abilità infliggono il +(60/# delle Monete)% danni"
+          "simpleDesc": "Le Abilità infliggono il +(60/n° delle Monete)% danni"
         },
         {
           "abilityID": 291452,
