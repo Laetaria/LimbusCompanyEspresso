@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 9156,
-      "name": "Decamillennial Hearthflame",
-      "desc": "Turn End: enemies with 3+ [Combustion] Count activates [Combustion] one more time (reduce [Combustion] Count by 1)",
+      "name": "Focolare Decamillenario",
+      "desc": "Fine Turno: i nemici con 3 o più Conteggio [Combustion] attivano l'effetto di [Combustion] una volta successiva (riduce il Conteggio [Combustion] di 1)",
       "simpleDesc": [
         {
           "abilityID": 9156,
@@ -13,39 +13,39 @@
     },
     {
       "id": 9158,
-      "name": "Purloined Flame",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Combustion] or 'Unique Burn'. (except E.G.O Skills; except Backup Units)\n\nOn Hit with a Skill(including E.G.O Skills): if the target has 3+ [Combustion] Count, activate [Combustion] once on the target. (target loses 1 [Combustion] Count; activates once per Skill)\n\nTurn End: targets with 3+ [Combustion] Count activates [Combustion] one more time (target loses 1 [Combustion] Count)\n\nIf a target with [Combustion] is defeated(for Abnormalities, when the Core is defeated), inflict its remaining [Combustion] Potency to one of the enemies with the least [Combustion] Potency at the next Turn Start.\n\nTurn Start: for this turn, inflict 4 [AttackDown] to enemies with [Combustion]\n\nIf a target with [Combustion] is defeated, at the next Turn Start, (defeated enemy's [Combustion] Potency / 15) allies with Skills that inflict [Combustion] gain 2 [AttackDmgUp]. (once per turn)",
+      "name": "Fiamma Rubata",
+      "desc": "Inizio Turno: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Combustion] o '<noparse>Bruciatura<noparse> Speciale'. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nQuando un'Abilità colpisce, (incluse le Abilità E.G.O): se il bersaglio ha 3 o più Conteggio [Combustion], attiva l'effetto di [Combustion] una volta sul bersaglio. (I bersagli perdono 1 Conteggio [Combustion]; l'effetto si attiva una volta per Abilità)\n\nFine Turno: i bersagli con 3 o più Conteggio [Combustion] attivano l'effeto di [Combustion] un'altra volta (il bersaglio perde 1 Conteggio [Combustion])\n\nSe un bersaglio con [Combustion] è stato sconfitto (per le Anormalità, quando il Nucleo è stato distrutto), infligge la rimanente Potenza [Combustion] ad un nemico con la minore Potenza [Combustion] all'inizio del Turno.\n\nInizio Turno: per questo turno, infligge 4 [AttackDown] ai nemici con [Combustion]\n\nSe un nemico con [Combustion] è stato sconfitto, all'inizio del prossimo Turno, (Potenza [Combustion] del nemico sconfitto / 15) alleati con Abilità che infliggono [Combustion] ottengono 2 [AttackDmgUp]. (una volta per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9158,
-          "simpleDesc": "Activate [Combustion] once"
+          "simpleDesc": "attiva [Combustion]"
         },
         {
           "abilityID": 91581,
-          "simpleDesc": "Activate [Combustion] 1 more time"
+          "simpleDesc": "Attiva [Combustion] un'altra volta"
         },
         {
           "abilityID": 91582,
-          "simpleDesc": "Inflict ([Combustion] Potency on defeated enemy)/2 [Combustion] Potency"
+          "simpleDesc": "Infligge (Potenza [Combustion] sui nemici sconfitti)/2 Potenza [Combustion]"
         },
         {
           "abilityID": 91583,
-          "simpleDesc": "Inflict 4 [AttackDown]"
+          "simpleDesc": "Infligge 4 [AttackDown]"
         },
         {
           "abilityID": 91583,
-          "simpleDesc": "Gain 2 [AttackDmgUp]"
+          "simpleDesc": "Ottiene 2 [AttackDmgUp]"
         }
       ]
     },
     {
       "id": 9160,
-      "name": "Ruptured Blood Sac",
-      "desc": "On ally Clash Win: activate the enemy's [Laceration] once (3 times per turn)",
+      "name": "Sacca di Sangue Strappata",
+      "desc": "Quando un alleato vince uno Scontro, attiva l'effetto di [Laceration] sul nemico una volta. (3 volte per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9160,
-          "simpleDesc": "Activate Bleed once"
+          "simpleDesc": "Attiva Sanguinamento una volta"
         }
       ]
     },
