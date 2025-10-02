@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Double Slash",
-          "desc": "Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on target) (max 2)",
+          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Triple Slash",
-          "desc": "Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on target) (max 2)",
+          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -65,7 +65,7 @@
         {
           "level": 1,
           "name": "Double Slash - Blast [爆]",
-          "desc": "Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on target) (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
@@ -97,7 +97,7 @@
         {
           "level": 1,
           "name": "Triple Slash - Blast [爆]",
-          "desc": "Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on target) (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
         {
           "level": 1,
           "name": "Blasting Shatterslash [爆碎斬]",
-          "desc": "Prioritizes targets with [Prey]\nCan clash with this Skill regardless of Speed\nCoin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 3)\n[DefeatDuel] Lose 10 PS",
+          "desc": "Prioritizes targets with [Prey]\nCan clash with this Skill regardless of Speed\nCoin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 3)\n[DefeatDuel] Lose 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -211,7 +211,7 @@
         {
           "level": 1,
           "name": "Taglianodi [快刀亂麻]",
-          "desc": "Prioritizes targets with [Prey]\nCan Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stack , gain Atk Weight +1 for every 10 Stack consumed (max 2)\n- ... 25 Stack, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 5)\n[DefeatDuel] Gain 4 [ResultReduction]\n[DefeatDuel] Gain 1 [Paralysis]\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[EndSkill] Ends this turn",
+          "desc": "Prioritizes targets with [Prey]\nCan Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stack , gain Atk Weight +1 for every 10 Stack consumed (max 2)\n- ... 25 Stack, Final Power +1 for every 4 ([Combustion] + [Vibration]) on the main target (max 5)\n[DefeatDuel] Gain 4 [ResultReduction]\n[DefeatDuel] Gain 1 [Paralysis]\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[EndSkill] Ends this turn",
           "coinlist": [
             {
               "coindescs": [
@@ -810,7 +810,7 @@
         {
           "level": 1,
           "name": "Completed Heixian Bolus - Wei [未]",
-          "desc": "[WhenUse] If target has 5+ (sum of [Laceration] and [Burst]), Clash Power +1\n[WhenUse] If target has 7+ (sum of [Laceration] and [Burst]), gain 5 [Breath] and +2 [Breath] Count",
+          "desc": "[WhenUse] If target has 5+ ([Laceration] + [Burst]), Clash Power +1\n[WhenUse] If target has 7+ ([Laceration] + [Burst]), gain 5 [Breath] and +2 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -861,7 +861,7 @@
         {
           "level": 1,
           "name": "Completed Heixian Bolus - Si [巳]",
-          "desc": "[WhenUse] If the main target has 10+ (sum of [Laceration] and [Burst]), Atk Weight +1",
+          "desc": "[WhenUse] If the main target has 10+ ([Laceration] + [Burst]), Atk Weight +1",
           "coinlist": [
             {
               "coindescs": [
@@ -890,7 +890,7 @@
         {
           "level": 1,
           "name": "Completed Heixian Bolus - You [酉]",
-          "desc": "[WhenUse] If target has 10+ (sum of [Laceration] and [Burst]), Coin Power +1\nInflict 1 [Laceration] and [DefenseDown] with every Critical Hit",
+          "desc": "[WhenUse] If target has 10+ ([Laceration] + [Burst]), Coin Power +1\nInflict 1 [Laceration] and [DefenseDown] with every Critical Hit",
           "coinlist": [
             {
               "coindescs": [
