@@ -264,7 +264,7 @@
           "level": 1,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "Se il bersaglio ha [Vibration], infligge +((somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max 20%)",
+          "desc": "Se il bersaglio ha [Vibration], infligge +(([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -282,7 +282,7 @@
           "level": 3,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "Se il bersaglio ha [Vibration], infligge +(5 + (somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">25%</style>)\n<style=\"highlight\">- A 4+ Rison. più alta, infligge invece +(5 + (somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max 35%)</style>",
+          "desc": "Se il bersaglio ha [Vibration], infligge +(5 + ([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">25%</style>)\n<style=\"highlight\">- A 4+ Rison. più alta, infligge invece +(5 + ([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max 35%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -303,7 +303,7 @@
           "level": 4,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "Se il bersaglio ha [Vibration], infligge +(<style=\"highlight\">5 +</style> (somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">30%</style>)\n- A 4+ Rison. più alta, infligge invece +(<style=\"highlight\">7.5 +</style> (somma di Potenza e Conteggio [Vibration] sul bersaglio)/<style=\"highlight\">1.5</style>)% danni (max <style=\"highlight\">40%</style>)",
+          "desc": "Se il bersaglio ha [Vibration], infligge +(<style=\"highlight\">5 +</style> ([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">30%</style>)\n- A 4+ Rison. più alta, infligge invece +(<style=\"highlight\">7.5 +</style> ([Vibration] + Conteggio [Vibration] sul bersaglio)/<style=\"highlight\">1.5</style>)% danni (max <style=\"highlight\">40%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -329,7 +329,7 @@
           "level": 1,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Vibration], infligge +((somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max 25%)\n- A 4+ Rison. più alta, aumenta il numero massimo precedente a (max 35%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Vibration], infligge +(([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max 25%)\n- A 4+ Rison. più alta, aumenta il numero massimo precedente a (max 35%)",
           "coinlist": [
             {
               "coindescs": [
@@ -347,7 +347,7 @@
           "level": 3,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Vibration], infligge +((somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">30%</style>)\n- A 4+ Rison. più alta, <style=\"highlight\">infligge invece +(5 + (somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max 40%)</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Vibration], infligge +(([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">30%</style>)\n- A 4+ Rison. più alta, <style=\"highlight\">infligge invece +(5 + ([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max 40%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
           "level": 4,
           "name": "Pianto Greve",
           "abName": "Rana Piagnucolante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Vibration], infligge +(<style=\"highlight\">5</style> + (somma di Potenza e Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">40%</style>)\n- A 4+ Rison. più alta, infligge invece +(<style=\"highlight\">7.5</style> + (somma di Potenza e Conteggio [Vibration] sul bersaglio)/<style=\"highlight\">1.5</style>)% danni (max <style=\"highlight\">50%</style>)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Vibration], infligge +(<style=\"highlight\">5</style> + ([Vibration] + Conteggio [Vibration] sul bersaglio)/2)% danni (max <style=\"highlight\">40%</style>)\n- A 4+ Rison. più alta, infligge invece +(<style=\"highlight\">7.5</style> + ([Vibration] + Conteggio [Vibration] sul bersaglio)/<style=\"highlight\">1.5</style>)% danni (max <style=\"highlight\">50%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -399,7 +399,7 @@
         {
           "level": 1,
           "name": "Lazo",
-          "abName": "Rosa Cacciatrice",
+          "abName": "Cacciatore Rosa",
           "desc": "Potere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)",
           "coinlist": [
             {
@@ -438,7 +438,7 @@
         {
           "level": 3,
           "name": "Lazo",
-          "abName": "Rosa Cacciatrice",
+          "abName": "Cacciatore Rosa",
           "desc": "<style=\"highlight\">Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1</style>\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n<style=\"highlight\">[BeforeAttack] Ottiene 2 [Agility] il turno successivo",
           "coinlist": [
             {
@@ -477,7 +477,7 @@
         {
           "level": 4,
           "name": "Lazo",
-          "abName": "Rosa Cacciatrice",
+          "abName": "Cacciatore Rosa",
           "desc": "Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo<style=\"highlight\"></style>",
           "coinlist": [
             {
@@ -524,7 +524,7 @@
         {
           "level": 1,
           "name": "Lazo",
-          "abName": "Rosa Cacciatrice",
+          "abName": "Cacciatore Rosa",
           "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)",
           "coinlist": [
             {
@@ -559,7 +559,7 @@
         {
           "level": 3,
           "name": "Lazo",
-          "abName": "Rosa Cacciatrice",
+          "abName": "Cacciatore Rosa",
           "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1</style>\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n<style=\"highlight\">[BeforeAttack] Ottiene 2 [Agility] il turno successivo</style>",
           "coinlist": [
             {
@@ -594,7 +594,7 @@
         {
           "level": 4,
           "name": "Lazo",
-          "abName": "Rosa Cacciatrice",
+          "abName": "Cacciatore Rosa",
           "desc": "[CantIdentify]\nTargets randomly\nSe la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n<style=\"highlight\">[BeforeAttack] A 4+ Rison. Gola o Lussuria, ottiene +1 Peso Attacco</style>",
           "coinlist": [
             {

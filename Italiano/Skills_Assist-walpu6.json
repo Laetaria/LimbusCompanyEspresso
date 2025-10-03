@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Con Amore!",
-          "desc": "[WhenUse] Potere Base +1 per ogni 5 (somma di [Burst] e [Sinking] sul bersaglio) (max 2)\n[WhenUse] Ottiene +10 [PowerOfLoveAndJustice]",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 ([Burst] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Ottiene +10 [PowerOfLoveAndJustice]",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "In Nome della Giustizia!",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 (somma of [Burst] e [Sinking] sul bersaglio) (max 2)\n[WhenUse] Ottiene +10 Conteggio [PowerOfLoveAndJustice]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Burst] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Ottiene +10 Conteggio [PowerOfLoveAndJustice]",
           "coinlist": [
             {
               "coindescs": [
@@ -40,7 +40,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ (somma di [Burst] e [Sinking]), infligge 1 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ ([Burst] + [Sinking]), infligge 1 [Binding] il turno successivo"
                 }
               ]
             }

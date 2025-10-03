@@ -1419,7 +1419,7 @@
         {
           "level": 2,
           "name": "Snake Fang",
-          "desc": "<style=\"highlight\">[WhenUse] Se la somma della Potenza [Breath] su di sé e la Potenza [Burst] sul bersaglio è 10 o maggiore, Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
+          "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1443,7 +1443,7 @@
         {
           "level": 4,
           "name": "Snake Fang",
-          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1503,7 +1503,7 @@
         {
           "level": 2,
           "name": "Blindsiding Cleave",
-          "desc": "<style=\"highlight\">[WhenUse] Se la somma della Potenza [Breath] su di sé e la Potenza [Burst] sul bersaglio è 10 o maggiore, Potere Moneta +1</style>\n[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
+          "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1537,7 +1537,7 @@
         {
           "level": 4,
           "name": "Blindsiding Cleave",
-          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 2)</style>\n[WinDuel] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WinDuel] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1579,12 +1579,12 @@
         {
           "level": 3,
           "name": "Serpentshear Puncturing Arm",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 ([Breath] su di sé + [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +5% danni per ogni (Potenza [Breath] su di sé + Potenza [Burst] sul bersaglio) (max 150%)"
+                  "desc": "Infligge +5% danni per ogni ([Breath] su di sé + [Burst] sul bersaglio) (max 150%)"
                 },
                 {
                   "desc": "Se questa unità ha [SnakeStance], infligge +75% Danni sul Colpo Critico"
@@ -1605,12 +1605,12 @@
         {
           "level": 4,
           "name": "Serpentshear Puncturing Arm",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 (somma della Potenza [Breath] di questa unità e la Potenza [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 ([Breath] su di sé + [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Infligge <style=\"highlight\">+10%</style> danni per ogni (Potenza [Breath] su di sé + Potenza [Burst] sul bersaglio) <style=\"highlight\">(max 200%)</style>"
+                  "desc": "Infligge <style=\"highlight\">+10%</style> danni per ogni ([Breath] su di sé + [Burst] sul bersaglio) <style=\"highlight\">(max 200%)</style>"
                 },
                 {
                   "desc": "Se questa unità ha [SnakeStance], infligge <style=\"highlight\">+100%</style> Danni sul Colpo Critico"

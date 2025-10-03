@@ -312,7 +312,7 @@
           "level": 1,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (5 + (somma di Potenza e Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -333,7 +333,7 @@
           "level": 3,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n<style=\"highlight\">- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Peso Attacco</style>\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (<style=\"highlight\">10</style> + (somma di Potenza e Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n<style=\"highlight\">- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Peso Attacco</style>\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -357,7 +357,7 @@
           "level": 4,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Peso Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (10 + (somma di Potenza e Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">20</style>%)\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 10% in base ai PV Max</style>",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Peso Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">20</style>%)\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 10% in base ai PV Max</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -386,7 +386,7 @@
           "level": 1,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (5 + (somma di Potenza e Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 10%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 10%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
           "coinlist": [
             {
               "coindescs": [
@@ -410,7 +410,7 @@
           "level": 3,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (<style=\"highlight\">10</style> + (somma di Potenza e Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">15</style>%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">15</style>%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
           "level": 4,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] HCura altri 3 alleati con la percentuali di PV minore di (10 + (somma di Potenza e Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)\n- A 4+ Rison. più alta, cura 1 alleato in più\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 5% PV</style>",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] HCura altri 3 alleati con la percentuali di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)\n- A 4+ Rison. più alta, cura 1 alleato in più\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 5% PV</style>",
           "coinlist": [
             {
               "coindescs": [
