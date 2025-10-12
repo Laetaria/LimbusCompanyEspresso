@@ -226,7 +226,7 @@
     {
       "id": "BloodPocket",
       "name": "Sacca di Sangue",
-      "desc": "Usa un'attacco potento dopo aver raggiunto un certo numero di Stack."
+      "desc": "Usa un attacco potento dopo aver raggiunto un certo numero di Stack."
     },
     {
       "id": "WaterPocket",
@@ -496,7 +496,7 @@
     {
       "id": "Curse",
       "name": "Maleficio",
-      "desc": "A Fine Turno: Il turno successivo, ottiene casualmente un'effetto, e poi ne riduce le Stack di 1.\n1 Attacco Diminuito/1 Difesa Diminuita/2 Calo Offensivo/2 Calo Difensivo."
+      "desc": "A Fine Turno: Il turno successivo, ottiene casualmente un effetto, e poi ne riduce le Stack di 1.\n1 Attacco Diminuito/1 Difesa Diminuita/2 Calo Offensivo/2 Calo Difensivo."
     },
     {
       "id": "AttackDmgUp_Weak",
@@ -1257,7 +1257,7 @@
     {
       "id": "Resentment",
       "name": "Risentimento",
-      "desc": "Se il nemico con <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Marchio della Vendetta</color></link></u> viene colpito da un'attacco, quest'effetto scade alla fine dell'attac.\nTermina a Fine Turno",
+      "desc": "Se il nemico con <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Marchio della Vendetta</color></link></u> viene colpito da un attacco, quest'effetto scade alla fine dell'attac.\nTermina a Fine Turno",
       "undefined": "-"
     },
     {
@@ -1390,7 +1390,7 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando subisce un colpo da un'attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
+      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Non può superare la Soglia massima di Vacillamento con quest'effetto\n\nQuando subisce un colpo da un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\nA Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)"
     },
     {
       "id": "ForwardToTheKing",
@@ -1419,7 +1419,7 @@
     {
       "id": "Hunger",
       "name": "Fame",
-      "desc": "A Fine Turno: aumenta di 1 se quest'unità non ha ucciso nessun altro alleato con Carne Fresca.\nA 75% o meno PV, aumenta di 2. A 50%- PV, aumenta di 3.\nA Inizio Turno: perde 1 Stack se quest'unità sconfigge un'alleato con Carne Fresca.\nA 0, ottiene (# degli alleati sconfitti x 3) Attacco Diminuito e Difesa Diminuita",
+      "desc": "A Fine Turno: aumenta di 1 se quest'unità non ha ucciso nessun altro alleato con Carne Fresca.\nA 75% o meno PV, aumenta di 2. A 50%- PV, aumenta di 3.\nA Inizio Turno: perde 1 Stack se quest'unità sconfigge un alleato con Carne Fresca.\nA 0, ottiene (# degli alleati sconfitti x 3) Attacco Diminuito e Difesa Diminuita",
       "summary": ""
     },
     {
@@ -1443,7 +1443,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando subisce un'Attacco da Abilità o Monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un colpo da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un'ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando subisce un'Attacco da Abilità o Monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un colpo da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -2010,7 +2010,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un'attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
       "summary": "",
       "undefined": "-"
     },
@@ -2192,7 +2192,7 @@
     {
       "id": "DarkHongluQiuAndHonglu",
       "name": "Colui che Segue la Via del Condottiero",
-      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS si cura di 5 PS\n- Alla morte di un'alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (una volta per turno)",
+      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS si cura di 5 PS\n- Alla morte di un alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (una volta per turno)",
       "summary": ""
     },
     {
@@ -2228,13 +2228,13 @@
     {
       "id": "DarkHonglu_Ai",
       "name": "Felicità, Gioia, Tristezza",
-      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un'alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
       "name": "Felicità, Gioia, Tristezza, Ira",
-      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un'alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {

@@ -2098,7 +2098,7 @@
         {
           "level": 3,
           "name": "Fuoco al Bersaglio Cambiato",
-          "desc": "[StartBattle] Bersaglia l'unità con i PV più bassi\n- A 7 [BoseProjektil], bersaglia prima gli alleati come suoi bersagli principali\n[StartBattle] Ottiene +1 Peso Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti\n- Se questa unità perde tutti i [BoseProjektil], e se un'alleato viene ucciso, si cura di 20 PS",
+          "desc": "[StartBattle] Bersaglia l'unità con i PV più bassi\n- A 7 [BoseProjektil], bersaglia prima gli alleati come suoi bersagli principali\n[StartBattle] Ottiene +1 Peso Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti\n- Se questa unità perde tutti i [BoseProjektil], e se un alleato viene ucciso, si cura di 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2109,7 +2109,7 @@
                   "desc": "Questa Moneta danneggia solamente al bersaglio principale"
                 },
                 {
-                  "desc": "Se il bersaglio principale è un'alleato, attiva i seguenti effetti:\n- La Resistenza al Perforante del bersaglio principale diventa Fatale verso questo attacco"
+                  "desc": "Se il bersaglio principale è un alleato, attiva i seguenti effetti:\n- La Resistenza al Perforante del bersaglio principale diventa Fatale verso questo attacco"
                 },
                 {
                   "desc": "- Infligge +5% danni per ogni [BoseProjektil] su di sé (max 35%)"
@@ -2131,13 +2131,13 @@
                   "desc": "- Ma, se il bersaglio principale era un nemico, danneggia solamente al bersaglio principale"
                 },
                 {
-                  "desc": "- Se la prima Moneta non ha ucciso un'alleato, 1 bersaglio secondario casuale subisce danni\n"
+                  "desc": "- Se la prima Moneta non ha ucciso un alleato, 1 bersaglio secondario casuale subisce danni\n"
                 },
                 {
                   "desc": "Infligge +15% danni per ogni [BoseProjektil] su di sé (max 105%)"
                 },
                 {
-                  "desc": "- Se la prima Moneta ha ucciso un'alleato, invece infligge +30% danni per ogni [BoseProjektil] su di sé (max 210%)\n"
+                  "desc": "- Se la prima Moneta ha ucciso un alleato, invece infligge +30% danni per ogni [BoseProjektil] su di sé (max 210%)\n"
                 },
                 {
                   "desc": "+2.5% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">25%</style>)"
@@ -2152,7 +2152,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "- Se la prima Moneta ha ucciso un'alleato, invece infligge 3 [Laceration] e +1 Conteggio [Laceration]"
+                  "desc": "- Se la prima Moneta ha ucciso un alleato, invece infligge 3 [Laceration] e +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -2161,7 +2161,7 @@
         {
           "level": 4,
           "name": "Fuoco al Bersaglio Cambiato",
-          "desc": "[StartBattle] Bersaglia l'unità con i PV più bassi\n- A 7 [BoseProjektil], bersaglia prima gli alleati come suoi bersagli principali\n[StartBattle] Ottiene +1 Peso Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti\n- Se questa unità perde tutti i [BoseProjektil], e se un'alleato viene ucciso, si cura di 20 PS",
+          "desc": "[StartBattle] Bersaglia l'unità con i PV più bassi\n- A 7 [BoseProjektil], bersaglia prima gli alleati come suoi bersagli principali\n[StartBattle] Ottiene +1 Peso Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti\n- Se questa unità perde tutti i [BoseProjektil], e se un alleato viene ucciso, si cura di 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2172,7 +2172,7 @@
                   "desc": "Questa Moneta danneggia solamente al bersaglio principale"
                 },
                 {
-                  "desc": "Se il bersaglio principale è un'alleato, attiva i seguenti effetti:\n- La Resistenza al Perforante del bersaglio principale diventa Fatale verso questo attacco"
+                  "desc": "Se il bersaglio principale è un alleato, attiva i seguenti effetti:\n- La Resistenza al Perforante del bersaglio principale diventa Fatale verso questo attacco"
                 },
                 {
                   "desc": "- Infligge +7% danni per ogni [BoseProjektil] su di sé (max 49%)"
@@ -2194,13 +2194,13 @@
                   "desc": "- Ma, se il bersaglio principale era un nemico, danneggia solamente al bersaglio principale"
                 },
                 {
-                  "desc": "- Se la prima Moneta non ha ucciso un'alleato, 1 bersaglio secondario casuale subisce danni\n"
+                  "desc": "- Se la prima Moneta non ha ucciso un alleato, 1 bersaglio secondario casuale subisce danni\n"
                 },
                 {
                   "desc": "Infligge +<style=\"highlight\">20</style>% danni per ogni [BoseProjektil] su di sé (max <style=\"highlight\">140</style>%)"
                 },
                 {
-                  "desc": "- Se la prima Moneta ha ucciso un'alleato, infligge +<style=\"highlight\">40</style>% danni per ogni [BoseProjektil] su di sé instead (max <style=\"highlight\">280</style>%)\n"
+                  "desc": "- Se la prima Moneta ha ucciso un alleato, infligge +<style=\"highlight\">40</style>% danni per ogni [BoseProjektil] su di sé instead (max <style=\"highlight\">280</style>%)\n"
                 },
                 {
                   "desc": "+<style=\"highlight\">5</style>% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">50</style>%)"
@@ -2215,7 +2215,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration]"
                 },
                 {
-                  "desc": "- Se la prima Moneta ha ucciso un'alleato, invece infligge <style=\"highlight\">5</style> [Laceration] e +<style=\"highlight\">2</style> Conteggio [Laceration]"
+                  "desc": "- Se la prima Moneta ha ucciso un alleato, invece infligge <style=\"highlight\">5</style> [Laceration] e +<style=\"highlight\">2</style> Conteggio [Laceration]"
                 }
               ]
             }
