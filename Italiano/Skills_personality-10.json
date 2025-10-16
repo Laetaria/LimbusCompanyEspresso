@@ -420,7 +420,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (una volta per Abilità)",
+                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (1 volta per Abilità)",
                   "summary": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta"
                 }
               ]
@@ -438,7 +438,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (una volta per Abilità)",
+                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (1 volta per Abilità)",
                   "summary": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta"
                 }
               ]
@@ -456,7 +456,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (una volta per Abilità)",
+                  "desc": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa Moneta (1 volta per Abilità)",
                   "summary": "[OnSucceedAttackHead] Quando è in stato di E.G.O Volatile, Riusa questa Moneta"
                 }
               ]
@@ -771,7 +771,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con [DefenseUp], applica (([DefenseUp] sull'alleato)/3) [AttackUp] il turno successivo (una volta per turno, max 3)"
+                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con [DefenseUp], applica (([DefenseUp] sull'alleato)/3) [AttackUp] il turno successivo (1 volta per turno, max 3)"
                 }
               ]
             }
@@ -792,7 +792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con [DefenseUp], applica (([DefenseUp] sull'alleato)/<style=\"highlight\">2</style>) [AttackUp] il turno successivo (una volta per turno, max 3)"
+                  "desc": "[OnSucceedAttack] Ad 1 altro alleato con [DefenseUp], applica (([DefenseUp] sull'alleato)/<style=\"highlight\">2</style>) [AttackUp] il turno successivo (1 volta per turno, max 3)"
                 }
               ]
             }
@@ -813,7 +813,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A <style=\"highlight\">2 altri alleati</style> con [DefenseUp], applica (([DefenseUp] sull'alleato)/2) [AttackUp] il turno successivo (una volta per turno, max 3)"
+                  "desc": "[OnSucceedAttack] A <style=\"highlight\">2 altri alleati</style> con [DefenseUp], applica (([DefenseUp] sull'alleato)/2) [AttackUp] il turno successivo (1 volta per turno, max 3)"
                 }
               ]
             }
@@ -894,7 +894,7 @@
         {
           "level": 1,
           "name": "Zwei Knight's Greatsword Form - Guard",
-          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +2 Conteggio [Vibration] (una volta per turno)\n[WinDuel] Innesca [VibrationExplosion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +2 Conteggio [Vibration] (1 volta per turno)\n[WinDuel] Innesca [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -908,7 +908,7 @@
         {
           "level": 4,
           "name": "Zwei Knight's Greatsword Form - Guard",
-          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Vibration] (una volta per turno)\n[WinDuel] Innesca [VibrationExplosion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Vibration] (1 volta per turno)\n[WinDuel] Innesca [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -927,7 +927,7 @@
         {
           "level": 1,
           "name": "Courier Trunk - Decay Hammer",
-          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
+          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (1 volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
@@ -948,7 +948,7 @@
         {
           "level": 2,
           "name": "Courier Trunk - Decay Hammer",
-          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
+          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (1 volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
@@ -969,7 +969,7 @@
         {
           "level": 4,
           "name": "Courier Trunk - Decay Hammer",
-          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
+          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (1 volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
@@ -995,7 +995,7 @@
         {
           "level": 1,
           "name": "Courier Trunk - Demolition Gadget",
-          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)",
+          "desc": "[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst]: questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (1 volta per Moneta)",
           "coinlist": [
             {
               "coindescs": [
@@ -1023,7 +1023,7 @@
         {
           "level": 2,
           "name": "Courier Trunk - Demolition Gadget",
-          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)\n[WhenUse] A 20- [DevyatDimensionalSackSinclair], ottiene 1 [Agility] il turno successivo (una volta per turno)",
+          "desc": "A 10+ [DevyatDimensionalSackSinclair], o se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (1 volta per Moneta)\n[WhenUse] A 20- [DevyatDimensionalSackSinclair], ottiene 1 [Agility] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1051,7 +1051,7 @@
         {
           "level": 4,
           "name": "Courier Trunk - Demolition Gadget",
-          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (una volta per Moneta)\n[WhenUse] A 30- [DevyatDimensionalSackSinclair], ottiene 1 [Agility] il turno successivo (una volta per turno)",
+          "desc": "Potere Moneta +1 per ogni 10 [DevyatDimensionalSackSinclair] su di sé or per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst] e 3+ Conteggio [Burst], questa Abilità non infligge [Burst] o Conteggio [Burst] con i suoi effetti Sul Colpo; invece, infligge 2 [DefenseDown] (1 volta per Moneta)\n[WhenUse] A 30- [DevyatDimensionalSackSinclair], ottiene 1 [Agility] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1145,7 +1145,7 @@
         {
           "level": 1,
           "name": "Courier Assistance & Crisis Control System",
-          "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair] / 2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (1 volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair] / 2)% dei PV massimi di questa unità come Scudo (max 15%, 1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1159,7 +1159,7 @@
         {
           "level": 4,
           "name": "Courier Assistance & Crisis Control System",
-          "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (1 volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, 1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1178,7 +1178,7 @@
         {
           "level": 1,
           "name": "A-aspetta, devo fare manutenzione...!",
-          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair])% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[EndBattle] Attiva [Retreat]",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair])% dei PV massimi di questa unità come Scudo (max 15%, 1 volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {
               "coindescs": [
@@ -1192,7 +1192,7 @@
         {
           "level": 4,
           "name": "A-aspetta, devo fare manutenzione...!",
-          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[EndBattle] Attiva [Retreat]",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, 1 volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {
               "coindescs": [
@@ -1405,7 +1405,7 @@
         {
           "level": 1,
           "name": "Riscaldamento nell'Est",
-          "desc": "[StartBattle] Ottiene 20% dei suoi PV mancanti come Scudo (una volta per turno)",
+          "desc": "[StartBattle] Ottiene 20% dei suoi PV mancanti come Scudo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1426,7 +1426,7 @@
         {
           "level": 4,
           "name": "Riscaldamento nell'Est",
-          "desc": "<style=\"highlight\">[StartBattle] Il comportamento dell'Abilità cambia in base alla Rison-A Invidia totale:\n- A 4+ somma di Rison-A, usa 'Ripaga con Interesse' come Contrattacco\n- A 6+ somma di Rison-A, usa 'Scrivete tutto' come Contrattacco\nSi attiva a partire dallo Slot Abilità più a sinistra. Si attiva 2 volte per turno)</style>\n[StartBattle] Ottiene <style=\"highlight\">30%</style> dei suoi PV mancanti come Scudo (una volta per turno)",
+          "desc": "<style=\"highlight\">[StartBattle] Il comportamento dell'Abilità cambia in base alla Rison-A Invidia totale:\n- A 4+ somma di Rison-A, usa 'Ripaga con Interesse' come Contrattacco\n- A 6+ somma di Rison-A, usa 'Scrivete tutto' come Contrattacco\nSi attiva a partire dallo Slot Abilità più a sinistra. Si attiva 2 volte per turno)</style>\n[StartBattle] Ottiene <style=\"highlight\">30%</style> dei suoi PV mancanti come Scudo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1874,7 +1874,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (1 volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1902,7 +1902,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (1 volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1936,7 +1936,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance], o se questa unità ha meno del 50% di HP, Riusa questa Moneta (1 volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge (10% dei danni finali di questa Moneta) danni Ira bonus</style>"

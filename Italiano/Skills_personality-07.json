@@ -640,7 +640,7 @@
         {
           "level": 1,
           "name": "Charge",
-          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge] (una volta per turno)",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge] (1 volta per turno)",
           "coinlist": [
             {}
           ]
@@ -850,7 +850,7 @@
         {
           "level": 1,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
+          "desc": "[DuelCounter]\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (1 volta per turno)\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -865,7 +865,7 @@
         {
           "level": 3,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (una volta per turno)</style>\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (1 volta per turno)</style>\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (1 volta per turno)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -880,7 +880,7 @@
         {
           "level": 4,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (una volta per turno)\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WinDuel] Ottiene [AttackUp] il turno successivo pari a (# di Scontri/3) (max 3, una volta per turno)</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
+          "desc": "[DuelCounter]\n[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (1 volta per turno)\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (1 volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WinDuel] Ottiene [AttackUp] il turno successivo pari a (# di Scontri/3) (max 3, 1 volta per turno)</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -1058,7 +1058,7 @@
         {
           "level": 2,
           "name": "Rispondi al Fuoco",
-          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 1 [Agility] il turno successivo (una volta per turno)</style>",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 1 [Agility] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1089,7 +1089,7 @@
         {
           "level": 4,
           "name": "Rispondi al Fuoco",
-          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Agility] il turno successivo (una volta per turno)",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Agility] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1142,7 +1142,7 @@
         {
           "level": 2,
           "name": "Colpo alla Testa",
-          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 30%)</style>\n[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)</style>",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 30%)</style>\n[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1156,7 +1156,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] (2 volte per turno)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] il turno successivo (una volta per turno)</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] il turno successivo (1 volta per turno)</style>"
                 }
               ]
             }
@@ -1165,7 +1165,7 @@
         {
           "level": 4,
           "name": "Colpo alla Testa",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità <style=\"highlight\">(max 50%)</style>\n[WhenUse] Ottiene 3 [Breath] e +<style=\"highlight\">2</style> Conteggio [Breath]\n[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità <style=\"highlight\">(max 50%)</style>\n[WhenUse] Ottiene 3 [Breath] e +<style=\"highlight\">2</style> Conteggio [Breath]\n[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1179,7 +1179,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] (2 volte per turno)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] il turno successivo (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] il turno successivo (1 volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1241,7 +1241,7 @@
         {
           "level": 1,
           "name": "Calma in Battaglia",
-          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
+          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": []
@@ -1251,7 +1251,7 @@
         {
           "level": 4,
           "name": "Calma in Battaglia",
-          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 3 [Breath] (3 volte per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
+          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 3 [Breath] (3 volte per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": []
@@ -1314,7 +1314,7 @@
         {
           "level": 1,
           "name": "Vado al Riparo",
-          "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1328,7 +1328,7 @@
         {
           "level": 4,
           "name": "Vado al Riparo",
-          "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (una volta per turno)\n<style=\"highlight\">[WinDuel] Infligge 1 [PenetrateResistDown] (una volta per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (una volta per turno)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n<style=\"highlight\">[WinDuel] Infligge 1 [PenetrateResistDown] (1 volta per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1347,7 +1347,7 @@
         {
           "level": 1,
           "name": "Squarcio Lenticolare",
-          "desc": "[WhenUse] Ottiene 1 [Endurance] il turno successivo (una volta per turno)",
+          "desc": "[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1371,7 +1371,7 @@
         {
           "level": 2,
           "name": "Squarcio Lenticolare",
-          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (una volta per turno)",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1395,7 +1395,7 @@
         {
           "level": 4,
           "name": "Squarcio Lenticolare",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Endurance] il turno successivo (una volta per turno)",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Endurance] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1439,7 +1439,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] (1 volta per turno)"
                 }
               ]
             }
@@ -1466,7 +1466,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] (1 volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1475,7 +1475,7 @@
         {
           "level": 4,
           "name": "Nube Temporalesca",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (una volta per turno)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1507,7 +1507,7 @@
         {
           "level": 3,
           "name": "Fendente del Tuono",
-          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[StartBattle] Ottiene 1 [CloudWall] il turno successivo\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (una volta per turno)",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[StartBattle] Ottiene 1 [CloudWall] il turno successivo\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1544,7 +1544,7 @@
         {
           "level": 4,
           "name": "Fendente del Tuono",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[StartBattle] Ottiene 1 [CloudWall] il turno successivo\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (una volta per turno)\n<style=\"highlight\">[WinDuel] Ottiene 1 [BlackCloudBlade] il turno successivo (una volta per turno)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[StartBattle] Ottiene 1 [CloudWall] il turno successivo\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)\n<style=\"highlight\">[WinDuel] Ottiene 1 [BlackCloudBlade] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1594,10 +1594,10 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (1 volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (1 volta per Abilità)"
                 }
               ]
             }
@@ -1614,10 +1614,10 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1639,10 +1639,10 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (1 volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (1 volta per Abilità)"
                 }
               ]
             }
@@ -1659,10 +1659,10 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [BlackCloudBlade], Riusa questa Moneta una volta (1 volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [EngageToBattle], Riusa questa Moneta una volta (1 volta per Abilità)"
                 }
               ]
             }

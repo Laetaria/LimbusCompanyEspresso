@@ -692,7 +692,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 3 [TimeRentalTwoPersonality] a Fine Turno (una volta per turno)\n[WhenUse] Durante questo turno: subendo un attacco nemico, infligge 2 [Vibration] sul bersaglio il turno successivo (2 volte per turno)"
+                  "desc": "[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 3 [TimeRentalTwoPersonality] a Fine Turno (1 volta per turno)\n[WhenUse] Durante questo turno: subendo un attacco nemico, infligge 2 [Vibration] sul bersaglio il turno successivo (2 volte per turno)"
                 }
               ]
             }
@@ -706,7 +706,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 3 [TimeRentalTwoPersonality] a Fine Turno (una volta per turno)\n[WhenUse] Durante questo turno: subendo un attacco nemico, infligge 2 [Vibration] sul bersaglio il turno successivo (<style=\"highlight\">6 volte</style> per turno)"
+                  "desc": "[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 3 [TimeRentalTwoPersonality] a Fine Turno (1 volta per turno)\n[WhenUse] Durante questo turno: subendo un attacco nemico, infligge 2 [Vibration] sul bersaglio il turno successivo (<style=\"highlight\">6 volte</style> per turno)"
                 }
               ]
             }
@@ -800,14 +800,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo (una volta per turno)"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo (1 volta per turno)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 10 [DevyatDimensionalSack] su di sé o per ogni 5 [Burst] sul bersaglio (max 2, una volta per turno)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 10 [DevyatDimensionalSack] su di sé o per ogni 5 [Burst] sul bersaglio (max 2, 1 volta per turno)"
                 }
               ]
             }
@@ -828,14 +828,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo (1 volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni <style=\"highlight\">5</style> [DevyatDimensionalSack] su di sé o per ogni 5 [Burst] sul bersaglio (max <style=\"highlight\">4</style>, una volta per turno)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni <style=\"highlight\">5</style> [DevyatDimensionalSack] su di sé o per ogni 5 [Burst] sul bersaglio (max <style=\"highlight\">4</style>, 1 volta per turno)"
                 }
               ]
             }
@@ -856,14 +856,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo (una volta per turno)\n<style=\"highlight\">- A 15+ [DevyatDimensionalSack], ottiene 1 [Agility] aggiuntiva</style>"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Agility] il turno successivo (1 volta per turno)\n<style=\"highlight\">- A 15+ [DevyatDimensionalSack], ottiene 1 [Agility] aggiuntiva</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 5 [DevyatDimensionalSack] su di sé o per ogni 5 [Burst] sul bersaglio (max <style=\"highlight\">6</style>, una volta per turno)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 5 [DevyatDimensionalSack] su di sé o per ogni 5 [Burst] sul bersaglio (max <style=\"highlight\">6</style>, 1 volta per turno)"
                 }
               ]
             }
@@ -883,7 +883,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst] (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst] (1 volta per turno)"
                 }
               ]
             },
@@ -893,7 +893,7 @@
                   "desc": "[OnSucceedAttack] A 15+ [DevyatDimensionalSack], infligge +15% danni"
                 },
                 {
-                  "desc": "[EndSkill] Se il bersaglio Vacilla o viene sconfitto, ottiene 1 [Agility] il turno successivo (una volta per turno)"
+                  "desc": "[EndSkill] Se il bersaglio Vacilla o viene sconfitto, ottiene 1 [Agility] il turno successivo (1 volta per turno)"
                 }
               ]
             }
@@ -908,7 +908,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst] (una volta per turno)\n<style=\"highlight\">- Infligge +1 more Conteggio [Burst] per ogni 10 [DevyatDimensionalSack] (max 2)</style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst] (1 volta per turno)\n<style=\"highlight\">- Infligge +1 more Conteggio [Burst] per ogni 10 [DevyatDimensionalSack] (max 2)</style>"
                 }
               ]
             },
@@ -918,7 +918,7 @@
                   "desc": "[OnSucceedAttack] A 15+ [DevyatDimensionalSack], infligge <style=\"highlight\">+25%</style> more danni"
                 },
                 {
-                  "desc": "[EndSkill] Se il bersaglio Vacilla o viene sconfitto, ottiene <style=\"highlight\">2</style> [Agility] il turno successivo (una volta per turno)"
+                  "desc": "[EndSkill] Se il bersaglio Vacilla o viene sconfitto, ottiene <style=\"highlight\">2</style> [Agility] il turno successivo (1 volta per turno)"
                 }
               ]
             }
@@ -932,7 +932,7 @@
         {
           "level": 1,
           "name": "Sequenza di Supporto & Controllo Corriere",
-          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (una volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (1 volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, 1 volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (1 volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
           "coinlist": [
             {}
           ]
@@ -940,7 +940,7 @@
         {
           "level": 4,
           "name": "Sequenza di Supporto & Controllo Corriere",
-          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (una volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (una volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
+          "desc": "[StartBattle] A 15+ [DevyatDimensionalSack], attiva al suo posto 'È Solo... una Pausa Strategica!' (1 volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, 1 volta per turno)\n[WhenUse] Ottiene 2 [DevyatDimensionalSack] (1 volta per turno)\n- A meno di 15 [DevyatDimensionalSack], ottiene 1 [DevyatDimensionalSack] aggiuntivo",
           "coinlist": [
             {}
           ]
@@ -953,7 +953,7 @@
         {
           "level": 1,
           "name": "È Solo... una Pausa Strategica!",
-          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, una volta per turno)\n[EndBattle] Attiva [Retreat]",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSack]/2)% dei PV massimi di questa unità come Scudo (max 15%, 1 volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {}
           ]
@@ -961,7 +961,7 @@
         {
           "level": 4,
           "name": "È Solo... una Pausa Strategica!",
-          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, una volta per turno)\n[EndBattle] Attiva [Retreat]",
+          "desc": "[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSack])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, 1 volta per turno)\n[EndBattle] Attiva [Retreat]",
           "coinlist": [
             {}
           ]
@@ -1796,7 +1796,7 @@
         {
           "level": 1,
           "name": "La Fede del Cavaliere",
-          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene uno Scudo pari al (PS / 5)% dei PV max di quest'unità (una volta per turno)\n[WhenUse] Ottiene 3 [BlackTearsAlly] (2 volte per turno)\n[EndBattle] A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (una volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene uno Scudo pari al (PS / 5)% dei PV max di quest'unità (1 volta per turno)\n[WhenUse] Ottiene 3 [BlackTearsAlly] (2 volte per turno)\n[EndBattle] A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (1 volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
           "coinlist": [
             {
               "coindescs": [
@@ -1810,7 +1810,7 @@
         {
           "level": 4,
           "name": "La Fede del Cavaliere",
-          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Potere Moneta +1 per ogni 2 [ProtectiveSword] (max 2)</style>\n[StartBattle] Ottiene uno Scudo pari al (PS / <style=\"highlight\">3</style>)% dei PV max di quest'unità (una volta per turno)\n[WhenUse] Ottiene <style=\"highlight\">5</style> [BlackTearsAlly] (2 volte per turno)\n[EndBattle]  A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (una volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Potere Moneta +1 per ogni 2 [ProtectiveSword] (max 2)</style>\n[StartBattle] Ottiene uno Scudo pari al (PS / <style=\"highlight\">3</style>)% dei PV max di quest'unità (1 volta per turno)\n[WhenUse] Ottiene <style=\"highlight\">5</style> [BlackTearsAlly] (2 volte per turno)\n[EndBattle]  A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (1 volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
           "coinlist": [
             {
               "coindescs": [
@@ -1993,10 +1993,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] (1 volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa Moneta ha consumato [SwordCutwithTear], Riusala una volta (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Se questa Moneta ha consumato [SwordCutwithTear], Riusala una volta (1 volta per turno)"
                 }
               ]
             }
@@ -2018,10 +2018,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Sinking] (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Sinking] (1 volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa Moneta ha consumato [SwordCutwithTear], Riusala una volta (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa Moneta ha consumato [SwordCutwithTear], Riusala una volta (1 volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2035,7 +2035,7 @@
         {
           "level": 1,
           "name": "Orgoglio Consunto",
-          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [BlackTearsAlly] (2 volte per turno)\n[EndBattle] A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (una volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [BlackTearsAlly] (2 volte per turno)\n[EndBattle] A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (1 volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
           "coinlist": [
             {
               "coindescs": [
@@ -2062,7 +2062,7 @@
         {
           "level": 4,
           "name": "Orgoglio Consunto",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Potere Finale +1 per ogni 2 [PenetratingSword] (max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [BlackTearsAlly] (2 volte per turno)\n[EndBattle] A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (una volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Potere Finale +1 per ogni 2 [PenetratingSword] (max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [BlackTearsAlly] (2 volte per turno)\n[EndBattle] A meno di 3 [SwordCutwithTear], perde 15 PS ed ottiene 1 [SwordCutwithTear] (1 volta per turno)\n- Se quest'unità ha [SwordCutwithTear], perde (Stack di [SwordCutwithTear] x 15) PS in più",
           "coinlist": [
             {
               "coindescs": [

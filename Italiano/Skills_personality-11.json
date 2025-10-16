@@ -615,7 +615,7 @@
         {
           "level": 1,
           "name": "The Price of a Bullet",
-          "desc": "[WhenUse] Ottiene 1 [FreischutzShotCount] (Una volta per turnoo)\n[EndSkillAll] Perde PS pari a [FreischutzShotCount]",
+          "desc": "[WhenUse] Ottiene 1 [FreischutzShotCount] (Una volta per turno)\n[EndSkillAll] Perde PS pari a [FreischutzShotCount]",
           "coinlist": [
             {}
           ]
@@ -623,7 +623,7 @@
         {
           "level": 4,
           "name": "The Price of a Bullet",
-          "desc": "[WhenUse] Ottiene 1 [FreischutzShotCount] (Una volta per turnoo)\n[WhenUse] Ottiene Potere Finale pari a ([FreischutzShotCount] x2)\n[EndSkillAll] Perde PS pari a [FreischutzShotCount]",
+          "desc": "[WhenUse] Ottiene 1 [FreischutzShotCount] (Una volta per turno)\n[WhenUse] Ottiene Potere Finale pari a ([FreischutzShotCount] x2)\n[EndSkillAll] Perde PS pari a [FreischutzShotCount]",
           "coinlist": [
             {}
           ]
@@ -802,7 +802,7 @@
         {
           "level": 1,
           "name": "Insolent Fool...!",
-          "desc": "[OnSucceedEvade] Infligge 1 [Sinking] (3 volte per turnoo)",
+          "desc": "[OnSucceedEvade] Infligge 1 [Sinking] (3 volte per turno)",
           "coinlist": [
             {}
           ]
@@ -810,7 +810,7 @@
         {
           "level": 4,
           "name": "Insolent Fool...!",
-          "desc": "[OnSucceedEvade] Infligge 1 [Sinking] (6 volte per turnoo)",
+          "desc": "[OnSucceedEvade] Infligge 1 [Sinking] (6 volte per turno)",
           "coinlist": [
             {}
           ]
@@ -1092,7 +1092,7 @@
         {
           "level": 2,
           "name": "Charged Leap",
-          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Base +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + 1) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max 7 [ChargeForceField] per alleato. Si attiva una volta per turnoo max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
+          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Base +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + 1) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max 7 [ChargeForceField] per alleato. Si attiva 1 volta per turno max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1119,7 +1119,7 @@
         {
           "level": 4,
           "name": "Charged Leap",
-          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Moneta +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max <style=\"highlight\">8</style> [ChargeForceField] per alleato. Si attiva <style=\"highlight\">2 volte</style> per turnoo max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
+          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Moneta +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max <style=\"highlight\">8</style> [ChargeForceField] per alleato. Si attiva <style=\"highlight\">2 volte</style> per turno max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1226,7 +1226,7 @@
         {
           "level": 1,
           "name": "Deploy Plasma",
-          "desc": "[WhenUse] Potere Base +1 per ogni 2 Conteggio [Charge] su di sé (max 5)\n[WhenUse] Ottiene +2 Conteggio [Charge] (2 volte per turnoo)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 2 Conteggio [Charge] su di sé (max 5)\n[WhenUse] Ottiene +2 Conteggio [Charge] (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,7 +1240,7 @@
         {
           "level": 4,
           "name": "Deploy Plasma",
-          "desc": "[WhenUse] Potere Base +1 per <style=\"highlight\">tutto il</style> Conteggio [Charge] su di sé (max <style=\"highlight\">10</style>)\n[WhenUse] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">3</style> volte per turnoo)",
+          "desc": "[WhenUse] Potere Base +1 per <style=\"highlight\">tutto il</style> Conteggio [Charge] su di sé (max <style=\"highlight\">10</style>)\n[WhenUse] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">3</style> volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1446,7 +1446,7 @@
         {
           "level": 3,
           "name": "I'll Make You a New Dress!",
-          "desc": "Sul Colpo con questa Abilità: si cura di 30% dei danni ai PV inflitti (max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Peso Attacco +1\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EndSkill] Consuma 15 [BloodScissorPersonalityFirst] per ogni Peso Attacco aggiuntivo\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di 10. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (una volta per turnoo)",
+          "desc": "Sul Colpo con questa Abilità: si cura di 30% dei danni ai PV inflitti (max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Peso Attacco +1\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EndSkill] Consuma 15 [BloodScissorPersonalityFirst] per ogni Peso Attacco aggiuntivo\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di 10. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1481,7 +1481,7 @@
         {
           "level": 4,
           "name": "I'll Make You a New Dress!",
-          "desc": "Sul Colpo con questa Abilità: si cura di 30% dei danni ai PV inflitti (max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Peso Attacco +1\n<style=\"highlight\">- A 20+ [BloodScissorPersonalityFirst], replace the above effect with Peso Attacco +2 instead</style>\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EndSkill] Consuma <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] per ogni Peso Attacco aggiuntivo\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di <style=\"highlight\">20</style>. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (una volta per turnoo)\n<style=\"highlight\">- Se il bersaglio è un [LineCuttingPersonality], allora aumenta [BloodDinner] di 20, e ottiene 5 [BloodScissorPersonalityFirst] (una volta per turnoo)</style>",
+          "desc": "Sul Colpo con questa Abilità: si cura di 30% dei danni ai PV inflitti (max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Peso Attacco +1\n<style=\"highlight\">- A 20+ [BloodScissorPersonalityFirst], replace the above effect with Peso Attacco +2 instead</style>\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EndSkill] Consuma <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] per ogni Peso Attacco aggiuntivo\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di <style=\"highlight\">20</style>. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (1 volta per turno)\n<style=\"highlight\">- Se il bersaglio è un [LineCuttingPersonality], allora aumenta [BloodDinner] di 20, e ottiene 5 [BloodScissorPersonalityFirst] (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1590,7 +1590,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 12+ Velocità, Riusa questa Moneta una volta (una volta per Abilità)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 12+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)</style>"
                 }
               ]
             }
@@ -1614,7 +1614,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A <style=\"highlight\">10</style>+ Velocità, Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] A <style=\"highlight\">10</style>+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)"
                 }
               ]
             }
@@ -1678,7 +1678,7 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo (2 volte per turnoo)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo (2 volte per turno)</style>"
                 }
               ]
             },
@@ -1727,7 +1727,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)"
                 }
               ]
             }
@@ -1761,7 +1761,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Infligge [BurstAgility]</style>"
@@ -1983,7 +1983,7 @@
         {
           "level": 3,
           "name": "T-3 Collector Mace Max Activation",
-          "desc": "Se il bersaglio ha [TimeSuspend], infligge +30% danni\n[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Moneta +1\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (una volta per Incontro)",
+          "desc": "Se il bersaglio ha [TimeSuspend], infligge +30% danni\n[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Moneta +1\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (1 volta per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -2023,7 +2023,7 @@
         {
           "level": 4,
           "name": "T-3 Collector Mace Max Activation",
-          "desc": "<style=\"highlight\">Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], infligge +30% danni</style>\nSe il bersaglio ha [TimeSuspend], infligge +30% danni\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [Binding] Potere Scontro +1</style>\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (una volta per Incontro)",
+          "desc": "<style=\"highlight\">Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], infligge +30% danni</style>\nSe il bersaglio ha [TimeSuspend], infligge +30% danni\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [Binding] Potere Scontro +1</style>\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (1 volta per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -2068,7 +2068,7 @@
         {
           "level": 1,
           "name": "Borrowed Time - Microcavity",
-          "desc": "[CanDuelGuard]\n[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 4 [TimeRentalTwoPersonality] a Fine Turno (una volta per turno)\n[WinDuel] Applica +2 Conteggio [Vibration] sia al bersaglio che a sé\n[DefeatDuel] Ottiene +4 Conteggio [Vibration]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 4 [TimeRentalTwoPersonality] a Fine Turno (1 volta per turno)\n[WinDuel] Applica +2 Conteggio [Vibration] sia al bersaglio che a sé\n[DefeatDuel] Ottiene +4 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -2082,7 +2082,7 @@
         {
           "level": 4,
           "name": "Borrowed Time - Microcavity",
-          "desc": "[CanDuelGuard]\n[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 4 [TimeRentalTwoPersonality] a Fine Turno (una volta per turno)\n[WinDuel] Applica +2 Conteggio [Vibration] sia al bersaglio che a sé\n[DefeatDuel] Ottiene +4 Conteggio [Vibration]<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 4 [TimeRentalTwoPersonality] a Fine Turno (1 volta per turno)\n[WinDuel] Applica +2 Conteggio [Vibration] sia al bersaglio che a sé\n[DefeatDuel] Ottiene +4 Conteggio [Vibration]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [

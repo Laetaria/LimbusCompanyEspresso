@@ -885,7 +885,7 @@
     {
       "id": 1040631,
       "name": "La Sigaretta Fortunata",
-      "desc": "<style=\"highlight\">- Se 1 alleato con le [Bullet] più basse usa un'Abilità che usa [Bullet], ottiene 3 [Breath]. (una volta per turno; non si applica agli alleati senza [Bullet])</style>\n- Se 1 alleato con le [Bullet] basse finisce le sue ultime [Bullet] con una Moneta, infligge 50% dei danni inflitti dell'attacco di quella Moneta contro ogni bersaglio come danni aggiuntivi contro ogni bersaglio individuale. (arrotondato in su)"
+      "desc": "<style=\"highlight\">- Se 1 alleato con le [Bullet] più basse usa un'Abilità che usa [Bullet], ottiene 3 [Breath]. (1 volta per turno; non si applica agli alleati senza [Bullet])</style>\n- Se 1 alleato con le [Bullet] basse finisce le sue ultime [Bullet] con una Moneta, infligge 50% dei danni inflitti dell'attacco di quella Moneta contro ogni bersaglio come danni aggiuntivi contro ogni bersaglio individuale. (arrotondato in su)"
     },
     {
       "id": 1030601,
@@ -1074,7 +1074,7 @@
     {
       "id": 1080811,
       "name": "Capitano della Pequod",
-      "desc": "- Dopo l'Attacco: se il nemico viene sconfitto in seguito all'attacco di questa unità,\n<style=\"highlight\">- ottiene 4 [Breath], +2 Conteggio [Breath]. Infine, ottiene [OverHeatedGasHarpoon] il turno successivo.</style>\n<style=\"highlight\">- 2 altri alleati con meno PS curano 7 PS e ottengono 4 [Breath].</style>\n- Se gli alleati sono parte del Pequod, cura altri 5 PS. <style=\"highlight\">Infine, una volta per turno, applica 1 [PenetrateResultUp] il turno successivo.</style>"
+      "desc": "- Dopo l'Attacco: se il nemico viene sconfitto in seguito all'attacco di questa unità,\n<style=\"highlight\">- ottiene 4 [Breath], +2 Conteggio [Breath]. Infine, ottiene [OverHeatedGasHarpoon] il turno successivo.</style>\n<style=\"highlight\">- 2 altri alleati con meno PS curano 7 PS e ottengono 4 [Breath].</style>\n- Se gli alleati sono parte del Pequod, cura altri 5 PS. <style=\"highlight\">Infine, 1 volta per turno, applica 1 [PenetrateResultUp] il turno successivo.</style>"
     },
     {
       "id": 1080821,
@@ -1374,7 +1374,7 @@
     {
       "id": 1040831,
       "name": "Ordine di Pulizia",
-      "desc": "Quando l'alleato schierato per ultimo vince uno Scontro, ottiene +1 Conteggio [Breath] (3 volte per turno), e ottiene 1 [Agility] il turno successivo (una volta per turno)",
+      "desc": "Quando l'alleato schierato per ultimo vince uno Scontro, ottiene +1 Conteggio [Breath] (3 volte per turno), e ottiene 1 [Agility] il turno successivo (1 volta per turno)",
       "summary": ""
     },
     {
@@ -1480,7 +1480,7 @@
     {
       "id": 1040901,
       "name": "N.O.",
-      "desc": "- Quando un altro alleato fa Vacillare un nemico con un attacco: seguita con un'Abilità 1 contro il nemico Vacillante. (una volta per Turno)\n- Se multipli nemici Vacillano contemporaneamente, bersaglia il nemico con meno PV(per le Anormalità, bersaglia l'Anormalità con meno PV; infine, bersaglia la Parte con meno PV).\n- Quando usa l'Abilità 1 con questo effetto, questa unità ottiene +1 Conteggio [Vibration] dagli effetti delle sue Monete, e causa uno [VibrationExplosion] con l'ultima Moneta Sul Colpo"
+      "desc": "- Quando un altro alleato fa Vacillare un nemico con un attacco: seguita con un'Abilità 1 contro il nemico Vacillante. (1 volta per Turno)\n- Se multipli nemici Vacillano contemporaneamente, bersaglia il nemico con meno PV(per le Anormalità, bersaglia l'Anormalità con meno PV; infine, bersaglia la Parte con meno PV).\n- Quando usa l'Abilità 1 con questo effetto, questa unità ottiene +1 Conteggio [Vibration] dagli effetti delle sue Monete, e causa uno [VibrationExplosion] con l'ultima Moneta Sul Colpo"
     },
     {
       "id": 1040921,
@@ -1495,7 +1495,7 @@
     {
       "id": 1060921,
       "name": "In the Culprit's Shoes",
-      "desc": "Quando l'Identità Schierata #1 innesca [VibrationExplosion] con gli effetti di Abilità o Monete, 25% di causare altri [VibrationExplosion] (una volta per turno)"
+      "desc": "Quando l'Identità Schierata #1 innesca [VibrationExplosion] con gli effetti di Abilità o Monete, 25% di causare altri [VibrationExplosion] (1 volta per turno)"
     },
     {
       "id": 1030901,
@@ -1520,12 +1520,12 @@
     {
       "id": 1051001,
       "name": "Study Hall",
-      "desc": "Ogni volta che un altro alleato Scarta un'Abilità, applica 1 [KnowledgeTraining] all'alleato e se stesso (una volta per Abilità, 3 volte per turno)\nA Fine Turno: il turno successivo, ottiene [PenetrateDamageUp] e [HitDamageUp] pari al numero di altri alleati che hanno Scartato delle Abilità (max 3)"
+      "desc": "Ogni volta che un altro alleato Scarta un'Abilità, applica 1 [KnowledgeTraining] all'alleato e se stesso (1 volta per Abilità, 3 volte per turno)\nA Fine Turno: il turno successivo, ottiene [PenetrateDamageUp] e [HitDamageUp] pari al numero di altri alleati che hanno Scartato delle Abilità (max 3)"
     },
     {
       "id": 1051021,
       "name": "Diligent Learning",
-      "desc": "Quando 1 alleato con i PV massimi più alti Scarta un'Abilità, ottiene (5 x grado dell'Abilità Scartata)% dei PV massimi come Scudo (una volta per turno)\nSe l'unità ha [KnowledgeExplored], moltiplica il valore dello Scudo di 1.5"
+      "desc": "Quando 1 alleato con i PV massimi più alti Scarta un'Abilità, ottiene (5 x grado dell'Abilità Scartata)% dei PV massimi come Scudo (1 volta per turno)\nSe l'unità ha [KnowledgeExplored], moltiplica il valore dello Scudo di 1.5"
     },
     {
       "id": 1111001,
@@ -1535,7 +1535,7 @@
     {
       "id": 1111021,
       "name": "Refraction",
-      "desc": "1 alleato che ha più Conteggio [Charge] A Inizio Turno: infligge +10% danni con le Abilità che hanno consumato 7+ Conteggio [Charge] (una volta per turno)"
+      "desc": "1 alleato che ha più Conteggio [Charge] A Inizio Turno: infligge +10% danni con le Abilità che hanno consumato 7+ Conteggio [Charge] (1 volta per turno)"
     },
     {
       "id": 1021001,
@@ -1552,12 +1552,12 @@
     {
       "id": 1021021,
       "name": "Auxiliary Dismantling Current",
-      "desc": "Quando 1 alleato con il Conteggio [Charge] più basso uccide un nemico, l'alleato ottiene +2 Conteggio [Charge] (una volta per turno, dà priorità agli alleati che consumano o ottengono [Charge])"
+      "desc": "Quando 1 alleato con il Conteggio [Charge] più basso uccide un nemico, l'alleato ottiene +2 Conteggio [Charge] (1 volta per turno, dà priorità agli alleati che consumano o ottengono [Charge])"
     },
     {
       "id": 1021031,
       "name": "Auxiliary Dismantling Current",
-      "desc": "Quando 1 alleato con il Conteggio [Charge] più basso uccide un nemico, l'alleato ottiene +3 Conteggio [Charge] (una volta per turno, dà priorità agli alleati che consumano o ottengono [Charge])"
+      "desc": "Quando 1 alleato con il Conteggio [Charge] più basso uccide un nemico, l'alleato ottiene +3 Conteggio [Charge] (1 volta per turno, dà priorità agli alleati che consumano o ottengono [Charge])"
     },
     {
       "id": 1070901,
@@ -1590,7 +1590,7 @@
     {
       "id": 1071011,
       "name": "Call of the Erlking",
-      "desc": "- Infligge +1% danni per ogni 1 [Sinking] sul bersaglio (max 15%)\n\n<style=\"highlight\">- Quando, durante il combattimento, 1 alleato subisce danni che lo ucciderebbero, consuma 2 [Coffin] per applicargli [WildHunt] (una volta per turno)\n\n- Applica 2 [AttackDmgUp] il turno successivo all'alleato con [WildHunt]\n- Se quell'alleato viene da Wuthering Heights o la Famiglia Edgar, applica 1 [Enhancement] anche il turno successivo</style>",
+      "desc": "- Infligge +1% danni per ogni 1 [Sinking] sul bersaglio (max 15%)\n\n<style=\"highlight\">- Quando, durante il combattimento, 1 alleato subisce danni che lo ucciderebbero, consuma 2 [Coffin] per applicargli [WildHunt] (1 volta per turno)\n\n- Applica 2 [AttackDmgUp] il turno successivo all'alleato con [WildHunt]\n- Se quell'alleato viene da Wuthering Heights o la Famiglia Edgar, applica 1 [Enhancement] anche il turno successivo</style>",
       "summary": "Infligge più danni in base al [Sinking] sul bersaglio"
     },
     {
@@ -1632,7 +1632,7 @@
     {
       "id": 1011001,
       "name": "Fire.IShallFire.",
-      "desc": "Quando questa unità ottiene [BulletLament], ottiene 2 [Agility] il turno successivo (una volta per turno)",
+      "desc": "Quando questa unità ottiene [BulletLament], ottiene 2 [Agility] il turno successivo (1 volta per turno)",
       "summary": "Quando questa unità ottiene [Bullet], ottiene [Agility] il turno successivo"
     },
     {
@@ -1644,7 +1644,7 @@
     {
       "id": 1011011,
       "name": "Fire.IShallFire.",
-      "desc": "Dopo l'Attacco: se questa unità ha ucciso il bersaglio con la sua Abilità, [ReloadLament]\nQuando questa unità ottiene [BulletLament], ottiene 2 [Agility] il turno successivo (una volta per turno)",
+      "desc": "Dopo l'Attacco: se questa unità ha ucciso il bersaglio con la sua Abilità, [ReloadLament]\nQuando questa unità ottiene [BulletLament], ottiene 2 [Agility] il turno successivo (1 volta per turno)",
       "summary": "Quando questa unità ottiene [Bullet], ottiene [Agility] il turno successivo. [ReloadLament] Se Uccide."
     },
     {
@@ -1705,13 +1705,13 @@
     {
       "id": 1051101,
       "name": "Duel Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (una volta per Abilità)",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)",
       "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo"
     },
     {
       "id": 1051111,
       "name": "Duel Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (una volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
       "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo. Cura dei PS Se Uccide"
     },
     {
@@ -1723,7 +1723,7 @@
     {
       "id": 1061001,
       "name": "How a Hunt Cheerfully",
-      "desc": "Se il bersaglio è un <Sanguimonio> o una <Sacca di Sangue>, infligge +10% danni\nSull'Uso di un'Abilità, se questa unità ha [Laceration], infligge 3 [Burst] Sul Colpo (una volta per turno)",
+      "desc": "Se il bersaglio è un <Sanguimonio> o una <Sacca di Sangue>, infligge +10% danni\nSull'Uso di un'Abilità, se questa unità ha [Laceration], infligge 3 [Burst] Sul Colpo (1 volta per turno)",
       "summary": ""
     },
     {
@@ -1908,7 +1908,7 @@
     {
       "id": 1071121,
       "name": "Spotter",
-      "desc": "1 alleato con le [Bullet] ottiene +2 Conteggio [Breath] quando usa un'Abilità che consuma [Bullet].\n- Se quell'alleato è un'Identità dell'Ufficio Punto e Basta, o se ha meno di 5 Conteggio [Breath],invece ottiene +4 Conteggio [Breath] (una volta per turno; non si applica a unità senza [Bullet])"
+      "desc": "1 alleato con le [Bullet] ottiene +2 Conteggio [Breath] quando usa un'Abilità che consuma [Bullet].\n- Se quell'alleato è un'Identità dell'Ufficio Punto e Basta, o se ha meno di 5 Conteggio [Breath],invece ottiene +4 Conteggio [Breath] (1 volta per turno; non si applica a unità senza [Bullet])"
     },
     {
       "id": 1011101,
@@ -1943,7 +1943,7 @@
     {
       "id": 1071201,
       "name": "Lama della Nuvola Nera",
-      "desc": "Quando ci sono 2+ Identità alleate del Clan Kurokumo sul campo, inclusa questa unità, ottiene 1 [BlackCloudBlade] (max 1)\n\nContro nemici che, in questo turno, hanno usato Abilità Difensive o avevano i PV al massimo prima di attaccare: infligge +10% danni\n\nSe un nemico attacca un altro alleato con un'Abilità e ha inflitto danni questo turno: usa un'Attacco Incontrastato contro l'attaccante con l'Abilità 1 (una volta per turno)",
+      "desc": "Quando ci sono 2+ Identità alleate del Clan Kurokumo sul campo, inclusa questa unità, ottiene 1 [BlackCloudBlade] (max 1)\n\nContro nemici che, in questo turno, hanno usato Abilità Difensive o avevano i PV al massimo prima di attaccare: infligge +10% danni\n\nSe un nemico attacca un altro alleato con un'Abilità e ha inflitto danni questo turno: usa un'Attacco Incontrastato contro l'attaccante con l'Abilità 1 (1 volta per turno)",
       "summary": "Ottiene [BlackCloudBlade]; infligge più danni contro i nemici che avevano i PV massimi o hanno usato un'Abilità Difensiva; Contrattacca quando un alleato viene attaccato"
     },
     {
@@ -1954,7 +1954,7 @@
     {
       "id": 1071211,
       "name": "Lama della Nuvola Nera",
-      "desc": "Quando ci sono 2+ Identità alleate del Clan Kurokumo sul campo, inclusa questa unità, ottiene 1 [BlackCloudBlade] (max 1)\n\nContro nemici che, in questo turno, hanno usato Abilità Difensive o avevano i PV al massimo prima di attaccare: infligge +10% danni\n\nSe un nemico attacca un altro alleato con un'Abilità e ha inflitto danni questo turno: usa un'Attacco Incontrastato contro l'attaccante con l'Abilità 1 (una volta per turno)\n\n<style=\"highlight\">Se il nemico ha ucciso un altro alleato, o se i PV di quell'alleato sono sotto il 25% dopo l'attacco nemico, invece usa un'Attacco Incontrastato contro l'attaccante con <Regole dei Vicoli> (una volta per alleato; 2 volte per turno; l'Abilità attivata con questo effetto Conta come un'Abilità Attacco)</style>",
+      "desc": "Quando ci sono 2+ Identità alleate del Clan Kurokumo sul campo, inclusa questa unità, ottiene 1 [BlackCloudBlade] (max 1)\n\nContro nemici che, in questo turno, hanno usato Abilità Difensive o avevano i PV al massimo prima di attaccare: infligge +10% danni\n\nSe un nemico attacca un altro alleato con un'Abilità e ha inflitto danni questo turno: usa un'Attacco Incontrastato contro l'attaccante con l'Abilità 1 (1 volta per turno)\n\n<style=\"highlight\">Se il nemico ha ucciso un altro alleato, o se i PV di quell'alleato sono sotto il 25% dopo l'attacco nemico, invece usa un'Attacco Incontrastato contro l'attaccante con <Regole dei Vicoli> (1 volta per alleato; 2 volte per turno; l'Abilità attivata con questo effetto Conta come un'Abilità Attacco)</style>",
       "summary": "Ottiene [BlackCloudBlade]; infligge più danni contro i nemici che avevano i PV massimi o hanno usato un'Abilità Difensiva; Contrattacca quando un alleato viene attaccato"
     },
     {
@@ -2012,7 +2012,7 @@
     {
       "id": 1121101,
       "name": "I'm the only survivor...",
-      "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Sanguimonio>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità fa Vacillare o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (una volta per turno)\n- negli Incontri Mirati, sulle Parti"
+      "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Sanguimonio>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità fa Vacillare o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (1 volta per turno)\n- negli Incontri Mirati, sulle Parti"
     },
     {
       "id": 1121121,
@@ -2022,22 +2022,22 @@
     {
       "id": 1031101,
       "name": "Virescent Pyrojade",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 5 Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità Attacco Base, infligge [DianxueDonQuixote] il turno successivo (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 5 Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità Attacco Base, infligge [DianxueDonQuixote] il turno successivo (1 volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)"
     },
     {
       "id": 1031111,
       "name": "Virescent Pyrojade",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni <style=\"highlight\">3</style> Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità Attacco Base, infligge [DianxueDonQuixote] il turno successivo (una volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)\n<style=\"highlight\">- Aumenta il massimo di 5% per ogni 1 [DianxueDonQuixote] sul bersaglio</style>"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni <style=\"highlight\">3</style> Potenza [Breath] su se stessa (max 2)\n\nContro il bersaglio(o la Parte) colpito per ultimo da un'Abilità Attacco Base, infligge [DianxueDonQuixote] il turno successivo (1 volta per turno)\n\nInfligge +(Potenza [Combustion] sul bersaglio)% danni con un Colpo Critico (max 15%)\n<style=\"highlight\">- Aumenta il massimo di 5% per ogni 1 [DianxueDonQuixote] sul bersaglio</style>"
     },
     {
       "id": 1031121,
       "name": "Featherstride Technique",
-      "desc": "1 alleato con la Velocità più alta : A Scontro Vinto contro i nemici con [Combustion] o '[Combustion] Speciale', ottiene 1 [Agility] il turno successivo (una volta per turno)"
+      "desc": "1 alleato con la Velocità più alta : A Scontro Vinto contro i nemici con [Combustion] o '[Combustion] Speciale', ottiene 1 [Agility] il turno successivo (1 volta per turno)"
     },
     {
       "id": 1031131,
       "name": "Featherstride Technique",
-      "desc": "1 alleato con la Velocità più alta : A Scontro Vinto contro i nemici con [Combustion] o '[Combustion] Speciale', ottiene 1 [Agility] il turno successivo (una volta per turno)\n<style=\"highlight\">- Se il bersaglio ha 20+ Potenza [Combustion], ottiene 1 [Agility] in più</style>"
+      "desc": "1 alleato con la Velocità più alta : A Scontro Vinto contro i nemici con [Combustion] o '[Combustion] Speciale', ottiene 1 [Agility] il turno successivo (1 volta per turno)\n<style=\"highlight\">- Se il bersaglio ha 20+ Potenza [Combustion], ottiene 1 [Agility] in più</style>"
     },
     {
       "id": 1041101,
@@ -2062,17 +2062,17 @@
     {
       "id": 1111221,
       "name": "A Husk of Hares",
-      "desc": "1 alleato con la Velocità più alta: quando attacca i bersagli con [Burst], infligge +10% danni\nOttiene 1 [Agility] il turno successivo (una volta per turno)"
+      "desc": "1 alleato con la Velocità più alta: quando attacca i bersagli con [Burst], infligge +10% danni\nOttiene 1 [Agility] il turno successivo (1 volta per turno)"
     },
     {
       "id": 1101201,
       "name": "The Middle Never Forgets",
-      "desc": "Quando subisce un colpo da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando subisce un colpo da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101211,
       "name": "The Middle Never Forgets",
-      "desc": "Quando subisce un colpo da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (una volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando subisce un colpo da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101221,
@@ -2122,7 +2122,7 @@
     {
       "id": 1091221,
       "name": "Veleno Intravascolare",
-      "desc": "Quando 1 alleato con la Velocità più alta infligge [Burst] danni a un nemico, infligge 1 [AttackDown] e 1 [DefenseDown] il turno successivo (una volta per turno)"
+      "desc": "Quando 1 alleato con la Velocità più alta infligge [Burst] danni a un nemico, infligge 1 [AttackDown] e 1 [DefenseDown] il turno successivo (1 volta per turno)"
     },
     {
       "id": 1021201,
@@ -2143,7 +2143,7 @@
     {
       "id": 1081201,
       "name": "Rupture-breathing Resolve [破吸自桓]",
-      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità Attacco, ottiene [Breath] pari a [Burst] sul bersaglio (3 per 1 nemico; una volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] pari a conteggio [Burst] sul bersaglio (2 per 1 nemico; una volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] o Conteggio [Burst] in più con le proprie Abilità Attacco Base (2 volte per turno)",
+      "desc": "Quando questa unità uccide il bersaglio con le sue Abilità Attacco, ottiene [Breath] pari a [Burst] sul bersaglio (3 per 1 nemico; 1 volta per turno)\n- Se questa unità ha ottenuto 3 [Breath] con il suddetto effetto, ottiene Conteggio [Breath] pari a conteggio [Burst] sul bersaglio (2 per 1 nemico; 1 volta per turno)\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere Scontro +1\n\nIn uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, infligge +1 Potenza [Burst] o Conteggio [Burst] in più con le proprie Abilità Attacco Base (2 volte per turno)",
       "summary": "In uno Scontro, se il Livello Offensivo di questa unità è maggiore del bersaglio, Potere Scontro +1\nInfligge +1 more Potenza [Burst] e Conteggio [Burst] con le Abilità Attacco Base"
     },
     {
@@ -2161,13 +2161,13 @@
     {
       "id": 1101301,
       "name": "Tributo di Munizioni",
-      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento più alto che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondata in difetto), consuma [FireBulletPropellant] su di sé pari alla quantità di [Bullet] che l'unità affetta ha usato e la rifornisce con tante [Bullet] quante le [FireBulletPropellant] consumate da questa unità. (può consumare fino a 3 munizioni) (una volta per Incontro)\n\n- Se l'Identità che riceve [Bullet] è un'Identità del Pollice di rango più alto, fornisce 1 [Bullet] che usa in più\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente.\n- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia.",
+      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento più alto che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondata in difetto), consuma [FireBulletPropellant] su di sé pari alla quantità di [Bullet] che l'unità affetta ha usato e la rifornisce con tante [Bullet] quante le [FireBulletPropellant] consumate da questa unità. (può consumare fino a 3 munizioni) (1 volta per Incontro)\n\n- Se l'Identità che riceve [Bullet] è un'Identità del Pollice di rango più alto, fornisce 1 [Bullet] che usa in più\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente.\n- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia.",
       "summary": ""
     },
     {
       "id": 1101311,
       "name": "Tributo di Munizioni",
-      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento più alto che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondata in difetto), consuma [FireBulletPropellant] su di sé pari alla quantità di [Bullet] che l'unità affetta ha usato e la rifornisce con tante [Bullet] quante le [FireBulletPropellant] consumate da questa unità. <style=\"highlight\">(può consumare fino a 5 munizioni)</style> (una volta per Incontro)\n\n- Se l'Identità che riceve [Bullet] è un'Identità del Pollice di rango più alto, fornisce 1 [Bullet] che usa in più\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente.\n- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia.",
+      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento più alto che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondata in difetto), consuma [FireBulletPropellant] su di sé pari alla quantità di [Bullet] che l'unità affetta ha usato e la rifornisce con tante [Bullet] quante le [FireBulletPropellant] consumate da questa unità. <style=\"highlight\">(può consumare fino a 5 munizioni)</style> (1 volta per Incontro)\n\n- Se l'Identità che riceve [Bullet] è un'Identità del Pollice di rango più alto, fornisce 1 [Bullet] che usa in più\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente.\n- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia.",
       "summary": ""
     },
     {
@@ -2179,13 +2179,13 @@
     {
       "id": 1101321,
       "name": "Ricaricatore",
-      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento più alto che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondato in difetto), recupera [Bullet] quanto la metà della sua capacità massima (arrotondate in eccesso; una volta per Incontro; massime [Bullet] recuperate: 5)\n\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia\n- Questo effetto non si attiva se non ci sono Identità con [Bullet]",
+      "desc": "Quando 1 Identità alleata con l'Ordine di Schieramento più alto che usa [Bullet] conclude il suo attacco, se la sua quantità di [Bullet] è sotto la metà (arrotondato in difetto), recupera [Bullet] quanto la metà della sua capacità massima (arrotondate in eccesso; 1 volta per Incontro; massime [Bullet] recuperate: 5)\n\n- Se l'Identità che riceve [Bullet] ha valori separati in Potenza e Conteggio, verranno fornite casualmente- Se la Potenza o Conteggio è già al massimo, fornisce qualunque non lo sia\n- Questo effetto non si attiva se non ci sono Identità con [Bullet]",
       "summary": ""
     },
     {
       "id": 1051202,
       "name": "Chachihu [揷翅虎]",
-      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha preparato delle Abilità Difensive per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità Vacilla: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (una volta per Incontro)\n- Se questo effetto si attiva quando questa unità Vacilla, si riprende dal Vacillamento (a meno che non sia un Vacillamento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellconverte tutte le Monete diopellantSpecialAllyusate), conv(i)rte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità Attacco Base che consuma l'ultima [BulletPropellantSpecialAlly]...\n- Ottiene Peso Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
+      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha preparato delle Abilità Difensive per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità Vacilla: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (1 volta per Incontro)\n- Se questo effetto si attiva quando questa unità Vacilla, si riprende dal Vacillamento (a meno che non sia un Vacillamento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellconverte tutte le Monete diopellantSpecialAllyusate), conv(i)rte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità Attacco Base che consuma l'ultima [BulletPropellantSpecialAlly]...\n- Ottiene Peso Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
       "summary": ""
     },
     {
@@ -2260,8 +2260,8 @@
     {
       "id": 1091303,
       "name": "Sussurri del Cavaliere Tradito",
-      "desc": "I suoi PS non possono scenedere sotto -40 a causa dei seguenti effetti:\n- Effetti di perdita PS delle proprie Abilità Base\n- Effetti di perdita PS delle Passive di Supporto delle unità alleate\n- Effetti di perdita PS di [SwordCutwithTear]\n- Effetti di perdita PS per morti degli alleati nei suoi 'Fattori di base che diminuiscono Sanità'\n\nIn un'Incontro, quando questa unità subisce danni che portano i suoi PS a -45, mantiene i propri PS a -44 per quel turno (una volta per Incontro)\n(※ Questo si applica solo ai danni ai PS; non si applica ai cambi nei PS o consumo di PS da parte di Abilità come l'uso di Abilità E.G.O)",
-      "summary": "Alcuni effetti non possono ridurre i propri PS sotto -40 \nI PS non scendono sotto -44 (una volta per Incontro, non funziona se questa unità consuma i propri PS)"
+      "desc": "I suoi PS non possono scenedere sotto -40 a causa dei seguenti effetti:\n- Effetti di perdita PS delle proprie Abilità Base\n- Effetti di perdita PS delle Passive di Supporto delle unità alleate\n- Effetti di perdita PS di [SwordCutwithTear]\n- Effetti di perdita PS per morti degli alleati nei suoi 'Fattori di base che diminuiscono Sanità'\n\nIn un'Incontro, quando questa unità subisce danni che portano i suoi PS a -45, mantiene i propri PS a -44 per quel turno (1 volta per Incontro)\n(※ Questo si applica solo ai danni ai PS; non si applica ai cambi nei PS o consumo di PS da parte di Abilità come l'uso di Abilità E.G.O)",
+      "summary": "Alcuni effetti non possono ridurre i propri PS sotto -40 \nI PS non scendono sotto -44 (1 volta per Incontro, non funziona se questa unità consuma i propri PS)"
     },
     {
       "id": 1091304,
@@ -2296,7 +2296,7 @@
     {
       "id": 1111301,
       "name": "Tempo D'oro' - Microcavità",
-      "desc": "Fine Turno: Se i PV di questa unità sono tra 10% ~ 20%, si cura immediatamente di 80% dei suoi PV massimi, e si riprende da Vacillamento. (una volta per Incontro)\n\nSe questa unità ha [TimeRentalTwoPersonality], le sue Abilità ottengono Potere Finale +1",
+      "desc": "Fine Turno: Se i PV di questa unità sono tra 10% ~ 20%, si cura immediatamente di 80% dei suoi PV massimi, e si riprende da Vacillamento. (1 volta per Incontro)\n\nSe questa unità ha [TimeRentalTwoPersonality], le sue Abilità ottengono Potere Finale +1",
       "summary": "Instato di [TimeRentalTwoPersonality], le Abilità ottengono Potere Finale +1"
     },
     {
@@ -2313,7 +2313,7 @@
     {
       "id": 1061301,
       "name": "Accetta il Sangue Immondo e Dissangua il Prossimo Per la Causa.",
-      "desc": "A Inzio Combattimento: se questa unità non ha preparato un'Abilità Difensiva e sta per subire un'Attacco Incontrastato, applica 1 [HeishouSupportProtect] a (Rison. più alta/ 3) alleati di un Branco Heishou casuali con le meno Stack di [SupportProtect]. (max 2 alleati; una volta per Identità; esclude le Identità con Abilità che ottengono [SupportProtect])\n\nIn questo Incontro, quando questa unità subisce danni che mandano i suoi PV a 0, annulla quei danni; infine, i PV di questa unità non possono scendere sotto a 1 per quel turno, ed ottiene 1 [CondensedBlood] (una volta per Incontro)\n\nLe Abilità di questa unità infliggono +3% danni per ogni [CondensedBlood] su di sé\n\nQuando attiva l'Abilità E.G.O 'Lacrime[TabExplain] del Sangue Immondo[TabExplain] - La Fine', annulla l'effetto mortale nei suoi effetti Dopo l'Attacco; invece, si cura di 60% PV. All'inizio del turno successivo, ottiene 1 [AttackDmgUp] ad ogni Inizio Turno (una volta per Incontro)",
+      "desc": "A Inzio Combattimento: se questa unità non ha preparato un'Abilità Difensiva e sta per subire un'Attacco Incontrastato, applica 1 [HeishouSupportProtect] a (Rison. più alta/ 3) alleati di un Branco Heishou casuali con le meno Stack di [SupportProtect]. (max 2 alleati; 1 volta per Identità; esclude le Identità con Abilità che ottengono [SupportProtect])\n\nIn questo Incontro, quando questa unità subisce danni che mandano i suoi PV a 0, annulla quei danni; infine, i PV di questa unità non possono scendere sotto a 1 per quel turno, ed ottiene 1 [CondensedBlood] (1 volta per Incontro)\n\nLe Abilità di questa unità infliggono +3% danni per ogni [CondensedBlood] su di sé\n\nQuando attiva l'Abilità E.G.O 'Lacrime[TabExplain] del Sangue Immondo[TabExplain] - La Fine', annulla l'effetto mortale nei suoi effetti Dopo l'Attacco; invece, si cura di 60% PV. All'inizio del turno successivo, ottiene 1 [AttackDmgUp] ad ogni Inizio Turno (1 volta per Incontro)",
       "summary": "Quando subisce danni che mandano i PV di questa unità a 0, annulla la morte, e ottiene [CondensedBlood]\nQuando attiva 'Lacrime[TabExplain] del Sangue Immondo[TabExplain]', annulla la morte, si cura PV, e ottiene [AttackDmgUp]"
     },
     {
@@ -2335,7 +2335,7 @@
     {
       "id": 1101421,
       "name": "Lama Sanguifiamma [血炎刀]",
-      "desc": "Quando un alleato con la Velocità maggiore infligge Potenza [Combustion] o [Burst] con le sue Abilità, infligge 1 Potenza [Combustion] e [Burst] (una volta per turno)"
+      "desc": "Quando un alleato con la Velocità maggiore infligge Potenza [Combustion] o [Burst] con le sue Abilità, infligge 1 Potenza [Combustion] e [Burst] (1 volta per turno)"
     },
     {
       "id": 1011401,
@@ -2350,7 +2350,7 @@
     {
       "id": 1011402,
       "name": "La Lealtà Canina del Destriero [狗馬之心]",
-      "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene l'effetto seguente come effetto della [HeishouComboCountHonglu]:\n- Sul Colpo con l'Ultima Moneta delle Abilità Base, innesca uno [VibrationExplosion] (una volta per turno)\n\nSe la Candidata a Gerarca della Famiglia Ishmael è un'unità che Partecipa Attivamente, attiva i seguenti:\n- Quando la Candidata a Gerarca della Famiglia Ishmael infligge [Burst] o Conteggio [Burst] con i suoi effetti Abilità, ottiene inoltre 3 Potenza [Breath] (2 volte per turno; Abilità E.G.O escluse)\n- Inizio Turno: applica 1 [Enhancement] alla Candidata a Gerarca della Famiglia Ishmael. Se Ishmael ha 10+ Potenza [Breath], applica 1 [Enhancement] in più\n- Dopo che questa unità usa l'Abilità \"Decapitazione a Mezzaluna del Falcatempesta d'Ossidiana\", la Candidata a Gerarca della Famiglia Ishmael usa \"Primavera Cremisi\" come Attacco di Supporto[TabExplain] (una volta per turno)"
+      "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene l'effetto seguente come effetto della [HeishouComboCountHonglu]:\n- Sul Colpo con l'Ultima Moneta delle Abilità Base, innesca uno [VibrationExplosion] (1 volta per turno)\n\nSe la Candidata a Gerarca della Famiglia Ishmael è un'unità che Partecipa Attivamente, attiva i seguenti:\n- Quando la Candidata a Gerarca della Famiglia Ishmael infligge [Burst] o Conteggio [Burst] con i suoi effetti Abilità, ottiene inoltre 3 Potenza [Breath] (2 volte per turno; Abilità E.G.O escluse)\n- Inizio Turno: applica 1 [Enhancement] alla Candidata a Gerarca della Famiglia Ishmael. Se Ishmael ha 10+ Potenza [Breath], applica 1 [Enhancement] in più\n- Dopo che questa unità usa l'Abilità \"Decapitazione a Mezzaluna del Falcatempesta d'Ossidiana\", la Candidata a Gerarca della Famiglia Ishmael usa \"Primavera Cremisi\" come Attacco di Supporto[TabExplain] (1 volta per turno)"
     },
     {
       "id": 1011403,
@@ -2360,32 +2360,32 @@
     {
       "id": 1011421,
       "name": "L'esoscheletro d'Ossidiana taglierà e proteggerà la mia carne",
-      "desc": "Applica l'effetto seguente all'alleato con i maggiori PV Max\n- Inizio Combattimento: ottiene (differenza della Velocità dell'unità affetta tra questo e il turno passato x 2) Livello Difensivo (max 5; se l'unità affetta non era una Partecipante Attiva nel turno passato, il calcolo usa il suo valore di Velocità minima)\n- Inizio Combattimento: se l'unità affetta è sotto il 50% dei PV, e se la differenza di Velocità tra questo e il turno passato è di 3 o superiore, si cura di 50 PV (una volta per Incontro)"
+      "desc": "Applica l'effetto seguente all'alleato con i maggiori PV Max\n- Inizio Combattimento: ottiene (differenza della Velocità dell'unità affetta tra questo e il turno passato x 2) Livello Difensivo (max 5; se l'unità affetta non era una Partecipante Attiva nel turno passato, il calcolo usa il suo valore di Velocità minima)\n- Inizio Combattimento: se l'unità affetta è sotto il 50% dei PV, e se la differenza di Velocità tra questo e il turno passato è di 3 o superiore, si cura di 50 PV (1 volta per Incontro)"
     },
     {
       "id": 1041201,
       "name": "La Mano di @#$ Che Mi È Sfuggita",
-      "desc": "Sul Colpo contro i nemici, infligge 1 [GazeRyoshu] (una volta per turno per nemico)\n- Se questa unità ha [GazePersonality], infligge +1 [GazeRyoshu] in più\n\nQuando subisce un colpo da un nemico, infligge 1 [GazeRyoshu] all'attaccante (una volta per Abilità; 3 volte per turno)\n- Se questa unità ha [ContemptPersonality]: quando viene colpita dall'ultima Moneta del nemico, infligge (10% dei danni inflitti da quell'ultima Moneta) danni Accidia (max 10 per Abilità; max 30 per turno)\n\nSe questa unità ha usato le sue Abilità Attacco Base per consumare [GazeRyoshu] o [ContemptRyoshu] su un nemico:\nIl Turno Successivo, ottiene (([GazeRyoshu] del nemico consumato/2) + ([ContemptRyoshu] del nemico consumato x 3)) [GazePersonality] (6 per turno; arrotondato al difetto)"
+      "desc": "Sul Colpo contro i nemici, infligge 1 [GazeRyoshu] (1 volta per turno per nemico)\n- Se questa unità ha [GazePersonality], infligge +1 [GazeRyoshu] in più\n\nQuando subisce un colpo da un nemico, infligge 1 [GazeRyoshu] all'attaccante (1 volta per Abilità; 3 volte per turno)\n- Se questa unità ha [ContemptPersonality]: quando viene colpita dall'ultima Moneta del nemico, infligge (10% dei danni inflitti da quell'ultima Moneta) danni Accidia (max 10 per Abilità; max 30 per turno)\n\nSe questa unità ha usato le sue Abilità Attacco Base per consumare [GazeRyoshu] o [ContemptRyoshu] su un nemico:\nIl Turno Successivo, ottiene (([GazeRyoshu] del nemico consumato/2) + ([ContemptRyoshu] del nemico consumato x 3)) [GazePersonality] (6 per turno; arrotondato al difetto)"
     },
     {
       "id": 1041211,
       "name": "La Mano di @#$ Che Mi È Sfuggita",
-      "desc": "Sul Colpo contro i nemici, infligge <style=\"highlight\">2</style> [GazeRyoshu] (una volta per turno per nemico)\n- Se questa unità ha [GazePersonality], infligge +1 [GazeRyoshu] in più\n\nQuando subisce un colpo da un nemico, infligge 1 [GazeRyoshu] all'attaccante (una volta per Abilità; 3 volte per turno)\n- Se questa unità ha [ContemptPersonality]: quando viene colpita dall'ultima Moneta del nemico, infligge (<style=\"highlight\">20</style>% dei danni inflitti da quell'ultima Moneta) danni Accidia (max <style=\"highlight\">20</style> per Abilità; max <style=\"highlight\">60</style> per turno)\n\nSe questa unità ha usato le sue Abilità Attacco Base per consumare [GazeRyoshu] o [ContemptRyoshu] su un nemico:\nIl Turno Successivo, ottiene (([GazeRyoshu] del nemico consumato/2) + ([ContemptRyoshu] del nemico consumato x 3)) [GazePersonality] (6 per turno; arrotondato al difetto)"
+      "desc": "Sul Colpo contro i nemici, infligge <style=\"highlight\">2</style> [GazeRyoshu] (1 volta per turno per nemico)\n- Se questa unità ha [GazePersonality], infligge +1 [GazeRyoshu] in più\n\nQuando subisce un colpo da un nemico, infligge 1 [GazeRyoshu] all'attaccante (1 volta per Abilità; 3 volte per turno)\n- Se questa unità ha [ContemptPersonality]: quando viene colpita dall'ultima Moneta del nemico, infligge (<style=\"highlight\">20</style>% dei danni inflitti da quell'ultima Moneta) danni Accidia (max <style=\"highlight\">20</style> per Abilità; max <style=\"highlight\">60</style> per turno)\n\nSe questa unità ha usato le sue Abilità Attacco Base per consumare [GazeRyoshu] o [ContemptRyoshu] su un nemico:\nIl Turno Successivo, ottiene (([GazeRyoshu] del nemico consumato/2) + ([ContemptRyoshu] del nemico consumato x 3)) [GazePersonality] (6 per turno; arrotondato al difetto)"
     },
     {
       "id": 1041202,
       "name": "Presa Che Vieta di Cadere",
-      "desc": "Quando Vacilla, ottiene 4 [Protection] e ottiene [ContemptPersonality] il turno successivo (una volta per Incontro)\n\nAlla morte, applica i seguenti effetti ai 3 nemici con il più [GazeRyoshu] o [ContemptRyoshu] (in ordine discendente; negli Incontri Mirati, alle Parti)\n- Infligge 2 [Binding] il turno successivo\n- Infligge 2 [Laceration] e +1 Conteggio [Laceration]\n- Infligge 2 [Vibration] e +1 Conteggio [Vibration]"
+      "desc": "Quando Vacilla, ottiene 4 [Protection] e ottiene [ContemptPersonality] il turno successivo (1 volta per Incontro)\n\nAlla morte, applica i seguenti effetti ai 3 nemici con il più [GazeRyoshu] o [ContemptRyoshu] (in ordine discendente; negli Incontri Mirati, alle Parti)\n- Infligge 2 [Binding] il turno successivo\n- Infligge 2 [Laceration] e +1 Conteggio [Laceration]\n- Infligge 2 [Vibration] e +1 Conteggio [Vibration]"
     },
     {
       "id": 1041203,
       "name": "Lasciate che vi mostri qualcosa di molto interessante",
-      "desc": "Inizio Combattimento: L'Abilità di E.G.O della N Corp.::<noparse>Proiettile Crudele</noparse> 'Fuoco al Bersaglio Cambiato' ottiene i seguenti effetti:\n- Prima di usare l'Abilità, se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū ha [ContemptPersonality] e può usare le sue Abilità base, usa \"Farò Fuoco / Quando Vuoi\" contro Ryōshū (una volta per turno; 'Farò Fuoco / Quando Vuoi' riflette il Grado Legame di Yi Sang)\n- Prima di usare l'Abilità, se il bersaglio principale non è E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū, e se può usare le sue Abilità base, Ryōshū usa la sua Abilità 1 come Attacco Incontrastato contro il bersaglio principale (una volta per turno; [CantIdentify]; Abilità 1 infligge -50% danni; l'Abilità non uccide il bersaglio principale)"
+      "desc": "Inizio Combattimento: L'Abilità di E.G.O della N Corp.::<noparse>Proiettile Crudele</noparse> 'Fuoco al Bersaglio Cambiato' ottiene i seguenti effetti:\n- Prima di usare l'Abilità, se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū ha [ContemptPersonality] e può usare le sue Abilità base, usa \"Farò Fuoco / Quando Vuoi\" contro Ryōshū (1 volta per turno; 'Farò Fuoco / Quando Vuoi' riflette il Grado Legame di Yi Sang)\n- Prima di usare l'Abilità, se il bersaglio principale non è E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū, e se può usare le sue Abilità base, Ryōshū usa la sua Abilità 1 come Attacco Incontrastato contro il bersaglio principale (1 volta per turno; [CantIdentify]; Abilità 1 infligge -50% danni; l'Abilità non uccide il bersaglio principale)"
     },
     {
       "id": 1041221,
       "name": "Scorre e risuona",
-      "desc": "Se l'alleato con l'ordine di Schieramento più alto colpisce un nemico con un attacco, infligge 1 [Laceration] (una volta per nemico per turno)\n- Se il bersaglio ha [Laceration], infligge inoltre +1 Conteggio [Laceration]\n\nSe l'alleato con l'ordine di Schieramento più alto viene colpito da un nemico, infligge 1 [Vibration] all'attaccante (3 volte per turno)\n- Se l'attaccante ha [Vibration], infligge inoltre +1 Conteggio [Vibration]",
+      "desc": "Se l'alleato con l'ordine di Schieramento più alto colpisce un nemico con un attacco, infligge 1 [Laceration] (1 volta per nemico per turno)\n- Se il bersaglio ha [Laceration], infligge inoltre +1 Conteggio [Laceration]\n\nSe l'alleato con l'ordine di Schieramento più alto viene colpito da un nemico, infligge 1 [Vibration] all'attaccante (3 volte per turno)\n- Se l'attaccante ha [Vibration], infligge inoltre +1 Conteggio [Vibration]",
       "summary": "Sul Colpo, infligge [Laceration]; infligge inoltre Conteggio se il bersaglio ha già l'effetto\nQuando subisce un colpo, infligge [Vibration]; infligge inoltre Conteggio se il bersaglio ha già l'effetto"
     },
     {

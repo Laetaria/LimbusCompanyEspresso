@@ -698,7 +698,7 @@
         {
           "level": 4,
           "name": "Evasione",
-          "desc": "[OnSucceedEvade] Si cura di 5 PS (una volta per turno)",
+          "desc": "[OnSucceedEvade] Si cura di 5 PS (1 volta per turno)",
           "coinlist": [
             {}
           ]
@@ -968,7 +968,7 @@
         {
           "level": 1,
           "name": "Your Shield",
-          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [DefensiveStance]. (una volta per turno)\n[WhenUse] Ottiene +10 Conteggio [Vibration] (una volta per turno)",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [DefensiveStance]. (1 volta per turno)\n[WhenUse] Ottiene +10 Conteggio [Vibration] (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -982,7 +982,7 @@
         {
           "level": 4,
           "name": "Your Shield",
-          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [DefensiveStance]. (una volta per turno)\n[WhenUse] Ottiene +10 Conteggio [Vibration] (una volta per turno)\n<style=\"highlight\">[WinDuel] Innesca [VibrationExplosion]</style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [DefensiveStance]. (1 volta per turno)\n[WhenUse] Ottiene +10 Conteggio [Vibration] (1 volta per turno)\n<style=\"highlight\">[WinDuel] Innesca [VibrationExplosion]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1078,7 +1078,7 @@
         {
           "level": 1,
           "name": "Lama Affilata",
-          "desc": "[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica 1 [AttackDmgUp] (una volta per turno)\n- Se ci sono 6+ alleati del Clan Kurokumo, inclusa questa unità, allora applica 2 [AttackDmgUp] a 5 alleati",
+          "desc": "[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica 1 [AttackDmgUp] (1 volta per turno)\n- Se ci sono 6+ alleati del Clan Kurokumo, inclusa questa unità, allora applica 2 [AttackDmgUp] a 5 alleati",
           "coinlist": [
             {
               "coindescs": [
@@ -1099,7 +1099,7 @@
         {
           "level": 2,
           "name": "Lama Affilata",
-          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica <style=\"highlight\">2</style> [AttackDmgUp] (una volta per turno)\n- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, allora applica <style=\"highlight\">3</style> [AttackDmgUp] a 5 alleati",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica <style=\"highlight\">2</style> [AttackDmgUp] (1 volta per turno)\n- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, allora applica <style=\"highlight\">3</style> [AttackDmgUp] a 5 alleati",
           "coinlist": [
             {
               "coindescs": [
@@ -1107,7 +1107,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [SlashTakeDamageUp] (una volta per turno)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [SlashTakeDamageUp] (1 volta per turno)</style>"
                 }
               ]
             },
@@ -1117,7 +1117,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [SlashResultUp] il turno successivo (una volta per turno)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [SlashResultUp] il turno successivo (1 volta per turno)</style>"
                 }
               ]
             }
@@ -1126,7 +1126,7 @@
         {
           "level": 4,
           "name": "Lama Affilata",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\nInfligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 50%)</style>\n[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica 2 [AttackDmgUp] (una volta per turno)\n- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, applica 4 [AttackDmgUp] a 5 allies instead",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\nInfligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 50%)</style>\n[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica 2 [AttackDmgUp] (1 volta per turno)\n- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, applica 4 [AttackDmgUp] a 5 allies instead",
           "coinlist": [
             {
               "coindescs": [
@@ -1134,7 +1134,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [SlashTakeDamageUp] (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [SlashTakeDamageUp] (1 volta per turno)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, infligge 2 [Vulnerable] instead</style>"
@@ -1189,7 +1189,7 @@
         {
           "level": 4,
           "name": "Pittura ad Inchiostro",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EnemyKill] Ottiene 2 [SlashResultUp] il turno successivo (una volta per turno)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EnemyKill] Ottiene 2 [SlashResultUp] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1225,7 +1225,7 @@
         {
           "level": 1,
           "name": "Taglio Dispersivo",
-          "desc": "[StartBattle] Ottiene 1 [Protection] (una volta per turno)",
+          "desc": "[StartBattle] Ottiene 1 [Protection] (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1239,7 +1239,7 @@
         {
           "level": 4,
           "name": "Taglio Dispersivo",
-          "desc": "[StartBattle] Ottiene 1 [Protection] (una volta per turno)\n<style=\"highlight\">[StartBattle] A (2 + Rison. più alta) Identità del Clan Kurokumo alleate, inclusa questa unità, dalla Velocità più alta: applica 2 [Endurance] (una volta per turno)</style>",
+          "desc": "[StartBattle] Ottiene 1 [Protection] (1 volta per turno)\n<style=\"highlight\">[StartBattle] A (2 + Rison. più alta) Identità del Clan Kurokumo alleate, inclusa questa unità, dalla Velocità più alta: applica 2 [Endurance] (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1273,7 +1273,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (una volta per turno)"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (1 volta per turno)"
                 }
               ]
             }
@@ -1297,7 +1297,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (una volta per turno)"
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (1 volta per turno)"
                 }
               ]
             }
@@ -1411,7 +1411,7 @@
                   "desc": "Infligge +(20 + [Breath] su di sé + [Burst] sul bersaglio)% danni sul Colpo Critico (max 50%)"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo (una volta per turno)"
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo (1 volta per turno)"
                 }
               ]
             }
@@ -1458,7 +1458,7 @@
                   "desc": "Infligge +(20 + [Breath] su di sé + [Burst] sul bersaglio)% danni sul Colpo Critico (max 50%)"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo (una volta per turno)"
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo (1 volta per turno)"
                 }
               ]
             }

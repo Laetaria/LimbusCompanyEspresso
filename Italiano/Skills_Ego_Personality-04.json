@@ -364,7 +364,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (1 volta per turno)"
                 }
               ]
             }
@@ -383,7 +383,7 @@
                   "desc": "<style=\"highlight\">Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (1 volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -402,7 +402,7 @@
                   "desc": "Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">4</style> [HoldingBreath] (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">4</style> [HoldingBreath] (1 volta per turno)"
                 }
               ]
             }
@@ -417,13 +417,13 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (una volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 2 [Breath] e +2 Conteggio [Breath]",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (1 volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 2 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (1 volta per turno)"
                 }
               ]
             }
@@ -433,7 +433,7 @@
           "level": 3,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n<style=\"highlight\">- Ottiene 1 [Breath] per ogni alleato bersagliato da quest'Abilità (max 2)</style>\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (una volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono <style=\"highlight\">4</style> [Breath] e +2 Conteggio [Breath] \n<style=\"highlight\">- Recupera metà dei PS usati da questa Abilità</style>",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n<style=\"highlight\">- Ottiene 1 [Breath] per ogni alleato bersagliato da quest'Abilità (max 2)</style>\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (1 volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono <style=\"highlight\">4</style> [Breath] e +2 Conteggio [Breath] \n<style=\"highlight\">- Recupera metà dei PS usati da questa Abilità</style>",
           "coinlist": [
             {},
             {
@@ -442,7 +442,7 @@
                   "desc": "<style=\"highlight\">Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (una volta per turno)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (1 volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -452,7 +452,7 @@
           "level": 4,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n- Ottiene <style=\"highlight\">2</style> [Breath] per ogni alleato bersagliato da quest'Abilità (max <style=\"highlight\">4</style>)\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 3 [HoldingBreath] il turno successivo (una volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 4 [Breath] e +<style=\"highlight\">4</style>Conteggio [Breath]\n<style=\"highlight\">- Recupera i PS ed 1 di ogni risorsa E.G.O usati da questa Abilità</style>",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- Non può Vacillare o morire tramite quest'effetto\n- Ottiene <style=\"highlight\">2</style> [Breath] per ogni alleato bersagliato da quest'Abilità (max <style=\"highlight\">4</style>)\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 3 [HoldingBreath] il turno successivo (1 volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 4 [Breath] e +<style=\"highlight\">4</style>Conteggio [Breath]\n<style=\"highlight\">- Recupera i PS ed 1 di ogni risorsa E.G.O usati da questa Abilità</style>",
           "coinlist": [
             {},
             {
@@ -461,7 +461,7 @@
                   "desc": "Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">7</style> [HoldingBreath] (una volta per turno)"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">7</style> [HoldingBreath] (1 volta per turno)"
                 }
               ]
             }

@@ -1479,7 +1479,7 @@
     {
       "id": "KnowledgeTraining",
       "name": "Erudizione",
-      "desc": "- Valore Massimo: 6\n- Quando scarta un Abilità, ottiene il (Erudizione x 1.5)% di PV massimi di quest'unità come scudo (una volta per turno)\n- Se quest'unità scarta un'Abilità mentre ha 2+ Conoscenza, ottiene 1 Potere Scontro (una volta per turno)\n- Ridotto di 1 quando subisce danni ai PV dopo essere stato colpito da un'Abilità Offensiva nemica\n- Scade se l'unità Vacilla",
+      "desc": "- Valore Massimo: 6\n- Quando scarta un Abilità, ottiene il (Erudizione x 1.5)% di PV massimi di quest'unità come scudo (1 volta per turno)\n- Se quest'unità scarta un'Abilità mentre ha 2+ Conoscenza, ottiene 1 Potere Scontro (1 volta per turno)\n- Ridotto di 1 quando subisce danni ai PV dopo essere stato colpito da un'Abilità Offensiva nemica\n- Scade se l'unità Vacilla",
       "summary": ""
     },
     {
@@ -1497,7 +1497,7 @@
     {
       "id": "PhotoElectricity",
       "name": "Fotoelettricità",
-      "desc": "Valore Massimo: 3\nQuando quest'unità viene colpita, l'attaccante ottiene Conteggio Carica pari a questo valore (una volta per Abilità)\n- Se l'attaccante possiede meno di 5 Conteggio Carica, ottiene +3 Carica addizionale\nA Fine Turno: quest'effetto scade",
+      "desc": "Valore Massimo: 3\nQuando quest'unità viene colpita, l'attaccante ottiene Conteggio Carica pari a questo valore (1 volta per Abilità)\n- Se l'attaccante possiede meno di 5 Conteggio Carica, ottiene +3 Carica addizionale\nA Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
@@ -1982,7 +1982,7 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Talismano Maledetto Contorto",
-      "desc": "- Stack Max: 10\n- Scade a Fine Turno\n- A 10+ Stack, quando subisce 30+ danni da un'Abilità: ottiene +1 Conteggio Lacerazione; Subisce danni da Gola pari alla potenza Lacerazione su questa unità(una volta per turno)\n- Quando questo effetto scade, ottiene (Stack / 4) Calo Offensivo il turno successivo (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "desc": "- Stack Max: 10\n- Scade a Fine Turno\n- A 10+ Stack, quando subisce 30+ danni da un'Abilità: ottiene +1 Conteggio Lacerazione; Subisce danni da Gola pari alla potenza Lacerazione su questa unità(1 volta per turno)\n- Quando questo effetto scade, ottiene (Stack / 4) Calo Offensivo il turno successivo (massimo 2)\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": "",
       "undefined": "-"
     },
@@ -1996,7 +1996,7 @@
     {
       "id": "DragonLance",
       "name": "Lancia Tumula-Fiori [埋花櫼]",
-      "desc": "Stack Base: 0\nStack Max: 3\n- Tutte le Monete dell'Abilità Base più a sinistra sull Pannello di Controllo diventano Monete Infrangibili\n- A Inizio Turno: ottiene due 2 Aumento Offensivo e 2 Aumento Difensivo per ogni stack\n- A Inizio Turno: a 3+ Stack, ottiene 1 Sangue Immondo (una volta per Incontro)\n- A Fine Turno: ottiene 1 Stack\n※ Non può aumentare le Stack di questo effetto in nessun modo oltre al suddetto \n- Scade alla morte o alla Ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o farla Vacillare o Sconfiggere, usa l'Abilità 'Lacrime del Sangue Immondo - La Fine'  alla fine di quello stesso turno. Rimuove La Lancia Tumula-Fiori a Fine Turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 a Fine Turno, usa l'Abilità 'Lacrime del Sangue Immondo - La Fine' in base alla Velocità di questa unità",
+      "desc": "Stack Base: 0\nStack Max: 3\n- Tutte le Monete dell'Abilità Base più a sinistra sull Pannello di Controllo diventano Monete Infrangibili\n- A Inizio Turno: ottiene due 2 Aumento Offensivo e 2 Aumento Difensivo per ogni stack\n- A Inizio Turno: a 3+ Stack, ottiene 1 Sangue Immondo (1 volta per Incontro)\n- A Fine Turno: ottiene 1 Stack\n※ Non può aumentare le Stack di questo effetto in nessun modo oltre al suddetto \n- Scade alla morte o alla Ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o farla Vacillare o Sconfiggere, usa l'Abilità 'Lacrime del Sangue Immondo - La Fine'  alla fine di quello stesso turno. Rimuove La Lancia Tumula-Fiori a Fine Turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 a Fine Turno, usa l'Abilità 'Lacrime del Sangue Immondo - La Fine' in base alla Velocità di questa unità",
       "summary": "",
       "undefined": "-"
     },
@@ -2185,14 +2185,14 @@
     {
       "id": "HeishouComboCountHonglu",
       "name": "Contaminazione del Bolo Heishou [黑獣丸染]",
-      "desc": "- Stack Max: 11\n- Rafforza Il Lord di Hongyuan Hong Lu in base a con quale Heishou ha attivato una combo\n- Gli effetti di Contaminazione del Bolo Heishou si possono sovrapporre\n\n· Heishou - Eccelsa del Ramo Mao Faust: subisce -5% danni dalle Abilità\n· Heishou - Mao Ryōshū: se la Velocità di questa unità è maggiore del bersaglio, infligge +5% danni\n· Heishou - Mao Outis: infligge +1 Conteggio Lacerazione Sul Colpo con gli Attacchi Incontrastati (una volta per turno)\n· Heishou - Si Rodion: Infligge 1 Lacerazione Sul Colpo Critico (3 volte per turno)\n· Heishou - Si Gregor: Ottiene +1 Conteggio Respiro quando infligge danni Lacerazione (una volta per turno)",
+      "desc": "- Stack Max: 11\n- Rafforza Il Lord di Hongyuan Hong Lu in base a con quale Heishou ha attivato una combo\n- Gli effetti di Contaminazione del Bolo Heishou si possono sovrapporre\n\n· Heishou - Eccelsa del Ramo Mao Faust: subisce -5% danni dalle Abilità\n· Heishou - Mao Ryōshū: se la Velocità di questa unità è maggiore del bersaglio, infligge +5% danni\n· Heishou - Mao Outis: infligge +1 Conteggio Lacerazione Sul Colpo con gli Attacchi Incontrastati (1 volta per turno)\n· Heishou - Si Rodion: Infligge 1 Lacerazione Sul Colpo Critico (3 volte per turno)\n· Heishou - Si Gregor: Ottiene +1 Conteggio Respiro quando infligge danni Lacerazione (1 volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DarkHongluQiuAndHonglu",
       "name": "Colui che Segue la Via del Condottiero",
-      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS si cura di 5 PS\n- Alla morte di un alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (una volta per turno)",
+      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS si cura di 5 PS\n- Alla morte di un alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (1 volta per turno)",
       "summary": ""
     },
     {
@@ -2210,7 +2210,7 @@
     {
       "id": "DarkHonglu_EGOResourceup",
       "name": "Non Importa Quanti Sanguineranno...",
-      "desc": "[Effetto Esclusivo a Hong Lu]\n- Per questo Incontro: dopo aver usato un'Abilità Attacco, ottiene 2 risorse aggiuntive dell'Affinità dell'Abilità (una volta per turno)\n- Quando questa unità subisce danni, ottiene 2 Aumento Danno Tagliente il turno successivo (una volta per turno)",
+      "desc": "[Effetto Esclusivo a Hong Lu]\n- Per questo Incontro: dopo aver usato un'Abilità Attacco, ottiene 2 risorse aggiuntive dell'Affinità dell'Abilità (1 volta per turno)\n- Quando questa unità subisce danni, ottiene 2 Aumento Danno Tagliente il turno successivo (1 volta per turno)",
       "summary": ""
     },
     {
@@ -2228,13 +2228,13 @@
     {
       "id": "DarkHonglu_Ai",
       "name": "Felicità, Gioia, Tristezza",
-      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (1 volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
       "name": "Felicità, Gioia, Tristezza, Ira",
-      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (una volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (1 volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {

@@ -96,7 +96,7 @@
     {
       "id": 9004,
       "name": "Pacchetto di Flebotomia",
-      "desc": "Quando si colpisce un nemico con un'Abilità, cura del 12.5% i PV mancanti del personaggio (una volta per personaggio per turno)\n\nSe l'Affinità dell'Abilità era Ira, curerà invece il 25% dei PV mancanti.",
+      "desc": "Quando si colpisce un nemico con un'Abilità, cura del 12.5% i PV mancanti del personaggio (1 volta per personaggio per turno)\n\nSe l'Affinità dell'Abilità era Ira, curerà invece il 25% dei PV mancanti.",
       "simpleDesc": [
         {
           "abilityID": 9004,
@@ -510,7 +510,7 @@
     {
       "id": 9020,
       "name": "Cotone Bianco",
-      "desc": "A Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge (8 + LV di Vacillamento x 4) Potenza [Laceration] e (8 + LV di Vacillamento x4)/2 [AttackDown] su di loro. (Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
+      "desc": "A Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge (8 + LV di Vacillamento x 4) Potenza [Laceration] e (8 + LV di Vacillamento x4)/2 [AttackDown] su di loro. (Si attiva 1 volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
       "simpleDesc": [
         {
           "abilityID": 9020,
@@ -521,7 +521,7 @@
     {
       "id": 19020,
       "name": "Cotone Bianco+",
-      "desc": "A Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge <style=\"upgradeHighlight\">(10 + LV di Vacillamento x 5) Potenza [Laceration] </style> e <style=\"upgradeHighlight\">(10 + LV di Vacillamento x 5)</style> [AttackDown] su di loro. (Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
+      "desc": "A Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge <style=\"upgradeHighlight\">(10 + LV di Vacillamento x 5) Potenza [Laceration] </style> e <style=\"upgradeHighlight\">(10 + LV di Vacillamento x 5)</style> [AttackDown] su di loro. (Si attiva 1 volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
       "simpleDesc": [
         {
           "abilityID": 19020,
@@ -532,7 +532,7 @@
     {
       "id": 29020,
       "name": "Cotone Bianco++",
-      "desc": "A Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge <style=\"upgradeHighlight\">(12 + LV di Vacillamento x 6) Potenza [Laceration] </style> e <style=\"upgradeHighlight\">(12 + LV di Vacillamento x 6)</style> [AttackDown] ed <style=\"upgradeHighlight\">[DefenseDown]</style> su di loro. (Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
+      "desc": "A Inizio Turno: Se ci sono nemici Vacillanti, questi si riprendono dal Vacillamento. Poi, infligge <style=\"upgradeHighlight\">(12 + LV di Vacillamento x 6) Potenza [Laceration] </style> e <style=\"upgradeHighlight\">(12 + LV di Vacillamento x 6)</style> [AttackDown] ed <style=\"upgradeHighlight\">[DefenseDown]</style> su di loro. (Si attiva 1 volta per nemico per Incontro. Non si attiva contro certi nemici che non si riprendono dal Vacillamento.)",
       "simpleDesc": [
         {
           "abilityID": 29020,
@@ -1930,7 +1930,7 @@
     {
       "id": 9070,
       "name": "Specchio Nitido, Acqua Calma",
-      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a x1,7.\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene 10 [AttackUp] al turno successivo. (si attiva una volta per Identità, una volta per turno)",
+      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a x1,7.\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene 10 [AttackUp] al turno successivo. (si attiva 1 volta per Identità, 1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9070,
@@ -1941,7 +1941,7 @@
     {
       "id": 19070,
       "name": "Specchio Nitido, Acqua Calma+",
-      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">12 [AttackUp]</style> al turno successivo. (si attiva una volta per Identità, una volta per turno)",
+      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">12 [AttackUp]</style> al turno successivo. (si attiva 1 volta per Identità, 1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 19070,
@@ -1952,7 +1952,7 @@
     {
       "id": 29070,
       "name": "Specchio Nitido, Acqua Calma++",
-      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.5.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">15 [AttackUp]</style> al turno successivo. (si attiva una volta per Identità, una volta per turno)",
+      "desc": "Aumenta il moltiplicatore del danno da Colpo Critico degli alleati da x1,2 a <style=\"upgradeHighlight\">x2.5.</style>\n\nSe un Colpo Critico consuma Conteggio [Breath], l'alleato ottiene <style=\"upgradeHighlight\">15 [AttackUp]</style> al turno successivo. (si attiva 1 volta per Identità, 1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 29070,
@@ -2350,7 +2350,7 @@
     {
       "id": 9088,
       "name": "Lenire i Morti",
-      "desc": "Inizio dell'Incontro: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che infliggono Potenza, Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nInfligge 3 Conteggio [Combustion] a tutti i nemici (o tutte le Parti dell'Anormalità) ed infligge casualmente un totale di 15 Potenza [Combustion] tra tutti i nemici (o tutte le Parti dell'Anormalità, una volta per ondata).\n\nLe Abilità che infliggono Potenza o Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale': Potere Finale +1, Potere Moneta +1, infligge Potenza [Combustion] +1, infligge Conteggio [Combustion] +1.\n\nQuando si vince uno Scontro con un'Abilità che infligge Potenza o Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge (n° delle Monete rimanenti + 1) Potenza [Combustion] al nemico colpito.",
+      "desc": "Inizio dell'Incontro: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che infliggono Potenza, Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nInfligge 3 Conteggio [Combustion] a tutti i nemici (o tutte le Parti dell'Anormalità) ed infligge casualmente un totale di 15 Potenza [Combustion] tra tutti i nemici (o tutte le Parti dell'Anormalità, 1 volta per ondata).\n\nLe Abilità che infliggono Potenza o Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale': Potere Finale +1, Potere Moneta +1, infligge Potenza [Combustion] +1, infligge Conteggio [Combustion] +1.\n\nQuando si vince uno Scontro con un'Abilità che infligge Potenza o Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infligge (n° delle Monete rimanenti + 1) Potenza [Combustion] al nemico colpito.",
       "simpleDesc": [
         {
           "abilityID": 9088,
@@ -2437,7 +2437,7 @@
     {
       "id": 9091,
       "name": "Campana della Verità",
-      "desc": "Infligge 1 [Vulnerable] questo turno ai nemici affetti da [VibrationExplosion]. (Si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])",
+      "desc": "Infligge 1 [Vulnerable] questo turno ai nemici affetti da [VibrationExplosion]. (Si attiva 1 volta per Abilità Attacco che innesca [VibrationExplosion])",
       "simpleDesc": [
         {
           "abilityID": 9091,
@@ -2448,7 +2448,7 @@
     {
       "id": 19091,
       "name": "Campana della Verità+",
-      "desc": "Infligge 1 [Vulnerable] <style=\"upgradeHighlight\">questo ed il successivo turno</style> ai nemici affetti da [VibrationExplosion]. (Si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])",
+      "desc": "Infligge 1 [Vulnerable] <style=\"upgradeHighlight\">questo ed il successivo turno</style> ai nemici affetti da [VibrationExplosion]. (Si attiva 1 volta per Abilità Attacco che innesca [VibrationExplosion])",
       "simpleDesc": [
         {
           "abilityID": 19091,
@@ -2459,7 +2459,7 @@
     {
       "id": 29091,
       "name": "Campana della Verità++",
-      "desc": "<style=\"upgradeHighlight\">Infligge 2 [Vulnerable]</style> questo ed il successivo turno ai nemici affetti da [VibrationExplosion]. (Si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])",
+      "desc": "<style=\"upgradeHighlight\">Infligge 2 [Vulnerable]</style> questo ed il successivo turno ai nemici affetti da [VibrationExplosion]. (Si attiva 1 volta per Abilità Attacco che innesca [VibrationExplosion])",
       "simpleDesc": [
         {
           "abilityID": 29091,
@@ -2470,7 +2470,7 @@
     {
       "id": 9092,
       "name": "Oscillazione Accoppiata",
-      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration] o '<noparse> Vibrazione<noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (tranne per le Abilità E.G.O e le Identità di Riserva)\n\nInfligge 5 Potenza [Vibration] e +5 Conteggio [Vibration] a tutti i nemici. (o tutte le Parti dell'Anormalità, una volta per Ondata)\n\nApplica 5 Potenza [Vibration] e 2 [Vulnerable] questo ed il prossimo turno ai nemici affetti da [VibrationExplosion]. (si attiva una volta per Abilità Attacco che innesca [VibrationExplosion])\n\nDopo aver innescato 3 [VibrationExplosion] ad un bersaglio questo turno, fa Vacillare il bersaglio al prossimo Inizio Turno ed aggiunge una nuova Soglia di Vacillamento al 66% ed al 33% dei PV attuali del bersaglio. (una volta per Incontro)\n\nQuando si innesca [Switch_Vibration] o [FusionVibration], infligge 1 [Vulnerable] (3 volte per turno)",
+      "desc": "Inizio dell'Incontro: Questo Dono si attiva quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration] o '<noparse> Vibrazione<noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (tranne per le Abilità E.G.O e le Identità di Riserva)\n\nInfligge 5 Potenza [Vibration] e +5 Conteggio [Vibration] a tutti i nemici. (o tutte le Parti dell'Anormalità, 1 volta per Ondata)\n\nApplica 5 Potenza [Vibration] e 2 [Vulnerable] questo ed il prossimo turno ai nemici affetti da [VibrationExplosion]. (si attiva 1 volta per Abilità Attacco che innesca [VibrationExplosion])\n\nDopo aver innescato 3 [VibrationExplosion] ad un bersaglio questo turno, fa Vacillare il bersaglio al prossimo Inizio Turno ed aggiunge una nuova Soglia di Vacillamento al 66% ed al 33% dei PV attuali del bersaglio. (1 volta per Incontro)\n\nQuando si innesca [Switch_Vibration] o [FusionVibration], infligge 1 [Vulnerable] (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9092,
@@ -2690,7 +2690,7 @@
     {
       "id": 9100,
       "name": "Macchina a Moto Continuo T-1",
-     "desc": "A Inizio Turno: Questo Dono si attiva quando 5 o più identità hanno Abilità Attacco che conferiscono Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Turno: tutti gli alleati ottengono 7 [ChargeForceField]. (una volta per ondata)\n\nA Inizio Turno: tutti gli alleati ottengono ((Conteggio [Charge])/5 +1) [AttackDmgUp]. (max 9, si arrotonda per eccesso; incluso '<noparse>Carica</noparse> Speciale')\n\nOgni Identità ottiene (totale Conteggio [Charge] consumato usando Abilità Attacco durante questo Incontro / 4) Aumento Livello Offensivo all'Inizio Turno. (raggiunge il suo massimo dopo aver consumato 40 Conteggio [Charge])\n\nOgni Identità ottiene 1 [Charge] tutte le volte che consuma 10 Conteggio [Charge]. (5 volte per Identità per Incontro; non interagisce con '<noparse>Carica</noparse> Speciale' di Potenza Fissa)\n\nA Inizio Turno: tutti gli alleati ottengono 1 [Enhancement] per ogni 2 Potenza [Charge] su se stessi (max di 3)",
+     "desc": "A Inizio Turno: Questo Dono si attiva quando 5 o più identità hanno Abilità Attacco che conferiscono Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Turno: tutti gli alleati ottengono 7 [ChargeForceField]. (1 volta per ondata)\n\nA Inizio Turno: tutti gli alleati ottengono ((Conteggio [Charge])/5 +1) [AttackDmgUp]. (max 9, si arrotonda per eccesso; incluso '<noparse>Carica</noparse> Speciale')\n\nOgni Identità ottiene (totale Conteggio [Charge] consumato usando Abilità Attacco durante questo Incontro / 4) Aumento Livello Offensivo all'Inizio Turno. (raggiunge il suo massimo dopo aver consumato 40 Conteggio [Charge])\n\nOgni Identità ottiene 1 [Charge] tutte le volte che consuma 10 Conteggio [Charge]. (5 volte per Identità per Incontro; non interagisce con '<noparse>Carica</noparse> Speciale' di Potenza Fissa)\n\nA Inizio Turno: tutti gli alleati ottengono 1 [Enhancement] per ogni 2 Potenza [Charge] su se stessi (max di 3)",
       "simpleDesc": [
         {
           "abilityID": 9100,
@@ -3169,7 +3169,7 @@
     {
       "id": 9119,
       "name": "Ombrello Logoro",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge +2 Conteggio [Burst] contro il bersaglio (una volta per turno, una volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece 3 Potenza [Burst] e +2 Conteggio [Burst].",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge +2 Conteggio [Burst] contro il bersaglio (1 volta per turno, 1 volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece 3 Potenza [Burst] e +2 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 9119,
@@ -3184,7 +3184,7 @@
     {
       "id": 19119,
       "name": "Ombrello Logoro+",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">2 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (una volta per turno, una volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">4</style> Potenza [Burst] e +2 Conteggio [Burst].",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">2 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (1 volta per turno, 1 volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">4</style> Potenza [Burst] e +2 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 19119,
@@ -3199,7 +3199,7 @@
     {
       "id": 29119,
       "name": "Ombrello Logoro++",
-      "desc": "[L'Effetto si applica alla Prima, alla Seconda ed alle Terze Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">4 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (una volta per turno, una volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">6</style> Potenza [Burst] e +3 Conteggio [Burst].",
+      "desc": "[L'Effetto si applica alla Prima, alla Seconda ed alle Terze Identità Schierate]\n\nQuando si vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Burst], infligge <style=\"upgradeHighlight\">4 Potenza [Burst]</style> e +2 Conteggio [Burst] contro il bersaglio (1 volta per turno, 1 volta per Identità)\n\nSe il bersaglio non ha [Burst], infligge invece <style=\"upgradeHighlight\">6</style> Potenza [Burst] e +3 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 29119,
@@ -3289,7 +3289,7 @@
     {
       "id": 9123,
       "name": "Stracci",
-      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano 5 PS aggiuntivi (una volta per turno) a Scontro Vinto; se i PS sono al massimo, infligge il 7.5% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti)% in più di danni; se l'alleato ha meno di -15 PS, infligge il 15% in più di danni.",
+      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano 5 PS aggiuntivi (1 volta per turno) a Scontro Vinto; se i PS sono al massimo, infligge il 7.5% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti)% in più di danni; se l'alleato ha meno di -15 PS, infligge il 15% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9123,
@@ -3304,7 +3304,7 @@
     {
       "id": 19123,
       "name": "Stracci+",
-      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">6</style> PS aggiuntivi (una volta per turno) a Scontro Vinto; se i PS sono al massimo, infligge il <style=\"upgradeHighlight\">10</style>% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti <style=\"upgradeHighlight\">+ 5</style>)% in più di danni; se l'alleato ha meno di -15 PS, infligge il <style=\"upgradeHighlight\">20</style>% in più di danni.",
+      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">6</style> PS aggiuntivi (1 volta per turno) a Scontro Vinto; se i PS sono al massimo, infligge il <style=\"upgradeHighlight\">10</style>% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti <style=\"upgradeHighlight\">+ 5</style>)% in più di danni; se l'alleato ha meno di -15 PS, infligge il <style=\"upgradeHighlight\">20</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19123,
@@ -3319,7 +3319,7 @@
     {
       "id": 29123,
       "name": "Stracci++",
-      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">7</style> PS aggiuntivi (una volta per turno) a Scontro Vinto; se i PS sono al massimo, infligge il <style=\"upgradeHighlight\">12.5</style>% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti <style=\"upgradeHighlight\">+ 10</style>)% in più di danni; se l'alleato ha meno di -15 PS, infligge il <style=\"upgradeHighlight\">25</style>% in più di danni.",
+      "desc": "Gli Alleati con Abilità Attacco che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' curano <style=\"upgradeHighlight\">7</style> PS aggiuntivi (1 volta per turno) a Scontro Vinto; se i PS sono al massimo, infligge il <style=\"upgradeHighlight\">12.5</style>% in più di danni.\n\nQuando gli alleati in questione usano un'Abilità con Moneta Negativa (escluse le Abilità E.G.O): a -15 o più PS, riduce i PS di -15 ed infligge il (valore dei PS perduti <style=\"upgradeHighlight\">+ 10</style>)% in più di danni; se l'alleato ha meno di -15 PS, infligge il <style=\"upgradeHighlight\">25</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29123,
@@ -3334,7 +3334,7 @@
     {
       "id": 9124,
       "name": "Grandezza",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con 10 o più (Potenza + Conteggio [Sinking]), infligge 2 Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge invece 4 Potenza [Sinking] e +2 Conteggio [Sinking] (una volta per turno, una volta per Identità).",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con 10 o più (Potenza + Conteggio [Sinking]), infligge 2 Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge invece 4 Potenza [Sinking] e +2 Conteggio [Sinking] (1 volta per turno, 1 volta per Identità).",
       "simpleDesc": [
         {
           "abilityID": 9124,
@@ -3345,7 +3345,7 @@
     {
       "id": 19124,
       "name": "Grandezza+",
-      "desc": "Gli Effetti si applicano solo alla Prima, alla Seconda ed <style=\"upgradeHighlight\">alla Terza</style> Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">8</style> o più (Potenza + Conteggio [Sinking]), infligge <style=\"upgradeHighlight\">3</style> Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge invece <style=\"upgradeHighlight\">5</style> Potenza [Sinking] e +2 Conteggio [Sinking] (una volta per Identità).",
+      "desc": "Gli Effetti si applicano solo alla Prima, alla Seconda ed <style=\"upgradeHighlight\">alla Terza</style> Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">8</style> o più (Potenza + Conteggio [Sinking]), infligge <style=\"upgradeHighlight\">3</style> Potenza [Sinking] e +2 Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge invece <style=\"upgradeHighlight\">5</style> Potenza [Sinking] e +2 Conteggio [Sinking] (1 volta per Identità).",
       "simpleDesc": [
         {
           "abilityID": 19124,
@@ -3356,7 +3356,7 @@
     {
       "id": 29124,
       "name": "Grandezza++",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">5</style> o più (Potenza + Conteggio [Sinking]), infligge 3 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge 5 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] (una volta per Identità)",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nQuando si infliggono danni con un'Abilità Attacco che infligge Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' contro nemici con <style=\"upgradeHighlight\">5</style> o più (Potenza + Conteggio [Sinking]), infligge 3 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] dopo l'Attacco (2 volte per turno per Identità)\n\nIn Incontri Mirati: infligge 5 Potenza [Sinking] e <style=\"upgradeHighlight\">+3</style> Conteggio [Sinking] (1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29124,
@@ -3928,7 +3928,7 @@
     {
       "id": 9144,
       "name": "Benedizione d'Un Tempo",
-      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nQuando si colpisce un nemico con un'Abilità Perforante, ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossiom turno. (una volta per turno)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva nel prossimo turno. (una volta per turno)",
+      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nQuando si colpisce un nemico con un'Abilità Perforante, ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossiom turno. (1 volta per turno)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva nel prossimo turno. (1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9144,
@@ -3943,7 +3943,7 @@
     {
       "id": 19144,
       "name": "Benedizione d'Un Tempo+",
-      "desc": "[Gli Effetti si applicano solo alla <style=\"upgradeHighlight\">Quinta</style> ed alla Sesta Identità Schierate]\n\nQuando si colpisce un nemico con un'Abilità Perforante, ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossiom turno. (una volta per turno)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva e <style=\"upgradeHighlight\">1 [PenetrateDamageUp]</style> aggiuntiva nel prossimo turno. (una volta per turno)",
+      "desc": "[Gli Effetti si applicano solo alla <style=\"upgradeHighlight\">Quinta</style> ed alla Sesta Identità Schierate]\n\nQuando si colpisce un nemico con un'Abilità Perforante, ottiene 1 [Agility] ed 1 [PenetrateDamageUp] nel prossiom turno. (1 volta per turno)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva e <style=\"upgradeHighlight\">1 [PenetrateDamageUp]</style> aggiuntiva nel prossimo turno. (1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 19144,
@@ -3958,7 +3958,7 @@
     {
       "id": 29144,
       "name": "Benedizione d'Un Tempo++",
-      "desc": "[Gli Effetti si applicano solo alla Quinta e Sesta Identità Schierate]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva e <style=\"upgradeHighlight\">2</style> aggiuntiva nel prossimo turno. (una volta per turno)",
+      "desc": "[Gli Effetti si applicano solo alla Quinta e Sesta Identità Schierate]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nQuando il nemico viene sconfitto con suddetta Abilità, ottiene 1 [Agility] aggiuntiva e <style=\"upgradeHighlight\">2</style> aggiuntiva nel prossimo turno. (1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 29144,
@@ -3973,7 +3973,7 @@
     {
       "id": 9145,
       "name": "Bandoliera Strappata",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9145,
@@ -3992,7 +3992,7 @@
     {
       "id": 19145,
       "name": "Bandoliera Strappata+",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19145,
@@ -4011,7 +4011,7 @@
     {
       "id": 29145,
       "name": "Bandoliera Strappata++",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (una volta per Incontro, una volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29145,
@@ -4419,7 +4419,7 @@
     {
       "id": 9165,
       "name": "Ingranaggio Interbloccato",
-      "desc": "Inizio dell'Incontro: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nQuando si innesca [VibrationExplosion] per la sesta volta nello stesso turno, aggiunge una Soglia di Vacillamento aggiuntiva allo 0% dei loro PV attuali (una volta per Incontro)\n\nInfligge 1 [Vulnerable] quando si innesca [Switch_Vibration] o [FusionVibration] (una volta per turno)",
+      "desc": "Inizio dell'Incontro: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nQuando si innesca [VibrationExplosion] per la sesta volta nello stesso turno, aggiunge una Soglia di Vacillamento aggiuntiva allo 0% dei loro PV attuali (1 volta per Incontro)\n\nInfligge 1 [Vulnerable] quando si innesca [Switch_Vibration] o [FusionVibration] (1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9165,
@@ -4490,7 +4490,7 @@
     {
       "id": 9182,
       "name": "Vite a Testa Ottagonale T-1B",
-      "desc": "Inizio dell'Incontro: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Turno: tutti gli alleati ottengono ((Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') / 10) [AttackDmgUp]. (max 2, si arrotonda per eccesso)\n\nA Fine Turno: gli alleati senza [ChargeForceField] ottengono 1 [ChargeForceField].\n\nTutte le Identità acquisiscono 1 Potenza [Charge] tutte le volte che consumano 20 Conteggio [Charge]. (2 volte per identità, due volte per incontro; <noparse>Carica</noparse> Speciale non funziona con questo effetto).",
+      "desc": "Inizio dell'Incontro: Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Turno: tutti gli alleati ottengono ((Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') / 10) [AttackDmgUp]. (max 2, si arrotonda per eccesso)\n\nA Fine Turno: gli alleati senza [ChargeForceField] ottengono 1 [ChargeForceField].\n\nTutte le Identità acquisiscono 1 Potenza [Charge] tutte le volte che consumano 20 Conteggio [Charge]. (2 volte per identità, 2 volte per incontro; <noparse>Carica</noparse> Speciale non funziona con questo effetto).",
       "simpleDesc": [
         {
           "abilityID": 9182,
@@ -4678,7 +4678,7 @@
     {
       "id": 9194,
       "name": "Spada Bastone Corta",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (una volta per turno, una volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità della Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente.\n\nInizio dell'Incontro: le Identità della Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; max 2)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità della Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente.\n\nInizio dell'Incontro: le Identità della Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; max 2)",
       "simpleDesc": [
         {
           "abilityID": 9193,
@@ -4693,7 +4693,7 @@
     {
       "id": 19194,
       "name": "Spada Bastone Corta+",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (una volta per turno, una volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità della Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente ed <style=\"upgradeHighlight\">infliggono Indaga Debolezza.</style>\n\n<style=\"upgradeHighlight\">Inizio Turno di numero dispari</style>: Identità della Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; max 2)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità della Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente ed <style=\"upgradeHighlight\">infliggono Indaga Debolezza.</style>\n\n<style=\"upgradeHighlight\">Inizio Turno di numero dispari</style>: Identità della Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; max 2)",
       "simpleDesc": [
         {
           "abilityID": 19193,
@@ -4708,7 +4708,7 @@
     {
       "id": 29194,
       "name": "Spada Bastone Corta++",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (una volta per turno, una volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità della Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente e infliggono Indaga Debolezza e 1<style=\"upgradeHighlight\"> Potere di Scontro Abbassato.</style> \n\n<style=\"upgradeHighlight\">Inizio Turno</style>: Identità della Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; max 2) <style=\"upgradeHighlight\">Quando si vince uno Scontro, infligge il 20% in più dei danni con l'Abilità.</style>",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità della Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente e infliggono Indaga Debolezza e 1<style=\"upgradeHighlight\"> Potere di Scontro Abbassato.</style> \n\n<style=\"upgradeHighlight\">Inizio Turno</style>: Identità della Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; max 2) <style=\"upgradeHighlight\">Quando si vince uno Scontro, infligge il 20% in più dei danni con l'Abilità.</style>",
       "simpleDesc": [
         {
           "abilityID": 29193,
@@ -4768,7 +4768,7 @@
     {
       "id": 9196,
       "name": "Spadone Spezzato",
-      "desc": "Le Abilità Attacco Tagliente ottengono Potere di Scontro +2. All'inizio del combattimento, ottengono [AttackUp] pari al numero di Identità che usano Abilità Attacco Tagliente durante il Turno. (max 3)\n\nGli Alleati che hanno danno Tagliente per tutte le loro Abilità Attacco Base ottengono 2 [SlashDamageUp] all'inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usa una Guardia (escluse le Guardie Potenziate), l'unità ottiene 1 [Protection] e 3 [DefenseUp] (una volta per Identità, una volta per Turno). Quando nello stesso Turno una Identità viene ferita 2 volte ai PV o al proprio Scudo per via di un'Abilità Attacco nemica a bersaglio unico, ottiene 1 [DefenseUp] al prossimo turno (max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Zwei ottengono 2 [Enhancement] e 1 [SlashResultUp]; inoltre, ottengono 2 [DefenseUp] pari al resto delle Identità dell'Associazione Zwei presenti. (max 8)",
+      "desc": "Le Abilità Attacco Tagliente ottengono Potere di Scontro +2. All'inizio del combattimento, ottengono [AttackUp] pari al numero di Identità che usano Abilità Attacco Tagliente durante il Turno. (max 3)\n\nGli Alleati che hanno danno Tagliente per tutte le loro Abilità Attacco Base ottengono 2 [SlashDamageUp] all'inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usa una Guardia (escluse le Guardie Potenziate), l'unità ottiene 1 [Protection] e 3 [DefenseUp] (1 volta per Identità, 1 volta per Turno). Quando nello stesso Turno una Identità viene ferita 2 volte ai PV o al proprio Scudo per via di un'Abilità Attacco nemica a bersaglio unico, ottiene 1 [DefenseUp] al prossimo turno (max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Zwei ottengono 2 [Enhancement] e 1 [SlashResultUp]; inoltre, ottengono 2 [DefenseUp] pari al resto delle Identità dell'Associazione Zwei presenti. (max 8)",
       "simpleDesc": [
         {
           "abilityID": 9196,
@@ -4802,7 +4802,7 @@
     {
       "id": 9198,
       "name": "Piuma di Sfida",
-      "desc": "Quando si colpisce un nemico dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infligge 1 [Binding] al bersaglio nel prossimo turno. (una volta per Turno, una volta per Identità; non si cumula sullo stesso nemico)\n- Per le Identità dell'Associazione Cinq: oltre agli effetti citati precedentemente, le Identità alleate ricevono anche 1 [Agility] nel prossimo turno (una volta per Turno, una volta per Identità).\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro un bersaglio (per le Anormalità, una loro Parte) infliggendo 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 2 Potenza [Breath] sul colpo (una volta per turno, una volta per Identità)",
+      "desc": "Quando si colpisce un nemico dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infligge 1 [Binding] al bersaglio nel prossimo turno. (1 volta per Turno, 1 volta per Identità; non si cumula sullo stesso nemico)\n- Per le Identità dell'Associazione Cinq: oltre agli effetti citati precedentemente, le Identità alleate ricevono anche 1 [Agility] nel prossimo turno (1 volta per Turno, 1 volta per Identità).\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro un bersaglio (per le Anormalità, una loro Parte) infliggendo 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 2 Potenza [Breath] sul colpo (1 volta per turno, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9198,
@@ -4817,7 +4817,7 @@
     {
       "id": 19198,
       "name": "Piuma di Sfida+",
-      "desc": "Quando si colpisce un nemico dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infligge 1 [Binding] al bersaglio nel prossimo turno. (una volta per Turno, una volta per Identità, <style=\"upgradeHighlight\">max 2</style> per nemico)\n- Per le Identità dell'Associazione Cinq: oltre agli effetti citati precedentemente, le Identità alleate ricevono anche 1 [Agility] nel prossimo turno. (una volta per Turno, una volta per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro un bersaglio (per le Anormalità, una loro Parte) infliggendo 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene <style=\"upgradeHighlight\">4</style> Potenza [Breath] sul colpo (una volta per turno, una volta per Identità)",
+      "desc": "Quando si colpisce un nemico dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infligge 1 [Binding] al bersaglio nel prossimo turno. (1 volta per Turno, 1 volta per Identità, <style=\"upgradeHighlight\">max 2</style> per nemico)\n- Per le Identità dell'Associazione Cinq: oltre agli effetti citati precedentemente, le Identità alleate ricevono anche 1 [Agility] nel prossimo turno. (1 volta per Turno, 1 volta per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro un bersaglio (per le Anormalità, una loro Parte) infliggendo 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene <style=\"upgradeHighlight\">4</style> Potenza [Breath] sul colpo (1 volta per turno, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19198,
@@ -4832,7 +4832,7 @@
     {
       "id": 29198,
       "name": "Piuma di Sfida++",
-      "desc": "Quando si colpisce un nemico dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infligge 1 [Binding] al bersaglio nel prossimo turno. (una volta per Turno, una volta per Identità, max 2 per nemico)\n- Per le Identità dell'Associazione Cinq: oltre agli effetti citati precedentemente, le Identità alleate ricevono anche 1 [Agility] nel prossimo turno. (<style=\"upgradeHighlight\">2</style> volte per turno, 2 volta per identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro un bersaglio (per le Anormalità, una loro Parte) infliggendo 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 4 Potenza [Breath] sul colpo (<style=\"upgradeHighlight\">2</style> volte per turno, due volte per Identità)",
+      "desc": "Quando si colpisce un nemico dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infligge 1 [Binding] al bersaglio nel prossimo turno. (1 volta per Turno, 1 volta per Identità, max 2 per nemico)\n- Per le Identità dell'Associazione Cinq: oltre agli effetti citati precedentemente, le Identità alleate ricevono anche 1 [Agility] nel prossimo turno. (<style=\"upgradeHighlight\">2</style> volte per turno, 2 volta per identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro un bersaglio (per le Anormalità, una loro Parte) infliggendo 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 4 Potenza [Breath] sul colpo (<style=\"upgradeHighlight\">2</style> volte per turno, 2 volte per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29198,
@@ -4892,7 +4892,7 @@
     {
       "id": 9200,
       "name": "Manuale del Duello, Capitolo 3",
-      "desc": "Le Abilità Attacco Perforante ottengono Potere di Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Perforante per questo turno. (max 3)\n\nGli Alleati con Abilità Attacco Base di tipo Perforante ottengono 2 [PenetrateDamageUp] all'inizio del Turno. (Escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nPotere delle Abilità Evasive +2. Quando un'Identità alleata schiva con successo 2 attacchi in un singolo turno, ottiene 1 [AttackDmgUp] nel prossimo turno. (max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Cinq ottengono 1 [PenetrateResultUp] e 2 [PenetrateDamageUp]; se un'Identità dell'Associazione Cinq infligge danno sul colpo ad un nemico con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 2 [PenetrateDamageUp] e 1 [Agility] nel prossimo Turno. (una volta per Identità, una volta per Turno)",
+      "desc": "Le Abilità Attacco Perforante ottengono Potere di Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Perforante per questo turno. (max 3)\n\nGli Alleati con Abilità Attacco Base di tipo Perforante ottengono 2 [PenetrateDamageUp] all'inizio del Turno. (Escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nPotere delle Abilità Evasive +2. Quando un'Identità alleata schiva con successo 2 attacchi in un singolo turno, ottiene 1 [AttackDmgUp] nel prossimo turno. (max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Cinq ottengono 1 [PenetrateResultUp] e 2 [PenetrateDamageUp]; se un'Identità dell'Associazione Cinq infligge danno sul colpo ad un nemico con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 2 [PenetrateDamageUp] e 1 [Agility] nel prossimo Turno. (1 volta per Identità, 1 volta per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9200,
@@ -4930,7 +4930,7 @@
     {
       "id": 9202,
       "name": "Flashcard Tascabili",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Contundente: infligge 2 [DefenseDown] al bersaglio nel prossimo Turno. (una volta per Turno, una volta per Identità; non si cumula sullo stesso nemico)\n- Per le Identità dell'Associazione Dieci: gli effetti verranno applicati anche nel caso di Abilità Attacco Tagliente e Perforante, inoltre infligge 1 [DefenseDown] aggiuntivo.\n\nSe un'Identità dell'Associazione Dieci ha scartato una sua Abilità con un'Abilità che usa [Discard], ottiene (Numero dell'Abilità Scartata) Livello Offensivo Aumentato per il prossimo inizio del Turno. (se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max 3)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Contundente: infligge 2 [DefenseDown] al bersaglio nel prossimo Turno. (1 volta per Turno, 1 volta per Identità; non si cumula sullo stesso nemico)\n- Per le Identità dell'Associazione Dieci: gli effetti verranno applicati anche nel caso di Abilità Attacco Tagliente e Perforante, inoltre infligge 1 [DefenseDown] aggiuntivo.\n\nSe un'Identità dell'Associazione Dieci ha scartato una sua Abilità con un'Abilità che usa [Discard], ottiene (Numero dell'Abilità Scartata) Livello Offensivo Aumentato per il prossimo inizio del Turno. (se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max 3)",
       "simpleDesc": [
         {
           "abilityID": 9202,
@@ -4945,7 +4945,7 @@
     {
       "id": 19202,
       "name": "Flashcard Tascabili+",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Contundente: infligge 2 [DefenseDown] al bersaglio nel prossimo Turno. (una volta per Turno, una volta per Identità; non si cumula sullo stesso nemico)\nPer le Identità dell'Associazione Dieci: gli effetti verranno applicati anche nel caso di Abilità Attacco Tagliente e Perforante, inoltre infligge 1 [DefenseDown] aggiuntivo.\n\nSe un'Identità dell'Associazione Dieci ha scartato una sua Abilità con un'Abilità che usa [Discard], ottiene <style=\"upgradeHighlight\">(Numero dell'Abilità Scartata + 1)</style> Livello Offensivo Aumentato per il prossimo inizio del Turno. (se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max <style=\"upgradeHighlight\">4</style>)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Contundente: infligge 2 [DefenseDown] al bersaglio nel prossimo Turno. (1 volta per Turno, 1 volta per Identità; non si cumula sullo stesso nemico)\nPer le Identità dell'Associazione Dieci: gli effetti verranno applicati anche nel caso di Abilità Attacco Tagliente e Perforante, inoltre infligge 1 [DefenseDown] aggiuntivo.\n\nSe un'Identità dell'Associazione Dieci ha scartato una sua Abilità con un'Abilità che usa [Discard], ottiene <style=\"upgradeHighlight\">(Numero dell'Abilità Scartata + 1)</style> Livello Offensivo Aumentato per il prossimo inizio del Turno. (se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max <style=\"upgradeHighlight\">4</style>)",
       "simpleDesc": [
         {
           "abilityID": 19202,
@@ -4960,7 +4960,7 @@
     {
       "id": 29202,
       "name": "Flashcard Tascabili++",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Contundente: infligge 2 [DefenseDown] al bersaglio nel prossimo Turno. (una volta per Turno, una volta per Identità; non si cumula sullo stesso nemico)\nPer le Identità dell'Associazione Dieci: gli effetti verranno applicati anche nel caso di Abilità Attacco Tagliente e Perforante, inoltre infligge 1 [DefenseDown] aggiuntivo.\n\nSe un'Identità dell'Associazione Dieci ha scartato una sua Abilità con un'Abilità che usa [Discard], ottiene <style=\"upgradeHighlight\">(Numero dell'Abilità Scartata + 2)</style> Livello Offensivo Aumentato per il prossimo inizio del Turno. (se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max <style=\"upgradeHighlight\">5</style>)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Contundente: infligge 2 [DefenseDown] al bersaglio nel prossimo Turno. (1 volta per Turno, 1 volta per Identità; non si cumula sullo stesso nemico)\nPer le Identità dell'Associazione Dieci: gli effetti verranno applicati anche nel caso di Abilità Attacco Tagliente e Perforante, inoltre infligge 1 [DefenseDown] aggiuntivo.\n\nSe un'Identità dell'Associazione Dieci ha scartato una sua Abilità con un'Abilità che usa [Discard], ottiene <style=\"upgradeHighlight\">(Numero dell'Abilità Scartata + 2)</style> Livello Offensivo Aumentato per il prossimo inizio del Turno. (se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max <style=\"upgradeHighlight\">5</style>)",
       "simpleDesc": [
         {
           "abilityID": 29202,
@@ -4975,7 +4975,7 @@
     {
       "id": 9203,
       "name": "Modificatore di Percezione Dimensionale",
-      "desc": "Le Abilità Attacco 1 e 2 con danno Contundente: Livello Offensivo +(n° delle Monete - 1) (max 2)\n- Le Abilità con l'effetto di [Discard] ottengono invece Livello Offensivo +(n° delle Monete). (max 4)\n\nSe un'unità usa un'Abilità con [Discard] per Scartare un'Abilità, ottiene 1 Danno Aumentato e (Numero dell'Abilità Scartata) Livello Offensivo Aumentato. (una volta per Turno, una volta per Identità; se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max 3)\n- Se ad essere Scartata è un'Abilità Attacco Contundente, ottiene anche 1 Danno Contundente Aumentato.",
+      "desc": "Le Abilità Attacco 1 e 2 con danno Contundente: Livello Offensivo +(n° delle Monete - 1) (max 2)\n- Le Abilità con l'effetto di [Discard] ottengono invece Livello Offensivo +(n° delle Monete). (max 4)\n\nSe un'unità usa un'Abilità con [Discard] per Scartare un'Abilità, ottiene 1 Danno Aumentato e (Numero dell'Abilità Scartata) Livello Offensivo Aumentato. (1 volta per Turno, 1 volta per Identità; se più Abilità sono state Scartate, prende l'Abilità del valore maggiore; max 3)\n- Se ad essere Scartata è un'Abilità Attacco Contundente, ottiene anche 1 Danno Contundente Aumentato.",
       "simpleDesc": [
         {
           "abilityID": 9203,
@@ -4990,7 +4990,7 @@
     {
       "id": 9204,
       "name": "Il Libro della Vendetta",
-      "desc": "Le Abilità Attaco con danno Contundente ottengono Potere di Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Contundente per questo turno. (max 3)\n\nGli Alleati con solo Abilità Attacco Contundenti ottengono 2 [HitDamageUp] all'Inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usano Abilità Contrattacco (escluso il Contrattacco Potenziato), l'unità guadagna il 7.5% dei suoi PV massimi come Scudo PV ed infligge il 20% in più dei danni. L'unità non può essere fatta Vacillare quando ha usato un'Abilità Contrattacco (una volta per Identità, una volta per Incontro)\n\nAll'Inizio del Turno, le Identità del Medio ottengono 1 [HitResultUp] e 2 [Endurance]; quando le Identità del Medio usano un'Abilità Contrattacco, Il potenziamento dell'Abilità Contrattacco viene attivato due volte per Incontro ed infligge il 40% in più dei danni.",
+      "desc": "Le Abilità Attaco con danno Contundente ottengono Potere di Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Contundente per questo turno. (max 3)\n\nGli Alleati con solo Abilità Attacco Contundenti ottengono 2 [HitDamageUp] all'Inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usano Abilità Contrattacco (escluso il Contrattacco Potenziato), l'unità guadagna il 7.5% dei suoi PV massimi come Scudo PV ed infligge il 20% in più dei danni. L'unità non può essere fatta Vacillare quando ha usato un'Abilità Contrattacco (1 volta per Identità, 1 volta per Incontro)\n\nAll'Inizio del Turno, le Identità del Medio ottengono 1 [HitResultUp] e 2 [Endurance]; quando le Identità del Medio usano un'Abilità Contrattacco, Il potenziamento dell'Abilità Contrattacco viene attivato due volte per Incontro ed infligge il 40% in più dei danni.",
       "simpleDesc": [
         {
           "abilityID": 9204,

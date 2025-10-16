@@ -48,7 +48,7 @@
     {
       "id": 9735,
       "name": "Batteria per Barriera Portatile",
-      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Caric​a Speciale' ottiene Potere Scontro +1.\n\nQuando si utilizza un'Abilità 1 che genera Conteggio [Charge], guadagna invece +2 Conteggio [Charge] ed 1 [ChargeForceField]. (una volta per turno)\n\nSe un'Identità della W Corp. subisce danni ai PV per via di qualsiasi effetto eccetto danni diretti, essa guadanga 5 [ChargeForceField]. (una volta per turno)",
+      "desc": "L'Abilità 1 che fa ottenere Conteggio [Charge] o 'Caric​a Speciale' ottiene Potere Scontro +1.\n\nQuando si utilizza un'Abilità 1 che genera Conteggio [Charge], guadagna invece +2 Conteggio [Charge] ed 1 [ChargeForceField]. (1 volta per turno)\n\nSe un'Identità della W Corp. subisce danni ai PV per via di qualsiasi effetto eccetto danni diretti, essa guadanga 5 [ChargeForceField]. (1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9735,
@@ -82,7 +82,7 @@
     {
       "id": 9737,
       "name": "Modulo Stimolante Cardiovascolare",
-      "desc": "Quando un alleato con Conteggio [Charge] o 'Caric​a Speciale' perde uno Scontro, questo ottiene Scudo pari a (Conteggio [Charge] + 'Caric​a Speciale'). (una volta per turno)\n\nQuando si trova a 50%- PV, ottiene invece ((Conteggio [Charge] + 'Caric​a Speciale') x 2) Scudo. (una volta per turno)\n\nSe un'Identità dell'Ufficio MultiCrack riceve danni ai PV durante l'Incontro: al turno successivo, si cura 33% dei PV persi il turno precedente. (arrotondato per difetto)",
+      "desc": "Quando un alleato con Conteggio [Charge] o 'Caric​a Speciale' perde uno Scontro, questo ottiene Scudo pari a (Conteggio [Charge] + 'Caric​a Speciale'). (1 volta per turno)\n\nQuando si trova a 50%- PV, ottiene invece ((Conteggio [Charge] + 'Caric​a Speciale') x 2) Scudo. (1 volta per turno)\n\nSe un'Identità dell'Ufficio MultiCrack riceve danni ai PV durante l'Incontro: al turno successivo, si cura 33% dei PV persi il turno precedente. (arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9737,
@@ -161,7 +161,7 @@
     {
       "id": 9742,
       "name": "Generatore Perpetuo Cibernetico",
-      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva per l'intero Incontro quando 5 o più Identità hanno Abilità Attacco che permettono di ottenere Conteggio [Charge] o 'Caric​a Speciale'. (Abilità E.G.O escluse, ; Identià di Riserva escluse)\n\nAbilità Base che consumano Conteggio [Charge] o 'Caric​a Speciale': ottengono Attacco Aumentato Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Caric​a Speciale' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Caric​a Speciale' prendono parte a Scontri con Abilità Attacco base: Potere Scontro +1; ottengono 2 [AttackUp] all'Inizio del Turno per ogni volta che è stato vinto uno Scontro durante questo Incontro. (max 6)\n\nSe durante l'Incontro un alleato subisce danni che lo ucciderebbero, consuma tutto il Conteggio [Charge] e 'Caric​a Speciale' che possiede; dopodiché si cura del (10 + somma Conteggio [Charge] e 'Caric​a Speciale' consumati)%  PV (una volta per Incontro); successivamente, ottiene 3 [Protection] finquando non viene sconfitto.",
+      "desc": "All'Inizio dell'Incontro: Questo Dono si attiva per l'intero Incontro quando 5 o più Identità hanno Abilità Attacco che permettono di ottenere Conteggio [Charge] o 'Caric​a Speciale'. (Abilità E.G.O escluse, ; Identià di Riserva escluse)\n\nAbilità Base che consumano Conteggio [Charge] o 'Caric​a Speciale': ottengono Attacco Aumentato Moneta +1 ed infliggono +(somma Conteggio [Charge] e 'Caric​a Speciale' consumata dalle Abilità x 4)% danno (max 40%)\n\nQuando degli alleati con Conteggio [Charge] o 'Caric​a Speciale' prendono parte a Scontri con Abilità Attacco base: Potere Scontro +1; ottengono 2 [AttackUp] all'Inizio del Turno per ogni volta che è stato vinto uno Scontro durante questo Incontro. (max 6)\n\nSe durante l'Incontro un alleato subisce danni che lo ucciderebbero, consuma tutto il Conteggio [Charge] e 'Caric​a Speciale' che possiede; dopodiché si cura del (10 + somma Conteggio [Charge] e 'Caric​a Speciale' consumati)%  PV (1 volta per Incontro); successivamente, ottiene 3 [Protection] finquando non viene sconfitto.",
       "simpleDesc": [
         {
           "abilityID": 9742,

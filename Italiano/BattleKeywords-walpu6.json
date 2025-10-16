@@ -3,7 +3,7 @@
     {
       "id": "ColdBlackTear",
       "name": "Lacrime Nere e Fredde",
-      "desc": "- Max Stack: 5\n- Ad Inizio Turno: ottiene 1 Potere Scontro Diminuito\n- Se quest'unità viene colpita mentre ha quest'effetto, perde (Stack x 2) PS (una volta per turno; non si attiva quando subisce un colpo da una Moneta Infranta)\n- Se è la Regina dell'Odio a ridurre quest'effetto, l'unità si cura di 5 PS\n- Quest'effetto non può ridurre i PS di quest'unità al di sotto di -40",
+      "desc": "- Max Stack: 5\n- Ad Inizio Turno: ottiene 1 Potere Scontro Diminuito\n- Se quest'unità viene colpita mentre ha quest'effetto, perde (Stack x 2) PS (1 volta per turno; non si attiva quando subisce un colpo da una Moneta Infranta)\n- Se è la Regina dell'Odio a ridurre quest'effetto, l'unità si cura di 5 PS\n- Quest'effetto non può ridurre i PS di quest'unità al di sotto di -40",
       "summary": ""
     },
     {
@@ -57,13 +57,13 @@
     {
       "id": "CentralCommandTeamCaptain",
       "name": "Capitano della Squadra di Controllo Centrale",
-      "desc": "- Slot Abilità +1\n- Modifica le Abilità nel seguente modo: Ottiene 1 uso dell'Abilità 3, ma perde 1 uso dell'Abilità 1\n- Aumenta la quantità di Potenza Bruciatura, Sanguinamento, Lacerazione, Pianto o Vibrazione inflitte con le Abilità di 1 ('Effetti Speciali' inclusi)\n- Aumenta la quantità Potenza Respiro o Conteggio Carica ('Carica Speciale' inclusa) ottenuti dalle Abilità di 1\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (una volta per Incontro)\n- Le Abilità Attacco Base con 2+ Peso Attacco infliggono +30% danni\n- Se Uccide, ottiene +2 risorse E.G.O dell'Affinità dell'Abilità che ha sconfitto il nemico; ottiene +1 risorsa E.G.O per tutte le altre Affinità",
+      "desc": "- Slot Abilità +1\n- Modifica le Abilità nel seguente modo: Ottiene 1 uso dell'Abilità 3, ma perde 1 uso dell'Abilità 1\n- Aumenta la quantità di Potenza Bruciatura, Sanguinamento, Lacerazione, Pianto o Vibrazione inflitte con le Abilità di 1 ('Effetti Speciali' inclusi)\n- Aumenta la quantità Potenza Respiro o Conteggio Carica ('Carica Speciale' inclusa) ottenuti dalle Abilità di 1\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (1 volta per Incontro)\n- Le Abilità Attacco Base con 2+ Peso Attacco infliggono +30% danni\n- Se Uccide, ottiene +2 risorse E.G.O dell'Affinità dell'Abilità che ha sconfitto il nemico; ottiene +1 risorsa E.G.O per tutte le altre Affinità",
       "summary": ""
     },
     {
       "id": "BestWelfareTeamMember",
       "name": "Impiegato Modello della Squadra di Welfare",
-      "desc": "- Aumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Pianto, or Vibrazione inflitti di +1 (inclusi 'Effetti di Stato Speciali')\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (una volta per Incontro)\n- Se questo effetto è applicato a Lobotomy E.G.O::La Lama Affilata con le Lacrime Rodion, ottiene 1 Aumento Danno Perforante ad ogni Inizio Turno",
+      "desc": "- Aumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Pianto, or Vibrazione inflitti di +1 (inclusi 'Effetti di Stato Speciali')\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (1 volta per Incontro)\n- Se questo effetto è applicato a Lobotomy E.G.O::La Lama Affilata con le Lacrime Rodion, ottiene 1 Aumento Danno Perforante ad ogni Inizio Turno",
       "summary": ""
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "BlessingAlly",
       "name": "Benedizione",
-      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni 8 PS (max 5)\n- A Fine Scontro, infligge 2 Pianto (una volta per turno)\n- Subendo un colpo, infligge 2 Pianto all'attaccante (una volta per turno)\n- Per ogni 20 PS, infligge +1 Potenza Pianto in più con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità Base di questa unità con Abilità con Monete Positive",
+      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni 8 PS (max 5)\n- A Fine Scontro, infligge 2 Pianto (1 volta per turno)\n- Subendo un colpo, infligge 2 Pianto all'attaccante (1 volta per turno)\n- Per ogni 20 PS, infligge +1 Potenza Pianto in più con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità Base di questa unità con Abilità con Monete Positive",
       "summary": ""
     },
     {
@@ -129,7 +129,7 @@
     {
       "id": "DespairAlly",
       "name": "Disperazione",
-      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni -8 PS (max 5)\n- A Fine Scontro, infligge +1 Conteggio Pianto (una volta per turno)\n- Sul Colpo con la prima moneta di un'Abilità Attacco Base, infligge +1 Conteggio Pianto (una volta per turno)\n- Per ogni -20 PS, infligge +1 more Conteggio Pianto con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità Base di questa unità con Abilità con Monete Negative",
+      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni -8 PS (max 5)\n- A Fine Scontro, infligge +1 Conteggio Pianto (1 volta per turno)\n- Sul Colpo con la prima moneta di un'Abilità Attacco Base, infligge +1 Conteggio Pianto (1 volta per turno)\n- Per ogni -20 PS, infligge +1 more Conteggio Pianto con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità Base di questa unità con Abilità con Monete Negative",
       "summary": ""
     },
     {
