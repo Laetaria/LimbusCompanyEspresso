@@ -1254,7 +1254,7 @@
         {
           "level": 1,
           "name": "Risonanza aumentando la Sintonia S.F.A.",
-          "desc": "[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvasione] Perde 5 [Combustion] (1 volta per turno)",
+          "desc": "[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (1 volta per turno)",
           "coinlist": [
             {}
           ]
@@ -1262,7 +1262,7 @@
         {
           "level": 4,
           "name": "Risonanza aumentando la Sintonia S.F.A.",
-          "desc": "[WhenUse] A 10+ [Combustion], Potere Moneta +3\n[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvasione] Perde 5 [Combustion] (1 volta per turno)",
+          "desc": "[WhenUse] A 10+ [Combustion], Potere Moneta +3\n[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (1 volta per turno)",
           "coinlist": [
             {}
           ]
@@ -2088,7 +2088,7 @@
         {
           "level": 1,
           "name": "Evasione",
-          "desc": "[OnSucceedEvasione] Ottiene +1 Conteggio [Breath] (2 volte per turno)",
+          "desc": "[OnSucceedEvade] Ottiene +1 Conteggio [Breath] (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2102,7 +2102,7 @@
         {
           "level": 4,
           "name": "Evasione",
-          "desc": "[OnSucceedEvasione] Ottiene +1 Conteggio [Breath] (3 volte per turno)",
+          "desc": "[OnSucceedEvade] Ottiene +1 Conteggio [Breath] (3 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
