@@ -44,35 +44,35 @@
     {
       "id": "TimeAccumulation",
       "name": "Ritardo",
-      "desc": "Finché quest'effetto è attivo, il danno inflitto a quest'unità non viene subito, ma immagazzinato.\nA Fine Turno: riduce il valore di 1\nA Fine Turno: Se il valore rimanente di quest'effetto è 1, quest'ultimo scade dopo aver inflitto (2 x danni immagazzinati) danni da Accidia a quest'unità\nQuando quest'effetto è arrivo, il valore non può essere cambiato.",
+      "desc": "Finché quest'effetto è attivo, il danno inflitto a quest'unità non viene subito, ma immagazzinato.\nA Fine Turno: riduce le Stack di 1\nA Fine Turno: Se le Stack rimanenti sono 1, quest'effetto scade dopo aver inflitto (2 x danni immagazzinati) danni da Accidia a quest'unità\nQuando quest'effetto è arrivo, le Stack non possono cambiare",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultDown",
       "name": "Potere Scontro Ridotto",
-      "desc": "In uno Scontro, perde Potere Scontro pari al valore dell'effetto",
+      "desc": "In uno Scontro, perde Potere Scontro pari alle Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultUp",
       "name": "Potere Scontro Aumentato",
-      "desc": "In uno Scontro, ottiene Potere Scontro pari al valore dell'effetto",
-      "summary": "In uno Scontro, ottiene Potere Scontro pari al valore dell'effetto",
+      "desc": "In uno Scontro, ottiene Potere Scontro pari alle Stack",
+      "summary": "In uno Scontro, ottiene Potere Scontro pari alle Stack",
       "undefined": "-"
     },
     {
       "id": "LimitedTime",
       "name": "Tempo Rubato",
-      "desc": "- Ad inizio turno: Quando il valore è 200+, ottiene ({0}- 200)/50 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando il valore è meno di 200, ottiene (200 - {0})/50 Calo Offensivo & Calo Difensivo.",
+      "desc": "- Ad inizio turno: Quando le Stack sono 200+, ottiene ({0}- 200)/50 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando le Stack sono meno di 200, ottiene (200 - {0})/50 Calo Offensivo & Calo Difensivo.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OwnTime",
       "name": "Tempo Condiviso",
-      "desc": "- Ad inizio turno: Quando il valore è 40+, ottiene ({0}- 40)/10 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando il valore è meno di 40, ottiene (40 - {0})/10 Calo Offensivo & Calo Difensivo.",
+      "desc": "- Ad inizio turno: Quando le Stack sono 40+, ottiene ({0}- 40)/10 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando le Stack sono meno di 40, ottiene (40 - {0})/10 Calo Offensivo & Calo Difensivo.",
       "summary": "",
       "undefined": "-"
     },

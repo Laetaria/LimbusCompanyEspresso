@@ -10,7 +10,7 @@
     {
       "id": "AaCfPcBf",
       "name": "Tristezza Legata",
-      "desc": "Per una certa condizione, e ad un valore di 3+ Fine Turno, tutte le Parti diventano Vacillanti il turno successivo.\nSi esaurisce dopo aver applicato 3 alla Parte Catena",
+      "desc": "Per una certa condizione, e con 3+ Stack a Fine Turno, tutte le Parti Vacillano il turno successivo.\nSi esaurisce dopo aver applicato 3 Stack alla Parte Catena",
       "summary": "",
       "undefined": "-"
     },
@@ -31,8 +31,8 @@
     {
       "id": "AaCfPcBc",
       "name": "Tecnica Incatenante",
-      "desc": "- Max 3\n- Fine Turno: aumenta di 1\n- Fine Turno: ottiene Lentezza pari al Valore di questo effetto.\n- Fine Turno: se a Valore 3, diventa Vacillante per il resto dell'Incontro.\nNon si esaurisce.",
-      "summary": "Ottiene Lentezza pari al Valore il turno successivo.\nSe a Valore 3, diventa Vacillante per il resto dell'Incontro.",
+      "desc": "- Max 3\n- Fine Turno: aumenta di 1\n- Fine Turno: ottiene Lentezza pari alle Stack di questo effetto.\n- Fine Turno: se ha 3 Stack, Vacilla per il resto dell'Incontro.\nNon si esaurisce.",
+      "summary": "Ottiene Lentezza pari alle Stack il turno successivo.\nSe ha 3 Stack, Vacilla per il resto dell'Incontro.",
       "undefined": "-"
     },
     {
@@ -44,13 +44,13 @@
     {
       "id": "AaCfPcBm",
       "name": "Fulmine del Tormento",
-      "desc": "- Scontro Vinto: Infligge Cuore da Infrangere e infligge 7 danni ai PV.\n- Scontro Perso o Dopo un'Attacco Incontrastato: ottiene Cuore da Infrangere e subisce 7 danni ai PV.\n- Ridotto di 1 a Fine Abilità",
+      "desc": "- Scontro Vinto: Infligge Cuore da Spezzare e infligge 7 danni ai PV.\n- Scontro Perso o Dopo un'Attacco Incontrastato: ottiene Cuore da Spezzare e subisce 7 danni ai PV.\n- Ridotto di 1 a Fine Abilità",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBn",
-      "name": "Cuore da Infrangere",
-      "desc": "- Ogni Resistenza a Affinità Peccato sale di (Valore x 0.2)\n- A Valore 3, diventa Vacillante.",
+      "name": "Cuore da Spezzare",
+      "desc": "- Ogni Resistenza a Affinità Peccato sale di (Stack x 0.2)\n- A 3 Stack, Vacilla.",
       "undefined": "-"
     },
     {
@@ -80,7 +80,7 @@
     {
       "id": "AaCfPcBi",
       "name": "Supertermogenesi",
-      "desc": "Fine Turno: subisce danni fissi pari a X% dei PV Max in base al Valore, poi l'effetto si esaurisce",
+      "desc": "Fine Turno: subisce danni fissi pari a X% dei PV Max in base alle Stack, poi l'effetto termina",
       "undefined": "-"
     },
     {
