@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Standoff",
+          "name": "Stallo",
           "desc": "[WhenUse] Ottiene 2 [DefenseUp]",
           "coinlist": [
             {},
@@ -20,7 +20,7 @@
         },
         {
           "level": 2,
-          "name": "Standoff",
+          "name": "Stallo",
           "desc": "[WhenUse] Ottiene 2 [DefenseUp]\n[DefeatDuel] Ottiene Scudo pari a (3 * [DefenseUp] su di sé); Ottiene 1 [DefenseUp] il turno successivo",
           "coinlist": [
             {},
@@ -35,7 +35,7 @@
         },
         {
           "level": 4,
-          "name": "Standoff",
+          "name": "Stallo",
           "desc": "[WhenUse] Ottiene 2 [DefenseUp]\n[DefeatDuel] Ottiene Scudo pari a (5 * [DefenseUp] su di sé); Ottiene 2 [DefenseUp] il turno successivo",
           "coinlist": [
             {},
@@ -55,7 +55,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flexible Suppression",
+          "name": "Soppressione Flessibile",
           "desc": "[WhenUse] Ottiene 2 [DefenseUp]",
           "coinlist": [
             {
@@ -84,7 +84,7 @@
         },
         {
           "level": 2,
-          "name": "Flexible Suppression",
+          "name": "Soppressione Flessibile",
           "desc": "[WhenUse] Ottiene 3 [DefenseUp]\n[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
@@ -113,7 +113,7 @@
         },
         {
           "level": 4,
-          "name": "Flexible Suppression",
+          "name": "Soppressione Flessibile",
           "desc": "[WhenUse] Ottiene 3 [DefenseUp]\n[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\nA 6+ [DefenseUp], Potere Scontro +1",
           "coinlist": [
             {
@@ -147,7 +147,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Guardian",
+          "name": "Guardiano",
           "desc": "[WhenUse] Applica 2 Defense Power Up and 3 [DefenseUp] a tutti gli alleati\nA 6+ [DefenseUp], Potere Moneta +1\nA 10+ [DefenseUp], infligge +30% danni",
           "coinlist": [
             {},
@@ -163,7 +163,7 @@
         },
         {
           "level": 4,
-          "name": "Guardian",
+          "name": "Guardiano",
           "desc": "[WhenUse] Applica 2 Defense Power Up and 3 [DefenseUp] a tutti gli alleati\nPotere Moneta +1 per 6 [DefenseUp] (Max 3)\nA 10+ [DefenseUp], infligge +50% danni",
           "coinlist": [
             {},
@@ -184,7 +184,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Best Defense",
+          "name": "La Miglior Difesa",
           "desc": "[StartBattle] Ottiene Scudo pari a (2 * [DefenseUp] su di sé)",
           "coinlist": [
             {}
@@ -192,7 +192,7 @@
         },
         {
           "level": 4,
-          "name": "The Best Defense",
+          "name": "La Miglior Difesa",
           "desc": "[StartBattle] Ottiene Scudo pari a (2 * [DefenseUp] su di sé)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {}
@@ -205,7 +205,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Negotiation Start",
+          "name": "Inizio Trattativa",
           "desc": "[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {
@@ -224,7 +224,7 @@
         },
         {
           "level": 2,
-          "name": "Negotiation Start",
+          "name": "Inizio Trattativa",
           "desc": "[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
@@ -248,7 +248,7 @@
         },
         {
           "level": 4,
-          "name": "Negotiation Start",
+          "name": "Inizio Trattativa",
           "desc": "[WhenUse] Ottiene 3 [Breath]\nSe il bersaglio ha 7+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, Potere Moneta +1",
           "coinlist": [
             {
@@ -277,7 +277,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Unilateral Business",
+          "name": "Affare a Senso Unico",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
@@ -301,7 +301,7 @@
         },
         {
           "level": 2,
-          "name": "Unilateral Business",
+          "name": "Affare a Senso Unico",
           "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
@@ -331,7 +331,7 @@
         },
         {
           "level": 4,
-          "name": "Unilateral Business",
+          "name": "Affare a Senso Unico",
           "desc": "Potere Moneta +1 per ogni 7 [Laceration] sul bersaglio (Max 2)\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
@@ -366,7 +366,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Foregone Conclusion",
+          "name": "Conclusione Scontata",
           "desc": "[WhenUse] Ottiene 1 [Breath] per 3 [Laceration] sul bersaglio (Max 5)\nA 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u>, Potere Moneta +1",
           "coinlist": [
             {
@@ -390,7 +390,7 @@
         },
         {
           "level": 4,
-          "name": "Foregone Conclusion",
+          "name": "Conclusione Scontata",
           "desc": "[WhenUse] Ottiene 1 [Breath] per ogni 3 [Laceration] sul bersaglio (Max 10)\nOttiene Potere Moneta +1 per ogni 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u> su di sé (Max +3)",
           "coinlist": [
             {
@@ -422,7 +422,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Take a Breather",
+          "name": "Prenditi una Boccata D'Aria",
           "desc": "[OnSucceedEvade] Ottiene 1 [Breath] (Max 3 per turno)",
           "coinlist": [
             {}
@@ -430,7 +430,7 @@
         },
         {
           "level": 4,
-          "name": "Take a Breather",
+          "name": "Prenditi una Boccata D'Aria",
           "desc": "[OnSucceedEvade] Ottiene 1 [Breath] (Max 5 per turno)",
           "coinlist": [
             {}
@@ -443,7 +443,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lenticular Rend",
+          "name": "Squarcio Lenticolare",
           "desc": "[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
@@ -457,7 +457,7 @@
         },
         {
           "level": 2,
-          "name": "Lenticular Rend",
+          "name": "Squarcio Lenticolare",
           "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +1</style>\n[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
@@ -471,7 +471,7 @@
         },
         {
           "level": 3,
-          "name": "Lenticular Rend",
+          "name": "Squarcio Lenticolare",
           "desc": "[WhenUse_Force] <color=#EBCAA2>Se il bersaglio ha 7+ [Laceration], Potere Scontro +1</color>\n[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
@@ -485,7 +485,7 @@
         },
         {
           "level": 4,
-          "name": "Lenticular Rend",
+          "name": "Squarcio Lenticolare",
           "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +<style=\"highlight\">2</style>\n[WinDuel] Infligge 1 [Laceration]",
           "coinlist": [
             {
@@ -504,7 +504,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Shadow Cloud",
+          "name": "Scuronuvola",
           "desc": "",
           "coinlist": [
             {
@@ -528,7 +528,7 @@
         },
         {
           "level": 2,
-          "name": "Shadow Cloud",
+          "name": "Scuronuvola",
           "desc": "",
           "coinlist": [
             {
@@ -552,7 +552,7 @@
         },
         {
           "level": 4,
-          "name": "Shadow Cloud",
+          "name": "Scuronuvola",
           "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +2",
           "coinlist": [
             {
@@ -581,7 +581,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Shadowcloud Shattercleave",
+          "name": "Dismembramento Scuronuvola",
           "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
@@ -615,7 +615,7 @@
         },
         {
           "level": 4,
-          "name": "Shadowcloud Shattercleave",
+          "name": "Dismembramento Scuronuvola",
           "desc": "[WhenUse] Se il bersaglio ha 7+ [Laceration], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
@@ -678,7 +678,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sabre Slash",
+          "name": "Taglio di Sciabola",
           "desc": "",
           "coinlist": [
             {
@@ -692,7 +692,7 @@
         },
         {
           "level": 2,
-          "name": "Sabre Slash",
+          "name": "Taglio di Sciabola",
           "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +2",
           "coinlist": [
             {
@@ -706,7 +706,7 @@
         },
         {
           "level": 4,
-          "name": "Sabre Slash",
+          "name": "Taglio di Sciabola",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)\n[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)",
           "coinlist": [
             {
@@ -767,7 +767,7 @@
         },
         {
           "level": 4,
-          "name": "Remise",
+          "name": "Remissione",
           "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[WinDuel] Infligge +2 Conteggio [Sinking]",
           "coinlist": [
             {
@@ -793,7 +793,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Nightmare Hunt",
+          "name": "Caccia-Incubi",
           "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[EndSkill] Se il bersaglio Vacilla, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] ad 1 nemico casuale",
           "coinlist": [
             {
@@ -828,7 +828,7 @@
         },
         {
           "level": 4,
-          "name": "Nightmare Hunt",
+          "name": "Caccia-Incubi",
           "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 3)\n[EndSkill] Se il bersaglio Vacilla, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] on 2 random nemici",
           "coinlist": [
             {
@@ -868,7 +868,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Do You Wish to Weep?",
+          "name": "Desideri Piangere?",
           "desc": "[WhenUse] Se il bersaglio ha 5+ [Sinking], Potere Moneta +1",
           "coinlist": [
             {}
@@ -876,7 +876,7 @@
         },
         {
           "level": 4,
-          "name": "Do You Wish to Weep?",
+          "name": "Desideri Piangere?",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 3)",
           "coinlist": [
             {}
@@ -889,7 +889,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sacrifice for the Family",
+          "name": "Sacrificio per la Famiglia",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 10 [Laceration]\n- A 50%+ PV, ottiene 15 [Laceration] in più",
           "coinlist": [
             {
@@ -913,7 +913,7 @@
         },
         {
           "level": 2,
-          "name": "Sacrifice for the Family",
+          "name": "Sacrificio per la Famiglia",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 10 [Laceration]\n- A 50%+ PV, ottiene 15 [Laceration] in più",
           "coinlist": [
             {
@@ -937,7 +937,7 @@
         },
         {
           "level": 4,
-          "name": "Sacrifice for the Family",
+          "name": "Sacrificio per la Famiglia",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 10 [Laceration]\n- A 50%+ PV, ottiene 15 [Laceration] in più",
           "coinlist": [
             {
@@ -966,7 +966,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Suffocating Guilt",
+          "name": "Rimorso Soffocante",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
           "coinlist": [
             {
@@ -990,7 +990,7 @@
         },
         {
           "level": 2,
-          "name": "Suffocating Guilt",
+          "name": "Rimorso Soffocante",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
           "coinlist": [
             {
@@ -1014,7 +1014,7 @@
         },
         {
           "level": 4,
-          "name": "Suffocating Guilt",
+          "name": "Rimorso Soffocante",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e <style=\"highlight\">3</style> [BloodyHandGregFirst]",
           "coinlist": [
             {
@@ -1043,7 +1043,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "The Unforgivable Sin",
+          "name": "Il Peccato Imperdonabile",
           "desc": "Sul Colpo con questa Abilità: si cura di 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge +1% danni per ogni 1% dei propri PV mancanti (max 60%)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura di (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura di 10% PV",
           "coinlist": [
             {
@@ -1077,7 +1077,7 @@
         },
         {
           "level": 4,
-          "name": "The Unforgivable Sin",
+          "name": "Il Peccato Imperdonabile",
           "desc": "Sul Colpo con questa Abilità: si cura di 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge <style=\"highlight\">+1.5%</style> più danni per ogni 1% dei propri PV mancanti <style=\"highlight\">(max 90%)</style>\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura di (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n<style=\"highlight\">- Se questa unità ha consumato 20 Stack, Riusa l'ultima Moneta</style>\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura di 10% PV",
           "coinlist": [
             {
@@ -1116,7 +1116,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Patience",
+          "name": "Pazienza Smarrita",
           "desc": "[StartBattle] Ottiene 3 [WornHeartGreg] (1 volta per turno)",
           "coinlist": [
             {
@@ -1130,7 +1130,7 @@
         },
         {
           "level": 4,
-          "name": "Faded Patience",
+          "name": "Pazienza Smarrita",
           "desc": "<style=\"highlight\">[StartBattle] A 40%+ PV, ottiene 5 [Laceration] e attiva [Laceration] fino a 3 volte su di sé (1 volta per turno; perde Conteggio [Laceration] pari al numero di volte che si è attivato)\n[StartBattle] A meno di 40% PV, consuma fino a 20 [BloodDinner] e si cura di altrettanti PV (1 volta per turno)</style>\n[StartBattle] Ottiene 3 [WornHeartGreg] (1 volta per turno)",
           "coinlist": [
             {
@@ -1149,7 +1149,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flamethrow",
+          "name": "Lanciafiamme",
           "desc": "Se il bersaglio ha 6+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
@@ -1170,7 +1170,7 @@
         },
         {
           "level": 2,
-          "name": "Flamethrow",
+          "name": "Lanciafiamme",
           "desc": "Se il bersaglio ha <style=\"highlight\">3</style>+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
@@ -1191,7 +1191,7 @@
         },
         {
           "level": 4,
-          "name": "Flamethrow",
+          "name": "Lanciafiamme",
           "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 3 [Combustion] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
@@ -1244,7 +1244,7 @@
         },
         {
           "level": 2,
-          "name": "I'll burn away every last drop of your filthy blood",
+          "name": "Brucerò ogni Goccia del Vostro Lurido Sangue",
           "desc": "Se il bersaglio ha 6+ [Combustion], Potere Moneta +1\nLe Monete che hanno consumato [FirePunchFuel] infliggono +10% danni\n<style=\"highlight\">- Quando è in stato di [FirePunchFuelOverheated], invece infligge +20% danni</style>",
           "coinlist": [
             {
@@ -1271,7 +1271,7 @@
         },
         {
           "level": 4,
-          "name": "I'll burn away every last drop of your filthy blood",
+          "name": "Brucerò ogni Goccia del Vostro Lurido Sangue",
           "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Combustion] sul bersaglio (max 2)</style>\nLe Monete che hanno consumato [FirePunchFuel] infliggono +<style=\"highlight\">15</style>% danni\n- Quando è in stato di [FirePunchFuelOverheated], invece infligge +<style=\"highlight\">30</style>% danni",
           "coinlist": [
             {
@@ -1303,7 +1303,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Firefist",
+          "name": "Pugnoardente",
           "desc": "Se il bersaglio ha 3+ Conteggio [Combustion], Potere Moneta +1\n[WhenUse] Potere Base +1 per ogni 6 [Combustion] sul bersaglio (max 2)\n[WhenUse] Consuma fino a 25 [FirePunchFuel] e infligge +1% danni per ogni [FirePunchFuel] consumato (max 25%)\n- Quando è in stato di [FirePunchFuelOverheated], invece infligge +3% danni per ogni [FirePunchFuel] consumato (max 75%)\n[EndSkill] Se il bersaglio viene sconfitto, o se questa Abilità ha consumato [FirePunchFuel], ottiene 1 [HitDamageUp] il turno successivo",
           "coinlist": [
             {
@@ -1331,7 +1331,7 @@
         },
         {
           "level": 4,
-          "name": "Firefist",
+          "name": "Pugnoardente",
           "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 3 Conteggio [Combustion] sul bersaglio (max 2)</style>\n[WhenUse] Potere Base +1 per ogni 6 [Combustion] sul bersaglio (max <style=\"highlight\">3</style>)\n[WhenUse] Consuma fino a 25 [FirePunchFuel] e infligge +<style=\"highlight\">2</style>% danni per ogni [FirePunchFuel] consumato (max <style=\"highlight\">50</style>%)\n- Quando è in stato di [FirePunchFuelOverheated], infligge +<style=\"highlight\">4</style>% danni per ogni [FirePunchFuel] consumato (max <style=\"highlight\">100</style>%)\n[EndSkill] Se il bersaglio viene sconfitto, o se questa Abilità ha consumato [FirePunchFuel], ottiene <style=\"highlight\">2</style> [HitDamageUp] il turno successivo",
           "coinlist": [
             {
@@ -1364,7 +1364,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I have to keep going for big sis",
+          "name": "Lo faccio per te, Sorellona...",
           "desc": "[DuelCounter]\n[StartBattle] Ottiene 100 [FirePunchFuel]",
           "coinlist": [
             {
@@ -1378,7 +1378,7 @@
         },
         {
           "level": 4,
-          "name": "I have to keep going for big sis",
+          "name": "Lo faccio per te, Sorellona...",
           "desc": "[DuelCounter]\n[StartBattle] Ottiene 100 [FirePunchFuel]",
           "coinlist": [
             {
@@ -1397,7 +1397,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snake Fang",
+          "name": "Fauci del Serpente",
           "desc": "[WhenUse] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1418,7 +1418,7 @@
         },
         {
           "level": 2,
-          "name": "Snake Fang",
+          "name": "Fauci del Serpente",
           "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
@@ -1442,7 +1442,7 @@
         },
         {
           "level": 4,
-          "name": "Snake Fang",
+          "name": "Fauci del Serpente",
           "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1471,7 +1471,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blindsiding Cleave",
+          "name": "Fendente a Sorpresa",
           "desc": "[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1502,7 +1502,7 @@
         },
         {
           "level": 2,
-          "name": "Blindsiding Cleave",
+          "name": "Fendente a Sorpresa",
           "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
@@ -1536,7 +1536,7 @@
         },
         {
           "level": 4,
-          "name": "Blindsiding Cleave",
+          "name": "Fendente a Sorpresa",
           "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WinDuel] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1578,7 +1578,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Serpentshear Puncturing Arm",
+          "name": "Affondo del Braccio Serpentino",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 ([Breath] su di sé + [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
@@ -1604,7 +1604,7 @@
         },
         {
           "level": 4,
-          "name": "Serpentshear Puncturing Arm",
+          "name": "Affondo del Braccio Serpentino",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 ([Breath] su di sé + [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
@@ -1638,7 +1638,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Reversal Kick",
+          "name": "Ribaltamento",
           "desc": "[CanDuelGuard] \n[StartBattle] Ottiene 3 [SnakeStance] il turno successivo",
           "coinlist": [
             {
@@ -1652,7 +1652,7 @@
         },
         {
           "level": 4,
-          "name": "Reversal Kick",
+          "name": "Ribaltamento",
           "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 3 [SnakeStance] il turno successivo\n<style=\"highlight\">[WhenUse] A 10+ Conteggio [Breath], Potere Moneta +1</style>",
           "coinlist": [
             {
