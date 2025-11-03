@@ -45,7 +45,7 @@
     {
       "id": "IndelibleGoodwill",
       "name": "Indelible Compassion",
-      "desc": "- This unit does not lose Shield at Turn End (unless removed by damage or certain effects)\n- When the Shield breaks due to getting hit, become Staggered and gain 5 Fragile until next turn\n- When becoming Staggered due to raised Stagger threshold, gain 5 Fragile until next turn\n- Fragile gained due to this buff's effects do not stack\n- Shield HP can stack, however; when this effect is active, the shield HP cannot be more than 50% of the Shielded unit's max HP\n- This effect counts as a 'Shield Management' effect. (replaced when gaining a different Shield Management effect)",
+      "desc": "- This unit does not lose Shield at Turn End (unless removed by damage or certain effects)\n- When the Shield breaks due to getting hit, become Staggered and gain 5 Vulnerabilità until next turn\n- When becoming Staggered due to raised Stagger threshold, gain 5 Vulnerabilità until next turn\n- Vulnerabilità gained due to this buff's effects do not stack\n- Shield HP can stack, however; when this effect is active, the shield HP cannot be more than 50% of the Shielded unit's max HP\n- This effect counts as a 'Shield Management' effect. (replaced when gaining a different Shield Management effect)",
       "summary": "Does not lose Shield at Turn End\nWhen the Shield breaks, become very fragile"
     },
     {
@@ -87,14 +87,14 @@
     {
       "id": "CallOfSea_LowMorale",
       "name": "Call of the Bloodkin",
-      "desc": "Turn End: consume 3% HP to apply 1 Attack Power Up and 1 Fragile to all allies, including this unit, next turn",
-      "summary": "Consume HP to apply Attack Power Up and Fragile to allies"
+      "desc": "Turn End: consume 3% HP to apply 1 Attack Power Up and 1 Vulnerabilità to all allies, including this unit, next turn",
+      "summary": "Consume HP to apply Attack Power Up and Vulnerabilità to allies"
     },
     {
       "id": "CallOfSea_Panic",
       "name": "Call of the Bloodkin",
-      "desc": "Turn End: consume 5% HP and gain 1 Fragile to apply 1 Attack Power Up and 1 Fragile to all allies, including this unit, next turn",
-      "summary": "Consume HP to apply Attack Power Up and Fragile to allies"
+      "desc": "Turn End: consume 5% HP and gain 1 Vulnerabilità to apply 1 Attack Power Up and 1 Vulnerabilità to all allies, including this unit, next turn",
+      "summary": "Consume HP to apply Attack Power Up and Vulnerabilità to allies"
     },
     {
       "id": "BitOfEmotion",
@@ -135,13 +135,13 @@
     {
       "id": "DesireToSave_LowMorale",
       "name": "Heart of Compassion",
-      "desc": "- Deal +(Nervous Impairment on target / 2)% damage (max 15%)\n- Turn Start: gain 1 Damage Up and 2 Fragile",
+      "desc": "- Deal +(Nervous Impairment on target / 2)% damage (max 15%)\n- Turn Start: gain 1 Damage Up and 2 Vulnerabilità",
       "summary": "Deal more damage based on Nervous Impairment on target"
     },
     {
       "id": "DesireToSave_Panic",
       "name": "Heart of Compassion",
-      "desc": "- Deal +(Nervous Impairment on target)% damage (max 30%)\n- Turn Start: gain 2 Damage Up and 3 Fragile",
+      "desc": "- Deal +(Nervous Impairment on target)% damage (max 30%)\n- Turn Start: gain 2 Damage Up and 3 Vulnerabilità",
       "summary": "Deal more damage based on Nervous Impairment on target"
     }
   ]
