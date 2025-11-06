@@ -2836,151 +2836,151 @@
     },
     {
       "id": "CommonExit",
-      "name": "Escape Battlefield",
-      "desc": "- Turn End: recover from Stagger and escape from the Encounter (unless it's a forced Stagger; does not count as death)",
+      "name": "Fuga dal Combattimento",
+      "desc": "- Fine Turno: si riprende dal Vacillamento e fugge dall'Incontro (escluso Vacillare forzato; non conta come morte)",
       "summary": ""
     },
     {
       "id": "CuredFilm",
-      "name": "Hardened Shell-Barrier",
-      "desc": "- Turn Start: gain (Stack / 3) Defense Level Up (max 3; rounded down)\n- Immediately before getting hit by an enemy, consume half of Hardened Shell-Barrier and gain Protection equal to the Stack consumed (once per turn, rounded up)\n- Turn End: lose 3 Stack\n- Max Stack: 10",
-      "summary": "Gain Defense Level Up\nImmediately before taking damage from Skills, consume Stack to gain Protection"
+      "name": "Guscio-Barriera Indurita",
+      "desc": "- Inizio Turno: ottiene (Stack / 3) Aumento Difensivo (max 3; arrotondato in difetto)\n- Subito prima di subire in colpo nemico, consuma metà di Guscio-Barriera Indurita e ottiene Mitigazione pari alle Stack consumate (una volta per turno, arrotondato in eccesso)\n- Fine Turno: perde 3 Stack\n- Stack Max: 10",
+      "summary": "Ottiene Aumento Difensivo\nSubito prima di subire danni dalle Abilità, consuma le Stack per ottenere Mitigazione"
     },
     {
       "id": "Cianjing",
-      "name": "Thunderer",
-      "desc": "- Turn Start: gain 1 Offense Level Up and 1 Defense Level Up\n- Turn End: lose 1 Stack\n- Max Stack: 5",
-      "summary": "Gain Offense Level Up & Defense Level Up"
+      "name": "Tonante",
+      "desc": "- Inizio Turno: ottiene 1 Aumento Offensivo e 1 Aumento Difensivo\n- Fine Turno: perde 1 Stack\n- Stack Max: 5",
+      "summary": "Ottiene Aumento Offensivo & Aumento Difensivo"
     },
     {
       "id": "SeniorCianjing",
-      "name": "Higher Thunderer",
-      "desc": "- Turn Start: gain 2 Offense Level Up and 2 Defense Level Up\n- Turn End: lose 1 Stack\n- Max Stack: 5",
-      "summary": "Gain Offense Level Up & Defense Level Up"
+      "name": "Grantonante",
+      "desc": "- Inizio Turno: ottiene 2 Aumento Offensivo e 2 Aumento Difensivo\n- Fine Turno: perde 1 Stack\n- Stack Max: 5",
+      "summary": "Ottiene Aumento Offensivo & Aumento Difensivo"
     },
     {
       "id": "MlynarWaiting",
-      "name": "Man in Scabbard",
-      "desc": "- Max Stack: 40\n- For every (Stack / 8), gain 1 Aggro (max 5; rounded down; affects the leftmost Skill Slot on the Dashboard)\n- For every (Stack / 20), gain 1 Protection (max 2; rounded down)\n- Gain 10 Stacks at Turn End\n※ Can gain up to 20 per turn"
+      "name": "Uomo nel Fodero",
+      "desc": "- Stack Max: 40\n- Per ogni(Stack / 8), ottiene 1 Provocazione (max 5; arrotondato in difetto; riguarda l'Abilità più a sinistra sul Pannello di Controllo)\n- Per ogni(Stack / 20), ottiene 1 Mitigazione (max 2; arrotondato in difetto)\n- Ottiene 10 Stack a Fine Turno\n※ Ne può ottenere fino a 20 per turno"
     },
     {
       "id": "ArrowShiFau",
-      "name": "Arrow - Shi",
+      "name": "Freccia - Shi",
       "desc": "- Min Capacity: 0\n- Max Capacity: 4\n- Arrows spent by certain Skills",
       "undefined": "-"
     },
     {
       "id": "ArrowInTheEyeFau",
-      "name": "Lodged Arrow",
-      "desc": "- Max Stack: 4\n- Turn Start: gain Bleed Potency by Stack\n- Lose Defense Level by Stack\n- Turn End: at 2+ Stack, gain 1 Vulnerabilità next turn (once per turn)\n- Expires on: Death, Retreat, buff removal/expiration. When it expires, apply Arrow - Shi to Shi East Section 3 Faust by Stack",
+      "name": "Freccia Conficcata",
+      "desc": "- Stack Max: 4\n- Inizio Turno: ottiene Potenza Sanguinamento ogni Stack\n- Perde Livello Difensivo ogni Stack\n- Fine Turno: a 2+ Stack, ottiene 1 Vulnerabilità il turno successivo (una volta per turno)\n- Si esaurisce alla: Morte, Ritirata, rimozione dei buff/esaurimmento. Quando si esaurisce, applica Freccia - Shi a Faust Shi Est Sezione 3 ogni Stack",
       "undefined": "-"
     },
     {
       "id": "AimForTheGoal",
-      "name": "Target Aim",
-      "desc": "- Max Stack: 4\n- Expires if this unit does not have \"Ready to Loose\"",
+      "name": "Mira al Bersaglio",
+      "desc": "- Stack Max: 4\n- Si esaurisce se questa unità non ha \"Pronta a Tirare\"",
       "undefined": "-"
     },
     {
       "id": "SnipingArrowMode",
-      "name": "Ready to Loose",
-      "desc": "- When this unit has this effect, activate the following:\n· Converts the leftmost Base Attack Skill on the Dashboard to \"Bow's Glimmer\", then uses it at Combat Start\n· This unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n· Does not trigger <noparse>Assist Attack</noparse>\n· Removed if an E.G.O Skill was equipped at Combat Start",
+      "name": "Pronta a Tirare",
+      "desc": "- Quando questa unità ha questo effetto, attiva i seguenti:\n· Converte l'Abilità Attacco Base più a sinistra sul Pannello di Controllo in \"Scintilla dell'Arco\", infine la usa a Inizio Combattimento\n· Questa unità non può Vacillare a causa di danni, Scoppio Vibrazione, o Soglia di Vacillamento alzata\n· Non attiva un'<noparse>Attacco di Supporto</noparse>\n· Viene rimossa se un'Abiità E.G.O era equipaggiata a Inizio Combattimento",
       "undefined": "-"
     },
     {
       "id": "AStrokeOfDeath",
-      "name": "Liferender",
-      "desc": "- Offense Level +2\n- Final Power +1\n- Expires at Turn End",
+      "name": "Spezzavita",
+      "desc": "- Livello Offensivo +2\n- Potere Finale +1\n- Si esaurisce a Fine Turno",
       "undefined": "-"
     },
     {
       "id": "WOverCharge",
-      "name": "Overcharge",
-      "desc": "- Max Value : 1\n- Become Immobilized\n- Take 10 + (Charge Potency on self x 5)% less damage (max 25%)\n- Turn Start: Gain Charge Barrier based on Charge Potency on self (max 5)\n- Turn End: Gain +10 Charge Count and 2 Attack Power Up next turn, and lose this effect\n- Gain Aggro to this unit's leftmost Slot based on Charge Potency on self (max 5)\n- When hit, gain +1 Charge Count and 1 Load next turn (max 5 per turn)\n- If this unit is in Panic or in E.G.O Corrosion at Turn Start, or if this unit is Staggered, lose this effect",
-      "summary": "Immobilized. Take less damage. Gain Aggro and Charge Barrier. Gain Charge Count next turn. When hit, gain Load and Charge Count",
+      "name": "Sovraccarico",
+      "desc": "- Valore Massimo : 1\n- Diventa Immobile\n- Subisce 10 + (Potenza Carica su di sé x 5)% meno danni (max 25%)\n- Inizio Turno: Ottiene Scudo Energetico in base alla Potenza Carica su di sé (max 5)\n- Fine Turno: Ottiene +10 Conteggio Carica e 2 Attacco Aumentato il turno successivo, e perde questo effetto\n- Ottiene Provocazione sullo Slot più a sinistra di questa unità in base alla Potenza Carica su di sé (max 5)\n- Quando subisce un colpo, ottiene +1 Conteggio Carica e 1 Ricarica il turno successivo (max 5 per turno)\n- Se questa unità è nel Panico o in Corrosione E.G.O Inizio Turno,o se questa unità Vacilla, perde questo effetto",
+      "summary": "Immobilized. Subisce meno danni. Ottiene Provocazione e Scudo Energetico. Ottiene Conteggio Carica il turno successivo. Quando subisce un colpo, ottiene Ricarica e Conteggio Carica",
       "undefined": "-"
     },
     {
       "id": "BloodArmorMeursault",
-      "name": "Hardblood Armor",
-      "desc": "- Max Stack: 5\n- If this unit isn't at max HP: after its Skill attack, heal 10% of HP damage dealt (once per turn; max 40 healing)\n- After Attack: if this unit dealt HP damage, lose 1 Stack (once per turn)\n• If Lust Reson. was activated, halve the amount of HP healed, but do not lose any Hardblood Armor Stack",
+      "name": "Armatura di Sangue Coagulato",
+      "desc": "- Stack Max: 5\n- Se questa unità non ha i PV al massimo: dopo un'attacco con Abilità, si cura del 10% dei danni PV inflitti (una volta per turno; max 40 PV di cure)\n- Dopo l'Attacco: se questa unità ha inflitto danni ai PV, perde 1 Stack (una volta per turno)\n• Se è stata attivata a Rison. Lussuria, la quantità di PV curati si dimezza, ma non perde nessuna Stack di Armatura di Sangue Coagulato",
       "undefined": "-"
     },
     {
       "id": "FocusOnActing",
-      "name": "Focused Performance",
-      "desc": "- Max Stack: 3\n- <La Manchaland> Identities only; includes Empowered Skills\n- Skill 1 and Skill 2 gain Final Power +1; deal +5% damage for every Stack (max 15%)\n- Skill 3 gains Final Power +2; deals +10% damage for every Stack (max 30%)\n- After attacking with Skill 3, or at Turn Start, if this unit does not have Hardblood Armor, lose 1 Stack",
-      "summary": "On Hit, deal more damage",
+      "name": "Esibizione Attenta",
+      "desc": "- Stack Max: 3\n- Solo per Identità di <La Manchaland>; include le Abilità Potenziate\n- Abilità 1 e Abilità 2 ottengono Potere Finale +1; infliggono +5% danni per ogni Stack (max 15%)\n- Abilità 3 ottiene Potere Finale +2; infligge +10% danni per ogni Stack (max 30%)\n- Dopo aver attaccato con l'Abilità 3, o a Inizio Turno, se questa unità non ha Armatura di Sangue Coagulato, perde 1 Stack",
+      "summary": "Sul Colpo, infligge più danni",
       "undefined": "-"
     },
     {
       "id": "ParadeConcentration",
-      "name": "La Mancha Parade",
-      "desc": "- Max Stack: 4\n- Take +10% damage from Lust Skills\n• If the target is a <La Manchaland> Identity, take +20% damage regardless of the Skill's Affinity\n• At max Stack, deal -20% damage against <La Manchaland> Identities\n- Lose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends",
-      "summary": "<La Manchaland> Identities take less damage",
+      "name": "Parata di La Mancha",
+      "desc": "- Stack Max: 4\n- Subisce +10% danni dalle Abilità Lussuria\n• Se il bersaglio è un'identità di <La Manchaland>, subisce +20% danni indipendentemente dall'Affinità dell'Abilità\n• alle Stack massime, infligge -20% danni contro le Identità di <La Manchaland>\n- Perde 1 Stack dopo che l'Abilità di questa unità colpisce e finisce o dopo che l'Abilità che ha attaccato questa unità colpisce e finisce",
+      "summary": "Le Identità di <La Manchaland> subiscono meno danni",
       "undefined": "-"
     },
     {
       "id": "EmergencyChargeForceField",
-      "name": "Emergency Barrier Battery",
-      "desc": "- Max Stack: 7\n- When Staggered, consume all Emergency Barrier Battery Stack and gain Charge Barrier by the Stack consumed",
+      "name": "Batteria per Scudo di Emergenza",
+      "desc": "- Stack Max: 7\n- Quando Vacilla, consuma tutte le Stack di Batteria per Scudo di Emergenza e ottiene Scudo Energetico pari alle Stack consumate",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmorCasting",
-      "name": "Hardblood Cast",
-      "desc": "- Max Stack: 3\n- When clashing against enemies with Bleed or Unique Bleed, Clash Power +1\n- When consuming Bloodfeast with an Attack Skill, if there isn't enough Bloodfeast, consume 1 HP for every 1 missing Bloodfeast to generate it before consuming it (the damage from this effect does not Stagger or reduce this unit's HP below 1)\n- Reduced by 1 at Turn End",
+      "name": "Sangue Coagulato Fuso",
+      "desc": "- Stack Max: 3\n- Negli Scontri contro i nemici con Sanguinamento o Sanguinamento Speciale, Potere Scontro +1\n- Quando si consuma il Banchetto di Sangue con un'Abilità Attacco, se non vi è Banchetto di Sangue sufficente, consuma 1 PV per ogni 1 Banchetto di Sangue mancante per generarlo prima di consumarlo (i danni da questo effetto non possono far Vacillare o ridurre i PV dell'unità sotto a 1)\n- Si riduce di 1 a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HanafudaOne",
-      "name": "Hand - Pine Crane Suit",
-      "desc": "- Skill 1 Base Power +2\n- When this unit equips and uses a <color=#ff0000>Wrath</color> Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the \"forming a Hand\" effects on the \"Koi-Koi\" Passive",
-      "summary": "Gain Base Power",
+      "name": "Mano - Seme di Pino, Gru",
+      "desc": "- Potere Base Abilità 1 +2\n- Quando questa unità equipaggia e usa un'Abilità Base o E.G.O <color=#ff0000>Ira</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
+      "summary": "Ottiene Potere Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaTwo",
-      "name": "Hand - Susuki Grass Suit",
-      "desc": "- Skill 2 Base Power +1\n- When this unit equips and uses a <color=#fbc82b>Sloth</color> Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the \"forming a Hand\" effects on the \"Koi-Koi\" Passive",
-      "summary": "Gain Base Power",
+      "name": "Mano - Seme di Miscanto",
+      "desc": "- Potere Base Abilità 2 +1\n- Quando questa unità equipaggia e usa un'Abilità Base o E.G.O <color=#fbc82b>Accidia</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
+      "summary": "Ottiene Potere Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaThree",
-      "name": "Hand - Blue Sakura Suit",
-      "desc": "- Skill 3 Base Power +1\n- When this unit equips and uses a <color=#15c3ee>Gloom</color> Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the \"forming a Hand\" effects on the \"Koi-Koi\" Passive",
-      "summary": "Gain Base Power",
+      "name": "Mano - Seme di Ciliegio Blu",
+      "desc": "- Potere Base Abilità 3 +1\n- Quando questa unità equipaggia e usa un'Abilità Base o E.G.O <color=#15c3ee>Tristezza</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
+      "summary": "Ottiene Potere Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaCombo",
-      "name": "Bright【光】",
-      "desc": "- Potency : Base 0, Max 5\n- Count : Base 3, Max 3\n\n- Turn Start: gain 1 Offense Level Up for every Potency\n- Turn Start: lose 1 Stack",
+      "name": "Luminosa【光】",
+      "desc": "- Potenza : Base 0, Max 5\n- Conteggio : Base 3, Max 3\n\n- Inizio Turno: ottiene 1 Aumento Offensivo per ogni Potenza\n- Inizio Turno: perde 1 Stack",
       "summary": " ",
       "undefined": "-"
     },
     {
       "id": "HurtNightStiletto",
-      "name": "Open Wound",
-      "desc": "- Max Stack: 2\n- Turn End: Gain 1 Bind next turn\n- Turn End: At 2 Stack, replace this effect with Deep Wound next turn",
-      "summary": "Gain Bind next turn",
+      "name": "Ferita Aperta",
+      "desc": "- Stack Max: 2\n- Fine Turno: Ottiene 1 Lentezza il turno successivo\n- Fine Turno: A 2 Stack, sostituisce questo effetto con Ferita Profonda il turno successivo",
+      "summary": "Ottiene Lentezza il turno successivo",
       "undefined": "-"
     },
     {
       "id": "CriHurtNightStiletto",
-      "name": "Deep Wound",
-      "desc": "- Base Stack: 3\n- On Tremor Burst, gain +1 Bleed Count (2 times per turn)\n- Cannot gain Open Wound (in Focused Encounters, the Part)\n- Turn End: Gain (Stack - 1) Bind next turn\n- Turn End: Reduce Stack by 1",
-      "summary": "Gain Bleed Count\nGain Bind next turn",
+      "name": "Ferita Profonda",
+      "desc": "- Stack Base: 3\n- Allo Scoppio Vibrazione, ottiene +1 Conteggio Sanguinamento (2 volte per turno)\n- Non può ottenere Ferita Aperta (negli Incontri Mirati, la Parte)\n- Fine Turno: Ottiene (Stack - 1) Lentezza il turno successivo\n- Fine Turno: Riduce le Stack di 1",
+      "summary": "Ottiene Conteggio Sanguinamento\nOttiene Lentezza il turno successivo",
       "undefined": "-"
     },
     {
       "id": "HorrHurtNightStiletto",
-      "name": "Fatal Wound",
-      "desc": "- Base Stack: 3\n- On Tremor Burst, gain +3 Bleed Count (2 times per turn)\n- Cannot gain Open Wound (in Focused Encounters, the Part)\n- Turn End: Gain Bind equal to Stack next turn\n- Turn End: Reduce Stack by 1",
-      "summary": "Gain Bleed Count\nGain Bind next turn",
+      "name": "Ferita Mortale",
+      "desc": "- Stack Base: 3\n- Allo Scoppio Vibrazione, ottiene +3 Conteggio Sanguinamento (2 volte per turno)\n- Non può ottenere Ferita Aperta (negli Incontri Mirati, la Parte)\n- Fine Turno: Ottiene Lentezza pari alle Stack il turno successivo\n- Fine Turno: Riduce le Stack di 1",
+      "summary": "Ottiene Conteggio Sanguinamento\nOttiene Lentezza il turno successivo",
       "undefined": "-"
     }
   ]
