@@ -836,8 +836,8 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando attiva Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge 3 danni fissi per Stack e alza la Soglia di Vacillamento di 3% per Stack.",
-      "summary": "Quando attiva Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge danno ed alza la Soglia di Vacillamento."
+      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge 3 danni fissi per Stack e alza la Soglia di Vacillamento di 3% per Stack.",
+      "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge danno ed alza la Soglia di Vacillamento."
     },
     {
       "id": "VibrationAssimilation",
@@ -1431,7 +1431,7 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Quando si attiva Scoppio Vibrazione, subisce danni da Accidia pari alla Potenza Vibrazione su di sé.\n- Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza.\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando si innesca Scoppio Vibrazione, subisce danni da Accidia pari alla Potenza Vibrazione su di sé.\n- Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza.\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1443,13 +1443,13 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando subisce un'Attacco da Abilità o Monete che attivano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un colpo da Abilità o Monete che attivano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un colpo da Abilità o Monete che innescano Scoppio Vibrazione, (Conteggio Vibrazione su sé stesso)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
       "id": "TimeSuspend",
       "name": "Tempus Moratorium",
-      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno viene immagazzinato\n- A fine combattimento: se rimane solo 1 Conteggio,  quest'effetto attiva Scoppio Vibrazione dopo aver inflitto il (100 + (Potenza x 15)% del danno immagazzinato come danno da Accidia\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.",
+      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno viene immagazzinato\n- A fine combattimento: se rimane solo 1 Conteggio,  quest'effetto innesca Scoppio Vibrazione dopo aver inflitto il (100 + (Potenza x 15)% del danno immagazzinato come danno da Accidia\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.",
       "summary": ""
     },
     {
@@ -1461,7 +1461,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere Scontro per ogni 10 Tremore su sé stesso (max 3)\n- Quando subisce un'Attacco da Abilità che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\n- A Fine Turno: riduce di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere Scontro per ogni 10 Tremore su sé stesso (max 3)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento in base alla Potenza\n- A Fine Turno: riduce di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1574,7 +1574,7 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n-  Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la Velocità di quest'unità al minimo\n  · Ottiene 5 Resistenza\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla sua Velocità (solo durante un Incontro Mirato)\n  · Alla vittoria di uno Scontro, attiva Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n-  Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la Velocità di quest'unità al minimo\n  · Ottiene 5 Resistenza\n  · Tutti gli slot di quest'unità ottengono +(10 / # slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla sua Velocità (solo durante un Incontro Mirato)\n  · Alla vittoria di uno Scontro, innesca Scoppio Vibrazione\n  · I danni non faranno Vacillare questa unità",
       "summary": ""
     },
     {
@@ -1683,7 +1683,7 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Max+ 2\n- Consuma il Conteggio Vibrazione su di sé per infliggere 1 Conteggio o Potenza Vibrazione aggiuntivi quando sono inflitti con le proprie Abilità o gli effetti delle Monete\n- Quando subisce un'Attacco da mosse che attivano Scoppio Vibrazione, alza la Soglia di Vacillamento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Velocità Max+ 2\n- Consuma il Conteggio Vibrazione su di sé per infliggere 1 Conteggio o Potenza Vibrazione aggiuntivi quando sono inflitti con le proprie Abilità o gli effetti delle Monete\n- Quando subisce un'Attacco da mosse che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },

@@ -1681,14 +1681,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1697,19 +1697,19 @@
         {
           "level": 2,
           "name": "Pulisci Congestione",
-          "desc": "<style=\"highlight\">[WhenUse] At 6+ [Charge] Count, Clash Power +1</style>",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ Conteggio [Charge], Potere Scontro +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1718,22 +1718,22 @@
         {
           "level": 4,
           "name": "Pulisci Congestione",
-          "desc": "<style=\"highlight\">[WhenUse] At 3+ [Charge], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Charge] Count on self (max 2)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 Conteggio [Charge] su di sé (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [Charge]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 }
               ]
             }
@@ -1747,19 +1747,19 @@
         {
           "level": 1,
           "name": "Turbo: Lama dal Gomito",
-          "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +4 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -1768,22 +1768,22 @@
         {
           "level": 2,
           "name": "Turbo: Lama dal Gomito",
-          "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power<style=\"highlight\"></style>",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">5</style> [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">5</style> Conteggio [Charge]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 }
               ]
             }
@@ -1792,22 +1792,22 @@
         {
           "level": 4,
           "name": "Turbo: Lama dal Gomito",
-          "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power\n<style=\"highlight\">[WhenUse] At 3+ [Charge], Coin Power +1</style>",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta\n<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">6</style> [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">6</style> Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Burst]"
                 }
               ]
             }
@@ -1821,7 +1821,7 @@
         {
           "level": 3,
           "name": "Strappa Spazio - Sovralimentazione ASC",
-          "desc": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power",
+          "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno di 50% HP, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Final Power +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta",
           "coinlist": [
             {
               "coindescs": [
@@ -1840,20 +1840,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)"
+                  "desc": "[OnStartCoin] Consuma fino a 10 Conteggio [Charge] per ottenere Potere Moneta per questa Moneta pari a (Conteggio [Charge] consumato per questa Moneta)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Slash damage equal to ([Charge] Potency x 5)% of this Coin's final damage (max 25%)"
+                  "desc": "[OnSucceedAttack] Infligge Danni Taglienti pari a (Potenza [Charge] x 5)% dei danni finali di questa Moneta (max 25%)"
                 }
               ]
             }
@@ -1862,39 +1862,39 @@
         {
           "level": 4,
           "name": "Strappa Spazio - Sovralimentazione ASC",
-          "desc": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power\n<style=\"highlight\">[WhenUse] Gain Clash Power equal to [Charge] Potency on self (max 5)</style>",
+          "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno di 50% HP, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Potere Finale +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta\n<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari a Potenza [Charge] su di sé (max 5)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Gain +1 [Charge] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Ottiene +1 Conteggio [Charge]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Gain +1 [Charge] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Ottiene +1 Conteggio [Charge]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Consuma fino a 10 Conteggio [Charge] per ottenere Potere Moneta per questa Moneta pari a (Conteggio [Charge] consumato per questa Moneta)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Slash damage equal to ([Charge] Potency x <style=\"highlight\">10</style>)% of this Coin's final damage (max <style=\"highlight\">50%</style>)"
+                  "desc": "[OnSucceedAttack] Infligge Danni Taglienti pari a (Potenza [Charge] x <style=\"highlight\">10</style>)% dei danni finali di questa Moneta (max <style=\"highlight\">50%</style>)"
                 }
               ]
             }
@@ -1908,7 +1908,7 @@
         {
           "level": 1,
           "name": "Sovraccarico ASC",
-          "desc": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Vacillamento di questa unità (una volta per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -1922,7 +1922,7 @@
         {
           "level": 4,
           "name": "Sovraccarico ASC",
-          "desc": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)\n<style=\"highlight\">- Turn End: Add 1 Strappa Spazio - Sovraspinta ASC to the list of Skills for the next upcoming turn (once per turn)</style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Vacillamento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta ASC alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
