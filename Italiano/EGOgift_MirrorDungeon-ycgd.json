@@ -37,11 +37,11 @@
             "simpleDesc": [
                 {
                     "abilityID": 2029,
-                    "simpleDesc": "Infligge 2 Conteggio [Laceration] in più"
+                    "simpleDesc": "Infligge 2 Conteggio Sanguinamento in più"
                 },
                 {
                     "abilityID": 20291,
-                    "simpleDesc": "Infligge 4 Potenza [Laceration] e 4 Conteggio [Laceration] in più"
+                    "simpleDesc": "Infligge 4 Potenza Sanguinamento e 4 Conteggio Sanguinamento in più"
                 }
             ]
         },
@@ -56,7 +56,7 @@
                 },
                 {
                     "abilityID": 20301,
-                    "simpleDesc": "Ianni da Superbia addizionali pari a (Potenza [Breath]/2)."
+                    "simpleDesc": "Danni da Superbia addizionali pari a (Potenza [Breath]/2)."
                 }
             ]
         },
@@ -74,7 +74,7 @@
         {
             "id": 2032,
             "name": "Sublimità",
-            "desc": "All'inizio del Turno: si attiva quando sono presenti 3 o più Identità del Clan Kurokumo.\n\nAll'inizio del Turno: tutti gli alleati ottengono 2 Attacco Aumentato Tagliente ed infliggono +35% di danni Taglienti.\n\nAll'inizio del Turno: quando un'Identità del Clan Kurokumo infligge danno per la prima volta, infligge 4 Potenza [Laceration] e +4 Conteggio [Laceration] in più. (Una volta per turno)",
+            "desc": "All'inizio del Turno: si attiva quando sono presenti 3 o più Identità del Clan Kurokumo(conta solo le Identità sul campo di battaglia).\n\nAll'inizio del Turno: tutti gli alleati ottengono 2 Attacco Aumentato Tagliente ed infliggono +35% di danni Taglienti.\n\nAll'inizio del Turno: quando un'Identità del Clan Kurokumo infligge danno per la prima volta, infligge 4 Potenza [Laceration] e +4 Conteggio [Laceration] in più. (Una volta per turno)",
             "simpleDesc": [
                 {
                     "abilityID": 2032,
@@ -89,7 +89,7 @@
         {
             "id": 2033,
             "name": "Inflessibile",
-            "desc": "All'inizio dell'Incontro: si attiva quando sono presenti 3 o più Identità dei Discendenti della Spada.\n\nAll'Inizio del Turno: tutti gli alleati ottengono 2 Attacco Aumentato Tagliente ed infliggono +35% di danni Taglienti.\n\nInizio del Turno: quando un'Identità dei Discendenti della Spada ingligge un Colpo Critico, infligge danno da Superbia pari a Potenza [Breath] su di sè.",
+            "desc": "All'inizio dell'Incontro: si attiva quando sono presenti 3 o più Identità dei Discendenti della Spada(conta solo le Identità sul campo di battaglia).\n\nAll'Inizio del Turno: tutti gli alleati ottengono 2 Attacco Aumentato Tagliente ed infliggono +35% di danni Taglienti.\n\nInizio del Turno: quando un'Identità dei Discendenti della Spada ingligge un Colpo Critico, infligge danno da Superbia pari a Potenza [Breath] su di sè.",
             "simpleDesc": [
                 {
                     "abilityID": 2033,
@@ -97,14 +97,14 @@
                 },
                 {
                     "abilityID": 20331,
-                    "simpleDesc": "Infligge danno da Superbia pari a Potenza [Breath]"
+                    "simpleDesc": "Infligge danno da Superbia pari a Potenza Respiro"
                 }
             ]
         },
         {
             "id": 2034,
             "name": "Cappello di Bambù Logoro",
-            "desc": "All'inizio dell'Incontro: si attiva quando sono presenti 3 o più Identità dei Discendenti della Spada.\n\nTutti gli alleati infliggono +50% danno Tagliente in più.\n\nGli alleati dei Discendenti della Spada con [Breath] hanno la probabilità di Colpo Critico del 100%.",
+            "desc": "All'inizio dell'Incontro: si attiva quando sono presenti 3 o più Identità dei Discendenti della Spada(conta solo le Identità sul campo di battaglia).\n\nTutti gli alleati infliggono +50% danno Tagliente in più.\n\nPer le Identità dei Discendenti della Spada: gli alleati con [Breath] hanno una probabilità di Colpo Critico fissata al 100%\n\nInoltre infliggono 1.5 danni aggiuntivi sul Colpo Critico.",
             "simpleDesc": [
                 {
                     "abilityID": 2034,
@@ -113,13 +113,17 @@
                 {
                     "abilityID": 20341,
                     "simpleDesc": "La percentuale di Colpo Critico è portata al 100%"
+                },
+                {
+                    "abilityID": 20342,
+                    "simpleDesc": "Infligge 1.5 danni aggiuntivi sul Colpo Critico"
                 }
             ]
         },
         {
             "id": 2035,
             "name": "Vecchio Dopo",
-            "desc": "All'inizio dell'Incontro: si attiva quando sono presenti 3 o più Identità dei Discendenti della Spada.\n\nTutti gli alleati infliggono +50% danno Tagliente in più.\n\nGli alleati dei Discendenti della Spada con [Breath] hanno la probabilità di Colpo Critico del 100%.",
+            "desc": "All'inizio dell'Incontro: si attiva quando sono presenti 3 o più Identità dei Discendenti della Spada(conta solo le Identità sul campo di battaglia).\n\nTutti gli alleati infliggono +50% danno Tagliente in più.\n\nPer le Identità dei Discendenti della Spada: L'Abilità 1 ottiene Potere Moneta +1. Le Abilità 1 con Moneta Singola ottengono Potere Moneta +3.\n\n[Esclusivo a Mentore dei Discendenti della Spada Meursault] Abilità 'Cedo la Carne' Potere Scontro Finale -12; 'Per Strappare le Ossa' infligge il 50% di danni aggiuntivi",
             "simpleDesc": [
                 {
                     "abilityID": 2035,
@@ -131,7 +135,7 @@
                 },
                 {
                     "abilityID": 20352,
-                    "simpleDesc": "'Yield My Flesh' Skill Final Clash Power -12; 'To Claim Your Bones' infligge il 50% in più di danni"
+                    "simpleDesc": "Abilità 'Cedo la Carne': Potere Scontro Finale -12; 'Per Strappare le Ossa' infligge il 50% di danni aggiuntivi"
                 }
             ]
         }

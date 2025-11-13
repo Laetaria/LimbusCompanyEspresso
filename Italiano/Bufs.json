@@ -118,7 +118,7 @@
     {
       "id": "AttackDmgUp",
       "name": "Danno Aumentato",
-      "desc": "Infligge il +{0}0% danni in più con le Abilità per questo turno. (Max 100%)",
+      "desc": "Infligge il +{0}0% danni aggiuntivi con le Abilità per questo turno. (Max 100%)",
       "summary": "+{0}0% Danni Inflitti"
     },
     {
@@ -325,7 +325,7 @@
     {
       "id": "Operation",
       "name": "Chirurgia",
-      "desc": "Muore quando le Stack arrivano a 5.\nRiduce i PV massimi del 20% per Stack ({0}).\nInfligge il 20% danni in più per Stack ({0}).\nA inizio Turno: Ottiene {0} Rapidità.",
+      "desc": "Muore quando le Stack arrivano a 5.\nRiduce i PV massimi del 20% per Stack ({0}).\nInfligge il 20% danni aggiuntivi per Stack ({0}).\nA inizio Turno: Ottiene {0} Rapidità.",
       "summary": "Muore a 5 Stack"
     },
     {
@@ -373,17 +373,17 @@
     {
       "id": "SlashResistUp",
       "name": "Resistenza a Tagliente",
-      "desc": "Abbassa la resistenza al Danno Tagliente di 0.{0}"
+      "desc": "Abbassa la resistenza al Danno Tagliente di {0:F1}"
     },
     {
       "id": "PenetrateResistUp",
       "name": "Resistenza a Perforante",
-      "desc": "Abbassa la resistenza al Danno Perforante di 0.{0}"
+      "desc": "Abbassa la resistenza al Danno Perforante di {0:F1}"
     },
     {
       "id": "HitResistUp",
       "name": "Resistenza a Contundente",
-      "desc": "Abbassa la resistenza al Danno Contundente 0.{0}"
+      "desc": "Abbassa la resistenza al Danno Contundente {0:F1}"
     },
     {
       "id": "SlashDamageUp",
@@ -406,17 +406,17 @@
     {
       "id": "SlashResistDown",
       "name": "Debolezza al Tagliente",
-      "desc": "Aumenta la Resistenza ai Danni Taglienti di 0.{0}"
+      "desc": "Aumenta la Resistenza ai Danni Taglienti di {0:F1}"
     },
     {
       "id": "PenetrateResistDown",
       "name": "Debolezza al Perforante",
-      "desc": "Aumenta la Resistenza ai Danni Perforanti di 0.{0}"
+      "desc": "Aumenta la Resistenza ai Danni Perforanti di {0:F1}"
     },
     {
       "id": "HitResistDown",
       "name": "Debolezza al Contundente",
-      "desc": "Aumenta la Resistenza ai Danni Contundenti di 0.{0}"
+      "desc": "Aumenta la Resistenza ai Danni Contundenti di {0:F1}"
     },
     {
       "id": "SlashDamageDown",
@@ -439,37 +439,37 @@
     {
       "id": "CrimsonResistDown",
       "name": "Debolezza a Ira",
-      "desc": "Aumenta la Resistenza ai Danni da Ira di 0.{0}"
+      "desc": "Aumenta la Resistenza ai Danni da Ira di {0:F1}"
     },
     {
       "id": "ScarletResistDown",
       "name": "Debolezza a Lussuria",
-      "desc": "Aumenta la Resistenza ai Danni da Lussuria di 0.{0}"
+      "desc": "Aumenta la Resistenza ai Danni da Lussuria di {0:F1}"
     },
     {
       "id": "AmberResistDown",
       "name": "Debolezza all'Accidia",
-      "desc": "Aumenta la Resistenza ai Danni d'Accidia di 0.{0}"
+      "desc": "Aumenta la Resistenza ai Danni d'Accidia di {0:F1}"
     },
     {
       "id": "ShamrockResistDown",
       "name": "Debolezza a Gola",
-      "desc": "Aumenta la resistenza ai Danni da Gola di 0.{0}"
+      "desc": "Aumenta la resistenza ai Danni da Gola di {0:F1}"
     },
     {
       "id": "AzureResistDown",
       "name": "Debolezza a Tristezza",
-      "desc": "Aumenta la Resistenza ai danni da Tristezza di 0.{0}"
+      "desc": "Aumenta la Resistenza ai danni da Tristezza di {0:F1}"
     },
     {
       "id": "IndigoResistDown",
       "name": "Debolezza a Superbia",
-      "desc": "Aumenta la Resistenza ai danni da Superbia di 0.{0}"
+      "desc": "Aumenta la Resistenza ai danni da Superbia di {0:F1}"
     },
     {
       "id": "VioletResistDown",
       "name": "Debolezza a Invidia",
-      "desc": "Aumenta la Resistenza ai danni da Invidia di 0.{0}"
+      "desc": "Aumenta la Resistenza ai danni da Invidia di {0:F1}"
     },
     {
       "id": "CrimsonResistUp",
@@ -907,7 +907,7 @@
     {
       "id": "MarkOfHeresy",
       "name": "Sguardo",
-      "desc": "Subisce +20% danni in più dalle Abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatici di N.Corp', ottiene inoltre 1 Fanatismo al turno successivo.",
+      "desc": "Subisce +20% danni aggiuntivi dalle Abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatici di N.Corp', ottiene inoltre 1 Fanatismo al turno successivo.",
       "summary": "Danni Perforanti e Contundenti subiti +20%"
     },
     {
@@ -1969,7 +1969,7 @@
     {
       "id": "GazePersonality",
       "name": "Sguardo di Disprezzo",
-      "desc": "- Valore Massimo: 7\n- Infligge +7% danni in più per ogni Sguardo di Disprezzo\n- A Fine Turno: quest'effetto scade\n- A Fine Turno: se il valore di Sguardo di Disprezzo è 7, viene convertito in Disprezzo dello Sguardo nel turno successivo, al posto di scadere",
+      "desc": "- Valore Massimo: 7\n- Infligge +7% danni aggiuntivi per ogni Sguardo di Disprezzo\n- A Fine Turno: quest'effetto scade\n- A Fine Turno: se il valore di Sguardo di Disprezzo è 7, viene convertito in Disprezzo dello Sguardo nel turno successivo, al posto di scadere",
       "summary": ""
     },
     {
@@ -1993,7 +1993,7 @@
     {
       "id": "ChargeLoad",
       "name": "Ricarica",
-      "desc": "-Valore massimo: 6\n- Le Abilità offensive che hanno consumato Conteggio Carica : infliggono +({0} x 2.5)% danni in più (max 15%)\n- Se l'unità che sfrutta quest'effetto è un Impiegato di W. Corp, infligge +({0} x 5)% danni in più. (max 30%)\n- A Fine Turno: quest'effetto scade",
+      "desc": "-Valore massimo: 6\n- Le Abilità offensive che hanno consumato Conteggio Carica : infliggono +({0} x 2.5)% danni aggiuntivi (max 15%)\n- Se l'unità che sfrutta quest'effetto è un Impiegato di W. Corp, infligge +({0} x 5)% danni aggiuntivi. (max 30%)\n- A Fine Turno: quest'effetto scade",
       "summary": ""
     },
     {
@@ -2248,7 +2248,7 @@
     {
       "id": "Zazen",
       "name": "Dhyāna",
-      "desc": "- Stack Max: 108\n- Infligge +1% danni in più per ogni Stack",
+      "desc": "- Stack Max: 108\n- Infligge +1% danni aggiuntivi per ogni Stack",
       "summary": "Infligge più danni"
     },
     {
@@ -2278,7 +2278,7 @@
     {
       "id": "SadLamanchaland",
       "name": "Responsibilità",
-      "desc": "- Valore Massimo: 1\n- Potere Scontro +1\n- Infligge il +20% in più di danno\n- Subisce il +20% in più di danni",
+      "desc": "- Valore Massimo: 1\n- Potere Scontro +1\n- Infligge il +20% in più di danno\n- Subisce il +20% di danni aggiuntivi",
       "summary": ""
     },
     {
@@ -2444,7 +2444,7 @@
     {
       "id": "VendettaMark",
       "name": "Marchio della Vendetta",
-      "desc": "- Stack Max: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni in più dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con più Stack di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
+      "desc": "- Stack Max: 10\n- Viene usato da alcune Abilità o passive\n- Subisce +2% danni aggiuntivi dai nemici del Medio in base alle Stack (max 20%)\n- A Fine Turno: l'unità con più Stack di questo ottine 1 Marchio della Vendetta del Fratello il turno successivo\n(Calcolato separatemante dal Marchio della Vendetta; se più di una singola unità hanno il valore più alto di quest'effetto, quest'effetto prende di mira colui che ha i PV maggiori)",
       "summary": "",
       "undefined": "-"
     },
@@ -2668,7 +2668,7 @@
     {
       "id": "ChoSuperCharge",
       "name": "Superbatteria Luminescente",
-      "desc": "- Stack Max: 100\n- Quando consuma Conteggio Carica, aggiunge la quantità consumata alle Stack di questo effetto\n- Limite Conteggio Massimo Carica +10\n- Ottiene 1 Conteggio Carica quando gli alleati ottengono Potenza o Conteggio Carica\n- Quando questa unità consuma Carica, consuma lo stesso numero di Conteggio Carica un'altra volta (Quando non ha abbastanza Conteggio, consuma tutto quello disponibile)\n- Infligge +10% danni in più per ogni 10 Stack\n- I nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità per ogni 20 Stack (max +0.5 Resistenza; non si attiva quando il nemico Vacilla)\n- Quando l'Identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'Ordine di Schieramento. Le Stack vengono trasferite a loro volta.\n- Questo effetto funziona anche con gli effetti di 'Carica Speciale'.",
+      "desc": "- Stack Max: 100\n- Quando consuma Conteggio Carica, aggiunge la quantità consumata alle Stack di questo effetto\n- Limite Conteggio Massimo Carica +10\n- Ottiene 1 Conteggio Carica quando gli alleati ottengono Potenza o Conteggio Carica\n- Quando questa unità consuma Carica, consuma lo stesso numero di Conteggio Carica un'altra volta (Quando non ha abbastanza Conteggio, consuma tutto quello disponibile)\n- Infligge +10% danni aggiuntivi per ogni 10 Stack\n- I nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità per ogni 20 Stack (max +0.5 Resistenza; non si attiva quando il nemico Vacilla)\n- Quando l'Identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'Ordine di Schieramento. Le Stack vengono trasferite a loro volta.\n- Questo effetto funziona anche con gli effetti di 'Carica Speciale'.",
       "summary": "",
       "undefined": "-"
     },

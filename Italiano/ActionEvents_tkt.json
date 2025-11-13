@@ -93,15 +93,73 @@
       ]
     },
     {
-      "id": 10516,
-      "name": "All'Entata",
+      "id": 910901,
+      "name": "Inizio del Dungeon Rinnovato di Tempo Ammazzatempo",
       "subDesc": "",
-      "desc": "Entri in un Dungeon dell'Abisso. Assomiglia ad una strada della T Corp.\n\nSuperata la folla di passanti, noti il luccichio di un distributore automatico nelle vicinanze.\n\nNelle strade così prive di colore...\n\n... la luce del distributore automatico risuona ancora di più col tuo cuore.",
+      "desc": "Entriamo in un Dungeon dell'Abisso. Assomiglia ad una strada della T Corp.\n\nSuperata la folla di passanti, notiamo il luccichio di un distributore automatico nelle vicinanze.\n\nNelle strade così prive di colore...\n\n... la luce del distributore automatico risuona ancora di più col nostro cuore.\n\nGuardandoci intorno, gli altri passanti non sembrano notare niente di strano.\n\nVediamo più file di bottoni sul distributore.\n\nCosa dovremmo fare?",
       "options": [
         {
-          "message": "Segui la luce.",
+          "message": "Premete uno dei bottoni sulla prima riga.",
+          "messageDesc": "Ottieni un Dono E.G.O Vibrazione",
           "result": [
-            "Siamo *così* vicini a svelare il mistero del Tempo Ammazzatempo.\n\nNon sappiamo bene come si concluderà questo caso...\n\n... ma abbiamo deciso di continuare, con la luce a guidarci."
+            "Prendiamo il Dono E.G.O che è uscito dal distributore con un tonfo.\n\nSiamo *così* vicini a svelare il mistero del Tempo Ammazzatempo.\n\nNon sappiamo bene come si concluderà questo caso...\n\n... ma abbiamo deciso di continuare, con la luce a guidarci."
+          ]
+        },
+        {
+          "message": "Press one of the buttons on the middle row.",
+          "messageDesc": "Gain a Tremor E.G.O Gift",
+          "result": [
+            "We pick up the E.G.O Gift that dropped from the vending machine with a clunk.\n\nWe're <i>this</i> close to unveiling the truth of the Timekilling Time.\n\nWe don't exactly know how this case will end...\n\n... but we decide to forge on, the brilliance our guiding light."
+          ]
+        },
+        {
+          "message": "Press one of the buttons on the bottom row.",
+          "messageDesc": "Gain a Keywordless E.G.O Gift",
+          "result": [
+            "We pick up the E.G.O Gift that dropped from the vending machine with a clunk.\n\nWe're <i>this</i> close to unveiling the truth of the Timekilling Time.\n\nWe don't exactly know how this case will end...\n\n... but we decide to forge on, the brilliance our guiding light."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 910902,
+      "name": "Timekilling Time Dungeon Renewal Fusion",
+      "subDesc": "",
+      "desc": "We come upon a familiar rest stop.\n\nThe glass door is locked, with a notice attached to it.\n\n'We are closed today due to personal reasons. We apologize for the inconvenience.'\n\n'However, our fusion device is available for use. Customers requiring fusion service are kindly asked to use the device beside the entrance.'\n\nWhat should we do?",
+      "options": [
+        {
+          "message": "Try putting in Silver Watch Case and Etched Clock Hands.",
+          "messageDesc": "",
+          "result": [
+            "After a drawn-out rattling, an E.G.O Gift drops from the device."
+          ]
+        },
+        {
+          "message": "Try putting in Silver Watch Case and Rusted Clock Hands.",
+          "messageDesc": "",
+          "result": [
+            "After a drawn-out rattling, an E.G.O Gift drops from the device."
+          ]
+        },
+        {
+          "message": "Try putting in Faded Watch Case and Etched Clock Hands.",
+          "messageDesc": "",
+          "result": [
+            "After a drawn-out rattling, an E.G.O Gift drops from the device."
+          ]
+        },
+        {
+          "message": "Try putting in Faded Watch Case and Rusted Clock Hands.",
+          "messageDesc": "",
+          "result": [
+            "After a drawn-out rattling, an E.G.O Gift drops from the device."
+          ]
+        },
+        {
+          "message": "There is nothing that seems right to put in the device.",
+          "messageDesc": "",
+          "result": [
+            "We have nothing quite suitable to put in the device.\n\nThere was no choice but to return to the road."
           ]
         }
       ]
