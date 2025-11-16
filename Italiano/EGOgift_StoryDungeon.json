@@ -96,7 +96,7 @@
       "simpleDesc": [
         {
           "abilityID": 1013,
-          "simpleDesc": "Max PV +10%"
+          "simpleDesc": "Max di PV +10%"
         }
       ]
     },
@@ -280,7 +280,7 @@
     {
       "id": 1041,
       "name": "Mano Emorragica",
-      "desc": "All'inizio del Turno, applica 2 Potere Attacco Aumentato agli alleati con il 25% o meno della salute.",
+      "desc": "Inizio Turno: applica 2 Potere Attacco Aumentato agli alleati con il 25% o meno della salute.",
       "simpleDesc": [
         {
           "abilityID": 1041,
@@ -328,7 +328,7 @@
       "simpleDesc": [
         {
           "abilityID": 1046,
-          "simpleDesc": "Heal 50% of Max PV"
+          "simpleDesc": "Heal 50% of Max di PV"
         }
       ]
     },
@@ -382,63 +382,63 @@
     },
     {
       "id": 1052,
-      "name": "Hot 'n Juicy Drumstick",
-      "desc": "When inflicting [Combustion] with Skills against enemies, inflict +5 [Combustion] Count.",
+      "name": "Coscia di Pollo Succosa",
+      "desc": "Quando si usa un'Abilità Effetto che infligge [Combustion] contro dei nemici, infligge +5 Conteggio [Combustion].",
       "simpleDesc": [
         {
           "abilityID": 1052,
-          "simpleDesc": "When inflicting Burn with skill effects, inflict +5 Burn Count."
+          "simpleDesc": ""
         }
       ]
     },
     {
       "id": 1053,
-      "name": "Dry-to-the-Bone Breast",
-      "desc": "When inflicting [Burst] with Skills against enemies, inflict +5 [Burst] Count.",
+      "name": "Petto di Pollo Asciutto",
+      "desc": "Quando si usa un'Abilità Effetto che infligge [Burst] contro dei nemici, infligge +5 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 1053,
-          "simpleDesc": "When inflicting Rupture with skill effects, inflict +3 Rupture Count."
+          "simpleDesc": ""
         }
       ]
     },
     {
       "id": 1054,
-      "name": "Tango Marinade",
-      "desc": "Allies gain Clash Power by half their Speed against opponents with lower Speed (max 3).",
+      "name": "Marinata di Tango",
+      "desc": "Gli alleati ottengono Potere di Scontro aggiuntivo pari alla metà della loro Velocità quando affrontano un nemico di Velocità inferiore. (Max di 3)",
       "simpleDesc": [
         {
           "abilityID": 1054,
-          "simpleDesc": "Gain +(Speed/2) Clash Power."
+          "simpleDesc": ""
         }
       ]
     },
     {
       "id": 1055,
-      "name": "Contaminated Needle & Thread",
-      "desc": "Each turn, the first skill to deal damage to an enemy inflicts Bleed by 1/3 of the damage dealt.",
+      "name": "Ago Contaminato e Filo",
+      "desc": "Inizio Turno: la prima Abilità ad infliggere danno ad un nemico infligge [Laceration] pari ad un terzo del danno inflitto.",
       "simpleDesc": [
         {
           "abilityID": 1055,
-          "simpleDesc": "Inflict (damage dealt/3) Bleed Potency"
+          "simpleDesc": ""
         }
       ]
     },
     {
       "id": 1056,
-      "name": "Sharp Needle & Thread",
-      "desc": "Each turn, the first skill to deal damage to an enemy deals bonus fixed damage by half of the damage dealt.",
+      "name": "Ago Affilato e Filo",
+      "desc": "Inizio Turno: la prima Abilità ad infliggere danno ad un nemico infligge danno bonus fisso pari alla metà del danno inflitto.",
       "simpleDesc": [
         {
           "abilityID": 1056,
-          "simpleDesc": "Deal (damage dealt/2) bonus fixed damage"
+          "simpleDesc": ""
         }
       ]
     },
     {
       "id": 2001,
-      "name": "Small Ampule",
-      "desc": "At the start of the turn, allies under 40% PV heal 100% of Max PV. (Once per floor)",
+      "name": "Piccole Ampolle",
+      "desc": "Inizio Turno: gli alleati con meno del 40% dei PV curano il 100% dei loro PV massimi. (una volta per piano)",
       "simpleDesc": [
         {
           "abilityID": 2001,
@@ -448,8 +448,8 @@
     },
     {
       "id": 2002,
-      "name": "Piece of Crumbled Egg",
-      "desc": "On the first turn of each encounter, gain 2 E.G.O resources of a random affinity in possession",
+      "name": "Pezzo di Uovo Sbriciolato",
+      "desc": "Primo Inizio Turno di un Incontro: ottiene 2 risorse E.G.O di affinità casuale di cui si è già in possesso",
       "simpleDesc": [
         {
           "abilityID": 2002,
@@ -459,8 +459,8 @@
     },
     {
       "id": 2003,
-      "name": "Cold Illusion",
-      "desc": "Gluttony skills deal +10% damage",
+      "name": "Illusione Indifferente",
+      "desc": "Le Abilità Affinità Gola infliggono il 10% di danno in più.",
       "simpleDesc": [
         {
           "abilityID": 2003,
@@ -470,8 +470,8 @@
     },
     {
       "id": 2004,
-      "name": "Sharp Illusion",
-      "desc": "Pride skills deal +10% damage",
+      "name": "Illusione Affilata",
+      "desc": "Le Abilità Affinità Superbia infliggono il 10% di danno in più.",
       "simpleDesc": [
         {
           "abilityID": 2004,
@@ -481,8 +481,8 @@
     },
     {
       "id": 2005,
-      "name": "Fragrant Illusion",
-      "desc": "Sloth skills deal +10% damage",
+      "name": "Illusione Fragrante",
+      "desc": "Le Abilità Affinità Accidia infliggono il 10% di danno in più.",
       "simpleDesc": [
         {
           "abilityID": 2005,
@@ -492,8 +492,8 @@
     },
     {
       "id": 2006,
-      "name": "Trace of Stars",
-      "desc": "When below 0 PS, Gloom and Sloth skills have +1 Final Power",
+      "name": "Traccia di Stelle",
+      "desc": "Quando un'Identità ha meno di 0 PS, ottiene +1 Potere Finale per le Abilità Affinità Accidia e Tristezza.",
       "simpleDesc": [
         {
           "abilityID": 2006,
@@ -503,8 +503,8 @@
     },
     {
       "id": 2007,
-      "name": "Pungent Bud",
-      "desc": "When inflicting Sinking with skill effects, apply 1 more Sinking with a 50% chance",
+      "name": "Arbusto Pungente",
+      "desc": "Quando si infligge [Sinking] con un'Abilità Effetto, applica con il 50% di probabilità +1 Conteggio [Sinking] aggiuntivo.",
       "simpleDesc": [
         {
           "abilityID": 2007,
@@ -514,8 +514,8 @@
     },
     {
       "id": 2008,
-      "name": "Hot Tears",
-      "desc": "Take -10% Wrath-affinity damage\nWhen hit, gain 1 Attack Power Up next turn (Once per turn per Sinner)",
+      "name": "Lacrime Calde",
+      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Ira.\nQuando colpito, ottiene 1 Potere Attacco Aumentato nel prossimo Turno. (una volta per turno per Peccatore)",
       "simpleDesc": [
         {
           "abilityID": 2009,
@@ -529,8 +529,8 @@
     },
     {
       "id": 2009,
-      "name": "Cooled Tear",
-      "desc": "When attacked, gain 1 Protection next turn (Once per turn per Sinner)",
+      "name": "Lacrime Raffreddate",
+      "desc": "Quando colpito, ottiene 1 Protezione nel prossimo Turno. (una volta per turno per Peccatore)",
       "simpleDesc": [
         {
           "abilityID": 2009,
@@ -540,8 +540,8 @@
     },
     {
       "id": 2010,
-      "name": "Memories of Fragments",
-      "desc": "In a clash, Pride and Envy skills have +1 Clash Power",
+      "name": "Memorie dei Frammenti",
+      "desc": "Durante uno Scontro, le Abilità Affinità Superbia e Invidia ottengono +1 Potere di Scontro.",
       "simpleDesc": [
         {
           "abilityID": 2010,
@@ -551,8 +551,8 @@
     },
     {
       "id": 2011,
-      "name": "Piece of a Torn Spring",
-      "desc": "Take -10% Pride-affinity damage\n\n<i>\"I would feel a desire to scatter into the winds in lush blue, sensing the sway of seeds plunging into my scrawling mind.\"</i>",
+      "name": "Frammento di una Primavera Strappata",
+      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Superbia.\n\n<i>\"Sognavo di disperdermi nel vento in un blu lussuoso, e percepire gli oscillanti semi che si tuffavano nella mia mente scarabocchiante.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2011,
@@ -562,8 +562,8 @@
     },
     {
       "id": 2012,
-      "name": "Piece of a Torn Summer",
-      "desc": "Take -10% Gluttony-affinity damage\n\n<i>\"I saw no meaning in attempting to fathom the caprices of the weather. I would simply wait for things to calm, looking out for the day's arrival.\"</i>",
+      "name": "Frammento di una Estate Strappata",
+      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Gola.\n\n<i>\"Non trovavo ragione alcuna nel provar a prevedere i capricci del vento. Preferivo destare, attendendo per un momento di quiete alla fine della tempesta.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2012,
@@ -573,8 +573,8 @@
     },
     {
       "id": 2013,
-      "name": "Piece of a Torn Autumn",
-      "desc": "Take -10% Gloom-affinity damage\n\n<i>\"Alas, I was careless in my assumption that I could simply observe slantwise as it comes to pass until it has seeped... Realization comes too late.\"</i>",
+      "name": "Frammento di un Autunno Strappato",
+      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Tristezza.\n\n<i>\"Ahimè, sono stato negligente nel supporre che avrei potuto, semplicemente, osservare il tutto con non curanza mentre tutto ciò accadeva, attendendo che il problema se ne andasse da solo... realizzando solo allora che era troppo tardi.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2013,
@@ -584,8 +584,8 @@
     },
     {
       "id": 2014,
-      "name": "Piece of a Torn Winter",
-      "desc": "Take -10% Sloth-affinity damage\n\n<i>\"The explosion of the League of Nine shattered everything there was, and everything came to a halt for me as well.\"</i>",
+      "name": "Frammento di un Inverno Strappato",
+      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Accidia.\n\n<i>\"Lo scioglimento della Lega dei Nove fece crollare tutto, ed ogni cosa sembrò bloccarsi, perfino per me.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2014,
@@ -595,8 +595,8 @@
     },
     {
       "id": 2015,
-      "name": "Piece of a Broken Bond",
-      "desc": "Yi Sang's skills gain +2 Final Power\nWhen an ally dies, remaining allies gain 1 Haste and 1 Attack Power Up next turn (Once per turn)\n\n<i>\"Taking a backward glance at our trails... all of us have been suffering great losses.\"</i>",
+      "name": "Frammento di un Legame Spezzato",
+      "desc": "Le Abilità di Yi Sang ottengono +2 Potere di Scontro\nQuando un alleato muore, i restanti alleati ottengono 1 [Agility] e 1 Potere Attacco Aumentato nel prossimo Turno (Una volta per Turno)\n\n<i>\"Ripensando a quanto abbiamo passato... mi rendo conto di tutte le grandi perdite che abbiamo sofferto.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2015,
@@ -610,8 +610,8 @@
     },
     {
       "id": 2016,
-      "name": "Piece of Reversing Memories",
-      "desc": "Yi Sang's level rises to 35.\nYi Sang's Uptie and Threadspin Tiers rise to Tier 3.\n\n<i>\"We were neither highfliers nor greedy vultures; we were merely children who loved technology.\"</i>",
+      "name": "Frammento dei Ricordi Invertiti",
+      "desc": "Il Livello di Yi Sang aumenta a 35.\nIl Grado Legame di Yi Sang aumenta al Grado 3.\n\n<i>\"Non eravamo sognatori ambiziosi, e nemmeno voraci avvoltoi... eravamo solo dei pargoli con la passione della tecnologia.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2016,
@@ -625,3 +625,4 @@
     }
   ]
 }
+
