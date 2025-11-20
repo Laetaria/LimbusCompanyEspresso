@@ -46,7 +46,7 @@
       "id": 1008,
       "panicName": "Maddened",
       "lowMoraleDescription": "When at low morale for the first time, targets units indiscriminately",
-      "panicDescription": "Targets indiscriminately; Clash Power +1, and gain 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u>"
+      "panicDescription": "Targets indiscriminately; Potere Scontro +1, and gain 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u>"
     },
     {
       "id": 1009,
@@ -69,8 +69,8 @@
     {
       "id": 1012,
       "panicName": "Dejection",
-      "lowMoraleDescription": "Gain 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>; In a clash, if any Coin lands tails, Clash Power -1 for the clash.",
-      "panicDescription": "Gain 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>; In a clash, if any Coin lands tails, Clash Power -3 for the clash."
+      "lowMoraleDescription": "Gain 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>; In a clash, if any Coin lands tails, Potere Scontro -1 for the clash.",
+      "panicDescription": "Gain 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>; In a clash, if any Coin lands tails, Potere Scontro -3 for the clash."
     },
     {
       "id": 9999,
@@ -87,8 +87,8 @@
     {
       "id": 1014,
       "panicName": "Vengeance",
-      "lowMoraleDescription": "Turn Start: Gain 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Defense Level Down</color></link></u>. Gain <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> based on the amount of damage taken last turn (1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> for every 3% of Max PV lost)",
-      "panicDescription": "Turn Start: Gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Defense Level Down</color></link></u>. Gain <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> based on the amount of damage taken last turn (1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> for every 3% of Max PV lost)"
+      "lowMoraleDescription": "Turn Start: Gain 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Livello Offensivo Down</color></link></u>. Gain <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> based on the amount of damage taken last turn (1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> for every 3% of Max PV lost)",
+      "panicDescription": "Turn Start: Gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Livello Offensivo Down</color></link></u>. Gain <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> based on the amount of damage taken last turn (1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> for every 3% of Max PV lost)"
     },
     {
       "id": 1015,
@@ -105,14 +105,20 @@
     {
       "id": 1026,
       "panicName": "Ruin",
-      "lowMoraleDescription": "Gain 3 [Sinking] at every Turn End; Clash Power -1",
-      "panicDescription": "Gain 5 [Sinking] and +3 [Sinking] Count at every Turn End; Clash Power -2"
+      "lowMoraleDescription": "Gain 3 [Sinking] at every Turn End; Potere Scontro -1",
+      "panicDescription": "Gain 5 [Sinking] and +3 [Sinking] Count at every Turn End; Potere Scontro -2"
     },
     {
       "id": 9994,
       "panicName": "Amore e Odio",
       "lowMoraleDescription": "",
       "panicDescription": "Non agisce per questo turno."
+    },
+    {
+      "id": 1065,
+      "panicName": "Shattermark",
+      "lowMoraleDescription": "Potere Scontro -1, Livello Offensivo -2",
+      "panicDescription": "Potere Scontro -2, Livello Offensivo -3"
     }
   ]
 }
