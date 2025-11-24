@@ -2,111 +2,111 @@
   "dataList": [
     {
       "id": 1001,
-      "panicName": "Compulsion",
-      "lowMoraleDescription": "Turn Start: Gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Haste</color></link></u> and 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>",
-      "panicDescription": "Turn Start: Lose 10 PV."
+      "panicName": "Compulsione",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Agility] e 2 [Vulnerable]",
+      "panicDescription": "Inizio Turno: Perde 10 PV."
     },
     {
       "id": 1002,
-      "panicName": "Outlash",
-      "lowMoraleDescription": "Turn Start: Gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>",
-      "panicDescription": "Turn Start: Random ally loses 20 PS."
+      "panicName": "Sbotto",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Enhancement] e 2 [Vulnerable]",
+      "panicDescription": "Inizio Turno: Un'alleato casuale perde 20 PS."
     },
     {
       "id": 1003,
-      "panicName": "Overwhelmed",
-      "lowMoraleDescription": "Turn Start: Gain 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Attack Power Down</color></link></u>",
-      "panicDescription": "Does not act for this turn."
+      "panicName": "Sconvolgimento",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Reduction]",
+      "panicDescription": "Non agisce per questo turno."
     },
     {
       "id": 1004,
-      "panicName": "Atrophied",
-      "lowMoraleDescription": "Turn Start: Gain 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Attack Power Down</color></link></u>",
-      "panicDescription": "Turn Start: Gain 4 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Attack Power Down</color></link></u>"
+      "panicName": "Atrofizzazione",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Reduction]",
+      "panicDescription": "Inizio Turno: Ottiene 4 [Reduction]"
     },
     {
       "id": 1005,
-      "panicName": "Agitated",
-      "lowMoraleDescription": "Turn Start: Gain 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> and 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>",
-      "panicDescription": "Turn Start: Gain 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> and 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>"
+      "panicName": "Agitazione",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 1 [AttackDmgUp] e 2 [Vulnerable]",
+      "panicDescription": "Inizio Turno: Ottiene 2 [AttackDmgUp] e 5 [Vulnerable]"
     },
     {
       "id": 1006,
-      "panicName": "Running",
-      "lowMoraleDescription": "Does not act. When hit, this unit is defeated after the skill ends.",
+      "panicName": "Fuga",
+      "lowMoraleDescription": "Non agisce. Quando subisce un colpo, questa unità viene sconfitta una volta finita l'Abilità.",
       "panicDescription": ""
     },
     {
       "id": 1007,
-      "panicName": "Sorrow",
-      "lowMoraleDescription": "Gain 2 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Damage Down</color></link></u> each turn",
-      "panicDescription": "Gain 5 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Damage Down</color></link></u> and 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u> each turn"
+      "panicName": "Tristezza",
+      "lowMoraleDescription": "Ottiene 2 [AttackDmgDown] ogni turno",
+      "panicDescription": "Ottiene 5 [AttackDmgDown] e 2 [Vulnerable] ogni turno"
     },
     {
       "id": 1008,
-      "panicName": "Maddened",
-      "lowMoraleDescription": "When at low morale for the first time, targets units indiscriminately",
-      "panicDescription": "Targets indiscriminately; Potere Scontro +1, and gain 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u>"
+      "panicName": "Forsennatezza",
+      "lowMoraleDescription": "La prima volta che va in Morale Basso, bersaglia le altre unità in modo indiscriminato",
+      "panicDescription": "Bersaglia indiscriminatamente; Potere Scontro +1, e ottiene 2 [AttackDmgUp]"
     },
     {
       "id": 1009,
-      "panicName": "Suicidal",
-      "lowMoraleDescription": "When at low morale for the first time, become unable to act",
-      "panicDescription": "Cannot act for 3 turns. After 3 turns, unit dies at turn start; all its allies lose additional 10 PS with every PS loss condition"
+      "panicName": "Suicida",
+      "lowMoraleDescription": "La prima volta che va in Morale Basso, non riesce più ad agire",
+      "panicDescription": "Non può agire per 3 turni. Dopo 3 turni, l'unità muore all'inizio del turno; tutti i suoi alleati perdono altri 10 PS per ogni condizione di perdita PS"
     },
     {
       "id": 1010,
-      "panicName": "Wandering",
-      "lowMoraleDescription": "Turn End: Deal 2 PS damage to allies",
-      "panicDescription": "Turn End: Deal 5 PS damage to allies. Flees from battle after 3 turns have passed"
+      "panicName": "Vagabondare",
+      "lowMoraleDescription": "Fine Turno: infligge 2 danni PS agli alleati",
+      "panicDescription": "Fine Turno: infligge 5 danni PS agli alleati. Fugge dal combattimento una volta passati 3 turni"
     },
     {
       "id": 1011,
-      "panicName": "Unstable",
-      "lowMoraleDescription": "Turn Start: Gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Bind</color></link></u>",
-      "panicDescription": "Turn Start: Become staggered"
+      "panicName": "Instabilità",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Enhancement] e 3 [Binding]",
+      "panicDescription": "Inizio Turno: Diventa Vacillante"
     },
     {
       "id": 1012,
-      "panicName": "Dejection",
-      "lowMoraleDescription": "Gain 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>; In a clash, if any Coin lands tails, Potere Scontro -1 for the clash.",
-      "panicDescription": "Gain 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>; In a clash, if any Coin lands tails, Potere Scontro -3 for the clash."
+      "panicName": "Sconforto",
+      "lowMoraleDescription": "Ottiene 1 [Vulnerable]; In uno Scontro, se qualunque Moneta fa Croce, Potere Scontro -1 per quello Scontro.",
+      "panicDescription": "Ottiene 3 [Vulnerable]; In uno Scontro, se qualunque Moneta fa Croce, Potere Scontro -3 per quello Scontro."
     },
     {
       "id": 9999,
-      "panicName": "Panic",
+      "panicName": "Panico",
       "lowMoraleDescription": "",
-      "panicDescription": "Does not act for this turn."
+      "panicDescription": "Non agisce per questo turno."
     },
     {
       "id": 1013,
-      "panicName": "Impurity",
-      "lowMoraleDescription": "Gain 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>. Target loses 2 PS if this unit loses the clash",
-      "panicDescription": "Gain 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnerabilità</color></link></u>. Target loses 5 PS if this unit loses the clash"
+      "panicName": "Impurità",
+      "lowMoraleDescription": "Ottiene 1 [Vulnerable]. Il bersaglio perde 2 PS se questa unità perde lo Scontro",
+      "panicDescription": "Ottiene 1 [Vulnerable]. Il bersaglio perde 5 PS se questa unità perde lo Scontro"
     },
     {
       "id": 1014,
-      "panicName": "Vengeance",
-      "lowMoraleDescription": "Turn Start: Gain 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Livello Offensivo Down</color></link></u>. Gain <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> based on the amount of damage taken last turn (1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> for every 3% of Max PV lost)",
-      "panicDescription": "Turn Start: Gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Attack Power Up</color></link></u> and 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Livello Offensivo Down</color></link></u>. Gain <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> based on the amount of damage taken last turn (1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Damage Up</color></link></u> for every 3% of Max PV lost)"
+      "panicName": "Vendetta",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 1 [Enhancement] e 3 [DefenseDown]. Ottiene [AttackDmgUp] in base alla quantità di danni subita il turno precedente (1 [AttackDmgUp] per ogni 3% dei PV Max perduti)",
+      "panicDescription": "Inizio Turno: Ottiene 2 [Enhancement] e 6 [DefenseDown]. Ottiene [AttackDmgUp] in base alla quantità di danni subita il turno precedente (1 [AttackDmgUp] per ogni 3% dei PV Max perduti)"
     },
     {
       "id": 1015,
-      "panicName": "Pallid Panic",
+      "panicName": "Panico Pallido",
       "lowMoraleDescription": "[MentalSystemResultDecrease_Typo] +2",
-      "panicDescription": "Every Turn End: Gain 2 <sprite name=\"Binding\"><color=#f8c200><u><link=\"Binding\">Bind</color></link></u>.\nEvery Coin this unit flips lands on tails."
+      "panicDescription": "Ad ogni Fine Turno: Ottiene 2 [Binding].\nOgni Moneta lanciata da questa unità fa Croce."
     },
     {
       "id": 1016,
-      "panicName": "Resentment",
-      "lowMoraleDescription": "Turn Start: gain 2 [AttackDmgUp] and 3 [DefenseDown]",
-      "panicDescription": "Turn Start: gain 1 [Enhancement] and 5 [DefenseDown]"
+      "panicName": "Risentimento",
+      "lowMoraleDescription": "Inizio Turno: ottiene 2 [AttackDmgUp] e 3 [DefenseDown]",
+      "panicDescription": "Inizio Turno: ottiene 1 [Enhancement] e 5 [DefenseDown]"
     },
     {
       "id": 1026,
-      "panicName": "Ruin",
-      "lowMoraleDescription": "Gain 3 [Sinking] at every Turn End; Potere Scontro -1",
-      "panicDescription": "Gain 5 [Sinking] and +3 [Sinking] Count at every Turn End; Potere Scontro -2"
+      "panicName": "Rovina",
+      "lowMoraleDescription": "Ottiene 3 [Sinking] ad ogni Fine Turno; Potere Scontro -1",
+      "panicDescription": "Ottiene 5 [Sinking] e +3 Conteggio [Sinking] ad ogni Fine Turno; Potere Scontro -2"
     },
     {
       "id": 9994,
