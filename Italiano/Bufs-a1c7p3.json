@@ -10,7 +10,7 @@
     {
       "id": "BloodyHand_3rd",
       "name": "Mano Insanguinata III",
-      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Valore Max: 30\n- Valore Base: 20\n- Ottiene 1 Potere Attacco\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 2 Lacerazione e +1 Conteggio Lacerazione aggiuntivi\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 3 Sanguinamentosia su di sé che al nemico",
+      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Valore Max: 30\n- Valore Base: 20\n- Ottiene 1 Potere Attacco\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 2 Lacerazione e +1 Conteggio Lacerazione aggiuntivi\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 3 Sanguinamento sia su di sé che al nemico",
       "summary": "",
       "undefined": "-"
     },
@@ -23,57 +23,57 @@
     },
     {
       "id": "StarvingPriestTwo",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 25 Base Livello Offensivo\n- Lose 25 Base Defense Level",
+      "name": "Avvizzito",
+      "desc": "- Ha sete di sangue da molto, molto tempo.\n- Perde 25 Livello Offensivo Base\n- Perde 25 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_LowMorale",
       "name": "Rimorso",
-      "desc": "Fine Turno: ottiene 1 Fragilità e Efficenza Cura PS Ridotta",
+      "desc": "Fine Turno: ottiene 1 Vulnerabilità e Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_Panic",
       "name": "Rimorso",
-      "desc": "Turn End: ottiene 2 Fragility e 1 PS Heal Efficiency Down",
+      "desc": "Fine Turno: ottiene 2 Vulnerabilità e 1 Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MentalIncreaseDown",
       "name": "Efficenza Cura PS Ridotta",
-      "desc": "PS Heal Efficiency decreases by the effect's Stack",
+      "desc": "L'Efficenza di Cura PS si riduce in base alle Stack dell'effetto",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AffectionTeddy",
-      "name": "Attachment",
-      "desc": "- Valore Max: 9\n- When the Attacker attacks the target with this effect, the Attacker gains Clash Power equal to the Stack\n- Turn End: reduce by 1",
+      "name": "Attaccamento",
+      "desc": "- Valore Max: 9\n- Quando l'Attaccante attacca il bersaglio con questo effetto, l'Attaccante ottiene Potere Scontro pari alle Stack\n- Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FaintMemory",
-      "name": "Faint Memories",
-      "desc": "- Valore Base: 10\n- Inizio Turno: ottiene Defense Level Up equal to the Stack\n- Clash Lose: reduce by 1",
+      "name": "Tenui Ricordi",
+      "desc": "- Valore Base: 10\n- Inizio Turno: ottiene Aumento Difensivo pari alle Stack\n- Scontro Perso: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CursePackage",
-      "name": "Box of Curses",
-      "desc": "- Valore Max: 1\n- Turn End: ottiene 1 Attack Power Down, 1 Defense Power Down, 2 Livello Offensivo Down, 2 Calo Difensivo, e reduce the Stack of this effect by 1",
+      "name": "Scatola di Maledizioni",
+      "desc": "- Valore Max: 1\n- Fine Turno: ottiene 1 Attacco Diminuito, 1 Difesa Diminuita, 2 Calo Offensivo, 2 Calo Difensivo, e riduce le Stack di questo effetto 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TinyCarmilla",
       "name": "Little Carmilla",
-      "desc": "- Max Stack: 3\n- Ottiene 2 Sanguinamento every time this unit gains Little Carmilla\n- Turn End: ottiene +2 Sanguinamento Count\n- Turn End: a 3 Stack, take fixed damage equal to 15% of this unit's max PV, heal PV equal to 5% of each enemy's max PV, then this effect expires",
+      "desc": "- Max Stack: 3\n- Ottiene 2 Sanguinamento every time this unit gains Little Carmilla\n- Fine Turno: ottiene +2 Sanguinamento Count\n- Fine Turno: a 3 Stack, take fixed damage equal to 15% of this unit's max PV, heal PV equal to 5% of each enemy's max PV, then this effect expires",
       "summary": "",
       "undefined": "-"
     },
@@ -87,14 +87,14 @@
     {
       "id": "ThornNoose",
       "name": "Barbed Lasso",
-      "desc": "- Max Stack: 3\n- Turn End: ottiene 2 Lacerazione e +2 Conteggio Lacerazione\n- Turn End: a 1+ Stack, fix this unit's Speed to 1.\n- Turn End: a 2 Stack, take 20 Gluttony damage.\n- Turn End: a 3 Stack, become forcibly Staggered next turn. This effect e the connected Barbed Lasso both expire.\n- Ottiene 1 a Inizio Turno",
+      "desc": "- Max Stack: 3\n- Fine Turno: ottiene 2 Lacerazione e +2 Conteggio Lacerazione\n- Fine Turno: a 1+ Stack, fix this unit's Speed to 1.\n- Fine Turno: a 2 Stack, take 20 Gluttony damage.\n- Fine Turno: a 3 Stack, become forcibly Staggered next turn. This effect e the connected Barbed Lasso both expire.\n- Ottiene 1 a Inizio Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SwirlingBlood",
       "name": "Luccichio【Sanguimonio】",
-      "desc": "- While this effect is active: when this unit takes damage, the Attacker gains 5 Sanguinamento After Attack.\n- While this effect is active: the Shield PV does not expire a Turn End\n- When conditions are met, ottiene 3 Vulnerabilità until this effect expires e this unit gains a new pattern",
+      "desc": "- While this effect is active: when this unit takes damage, the Attacker gains 5 Sanguinamento After Attack.\n- While this effect is active: the Shield PV does not expire a Fine Turno\n- When conditions are met, ottiene 3 Vulnerabilità until this effect expires e this unit gains a new pattern",
       "summary": "",
       "undefined": "-"
     },
@@ -157,7 +157,7 @@
     {
       "id": "RoseWedge",
       "name": "Rose Wedge",
-      "desc": "- Max Potency: 10\n- Max Count: 4\n- Ottiene 1 Potency every time this unit takes 10 Sanguinamento damage\n- When gaining Sanguinamento or 'Unique Sanguinamento' from getting hit, ottiene 2 Sanguinamento e infligge 1 Sanguinamento against the Attacker. (5 times per turn)\n· A 10 Potency, ottiene +1 Sanguinamento Count as well when triggering the above effect.\n- Turn End: perde 1 Count\n- Combat End: a 10 Potency or 1 Count, this effect expires, e this unit takes (Potency x 10) Lust damage.\n- If the unit infliggeed with this effect dies, or when this effect expires: increase Bloodfeast by (Potency x 10), e deal (Potency x 2) Lust damage against all of its allies (min 1)",
+      "desc": "- Max Potency: 10\n- Max Count: 4\n- Ottiene 1 Potency every time this unit takes 10 Sanguinamento damage\n- When gaining Sanguinamento or 'Unique Sanguinamento' from getting hit, ottiene 2 Sanguinamento e infligge 1 Sanguinamento against the Attacker. (5 times per turn)\n· A 10 Potency, ottiene +1 Sanguinamento Count as well when triggering the above effect.\n- Fine Turno: perde 1 Count\n- Combat End: a 10 Potency or 1 Count, this effect expires, e this unit takes (Potency x 10) Lust damage.\n- If the unit infliggeed with this effect dies, or when this effect expires: increase Bloodfeast by (Potency x 10), e deal (Potency x 2) Lust damage against all of its allies (min 1)",
       "summary": "",
       "undefined": "-"
     },
@@ -170,8 +170,8 @@
     },
     {
       "id": "StarvingDonqui",
-      "name": "Starved e Withered",
-      "desc": "- Lose 10 Base Livello Offensivo\n- Lose 10 Base Defense Level",
+      "name": "Affamato e Avvizzito",
+      "desc": "- Perde 10 Livello Offensivo Base\n- Perde 10 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"
     },
@@ -185,28 +185,28 @@
     {
       "id": "RegainedStrength_2nd",
       "name": "Returning Bloodlust II",
-      "desc": "- Valore Max: 20\n- Stage 2 Returning Bloodlust\n- Inizio Turno: ottiene 1 Livello Offensivo up e 1 Defense Level Up per ogni 5 Value\n- Clash Power +1 to Skills that consume Returning Bloodlust; infligge +1 more of Potency e Count for Sanguinamento e Lacerazione infliggeed by the said Skill",
+      "desc": "- Valore Max: 20\n- Stage 2 Returning Bloodlust\n- Inizio Turno: ottiene 1 Livello Offensivo up e 1 Aumento Offensivo per ogni 5 Value\n- Potere Scontro +1 to Skills that consume Returning Bloodlust; infligge +1 more of Potency e Count for Sanguinamento e Lacerazione infliggeed by the said Skill",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_3rd",
       "name": "Returning Bloodlust III",
-      "desc": "- Valore Max: 30\n- Stage 3 Returning Bloodlust\n- Inizio Turno: ottiene 2 Livello Offensivo up e 1 Defense Level Up per ogni 5 Value\n- Coin Power +1 to Skills that consume Returning Bloodlust; infligge +1 more of Potency e Count for Sanguinamento e Lacerazione infliggeed by the said Skill",
+      "desc": "- Valore Max: 30\n- Stage 3 Returning Bloodlust\n- Inizio Turno: ottiene 2 Livello Offensivo up e 1 Aumento Difensivo per ogni 5 Value\n- Coin Power +1 to Skills that consume Returning Bloodlust; infligge +1 more of Potency e Count for Sanguinamento e Lacerazione infliggeed by the said Skill",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_LowMorale",
       "name": "Time to abandon my dream...",
-      "desc": "- Morale Basso\n- Ottiene 2 Attack Power Up e 1 Vulnerabilità; raise max Speed value by 2\n- Heal +30% more PV when healing\n- Turn End: if the current Returning Bloodlust is lower than its value a Inizio Turno, ottiene 2 Aumento Offensivo e 2 Calo Difensivo",
+      "desc": "- Morale Basso\n- Ottiene 2 Attack Power Up e 1 Vulnerabilità; raise max Speed value by 2\n- Heal +30% more PV when healing\n- Fine Turno: if the current Returning Bloodlust is lower than its value a Inizio Turno, ottiene 2 Aumento Offensivo e 2 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_Panic",
       "name": "... for my Family, as their Father...",
-      "desc": "- Panico\n- Ottiene 2 Attack Power Up, 2 Haste, e 2 Vulnerabilità\n- Heal +50% more PV when healing\n- Turn End: if the current Returning Bloodlust is lower than its value a Inizio Turno, ottiene 3 Aumento Offensivo e 5 Calo Difensivo",
+      "desc": "- Panico\n- Ottiene 2 Attack Power Up, 2 Haste, e 2 Vulnerabilità\n- Heal +50% more PV when healing\n- Fine Turno: if the current Returning Bloodlust is lower than its value a Inizio Turno, ottiene 3 Aumento Offensivo e 5 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
@@ -248,7 +248,7 @@
     {
       "id": "SanchoMind_Panic",
       "name": "Reawakening Joy Of Carnage",
-      "desc": "- Panico\nInizio Turno: ottiene 6 Defense Level Up. Ottiene 3 Aumento Offensivo next turn",
+      "desc": "- Panico\nInizio Turno: ottiene 6 Aumento Difensivo. Ottiene 3 Aumento Offensivo next turn",
       "summary": "",
       "undefined": "-"
     },
