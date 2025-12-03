@@ -2125,7 +2125,7 @@
     {
       "id": "DefensiveStance",
       "name": "Posizione Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Difesa Aumentata\n  · Tutti gli Slot di quest'unità ottengono +(10 / # Slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un Incontro mirato)\n  · Alla vittoria di uno Scontro, innesca Scoppio Vibrazione\n  · I danni non faranno Vacillamento questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Aumento Difensivo\n  · Tutti gli Slot di quest'unità ottengono +(10 / # Slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un Incontro mirato)\n  · Alla vittoria di uno Scontro, innesca Scoppio Vibrazione\n  · I danni non faranno Vacillamento questa unità",
       "summary": ""
     },
     {
@@ -2199,7 +2199,7 @@
     {
       "id": "WornHeartGreg",
       "name": "Cuore Sofferente",
-      "desc": "- Valore Massimo: 10\n- A Fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Difesa Aumentata per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, sul colpo con le Abilità Base, recupera (Stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per Abilità)",
+      "desc": "- Valore Massimo: 10\n- A Fine Turno: ottiene 1 Stack\n- A inizio Turno: ottiene 1 Aumento Difensivo per ogni 3 Stack\n- A 50% PV o meno, ottiene 1 Livello Difensivo per ogni 3 Stack\n- A 40% PV o meno, sul colpo con le Abilità Base, recupera (Stack x 5)% dei danni inflitti sul colpo come PV (min 1; arrotondato per difetto; fino a 30 PV per Abilità)",
       "summary": "",
       "undefined": "-"
     },
@@ -2260,19 +2260,19 @@
     {
       "id": "BloodArmorPersonalityFirst",
       "name": "Sangue Coagulato",
-      "desc": "- Valore Massimo: 10\n- Stadio 1: Sangue Coagulato\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- Aumenta i valori minimi e massimi di velocità di 1 per ogni 10 Sangue Coagulato\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Difesa Aumentata in base alle Stack",
+      "desc": "- Valore Massimo: 10\n- Stadio 1: Sangue Coagulato\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- Aumenta i valori minimi e massimi di velocità di 1 per ogni 10 Sangue Coagulato\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Aumento Difensivo in base alle Stack",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalitySecond",
       "name": "Sangue Coagulato II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 5 Stack\n- Aumenta i valori massimi e minimi di velocità di 1\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Difesa Aumentata in base alle Stack",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo per ogni 5 Stack\n- Aumenta i valori massimi e minimi di velocità di 1\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Aumento Difensivo in base alle Stack",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalityThird",
       "name": "Sangue Coagulato III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo e 1 Difesa Aumentata per ogni 5 Stack\n- Aumenta i valori minimi e massimi di velocità di 2\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Difesa Aumentata in base alle Stack",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Sangue Coagulato\n- A inizio Turno: ottiene 1 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Aumenta i valori minimi e massimi di velocità di 2\n- A 10+ Sangue Coagulato, diventa Sangue Coagulato II.\n- A 20+ Sangue Coagulato, diventa Sangue Coagulato III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- Sangue Coagulato non scende al di sotto di 1.\n- A Sangue Coagulato II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Sangue Coagulato III, ottiene 1 Aumento Offensivo e 1 Aumento Difensivo in base alle Stack",
       "summary": ""
     },
     {

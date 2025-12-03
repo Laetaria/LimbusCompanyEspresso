@@ -2,50 +2,50 @@
   "dataList": [
     {
       "id": "BloodScissor",
-      "name": "Lamaforbice Rosso Sangue",
-      "desc": "- Valore Massimo: 10\n- Stadio 1 Lamaforbice Rosso Sangue\n- Usato per Abilità Speciali",
+      "name": "Lamaforbice Rossosangue",
+      "desc": "- Valore Max: 10\n- Stadio 1 Lamaforbice Rosso Sangue\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorTwo",
-      "name": "Lamaforbice Rosso Sangue II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2 Lamaforbice Rosso Sangue\n- A Inizio Turno: ottiene 1 Aumento Offensivo e 1 Calo Difensivo per ogni 5 Stack\n- Usato per Abilità Speciali",
+      "name": "Lamaforbice Rossosangue II",
+      "desc": "- Valore Max: 20\n- Stadio 2 Lamaforbice Rosso Sangue\n- A Inizio Turno: ottiene 1 Aumento Offensivo e 1 Calo Difensivo per ogni 5 Stack\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorThree",
-      "name": "Lamaforbice Rosso Sangue III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3 Lamaforbice Rosso Sangue\n- A Inizio Turno: ottiene 2 Aumento Offensivo Up e 1 Calo Difensivo per ogni 5 Stack\n- Usato per Abilità Speciali",
+      "name": "Lamaforbice Rossosangue III",
+      "desc": "- Valore Max: 30\n- Stadio 3 Lamaforbice Rosso Sangue\n- A Inizio Turno: ottiene 2 Aumento Offensivo e 1 Calo Difensivo per ogni 5 Stack\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner",
       "name": "Banchetto di Sangue",
-      "desc": "- Valore Massimo: 999\n- Tutto il danno provocato da Sanguinamento in questa zona viene registrato qui\n- Torna a 0 quando si passa ad una zona diversa\n- Questo valore viene condiviso da tutti i personaggi\n- Tra gli alleati, se c'è una Progenie di grado superiore che consuma Banchetto di Sangue nello stesso turno, quest'unità non può consumare Banchetto di Sangue finché quell'alleato non lo consuma per primo.",
+      "desc": "- Valore Max: 999\n- Tutto il danno provocato da Sanguinamento in questa zona viene registrato qui\n- Torna a 0 quando si passa ad una zona diversa\n- Questo valore viene condiviso da tutti i personaggi\n- Tra gli alleati, se c'è una Progenie di grado superiore che consuma Banchetto di Sangue nello stesso turno, quest'unità non può consumare Banchetto di Sangue finché quell'alleato non lo consuma per primo.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner_Accumulation",
       "name": "Banchetto di Sangue Consumato",
-      "desc": "- Valore Massimo: 999\n- Totale Banchetto di Sangue consumato in questo incontro: {0}",
+      "desc": "- Valore Max: 999\n- Totale Banchetto di Sangue consumato in questo incontro: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBlood_LowMorale",
       "name": "Fame",
-      "desc": "- Morale Basso\n- A Inizio Turno: ottiene 1 Lentezza e 3 Attacco Aumentato. A Fine Turno: subisce 5 danni alla PS",
+      "desc": "- Morale Basso\n- Inizio Turno: ottiene 1 Lentezza e 3 Attacco Aumentato. A Fine Turno: subisce 5 danni ai PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBlood_Panic",
       "name": "Fame",
-      "desc": "- Panico\nA Inizio Turno: ottiene 2 Lentezza e 4 Attacco Aumentato.",
+      "desc": "- Panico\n- Inizio Turno: ottiene 2 Lentezza e 4 Attacco Aumentato",
       "summary": "",
       "undefined": "-"
     },
@@ -115,7 +115,7 @@
     {
       "id": "BloodShooting",
       "name": "Sputa sangue!!",
-      "desc": "Quando muore:\n- Banchetto di Sangue +30\n- ottiene 2 Risorse E.G.O tra quelle più scarse\n- Il Turno Successivo: tutti gli alleati ottengono 0.1 a tutte le Resistenze Fisiche. Quest'effetto può accumularsi. (max 5)",
+      "desc": "Quando muore:\n- Banchetto di Sangue +30\n- Ottiene 2 Risorse E.G.O tra quelle più scarse\n- Il Turno Successivo: tutti gli alleati ottengono 0.1 a tutte le Resistenze Fisiche. Quest'effetto può accumularsi. (max 5)",
       "summary": "",
       "undefined": "-"
     },
@@ -129,7 +129,7 @@
     {
       "id": "DuelDeclarationMeursault",
       "name": "Guanto di Sfida - Meursault",
-      "desc": "- In uno Scontro tra l'unità che ha inflitto Guanto di Sfida e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Sul Colpo, chi ha inflitto lo status ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando Guanto di Sfida viene inflitto ad un altro bersaglio. \n- L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di sfida differente.",
+      "desc": "- In uno Scontro tra l'unità che ha inflitto Guanto di Sfida e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Sul Colpo, chi ha inflitto lo status ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando Guanto di Sfida viene inflitto ad un altro bersaglio. \n- L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente.",
       "summary": "",
       "undefined": "-"
     },
@@ -143,14 +143,14 @@
     {
       "id": "Duello_LowMorale",
       "name": "Specialista dei Duelli",
-      "desc": "- Morale Basso\n- A Inizio Turno: Ottiene 2 Aumento Offensivo. A Scontro Perso, ottiene 1 Calo Difensivo (max 3 per turno). Velocità Minima -1",
+      "desc": "- Morale Basso\n- Inizio Turno: Ottiene 2 Aumento Offensivo. A Scontro Perso, ottiene 1 Calo Difensivo (max 3 per turno). Velocità Minima -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_Panic",
       "name": "Specialista dei Duelli",
-      "desc": "- Panico\n- A Inizio Turno: Ottiene 4 Aumento Offensivo. A Scontro Perso, ottiene 2 Calo Difensivo (max 6 per turno). Velocità Minima -1",
+      "desc": "- Panico\n- Inizio Turno: Ottiene 4 Aumento Offensivo. A Scontro Perso, ottiene 2 Calo Difensivo (max 6 per turno). Velocità Minima -1",
       "summary": "",
       "undefined": "-"
     },
