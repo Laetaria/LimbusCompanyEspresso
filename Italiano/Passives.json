@@ -2410,40 +2410,40 @@
     },
     {
       "id": 1071301,
-      "name": "Defence-Oriented Charge",
-      "desc": "- Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n- Turn Start: Gain [DefenseUp] equal to [Charge] Potency on self (max 6)"
+      "name": "Carica Difesa-Orientata",
+      "desc": "- Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Cumulativi in questo Incontro\n- Inizio Turno: Ottiene [DefenseUp] pari alla potenza [Charge] su sé (max 6)"
     },
     {
       "id": 1071311,
-      "name": "Congestion Cleaning Armour",
-      "desc": "- Combat Start: If this unit has less than 50% HP, gain Shield equal to ([Charge] Potency x 5) (max 25)\n- Immediately before getting hit, gain Shield equal to ([Charge] Potency on self) (max 5, 3 times per turn)\n- If this unit gains [Charge] Count past the Max [Charge] Count Cap by using a Skill, the Skill deals +3% damage for every [Charge] Count that exceeds the Max [Charge] Count Cap (max 15%)"
+      "name": "Armatura Pulisci Ingorgo",
+      "desc": "- Inizio Combattimento: Se questa unità ha meno del 50% dei PV, ottiene Scudo pari a (Potenza [Charge] x 5) (max 25)\n- Subito prima di essere colpito, ottiene Scudo pari a (Potenza [Charge] su sè) (max 5, 3 volte per turno)\n- Se questa unità ottiene Conteggio [Charge] che eccede il massimo numero di conteggio [Charge] usando un abilità, l'abilità infligge +3% danni per ogni Conteggio [Charge] che eccede il Massimo numero di Conteggio [Charge] (max 15%)"
     },
     {
       "id": 1071321,
-      "name": "One day I'll wear me Armour for Cancelled Trains",
-      "desc": "- Combat Start: If the unit with the earliest Deployment Order gains [Charge] Count past the Max [Charge] Count Cap by using a Skill, the unit gains 1 [ChargeForceField] next turn for every [Charge] Count that exceeds the Max [Charge] Count Cap (max 3, including E.G.O Skills)"
+      "name": "Un Giorno Indosserò L'Armatura Per I Treni Cancellati",
+      "desc": "- Inizio Combattimento: Se L'Unità col numero di scheramento più alto ottiene Conteggio [Charge] oltre il limite massimo di Conteggio [Charge] usando un'Abilità, L'unità ottiene 1 [ChargeForceField] il prossimo turno per ogni Conteggio [Charge] che eccede il limite Massimo di Conteggio [Charge] (max 3, incluse le abilità E.G.O)"
     },
     {
       "id": 1051301,
-      "name": "'Bloodied, Masked, and as Blood Commands'",
-      "desc": "Combat Start: if this unit has [BloodArmorMeursault], gain the following effects based on Stack:\n- At 3+ Stack: gain 1 [AttackUp] and 1 [DefenseUp]\n- At 4+ Stack: gain 1 [Agility] next turn\n\nOn Hit against enemies with [Laceration]: if this unit has less than 30% HP, heal 30% HP (once per Encounter; rounded down)",
-      "summary": "If conditions are met, heal 30% HP"
+      "name": "'Indossa il Sangue, Mascherati,Fa' Come Ordina il Sangue'",
+      "desc": "Inizio Combattimento: Se questa unità possiede [BloodArmorMeursault], Ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene 1 [AttackUp] e 1 [DefenseUp]\n- A 4+ Stack: ottiene 1 [Agility] il prossimo turno\n\nSu Colpo contro i nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, recuperà il 30% dei PV (una volta per Incontro; arrotondato per difetto)",
+      "summary": "Se le condizioni vengono soddisfatte, recupera il 30% dei PV"
     },
     {
       "id": 1051311,
-      "name": "'Bloodied, Masked, and as Blood Commands'",
-      "desc": "Combat Start: if this unit has [BloodArmorMeursault], gain the following effects based on Stack:\n- At 3+ Stack: gain <style=\"highlight\">2</style> [AttackUp] and <style=\"highlight\">2</style> [DefenseUp]\n- At 4+ Stack: gain <style=\"highlight\">2</style> [Agility] next turn\n\n<style=\"highlight\">Combat Start: if this unit has [FocusOnActing], inflict 1 [ParadeConcentration] On Hit against enemies (2 times per turn; including E.G.O Skills)</style>\n\nOn Hit against enemies with [Laceration]: if this unit has less than 30% HP, heal 30% HP (once per Encounter; rounded down)",
+      "name": "'Indossa il Sangue, Mascherati,Fa' Come Ordina il Sangue'",
+      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], Ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: Ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\"Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Su Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, recupera il 30% dei PV (una volta per incontro; arrotondato per difetto)",
       "summary": "If conditions are met: inflict 1 [ParadeConcentration]\nIf conditions are met: heal 30% HP"
     },
     {
       "id": 1051302,
       "name": "Bloodfeast",
-      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface."
+      "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità va sul campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice.."
     },
     {
       "id": 1051303,
-      "name": "Responsibility of a Former Prince",
-      "desc": "Turn Start: the following effects activate for La Manchaland Identities with max [BloodArmorMeursault] Stack\n· Gain 1 [FocusOnActing]\n· When Staggered due to damage, recover from Stagger; then, consume all [BloodArmorMeursault] on self (once per Stage per Identity; unless it's a forced Stagger)\n\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)",
+      "name": "Responsabilità Di Un Ex Principe",
+      "desc": "Inizio Turno: I seguenti effetti si attivano per le Identità di La Manchaland con gli stack massimi di [BloodArmorMeursault] \n· Gain 1 [FocusOnActing]\n· When Staggered due to damage, recover from Stagger; then, consume all [BloodArmorMeursault] on self (once per Stage per Identity; unless it's a forced Stagger)\n\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)",
       "summary": "Meursault & Rodion deal +15% damage with their Skill 3"
     },
     {
