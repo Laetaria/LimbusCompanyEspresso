@@ -3,14 +3,14 @@
     {
       "id": "BloodyHand_2nd",
       "name": "Mano Insanguinata II",
-      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Valore Max: 20\n- Valore Base: 10\n- Ottiene 1 Livello Offensivo per ogni 6 Stack",
+      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Max Stack: 20\n- Valore Base: 10\n- Ottiene 1 Livello Offensivo per ogni 6 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHand_3rd",
       "name": "Mano Insanguinata III",
-      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Valore Max: 30\n- Valore Base: 20\n- Ottiene 1 Potere Attacco\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 2 Lacerazione e +1 Conteggio Lacerazione aggiuntivi\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 3 Sanguinamento sia su di sé che al nemico",
+      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Max Stack: 30\n- Valore Base: 20\n- Ottiene 1 Potere Attacco\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 2 Lacerazione e +1 Conteggio Lacerazione aggiuntivi\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 3 Sanguinamento sia su di sé che al nemico",
       "summary": "",
       "undefined": "-"
     },
@@ -52,70 +52,70 @@
     {
       "id": "AffectionTeddy",
       "name": "Attaccamento",
-      "desc": "- Valore Max: 9\n- Quando l'Attaccante attacca il bersaglio con questo effetto, l'Attaccante ottiene Potere Scontro pari alle Stack\n- Fine Turno: si riduce di 1",
+      "desc": "- Max Stack: 9\n- Quando l'Attaccante attacca il bersaglio con questo effetto, l'Attaccante ottiene Potere Scontro pari alle Stack\n- Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FaintMemory",
       "name": "Tenui Ricordi",
-      "desc": "- Valore Base: 10\n- Inizio Turno: ottiene Aumento Difensivo pari alle Stack\n- Scontro Perso: si riduce di 1",
+      "desc": "- Stack Base: 10\n- Inizio Turno: ottiene Aumento Difensivo pari alle Stack\n- Scontro Perso: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CursePackage",
       "name": "Scatola di Maledizioni",
-      "desc": "- Valore Max: 1\n- Fine Turno: ottiene 1 Attacco Diminuito, 1 Difesa Diminuita, 2 Calo Offensivo, 2 Calo Difensivo, e riduce le Stack di questo effetto 1",
+      "desc": "- Max Stack: 1\n- Fine Turno: ottiene 1 Attacco Diminuito, 1 Difesa Diminuita, 2 Calo Offensivo, 2 Calo Difensivo, e riduce le Stack di questo effetto 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TinyCarmilla",
-      "name": "Little Carmilla",
-      "desc": "- Max Stack: 3\n- Ottiene 2 Sanguinamento every time this unit gains Little Carmilla\n- Fine Turno: ottiene +2 Sanguinamento Count\n- Fine Turno: a 3 Stack, take fixed damage equal to 15% of this unit's max PV, heal PV equal to 5% of each enemy's max PV, then this effect expires",
+      "name": "Carmillina",
+      "desc": "- Max Stack: 3\n- Ottiene 2 Sanguinamento ogni volta che questa unità ottiene Carmillina\n- Fine Turno: ottiene +2 Conteggio Sanguinamento\n- Fine Turno: a 3 Stack, subisce danni fissi pari al 15% dei PV max di questa unità, si cura dei PV pari al 5% dei PV max di ogni nemico, infine questo effetto si esaurisce",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OneDropNutrition",
-      "name": "A Drop of Nourishment",
-      "desc": "- Max Stack: 10\n- Ottiene 1 Stack every time this unit heals 10% of its max PV with its PV-healing Attacks\n- PV healed: {0}%",
+      "name": "Una Goccia di Nutrimento",
+      "desc": "- Max Stack: 10\n- Ottiene 1 Stack ogni volta che questa unità si cura del 10%dei suoi PV max con i suoi Attacchi cura-PV\n- PV curati: {0}%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ThornNoose",
-      "name": "Barbed Lasso",
-      "desc": "- Max Stack: 3\n- Fine Turno: ottiene 2 Lacerazione e +2 Conteggio Lacerazione\n- Fine Turno: a 1+ Stack, fix this unit's Speed to 1.\n- Fine Turno: a 2 Stack, take 20 Gluttony damage.\n- Fine Turno: a 3 Stack, become forcibly Staggered next turn. This effect e the connected Barbed Lasso both expire.\n- Ottiene 1 a Inizio Turno",
+      "name": "Lazo Spinato",
+      "desc": "- Max Stack: 3\n- Fine Turno: ottiene 2 Lacerazione e +2 Conteggio Lacerazione\n- Fine Turno: a 1+ Stack, fissa la Velocità di questa unità ad 1.\n- Fine Turno: a 2 Stack, subisce 20 danni Gola.\n- Fine Turno: a 3 Stack, Vacilla forzatamente il turno successivo. Questo effetto e il Lazo Spinato connesso si esauriscono.\n- Ottiene 1 a Inizio Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SwirlingBlood",
       "name": "Luccichio【Sanguimonio】",
-      "desc": "- While this effect is active: when this unit takes damage, the Attacker gains 5 Sanguinamento After Attack.\n- While this effect is active: the Shield PV does not expire a Fine Turno\n- When conditions are met, ottiene 3 Vulnerabilità until this effect expires e this unit gains a new pattern",
+      "desc": "- Mentre questo effetto è attivo: quando questa unità subisce danni, l'Attaccante ottiene 5 Sanguinamento Dopo l'Attacco.\n- Mentre questo effetto è attivo: lo Scudo PV non si esaurisce a Fine Turno\n- Quando si verificano le condizioni, ottiene 3 Vulnerabilità finché questo effetto non finisce e questa unità ottiene un nuovo pattern",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmor",
       "name": "Sangue Coagulato",
-      "desc": "- Valore Max: 10\n- Stadio 1 Sangue Coagulato\n- Usato per Abilità Speciali",
+      "desc": "- Max Stack: 10\n- Stadio 1 Sangue Coagulato\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmor_2nd",
       "name": "Sangue Coagulato II",
-      "desc": "- Valore Max: 20\n- Stadio 2 Sangue Coagulato\n- A Inizio Turno: ottiene 1 Livello Offensivo e Livello Difensivo per ogni 6 Stack\n- Aumenta Velocità Min & Max Speed di 1\n- Usato per Abilità Speciali",
+      "desc": "- Max Stack: 20\n- Stadio 2 Sangue Coagulato\n- A Inizio Turno: ottiene 1 Livello Offensivo e Livello Difensivo per ogni 6 Stack\n- Aumenta Velocità Min & Max di 1\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmor_3rd",
       "name": "Sangue Coagulato III",
-      "desc": "- Valore Max: 30\n- Stadio 3 Sangue Coagulato\n- A Inizio Turno: ottiene 2 Livello Offensivo e Livello Difensivo per ogni 6 Stack\n- Aumenta Velocità Min & Max Speed di 2\n- Usato per Abilità Speciali",
+      "desc": "- Max Stack: 30\n- Stadio 3 Sangue Coagulato\n- A Inizio Turno: ottiene 2 Livello Offensivo e Livello Difensivo per ogni 6 Stack\n- Aumenta Velocità Min & Max di 2\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
@@ -150,21 +150,21 @@
     {
       "id": "ThirstyRose",
       "name": "Rosa Assetata",
-      "desc": "- Valore Max: 5\n- A Fine Turno: a 10+ Potenza Sanguinamento, subisce danno da Lussuria pari all'1% dei PV Max di quest'unità. (max 30)\n- A Fine Turno: si riduce di 1",
+      "desc": "- Max Stack: 5\n- A Fine Turno: a 10+ Potenza Sanguinamento, subisce danno da Lussuria pari all'1% dei PV Max di quest'unità. (max 30)\n- A Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RoseWedge",
-      "name": "Rose Wedge",
-      "desc": "- Max Potency: 10\n- Max Count: 4\n- Ottiene 1 Potency every time this unit takes 10 Sanguinamento damage\n- When gaining Sanguinamento or 'Unique Sanguinamento' from getting hit, ottiene 2 Sanguinamento e infligge 1 Sanguinamento against the Attacker. (5 times per turn)\n· A 10 Potency, ottiene +1 Sanguinamento Count as well when triggering the above effect.\n- Fine Turno: perde 1 Count\n- Combat End: a 10 Potency or 1 Count, this effect expires, e this unit takes (Potency x 10) Lust damage.\n- If the unit infliggeed with this effect dies, or when this effect expires: increase Bloodfeast by (Potency x 10), e deal (Potency x 2) Lust damage against all of its allies (min 1)",
+      "name": "Aculeo di Rosa",
+      "desc": "- Potenza Max: 10\n- Conteggio Max: 4\n- Ottiene 1 Potenza ogni volta che questa unità subisce 10 danni da Sanguinamento\n- Quando ottiene Sanguinamento o 'Sanguinamento Speciale' per un colpo subito, ottiene 2 Sanguinamento e infligge 1 Sanguinamento contro l'Attaccante. (5 volte per turno)\n· A 10 Potenza, ottiene +1 Conteggio Sanguinamento inoltre ad attivare tutti gli effetti precedenti.\n- Fine Turno: perde 1 Conteggio\n- Fine Combattimento: a 10 Potenza o 1 Conteggio, questo effetto finisce, e questa unità subisce (Potenza x 10) danni Lussuria.\n- Se l'unità che ha inflitto questo effetto muore, o quando questo effetto finisce: aumenta la quantità di Banchetto di Sangue di (Potenza x 10), e infligge (Potenza x 2) danni Lussuria a tutti i suoi alleati (min 1)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FerrisWheel",
-      "name": "The Endless Wheel",
-      "desc": "Reduced by 1 every time a Gondola is defeated.\nIf this value is a 0, e if there are no units to be spawned next turn, move on to the next phase.",
+      "name": "La Ruota Continua",
+      "desc": "Si riduce di 1 ogni volta che una Cabina viene sconfitta.\nSe questo valore è a 0, e se non ci sono unità da creare il prossimo turno, passa alla prossima fase.",
       "summary": "",
       "undefined": "-"
     },
@@ -177,78 +177,78 @@
     },
     {
       "id": "RegainedStrength",
-      "name": "Returning Bloodlust",
-      "desc": "- Valore Max: 10\n- Stage 1 Returning Bloodlust",
+      "name": "Sete di Sangue Ritornata",
+      "desc": "- Max Stack: 10\n- Stage 1 Sete di Sangue Ritornata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_2nd",
-      "name": "Returning Bloodlust II",
-      "desc": "- Valore Max: 20\n- Stage 2 Returning Bloodlust\n- Inizio Turno: ottiene 1 Livello Offensivo up e 1 Aumento Offensivo per ogni 5 Value\n- Potere Scontro +1 to Skills that consume Returning Bloodlust; infligge +1 more of Potency e Count for Sanguinamento e Lacerazione infliggeed by the said Skill",
+      "name": "Sete di Sangue Ritornata II",
+      "desc": "- Max Stack: 20\n- Stage 2 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 1 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Potere Scontro +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_3rd",
-      "name": "Returning Bloodlust III",
-      "desc": "- Valore Max: 30\n- Stage 3 Returning Bloodlust\n- Inizio Turno: ottiene 2 Livello Offensivo up e 1 Aumento Difensivo per ogni 5 Value\n- Coin Power +1 to Skills that consume Returning Bloodlust; infligge +1 more of Potency e Count for Sanguinamento e Lacerazione infliggeed by the said Skill",
+      "name": "Sete di Sangue Ritornata III",
+      "desc": "- Max Stack: 30\n- Stage 3 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 2 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Potere Moneta +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_LowMorale",
-      "name": "Time to abandon my dream...",
-      "desc": "- Morale Basso\n- Ottiene 2 Attack Power Up e 1 Vulnerabilità; raise max Speed value by 2\n- Heal +30% more PV when healing\n- Fine Turno: if the current Returning Bloodlust is lower than its value a Inizio Turno, ottiene 2 Aumento Offensivo e 2 Calo Difensivo",
+      "name": "È tempo di abbandonare il mio sogno...",
+      "desc": "- Morale Basso\n- Ottiene 2 Attacco Aumentato e 1 Vulnerabilità; aumenta Velocità Max di 2\n- Si cura di +30% PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 2 Aumento Offensivo e 2 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_Panic",
-      "name": "... for my Family, as their Father...",
-      "desc": "- Panico\n- Ottiene 2 Attack Power Up, 2 Haste, e 2 Vulnerabilità\n- Heal +50% more PV when healing\n- Fine Turno: if the current Returning Bloodlust is lower than its value a Inizio Turno, ottiene 3 Aumento Offensivo e 5 Calo Difensivo",
+      "name": "... per la mia Famiglia, come loro Padre...",
+      "desc": "- Panico\n- Ottiene 2 Attacco Aumentato, 2 Rapidità, e 2 Vulnerabilità\n- Si cura di +50% PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 3 Aumento Offensivo e 5 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Precarious",
-      "name": "Irresponsible Dream",
-      "desc": "Killed when hit by Don Quixote.",
+      "name": "Sogno Irresponsabile",
+      "desc": "Muore quando viene colpito da Don Quixote.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Penetration",
-      "name": "Congealing Blood",
-      "desc": "Cannot act for 2 turns; spawns an Impaling Spear unit over the ally.",
+      "name": "Sangue Rapprendente",
+      "desc": "Non può agire per 2 turni; forma un'unità Lancia Impalatrice sull'alleato.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DecreamentalDefense",
-      "name": "Crippling Injury",
-      "desc": "- Yet to recover from the wounds gained in the previous battle.\n- Massively reduce max PV\n- Inizio Turno: ottiene 1 Calo Difensivo per ogni cumulative turn (max 15)",
+      "name": "Ferita Debilitante",
+      "desc": "- Deve ancora riprendersi dalle ferite ricevute nell'ultimo combattimento.\n- Riduce notevolmente i PV massimi\n- Inizio Turno: ottiene 1 Calo Difensivo per ogni turno totale (max 15)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDream",
-      "name": "IN CUI SI RACCONTA DELLA LIBERAZIONE DAL SANGUE PIÙ DENSO DELL'ACQUA",
+      "name": "IN CUI SI RACCONTA DELLA LIBERAZIONE DAL SANGUE CHE MAI FU ACQUA",
       "desc": "- Ad Ogni Fine Turno: ottiene 1 Rapidità e 3 Aumento Offensivo il turno successivo\n- Ottiene 2 Aumento Offensivo in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, si cura di 3 SP\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il turno successivo (1 volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_LowMorale",
-      "name": "Reawakening Joy Of Carnage",
-      "desc": "- Morale Basso\nOttiene 2 Attack Power Up a every Inizio Turno; +2 PS Efficiency",
+      "name": "Gioia del Massacro Risvegliata",
+      "desc": "- Morale Basso\nOttiene 2 Attacco Aumentato ad ogni Inizio Turno; +2 Efficenza PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_Panic",
-      "name": "Reawakening Joy Of Carnage",
-      "desc": "- Panico\nInizio Turno: ottiene 6 Aumento Difensivo. Ottiene 3 Aumento Offensivo next turn",
+      "name": "Gioia del Massacro Risvegliata",
+      "desc": "- Panico\nInizio Turno: ottiene 6 Aumento Difensivo. Ottiene 3 Aumento Offensivo il turno successivo",
       "summary": "",
       "undefined": "-"
     },
@@ -262,13 +262,13 @@
     {
       "id": "FragmentOfHopeTwo",
       "name": "DI COME SANCHO, LA NOSTRA DON QUIXOTE, SI RIFIUTÒ DI PORRE FINE AL SOGNO",
-      "desc": "Potere Scontro +4 per ogni valore\nApplica Scudo a sé e agli alleati all'inizio del combattimento",
+      "desc": "Potere Scontro +4 per ogni valore\nApplica Scudo a sé e agli alleati all'Inizio del Combattimento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConfinementOfGoldenBranch",
-      "name": "Il Giudizio Forzato del Ramo Dorato",
+      "name": "Mediazione Forzata del Ramo Dorato",
       "desc": "- Perde 30 Livello Offensivo Base\n- Perde 30 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"

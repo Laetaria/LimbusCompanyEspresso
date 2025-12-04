@@ -3,126 +3,126 @@
     {
       "id": "BloodyHand_2nd",
       "name": "Mano Insanguinata II",
-      "desc": "- Any effects that gain Bloodied Hand gain this effect instead\n- Max Value: 20\n- Base Value: 10\n- Gain 1 Offense Level for every 6 Stack",
+      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Max Stack: 20\n- Stack Base: 10\n- Ottiene 1 Livello Offensivo per ogni 6 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHand_3rd",
       "name": "Mano Insanguinata III",
-      "desc": "- Any effects that gain Bloodied Hand gain this effect instead\n- Max Value: 30\n- Base Value: 20\n- Gain 1 Attack Power\n- At 30 Stack: On Hit with this unit's Skill, inflict additional 2 Rupture and +1 Rupture Count\n- At 30 Stack: On Hit with this unit's Skill, inflict 3 Bleed both on self and against the target",
+      "desc": "- Per qualunque effetto da cui si ottiene Mano Insanguinata si ottiene invece questo\n- Max Stack: 30\n- Stack Base: 20\n- Ottiene 1 Potere Attacco\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 2 Lacerazione e +1 Conteggio Lacerazione aggiuntivi\n- A 30 Stack: Sul Colpo con la propria Abilità, infligge 3 Sanguinamento sia su di sé che al nemico",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WornHeart",
-      "name": "Ailing Heart",
-      "desc": "- Max Stack: 10\n- Enters Encounter with 3 Stack\n- Turn Start: gain 1 Defense Level Down for every Stack\n- Turn Start: gain 1 Offense Level Up for every 2 Stack\n- Turn Start: at 10 Stack, gain 3 Vulnerabilità and lose 5 PS\n- At 10 Stack: On Hit, heal 40% of the damage dealt to this unit's Part and Core, and gain 2 Bloodied Hand",
+      "name": "Cuore Sofferente",
+      "desc": "- Max Stack: 10\n- Inizia l'Incontro con 3 Stack\n- Inizio Turno: ottiene 1 Calo Difensivo per ogni Stack\n- Inizio Turno: ottiene 1 Aumento Offensivo per ogni 2 Stack\n- Inizio Turno: a 10 Stack, ottiene 3 Vulnerabilità e perde 5 PS\n- A 10 Stack: Sul Colpo, si cura del 40% dei danni inflitti alle Parti e Nucleo di questa unità, e ottiene 2 Mano Insanguinata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingPriestTwo",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 25 Base Offense Level\n- Lose 25 Base Defense Level",
+      "name": "Avvizzito",
+      "desc": "- Ha sete di sangue da molto, molto tempo.\n- Perde 25 Livello Offensivo Base\n- Perde 25 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_LowMorale",
-      "name": "Guilt",
-      "desc": "Turn End: gain 1 Vulnerabilità and Efficenza Cura PS Ridotta next turn",
+      "name": "Rimorso",
+      "desc": "Fine Turno: ottiene 1 Vulnerabilità e Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_Panic",
-      "name": "Guilt",
-      "desc": "Turn End: gain 2 Vulnerabilità and Efficenza Cura PS Ridotta next turn",
+      "name": "Rimorso",
+      "desc": "Fine Turno: ottiene 2 Vulnerabilità e 1 Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MentalIncreaseDown",
       "name": "Efficenza Cura PS Ridotta",
-      "desc": "PS Heal Efficiency decreases by the effect's Stack",
+      "desc": "L'Efficenza di Cura PS si riduce in base alle Stack dell'effetto",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AffectionTeddy",
-      "name": "Attachment",
-      "desc": "- Max Value: 9\n- When the Attacker attacks the target with this effect, the Attacker gains Clash Power equal to the Stack\n- Turn End: reduce by 1",
+      "name": "Attaccamento",
+      "desc": "- Max Stack: 9\n- Quando l'Attaccante attacca il bersaglio con questo effetto, l'Attaccante ottiene Potere Scontro pari alle Stack\n- Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FaintMemory",
-      "name": "Faint Memories",
-      "desc": "- Base Value: 10\n- Turn Start: gain Defense Level Up equal to the Stack\n- Clash Lose: reduce by 1",
+      "name": "Tenui Ricordi",
+      "desc": "- Stack Base: 10\n- Inizio Turno: ottiene Aumento Difensivo pari alle Stack\n- Scontro Perso: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CursePackage",
-      "name": "Box of Curses",
-      "desc": "- Max Value: 1\n- Turn End: gain 1 Attack Power Down, 1 Defense Power Down, 2 Offense Level Down, 2 Defense Level Down, and reduce the Stack of this effect by 1",
+      "name": "Scatola di Maledizioni",
+      "desc": "- Max Stack: 1\n- Fine Turno: ottiene 1 Attacco Diminuito, 1 Difesa Diminuita, 2 Calo Offensivo, 2 Calo Difensivo, e riduce le Stack di questo effetto 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TinyCarmilla",
-      "name": "Little Carmilla",
-      "desc": "- Max Stack: 3\n- Gain 2 Bleed every time this unit gains Little Carmilla\n- Turn End: gain +2 Bleed Count\n- Turn End: at 3 Stack, take fixed damage equal to 15% of this unit's max PV, heal PV equal to 5% of each enemy's max PV, then this effect expires",
+      "name": "Carmillina",
+      "desc": "- Max Stack: 3\n- Ottiene 2 Sanguinamento ogni volta che questa unità ottiene Carmillina\n- Fine Turno: ottiene +2 Conteggio Sanguinamento\n- Fine Turno: a 3 Stack, subisce danni fissi pari al 15% dei PV max di questa unità, si cura dei PV pari al 5% dei PV max di ogni nemico, infine questo effetto si esaurisce",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OneDropNutrition",
-      "name": "A Drop of Nourishment",
-      "desc": "- Max Stack: 10\n- Gain 1 Stack every time this unit heals 10% of its max PV with its PV-healing Attacks\n- Shows the % of PV healed",
+      "name": "Una Goccia di Nutrimento",
+      "desc": "- Max Stack: 10\n- Ottiene 1 Stack ogni volta che questa unità si cura del 10%dei suoi PV max con i suoi Attacchi cura-PV\n- Mostra la % dei PV curati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ThornNoose",
-      "name": "Barbed Lasso",
-      "desc": "- Max Stack: 3\n- Turn End: gain 2 Rupture and +2 Rupture Count\n- Turn End: at 1+ Stack, fix this unit's Speed to 1.\n- Turn End: at 2 Stack, take 20 Gluttony damage.\n- Turn End: at 3 Stack, become forcibly Staggered next turn. This effect and the connected Barbed Lasso both expire.\n- Gain 1 at Turn Start",
+      "name": "Lazo Spinato",
+      "desc": "- Max Stack: 3\n- Fine Turno: ottiene 2 Lacerazione e +2 Conteggio Lacerazione\n- Fine Turno: a 1+ Stack, fissa la Velocità di questa unità ad 1.\n- Fine Turno: a 2 Stack, subisce 20 danni Gola.\n- Fine Turno: a 3 Stack, Vacilla forzatamente il turno successivo. Questo effetto e il Lazo Spinato connesso si esauriscono.\n- Ottiene 1 a Inizio Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SwirlingBlood",
-      "name": "Shimmering【Bloodfiend】",
-      "desc": "- While this effect is active: when this unit takes damage, the Attacker gains 5 Bleed After Attack.\n- While this effect is active: the Shield PV does not expire at Turn End\n- When conditions are met, gain 3 Vulnerabilità until this effect expires and this unit gains a new pattern",
+      "name": "Luccichio【Sanguimonio】",
+      "desc": "- Mentre questo effetto è attivo: quando questa unità subisce danni, l'Attaccante ottiene 5 Sanguinamento Dopo l'Attacco.\n- Mentre questo effetto è attivo: lo Scudo PV non si esaurisce a Fine Turno\n- Quando si verificano le condizioni, ottiene 3 Vulnerabilità finché questo effetto non finisce e questa unità ottiene un nuovo pattern",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmor",
-      "name": "Hardblood",
-      "desc": "- Max Value: 10\n- Stage 1 Hardblood\n- Used for special Skills",
+      "name": "Sangue Coagulato",
+      "desc": "- Max Stack: 10\n- Stadio 1 Sangue Coagulato\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmor_2nd",
-      "name": "Hardblood II",
-      "desc": "- Max Value: 20\n- Stage 2 Hardblood\n- Turn Start: gain 1 Offense Level and Defense Level for every 6 Stack\n- Raise Min & Max Speed values by 1\n- Used for special Skills",
+      "name": "Sangue Coagulato II",
+      "desc": "- Max Stack: 20\n- Stadio 2 Sangue Coagulato\n- A Inizio Turno: ottiene 1 Livello Offensivo e Livello Difensivo per ogni 6 Stack\n- Aumenta Velocità Min & Max di 1\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmor_3rd",
-      "name": "Hardblood III",
-      "desc": "- Max Value: 30\n- Stage 3 Hardblood\n- Turn Start: gain 2 Offense Level and Defense Level for every 6 Stack\n- Raise Min & Max Speed values by 2\n- Used for special Skills",
+      "name": "Sangue Coagulato III",
+      "desc": "- Max Stack: 30\n- Stadio 3 Sangue Coagulato\n- A Inizio Turno: ottiene 2 Livello Offensivo e Livello Difensivo per ogni 6 Stack\n- Aumenta Velocità Min & Max di 2\n- Usato per Abilità Speciali",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Dreamy",
-      "name": "Dreamy Hesitation",
-      "desc": "- Offense Level -35\n- Defense Level -35",
+      "name": "Esitazione Sognante",
+      "desc": "- Perde 35 Livello Offensivo Base\n- Perde 35 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"
     },
@@ -135,127 +135,127 @@
     },
     {
       "id": "ThirstyRose",
-      "name": "Polydipsic Rose",
-      "desc": "- Max Value: 5\n- Turn End: at 10+ Bleed Potency, take Lust damage equal to 1% of this unit's max PV. (max 30)\n- Turn End: reduced by 1",
+      "name": "Rosa Assetata",
+      "desc": "- Max Stack: 5\n- A Fine Turno: a 10+ Potenza Sanguinamento, subisce danno da Lussuria pari all'1% dei PV Max di quest'unità. (max 30)\n- A Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RoseWedge",
-      "name": "Rose Wedge",
-      "desc": "- Max Potency: 10\n- Max Count: 4\n- Gain 1 Potency every time this unit takes 10 Bleed damage\n- When gaining Bleed or 'Unique Bleed' from getting hit, gain 2 Bleed and inflict 1 Bleed against the Attacker. (5 times per turn)\n· At 10 Potency, gain +1 Bleed Count as well when triggering the above effect.\n- Turn End: lose 1 Count\n- Combat End: at 10 Potency or 1 Count, this effect expires, and this unit takes (Potency x 10) Lust damage.\n- If the unit inflicted with this effect dies, or when this effect expires: increase Bloodfeast by (Potency x 10), and deal (Potency x 2) Lust damage against all of its allies (min 1)",
+      "name": "Aculeo di Rosa",
+      "desc": "- Potenza Max: 10\n- Conteggio Max: 4\n- Ottiene 1 Potenza ogni volta che questa unità subisce 10 danni da Sanguinamento\n- Quando ottiene Sanguinamento o 'Sanguinamento Speciale' per un colpo subito, ottiene 2 Sanguinamento e infligge 1 Sanguinamento contro l'Attaccante. (5 volte per turno)\n· A 10 Potenza, ottiene +1 Conteggio Sanguinamento inoltre ad attivare tutti gli effetti precedenti.\n- Fine Turno: perde 1 Conteggio\n- Fine Combattimento: a 10 Potenza o 1 Conteggio, questo effetto finisce, e questa unità subisce (Potenza x 10) danni Lussuria.\n- Se l'unità che ha inflitto questo effetto muore, o quando questo effetto finisce: aumenta la quantità di Banchetto di Sangue di (Potenza x 10), e infligge (Potenza x 2) danni Lussuria a tutti i suoi alleati (min 1)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FerrisWheel",
-      "name": "The Endless Wheel",
-      "desc": "Reduced by 1 every time a Gondola is defeated.\nIf this value is at 0, and if there are no units to be spawned next turn, move on to the next phase.",
+      "name": "La Ruota Continua",
+      "desc": "Si riduce di 1 ogni volta che una Cabina viene sconfitta.\nSe questo valore è a 0, e se non ci sono unità da creare il prossimo turno, passa alla prossima fase.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingDonqui",
-      "name": "Starved and Withered",
-      "desc": "- Lose 10 Base Offense Level\n- Lose 10 Base Defense Level",
+      "name": "Affamato e Avvizzito",
+      "desc": "- Perde 10 Livello Offensivo Base\n- Perde 10 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength",
-      "name": "Returning Bloodlust",
-      "desc": "- Max Value: 10\n- Stage 1 Returning Bloodlust",
+      "name": "Sete di Sangue Ritornata",
+      "desc": "- Max Stack: 10\n- Stage 1 Sete di Sangue Ritornata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_2nd",
-      "name": "Returning Bloodlust II",
-      "desc": "- Max Value: 20\n- Stage 2 Returning Bloodlust\n- Turn Start: gain 1 Offense Level up and 1 Defense Level Up for every 5 Value\n- Clash Power +1 to Skills that consume Returning Bloodlust; inflict +1 more of Potency and Count for Bleed and Rupture inflicted by the said Skill",
+      "name": "Sete di Sangue Ritornata II",
+      "desc": "- Max Stack: 20\n- Stage 2 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 1 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Potere Scontro +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_3rd",
-      "name": "Returning Bloodlust III",
-      "desc": "- Max Value: 30\n- Stage 3 Returning Bloodlust\n- Turn Start: gain 2 Offense Level up and 1 Defense Level Up for every 5 Value\n- Coin Power +1 to Skills that consume Returning Bloodlust; inflict +1 more of Potency and Count for Bleed and Rupture inflicted by the said Skill",
+      "name": "Sete di Sangue Ritornata III",
+      "desc": "- Max Stack: 30\n- Stage 3 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 2 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Potere Moneta +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_LowMorale",
-      "name": "Time to abandon my dream...",
-      "desc": "- Morale Basso\n- Gain 2 Attack Power Up and 1 Vulnerabilità; raise max Speed value by 2\n- Heal +30% more PV when healing\n- Turn End: if the current Returning Bloodlust is lower than its value at Turn Start, gain 2 Offense Level Up and 2 Defense Level Down",
+      "name": "È tempo di abbandonare il mio sogno...",
+      "desc": "- Morale Basso\n- Ottiene 2 Attacco Aumentato e 1 Vulnerabilità; aumenta Velocità Max di 2\n- Si cura di +30% PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 2 Aumento Offensivo e 2 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_Panic",
-      "name": "... For my Family, as their Father...",
-      "desc": "- Panico\n- Gain 2 Attack Power Up, 2 Haste, and 2 Vulnerabilità\n- Heal +50% more PV when healing\n- Turn End: if the current Returning Bloodlust is lower than its value at Turn Start, gain 3 Offense Level Up and 5 Defense Level Down",
+      "name": "... per la mia Famiglia, come loro Padre...",
+      "desc": "- Panico\n- Ottiene 2 Attacco Aumentato, 2 Rapidità, e 2 Vulnerabilità\n- Si cura di +50% PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 3 Aumento Offensivo e 5 Calo Difensivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Precarious",
-      "name": "Irresponsible Dream",
-      "desc": "Killed when hit by Don Quixote.",
+      "name": "Sogno Irresponsabile",
+      "desc": "Muore quando viene colpito da Don Quixote.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Penetration",
-      "name": "Congealing Blood",
-      "desc": "Cannot act for 2 turns; spawns an Impaling Spear unit over the ally.",
+      "name": "Sangue Rapprendente",
+      "desc": "Non può agire per 2 turni; forma un'unità Lancia Impalatrice sull'alleato.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DecreamentalDefense",
-      "name": "Crippling Injury",
-      "desc": "- Yet to recover from the wounds gained in the previous battle.\n- Massively reduce max PV\n- Turn Start: gain 1 Defense Level Down for every cumulative turn (max 15)",
+      "name": "Ferita Debilitante",
+      "desc": "- Deve ancora riprendersi dalle ferite ricevute nell'ultimo combattimento.\n- Riduce notevolmente i PV massimi\n- Inizio Turno: ottiene 1 Calo Difensivo per ogni turno totale (max 15)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDream",
-      "name": "IN WHICH IS RECOUNTED THE LIBERATION FROM BLOOD THICKER THAN WATER",
-      "desc": "- At every Turn End: gain 1 Haste and 3 Offense Level Up next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 PS\n- On Kill, gain 1 Clash Power Up next turn (once per turn)",
+      "name": "IN CUI SI RACCONTA DELLA LIBERAZIONE DAL SANGUE CHE MAI FU ACQUA",
+      "desc": "- Ad Ogni Fine Turno: ottiene 1 Rapidità e 3 Aumento Offensivo il turno successivo\n- Ottiene 2 Aumento Offensivo in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, si cura di 3 SP\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il turno successivo (1 volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_LowMorale",
-      "name": "Reawakening Joy Of Carnage",
-      "desc": "- Morale Basso\nGain 2 Attack Power Up at every Turn Start; +2 PS Efficiency",
+      "name": "Gioia del Massacro Risvegliata",
+      "desc": "- Morale Basso\nOttiene 2 Attacco Aumentato ad ogni Inizio Turno; +2 Efficenza PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_Panic",
-      "name": "Reawakening Joy Of Carnage",
-      "desc": "- Panico\nTurn Start: gain 6 Defense Level Up. Gain 3 Offense Level Up next turn",
+      "name": "Gioia del Massacro Risvegliata",
+      "desc": "- Panico\nInizio Turno: ottiene 6 Aumento Difensivo. Ottiene 3 Aumento Offensivo il turno successivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHope",
-      "name": "WHICH TREATS THE BUS, THE COMPANIONS, AND THE ADVENTURES",
-      "desc": "Gain Clash Power equal to the value",
+      "name": "IN CUI SI PARLA DELL'AUTOBUS, DEI COMPAGNI E DELLE AVVENTURE",
+      "desc": "Ottiene Potere Scontro pari al valore",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeTwo",
-      "name": "OF HOW SANCHO, OUR DON QUIXOTE, REFUSED TO END THE DREAM",
-      "desc": "Clash Power +4 for every value\nApply Shield to self and all allies at Combat Start",
+      "name": "DI COME SANCHO, LA NOSTRA DON QUIXOTE, SI RIFIUTÒ DI PORRE FINE AL SOGNO",
+      "desc": "Potere Scontro +4 per ogni valore\nApplica Scudo a sé e agli alleati all'Inizio del Combattimento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConfinementOfGoldenBranch",
-      "name": "The Golden Bough's Forced Arbitration",
-      "desc": "- Lose 30 Base Offense Level\n- Lose 30 Base Defense Level",
+      "name": "Mediazione Forzata del Ramo Dorato",
+      "desc": "- Perde 30 Livello Offensivo Base\n- Perde 30 Livello Difensivo Base",
       "summary": "",
       "undefined": "-"
     }

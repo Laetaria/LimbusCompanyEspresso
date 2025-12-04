@@ -2410,50 +2410,50 @@
     },
     {
       "id": 1071301,
-      "name": "Carica Difesa-Orientata",
-      "desc": "- Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Cumulativi in questo Incontro\n- Inizio Turno: Ottiene [DefenseUp] pari alla potenza [Charge] su sé (max 6)"
+      "name": "Carica Difensiva",
+      "desc": "- Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Cumulativo in questo Incontro\n- Inizio Turno: Ottiene [DefenseUp] pari alla potenza [Charge] su sé (max 6)"
     },
     {
       "id": 1071311,
-      "name": "Armatura Pulisci Ingorgo",
-      "desc": "- Inizio Combattimento: Se questa unità ha meno del 50% dei PV, ottiene Scudo pari a (Potenza [Charge] x 5) (max 25)\n- Subito prima di essere colpito, ottiene Scudo pari a (Potenza [Charge] su sè) (max 5, 3 volte per turno)\n- Se questa unità ottiene Conteggio [Charge] che eccede il massimo numero di conteggio [Charge] usando un abilità, l'abilità infligge +3% danni per ogni Conteggio [Charge] che eccede il Massimo numero di Conteggio [Charge] (max 15%)"
+      "name": "Armatura Spazza Congestione",
+      "desc": "- Inizio Combattimento: Se questa unità ha meno del 50% dei PV, ottiene Scudo pari a (Potenza [Charge] x 5) (max 25)\n- Subito prima di subire un colpo, ottiene Scudo pari a (Potenza [Charge] su sè) (max 5, 3 volte per turno)\n- Se questa unità ottiene Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo usando un' Abilità, l'abilità infligge +3% danni per ogni Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo (max 15%)"
     },
     {
       "id": 1071321,
       "name": "Un Giorno Indosserò L'Armatura Per I Treni Cancellati",
-      "desc": "- Inizio Combattimento: Se L'Unità col numero di scheramento più alto ottiene Conteggio [Charge] oltre il limite massimo di Conteggio [Charge] usando un'Abilità, L'unità ottiene 1 [ChargeForceField] il prossimo turno per ogni Conteggio [Charge] che eccede il limite Massimo di Conteggio [Charge] (max 3, incluse le abilità E.G.O)"
+      "desc": "- Inizio Combattimento: Se l'unità dall'Ordine di Schieramento più alto ottiene Conteggio [Charge] oltre il Limite di Conteggio [Charge] Massimo usando un'Abilità, l'unità ottiene 1 [ChargeForceField] il prossimo turno per ogni Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo (max 3, incluse le Abilità E.G.O)"
     },
     {
       "id": 1051301,
-      "name": "'Indossa il Sangue, Mascherati,Fa' Come Ordina il Sangue'",
-      "desc": "Inizio Combattimento: Se questa unità possiede [BloodArmorMeursault], Ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene 1 [AttackUp] e 1 [DefenseUp]\n- A 4+ Stack: ottiene 1 [Agility] il prossimo turno\n\nSu Colpo contro i nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, recuperà il 30% dei PV (una volta per Incontro; arrotondato per difetto)",
-      "summary": "Se le condizioni vengono soddisfatte, recupera il 30% dei PV"
+      "name": "'Indossa il Sangue, Mascherati, Fa' Come Ordina il Sangue'",
+      "desc": "Inizio Combattimento: Se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene 1 [AttackUp] e 1 [DefenseUp]\n- A 4+ Stack: ottiene 1 [Agility] il prossimo turno\n\nSu Colpo contro i nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
+      "summary": "Se le condizioni vengono soddisfatte, si cura del 30% dei PV"
     },
     {
       "id": 1051311,
-      "name": "'Indossa il Sangue, Mascherati,Fa' Come Ordina il Sangue'",
-      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], Ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: Ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\"Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Su Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, recupera il 30% dei PV (una volta per incontro; arrotondato per difetto)",
+      "name": "'Indossa il Sangue, Mascherati, Fa' Come Ordina il Sangue'",
+      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\"Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Sul Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
       "summary": "If conditions are met: inflict 1 [ParadeConcentration]\nIf conditions are met: heal 30% HP"
     },
     {
       "id": 1051302,
-      "name": "Bloodfeast",
+      "name": "Banchetto di Sangue",
       "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità va sul campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice.."
     },
     {
       "id": 1051303,
       "name": "Responsabilità Di Un Ex Principe",
-      "desc": "Inizio Turno: I seguenti effetti si attivano per le Identità di La Manchaland con gli stack massimi di [BloodArmorMeursault] \n· Gain 1 [FocusOnActing]\n· When Staggered due to damage, recover from Stagger; then, consume all [BloodArmorMeursault] on self (once per Stage per Identity; unless it's a forced Stagger)\n\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)",
+      "desc": "Inizio Turno: I seguenti effetti si attivano per le Identità di La Manchaland con le Stack massime di [BloodArmorMeursault] \n· Ottiene 1 [FocusOnActing]\n· Quando Vacilla a causa di danni, si riprende dal Vacillamento; infine, consuma ogni [BloodArmorMeursault] su id sé (una volta per Sezione per Identità; escluso Vacillare forzato)\n\nSe La Principessa di La Manchaland Rodion è in combattimento, sia lei che il Principe di La Manchaland Meursault infliggono +15% danni con la loro Abilità 3 (incluse le Abilità Potenziate)",
       "summary": "Meursault & Rodion deal +15% damage with their Skill 3"
     },
     {
       "id": 1051321,
-      "name": "Flood the Chalice",
-      "desc": "For the turn, multiply the amount of [BloodDinner] generated by 1.5 (2 times per Encounter; rounded down)"
+      "name": "Fa Straboccare il Calice",
+      "desc": "Per questo turno, moltiplica la quantità di [BloodDinner] generato per 1.5 (2 volte per Incontro; arrotondato per difetto)"
     },
     {
       "id": 1081301,
-      "name": "Stacking the Deck",
+      "name": "Truccare il Mazzo",
       "desc": "On Tails Hit, heal 5 SP (once per turn)\nDeal +10% damage against targets in either Low Morale or Panic states",
       "summary": "Heal SP\nDeal more damage against Low Morale or Panicked targets"
     },
@@ -2465,13 +2465,13 @@
     },
     {
       "id": 1081321,
-      "name": "Relay",
+      "name": "Relè",
       "desc": "Combat Start: when 1 ally with the least SP uses a Base Attack Skill to Heads Hit, it heals 5 SP (2 times per turn; excluding allies at -40 or lower SP)",
       "summary": "Heal SP"
     },
     {
       "id": 1121302,
-      "name": "Painless Mercy",
+      "name": "Pietà Indolore",
       "desc": "Unless Reused via external effects, Night Awl Capitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
       "summary": "Use 'Mercé'",
       "undefined": "-"
@@ -2492,20 +2492,20 @@
     },
     {
       "id": 1121321,
-      "name": "Aim for the Gap",
+      "name": "Mira all'Apertura",
       "desc": "1 ally with the highest Speed: When using a Base Attack Skill, if this unit's Speed is faster than the main target's, inflict [Disarming] on the target for every 3 Speed difference (max 2 per turn)",
       "summary": "Inflict [Disarming]",
       "undefined": "-"
     },
     {
       "id": 1071402,
-      "name": "Gamefowl",
+      "name": "Gallo da Caccia",
       "desc": "When activating [HeishouCombo], The Lord of Hongyuan Hong Lu gains the following effect as the [HeishouComboCountHonglu] effect:\n- On Hit with this unit's Base Attack Skill: Deal 5% of Gluttony damage dealt as Wrath damage\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage.\n\nGain 3 [ChickenStance] and +3 [Combustion] Count in the same turn it Substitutes or Returns in.",
       "summary": ""
     },
     {
       "id": 1071401,
-      "name": "Bloody Storm of Blades",
+      "name": "Tempesta di Lame Sanguinaria",
       "desc": "Combat Start: gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (max 3)\n\nGain [ChickenFightlust] when meeting one of the following conditions: (10 per turn)\n- Gain 3 at Clash Start\n- Gain 1 when this unit hits with a Base Attack Skill or when this unit takes [Combustion] damage\nAt less than 50% HP, gain 1 more [ChickenFightlust]\n- Gain 5 On Kill",
       "summary": "Gain [ChickenFightlust]"
     },
@@ -2513,35 +2513,35 @@
       "id": 1071403,
       "name": "Flame Rooster's Death Defiance [炎鳥不死戰]",
       "desc": "In this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn.\nThen, at the next Turn Start, heal (20 + [Combustion] on self)% HP, and remove all [Combustion] on self (max 49%; once per Encounter)",
-      "summary": "Defy death"
+      "summary": "Ignora la morte"
     },
     {
       "id": 1071421,
-      "name": "Backed Against a River",
+      "name": "Con Le Spalle al Fiume",
       "desc": "Turn End: if an ally with the lowest current HP percentage has less than 50% HP, that unit gains 1 [ParryingResultUp] next turn",
       "summary": ""
     },
     {
       "id": 1031301,
-      "name": "Explosive Battering Ram",
+      "name": "Ariete Esplosivo",
       "desc": "Deal +1% damage for every 2 ([Burst] + [Sinking]) on target (max 15%)\n- Double this effect and max value against targets without SP\n\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deals +10% damage\n- When attacking Skill Slot equipped with a Defense Skill, the last coin deals +20% damage instead\n- When Clashing with a Clashable Guard Skill, Clash Power +1",
       "summary": "Deal more damage based on [Burst] and [Sinking] on target\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deal more damage"
     },
     {
       "id": 1031311,
-      "name": "Explosive Battering Ram",
+      "name": "Ariete Esplosivo",
       "desc": "<style=\"highlight\">Deal (-Target's SP / 3)% more damage against targets at less than 0 SP (max 15%, rounded down)</style>\n\nDeal +1% damage for every 2 ([Burst] + [Sinking]) on target (max 15%)\n- Double this effect and max value against targets without SP\n\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deals <style=\"highlight\">+15%</style> damage\n- When attacking Skill Slot equipped with a Defense Skill, the last coin deals <style=\"highlight\">+30%</style> damage instead\n- When Clashing with a Clashable Guard Skill, Clash Power <style=\"highlight\">+3</style>",
       "summary": "Deal more damage based on [Burst] and [Sinking] on target\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deal more damage"
     },
     {
       "id": 1031321,
-      "name": "Flesh-Rending Horn Growth",
+      "name": "Corna Crescenti Strappa-Carne",
       "desc": "Ally with the fastest Speed: On Hit with a Base Attack Skill against enemies with 2+ [Burst] Count or [Sinking] Count, inflict 1 [DefenseDown] (2 times per turn)",
       "summary": "On Hit with a Base Attack Skill against enemies with [Burst] or [Sinking], inflict 1 [DefenseDown]"
     },
     {
       "id": 1031302,
-      "name": "Lament of the Lost Sheep [亡羊之嘆]",
+      "name": "Lamento della Pecora Smarrita [亡羊之嘆]",
       "desc": "When activating [HeishouCombo], The Lord of Hongyuan Hong Lu gains the following effect as the [HeishouComboCountHonglu] effect:\n- Inflict 1 [Sinking] upon inflicting [Burst] Potency or Count by using a Skill (3 times per turn)\n\nOn the turn this unit Substituted or Returned to the field, gain 3 [GrownHorns]",
       "summary": "The Lord of Hongyuan Hong Lu gains special effect"
     }
