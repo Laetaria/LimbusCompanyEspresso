@@ -204,11 +204,11 @@
     {
       "id": 9172,
       "name": "Cantabile",
-      "desc": "Se un'Abilità Attacco colpisce un nemico con 5 o più [Sinking], l'attaccante si cura di (Potenza [Sinking] sul bersaglio / 10) SP (max 3)",
+      "desc": "Se un'Abilità Attacco colpisce un nemico con 5 o più [Sinking], l'attaccante cura (Potenza [Sinking] sul bersaglio / 10) PS(max 3)",
       "simpleDesc": [
         {
           "abilityID": 9172,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Heal PSbased on Sinking on the target"
         }
       ]
     },
@@ -226,22 +226,22 @@
     {
       "id": 9175,
       "name": "Sfera Impetuosa",
-      "desc": "Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nSe un'Abilità Attacco colpisce un nemico con 5 o più [Sinking], l'attaccante cura ([Sinking] sul bersaglio / 10) SP (max 5)\n\nA Fine Turno: tutti gli alleati ottengono 1 [AttackUp] nel turno successivo per ogni nemico a -45 SP (max 3)",
+      "desc": "Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nSe un'Abilità Attacco colpisce un nemico con 5 o più [Sinking], l'attaccante cura ([Sinking] sul bersaglio / 10) PS(max 5)\n\nA Fine Turno: tutti gli alleati ottengono 1 [AttackUp] nel turno successivo per ogni nemico a -45 PS(max 3)",
       "simpleDesc": [
         {
           "abilityID": 9175,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Heal PSbased on Sinking on the target"
         },
         {
           "abilityID": 91751,
-          "simpleDesc": "All allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)"
+          "simpleDesc": "All allies gain [AttackUp] equal to the number of enemies with -45 PS(max 3)"
         }
       ]
     },
     {
       "id": 9176,
       "name": "Onde Incombenti",
-      "desc": "Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Turno: applica 1 [WaveSinking] su un nemico a caso\n\nQuando un nemico in stato di [WaveSinking] viene sconfitto, trasferisci tutti gli Stack di [WaveSinking] da quel nemico a un nemico con più Stack di [WaveSinking] (esclude i nemici con Stack massimo di [WaveSinking])\n\nQuando un nemico subisce dei danni da un'Abilità che applica Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', applica 4 [Sinking] e +3 Conteggio [Sinking] a Fine Turno (1 volta per turno per nemico)\nA inizio Combattimento: quando si ha una Risonanza Assoluta di Tristezza o Lussuria, applica 3 [Sinking] e +3 Conteggio [Sinking] su tutti i nemici (o su una Parte a caso, per le Anormalità)\n\nSe un'Abilità Attacco colpisce un nemico con 10 o più [Sinking], l'attaccante cura ([Sinking] sul bersaglio / 10) SP (max 5) e applica [DefenseDown] sul bersaglio per ogni SP ottenuto (max 5; 1 volta per nemico per turno)\n\nA Fine Turno: tutti gli alleati ottengono [AttackUp] nel turno successivo per ogni nemico a -45 SP o senza SP (max 6)\n\nLe Abilità Attacco con Monete Positive che applicano Potenza, Conteggio [Sinking] o '<noparse>Pianto<noparse> Speciale' ottengono Potere Moneta +1\nLe Abilità Atacco con Monete Negative che applicano Potenza, Conteggio Pianto o '<noparse>Pianto</noparse> Speciale' ottengono invece Potere Base +(4 / n° di monete) (min. 1; arrotondato per difetto)\n\nQuando gli Effetti di [Sinking] o '<noparse>Pianto</noparse> Speciale' vengono attivati da un'Abilità Attacco che applica Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', l'attaccante cura 5 SP a Fine Turno (2 volte per turno per Identità)\nSe quell'alleato aveva già 45 SP, applica invece +3 Conteggio [Sinking] sul bersaglio (2 volte per turno per Identità)",
+      "desc": "Questo Dono viene attivato quando 5 o più Identità hanno Abilità Attacco che applicano Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale'. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Turno: applica 1 [WaveSinking] su un nemico a caso\n\nQuando un nemico in stato di [WaveSinking] viene sconfitto, trasferisci tutti gli Stack di [WaveSinking] da quel nemico a un nemico con più Stack di [WaveSinking] (esclude i nemici con Stack massimo di [WaveSinking])\n\nQuando un nemico subisce dei danni da un'Abilità che applica Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', applica 4 [Sinking] e +3 Conteggio [Sinking] a Fine Turno (1 volta per turno per nemico)\nA inizio Combattimento: quando si ha una Risonanza Assoluta di Tristezza o Lussuria, applica 3 [Sinking] e +3 Conteggio [Sinking] su tutti i nemici (o su una Parte a caso, per le Anormalità)\n\nSe un'Abilità Attacco colpisce un nemico con 10 o più [Sinking], l'attaccante cura ([Sinking] sul bersaglio / 10) PS(max 5) e applica [DefenseDown] sul bersaglio per ogni PSottenuto (max 5; 1 volta per nemico per turno)\n\nA Fine Turno: tutti gli alleati ottengono [AttackUp] nel turno successivo per ogni nemico a -45 PSo senza PS(max 6)\n\nLe Abilità Attacco con Monete Positive che applicano Potenza, Conteggio [Sinking] o '<noparse>Pianto<noparse> Speciale' ottengono Potere Moneta +1\nLe Abilità Atacco con Monete Negative che applicano Potenza, Conteggio Pianto o '<noparse>Pianto</noparse> Speciale' ottengono invece Potere Base +(4 / n° di monete) (min. 1; arrotondato per difetto)\n\nQuando gli Effetti di [Sinking] o '<noparse>Pianto</noparse> Speciale' vengono attivati da un'Abilità Attacco che applica Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale', l'attaccante cura 5 PSa Fine Turno (2 volte per turno per Identità)\nSe quell'alleato aveva già 45 SP, applica invece +3 Conteggio [Sinking] sul bersaglio (2 volte per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9176,
