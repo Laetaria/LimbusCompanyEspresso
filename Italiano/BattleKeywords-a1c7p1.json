@@ -23,15 +23,15 @@
     },
     {
       "id": "BloodDinner",
-      "name": "Banchetto di Sangue",
-      "desc": "- Valore Max: 999\n- Tutto il danno provocato da Sanguinamento in questa zona viene registrato qui\n- Torna a 0 quando si passa ad una zona diversa\n- Questo valore viene condiviso da tutti i personaggi\n- Tra gli alleati, se c'è una Progenie di grado superiore che consuma Banchetto di Sangue nello stesso turno, quest'unità non può consumare Banchetto di Sangue finché quell'alleato non lo consuma per primo.",
+      "name": "Emofagia",
+      "desc": "- Valore Max: 999\n- Tutto il danno provocato da Sanguinamento in questa zona viene registrato qui\n- Torna a 0 quando si passa ad una zona diversa\n- Questo valore viene condiviso da tutti i personaggi\n- Tra gli alleati, se c'è una Progenie di grado superiore che consuma Emofagia nello stesso turno, quest'unità non può consumare Emofagia finché quell'alleato non la consuma per primo.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner_Accumulation",
-      "name": "Banchetto di Sangue Consumato",
-      "desc": "- Valore Max: 999\n- Mostra il totale di Banchetto di Sangue consumato in quest'Incontro",
+      "name": "Emofagia Consumata",
+      "desc": "- Valore Max: 999\n- Mostra il totale di Emofagia consumata in quest'Incontro",
       "summary": "",
       "undefined": "-"
     },
@@ -115,7 +115,7 @@
     {
       "id": "BloodShooting",
       "name": "Sputa sangue!!",
-      "desc": "Quando muore:\n- Banchetto di Sangue +30\n- Ottiene 2 Risorse E.G.O tra quelle più scarse\n- Il Turno Successivo: tutti gli alleati ottengono 0.1 a tutte le Resistenze Fisiche. Quest'effetto può accumularsi. (max 5)",
+      "desc": "Quando muore:\n- Emofagia +30\n- Ottiene 2 Risorse E.G.O tra quelle più scarse\n- Il Turno Successivo: tutti gli alleati ottengono 0.1 a tutte le Resistenze Fisiche. Quest'effetto può accumularsi. (max 5)",
       "summary": "",
       "undefined": "-"
     },
