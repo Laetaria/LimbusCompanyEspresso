@@ -2263,12 +2263,12 @@
         {
           "level": 1,
           "name": "Ehi, Allontanati",
-          "desc": "[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Breath]\n[OnDirectAttack] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -2277,12 +2277,12 @@
         {
           "level": 2,
           "name": "Ehi, Allontanati",
-          "desc": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[OnDirectAttack] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
                 }
               ]
             }
@@ -2291,18 +2291,18 @@
         {
           "level": 4,
           "name": "Ehi, Allontanati",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[OnDirectAttack] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+20% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">+20% danni su Colpo Critico</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 1 [Burst]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge 1 [Burst]</style>"
                 }
               ]
             }
@@ -2316,29 +2316,29 @@
         {
           "level": 1,
           "name": "Inciso Nella Cerne e Nelle Ossa [銘肌鏤骨]",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)"
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a (([Burst] sul bersaglio / 5) + 1) (max 6, arrotondato per difetto)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -2347,29 +2347,29 @@
         {
           "level": 2,
           "name": "Inciso Nella Cerne e Nelle Ossa [銘肌鏤骨]",
-          "desc": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a (([Burst] sul bersaglio / 5) + 1) (max 6, arrotondato per difetto)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2378,32 +2378,32 @@
         {
           "level": 4,
           "name": "Inciso Nella Cerne e Nelle Ossa [銘肌鏤骨]",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + <style=\"highlight\">2</style>) (max 6; rounded down)"
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a (([Burst] sul bersaglio / 5) + <style=\"highlight\">2</style>) (max 6, arrotondato per difetto)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+20% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">+20% danni su Colpo Critico</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2417,42 +2417,42 @@
         {
           "level": 3,
           "name": "Colpo di Supporto [加斥我援]",
-          "desc": "[WhenUse] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] If target has 3+ types of negative effects, Final Power +1\n[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count\n[WhenUse] Gain 3 [Breath]",
+          "desc": "[WhenUse] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Se il bersaglio ha 3+ tipi di effetti negativi, Potere Finale +1\n[WhenUse] A 6+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) (max 100%)"
+                  "desc": "[OnStartCoin] Infligge il 2% di danno in più su Colpo Critico per ogni ([Breath] su di sé + [Burst] sul bersaglio) (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -2461,42 +2461,42 @@
         {
           "level": 4,
           "name": "Colpo di Supporto [加斥我援]",
-          "desc": "[WhenUse] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] If target has 3+ types of negative effects, Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count\n[WhenUse] Gain 3 [Breath]",
+          "desc": "[WhenUse] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Se il bersaglio ha 3+ tipi di effetti negativi, Potere Finale +1\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) <style=\"highlight\">(max 120%)</style>"
+                  "desc": "[OnStartCoin] Infligge il 2% di danno in più su Colpo Critico per ogni ([Breath] su di sé + [Burst] sul bersaglio) <style=\"highlight\">(max 120%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2510,7 +2510,7 @@
         {
           "level": 1,
           "name": "Sentinella",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Questa Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che quest'unità ha perso in totale in questo Incontro (max 6, si basa sui PV max quando si attiva quest'Abilità)\n[WinDuel] Ottiene [Breath] in base alla quantità di [Burst] sul bersaglio (max 5, una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2524,7 +2524,7 @@
         {
           "level": 4,
           "name": "Sentinella",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Questa Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che quest'unità ha perso in totale in questo Incontro (max 6, si basa sui PV max quando si attiva quest'Abilità)\n[WinDuel] Ottiene [Breath] in base alla quantità di [Burst] sul bersaglio (max 5, una volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
