@@ -268,7 +268,7 @@
           "level": 3,
           "name": "Battito d'Ali",
           "abName": "Festival delle Fatine",
-          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n<style=\"highlight\">[BeforeAttack] Ottiene (# della Rison. più alta -2) Peso Attacco (max 1)</style>\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Si cura di PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)\n<style=\"highlight\">[EndSkill] Se la cura di quest'Abilità eccede i PV Max di quest'unità, ottiene (cura eccessiva/PV Max) x 10 [AttackUp] il turno successivo (max 3 per turno)</style>",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n<style=\"highlight\">[BeforeAttack] Ottiene (# della Rison. più alta -2) Gittata Attacco (max 1)</style>\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Si cura di PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)\n<style=\"highlight\">[EndSkill] Se la cura di quest'Abilità eccede i PV Max di quest'unità, ottiene (cura eccessiva/PV Max) x 10 [AttackUp] il turno successivo (max 3 per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -312,7 +312,7 @@
           "level": 1,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Gittata Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -333,7 +333,7 @@
           "level": 3,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n<style=\"highlight\">- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Peso Attacco</style>\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Gittata Attacco\n<style=\"highlight\">- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Gittata Attacco</style>\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -357,7 +357,7 @@
           "level": 4,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Peso Attacco\n- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Peso Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">20</style>%)\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 10% in base ai PV Max</style>",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Gittata Attacco\n- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Gittata Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">20</style>%)\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 10% in base ai PV Max</style>",
           "coinlist": [
             {
               "coindescs": [

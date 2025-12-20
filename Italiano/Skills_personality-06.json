@@ -1813,7 +1813,7 @@
         {
           "level": 1,
           "name": "Frusta Mentale",
-          "desc": "[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Peso Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
+          "desc": "[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Gittata Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1848,7 +1848,7 @@
         {
           "level": 2,
           "name": "Frusta Mentale",
-          "desc": "<style=\"highlight\">Infligge +2% danni per ogni [Charge] (max 10%)</style>\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Peso Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
+          "desc": "<style=\"highlight\">Infligge +2% danni per ogni [Charge] (max 10%)</style>\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Gittata Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1895,7 +1895,7 @@
         {
           "level": 4,
           "name": "Frusta Mentale",
-          "desc": "Infligge <style=\"highlight\">+4%</style> danni per ogni [Charge] (max <style=\"highlight\">20%</style>)\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene <style=\"highlight\">10</style> [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Peso Attacco +1\n<style=\"highlight\">- [BeforeUse] A 5+ [Charge], questa Abilità non ottiene l'effetto [CantIdentify]</style>\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta <style=\"highlight\">+2</style>\n<style=\"highlight\">[BeforeAttack] Con 8+ Conteggio [Charge] rimasto, consuma 8 Conteggio [Charge] per infliggere +40% danni</style>",
+          "desc": "Infligge <style=\"highlight\">+4%</style> danni per ogni [Charge] (max <style=\"highlight\">20%</style>)\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene <style=\"highlight\">10</style> [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Gittata Attacco +1\n<style=\"highlight\">- [BeforeUse] A 5+ [Charge], questa Abilità non ottiene l'effetto [CantIdentify]</style>\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta <style=\"highlight\">+2</style>\n<style=\"highlight\">[BeforeAttack] Con 8+ Conteggio [Charge] rimasto, consuma 8 Conteggio [Charge] per infliggere +40% danni</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2355,7 +2355,7 @@
         {
           "level": 1,
           "name": "Lotta Solitaria: Sacrificio per Conquistare il Giardino [孑孑單身, 捨生取园]",
-          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Peso Attacco\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]",
+          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Gittata Attacco\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
@@ -2392,7 +2392,7 @@
         {
           "level": 4,
           "name": "Lotta Solitaria: Sacrificio per Conquistare il Giardino [孑孑單身, 捨生取园]",
-          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Peso Attacco\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]",
+          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Gittata Attacco\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
