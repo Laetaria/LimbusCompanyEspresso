@@ -768,13 +768,13 @@
     {
       "id": 1020621,
       "name": "Ora del Té all'Associazione Seven",
-      "desc": "1 alleato con la Velocità più alta infligge più danni in base alla <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u> del bersaglio quando attacca con un tipo di danno a cui il bersaglio è \"Fatale\"(Resistenza>x1.5) a \n+1.5% per 1 [Burst] (Max 15%)",
+      "desc": "1 alleato con la Velocità più alta infligge più danni in base alla [Burst] del bersaglio quando attacca con un tipo di danno a cui il bersaglio è \"Fatale\"(Resistenza>x1.5) a \n+1.5% per 1 [Burst] (Max 15%)",
       "summary": "1 alleato con la Velocità più alta infligge più danni in base alla [Burst] del bersaglio quando attacca con un tipo di danno a cui il bersaglio è Fatale"
     },
     {
       "id": 1020631,
       "name": "Ora del Té all'Associazione Seven",
-      "desc": "1 alleato con la Velocità più alta infligge più danni in base alla <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u> del bersaglio quando attacca con un tipo di danno a cui il bersaglio è <style=\"highlight\">\"Debole\" o \"Fatale\"(Resistenza>x1)</style> a\n(+1.5% per 1 [Burst]; Max 15%)\n<style=\"highlight\">Se l'alleato è un Fixer dell'Associazione Seven, infligge altri danni aggiuntivi\n(+0.5% per 1 [Burst]; Max 5%)</style>",
+      "desc": "1 alleato con la Velocità più alta infligge più danni in base alla [Burst] del bersaglio quando attacca con un tipo di danno a cui il bersaglio è <style=\"highlight\">\"Debole\" o \"Fatale\"(Resistenza>x1)</style> a\n(+1.5% per 1 [Burst]; Max 15%)\n<style=\"highlight\">Se l'alleato è un Fixer dell'Associazione Seven, infligge altri danni aggiuntivi\n(+0.5% per 1 [Burst]; Max 5%)</style>",
       "summary": "1 alleato con la Velocità più alta infligge più danni in base alla [Burst] del bersaglio quando attacca un bersaglio con il danno a cui è Debole o Fatale\nSe l'alleato è un Fixer dell'Associazione Seven, infligge altri danni aggiuntivi"
     },
     {
@@ -800,12 +800,12 @@
     {
       "id": 1090701,
       "name": "Rivelazione Incandescente",
-      "desc": "Ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il turno successivo in base ai danni che questa unità ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 25% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 5)\nSe questa unità ha 3 [KnowledgeExplored] a Fine Turno, rimuove 1 effetto negativo applicato a a sé"
+      "desc": "Ottiene [HitDamageUp] il turno successivo in base ai danni che questa unità ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 25% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 5)\nSe questa unità ha 3 [KnowledgeExplored] a Fine Turno, rimuove 1 effetto negativo applicato a a sé"
     },
     {
       "id": 1090721,
       "name": "Missionaria della Conoscenza",
-      "desc": "1 alleato con i PV Max più alti ottiene <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">[HitDamageUp]</link></u></color> il turno successivo in base ai danni che ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 15% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 3)"
+      "desc": "1 alleato con i PV Max più alti ottiene [HitDamageUp] il turno successivo in base ai danni che ha subito questo turno.\n(Danni allo Scuso inclusi nel calcolo. Arriva al massimo quando subisce danni pari al 15% dei PV Max a inizio turno. Max [HitDamageUp] ottenuti da questo effetto: 3)"
     },
     {
       "id": 1060701,
@@ -815,7 +815,7 @@
     {
       "id": 1060721,
       "name": "Equipaggiamento Bionico Prodotto in Massa",
-      "desc": "Quando 1 alleato con la Velocità più alta sconfigge un nemico inflitto con <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, ottiene 1 [Enhancement] il turno successivo (Una volta per turno)"
+      "desc": "Quando 1 alleato con la Velocità più alta sconfigge un nemico inflitto con [Laceration], ottiene 1 [Enhancement] il turno successivo (Una volta per turno)"
     },
     {
       "id": 1020701,
@@ -845,37 +845,37 @@
     {
       "id": 1010621,
       "name": "Dimostrazione di Pulizia",
-      "desc": "1 alleato con il Conteggio più alto dalla [Charge] infligge più danni contro i bersagli con <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u> del bersaglio in base alla [Burst] sul bersaglio (+1.5% per [Burst]. Max +15% danni)"
+      "desc": "1 alleato con il Conteggio più alto dalla [Charge] infligge più danni contro i bersagli con [Burst] del bersaglio in base alla [Burst] sul bersaglio (+1.5% per [Burst]. Max +15% danni)"
     },
     {
       "id": 1120701,
       "name": "Le Pallottole Costano",
-      "desc": "- Quando Testa Colpisce contro un bersaglio con <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, ottiene <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u>. (Max 4)\n- Se questa unità infligge un Colpo Critico quando ha finito le [Bullet], usa tutti i <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u> e infligge (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u> consumed)% dei danni inflitti come danni aggiuntivi."
+      "desc": "- Quando Testa Colpisce contro un bersaglio con [Laceration], ottiene [Unjust_Enrichment]. (Max 4)\n- Se questa unità infligge un Colpo Critico quando ha finito le [Bullet], usa tutti i [Unjust_Enrichment] e infligge (5 x [Unjust_Enrichment] consumed)% dei danni inflitti come danni aggiuntivi."
     },
     {
       "id": 1120702,
       "name": "Le Pallottole Costano",
-      "desc": "<style=\"highlight\">- Sempre Attiva : inizia l'incontro con 7 [Bullet]</style>\n- Quando Testa Colpisce contro un bersaglio con <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, ottiene <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u>. (Max 4)\n<style=\"highlight\"> Se una Moneta che usa [Bullet] Colpisce, usa tutti i <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u> e infligge (25 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u> consumed)% dei danni inflitti come danni aggiuntivi.</style>\n- Se questa unità infligge un Colpo Critico quando ha finito le [Bullet], usa tutti i <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u> e infligge (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">[Unjust_Enrichment]</color></link></u> consumed)% dei danni fatti come danni aggiuntivi."
+      "desc": "<style=\"highlight\">- Sempre Attiva : inizia l'incontro con 7 [Bullet]</style>\n- Quando Testa Colpisce contro un bersaglio con [Laceration], ottiene [Unjust_Enrichment]. (Max 4)\n<style=\"highlight\"> Se una Moneta che usa [Bullet] Colpisce, usa tutti i [Unjust_Enrichment] e infligge (25 x [Unjust_Enrichment] consumed)% dei danni inflitti come danni aggiuntivi.</style>\n- Se questa unità infligge un Colpo Critico quando ha finito le [Bullet], usa tutti i [Unjust_Enrichment] e infligge (5 x [Unjust_Enrichment] consumed)% dei danni fatti come danni aggiuntivi."
     },
     {
       "id": 1120721,
       "name": "Nuovo Buco per Respirare",
-      "desc": "Se 1 alleato con più <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></link></u> sconfigge un nemico, ottiene 1 [PenetrateDamageUp] il turno successivo. (Una volta per turno)"
+      "desc": "Se 1 alleato con più [Breath] sconfigge un nemico, ottiene 1 [PenetrateDamageUp] il turno successivo. (Una volta per turno)"
     },
     {
       "id": 1040601,
       "name": "Una P.F.",
-      "desc": "Se questa unità ha 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></link></u> A Fine Turno, cura 8 PS."
+      "desc": "Se questa unità ha 7+ [Breath] A Fine Turno, cura 8 PS."
     },
     {
       "id": 1040602,
       "name": "Una P.F.",
-      "desc": "<style=\"highlight\">- Sempre Attiva : Inizia l'incontro con 7 [Bullet]</style>\n- Se questa unità ha 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></link></u> A Fine Turno, cura 8 PS."
+      "desc": "<style=\"highlight\">- Sempre Attiva : Inizia l'incontro con 7 [Bullet]</style>\n- Se questa unità ha 7+ [Breath] A Fine Turno, cura 8 PS."
     },
     {
       "id": 1040611,
       "name": "Una P.F.",
-      "desc": "- Sempre Attiva : Inizia l'incontro con 7 [Bullet]\n- Se questa unità ha 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></link></u> A Fine Turno, cura 8 PS.\n<style=\"highlight\">- Se questa unità ha già PS massimi quando attiva questa condizione, ottiene 1 [Breath] il turno successivo</style>"
+      "desc": "- Sempre Attiva : Inizia l'incontro con 7 [Bullet]\n- Se questa unità ha 7+ [Breath] A Fine Turno, cura 8 PS.\n<style=\"highlight\">- Se questa unità ha già PS massimi quando attiva questa condizione, ottiene 1 [Breath] il turno successivo</style>"
     },
     {
       "id": 1040621,
@@ -890,12 +890,12 @@
     {
       "id": 1030601,
       "name": "Tatuaggi Vendicativi",
-      "desc": "- Ottiene 1 [VioletDamageUp] il prossimo ogni turno che i nemici colpiscono un alleato (inclusa questa unità) 3 volte. (Max 5)\n- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Finale +1"
+      "desc": "- Ottiene 1 [VioletDamageUp] il prossimo ogni turno che i nemici colpiscono un alleato (inclusa questa unità) 3 volte. (Max 5)\n- Applica [RetaliationBook] all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Finale +1"
     },
     {
       "id": 1030611,
       "name": "Tatuaggi Vendicativi",
-      "desc": "- Ottiene 1 [VioletDamageUp] il prossimo ogni turno che i nemici colpiscono un alleato (inclusa questa unità) 3 volte. (Max 5)\n- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Moneta +1"
+      "desc": "- Ottiene 1 [VioletDamageUp] il prossimo ogni turno che i nemici colpiscono un alleato (inclusa questa unità) 3 volte. (Max 5)\n- Applica [RetaliationBook] all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Moneta +1"
     },
     {
       "id": 1030621,
@@ -905,12 +905,12 @@
     {
       "id": 1050701,
       "name": "Lealtà",
-      "desc": "- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Finale +1\n- Se un altro alleato parte del Medio è ancora in vita, cura 6 PS a ogni Fine Turno"
+      "desc": "- Applica [RetaliationBook] all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Finale +1\n- Se un altro alleato parte del Medio è ancora in vita, cura 6 PS a ogni Fine Turno"
     },
     {
       "id": 1050711,
       "name": "Lealtà",
-      "desc": "- Applica <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">[RetaliationBook]</color></link></u> all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Finale +1\n- Se un altro alleato parte del Medio è ancora in vita oltre a questa unità, questa unità e l'alleato parte del Medio sopravvissuto con meno PS si curano entrambi per 6 PS a ogni Fine Turno"
+      "desc": "- Applica [RetaliationBook] all'unità che infligge più danni con le Abilità ad un alleato.\n- Se il bersaglio principale ha [RetaliationBook], Potere Finale +1\n- Se un altro alleato parte del Medio è ancora in vita oltre a questa unità, questa unità e l'alleato parte del Medio sopravvissuto con meno PS si curano entrambi per 6 PS a ogni Fine Turno"
     },
     {
       "id": 1050721,

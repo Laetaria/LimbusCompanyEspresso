@@ -80,7 +80,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] A 10+ Conteggio [Charge], ottiene 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> il turno successivo"
+                  "desc": "[OnSucceedAttackHead] A 10+ Conteggio [Charge], ottiene 2 [ChargeForceField] il turno successivo"
                 }
               ]
             }
@@ -101,7 +101,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Charge], ottiene 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> il turno successivo"
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Charge], ottiene 2 [ChargeForceField] il turno successivo"
                 }
               ]
             }
@@ -122,7 +122,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 5+ Conteggio [Charge], ottiene 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> per ogni 5 Conteggio [Charge] il turno successivo (Max 4)"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio [Charge], ottiene 1 [ChargeForceField] per ogni 5 Conteggio [Charge] il turno successivo (Max 4)"
                 }
               ]
             }
@@ -136,7 +136,7 @@
         {
           "level": 3,
           "name": "Usa Scudo Energetico",
-          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per applicare (Conteggio [Charge] Consumato / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Arrotondato in Eccesso) ai 2 alleati con la minore percentuale di PV",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per applicare (Conteggio [Charge] Consumato / 2) [ChargeForceField] (Arrotondato in Eccesso) ai 2 alleati con la minore percentuale di PV",
           "coinlist": [
             {},
             {},
@@ -146,7 +146,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> il turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [ChargeForceField] il turno successivo"
                 }
               ]
             }
@@ -155,7 +155,7 @@
         {
           "level": 4,
           "name": "Usa Scudo Energetico",
-          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per applicare (Conteggio [Charge] Consumato / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Arrotondato in Eccesso) ai 2 alleati con la minore percentuale di PV",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per applicare (Conteggio [Charge] Consumato / 2) [ChargeForceField] (Arrotondato in Eccesso) ai 2 alleati con la minore percentuale di PV",
           "coinlist": [
             {},
             {},
@@ -165,7 +165,7 @@
                   "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> il turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [ChargeForceField] il turno successivo"
                 }
               ]
             }
@@ -179,7 +179,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[WhenUse] Ottiene 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (3 volte per turno)",
+          "desc": "[WhenUse] Ottiene 2 [ChargeForceField] (3 volte per turno)",
           "coinlist": [
             {}
           ]
@@ -187,7 +187,7 @@
         {
           "level": 4,
           "name": "Blocco",
-          "desc": "[WhenUse] Ottiene <style=\"highlight\">3</style> <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (3 volte per turno)",
+          "desc": "[WhenUse] Ottiene <style=\"highlight\">3</style> [ChargeForceField] (3 volte per turno)",
           "coinlist": [
             {}
           ]
