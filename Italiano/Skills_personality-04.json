@@ -1986,8 +1986,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Soggezione, Disprezzo",
-          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Soggezione</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] A 8+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max 20%)",
+          "name": "Timore, Disprezzo",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Timore</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] A 8+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2032,8 +2032,8 @@
         },
         {
           "level": 4,
-          "name": "Soggezione, Disprezzo",
-          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più<style=\"highlight\"></style>\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Soggezione</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 8 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max <style=\"highlight\">40</style>%)",
+          "name": "Timore, Disprezzo",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più<style=\"highlight\"></style>\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Timore</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 8 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max <style=\"highlight\">40</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2104,7 +2104,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Sguardo di Soggezione Sotto al Disprezzo Discendente",
+          "name": "Sguardo di Timore Sotto al Disprezzo Discendente",
           "desc": "Gli effetti esterni non possono far Riusare questa Abilità\nBersaglia con priorità i nemici con [GazeRyoshu] o [ContemptRyoshu] come bersagli secondari\n- Infligge -50% danni ai bersagli secondari\nSe vi è un solo bersaglio, infligge +200% danni (per gli Incontri Mirati, una Parte)\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio principale (max 2)\n[WhenUse] Infligge +2% danni per ogni ([Laceration] + [Vibration]) sul bersaglio principale (max 50%)\n[WhenUse] Infligge +7% danni per ogni 1 (somma di [GazeRyoshu] su tutti i bersagli dell'attacco) (max 49%)\n[EndSkill] Consuma [GazeRyoshu] o [ContemptRyoshu] su tutti i bersagli colpiti",
           "coinlist": [
             {
@@ -2133,7 +2133,7 @@
         },
         {
           "level": 4,
-          "name": "Sguardo di Soggezione Sotto al Disprezzo Discendente",
+          "name": "Sguardo di Timore Sotto al Disprezzo Discendente",
           "desc": "Gli effetti esterni non possono far Riusare questa Abilità\nBersaglia con priorità i nemici con [GazeRyoshu] o [ContemptRyoshu] come bersagli secondari<style=\"highlight\"></style>\n- Infligge -50% danni ai bersagli secondari\nSe vi è un solo bersaglio, infligge +200% danni (per gli Incontri Mirati, una Parte)\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +2% danni per ogni ([Laceration] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">100</style>%)\n[WhenUse] Infligge +10% danni per ogni 1 (somma di [GazeRyoshu] su tutti i bersagli dell'attacco) (max 70%)\n[EndSkill] Consuma [GazeRyoshu] o [ContemptRyoshu] su tutti i bersagli colpiti",
           "coinlist": [
             {
@@ -2168,7 +2168,7 @@
         {
           "level": 3,
           "name": "Farò Fuoco / Quando Vuoi",
-          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū\n[StartBattle] Ottiene +1 Gittata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
+          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Gittata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2189,7 +2189,7 @@
                   "desc": "Questa Moneta danneggia solamente i bersagli secondari"
                 },
                 {
-                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
+                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
                 },
                 {
                   "desc": "Infligge +30% danni per ogni [BoseProjektil] su di sé (max 210%)"
@@ -2213,7 +2213,7 @@
         {
           "level": 4,
           "name": "Farò Fuoco / Quando Vuoi",
-          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū\n[StartBattle] Ottiene +1 Gittata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
+          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Gittata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2234,7 +2234,7 @@
                   "desc": "Questa Moneta danneggia solamente i bersagli secondari"
                 },
                 {
-                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Soggezione Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
+                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
                 },
                 {
                   "desc": "Infligge +<style=\"highlight\">40</style>% danni per ogni [BoseProjektil] su di sé (max <style=\"highlight\">280</style>%)"
