@@ -25,7 +25,7 @@
           "level": 3,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Gittata Attacco +1",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -46,7 +46,7 @@
           "level": 4,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Gittata Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Gittata Attacco addizionale +1",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Portata Attacco addizionale +1",
           "coinlist": [
             {
               "coindescs": [
@@ -90,7 +90,7 @@
           "level": 3,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Gittata Attacco +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -111,7 +111,7 @@
           "level": 4,
           "name": "Corrosione Infestata",
           "abName": "Perla Vagante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Gittata Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Gittata Attacco addizionale +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Portata Attacco addizionale +1",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
           "level": 3,
           "name": "Esecuzione",
           "abName": "Scriba dell'Esecutore Celeste",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 50%- PV, Gittata Attacco +1",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 50%- PV, Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -241,7 +241,7 @@
           "level": 4,
           "name": "Esecuzione",
           "abName": "Scriba dell'Esecutore Celeste",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 50%- PV, Gittata Attacco +2",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 50%- PV, Portata Attacco +2",
           "coinlist": [
             {
               "coindescs": [
@@ -332,7 +332,7 @@
           "level": 1,
           "name": "Desiderio Sanguineo",
           "abName": "Le Scarpette Rosse",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Gittata Attacco (max 2)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -348,7 +348,7 @@
           "level": 3,
           "name": "Desiderio Sanguineo",
           "abName": "Le Scarpette Rosse",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Gittata Attacco (max 2)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -367,7 +367,7 @@
           "level": 4,
           "name": "Desiderio Sanguineo",
           "abName": "Le Scarpette Rosse",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Gittata Attacco (max 2)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -579,7 +579,7 @@
           "level": 3,
           "name": "Processo della Strega",
           "abName": "Duchessa Fiammeggiante",
-          "desc": "<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta / 2) Gittata Attacco (max 3; arrotondato per difetto)</style>\n[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del <style=\"highlight\">18</style>% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "desc": "<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)</style>\n[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del <style=\"highlight\">18</style>% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
           "coinlist": [
             {
               "coindescs": [
@@ -598,7 +598,7 @@
           "level": 4,
           "name": "Processo della Strega",
           "abName": "Duchessa Fiammeggiante",
-          "desc": "[BeforeAttack] Ottiene (Rison. più alta / 2) Gittata Attacco (max 3; arrotondato per difetto)\n[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del <style=\"highlight\">20</style>% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)\n[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del <style=\"highlight\">20</style>% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
           "coinlist": [
             {
               "coindescs": [
@@ -622,7 +622,7 @@
           "level": 1,
           "name": "Processo della Strega",
           "abName": "Duchessa Fiammeggiante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Gittata Attacco (max 3; arrotondato per difetto)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -656,7 +656,7 @@
           "level": 3,
           "name": "Processo della Strega",
           "abName": "Duchessa Fiammeggiante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Gittata Attacco (max 3; arrotondato per difetto)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -690,7 +690,7 @@
           "level": 4,
           "name": "Processo della Strega",
           "abName": "Duchessa Fiammeggiante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Gittata Attacco (max 3; arrotondato per difetto)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
