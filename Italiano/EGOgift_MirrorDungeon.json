@@ -3109,11 +3109,11 @@
      {
       "id": 9115,
       "name": "Molla a Orologeria",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration] ottengono Potere di Scontro +1\n\nQuando si infligge danno ad un nemico con [Vibration] usando un'Abilità Attacco (escluse le Abilità E.G.O) che infligge Potenza o Conteggio [Vibration], infligge +([Vibration] Potenza sul bersaglio + 5)% danni.\n\nPer le Abilità Superbia: infligge +(somma della Potenza e Conteggio [Vibration] sul bersaglio +5)% danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità che applicano (su sé stessi inclusi) Potenza o Conteggio [Vibration] ottengono Potere Scontro +1\n\nQuando si infligge danno ad un nemico con [Vibration] usando un'Abilità Attacco (escluse le Abilità E.G.O) che infligge Potenza o Conteggio [Vibration], infligge +([Vibration] Potenza sul bersaglio + 5)% danni.\n\nPer le Abilità Superbia: infligge +(somma della Potenza e Conteggio [Vibration] sul bersaglio +5)% danni.",
       "simpleDesc": [
         {
           "abilityID": 9115,
-          "simpleDesc": "Abilità che applicano (anche su se stessi) Potenza o Conteggio [Vibration] ottengono Potere di Scontro +1"
+          "simpleDesc": "Abilità che applicano (anche su se stessi) Potenza o Conteggio [Vibration] ottengono Potere Scontro +1"
         },
         {
           "abilityID": 91151,
@@ -3214,7 +3214,7 @@
     {
       "id": 9120,
       "name": "Cercamorte",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco (escluse le Abilità E.G.O) che infliggono Potenza o Conteggio [Burst] ottengono Potere di Scontro +1, 'Livello Offensivo' +2, ed infliggono il 15% in più di danni.\n\n\nLe Abilità con Singola Moneta ottengono invece Potere di Scontro +2, 'Livello Offensivo' +2, ed infliggono il 40% in più di danni.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nLe Abilità Attacco (escluse le Abilità E.G.O) che infliggono Potenza o Conteggio [Burst] ottengono Potere Scontro +1, 'Livello Offensivo' +2, ed infliggono il 15% in più di danni.\n\n\nLe Abilità con Singola Moneta ottengono invece Potere Scontro +2, 'Livello Offensivo' +2, ed infliggono il 40% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9120,
@@ -3244,7 +3244,7 @@
     {
       "id": 9122,
       "name": "Trappola di Alberantico",
-      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il 5% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potere di Scontro +1 ed infliggono il 10% in più di danni.",
+      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il 5% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potere Scontro +1 ed infliggono il 10% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9122,
@@ -3252,14 +3252,14 @@
         },
         {
           "abilityID": 91221,
-          "simpleDesc": "Ottiene Potere di Scontro +1 ed infligge +10% danni"
+          "simpleDesc": "Ottiene Potere Scontro +1 ed infligge +10% danni"
         }
       ]
     },
     {
       "id": 19122,
       "name": "Trappola di Alberantico+",
-      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il <style=\"upgradeHighlight\">7.5</style>% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potere di Scontro +1 ed il <style=\"upgradeHighlight\">12.5</style>% in più di danni.",
+      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il <style=\"upgradeHighlight\">7.5</style>% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potere Scontro +1 ed il <style=\"upgradeHighlight\">12.5</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19122,
@@ -3267,14 +3267,14 @@
         },
         {
           "abilityID": 191221,
-          "simpleDesc": "Ottiene Potere di Scontro +1 ed infligge +12.5% danni"
+          "simpleDesc": "Ottiene Potere Scontro +1 ed infligge +12.5% danni"
         }
       ]
     },
     {
       "id": 29122,
       "name": "Trappola di Alberantico++",
-      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il <style=\"upgradeHighlight\">10</style>% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potere di Scontro +1 ed il <style=\"upgradeHighlight\">15</style>% in più di danni.",
+      "desc": "Le Ablità Attacco (escluse le Abilità E.G.O) che infliggono Potenza, Conteggio [Sinking] o '<noparse>Pianto</noparse> Speciale' infliggono il <style=\"upgradeHighlight\">10</style>% in più di danni.\n\nLe Abilità con meno di 2 Monete ottengono invece Potere Scontro +1 ed il <style=\"upgradeHighlight\">15</style>% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29122,
@@ -3282,7 +3282,7 @@
         },
         {
           "abilityID": 291221,
-          "simpleDesc": "Ottiene Potere di Scontro +1 ed infligge +15% danni"
+          "simpleDesc": "Ottiene Potere Scontro +1 ed infligge +15% danni"
         }
       ]
     },
@@ -3492,19 +3492,19 @@
     {
       "id": 9130,
       "name": "Finifugalità",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nA Inizio Turno: gli alleati con 10 o più (somma di Potenza e Conteggio [Breath]) ottengono +1 Potere di Scontro ed 1 [AttackDmgUp].\n\nAlla somma di 20 o più, ottengono invece +1 Potere di Scontro e 3 [AttackDmgUp].\n\nAlla somma di 40 o più, ottengono invece +2 Potere di Scontro e 3 [AttackDmgUp].",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nA Inizio Turno: gli alleati con 10 o più (somma di Potenza e Conteggio [Breath]) ottengono +1 Potere Scontro ed 1 [AttackDmgUp].\n\nAlla somma di 20 o più, ottengono invece +1 Potere Scontro e 3 [AttackDmgUp].\n\nAlla somma di 40 o più, ottengono invece +2 Potere Scontro e 3 [AttackDmgUp].",
       "simpleDesc": [
         {
           "abilityID": 9130,
-          "simpleDesc": "gli alleati ottengono +1 Potere di Scontro ed 1 [AttackDmgUp]."
+          "simpleDesc": "gli alleati ottengono +1 Potere Scontro ed 1 [AttackDmgUp]."
         },
         {
           "abilityID": 91301,
-          "simpleDesc": "gli alleati ottengono +1 Potere di Scontro ed 3 [AttackDmgUp]."
+          "simpleDesc": "gli alleati ottengono +1 Potere Scontro ed 3 [AttackDmgUp]."
         },
         {
           "abilityID": 91302,
-          "simpleDesc": "gli alleati ottengono +2 Potere di Scontro ed 3 [AttackDmgUp]."
+          "simpleDesc": "gli alleati ottengono +2 Potere Scontro ed 3 [AttackDmgUp]."
         }
       ]
     },
@@ -3604,11 +3604,11 @@
     {
       "id": 9134,
       "name": "Torcia da Pattuglia",
-      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nA Inizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottiene Potere di Scontro +1 ed infliggono il 10% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nA Fine Turno: se l'Identità non ha [ChargeForceField], applica 2 [ChargeForceField] nel prossimo turno.",
+      "desc": "[Gli Effetti si applicano solo alla Prima e Seconda Identità Schierate]\n\nA Inizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottiene Potere Scontro +1 ed infliggono il 10% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nA Fine Turno: se l'Identità non ha [ChargeForceField], applica 2 [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 9134,
-          "simpleDesc": "Le abilità 1 ottengono Potere di Scontro +1 ed infliggono +10% danni"
+          "simpleDesc": "Le abilità 1 ottengono Potere Scontro +1 ed infliggono +10% danni"
         },
         {
           "abilityID": 91341,
@@ -3619,11 +3619,11 @@
     {
       "id": 19134,
       "name": "Torcia da Pattuglia+",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nA Inizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottengono Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">15</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nA Fine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel prossimo turno.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda <style=\"upgradeHighlight\">ed alla Terza</style> Identità Schierate]\n\nA Inizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottengono Potere Scontro +1 ed infliggono il <style=\"upgradeHighlight\">15</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nA Fine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 19134,
-          "simpleDesc": "Le abilità 1 ottengono Potere di Scontro +1 ed infliggono +15% danni"
+          "simpleDesc": "Le abilità 1 ottengono Potere Scontro +1 ed infliggono +15% danni"
         },
         {
           "abilityID": 191341,
@@ -3634,11 +3634,11 @@
     {
       "id": 29134,
       "name": "Torcia da Pattuglia++",
-      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nA Inizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottengono Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nA Fine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel prossimo turno.",
+      "desc": "[Gli Effetti si applicano solo alla Prima, alla Seconda ed alla Terza Identità Schierate]\n\nA Inizio Turno: se le Identità affette hanno Abilità che conferiscono o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 delle Identità ottengono Potere Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25</style>% in più dei danni mentre quell'unità ha [ChargeForceField].\n\nA Fine Turno: se l'Identità non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 29134,
-          "simpleDesc": "Le abilità 1 ottengono Potere di Scontro +1 ed infliggono +25% danni"
+          "simpleDesc": "Le abilità 1 ottengono Potere Scontro +1 ed infliggono +25% danni"
         },
         {
           "abilityID": 291341,
@@ -3745,56 +3745,56 @@
     {
       "id": 9139,
       "name": "Forbici da Sarto",
-      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potere di Scontro +1 ed infliggono il 10% in più di danni.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il 20% in più di danni.",
+      "desc": "[Gli Effetti si applicano solo alla Sesta Identità Schierata]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potere Scontro +1 ed infliggono il 10% in più di danni.\n\nLe Abilità con una sola Moneta ottengono invece Potere Scontro +1 ed infliggono il 20% in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 9139,
-          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +10% danni"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere Scontro +1 ed infliggono +10% danni"
         },
         {
           "abilityID": 91391,
-          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +20% danni"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere Scontro +1 ed infliggono +20% danni"
         }
       ]
     },
     {
       "id": 19139,
       "name": "Forbici da Sarto+",
-      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 15% in più di danni.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25%</style> in più di danni.",
+      "desc": "[Gli Effetti si applicano solo alla Quarta<style=\"upgradeHighlight\"> ed alla Sesta</style> Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potere Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 15% in più di danni.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere Scontro +1 ed infliggono il <style=\"upgradeHighlight\">25%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 19139,
-          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +15% danni"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere Scontro +1 ed infliggono +15% danni"
         },
         {
           "abilityID": 191391,
-          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +25% danni"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere Scontro +1 ed infliggono +25% danni"
         }
       ]
     },
     {
       "id": 29139,
       "name": "Forbici da Sarto++",
-      "desc": "[Gli Effetti si applicano solo alla Quarta e Sesta Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 20% in più di danni.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere di Scontro +1 ed infliggono il <style=\"upgradeHighlight\">30%</style> in più di danni.",
+      "desc": "[Gli Effetti si applicano solo alla Quarta e Sesta Identità Schierate]\n\nLe Abilità Taglienti (escluse le Abilità E.G.O) con 2 o meno Monete ottengono Potere Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 20% in più di danni.</style>.\n\nLe Abilità con una sola Moneta ottengono invece Potere Scontro +1 ed infliggono il <style=\"upgradeHighlight\">30%</style> in più di danni.",
       "simpleDesc": [
         {
           "abilityID": 29139,
-          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +20% danni"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere Scontro +1 ed infliggono +20% danni"
         },
         {
           "abilityID": 29139,
-          "simpleDesc": "le Abilità Taglienti ottengono Potere di Scontro +1 ed infliggono +30% danni"
+          "simpleDesc": "le Abilità Taglienti ottengono Potere Scontro +1 ed infliggono +30% danni"
         }
       ]
     },
     {
       "id": 9140,
       "name": "Risolutezza",
-      "desc": "Durante l'incontro, tutti gli alleati con almeno 2 Abilità Taglienti ottengono Potere di Scontro +1 durante il primo turno, ed ottengono 1 [Agility] e Potere di Scontro +1 a partire dal secondo turno.\n\nLe Identità dell'Assoc. Shi hanno i loro PV ridotti al 75% dei loro PV massimi, in compenso, subiscono solo il 50% dei danni e ricevono il 50% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro, esclude le cure date dai Doni E.G.O)\n\nLe Identità dell'Assoc. Shi ottengono, inoltre, 1 Potere Tagliente Aumentato e 1 Danno Tagliente Aumentato all'inizio di ogni Turno.",
+      "desc": "Durante l'incontro, tutti gli alleati con almeno 2 Abilità Taglienti ottengono Potere Scontro +1 durante il primo turno, ed ottengono 1 [Agility] e Potere Scontro +1 a partire dal secondo turno.\n\nLe Identità dell'Assoc. Shi hanno i loro PV ridotti al 75% dei loro PV massimi, in compenso, subiscono solo il 50% dei danni e ricevono il 50% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro, esclude le cure date dai Doni E.G.O)\n\nLe Identità dell'Assoc. Shi ottengono, inoltre, 1 Potere Tagliente Aumentato e 1 Danno Tagliente Aumentato all'inizio di ogni Turno.",
       "simpleDesc": [
         {
           "abilityID": 9140,
-          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere di Scontro"
+          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere Scontro"
         },
         {
           "abilityID": 91401,
@@ -3805,11 +3805,11 @@
     {
       "id": 19140,
       "name": "Risolutezza+",
-      "desc": "Durante l'incontro, tutti gli alleati con almeno 2 Abilità Taglienti ottengono Potere di Scontro +1 durante il primo turno, ed ottengono <style=\"upgradeHighlight\">2</style> [Agility] e Potere di Scontro +1 a partire dal secondo turno\n\nLe Identità dell'Assoc. Shi hanno i loro PV ridotti al <style=\"upgradeHighlight\">50%</style> dei loro PV massimi, in compenso, subiscono solo il <style=\"upgradeHighlight\">75</style>% dei danni e ricevono il <style=\"upgradeHighlight\">75</style>% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro, esclude le cure date dai Doni E.G.O)\n\nLe Identità dell'Associazione Shi ottengono, inoltre, 1 Potere Tagliente Aumentato e <style=\"upgradeHighlight\">2</style> Danno Tagliente Aumentato all'inizio di ogni Turno.",
+      "desc": "Durante l'incontro, tutti gli alleati con almeno 2 Abilità Taglienti ottengono Potere Scontro +1 durante il primo turno, ed ottengono <style=\"upgradeHighlight\">2</style> [Agility] e Potere Scontro +1 a partire dal secondo turno\n\nLe Identità dell'Assoc. Shi hanno i loro PV ridotti al <style=\"upgradeHighlight\">50%</style> dei loro PV massimi, in compenso, subiscono solo il <style=\"upgradeHighlight\">75</style>% dei danni e ricevono il <style=\"upgradeHighlight\">75</style>% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro, esclude le cure date dai Doni E.G.O)\n\nLe Identità dell'Associazione Shi ottengono, inoltre, 1 Potere Tagliente Aumentato e <style=\"upgradeHighlight\">2</style> Danno Tagliente Aumentato all'inizio di ogni Turno.",
       "simpleDesc": [
         {
           "abilityID": 19140,
-          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere di Scontro"
+          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere Scontro"
         },
         {
           "abilityID": 191401,
@@ -3820,11 +3820,11 @@
     {
       "id": 29140,
       "name": "Risolutezza++",
-      "desc": "Durante l'incontro, tutti gli alleati con almeno 2 Abilità Taglienti ottengono Potere di Scontro +1 durante il primo turno, ed ottengono 2 [Agility] e <style=\"upgradeHighlight\">Potere Finale +1</style> a partire dal secondo turno\n\nLe Identità dell'Assoc. Shi hanno i loro PV ridotti al <style=\"upgradeHighlight\">49%</style> dei loro PV massimi, in compenso, subiscono solo il <style=\"upgradeHighlight\">75</style>% dei danni e ricevono il <style=\"upgradeHighlight\">75</style>% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro, esclude le cure date dai Doni E.G.O)\n\nLe Identità dell'Assoc. Shi ottengono, inoltre, 1 Potere Tagliente Aumentato e <style=\"upgradeHighlight\">3</style> Danno Tagliente Aumentato all'inizio di ogni Turno.",
+      "desc": "Durante l'incontro, tutti gli alleati con almeno 2 Abilità Taglienti ottengono Potere Scontro +1 durante il primo turno, ed ottengono 2 [Agility] e <style=\"upgradeHighlight\">Potere Finale +1</style> a partire dal secondo turno\n\nLe Identità dell'Assoc. Shi hanno i loro PV ridotti al <style=\"upgradeHighlight\">49%</style> dei loro PV massimi, in compenso, subiscono solo il <style=\"upgradeHighlight\">75</style>% dei danni e ricevono il <style=\"upgradeHighlight\">75</style>% di cura ridotta. (si attiva immediatamente all'inizio dell'Incontro, esclude le cure date dai Doni E.G.O)\n\nLe Identità dell'Assoc. Shi ottengono, inoltre, 1 Potere Tagliente Aumentato e <style=\"upgradeHighlight\">3</style> Danno Tagliente Aumentato all'inizio di ogni Turno.",
       "simpleDesc": [
         {
           "abilityID": 29140,
-          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere di Scontro"
+          "simpleDesc": "Tutti gli alleati con 2 o più Abilità Taglienti ottengono Potere Scontro"
         },
         {
           "abilityID": 291401,
@@ -3973,11 +3973,11 @@
     {
       "id": 9145,
       "name": "Bandoliera Strappata",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere Scontro +1.\n\nLe Abilità che consumano [Bullet] infliggono il (40/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9145,
-          "simpleDesc": "Abilità Perforanti ottengono Potere di Scontro +1"
+          "simpleDesc": "Abilità Perforanti ottengono Potere Scontro +1"
         },
         {
           "abilityID": 91451,
@@ -3992,11 +3992,11 @@
     {
       "id": 19145,
       "name": "Bandoliera Strappata+",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 5% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">50</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19145,
-          "simpleDesc": "Abilità Perforanti ottengono Potere di Scontro +1 ed infligge +5% damage"
+          "simpleDesc": "Abilità Perforanti ottengono Potere Scontro +1 ed infligge +5% damage"
         },
         {
           "abilityID": 191451,
@@ -4011,11 +4011,11 @@
     {
       "id": 29145,
       "name": "Bandoliera Strappata++",
-      "desc": "Le Abilità Perforanti ottengono Potere di Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere Scontro +1 <style=\"upgradeHighlight\">ed infliggono il 10% di danni aggiuntivi</style>\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° delle Monete)% in più di danni aggiuntivi.\n\nSe l'unità finisce le [Bullet], ottiene 2 [Bullet] al prossimo Inizio Turno (1 volta per Incontro, 1 volta per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29145,
-          "simpleDesc": "Abilità Perforanti ottengono Potere di Scontro +1 ed infligge +10% damage"
+          "simpleDesc": "Abilità Perforanti ottengono Potere Scontro +1 ed infligge +10% damage"
         },
         {
           "abilityID": 291451,
@@ -4030,11 +4030,11 @@
     {
       "id": 9146,
       "name": "Ramomorente",
-      "desc": "[Gli Effetti si applicano solo alla Terza ed alla Quarta Identità Schierate]\n\nDurante uno Scontro, le unità ottengono Potere di Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno.\n\nDurante un Attacco Incontrastato, le Abilità Perforanti infliggono il 10% in più di danno.",
+      "desc": "[Gli Effetti si applicano solo alla Terza ed alla Quarta Identità Schierate]\n\nDurante uno Scontro, le unità ottengono Potere Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno.\n\nDurante un Attacco Incontrastato, le Abilità Perforanti infliggono il 10% in più di danno.",
       "simpleDesc": [
         {
           "abilityID": 9146,
-          "simpleDesc": "In uno Scontro, Potere di Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno"
+          "simpleDesc": "In uno Scontro, Potere Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno"
         },
         {
           "abilityID": 91461,
@@ -4045,11 +4045,11 @@
     {
       "id": 19146,
       "name": "Ramomorente+",
-      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta <style=\"upgradeHighlight\">ed alla Quinta</style> Identità Schierate]\n\nDurante uno Scontro, le unità ottengono Potere di Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno.\n\nDurante un Attacco Incontrastato, le Abilità Perforanti infliggono il 10% in più di danno.",
+      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta <style=\"upgradeHighlight\">ed alla Quinta</style> Identità Schierate]\n\nDurante uno Scontro, le unità ottengono Potere Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno.\n\nDurante un Attacco Incontrastato, le Abilità Perforanti infliggono il 10% in più di danno.",
       "simpleDesc": [
         {
           "abilityID": 19146,
-          "simpleDesc": "In uno Scontro, Potere di Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno"
+          "simpleDesc": "In uno Scontro, Potere Scontro +1; le Abilità Perforanti infliggono il 20% in più di danno"
         },
         {
           "abilityID": 191461,
@@ -4060,11 +4060,11 @@
     {
       "id": 29146,
       "name": "Ramomorente++",
-      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta, alla Quinta <style=\"upgradeHighlight\">ed alla Sesta</style> Identità Schierate]\n\nurante uno Scontro, le unità ottengono Potere di Scontro +1; le Abilità Perforanti infliggono il <style=\"upgradeHighlight\">+25%</style> in più di danno.\n\nDurante un Attacco Incontrastato, le Abilità Perforanti infliggono il <style=\"upgradeHighlight\">12.5%</style> in più di danno.",
+      "desc": "[Gli Effetti si applicano solo alla Terza, alla Quarta, alla Quinta <style=\"upgradeHighlight\">ed alla Sesta</style> Identità Schierate]\n\nurante uno Scontro, le unità ottengono Potere Scontro +1; le Abilità Perforanti infliggono il <style=\"upgradeHighlight\">+25%</style> in più di danno.\n\nDurante un Attacco Incontrastato, le Abilità Perforanti infliggono il <style=\"upgradeHighlight\">12.5%</style> in più di danno.",
       "simpleDesc": [
         {
           "abilityID": 29146,
-          "simpleDesc": "In uno Scontro, Potere di Scontro +1; le Abilità Perforanti infliggono il 25% in più di danno"
+          "simpleDesc": "In uno Scontro, Potere Scontro +1; le Abilità Perforanti infliggono il 25% in più di danno"
         },
         {
           "abilityID": 291461,
@@ -4367,11 +4367,11 @@
     {
       "id": 9155,
       "name": "Stufato Decamillenario",
-      "desc": "Le Abilità che infliggono Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale' ottengono Potere di Scontro +1.",
+      "desc": "Le Abilità che infliggono Potenza, Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale' ottengono Potere Scontro +1.",
       "simpleDesc": [
         {
           "abilityID": 9155,
-          "simpleDesc": "Potere di Scontro +1"
+          "simpleDesc": "Potere Scontro +1"
         }
       ]
     },
@@ -4393,11 +4393,11 @@
     {
       "id": 9159,
       "name": "Mircalla",
-      "desc": "Le Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' ottengono Potere di Scontro +1.",
+      "desc": "Le Abilità che infliggono Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' ottengono Potere Scontro +1.",
       "simpleDesc": [
         {
           "abilityID": 9159,
-          "simpleDesc": "Potere di Scontro +1"
+          "simpleDesc": "Potere Scontro +1"
         }
       ]
     },
@@ -4678,56 +4678,56 @@
     {
       "id": 9194,
       "name": "Spada Bastone Corta",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità dell'Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente.\n\nInizio dell'Incontro: le Identità dell'Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; Max 2)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità dell'Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente.\n\nInizio dell'Incontro: le Identità dell'Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere Scontro (si arrotonda per difetto; Max 2)",
       "simpleDesc": [
         {
           "abilityID": 9193,
-          "simpleDesc": "Infligge Livello Difensivo Abbassato. Le Identità dell'Associazione Seven ottengono Potere di Scontro"
+          "simpleDesc": "Infligge Livello Difensivo Abbassato. Le Identità dell'Associazione Seven ottengono Potere Scontro"
         },
         {
           "abilityID": 91931,
-          "simpleDesc": "Potere di Scontro Aumentato"
+          "simpleDesc": "Potere Scontro Aumentato"
         }
       ]
     },
     {
       "id": 19194,
       "name": "Spada Bastone Corta+",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità dell'Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente ed <style=\"upgradeHighlight\">infliggono Indaga Debolezza.</style>\n\n<style=\"upgradeHighlight\">Inizio Turno di numero dispari</style>: Identità dell'Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; Max 2)",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità dell'Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente ed <style=\"upgradeHighlight\">infliggono Indaga Debolezza.</style>\n\n<style=\"upgradeHighlight\">Inizio Turno di numero dispari</style>: Identità dell'Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere Scontro (si arrotonda per difetto; Max 2)",
       "simpleDesc": [
         {
           "abilityID": 19193,
-          "simpleDesc": "Infligge Livello Difensivo Abbassato. Le Identità dell'Associazione Seven ottengono Potere di Scontro and inflict Weakness Analyzed as well"
+          "simpleDesc": "Infligge Livello Difensivo Abbassato. Le Identità dell'Associazione Seven ottengono Potere Scontro and inflict Weakness Analyzed as well"
         },
         {
           "abilityID": 191931,
-          "simpleDesc": "Potere di Scontro Aumentato"
+          "simpleDesc": "Potere Scontro Aumentato"
         }
       ]
     },
     {
       "id": 29194,
       "name": "Spada Bastone Corta++",
-      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità dell'Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente e infliggono Indaga Debolezza e 1<style=\"upgradeHighlight\"> Potere di Scontro Abbassato.</style> \n\n<style=\"upgradeHighlight\">Inizio Turno</style>: Identità dell'Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere di Scontro (si arrotonda per difetto; Max 2) <style=\"upgradeHighlight\">Quando si vince uno Scontro, infligge il 20% in più dei danni con l'Abilità.</style>",
+      "desc": "A Scontro Vinto con un'Abilità Attacco Tagliente: infligge 2 [DefenseDown] nel prossimo turno al bersaglio. (1 volta per turno, 1 volta per Identità; l'effetto non si può cumulare sullo stesso nemico)\n- Per le Identità dell'Associazione Seven: gli effetti verranno applicati anche nel caso di Abilità Attacco Perforante e Contundente e infliggono Indaga Debolezza e 1<style=\"upgradeHighlight\"> Potere Scontro Abbassato.</style> \n\n<style=\"upgradeHighlight\">Inizio Turno</style>: Identità dell'Associazione Seven ottengono (n° delle Identità dell'Associazione Seven / 2) Potere Scontro (si arrotonda per difetto; Max 2) <style=\"upgradeHighlight\">Quando si vince uno Scontro, infligge il 20% in più dei danni con l'Abilità.</style>",
       "simpleDesc": [
         {
           "abilityID": 29193,
-          "simpleDesc": "Infligge Livello Difensivo Abbassato. Le Identità dell'Associazione Seven ottengono Potere di Scontro and inflict Weakness Analyzed as well"
+          "simpleDesc": "Infligge Livello Difensivo Abbassato. Le Identità dell'Associazione Seven ottengono Potere Scontro and inflict Weakness Analyzed as well"
         },
         {
           "abilityID": 291931,
-          "simpleDesc":  "Potere di Scontro Aumentato, infligge +20% danni"
+          "simpleDesc":  "Potere Scontro Aumentato, infligge +20% danni"
         }
       ]
     },
     {
       "id": 9195,
       "name": "Fiasca dal Motivo Nuvoloso",
-      "desc": "Le Abilità Attacco 1 di danno Tagliente ottengono Potere di Scontro +1 ed infliggono 2 Livello Offensivo Abbassato al colpo.\n- Per le Identità del Clan Kurokumo: gli effetti verranno applicati a tutte le Abilità Attacco Tagliente.\n\nA Inizio Turno: le Identità del Clan Kurokumo ottengono 1 Potere Incrementato; quando si infligge Potenza o Conteggio [Laceration] sul colpo con un'Abilità Attacco Base, ottiene 1 Potenza [Breath] (4 volte per turno, 4 volte per Identità)",
+      "desc": "Le Abilità Attacco 1 di danno Tagliente ottengono Potere Scontro +1 ed infliggono 2 Livello Offensivo Abbassato al colpo.\n- Per le Identità del Clan Kurokumo: gli effetti verranno applicati a tutte le Abilità Attacco Tagliente.\n\nA Inizio Turno: le Identità del Clan Kurokumo ottengono 1 Potere Incrementato; quando si infligge Potenza o Conteggio [Laceration] sul colpo con un'Abilità Attacco Base, ottiene 1 Potenza [Breath] (4 volte per turno, 4 volte per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9195,
-          "simpleDesc": "Potere di Scontro +1, infligge Livello Offensivo Abbassato al colpo"
+          "simpleDesc": "Potere Scontro +1, infligge Livello Offensivo Abbassato al colpo"
         },
         {
           "abilityID": 91951,
@@ -4738,11 +4738,11 @@
     {
       "id": 19195,
       "name": "Fiasca dal Motivo Nuvoloso+",
-      "desc": "Le Abilità Attacco 1 di danno Tagliente ottengono Potere di Scontro +1 ed infliggono 2 Livello Offensivo Abbassato al colpo.\n- Per le Identità del Clan Kurokumo: gli effetti verranno applicati a tutte le Abilità Attacco Tagliente o le <style=\"upgradeHighlight\">Abilità Attacco Base Affinità Lussuria</style>.\n\nA Inizio Turno: le Identità del Clan Kurokumo ottengono 1 Potere Incrementato; quando si infligge Potenza o Conteggio [Laceration] sul colpo con un'Abilità Attacco Base, ottiene 1 Potenza [Breath] (<style=\"upgradeHighlight\">6</style> volte per turno, 4 volte per Identità)",
+      "desc": "Le Abilità Attacco 1 di danno Tagliente ottengono Potere Scontro +1 ed infliggono 2 Livello Offensivo Abbassato al colpo.\n- Per le Identità del Clan Kurokumo: gli effetti verranno applicati a tutte le Abilità Attacco Tagliente o le <style=\"upgradeHighlight\">Abilità Attacco Base Affinità Lussuria</style>.\n\nA Inizio Turno: le Identità del Clan Kurokumo ottengono 1 Potere Incrementato; quando si infligge Potenza o Conteggio [Laceration] sul colpo con un'Abilità Attacco Base, ottiene 1 Potenza [Breath] (<style=\"upgradeHighlight\">6</style> volte per turno, 4 volte per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19195,
-          "simpleDesc": "Potere di Scontro +1, infligge Livello Offensivo Abbassato al colpo"
+          "simpleDesc": "Potere Scontro +1, infligge Livello Offensivo Abbassato al colpo"
         },
         {
           "abilityID": 191951,
@@ -4753,11 +4753,11 @@
     {
       "id": 29195,
       "name": "Fiasca dal Motivo Nuvoloso++",
-      "desc": "Le Abilità Attacco 1 di danno Tagliente ottengono Potere di Scontro +1 ed infliggono 2 Livello Offensivo Abbassato al colpo.\n- Per le Identità del Clan Kurokumo: gli effetti verranno applicati a <style=\"upgradeHighlight\">tutte</style> le Abilità Attacco.\n\nA Inizio Turno: le Identità del Clan Kurokumo ottengono 1 Potere Incrementato; quando si infligge Potenza o Conteggio [Laceration] sul colpo con un'Abilità Attacco Base, ottiene <style=\"upgradeHighlight\">1~2</style> Potenza [Breath] (<style=\"upgradeHighlight\">8</style> volte per turno, 4 volte per Identità)",
+      "desc": "Le Abilità Attacco 1 di danno Tagliente ottengono Potere Scontro +1 ed infliggono 2 Livello Offensivo Abbassato al colpo.\n- Per le Identità del Clan Kurokumo: gli effetti verranno applicati a <style=\"upgradeHighlight\">tutte</style> le Abilità Attacco.\n\nA Inizio Turno: le Identità del Clan Kurokumo ottengono 1 Potere Incrementato; quando si infligge Potenza o Conteggio [Laceration] sul colpo con un'Abilità Attacco Base, ottiene <style=\"upgradeHighlight\">1~2</style> Potenza [Breath] (<style=\"upgradeHighlight\">8</style> volte per turno, 4 volte per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29195,
-          "simpleDesc": "Potere di Scontro +1, infligge Livello Offensivo Abbassato al colpo"
+          "simpleDesc": "Potere Scontro +1, infligge Livello Offensivo Abbassato al colpo"
         },
         {
           "abilityID": 291951,
@@ -4768,7 +4768,7 @@
     {
       "id": 9196,
       "name": "Spadone Spezzato",
-      "desc": "Le Abilità Attacco Tagliente ottengono Potere di Scontro +2. All'inizio del combattimento, ottengono [AttackUp] pari al numero di Identità che usano Abilità Attacco Tagliente durante il Turno. (Max 3)\n\nGli Alleati che hanno danno Tagliente per tutte le loro Abilità Attacco Base ottengono 2 [SlashDamageUp] all'inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usa una Guardia (escluse le Guardie Potenziate), l'unità ottiene 1 [Protection] e 3 [DefenseUp] (1 volta per Identità, 1 volta per Turno). Quando nello stesso Turno una Identità viene ferita 2 volte ai PV o al proprio Scudo per via di un'Abilità Attacco nemica a bersaglio unico, ottiene 1 [DefenseUp] al prossimo turno (Max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Zwei ottengono 2 [Enhancement] e 1 [SlashResultUp]; inoltre, ottengono 2 [DefenseUp] pari al resto delle Identità dell'Associazione Zwei presenti. (Max 8)",
+      "desc": "Le Abilità Attacco Tagliente ottengono Potere Scontro +2. All'inizio del combattimento, ottengono [AttackUp] pari al numero di Identità che usano Abilità Attacco Tagliente durante il Turno. (Max 3)\n\nGli Alleati che hanno danno Tagliente per tutte le loro Abilità Attacco Base ottengono 2 [SlashDamageUp] all'inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usa una Guardia (escluse le Guardie Potenziate), l'unità ottiene 1 [Protection] e 3 [DefenseUp] (1 volta per Identità, 1 volta per Turno). Quando nello stesso Turno una Identità viene ferita 2 volte ai PV o al proprio Scudo per via di un'Abilità Attacco nemica a bersaglio unico, ottiene 1 [DefenseUp] al prossimo turno (Max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Zwei ottengono 2 [Enhancement] e 1 [SlashResultUp]; inoltre, ottengono 2 [DefenseUp] pari al resto delle Identità dell'Associazione Zwei presenti. (Max 8)",
       "simpleDesc": [
         {
           "abilityID": 9196,
@@ -4847,11 +4847,11 @@
     {
       "id": 9199,
       "name": "Orli Strappati",
-      "desc": "Le Abilità Attacco 2 con danno Perforante ottengono Livello Offensivo +2; se l'Abilità ha 2 o meno Monete, ottiene invece Livello Offensivo +2 e Potere di Scontro (2/n° delle Monete).\n- Per le Identità dell'Alleanza per la Liberazione della Tecnologia: gli effetti citati precedentemente vengono applicati per tutte le Abilità Attacco Perforante\n\nA Inizio Turno: le Identità dell'Alleanza per la Liberazione della Tecnologia ottengono (n° degli effetti negativi su se stessi) [AttackUp]. (Max 3)",
+      "desc": "Le Abilità Attacco 2 con danno Perforante ottengono Livello Offensivo +2; se l'Abilità ha 2 o meno Monete, ottiene invece Livello Offensivo +2 e Potere Scontro (2/n° delle Monete).\n- Per le Identità dell'Alleanza per la Liberazione della Tecnologia: gli effetti citati precedentemente vengono applicati per tutte le Abilità Attacco Perforante\n\nA Inizio Turno: le Identità dell'Alleanza per la Liberazione della Tecnologia ottengono (n° degli effetti negativi su se stessi) [AttackUp]. (Max 3)",
       "simpleDesc": [
         {
           "abilityID": 9199,
-          "simpleDesc": "Livello Offensivo Aumentato; Le Abilità con 2 o meno monete ottengono Potere di Scontro"
+          "simpleDesc": "Livello Offensivo Aumentato; Le Abilità con 2 o meno monete ottengono Potere Scontro"
         },
         {
           "abilityID": 91991,
@@ -4862,11 +4862,11 @@
     {
       "id": 19199,
       "name": "Orli Strappati+",
-      "desc": "Le Abilità Attacco 2 con danno Perforante ottengono Livello Offensivo +2; se l'Abilità ha 2 o meno Monete, ottiene invece Livello Offensivo +2 e Potere di Scontro (2/n° delle Monete).\n- Per le Identità dell'Alleanza per la Liberazione della Tecnologia: gli effetti citati precedentemente vengono applicati per tutte le Abilità Attacco Perforante o le <style=\"upgradeHighlight\">Abilità Attacco Base Affinità Gola</style>\n\nA Inizio Turno: le Identità dell'Alleanza per la Liberazione della Tecnologia ottengono <style=\"upgradeHighlight\">(n° degli effetti negativi su se stessi + 1)</style> [AttackUp]. (Max <style=\"upgradeHighlight\">4</style>)",
+      "desc": "Le Abilità Attacco 2 con danno Perforante ottengono Livello Offensivo +2; se l'Abilità ha 2 o meno Monete, ottiene invece Livello Offensivo +2 e Potere Scontro (2/n° delle Monete).\n- Per le Identità dell'Alleanza per la Liberazione della Tecnologia: gli effetti citati precedentemente vengono applicati per tutte le Abilità Attacco Perforante o le <style=\"upgradeHighlight\">Abilità Attacco Base Affinità Gola</style>\n\nA Inizio Turno: le Identità dell'Alleanza per la Liberazione della Tecnologia ottengono <style=\"upgradeHighlight\">(n° degli effetti negativi su se stessi + 1)</style> [AttackUp]. (Max <style=\"upgradeHighlight\">4</style>)",
       "simpleDesc": [
         {
           "abilityID": 19199,
-          "simpleDesc": "Livello Offensivo Aumentato; Le Abilità con 2 o meno monete ottengono Potere di Scontro"
+          "simpleDesc": "Livello Offensivo Aumentato; Le Abilità con 2 o meno monete ottengono Potere Scontro"
         },
         {
           "abilityID": 191991,
@@ -4877,26 +4877,26 @@
     {
       "id": 29199,
       "name": "Orli Strappati++",
-      "desc": "Le Abilità Attacco 2 con danno Perforante ottengono Livello Offensivo +2; se l'Abilità ha 2 o meno Monete, ottiene invece Livello Offensivo +2 e Potere di Scontro (2/n° delle Monete).\n- Per le Identità dell'Alleanza per la Liberazione della Tecnologia: gli effetti citati precedentemente vengono applicati <style=\"upgradeHighlight\">all</style> per tutte le Abilità Attacco Base\n\nle Identità dell'Alleanza per la Liberazione della Tecnologia ottengono <style=\"upgradeHighlight\">1 Potere di Scontro Aumentato</style> ed (valore dell'effetto negativo accumulato più alto + 1) [AttackUp]. (Max <style=\"upgradeHighlight\">5</style>)",
+      "desc": "Le Abilità Attacco 2 con danno Perforante ottengono Livello Offensivo +2; se l'Abilità ha 2 o meno Monete, ottiene invece Livello Offensivo +2 e Potere Scontro (2/n° delle Monete).\n- Per le Identità dell'Alleanza per la Liberazione della Tecnologia: gli effetti citati precedentemente vengono applicati <style=\"upgradeHighlight\">all</style> per tutte le Abilità Attacco Base\n\nle Identità dell'Alleanza per la Liberazione della Tecnologia ottengono <style=\"upgradeHighlight\">1 Potere Scontro Aumentato</style> ed (valore dell'effetto negativo accumulato più alto + 1) [AttackUp]. (Max <style=\"upgradeHighlight\">5</style>)",
       "simpleDesc": [
         {
           "abilityID": 29199,
-          "simpleDesc": "Livello Offensivo Aumentato; Le Abilità con 2 o meno monete ottengono Potere di Scontro"
+          "simpleDesc": "Livello Offensivo Aumentato; Le Abilità con 2 o meno monete ottengono Potere Scontro"
         },
         {
           "abilityID": 291991,
-          "simpleDesc": "Ottiene Potere di Scontro e Livello Offensivo Aumentato"
+          "simpleDesc": "Ottiene Potere Scontro e Livello Offensivo Aumentato"
         }
       ]
     },
     {
       "id": 9200,
       "name": "Manuale del Duello, Capitolo 3",
-      "desc": "Le Abilità Attacco Perforante ottengono Potere di Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Perforante per questo turno. (Max 3)\n\nGli Alleati con Abilità Attacco Base di tipo Perforante ottengono 2 [PenetrateDamageUp] all'inizio del Turno. (Escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nPotere delle Abilità Evasive +2. Quando un'Identità alleata schiva con successo 2 attacchi in un singolo turno, ottiene 1 [AttackDmgUp] nel prossimo turno. (Max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Cinq ottengono 1 [PenetrateResultUp] e 2 [PenetrateDamageUp]; se un'Identità dell'Associazione Cinq infligge danno sul colpo ad un nemico con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 2 [PenetrateDamageUp] e 1 [Agility] nel prossimo Turno. (1 volta per Identità, 1 volta per Turno)",
+      "desc": "Le Abilità Attacco Perforante ottengono Potere Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Perforante per questo turno. (Max 3)\n\nGli Alleati con Abilità Attacco Base di tipo Perforante ottengono 2 [PenetrateDamageUp] all'inizio del Turno. (Escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nPotere delle Abilità Evasive +2. Quando un'Identità alleata schiva con successo 2 attacchi in un singolo turno, ottiene 1 [AttackDmgUp] nel prossimo turno. (Max 3)\n\nAll'inizio del Turno, le Identità dell'Associazione Cinq ottengono 1 [PenetrateResultUp] e 2 [PenetrateDamageUp]; se un'Identità dell'Associazione Cinq infligge danno sul colpo ad un nemico con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Mirato', ottiene 2 [PenetrateDamageUp] e 1 [Agility] nel prossimo Turno. (1 volta per Identità, 1 volta per Turno)",
       "simpleDesc": [
         {
           "abilityID": 9200,
-          "simpleDesc": "Potere di Scontro Aumentato"
+          "simpleDesc": "Potere Scontro Aumentato"
         },
         {
           "abilityID": 92001,
@@ -4990,7 +4990,7 @@
     {
       "id": 9204,
       "name": "Il Libro della Vendetta",
-      "desc": "Le Abilità Attaco con danno Contundente ottengono Potere di Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Contundente per questo turno. (Max 3)\n\nGli Alleati con solo Abilità Attacco Contundenti ottengono 2 [HitDamageUp] all'Inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usano Abilità Contrattacco (escluso il Contrattacco Potenziato), l'unità guadagna il 7.5% dei suoi PV massimi come Scudo PV ed infligge il 20% in più dei danni. L'unità non può essere fatta Vacillare quando ha usato un'Abilità Contrattacco (1 volta per Identità, 1 volta per Incontro)\n\nAll'Inizio del Turno, le Identità del Medio ottengono 1 [HitResultUp] e 2 [Endurance]; quando le Identità del Medio usano un'Abilità Contrattacco, Il potenziamento dell'Abilità Contrattacco viene attivato due volte per Incontro ed infligge il 40% in più dei danni.",
+      "desc": "Le Abilità Attaco con danno Contundente ottengono Potere Scontro +2. All'inizio del Combattimento, ottiene [AttackUp] pari al numero di Identità che usano Abilità Attacco Contundente per questo turno. (Max 3)\n\nGli Alleati con solo Abilità Attacco Contundenti ottengono 2 [HitDamageUp] all'Inizio del Turno. (escluse le Abilità Potenziate e le Abilità che richiedono condizioni speciali)\n\nQuando si usano Abilità Contrattacco (escluso il Contrattacco Potenziato), l'unità guadagna il 7.5% dei suoi PV massimi come Scudo PV ed infligge il 20% in più dei danni. L'unità non può essere fatta Vacillare quando ha usato un'Abilità Contrattacco (1 volta per Identità, 1 volta per Incontro)\n\nAll'Inizio del Turno, le Identità del Medio ottengono 1 [HitResultUp] e 2 [Endurance]; quando le Identità del Medio usano un'Abilità Contrattacco, Il potenziamento dell'Abilità Contrattacco viene attivato due volte per Incontro ed infligge il 40% in più dei danni.",
       "simpleDesc": [
         {
           "abilityID": 9204,

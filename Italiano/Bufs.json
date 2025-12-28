@@ -2957,7 +2957,7 @@
     },
     {
       "id": "HanafudaCombo",
-      "name": "Luminosa【光】",
+      "name": "Potente【光】",
       "desc": "- Potenza : Base 0, Max 5\n- Conteggio : Base 3, Max 3\n\n- Inizio Turno: ottiene 1 Aumento Offensivo per ogni Potenza\n- Inizio Turno: perde 1 Stack",
       "summary": " ",
       "undefined": "-"
@@ -2984,9 +2984,58 @@
       "undefined": "-"
     },
     {
+      "id": "GrownHorns",
+      "name": "Crescita delle Corna [發角]",
+      "desc": "- Valore Max: 3\n- Le Abilità Base di quest'unità infliggono +1 Potenza Lacerazione e Pianto in più\n- A Fine Turno: Perde 1 Stack",
+      "summary": "Infligge +1 Potenza di Lacerazione e Pianto aggiuntiva",
+      "undefined": "-"
+    },
+    {
+      "id": "CrushMarks",
+      "name": "Frantumarchio",
+      "desc": "- Subisce +10% danni dalle Abilità Gola e Tristezza\n- Unità con PS: cambia il loro Tipo di Panico in \"Frantumarchio\"\n- Unità senza PS: Potere Scontro -1\n- A Fine Turno: Riduce di 1 Stack\n- Quest'effetto non è cumulativo: infliggerlo sostituirà il valore corrente con il valore inflitto\n- Applica la condizionale \"Unità senza PS\" a certi nemici che non hanno PS ma che non possono cambiare Tipo di Panico\n\n※ Effetti del Panico Frantumarchio\n- Morale Basso: Potere Scontro -1, Livello Difensivo -2 su di sé\n- Panico: Potere Scontro -2, Livello Difensivo -3 su di sé",
+      "summary": "Subisce +10% danni dalle Abilità Gola e Tristezza\n- Unità con PS: cambia il loro Tipo di Panico in \"Frantumarchio\"\n- Units without SP: -10% chance to flip Heads for Plus Coins",
+      "undefined": "-"
+    },
+    {
+      "id": "CrushMarks_Main",
+      "name": "Frantumarchio",
+      "desc": "Subisce +10% danni dalle Abilità Gola e Tristezza\n- Unità con PS: cambia il loro Tipo di Panico in \"Frantumarchio\"\n- A Fine Turno: Riduce di 1 Stack",
+      "summary": "Subisce +10% danni dalle Abilità Gola e Tristezza\n- Cambia il tipo di Panico in \"Frantumarchio\"",
+      "undefined": "-"
+    },
+    {
+      "id": "CrushMarks_Sub",
+      "name": "Frantumarchio",
+      "desc": "- Subisce +10% danni dalle Abilità Gola e Tristezza\n- Unità senza PS: Potere Scontro -1\n- A Fine Turno: Riduce di 1 Stack",
+      "summary": "Subisce +10% danni dalle Abilità Gola e Tristezza\n- Potere Scontro -1",
+      "undefined": "-"
+    },
+    {
+      "id": "CrushMarks_LowMorale",
+      "name": "Frantumarchio",
+      "desc": "- Morale Basso\n- Potere Scontro -1, Livello Difensivo -2",
+      "summary": "Potere Scontro -1, Livello Difensivo -2",
+      "undefined": "-"
+    },
+    {
+      "id": "CrushMarks_Panic",
+      "name": "Frantumarchio",
+      "desc": "- Morale Basso\n- Potere Scontro -2, Livello Difensivo -3",
+      "summary": "Potere Scontro -2, Livello Difensivo -3",
+      "undefined": "-"
+    },
+    {
+      "id": "ChickenFightlust",
+      "name": "Istinto del Sangue Combattente",
+      "desc": "- Stack Max: 20\n- Per ogni Stack, infligge +0.75% danni\n- Per ogni 10 Stack, ottiene 1 Rapidità il turno successivo",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
       "id": "ProtectStanceRyoshu",
       "name": "Posa della Protettrice",
-      "desc": "- Max Stack: 2\n- Subisce il (Stack x 10)% di danni in meno\n- Inizio Turno: Ottiene Scudo in base alla quantità di Respiro su di sé (max 20)\n- Fine Turno: Ottiene 3 Potenza Respiro e +1 Conteggio Respiro: lo Slot Abilità posizionato più a sinistra di quest'unità ottiene +5 Aggro il turno successivo\n- Fine Turno: Perde 1 Stack",
+      "desc": "- Stack Max: 2\n- Subisce il (Stack x 10)% di danni in meno\n- Inizio Turno: Ottiene Scudo in base alla quantità di Respiro su di sé (max 20)\n- Fine Turno: Ottiene 3 Potenza Respiro e +1 Conteggio Respiro: lo Slot Abilità posizionato più a sinistra di quest'unità ottiene +5 Aggro il turno successivo\n- Fine Turno: Perde 1 Stack",
       "summary": "Take less damage",
       "undefined": "-"
     }
