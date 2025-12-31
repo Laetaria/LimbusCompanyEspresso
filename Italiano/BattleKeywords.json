@@ -251,7 +251,7 @@
     {
       "id": "Emergency_Operation",
       "name": "Chirurgia Fai da Te",
-      "desc": "Aumenta i PV Max del 25% e il Potere delle Abilità di 1 in base alle Stack.\nOgni turno, aumenta le Stack di 1.\nMuore quando le Stack arrivano a 5."
+      "desc": "Aumenta i PV Max del 25% ed il Potere delle Abilità di 1 in base alle Stack.\nOgni turno, aumenta le Stack di 1.\nMuore quando le Stack arrivano a 5."
     },
     {
       "id": "BabayagaTimeLimit",
@@ -261,7 +261,7 @@
     {
       "id": "PinkRibbon",
       "name": "Nastri Rosa",
-      "desc": "Alla fine del turno, se è a 5+ Potenza, quest'effetto viene rimosso e il turno successivo viene applicato 'Smania'."
+      "desc": "Alla fine del turno, se è a 5+ Potenza, quest'effetto viene rimosso ed il turno successivo viene applicato 'Smania'."
     },
     {
       "id": "Greedy",
@@ -691,7 +691,7 @@
     {
       "id": "NailPersonality",
       "name": "Chiodi",
-      "desc": "Sanguinamento Speciale\nA Inizio Turno: Ottiene 1 Sanguinamento e aumenta il Conteggio Sanguinamento in base alle Stack.\nA Fine Turno: dimezza le Stack (Arrotondato per difetto)"
+      "desc": "Sanguinamento Speciale\nA Inizio Turno: Ottiene 1 Sanguinamento ed aumenta il Conteggio Sanguinamento in base alle Stack.\nA Fine Turno: dimezza le Stack (Arrotondato per difetto)"
     },
     {
       "id": "AssemblePersonality",
@@ -836,7 +836,7 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge 3 danni fissi per Stack e alza la Soglia di Vacillamento di 3% per Stack.",
+      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge 3 danni fissi per Stack ed alza la Soglia di Vacillamento di 3% per Stack.",
       "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge danno ed alza la Soglia di Vacillamento."
     },
     {
@@ -854,8 +854,8 @@
     {
       "id": "InterlockingTime",
       "name": "Deflagrazione Differita",
-      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo.",
-      "summary": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo."
+      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, ed ottiene 3 Lentezza il turno successivo.",
+      "summary": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, ed ottiene 3 Lentezza il turno successivo."
     },
     {
       "id": "TimeRental",
@@ -943,7 +943,7 @@
     {
       "id": "Crazy_Panic",
       "name": "Forsennatezza",
-      "desc": "- Panico\n- Attacca indiscriminatamente; Potere Scontro +1, e ottiene 2 Danno Aumentato",
+      "desc": "- Panico\n- Attacca indiscriminatamente; Potere Scontro +1, ed ottiene 2 Danno Aumentato",
       "undefined": "-"
     },
     {
@@ -985,8 +985,8 @@
     {
       "id": "DongbaekGrow",
       "name": "Crescita",
-      "desc": "Alla fine del turno, aumenta di 1 le Stack e ottiene PV massimi in base alle Stack (Max 3)",
-      "summary": "Alla fine del turno, aumenta di 1 le Stack e ottiene PV massimi in base alle Stack (Max 3)"
+      "desc": "Alla fine del turno, aumenta di 1 le Stack ed ottiene PV massimi in base alle Stack (Max 3)",
+      "summary": "Alla fine del turno, aumenta di 1 le Stack ed ottiene PV massimi in base alle Stack (Max 3)"
     },
     {
       "id": "DongbaekFlorescence",
@@ -1085,7 +1085,7 @@
     {
       "id": "DistortedDongrangFruition",
       "name": "Frutti del Duro Lavoro",
-      "desc": "Chiunque uccida quest'unità recupera PV e ottiene 1 Rapidità e 1 Attacco Aumentato il turno successivo"
+      "desc": "Chiunque uccida quest'unità recupera PV ed ottiene 1 Rapidità e 1 Attacco Aumentato il turno successivo"
     },
     {
       "id": "EgoAwakenDongrangRadiantDesire",
@@ -1105,7 +1105,7 @@
     {
       "id": "EgoAwakenDongrangOverHeal",
       "name": "Crescita Eccessiva",
-      "desc": "Le Stack aumentano in base ai PV recuperati da Dongrang;  50+ Stack, subisce danno da Gola pari alle Stack e ottiene 5 Vulnerabilità, ed infine rimuove quest'effetto."
+      "desc": "Le Stack aumentano in base ai PV recuperati da Dongrang;  50+ Stack, subisce danno da Gola pari alle Stack ed ottiene 5 Vulnerabilità, ed infine rimuove quest'effetto."
     },
     {
       "id": "SinkingSurge",
@@ -1131,7 +1131,7 @@
     {
       "id": "DongbaekFullBloomDisplay",
       "name": "Antesi",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, e ottiene 'Mente Frastornata' il turno successivo.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
+      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, ed ottiene 'Mente Frastornata' il turno successivo.\nSe quest'effetto non viene rimosso entro 2 turni, verrà rimosso alla fine del secondo turno.",
       "summary": ""
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "id": "PseudoLastBoss_KingCrap",
       "name": "Furia Crostacea",
-      "desc": "All'Inizio Turno, applica Attacco Aumentato a tutti gli altri granchi alleati, e ottiene 2 Mitigazione se il Guscio non è stato rotto.\n-5 PS al bersaglio quando usa un'Abilità.\nQuando i PS sono al 50%, ogni parte ottiene 2 Attacco Aumentato e 2 Fragilità."
+      "desc": "All'Inizio Turno, applica Attacco Aumentato a tutti gli altri granchi alleati, ed ottiene 2 Mitigazione se il Guscio non è stato rotto.\n-5 PS al bersaglio quando usa un'Abilità.\nQuando i PS sono al 50%, ogni parte ottiene 2 Attacco Aumentato e 2 Fragilità."
     },
     {
       "id": "ChargeForceField",
@@ -1304,7 +1304,7 @@
     {
       "id": "FreischutzShotCount",
       "name": "Pallottola Magica",
-      "desc": "- Max: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Esclusiva a Lobotomy E.G.O::Pallottola Magica Outis]\n· Più il valore è alto, più il Potere Base e il Potere della Moneta dell'Abilità 3"
+      "desc": "- Max: 7\n- Il valore cambia in base agli effetti delle Abilità.\n- [Esclusiva a Lobotomy E.G.O::Pallottola Magica Outis]\n· Più il valore è alto, più il Potere Base ed il Potere della Moneta dell'Abilità 3"
     },
     {
       "id": "DarkFlame",
@@ -1354,12 +1354,12 @@
     {
       "id": "SwordPlayOfTheHomeland",
       "name": "Scherma della Patria",
-      "desc": "- Quando ha 5+ Respiro, quando usa un'Abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) e infliggono +(30/# delle Monete)% danni sul Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'Abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni sul Colpo Critico"
+      "desc": "- Quando ha 5+ Respiro, quando usa un'Abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) ed infliggono +(30/# delle Monete)% danni sul Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'Abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni sul Colpo Critico"
     },
     {
       "id": "SwordPlayOfTheMemorial",
       "name": "Rimembranza",
-      "desc": "- Quando ha 5+ Respiro, quando usa un'Abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) e infliggono +(30/# delle Monete)% danni sul Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'Abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni sul Colpo Critico"
+      "desc": "- Quando ha 5+ Respiro, quando usa un'Abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# delle Monete, minimo 1) ed infliggono +(30/# delle Monete)% danni sul Colpo Critico\n- Quando ha 7+ Respiro, quando usa un'Abilità, l'Abilità 3 infligge +(30/# delle Monete)% danni ed infligge +(50/# delle Monete)% danni sul Colpo Critico"
     },
     {
       "id": "RedApricotBlossom",
@@ -1449,7 +1449,7 @@
     {
       "id": "TimeSuspend",
       "name": "Tempus Moratorium",
-      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno viene immagazzinato\n- A fine combattimento: se rimane solo 1 Conteggio,  quest'effetto innesca Scoppio Vibrazione dopo aver inflitto il (100 + (Potenza x 15)% del danno immagazzinato come danno da Accidia\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.",
+      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno viene immagazzinato\n- A fine combattimento: se rimane solo 1 Conteggio,  quest'effetto innesca Scoppio Vibrazione dopo aver inflitto il (100 + (Potenza x 15)% del danno immagazzinato come danno da Accidia\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione ed il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.",
       "summary": ""
     },
     {
@@ -1509,7 +1509,7 @@
     {
       "id": "WildHunt",
       "name": "Caccia Selvaggia",
-      "desc": "- Nello stesso turno in cui questa unità ha ottieneto Caccia Selvaggia per la prima volta, rimane costantemente a 1 PV; \"revive\"(Recupera il 50% dei PV e azzera i PS) di quest'unità a Fine Turno.\n- Alla morte, ottiene 1 risorsa E.G.O per la risorsa E.G.O più scarsa\n- Se quest'unità viene uccisa da un attacco, infligge 3 Pianto contro l'ultimo attaccante\n- Muore alla fine dello stesso turno in cui è stata resuscitata",
+      "desc": "- Nello stesso turno in cui questa unità ha ottieneto Caccia Selvaggia per la prima volta, rimane costantemente a 1 PV; \"revive\"(Recupera il 50% dei PV ed azzera i PS) di quest'unità a Fine Turno.\n- Alla morte, ottiene 1 risorsa E.G.O per la risorsa E.G.O più scarsa\n- Se quest'unità viene uccisa da un attacco, infligge 3 Pianto contro l'ultimo attaccante\n- Muore alla fine dello stesso turno in cui è stata resuscitata",
       "summary": ""
     },
     {
@@ -1620,28 +1620,28 @@
     {
       "id": "Snare",
       "name": "Lazo",
-      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio Lacerazione pari al valore corrente della Velocità di quest'unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduce le Stack di 1",
+      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio Lacerazione pari al valore corrente della Velocità di quest'unità (max 5), ed ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduce le Stack di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregFirst",
       "name": "Mano Insanguinata",
-      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 10\n- Stadio 1: Mano Insanguinata\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, ed infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
       "name": "Mano Insanguinata II",
-      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A Inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 20\n- Stadio 2: Mano Insanguinata\n- A Inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, ed infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregThird",
       "name": "Mano Insanguinata III",
-      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A Inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- sul colpo con le Abilità Base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, e infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
+      "desc": "- Valore Massimo: 30\n- Stadio 3: Mano Insanguinata\n- A Inizio Turno: ottiene 1 Aumento Offensivo per ogni 10 Stack\n- sul colpo con le Abilità Base: infligge 1 Lacerazione e 1 Sanguinamento in più\n- A 10+ Mano Insanguinata, diventa Mano Insanguinata II.\n- A 20+ Mano Insanguinata, diventa Mano Insanguinata III.\n- Ritorna allo stadio precedente se le Stack scendono sotto il minimo richiesto.\n- A Mano Insanguinata II, ottiene 1 Aumento Offensivo in base alle Stack\n- A Mano Insanguinata III, ottiene 1 Aumento Offensivo in base alle Stack, ed infligge 1 Lacerazione e 1 Sanguinamento in più sul colpo con le Abilità Base",
       "summary": "",
       "undefined": "-"
     },
@@ -1835,7 +1835,7 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Stack Max: 1\nConverte tutte le Monete delle Abilità Offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità e infligge +1 Sanguinamento in più con gli effetti.\nSe perde lo Scontro: ottiene Potere Finale +3\\nA Fine Turno: quest'effetto termina"
+      "desc": "Stack Max: 1\nConverte tutte le Monete delle Abilità Offensive di quest'unità in [Moneta Infrangibile], previene che il danno faccia Vacillare quest'unità finchè non avrà terminato l'Abilità ed infligge +1 Sanguinamento in più con gli effetti.\nSe perde lo Scontro: ottiene Potere Finale +3\\nA Fine Turno: quest'effetto termina"
     },
     {
       "id": "BlackCloudBlade",
@@ -1845,7 +1845,7 @@
     {
       "id": "EngageToBattle",
       "name": "Pronti alla Battaglia",
-      "desc": "Valore Massimo: 1\n+1 a Potenza e al Conteggio Sanguinamento inflitte con le Abilità o con gli effetti delle Monete di quest'unità\nOttiene 1 Potenzia Tagliente e 3 Danno Tagliente Aumentato per la durata dell'incontro"
+      "desc": "Valore Massimo: 1\n+1 a Potenza ed al Conteggio Sanguinamento inflitte con le Abilità o con gli effetti delle Monete di quest'unità\nOttiene 1 Potenzia Tagliente e 3 Danno Tagliente Aumentato per la durata dell'incontro"
     },
     {
       "id": "CloudWall",
@@ -1947,7 +1947,7 @@
     {
       "id": "BurstZilu",
       "name": "Anatema 【Fissure】",
-      "desc": "- Stack Base: 3\n- Quando viene attivata Lacerazione mentre questa unità è afflitta da Anatema, perde 1 Stack, e ottiene 1 Lentezza il turno successivo\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Lentezza il turno successivo, perde 2 Stack al posto di ottenere Lentezza\n- A 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
+      "desc": "- Stack Base: 3\n- Quando viene attivata Lacerazione mentre questa unità è afflitta da Anatema, perde 1 Stack, ed ottiene 1 Lentezza il turno successivo\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Lentezza il turno successivo, perde 2 Stack al posto di ottenere Lentezza\n- A 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
       "summary": "",
       "undefined": "-"
     },
@@ -2010,14 +2010,14 @@
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni Gola pari alle Stack ed infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YesdragonNodie",
       "name": "Abiura [不許]",
-      "desc": "Quando questa unità subisce un danno che porta i suoi PV a 0: i PV di questa unità non scendono sotto 1; guarisce dal Vacillamento causato dal danno.\nse l'effetto sovracitato viene attivato, muore a Fine Turno.\nEsaurita alla morte, alla Ritirata e a Fine Turno",
+      "desc": "Quando questa unità subisce un danno che porta i suoi PV a 0: i PV di questa unità non scendono sotto 1; guarisce dal Vacillamento causato dal danno.\nse l'effetto sovracitato viene attivato, muore a Fine Turno.\nEsaurita alla morte, alla Ritirata ed a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -2171,14 +2171,14 @@
     {
       "id": "HeishouSupportProtect",
       "name": "Guardia del Lord",
-      "desc": "- Difesa di Supporto Speciale\n- Stack Max: 1\n- Quando Il Lord di Hongyuan sta per subire un'Attacco Incontrastato di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; infine, copia e usa l'Abilità 'Guardia del Lord' del Lord di Hongyuan Hong Lu\n- Quando ci sono più alleati con Stack di Difesa di Supporto, l'alleato con le maggiori Stack ha priorità di attivazione\n- Questo effetto conta come Difesa di Supporto, e viene contato per le Stack di Difesa di Supporto\n- Si esaurisce a Fine Turno",
+      "desc": "- Difesa di Supporto Speciale\n- Stack Max: 1\n- Quando Il Lord di Hongyuan sta per subire un'Attacco Incontrastato di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; infine, copia ed usa l'Abilità 'Guardia del Lord' del Lord di Hongyuan Hong Lu\n- Quando ci sono più alleati con Stack di Difesa di Supporto, l'alleato con le maggiori Stack ha priorità di attivazione\n- Questo effetto conta come Difesa di Supporto, e viene contato per le Stack di Difesa di Supporto\n- Si esaurisce a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouSynergy",
       "name": "Col Guinzaglio di Ogni Heishou",
-      "desc": "- Stack Max: 11\n- Ottiene i seguenti effetti in base alle Stack:\n· Per ogni 1 Stack, ottiene 1 Velocità Max (max 5) e infligge +1% danni con le Abilità\n· Per ogni 2 Stack, ottiene 1 Velocità Min (max 2) e 1 Aumento Difensivo (max 5)\n· Per ogni 3 Stack, ottiene 1 Aumento Offensivo (max 3)\n· A 5+ Stack, ottiene 1 Danno Aumentato e applica 1 Aumento Offensivo a tutte le Identità del Branco Heishou",
+      "desc": "- Stack Max: 11\n- Ottiene i seguenti effetti in base alle Stack:\n· Per ogni 1 Stack, ottiene 1 Velocità Max (max 5) ed infligge +1% danni con le Abilità\n· Per ogni 2 Stack, ottiene 1 Velocità Min (max 2) e 1 Aumento Difensivo (max 5)\n· Per ogni 3 Stack, ottiene 1 Aumento Offensivo (max 3)\n· A 5+ Stack, ottiene 1 Danno Aumentato ed applica 1 Aumento Offensivo a tutte le Identità del Branco Heishou",
       "summary": "",
       "undefined": "-"
     },
@@ -2216,25 +2216,25 @@
     {
       "id": "DarkHonglu_Xi",
       "name": "Felicità",
-      "desc": "- Potere Scontro di Hong Lu +1\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Annulla l'effetto che trasforma questa unità in Giada Preziosa una volta. Scontrandosi contro Abilità che trasformano questa unità in una Giada Preziosa, Potere Scontro +5; se questa unità vince lo Scontro, questa unità non diventa una Giada Preziosa, si riprende dal Vacillamento, riduce i PS di Jia Mu di 10, e infligge 2 Vulnerabilità a Jia Mu\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Scontro di Hong Lu +1\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore ed invece si cura del 50% di PV\n- Annulla l'effetto che trasforma questa unità in Giada Preziosa una volta. Scontrandosi contro Abilità che trasformano questa unità in una Giada Preziosa, Potere Scontro +5; se questa unità vince lo Scontro, questa unità non diventa una Giada Preziosa, si riprende dal Vacillamento, riduce i PS di Jia Mu di 10, ed infligge 2 Vulnerabilità a Jia Mu\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Le",
       "name": "Felicità, Gioia",
-      "desc": "- Potere Finale di Hong Lu +1\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +1\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore ed invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Ai",
       "name": "Felicità, Gioia, Tristezza",
-      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (1 volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +3\n- A Scontro Vinto, cura 1 alleato con meno PS di 5 PS (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (1 volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore ed invece si cura del 50% di PV\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
       "name": "Felicità, Gioia, Tristezza, Ira",
-      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (1 volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Finale di Hong Lu +5\n- Gli alleati si curano di 5 PS ad ogni Inizio Turno (inclusa questa unità)\n- Alla morte di un alleato, gli alleati rimanenti ottengono 1 Attacco Aumentato a Fine Turno il turno successivo (1 volta per turno)\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore ed invece si cura del 50% di PV\n- Aumenta i danni inflitti del 30% della totale percentuale di PV persi da questa unità durante l'Incontro (max 100%)\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
@@ -2252,7 +2252,7 @@
     {
       "id": "ConcussionYisang",
       "name": "Concussione",
-      "desc": "- Stack Max: 2\n- Moltiplica di quanto la Soglia di Vacillamento viene alzata dallo Scoppio Vibrazione e i danni da Lacerazione subiti da questa unità per 1.2 (arrotondato in difetto)\n- Perde 1 Stack a Fine Turno",
+      "desc": "- Stack Max: 2\n- Moltiplica di quanto la Soglia di Vacillamento viene alzata dallo Scoppio Vibrazione ed i danni da Lacerazione subiti da questa unità per 1.2 (arrotondato in difetto)\n- Perde 1 Stack a Fine Turno",
       "summary": ""
     },
     {
@@ -2277,14 +2277,14 @@
     {
       "id": "GazeRyoshu",
       "name": "Sguardo",
-      "desc": "- Stack Max: 7\n- Subisce e infligge +10% da e contro Ryōshū per ogni 1 Stack di Sguardo\n- Alla morte, si trasferisce all' alleato di questa unità(negli Incontri Mirati, una Parte Diversa) con i meno o nessun Disprezzo o Sguardo (questo attacco non si attiva se questa unità è stata uccisa durante l'Abilità Attacco 'Sguardo di Timore Sotto al Disprezzo Discendente')\n- Fine Turno: a 7 Stack, questo effetto si converte in Disprezzo il turno successivo",
+      "desc": "- Stack Max: 7\n- Subisce ed infligge +10% da e contro Ryōshū per ogni 1 Stack di Sguardo\n- Alla morte, si trasferisce all' alleato di questa unità(negli Incontri Mirati, una Parte Diversa) con i meno o nessun Disprezzo o Sguardo (questo attacco non si attiva se questa unità è stata uccisa durante l'Abilità Attacco 'Sguardo di Timore Sotto al Disprezzo Discendente')\n- Fine Turno: a 7 Stack, questo effetto si converte in Disprezzo il turno successivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ContemptRyoshu",
       "name": "Disprezzo",
-      "desc": "- Stack Max: 1\n- Subisce e infligge -50% da e contro Ryōshū\n- I bersagli con Disprezzo non possono ottenere Sguardo\n- Alla morte, si trasferisce all' alleato di questa unità(negli Incontri Mirati, una Parte Diversa) con i meno o nessun Disprezzo o Sguardo (questo attacco non si attiva se questa unità è stata uccisa durante l'Abilità Attacco 'Sguardo di Timore Sotto al Disprezzo Discendente')\n- Fine Turno: si esaurisce; infine, quest'unità ottiene 7 Sguardo il turno successivo",
+      "desc": "- Stack Max: 1\n- Subisce ed infligge -50% da e contro Ryōshū\n- I bersagli con Disprezzo non possono ottenere Sguardo\n- Alla morte, si trasferisce all' alleato di questa unità(negli Incontri Mirati, una Parte Diversa) con i meno o nessun Disprezzo o Sguardo (questo attacco non si attiva se questa unità è stata uccisa durante l'Abilità Attacco 'Sguardo di Timore Sotto al Disprezzo Discendente')\n- Fine Turno: si esaurisce; infine, quest'unità ottiene 7 Sguardo il turno successivo",
       "summary": "",
       "undefined": "-"
     },
@@ -2297,7 +2297,7 @@
     {
       "id": "CuredFilm",
       "name": "Guscio-Barriera Indurita",
-      "desc": "- Inizio Turno: ottiene (Stack / 3) Aumento Difensivo (max 3; arrotondato in difetto)\n- Subito prima di subire in colpo nemico, consuma metà di Guscio-Barriera Indurita e ottiene Mitigazione pari alle Stack consumate (una volta per turno, arrotondato in eccesso)\n- Fine Turno: perde 3 Stack\n- Stack Max: 10",
+      "desc": "- Inizio Turno: ottiene (Stack / 3) Aumento Difensivo (max 3; arrotondato in difetto)\n- Subito prima di subire in colpo nemico, consuma metà di Guscio-Barriera Indurita ed ottiene Mitigazione pari alle Stack consumate (una volta per turno, arrotondato in eccesso)\n- Fine Turno: perde 3 Stack\n- Stack Max: 10",
       "summary": "Ottiene Aumento Difensivo\nSubito prima di subire danni dalle Abilità, consuma le Stack per ottenere Mitigazione"
     },
     {
@@ -2377,7 +2377,7 @@
     {
       "id": "EmergencyChargeForceField",
       "name": "Batteria per Scudo di Emergenza",
-      "desc": "- Stack Max: 7\n- Quando Vacilla, consuma tutte le Stack di Batteria per Scudo di Emergenza e ottiene Scudo Energetico pari alle Stack consumate",
+      "desc": "- Stack Max: 7\n- Quando Vacilla, consuma tutte le Stack di Batteria per Scudo di Emergenza ed ottiene Scudo Energetico pari alle Stack consumate",
       "summary": "",
       "undefined": "-"
     },
@@ -2391,21 +2391,21 @@
     {
       "id": "HanafudaOne",
       "name": "Mano - Seme di Pino, Gru",
-      "desc": "- Potere Base Abilità 1 +2\n- Quando questa unità equipaggia e usa un'Abilità Base o E.G.O <color=#ff0000>Ira</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
+      "desc": "- Potere Base Abilità 1 +2\n- Quando questa unità equipaggia ed usa un'Abilità Base o E.G.O <color=#ff0000>Ira</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
       "summary": "Ottiene Potere Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaTwo",
       "name": "Mano - Seme di Miscanto",
-      "desc": "- Potere Base Abilità 2 +1\n- Quando questa unità equipaggia e usa un'Abilità Base o E.G.O <color=#fbc82b>Accidia</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
+      "desc": "- Potere Base Abilità 2 +1\n- Quando questa unità equipaggia ed usa un'Abilità Base o E.G.O <color=#fbc82b>Accidia</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
       "summary": "Ottiene Potere Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaThree",
       "name": "Mano - Seme di Ciliegio Blu",
-      "desc": "- Potere Base Abilità 3 +1\n- Quando questa unità equipaggia e usa un'Abilità Base o E.G.O <color=#15c3ee>Tristezza</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
+      "desc": "- Potere Base Abilità 3 +1\n- Quando questa unità equipaggia ed usa un'Abilità Base o E.G.O <color=#15c3ee>Tristezza</color> sul suo Slot Abilità più a sinistra, attiva gli effetti del \"formare una Mano\" della Passiva \"Koi-Koi\"",
       "summary": "Ottiene Potere Base",
       "undefined": "-"
     },

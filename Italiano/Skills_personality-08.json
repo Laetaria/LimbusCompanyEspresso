@@ -399,7 +399,7 @@
         {
           "level": 4,
           "name": "Arpione dell'Ossessione",
-          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.3% danni per 1% PV mancanti, max +30%)\nPotere Moneta +1 per ogni 5 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Se il bersaglio Vacilla o viene sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS si curano di 10 PS, ottiene 2 [Breath], e ottiene +4 Conteggio [Breath]. (4 volte max. Max # di alleati che possono venire curati: 4)",
+          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.3% danni per 1% PV mancanti, max +30%)\nPotere Moneta +1 per ogni 5 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Se il bersaglio Vacilla o viene sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS si curano di 10 PS, ottiene 2 [Breath], ed ottiene +4 Conteggio [Breath]. (4 volte max. Max # di alleati che possono venire curati: 4)",
           "coinlist": [
             {},
             {
@@ -914,7 +914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] su di sé, e infligge il valore di Conteggio consumato come [Vibration] sul bersaglio. (max 10)\n- Infligge +([Vibration] in eccesso x 1.5)% danni (max 30%)"
+                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] su di sé, ed infligge il valore di Conteggio consumato come [Vibration] sul bersaglio. (max 10)\n- Infligge +([Vibration] in eccesso x 1.5)% danni (max 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
@@ -948,7 +948,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] su di sé, e infligge il valore di Conteggio consumato come [Vibration] sul bersaglio. (max <style=\"highlight\">20</style>)\n- Infligge +([Vibration] in eccesso x <style=\"highlight\">5</style>)% danni (max <style=\"highlight\">50</style>%)"
+                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] su di sé, ed infligge il valore di Conteggio consumato come [Vibration] sul bersaglio. (max <style=\"highlight\">20</style>)\n- Infligge +([Vibration] in eccesso x <style=\"highlight\">5</style>)% danni (max <style=\"highlight\">50</style>%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
@@ -1931,7 +1931,7 @@
         {
           "level": 1,
           "name": "Kōzan [光斬]",
-          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difesa, e gli effetti esterni non possono farla Riusare\n\n[WhenUse] A meno di 3 Potenza [HanafudaCombo], non usa questa Abilità e ottiene 2 [Enhancement] il turno successivo\n[WhenUse] A 3+ Potenza [HanafudaCombo], ottiene i seguenti effetti in base alla Potenza:\n- Per 1 Potenza: questa Abilità infligge +10% danni\n- A 4+ Potenza: Potere Base +1\n- A 5 Potenza: Sul Colpo con l'ultima Moneta Riusata, innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n[EndSkillAll] Perde [HanafudaCombo] su di sé\n[EndSkillAll] Il Turno Successivo, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità (una volta per turno)\n[EndSkillAll] Ottiene Potenza [HanafudaCombo] il turno successivo pari al # di Monete che non sono state usate",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difesa, e gli effetti esterni non possono farla Riusare\n\n[WhenUse] A meno di 3 Potenza [HanafudaCombo], non usa questa Abilità ed ottiene 2 [Enhancement] il turno successivo\n[WhenUse] A 3+ Potenza [HanafudaCombo], ottiene i seguenti effetti in base alla Potenza:\n- Per 1 Potenza: questa Abilità infligge +10% danni\n- A 4+ Potenza: Potere Base +1\n- A 5 Potenza: Sul Colpo con l'ultima Moneta Riusata, innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n[EndSkillAll] Perde [HanafudaCombo] su di sé\n[EndSkillAll] Il Turno Successivo, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità (una volta per turno)\n[EndSkillAll] Ottiene Potenza [HanafudaCombo] il turno successivo pari al # di Monete che non sono state usate",
           "coinlist": [
             {
               "coindescs": [
@@ -1951,7 +1951,7 @@
         {
           "level": 4,
           "name": "Kōzan [光斬]",
-          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difesa, e gli effetti esterni non possono farla Riusare\n\n[WhenUse] A meno di 3 Potenza [HanafudaCombo], non usa questa Abilità e ottiene 2 [Enhancement] il turno successivo\n[WhenUse] A 3+ Potenza [HanafudaCombo], ottiene i seguenti effetti in base alla Potenza:\n- Per 1 Potenza: questa Abilità infligge +10% danni\n- A 4+ Potenza: Potere Base +1\n- A 5 Potenza: Sul Colpo con l'ultima Moneta Riusata, innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n[EndSkillAll] Perde [HanafudaCombo] su di sé\n[EndSkillAll] Il Turno Successivo, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità (una volta per turno)\n[EndSkillAll] Ottiene Potenza [HanafudaCombo] il turno successivo pari al # di Monete che non sono state usate<style=\"highlight\"></style>",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difesa, e gli effetti esterni non possono farla Riusare\n\n[WhenUse] A meno di 3 Potenza [HanafudaCombo], non usa questa Abilità ed ottiene 2 [Enhancement] il turno successivo\n[WhenUse] A 3+ Potenza [HanafudaCombo], ottiene i seguenti effetti in base alla Potenza:\n- Per 1 Potenza: questa Abilità infligge +10% danni\n- A 4+ Potenza: Potere Base +1\n- A 5 Potenza: Sul Colpo con l'ultima Moneta Riusata, innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n[EndSkillAll] Perde [HanafudaCombo] su di sé\n[EndSkillAll] Il Turno Successivo, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità (una volta per turno)\n[EndSkillAll] Ottiene Potenza [HanafudaCombo] il turno successivo pari al # di Monete che non sono state usate<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
