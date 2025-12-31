@@ -140,7 +140,7 @@
           "level": 3,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[BeforeAttack] Ottiene +8 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato con il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max 4)\n- A 4+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé ed agli alleati a cui è stato applicato l'effetto precedente",
+          "desc": "[BeforeAttack] Ottiene +8 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato con il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max 4)\n- A 4+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé e agli alleati a cui è stato applicato l'effetto precedente",
           "coinlist": [
             {
               "coindescs": [
@@ -155,7 +155,7 @@
           "level": 4,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[BeforeAttack] Ottiene +12 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato con il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max <style=\"highlight\">5</style>)\n- A 4+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé ed agli alleati a cui è stato applicato l'effetto precedente\n<style=\"highlight\">- A 6+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé ed agli alleati a cui è stato applicato l'effetto precedente</style>",
+          "desc": "[BeforeAttack] Ottiene +12 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato con il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max <style=\"highlight\">5</style>)\n- A 4+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé e agli alleati a cui è stato applicato l'effetto precedente\n<style=\"highlight\">- A 6+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé e agli alleati a cui è stato applicato l'effetto precedente</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -389,7 +389,7 @@
           "level": 1,
           "name": "Mircalla Bramante",
           "abName": "Quattrocento Rose",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità ed infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Si cura di PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità e infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Si cura di PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
           "level": 3,
           "name": "Mircalla Bramante",
           "abName": "Quattrocento Rose",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">A 6+ ([Laceration] su sé + [Laceration] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità ed infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Si cura di PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">A 6+ ([Laceration] su sé + [Laceration] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità e infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Si cura di PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
           "coinlist": [
             {
               "coindescs": [
@@ -485,7 +485,7 @@
           "level": 4,
           "name": "Mircalla Bramante",
           "abName": "Quattrocento Rose",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Moneta +1 per ogni 6 ([Laceration] su sé + [Laceration] sul bersaglio) <style=\"highlight\">(max 3)</style>\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità ed infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Si cura di PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Moneta +1 per ogni 6 ([Laceration] su sé + [Laceration] sul bersaglio) <style=\"highlight\">(max 3)</style>\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità e infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Si cura di PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
           "coinlist": [
             {
               "coindescs": [

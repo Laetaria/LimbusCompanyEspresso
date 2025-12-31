@@ -1813,7 +1813,7 @@
         {
           "level": 1,
           "name": "Frusta Mentale",
-          "desc": "[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] ed aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Portata Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
+          "desc": "[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Portata Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1848,7 +1848,7 @@
         {
           "level": 2,
           "name": "Frusta Mentale",
-          "desc": "<style=\"highlight\">Infligge +2% danni per ogni [Charge] (max 10%)</style>\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] ed aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Portata Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
+          "desc": "<style=\"highlight\">Infligge +2% danni per ogni [Charge] (max 10%)</style>\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene 15 [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Portata Attacco +1\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1895,7 +1895,7 @@
         {
           "level": 4,
           "name": "Frusta Mentale",
-          "desc": "Infligge <style=\"highlight\">+4%</style> danni per ogni [Charge] (max <style=\"highlight\">20%</style>)\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene <style=\"highlight\">10</style> [Sinking] ed aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Portata Attacco +1\n<style=\"highlight\">- [BeforeUse] A 5+ [Charge], questa Abilità non ottiene l'effetto [CantIdentify]</style>\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta <style=\"highlight\">+2</style>\n<style=\"highlight\">[BeforeAttack] Con 8+ Conteggio [Charge] rimasto, consuma 8 Conteggio [Charge] per infliggere +40% danni</style>",
+          "desc": "Infligge <style=\"highlight\">+4%</style> danni per ogni [Charge] (max <style=\"highlight\">20%</style>)\n[WhenUse] A 5~9 Conteggio [Charge]:\n- Ottiene <style=\"highlight\">10</style> [Sinking] e aumenta il Conteggio [Charge] di questa unità a 10\n- Questa Abilità ottiene i seguenti attributi: [CantIdentify], [WideAreaFuria], e Portata Attacco +1\n<style=\"highlight\">- [BeforeUse] A 5+ [Charge], questa Abilità non ottiene l'effetto [CantIdentify]</style>\n[WhenUse] Consuma 10 Conteggio [Charge] per ottenere Potere Moneta <style=\"highlight\">+2</style>\n<style=\"highlight\">[BeforeAttack] Con 8+ Conteggio [Charge] rimasto, consuma 8 Conteggio [Charge] per infliggere +40% danni</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2218,7 +2218,7 @@
         {
           "level": 3,
           "name": "Andate, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack ed applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "Andate, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack ed applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2311,7 +2311,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno SP, le cura di 10 SP ed applica 1 [Enhancement] il turno successivo"
+                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno SP, le cura di 10 SP e applica 1 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -2341,7 +2341,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [SlashResistDown] il turno successivo (1 volta per turno)</style>"
                 },
                 {
-                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno SP, le cura di 10 SP ed applica 1 [Enhancement] il turno successivo<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno SP, le cura di 10 SP e applica 1 [Enhancement] il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }

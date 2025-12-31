@@ -811,7 +811,7 @@
         {
           "level": 3,
           "name": "Brucia Conoscenza",
-          "desc": "Infligge +3% danni per ogni [KnowledgeExplored] su di sé (max 18%)\n[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1\n[BeforeAttack] Consuma ogni [KnowledgeTraining] su di sé ed ottiene metà di quel valore come altra [KnowledgeExplored] (arrotondato in difetto)\n[EndAbilità] A 4+ [KnowledgeExplored], mette il valore a 1 (se questa Abilità sconfigge un nemico, invece mette il valore a 3)",
+          "desc": "Infligge +3% danni per ogni [KnowledgeExplored] su di sé (max 18%)\n[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1\n[BeforeAttack] Consuma ogni [KnowledgeTraining] su di sé e ottiene metà di quel valore come altra [KnowledgeExplored] (arrotondato in difetto)\n[EndAbilità] A 4+ [KnowledgeExplored], mette il valore a 1 (se questa Abilità sconfigge un nemico, invece mette il valore a 3)",
           "coinlist": [
             {},
             {},
@@ -827,7 +827,7 @@
         {
           "level": 4,
           "name": "Brucia Conoscenza",
-          "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] (max <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>\n[BeforeAttack] Consuma ogni [KnowledgeTraining] su di sé ed ottiene <style=\"highlight\">lo stesso valore</style> come altra [KnowledgeExplored]\n[EndAbilità] A 4+ [KnowledgeExplored], mette il valore a 1 (se questa Abilità sconfigge un nemico, invece mette il valore a 3)",
+          "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] (max <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>\n[BeforeAttack] Consuma ogni [KnowledgeTraining] su di sé e ottiene <style=\"highlight\">lo stesso valore</style> come altra [KnowledgeExplored]\n[EndAbilità] A 4+ [KnowledgeExplored], mette il valore a 1 (se questa Abilità sconfigge un nemico, invece mette il valore a 3)",
           "coinlist": [
             {},
             {},
@@ -1612,7 +1612,7 @@
         {
           "level": 1,
           "name": "Conduttore della Parata",
-          "desc": "[WhenUse] Su di sé e 1 alleato con i PV massimi minori: consuma fino a 10 [BloodDinner] ed applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]",
+          "desc": "[WhenUse] Su di sé e 1 alleato con i PV massimi minori: consuma fino a 10 [BloodDinner] e applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1634,7 +1634,7 @@
         {
           "level": 2,
           "name": "Conduttore della Parata",
-          "desc": "[WhenUse] Su di sé e 1 alleato con i PV massimi minori: consuma fino a 10 [BloodDinner] ed applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Moneta +1</style>",
+          "desc": "[WhenUse] Su di sé e 1 alleato con i PV massimi minori: consuma fino a 10 [BloodDinner] e applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1662,7 +1662,7 @@
         {
           "level": 4,
           "name": "Conduttore della Parata",
-          "desc": "[WhenUse] Su di sé e 1 alleato con i PV massimi minori: consuma fino a 10 [BloodDinner] ed applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 3+ Conteggio [Laceration], Potere Finale +1</style>",
+          "desc": "[WhenUse] Su di sé e 1 alleato con i PV massimi minori: consuma fino a 10 [BloodDinner] e applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 3+ Conteggio [Laceration], Potere Finale +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1695,7 +1695,7 @@
         {
           "level": 1,
           "name": "Responsabilità di Ricostruire",
-          "desc": "[WhenUse] Su di sé e 1 alleato con i maggiori PV massimi: consuma fino a 10 [BloodDinner] ed applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]",
+          "desc": "[WhenUse] Su di sé e 1 alleato con i maggiori PV massimi: consuma fino a 10 [BloodDinner] e applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1719,7 +1719,7 @@
         {
           "level": 2,
           "name": "Responsabilità di Ricostruire",
-          "desc": "[WhenUse] Su di sé e 1 alleato con i maggiori PV massimi: consuma fino a 10 [BloodDinner] ed applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 3+ Conteggio [Laceration], Potere Finale +1</style>",
+          "desc": "[WhenUse] Su di sé e 1 alleato con i maggiori PV massimi: consuma fino a 10 [BloodDinner] e applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 3+ Conteggio [Laceration], Potere Finale +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1743,7 +1743,7 @@
         {
           "level": 4,
           "name": "Responsabilità di Ricostruire",
-          "desc": "[WhenUse] Su di sé e 1 alleato con i maggiori PV massimi: consuma fino a 10 [BloodDinner] ed applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n[WhenUse] Potere Moneta +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <style=\"highlight\">Potere Finale +1 per ogni 3 Conteggio [Laceration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni [BloodArmorMeursault] su di sé (max 30%)</style>",
+          "desc": "[WhenUse] Su di sé e 1 alleato con i maggiori PV massimi: consuma fino a 10 [BloodDinner] e applica 1 [BloodArmorMeursault] per ogni 5 [BloodDinner] consumato da questa unità (una volta per turno; esclude gli alleati dalle Stack massime)\n- Dà la priorità agli alleati di <La Manchaland> e <Sanguimoni>(Progenie di Grado Maggiore)\n- Se l'alleato affetto è di <La Manchaland>, questa unità applica 1 [BloodArmorMeursault] ulteriore\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 10 [Laceration]\n[WhenUse] Potere Moneta +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <style=\"highlight\">Potere Finale +1 per ogni 3 Conteggio [Laceration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni [BloodArmorMeursault] su di sé (max 30%)</style>",
           "coinlist": [
             {
               "coindescs": [
