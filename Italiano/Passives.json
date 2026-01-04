@@ -443,12 +443,12 @@
     {
       "id": 1000701,
       "name": "Invidia",
-      "desc": "Quando subisce un attacco questo turno, infliggi 1 danno all'attaccante con una probabilità del 25%."
+      "desc": "Quando subisce un attacco questo turno, infligge 1 danno all'attaccante con una probabilità del 25%."
     },
     {
       "id": 1000721,
       "name": "Invidia",
-      "desc": "Dà ad un alleato casuale questo effetto: Quando subisce un attacco questo turno, infliggi 1 danno all'attaccante con una probabilità del 25%."
+      "desc": "Dà ad un alleato casuale questo effetto: Quando subisce un attacco questo turno, infligge 1 danno all'attaccante con una probabilità del 25%."
     },
     {
       "id": 1050401,
@@ -2581,50 +2581,50 @@
     },
     {
       "id": 1111401,
-      "name": "Vanguard Team",
-      "desc": "Deal +5% damage for every [Protection] on self (max 15%)\n\nCombat Start: gain 2 [TheUdjatOutis]",
+      "name": "Team Di Avanguardia",
+      "desc": "Infligge +5% danni per ogni [Protection] su di sé (max 15%)\n\nInizio Combattimento: ottiene 2 [TheUdjatOutis]",
       "summary": ""
     },
     {
       "id": 1111402,
-      "name": "The Scepter of Horus - Replica",
-      "desc": "Turn Start: If an enemy has any of the Panic type changing effects, gain 1 [TheUdjatOutis]\n\nIf this unit has [TheUdjatOutis], inflict 1 [SheutFracture] On Hit with a Base Attack Skill (15 per turn)\n\n[Protection] Stack gained from this unit's Base Skills and [TheUdjatOutis] effect is capped at 5 per turn",
+      "name": "Lo Scettro Di Horus - Replica",
+      "desc": "Inizio Turno: Se un nemico possiede un qualsiasi effetto che altera il Panico, ottiene 1 [TheUdjatOutis]\n\nSe quest'unità ha [TheUdjatOutis], infligge 1 [SheutFracture] Sul Colpo con le Abilità Attacco Base (15 per turno)\n\nLe Stack di [Protection] ottenute dalle Abilità Base di quest'unità e dall'effetto di [TheUdjatOutis] arrivano fino a 5 per turno",
       "summary": ""
     },
     {
       "id": 1111412,
-      "name": "The Scepter of Horus - Replica",
-      "desc": "Turn Start: If an enemy has any of the Panic type changing effects, gain 1 [TheUdjatOutis]\n\nIf this unit has [TheUdjatOutis], inflict 1 [SheutFracture] On Hit with a Base Attack Skill (15 per turn)\n<style=\"highlight\">- If [LCA_Bullet] was spent, inflict additional [SheutFracture] per [LCA_Bullet] spent</style>\n\n[Protection] Stack gained from this unit's Base Skills and [TheUdjatOutis] effect is capped at 5 per turn",
+      "name": "Lo Scettro Di Horus - Replica",
+      "desc": "Inizio Turno: Se un nemico possiede un qualsiasi effetto che altera il Panico, ottiene 1 [TheUdjatOutis]\n\nSe quest'unità ha [TheUdjatOutis], infligge 1 [SheutFracture] Sul Colpo con le Abilità Attacco Base (15 per turno)\n<style=\"highlight\">- Se è stata usata [LCA_Bullet], infligge [SheutFracture] in più per ogni [LCA_Bullet] usata</style>\n\nLe Stack di [Protection] ottenute dalle Abilità Base di quest'unità e dall'effetto di [TheUdjatOutis] arrivano fino a 5 per turno",
       "summary": ""
     },
     {
       "id": 1111421,
-      "name": "Eagle Eye",
-      "desc": "Combat Start: apply 1 [Protection] next turn to 1 ally with the lowest HP percentage",
+      "name": "Occhio Di Falco",
+      "desc": "Inizio Combattimento: applica 1 [Protection] il turno successivo ad 1 alleato con la percentuale di PV minore",
       "summary": "Gain Protection"
     },
     {
       "id": 1021402,
-      "name": "Prescript Delivered on Paper Slips",
-      "desc": "Turn Start:\n- Gain [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] based on [BlessingOfIndexPrescriptAlly] on self\n- Inflict [IndexPrescriptTargetToEnemy] to a random enemy (in Focused Encounters, the Part)\n- Apply [IndexPrescriptTargetMarkToEnemy] to Base Attack Skills on this unit's Dashboard (1 per Slot, max 2 Skills)\n· At 6+ [BlessingOfIndexPrescriptAlly], the effect above prioritizes Skill 3\n- All of the effects above and [IndexPrescript_Base] execution checks do not trigger when this unit is Staggered, Immobilized[TabExplain], in Panic, or in E.G.O Corrosion[TabExplain]",
+      "name": "Prescritto Consegnato Su Un Foglietto",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] in base a [BlessingOfIndexPrescriptAlly] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte casuale)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Base di quest'Unità sul Pannello Di Controllo (1 per Slot, max 2 Abilità)\n· A 6+ [BlessingOfIndexPrescriptAlly], l'effetto dà priorità all'Abilità 3\n- Tutti gli effetti sovracitati e [IndexPrescript_Base] non vengono effettuati se l'Unità Vacilla, è <noparse>Immobilizzata</noparse> o è sotto l'effetto di <noparse>Corrosione</noparse>",
       "summary": "Gain Prescript\nInflict 'The Prescript's Target' to random target\nApply 'Mark of the Prescript' on a Base Attack Skill"
     },
     {
       "id": 1021403,
-      "name": "Will of the Prescript",
-      "desc": "Turn End: If [IndexPrescript_Base] was executed this turn, heal 4 SP and gain 1 [BlessingOfIndexPrescriptAlly] (once per turn)\n- When executing [IndexPrescript_Base], if the main target has [IndexPrescriptTargetToEnemy], heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly] instead\n\nTurn End: If [IndexPrescript_Base] was not executed this turn, gain 5 [KarmaOfIndexAlly]\n- At 9 [BlessingOfIndexPrescriptAlly], does not gain [KarmaOfIndexAlly]\n- If this unit attempted to execute [IndexPrescript_Base] at Combat Start, but could not target the enemy during the combat phase, does not gain [KarmaOfIndexAlly]",
+      "name": "Volontà Del Prescritto",
+      "desc": "Fine Turno: Se il [IndexPrescript_Base] è stato portato a termine in questo turno, si cura di 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando esegue un [IndexPrescript_Base], se il bersaglio principale ha [IndexPrescriptTargetToEnemy] su di sé, si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base] non è stato eseguito in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A 9 [BlessingOfIndexPrescriptAlly], non ottiene [KarmaOfIndexAlly]\n- Se quest'Unità ha provato ad eseguire il [IndexPrescript_Base] all'Inizio del Combattimento, ma non ha potuto bersagliare il nemico durante il Turno, non ottiene [KarmaOfIndexAlly]",
       "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
     },
     {
       "id": 1021401,
-      "name": "Proselyte's Blade",
-      "desc": "Deal +2% damage with Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage with Base Skills instead\n\nOn Hit with a Base Skill against target with [IndexPrescriptTargetToEnemy], gain 1 [Breath] and inflict 1 [Sinking] (once per turn)\n- Increase the number of times this effect can trigger per turn by 1 for every 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- At 9 [BlessingOfIndexPrescriptAlly], Base Skills inflict +1 more [Sinking] Potency and this unit gains +1 more [Breath] Potency",
+      "name": "Lama Del Proselito",
+      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con Abilità Base sui nemici affetti da [IndexPrescriptTargetToEnemy], ottiene 1 [Breath] e infligge 1 [Sinking] (una volta per turno)\n- Incrementa il numero di volte che quest'effetto si può attivare per turno di 1 ogni 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- A 9 [BlessingOfIndexPrescriptAlly], le Abilità Base infliggono +1 Potenza [Sinking] in più e quest'Unità ottiene +1 Potenza [Breath] in più",
       "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, gain Poise and inflict Sinking"
     },
     {
       "id": 1021421,
-      "name": "As the Prescript Orders...",
-      "desc": "Effects apply to the Identity with the earliest Deployment order\n- Prioritizes The Index Identities\n\nCombat Start: If this unit's leftmost Skill on the Dashboard and other allies target the same enemy Slot, said Skill deals +5% damage for every ally targeting the same Slot excluding this unit (max 15%, applies when this unit and allies both use Base Attack Skills to main-target enemy Slot)"
+      "name": "Come Ordina Il Prescritto...",
+      "desc": "Quest'effetto si applica all'Identità con l'ordine di Schieramento più alto:\n- Le Unità dell'Indice avranno la priorità\n\nInizio Combattimento: se l'Unità con l'Abilità più a sinistra nel Pannello Di Controllo e gli altri alleati bersagliano lo stesso Slot Nemico, quelle Abilità infliggono +5% danni per ogni alleato che bersaglia lo stesso Slot, escludendo quest'Unità (max 15%, si applica quando quest'unità e gli alleati usano entrambi un'Abilità Attacco Base sullo Slot del bersaglio principale)"
     }
   ]
 }

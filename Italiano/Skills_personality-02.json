@@ -2120,20 +2120,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Unerringly, As the Prescript Demands",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Infallibilmente, Come Esige Il Prescritto",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2141,20 +2141,20 @@
         },
         {
           "level": 2,
-          "name": "Unerringly, As the Prescript Demands",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Infallibilmente, Come Esige Il Prescritto",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2162,23 +2162,23 @@
         },
         {
           "level": 4,
-          "name": "Unerringly, As the Prescript Demands",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Clash Power +1</style> and deal <style=\"highlight\">+20%</style> damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Infallibilmente, Come Esige Il Prescritto",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Scontro +1</style> e infligge <style=\"highlight\">+20%</style> danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge 1 [Sinking]</style>"
                 }
               ]
             }
@@ -2191,13 +2191,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake the Prescript, Again Undertake",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n[WhenUse] Gain 3 [Breath]",
+          "name": "Esegui Il Prescritto, Ripeti",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
@@ -2205,7 +2205,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2213,27 +2213,27 @@
         },
         {
           "level": 2,
-          "name": "Undertake the Prescript, Again Undertake",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath] and <style=\"highlight\">+1 [Breath] Count</style>",
+          "name": "Esegui Il Prescritto, Ripeti",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [Breath] e <style=\"highlight\">+1 Conteggio [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2241,30 +2241,30 @@
         },
         {
           "level": 4,
-          "name": "Undertake the Prescript, Again Undertake",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style>\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath] and <style=\"highlight\">+2</style> [Breath] Count",
+          "name": "Esegui Il Prescritto, Ripeti",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style>\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath] e <style=\"highlight\">+2</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">2</style> [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +2 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +2 Conteggio [Sinking]</style>"
                 }
               ]
             }
@@ -2277,33 +2277,33 @@
       "levelList": [
         {
           "level": 3,
-          "name": "As the Prescript Demands, You will be Eliminated.",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +20% damage on Critical Hit\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[StartBattle] At 6+ [BlessingOfIndexPrescriptAlly], convert all Coins of this Skill to [SuperCoin]s\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Come Richiesto Dal Prescritto, Sarai Eliminato.",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni sul Colpo Critico\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1\n[StartBattle] A 6+ [BlessingOfIndexPrescriptAlly], trasforma tutte le monete di quest'Abilità in [SuperCoin](i)\n[WhenUse] Ottiene +3 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% damage for every [BlessingOfIndexPrescriptAlly] (max 20%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +30% damage instead"
+                  "desc": "Infligge +2.5% danni per ogni [BlessingOfIndexPrescriptAlly] (max 20%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +30% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -2311,33 +2311,33 @@
         },
         {
           "level": 4,
-          "name": "As the Prescript Demands, You will be Eliminated.",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style> and deal <style=\"highlight\">+30%</style> damage on Critical Hit\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[StartBattle] At 6+ [BlessingOfIndexPrescriptAlly], convert all Coins of this Skill to [SuperCoin]s and <style=\"highlight\">deal +30% damage</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain Breath equal to ([BlessingOfIndexPrescriptAlly]/3) (rounded down)</style>",
+          "name": "Come Richiesto Dal Prescritto, Sarai Eliminato.",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style> e infligge <style=\"highlight\">+30%</style> danni su Colpo Critico\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[StartBattle] A 6+ [BlessingOfIndexPrescriptAlly], trasforma tutte le Monete di quest'Abilità in [SuperCoin](i) e <style=\"highlight\">infligge +30% danni</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al ([BlessingOfIndexPrescriptAlly]/3) (arrotondato per difetto)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+5%</style> damage for every [BlessingOfIndexPrescriptAlly] (max <style=\"highlight\">40%</style>)\n- At 9 [BlessingOfIndexPrescriptAlly], deal <style=\"highlight\">+60%</style> damage instead"
+                  "desc": "Infligge <style=\"highlight\">+5%</style> danni per ogni [BlessingOfIndexPrescriptAlly] (max <style=\"highlight\">40%</style>)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece <style=\"highlight\">+60%</style> danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">+3</style> [Sinking] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">+3</style> Conteggio [Sinking]"
                 }
               ]
             }
@@ -2350,21 +2350,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prescript-granted, Prescript-woven Fabric",
-          "desc": "Final Power +1 for every 3 [BlessingOfIndexPrescriptAlly] (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain 2 [Breath]",
+          "name": "Stoffa Concessa Dal Prescritto, Tessuta Da Esso",
+          "desc": "Potere Finale +1 per ogni 3 [BlessingOfIndexPrescriptAlly] (max 3)\n[StartBattle] Ottiene Scudo pari al 10% dei PV max (una volta per turno)\n- Riduce lo Scudo ottenuto dell'1% per ogni 5 [KarmaOfIndexAlly]; a 50+ [KarmaOfIndexAlly], non ottiene Scudo\n[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2372,21 +2372,21 @@
         },
         {
           "level": 4,
-          "name": "Prescript-granted, Prescript-woven Fabric",
-          "desc": "Final Power +1 and <style=\"highlight\">deal +10% damage</style> for every 3 [BlessingOfIndexPrescriptAlly] (max 3 and <style=\"highlight\">30%</style>, respectively)\n[StartBattle] Gain Shield equal to <style=\"highlight\">15%</style> of max HP (once per turn)\n- Reduce Shield gained by <style=\"highlight\">1.5%</style> for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain 2 [Breath]",
+          "name": "Stoffa Concessa Dal Prescritto, Tessuta Da Esso",
+          "desc": "Potere Finale +1 e <style=\"highlight\">infligge +10% danni</style> per ogni 3 [BlessingOfIndexPrescriptAlly] (rispettivamente, max 3 e <style=\"highlight\">30%</style>)\n[StartBattle] Ottiene Scudo pari al <style=\"highlight\">15%</style> dei PV max (una volta per turno)\n- Riduce lo Scudo ottenuto dell'<style=\"highlight\">1.5%</style> per ogni 5 [KarmaOfIndexAlly]; a 50+ [KarmaOfIndexAlly], non ottiene Scudo\n[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }

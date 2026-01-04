@@ -3041,57 +3041,57 @@
     },
     {
       "id": "TheUdjatOutis",
-      "name": "The Udjat [Vanguard]",
-      "desc": "- Max Stack: 2\n- Min & Max Speed +3\n- Combat Start: gain 1 Protection\n- Gain the following effects during the Combat Phase (once per Skill, 3 times per turn)\n· When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n· Clash Start: In the first Clash, halve the target's chance to flip Heads for all of its Coins\n· For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\n- Turn End: Reduce 1 Stack",
+      "name": "Udjat [Avanguardia]",
+      "desc": "- Max Stack: 2\n- Velocità Min & Max +3\n- Inizio Combattimento: gain 1 Mitigazione\n- Ottiene i seguenti effetti durante la Fase di Combattimento (una volta per Abilità, 3 volte per turno)\n· Quando quest'unità è il bersaglio di un Attacco Incontrastato, dimezza la chance per la prima Moneta dell'Abilità di ottenere Testa\n· Inizio Scontro: Nel primo Scontro, dimezza la chance del bersaglio di ottere Testa per tutte le sue Monete\n· Per entrambi gli effetti sovracitati, se il bersaglio ha Monete Negative, dimezza invece la sua chance di ottenere Croce\n- Fine Turno: si riduce di 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BlueSand",
-      "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"\n- Units without SP: Min & Max Speed -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Blue Sand Panic Effects\n- Low Morale: Clash Power -1, Min & Max Speed -1\n- Panic: Clash Power -2, Min & Max Speed -1",
+      "name": "Sabbia Blu",
+      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"\n- Unità senza PS: Velocità Min & Max -1\n- Fine Turno: si riduce di 1 Stack\n- Quest'effetto non è cumulabile: infliggerlo di nuovo rimpiazzerà il valore corrente col valore inflitto\n- Applica le condizioni di \"Unità senza PS\" a determinati nemici che hanno i PS ma non possono cambiare il loro tipo di Panico\n\n※ Effetti del Panico Sabbia Blu\n- Morale Basso: Potere Scontro -1, Velocità Min & Max -1\n- Panico: Potere Scontro -2, Velocità Min & Max -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Main",
-      "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"\n- Turn End: Reduce 1 Stack",
-      "summary": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"",
+      "name": "Sabbia Blu",
+      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"\n- Fine Turno: si riduce di 1 Stack",
+      "summary": "Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Sub",
-      "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units without SP: Min & Max Speed -1\n- Turn End: Reduce 1 Stack",
-      "summary": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units without SP: Min & Max Speed -1",
+      "name": "Sabbia Blu",
+      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità senza PS: Velocità Min & Max -1\n- Fine Turno: si riduce di 1 Stack",
+      "summary": "Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità senza PS: Velocità Min & Max -1",
       "undefined": "-"
     },
     {
       "id": "BlueSand_LowMorale",
-      "name": "Blue Sand",
-      "desc": "- Low Morale\n- Clash Power -1\n- Min & Max Speed -1",
-      "summary": "Clash Power -1 on self",
+      "name": "Sabbia Blu",
+      "desc": "- Morale Basso\n- Potere Scontro -1\n- Velocità Min & Max -1",
+      "summary": "Potere Scontro -1 su di sé",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Panic",
-      "name": "Blue Sand",
-      "desc": "- Panic\n- Clash Power -2\n- Min & Max Speed -1",
-      "summary": "Clash Power -2 on self",
+      "name": "Sabbia Blu",
+      "desc": "- Panico\n- Potere Scontro -2\n- Velocità Min & Max -1",
+      "summary": "Potere Scontro -2 su di sé",
       "undefined": "-"
     },
     {
       "id": "SheutFracture",
-      "name": "Sheut Fracture",
-      "desc": "- Max Stack: 10\n- Unique Sinking\n- For every Stack, take +1% more damage from Sloth and Gloom Skills\n- At max Stack, gain 1 Gloom Fragility (once per turn), take Gloom damage equal to Sinking Potency on self(lose 1 Sinking Count), then expires\n- If the unit with this effect dies, transfer half of its Stack to its ally with the highest SP (rounded down)\n- Turn Start: If there are no LCA Identities on the field, expires",
+      "name": "Frattura Sheut",
+      "desc": "- Max Stack: 10\n- Pianto Speciale\n- Per ogni Stack, subisce +1% danni in più dalle Abilità Accidia e Tristezza\n- A Stack max, ottiene 1 Intensifica Tristezza (una volta per turno), subisce danno da Tristezza pari alla Potenza Pianto su di sé (perde 1 Conteggio Pianto), poi scade\n- Se l'unità con quest'effetto muore, trasferisce metà delle sue Stack all'alleato con i PS più alti (arrotondato per difetto)\n- Inizio Turno: Se non ci sono Identità della LCA sul campo, scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LCA_Bullet",
-      "name": "LCA Fracture Round",
-      "desc": "- Max Capacity: 16\n- Unique Ammo\n- Spent by certain Skills\n- Some attacks cancel if lacking Ammo",
+      "name": "Cartuccia Frattura LCA",
+      "desc": "- Max Capacity: 16\n- Munizioni Speciali\n- Usato da certe Abilità\n- Alcuni attacchi verranno cancellati se le Munizioni non sono sufficenti",
       "summary": "",
       "undefined": "-"
     }
