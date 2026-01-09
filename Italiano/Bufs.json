@@ -2619,27 +2619,27 @@
     {
       "id": "BulletPropellantAlly",
       "name": "Proiettili Marchio di Tigre",
-      "desc": "- Munizione Speciale\n- A 8+ (Somma totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi spesi), ottiene Spirito Implacabile - Shin [剛氣-心] al posto di Spirito Implacabile [剛氣] dalla Passiva di questa Unità\n- Proiettili totali spesi: {0}\n-Capacità Massima: 12",
+      "desc": "- Munizione Speciale\n- A 8+ (Somma totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi spesi), ottiene Shin (心) - Stella Tiantui [天退星] al posto di Stella Tiantui [天退星] dalla Passiva di questa Unità\n- Proiettili totali spesi: {0}\n-Capacità Massima: 12",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BulletPropellantSpecialAlly",
       "name": "Proiettili Marchio di Tigre Selvaggi",
-      "desc": "- Munizione Speciale\n-A 8+ (Somma totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi spesi), ottiene Spirito Implacabile - Shin [剛氣-心] al posto di Spirito Implacabile [剛氣] dalla Passiva di questa Unità\n- Proiettili totali spesi: {0} \n- Si attivano allo stesso modo dei Proiettili Marchio di Tigre\n- Capacità massima: 8",
+      "desc": "- Munizione Speciale\n-A 8+ (Somma totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi spesi), ottiene Shin (心) - Stella Tiantui [天退星] al posto di Stella Tiantui [天退星] dalla Passiva di questa Unità\n- Proiettili totali spesi: {0} \n- Si attivano allo stesso modo dei Proiettili Marchio di Tigre\n- Capacità massima: 8",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IrritationAlly",
-      "name": "Spirito Implacabile [剛氣]",
+      "name": "Stella Tiantui [天退星]",
       "desc": "- Velocità Min e Max +1\n- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 2.5)% danni (massimo 20%)\n- Infligge +1 Potenza e Conteggio Vibrazione con le proprie Abilità\n- Se questa unità ha speso 8+ (somma di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi): a Fine Turno, converte questo buff in Spirito Implacabile - Shin [剛氣-心] al turno successivo\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
-      "name": "Spirito Implacabile - Shin [剛氣-心]",
+      "name": "Shin (心) - Stella Tiantui [天退星]",
       "desc": "- Velocità Min e Max +3\n- Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, infligge +(Differenza di Velocità x 5)% danni (massimo 40%)\n- Infligge +2 Potenza e Conteggio Vibrazione con le proprie Abilità\n- Stack Max: 1",
       "summary": "",
       "undefined": "-"
@@ -3092,6 +3092,20 @@
       "id": "LCA_Bullet",
       "name": "Cartuccia Frattura LCA",
       "desc": "- Max Capacity: 16\n- Munizioni Speciali\n- Usato da certe Abilità\n- Alcuni attacchi verranno cancellati se le Munizioni non sono sufficenti",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NiddleEGO",
+      "name": "Needle",
+      "desc": "- Unique Bleed\n- When taking Envy damage, gain +1 Bleed Count and reduce this effect's Stack by 1\n- Turn End: Gain 1 Bleed and reduce this effect's Stack by 1",
+      "summary": "Gain Bleed Count",
+      "undefined": "-"
+    },
+    {
+      "id": "IDMicroChip",
+      "name": "Resident Reg. Microchip",
+      "desc": "- Max Stack: 2\n- Take +10% damage from Wrath and Envy Skills\n- On Clash Lose, gain 1 Burn (3 times per turn)\n- Turn End: Lose 1 Stack",
       "summary": "",
       "undefined": "-"
     }
