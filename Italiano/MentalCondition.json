@@ -104,6 +104,11 @@
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThanWithEmphasis",
       "add": "<color=red>A {2} o più PS,</color> aumenta dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>",
       "min": "<color=red>A {2} o più PS,</color> diminuisce dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnOneSideAttackEnd",
+      "add": "Increase by {0} after Unopposed Attack",
+      "min": "Decrease by {0} after Unopposed Attack"
     }
   ]
 }
