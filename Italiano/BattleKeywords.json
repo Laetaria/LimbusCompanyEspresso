@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "AreaAtk",
-      "name": "Attacco Massivo",
+      "name": "Attacco ad Area",
       "desc": "Bersaglia 2 o più nemici."
     },
     {
@@ -340,17 +340,17 @@
     },
     {
       "id": "SlashDamageDown",
-      "name": "Tagliente Depotenziato",
+      "name": "Diminuzione Danno Tagliente",
       "desc": "Infligge meno danni con le Abilità Taglienti in base alle Stack per un turno. (Max 10)"
     },
     {
       "id": "PenetrateDamageDown",
-      "name": "Perforante Depotenziato",
+      "name": "Diminuzione Danno Perforante",
       "desc": "Infligge meno danni con le Abilità Perforanti in base alle Stack per un turno. (Max 10)"
     },
     {
       "id": "HitDamageDown",
-      "name": "Contundente Depotenziato",
+      "name": "Diminuzione Danno Contundente",
       "desc": "Infligge meno danni con le Abilità Contundenti in base alle Stack per un turno. (Max 10)"
     },
     {
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "KCorpSerum",
-      "name": "Fiala di K. Corp",
+      "name": "Fiala della K. Corp",
       "desc": "A Inizio Turno: Se le Stack sono meno di 4, si cura di (Stack * 5)% dei PV Max\nA 4+ Stack, l'unità muore",
       "summary": ""
     },
@@ -1768,7 +1768,7 @@
     {
       "id": "FreishutzOutisEgoBulletCnt",
       "name": "Proiettile del Cecchino",
-      "desc": "Usa munizioni differenti in base a Proiettile del Cecchino"
+      "desc": "Usa munizioni differenti in base alle Stack di Proiettile del Cecchino"
     },
     {
       "id": "CoveringFire",
