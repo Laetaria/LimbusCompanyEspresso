@@ -2379,29 +2379,33 @@
       "desc": "A inizio Turno: ottiene 1 Fragilità e 2 Efficenza perdita PS"
     },
     {
-      "id": "Hohenheim_Panico",
+      "id": "Hohenheim_Panic",
       "name": "Angoscia",
       "desc": "A inizio Turno: ottiene 2 Fragilità e 3 Efficenza perdita PS"
     },
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Stack Max: 1\n Converte tutte le Monete delle Abilità offensive di quest'unità in [SuperCoin], previene che il danno faccia Vacillamento quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Potere Finale +3\nA Fine Turno: quest'effetto termina"
+      "desc": "Stack Max: 1\n Converte tutte le Monete delle Abilità offensive di quest'unità in [SuperCoin], previene che il danno faccia Vacillamento quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Potere Finale +3\nA Fine Turno: quest'effetto termina",
+      "summary": "Converts Attack Skill to Unbreakable Coin and gains a new effect"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
-      "desc": "Stack Max: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti"
+      "desc": "Stack Max: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti",
+      "summary": "Enhance Slash Skills"
     },
     {
       "id": "EngageToBattle",
       "name": "Pronti alla Battaglia",
-      "desc": "Valore Massimo: 1\n+1 a Potenza e alle Conteggio Sanguinamento inflitte con le Abilità o con gli effetti delle Monete di quest'unità\nOttiene 1 Attacco Aumentato Taglio e 3 Danni Taglienti Aumentati per la durata dello Scontro"
+      "desc": "Valore Massimo: 1\n+1 a Potenza e alle Conteggio Sanguinamento inflitte con le Abilità o con gli effetti delle Monete di quest'unità\nOttiene 1 Attacco Aumentato Taglio e 3 Danni Taglienti Aumentati per la durata dello Scontro",
+      "summary": "Enhance Slash Skills and inflict more Bleed"
     },
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
-      "desc": "Stack Max: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'"
+      "desc": "Stack Max: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'",
+      "summary": "Enhance Defense Skill"
     },
     {
       "id": "NebulizerExhale",
@@ -3191,6 +3195,158 @@
       "desc": "- Max Stack: 20\n- Turn Start: Gain 2 Shield for every Stack\n- Deal +1% damage on Critical Hit for every Stack",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptYi_0",
+      "name": "Prescritto: [Dispositivo] I",
+      "desc": "Usa un’Abilità marchiata con Segno del Prescritto o colpisci un bersaglio con un’Abilità marchiata.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità non ha Sprigiona\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 3 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptYi_1",
+      "name": "Prescritto: [Dispositivo] II",
+      "desc": "Colpisci un bersaglio con un’Abilità marchiata con Segno del Prescritto.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità ha Sprigiona - I\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 6 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptYi_2",
+      "name": "Prescritto: [Dispositivo] III",
+      "desc": "Ottiene Attuazione [Hermes]. Ripete questo Prescritto finché non raggiunge 9 Stack.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità ha Sprigiona - II\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 9 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptYi_3",
+      "name": "Prescritto: [Dispositivo] IV",
+      "desc": "Elimina tutti i nemici prima che il prossimo Prescritto venga recapitato.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità ha Sprigiona - III",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "StackYisangSpecialSkill",
+      "name": "Attuazione [Hermes]",
+      "desc": "- Inizio Turno: A 9 Stack, diventa disponibile un’Abilità potente\n- L’effetto può essere ottenuto fino a (livello di Sprigiona + 2) Stack per turno\n- Max Stack: 9\n· A meno di Sprigiona - II, le Stack di questo effetto sono limitate a 8",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "Shin_IndexFingerYisang",
+      "name": "Shin (心) - Fato",
+      "desc": "- Velocità Min & Max +1\n- Ottiene +1 Potenza e Conteggio Respiro in più dalle Abilità Base\n- Se i PS di questa unità sono più alti di quelli del bersaglio, infligge +1% danni per ogni 3 PS di differenza (max 15%; le unità senza PS vengono considerate con 0 PS)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "BurningWoundYisangMask",
+      "name": "Maschera Copri-ferita",
+      "desc": "- Livello Offensivo +2,Livello Difensivo -2\n- Subisce -10% danni dagli Attacchi Unilaterali",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "BurningWoundYisang",
+      "name": "Ferita Rovente",
+      "desc": "- Livello Offensivo +3, Livello Difensivo -3\n- Subisce -25% danni dagli Attacchi Unilaterali\n- Inizio Turno: Ottiene 1 Bruciatura e 1 Sanguinamento\n- Infligge +15% danni con le Monete Infrangibili delle Abilità Attacco Base",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "BlackNightmareYisang",
+      "name": "Indulgenza nei Prescritti",
+      "desc": "- Velocità Min & Max +5\n- Applica i seguenti effetti a ‘Furioso (Replica)’:\n·Sul Colpo, infligge +1 Potenza Pianto in più ed ottiene +1 Potenza Respiro in più\n·Sul Colpo, infligge +3 Conteggio Pianto (una volta per bersaglio)\n· Infligge +30% danni\n- Termina a Fine Turno",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon01Hatchet",
+      "name": "Mentre squarci tra le costole con un’ascia...",
+      "desc": "- Questa Moneta infligge danno Contundente\n-  Sul Colpo senza Rottura Moneta, ottiene 2 Respiro",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon02Stiletto",
+      "name": "Mentre perfori i polmoni con uno stiletto...",
+      "desc": "- Questa Moneta infligge danno Perforante\n- Sul Colpo senza Rottura Moneta, infligge 2 Pianto",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon03Greatsword",
+      "name": "Mentre fendi la spalla e il cranio con una spada bastarda...",
+      "desc": "- Questa Moneta infligge danno Tagliente\n-  Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, ottiene 1 Aumento Offensivo il turno successivo (2 volte per turno)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon04Rapier",
+      "name": "Mentre buchi 10 o più volte il torso con uno stocco...",
+      "desc": "- Questa Moneta infligge danno Perforante\n- Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, infligge 1 Calo Difensivo il turno successivo (2 volte per turno)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon05Sledgehammer",
+      "name": "Mentre spacchi la nuca con un martello...",
+      "desc": "- Questa Moneta infligge danno Contundente\n- Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, aumenta la soglia di Vacillamento del bersaglio di 3",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon06Ultragreatsword",
+      "name": "Mentre dilani il corpo con uno spadone...",
+      "desc": "- Questa Moneta infligge danno Tagliente\n- Questa Moneta infligge +15% danni\n- Sul Colpo senza Rottura Moneta, infligge 1 Intensifica Tagliente fino al turno successivo (2 volte per turno)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon07Lance",
+      "name": "Mentre realizzi un buco di 50 centimetri con una lancia...",
+      "desc": "- Questa Moneta infligge danno Perforante\n- Questa Moneta infligge +15% danni\n- Sul Colpo senza Rottura Moneta, infligge 1 Intensifica Perforante fino al turno successivo (2 volte per turno)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon08Chain",
+      "name": "Mentre strappi la carne in diecimila strisce con una frusta...",
+      "desc": "- Questa Moneta infligge danno Contundente\n- Questa Moneta infligge +15% danni\n- Sul Colpo senza Rottura Moneta, infligge 1 Intensifica Contundente fino al turno successivo (2 volte per turno)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon09Scythe",
+      "name": "Mentre laceri lo spazio stesso con una falce, proprio come una certa persona...",
+      "desc": "- Questa Moneta infligge danno Tagliente\n- Questa Moneta infligge +30% danni\n- Sul Colpo senza Rottura Moneta, il colpo è sempre un Colpo Critico",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "SatisfyingEsteemNeeds",
+      "name": "Bisogno di Approvazione Colmato",
+      "desc": "- Infligge +7.5% danni con le Abilità marchiate con Segno del Prescritto\n- Infligge +7.5% danni ai Bersagli del Prescritto",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
     }
   ]
 }

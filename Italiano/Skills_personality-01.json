@@ -2653,6 +2653,299 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "\"Avvolgi 330 volte in Lunghe Fasce di Sangue Congelato\"",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% di chance di ottenere un'arma Contundente\n- Le Monete che usano armi Contundenti infliggono +10% danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +15% danni\n[WhenUse] Converte (livello di [UnlockBuff_Base] - 1)  Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene +1 Conteggio [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "\"Avvolgi 330 volte in Lunghe Fasce di Sangue Congelato\"",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% di chance di ottenere un'arma Contundente\n- Le Monete che usano armi Contundenti infliggono +10% danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +15% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Converte (livello di [UnlockBuff_Base] - 1)  Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "\"Avvolgi 330 volte in Lunghe Fasce di Sangue Congelato\"",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% di chance di ottenere un'arma Contundente\n- Le Monete che usano armi Contundenti infliggono <style=\"highlight\">+15%</style> danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Scontro +1</style> ed infligge deal <style=\"highlight\">+20%</style> danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Converte (livello di [UnlockBuff_Base] - 1)  Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene + 2 Conteggio [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "\"Gioisci con un Applauso Silenzioso, Impalati in un Dolore Muto\"",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% di chance di ottenere un'arma Perforante\n- Le Monete che usano armi Perforanti infliggono +10% danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n[WhenUse] Converte (livello di [UnlockBuff_Base])  Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "\"Gioisci con un Applauso Silenzioso, Impalati in un Dolore Muto\"",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% di chance di ottenere un'arma Perforante\n- Le Monete che usano armi Perforanti infliggono +10% danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Converte (livello di [UnlockBuff_Base])  Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "\"Gioisci con un Applauso Silenzioso, Impalati in un Dolore Muto\"",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% di chance di ottenere un'arma Perforante\n- Le Monete che usano armi Perforanti infliggono <style=\"highlight\">+15%</style> danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style>\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Converte (livello di [UnlockBuff_Base])  Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "\"Alza e Ridi della Lama, Piangi la Cascata come l’Aroma delle Foglie Cadute\"",
+          "desc": "Inizio Turno: A 9 [StackYisangSpecialSkill], questa Abilità viene sostituita con 'Furioso (Replica)' (una volta per turno)\n- Priorità all'Abilità che si trova più in basso a sinistra sul Pannello di Controllo\n- [BeforeUse] A meno di 9 [StackYisangSpecialSkill], usa l'Abilità 3\n(75 - ([KarmaOfIndexAlly] / 2))% chance di ottenere un'arma Tagliente\n- Le Monete che usano armi Taglienti infliggono +12.5% danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1\n[WhenUse] Converte (livello di [UnlockBuff_Base]) Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +10% danni per ogni livello di [UnlockBuff_Base] (max 30%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Ottiene [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "\"Alza e Ridi della Lama, Piangi la Cascata come l’Aroma delle Foglie Cadute\"",
+          "desc": "Inizio Turno: A 9 [StackYisangSpecialSkill], questa Abilità viene sostituita con 'Furioso (Replica)' (una volta per turno)\n- Priorità all'Abilità che si trova più in basso a sinistra sul Pannello di Controllon- [BeforeUse] A meno di 9 [StackYisangSpecialSkill], usa l'Abilità 3\n(75 - ([KarmaOfIndexAlly] / 2))% chance di ottenere un'arma Tagliente\n- Le Monete che usano armi Taglienti infliggono <style=\"highlight\">+25%</style> danni\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge <style=\"highlight\">+20%</style> danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Converte (livello di [UnlockBuff_Base] <style=\"highlight\">+ 1</style>) Monete in [SuperCoin], partendo dalla Moneta finale\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] in più pari a (livello di [UnlockBuff_Base])</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge <style=\"highlight\">+20%</style> danni per ogni livello di [UnlockBuff_Base] (max <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">+3</style> Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Per un Capriccio Imprevedibile",
+          "desc": "[StartBattle] Ottiene +2 Conteggio [Breath] (una volta per turno)\n[OnSucceedEvade] Ottiene 1 [Breath] (2 volte per turno)\n[EndBattle] A meno di [UnlockBuffAlly_2], attiva i seguenti effetti (una volta per Incontro):\n- Ottiene [UnlockBuffAlly_2]\n- Se le stack di [BlessingOfIndexPrescriptAlly] sono meno di 6, vengono aumentate fino a 6\n- Ottiene 5 [KarmaOfIndexAlly] all'inizio del turno successivo per ogni [BlessingOfIndexPrescriptAlly] ottenuta con l'effetto sopracitato",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Per un Capriccio Imprevedibile",
+          "desc": "<style=\"highlight\">A [UnlockBuffAlly_3], Potere Moneta +2</style>\n[StartBattle] Ottiene +2 Conteggio [Breath] (una volta per turno)\n[OnSucceedEvade] ottiene <style=\"highlight\">2</style> [Breath] (2 volte per turno)\n[EndBattle] A meno di [UnlockBuffAlly_2], attiva i seguenti effetti (una volta per Incontro):\n- Ottiene [UnlockBuffAlly_2]\n- Se le stack di [BlessingOfIndexPrescriptAlly] sono meno di 6, vengono aumentate fino a 6\n- Ottiene 5 [KarmaOfIndexAlly] all'inizio del turno successivo per ogni [BlessingOfIndexPrescriptAlly] ottenuta con l'effetto sopracitato",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011505,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Furioso (Replica)",
+          "desc": "[WideAreaRampage]\nPuò esserci solo 1 copia di questa Abilità sul Pannello di Controllo\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\nIl Potere Moneta di questa Abilità non cambia, ma, per ogni aumento netto di Potere Moneta, Potere Finale +5 ([Paralysis] non influenza questa Abilità)\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio principale), Potere Finale +1\n[StartBattle]\n- Converte tutte le Monete di questa Abilità in [SuperCoin]\n- Infligge 1 [Sinking] o ottiene 1 [Breath] con ogni colpo di queste Abilità\n- Non ottiene [StackYisangSpecialSkill] per questo turno\n[WhenUse]\n- Potere Scontro +3\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n[EndSkill]\n- Il turno successivo infligge 5 [Combustion], 3 [Binding], e 3 [Vulnerable] a tutti i bersagli che questa unità ha colpito\n- Usa tutte le Stack di [StackYisangSpecialSkill]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "L'arma di questa Moneta è sempre la Falce"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Furioso (Replica)",
+          "desc": "[WideAreaRampage]\nPuò esserci solo 1 copia di questa Abilità sul Pannello di Controllo\nSe questa Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\nIl Potere Moneta di questa Abilità non cambia, ma, per ogni aumento netto di Potere Moneta, Potere Finale +5 <style=\"highlight\">e infligge +25% danni</style> ([Paralysis] non influenza questa Abilità)\n<style=\"highlight\">Potere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio principale) (max 2)</style>\n[StartBattle]\n- Converte tutte le Monete di questa Abilità in [SuperCoin]\n- Infligge 1 [Sinking] o ottiene 1 [Breath] con ogni colpo di queste Abilità\n- Non ottiene [StackYisangSpecialSkill] per questo turno\n[WhenUse]\n- Potere Scontro +3\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n[EndSkill]\n- Il turno successivo infligge 5 [Combustion], 3 [Binding], e 3 [Vulnerable] a tutti i bersagli che questa unità ha colpito\n- Usa tutte le Stack di [StackYisangSpecialSkill]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "L'arma di questa Moneta è sempre la Falce<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Infligge +90% danni su Colpo Critico</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

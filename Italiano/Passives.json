@@ -2716,6 +2716,54 @@
       "id": 1101521,
       "name": "Tranquility [靜念]",
       "desc": "The ally with the fastest Speed heals 5 SP and gains 5 Shield when starting combat with a Defense Skill equipped"
+    },
+    {
+      "id": 1011502,
+      "name": "Prescritto Consegnato su un Dispositivo",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto sopracitato dà priorità all’Abilità 3 (priorità all’Abilità potenziata)\n- Se questa unità Vacilla, è Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sopracitati e [IndexPrescript_Base_2nd] non si attivano",
+      "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
+    },
+    {
+      "id": 1011503,
+      "name": "Il Mandatario dell’Oracolo / Sprigiona",
+      "desc": "Fine Turno: Se in questo turno è stato portato a termine un [IndexPrescript_Base_2nd] con [UnlockBuffAlly_2] o meno, si cura di 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando si esegue un [IndexPrescript_Base_2nd], se il bersaglio principale ha [IndexPrescriptTargetToEnemy], si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se questa unità ha [UnlockBuffAlly_2] e il [IndexPrescriptYi_2] è stato eseguito in questo turno, si cura di 4 PS (una volta per turno)\n- Quando porta a termine un [IndexPrescript_Base_2nd], se [StackYisangSpecialSkill] ha raggiunto 9 Stack, si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base_2nd] non è stato portato a termine in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A [UnlockBuffAlly_3], non ottiene [KarmaOfIndexAlly]\n- Se questa unità prova ad eseguire un [IndexPrescript_Base_2nd] all’Inizio del Combattimento, a non ha potuto bersagliare un nemico durante la fase di combattimento, non ottiene [KarmaOfIndexAlly] a Fine Turno (si applica quando si ha [UnlockBuffAlly_2] o inferiore)\n\nFine Turno: A 3/6/9 [BlessingOfIndexPrescriptAlly], ottiene [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\nInizio Turno: A [UnlockBuffAlly_3], ottiene [Shin_IndexFingerYisang]",
+      "summary": ""
+    },
+    {
+      "id": 1011504,
+      "name": "Il Precettore dell’Indice",
+      "desc": "Quando entra nell’Incontro per la prima volta, ottiene [BurningWoundYisangMask]\n- Fine Turno: Se questa unità ha Vacillato per la prima volta nell’Incontro quando ha questo effetto attivo, si riprende dal Vacillamento (tranne se Vacillamento forzato) e converte [BurningWoundYisangMask] in [BurningWoundYisang]\n\nApplica [SatisfyingEsteemNeeds] a Mandataria dell’Indice - E.G.O Manifestato::Attuazione Don Quixote quando entrambe le unità sono in campo",
+      "summary": ""
+    },
+    {
+      "id": 1011505,
+      "name": "Dispositivo dell’Oracolo [Caduceo]",
+      "desc": "Viene assegnata un’arma casuale ad ogni Moneta per le Abilità Attacco Base. Ogni arma ha un effetto unico.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nOttiene 1 [StackYisangSpecialSkill] quando usa le Abilità con [IndexPrescriptTargetMarkToEnemy]",
+      "summary": "A random weapon is assigned\nGain special effect when using 'Furioso-Replica'"
+    },
+    {
+      "id": 1011506,
+      "name": "Dispositivo dell’Oracolo [Caduceo]",
+      "desc": "Viene assegnata un’arma casuale ad ogni Moneta per le Abilità Attacco Base. Ogni arma ha un effetto unico.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nOttiene 1 [StackYisangSpecialSkill] quando usa le Abilità con [IndexPrescriptTargetMarkToEnemy]\n\n<style=\"highlight\">Converte [BurningWoundYisangMask] in [BurningWoundYisang] alla fine del turno se questa unità ha usato ‘Furioso (Replica)’ per la prima volta in questo Incontro\n\nInizio Turno: Se questa unità ha [BurningWoundYisang] ed ha ‘Furioso (Replica)’ sul Pannello di Controllo, ottiene [BlackNightmareYisang]</style>",
+      "summary": "A random weapon is assigned\nGain special effect when using 'Furioso-Replica'"
+    },
+    {
+      "id": 1011501,
+      "name": "Imitazione di una Vita",
+      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con [SuperCoin] delle Abilità Attacco Base, ottiene 1 [StackYisangSpecialSkill]\n- Fine Attacco: Ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanente)",
+      "summary": "Deal more damage with Skills marked with Mark of the Prescript based on Grace of the Prescript on self\nOn Hit: Heal SP\nGain [StackYisangSpecialSkill] when certain conditions are met"
+    },
+    {
+      "id": 1011511,
+      "name": "Imitazione di una Vita",
+      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con [SuperCoin] delle Abilità Attacco Base, ottiene 1 [StackYisangSpecialSkill]\n- AFine Attacco: Ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanente)\n<style=\"highlight\">- 'Furioso (Replica)' Fine Attacco: il turno successivo ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanenti di questa Abilità / 2) (arrotondato per difetto)</style>\n\n<style=\"highlight\">Se [StackYisangSpecialSkill] ha raggiunto 9 Stack in questo turno a Fine Turno, e se questa unità non ha un’Abilità 3 sul Pannello di Controllo all’inizio del prossimo turno, converte un’Abilità Base in Abilità 3 (dà priorità all’Abilità nello Slot più in basso a sinistra, riga più in basso)</style>",
+      "summary": "Deal more damage with Skills marked with Mark of the Prescript based on Grace of the Prescript on self\nOn Hit: Heal SP\nGain [StackYisangSpecialSkill] when certain conditions are met"
+    },
+    {
+      "id": 1011521,
+      "name": "Grazia di Dio",
+      "desc": "Infligge +5% danni con le Abilità Attacco Base Tagliente, Perforante e Contundente che vengono usate per la prima volta da ogni alleato ogni turno ((una volta per tipo, per tutti gli alleati)\n- Le Identità dell’Indice infliggono invece +10% danni\n- L’applicazione dell’effetto viene determinata Prima di Attaccare",
+      "summary": "Deal more damage with Slash, Pierce, and Blunt Skills used for the first time this turn"
     }
   ]
 }
