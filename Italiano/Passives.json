@@ -2630,31 +2630,31 @@
     },
     {
       "id": 1031402,
-      "name": "Prescript Delivered on a Device",
-      "desc": "Turn Start:\n- Gain [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] based on [UnlockBuff_Base] stage on self\n- Inflict [IndexPrescriptTargetToEnemy] to a random enemy (in Focused Encounters, the Part)\n- Apply [IndexPrescriptTargetMarkToEnemy] to Base Attack Skills on this unit's Dashboard (1 per Slot, max 2 Skills)\n· At [UnlockBuffAlly_2]+, the effect above prioritizes Skill 3\n- All of the effects above and [IndexPrescript_Base_2nd] execution checks do not trigger when this unit is Staggered, Immobilized[TabExplain], in Panic, or in E.G.O Corrosion[TabExplain]\n\nIf this unit has [UnlockBuffAlly_3] at Turn Start, gain [Blandishment_Shin]",
+      "name": "Prescritto Consegnato Su Un Dispositivo",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto dà priorità all’Abilità 3\n- Se questa unità Vacilla, è Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sovracitati e [IndexPrescript_Base_2nd] non si attivano\n\nSe questa unità ha [UnlockBuffAlly_3] ad Inizio Turno, ottiene [Blandishment_Shin]",
       "summary": "Gain Prescript\nInflict The Prescript's Target to random target\nApply Mark of the Prescript on a Base Attack Skill"
     },
     {
       "id": 1031403,
-      "name": "Will of the Prescript",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 4 SP and gain 1 [BlessingOfIndexPrescriptAlly] (once per turn)\n- When executing [IndexPrescript_Base_2nd], if the main target has [IndexPrescriptTargetToEnemy], heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly] instead\n\nTurn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 5 [KarmaOfIndexAlly]\n- At [UnlockBuffAlly_3], does not gain [KarmaOfIndexAlly]\n- If this unit attempted to execute [IndexPrescript_Base_2nd] at Combat Start, but could not target the enemy during the combat phase, does not gain [KarmaOfIndexAlly] at Turn End",
+      "name": "Volontà Del Prescritto",
+      "desc": "Fine Turno: Se il [IndexPrescript_Base_2nd] è stato portato a termine in questo turno, si cura di 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando si porta a termine il [IndexPrescript_Base_2nd], se il bersaglio principale ha [IndexPrescriptTargetToEnemy], si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base_2nd] non è stato portato a termine in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A [UnlockBuffAlly_3], non ottiene [KarmaOfIndexAlly]\n- Se questa unità prova ad eseguire un [IndexPrescript_Base_2nd] all’Inizio del Combattimento, ma non ha potuto bersagliare un nemico durante la fase di combattimento, non ottiene [KarmaOfIndexAlly] a Fine Turno",
       "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
     },
     {
       "id": 1031404,
-      "name": "Unlock / Effloresced E.G.O::Procuration",
-      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptAlly], gain [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nIf this unit gained [UnlockBuffAlly_1], consume 15 SP to enter <noparse>Effloresced</noparse> E.G.O::Procuration state:\n- Before consuming SP to enter this state, heal SP to 25 and gain [KarmaOfIndexAlly] equal to (SP healed / 5) (rounded up)\n- At Turn Start after the above checks, if this unit has [UnlockBuff_Base] and is at 25+ SP, consume 15 SP to enter this state\n\n- If this unit gets Staggered when entering <noparse>Effloresced</noparse> E.G.O::Procuration state, recover from Stagger (if this unit's Stagger cannot be naturally recovered from, does not enter <noparse>Effloresced</noparse> E.G.O::Procuration state)\n- Gain [Blandishment] while in <noparse>Effloresced</noparse> EGO::Procuration state\n\nTurn Start: At 0 or less SP, this unit exits <noparse>Effloresced</noparse> E.G.O::Procuration state"
+      "name": "Sprigiona / E.G.O Manifestato::Attuazione",
+      "desc": "Fine Turno: A 3/6/9 [BlessingOfIndexPrescriptAlly], ottiene [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nSe questa unità ha ottenuto [UnlockBuffAlly_1], usa 15 PS per entrare nello stato E.G.O Manifestato::Attuazione:\n- Prima di usare i PS per entrare in questo stato, cura i PS fino a 25 ed ottiene [KarmaOfIndexAlly] pari a (PS curati / 5) (arrotondato per eccesso)\n- Ad Inizio Turno, dopo aver controllato gli effetti sovracitati, se questa unità ha [UnlockBuff_Base] ed è a 25+ PS, usa 15 PS per entrare in questo stato\n\n- Se questa unità viene fatta Vacillare quando entra nello stato E.G.O Manifestato::Attuazione, si riprende dal Vacillamento (se non è possibile riprendersi normalmente, non entra nello stato E.G.O Manifestato::Attuazione)\n- Ottiene [Blandishment] mentre è nello stato E.G.O Manifestato::Attuazione\n\nInizio Turno: A 0 o meno PS, questa unità esce dallo stato E.G.O Manifestato::Attuazione"
     },
     {
       "id": 1031401,
-      "name": "The Great Magicked Beeper Knoweth My Desire!",
-      "desc": "Deal +2% damage with Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage with Base Skills instead\n\nOn hit with Base Skill attacks against targets with [IndexPrescriptTargetToEnemy], heal 3 SP (once per Skill; 2 times per turn)\n- Heal additional SP based on [UnlockBuff_Base] stage",
+      "name": "Il Sommo Bip-Bip Incantato Conosce Il Mio Desiderio!",
+      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSul Colpo con Abilità Base che colpiscono i bersagli con [IndexPrescriptTargetToEnemy], si cura di 3 PS (una volta per Abilità, 2 volte per turno)\n- Si cura di PS in più in base al livello di [UnlockBuff_Base]",
       "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, heal SP"
     },
     {
       "id": 1031421,
-      "name": "This, too, is the Grace of the Great Magicked Beeper!",
-      "desc": "Combat Start: Heal 15 SP for the ally with the lowest SP\n- This effect prioritizes Plus Coin Identities\n- If the affected unit is in The Index faction, they gain 1 [AttackDmgUp] as well\n- This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion[TabExplain], Panic, etc."
+      "name": "Anche Questa È La Grazia Del Sommo Bip-Bip Incantato!",
+      "desc": "Inizio Combattimento:  L'alleato con il numero più basso di PS recupera 15 PS\n- Questo Effetto da priorità alle Identità che usano Monete Positive\n- Se L'unità influenzata da questo effetto fa parte dell'Indice, ottiene anche 1 [AttackDmgUp]\n- Questo effetto non si applica alle unità con effetti che impediscono il recupero di PS, come la <noparse>Corrosione</noparse> E.G.O, Panico, ecc."
     },
     {
       "id": 1081401,

@@ -646,7 +646,7 @@
     },
     {
       "id": "EsteemNeeds",
-      "name": "Desire for Acknowledgement",
+      "name": "Bisogno di Approvazione",
       "desc": "- For every Stack, Deal +5% damage to and take +5% damage from Ryōshū (max 100%)\n- Final Power +1 for every 5 Stack when attacking Ryōshū as the main target (max 4)\n- At 10+ Stack, lose 5 SP upon Clash Lose\n- Max Stack: 20",
       "summary": "",
       "undefined": "-",
@@ -690,241 +690,241 @@
     },
     {
       "id": "IndexPrescriptRien_0",
-      "name": "Prescript: [Device] I",
-      "desc": "Attack and hit a Prescript's Target before the first turn ends.\n\n- Turn Start: Gain this effect when this unit has no Unlock\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 3",
+      "name": "Prescritto: [Dispositivo] I",
+      "desc": "Attacca e colpisci l'Obiettivo del Prescritto prima che il primo turno finisca.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità non ha Sprigiona\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 3 volte",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_1",
-      "name": "Prescript: [Device] II",
-      "desc": "Attack and hit a Prescript's Target; or, before this turn passes, hit with 4 or more attacks. Complete before the 4th turn.\n\n- Turn Start: Gain this effect when this unit has Unlock - 1\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 6",
+      "name": "Prescritto: [Dispositivo] II",
+      "desc": "Attacca e colpisci l'Obiettivo del Prescritto o, prima che questo turno passi, metti a segno 4 o più attacchi. Completa l'ordine prima del 4o turno.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità ha Sprigiona - 1\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 6 volte",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_2",
-      "name": "Prescript: [Device] III",
-      "desc": "Use a powerful Skill that uses 9 different weapon types.\n\n- Turn Start: Gain this effect if this unit has Unlock - II\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 9",
+      "name": "Prescritto: [Dispositivo] III",
+      "desc": "Usa un'Abilità potente con 9 tipi di armi diverse.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità ha Sprigiona - II\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 9 volte",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_3",
-      "name": "Prescript: [Device] IV",
-      "desc": "Eliminate all obstacles before the next Prescript arrives.\n\n- Turn Start: Gain this effect if this unit has Unlock - III ",
+      "name": "Prescritto: [Dispositivo] IV",
+      "desc": "Elimina tutti i nemici prima che il prossimo Prescritto venga recapitato.\n\n- Inizio Turno: Ottiene questo effetto quando questa unità ha Sprigiona - III",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescript_RienSecondPhase",
-      "name": "Prescript: [Device] - Warning",
-      "desc": "Prioritize eliminating The Prescript's Target.\n\n- Gain this effect starting from the 2nd phase",
+      "name": "Prescritto: [Dispositivo] - Avvertenza",
+      "desc": "Dai priorità all'eliminare l'Obiettivo del Prescritto.\n\n- Ottiene questo effetto a partire dalla 2a fase",
       "summary": "",
       "undefined": "-",
-      "flavor": "'The Device's beeping accelerates with every second I let pass without fulfilling a Prescript.'\n\n'And with it, so do the intervals of my heartbeat.'"
+      "flavor": "'Il segnale del Dispositivo accelera ogni secondo che passa senza che io porti a termine un Prescritto.'\n\n'Insieme ad esso, accelerano anche gli intervalli del mio battito cardiaco.'"
     },
     {
       "id": "UnlockBuff_Rien1",
-      "name": "Unlock - I",
-      "desc": "- Offense Level +1, Defense Level +1\n- Combat End: Heal 10 SP",
+      "name": "Sprigiona - I",
+      "desc": "- Livello Offensivo +1, Livello Difensivo +1\n- A Fine Combattimento: Si cura di 10 PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuff_Rien2",
-      "name": "Unlock - II",
-      "desc": "- Offense Level +2, Defense Level +2\n- Combat End: Heal 20 SP",
+      "name": "Sprigiona - II",
+      "desc": "- Livello Offensivo +2, Livello Difensivo +2\n- A Fine Combattimento: Si cura di 20 PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuff_Rien3",
-      "name": "Unlock - III",
-      "desc": "- Offense Level +3, Defense Level +3\n- Combat End: Heal 30 SP",
+      "name": "Sprigiona - III",
+      "desc": "- Livello Offensivo +3, Livello Difensivo +3\n- A Fine Combattimento: Si cura di 30 PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KarmaOfIndexRien",
-      "name": "Karmic Consequence",
-      "desc": "- Turn Start:\n· Gain 1 Defense Level Down for every 10 Stack\n· Gain 1 Fragile for every 20 Stack\n· Gain 1 Clash Power Down for every 40 Stack\n- Max Stack: 100",
+      "name": "Conseguenza Karmica",
+      "desc": "- Inizio Turno:\n· Ottiene 1 Calo Difensivo per ogni 10 Stack\n· Ottiene 1 Vulnerabilità per ogni 20 Stack\n· Ottiene 1 Potere Scontro Ridotto per ogni 40 Stack\n- Max Stack: 100",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KarmaOfIndexRien_2Phase",
-      "name": "Karmic Consequence [Fortuna]",
-      "desc": "- Turn Start:\n· Gain 1 Defense Level Down for every 10 Stack\n· Gain 1 Fragile for every 20 Stack\n· Gain 1 Clash Power Down for every 40 Stack\n- Max Stack: 200",
+      "name": "Conseguenza Karmica [Fortuna]",
+      "desc": "- Inizio Turno:\n· Ottiene 1 Calo Difensivo per ogni 10 Stack\n· Ottiene 1 Vulnerabilità per ogni 20 Stack\n· Ottiene 1 Potere Scontro Ridotto per ogni 40 Stack\n- Max Stack: 200",
       "summary": "",
       "undefined": "-",
       "flavor": "O Fortúna velut luna statu variabilis"
     },
     {
       "id": "BurningWoundRien_Mask",
-      "name": "Rien's Mask",
-      "desc": "- Offense Level -5, Defense Level -5\n- For every Stack, take +5% damage from Skills that inflict Burn or Bleed (includes Potency, Count, and Unique variants)\n· If the Skill inflicts both Burn and Bleed, take +7.5% damage for every Stack instead\n- Max Stack: 1",
+      "name": "Maschera di Rien",
+      "desc": "- Livello Offensivo -5, Livello Difensivo -5\n- Per ogni Stack, subisce +5% danni dalle Abilità che infliggono Bruciatura o Sanguinamento (Potenza, Conteggio e varianti Speciali)\n· Se invece le Abilità infliggono sia Bruciatura che Sanguinamento, subisce +7.5% danni per ogni Stack\n- Max Stack: 1",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"I keep it covered because it hurts to even look at.\""
+      "flavor": "\"Continuo a tenerla coperta perché fa male anche solo guardarla.\""
     },
     {
       "id": "BurningWoundRien",
-      "name": "Sizzling Wound",
-      "desc": "- Offense Level -5, Defense Level -5\n- Turn Start: Gain +1 Burn Count and +1 Bleed Count for every Stack\n- For every Stack, take +10% damage from Skills that inflict Burn or Bleed (includes Potency, Count, and Unique variants)\n· If the Skill inflicts both Burn and Bleed, take +15% damage for every Stack instead\n- Max Stack: 5",
+      "name": "Ferita Rovente",
+      "desc": "- Livello Offensivo -5, DLivello Difensivo -5\n- Inizio Turno: Ottiene +1 Conteggio Bruciatura e +1 Conteggio Sanguinamento per ogni Stack\n- Per ogni Stack, subisce +10% danni dalle Abilità che infliggono Bruciatura o Sanguinamento (Potenza, Conteggio e varianti Speciali)\n· Se invece le Abilità infliggono sia Bruciatura che Sanguinamento, subisce +15% danni per ogni Stack\n- Max Stack: 5",
       "summary": "",
       "undefined": "-",
-      "flavor": "When in proximity of the sword, the wound unheals and the flesh that once cooled burns once again."
+      "flavor": "In prossimità della spada, la ferita si riapre e la carne che era ormai fredda torna a bruciare."
     },
     {
       "id": "Shin_Rien",
       "name": "Shin (心) - Rien",
-      "desc": "- Turn Start: Based on the missing HP on this unit...\n· Gain 1 Damage Up for every 15% missing HP (max 5)\n· Gain 1 Attack Power Up for every 40% missing HP (max 2)\n- Gain +1 more Poise Potency and Count from this unit's Skills\n- If this unit's SP is higher than the target's, deal +1% damage for every 2 SP difference (max 30%)",
+      "desc": "- Inizio Turno: In base ai PV mancanti di questa unità...\n· Ottiene 1 Danno Aumentato per ogni 15% di PV mancanti (max 5)\n· Ottiene 1 Potenziamento per ogni 40% di PV mancanti (max 2)\n- Ottiene +1 Potenza e Conteggio Respiro in più dalle Abilità\n- Se i PS di questa unità sono più alti di quelli del bersaglio, infligge +1% danni per ogni 2 PS di differenza (max 30%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StackRienSpecialSkill",
-      "name": "Procuration [Hermes]",
-      "desc": "- Gain 1 Stack when using an Attack Skill (once per Skill; does not gain Stack from the same Skill twice)\n- Turn Start: at 9 Stack, use a powerful Skill\n- Consumed when using a certain Skill",
+      "name": "Attuazione [Hermes]",
+      "desc": "- Ottiene 1 Stack quando usa un'Abilità Attacco (una volta per Abilità, non ottiene Stack dalla stessa Abilità due volte)\n- Inizio Turno: a 9 Stack, usa un'Abilità potente\n- Si consuma quando viene usata una certa Abilità",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"As my god commands.\""
+      "flavor": "\"Come il mio dio comanda.\""
     },
     {
       "id": "RienWeapon01Hatchet",
-      "name": "When hacking through the ribs with a hatchet...",
-      "desc": "- Deals Blunt damage\n- On Hit without Cracking, gain 2 Poise",
+      "name": "Mentre squarci tra le costole con un’ascia...",
+      "desc": "- Infligge danno Contundente\n- Sul Colpo senza Rottura Moneta, ottiene 2 Respiro",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon01Hatchet2phase",
-      "name": "When hacking through the ribs with a hatchet...",
-      "desc": "- Deals Blunt damage\n- On Hit without Cracking, gain 2 Poise and +2 Poise Count",
+      "name": "Mentre squarci tra le costole con un’ascia...",
+      "desc": "- Infligge danno Contundente\n- Sul Colpo senza Rottura Moneta, ottiene 2 Respiro e +2 Conteggio Respiro",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"This is barely a weapon, but it's better than a fork.\""
+      "flavor": "\"È a malapena un'arma, ma è meglio di una forchetta.\""
     },
     {
       "id": "RienWeapon02Stiletto",
-      "name": "When penetrating the lungs with a stiletto...",
-      "desc": "- Deals Pierce damage\n- On Hit Without Cracking, inflict 2 Sinking",
+      "name": "Mentre perfori i polmoni con uno stiletto...",
+      "desc": "- Infligge danno Perforante\n- Sul Colpo senza Rottura Moneta, infligge 2 Pianto",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon02Stiletto2phase",
-      "name": "When penetrating the lungs with a stiletto...",
-      "desc": "- Deals Pierce damage\n- On Hit without Cracking, inflict 2 Sinking and +2 Sinking Count",
+      "name": "Mentre perfori i polmoni con uno stiletto...",
+      "desc": "- Infligge danno Perforante\n- Sul Colpo senza Rottura Moneta, infligge 2 Pianto e +2 Conteggio Pianto",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"I couldn't help but feel a dreadful chill run down my back whenever I'm given this weapon when the situation calls for a horizontal swing. I find it hard to work with this.\""
+      "flavor": "\"Non riesco a non sentire un brivido agghiacciante sulla mia schiena ogni volta che mi viene data quest'arma e c'è bisogno di un fendente orizzontale. Trovo che sia difficile usarla.\""
     },
     {
       "id": "RienWeapon03Greatsword",
-      "name": "When cleaving through the shoulder and the skull with a bastard sword...",
-      "desc": "- Deals Slash damage\n- This Coin deals +5% damage\n- On Hit without Cracking, gain 1 Offense Level Up next turn (2 times per turn)",
+      "name": "Mentre fendi la spalla e il cranio con una spada bastarda...",
+      "desc": "- Infligge danno Tagliente\n- Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, ottiene 1 Aumento Offensivo il turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon03Greatsword2phase",
-      "name": "When cleaving through the shoulder and the skull with a bastard sword...",
-      "desc": "- Deals Slash damage\n- This Coin deals +7.5% damage\n- On Hit without Cracking, gain 1 Offense Level Up until next turn (2 times per turn)",
+      "name": "Mentre fendi la spalla e il cranio con una spada bastarda...",
+      "desc": "- Infligge danno Tagliente\n- Questa Moneta infligge +7.5% danni\n- Sul Colpo senza Rottura Moneta, ottiene 1 Aumento Offensivo fino al turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"This sword, it's... passable, but that quality in and of itself leaves a lot to be desired. Nevertheless, it can still be a trusty weapon as long as your fundamental skills are solid.\""
+      "flavor": "\"Questa spada è... accettabile, ma quella qualità in sé per sé lascia molto a desiderare. Può tuttavia essere lo stesso un'arma affidabile, a patto che i tuoi fondamenti siano solidi.\""
     },
     {
       "id": "RienWeapon04Rapier",
-      "name": "When punching 10 or more holes in the torso with a rapier...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +5% damage\n- On Hit without Cracking, inflict 1 Defense Level Down next turn (2 times per turn)",
+      "name": "Mentre buchi 10 o più volte il torso con uno stocco...",
+      "desc": "- Infligge danno Perforante\n- Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, infligge 1 Calo Difensivo il turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon04Rapier2phase",
-      "name": "When punching 10 or more holes in the torso with a rapier...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +7.5% damage\n- On Hit without Cracking, inflict 1 Defense Level Down until next turn (2 times per turn)",
+      "name": "Mentre buchi 10 o più volte il torso con uno stocco...",
+      "desc": "- Infligge danno Perforante\n- Questa Moneta infligge +7.5% danni\n- Sul Colpo senza Rottura Moneta, infligge 1 Calo Difensivo fino al turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"A weapon longer and sharper than the stiletto. I enjoy the rapier as well, as it lends itself quite well to more dexterous techniques.\""
+      "flavor": "\"Un'arma più lunga e più affilata dello stiletto. Gradisco anche lo stocco, poiché si presta molto bene a tecniche più agili.\""
     },
     {
       "id": "RienWeapon05Sledgehammer",
-      "name": "When caving in the back of the skull with a hammer...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +5% damage\n- On Hit without Cracking, raise target's Stagger Threshold by 3",
+      "name": "Mentre spacchi la nuca con un martello...",
+      "desc": "- Infligge danno Contundente\n-  Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, aumenta la soglia di Vacillamento del bersaglio di 3",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon05Sledgehammer2phase",
-      "name": "When caving in the back of the skull with a hammer...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +7.5% damage\n- On Hit without Cracking, raise target's Stagger Threshold by 5",
+      "name": "Mentre spacchi la nuca con un martello...",
+      "desc": "- Infligge danno Contundente\n- Questa Moneta infligge +7.5% danni\n- Sul Colpo senza Rottura Moneta, aumenta la soglia di Vacillamento del bersaglio di 5",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"Simple, but final. It's not a half-measure like a hatchet—it <i>will</i> crush whatever it hits.\""
+      "flavor": "\"Semplice, ma efficace. Non fa il lavoro a metà come un'ascia; <i>schiaccerà</i> qualsiasi cosa colpisca.\""
     },
     {
       "id": "RienWeapon06Ultragreatsword",
-      "name": "When rending the body with a greatsword...",
-      "desc": "- Deals Slash damage\n- This Coin deals +10% damage\n- On Hit without Cracking, inflict 1 Slash Fragility (2 times per turn)",
+      "name": "Mentre dilani il corpo con uno spadone...",
+      "desc": "- Infligge danno Tagliente\n- Questa Moneta infligge +10% danni\n- Sul Colpo senza Rottura Moneta, infligge Intensifica Tagliente (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon06Ultragreatsword2phase",
-      "name": "When rending the body with a great sword...",
-      "desc": "- Deals Slash damage\n- This Coin deals +15% damage\n- On Hit without Cracking, inflict 1 Slash Fragility until next turn (2 times per turn)",
+      "name": "Mentre dilani il corpo con uno spadone...",
+      "desc": "- Infligge danno Tagliente\n- Questa Moneta infligge +15% danni\n- Sul Colpo senza Rottura Moneta, infligge Intensifica Tagliente fino al turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"When it comes to wielding blades of ponderous size and weight, such as this one, it is important to find your center of gravity.\"\n\"And of course, don't forget to take advantage of its sheer mass.\"\n\"I once jumped from the rooftop of a five-story building with this weapon and dropped on top of a Grade 1 Fixer's head, killing him instantly.\""
+      "flavor": "\"Quando bisogna impugnare lame di peso e grandezza considerevoli, come questa, è importante trovare il tuo baricentro.\"\n\"E, ovviamente, non dimenticare di sfruttare tutta la sua massa.\"\n\"Una volta mi sono buttato dal tetto di un edificio a cinque piani con quest'arma e sono caduto sulla testa di Fixer di Grado 1, uccidendolo immediatamente.\""
     },
     {
       "id": "RienWeapon07Lance",
-      "name": "When boring a 20-inch hole with a lance...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +10% damage\n- On Hit without Cracking, inflict 1 Pierce Fragility (2 times per turn)",
+      "name": "Mentre realizzi un buco di 50 centimetri con una lancia...",
+      "desc": "- Infligge danno Perforante\n- Questa Moneta infligge +10% danni\n- Sul Colpo senza Rottura Moneta, infligge Intensifica Perforante (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon07Lance2phase",
-      "name": "When boring a 20-inch hole with a lance...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +15% damage\n- On Hit without Cracking, inflict 1 Pierce Fragility until next turn (2 times per turn)",
+      "name": "Mentre realizzi un buco di 50 centimetri con una lancia...",
+      "desc": "- Infligge danno Perforante\n- Questa Moneta infligge +15% danni\n- Sul Colpo senza Rottura Moneta, infligge Intensifica Perforante fino al turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"I'd consider this weapon a jackpot. This lance has a self-propelling property as well, which is what allows it to punch through the target—and anything that stands between us as well, whether that is a wall or a person.\""
+      "flavor": "\"Considererei quest'arma un vero affare. Questa lancia ha anche una funzione semovente, che è ciò che le permette di perforare del tutto il bersaglio—ed anche tutto quello che c'è in mezzo, che sia un muro o una persona.\""
     },
     {
       "id": "RienWeapon08Chain",
-      "name": "When ripping the flesh to ten thousand strips with a whip...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +10% damage\n- On Hit without Cracking, inflict 1 Blunt Fragility (2 times per turn)",
+      "name": "Mentre strappi la carne in diecimila strisce con una frusta...",
+      "desc": "- Infligge danno Contundente\n- Questa Moneta infligge +10% danni\n- Sul Colpo senza Rottura Moneta, infligge Intensifica Contundente (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon08Chain2phase",
-      "name": "When ripping the flesh to ten thousand strips with a whip...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +15% damage\n- On Hit without Cracking, inflict 1 Blunt Fragility until next turn (2 times per turn)",
+      "name": "Mentre strappi la carne in diecimila strisce con una frusta...",
+      "desc": "- Infligge danno Contundente\n- Questa Moneta infligge +15% danni\n- Sul Colpo senza Rottura Moneta, infligge Intensifica Contundente fino al turno successivo (2 volte per turno)",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"While some may equate this weapon to losing a lottery... I am quite fond of it.\"\n\"When this whip cracks, it doesn't just make them bleed; it tears a strip off the target's flesh, and with it their resolve and energy.\"\n\"I appreciate that it lets me observe the full process of how someone is deconstructed as they are weakened. Oh, and it can also be used to strangle in a pinch.\""
+      "flavor": "\"Per alcuni quest'arma è una sconfitta assicurata... Ma io ci sono parecchio affezionato.\"\n\"Quando la frusta fa contatto, non li fa solo sanguinare: strappa una striscia di carne, e con essa la loro determinazione ed energia.\"\n\"Apprezzo che mi lasci osservare tutto il processo di come qualcuno viene decostruito, mentre viene indebolito. Oh, e in caso di necessità può anche essere usata per strozzare.\""
     },
     {
       "id": "RienWeapon09Scythe",
-      "name": "When lacerating through space itself with a scythe, like a certain someone...",
-      "desc": "- Deals Slash damage\n- This Coin deals +20% damage\n- On Hit without Cracking, it hits a guaranteed Crit",
+      "name": "Mentre laceri lo spazio stesso con una falce, proprio come una certa persona...",
+      "desc": "- Infligge danno Tagliente\n- Questa Moneta infligge +20% danni\n- Sul Colpo senza Rottura Moneta, il colpo è sempre Critico",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon09Scythe2phase",
-      "name": "When lacerating through space itself with a scythe, like a certain someone...",
-      "desc": "- Deals Slash damage\n- This Coin deals +30% damage\n- On Hit without Cracking, it hits a guaranteed Crit",
+      "name": "Mentre laceri lo spazio stesso con una falce, proprio come una certa persona...",
+      "desc": "- Infligge danno Tagliente\n- Questa Moneta infligge +30% danni\n- Sul Colpo senza Rottura Moneta, il colpo è sempre Critico",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"The scythe... I could not for the life of me understand how to use this weapon until I saw that Blue Reverberation wield his own.\"\n\"Even after I had observed him, the Prescript continued to give me no other weapons than the scythe for a while. Eventually, it became my favorite, most familiar, and sharpest weapon.\"\n\"This weapon also cuts the best out of them all. While there are many techniques to cut through space itself— Hm. Perhaps this story is best saved for another time.\""
+      "flavor": "\"La falce... Non ho mai capito come usare quest'arma fino a quando non ho visto il Riverbero Blu usare la sua.\"\n\"Anche dopo averlo osservato, per un periodo il Prescritto ha continuato a darmi solo la falce. Col tempo è diventata la mia preferita, la più familiare e la più letale.\"\n\"Inoltre, quest'arma è la migliore tra tutte nel taglio. Ci sono molte tecniche per lacerare lo stesso spazio— Mh. Forse è meglio che io racconti questa storia un'altra volta.\""
     },
     {
       "id": "Ryoshu_RienBattle_1Phase",

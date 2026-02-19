@@ -2650,20 +2650,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Skull Crushing",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +1 [Breath] Count",
+          "name": "Sfondamento Del Cranio",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n[WhenUse] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             }
@@ -2671,20 +2671,20 @@
         },
         {
           "level": 2,
-          "name": "Skull Crushing",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+          "name": "Sfondamento Del Cranio",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2692,23 +2692,23 @@
         },
         {
           "level": 4,
-          "name": "Skull Crushing",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style> and deal <style=\"highlight\">+15%</style> damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Sfondamento Del Cranio",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style> e infligge <style=\"highlight\">+15%</style> danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain +1 [Breath] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
                 }
               ]
             }
@@ -2721,21 +2721,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "B-be Thee Silent",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n[WhenUse] Gain 3 [Breath]",
+          "name": "N-Non Proferir Parola",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -2743,27 +2743,27 @@
         },
         {
           "level": 2,
-          "name": "B-be Thee Silent",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]",
+          "name": "N-Non Proferir Parola",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2771,30 +2771,30 @@
         },
         {
           "level": 4,
-          "name": "B-be Thee Silent",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style>\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath]",
+          "name": "N-Non Proferir Parola",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style>\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             }
@@ -2807,26 +2807,26 @@
       "levelList": [
         {
           "level": 3,
-          "name": "T-the Prescript Must be Fulfilled Anon...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +20% damage on Critical Hit\nFinal Power +1 for every 4 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] At 2+ [UnlockBuff_Base] stage, convert all Coins of this Skill to [SuperCoin]s\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "I-Il Prescritto Va Ultimato Celermente...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin](i)\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +20% damage for every [UnlockBuff_Base] stage (max 60%)"
+                  "desc": "Infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +1 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2834,26 +2834,26 @@
         },
         {
           "level": 4,
-          "name": "T-the Prescript Must be Fulfilled Anon...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Coin Power +1 and</style> deal +<style=\"highlight\">40</style>% damage on Critical Hit\nFinal Power +1 for every 4 ([Breath] on self + [Sinking] on target) (max <style=\"highlight\">4</style>)\n[StartBattle] At 2+ [UnlockBuff_Base] stage, convert all Coins of this Skill to [SuperCoin]s <style=\"highlight\">and deal +20% damage for every [UnlockBuff_Base] stage (max 60%)</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain [Breath] equal to current [UnlockBuff_Base] stage",
+          "name": "I-Il Prescritto Va Ultimato Celermente...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Moneta +1 e</style> infligge +<style=\"highlight\">40</style>% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max <style=\"highlight\">4</style>)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin](i) <style=\"highlight\">e infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al livello corrente di [UnlockBuff_Base]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+40%</style> damage for every [UnlockBuff_Base] stage (max <style=\"highlight\">120%</style>)"
+                  "desc": "Infligge <style=\"highlight\">+40%</style> danni per ogni livello di [UnlockBuff_Base] (max <style=\"highlight\">120%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +1 Conteggio [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Sinking] <style=\"highlight\">and +1 [Sinking] Count</style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Sinking] <style=\"highlight\">e +1 Conteggio [Sinking]</style>"
                 }
               ]
             }
@@ -2866,13 +2866,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prescript-granted, Prescript-woven Fabric",
-          "desc": "Final Power +1 for every [UnlockBuff_Base] stage (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Stoffa Concessa Dal Prescritto, Tessuta Da Esso",
+          "desc": "Potere Finale +1 per ogni livello di [UnlockBuff_Base] (max 3)\n[StartBattle] Ottiene Scudo pari al 10% dei PV max (una volta per turno)\n- Riduce lo Scudo ottenuto del 1% per ogni 5 [KarmaOfIndexAlly]; a 50+ [KarmaOfIndexAlly], non ottiene lo Scudo\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndBattle] Se quest'unità non ha [UnlockBuff_Base], ottiene [UnlockBuffAlly_1] (una volta per turno)\n- Modifica le Stack di [BlessingOfIndexPrescriptAlly] a 3\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
@@ -2880,7 +2880,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2888,27 +2888,27 @@
         },
         {
           "level": 4,
-          "name": "Prescript-granted, Prescript-woven Fabric",
-          "desc": "Final Power +1 <style=\"highlight\">and deal +15% damage</style> for every [UnlockBuff_Base] stage (max 3; <style=\"highlight\">max 45%</style>)\n[StartBattle] Gain Shield equal to <style=\"highlight\">15</style>% of max HP (once per turn)\n- Reduce Shield gained by <style=\"highlight\">1.5</style>% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Stoffa Concessa Dal Prescritto, Tessuta Da Esso",
+          "desc": "Potere Finale +1 <style=\"highlight\">e infligge +15% danni</style> per ogni livello di [UnlockBuff_Base] (max 3; <style=\"highlight\">max 45%</style>)\n[StartBattle] Ottiene Scudo pari al <style=\"highlight\">15</style>% dei PV max (una volta per turno)\n- Riduce lo Scudo ottenuto del <style=\"highlight\">1.5</style>% per ogni 5 [KarmaOfIndexAlly]; a 50+ [KarmaOfIndexAlly], non ottiene lo Scudo\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndBattle] Se quest'unità non ha [UnlockBuff_Base], ottiene [UnlockBuffAlly_1] (una volta per turno)\n- Modifica le Stack di [BlessingOfIndexPrescriptAlly] a 3\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2921,20 +2921,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let These Hands be the Proxy with Which...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +1 [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+          "name": "Lascia Che Queste Mani Siano Il Mandante Per Cui...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[EndSkill] Perde 3 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -2942,20 +2942,20 @@
         },
         {
           "level": 2,
-          "name": "Let These Hands be the Proxy with Which...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+          "name": "Lascia Che Queste Mani Siano Il Mandante Per Cui...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]\n[EndSkill] Perde 3 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2963,23 +2963,23 @@
         },
         {
           "level": 4,
-          "name": "Let These Hands be the Proxy with Which...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">15</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+          "name": "Lascia Che Queste Mani Siano Il Mandante Per Cui...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +<style=\"highlight\">15</style>% danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Perde 3 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain +1 [Breath] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
                 }
               ]
             }
@@ -2992,21 +2992,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Engrave",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+          "name": "Attuazione: Incidere",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +5% danni\n[WhenUse] Ottiene 3 [Breath]\n[EndSkill] Perde 6 SP (2 volte per turno)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             }
@@ -3014,27 +3014,27 @@
         },
         {
           "level": 2,
-          "name": "Procuration: Engrave",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+          "name": "Attuazione: Incidere",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +5% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndSkill] Perde 6 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 2 [Sinking]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3042,30 +3042,30 @@
         },
         {
           "level": 4,
-          "name": "Procuration: Engrave",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">10</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+          "name": "Attuazione: Incidere",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +<style=\"highlight\">10</style>% danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndSkill] Perde 6 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             }
@@ -3078,8 +3078,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Procuration: Annihilate",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +15% damage\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Lose 15 SP (2 times per turn)",
+          "name": "Attuazione: Annientare",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +15% danni\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill] Perde 15 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -3087,7 +3087,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
@@ -3097,7 +3097,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
@@ -3107,7 +3107,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
@@ -3117,13 +3117,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin deals +20% damage for every [UnlockBuff_Base] stage (max 60%)"
+                  "desc": "Questa Moneta infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -3131,8 +3131,8 @@
         },
         {
           "level": 4,
-          "name": "Procuration: Annihilate",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">25</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain [Breath] equal to current [UnlockBuff_Base] stage</style>\n[EndSkill] Lose 15 SP (2 times per turn)",
+          "name": "Attuazione: Annientare",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +<style=\"highlight\">25</style>% danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al livello attuale di [UnlockBuff_Base]</style>\n[EndSkill] Perde 15 PS (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -3140,7 +3140,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -3150,7 +3150,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -3160,7 +3160,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -3170,13 +3170,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "This Coin gains <style=\"highlight\">Power +1</style> and deals +<style=\"highlight\">40</style>% damage for every [UnlockBuff_Base] stage <style=\"highlight\">(max 3; max 120%)</style>"
+                  "desc": "Questa Moneta ottiene <style=\"highlight\">Potere +1</style> e infligge +<style=\"highlight\">40</style>% danni per ogni livello di [UnlockBuff_Base] <style=\"highlight\">(max 3; max 120%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Sinking] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Sinking]"
                 }
               ]
             }
@@ -3189,21 +3189,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Compulsory Unlock",
-          "desc": "[DuelCounter]\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Sblocco Forzato",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [Breath]\n[EndBattle] Al di sotto del livello 3 di [UnlockBuff_Base], attiva i seguenti effetti (una volta per turno):\n- Se quest'unità ha [UnlockBuff_Base], aumenta di 1 il suo livello\n- A meno di 6/9 [BlessingOfIndexPrescriptAlly], modifica le sue Stack in 6/9\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -3211,21 +3211,21 @@
         },
         {
           "level": 4,
-          "name": "Compulsory Unlock",
-          "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every [UnlockBuff_Base] stage (max 3)</style>\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Sblocco Forzato",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Potere Finale +1 per ogni livello di [UnlockBuff_Base] (max 3)</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndBattle] Al di sotto del livello 3 di [UnlockBuff_Base], attiva i seguenti effetti (una volta per turno):\n- Se quest'unità ha [UnlockBuff_Base], aumenta di 1 il suo livello\n- A meno di 6/9 [BlessingOfIndexPrescriptAlly], modifica le sue Stack in 6/9\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
