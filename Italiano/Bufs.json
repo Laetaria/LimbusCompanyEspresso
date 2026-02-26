@@ -2118,7 +2118,7 @@
     {
       "id": "Retreat",
       "name": "Modalità Strategica R&R",
-      "desc": "- A Fine Turno: si riprende dal Vacillamento e si ritira dallo Scontro (a meno che non sia un Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)",
+      "desc": "- A Fine Turno: si riprende dal Vacillamento e si ritira dallo Scontro (escluso il Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)",
       "summary": "",
       "undefined": "-"
     },
@@ -2314,7 +2314,7 @@
     {
       "id": "FreishutzOutisEgoBullet_7th",
       "name": "La Sesta Pallottola Magica",
-      "desc": "- Infligge +200% in più di danno\n- Infligge +2.5% più danni per ogni 1% PV mancanti al bersaglio (max 200%)\n- Prima di attaccare: per questo attacco, se la resistenza al danno perforante sul nemico e su di sè sono meno di 2.0, cambia in Fatale (x2.0)\n- Dopo l'attacco: quest'unità muore"
+      "desc": "- Infligge +200% in più di danno\n- Infligge +2.5% più danni per ogni 1% PV mancanti al bersaglio (max 200%)\n- Prima di attaccare: per questo attacco, se la resistenza al danno perforante sul nemico e su di sè sono meno di 2.0, cambia in Fatale (x2.0)\n- Fine Attacco: quest'unità muore"
     },
     {
       "id": "FreishutzOutisEgoBulletCnt",
@@ -2339,7 +2339,7 @@
     {
       "id": "Retreat_FullStop",
       "name": "Sorveglianza",
-      "desc": "- A Fine Turno: si riprende dal Vacillamento e si ritira dall'Incontro (a meno che non sia un Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, gli Slot di questa unità vengono dati all'unità che entra al suo posto, e viene spostata più in fondo possibile nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre Unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva durante la Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)"
+      "desc": "- A Fine Turno: si riprende dal Vacillamento e si ritira dall'Incontro (escluso il Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, gli Slot di questa unità vengono dati all'unità che entra al suo posto, e viene spostata più in fondo possibile nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre Unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva durante la Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)"
     },
     {
       "id": "LogicAtelierAM",
@@ -2907,13 +2907,13 @@
     {
       "id": "BloodArmorMeursault",
       "name": "Armatura di Sangue Coagulato",
-      "desc": "- Stack Max: 5\n- Se questa unità non ha i PV al massimo: dopo un'attacco con Abilità, si cura del 10% dei danni PV inflitti (una volta per turno; max 40 PV di cure)\n- Dopo l'Attacco: se questa unità ha inflitto danni ai PV, perde 1 Stack (una volta per turno)\n• Se è stata attivata a Rison. Lussuria, la quantità di PV curati si dimezza, ma non perde nessuna Stack di Armatura di Sangue Coagulato",
+      "desc": "- Stack Max: 5\n- Se questa unità non ha i PV al massimo: dopo un'attacco con Abilità, si cura del 10% dei danni PV inflitti (una volta per turno; max 40 PV di cure)\n- Fine Attacco: Se questa unità ha inflitto danni ai PV, perde 1 Stack (una volta per turno)\n• Se è stata attivata a Rison. Lussuria, la quantità di PV curati si dimezza, ma non perde nessuna Stack di Armatura di Sangue Coagulato",
       "undefined": "-"
     },
     {
       "id": "FocusOnActing",
       "name": "Esibizione Attenta",
-      "desc": "- Stack Max: 3\n- Solo per Identità di <La Manchaland>; include le Abilità Potenziate\n- Abilità 1 e Abilità 2 ottengono Potere Finale +1; infliggono +5% danni per ogni Stack (max 15%)\n- Abilità 3 ottiene Potere Finale +2; infligge +10% danni per ogni Stack (max 30%)\n- Perde 1 Stack quando:\n  1) Dopo aver attaccato con l'Abilità 3\n  2) Se questa unità non ha Armatura di Sangue Coagulato ad Inizio Turno",
+      "desc": "- Stack Max: 3\n- Solo per Identità di <La Manchaland>; include le Abilità Potenziate\n- Abilità 1 e Abilità 2 ottengono Potere Finale +1; infliggono +5% danni per ogni Stack (max 15%)\n- Abilità 3 ottiene Potere Finale +2; infligge +10% danni per ogni Stack (max 30%)\n- Perde 1 Stack quando:\n  1) Fine Attacco con Abilità 3\n  2) Se questa unità non ha Armatura di Sangue Coagulato ad Inizio Turno",
       "summary": "Sul Colpo, infligge più danni",
       "undefined": "-"
     },

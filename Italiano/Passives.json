@@ -1039,7 +1039,7 @@
     {
       "id": 1060821,
       "name": "Illuminazione",
-      "desc": "Dopo l'Attacco: Se il bersaglio è in stato Vacillante o sconfitto per l'attacco di 1 alleato con i PS più bassi, l'alleato cura 7 PS."
+      "desc": "Fine Attacco: Se il bersaglio è in stato Vacillante o sconfitto per l'attacco di 1 alleato con i PS più bassi, l'alleato cura 7 PS."
     },
     {
       "id": 1010801,
@@ -1064,7 +1064,7 @@
     {
       "id": 1080801,
       "name": "Capitano della Pequod",
-      "desc": "Dopo l'Attacco: se il nemico viene sconfitto in seguito all'attacco di questa unità,\n- ottiene [HeatedGasHarpoon] il turno successivo.\n- 1 altro alleato con i PS più bassi cura 7 PS.\n- Se l'alleato è parte del Pequod, cura altri 5 PS."
+      "desc": "Fine Attacco: Se il nemico viene sconfitto in seguito all'attacco di questa unità,\n- ottiene [HeatedGasHarpoon] il turno successivo.\n- 1 altro alleato con i PS più bassi cura 7 PS.\n- Se l'alleato è parte del Pequod, cura altri 5 PS."
     },
     {
       "id": 1080802,
@@ -1074,7 +1074,7 @@
     {
       "id": 1080811,
       "name": "Capitano della Pequod",
-      "desc": "- Dopo l'Attacco: se il nemico viene sconfitto in seguito all'attacco di questa unità,\n<style=\"highlight\">- ottiene 4 [Breath], +2 Conteggio [Breath]. Infine, ottiene [OverHeatedGasHarpoon] il turno successivo.</style>\n<style=\"highlight\">- 2 altri alleati con meno PS curano 7 PS e ottengono 4 [Breath].</style>\n- Se gli alleati sono parte del Pequod, cura altri 5 PS. <style=\"highlight\">Infine, 1 volta per turno, applica 1 [PenetrateResultUp] il turno successivo.</style>"
+      "desc": "- Fine Attacco: Se il nemico viene sconfitto in seguito all'attacco di questa unità,\n<style=\"highlight\">- ottiene 4 [Breath], +2 Conteggio [Breath]. Infine, ottiene [OverHeatedGasHarpoon] il turno successivo.</style>\n<style=\"highlight\">- 2 altri alleati con meno PS curano 7 PS e ottengono 4 [Breath].</style>\n- Se gli alleati sono parte del Pequod, cura altri 5 PS. <style=\"highlight\">Infine, 1 volta per turno, applica 1 [PenetrateResultUp] il turno successivo.</style>"
     },
     {
       "id": 1080821,
@@ -1084,7 +1084,7 @@
     {
       "id": 1080831,
       "name": "Ordini del Capitano",
-      "desc": "Dopo l'Attacco: 1 alleato con i PS più alti ottiene 2 [Breath] e <style=\"highlight\">+2 Conteggio [Breath]</style> quando il bersaglio viene sconfitto dopo l'attacco dell'unità (2 volte per turno)"
+      "desc": "Fine Attacco: 1 alleato con i PS più alti ottiene 2 [Breath] e <style=\"highlight\">+2 Conteggio [Breath]</style> quando il bersaglio viene sconfitto dopo l'attacco dell'unità (2 volte per turno)"
     },
     {
       "id": 1050801,
@@ -1326,7 +1326,7 @@
     {
       "id": 999903,
       "name": "Lacrime di Sangue",
-      "desc": "Sull'Uso di un'Abilità: Subisci 3% dei PV max come danni fissi (questi danni non possono uccidere questa unità).\nDopo l'Attacco: cura 15% dei PV max per ogni unità uccisa",
+      "desc": "Sull'Uso di un'Abilità: Subisci 3% dei PV max come danni fissi (questi danni non possono uccidere questa unità).\nFine Attacco: cura 15% dei PV max per ogni unità uccisa",
       "summary": ""
     },
     {
@@ -1644,7 +1644,7 @@
     {
       "id": 1011011,
       "name": "Fuoco.FaròFuoco",
-      "desc": "Dopo l'Attacco: se questa unità ha ucciso il bersaglio con la sua Abilità, [ReloadLament]\nQuando questa unità ottiene [BulletLament], ottiene 2 [Agility] il turno successivo (1 volta per turno)",
+      "desc": "Fine Attacco: Se questa unità ha ucciso il bersaglio con la sua Abilità, [ReloadLament]\nQuando questa unità ottiene [BulletLament], ottiene 2 [Agility] il turno successivo (1 volta per turno)",
       "summary": "Quando questa unità ottiene [Bullet], ottiene [Agility] il turno successivo. [ReloadLament] Se Uccide."
     },
     {
@@ -1759,8 +1759,8 @@
     {
       "id": 1111121,
       "name": "Tecnica del Sangue Coagulato di Don Quixote 8: Forbici",
-      "desc": "1 alleato con la Velocità più alta: se il nemico viene ucciso Dopo l'Attacco, cura 10 PV (2 volte per turno)\n1 alleato con la Velocità più alta: se il nemico viene ucciso Dopo l'Attacco, infligge +1 Conteggio [Laceration] quando infligge Potenza [Laceration] con gli effetti di Abilità o Monete per il turno successivo (3 volte per turno)",
-      "summary": "Se il nemico is dead Dopo l'Attacco, cura PV"
+      "desc": "1 alleato con la Velocità più alta: Se il nemico viene ucciso a Fine Attacco, cura 10 PV (2 volte per turno)\n1 alleato con la Velocità più alta: Se il nemico viene ucciso a Fine Attacco, infligge +1 Conteggio [Laceration] quando infligge Potenza [Laceration] con gli effetti di Abilità o Monete per il turno successivo (3 volte per turno)",
+      "summary": "Fine Attacco: Se il nemico è morto, cura PV"
     },
     {
       "id": 1121001,
@@ -1858,7 +1858,7 @@
     {
       "id": 1031004,
       "name": "Armadura de Sangre",
-      "desc": "Dopo l'Attacco: se il nemico viene sconfitto, in seguito all'attacco di questa unità, aumenta la quantità di [BloodDinner] del 10% dei PV massimi del bersaglio (100 per turno; negli Incontri Mirati, se la Parte viene rotta)\nOttiene 1 [AttackDmgUp] il turno successivo per ogni 15% di PV mancanti A Fine Turno (max 3)\nSe un alleato sta per essere sconfitto dai danni da [Laceration], impedisci che sia sconfitto dai danni da [Laceration] per quel turno (Una volta per Incontro per ogni Identità)"
+      "desc": "Fine Attacco: se il nemico viene sconfitto, in seguito all'attacco di questa unità, aumenta la quantità di [BloodDinner] del 10% dei PV massimi del bersaglio (100 per turno; negli Incontri Mirati, se la Parte viene rotta)\nOttiene 1 [AttackDmgUp] il turno successivo per ogni 15% di PV mancanti A Fine Turno (max 3)\nSe un alleato sta per essere sconfitto dai danni da [Laceration], impedisci che sia sconfitto dai danni da [Laceration] per quel turno (Una volta per Incontro per ogni Identità)"
     },
     {
       "id": 1031021,
@@ -2068,12 +2068,12 @@
     {
       "id": 1101201,
       "name": "Il Medio Non Dimentica Mai",
-      "desc": "Quando subisce un colpo da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno per Identità)\n\nDopo aver attaccato con un'Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando subisce un colpo da un nemico, infligge 3 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno per Identità)\n\nA Fine Attacco con un'Abilità Attacco Base o Abilità di Contrattacco: Consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101211,
       "name": "Il Medio Non Dimentica Mai",
-      "desc": "Quando subisce un colpo da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nDopo aver attaccato con le Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
+      "desc": "Quando subisce un colpo da un nemico, infligge <style=\"highlight\">5</style> [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno)\n\nQuando un altro alleato viene colpito da un nemico, infligge 2 [VendettaMark] contro l'attaccante(o la Parte) (1 volta per turno per Identità)\n<style=\"highlight\">- Se quell'alleato è parte del Medio, infligge 3 [VendettaMark] in più</style>\n\nA Fine Attacco con le Abilità Attacco Base o Abilità di Contrattacco, consuma tutti i [VendettaMark] sul bersaglio\n- Ogni volta che il bersaglio consuma [VendettaMark], ottiene [VengeanceBookSinclair] corrispondente a quanto consumato"
     },
     {
       "id": 1101221,
@@ -2186,7 +2186,7 @@
     {
       "id": 1051202,
       "name": "Chachihu [揷翅虎]",
-      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha preparato delle Abilità Difensive per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità Vacilla: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (1 volta per Incontro)\n- Se questo effetto si attiva quando questa unità Vacilla, si riprende dal Vacillamento (a meno che non sia un Vacillamento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellantAlly] e [BulletPropellantSpecialAlly] spesi), converte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità Attacco Base che consuma l'ultimo [BulletPropellantSpecialAlly]...\n- Ottiene Portata Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
+      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha preparato delle Abilità Difensive per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità Vacilla: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (1 volta per Incontro)\n- Se questo effetto si attiva quando questa unità Vacilla, si riprende dal Vacillamento (escluso il Vacillamento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellantAlly] e [BulletPropellantSpecialAlly] spesi), converte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità Attacco Base che consuma l'ultimo [BulletPropellantSpecialAlly]...\n- Ottiene Portata Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
       "summary": ""
     },
     {
@@ -2226,7 +2226,7 @@
     {
       "id": 1011321,
       "name": "Assegna il Bersaglio",
-      "desc": "Quando l'alleato dalla Velocità più bassa attacca un alleato: Dopo l'Attacco, ottiene 1 [AttackDmgUp] il turno successivo (2 volte per turno)\n- Se l'alleato attaccato viene ucciso da questo attacco, invece ottiene 1 [AttackDmgUp] per l'intero Incontro (max 2 per Sezione per Identità)\n- Può ottenere solo fino a 2 [AttackDmgUp] dal suddetto effetto."
+      "desc": "Quando l'alleato dalla Velocità più bassa attacca un alleato, a Fine Attacco: Ottiene 1 [AttackDmgUp] il turno successivo (2 volte per turno)\n- Se l'alleato attaccato viene ucciso da questo attacco, invece ottiene 1 [AttackDmgUp] per l'intero Incontro (max 2 per Sezione per Identità)\n- Può ottenere solo fino a 2 [AttackDmgUp] dal suddetto effetto."
     },
     {
       "id": 1031202,
@@ -2314,7 +2314,7 @@
     {
       "id": 1061301,
       "name": "Accetta il Sangue Immondo e Dissangua il Prossimo Per la Causa.",
-      "desc": "A Inzio Combattimento: se questa unità non ha preparato un'Abilità Difensiva e sta per subire un'Attacco Incontrastato, applica 1 [HeishouSupportProtect] a (Rison. più alta/ 3) alleati di un Branco Heishou casuali con le meno Stack di [SupportProtect]. (max 2 alleati; 1 volta per Identità; esclude le Identità con Abilità che ottengono [SupportProtect])\n\nIn questo Incontro, quando questa unità subisce danni che mandano i suoi PV a 0, annulla quei danni; infine, i PV di questa unità non possono scendere sotto a 1 per quel turno, ed ottiene 1 [CondensedBlood] (1 volta per Incontro)\n\nLe Abilità di questa unità infliggono +3% danni per ogni [CondensedBlood] su di sé\n\nQuando attiva l'Abilità E.G.O 'Lacrime[TabExplain] del Sangue Immondo[TabExplain] - La Fine', annulla l'effetto mortale nei suoi effetti Dopo l'Attacco; invece, si cura di 60% PV. All'inizio del turno successivo, ottiene 1 [AttackDmgUp] ad ogni Inizio Turno (1 volta per Incontro)",
+      "desc": "A Inzio Combattimento: se questa unità non ha preparato un'Abilità Difensiva e sta per subire un'Attacco Incontrastato, applica 1 [HeishouSupportProtect] a (Rison. più alta/ 3) alleati di un Branco Heishou casuali con le meno Stack di [SupportProtect]. (max 2 alleati; 1 volta per Identità; esclude le Identità con Abilità che ottengono [SupportProtect])\n\nIn questo Incontro, quando questa unità subisce danni che mandano i suoi PV a 0, annulla quei danni; infine, i PV di questa unità non possono scendere sotto a 1 per quel turno, ed ottiene 1 [CondensedBlood] (1 volta per Incontro)\n\nLe Abilità di questa unità infliggono +3% danni per ogni [CondensedBlood] su di sé\n\nQuando attiva l'Abilità E.G.O 'Lacrime[TabExplain] del Sangue Immondo[TabExplain] - La Fine', annulla l'effetto mortale nei suoi effetti Fine Attacco; invece, si cura di 60% PV. All'inizio del turno successivo, ottiene 1 [AttackDmgUp] ad ogni Inizio Turno (1 volta per Incontro)",
       "summary": "Quando subisce danni che mandano i PV di questa unità a 0, annulla la morte, e ottiene [CondensedBlood]\nQuando attiva 'Lacrime[TabExplain] del Sangue Immondo[TabExplain]', annulla la morte, si cura PV, e ottiene [AttackDmgUp]"
     },
     {
