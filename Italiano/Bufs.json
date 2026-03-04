@@ -288,9 +288,9 @@
     },
     {
       "id": "Sinking",
-      "name": "Pianto",
+      "name": "Annegamento",
       "desc": "La(e) prossima(e) {1} volta(e) che questa unità viene colpita, subisce {0} danni fissi ai PS. (Le unità senza sanità prenderanno danno da tristezza.)",
-      "summary": "{0} danno da Pianto"
+      "summary": "{0} danno da Annegamento"
     },
     {
       "id": "Breath",
@@ -1319,13 +1319,13 @@
     },
     {
       "id": "SinkingSurge",
-      "name": "Pianto Incessante",
-      "desc": "Infligge danni ai PS pari a (Conteggio Pianto * Potenza Pianto), per poi rimuovere Pianto\nSe i PS del bersaglio sono a -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza PS subiscono sempre danni da Tristezza)"
+      "name": "Annegamento Instantaneo",
+      "desc": "Infligge danni ai PS pari a (Conteggio Annegamento * Potenza Annegamento), per poi rimuovere Annegamento\nSe i PS del bersaglio sono a -45, il danno in eccesso sarà convertito in danno da Tristezza\n(Le unità senza PS subiscono sempre danni da Tristezza)"
     },
     {
       "id": "Blue",
       "name": "Lacrime",
-      "desc": "A Fine Turno: perde 5 PS\nLe Monete che fanno croce infliggono 2 Pianto"
+      "desc": "A Fine Turno: perde 5 PS\nLe Monete che fanno croce infliggono 2 Annegamento"
     },
     {
       "id": "AmberResultUp",
@@ -1507,8 +1507,8 @@
     },
     {
       "id": "SinkingVulnerable",
-      "name": "Debolezza a Pianto",
-      "desc": "Subisce +{0} danno da Pianto questo turno."
+      "name": "Debolezza a Annegamento",
+      "desc": "Subisce +{0} danno da Annegamento questo turno."
     },
     {
       "id": "BurstProtection",
@@ -1630,7 +1630,7 @@
     },
     {
       "id": "RailBuffForLine2_Q_ALLY",
-      "name": "Pianto Boost"
+      "name": "Annegamento Boost"
     },
     {
       "id": "RailBuffForLine2_R_ALLY",
@@ -1850,19 +1850,19 @@
     {
       "id": "EchoOfMansion",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio Pianto quando ottiene Conteggio o Potenza Pianto dalle Abilità o dalle Monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 Conteggio Annegamento quando ottiene Conteggio o Potenza Annegamento dalle Abilità o dalle Monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando quest'unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Main",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio Pianto quando ottiene Conteggio o Potenza Pianto dalle Abilità o dalle Monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 Conteggio Annegamento quando ottiene Conteggio o Potenza Annegamento dalle Abilità o dalle Monete\n- Unità con PS: Cambia il Panico in Echi del Maniero. Quando questa unità va in Panico, infligge 2 Echi del Maniero a due alleati casuali di quest'unità il turno successivo\n- Unità senza PS: -10% chance di ottenre testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Sub",
       "name": "Echi del Maniero",
-      "desc": "- 50% chance di ottenere +1 Conteggio Pianto quando ottiene Conteggio o Potenza Pianto dalle Abilità o dalle Monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A Fine Turno",
+      "desc": "- 50% chance di ottenere +1 Conteggio Annegamento quando ottiene Conteggio o Potenza Annegamento dalle Abilità o dalle Monete\n- -10% chance di ottenere testa\n- Ridotto di 1 A Fine Turno",
       "summary": ""
     },
     {
@@ -1898,7 +1898,7 @@
     {
       "id": "LibrarianOfHistoryNormal",
       "name": "Assistente Bibliotecario del Piano della Storia",
-      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')",
+      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')",
       "summary": ""
     },
     {
@@ -1921,7 +1921,7 @@
     {
       "id": "LibrarianOfHistoryHard",
       "name": "Bibliotecario del Piano della Storia",
-      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Pianto, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
+      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
       "summary": ""
     },
     {
@@ -1939,7 +1939,7 @@
     {
       "id": "ShieldManagerCryingToad",
       "name": "Piangibolla",
-      "desc": "Quest'effetto conta come 'Gestione dello Scudo'.\n- A Fine Turno: riduce di 1 le Stack\n- Quest'unità non perde scudo a Fine Turno finché possiede Piangibolla (a meno che non venga eliminato da Abilità o effetti)\n- Se lo scudo affetto da Piangibolla si rompe dopo aver subito danni, infligge 4 Pianto Potenza/Conteggio contro l'attaccante. (Quanto di quel '4' sia Potenza o Conteggio viene deciso in modo casuale)\n- Quest'unità può accumulare valore al suo scudo sfruttando quest'effetto. Tuttavia, finché Piangibolla è attivo, il valore dello scudo non potrà superare il 60% dei PV massimi di quest'unità.",
+      "desc": "Quest'effetto conta come 'Gestione dello Scudo'.\n- A Fine Turno: riduce di 1 le Stack\n- Quest'unità non perde scudo a Fine Turno finché possiede Piangibolla (a meno che non venga eliminato da Abilità o effetti)\n- Se lo scudo affetto da Piangibolla si rompe dopo aver subito danni, infligge 4 Annegamento Potenza/Conteggio contro l'attaccante. (Quanto di quel '4' sia Potenza o Conteggio viene deciso in modo casuale)\n- Quest'unità può accumulare valore al suo scudo sfruttando quest'effetto. Tuttavia, finché Piangibolla è attivo, il valore dello scudo non potrà superare il 60% dei PV massimi di quest'unità.",
       "summary": ""
     },
     {
@@ -2060,7 +2060,7 @@
     {
       "id": "WildHunt",
       "name": "Caccia Selvaggia",
-      "desc": "- Nello stesso turno in cui questa unità ha ottieneto Caccia Selvaggia per la prima volta, rimane costantemente a 1 PV; \"resuscita\"(Recupera il 50% dei PV e azzera i PS) di quest'unità a Fine Turno.\n- Alla morte, ottiene 1 risorsa E.G.O per la risorsa E.G.O più scarsa\n- Se quest'unità viene uccisa da un attacco, infligge 3 Pianto contro l'ultimo attaccante\n- Muore alla fine dello stesso turno in cui è stata resuscitata",
+      "desc": "- Nello stesso turno in cui questa unità ha ottieneto Caccia Selvaggia per la prima volta, rimane costantemente a 1 PV; \"resuscita\"(Recupera il 50% dei PV e azzera i PS) di quest'unità a Fine Turno.\n- Alla morte, ottiene 1 risorsa E.G.O per la risorsa E.G.O più scarsa\n- Se quest'unità viene uccisa da un attacco, infligge 3 Annegamento contro l'ultimo attaccante\n- Muore alla fine dello stesso turno in cui è stata resuscitata",
       "summary": ""
     },
     {
@@ -2072,7 +2072,7 @@
     {
       "id": "WanderingFootsteps",
       "name": "Rovina Imminente",
-      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Rovina\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Pianto ogni Fine Turno e perde 1 Potere Scontro. Quando quest'unità va in Panico, ottiene 5 Pianto, 3 Conteggio Pianto ogni Fine Turno e perde 2 Potere Scontro)\n- Unità senza PS: -10% probabilità di fare testa\n- Ridotto di 1 A Fine Turno\n- Quest'effetto si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Unità senza PS\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
+      "desc": "- Unità con PS: cambia il loro tipo di panico in \"\"Rovina\"\".\n(Rovina: Quando quest'unità entra in uno stato di Morale Basso, ottiene 3 Annegamento ogni Fine Turno e perde 1 Potere Scontro. Quando quest'unità va in Panico, ottiene 5 Annegamento, 3 Conteggio Annegamento ogni Fine Turno e perde 2 Potere Scontro)\n- Unità senza PS: -10% probabilità di fare testa\n- Ridotto di 1 A Fine Turno\n- Quest'effetto si cumula; infliggerlo nuovamente sostituirà il valore corrente con il valore inflitto.\n※ Applica la condizione \"\"Unità senza PS\"\" ad alcuni nemici che hanno PS ma non possono avere la tipologia di Panico modificata.",
       "summary": ""
     },
     {
@@ -2090,21 +2090,21 @@
     {
       "id": "WanderingFootsteps_LowMorale",
       "name": "Rovina",
-      "desc": "- Morale Basso\n- Potere Scontro -1 su é stesso. Ottiene 3 Pianto ogni Fine Turno",
-      "summary": "Potere Scontro -1 su di sé. Ottiene 3 Pianto ogni Fine Turno",
+      "desc": "- Morale Basso\n- Potere Scontro -1 su é stesso. Ottiene 3 Annegamento ogni Fine Turno",
+      "summary": "Potere Scontro -1 su di sé. Ottiene 3 Annegamento ogni Fine Turno",
       "undefined": "-"
     },
     {
       "id": "WanderingFootsteps_Panico",
       "name": "Rovina",
-      "desc": "- Panico\n- Potere Scontro -2 su di sé. Ottiene 5 Pianto e +3 Conteggio Pianto ogni Fine Turno",
-      "summary": "Potere Scontro -2 su di sé. Ottiene 5 Pianto e +3 Conteggio Pianto ogni Fine Turno",
+      "desc": "- Panico\n- Potere Scontro -2 su di sé. Ottiene 5 Annegamento e +3 Conteggio Annegamento ogni Fine Turno",
+      "summary": "Potere Scontro -2 su di sé. Ottiene 5 Annegamento e +3 Conteggio Annegamento ogni Fine Turno",
       "undefined": "-"
     },
     {
       "id": "UninvitedGuestPersonality",
       "name": "L'Indesiderato",
-      "desc": "- Valore Massimo: 2\n- Alla morte, l'ultimo attaccante recupera 3 PS; in seguito, un alleato casuale che non possedeva quest'effetto ottiene 2 Stack.\n- Subisce +0.5% più danno per ogni Pianto su di sé (max 10%; per gli incontri mirati, Pianto viene conteggiato su ogni parte in modo separato)\n- A Fine Turno: si riduce di 1",
+      "desc": "- Valore Massimo: 2\n- Alla morte, l'ultimo attaccante recupera 3 PS; in seguito, un alleato casuale che non possedeva quest'effetto ottiene 2 Stack.\n- Subisce +0.5% più danno per ogni Annegamento su di sé (max 10%; per gli incontri mirati, Annegamento viene conteggiato su ogni parte in modo separato)\n- A Fine Turno: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2253,7 +2253,7 @@
     },
     {
       "id": "SwirlingBloodPersonality",
-      "name": "Sangue Vorticoso【Sanguimonio】",
+      "name": "Sangue Vorticoso【Bramasangue】",
       "desc": "-Stack Max: 50\n- Finchè quest'effetto è attivo, tutt i danni da Sanguinamento subiti dallo Scudo PV vengono convertiti in Emofagia.\n- Ottiene uno scudo ai PV pari alle Stack nel momento in cui viene applicato\n-Scade A Fine Turno",
       "summary": ""
     },
@@ -2686,7 +2686,7 @@
     {
       "id": "WaveSinking",
       "name": "Riflusso",
-      "desc": "- Stack Max: 3\nQuando Subisce un'Attacco, ottiene Potenza Pianto pari alle Stack\n\nA Fine Turno: Se questa unità ha -30 o meno PS, attiva i seguenti effetti (per unità senza PS, si attiva a 60+ Potenza Pianto)\n- Subisce (Potenza Pianto sull'unità x Stack) Danno da Tristezza\n- Infligge 1 Riflusso contro 2 altri bersagli con meno PS (per le Anormalità, Parti); infine, infligge (Potenza Pianto x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisce le Stack di Riflusso all'alleato con il maggior numero di Stack di Riflusso",
+      "desc": "- Stack Max: 3\nQuando Subisce un'Attacco, ottiene Potenza Annegamento pari alle Stack\n\nA Fine Turno: Se questa unità ha -30 o meno PS, attiva i seguenti effetti (per unità senza PS, si attiva a 60+ Potenza Annegamento)\n- Subisce (Potenza Annegamento sull'unità x Stack) Danno da Tristezza\n- Infligge 1 Riflusso contro 2 altri bersagli con meno PS (per le Anormalità, Parti); infine, infligge (Potenza Annegamento x Stack) Danni da Tristezza a entrambi i bersagli, rispettivamente\nSe l'unità con Riflusso Muore, trasferisce le Stack di Riflusso all'alleato con il maggior numero di Stack di Riflusso",
       "summary": "",
       "undefined": "-"
     },
@@ -2990,8 +2990,8 @@
     {
       "id": "GrownHorns",
       "name": "Crescita delle Corna [發角]",
-      "desc": "- Valore Max: 3\n- Le Abilità Base di quest'unità infliggono +1 Potenza Lacerazione e Pianto in più\n- A Fine Turno: Perde 1 Stack",
-      "summary": "Infligge +1 Potenza di Lacerazione e Pianto aggiuntiva",
+      "desc": "- Valore Max: 3\n- Le Abilità Base di quest'unità infliggono +1 Potenza Lacerazione e Annegamento in più\n- A Fine Turno: Perde 1 Stack",
+      "summary": "Infligge +1 Potenza di Lacerazione e Annegamento aggiuntiva",
       "undefined": "-"
     },
     {
@@ -3053,22 +3053,22 @@
     {
       "id": "BlueSand",
       "name": "Sabbia Blu",
-      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"\n- Unità senza PS: Velocità Min & Max -1\n- Fine Turno: si riduce di 1 Stack\n- Quest'effetto non è cumulabile: infliggerlo di nuovo rimpiazzerà il valore corrente col valore inflitto\n- Applica le condizioni di \"Unità senza PS\" a determinati nemici che hanno i PS ma non possono cambiare il loro tipo di Panico\n\n※ Effetti del Panico Sabbia Blu\n- Morale Basso: Potere Scontro -1, Velocità Min & Max -1\n- Panico: Potere Scontro -2, Velocità Min & Max -1",
+      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Annegamento (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"\n- Unità senza PS: Velocità Min & Max -1\n- Fine Turno: si riduce di 1 Stack\n- Quest'effetto non è cumulabile: infliggerlo di nuovo rimpiazzerà il valore corrente col valore inflitto\n- Applica le condizioni di \"Unità senza PS\" a determinati nemici che hanno i PS ma non possono cambiare il loro tipo di Panico\n\n※ Effetti del Panico Sabbia Blu\n- Morale Basso: Potere Scontro -1, Velocità Min & Max -1\n- Panico: Potere Scontro -2, Velocità Min & Max -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Main",
       "name": "Sabbia Blu",
-      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"\n- Fine Turno: si riduce di 1 Stack",
-      "summary": "Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"",
+      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Annegamento (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"\n- Fine Turno: si riduce di 1 Stack",
+      "summary": "Quando perde uno Scontro, ottiene +1 Conteggio Annegamento (3 volte per turno)\n- Unità con PS: cambia il loro tipo di panico in \"Sabbia Blu\"",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Sub",
       "name": "Sabbia Blu",
-      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità senza PS: Velocità Min & Max -1\n- Fine Turno: si riduce di 1 Stack",
-      "summary": "Quando perde uno Scontro, ottiene +1 Conteggio Pianto (3 volte per turno)\n- Unità senza PS: Velocità Min & Max -1",
+      "desc": "- Quando perde uno Scontro, ottiene +1 Conteggio Annegamento (3 volte per turno)\n- Unità senza PS: Velocità Min & Max -1\n- Fine Turno: si riduce di 1 Stack",
+      "summary": "Quando perde uno Scontro, ottiene +1 Conteggio Annegamento (3 volte per turno)\n- Unità senza PS: Velocità Min & Max -1",
       "undefined": "-"
     },
     {
@@ -3088,7 +3088,7 @@
     {
       "id": "SheutFracture",
       "name": "Frattura Sheut",
-      "desc": "- Max Stack: 10\n- Pianto Speciale\n- Per ogni Stack, subisce +1% danni in più dalle Abilità Accidia e Tristezza\n- A Stack max, ottiene 1 Intensifica Tristezza (una volta per turno), subisce danno da Tristezza pari alla Potenza Pianto su di sé (perde 1 Conteggio Pianto), poi scade\n- Se l'unità con quest'effetto muore, trasferisce metà delle sue Stack all'alleato con i PS più alti (arrotondato per difetto)\n- Inizio Turno: Se non ci sono Identità della LCA sul campo, scade",
+      "desc": "- Max Stack: 10\n- Annegamento Speciale\n- Per ogni Stack, subisce +1% danni in più dalle Abilità Accidia e Tristezza\n- A Stack max, ottiene 1 Intensifica Tristezza (una volta per turno), subisce danno da Tristezza pari alla Potenza Annegamento su di sé (perde 1 Conteggio Annegamento), poi scade\n- Se l'unità con quest'effetto muore, trasferisce metà delle sue Stack all'alleato con i PS più alti (arrotondato per difetto)\n- Inizio Turno: Se non ci sono Identità della LCA sul campo, scade",
       "summary": "",
       "undefined": "-"
     },
@@ -3263,7 +3263,7 @@
     {
       "id": "BlackNightmareYisang",
       "name": "Indulgenza nei Prescritti",
-      "desc": "- Velocità Min & Max +5\n- Applica i seguenti effetti a ‘Furioso (Replica)’:\n·Sul Colpo, infligge +1 Potenza Pianto in più ed ottiene +1 Potenza Respiro in più\n·Sul Colpo, infligge +3 Conteggio Pianto (una volta per bersaglio)\n· Infligge +30% danni\n- Termina a Fine Turno",
+      "desc": "- Velocità Min & Max +5\n- Applica i seguenti effetti a ‘Furioso (Replica)’:\n·Sul Colpo, infligge +1 Potenza Annegamento in più ed ottiene +1 Potenza Respiro in più\n·Sul Colpo, infligge +3 Conteggio Annegamento (una volta per bersaglio)\n· Infligge +30% danni\n- Termina a Fine Turno",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3279,7 +3279,7 @@
     {
       "id": "YisangWeapon02Stiletto",
       "name": "Mentre perfori i polmoni con uno stiletto...",
-      "desc": "- Questa Moneta infligge danno Perforante\n- Sul Colpo senza Rottura Moneta, infligge 2 Pianto",
+      "desc": "- Questa Moneta infligge danno Perforante\n- Sul Colpo senza Rottura Moneta, infligge 2 Annegamento",
       "summary": "",
       "undefined": "-",
       "flavor": ""

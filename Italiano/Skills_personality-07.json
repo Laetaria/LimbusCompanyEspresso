@@ -1241,7 +1241,7 @@
         {
           "level": 1,
           "name": "Calma in Battaglia",
-          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
+          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se Rappresentante dell'Ufficio Alto Calibro Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": []
@@ -1251,7 +1251,7 @@
         {
           "level": 4,
           "name": "Calma in Battaglia",
-          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 3 [Breath] (3 volte per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
+          "desc": "Inizio Turno: A 0 [Bullet], questa abilità attiva al suo posto 'Vado al Riparo'\n[WhenUse] Se Rappresentante dell'Ufficio Alto Calibro Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 3 [Breath] (3 volte per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": []
@@ -1314,7 +1314,7 @@
         {
           "level": 1,
           "name": "Vado al Riparo",
-          "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Se Rappresentante dell'Ufficio Alto Calibro Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1328,7 +1328,7 @@
         {
           "level": 4,
           "name": "Vado al Riparo",
-          "desc": "[CanDuelGuard]\n[WhenUse] Se il Rappresentante dell'Ufficio Punto e Basta Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n<style=\"highlight\">[WinDuel] Infligge 1 [PenetrateResistDown] (1 volta per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Se Rappresentante dell'Ufficio Alto Calibro Hong Lu è sul campo, richiede [MeleeCover] (1 volta per turno)\n<style=\"highlight\">[WinDuel] Infligge 1 [PenetrateResistDown] (1 volta per turno)</style>\n[EndBattle] Ottiene 1 [LogicAtelierAM] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1940,8 +1940,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Peck 'em",
-          "desc": "[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
+          "name": "Beccali",
+          "desc": "[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -1953,14 +1953,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1968,8 +1968,8 @@
         },
         {
           "level": 2,
-          "name": "Peck 'em",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>\n[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
+          "name": "Beccali",
+          "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -1981,14 +1981,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -1996,8 +1996,8 @@
         },
         {
           "level": 4,
-          "name": "Peck 'em",
-          "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 10 [Combustion] on self (max 2)</style>\n[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
+          "name": "Beccali",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -2009,17 +2009,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             }
@@ -2032,30 +2032,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutilating Talons",
-          "desc": "[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
+          "name": "Mutila Artigli",
+          "desc": "[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Combustion] e +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -2063,30 +2063,30 @@
         },
         {
           "level": 2,
-          "name": "Mutilating Talons",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>\n[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
+          "name": "Mutila Artigli",
+          "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Combustion] e +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -2094,39 +2094,39 @@
         },
         {
           "level": 4,
-          "name": "Mutilating Talons",
-          "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 10 [Combustion] on self (max 2)</style>\n[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
+          "name": "Mutila Artigli",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Combustion]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Burst]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Combustion] e +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal (([Combustion] on self x 2)% of this Coin's final damage) Wrath damage (max 20%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] su di sé x 2)% del danno finale di questa Moneta) danno da Ira (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -2139,43 +2139,43 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Bloodflame Massacre [血炎亂舞]",
-          "desc": "[WideAreaRampage]\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]s\n[BeforeUse] At 20 [ChickenFightlust], activate 'Rooster's Rampaging Blades Under the Ensanguined Heaven' instead\n[WhenUse] Gain 3 [ChickenStance]\n[EndSkill] Gain +2 [Combustion] Count",
+          "name": "Massacro Sanguifiamma [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n[StartBattle] Se questa unità ha [ChickenStance] o meno del 50% dei PV, converte tutte le Monete in [SuperCoin](i)\n[BeforeUse] A 20 [ChickenFightlust], attiva invece 'Lame Scatenate del Gallo sotto il Cielo Insanguinato'\n[WhenUse] Ottiene 3 [ChickenStance]\n[EndSkill] Ottiene +2 Conteggio [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [Combustion] to target and self"
+                  "desc": "[OnSucceedAttack] Applica 2 [Combustion] al bersaglio e a sé stesso"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] At 50%+ HP, take [Combustion] damage by [Combustion] Potency on self"
+                  "desc": "[OnSucceedAttackHead] A 50%+ PV, subisce danno da [Combustion] in base a Potenza [Combustion] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [Combustion] to target and self"
+                  "desc": "[OnSucceedAttack] Applica 2 [Combustion] al bersaglio e a sé stesso"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] At 50%+ HP, take [Combustion] damage by [Combustion] Potency on self"
+                  "desc": "[OnSucceedAttackHead] A 50%+ PV, subisce danno da [Combustion] in base a Potenza [Combustion] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [Combustion] to target and self"
+                  "desc": "[OnSucceedAttack] Applica 2 [Combustion] al bersaglio e a sé stesso"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] At 50%+ HP, take [Combustion] damage by [Combustion] Potency on self"
+                  "desc": "[OnSucceedAttackHead] A 50%+ PV, subisce danno da [Combustion] in base a Potenza [Combustion] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -2183,46 +2183,46 @@
         },
         {
           "level": 4,
-          "name": "Bloodflame Massacre [血炎亂舞]",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Deal +1.5% damage for every [Combustion] on self (max 30%)</style>\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]s\n[BeforeUse] At 20 [ChickenFightlust], activate 'Rooster's Rampaging Blades Under the Ensanguined Heaven' instead\n[WhenUse] Gain 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on the main target (max 2)\n[WhenUse] Clash Power +1 for every 20% missing HP on self (max 3)</style>\n[EndSkill] Gain +2 [Combustion] Count",
+          "name": "Massacro Sanguifiamma [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +1.5% danno per ogni [Combustion] su di sé (max 30%)</style>\n[StartBattle] Se questa unità ha [ChickenStance] o meno del 50% dei PV, converte tutte le Monete in [SuperCoin](i)\n[BeforeUse] A 20 [ChickenFightlust], attiva invece 'Lame Scatenate del Gallo sotto il Cielo Insanguinato'\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 3)</style>\n[EndSkill] Ottiene +2 Conteggio [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [Combustion] to target and self"
+                  "desc": "[OnSucceedAttack] Applica 2 [Combustion] al bersaglio e a sé stesso"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] At 50%+ HP, take [Combustion] damage by [Combustion] Potency on self"
+                  "desc": "[OnSucceedAttackHead] A 50%+ PV, subisce danno da [Combustion] in base a Potenza [Combustion] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [Combustion] to target and self"
+                  "desc": "[OnSucceedAttack] Applica 2 [Combustion] al bersaglio e a sé stesso"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] At 50%+ HP, take [Combustion] damage by [Combustion] Potency on self"
+                  "desc": "[OnSucceedAttackHead] A 50%+ PV, subisce danno da [Combustion] in base a Potenza [Combustion] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [Combustion] to target and self"
+                  "desc": "[OnSucceedAttack] Applica 2 [Combustion] al bersaglio e a sé stesso"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] At 50%+ HP, take [Combustion] damage by [Combustion] Potency on self"
+                  "desc": "[OnSucceedAttackHead] A 50%+ PV, subisce danno da [Combustion] in base a Potenza [Combustion] su di sé"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal (([Combustion] on self + [Combustion] on the main target)% of this Coin's final damage) Gluttony damage against all targets (max 20%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] su di sé + [Combustion] sul bersaglio principale)% of this Coin's final damage) del danno finale di questa Moneta) danno da Gola (max 20%)</style>"
                 }
               ]
             }
@@ -2235,20 +2235,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "More Grub for Us",
-          "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[StartDuel] Gain +3 [Combustion] Count (once per turn)",
+          "name": "Più Cibo per Noi",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n[StartDuel] Ottiene +3 Conteggio [Combustion] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -2256,20 +2256,20 @@
         },
         {
           "level": 4,
-          "name": "More Grub for Us",
-          "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n<style=\"highlight\">[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1</style>\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n<style=\"highlight\">[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)</style>\n[StartDuel] Gain +3 [Combustion] Count (once per turn)",
+          "name": "Più Cibo per Noi",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 10+ ([Combustion] + [Burst]), Potere Base +1</style>\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Questa Abilità infligge +1% danni per ogni 3% PV che questa unità ha perso complessivamente in questo Incontro (max 30%)</style>\n[StartDuel] Ottiene +3 Conteggio [Combustion] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -2282,8 +2282,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下鷄舞亂刀]",
-          "desc": "[WideAreaRampage]\n[WhenUse] Gain 3 [ChickenStance]\n[WinDuel] Gain 10 [Combustion]\n[EndSkill] Consume all [ChickenFightlust]\n[EndSkill] At more than 20 [Combustion], consume up to 25 excess [Combustion] and heal ([Combustion] consumed x 2)% HP",
+          "name": "Lame Scatenate del Gallo sotto il Cielo Insanguinato [血天下鷄舞亂刀]",
+          "desc": "[WideAreaRampage]\n[WhenUse] Ottiene 3 [ChickenStance]\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] extra e si cura di ([Combustion] usata x 2)% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2291,7 +2291,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
@@ -2301,7 +2301,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
@@ -2311,7 +2311,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
@@ -2321,10 +2321,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 20+ [Combustion], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 20+ [Combustion] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -2332,8 +2332,8 @@
         },
         {
           "level": 4,
-          "name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下鷄舞亂刀]",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Deal +3% damage for every [Combustion] on self (max 60%)\nDeal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%)</style>\n[WhenUse] Gain 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on the main target (max 2)\n[WhenUse] Clash Power +1 for every 20% missing HP on self (max 3)</style>\n[WinDuel] Gain 10 [Combustion]\n[EndSkill] Consume all [ChickenFightlust]\n[EndSkill] At more than 20 [Combustion], consume up to 25 excess [Combustion] and heal ([Combustion] consumed x 2)% HP",
+          "name": "Lame Scatenate del Gallo sotto il Cielo Insanguinato [血天下鷄舞亂刀]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +3% danni per ogni [Combustion] su di sé (max 60%)\nInfligge +1% danni per ogni 2% (percentuale dei PV mancanti sul bersaglio + percentuale dei PV mancanti su di sé) (max 50%)</style>\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 3)</style>\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] extra e si cura di ([Combustion] usata x 2)% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2341,7 +2341,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
@@ -2351,7 +2351,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
@@ -2361,7 +2361,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
@@ -2371,13 +2371,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 20+ [Combustion], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 20+ [Combustion] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal (20% of this Coin's final damage) Wrath damage against all targets\n- If this is the final Coin, heal HP by the amount of damage the above effect dealt</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (20% del danno finale di questa Moneta) danno da Ira su tutti i bersagli\n- Se questa è la Moneta finale, cura i suoi PV in base al danno inflitto dall'effetto sovracitato</style>"
                 }
               ]
             }

@@ -1,257 +1,257 @@
 {
   "dataList": [
     {
-      "id": 9427,
-      "name": "Town-protecting Harpoon",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nTurn End: At less than 30% HP, gain 1 [Enhancement] next turn",
-      "simpleDesc": [
-        {
-          "abilityID": 9427,
-          "simpleDesc": "Gain 1 Attack Power Up next turn"
-        }
-      ]
+        "id": 9427,
+        "name": "Arpione per Proteggere il Villaggio",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\n\nFine Turno: se con meno del 30% di PV, ottiene 1 [Enhancement] per il turno successivo",
+        "simpleDesc": [
+            {
+                "abilityID": 9427,
+                "simpleDesc": "Ottiene 1 Potenziamento per il turno successivo"
+            }
+        ]
     },
     {
-      "id": 19427,
-      "name": "Town-protecting Harpoon+",
-      "desc": "[Effects apply only to #6 Deployed Identity]\nTurn End: at less than 40% HP, gain 1 [Enhancement] next turn\n\nTurn End: if there is a Staggered ally, gain +6 [Aggro] next turn and gain 4 [DefenseUp] next turn",
-      "simpleDesc": [
-        {
-          "abilityID": 19427,
-          "simpleDesc": "Gain 1 Attack Power Up next turn"
-        },
-        {
-          "abilityID": 194271,
-          "simpleDesc": "Gain +6 Aggro and 4 Defense Level Up next turn"
-        }
-      ]
+        "id": 19427,
+        "name": "Arpione per Proteggere il Villaggio+",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 40% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato sta Vacillando, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "simpleDesc": [
+            {
+                "abilityID": 19427,
+                "simpleDesc": "Ottiene 1 Potenziamento per il turno successivo"
+            },
+            {
+                "abilityID": 194271,
+                "simpleDesc": "Ottiene +6 Provocazione e 4 Aumento Difensivo per il turno successivo"
+            }
+        ]
     },
     {
-      "id": 29427,
-      "name": "Town-protecting Harpoon++",
-      "desc": "[Effects apply only to #6 Deployed Identity]\nTurn End: at less than 50% HP, gain 1 [Enhancement] next turn\n\nTurn End: if there is a Staggered ally, gain +6 [Aggro] next turn and gain 4 [DefenseUp] next turn",
-      "simpleDesc": [
-        {
-          "abilityID": 29427,
-          "simpleDesc": "Gain 1 Attack Power Up next turn"
-        },
-        {
-          "abilityID": 294271,
-          "simpleDesc": "Gain +6 Aggro and 4 Defense Level Up next turn"
-        }
-      ]
+        "id": 29427,
+        "name": "Arpione per Proteggere il Villaggio++",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 50% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato sta Vacillando, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "simpleDesc": [
+            {
+                "abilityID": 29427,
+                "simpleDesc": "Ottiene 1 Potenziamento per il turno successivo"
+            },
+            {
+                "abilityID": 294271,
+                "simpleDesc": "Ottiene +6 Provocazione e 4 Aumento Difensivo per il turno successivo"
+            }
+        ]
     },
     {
-      "id": 9428,
-      "name": "Cetacean Heart",
-      "desc": "On Hit against enemies with [Laceration] with an Attack Skill, gain 1 [Breath]. (3 times per turn for each character)\nOn Crit, 50% chance to not consume [Breath] Count (once per turn for each character; including E.G.O Skills and Counter Skills)\nOn Crit Heads Hit with a Base Skill: inflict +1 more of the negative effect with that Coin. (once per turn for each character; including Counter Skills and excluding E.G.O Skills)",
-      "simpleDesc": [
-        {
-          "abilityID": 9428,
-          "simpleDesc": "Gain 1 Poise"
-        },
-        {
-          "abilityID": 94281,
-          "simpleDesc": "Chance to not lose Poise Count"
-        },
-        {
-          "abilityID": 94282,
-          "simpleDesc": "Inflict 1 more of the negative effect"
-        }
-      ]
+        "id": 9428,
+        "name": "Cuore di Cetaceo",
+        "desc": "Sul Colpo con un'Abilità di Attacco contro nemici con [Laceration]: ottiene 1 [Breath]. (3 volte per turno per ogni personaggio)\nIn caso di Critico: 50% di probabilità di non consumare Conteggio [Breath]. (una volta per turno per ogni personaggio; incluse le Abilità E.G.O e le Abilità di Contrattacco)\nIn caso di Testa su un colpo Critico con un'Abilità Base: infligge +1 [Effetto Negativo] addizionale con quella Moneta. (una volta per turno per ogni personaggio; incluse le Abilità di Contrattacco ed escluse le Abilità E.G.O)",
+        "simpleDesc": [
+            {
+                "abilityID": 9428,
+                "simpleDesc": "Ottiene 1 [Breath]"
+            },
+            {
+                "abilityID": 94281,
+                "simpleDesc": "Probabilità di non consumare Conteggio [Breath]"
+            },
+            {
+                "abilityID": 94282,
+                "simpleDesc": "Infligge +1 effetto negativo addizionale"
+            }
+        ]
     },
     {
-      "id": 9431,
-      "name": "Broken Violin",
-      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 45%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 20%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)",
-      "simpleDesc": [
-        {
-          "abilityID": 9431,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
-        },
-        {
-          "abilityID": 94311,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
-        }
-      ]
+        "id": 9431,
+        "name": "Violino Rotto",
+        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al 45%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 20%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).",
+        "simpleDesc": [
+            {
+                "abilityID": 9431,
+                "simpleDesc": "Ottiene 1 Aumento Offensivo & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 94311,
+                "simpleDesc": "Ottiene 1 Aumento Offensivo & 1 Cure PV Aumentate"
+            }
+        ]
     },
     {
-      "id": 19431,
-      "name": "Broken Violin+",
-      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt <style=\"upgradeHighlight\">65%-</style> HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt <style=\"upgradeHighlight\">40%-</style> HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)\n\n<style=\"upgradeHighlight\">When winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (max 20%)</style>",
-      "simpleDesc": [
-        {
-          "abilityID": 19431,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
-        },
-        {
-          "abilityID": 194311,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
-        },
-        {
-          "abilityID": 194312,
-          "simpleDesc": "Deal more damage based on number of Clashes"
-        }
-      ]
+        "id": 19431,
+        "name": "Violino Rotto+",
+        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">65%</style> ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">40%</style> ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\n<style=\"upgradeHighlight\">Quando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge +(# di Scontri x 2)% di danni (max 20%)</style>",
+        "simpleDesc": [
+            {
+                "abilityID": 19431,
+                "simpleDesc": "Ottiene 1 Aumento Offensivo & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 194311,
+                "simpleDesc": "Ottiene 1 Aumento Offensivo & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 194312,
+                "simpleDesc": "Infligge più danni in base al numero degli Scontri"
+            }
+        ]
     },
     {
-      "id": 29431,
-      "name": "Broken Violin++",
-      "desc": "[Effects apply only to #5 and #6 Deployed Identities]\n\nAt 65%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Clash Win (2 times per turn for each character)\n\nAt 40%- HP, gain 1 [AttackUp] and 1 [TakeHpHealIncrease] on Skill Use instead (2 times per turn for each character)\n\nWhen winning a Clash after 5+ Clashes, the Skill that won the Clash deals <style=\"upgradeHighlight\">+(# of Clashes x 3)% damage (max 30%)</style>",
-      "simpleDesc": [
-        {
-          "abilityID": 29431,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
-        },
-        {
-          "abilityID": 294311,
-          "simpleDesc": "Gain 1 Offense Level Up & 1 HP Healing Boost"
-        },
-        {
-          "abilityID": 294312,
-          "simpleDesc": "Deal more damage based on number of Clashes"
-        }
-      ]
+        "id": 29431,
+        "name": "Violino Rotto++",
+        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al 65%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 40%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\nQuando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge <style=\"upgradeHighlight\">+(# di Scontri x 3)% di danni (max 30%)</style>",
+        "simpleDesc": [
+            {
+                "abilityID": 29431,
+                "simpleDesc": "Ottiene 1 Aumento Offensivo & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 294311,
+                "simpleDesc": "Ottiene 1 Aumento Offensivo & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 294312,
+                "simpleDesc": "Infligge più danni in base al numero degli Scontri"
+            }
+        ]
     },
     {
-      "id": 9432,
-      "name": "Manor-shaped Music Box",
-      "desc": "[Effects apply only to the #1 Deployed Identity]\n\nTurn End: when Staggered, recover from Stagger; then, at the next Turn Start, inflict 4 [Sinking] Potency and 4 [Sinking] Count to all enemies (once per Encounter; in Focused Encounters, on all Parts)\n\nWhen defeating an enemy with [Sinking], 1 enemy with the least [Sinking] Count gains +2 [Sinking] Count (in Focused Encounters, the Part)",
-      "simpleDesc": [
-        {
-          "abilityID": 9432,
-          "simpleDesc": "Inflict 4 Sinking Potency and Count against all enemies"
-        },
-        {
-          "abilityID": 94321,
-          "simpleDesc": "The enemy with the least Sinking Count gains +2 Sinking Count"
-        }
-      ]
+        "id": 9432,
+        "name": "Carillon a Forma di Maniero",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #1]\n\nFine Turno: se sta Vacillando, si riprende dal Vacillamento; quindi, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\nQuando sconfigge un nemico con [Sinking], 1 nemico con il minor Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (negli Scontri Mirati, la parte).",
+        "simpleDesc": [
+            {
+                "abilityID": 9432,
+                "simpleDesc": "Infligge 4 Potenza e Conteggio [Sinking] a tutti i nemici"
+            },
+            {
+                "abilityID": 94321,
+                "simpleDesc": "Il nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking]"
+            }
+        ]
     },
     {
-      "id": 9435,
-      "name": "Butler Style Binding Arts",
-      "desc": "Turn Start: inflict 1 [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest HP percentage: if the target is Staggered, deal +7.5% damage for every Stagger Level.",
-      "simpleDesc": [
-        {
-          "abilityID": 9435,
-          "simpleDesc": "Inflict 1 Bind on the enemy that recovered from Stagger"
-        },
-        {
-          "abilityID": 94351,
-          "simpleDesc": "Deal more damage based on the target's Stagger LV"
-        }
-      ]
+        "id": 9435,
+        "name": "Arti Vincolanti del Maggiordomo",
+        "desc": "Inizio Turno: infligge 1 [Binding] al nemico che si è ripreso dal Vacillamento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio sta Vacillando, infligge +7,5% di danni per ogni Livello di Vacillamento.",
+        "simpleDesc": [
+            {
+                "abilityID": 9435,
+                "simpleDesc": "Infligge 1 Lentezza al nemico che si è ripreso dal Vacillamento"
+            },
+            {
+                "abilityID": 94351,
+                "simpleDesc": "Infligge più danni in base al Livello di Vacillamento del bersaglio"
+            }
+        ]
     },
     {
       "id": 19435,
-      "name": "Butler Style Binding Arts+",
-      "desc": "Turn Start: inflict <style=\"upgradeHighlight\">2</style> [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest HP percentage: if the target is Staggered, deal +<style=\"upgradeHighlight\">10%</style> damage for every Stagger Level.",
+      "name": "Arti Vincolanti del Maggiordomo+",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">2</style> [Binding] al nemico che si è ripreso dal Vacillamento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio sta Vacillando, infligge +<style=\"upgradeHighlight\">10%</style> di danni per ogni Livello di Vacillamento.",
       "simpleDesc": [
         {
           "abilityID": 19435,
-          "simpleDesc": "Inflict 2 Bind on the enemy that recovered from Stagger"
+          "simpleDesc": "Infligge 2 Lentezza al nemico che si è ripreso dal Vacillamento"
         },
         {
           "abilityID": 194351,
-          "simpleDesc": "Deal more damage based on the target's Stagger LV"
+          "simpleDesc": "Infligge più danni in base al Livello di Vacillamento del bersaglio"
         }
       ]
     },
     {
       "id": 29435,
-      "name": "Butler Style Binding Arts++",
-      "desc": "Turn Start: inflict <style=\"upgradeHighlight\">3</style> [Binding] against the enemy who recovered from Stagger last turn\n\nOn Hit from an ally with the highest HP percentage: if the target is Staggered, deal +<style=\"upgradeHighlight\">12.5%</style> damage for every Stagger Level.",
+      "name": "Arti Vincolanti del Maggiordomo++",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">3</style> [Binding] al nemico che si è ripreso dal Vacillamento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio sta Vacillando, infligge +<style=\"upgradeHighlight\">12,5%</style> di danni per ogni Livello di Vacillamento.",
       "simpleDesc": [
         {
           "abilityID": 29435,
-          "simpleDesc": "Inflict 3 Bind on the enemy that recovered from Stagger"
+          "simpleDesc": "Infligge 3 Lentezza al nemico che si è ripreso dal Vacillamento"
         },
         {
           "abilityID": 294351,
-          "simpleDesc": "Deal more damage based on the target's Stagger LV"
+          "simpleDesc": "Infligge più danni in base al Livello di Vacillamento del bersaglio"
         }
       ]
     },
     {
       "id": 9436,
-      "name": "Refraction Glass Pod",
-      "desc": "Regular Encounters) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\nif the target is at -45 SP, deal (([Sinking] Potency on target) / 2) Gloom damage (once per Skill)\n\nFocused Encounters) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\ndeal (([Sinking] Potency on target) / 2) Gloom damage (once per Skill)\n\nIf the Skill that hit an enemy inflicts [Sinking](including [Sinking] Count and Unique <noparse>Sinking</noparse>), instead of dealing ([Sinking] Potency on target / 2) Gloom damage, deal ([Sinking] Potency on target) Gloom damage\n(Each turn, this applies only to the first Sinking-inflicting Skill that hits)",
+      "name": "Tubo di Vetro a Rifrazione",
+      "desc": "Incontri Regolari) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\nse il bersaglio è a -45 PS, infligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nIncontri Mirati) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\ninfligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Unico), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge Annegamento che va a segno).",
       "simpleDesc": [
         {
           "abilityID": 9436,
-          "simpleDesc": "Deal Gloom damage based on Sinking on the target"
+          "simpleDesc": "Infligge danni da Tristezza in base all'Annegamento sul bersaglio"
         },
         {
           "abilityID": 94361,
-          "simpleDesc": "Deal Gloom damage based on Sinking on the target"
+          "simpleDesc": "Infligge danni da Tristezza in base all'Annegamento sul bersaglio"
         }
       ]
     },
     {
       "id": 9437,
-      "name": "La Manchaland All-day Pass",
-      "desc": "On Hit against targets with 10+ (sum of [Laceration], 'Unique Bleed', and [Burst]): gain 1 [Breath] Potency and Count (2 times per Skill)",
+      "name": "Pass Giornaliero per La Manchaland",
+      "desc": "A segno contro bersagli con 10+ (somma di [Laceration], 'Sanguinamento Unico' e [Burst]): ottiene 1 Potenza e Conteggio [Breath] (2 volte per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 9437,
-          "simpleDesc": "Gain 1 Poise Potency and Count"
+          "simpleDesc": "Ottiene 1 Potenza e Conteggio [Breath]"
         }
       ]
     },
     {
       "id": 9438,
-      "name": "Token of Victory",
-      "desc": "On Kill, 1 ally with the least SP heals 3 SP.\n\nAttack End: if an enemy with 10+ (sum of [Laceration], 'Unique Bleed', and [Burst]) is defeated, 1 ally gains 2 [AttackUp] next turn (prioritizes the ally who killed that enemy)",
+      "name": "Medaglia della Vittoria",
+      "desc": "Su Uccisione: 1 alleato con il minor numero di PS ne ripristina 3.\n\nFine Attacco: se un nemico con 10+ (somma di [Laceration], 'Sanguinamento Unico' e [Burst]) viene sconfitto, 1 alleato ottiene 2 [AttackUp] per il turno successivo (priorità all'alleato che ha sconfitto quel nemico).",
       "simpleDesc": [
         {
           "abilityID": 9438,
-          "simpleDesc": "Heal 3 SP"
+          "simpleDesc": "Ripristina 3 PS"
         },
         {
           "abilityID": 9438,
-          "simpleDesc": "A random ally gains 2 Offense Level Up next turn"
+          "simpleDesc": "Un alleato casuale ottiene 2 Aumento Offensivo per il turno successivo"
         }
       ]
     },
     {
       "id": 9439,
-      "name": "Devouring Cube",
-      "desc": "When an ally dies, gain 1 E.G.O resource for each of that ally's Skills 1 and 2.\n\nAttack End: if the enemy is killed, gain 1 random E.G.O resource (once per Skill)",
+      "name": "Cubo Divoratore",
+      "desc": "Quando un alleato muore, ottiene 1 Risorsa E.G.O per ciascuna delle Abilità 1 e 2 di quell'alleato.\n\nFine Attacco: se il nemico viene ucciso, ottiene 1 Risorsa E.G.O casuale (una volta per Abilità).",
       "simpleDesc": [
         {
           "abilityID": 9439,
-          "simpleDesc": "Gain 1 random E.G.O resource"
+          "simpleDesc": "Ottiene 1 Risorsa E.G.O casuale"
         }
       ]
     },
     {
       "id": 9440,
-      "name": "Mask of the Parade",
-      "desc": "In Encounters where backup enemies appear: when new enemies enter the battle, inflict 3 [Laceration] and +2 [Laceration] Count against them.\n\nIf there is a <Bloodfiend> among allies: when new enemies enter the battle, activate [Laceration] on all enemies and reduce their [Laceration] Count by 1",
+      "name": "Maschera della Parata",
+      "desc": "Negli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge 3 [Laceration] e +2 Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
       "simpleDesc": [
         {
           "abilityID": 9440,
-          "simpleDesc": "Inflict 3 Bleed and +2 Bleed Count against backup enemies entering battle"
+          "simpleDesc": "Infligge 3 Sanguinamento e +2 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
         },
         {
           "abilityID": 94401,
-          "simpleDesc": "Activate Bleed once on all enemies (reduce their Bleed Count by 1)"
+          "simpleDesc": "Attiva Sanguinamento una volta su tutti i nemici (riduce il loro Conteggio Sanguinamento di 1)"
         }
       ]
     },
     {
       "id": 19440,
-      "name": "Mask of the Parade+",
-      "desc": "In Encounters where backup enemies appear: when new enemies enter the battle, inflict <style=\"upgradeHighlight\">5</style> [Laceration] and +<style=\"upgradeHighlight\">3</style> [Laceration] Count against them.\n\nIf there is a <Bloodfiend> among allies: when new enemies enter the battle, activate [Laceration] on all enemies and reduce their [Laceration] Count by 1",
+      "name": "Maschera della Parata+",
+      "desc": "Negli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge <style=\"upgradeHighlight\">5</style> [Laceration] e +<style=\"upgradeHighlight\">3</style> Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
       "simpleDesc": [
         {
           "abilityID": 194405,
-          "simpleDesc": "Inflict 5 Bleed and +3 Bleed Count against backup enemies entering battle"
+          "simpleDesc": "Infligge 5 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
         },
         {
           "abilityID": 1944051,
-          "simpleDesc": "Activate Bleed once on all enemies (reduce their Bleed Count by 1)"
+          "simpleDesc": "Attiva Sanguinamento una volta su tutti i nemici (riduce il loro Conteggio Sanguinamento di 1)"
         }
       ]
     }

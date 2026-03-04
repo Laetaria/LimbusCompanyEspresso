@@ -1723,18 +1723,18 @@
     {
       "id": 1061001,
       "name": "Come Cacciare Allegramente",
-      "desc": "Se il bersaglio è un <Sanguimonio> o una <Sacca di Sangue>, infligge +10% danni\nSull'Uso di un'Abilità, se questa unità ha [Laceration], infligge 3 [Burst] Sul Colpo (1 volta per turno)",
+      "desc": "Se il bersaglio è un <Bramasangue> o una <Sacca di Sangue>, infligge +10% danni\nSull'Uso di un'Abilità, se questa unità ha [Laceration], infligge 3 [Burst] Sul Colpo (1 volta per turno)",
       "summary": ""
     },
     {
       "id": 1061011,
       "name": "Come Cacciare Allegramente",
-      "desc": "Se il bersaglio è un <Sanguimonio>, <Sacca di Sangue>, o se il bersaglio ha 10+ [Burst], infligge +10% danni\nSull'Uso di un'Abilità, se questa unità ha [Laceration], infligge 3 [Burst] Sul Colpo (2 volte per turno)",
+      "desc": "Se il bersaglio è un <Bramasangue>, <Sacca di Sangue>, o se il bersaglio ha 10+ [Burst], infligge +10% danni\nSull'Uso di un'Abilità, se questa unità ha [Laceration], infligge 3 [Burst] Sul Colpo (2 volte per turno)",
       "summary": ""
     },
     {
       "id": 1061021,
-      "name": "Manuale di Caccia Sanguimoni - Emostatica",
+      "name": "Manuale di Caccia ai Bramasangue - Emostatica",
       "desc": "Inizio Combattimento: 1 alleato con il totale di Potenza e Conteggio [Laceration] più alto perde 2 Conteggio [Laceration]\nQuando 1 alleato con la Velocità più alta colpisce un nemico con [Burst], infligge 1 [DefenseDown] (2 volte per turno)",
       "summary": ""
     },
@@ -1863,7 +1863,7 @@
     {
       "id": 1031021,
       "name": "'Saziate la vostra fame repressa, Famiglia mia'",
-      "desc": "Inizio Combattimento: 1 alleato con i PV più bassi ottiene 1 [AttackDmgUp] per ogni 20% di PV mancanti (max 3)\n- Se quell'alleato è un <Sanguimonio>, invece ottiene 1 [AttackDmgUp] per ogni 15% di PV mancanti (max 3)"
+      "desc": "Inizio Combattimento: 1 alleato con i PV più bassi ottiene 1 [AttackDmgUp] per ogni 20% di PV mancanti (max 3)\n- Se quell'alleato è un <Bramasangue>, invece ottiene 1 [AttackDmgUp] per ogni 15% di PV mancanti (max 3)"
     },
     {
       "id": 1061101,
@@ -1873,12 +1873,12 @@
     {
       "id": 1061102,
       "name": "Supporto con Armi da Fuoco Tattico",
-      "desc": "Se il Fixer dell'Ufficio Punto e Basta Heathcliff è in stato di [Retreat_FullStop], o è stato Schierato come unità di Riserva, potenzia l'Abilità 2 e Abilità 3 del Rappresentante dell'Ufficio Punto e Basta Hong Lu"
+      "desc": "Se Fixer dell'Ufficio Alto Calibro Heathcliff è in stato di [Retreat_FullStop], o è stato Schierato come unità di Riserva, potenzia l'Abilità 2 e Abilità 3 del Rappresentante dell'Ufficio Alto Calibro Hong Lu"
     },
     {
       "id": 1061111,
       "name": "Supporto di Fuoco Tattico",
-      "desc": "Se il Fixer dell'Ufficio Punto e Basta Heathcliff è in stato di [Retreat_FullStop], o è stato Schierato come unità di Riserva, potenzia l'Abilità 2 e Abilità 3 del Rappresentante dell'Ufficio Punto e Basta Hong Lu\n\nInizio Combattimento: a 20+ Potenza [Breath], ottiene +1 Conteggio [Breath]"
+      "desc": "Se Fixer dell'Ufficio Alto Calibro Heathcliff è in stato di [Retreat_FullStop], o è stato Schierato come unità di Riserva, potenzia l'Abilità 2 e Abilità 3 del Rappresentante dell'Ufficio Alto Calibro Hong Lu\n\nInizio Combattimento: a 20+ Potenza [Breath], ottiene +1 Conteggio [Breath]"
     },
     {
       "id": 1061121,
@@ -1908,7 +1908,7 @@
     {
       "id": 1071121,
       "name": "Spotter",
-      "desc": "1 alleato con le [Bullet] ottiene +2 Conteggio [Breath] quando usa un'Abilità che consuma [Bullet].\n- Se quell'alleato è un'Identità dell'Ufficio Punto e Basta, o se ha meno di 5 Conteggio [Breath],invece ottiene +4 Conteggio [Breath] (1 volta per turno; non si applica a unità senza [Bullet])"
+      "desc": "1 alleato con le [Bullet] ottiene +2 Conteggio [Breath] quando usa un'Abilità che consuma [Bullet].\n- Se quell'alleato è un'Identità dell'Ufficio Alto Calibro, o se ha meno di 5 Conteggio [Breath],invece ottiene +4 Conteggio [Breath] (1 volta per turno; non si applica a unità senza [Bullet])"
     },
     {
       "id": 1011101,
@@ -2012,7 +2012,7 @@
     {
       "id": 1121101,
       "name": "Sono l'Unico Sopravvissuto...",
-      "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Sanguimonio>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità fa Vacillare o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (1 volta per turno)\n- negli Incontri Mirati, sulle Parti",
+      "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Bramasangue>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità fa Vacillare o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (1 volta per turno)\n- negli Incontri Mirati, sulle Parti",
       "summary": "Deal more damage based on [FirePunchFuel] and [FirePunchFuelOverheated] consumed\nInflict [Combustion] Count against 2 random enemies (once per turn)"
     },
     {
@@ -2566,13 +2566,13 @@
     {
       "id": 1091401,
       "name": "Corna Festive",
-      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Pianto che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)",
+      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)",
       "summary": "If enemy does not have [Sinking], gain [Sinking] and inflict more [Sinking] Potency"
     },
     {
       "id": 1091411,
       "name": "Corna Festive",
-      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Pianto che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)\n\n<style=\"highlight\">A meno del 35% di PV, L'Abilità Attacco Base ottiene Potere Finale +1</style>",
+      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)\n\n<style=\"highlight\">A meno del 35% di PV, L'Abilità Attacco Base ottiene Potere Finale +1</style>",
       "summary": "If enemy does not have [Sinking], gain [Sinking] and inflict more [Sinking] Potency\nAt less than 35% HP, Final Power +1"
     },
     {
@@ -2751,19 +2751,19 @@
       "id": 1011501,
       "name": "Imitazione di una Vita",
       "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con [SuperCoin] delle Abilità Attacco Base, ottiene 1 [StackYisangSpecialSkill]\n- Fine Attacco: Ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanente)",
-      "summary": "Deal more damage with Skills marked with Mark of the Prescript based on Grace of the Prescript on self\nOn Hit: Heal SP\nGain [StackYisangSpecialSkill] when certain conditions are met"
+      "summary": "Infligge più danni con le Abilità marchiate con Segno del Prescritto in base a Grazia del Prescritto su di sé\nSul Colpo: Cura i suoi PS\nOttiene [StackYisangSpecialSkill] quando raggiunge determinate condizioni"
     },
     {
       "id": 1011511,
       "name": "Imitazione di una Vita",
       "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con [SuperCoin] delle Abilità Attacco Base, ottiene 1 [StackYisangSpecialSkill]\n- AFine Attacco: Ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanente)\n<style=\"highlight\">- 'Furioso (Replica)' Fine Attacco: il turno successivo ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanenti di questa Abilità / 2) (arrotondato per difetto)</style>\n\n<style=\"highlight\">Se [StackYisangSpecialSkill] ha raggiunto 9 Stack in questo turno a Fine Turno, e se questa unità non ha un’Abilità 3 sul Pannello di Controllo all’inizio del prossimo turno, converte un’Abilità Base in Abilità 3 (dà priorità all’Abilità nello Slot più in basso a sinistra, riga più in basso)</style>",
-      "summary": "Deal more damage with Skills marked with Mark of the Prescript based on Grace of the Prescript on self\nOn Hit: Heal SP\nGain [StackYisangSpecialSkill] when certain conditions are met"
+      "summary": "Infligge più danni con le Abilità marchiate con Segno del Prescritto in base a Grazia del Prescritto su di sé\nSul Colpo: Cura i suoi PS\nOttiene [StackYisangSpecialSkill] quando raggiunge determinate condizioni"
     },
     {
       "id": 1011521,
       "name": "Grazia di Dio",
-      "desc": "Infligge +5% danni con le Abilità Attacco Base Tagliente, Perforante e Contundente che vengono usate per la prima volta da ogni alleato ogni turno ((una volta per tipo, per tutti gli alleati)\n- Le Identità dell’Indice infliggono invece +10% danni\n- L’applicazione dell’effetto viene determinata Prima di Attaccare",
-      "summary": "Deal more damage with Slash, Pierce, and Blunt Skills used for the first time this turn"
+      "desc": "Infligge +5% danni con le Abilità Attacco Base Tagliente, Perforante e Contundente che vengono usate per la prima volta da ogni alleato ogni turno (una volta per tipo, per tutti gli alleati)\n- Le Identità dell’Indice infliggono invece +10% danni\n- L’applicazione dell’effetto viene determinata Prima di Attaccare",
+      "summary": "Infligge più danni con le Abilità Taglienti, Perforanti e Contundenti che vengono usate per la prima volta in questo turno"
     }
   ]
 }
