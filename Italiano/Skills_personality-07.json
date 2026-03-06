@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Requiem",
-          "desc": "[WinDuel] Si cura di 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
+          "desc": "[WinDuel] Recupera 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Requiem",
-          "desc": "[WinDuel] Si cura di 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 for <style=\"highlight\">every 3</style> [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +12% danni per ogni [Coffin] su di sé (max 120%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
+          "desc": "[WinDuel] Recupera 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 for <style=\"highlight\">every 3</style> [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +12% danni per ogni [Coffin] su di sé (max 120%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando l'unità è meno di 0 PS, recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (recupera 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -921,7 +921,7 @@
                   "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (max 4)"
                 },
                 {
-                  "desc": "[EnemyKill] Si cura di 15 PS"
+                  "desc": "[EnemyKill] Recupera 15 PS"
                 }
               ]
             }
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -951,7 +951,7 @@
                   "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (max <style=\"highlight\">8</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Si cura di 15 PS"
+                  "desc": "[EnemyKill] Recupera 15 PS"
                 }
               ]
             }
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -986,7 +986,7 @@
                   "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (max 4)"
                 },
                 {
-                  "desc": "[EnemyKill] Si cura di 15 PS"
+                  "desc": "[EnemyKill] Recupera 15 PS"
                 }
               ]
             }
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, si cura di 10 PS. Quando è sotto 0 PS, si cura di più PS quanto più i PS di questa unità sono distanti da 0 (si cura di <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -1016,7 +1016,7 @@
                   "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (max <style=\"highlight\">8</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Si cura di 15 PS"
+                  "desc": "[EnemyKill] Recupera 15 PS"
                 }
               ]
             }
@@ -2283,7 +2283,7 @@
         {
           "level": 3,
           "name": "Lame Scatenate del Gallo sotto il Cielo Insanguinato [血天下鷄舞亂刀]",
-          "desc": "[WideAreaRampage]\n[WhenUse] Ottiene 3 [ChickenStance]\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] extra e si cura di ([Combustion] usata x 2)% PV",
+          "desc": "[WideAreaRampage]\n[WhenUse] Ottiene 3 [ChickenStance]\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] extra e recupera ([Combustion] usata x 2)% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2333,7 +2333,7 @@
         {
           "level": 4,
           "name": "Lame Scatenate del Gallo sotto il Cielo Insanguinato [血天下鷄舞亂刀]",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +3% danni per ogni [Combustion] su di sé (max 60%)\nInfligge +1% danni per ogni 2% (percentuale dei PV mancanti sul bersaglio + percentuale dei PV mancanti su di sé) (max 50%)</style>\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 3)</style>\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] extra e si cura di ([Combustion] usata x 2)% PV",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +3% danni per ogni [Combustion] su di sé (max 60%)\nInfligge +1% danni per ogni 2% (percentuale dei PV mancanti sul bersaglio + percentuale dei PV mancanti su di sé) (max 50%)</style>\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 3)</style>\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] in più e recupera ([Combustion] usata x 2)% PV",
           "coinlist": [
             {
               "coindescs": [

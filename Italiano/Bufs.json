@@ -8,7 +8,7 @@
       "undefined": "-"
     },
     {
-      "id": "Agility",
+      "id": "Aégility",
       "name": "Rapidità",
       "desc": "Velocità +{0} Per Questo Turno.",
       "summary": "Vel. +{0}",
@@ -196,7 +196,7 @@
     {
       "id": "BeingGolden",
       "name": "Buccia Dorata",
-      "desc": "A inizio Turno: Si Cura di 10 PV per ogni Stack.",
+      "desc": "A inizio Turno: Recupera 10 PV per ogni Stack.",
       "summary": "Recupera 10 PV"
     },
     {
@@ -1359,7 +1359,7 @@
     {
       "id": "TakeHpHealIncrease",
       "name": "Cure PV Aumentate",
-      "desc": "Si cura di +{0}0% PV dalle passive, Abilità, e dagli effetti delle Monete. (Max 5)",
+      "desc": "Recupera +{0}0% PV dalle passive, Abilità, e dagli effetti delle Monete. (Max 5)",
       "summary": "Cure PV +{0}0%"
     },
     {
@@ -1898,7 +1898,7 @@
     {
       "id": "LibrarianOfHistoryNormal",
       "name": "Assistente Bibliotecario del Piano della Storia",
-      "desc": "- Slot Abilità +1\n- Si cura di 15 PS ad inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')",
+      "desc": "- Slot Abilità +1\n- Recupera 15 PS ad inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')",
       "summary": ""
     },
     {
@@ -1921,7 +1921,7 @@
     {
       "id": "LibrarianOfHistoryHard",
       "name": "Bibliotecario del Piano della Storia",
-      "desc": "-Slot Abilità +1\n- Si cura di 15 PS a inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
+      "desc": "-Slot Abilità +1\n- Recupera 15 PS a inizio Turno\n- Infligge il doppio del Conteggio e della Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento, e Vibrazione. (Si applica anche agli effetti di stato 'Speciali')\n- Quando un nemico viene sconfitto, 2 alleati (quest'unità inclusa) con meno PS recuperano 25 PS.\n- Quando sconfigge un nemico, ottiene +2 risorse E.G.O per l'Affinità che ha ucciso il nemico; +1 a tutte le risorse E.G.O",
       "summary": ""
     },
     {
@@ -2742,13 +2742,13 @@
     {
       "id": "DarkHongluQiuAndHonglu",
       "name": "Colui che Segue la Via del Condottiero",
-      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS si cura di 5 PS\n- Alla morte di un alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (1 volta per turno)",
+      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato(inclusa questa unità) con i meno PS recupera 5 PS\n- Alla morte di un alleato, il turno successivo, questa unità ottiene 2 Attacco Aumentato e gli alleati rimasti ottengono 1 Attacco Aumentato (1 volta per turno)",
       "summary": ""
     },
     {
       "id": "DarkHongluTeaching",
       "name": "Imposizione Irremovibile",
-      "desc": "Stack Max: 3\n- Fine Turno: si cura di 5 PS\n- Quando i PV scendono a 0 durante l'Incontro, si cura fino ai PV max (si attiva tante volte quante le Stack dell'unità)\n- Quando si cura per questo effetto, ottiene 1 Potere Incrementato il turno successivo\n-Attivato: {0} volte",
+      "desc": "Stack Max: 3\n- Fine Turno: recupera 5 PS\n- Quando i PV scendono a 0 durante l'Incontro, si cura fino ai PV max (si attiva tante volte quante le Stack dell'unità)\n- Quando si cura per questo effetto, ottiene 1 Potere Incrementato il turno successivo\n-Attivato: {0} volte",
       "summary": ""
     },
     {
@@ -2790,7 +2790,7 @@
     {
       "id": "ChickenStance",
       "name": "Sanguifiamma [血炎]",
-      "desc": "- Stack Max: 3\n- Questa unità infligge +1 Potenza Bruciatura e Lacerazione aggiuntive con le sue Abilità Base\n- Mentre questa unità ha questo effetto, si cura di 3 PS quando fa Vacillare o uccide un nemico (3 volte per turno)\n· Se i PS di questa unità sono al massimo all'attivazione di questo effetto, ottiene 1 Aumento Offensivo e 1 Rapidità il turno successivo\n- Perde 1 Stack a Fine Turno",
+      "desc": "- Stack Max: 3\n- Questa unità infligge +1 Potenza Bruciatura e Lacerazione aggiuntive con le sue Abilità Base\n- Mentre questa unità ha questo effetto, recupera 3 PS quando fa Vacillare o uccide un nemico (3 volte per turno)\n· Se i PS di questa unità sono al massimo all'attivazione di questo effetto, ottiene 1 Aumento Offensivo e 1 Rapidità il turno successivo\n- Perde 1 Stack a Fine Turno",
       "summary": "Infligge +1 Potenza Bruciatura o Lacerazione"
     },
     {
@@ -3095,7 +3095,7 @@
     {
       "id": "LCA_Bullet",
       "name": "Cartuccia Frattura LCA",
-      "desc": "- Max Capacity: 16\n- Munizioni Speciali\n- Usato da certe Abilità\n- Alcuni attacchi verranno cancellati se le Munizioni non sono sufficenti",
+      "desc": "- Max Capacity: 16\n- Munizioni Speciali\n- Usata da certe Abilità\n- Alcuni attacchi verranno cancellati se le Munizioni non sono sufficenti",
       "summary": "",
       "undefined": "-"
     },
@@ -3121,78 +3121,78 @@
     },
     {
       "id": "ReinforcedTattooIshmael",
-      "name": "The Middle Styled Augmentation Tattoos",
-      "desc": "- Max Stack: 10\n- Final Power +1 for Base Skills for every 5 Stack (max 2)\n- Envy Skills and Blunt Skills deal +5% damage for every Stack (max 50%)",
+      "name": "Tatuaggi di Potenziamento in Stile Medio",
+      "desc": "- Stack Max: 10\n- Potere Finale +1 per le Abilità base ogni 5 Stack (max 2)\n- Le Abilità Invidia e le Abilità Contundenti infliggono +5% danni per ogni Stack (max 50%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ResentmentIshmael",
-      "name": "The Middle - Grudge",
-      "desc": "- Max Stack: 15\n- If target has Vengeance Mark, deal +20% damage",
+      "name": "Il Medio - Rancore",
+      "desc": "-  Stack max: 15\n- Se il bersaglio ha Marchio della Vendetta, infligge +20% danni",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeatingWireIshmael",
-      "name": "Thermal Blades",
-      "desc": "- Max Stack: 2\n- If target hit by Base Skills has Burn, heal 3 SP (2 times per turn)\n- Inflict Burn when inflicting Bleed with certain Skill Coins\n- Turn End: Lose 1 Stack",
+      "name": "Lame Termiche",
+      "desc": "- Stack Max: 2\n- Se il bersaglio colpito dalle Abilità Base ha Bruciatura, cura 3 PS (2 volte per turno)\n- Infligge Bruciatura quando infligge Sanguinamento con determinate Monete Abilità\n- Fine turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LanternGregBigBird",
-      "name": "Lamp",
-      "desc": "- Max Stack: 8\n- Turn End: Gain 1 Bind next turn for every 2 Stack (max 4)\n- Turn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n• Gain +10 Aggro to the leftmost Slot\n• Inflict 3 Dazzle to the enemy(Core) with the most current HP",
-      "summary": "Gain Bind next turn",
+      "name": "Lampada",
+      "desc": "- Max Stack: 8\n- Fine Turno: Ottiene 1 Lentezza al turno successivo per ogni 2 Stack (max 4)\n- Fine Turno: Al massimo delle Stack, se sono presenti nemici in campo, consuma tutte le Stack per attivare i seguenti effetti al turno successivo:\n• Ottiene +10 Provocazione nello Slot più a sinistra\n• Infligge 3 Abbaglio al nemico (Nucleo) con più PV attuali",
+      "summary": "Ottiene Lentezza nel turno successivo",
       "undefined": "-"
     },
     {
       "id": "ObedienceGregBigBird",
-      "name": "Guardians of the Forest",
-      "desc": "Before Attack, activate the following effects:\n- Plus Coin Skills heal 4 SP (if already at max SP, gain 2 Offense Level Up next turn)\n- Minus Coin Skills lose 8 SP (this effect cannot reduce the unit's SP below -40)\n- Lose this effect",
+      "name": "Guardiani della Foresta",
+      "desc": "Prima di Attaccare, attiva i seguenti effetti:\n- Le Abilità Moneta Positiva fanno recuperare 4 PS (se i PS sono già al massimo, ottiene 2 Aumento Offensivo al turno successivo)\n- Le Abilità Moneta Negativa fanno perdere 8 PS (questo effetto non può ridurre i PS dell'unità al di sotto di -40)\n- Perde questo effetto",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird",
-      "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nUnits with SP: Change their Panic Type to \"Dazzle\"\nUnits without SP: Defense Level -2",
+      "name": "Abbaglio",
+      "desc": "- Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\n- Unità con PS: Cambia il loro Tipo di Panico in \"Abbaglio\"\n- Unità senza PS: Livello Difensivo -2\n- Fine Turno: Perde 1 Stack\n- Questo effetto non è cumulativo: infliggerlo sostituirà il valore attuale con il nuovo valore\n- Applica la condizione \"Unità senza PS\" a determinati nemici che possiedono PS ma non possono cambiare il proprio Tipo di Panico\n\n※ Effetti Tipo di Panico: Abbaglio\n- Morale Basso: Fine Turno: Ottiene 1 Lentezza e 2 Calo Difensivo al turno successivo\n- Panico: Fine Turno: Ottiene 1 Lentezza e 4 Calo Difensivo al turno successivo",
+      "summary": "Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\nUnità con PS: Cambia il Tipo di Panico in \"Abbaglio\"\nUnità senza PS: Livello Difensivo -2",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Main",
-      "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
+      "name": "Abbaglio",
+      "desc": "- Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\n- Unità con PS: Cambia il loro Tipo di Panico in \"Abbaglio\"\n- Fine Turno: Perde 1 Stack",
+      "summary": "Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\nCambia il Tipo di Panico in \"Abbaglio\"",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Sub",
-      "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
+      "name": "Abbaglio",
+      "desc": "- Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\n- Unità senza PS: Livello Difensivo -2\n- Fine Turno: Perde 1 Stack",
+      "summary": "Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\nLivello Difensivo -2",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_LowMorale",
-      "name": "Dazzle",
-      "desc": "- Low Morale\n- Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
-      "summary": "Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
+      "name": "Abbaglio",
+      "desc": "- Morale Basso\n- Fine Turno: Ottiene 1 Lentezza e 2 Calo Difensivo nel turno successivo",
+      "summary": "Fine Turno: Ottiene 1 Lentezza e 2 Calo Difensivo nel turno successivo",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Panic",
-      "name": "Dazzle",
-      "desc": "- Panic\n- Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
-      "summary": "Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "name": "Abbaglio",
+      "desc": "- Panico\n- Fine Turno: Ottiene 1 Lentezza e 4 Calo Difensivo nel turno successivo",
+      "summary": "Fine Turno: Ottiene 1 Lentezza e 4 Calo Difensivo nel turno successivo",
       "undefined": "-"
     },
     {
       "id": "LittleFingerID",
-      "name": "Moonlit Azure Blade",
-      "desc": "- Max Stack: 20\n- Turn Start: Gain 2 Shield for every Stack\n- Deal +1% damage on Critical Hit for every Stack",
+      "name": "Lama Azzurra Lunare",
+      "desc": "- Stack Max: 20\n- Inizio Turno: Ottiene 2 Scudo per ogni Stack\n- Infligge +1% danni sui Colpi Critici per ogni Stack",
       "summary": "",
       "undefined": "-"
     },
@@ -3347,6 +3347,119 @@
       "summary": "",
       "undefined": "-",
       "flavor": ""
+    },
+    {
+      "id": "ThatIsRhythm",
+      "name": "Ritmo",
+      "desc": "- Max Stack: 5\n- Infligge +2% danni per ogni Stack (max 10%)\n- Livello Offensivo +1 per ogni Stack (max 5)\n- Livello Difensivo -1 per ogni Stack (max -5)\n- Fine Turno: Questo Effetto Scade",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultBeeSpore",
+      "name": "Spore",
+      "desc": "- Max Stack: 15\n- Fine Turno: Ottiene +1 Conteggio Bruciatura per ogni 5 Stack\n- Ottiene 1 Lentezza il turno successivo",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultWorkerBee",
+      "name": "Feromoni Della Lealtà",
+      "desc": "- Max Stack: 3\n- Ottiene i seguenti effetti in base alle Stack a Fine Turno:\n1+ Stack: 1 Mitigazione\n2+ Stack: 1 Rapidità\n3 Stack: 1 Potere Scontro Aumentato",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultSporeBulletLong",
+      "name": "Proiettili Spora [Base]",
+      "desc": "- Munizione Speciale\n- Max Stack: 10\n- Usati da certe Abilità\n- Alcuni attacchi verranno cancellati se le Munizioni non sono sufficenti\n- Quando viene usato, infligge 2 Spore al bersaglio Sul Colpo",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultSporeBulletShort",
+      "name": "Proiettili Spora [Pallettoni]",
+      "desc": "- Munizione Speciale\n- Max Stack: 6\n- Usati da certe Abilità\n- Alcuni attacchi verranno cancellati se le Munizioni non sono sufficenti\n- Quando viene usato, infligge 3 Spore al bersaglio Sul Colpo",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultSporeBulletReloading",
+      "name": "Ricaricare [Germinazione]",
+      "desc": "- Effetto Applicato Alle Munizioni Spora (Munizioni Speciali)\n- Consuma ((16 - somma di of Proiettili Spora) / 2) PS (arrotondato per difetto), azzera sia Proiettili Spora [Base] e Proiettili Spora [Buckshot], e li riottiene al massimo delle Stacks",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultBeeGunLong",
+      "name": "Calabrone [Carabina]",
+      "desc": "Modalità Attuale: Calabrone [Carabina]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MeursaultBeeGunShort",
+      "name": "Calabrone [Fucile]",
+      "desc": "Modalità Attuale: Calabrone [Fucile]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Invece di osservare la forma del fucile, osserva l'essenza del \"Calabrone.\"\nEpoché"
+    },
+    {
+      "id": "BulletGodok",
+      "name": "Cartucce - Solitudine",
+      "desc": "- Munizione Speciale\n- Capacità Max: 6\nUsate per alcune Abilità\n\n- Questa munizione non può essere persa o ottenuta da effetti esterni",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AlriuneEGOThey",
+      "name": "Tenue Aroma",
+      "desc": "- Stack Max: 30\n- Ottiene 1 Stack se questa unità subisce danno da Annegamento\n- Quando avviene uno Scoppio Vibrazione, applica 1~2 enue Aroma su 3 alleati casuali (per le Anormalità, le Parti)\n- Al massimo delle Stack, ottiene 2 Vibrazione ed innesca Scoppio Vibrazione su di sé, infine subisce Danno da Tristezza pari ad Annegamento su di sé e perde tutte le Stack di Tenue Aroma. Non può più ottenere Tenue Aroma per tutto il resto del turno.\n- Se questa unità viene uccisa, infligge (Tenue Aroma rimanente su questa unità / 2) Tenue Aroma in modo casuale tra gli alleati di questa unità (arrotondato per difetto)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AlriuneEGOWe",
+      "name": "Petali",
+      "desc": "- Stack Max: 30\n- Livello Offensivo +1 per ogni 10 Stack\n- Può ottenere fino a 15 Stack per turno",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GodokPanicType",
+      "name": "Solitudine",
+      "desc": "- Subisce +10% danni dalle Abilità Tristezza\n- Unità con PS: Cambia il Tipo di Panico in 'Solitudine'\n- Unità senza PS: Ottiene +2 Conteggio Annegamento a Fine Turno\n\n- Fine Turno: Perde 1 Stack\n- Questo effetto non è cumulativo: infliggerlo sostituirà il valore attuale con il nuovo valore\n- Applica la condizione \"Unità senza PS\" a determinati nemici che possiedono PS ma non possono cambiare il proprio Tipo di Panico\n\n※ Effetto Tipo di Panico: Solitudine:\n- Morale Basso: Ottiene +2 Conteggio Annegamento a Fine Turno\n- Panico: Ottiene +3 Conteggio Annegamento a Fine Turno",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Godok_Lowmorale",
+      "name": "Solitudine",
+      "desc": "- Morale Basso\n- Fine Turno: Ottiene +2 Conteggio Annegamento",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Godok_Panic",
+      "name": "Solitudine",
+      "desc": "- Panico\n- Fine Turno: Ottiene +3 Conteggio Annegamento",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GodokPanicType_Sub",
+      "name": "Solitudine",
+      "desc": "- Subisce +10% danni dalle Abilità Tristezza\n- Fine Turno: Ottiene +2 Conteggio Annegamento\n\n- Fine Turno: Perde 1 Stack\n- Questo effetto non è cumulativo: infliggerlo sostituirà il valore attuale con il nuovo valore",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GodokPanicType_Main",
+      "name": "Solitudine",
+      "desc": "- Subisce +10% danni dalle Abilità Tristezza\n- Cambia Tipo di Panico in 'Solitudine'\n\n- Fine Turno: Perde 1 Stack\n- Questo effetto non è cumulativo: infliggerlo sostituirà il valore attuale con il nuovo valore",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

@@ -939,7 +939,7 @@
         {
           "level": 1,
           "name": "Mediocre",
-          "desc": "[OnSucceedEvade] Si cura di 3 PS (3 volte per turno)",
+          "desc": "[OnSucceedEvade] Recupera 3 PS (3 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -953,7 +953,7 @@
         {
           "level": 4,
           "name": "Mediocre",
-          "desc": "[OnSucceedEvade] Si cura di 3 PS (<style=\"highlight\">5</style> volte per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene +1 Conteggio [Breath](5 volte per turno)</style>",
+          "desc": "[OnSucceedEvade] Recupera 3 PS (<style=\"highlight\">5</style> volte per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene +1 Conteggio [Breath](5 volte per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2168,7 +2168,7 @@
         {
           "level": 3,
           "name": "Farò Fuoco / Quando Vuoi",
-          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
+          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e recupera 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2213,7 +2213,7 @@
         {
           "level": 4,
           "name": "Farò Fuoco / Quando Vuoi",
-          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e si cura di 20 PS",
+          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e recupera 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2530,6 +2530,402 @@
               "coindescs": [
                 {
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bang. Bang.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Bang. Bang.",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bang. Bang.",
+          "desc": "[WhenUse] Potere Moneta +1 per ogniy 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fragranza che Sboccia nel Vuoto",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fragranza che Sboccia nel Vuoto",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fragranza che Sboccia nel Vuoto",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Infligge +1% danni per ogni [AlriuneEGOThey] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Piena Fioritura",
+          "desc": "[WhenUse] Se il bersaglio 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Piena Fioritura",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Infligge +1% danno per ogni Stack di [AlriuneEGOThey] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge Danno da Tristezza pari all'[Sinking] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T.A.A.",
+          "desc": "[EndBattle] Ottiene 10 [AlriuneEGOWe] (una volta per turno)\n[EndBattle] Ottiene 2 [Vulnerable] e 2 [Enhancement] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "T.A.A.",
+          "desc": "[EndBattle] Ottiene 10 [AlriuneEGOWe] (una volta per turno)\n[EndBattle] Ottiene 2 [Vulnerable] e 2 [Enhancement] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racconti Interminabili",
+          "desc": "[CantDuel]\n[WideAreaRampage]\nQuando questa Abilità infligge [GodokPanicType], se il bersaglio ha già [GodokPanicType] in questo turno o gli verrà inflitto [GodokPanicType] il turno successivo, innesca invece [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GodokPanicType] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GodokPanicType] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GodokPanicType] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041406,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Fine Magnifica",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nInfligge +30% danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)\n[WhenUse] Potere Finale +1 per ogni 5 (somma di [AlriuneEGOThey] su tutti i bersagli) (max 6)\n\n[EndSkill] Perde tutte le Stack di [AlriuneEGOWe] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge Danno da Tristezza pari all'[Sinking] sul bersaglio"
                 }
               ]
             }

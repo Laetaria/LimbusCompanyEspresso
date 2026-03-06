@@ -1044,7 +1044,7 @@
         {
           "level": 3,
           "name": "Il Peccato Imperdonabile",
-          "desc": "Sul Colpo con questa Abilità: si cura di 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge +1% danni per ogni 1% dei propri PV mancanti (max 60%)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura di (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura di 10% PV",
+          "desc": "Sul Colpo con questa Abilità: si cura del 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge +1% danni per ogni 1% dei propri PV mancanti (max 60%)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Recupera (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura del 10% dei PV",
           "coinlist": [
             {
               "coindescs": [
@@ -1078,7 +1078,7 @@
         {
           "level": 4,
           "name": "Il Peccato Imperdonabile",
-          "desc": "Sul Colpo con questa Abilità: si cura di 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge <style=\"highlight\">+1.5%</style> più danni per ogni 1% dei propri PV mancanti <style=\"highlight\">(max 90%)</style>\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura di (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n<style=\"highlight\">- Se questa unità ha consumato 20 Stack, Riusa l'ultima Moneta</style>\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura di 10% PV",
+          "desc": "Sul Colpo con questa Abilità: si cura del 50% dei danni ai PV inflitti (max 100 per Abilità)\n[WhenUse] Infligge <style=\"highlight\">+1.5%</style> più danni per ogni 1% dei propri PV mancanti <style=\"highlight\">(max 90%)</style>\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma ogni Stack in eccesso di [BloodyHandGregFirst] oltre le 10 Stack per ottenere i seguenti effetti:\n- Si cura del (Stack consumate x 3) PV\n- Se questa unità ha consumato 10+ Stack, Potere Moneta +1\n<style=\"highlight\">- Se questa unità ha consumato 20 Stack, Riusa l'ultima Moneta</style>\n[WhenUse] Ottiene 10 [Laceration]\n[EndSkill] Si cura del 10% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -1131,7 +1131,7 @@
         {
           "level": 4,
           "name": "Pazienza Smarrita",
-          "desc": "<style=\"highlight\">[StartBattle] A 40%+ PV, ottiene 5 [Laceration] e attiva [Laceration] fino a 3 volte su di sé (1 volta per turno; perde Conteggio [Laceration] pari al numero di volte che si è attivato)\n[StartBattle] A meno di 40% PV, consuma fino a 20 [BloodDinner] e si cura di altrettanti PV (1 volta per turno)</style>\n[StartBattle] Ottiene 3 [WornHeartGreg] (1 volta per turno)",
+          "desc": "<style=\"highlight\">[StartBattle] A 40%+ PV, ottiene 5 [Laceration] e attiva [Laceration] fino a 3 volte su di sé (1 volta per turno; perde Conteggio [Laceration] pari al numero di volte che si è attivato)\n[StartBattle] A meno di 40% PV, consuma fino a 20 [BloodDinner] e recupera altrettanti PV (1 volta per turno)</style>\n[StartBattle] Ottiene 3 [WornHeartGreg] (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2117,20 +2117,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Intense Stare: Zero-Range",
-          "desc": "[WhenUse] Gain 1 [Binding] next turn",
+          "name": "Sguardo Intenso: Distanza Zero",
+          "desc": "[WhenUse] Ottiene 1 [Binding] al turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -2138,20 +2138,20 @@
         },
         {
           "level": 2,
-          "name": "Intense Stare: Zero-Range",
-          "desc": "If any of the following conditions are met, Coin Power +1\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n[WhenUse] Gain 1 [Binding] next turn",
+          "name": "Sguardo Intenso: Distanza Zero",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Moneta +1\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n[WhenUse] Ottiene 1 [Binding] al turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -2159,20 +2159,20 @@
         },
         {
           "level": 4,
-          "name": "Intense Stare: Zero-Range",
-          "desc": "If any of the following conditions are met, Coin Power +1\n<style=\"highlight\">- If target's Speed is faster than this unit's by 3 or more</style>\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] If target has 6+ ([Sinking] + [Combustion]), Coin Power +1</style>\n[WhenUse] Gain 1 [Binding] next turn",
+          "name": "Sguardo Intenso: Distanza Zero",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Moneta +1\n<style=\"highlight\">- Se la Velocità del bersaglio è superiore a quella di questa unità di 3 o più</style>\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Sinking] + [Combustion]), Potere Moneta +1</style>\n[WhenUse] Ottiene 1 [Binding] al turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -2185,33 +2185,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Destroy the Visible with the Invisible",
+          "name": "Distruggi il Visibile con l'Invisibile",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (30% of this Coin's final damage) Blunt damage"
+                  "desc": "[OnSucceedAttack] Infligge danni Contundenti (pari al 30% dei danni finali di questa Moneta)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (30% of this Coin's final damage) Blunt damage"
+                  "desc": "[OnSucceedAttack] Infligge danni Contundenti (pari al 30% dei danni finali di questa Moneta)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
@@ -2226,40 +2226,40 @@
         },
         {
           "level": 2,
-          "name": "Destroy the Visible with the Invisible",
-          "desc": "If any of the following conditions are met, Clash Power +2\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]",
+          "name": "Distruggi il Visibile con l'Invisibile",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Scontro +2\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (30% of this Coin's final damage) Blunt damage"
+                  "desc": "[OnSucceedAttack] Infligge danni Contundenti (pari al 30% dei danni finali di questa Moneta)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (30% of this Coin's final damage) Blunt damage"
+                  "desc": "[OnSucceedAttack] Infligge danni Contundenti (pari al 30% dei danni finali di questa Moneta)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -2267,40 +2267,40 @@
         },
         {
           "level": 4,
-          "name": "Destroy the Visible with the Invisible",
-          "desc": "If any of the following conditions are met, Clash Power +2\n<style=\"highlight\">- If target's Speed is faster than this unit's by 3 or more</style>\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] If target has 6+ ([Sinking] + [Combustion]), Coin Power +1</style>",
+          "name": "Distruggi il Visibile con l'Invisibile",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Scontro +2\n<style=\"highlight\">- Se la Velocità del bersaglio è superiore a quella di questa unità di 3 o più</style>\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Sinking] + [Combustion]), Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (30% of this Coin's final damage) Blunt damage"
+                  "desc": "[OnSucceedAttack] Infligge danni Contundenti (pari al 30% dei danni finali di questa Moneta)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (30% of this Coin's final damage) Blunt damage"
+                  "desc": "[OnSucceedAttack] Infligge danni Contundenti (pari al 30% dei danni finali di questa Moneta)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] nfligge +2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -2313,35 +2313,35 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Salvation for those Enchanted by the Lamp",
-          "desc": "If any of the following conditions are met, Coin Power +1 and deal +20% damage\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n[WhenUse] If target has [DelusionGregBigBird], convert all Coins on this Skill to [SuperCoin]s and gain Clash Power +3",
+          "name": "Salvezza per chi è Incantato dalla Lampada",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Moneta +1 e infligge +20% danni\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n[WhenUse] Se il bersaglio ha [DelusionGregBigBird], converte tutte le Monete di questa Abilità in [SuperCoin](i) e ottiene Potere Scontro +3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If the target(Core) has 25% or less HP, or if target has [DelusionGregBigBird], deal +60% damage",
-                  "summary": "Deal +60% damage"
+                  "desc": "Se il bersaglio (Nucleo) ha il 25% o meno dei PV, o se ha [DelusionGregBigBird], infligge +60% danni",
+                  "summary": "Infligge +60% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [DelusionGregBigBird], deal Gloom damage equal to 60% of this Coin's final damage",
-                  "summary": "[OnSucceedAttack] Deal (60% of this Coin's final damage) Gloom damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [DelusionGregBigBird], infligge danni da Tristezza pari al 60% dei danni finali di questa Moneta",
+                  "summary": "[OnSucceedAttack] Infligge danni da Tristezza (60% dei danni finali)"
                 }
               ]
             }
@@ -2349,38 +2349,38 @@
         },
         {
           "level": 4,
-          "name": "Salvation for those Enchanted by the Lamp",
-          "desc": "If any of the following conditions are met, Coin Power +1 and deal +40% damage\n<style=\"highlight\">- If target's Speed is faster than this unit's by 3 or more</style>\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] If target has 6+ ([Sinking] + [Combustion]), Coin Power +1</style>\n[WhenUse] If target has [DelusionGregBigBird], convert all Coins on this Skill to [SuperCoin]s and gain Clash Power +3\n<style=\"highlight\">[EndSkill] If target is defeated, or if it has 3 [DelusionGregBigBird], gain 1 [PlusCoinValueUp] next turn (once per turn)</style>",
+          "name": "Salvezza per chi è Incantato dalla Lampada",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Moneta +1 e infligge +40% danni\n<style=\"highlight\">- Se la Velocità del bersaglio è superiore a quella di questa unità di 3 o più</style>\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Sinking] + [Combustion]), Potere Moneta +1</style>\n[WhenUse] Se il bersaglio ha [DelusionGregBigBird], converte tutte le Monete di questa Abilità in [SuperCoin] e ottiene Potere Scontro +3\n<style=\"highlight\">[EndSkill] Se il bersaglio viene sconfitto, o se possiede 3 [DelusionGregBigBird], questa unità ottiene 1 [PlusCoinValueUp] al turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Combustion]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">3</style> [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If the target(Core) has 25% or less HP, or if target has [DelusionGregBigBird], deal +60% damage",
-                  "summary": "Deal +60% damage"
+                  "desc": "Se il bersaglio (Nucleo) ha il 25% o meno dei PV, o se ha [DelusionGregBigBird], infligge +60% danni",
+                  "summary": "Infligge +60% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [DelusionGregBigBird], deal Gloom damage equal to 80% of this Coin's final damage",
-                  "summary": "[OnSucceedAttack] Deal (80% of this Coin's final damage) Gloom damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [DelusionGregBigBird], infligge danni da Tristezza pari al 80% dei danni finali di questa Moneta",
+                  "summary": "[OnSucceedAttack] Infligge danni da Tristezza (80% dei danni finali)"
                 }
               ]
             }
@@ -2393,8 +2393,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Wick of Burned Feathers",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain [LanternGregBigBird] up to 8 Stack; for every Stack gained, take HP damage equal to 1% of max HP (this effect does not reduce this unit's HP below 1)\n[EndBattle] Apply 1 [Agility] next turn to ([Binding] on self / 3) other allies with the slowest Speed (once per turn; rounded down)",
+          "name": "Lo Stoppino di Piume Arse",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene [LanternGregBigBird] fino a 8 Stack; per ogni Stack ottenuta, subisce danni ai PV pari all'1% dei PV massimi (questo effetto non riduce i PV dell'unità al di sotto di 1)\n[EndBattle] Applica 1 [Agility] al turno successivo a ([Binding] su di sè / 3) altri alleati con la Velocità più bassa (una volta per turno; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -2407,8 +2407,8 @@
         },
         {
           "level": 4,
-          "name": "The Wick of Burned Feathers",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain [LanternGregBigBird] up to 8 Stack; for every Stack gained, take HP damage equal to 1% of max HP (this effect does not reduce this unit's HP below 1)\n[EndBattle] Apply 1 [Agility] next turn to ([Binding] on self / 2) other allies with the slowest Speed (once per turn; rounded down)",
+          "name": "Lo Stoppino di Piume Arse",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene [LanternGregBigBird] fino a 8 Stack; per ogni Stack ottenuta, subisce danni ai PV pari all'1% dei PV massimi (questo effetto non riduce i PV dell'unità al di sotto di 1)\n[EndBattle] Applica 1 [Agility] al turno successivo a ([Binding] su se stessi / 2) altri alleati con la Velocità più bassa (una volta per turno; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [

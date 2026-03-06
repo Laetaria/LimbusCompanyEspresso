@@ -2028,6 +2028,362 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo D'Avvertimento",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Colpo D'Avvertimento",
+          "desc": "<style=\"highlight\">[BeforeUse] Al massimo di [MeursaultSporeBulletLong], infligge 1 [PenetrateTakeDamageUp] Sul Colpo (una volta per turno)\n[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Colpo D'Avvertimento",
+          "desc": "<style=\"highlight\">Infligge +10% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max 30%)</style>\n[BeforeUse] Al massimo di [MeursaultSporeBulletLong], infligge 1 [PenetrateTakeDamageUp] Sul Colpo (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Alterazione E.G.O - Pallettoni",
+          "desc": "Infligge -50% danni ai bersagli secondari",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Alterazione E.G.O - Pallettoni",
+          "desc": "Infligge -50% danni ai bersagli secondari\n<style=\"highlight\">Infligge +7% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max 21%)\n[WhenUse] Se il bersaglio principale ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Alterazione E.G.O - Pallettoni",
+          "desc": "Infligge -50% danni ai bersagli secondari\nInfligge +<style=\"highlight\">15</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">45</style>%)\n[WhenUse] Se il bersaglio principale ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte Monete pari al numero di [MeursaultWorkerBee] in [SuperCoin](i), a partire dalla Moneta finale\n[EndSkill] A 1 o meno [MeursaultSporeBulletLong], [MeursaultSporeBulletReloading]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Combustion]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Test - Fuoco Alle Polveri",
+          "desc": "Infligge +5% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max 15%)\n[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max 2)\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta colpisce solo un Bersaglio (priorità al bersaglio principale)"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta colpisce solo un Bersaglio (priorità al bersaglio principale)"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta colpisce solo un Bersaglio (priorità al bersaglio principale)"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "Infligge -50% danni contro i bersagli secondari"
+                },
+                {
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Se le Stack di [MeursaultBeeSpore] sul bersaglio sono al massimo, attiva i seguenti effetti:\n- Infligge (Potenza [Combustion] x Stack di [MeursaultBeeSpore] Stack / 10) Danno da Ira (arrotondato per difetto)\n  - Infliggere Danno da Ira con questo effetto conta come se si stesse attivando [Combustion]\n- Il bersaglio perde 1 Conteggio [Combustion]\n- Le Stack di [MeursaultBeeSpore] sul bersaglio scadono<style=\"highlight\"></style>\n",
+                  "summary": "Infligge Danno da Ira, riduce il Conteggio [Combustion] del bersaglio di 1, [MeursaultBeeSpore] sul bersaglio scade"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion] e +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Test - Fuoco Alle Polveri",
+          "desc": "<style=\"highlight\">Infligge +50% damage danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)</style>\nInfligge +<style=\"highlight\">10</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] A 2 o meno [MeursaultSporeBulletLong], usa 6 PS per ottenere 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max <style=\"highlight\">3)\n[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte le Monete pari a [MeursaultWorkerBee] into [SuperCoin](i), a partire dalla 3° Moneta\n[WhenUse] A 3 [MeursaultWorkerBee], ottiene Portata Att. +1</style>\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta colpisce solo un Bersaglio (priorità al bersaglio principale)"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta colpisce solo un Bersaglio (priorità al bersaglio principale)"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta colpisce solo un Bersaglio (priorità al bersaglio principale)"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Usa 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "Infligge -50% danni ai bersagli secondari"
+                },
+                {
+                  "desc": "<style=\"highlight\">Questa Moneta infligge +5% danni per ogni [MeursaultWorkerBee] su di sé (max 15%)</style>"
+                },
+                {
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Se le Stack di [MeursaultBeeSpore] sul bersaglio sono al massimo, attiva i seguenti effetti:\n- Infligge (Potenza [Combustion] x Stack di [MeursaultBeeSpore] Stack / 10) Danno da Ira (arrotondato per difetto)\n  - Infliggere Danno da Ira con questo effetto conta come se si stesse attivando [Combustion]\n-  Il bersaglio perde 1 Conteggio [Combustion]\n- Le Stack di [MeursaultBeeSpore] sul bersaglio scadono<style=\"highlight\"></style>\n"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count and +<style=\"highlight\">2</style> [Laceration] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Germinazione Delle Spore",
+          "desc": "[StartBattle][MeursaultSporeBulletReloading] (una volta per turno)\n[OnSucceedEvade] Recupera 10 PB (una volta per turno)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Germinazione Delle Spore",
+          "desc": "[StartBattle] [MeursaultSporeBulletReloading] (una volta per turno)\n<style=\"highlight\">[WhenUseEvade] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) su chi ha attaccato l'unità (max 3)</style>\n[OnSucceedEvade] Recupera 10 PV (una volta per turno)\n<style=\"highlight\">- Se questa unità ha [MeursaultWorkerBee], recupera 5 PV in più per ogni Stack</style>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

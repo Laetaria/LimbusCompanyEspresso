@@ -605,7 +605,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)"
@@ -633,7 +633,7 @@
                   "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
@@ -664,7 +664,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
@@ -682,7 +682,7 @@
           "level": 1,
           "name": "Lacrime del Sangue Immondo",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nTargets randomly\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
           "coinlist": [
             {
               "coindescs": [
@@ -697,7 +697,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)"
@@ -710,7 +710,7 @@
           "level": 3,
           "name": "Lacrime del Sangue Immondo",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">At 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">At 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
           "coinlist": [
             {
               "coindescs": [
@@ -725,7 +725,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
@@ -738,7 +738,7 @@
           "level": 4,
           "name": "Lacrime del Sangue Immondo",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">Base Power +1 for every 10 [YesdragonSelf] on self (max 2)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Base Power +1 for every 10 [YesdragonSelf] on self (max 2)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
           "coinlist": [
             {
               "coindescs": [
@@ -756,10 +756,281 @@
                   "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing PV on self (max 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "Potere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max 6)\nInfilgge più danno in base ai PV mancanti su di sé (max 10%)\nInfligge -50% danni ai bersagli secondari\n[TargetKill] Tutti gli alleati ottengono 2 [ThatIsRhythm] il turno successivo (una volta per Abilità)\n[EndSkill] Cura di 8 PS a (1 + Rison. più alta) altri alleati che hanno i PS più bassi (max 4 unità)\n[EndSkill] Per 2 turni, perde 8 PS a Fine Combattimento",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10%+ PV, subisce 4 ~ 8 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta (4 volte per Moneta)\n- Questo danno non fa Vacillare o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttackHead] Dopo aver usato i propri PV, Riusa questa Moneta"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "Potere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">8</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">15</style>%)\nInfligge -50% danni ai bersagli secondari\n[TargetKill] Tutti gli alleati ottengono 2 [ThatIsRhythm] il turno successivo (una volta per Abilità)\n[EndSkill] Cura di <style=\"highlight\">10</style> PS a (1 + Rison. più alta) altri alleati che hanno i PS più bassi (max 4 unità)\n[EndSkill] Per 2 turni, perde 8 PS a Fine Combattimento",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10%+ PV, subisce 4 ~ 8 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta (4 volte per Moneta)\n- Questo danno non fa Vacillare o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttackHead] Dopo aver usato i propri PV, Riusa questa Moneta"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene <style=\"highlight\">1 ~ 2</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "Potere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">10</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">20</style>%)\nInfligge -50% danni ai bersagli secondari\n[TargetKill] Tutti gli alleati ottengono 2 [ThatIsRhythm] il turno successivo (una volta per Abilità)\n[EndSkill] Cura di <style=\"highlight\">12</style> PS a (1 + Rison. più alta) altri alleati che hanno i PS più bassi (max 4 unità)\n[EndSkill] Per 2 turni, perde 8 PS a Fine Combattimento",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10%+ PV, subisce 4 ~ 8 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta (4 volte per Moneta)\n- Questo danno non fa Vacillare o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttackHead] Dopo aver usato i propri PV, Riusa questa Moneta"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 ~ <style=\"highlight\">3</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max 6)\nInfilgge più danno in base ai PV mancanti su di sé (max 10%)\nInfligge -50% danni ai bersagli secondari\n[BeforeAttack] Ottiene Portata Att. pari a (Rison. più alta / 2) (max 2, arrotondato per difetto)\n[BeforeAttack] Potere Base -2 per ogni Moneta Rotta (max -6)\n[EndSkill] Cura 10 PS ad altri 4 alleati che hanno i PS più bassi\n[EndSkill] Tutti gli alleati ottengono 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] il turno successivo\n- Se il bersaglio è stato ucciso, l'effetto sopracitato si attiva un'altra volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10%+ PV, subisce 10 ~ 20 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta se la somma dei PV persi per questo effetto è meno di 50 (4 volte per Abilità)\n- Questo danno non fa Vacillare o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttack] Consuma i propri PV\nRiusa questa Moneta se le condizioni sono rispettate"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">8</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">15</style>%)\nInfligge -50% danni ai bersagli secondari\n[BeforeAttack] Ottiene Portata Att. pari a (Rison. più alta / 2) (max 2, arrotondato per difetto)\n[BeforeAttack] Potere Base -2 per ogni Moneta Rotta (max -6)\n[EndSkill] Cura <style=\"highlight\">12</style> PS ad altri 4 alleati che hanno i PS più bassi\n[EndSkill] Tutti gli alleati ottengono 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] il turno successivo\n- Se il bersaglio è stato ucciso, l'effetto sopracitato si attiva un'altra volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10%+ PV, subisce 10 ~ 20 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta se la somma dei PV persi per questo effetto è meno di 50 (4 volte per Abilità)\n- Questo danno non fa Vacillare o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttack] Consuma i propri PV\nRiusa questa Moneta se le condizioni sono rispettate"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene <style=\"highlight\">1 ~ 2</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">10</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">20</style>%)\nInfligge -50% danni ai bersagli secondari\n[BeforeAttack] Ottiene Portata Att. pari a (Rison. più alta / 2) (max 2, arrotondato per difetto)\n[BeforeAttack] Potere Base -2 per ogni Moneta Rotta (max -6)\n[EndSkill] Cura <style=\"highlight\">15</style> PS ad altri 4 alleati che hanno i PS più bassi\n[EndSkill] Tutti gli alleati ottengono 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] il turno successivo\n- Se il bersaglio è stato ucciso, l'effetto sopracitato si attiva un'altra volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10%+ PV, subisce 10 ~ 20 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta se la somma dei PV persi per questo effetto è meno di 50 (4 volte per Abilità\n- Questo danno non fa Vacillare o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttack] Consuma i propri PV\nRiusa questa Moneta se le condizioni sono rispettate"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 ~ <style=\"highlight\">3</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
                 }
               ]
             }

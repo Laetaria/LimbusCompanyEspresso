@@ -27,7 +27,7 @@
         {
           "level": 2,
           "name": "Controlla il Libro",
-          "desc": "[WhenUse] Si cura di 5 PS",
+          "desc": "[WhenUse] Recupera 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -48,7 +48,7 @@
         {
           "level": 4,
           "name": "Controlla il Libro",
-          "desc": "[WhenUse] Si cura di 5 PS",
+          "desc": "[WhenUse] Recupera 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -206,7 +206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS si cura di 6 PS"
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS recupera 6 PS"
                 }
               ]
             }
@@ -293,7 +293,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS si cura di 6 PS"
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS recupera 6 PS"
                 }
               ]
             }
@@ -328,7 +328,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS si cura di 6 PS"
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS recupera 6 PS"
                 }
               ]
             }
@@ -497,10 +497,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di 10 PV."
+                  "desc": "[OnSucceedAttack] Recupera 10 PV."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si cura di PV aggiuntivi in base alla [Burst] sul bersaglio (1 PV curato per 1 [Burst]. Max 20)"
+                  "desc": "[OnSucceedAttack] Recupera PV aggiuntivi in base alla [Burst] sul bersaglio (1 PV curato per 1 [Burst]. Max 20)"
                 },
                 {
                   "desc": "A 50%- PV, Riusa questa Moneta una volta"
@@ -525,10 +525,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura di 15 PV. Si cura di by +50% more PV when reusing Coin."
+                  "desc": "[OnSucceedAttack] Recupera 15 PV. Recupera il +50% in più dei PV quando riusa la Moneta when reusing Coin."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si cura di PV aggiuntivi in base alla [Burst] sul bersaglio (2 PV curati per 1 [Burst]. Max 40)"
+                  "desc": "[OnSucceedAttack] Recupera PV aggiuntivi in base alla [Burst] sul bersaglio (2 PV curati per 1 [Burst]. Max 40)"
                 },
                 {
                   "desc": "A 50%- PV, Riusa questa Moneta una volta"
@@ -545,7 +545,7 @@
         {
           "level": 1,
           "name": "Denti Chiacchieroni",
-          "desc": "[EndBattle] Si cura di PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
+          "desc": "[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
           "coinlist": [
             {
               "coindescs": [
@@ -559,7 +559,7 @@
         {
           "level": 4,
           "name": "Denti Chiacchieroni",
-          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Finale +3\n[EndBattle] Si cura di PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Finale +3\n[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
           "coinlist": [
             {
               "coindescs": [
@@ -2254,7 +2254,7 @@
         {
           "level": 3,
           "name": "Reversed Beats / Arcana Beats Rovesciato",
-          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge] per ottenere Potere Scontro +1\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni 8 Conteggio consumato, max 2)\nInfligge +15% danni per ogni [ThePowerOfLoveAndHate] su di sé (max 60%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé per ottenere +1 Portata Attacco\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), ma ha 2+ Portata Attacco, infligge +20% danni\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, si cura di 10 PS. Si cura di più PS più che il valore dei PS è lontano da 0 (2 PS curati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
+          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge] per ottenere Potere Scontro +1\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni 8 Conteggio consumato, max 2)\nInfligge +15% danni per ogni [ThePowerOfLoveAndHate] su di sé (max 60%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé per ottenere +1 Portata Attacco\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), ma ha 2+ Portata Attacco, infligge +20% danni\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS curati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2288,7 +2288,7 @@
         {
           "level": 4,
           "name": "Reversed Beats / Arcana Beats Rovesciato",
-          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge]; <style=\"highlight\">Potere Scontro +1 per ogni Stack consumata (max 3)</style>\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni <style=\"highlight\">5</style> Conteggio consumato, max <style=\"highlight\">4</style>)\nInfligge +<style=\"highlight\">30</style>% danni per ogni [ThePowerOfLoveAndHate] su di sé (max <style=\"highlight\">150</style>%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé; <style=\"highlight\">ottiene +1 Portata Attacco per ogni Stack consumata (max 3)\n- Se questa ABilità ha consumato 3 [HystericGauge], ottiene +1 Portata Attacco</style>\n[BeforeAttack] Se questa Abilità ha un solo bersaglio(negli Incontri Mirati, una Parte), <style=\"highlight\">infligge +(20 x (Portata Attacco - 1))% danni (max 80%)</style>\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, si cura di 10 PS. Si cura di more PS più che il valore dei PS è lontano da 0 (2 PS curati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
+          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge]; <style=\"highlight\">Potere Scontro +1 per ogni Stack consumata (max 3)</style>\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni <style=\"highlight\">5</style> Conteggio consumato, max <style=\"highlight\">4</style>)\nInfligge +<style=\"highlight\">30</style>% danni per ogni [ThePowerOfLoveAndHate] su di sé (max <style=\"highlight\">150</style>%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé; <style=\"highlight\">ottiene +1 Portata Attacco per ogni Stack consumata (max 3)\n- Se questa ABilità ha consumato 3 [HystericGauge], ottiene +1 Portata Attacco</style>\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), <style=\"highlight\">infligge +(20 x (Portata Attacco - 1))% danni (max 80%)</style>\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS recuperati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [

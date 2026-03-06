@@ -250,7 +250,7 @@
           "level": 1,
           "name": "Battito d'Ali",
           "abName": "Festival delle Fatine",
-          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Si cura di PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Recupera PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
           "level": 3,
           "name": "Battito d'Ali",
           "abName": "Festival delle Fatine",
-          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n<style=\"highlight\">[BeforeAttack] Ottiene (# della Rison. più alta -2) Portata Attacco (max 1)</style>\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Si cura di PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)\n<style=\"highlight\">[EndSkill] Se la cura di quest'Abilità eccede i PV Max di quest'unità, ottiene (cura eccessiva/PV Max) x 10 [AttackUp] il turno successivo (max 3 per turno)</style>",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n<style=\"highlight\">[BeforeAttack] Ottiene (# della Rison. più alta -2) Portata Attacco (max 1)</style>\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Recupera PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)\n<style=\"highlight\">[EndSkill] Se la cura di quest'Abilità eccede i PV Max di quest'unità, ottiene (cura eccessiva/PV Max) x 10 [AttackUp] il turno successivo (max 3 per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -469,7 +469,7 @@
           "level": 1,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, in Morale Basso o Panico, si cura di 10 PS",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, in Morale Basso o Panico, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -491,7 +491,7 @@
           "level": 3,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "<style=\"highlight\">Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, in Morale Basso o Panico, si cura di 10 PS",
+          "desc": "<style=\"highlight\">Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, in Morale Basso o Panico, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -519,7 +519,7 @@
           "level": 4,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, sono in Morale Basso o Panico, si cura di 10 PS<style=\"highlight\"></style>",
+          "desc": "Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, sono in Morale Basso o Panico, recupera 10 PS<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -552,7 +552,7 @@
           "level": 1,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Si cura di 10 PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV",
           "coinlist": [
             {
               "coindescs": [
@@ -581,7 +581,7 @@
           "level": 3,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio principale Vacilla, è in Morale Basso o in Panico, Potere Base +1</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Si cura di 10 PV\n<style=\"highlight\">[EndSkill] Si cura di 5 PS per ogni nemico che Vacilla, ha Morale Basso o Panico</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio principale Vacilla, è in Morale Basso o in Panico, Potere Base +1</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n<style=\"highlight\">[EndSkill] Recupera 5 PS per ogni nemico che Vacilla, ha Morale Basso o Panico</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -616,7 +616,7 @@
           "level": 4,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio principale Vacilla, è in Morale Basso o in Panico, Potere Base +<style=\"highlight\">2</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Si cura di 10 PV\n[EndSkill] Si cura di 5 PS per ogni nemico che Vacilla, ha Morale Basso o Panico<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio principale Vacilla, è in Morale Basso o in Panico, Potere Base +<style=\"highlight\">2</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n[EndSkill] Recupera 5 PS per ogni nemico che Vacilla, ha Morale Basso o Panico<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
