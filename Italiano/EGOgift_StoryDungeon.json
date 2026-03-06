@@ -13,613 +13,613 @@
     },
     {
       "id": 1002,
-      "name": "Medicazione Scadente",
-      "desc": "Tutti gli alleati ottengono +10% PV massimi.",
+      "name": "Fasciatura Scadente",
+      "desc": "Tutti gli alleati ottengono +10% PV Max.",
       "simpleDesc": [
         {
           "abilityID": 1002,
-          "simpleDesc": "PV massimi +10%"
+          "simpleDesc": "PV Max +10%"
         }
       ]
     },
     {
       "id": 1003,
-      "name": "Parte Infestata",
-      "desc": "All'inizio del Turno, gli alleati con 50% di salute o meno curano di 5 PV.",
+      "name": "Resti Sepolti",
+      "desc": "All'inizio del turno, gli alleati con 50% o meno PV si curano di 5 PV.",
       "simpleDesc": [
         {
           "abilityID": 1003,
-          "simpleDesc": "Curano quelli con <50% curano 5 PV"
+          "simpleDesc": "Alleati con <50% PV curano 5 PV"
         }
       ]
     },
     {
       "id": 1004,
-      "name": "Maschera Insanguinata di un Devoto",
+      "name": "Maschera Insanguinata di Devoto",
       "desc": "Tutti gli alleati ottengono +5 Livello Offensivo e +5 Livello Difensivo.",
       "simpleDesc": [
         {
           "abilityID": 1004,
-          "simpleDesc": "Livelli Offensivi & Difensivi +5"
+          "simpleDesc": "Livelli Offensivi e Difensivi +5"
         }
       ]
     },
     {
       "id": 1005,
-      "name": "Spilla di Ebano",
-      "desc": "Per i primi 3 Turni di un combattimento, infligge 2 [Binding] a tutti i nemici.",
+      "name": "Spilla d'Ebano",
+      "desc": "Per i primi 3 turni della battaglia, infliggi 2 [Binding] a tutti i nemici.",
       "simpleDesc": [
         {
           "abilityID": 1005,
-          "simpleDesc": "Infligge 2 Lentezza"
+          "simpleDesc": "Infliggi 2 [Binding]"
         }
       ]
     },
     {
       "id": 1006,
-      "name": "Incisione dell'Apocalisse",
-      "desc": "Per il primo Turno di un combattimento, infligge 1 [Combustion] a tutti i nemici per 5 volte.",
+      "name": "Incisione del Giorno del Giudizio",
+      "desc": "Nel primo turno della battaglia, infliggi 1 Conteggio [Combustion] 5 volte su tutti i nemici.",
       "simpleDesc": [
         {
           "abilityID": 1006,
-          "simpleDesc": "Infligge 1 Bruciatura"
+          "simpleDesc": "Infliggi 1 Conteggio [Combustion]"
         }
       ]
     },
     {
       "id": 1011,
       "name": "Braccio Giocattolo",
-      "desc": "Tutti gli alleati infliggono il 10% di danno in più.",
+      "desc": "Tutti gli alleati infliggono +10% di danni.",
       "simpleDesc": [
         {
           "abilityID": 1011,
-          "simpleDesc": "Damage +10%"
+          "simpleDesc": "Danni +10%"
         }
       ]
     },
     {
       "id": 1012,
       "name": "Gamba Giocattolo",
-      "desc": "Tutti gli alleati ottengono +1 Velocità.",
+      "desc": "Tutti gli alleati guadagnano +1 Velocità.",
       "simpleDesc": [
         {
           "abilityID": 1012,
-          "simpleDesc": "SPD +1"
+          "simpleDesc": "Velocità +1"
         }
       ]
     },
     {
       "id": 1013,
       "name": "Viti Giocattolo",
-      "desc": "Tutti gli alleati il 10% in più dei PV massimi.",
+      "desc": "Tutti gli alleati guadagnano +10% PV Max.",
       "abnormalityName": "Cyborg",
       "simpleDesc": [
         {
           "abilityID": 1013,
-          "simpleDesc": "Max PV +10%"
+          "simpleDesc": "PV Max +10%"
         }
       ]
     },
     {
       "id": 1014,
-      "name": "Manovella Arcobaleno",
-      "desc": "All'inizio del Turno, applica 2 [Protection] all'alleato con meno PV.",
+      "name": "Chiave a Molla Arcobaleno",
+      "desc": "All'inizio del turno, applica 2 [Protection] all'alleato con meno PV.",
       "simpleDesc": [
         {
           "abilityID": 1014,
-          "simpleDesc": "Gain 2 Protection"
+          "simpleDesc": "Ottieni 2 [Protection]"
         }
       ]
     },
     {
       "id": 1015,
-      "name": "Manovella Arrugginita",
-      "desc": "All'inizio del Turno, applica 1 [Protection] all'alleato con meno PV.",
+      "name": "Chiave a Molla Arruginita",
+      "desc": "All'inizio del turno, applica 1 [Protection] all'alleato con meno PV.",
       "simpleDesc": [
         {
           "abilityID": 1015,
-          "simpleDesc": "Gain 1 Protection"
+          "simpleDesc": "Ottieni 1 [Protection]"
         }
       ]
     },
     {
       "id": 1016,
-      "name": "Kit di Emergenza Chirurgica",
-      "desc": "Durante una battaglia, se un alleato subisce danni letali, i suoi PV non scenderanno sotto l'1.\nAl prossimo Turno, cura del tutto i suoi PV ed ottiene 3 [Operation].\nL'unità morirà alla fine della battaglia.\n(Si attiva una volta per dungeon, dopodichè il Dono scade.)",
+      "name": "Kit Chirurgico d'Emergenza",
+      "desc": "Durante la battaglia, se un alleato riceve un colpo letale, i suoi PV non scendono sotto l'1.\nNel turno successivo, viene curato completamente ed ottiene 3 [Operation].\nAl termine della battaglia, muore\n(Attivabile una volta per dungeon, dopodiché il Dono scade.)",
       "simpleDesc": [
         {
           "abilityID": 1016,
-          "simpleDesc": "Fully heal PV"
+          "simpleDesc": "Recupera tutti i PV"
         },
         {
           "abilityID": 10161,
-          "simpleDesc": "Gain 3 Surgery"
+          "simpleDesc": "Ottiene 3 [Operation]"
         }
       ]
     },
     {
       "id": 1018,
-      "name": "Nastro Contorto",
-      "desc": "Dopo aver vinto uno Scontro con un'Abilità Affinità Lussuria, infligge 1 [Binding] e 1 [MD6Limit102] nel prossimo Turno.",
+      "name": "Nastro Attorcigliato",
+      "desc": "Dopo aver vinto uno Scontro con un abilità Lussuria, infliggi 1 [Binding] ed 1 [Vulnerable] nel turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 1018,
-          "simpleDesc": "Inflict 1 Bind"
+          "simpleDesc": "Infliggi 1 [Binding]"
         },
         {
           "abilityID": 10181,
-          "simpleDesc": "Inflict 1 Vulnerabilità"
+          "simpleDesc": "Infliggi 1 [Vulnerable]"
         }
       ]
     },
     {
       "id": 1021,
-      "name": "Un Marchio",
-      "desc": "La determinazione di Sinclair di affrontare Kromer. Ma solo dopo che tre Marchi saranno tracciati…",
+      "name": "Un Certo Marchio",
+      "desc": "La determinazione di Sinclair di affrontare Kromer. Dopo che tre segni son stati tracciati…",
       "simpleDesc": [
         {
           "abilityID": 1021,
-          "simpleDesc": "Sinclair's Will"
+          "simpleDesc": "Determinazione di Sinclair"
         }
       ]
     },
     {
       "id": 1022,
-      "name": "Un Marchio",
-      "desc": "La determinazione di Sinclair di affrontare Kromer. Ma solo dopo che tre Marchi saranno tracciati…",
+      "name": "Un Certo Marchio",
+      "desc": "La determinazione di Sinclair di affrontare Kromer. Dopo che tre segni son stati tracciati…",
       "simpleDesc": [
         {
           "abilityID": 1022,
-          "simpleDesc": "Sinclair's Will"
+          "simpleDesc": "Determinazione di Sinclair"
         }
       ]
     },
     {
       "id": 1023,
-      "name": "Un Marchio",
-      "desc": "La determinazione di Sinclair di affrontare Kromer. Ma solo dopo che tre Marchi saranno tracciati…",
+      "name": "Un Certo Marchio",
+      "desc": "La determinazione di Sinclair di affrontare Kromer. Dopo che tre segni son stati tracciati…",
       "simpleDesc": [
         {
           "abilityID": 1023,
-          "simpleDesc": "Sinclair's Will"
+          "simpleDesc": "Determinazione di Sinclair"
         }
       ]
     },
     {
       "id": 1024,
-      "name": "Un Marchio",
-      "desc": "La determinazione di Sinclair di affrontare Kromer. Ma solo dopo che tre Marchi saranno tracciati…",
+      "name": "Un Certo Marchio",
+      "desc": "La determinazione di Sinclair di affrontare Kromer. Dopo che tre segni son stati tracciati…",
       "simpleDesc": [
         {
           "abilityID": 1024,
-          "simpleDesc": "Sinclair's Will"
+          "simpleDesc": "Determinazione di Sinclair"
         }
       ]
     },
     {
       "id": 1032,
-      "name": "Cumulo di Torce",
-      "desc": "Inizia l'Incontro con 3 [Agility].\nL'Effetto scadrà dopo 3 Incontri.",
+      "name": "Catasta di Torce",
+      "desc": "Per le prossime 3 battaglie, inizia con 3 [Agility].\nDopodiché il dono scade.",
       "simpleDesc": [
         {
           "abilityID": 1032,
-          "simpleDesc": "Gain 3 Haste"
+          "simpleDesc": "Ricevi 3 [Agility]"
         }
       ]
     },
     {
       "id": 1033,
-      "name": "Vecchia Chiave del Magazzino",
-      "desc": "Si può usare durante un evento specifico, ma il Dono scadrà dopo uso.",
+      "name": "Chiave del Vecchio Deposito",
+      "desc": "Utilizzabile in un certo evento. Scade dopo l'uso.",
       "simpleDesc": [
         {
           "abilityID": 1033,
-          "simpleDesc": "Used in events"
+          "simpleDesc": "Utilizzabile in un evento"
         }
       ]
     },
     {
       "id": 1034,
-      "name": "Criniera Rosso-sangue",
-      "desc": "Gli alleati con Abilità Lussuria ottengono i seguenti Effetti:\nSe l'unità non ha subito alcun danno durante il turno, ottiene 2 Rapidità e 2 Potere Difensivo Aumentato al prossimo Turno.\nSe l'unità ha subito danni dagli attacchi durante questo Turno, ottiene 2 Lentezza e 2 Potere Offensivo Aumentato al prossimo Turno.",
+      "name": "Criniera Rosso-Sangue",
+      "desc": "Gli alleati con delle abilità Lussuria ricevono i seguenti effetti:\nSe l'unità non ha ricevuto danni da attacchi in questo turno, riceve 2 [Agility] e 2 [Endurance] nel prossimo turno.\nSe l'unità ha ricevuto danni da attacchi in questo turno, riceve 2 [Binding] e 2 [Enhancement] nel prossimo turno.",
       "simpleDesc": [
         {
           "abilityID": 1034,
-          "simpleDesc": "Gain 2 Haste and Defense Power Up"
+          "simpleDesc": "Ricevi 2 [Agility] e [Endurance]"
         },
         {
           "abilityID": 10341,
-          "simpleDesc": "Gain 2 Bind and Attack Power Up"
+          "simpleDesc": "Ricevi 2 [Binding] e [Enhancement]"
         }
       ]
     },
     {
       "id": 1037,
-      "name": "Sigillo N Corp.",
-      "desc": "Si può usare durante un evento specifico, ma il Dono scadrà dopo uso.",
+      "name": "Sigillo della N Corp.",
+      "desc": "Utilizzabile in alcuni eventi. Scade dopo l'uso.",
       "simpleDesc": [
         {
           "abilityID": 1037,
-          "simpleDesc": "Used in events"
+          "simpleDesc": "Utilizzabile in qualche evento"
         }
       ]
     },
     {
       "id": 1038,
-      "name": "Reliquia dell'Innocenza",
-      "desc": "Per l'Identità che ha intrapreso il rituale: migliora il Potere delle Abilità Ira di 2.",
+      "name": "Pegno della Purezza",
+      "desc": "Per l'Identità che si è sottoposta al rito: Potenzia il Potere delle abilità Ira di 2.",
       "simpleDesc": [
         {
           "abilityID": 1038,
-          "simpleDesc": "Wrath Skill Power +2"
+          "simpleDesc": "Potere Abilità Ira +2"
         }
       ]
     },
     {
       "id": 1039,
-      "name": "Reliquia delle Lacrime",
-      "desc": "Per l'Identità che ha intrapreso il rituale: migliora il potere delle Abilità Tristezza di 2.",
+      "name": "Pegno delle Lacrime",
+      "desc": "Per l'Identità che si è sottoposta al rito: Potenzia il Potere delle abilità Tristezza di 2.",
       "simpleDesc": [
         {
           "abilityID": 1039,
-          "simpleDesc": "Gloom Skill Power +2"
+          "simpleDesc": "Potere Abilità Tristezza +2"
         }
       ]
     },
     {
       "id": 1040,
-      "name": "Mascella Scintillante",
-      "desc": "Se l'alleato ha subito più di 10 di danno durante l'ultimo turno, cura 5~15 PV all'inizio del prossimo Turno.",
+      "name": "Teschio Luccicante",
+      "desc": "All'inizio del turno, se l'unità ha ricevuto 10+ danni lo scorso turno, si cura di 5~15 PV.",
       "simpleDesc": [
         {
           "abilityID": 1040,
-          "simpleDesc": "Heal 5-15 PV"
+          "simpleDesc": "Cura di 5~15 PV"
         }
       ]
     },
     {
       "id": 1041,
       "name": "Mano Emorragica",
-      "desc": "Inizio Turno: applica 2 Potere Attacco Aumentato agli alleati con il 25% o meno della salute.",
+      "desc": "All'inizio del turno, gli alleati con 25% o meno PV ottengono 2 [Enhancement].",
       "simpleDesc": [
         {
           "abilityID": 1041,
-          "simpleDesc": "Gain 2 Attack Power Up"
+          "simpleDesc": "Ricevi 2 [Enhancement]"
         }
       ]
     },
     {
       "id": 1042,
-      "name": "Lingua Ridacchiante",
-      "desc": "Infligge il 10% di danno in più quando vince uno Scontro.",
+      "name": "Lingua Beffarda",
+      "desc": "Infliggi +10% di danni quando vinci uno scontro.",
       "simpleDesc": [
         {
           "abilityID": 1042,
-          "simpleDesc": "Damage +10%"
+          "simpleDesc": "Danni +10%"
         }
       ]
     },
     {
       "id": 1043,
-      "name": "Reliquia dell'Espiazione",
-      "desc": "Per l'Identità che ha intrapreso il rituale: migliora il Potere delle Abilità Lussuria di 2.",
+      "name": "Pegno della Redenzione",
+      "desc": "Per l'Identità che si è sottoposta al rito: Potenzia il Potere delle abilità Lussuria di 2.",
       "simpleDesc": [
         {
           "abilityID": 1043,
-          "simpleDesc": "Lust Skill Power +2"
+          "simpleDesc": "Potere Abilità Lussuria +2"
         }
       ]
     },
     {
       "id": 1044,
-      "name": "Diritto del Ritualista",
-      "desc": "Tutti gli alleati subiscono il 20% dei danni in meno dalle Abilità Lussuria.",
+      "name": "Qualifica della Coscienza",
+      "desc": "Tutti gli alleati ricevono -20% danno dagli attacchi Lussuria.",
       "simpleDesc": [
         {
           "abilityID": 1044,
-          "simpleDesc": "Damage Taken -20%"
+          "simpleDesc": "Danni Ricevuti -20%"
         }
       ]
     },
     {
       "id": 1046,
-      "name": "Pelle Verde",
-        "desc": "Durante una battaglia, se un alleato subisce danni letali, cura del 50% dei suoi PV massimi.\n(Si attiva una volta per dungeon, dopodichè il Dono scade.)",
+      "name": "Esuvia Verde",
+      "desc": "Se un alleato riceve un attacco letale, si cura del 50% dei PV Max.\n(Una volta per dungeon, scade dopo l'attivazione.)",
       "simpleDesc": [
         {
           "abilityID": 1046,
-          "simpleDesc": "Heal 50% of Max PV"
+          "simpleDesc": "Cura il 50% dei PV Max"
         }
       ]
     },
     {
       "id": 1048,
       "name": "Topfhelm",
-      "desc": "Potere delle Abilità Difensive +1",
+      "desc": "Potere Abilità Difensive +1.",
       "simpleDesc": [
         {
           "abilityID": 1048,
-          "simpleDesc": "Defense Skill Power +1"
+          "simpleDesc": "Potere Abilità Difensive +1"
         }
       ]
     },
     {
       "id": 1049,
       "name": "Hammer",
-      "desc": "Quando si infligge [Vibration] usando l'Effetto di un'Abilità, c'è il 50% di probabilità che infligga 1 [Vibration] aggiuntivo.",
+      "desc": "Quando infliggi [Vibration] tramite abilità, 50% di possibilità di infliggerne 1 in più.",
       "simpleDesc": [
         {
           "abilityID": 1049,
-          "simpleDesc": "Inflict 1 additional Tremor"
+          "simpleDesc": "Infliggi 1 ulteriore [Vibration]"
         }
       ]
     },
     {
       "id": 1050,
       "name": "Nagel",
-      "desc": "Quando si infligge [Laceration] usando l'Effetto di un'Abilità, c'è il 50% di probabilità che infligga 1 [Laceration] aggiuntivo.",
+      "desc": "Quando infliggi [Laceration] tramite abilità, 50% di possibilità di infliggerne 1 in più.",
       "simpleDesc": [
         {
           "abilityID": 1050,
-          "simpleDesc": "Inflict 1 additional Bleed"
+          "simpleDesc": "Infliggi 1 ulteriore [Laceration]"
         }
       ]
     },
     {
       "id": 1051,
-      "name": "Scritture della Nagel und Hammer",
-      "desc": "Quando si usa un'Abilità Superbia, perde 5 PS, ma infligge il 5% in più di danno.",
+      "name": "Testamento della Nagel und Hammer",
+      "desc": "Le Abilità Superbia infliggono +5% di danni, al costo di 5 PS all'uso di tali Abilità.",
       "simpleDesc": [
         {
           "abilityID": 1051,
-          "simpleDesc": "Pride skills cost 5 PS"
+          "simpleDesc": "Abilità Superbia costano 5 PS"
         },
         {
           "abilityID": 10511,
-          "simpleDesc": "Pride skill damage +5%"
+          "simpleDesc": "Danni Abilità Superbia +5%"
         }
       ]
     },
     {
       "id": 1052,
-      "name": "Coscia di Pollo Succosa",
-      "desc": "Quando si usa un'Abilità Effetto che infligge [Combustion] contro dei nemici, infligge +5 Conteggio [Combustion].",
+      "name": "Coscia Succulenta e Fumante",
+      "desc": "Quando infliggi [Combustion] tramite Abilità contro dei nemici, infliggi +5 Conteggio [Combustion].",
       "simpleDesc": [
         {
           "abilityID": 1052,
-          "simpleDesc": ""
+          "simpleDesc": "Quando infliggi [Combustion] tramite abilità, infliggi +5 Conteggio [Combustion]."
         }
       ]
     },
     {
       "id": 1053,
-      "name": "Petto di Pollo Asciutto",
-      "desc": "Quando si usa un'Abilità Effetto che infligge [Burst] contro dei nemici, infligge +5 Conteggio [Burst].",
+      "name": "Petto di Pollo Stopposo",
+      "desc": "Quando infliggi [Burst] tramite Abilità contro dei nemici, infliggi +5 Conteggio [Burst].",
       "simpleDesc": [
         {
           "abilityID": 1053,
-          "simpleDesc": "When inflicting Rupture with skill effects, inflict +5 Rupture Count."
+          "simpleDesc": "Quando infliggi [Burst] tramite Abilità, infliggi +3 Conteggio [Burst]."
         }
       ]
     },
     {
       "id": 1054,
-      "name": "Marinata di Tango",
-      "desc": "Gli alleati ottengono Potere Scontro aggiuntivo pari alla metà della loro Velocità quando affrontano un nemico di Velocità inferiore. (Max 3)",
+      "name": "Marinata del Tango Polloso",
+      "desc": "Gli alleati ottengono la metà della loro Velocità come Potere Scontro aggiuntivo contro gli avversari con Velocità minore. (Max 3 volte)",
       "simpleDesc": [
         {
           "abilityID": 1054,
-          "simpleDesc": ""
+          "simpleDesc": "Ottiene +(Velocità/2) Potere Scontro."
         }
       ]
     },
     {
       "id": 1055,
       "name": "Ago Contaminato e Filo",
-      "desc": "Inizio Turno: la prima Abilità ad infliggere danno ad un nemico infligge [Laceration] pari ad un terzo del danno inflitto.",
+      "desc": "Ogni turno, la prima abilità che danneggia un nemico infligge anche (1/3 dei danni inflitti) Potenza [Laceration].",
       "simpleDesc": [
         {
           "abilityID": 1055,
-          "simpleDesc": ""
+          "simpleDesc": "Infliggi (1/3 dei danni inflitti) Potenza [Laceration]"
         }
       ]
     },
     {
       "id": 1056,
       "name": "Ago Affilato e Filo",
-      "desc": "Inizio Turno: la prima Abilità ad infliggere danno ad un nemico infligge danno bonus fisso pari alla metà del danno inflitto.",
+      "desc": "Ogni turno, la prima abilità che danneggia un nemico infligge anche (1/2 dei danni inflitti) di danno fisso.",
       "simpleDesc": [
         {
           "abilityID": 1056,
-          "simpleDesc": ""
+          "simpleDesc": "Infliggi (1/2 dei danni inflitti) danni fissi extra"
         }
       ]
     },
     {
       "id": 2001,
-      "name": "Piccole Ampolle",
-      "desc": "Inizio Turno: gli alleati con meno del 40% dei PV curano il 100% dei loro PV massimi. (una volta per piano)",
+      "name": "Piccole Fiale",
+      "desc": "All'inizio del turno, gli alleati con 40% o meno PV recuperano 100% dei PV Max. (Una volta per piano)",
       "simpleDesc": [
         {
           "abilityID": 2001,
-          "simpleDesc": "Conditional full heal"
+          "simpleDesc": "Cura Completa"
         }
       ]
     },
     {
       "id": 2002,
-      "name": "Pezzo di Uovo Sbriciolato",
-      "desc": "Primo Inizio Turno di un Incontro: ottiene 2 risorse E.G.O di affinità casuale di cui si è già in possesso",
+      "name": "Frammento di un Uovo in Frantumi",
+      "desc": "Nel primo turno della battaglia, ricevi 2 risorse E.G.O. di un affinità a caso già posseduta",
       "simpleDesc": [
         {
           "abilityID": 2002,
-          "simpleDesc": "Gain 2 E.G.O resources for a random affinity owned"
+          "simpleDesc": "Ricevi 2 risorse E.G.O. per una affinità a caso già posseduta"
         }
       ]
     },
     {
       "id": 2003,
-      "name": "Illusione Indifferente",
-      "desc": "Le Abilità Affinità Gola infliggono il 10% di danno in più.",
+      "name": "Fredda Illusione",
+      "desc": "Le abilità Gola infliggono +10% di danno",
       "simpleDesc": [
         {
           "abilityID": 2003,
-          "simpleDesc": "Gluttony skill damage +10%"
+          "simpleDesc": "Danno da abilità Gola +10%"
         }
       ]
     },
     {
       "id": 2004,
-      "name": "Illusione Affilata",
-      "desc": "Le Abilità Affinità Superbia infliggono il 10% di danno in più.",
+      "name": "Affilata Illusione",
+      "desc": "Le abilità Superbia infliggono +10% di danno",
       "simpleDesc": [
         {
           "abilityID": 2004,
-          "simpleDesc": "Pride skill damage +10%"
+          "simpleDesc": "Danno da abilità Superbia +10%"
         }
       ]
     },
     {
       "id": 2005,
-      "name": "Illusione Fragrante",
-      "desc": "Le Abilità Affinità Accidia infliggono il 10% di danno in più.",
+      "name": "Fragrante Illusione",
+      "desc": "Le abilità Accidia infliggono +10% di danno",
       "simpleDesc": [
         {
           "abilityID": 2005,
-          "simpleDesc": "Sloth skill damage +10%"
+          "simpleDesc": "Danno da abilità Accidia +10%"
         }
       ]
     },
     {
       "id": 2006,
-      "name": "Traccia di Stelle",
-      "desc": "Quando un'Identità ha meno di 0 PS, ottiene +1 Potere Finale per le Abilità Affinità Accidia e Tristezza.",
+      "name": "Tracce Stellari",
+      "desc": "Le unità con meno di 0 PS, ottengono +1 Potere Finale per le abilità Tristezza e Gola",
       "simpleDesc": [
         {
           "abilityID": 2006,
-          "simpleDesc": "Gloom and Sloth skill Final Power +1 when PS is below 0"
+          "simpleDesc": "Potere Finale +1 per abilità Tristezza e Gola se sotto 0 PS"
         }
       ]
     },
     {
       "id": 2007,
-      "name": "Arbusto Pungente",
-      "desc": "Quando si infligge [Sinking] con un'Abilità Effetto, applica con il 50% di probabilità +1 Conteggio [Sinking] aggiuntivo.",
+      "name": "Germoglio Pungente",
+      "desc": "Quando si infligge [Sinking] tramite effetti delle abilità, 50% di possibilità di applicare 1 Conteggio [Sinking] ulteriore",
       "simpleDesc": [
         {
           "abilityID": 2007,
-          "simpleDesc": "When inflicting Sinking with skill effects, apply 1 more Sinking with a 50% chance"
+          "simpleDesc": "Quando infliggi [Sinking] tramite abilità, chance del 50% di applicare 1 Conteggio [Sinking]"
         }
       ]
     },
     {
       "id": 2008,
-      "name": "Lacrime Calde",
-      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Ira.\nQuando colpito, ottiene 1 Potere Attacco Aumentato nel prossimo Turno. (una volta per turno per Peccatore)",
+      "name": "Lacrime Scottanti",
+      "desc": "Subisci -10% di danno da affinità Ira\nQuando colpito, ottiene 1 [Enhancement] il prossimo turno (Una volta per turno per Peccatore)",
       "simpleDesc": [
         {
           "abilityID": 2009,
-          "simpleDesc": "Wrath damage taken -20%"
+          "simpleDesc": "Subisci -10% di danni da Ira"
         },
         {
           "abilityID": 200901,
-          "simpleDesc": "Take less Wrath damage"
+          "simpleDesc": "Quando colpito, ottieni 1 [Enhancement] il prossimo turno"
         }
       ]
     },
     {
       "id": 2009,
-      "name": "Lacrime Raffreddate",
-      "desc": "Quando colpito, ottiene 1 Protezione nel prossimo Turno. (una volta per turno per Peccatore)",
+      "name": "Lacrime Gelide",
+      "desc": "Quando attaccato, ottiene 1 [Protection] il turno successivo (Una volta per turno per Peccatore)",
       "simpleDesc": [
         {
           "abilityID": 2009,
-          "simpleDesc": "When hit, gain 1 Protection next turn"
+          "simpleDesc": "Quando colpito, ottieni 1 [Protection] il turno dopo"
         }
       ]
     },
     {
       "id": 2010,
-      "name": "Memorie dei Frammenti",
-      "desc": "Durante uno Scontro, le Abilità Affinità Superbia e Invidia ottengono +1 Potere Scontro.",
+      "name": "Ricordi Frammentari",
+      "desc": "Duranto uno scontro, le abilità Superbia ed Invidia ottengono +1 Potere Scontro",
       "simpleDesc": [
         {
           "abilityID": 2010,
-          "simpleDesc": "Pride and Envy skill Clash Power +1 in a clash"
+          "simpleDesc": "Potere Scontro +1 per abilità Superbia ed Invidia"
         }
       ]
     },
     {
       "id": 2011,
       "name": "Frammento di una Primavera Strappata",
-      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Superbia.\n\n<i>\"Sognavo di disperdermi nel vento in un blu lussuoso, e percepire gli oscillanti semi che si tuffavano nella mia mente scarabocchiante.\"</i>",
+      "desc": "Subisci -10% di danno da affinità Superbia\n\n<i>\"Percepivo il desiderio di disperdermi tra i venti di quell'azzurro lussureggiante, sentendo l'influsso dei semi immergersi nello scarabocchio della mia mente.\"</i>", 
       "simpleDesc": [
         {
           "abilityID": 2011,
-          "simpleDesc": "Pride damage taken -10%"
+          "simpleDesc": "Subisci -10% di danni da Superbia"
         }
       ]
     },
     {
       "id": 2012,
-      "name": "Frammento di una Estate Strappata",
-      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Gola.\n\n<i>\"Non trovavo ragione alcuna nel provar a prevedere i capricci del vento. Preferivo destare, attendendo per un momento di quiete alla fine della tempesta.\"</i>",
+      "name": "Frammento di un'Estate Strappata",
+      "desc": "Subisci -10% di danni da affinità Gola\n\n<i>\"Non trovavo ragione nel tentare di ragionare coi capricci del tempo. Aspettavo semplicemente che tutto si calmasse, attendendo l'arrivo del ciel sereno.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2012,
-          "simpleDesc": "Take -10% Gluttony-affinity damage\n\n<i>\"Alas, I was careless in my assumption that I could simply observe slantwise as it comes to pass until it has seeped... Realization comes too late.\"</i>"
+          "simpleDesc": "Subisci -10% di danni da Gola"
         }
       ]
     },
     {
       "id": 2013,
       "name": "Frammento di un Autunno Strappato",
-      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Tristezza.\n\n<i>\"Ahimè, sono stato negligente nel supporre che avrei potuto, semplicemente, osservare il tutto con non curanza mentre tutto ciò accadeva, attendendo che il problema se ne andasse da solo... realizzando solo allora che era troppo tardi.\"</i>",
+      "desc": "Subisci -10% di danni da affinità Tristezza\n\n<i>\"Ahimè, ero incurante nella mia presunzione, di poter semplicemente osservare indolente l'accadere fino a quando non ebbe fine... La realizzazione arrivò da me fin troppo tardi.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2013,
-          "simpleDesc": "Gloom damage taken -10%"
+          "simpleDesc": "Subisci -10% di danni da Tristezza"
         }
       ]
     },
     {
       "id": 2014,
       "name": "Frammento di un Inverno Strappato",
-      "desc": "Subisce il 10% di danni in meno dalle Abilità AFfinità Accidia.\n\n<i>\"Lo scioglimento della Lega dei Nove fece crollare tutto, ed ogni cosa sembrò bloccarsi, perfino per me.\"</i>",
+      "desc": "Subisci -10% di danni da affinità Accidia\n\n<i>\"L'esplosione della Lega dei Nove frantumò tutto quel che v'era lì, e quel tutto finì anche per me.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2014,
-          "simpleDesc": "Sloth damage taken -10%"
+          "simpleDesc": "Subisci -10% di danni da Accidia"
         }
       ]
     },
     {
       "id": 2015,
-      "name": "Frammento di un Legame Spezzato",
-      "desc": "Le Abilità di Yi Sang ottengono +2 Potere Scontro\nQuando un alleato muore, i restanti alleati ottengono 1 [Agility] e 1 Potere Attacco Aumentato nel prossimo Turno (Una volta per Turno)\n\n<i>\"Ripensando a quanto abbiamo passato... mi rendo conto di tutte le grandi perdite che abbiamo sofferto.\"</i>",
+      "name": "Frammento di un Legame Distrutto",
+      "desc": "Le abilità di Yi Sang ottengono +2 Potere Finale\nQuando un alleato muore, gli altri alleati ottengono 1 [Agility] e 1 [Enhancement] nel turno successivo (Una volta per turno)\n\n<i>\"Dando uno sguardo ai nostri cammini... tutti noi abbiamo sofferto grandi perdite.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2015,
-          "simpleDesc": "Yi Sang's Skill Final Power +2"
+          "simpleDesc": "+2 Potere Finale per abilità di Yi Sang"
         },
         {
           "abilityID": 201501,
-          "simpleDesc": "When an ally dies, remaining allies gain 1 Haste and 1 Attack Power Up next turn (Once per turn)"
+          "simpleDesc": "Quando muore un alleato, gli altri ottengono 1 [Agility] e 1 [Enhancement] il turno dopo (Una volta per turno)"
         }
       ]
     },
     {
       "id": 2016,
-      "name": "Frammento dei Ricordi Invertiti",
-      "desc": "Il Livello di Yi Sang aumenta a 35.\nIl Grado Legame di Yi Sang aumenta al Grado 3.\n\n<i>\"Non eravamo sognatori ambiziosi, e nemmeno voraci avvoltoi... eravamo solo dei pargoli con la passione della tecnologia.\"</i>",
+      "name": "Frammento dei Ricordi che Tornano",
+      "desc": "Il livello di Yi Sang sale fino a 35.\nI Gradi del Legame e dell'Intreccio di Yi Sang salgono fino al Grado 3.\n\n<i>\"Noi non ambivamo il cielo ne vi eravamo gli avidi avvoltoi; eravamo semplicemente pargoli amanti della tecnologia.\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2016,
-          "simpleDesc": "Yi Sang's level rises to 35."
+          "simpleDesc": "Livello di Yi Sang sale al 35."
         },
         {
           "abilityID": 201601,
-          "simpleDesc": "Yi Sang's Uptie and Threadspin Tiers rise to Tier 3"
+          "simpleDesc": "Grado Legame ed Intreccio salgono fino al Grado 3"
         }
       ]
     }
