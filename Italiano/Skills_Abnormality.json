@@ -3193,7 +3193,7 @@
         {
           "level": 1,
           "name": "Testa Scossa",
-          "desc": "Bersagli il nemico con meno PV\n[WhenUse] Spende 2 [SelfCharge]\n[DefeatDuel] Perde 2 [SelfCharge]",
+          "desc": "Bersaglia il nemico con meno PV\n[WhenUse] Spende 2 [SelfCharge]\n[DefeatDuel] Perde 2 [SelfCharge]",
           "coinlist": [
             {},
             {
@@ -3213,7 +3213,7 @@
         {
           "level": 1,
           "name": "Coda Svincolata",
-          "desc": "Bersagli il nemico con meno PV\n[WhenUse] Spende 2 [SelfCharge]\n[DefeatDuel] Perde 3 [SelfCharge]",
+          "desc": "Bersaglia il nemico con meno PV\n[WhenUse] Spende 2 [SelfCharge]\n[DefeatDuel] Perde 3 [SelfCharge]",
           "coinlist": [
             {},
             {},
@@ -3460,7 +3460,7 @@
         {
           "level": 1,
           "name": "Maledizione Proliferante",
-          "desc": "[WhenUse] Infligge [WrappedCurseTag] in base a [WrappedCurseTag] del bersaglio",
+          "desc": "[WhenUse] Infligge [WrappedCurseTag] pari alle Stack di [WrappedCurseTag] sul bersaglio",
           "coinlist": [
             {}
           ]
@@ -3492,7 +3492,7 @@
         {
           "level": 1,
           "name": "Facciamoci Un Drink!",
-          "desc": "In uno Scontro, infligge 1 [Exalted]\n[WhenUse] Si cura del 5% di PV",
+          "desc": "In uno Scontro, infligge 1 [Exalted]\n[WhenUse] Recupera 5% dei PV",
           "coinlist": [
             {
               "coindescs": [
@@ -3531,7 +3531,7 @@
         {
           "level": 1,
           "name": "Me La Prendo Io!",
-          "desc": "[CantDuel]\nCannot be redirected\nDà priorità ai nemici con [Exalted]\nSe il bersaglio non ha [Tipsiness], Potere Scontro +5",
+          "desc": "[CantDuel]\nNon può essere intercettato\nDà priorità ai nemici con [Exalted]\nSe il bersaglio non ha [Tipsiness], Potere Scontro +5",
           "coinlist": [
             {
               "coindescs": [
@@ -3586,7 +3586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se questa attacca Vino di Fata, recupera 10% PV il turno successivo, e ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
+                  "desc": "[OnSucceedAttack] Se questa attacca Vino di Fata, recupera 10% dei PV il turno successivo, e ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
                 }
               ]
             }
@@ -4198,7 +4198,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura pari ai danni inflitti"
+                  "desc": "[OnSucceedAttack] Recupera PV pari ai danni inflitti"
                 }
               ]
             }
@@ -4217,14 +4217,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] il turno successivo"
+                  "desc": "[OnSucceedAttack] Recupera PV pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] il turno successivo"
+                  "desc": "[OnSucceedAttack] Recupera PV pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -4262,14 +4262,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Si cura del 25% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Recupera PV pari a 25% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Si cura del 25% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Recupera PV pari a 25% dei danni inflitti"
                 }
               ]
             },
@@ -4353,7 +4353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable], 5 [Burst], e 5 [Laceration]; Si cura del 10% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable], 5 [Burst], e 5 [Laceration]; Recupera PV pari a 10% dei danni inflitti"
                 }
               ]
             }
@@ -4510,7 +4510,7 @@
         {
           "level": 1,
           "name": "Sii I Miei Nutrienti, Prego",
-          "desc": "[WhenUse] Tutti gli Alberi dei Desideri si curano di 15 PV; Se non ci sono Alberi dei Desideri, ne pianta uno",
+          "desc": "[WhenUse] Tutti gli Alberi dei Desideri recuperano 15 PV; Se non ci sono Alberi dei Desideri, ne pianta uno",
           "coinlist": [
             {
               "coindescs": [
@@ -4795,7 +4795,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Recupera 1% dei PV Max pari al [Laceration] del bersaglio\nRimuovi ogni Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Recupera 1% dei PV Max per [Laceration] sul bersaglio\nRimuovi ogni Conteggio [Laceration]"
                 }
               ]
             }
@@ -5153,7 +5153,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Il Nucleo recupera 3 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo recupera di 3 PV"
                 }
               ]
             },
