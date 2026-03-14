@@ -16,14 +16,14 @@
     {
       "id": "VibrationDistribution",
       "name": "Vibrazione - Distribuzione",
-      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Aumento Offensivo il turno successivo (max 5)\n- Per {1} turni, quando subisce un colpo da un'Abilità che innesca Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Livello Offensivo Aumentato il turno successivo (max 5)\n- Per {1} turni, quando subisce un colpo da un'Abilità che innesca Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TcorpSpecialInvestigator",
       "name": "Distintivo Investigatore Speciale T Corp.",
-      "desc": "- Quando questa unità subisce danno fatale, i suoi PV non scendono al di sotto di 1, si cura immediatamente dell'80% dei suoi PV Max, e si riprende dal Vacillamento. (Una volta per Incontro)\n- Quando questo buff si attiva, a partire dal turno successivo, questa unità ottiene 2 Attacco Aumentato ogni volta che inizia un turno, per 5 turni.",
+      "desc": "- Quando questa unità subisce danno fatale, i suoi PV non scendono al di sotto di 1, si cura immediatamente dell'80% dei suoi PV Max, e si riprende dal Vacillamento. (Una volta per Incontro)\n- Quando questo buff si attiva, a partire dal turno successivo, questa unità ottiene 2 Potere Attacco Aumentato ogni volta che inizia un turno, per 5 turni.",
       "summary": "",
       "undefined": "-"
     },
@@ -37,7 +37,7 @@
     {
       "id": "TimeRentalTwo",
       "name": "Tempo in Prestito T Corp.",
-      "desc": "A Fine Turno:\n- Ottiene {1} Rapidità, Potere Scontro Aumentato, e Vulnerabilità il turno successivo.\n- A 1 Conteggio, ottiene invece {0} Rallentamento il turno successivo.\n- Ottiene 1 Stack e perde 1 Conteggio\n- Se quest'unità ha più Rallentamento che Rapidità, l'effetto del Tempo in Prestito termina e quest'unità Vacilla.",
+      "desc": "A Fine Turno:\n- Ottiene {1} Rapidità, Potere Scontro Aumentato, e Fragile il turno successivo.\n- A 1 Conteggio, ottiene invece {0} Rallentamento il turno successivo.\n- Ottiene 1 Stack e perde 1 Conteggio\n- Se quest'unità ha più Rallentamento che Rapidità, l'effetto del Tempo in Prestito termina e quest'unità Vacilla.",
       "summary": "",
       "undefined": "-"
     },
@@ -50,7 +50,7 @@
     },
     {
       "id": "ParryingResultDown",
-      "name": "Potere Scontro Ridotto",
+      "name": "Potere Scontro Diminuito",
       "desc": "In uno Scontro, perde Potere Scontro pari alle Stack",
       "summary": "",
       "undefined": "-"
@@ -65,14 +65,14 @@
     {
       "id": "LimitedTime",
       "name": "Tempo Rubato",
-      "desc": "- Ad inizio turno: Quando le Stack sono 200+, ottiene ({0}- 200)/50 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando le Stack sono meno di 200, ottiene (200 - {0})/50 Calo Offensivo & Calo Difensivo.",
+      "desc": "- Ad inizio turno: Quando le Stack sono 200+, ottiene ({0}- 200)/50 Livello Offensivo Aumentato & Livello Difensivo Aumentato.\n- A Inizio Turno: Quando le Stack sono meno di 200, ottiene (200 - {0})/50 Livello Offensivo Diminuito & Livello Difensivo Diminuito.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OwnTime",
       "name": "Tempo Condiviso",
-      "desc": "- Ad inizio turno: Quando le Stack sono 40+, ottiene ({0}- 40)/10 Aumento Offensivo & Aumento Difensivo.\n- A Inizio Turno: Quando le Stack sono meno di 40, ottiene (40 - {0})/10 Calo Offensivo & Calo Difensivo.",
+      "desc": "- Ad inizio turno: Quando le Stack sono 40+, ottiene ({0}- 40)/10 Livello Offensivo Aumentato & Livello Difensivo Aumentato.\n- A Inizio Turno: Quando le Stack sono meno di 40, ottiene (40 - {0})/10 Livello Offensivo Diminuito & Livello Difensivo Diminuito.",
       "summary": "",
       "undefined": "-"
     },
@@ -86,28 +86,28 @@
     {
       "id": "UnfairDistribution",
       "name": "Divisioni Interne",
-      "desc": "Quando Tempo Condiviso viene speso, i Cervelli non spendono più la stessa quantità di tempo tra tutti loro.\nA Inizio Turno: tutte le parti perdono Mitigazione pari al numero della parti con valori di Tempo diversi.",
+      "desc": "Quando Tempo Condiviso viene speso, i Cervelli non spendono più la stessa quantità di tempo tra tutti loro.\nA Inizio Turno: tutte le parti perdono Protezione pari al numero della parti con valori di Tempo diversi.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAcceleration",
       "name": "Accelerazione Temporale",
-      "desc": "- Ottiene 5 Velocità\n- Migliora le Abilità di questa unità.\n- Ottiene 1 Vulnerabilità; quando Scoppio Vibrazione, un'Abilità o l'effetto di una Moneta aumentano la Soglia di Vacillamento di quest'unità, la Soglia viene aumetata di un ulteriore 50%.",
+      "desc": "- Ottiene 5 Velocità\n- Migliora le Abilità di questa unità.\n- Ottiene 1 Fragile; quando Scoppio Vibrazione, un'Abilità o l'effetto di una Moneta aumentano la Soglia di Vacillamento di quest'unità, la Soglia viene aumetata di un ulteriore 50%.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_LowMorale",
       "name": "Intesa Spezzata",
-      "desc": "- Morale Basso\nOttiene 1 Vulnerabilità. Ottiene 1 Conteggio Vibrazione quando subisce un colpo. (3 volte max)",
+      "desc": "- Morale Basso\nOttiene 1 Fragile. Ottiene 1 Conteggio Vibrazione quando subisce un colpo. (3 volte max)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_Panic",
       "name": "Intesa Spezzata",
-      "desc": "- Panico\nOttiene 2 Vulnerabilità. Ottiene 2 Conteggio Vibrazione quando subisce un colpo. (3 volte max)",
+      "desc": "- Panico\nOttiene 2 Fragile. Ottiene 2 Conteggio Vibrazione quando subisce un colpo. (3 volte max)",
       "summary": "",
       "undefined": "-"
     },

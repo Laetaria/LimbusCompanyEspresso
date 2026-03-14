@@ -66,7 +66,7 @@
     {
       "id": "BestWelfareTeamMember",
       "name": "Agente Modello della Squadra di Welfare",
-      "desc": "- Aumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Annegamento, o Vibrazione inflitti di +1 (inclusi 'Effetti di Stato Speciali')\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (1 volta per Incontro)\n- Se questo effetto è applicato a Lobotomy E.G.O::La Lama Affilata con le Lacrime Rodion, ottiene 1 Aumento Danno Perforante ad ogni Inizio Turno",
+      "desc": "- Aumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Annegamento, o Vibrazione inflitti di +1 (inclusi 'Effetti di Stato Speciali')\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (1 volta per Incontro)\n- Se questo effetto è applicato a Lobotomy E.G.O::La Lama Affilata con le Lacrime Rodion, ottiene 1 Danno Perforante Aumentato ad ogni Inizio Turno",
       "summary": ""
     },
     {
@@ -114,7 +114,7 @@
     {
       "id": "MagicalGirlResponse",
       "name": "Incantesimo della Maghetta",
-      "desc": "- Max Stack: 2\n- Quando ottiene questo effetto, ottiene 1 Attacco Aumentato and 1 Danno Aumentato\n- Le Abilità Attacco di questa unità che ottengono o consumano Conteggio Carica ottengono Potere Finale +1 e infliggono +10% danni\n- Si riduce di 1 a Fine Turno",
+      "desc": "- Max Stack: 2\n- Quando ottiene questo effetto, ottiene 1 Potere Attacco Aumentato and 1 Danno Aumentato\n- Le Abilità Attacco di questa unità che ottengono o consumano Conteggio Carica ottengono Potere Finale +1 e infliggono +10% danni\n- Si riduce di 1 a Fine Turno",
       "summary": ""
     },
     {
@@ -126,7 +126,7 @@
     {
       "id": "ProtectiveSword",
       "name": "Spada Protettiva",
-      "desc": "- Inizio Turno: ottiene 1 Aumento Difensivo per ogni Stack (max 5)\n- Inizio Turno: +(Stack x 3) Provocazione sullo Slot Abilità più a sinistra sul Pannello di Controllo (max 15)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
+      "desc": "- Inizio Turno: ottiene 1 Livello Difensivo Aumentato per ogni Stack (max 5)\n- Inizio Turno: +(Stack x 3) Provocazione sullo Slot Abilità più a sinistra sul Pannello di Controllo (max 15)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
       "summary": ""
     },
     {
@@ -138,13 +138,13 @@
     {
       "id": "PenetratingSword",
       "name": "Spada Perforante",
-      "desc": "- Inizio Turno: ottiene 1 Aumento Offensivo per ogni Stack (max 5)\n- Inizio Turno: -(Stack x 0.15) Provocazione a tutti gli Slot Abilità sul Pannello di Controllo (max 0.75)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
+      "desc": "- Inizio Turno: ottiene 1 Livello Offensivo Aumentato per ogni Stack (max 5)\n- Inizio Turno: -(Stack x 0.15) Provocazione a tutti gli Slot Abilità sul Pannello di Controllo (max 0.75)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
       "summary": ""
     },
     {
       "id": "SwordCutwithTear",
       "name": "Lacrime Taglienti",
-      "desc": "- Inizio Turno: ottiene 5 Lacrime Intense\n· a 3 Stack, ottiene altre 5 Lacrime Intense\n- Fine Turno: perde (Stack x 15) PS\n- Le Abilità Attacco Base infliggono +(Stack x 10)% danni (max 30%)\n- Se questa unità ha Benedizione, ottiene Potere Scontro Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Se questa unità ha Disperazione, ottiene Attacco Aumentato Perforante pari alle Stack dell'effetto a Inizio Turno\n- Max Stack: 3",
+      "desc": "- Inizio Turno: ottiene 5 Lacrime Intense\n· a 3 Stack, ottiene altre 5 Lacrime Intense\n- Fine Turno: perde (Stack x 15) PS\n- Le Abilità Attacco Base infliggono +(Stack x 10)% danni (max 30%)\n- Se questa unità ha Benedizione, ottiene Potere Scontro Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Se questa unità ha Disperazione, ottiene Potere Perforante Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Max Stack: 3",
       "summary": ""
     },
     {
@@ -156,7 +156,7 @@
     {
       "id": "KnightBless",
       "name": "Benedizione",
-      "desc": "- Inizio Turno: ottiene 2 Mitigazione\n- Cambia le Resistenze ai tipi di Attacco maggiore di 1 a 1 (se non Vacilla)",
+      "desc": "- Inizio Turno: ottiene 2 Protezione\n- Cambia le Resistenze ai tipi di Attacco maggiore di 1 a 1 (se non Vacilla)",
       "summary": ""
     },
     {

@@ -17,7 +17,7 @@
     {
       "id": "WornHeart",
       "name": "Cuore Sofferente",
-      "desc": "- Max Stack: 10\n- Inizia l'Incontro con 3 Stack\n- Inizio Turno: ottiene 1 Calo Difensivo per ogni Stack\n- Inizio Turno: ottiene 1 Aumento Offensivo per ogni 2 Stack\n- Inizio Turno: a 10 Stack, ottiene 3 Vulnerabilità e perde 5 PS\n- A 10 Stack: Sul Colpo, si cura del 40% dei danni inflitti alle Parti e Nucleo di questa unità, e ottiene 2 Mano Insanguinata",
+      "desc": "- Max Stack: 10\n- Inizia l'Incontro con 3 Stack\n- Inizio Turno: ottiene 1 Livello Difensivo Diminuito per ogni Stack\n- Inizio Turno: ottiene 1 Livello Offensivo Aumentato per ogni 2 Stack\n- Inizio Turno: a 10 Stack, ottiene 3 Fragile e perde 5 PS\n- A 10 Stack: Sul Colpo, si cura del 40% dei danni inflitti alle Parti e Nucleo di questa unità, e ottiene 2 Mano Insanguinata",
       "summary": "",
       "undefined": "-"
     },
@@ -31,14 +31,14 @@
     {
       "id": "Guilt_LowMorale",
       "name": "Rimorso",
-      "desc": "Fine Turno: ottiene 1 Vulnerabilità e Efficenza Cura PS Ridotta",
+      "desc": "Fine Turno: ottiene 1 Fragile e Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_Panic",
       "name": "Rimorso",
-      "desc": "Fine Turno: ottiene 2 Vulnerabilità e 1 Efficenza Cura PS Ridotta",
+      "desc": "Fine Turno: ottiene 2 Fragile e 1 Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
@@ -59,14 +59,14 @@
     {
       "id": "FaintMemory",
       "name": "Tenui Ricordi",
-      "desc": "- Stack Base: 10\n- Inizio Turno: ottiene Aumento Difensivo pari alle Stack\n- Scontro Perso: si riduce di 1",
+      "desc": "- Stack Base: 10\n- Inizio Turno: ottiene Livello Difensivo Aumentato pari alle Stack\n- Scontro Perso: si riduce di 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CursePackage",
       "name": "Scatola di Maledizioni",
-      "desc": "- Max Stack: 1\n- Fine Turno: ottiene 1 Attacco Diminuito, 1 Difesa Diminuita, 2 Calo Offensivo, 2 Calo Difensivo, e riduce le Stack di questo effetto 1",
+      "desc": "- Max Stack: 1\n- Fine Turno: ottiene 1 Potere Attacco Diminuito, 1 Potere Difesa Diminuito, 2 Livello Offensivo Diminuito, 2 Livello Difensivo Diminuito, e riduce le Stack di questo effetto 1",
       "summary": "",
       "undefined": "-"
     },
@@ -94,7 +94,7 @@
     {
       "id": "SwirlingBlood",
       "name": "Luccichio【Bramasangue】",
-      "desc": "- Mentre questo effetto è attivo: quando questa unità subisce danni, l'Attaccante ottiene 5 Sanguinamento a Fine Attacco.\n- Mentre questo effetto è attivo: lo Scudo PV non si esaurisce a Fine Turno\n- Quando si verificano le condizioni, ottiene 3 Vulnerabilità finché questo effetto non finisce e questa unità ottiene un nuovo pattern",
+      "desc": "- Mentre questo effetto è attivo: quando questa unità subisce danni, l'Attaccante ottiene 5 Sanguinamento a Fine Attacco.\n- Mentre questo effetto è attivo: lo Scudo PV non si esaurisce a Fine Turno\n- Quando si verificano le condizioni, ottiene 3 Fragile finché questo effetto non finisce e questa unità ottiene un nuovo pattern",
       "summary": "",
       "undefined": "-"
     },
@@ -185,28 +185,28 @@
     {
       "id": "RegainedStrength_2nd",
       "name": "Sete di Sangue Ritornata II",
-      "desc": "- Max Stack: 20\n- Stage 2 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 1 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Potere Scontro +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
+      "desc": "- Max Stack: 20\n- Stage 2 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 5 Stack\n- Potere Scontro +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_3rd",
       "name": "Sete di Sangue Ritornata III",
-      "desc": "- Max Stack: 30\n- Stage 3 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 2 Aumento Offensivo e 1 Aumento Difensivo per ogni 5 Stack\n- Potere Moneta +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
+      "desc": "- Max Stack: 30\n- Stage 3 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 2 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 5 Stack\n- Potere Moneta +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_LowMorale",
       "name": "È tempo di abbandonare il mio sogno...",
-      "desc": "- Morale Basso\n- Ottiene 2 Attacco Aumentato e 1 Vulnerabilità; aumenta Velocità Max di 2\n- Recupera il +30% di PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 2 Aumento Offensivo e 2 Calo Difensivo",
+      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Fragile; aumenta Velocità Max di 2\n- Recupera il +30% di PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 2 Livello Offensivo Aumentato e 2 Livello Difensivo Diminuito",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_Panic",
       "name": "... per la mia Famiglia, come loro Padre...",
-      "desc": "- Panico\n- Ottiene 2 Attacco Aumentato, 2 Rapidità, e 2 Vulnerabilità\n- Recupera il +50% di PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 3 Aumento Offensivo e 5 Calo Difensivo",
+      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato, 2 Rapidità, e 2 Fragile\n- Recupera il +50% di PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 3 Livello Offensivo Aumentato e 5 Livello Difensivo Diminuito",
       "summary": "",
       "undefined": "-"
     },
@@ -227,28 +227,28 @@
     {
       "id": "DecreamentalDefense",
       "name": "Ferita Debilitante",
-      "desc": "- Deve ancora riprendersi dalle ferite ricevute nell'ultimo combattimento.\n- Riduce notevolmente i PV massimi\n- Inizio Turno: ottiene 1 Calo Difensivo per ogni turno totale (max 15)",
+      "desc": "- Deve ancora riprendersi dalle ferite ricevute nell'ultimo combattimento.\n- Riduce notevolmente i PV massimi\n- Inizio Turno: ottiene 1 Livello Difensivo Diminuito per ogni turno totale (max 15)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDream",
       "name": "IN CUI SI RACCONTA DELLA LIBERAZIONE DAL SANGUE CHE NON È ACQUA",
-      "desc": "- Ad Ogni Fine Turno: ottiene 1 Rapidità e 3 Aumento Offensivo il turno successivo\n- Ottiene 2 Aumento Offensivo in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, recupera 3 SP\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il turno successivo (1 volta per turno)",
+      "desc": "- Ad Ogni Fine Turno: ottiene 1 Rapidità e 3 Livello Offensivo Aumentato il turno successivo\n- Ottiene 2 Livello Offensivo Aumentato in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, recupera 3 SP\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il turno successivo (1 volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_LowMorale",
       "name": "Gioia del Massacro Risvegliata",
-      "desc": "- Morale Basso\nOttiene 2 Attacco Aumentato ad ogni Inizio Turno; +2 Efficenza PS",
+      "desc": "- Morale Basso\nOttiene 2 Potere Attacco Aumentato ad ogni Inizio Turno; +2 Efficenza PS",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SanchoMind_Panic",
       "name": "Gioia del Massacro Risvegliata",
-      "desc": "- Panico\nInizio Turno: ottiene 6 Aumento Difensivo. Ottiene 3 Aumento Offensivo il turno successivo",
+      "desc": "- Panico\nInizio Turno: ottiene 6 Livello Difensivo Aumentato. Ottiene 3 Livello Offensivo Aumentato il turno successivo",
       "summary": "",
       "undefined": "-"
     },

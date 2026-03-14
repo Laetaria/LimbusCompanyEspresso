@@ -15,7 +15,7 @@
     {
       "id": "BurstSuppress",
       "name": "Anatema 【Intralcia】",
-      "desc": "Stack di Base: 10\n- Anatema\n- Quando questa unità perde delle Stack di Anatema per le loro condizioni, perde 1 Stack (max 4 per turno)\n- A 0 Stack, ottiene 6 Calo Offensivo il turno successivo, poi si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "desc": "Stack di Base: 10\n- Anatema\n- Quando questa unità perde delle Stack di Anatema per le loro condizioni, perde 1 Stack (max 4 per turno)\n- A 0 Stack, ottiene 6 Livello Offensivo Diminuito il turno successivo, poi si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": ""
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "BurstWeakness",
       "name": "Anatema 【Indebolisci】",
-      "desc": "Stack di Base: 5\n- Anatema\n- Se la Velocità del bersaglio è maggiore di questa unità, e se la differenza di Velocità è di 5 o maggiore: quando la sua Lacerazione si attiva, perde 1 Stack\n- Quando perde delle Stack, ottiene 1 Calo Difensivo il turno successivo (1 volta per turno)\n- A 0 Stack, ottiene 3 Calo Difensivo e 1 Rallentamento il turno successivo, poi si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "desc": "Stack di Base: 5\n- Anatema\n- Se la Velocità del bersaglio è maggiore di questa unità, e se la differenza di Velocità è di 5 o maggiore: quando la sua Lacerazione si attiva, perde 1 Stack\n- Quando perde delle Stack, ottiene 1 Livello Difensivo Diminuito il turno successivo (1 volta per turno)\n- A 0 Stack, ottiene 3 Livello Difensivo Diminuito e 1 Rallentamento il turno successivo, poi si esaurisce\n- ※ Non può ottenere altre Stack di questo effetto quando è già attivo",
       "summary": ""
     },
     {
@@ -51,13 +51,13 @@
     {
       "id": "QiuAndHonglu",
       "name": "Nel Mio Cuore...",
-      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato (inclusa questa unità) con meno PS recupera 5 PS\n- Alla morte di un alleato, gli alleati rimasti A Fine Turno ottengono 1 Attacco Aumentato il turno successivo (1 volta per turno)",
+      "desc": "- Le Abilità di Hong Lu ottengono +1 Potere Finale\n- A Scontro Vinto, 1 alleato (inclusa questa unità) con meno PS recupera 5 PS\n- Alla morte di un alleato, gli alleati rimasti A Fine Turno ottengono 1 Potere Attacco Aumentato il turno successivo (1 volta per turno)",
       "summary": ""
     },
     {
       "id": "ProtectStance",
       "name": "Postura Protettiva",
-      "desc": "Max Stack: 2\nQuesto effetto non sale di potenza; le Stack estendono solo la durata\nSi riduce di 1 A Fine Turno\nQuando un'unità ottiene questo effetto, ottiene i seguenti effetti il turno successivo:\n- Ottiene 2 Mitigazione\n- Ottiene 5 Provocazione su ognuno degli Slot di questa unità",
+      "desc": "Max Stack: 2\nQuesto effetto non sale di potenza; le Stack estendono solo la durata\nSi riduce di 1 A Fine Turno\nQuando un'unità ottiene questo effetto, ottiene i seguenti effetti il turno successivo:\n- Ottiene 2 Protezione\n- Ottiene 5 Provocazione su ognuno degli Slot di questa unità",
       "summary": ""
     },
     {
@@ -69,42 +69,42 @@
     {
       "id": "WitheredWood_LowMorale",
       "name": "Mutazione dell'Albero Antico",
-      "desc": "- Morale Basso\n- Ottiene 1 Danno Aumentato, 1 Vulnerabilità, e 1 Debolezza a Lacerazione",
+      "desc": "- Morale Basso\n- Ottiene 1 Danno Aumentato, 1 Fragile, e 1 Debolezza a Lacerazione",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WitheredWood_Panic",
       "name": "Mutazione dell'Albero Antico",
-      "desc": "- Panico\n- Ottiene 2 Danno Aumentato, 2 Vulnerabilità, e 2 Debolezza a Lacerazione",
+      "desc": "- Panico\n- Ottiene 2 Danno Aumentato, 2 Fragile, e 2 Debolezza a Lacerazione",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_LowMorale",
       "name": "Cuore Malvagio",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +2\nA Inizio Turno: ottiene 2 Danno Aumentato e 1 Vulnerabilità",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +2\nA Inizio Turno: ottiene 2 Danno Aumentato e 1 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_Panic",
       "name": "Cuore Malvagio",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +3\nA Inizio Turno: ottiene 3 Danno Aumentato e 2 Vulnerabilità",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +3\nA Inizio Turno: ottiene 3 Danno Aumentato e 2 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_LowMorale",
       "name": "Cuore dalla Malvagità Opprimente",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +2\nA Inizio Turno: ottiene 3 Danno Aumentato e 1 Vulnerabilità",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +2\nA Inizio Turno: ottiene 3 Danno Aumentato e 1 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_Panic",
       "name": "Cuore dalla Malvagità Opprimente",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +3\nA Inizio Turno: ottiene 4 Danno Aumentato e 2 Vulnerabilità",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +3\nA Inizio Turno: ottiene 4 Danno Aumentato e 2 Fragile",
       "summary": "",
       "undefined": "-"
     },
@@ -125,14 +125,14 @@
     {
       "id": "UncontrolledChargeAxe_LowMorale",
       "name": "Controcorrente del Circuito di Carica",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Lacerazione, ottiene +3 Conteggio Carica e 1 Vulnerabilità (2 volte per turno)",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Lacerazione, ottiene +3 Conteggio Carica e 1 Fragile (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UncontrolledChargeAxe_Panic",
       "name": "Controcorrente del Circuito di Carica",
-      "desc": "- Panico\nQuando si Scontra con i bersagli che hanno Lacerazione, ottiene +5 Conteggio Carica, 1 Danno Aumentato, e 2 Vulnerabilità (2 volte per turno)",
+      "desc": "- Panico\nQuando si Scontra con i bersagli che hanno Lacerazione, ottiene +5 Conteggio Carica, 1 Danno Aumentato, e 2 Fragile (2 volte per turno)",
       "summary": "",
       "undefined": "-"
     },
@@ -146,56 +146,56 @@
     {
       "id": "MadFeather_LowMorale",
       "name": "Piuma A Doppio Taglio",
-      "desc": "- Morale Basso\nA Inizio Turno: ottiene 1 Vulnerabilità e 1 Cure PV Aumentate. Sul Colpo, infligge 1 Lacerazione e 1 Sanguinamento",
+      "desc": "- Morale Basso\nA Inizio Turno: ottiene 1 Fragile e 1 Cure PV Aumentate. Sul Colpo, infligge 1 Lacerazione e 1 Sanguinamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_Panic",
       "name": "Piuma A Doppio Taglio",
-      "desc": "-Panico\nA Inizio Turno: ottiene 2 Vulnerabilità e 2 Cure PV Aumentate. Sul Colpo, infligge 1 Lacerazione e 1 Sanguinamento",
+      "desc": "-Panico\nA Inizio Turno: ottiene 2 Fragile e 2 Cure PV Aumentate. Sul Colpo, infligge 1 Lacerazione e 1 Sanguinamento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_LowMorale",
       "name": "Ordine di Assalto",
-      "desc": "- Morale Basso\nA Inizio Turno: ottiene 1 Vulnerabilità e applica 1 Danno Aumentato a tutti gli alleati",
+      "desc": "- Morale Basso\nA Inizio Turno: ottiene 1 Fragile e applica 1 Danno Aumentato a tutti gli alleati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_Panic",
       "name": "Ordine di Assalto",
-      "desc": "- Panico\nA Inizio Turno: ottiene 2 Vulnerabilità e applica 2 Danno Aumentato a tutti gli alleati",
+      "desc": "- Panico\nA Inizio Turno: ottiene 2 Fragile e applica 2 Danno Aumentato a tutti gli alleati",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_LowMorale",
       "name": "Risentimento",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +2\nA Inizio Turno: ottiene 2 Danno Aumentato e 1 Vulnerabilità",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +2\nA Inizio Turno: ottiene 2 Danno Aumentato e 1 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_Panic",
       "name": "Risentimento",
-      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +3\nA Inizio Turno: ottiene 3 Danno Aumentato e 2 Vulnerabilità",
+      "desc": "- Morale Basso\nQuando si Scontra con i bersagli che hanno Talismano Funesto, Potere Scontro +3\nA Inizio Turno: ottiene 3 Danno Aumentato e 2 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_LowMorale",
       "name": "Prendere Fiato",
-      "desc": "- Morale Basso\nA Inizio Turno: ottiene 2 Aumento Difensivo e perde 2 Potenza Respiro",
+      "desc": "- Morale Basso\nA Inizio Turno: ottiene 2 Livello Difensivo Aumentato e perde 2 Potenza Respiro",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_Panic",
       "name": "Prendere Fiato",
-      "desc": "- Panico\nA Inizio Turno: ottiene 5 Aumento Difensivo e perde 5 Potenza Respiro",
+      "desc": "- Panico\nA Inizio Turno: ottiene 5 Livello Difensivo Aumentato e perde 5 Potenza Respiro",
       "summary": "",
       "undefined": "-"
     }
