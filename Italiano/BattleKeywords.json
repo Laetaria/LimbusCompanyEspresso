@@ -2813,7 +2813,7 @@
     {
       "id": "AlriuneEGOThey",
       "name": "Tenue Aroma",
-      "desc": "- Stack Max: 30\n- Ottiene 1 Stack se questa unità subisce danno da Annegamento\n- Quando avviene uno Scoppio Vibrazione, applica 1~2 enue Aroma su 3 alleati casuali (per le Anormalità, le Parti)\n- Al massimo delle Stack, ottiene 2 Vibrazione ed innesca Scoppio Vibrazione su di sé, infine subisce Danno da Tristezza pari ad Annegamento su di sé e perde tutte le Stack di Tenue Aroma. Non può più ottenere Tenue Aroma per tutto il resto del turno.\n- Se questa unità viene uccisa, infligge (Tenue Aroma rimanente su questa unità / 2) Tenue Aroma in modo casuale tra gli alleati di questa unità (arrotondato per difetto)",
+      "desc": "- Stack Max: 30\n- Ottiene 1 Stack se questa unità subisce danno da Annegamento\n- Quando avviene uno Scoppio Vibrazione, applica 1~2 Tenue Aroma su 3 alleati casuali (per le Anormalità, le Parti)\n- Al massimo delle Stack, ottiene 2 Vibrazione ed innesca Scoppio Vibrazione su di sé, infine subisce Danno da Tristezza pari ad Annegamento su di sé e perde tutte le Stack di Tenue Aroma. Non può più ottenere Tenue Aroma per tutto il resto del turno.\n- Se questa unità viene uccisa, infligge (Tenue Aroma rimanente su questa unità / 2) Tenue Aroma in modo casuale tra gli alleati di questa unità (arrotondato per difetto)",
       "summary": "",
       "undefined": "-"
     },
@@ -2861,29 +2861,29 @@
     },
     {
       "id": "SelfChargeAlly",
-      "name": "Self-charge",
-      "desc": "- Final Power +2\n- Gain Charge Count equal to Stack lost\n- Lose Stack at:\n· Attack End of Skills that hit this unit (lose 1 Stack)\n· Attack End (lose 3 Stack)\n· Turn End (lose 5 Stack)\n- Max Stack: 20\n- This unit's HP cannot drop below 1 before this effect expires",
+      "name": "Carica-Autonoma",
+      "desc": "- Potere Finale +2\n- Ottiene Conteggio Carica pari alle Stack perse\n- Perde le Stack a:\n· Fine Attacco con Abilità che colpiscono questa unità (perde 1 Stack)\n· Fine Attacco (perde 3 Stack)\n· Fine Turno (perde 5 Stack)\n- Max Stack: 20\n- I PV di questa unità non possono scendere al di sotto di 1 prima che questo effetto scada",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HighVoltageExoshell",
-      "name": "High-voltage Exoskeleton",
-      "desc": "- Gain (Stack x 5) Shield\n- If this unit loses (Stack x 5) Shield, lose 1 Stack\n- Turn End: Gain Charge Count equal to Stack; both High-voltage Exoskeleton and Shield gained from its effect expire\n- Max Stack: 20",
+      "name": "Esoscheletro Ad Alto Voltaggio",
+      "desc": "- Ottiene (Stack x 5) Scudo\n- Se questa unità perde (Stack x 5) Scudo, perde 1 Stack\n- Fine Turno: Ottiene Conteggio Carica pari alle Stack; scadono sia Esoscheletro Ad Alto Voltaggio che Scudo ottenuti da questo effetto\n- Max Stack: 20",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChargedSting",
-      "name": "Charged Sting",
-      "desc": "- For every Stack, take +4% damage from Skills that gain or consume Charge Count (including 'Unique Charge') (max 20%)\n· For Envy Skills, strengthen this effect and take +8% damage for every Stack instead (max 40%)\n- Max Stack: 5\n- Lose 1 Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (excluding Base Attack Skills that inflict Charged Sting)",
+      "name": "Pungiglione Caricato",
+      "desc": "- Per ogni Stack, ottiene +4% danni sulle Abilità che ottengono o usano Conteggio Carica ('Carica Speciale' compresa) (max 20%)\n· Se sono Abilità Invidia, ottiene invece +8% danni per ogni Stack (max 40%)\n- Max Stack: 5\n- Perde 1 Stack a Fine Attacco o Fine Turno dopo che l'unità è stata colpita da delle Abilità che rientrano nelle condizioni di attivazione dell'effetto sopracitate (Abilità Attacco Base che infliggono Pungiglione Caricato escluse)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FaustFlameMothEmber",
-      "name": "Embers",
-      "desc": "- Max Potency: 3\n- Max Count: 6\n- If this unit has Burn, lose 1 Embers Count when hit by a Skill that inflicts Burn Potency, Count, or 'Unique Burn' (including E.G.O Skills)\n\n- If this unit does not have Burn, reset Embers Count to 6 when hit (independent of Skills that inflict Burn)\n\n- At 0 Embers Count, activate the following effects:\n· Activate Burn on self once and lose 1 Burn Count\n· Lose 1 Embers Potency\n· If this unit has 1+ remaining Embers Potency, reset Embers Count to 6",
+      "name": "Tizzoni",
+      "desc": "- Max Potenza: 3\n- Max Conteggio: 6\n- Se questa unità ha Bruciatura, perde 1 Conteggio Tizzoni quando viene colpita da un'Abilità che infligge Potenza, Conteggio o 'Bruciatura Speciale' (Abilità E.G.O incluse)\n\n- Se questa unità non ha Bruciatura, porta il Conteggio Tizzoni a 6 quando viene colpita (independentemente dall'Abilità che infligge Bruciatura)\n\n- A 0 Conteggio Tizzoni, attiva i seguenti effetti:\n· Attiva Bruciatura su di sé una volta e perde 1 Conteggio Bruciatura\n· Perde 1 Potenza Tizzoni\n· Se questa unità ha 1+ Potenza Tizzoni rimanente, porta il Conteggio Tizzoni a 6",
       "summary": "",
       "undefined": "-"
     }

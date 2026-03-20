@@ -859,21 +859,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Star",
-          "abName": "Ardor Blossom Moth",
-          "desc": "[BeforeAttack] Final Power +1 for every 10 ([Combustion] on all targets + [Combustion] on self) (max 2)\n[EndSkill] Gain 10 [Combustion] and +1 [Combustion] Count\n[EndSkill] At 15+ [Combustion] on self, gain 1 [CrimsonDamageUp] next turn (once per turn)",
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 15+ [Combustion] su di sé, ottiene 1 [CrimsonDamageUp] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] At 15+ [Combustion] on self, inflict 1 [FaustFlameMothEmber] to all targets (once per turn; in Focused Encounters, the Parts)"
+                  "desc": "[EndCoin] A 15+ [Combustion] su di sé, infligge 1 [FaustFlameMothEmber] a tutti i bersagli (una volta per turno; negli Incontri Mirati, alle Parti)"
                 }
               ]
             }
@@ -881,24 +881,24 @@
         },
         {
           "level": 3,
-          "name": "Ardor Blossom Star",
-          "abName": "Ardor Blossom Moth",
-          "desc": "[BeforeAttack] Final Power +1 for every 10 ([Combustion] on all targets + [Combustion] on self) (max 2)\n[EndSkill] Gain 10 [Combustion] and +1 [Combustion] Count\n[EndSkill] At 15+ [Combustion] on self, gain 1 [CrimsonDamageUp] next turn (once per turn)",
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 15+ [Combustion] su di sé, ottiene 1 [CrimsonDamageUp] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict [Combustion] equal to (Wrath Reson. / 2) (max 3; rounded down)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] At 15+ [Combustion] on self, inflict 1 [FaustFlameMothEmber] to all targets (once per turn; in Focused Encounters, the Parts)"
+                  "desc": "[EndCoin] A 15+ [Combustion] su di sé, infligge 1 [FaustFlameMothEmber] a tutti i bersagli (una volta per turno; negli Incontri Mirati, alle Parti)"
                 }
               ]
             }
@@ -906,27 +906,27 @@
         },
         {
           "level": 4,
-          "name": "Ardor Blossom Star",
-          "abName": "Ardor Blossom Moth",
-          "desc": "[BeforeAttack] Final Power +1 for every 10 ([Combustion] on all targets + [Combustion] on self) (max 2)\n[EndSkill] Gain 10 [Combustion] and +1 [Combustion] Count\n[EndSkill] At 15+ [Combustion] on self, gain 1 [CrimsonDamageUp] next turn (once per turn)",
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 15+ [Combustion] su di sé, ottiene 1 [CrimsonDamageUp] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to (Wrath Reson. / 2) (max 3; rounded down)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict [Combustion] Count equal to (Wrath Reson. / 3) (max 2; rounded down)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge Conteggio [Combustion] pari a (Rison. Ira / 3) (max 2; arrotondato per difetto)</style>"
                 },
                 {
-                  "desc": "[EndCoin] At 15+ [Combustion] on self, inflict 1 [FaustFlameMothEmber] to all targets (once per turn; in Focused Encounters, the Parts)<style=\"highlight\"></style>"
+                  "desc": "[EndCoin] A 15+ [Combustion] su di sé, infligge 1 [FaustFlameMothEmber] a tutti i bersagli (una volta per turno; negli Incontri Mirati, alle Parti)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -939,28 +939,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Star",
-          "abName": "Ardor Blossom Moth",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Final Power +1 for every 10 ([Combustion] on all targets + [Combustion] on self) (max 2)\n[EndSkill] Gain 10 [Combustion] and +1 [Combustion] Count\n[EndSkill] At 25+ [Combustion] on self, gain 2 [CrimsonDamageUp] next turn (once per turn)\n[EndSkill] If this unit is missing 50%+ HP, heal 5 SP for every 10 [Combustion] on self (max 10)",
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 25+ [Combustion] su di sé, ottiene 2 [CrimsonDamageUp] il turno successivo (una volta per turno)\n[EndSkill] Se a questa unità mancano 50%+ PV, recupera 5 PS per ogni 10 [Combustion] su di sé (max 10)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Randomly inflict 3 [FaustFlameMothEmber] between targets (once per turn, excluding targets with maximum [FaustFlameMothEmber] Potency. In Focused Encounters, the Parts)"
+                  "desc": "[EndCoin] Infligge casualmente 3 [FaustFlameMothEmber] tra i bersagli (una volta per turno, esclusi i bersagli con Potenza [FaustFlameMothEmber] massima. Negli Incontri Mirati alle Parti)"
                 }
               ]
             }
@@ -968,31 +968,31 @@
         },
         {
           "level": 3,
-          "name": "Ardor Blossom Star",
-          "abName": "Ardor Blossom Moth",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Final Power +1 for every 10 ([Combustion] on all targets + [Combustion] on self) (max 2)\n[EndSkill] Gain 10 [Combustion] and +1 [Combustion] Count\n[EndSkill] At 25+ [Combustion] on self, gain 2 [CrimsonDamageUp] next turn (once per turn)\n[EndSkill] If this unit is missing 50%+ HP, heal 5 SP for every 10 [Combustion] on self (max 10)",
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 25+ [Combustion] su di sé, ottiene 2 [CrimsonDamageUp] il turno successivo (una volta per turno)\n[EndSkill] Se a questa unità mancano 50%+ PV, recupera 5 PS per ogni 10 [Combustion] su di sé (max 10)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict [Combustion] equal to (Wrath Reson. / 2) (max 3; rounded down)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Randomly inflict 3 [FaustFlameMothEmber] between targets (once per turn, excluding targets with maximum [FaustFlameMothEmber] Potency. In Focused Encounters, the Parts)"
+                  "desc": "[EndCoin] Infligge casualmente 3 [FaustFlameMothEmber] tra i bersagli (una volta per turno, esclusi i bersagli con Potenza [FaustFlameMothEmber] massima. Negli Incontri Mirati alle Parti)"
                 }
               ]
             }
@@ -1000,34 +1000,34 @@
         },
         {
           "level": 4,
-          "name": "Ardor Blossom Star",
-          "abName": "Ardor Blossom Moth",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Final Power +1 for every 10 ([Combustion] on all targets + [Combustion] on self) (max 2)\n[EndSkill] Gain 10 [Combustion] and +1 [Combustion] Count\n[EndSkill] At 25+ [Combustion] on self, gain 2 [CrimsonDamageUp] next turn (once per turn)\n[EndSkill] If this unit is missing 50%+ HP, heal 5 SP for every 10 [Combustion] on self (<style=\"highlight\">max 15</style>)",
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 25+ [Combustion] su di sé, ottiene 2 [CrimsonDamageUp] il turno successivo (una volta per turno)\n[EndSkill] Se a questa unità mancano 50%+ PV, recupera 5 PS per ogni 10 [Combustion] su di sé (<style=\"highlight\">max 15</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict [Combustion] Count equal to (Wrath Reson. / 3) (max 2; rounded down)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge Conteggio [Combustion] pari a (Rison. Ira / 3) (max 2; arrotondato per difetto)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to (Wrath Reson. / 2) (max 3; rounded down)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Randomly inflict <style=\"highlight\">6</style> [FaustFlameMothEmber] between targets (once per turn, excluding targets with maximum [FaustFlameMothEmber] Potency. In Focused Encounters, the Parts)"
+                  "desc": "[EndCoin] Infligge casualmente <style=\"highlight\">6</style> [FaustFlameMothEmber] tra i bersagli (una volta per turno, esclusi i bersagli con Potenza [FaustFlameMothEmber] massima. Negli Incontri Mirati alle Parti)"
                 }
               ]
             }
