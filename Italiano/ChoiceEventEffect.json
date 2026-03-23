@@ -50,23 +50,23 @@
     },
     {
       "id": "RecoverHpOnly",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#ebcaa2>si cura(no) di</color><color=#00ff9c> {amount} PV.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>si cura(no) di</color> <color=#00ff9c>{amount} PV.</color>"
     },
     {
       "id": "RecoverMpOnly",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#ebcaa2>si cura(no) di</color><color=#80c9ff> {amount} PS.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>si cura(no) di</color> <color=#80c9ff>{amount} PS.</color>"
     },
     {
       "id": "RecoverHpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#ebcaa2>si cura(no) di</color><color=#00ff9c> tutti i PV.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>si cura(no) di</color> <color=#00ff9c>tutti i PV.</color>"
     },
     {
       "id": "RecoverMpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#ebcaa2>si cura(no) di</color><color=#80c9ff> tutti i PS.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>si cura(no) di</color> <color=#80c9ff>tutti i PS.</color>"
     },
     {
       "id": "LoseHpOnly",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#ebcaa2>subisce</color><color=#e30000>{amount} danni ai PV!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>subisce</color> <color=#e30000>{amount} danni ai PV!</color>"
     },
     {
       "id": "LoseMpOnly",
@@ -150,7 +150,7 @@
     },
     {
       "id": "Choice_1030501",
-      "content": "<color=#ff0000>Combat Encounter!</color>\n<color=#ebcaa2>All enemies</color> <color=#ebcaa2>are inflicted with</color> <color=#e30000>5 Potere Attacco Diminuito!</color>"
+      "content": "<color=#ff0000>Combattimento!</color>\n<color=#ebcaa2>Tutti i Nemici</color> <color=#ebcaa2>subiscono</color> <color=#e30000>5 Potere Attacco Diminuito!</color>"
     },
     {
       "id": "Choice_1031001",
@@ -226,11 +226,11 @@
     },
     {
       "id": "Choice_901014",
-      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#e48801>Sloth Affinity Attack Skill</color> <color=#ebcaa2>subiscono</color> <color=#fe4b48>20 PV</color> <color=#ebcaa2>di danni!</color>"
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#e48801>un'Abilità Attacco di Affinità Accidia</color> <color=#ebcaa2>subiscono</color> <color=#fe4b48>20 PV</color> <color=#ebcaa2>di danni!</color>"
     },
     {
       "id": "Choice_90101401",
-      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#e48801>Sloth Affinity Attack Skill</color> <color=#fe4b48>subiscono</color> <color=#fe4b48>12 PV</color> <color=#ebcaa2>di danni e</color> <color=#fe4b48>12 PS</color> <color=#ebcaa2>di danni!</color>"
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#e48801>un'Abilità Attacco di Affinità Accidia</color> <color=#fe4b48>subiscono</color> <color=#fe4b48>12 PV</color> <color=#ebcaa2>di danni e</color> <color=#fe4b48>12 PS</color> <color=#ebcaa2>di danni!</color>"
     },
     {
       "id": "Choice_90101601",
@@ -238,7 +238,7 @@
     },
     {
       "id": "Choice_901018",
-      "content": "<color=#ebcaa2>One random Identity without</color> <color=#a0392b>un'Abilità Attacco di Affinità Ira</color> <color=#ebcaa2>takes</color> <color=#fe4b48>10 PV</color> <color=#ebcaa2>di danni!</color>"
+      "content": "<color=#ebcaa2>Un'Identità casuale senza</color> <color=#a0392b>un'Abilità Attacco di Affinità Ira</color> <color=#ebcaa2>takes</color> <color=#fe4b48>10 PV</color> <color=#ebcaa2>di danni!</color>"
     },
     {
       "id": "Choice_901021",
@@ -250,11 +250,11 @@
     },
     {
       "id": "Choice_90102301",
-      "content": "<color=#ebcaa2>One random Identity without</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>takes</color> <color=#fe4b48>10 PS</color> <color=#ebcaa2>di danni!</color>"
+      "content": "<color=#ebcaa2>Un'Identità casuale senza</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>takes</color> <color=#fe4b48>10 PS</color> <color=#ebcaa2>di danni!</color>"
     },
     {
       "id": "Choice_901024",
-      "content": "<color=#ebcaa2>The Identity with the lowest Sanity who possesses</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> </color=#ebcaa2>fully heals their</color> <color=#f8c200>PV.</color>"
+      "content": "<color=#ebcaa2>L'Identità con la Sanità più bassa che possiede</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> </color=#ebcaa2>cura completamente i suoi</color> <color=#f8c200>PV.</color>"
     },
     {
       "id": "Choice_901025",
@@ -358,79 +358,79 @@
     },
     {
       "id": "Choice_EGO901001",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Sogno della Falena Infernale\" & \"Ardent Flower\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Sogno della Falena Infernale\" & \"Fiore Ardente\""
     },
     {
       "id": "Choice_EGO901002",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Perversione\" & \"Awe\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Perversione\" & \"Timore\""
     },
     {
       "id": "Choice_EGO901009",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Piumino Ardente\" & \"Melted Paraffin\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Piumino Ardente\" & \"Paraffina Sciolta\""
     },
     {
       "id": "Choice_EGO901010",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Gadget Sanguinoso\" & \"Grandeur\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Gadget Sanguigno\" & \"Grandezza\""
     },
     {
       "id": "Choice_EGO901011",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Pioggia Solare\" & \"Ragged Umbrella\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Pioggia Solare\" & \"Ombrello Logoro\""
     },
     {
       "id": "Choice_EGO901013",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Fascio di Talismani\" & \"Old Wooden Doll\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Fascio di Talismani\" & \"Vecchio Fantoccio di Legno\""
     },
     {
       "id": "Choice_EGO901014",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Moneta Commemorativa Arrugginita\" & \"Pain of Stifled Rage\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Moneta Commemorativa Arrugginita\" & \"Dolore della Rabbia Soppressa\""
     },
     {
       "id": "Choice_EGO901016",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Distillato Verde\" & \"Sour Liquor Aroma\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Distillato Verde\" & \"Aroma dell'Aspro Liquore\""
     },
     {
       "id": "Choice_EGO901018",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Corona di Rose\" & \"Respite\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Corona di Rose\" & \"Riposo\""
     },
     {
       "id": "Choice_EGO901019",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Muco Appiccicoso\" & \"Bio-venom Vial\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Melma Appiccicosa\" & \"Boccetta di Veleno Biologico\""
     },
     {
       "id": "Choice_EGO901020",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Cotone Bianco\" & \"Tangled Bundle\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Cotone Bianco\" & \"Fascio Aggrovigliato\""
     },
     {
       "id": "Choice_EGO901021",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Accendino Zippo Blu\" & \"Patrolling Flashlight\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Zippo Blu\" & \"Torcia di Pattuglia\""
     },
     {
       "id": "Choice_EGO901024",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Bulbo Oculare Sciolto\" & \"Venomous Skin\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Bulbo Oculare Sciolto\" & \"Pelle Velenosa\""
     },
     {
       "id": "Choice_EGO901031",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Divergenza di Nixie\" & \"Clockwork Spring\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Divergenza di Nixie\" & \"Meccanismo a Molla\""
     },
     {
       "id": "Choice_EGO901033",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Batteria Standard\" & \"Uncapped Defibrilator\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Batteria Standard\" & \"Defibrillatore Illimitato\""
     },
     {
       "id": "Choice_EGO901034",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Circuito Logico Preciso\" & \"UPS System\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Circuito Logico di Identificazione\" & \"Sistema UPS\""
     },
     {
       "id": "Choice_EGO901056",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Quadrifoglio\" & \"Emerald Elytra\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Quadrifoglio\" & \"Elitra Smeraldo\""
     },
     {
       "id": "Choice_EGO901059",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Incubo di Mezzo Inverno\" & \"Eldtree Snare\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Incubo di Mezzo Inverno\" & \"Trappola dell'Anziano Albero\""
     },
     {
       "id": "Choice_EGO901073",
-      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Kit di Endorfina\" & \"Fluorescent Lamp\""
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Kit di Endorfina\" & \"Lampada Fluorescente\""
     },
     {
       "id": "Choice_EGO971029",
@@ -462,7 +462,7 @@
     },
     {
       "id": "RecoverRatioHpOnly",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>si curano del</color> <color=#00ff9c>{amount}% di PV max.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>si curano del</color> <color=#00ff9c>{amount}% dei PV Max.</color>"
     }
   ]
 }
