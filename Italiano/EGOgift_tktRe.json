@@ -2,135 +2,135 @@
   "dataList": [
     {
       "id": 9812,
-      "name": "Interlinked Time",
-      "desc": "When triggering [Switch_Vibration] or [FusionVibration], trigger [VibrationExplosion] on target (once per turn per Identity)",
+      "name": "Tempo Interconnesso",
+      "desc": "Quando viene attivato [Switch_Vibration] o [FusionVibration], innesca [VibrationExplosion] sul bersaglio (una volta per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9812,
-          "simpleDesc": "Trigger Tremor Burst on target"
+          "simpleDesc": "Innesca [VibrationExplosion] sul bersaglio"
         }
       ]
     },
     {
       "id": 19812,
-      "name": "Interlinked Time+",
-      "desc": "When triggering [Switch_Vibration] or [FusionVibration], trigger [VibrationExplosion] on target (<style=\"upgradeHighlight\">2 times</style> per turn per Identity)",
+      "name": "Tempo Interconnesso+",
+      "desc": "Quando viene attivato [Switch_Vibration] o [FusionVibration], innesca [VibrationExplosion] sul bersaglio (<style=\"upgradeHighlight\">2 volte</style> per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19812,
-          "simpleDesc": "Trigger Tremor Burst on target"
+          "simpleDesc": "Innesca [VibrationExplosion] sul bersaglio"
         }
       ]
     },
     {
       "id": 29812,
-      "name": "Interlinked Time++",
-      "desc": "When triggering [Switch_Vibration] or [FusionVibration], trigger [VibrationExplosion] on target (<style=\"upgradeHighlight\">3</style> times per turn per Identity)",
+      "name": "Tempo Interconnesso++",
+      "desc": "Quando viene attivato [Switch_Vibration] o [FusionVibration], innesca [VibrationExplosion] sul bersaglio (<style=\"upgradeHighlight\">3 volte</style> per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29812,
-          "simpleDesc": "Trigger Tremor Burst on target"
+          "simpleDesc": "Innesca [VibrationExplosion] sul bersaglio"
         }
       ]
     },
     {
       "id": 9813,
-      "name": "Emergency Investigator Badge",
-      "desc": "[Effects apply only to #3 Deployed Identity]\n\nWhen this unit takes lethal damage, their HP does not drop below 1, instantly heals 80% of their max HP, and recovers from Stagger. (once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 [Enhancement] and 1 [Vulnerable] at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. employee, gain 1 additional [TimeRentalTwoPersonality] when gaining a Stack of it.\nIf the affected unit is a T Corp. employee, if the target has [TimeSuspend], deal +10% damage with Attack Skills.",
+      "name": "Distintivo d'Emergenza da Investigatore",
+      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nQuando questa unità subisce un danno letale, i suoi PV non scendono sotto l'1, cura istantaneamente dell'80% dei propri PV Max, e recupera dal Vacillamento. (una volta per Incontro, arrotondato per eccesso)\nQuando il Dono E.G.O si attiva, dal turno successivo in poi, guadagna 2 [Enhancement] e 1 [Vulnerable] ad Inizio Turno per questo Incontro.\nSe l'unità affetta è un impiegato della T Corp., guadagna 1 ulteriore [TimeRentalTwoPersonality] quando si guadagnano delle Stack.\nSe l'unità affetta è un impiegato della T Corp., se il bersaglio ha [TimeSuspend], infliggi +10% di danno con Abilità Attacco.",
       "simpleDesc": [
         {
           "abilityID": 9813,
-          "simpleDesc": "HP does not drop below 1, and instantly heals 80% of max HP"
+          "simpleDesc": "I PV non scendono sotto l'1, e cura istantaneamente l'80% dei PV Max"
         },
         {
           "abilityID": 98131,
-          "simpleDesc": "Gain additional Borrowed Time when gaining it"
+          "simpleDesc": "Guadagna [TimeRentalTwoPersonality] extra al suo guadagno"
         },
         {
           "abilityID": 98132,
-          "simpleDesc": "Deals more damage if this unit has Time Moratorium"
+          "simpleDesc": "Infliggi più danni se questa unità ha [TimeSuspended]"
         }
       ]
     },
     {
       "id": 19813,
-      "name": "Emergency Investigator Badge+",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#2 and</style> #3 Deployed Identities]\n\nWhen this unit takes lethal damage, their HP does not drop below 1, instantly heals 80% of their max HP, and recovers from Stagger. (once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 [Enhancement] and 1 [Vulnerable] at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. employee, gain 1 additional [TimeRentalTwoPersonality] when gaining a Stack of it.\nIf the affected unit is a T Corp. employee, if the target has [TimeSuspend], deal +<style=\"upgradeHighlight\">12.5</style>% damage with Attack Skills.",
+      "name": "Distintivo d'Emergenza da Investigatore+",
+      "desc": "[Gli effetti si applicano solo alla <style=\"upgradeHighlight\">2°, e</style> 3° Identità Schierata]\n\nQuando questa unità subisce un danno letale, i suoi PV non scendono sotto l'1, cura istantaneamente 80% dei propri PV Max, e recupera dal Vacillamento. (una volta per Incontro, arrotondato per eccesso)\nQuando il Dono E.G.O si attiva, dal turno successivo in poi, guadagna 2 [Enhancement] e 1 [Vulnerable] ad Inizio Turno per questo Incontro.\nSe l'unità affetta è un impiegato della T Corp., guadagna 1 ulteriore [TimeRentalTwoPersonality] quando si guadagnano delle Stack.\nSe l'unità affetta è un impiegato della T Corp., se il bersaglio ha [TimeSuspend], infliggi +<style=\"upgradeHighlight\">12.5</style>% di danno con Abilità Attacco.",
       "simpleDesc": [
         {
           "abilityID": 19813,
-          "simpleDesc": "HP does not drop below 1, and instantly heals 80% of max HP"
+          "simpleDesc": "I PV non scendono sotto l'1, e cura istantaneamente l'80% dei PV Max"
         },
         {
           "abilityID": 198131,
-          "simpleDesc": "Gain additional Borrowed Time when gaining it"
+          "simpleDesc": "Guadagna [TimeRentalTwoPersonality] extra al suo guadagno"
         },
         {
           "abilityID": 198132,
-          "simpleDesc": "Deals more damage if this unit has Time Moratorium"
+          "simpleDesc": "Infliggi più danni se questa unità ha [TimeSuspended]"
         }
       ]
     },
     {
       "id": 29813,
-      "name": "Emergency Investigator Badge++",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#1,</style> #2, and #3 Deployed Identities]\n\nWhen this unit takes lethal damage, their HP does not drop below 1, instantly heals 80% of their max HP, and recovers from Stagger. (once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, <style=\"upgradeHighlight\">gain 2 [Enhancement]</style> at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. employee, gain <style=\"upgradeHighlight\">2</style> additional [TimeRentalTwoPersonality] when gaining a Stack of it.\nIf the affected unit is a T Corp. employee, if the target has [TimeSuspend], deal +<style=\"upgradeHighlight\">15</style>% damage with Attack Skills.",
+      "name": "Distintivo d'Emergenza da Investigatore++",
+      "desc": "[Gli effetti si applicano solo alla <style=\"upgradeHighlight\">1°,</style> 2°, e 3° Identità Schierata]\n\nQuando questa unità subisce un danno letale, i suoi PV non scendono sotto l'1, cura istantaneamente 80% dei propri PV Max, e recupera dal Vacillamento. (una volta per Incontro, arrotondato per eccesso)\nQuando il Dono E.G.O si attiva, dal turno successivo in poi, <style=\"upgradeHighlight\">guadagna 2 [Enhancement]</style> ad Inizio Turno per questo Incontro.\nSe l'unità affetta è un impiegato della T Corp., guadagna <style=\"upgradeHighlight\">2</style> ulteriori [TimeRentalTwoPersonality] quando si guadagnano delle Stack.\nSe l'unità affetta è un impiegato della T Corp., se il bersaglio ha [TimeSuspend], infliggi +<style=\"upgradeHighlight\">15</style>% di danno con Abilità Attacco.",
       "simpleDesc": [
         {
           "abilityID": 29813,
-          "simpleDesc": "HP does not drop below 1, and instantly heals 80% of max HP"
+          "simpleDesc": "I PV non scendono sotto l'1, e cura istantaneamente l'80% dei PV Max"
         },
         {
           "abilityID": 298131,
-          "simpleDesc": "Gain additional Borrowed Time when gaining it"
+          "simpleDesc": "Guadagna [TimeRentalTwoPersonality] extra al suo guadagno"
         },
         {
           "abilityID": 298132,
-          "simpleDesc": "Deals more damage if this unit has Time Moratorium"
+          "simpleDesc": "Infliggi più danni se questa unità ha [TimeSuspended]"
         }
       ]
     },
     {
       "id": 9814,
-      "name": "Entanglement Override Sequencer",
-      "desc": "At Turn Start, for 1 Identity with the most [Vibration] Count, trigger [FusionVibration] to convert their [Vibration] to [VibrationDistribution]",
+      "name": "Sequenziatore della Sovrascrittura dell'Intreccio",
+      "desc": "Ad Inizio Turno, per 1 Identità con maggior Conteggio [Vibration], attiva [FusionVibration] per convertire la propria [Vibration] in [VibrationDistribution]",
       "simpleDesc": [
         {
           "abilityID": 9814,
-          "simpleDesc": "Trigger Amplitude Entanglement into Tremor - Distribution"
+          "simpleDesc": "Attiva [FusionVibration] in [VibrationDistribution]"
         }
       ]
     },
     {
       "id": 19814,
-      "name": "Entanglement Override Sequencer+",
-      "desc": "At Turn Start, for <style=\"upgradeHighlight\">2 Identities</style> with the most [Vibration] Count, trigger [FusionVibration] to convert their [Vibration] to [VibrationDistribution]",
+      "name": "Sequenziatore della Sovrascrittura dell'Intreccio+",
+      "desc": "Ad Inizio Turno, per <style=\"upgradeHighlight\">2</style> Identità con maggior Conteggio [Vibration], attiva [FusionVibration] per convertire la propria [Vibration] in [VibrationDistribution]",
       "simpleDesc": [
         {
           "abilityID": 19814,
-          "simpleDesc": "Trigger Amplitude Entanglement into Tremor - Distribution"
+          "simpleDesc": "Attiva [FusionVibration] in [VibrationDistribution]"
         }
       ]
     },
     {
       "id": 29814,
-      "name": "Entanglement Override Sequencer++",
-      "desc": "At Turn Start, for <style=\"upgradeHighlight\">3 </style>Identities with the most [Vibration] Count, trigger [FusionVibration] to convert their [Vibration] to [VibrationDistribution]",
+      "name": "Sequenziatore della Sovrascrittura dell'Intreccio++",
+      "desc": "Ad Inizio Turno, per <style=\"upgradeHighlight\">3</style> Identità con maggior Conteggio [Vibration], attiva [FusionVibration] per convertire la propria [Vibration] in [VibrationDistribution]",
       "simpleDesc": [
         {
           "abilityID": 29814,
-          "simpleDesc": "Trigger Amplitude Entanglement into Tremor - Distribution"
+          "simpleDesc": "Attiva [FusionVibration] in [VibrationDistribution]"
         }
       ]
     },
     {
       "id": 9816,
-      "name": "Microprecision Time Accelerator",
-      "desc": "Effects apply only to #1 Deployed Identity\n\nApplies to Identities with Skills that inflict [Vibration] Potency, Count, or trigger [VibrationExplosion].\nEncounter Start: gain 5 [UltraPrecisionTimeAcceleration]",
+      "name": "Accelerazione Temporale Microprecisa",
+      "desc": "Gli effetti si applicano solo alla 1° Identità Schierata\n\nSi applica all'Identità con Abilità che infliggono Potenza o Conteggio [Vibration] o che attivano [VibrationExplosion].\nInizio Incontro: guadagna 5 [UltraPrecisionTimeAcceleration]",
       "simpleDesc": [
         {
           "abilityID": 9816,
-          "simpleDesc": "Gain 5 Microprecision Time Acceleration"
+          "simpleDesc": "Guadagna 5 [UltraPrecisionTimeAcceleration]"
         }
       ]
     }
