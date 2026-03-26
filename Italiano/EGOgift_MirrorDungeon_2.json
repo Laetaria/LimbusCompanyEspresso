@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 9156,
-      "name": "Decamillennial Hearthflame",
-      "desc": "Turn End: enemies with 3+ [Combustion] Count activates [Combustion] one more time (reduce [Combustion] Count by 1)",
+      "name": "Cuor di Vampa Decamillenaria",
+      "desc": "Fine Turno: nemici con 3+ Conteggio [Combustion] attivano [Combustion] un'altra volta (riducendo il Conteggio [Combustion] di 1)",
       "simpleDesc": [
         {
           "abilityID": 9156,
@@ -13,350 +13,350 @@
     },
     {
       "id": 9158,
-      "name": "Purloined Flame",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Combustion] or 'Unique Burn'. (except E.G.O Skills; except Backup Units)\n\nOn Hit with a Skill(including E.G.O Skills): if the target has 3+ [Combustion] Count, activate [Combustion] once on the target. (target loses 1 [Combustion] Count; activates once per Skill)\n\nTurn End: targets with 3+ [Combustion] Count activates [Combustion] one more time (target loses 1 [Combustion] Count)\n\nIf a target with [Combustion] is defeated(for Abnormalities, when the Core is defeated), inflict its remaining [Combustion] Potency to one of the enemies with the least [Combustion] Potency at the next Turn Start.\n\nTurn Start: for this turn, inflict 4 [AttackDown] to enemies with [Combustion]\n\nIf a target with [Combustion] is defeated, at the next Turn Start, (defeated enemy's [Combustion] Potency / 15) allies with Skills that inflict [Combustion] gain 2 [AttackDmgUp]. (once per turn)",
+      "name": "Fiamma Sgraffignata",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano [Combustion] o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nPer Colpo con un'Abilità (incluse le Abilità E.G.O): se il bersaglio ha 3+ Conteggio [Combustion], attiva [Combustion] una volta sul bersaglio. (il bersaglio perde 1 Conteggio [Combustion]; si attiva una volta per Abilità)\n\nFine Turno: bersagli con 3+ Conteggio [Combustion] attivano [Combustion] un'altra volta (il bersaglio perde 1 Conteggio [Combustion])\n\nSe un bersaglio con [Combustion] viene sconfitto (per le Anormalità, quando il Nucleo viene sconfitto), infliggi la sua Potenza [Combustion] ad uno dei nemici con meno Potenza [Combustion] all'Inizio del prossimo Turno.\n\nInizio Turno: per questo Turno, infliggi 4 [AttackDown] ai nemici con [Combustion]\n\nSe un bersaglio con [Combustion] viene sconfitto, all'Inizio del prossimo Turno, (Potenza [Combustion] del nemico sconfitto / 15) alleati con Abilità che infliggono [Combustion] guadagnano 2 [AttackDmgUp]. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9158,
-          "simpleDesc": "Activate [Combustion] once"
+          "simpleDesc": "Attiva [Combustion] una volta"
         },
         {
           "abilityID": 91581,
-          "simpleDesc": "Activate [Combustion] 1 more time"
+          "simpleDesc": "Attiva [Combustion] 1 volta in più"
         },
         {
           "abilityID": 91582,
-          "simpleDesc": "Inflict [Combustion] Potency equal to (remaining [Combustion] Stack on defeated enemy)"
+          "simpleDesc": "Infliggi Potenza [Combustion] uguale a (Stack rimanenti di [Combustion] sul nemico sconfitto)"
         },
         {
           "abilityID": 91583,
-          "simpleDesc": "Inflict 4 [AttackDown]"
+          "simpleDesc": "Infliggi 4 [AttackDown]"
         },
         {
           "abilityID": 91583,
-          "simpleDesc": "Gain 2 [AttackDmgUp]"
+          "simpleDesc": "Guadagna 2 [AttackDmgUp]"
         }
       ]
     },
     {
       "id": 9160,
-      "name": "Ruptured Blood Sac",
-      "desc": "On ally Clash Win: activate the enemy's [Laceration] once and reduce [Laceration] Count by 1 (3 times per turn)",
+      "name": "Sacca di Sangue Lacerata",
+      "desc": "Per Scontro Vinto da un alleato: attiva il [Laceration] del nemico una volta e riduci il Conteggio [Laceration] di 1 (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9160,
-          "simpleDesc": "Activate Bleed once (reduce Bleed Count by 1)"
+          "simpleDesc": "Attiva [Laceration] una volta (riduci Conteggio [Laceration] di 1)"
         }
       ]
     },
     {
       "id": 9162,
-      "name": "Hemorrhagic Shock",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Laceration] or 'Unique Bleed'. (except E.G.O Skills; except Backup Units)\n\nOn ally Clash Win: activate the enemy's [Laceration] once and reduce [Laceration] Count by 1 (once per turn for each ally)\n\nEnemies become Staggerable by [Laceration] Damage; if an enemy gets Staggered due to [Laceration] damage mid-Clash, activate [Laceration] (# of remaining enemy Coins) times and reduce [Laceration] Count by (# of [Laceration] activations)\n\nIf all enemies have [Laceration], they lose 2 Defense Levels. At Turn End, inflict (# of [Laceration] activations x 2) [DefenseDown] next turn (max 20)\n\nWhen inflicting [Laceration] Potency or 'Unique Bleed' with Skill effects, inflict 3 [Laceration] Potency and +1 [Laceration] Count on the target",
+      "name": "Shock Emorragico",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nPer Scontro Vinto da un alleato: attiva il [Laceration] del nemico una volta e riduci il Conteggio [Laceration] di 1 (una volta per turno per Identità)\n\nI nemici possono Vacillare dai danni da [Laceration]; se un nemico Vacilla a causa del danno da [Laceration] nel mezzo dello Scontro, attiva [Laceration] (N. delle Monete rimanenti del nemico) volte e riduci il Conteggio [Laceration] di (N. delle attivazioni del [Laceration])\n\nSe tutti i nemici hanno [Laceration], perdono 2 'Livelli Difensivi'; alla Fine del Turno, infliggi (N. delle attivazioni del [Laceration] x 2) [DefenseDown] nel prossimo turno (max 20)\n\nQuando si infligge Potenza [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' tramite effetti delle Abilità, infliggi 3 Potenza [Laceration] e +1 Conteggio [Laceration] sul bersaglio",
       "simpleDesc": [
         {
           "abilityID": 9162,
-          "simpleDesc": "On Clash Win, activate Bleed on the target once (reduce Bleed Count by 1)"
+          "simpleDesc": "Per Scontro Vinto, attiva [Laceration] sul bersaglio una volta (riduci Conteggio [Laceration] di 1)"
         },
         {
           "abilityID": 91621,
-          "simpleDesc": "After Clashing, activate the enemy's [Laceration] (# of remaining Coins on self) times and reduce [Laceration] Count by (# of [Laceration] activations)"
+          "simpleDesc": "Dopo lo Scontro, attiva il [Laceration] del nemico (N. delle Monete rimanenti su sé stessi) volte e riduci il Conteggio [Laceration] di (N. delle attivazioni del [Laceration])"
         },
         {
           "abilityID": 91622,
-          "simpleDesc": "Inflict (# of [Laceration] activations x 2) [DefenseDown] (max 20)"
+          "simpleDesc": "Infliggi (N. delle attivazioni del [Laceration] x 2) [DefenseDown] (max 20)"
         },
         {
           "abilityID": 91623,
-          "simpleDesc": "Inflict 3 Bleed Potency and +1 Bleed Count"
+          "simpleDesc": "Infliggi 3 [Laceration] Potency e +1 Conteggio [Laceration]"
         }
       ]
     },
     {
       "id": 9163,
-      "name": "Gemstone Oscillator",
-      "desc": "When winning a Clash with a Skill that consumed [Vibration] Count: if the target does not have [Vibration], inflict +2 [Vibration] Count\n\nAt 3+ Sloth Reson. including this Skill, inflict +3 [Vibration] Count instead",
+      "name": "Gemma Oscillatrice",
+      "desc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration]: se il bersaglio non ha [Vibration], infliggi +2 Conteggio [Vibration]\n\nA 3+ Risonanza Accidia, inclusa questa Abilità, infliggi invece +3 Conteggio [Vibration]",
       "simpleDesc": [
         {
           "abilityID": 9163,
-          "simpleDesc": "When winning a Clash with a Skill that consumed [Vibration] Count, inflict +2 [Vibration] Count"
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration], infliggi +2 Conteggio [Vibration]"
         },
         {
           "abilityID": 91631,
-          "simpleDesc": "When winning a Clash with a Skill that consumed [Vibration] Count and is a part of a 3+ Sloth Reson.: inflict +3 [Vibration] Count"
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration] e fa parte di una Risonanza Accidia di 3+: infliggi +3 Conteggio [Vibration]"
         }
       ]
     },
     {
       "id": 9164,
-      "name": "Wobbling Keg",
-      "desc": "Turn Start: at 8+ [Vibration] Count, Clash Power +1\n\nWhen defeating or Staggering an enemy with a Skill that consumes [Vibration] Count on self: gain +([Vibration] Count consumed / 4) [Vibration] Count (once per Skill)",
+      "name": "Barilotto Barcollante",
+      "desc": "Inizio Turno: a 8+ Conteggio [Vibration], Potere Scontro +1\n\nQuando un nemico viene sconfitto o Vacillato con un'Abilità che consuma Conteggio [Vibration] su sé stessi: guadagna +(Conteggio [Vibration] consumato / 4) Conteggio [Vibration] (una volta per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 9164,
-          "simpleDesc": "At 8+ Tremor Count, Clash Power +1"
+          "simpleDesc": "A 8+ Conteggio [Vibration], Potere Scontro +1"
         },
         {
           "abilityID": 91641,
-          "simpleDesc": "When winning a Clash with a Skill that consumes [Vibration] Count: gain [Vibration] Count"
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che consuma Conteggio [Vibration]: guadagna Conteggio [Vibration]"
         }
       ]
     },
     {
       "id": 9166,
-      "name": "Epicenter",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Vibration] Potency or Count. (except E.G.O Skills; except Backup Units)\n(If an Identity only has Attack Skills that gain [Vibration] Count on self, this E.G.O Gift does not activate for them)\n\nWhen winning a Clash with a Skill that consumed [Vibration] Count on self: if the target does not have [Vibration], inflict +3 [Vibration] Count\n\nTurn Start: gain Clash Power +([Vibration] Count on self / 5) (max 3)\n\nWhen using a Skill that consumes [Vibration] Count on self: if the target is defeated or Staggered, gain +([Vibration] Count consumed / 2) [Vibration] Count (once per Skill)",
+      "name": "Epicentro",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration]. (escluse le Abilità E.G.O; escluse le Riserve)\n(Se un'Identità ha solo Abilità che guadagnano Conteggio [Vibration] su sé stessi, questo Dono E.G.O non si attiva per loro)\n\nQuando si vince uno Scontro con un'Abilità che ha consumato del Conteggio [Vibration] su sé stessi: se il bersaglio non ha [Vibration], infliggi +3 Conteggio [Vibration]\n\nInizio Turno: guadagna Potere Scontro +(Conteggio [Vibration] su sé stessi / 5) (max 3)\n\nQuando si usa un'Abilità che consuma Conteggio [Vibration] su sé stessi: se il bersaglio viene sconfitto o Vacillato, guadagna +(Conteggio [Vibration] consumato / 2) Conteggio [Vibration] (una volta per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 9166,
-          "simpleDesc": "When winning a Clash with a Skill that consumed [Vibration] Count on self: if the target does not have [Vibration], inflict +3 [Vibration] Count"
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration] su sé stessi: se il bersaglio non ha [Vibration], infliggi +3 Conteggio [Vibration]"
         },
         {
           "abilityID": 91661,
-          "simpleDesc": "Turn Start: gain ([Vibration] Count on self / 5) Clash Power"
+          "simpleDesc": "Inizio Turno: guadagna (Conteggio [Vibration] su sé stessi / 5) Potere Scontro"
         },
         {
           "abilityID": 91662,
-          "simpleDesc": "When winning a Clash with a Skill that consumes [Vibration] Count: gain [Vibration] Count"
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che consuma Conteggio [Vibration]: guadagna Conteggio [Vibration]"
         }
       ]
     },
     {
       "id": 9167,
-      "name": "Omnivibro-octovecti-bell",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills; except Backup Units)\n(If an Identity only has Attack Skills that gain [Vibration] Count on self, this E.G.O Gift does not activate for them)\n\nWhen winning a Clash with a Skill that inflicts [Vibration] Potency or Count, or consumes [Vibration] Count on self: inflict (# of remaining Coins) [Vibration] Potency against the target and gain (# of remaining Coins) Tremor Count (max +3 Tremor Count gained per Skill). If the target does not have [Vibration], inflict +3 [Vibration] Count\n\nTurn Start: gain (1 + ([Vibration] Count on self / 5)) [ParryingResultUp]. (max 3)\n\nWhen using a Skill that consumes [Vibration] Count on self: when defeating or Staggering a target, gain ([Vibration] Count consumed / 2) [Vibration] Count (once per Skill)\n\nSkills deal +([Vibration] consumed on self + [Vibration] Potency on the enemy + 5)% damage (except E.G.O Skills; max 50%)\nWhen the target has [VibrationNesting], when triggering either [Switch_Vibration] or [FusionVibration] against the enemy with a type of [Vibration] they don't have in their [VibrationNesting], extend the [VibrationNesting] on target at Turn End to the next turn",
+      "name": "Onnivibro-ottovetti-campana",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration], o '<noparse>Vibrazione</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n(Se un'Identità ha solo Abilità che guadagnano Conteggio [Vibration] su sé stessi, questo Dono E.G.O non si attiva per loro)\n\nQuando si vince uno Scontro con un'Abilità che infligge Potenza o Conteggio [Vibration], o consuma Conteggio [Vibration] su sé stessi: infliggi (N. delle Monete rimanenti) Potenza [Vibration] contro il bersaglio e guadagna (N. delle Monete rimanenti) Conteggio [Vibration] (max +3 Conteggio [Vibration] guadagnato per Abilità).\nSe il bersaglio non ha [Vibration], infliggi +3 Conteggio [Vibration]\n\nInizio Turno: guadagna (1 + (Conteggio [Vibration] su sé stessi / 5)) [ParryingResultUp]. (max 3)\n\nQuando si usa un'Abilità che consuma Conteggio [Vibration] su sé stessi: quando viene sconfitto o Vacillato un bersaglio, guadagna (Conteggio [Vibration] consumato / 2) Conteggio [Vibration] (una volta per Abilità)\n\nLe Abilità infliggono +([Vibration] consumato su sé stessi + Potenza [Vibration] sul nemico + 5)% di danno (escluse le Abilità E.G.O; max 50%)\nQuando il bersaglio ha [VibrationNesting], quando si innesca [Switch_Vibration] o [FusionVibration] contro un nemico con un tipo di [Vibration] di cui non hanno tra i loro [VibrationNesting], estendi [VibrationNesting] del bersaglio dalla Fine del Turno al turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9167,
-          "simpleDesc": "On Clash Win, inflict Tremor equal to the # of remaining Coins. If the target does not have [Vibration], inflict Tremor Count"
+          "simpleDesc": "Per Scontro Vinto, infliggi [Vibration] uguale al N. delle Monete rimanenti. Se il bersaglio non ha [Vibration], infliggi Conteggio [Vibration]"
         },
         {
           "abilityID": 91671,
-          "simpleDesc": "Turm Start: gain Clash Power Up based on Tremor Count on self"
+          "simpleDesc": "Turm Start: guadagna [ParryingResultUp] basato sul Conteggio [Vibration] su sé stessi"
         },
         {
           "abilityID": 91672,
-          "simpleDesc": "When winning a Clash with a Skill that consumes [Vibration] Count: gain [Vibration] Count"
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che consuma Conteggio [Vibration]: guadagna Conteggio [Vibration]"
         },
         {
           "abilityID": 91673,
-          "simpleDesc": "Skills that consume [Tremor] Count deal more damage"
+          "simpleDesc": "Abilità che consumano Conteggio [Vibration] infliggono più danni"
         },
         {
           "abilityID": 91674,
-          "simpleDesc": "Extends the Tremor - Superposition on target at Turn End until next turn"
+          "simpleDesc": "Estendi the [VibrationNesting] sul bersaglio a Fine Turno fino al prossimo turno"
         }
       ]
     },
     {
       "id": 9168,
-      "name": "Shard of Apocalypse",
-      "desc": "If the target has less than 15 [Burst] Potency, inflict 1 additional Potency when inflicting [Burst] Potency",
+      "name": "Frammenti dell'Apocalisse",
+      "desc": "Se il bersaglio ha meno di 15 Potenza [Burst], infliggi 1 ulteriore Potenza [Burst] quando viene inflitto della Potenza [Burst]",
       "simpleDesc": [
         {
           "abilityID": 9168,
-          "simpleDesc": "Inflict 1 additional [Burst] Potency"
+          "simpleDesc": "Infliggi 1 Potenza [Burst] addizionale"
         }
       ]
     },
     {
       "id": 9170,
-      "name": "Eerie Effigy",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Burst] Potency or Count. (except E.G.O Skills; except Backup Units)\n\n[Burst] effects deal +100% damage against enemy Shields\nIf the target has less than 15 [Burst] Potency, inflict 2 more Potency when inflicting [Burst] Potency\n\nIf [Burst] cannot be applied due to Skill effects, gain Plus Coin Power +1 instead\n- Minus Coin Skills: Instead of gaining Plus Coin Power, gain Base Power +(4 / # of Coins) (min 1; rounded down)",
+      "name": "Effigie Lugubre",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Burst]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nGli effetti da [Burst] infliggono +100% di danno contro gli Scudi nemici\nSe il bersaglio ha meno di 15 Potenza [Burst], infliggi 2 Potenza [Burst] in più quando viene inflitta Potenza [Burst]\n\nSe [Burst] non può essere applicato per via degli effetti di un'Abilità, guadagna invece <noparse>Potere Moneta Positiva +</noparse>1\n- Abilità a Moneta Negativa: Al posto di guadagnare Potere Moneta Positiva, guadagna Potere Base +(4 / N. delle Monete) (min 1; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9170,
-          "simpleDesc": "Rupture effects deal +100% damage against Shields"
+          "simpleDesc": "Effetti da [Burst] infliggono +100% di danno contro Scudi nemici"
         },
         {
           "abilityID": 91701,
-          "simpleDesc": "Inflict 2 additional [Burst] Potency"
+          "simpleDesc": "Infliggi 2 Potenza [Burst] addizionale"
         },
         {
           "abilityID": 91702,
-          "simpleDesc": "If [Burst] cannot be applied due to Skill effects, gain Coin/Base Power instead"
+          "simpleDesc": "Se [Burst] non può essere applicato per via degli effetti di un'Abilità, guadagna invece Potere Moneta/Base "
         }
       ]
     },
     {
       "id": 9171,
-      "name": "Ruin",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Burst] Potency or Count. (except E.G.O Skills; except Backup Units)\n\n[Burst] effects deal +150% damage against enemy Shield\n\nTurn Start: enemies or Parts with [Burst] lose (3 + ([Burst] Potency / 2)) Offense Level and Defense Level. (max 6)\n\nWhen inflicting [Burst] Potency or Count with Skill effects, inflict 2 [Burst] Potency and +1 [Burst] Count against the target. If the target has less than 15 [Burst] Potency, inflict 2 additional [Burst] Potency.\n\nCoin Power +1 for Plus Coin Skills that inflict [Burst] Potency, Count, or 'Unique Rupture'\nBase Power +(4 / # of Coins) (min. 1; rounded down) for Minus Coin Skills that inflict [Burst] Potency, Count, or 'Unique Rupture'",
+      "name": "Rovina",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Burst]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nGli effetti da [Burst] infliggono +150% di danno contro gli Scudi nemici\n\nInizio Turno: i nemici o le Parti con [Burst] perdono (3 + (Potenza [Burst] / 2)) 'Livelli Offensivi' e 'Livelli Difensivi'. (max 6)\n\nQuando viene inflitta Potenza o Conteggio [Burst] tramite effetti delle Abilità, infliggi 2 Potenza [Burst] e +1 Conteggio [Burst] contro il bersaglio. Se il bersaglio ha meno di 15 Potenza [Burst], infliggi 2 Potenza [Burst] in più.\n\nPotere Moneta +1 per Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Burst], o '<noparse>Lacerazione</noparse> Speciale'\nPotere Base +(4 / N. delle Monete) (min. 1; arrotondato per difetto) per le Abilità a Moneta Negativa che infliggono Potenza o Conteggio [Burst], o '<noparse>Lacerazione</noparse> Speciale'",
       "simpleDesc": [
         {
           "abilityID": 9171,
-          "simpleDesc": "[Burst] effects deal +150% damage against Shields"
+          "simpleDesc": "Effetti da [Burst] infliggono +100% di danno contro Scudi nemici"
         },
         {
           "abilityID": 91711,
-          "simpleDesc": "Enemies with [Burst] lose Offense and Defense Levels"
+          "simpleDesc": "Nemici con [Burst] perdono Livelli Offensivi e Difensivi"
         },
         {
           "abilityID": 91712,
-          "simpleDesc": "When inflicting [Burst] Potency with Skill effects, Inflict 2 [Burst] Potency and +1 [Burst] Count on target"
+          "simpleDesc": "Quando viene inflitta Potenza [Burst] tramite effetti delle Abilità, infliggi 2 Potenza [Burst] e +1 Conteggio [Burst] al bersaglio"
         },
         {
           "abilityID": 91713,
-          "simpleDesc": "Gain Coin Power"
+          "simpleDesc": "Guadagna Potere Moneta"
         }
       ]
     },
     {
       "id": 9172,
       "name": "Cantabile",
-      "desc": "When using base Attack Skills, if the target has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 3)",
+      "desc": "Quando viene usata un'Abilità Attacco di base, se il bersaglio ha 5+ Potenza [Sinking], cura (Potenza [Sinking] sul bersaglio / 10) PS su sé stessi (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9172,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Cura PS in base all'[Sinking] del bersaglio"
         }
       ]
     },
     {
       "id": 9173,
-      "name": "Faded Overcoat",
-      "desc": "Turn End: if there are 3+ enemies with -45 SP, all allies gain 2 [AttackUp] next turn",
+      "name": "Soprabito Sbiadito",
+      "desc": "Fine Turno: Se ci sono 3+ nemici con -45 PS, tutti gli alleati guadagnano 2 [AttackUp] nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 9173,
-          "simpleDesc": "All allies gain 2 [AttackUp]"
+          "simpleDesc": "Tutti gli alleati guadagnano 2 [AttackUp]"
         }
       ]
     },
     {
       "id": 9175,
-      "name": "Surging Globe",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills; except Backup Units)\n\nWhen using a base Attack Skill, if the enemy has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 5)\n\nTurn End: next turn, all allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)",
+      "name": "Sfera Impetuosa",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nQuando si utilizza un'Abilità Attacco di base, se il nemico ha 5+ Potenza [Sinking], cura (Potenza [Sinking] sul bersaglio / 10) PS su sé stessi (max 5)\n\nFine Turno: nel prossimo turno, tutti gli alleati guadagnano [AttackUp] uguale al numero di nemici con -45 PS (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9175,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Cura PS in base all'[Sinking] del bersaglio"
         },
         {
           "abilityID": 91751,
-          "simpleDesc": "All allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)"
+          "simpleDesc": "Tutti gli alleati guadagnano [AttackUp] uguale al numero di nemici con -45 PS (max 3)"
         }
       ]
     },
     {
       "id": 9176,
-      "name": "Impending Wave",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills; except Backup Units)\n\nTurn Start: inflict 1 [WaveSinking] against a random enemy\n\nWhen an enemy with [WaveSinking] is killed, at the next Turn Start, transfer the [WaveSinking] Stack from the said enemy to an enemy with the highest, but not maxed, [WaveSinking] Stack\n\nWhen hitting and dealing HP damage to an enemy with a Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking', inflict 4 [Sinking] Potency and +3 [Sinking] Count at Turn End (once per turn for each enemy)\nCombat Start: when activating Gloom or Lust A-Reson., inflict 3 [Sinking] and +3 [Sinking] on all enemies (for Abnormalities, a random Part)\n\nAfter using a base Attack Skill, if the target has 10+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 5) and inflict the same amount as [DefenseDown] against the target (max 5; once per turn for each enemy)\n\nTurn End: all allies gain [AttackUp] equal to the number of enemies with -45 SP or without SP next turn (max 6)\n\nCoin Power +1 for Plus Coin Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking'\nBase Power +(4 / # of Coins) (min. 1; rounded down) for Minus Coin Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking'\n\nWhen activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect from a Base Attack Skill that inflicts or gains [Sinking] Potency, [Sinking] Count, or 'Unique Sinking', heal 5 SP at Turn End (2 times per turn per Identity)\nIf the unit was at 45 SP at Turn Start, the effect changes to the following: when hitting and activating the [Sinking] effect(including 'Unique Sinking') on the target with a base Attack Skill, inflict +3 [Sinking] Count against the targeted enemy (2 times per turn per Identity)",
+      "name": "Onda Incombente",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nInizio Turno: infliggi 1 [WaveSinking] contro un nemico casuale\n\nQuando un nemico con [WaveSinking] viene ucciso, all'Inizio del prossimo Turno, trasferisci le Stack di [WaveSinking] da quel nemico ad un nemico con più Stack, ma ancora non al massimo, di [WaveSinking]\n\nQuando si Colpisce e si infliggono danni ai PV di un nemico con un'Abilità che infligge Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi 4 Potenza [Sinking] e +3 Conteggio [Sinking] alla Fine del Turno (una volta per turno per nemico)\nInizio Combattimento: quando viene attivata Risonanza Assoluta Tristezza o Lussuria, infliggi 3 [Sinking] e +3 [Sinking] su tutti i nemici (per Anormalità, una Parte casuale)\n\nDopo aver usato un'Abilità Attacco di base, se il bersaglio ha 10+ Potenza [Sinking], cura (Potenza [Sinking] sul bersaglio / 10) PS su sé stessi (max 5) e infliggi la stessa quantità di [DefenseDown] contro il bersaglio (max 5; una volta per turno per nemico)\n\nFine Turno: tutti gli alleati guadagnano [AttackUp] uguale al numero di nemici con -45 PS o senza PS nel prossimo turno (max 6)\n\nPotere Moneta +1 per Abilità a Moneta Positiva che infligge Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'\nPotere Base +(4 / N. delle Monete) (min. 1; arrotondato per difetto) per le Abilità a Moneta Negativa che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'\n\nQuando viene attivato l'effetto dell'[Sinking] (incluso '<noparse>Annegamento</noparse> Speciale') sul bersaglio con un effetto Per Colpo da un'Abilità Attacco Base che infligge o guadagna Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', cura 5 PS alla Fine del Turno (2 volte per turno per Identità)\nSe l'unità era a 45 PS all'Inizio Turno, l'effetto cambia col seguente: quando si Colpisce e viene attivato l'effetto dell'[Sinking] (incluso '<noparse>Annegamento</noparse> Speciale') sul bersaglio con un'Abilità Attacco Base, infliggi +3 Conteggio [Sinking] contro il nemico bersagliato (2 volte per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9176,
-          "simpleDesc": "Inflict Sinking"
+          "simpleDesc": "Infliggi [Sinking]"
         },
         {
           "abilityID": 91761,
-          "simpleDesc": "Inflict Defense Level Down"
+          "simpleDesc": "Infliggi [DefenseDown]"
         },
         {
           "abilityID": 91762,
-          "simpleDesc": "Apply Offense Level Up"
+          "simpleDesc": "Applica [OffenseUp]"
         },
         {
           "abilityID": 91763,
-          "simpleDesc": "Heal SP"
+          "simpleDesc": "Cura PS"
         },
         {
           "abilityID": 91764,
-          "simpleDesc": "Inflict Sinking"
+          "simpleDesc": "Infliggi [Sinking]"
         },
         {
           "abilityID": 91765,
-          "simpleDesc": "Gain Coin Power"
+          "simpleDesc": "Guadagna Potere Moneta"
         },
         {
           "abilityID": 91766,
-          "simpleDesc": "Gain Base Power"
+          "simpleDesc": "Guadagna Potere Base"
         },
         {
           "abilityID": 91767,
-          "simpleDesc": "Inflict Reflux"
+          "simpleDesc": "Infliggi [WaveSinking]"
         },
         {
           "abilityID": 91768,
-          "simpleDesc": "Inflict Reflux"
+          "simpleDesc": "Infliggi [WaveSinking]"
         }
       ]
     },
     {
       "id": 9178,
-      "name": "Angel's Cut",
-      "desc": "Turn End: when an ally has more than 20 Poise Potency, the said unit consumes 1 Poise Potency to gain +1 Poise Count",
+      "name": "Quota dell'Angelo",
+      "desc": "Fine Turno: quando un alleato ha più di 20 Potenza [Breath], tale alleato consuma 1 Potenza [Breath] per guadagnare +1 Conteggio [Breath]",
       "simpleDesc": [
         {
           "abilityID": 9178,
-          "simpleDesc": "Consume 1 Poise Potency to gain 1 Poise Count"
+          "simpleDesc": "Consuma 1 Potenza [Breath] per guadagnare 1 Conteggio [Breath]"
         }
       ]
     },
     {
       "id": 9180,
-      "name": "Cask Spirits",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply or gain [Breath] Potency or Count. (except E.G.O Skills; except Backup Units)\n\nTurn End: If an ally has more than 20 [Breath] Potency on self, the ally consumes 1 [Breath] Potency to gain 1 [Breath] Count\n\nTurn End: 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count gain 2 [Agility] and 1 [AttackUp] next turn (can activate on the same Identity)\n\nWhen gaining [Breath] Potency from Skill effects, gain additional 2 [Breath] Potency and +2 [Breath] Count. If the sum of [Breath] Potency and Count on self is less than 20, gain 3 [Breath] Potency and +3 [Breath] Count instead.\n\nCombat End: at more than 40 [Breath] Potency, consume 15 [Breath] Potency to [Discard] 1 Skill of the lowest rank in all of that unit's Skill Slots (once per turn for each character)",
+      "name": "Spiriti Imbottati",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano o guadagnano Potenza o Conteggio [Breath]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nFine Turno: Se un alleato ha più di 20 Potenza [Breath] su sé stesso, l'alleato consuma 1 Potenza [Breath] per guadagnare +1 Conteggio [Breath]\n\nFine Turno: 1 alleato con maggior Potenza [Breath] e 1 alleato con maggior Conteggio [Breath] guadagna 2 [Agility] e 1 [AttackUp] nel prossimo turno (si possono attivare sulla stessa Identità)\n\nQuando viene guadagnata Potenza [Breath] tramite effetto di un'Abilità, guadagna 2 Potenza [Breath] e +2 Conteggio [Breath] in più.\nSe la somma della Potenza e del Conteggio [Breath] su sé stessi è meno di 20, guadagna invece 3 Potenza [Breath] e +3 Conteggio [Breath].\n\nFine Combattimento: se si ha più di 40 Potenza [Breath], consuma 15 Potenza [Breath] per [Discard]re 1 Abilità del grado più basso tra tutti gli Slot Abilità dell'unità (una volta per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9180,
-          "simpleDesc": "Gain Poise Count"
+          "simpleDesc": "Guadagna Conteggio [Breath]"
         },
         {
           "abilityID": 91801,
-          "simpleDesc": "Apply 2 Haste and 1 Offense Level Up"
+          "simpleDesc": "Applica 2 [Agility] e 1 [OffenseUp]"
         },
         {
           "abilityID": 91802,
-          "simpleDesc": "When gaining [Breath] Potency with Skill effects, gain additional Potency and Count"
+          "simpleDesc": "Quando si guadagna Potenza [Breath] tramite effetti delle Abilità, guadagna Potenza e Conteggio addizionali"
         },
         {
           "abilityID": 91803,
-          "simpleDesc": "Discard a Skill of the lowest rank in this unit's Skill Slot"
+          "simpleDesc": "[Discard] un'Abilità di rango basso in uno Slot Abilità"
         }
       ]
     },
     {
       "id": 9181,
-      "name": "Miniature Telepole",
-      "desc": "After Attack with a Skill Attack that consumed 7+ [Charge] Count on self: if the target is defeated, gain ([Charge] Count consumed by the Skill / 4) [Charge] Count (including 'Unique Charge')",
+      "name": "Traliccio in Miniatura",
+      "desc": "Dopo un Attacco con un'Abilità Attacco che ha consumato 7+ Conteggio [Charge] su sé stessi: se il bersaglio viene sconfitto, guadagna (Conteggio [Charge] consumato dall'Abilità / 4) Conteggio [Charge] (incluso '<noparse>Carica</noparse> Speciale')",
       "simpleDesc": [
         {
           "abilityID": 9181,
-          "simpleDesc": "Gain [Charge] Count based on [Charge] Count consumed"
+          "simpleDesc": "Guadagna Conteggio [Charge] in base al Conteggio [Charge] consumato"
         }
       ]
     },
     {
       "id": 9183,
-      "name": "Insulator",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge'. (except E.G.O Skills; except Backup Units)\n\nAfter Attack With a Skill Attack that consumes [Charge] Count on self: if the target is defeated, gain ([Charge] Count consumed by the Skill / 3) [Charge] Count\n\nTurn Start: at less than 3 [Charge] Count, gain +3 [Charge] Count\nTurn Start: at 3+ [Charge] Count, gain 1 [AttackDmgUp]",
+      "name": "Isolante",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per guadagnare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nDopo un Attacco con un'Abilità Attacco che consuma Conteggio [Charge] su sé stessi: se il bersaglio viene sconfitto, guadagna (Conteggio [Charge] consumato dall'Abilità / 3) Conteggio [Charge]\n\nInizio Turno: a meno di 3 Conteggio [Charge], guadagna +3 Conteggio [Charge]\nInizio Turno: a 3+ Conteggio [Charge], guadagna 1 [AttackDmgUp]",
       "simpleDesc": [
         {
           "abilityID": 9183,
-          "simpleDesc": "Gain [Charge] Count based on [Charge] Count consumed"
+          "simpleDesc": "Guadagna Conteggio [Charge] in base al Conteggio [Charge] consumato"
         },
         {
           "abilityID": 91831,
-          "simpleDesc": "Gain 1 [AttackDmgUp] or [Charge] Count based on [Charge] Count"
+          "simpleDesc": "Guadagna 1 [AttackDmgUp] o Conteggio [Charge] in base al Conteggio [Charge]"
         }
       ]
     },
     {
       "id": 9184,
-      "name": "T-5 Perpetual Motion Machine",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge'. (except E.G.O Skills; except Backup Units)\n\nTurn Start: at less than 3 [Charge] Count, gain +5 [Charge] Count.\nTurn Start: at 5+ [Charge] Count, gain +2 min/max Speed, 1 [Enhancement], and 2 [AttackDmgUp]. (including 'Unique Charge')\n\nAll allies on the field gain [ShareCharge] at Turn Start.\n\nAfter Attack with a Skill 3 that consumes or gains [Charge] Count on self: if the target is defeated, or if the ally who used the Skill is at 3+ [Charge], they add 1 Skill 3 to the list of Skills for the next upcoming turn. (once per turn for each ally; including 'Unique Charge')",
+      "name": "Macchina del Movimento Perpetuo T-5",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per guadagnare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nInizio Turno: a meno di 3 Conteggio [Charge], guadagna +5 Conteggio [Charge].\nInizio Turno: a 5+ Conteggio [Charge], guadagna +2 min/max di Velocità, 1 [Enhancement], e 2 [AttackDmgUp]. (incluso '<noparse>Carica</noparse> Speciale')\n\nTutti gli alleati sul campo guadagnano [ShareCharge] ad Inizio Turno.\n\nDopo un Attacco con un'Abilità 3 che consuma o guadagna Conteggio [Charge] su sé stessi: se il bersaglio viene sconfitto, o se l'alleato che ha usato l'Abilità è a 3+ [Charge], viene aggiunta 1 Abilità 3 alla lista delle Abilità per il prossimo turno. (una volta per turno per Identità; incluso '<noparse>Carica</noparse> Speciale')",
       "simpleDesc": [
         {
           "abilityID": 9184,
-          "simpleDesc": "Gain 1 [AttackDmgUp] or [Charge] Count based on [Charge] Count"
+          "simpleDesc": "Guadagna 1 [AttackDmgUp] o Conteggio [Charge] in base al Conteggio [Charge]"
         },
         {
           "abilityID": 91841,
-          "simpleDesc": "Gain [Charge] Count based on [Charge] Count consumed. Next turn, gain [PlusCoinValueUp]"
+          "simpleDesc": "Guadagna Conteggio [Charge] in base al Conteggio [Charge] consumato. Nel Turno dopo, guadagna [PlusCoinValueUp]"
         },
         {
           "abilityID": 91842,
-          "simpleDesc": "After Attack with a Skill 3 that consumed [Charge] Count, add 1 Skill 3 to the Skill list"
+          "simpleDesc": "Dopo un Attacco con un'Abilità 3 che ha consumato Conteggio [Charge], aggiungi 1 Abilità 3 alla lista delle Abilità"
         }
       ]
     }
