@@ -2,235 +2,235 @@
   "dataList": [
     {
       "id": 9819,
-      "name": "Bloodflame Sword",
-      "desc": "First Turn Start of an Encounter: Identities with Base Attack Skills that gain [Combustion] gain 5 [Combustion] and heal 8 SP\n\nFor Heishou Pack - You Branch Identities: HP gets capped to 49% of Max HP. In return, take 50% less damage and receive 50% reduced heal (except healing from E.G.O Gifts)",
+      "name": "Spada Sanguifiamma",
+      "desc": "Primo Inizio Turno di un Incontro: Le Identità con Abilità Attacco Base che guadagnano [Combustion], guadagnano 5 [Combustion] e si curano di 8 PS\n\nPer le Identità del Branco Heishou - Ramo You: I PV vengono limitati al 49% dei PV Max. In cambio, subiscono il 50% in meno di danno e ricevono 50% di cure ridotte (escluse le cure dai Doni E.G.O)",
       "simpleDesc": [
         {
           "abilityID": 9819,
-          "simpleDesc": "Gain [Combustion], Offense Levels, and heal SP"
+          "simpleDesc": "Guadagna [Combustion], Livelli Offensivi, e cura PS"
         },
         {
           "abilityID": 98191,
-          "simpleDesc": "HP gets capped. Take less damage and heal less HP."
+          "simpleDesc": "PV vengono limitati. Subisci meno danni e cura meno PV."
         }
       ]
     },
     {
       "id": 9820,
-      "name": "Blackiron Barding",
-      "desc": "Turn Start: apply (Defense Level / 3) Shield to 1 ally with the highest Defense Level (prioritizes Heishou - Wu Identities; max Shield 15)\n\nWhen allies with Shield win a Clash, inflict (Speed / 2) [Vibration] Potency; then, gain 2 [Agility] and 2 [DefenseUp] next turn (once per turn per Identity)",
+      "name": "Bardatura in Ferro Nero",
+      "desc": "Inizio Turno: applica (Livello Difensivo / 3) Scudo ad 1 alleato con il Livello Difensivo più alto (priorità per le Identità del Branco Heishou - Ramo Wu; Scudo  15)\n\nQuando gli alleati con dello Scudo vincono uno Scontro, infliggono (Velocità / 2) Potenza [Vibration]; dopo, guadagnano 2 [Agility] e 2 [DefenseUp] nel turno successivo (una volta per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9820,
-          "simpleDesc": "Apply Shield & [Agility] to an ally"
+          "simpleDesc": "Applica Scudo e [Agility] ad un alleato"
         },
         {
           "abilityID": 98201,
-          "simpleDesc": "Inflict Tremor Potency based on Speed; gain Defense Level next turn"
+          "simpleDesc": "Infliggi Potenza [Vibration] in base alla Velocità; guadagna Livello Difensivo nel turno dopo"
         }
       ]
     },
     {
       "id": 9821,
-      "name": "Red Cloth that Closes the Heart",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\nWhen other allies use an Unopposed Attack to hit an enemy, gain 1 [AttackUp] next turn (they can activate this only once per turn per Identity; effect itself activates up to 6 times per turn)\n\nWhen other allies [RetreatForCommon], gain 1 [SlashResultUp] and 1 [SlashDamageUp] next turn (once per turn)\n\nWhen all above conditions are met, gain 1 [ResultEnhancement] next turn (once per turn)",
+      "name": "Benda Rossa che Sigilla il Cuore",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nQuando gli altri alleati usano un'Attacco Unilaterale per colpire un nemico, guadagnano 1 [AttackUp] nel prossimo turno (possono attivare solo una volta per turno per Identità; l'effetto si attiva fino a 6 volte per turno)\n\nQuando gli altri alleati [RetreatForCommon], guadagnano 1 [SlashResultUp] e 1 [SlashDamageUp] nel prossimo turno (una volta per turno)\n\nQuando le condizioni vengono soddisfatte, guadagnano 1 [ResultEnhancement] nel prossimo turno (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9821,
-          "simpleDesc": "Gain Offense Level next turn"
+          "simpleDesc": "Guadagna Livello Offensivo nel turno dopo"
         },
         {
           "abilityID": 98211,
-          "simpleDesc": "Gain Slash Power Up and Slash DMG Up next turn"
+          "simpleDesc": "Guadagna [SlashResultUp] e [SlashDamageUp] nel turno dopo"
         },
         {
           "abilityID": 98212,
-          "simpleDesc": "Gain Power Up next turn"
+          "simpleDesc": "Guadagna [ResultEnhancement] nel turno dopo"
         }
       ]
     },
     {
       "id": 9822,
-      "name": "Virtue - Zhi (智)",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, gain 2 [DefenseUp] next turn (once per turn)\n- If this unit is a Family Hierarch Candidate: also gain 1 [Agility] next turn",
+      "name": "Virtù - Zhi (智)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, guadagna 2 [DefenseUp] nel turno successivo (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: guadagna anche 1 [Agility] nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9822,
-          "simpleDesc": "Gain Defense Level Up. Family Hierarch Candidate Faction gains [Agility] next turn as well"
+          "simpleDesc": "Guadagna [DefenseUp]. Fazione Candidati a Gerarca della Famiglia guadagna anche [Agility] nel turno dopo"
         }
       ]
     },
     {
       "id": 9823,
-      "name": "Virtue - Yong (勇)",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, gain 2 [AttackUp] next turn (once per turn)\n- If this unit is a Family Hierarch Candidate: also gain 3 [AttackUp] next turn",
+      "name": "Virtù - Yong (勇)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, guadagna 2 [AttackUp] nel turno successivo (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: guadagna anche 3 [AttackUp] nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9823,
-          "simpleDesc": "Gain Offense Level Up. Family Hierarch Candidate Faction gains [AttackUp] next turn as well"
+          "simpleDesc": "Guadagna [AttackUp]. Fazione Candidati a Gerarca della Famiglia guadagnas [AttackUp] nel turno dopo as well"
         }
       ]
     },
     {
       "id": 9824,
-      "name": "Virtue - Ren (仁)",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, heal 15 HP (once per turn)\n- If this unit is a Family Hierarch Candidate: also gain 1 [Protection] next turn",
+      "name": "Virtù - Ren (仁)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, cura 15 PV (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: guadagna anche 1 [Protection] nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9824,
-          "simpleDesc": "Heal HP. Family Hierarch Candidate Faction gains [Protection] next turn as well"
+          "simpleDesc": "Cura PV. Fazione Candidati a Gerarca della Famiglia guadagna anche [Protection] nel turno"
         }
       ]
     },
     {
       "id": 9825,
-      "name": "Cultivation: Cut, File, Carve, Polish",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, heal 20 HP, gain 3 [AttackUp], and gain 3 [DefenseUp] next turn (once per turn)\n- If this unit is a Family Hierarch Candidate: apply 1 [Agility], 1 [Protection], and 3 [AttackUp] to all allies, including this unit",
+      "name": "Cultura: Taglia, Leviga, Modella, Ridefinisci",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, cura 20 PV, guadagna 3 [AttackUp], e guadagna 3 [DefenseUp] nel turno successivo (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: applica 1 [Agility], 1 [Protection], e 3 [AttackUp] a tutti gli alleati, inclusa questa unità",
       "simpleDesc": [
         {
           "abilityID": 9825,
-          "simpleDesc": "Gain Offense Level Up, Defense Level Up, and heal HP. If this unit is a Family Hierarch Candidate, apply Haste, Protection, and Offense Level Up to all allies next turn as well"
+          "simpleDesc": "Guadagna [AttackUp], [DefenseUp], e cura PV. Se questa unità è un Candidato a Gerarca della Famiglia, applica anche [Agility], [Protection], e [AttackUp] a tutti gli alleati nel turno dopo"
         }
       ]
     },
     {
       "id": 9826,
-      "name": "Shaoxing Wine",
-      "desc": "[Effects apply only to #2 Deployed Identity]\n\nDeal +1% damage for every 1% missing HP on self (max 10%)",
+      "name": "Vino Shaoxing",
+      "desc": "[Gli effetti si applicano solo alla 2° Identità Schierata]\n\nInfliggi +1% di danno per ogni 1% di PV mancante su sé stessi (max 10%)",
       "simpleDesc": [
         {
           "abilityID": 9826,
-          "simpleDesc": "Deal more damage based on missing HP"
+          "simpleDesc": "Infliggi più danni in base ai PV mancanti"
         }
       ]
     },
     {
       "id": 19826,
-      "name": "Shaoxing Wine+",
-      "desc": "[Effects apply only to #2 <style=\"upgradeHighlight\">and #4 Deployed Identities</style>]\n\nDeal +1% damage for every 1% missing HP on self (max 10%)",
+      "name": "Vino Shaoxing+",
+      "desc": "[Gli effetti si applicano solo alla 2° <style=\"upgradeHighlight\">e 4° Identità Schierate</style>]\n\nInfliggi +1% di danno per ogni 1% di PV mancante su sé stessi (max 10%)",
       "simpleDesc": [
         {
           "abilityID": 19826,
-          "simpleDesc": "Deal more damage based on missing HP"
+          "simpleDesc": "Infliggi più danni in base ai PV mancanti"
         }
       ]
     },
     {
       "id": 29826,
-      "name": "Shaoxing Wine++",
-      "desc": "[Effects apply only to #2 ,#4, <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nDeal +1% damage for every 1% missing HP on self (max 10%)",
+      "name": "Vino Shaoxing++",
+      "desc": "[Gli effetti si applicano solo alla 2° ,4°, <style=\"upgradeHighlight\">e 6°</style> Identità Schierate]\n\nInfliggi +1% di danno per ogni 1% di PV mancante su sé stessi (max 10%)",
       "simpleDesc": [
         {
           "abilityID": 29826,
-          "simpleDesc": "Deal more damage based on missing HP"
+          "simpleDesc": "Infliggi più danni in base ai PV mancanti"
         }
       ]
     },
     {
       "id": 9827,
-      "name": "The Family's Resentment",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\nDoubles the amount of Bloodfeast generated in the Stage\nSkills that inflict [Laceration] Potency, [Laceration] Count, or 'Unique Bleed': After Attack, heal 30% of the HP damage dealt. (max 20)\n* If a unit healed with the above effect, it gains 1 [Enhancement] at the next Turn Start (max 2)\n\nFor every 50 [BloodDinner_Common_Accumulation], all allies gain 1 [AttackUp] at the next Turn Start (max 5)\nEach La Manchaland unit also gains 1 [AttackUp] for every 30 [BloodDinner_Accumulation] consumed by each unit (max 3)",
+      "name": "Risentimento Della Famiglia",
+      "desc": "Per le Abilità a Moneta Positiva: Guadagna Potere Moneta +(8 / N. di Monete) (guadagna almeno 1 Potere Moneta, incluse le Abilità E.G.O; arrotondato per difetto)\nPer le Abilità a Moneta Negativa: Guadagna Potere Finale +(8 / N. di Monete) (guadagna almeno 1 Potere Finale, incluse le Abilità E.G.O; arrotondato per difetto)\n\nRaddoppia la quantità generata di [BloodDinner] sul Campo\nLe Abilità che infliggono Potenza [Laceration], Conteggio [Laceration], o '<noparse>Sanguinamento</noparse> Speciale': Dopo l'Attacco, cura del 30% dei danni PV inflitti. (max 20)\n* Se un'unità si è curata grazie a questo effetto, guadagna 1 [Enhancement] all'Inizio del prossimo Turno (max 2)\n\nPer ogni 50 [BloodDinner_Common_Accumulation], tutti gli alleati guadagnano 1 [AttackUp] all'Inizio del prossimo Turno (max 5)\nCiascuna unità di La Manchaland guadagna anche 1 [AttackUp] per ogni 30 [BloodDinner_Accumulation] consumata da ciascuna unità (max 3)",
       "simpleDesc": [
         {
           "abilityID": 98270,
-          "simpleDesc": "Plus Coin Skills gain Coin Power; Minus Coin Skills gain Final Power"
+          "simpleDesc": "Abilità a Moneta Positiva guadagnano Potere Moneta; Abilità a Moneta Negativa guadagnano Potere Finale"
         },
         {
           "abilityID": 9827,
-          "simpleDesc": "Generate more Bloodfeast"
+          "simpleDesc": "Genera più [BloodDinner]"
         },
         {
           "abilityID": 98271,
-          "simpleDesc": "Heal HP"
+          "simpleDesc": "Cura PV"
         },
         {
           "abilityID": 98272,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "Guadagna [AttackUp]"
         },
         {
           "abilityID": 98272,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "Guadagna [AttackUp]"
         }
       ]
     },
     {
       "id": 9828,
-      "name": "For the Capo",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\n[Effects apply only to #1 Deployed Identity]\nWhen using a Skill that spends [Bullet], activate the following:\n- Gain 3 [Agility] next turn (once per turn)\n- On Hit: trigger [VibrationExplosion] once (and consume 1 [Vibration] Count) (2 times per turn)\n- On Hit after Clash Win: if target has both [Combustion] and [Vibration](including both 'Unique Burn' and 'Unique Tremor'), inflict Wrath damage equal to ([Combustion] + [Vibration]). (2 times per turn)\n\nAt 4+ Wrath Reson., activate the following:\n- Wrath Skills gain Coin Power +2 upon use\n- On Hit, if [Bullet] was spent, deal +30% damage",
+      "name": "Per il Capo",
+      "desc": "Per le Abilità a Moneta Positiva: Guadagna Potere Moneta +(8 / N. di Monete) (guadagna almeno 1 Potere Moneta, incluse le Abilità E.G.O; arrotondato per difetto)\nPer le Abilità a Moneta Negativa: Guadagna Potere Finale +(8 / N. di Monete) (guadagna almeno 1 Potere Finale, incluse le Abilità E.G.O; arrotondato per difetto)\n\n[Gli effetti si applicano solo alla 1° Identità Schierata]\nQuando viene usata un'Abilità che spende [Bullet], attiva il seguente:\n- Guadagna 3 [Agility] nel prossimo turno (una volta per turno)\n- Per Colpo: innesca [VibrationExplosion] una volta (e consuma 1 Conteggio [Vibration]) (2 volte per turno)\n- Per Colpo dopo Scontro Vinto: se il bersaglio ha entrambi [Combustion] e [Vibration] (incluse entrambe '<noparse>Bruciatura</noparse> Speciale' e '<noparse>Vibrazione</noparse> Speciale'), infliggi danno da Ira uguale a ([Combustion] + [Vibration]). (2 volte per turno)\n\nA 4+ Risonanza Ira, attiva il seguente:\n- Le Abilità Ira guadagnano Potere Moneta +2 all'uso\n- Per Colpo, se delle [Bullet] vengono spese, infliggi +30% di danno",
       "simpleDesc": [
         {
           "abilityID": 98270,
-          "simpleDesc": "Plus Coin Skills gain Coin Power; Minus Coin Skills gain Final Power"
+          "simpleDesc": "Abilità a Moneta Positiva guadagnano Potere Moneta; Abilità a Moneta Negativa guadagnano Potere Finale"
         },
         {
           "abilityID": 9828,
-          "simpleDesc": "Gain Haste"
+          "simpleDesc": "Guadagna [Agility]"
         },
         {
           "abilityID": 98281,
-          "simpleDesc": "Tremor Burst"
+          "simpleDesc": "[VibrationExplosion]"
         },
         {
           "abilityID": 98282,
-          "simpleDesc": "Deal Wrath damage"
+          "simpleDesc": "Infliggi danno Ira"
         },
         {
           "abilityID": 98283,
-          "simpleDesc": "Gain Coin Power"
+          "simpleDesc": "Guadagna Potere Moneta"
         },
         {
           "abilityID": 98284,
-          "simpleDesc": "Deal more damage"
+          "simpleDesc": "Infliggi più danni"
         }
       ]
     },
     {
       "id": 9829,
-      "name": "Rules of the Middle",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\nBlunt Attack Type Base Skills: Coin Power +1; The Middle Identities gain Coin Power +2 instead\nWhen an ally is hit, all allies gain 2 [AttackUp] next turn (3 times per turn)\n\nThe following effects activate when there are 3 or more 'The Middle' Identities in the Encounter.\nCombat Start: gain 1 [Enhancement] and 1 [Protection] for every Envy Reson. (max 3)\nWhen The Middle Identity uses an Envy Base Attack Skill, convert its Coins to [SuperCoin]s, they take -50% damage, and gain 2 [HitDamageUp] this turn and next turn",
+      "name": "Regole del Medio",
+      "desc": "Per le Abilità a Moneta Positiva: Guadagna Potere Moneta +(8 / N. di Monete) (guadagna almeno 1 Potere Moneta, incluse le Abilità E.G.O; arrotondato per difetto)\nPer le Abilità a Moneta Negativa: Guadagna Potere Finale +(8 / N. di Monete) (guadagna almeno 1 Potere Finale, incluse le Abilità E.G.O; arrotondato per difetto)\n\nPer le Abilità Attacco Contundente Base: Potere Moneta +1; Le Identità Del Medio guadagnano invece Potere Moneta +2\nQuando un alleato viene colpito, tutti gli alleati guadagnano 2 [AttackUp] nel prossimo turno (3 volte per turno)\n\nI seguenti effetti si attivano quando ci sono 3 o più Identità Del Medio nell'Incontro.\nInizio Combattimento: guadagna 1 [Enhancement] e 1 [Protection] per ogni Risonanza Invidia (max 3)\nQuando le Identità Del Medio usano un'Abilità Attacco Base Invidia, converti le sue Monete in [SuperCoin], subiscono -50% di danno, e guadagnano 2 [HitDamageUp] in questo e nel prossimo turno",
       "simpleDesc": [
         {
           "abilityID": 98270,
-          "simpleDesc": "Plus Coin Skills gain Coin Power; Minus Coin Skills gain Final Power"
+          "simpleDesc": "Abilità a Moneta Positiva guadagna Potere Moneta; Abilità a Moneta Negativa guadagnano Potere Finale"
         },
         {
           "abilityID": 9829,
-          "simpleDesc": "Gain Coin Power"
+          "simpleDesc": "Guadagna Potere Moneta"
         },
         {
           "abilityID": 98291,
-          "simpleDesc": "Gain Coin Power"
+          "simpleDesc": "Guadagna Potere Moneta"
         },
         {
           "abilityID": 98292,
-          "simpleDesc": "Gain Offense Level"
+          "simpleDesc": "Guadagna Livello Offensivo"
         },
         {
           "abilityID": 98293,
-          "simpleDesc": "Gain Attack Power Up & Protection"
+          "simpleDesc": "Guadagna Attack Power Up e [Protection]"
         },
         {
           "abilityID": 98294,
-          "simpleDesc": "Convert Coins to Unbreakable Coins, take less damage, and deal more Blunt damage"
+          "simpleDesc": "Converti le Monete in [SuperCoin], subisci meno danni, e infliggi più danni Contundenti"
         }
       ]
     },
     {
       "id": 9830,
-      "name": "Kkomi's Mini-Gift",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\nOn the first Turn Start of the Encounter, and on all allies who Substitute in, apply 3 [VerEmergencyCandy]\nIf they did not consume [VerEmergencyCandy] in the previous turn, apply 1 [VerHunger] at Turn Start",
+      "name": "Pensierino di Kkomi",
+      "desc": "Per le Abilità a Moneta Positiva: Guadagna Potere Moneta +(8 / N. di Monete) (guadagna almeno 1 Potere Moneta, incluse le Abilità E.G.O; arrotondato per difetto)\nPer le Abilità a Moneta Negativa: Guadagna Potere Finale +(8 / N. di Monete) (guadagna almeno 1 Potere Finale, incluse le Abilità E.G.O; arrotondato per difetto)\n\nNel primo Inizio Turno dell'Incontro, e a tutte le Riserve quando entrano in campo, applica 3 [VerEmergencyCandy]\nSe non hanno consumato [VerEmergencyCandy] nel turno precedente, applica 1 [VerHunger] ad Inizio Turno",
       "simpleDesc": [
         {
           "abilityID": 98270,
-          "simpleDesc": "Plus Coin Skills gain Coin Power; Minus Coin Skills gain Final Power"
+          "simpleDesc": "Abilità a Moneta Positiva guadagnano Potere Moneta; Abilità a Moneta Negativa guadagnano Potere Finale"
         },
         {
           "abilityID": 9830,
-          "simpleDesc": "Apply Backup Candy"
+          "simpleDesc": "Applica [VerEmergencyCandy]"
         },
         {
           "abilityID": 98301,
-          "simpleDesc": "Apply Hunger"
+          "simpleDesc": "Applica [VerHunger]"
         }
       ]
     }
