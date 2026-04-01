@@ -2,103 +2,103 @@
   "dataList": [
     {
       "id": 9243,
-      "name": "Trial Extraction : A.B.S",
-      "desc": "Deal +10% damage with Attack Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'\n- If the Skill applies [Combustion] Count on self, Clash Power +1\n- Deal +1% damage for every 2% missing HP on self (max 15%)",
+      "name": "Estrazione Sperimentale : S.F.A",
+      "desc": "Infliggi +10% di danno con Abilità Attacco che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatua</noparse> Speciale'\n- Se l'Abilità applica Conteggio [Combustion] su sé stessi, Potere Scontro +1\n- Infliggi +1% di danno per ogni 2% di PV mancanti su sé stessi (max 15%)",
       "simpleDesc": [
         {
           "abilityID": 9243,
-          "simpleDesc": "Attack Skills deal more damage, gain Clash Power when conditions are met"
+          "simpleDesc": "Abilità Attacco infliggono più danni, guadagna Potere Scontro a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9244,
-      "name": "Trial Extraction : Lantern",
-      "desc": "Deal +10% damage with Attack Skills that inflict [Burst] Potency or Count\n- At 20%+ missing HP on self, Clash Power +1\n- Deal +1% damage with Attack Skills for every 1 (sum of [Aggro] on all Skill Slots on self) (max 15%)",
+      "name": "Estrazione Sperimentale : Lanterna",
+      "desc": "Infliggi +10% di danno con Abilità Attacco che infliggono Potenza o Conteggio [Burst]\n- Al 20%+ di PV mancanti su sé stessi, Potere Scontro +1\n- Infliggi +1% di danno con Abilità Attacco per ogni 1 (somma di [Aggro] su tutte le proprie Abilità Slot) (max 15%)",
       "simpleDesc": [
         {
           "abilityID": 9244,
-          "simpleDesc": "Attack Skills deal more damage, gain Clash Power when conditions are met"
+          "simpleDesc": "Abilità Attacco infliggono più danni, guadagna Potere Scontro a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9245,
-      "name": "Modified Extraction : AEDD",
-      "desc": "If this unit gained [Charge] Count or 'Unique Charge' over maximum limit this turn, gain 1 [AttackUp] next turn for every 2 surplus Stack (2 per turn per Identity)\n- Identities with Base Skills that gain or consume [Charge] Count or 'Unique Charge': max 6 per turn per Identity instead\n- If this unit has [HighVoltageExoshell], also gain 1 [Charge] Potency (once per Encounter)",
+      "name": "Estrazione Modificata : AEDD",
+      "desc": "Se questa unità ha guadagnato Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' superando il limite massimo in questo turno, guadagna 1 [AttackUp] nel prossimo turno per ogni 2 Stack di eccesso (2 per turno per Identità)\n- Le Identità con Abilità Base che guadagnano o consumano Conteggio [Carica] o '<noparse>Carica</noparse> Speciale': max diventa 6 per turno per Identità\n- Se questa unità ha [HighVoltageExoshell], guadagna anche Potenza 1 [Charge] (una volta per Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9245,
-          "simpleDesc": "Gain [AttackUp] based on surplus [Charge] Count, gain [Charge] when conditions are met"
+          "simpleDesc": "Guadagna [AttackUp] in base all'eccesso di Conteggio [Carica], guadagna [Charge] a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9246,
-      "name": "Someone's Dropped Employee Card",
-      "desc": "Limbus Company Identities:\n- Turn Start: Gain (# of Limbus Company Identities participating in battle / 3) [ParryingResultUp] (max 2; rounded down)\n\nLCE Identities:\n- Deal +(# of Identities in battle wearing E.G.O Gears x 10)% damage (max 30%)\n- On same-faction Ally Death: Gain 1 E.G.O resource each for all Affinities; gain 1 [PlusCoinValueUp] and 1 [MinusCoinValueUp] at Turn Start for the rest of this Encounter (2 times per Encounter per Identity)",
+      "name": "Tessera da Impiegato Caduta da Qualcuno",
+      "desc": "Per le Identità della Limbus Company:\n- Inizio Turno: Guadagna (N. delle Identità della Limbus Company che partecipano in battaglia / 3) [ParryingResultUp] (max 2; arrotondato per difetto)\n\nIdentità della LCE:\n- Infliggi +(N. delle Identità che indossano un Equipaggiamento E.G.O x 10)% di danno (max 30%)\n- Per Morte Alleata della stessa fazione: Guadagna 1 risorsa E.G.O per tutte le Affinità; guadagna 1 [PlusCoinValueUp] e 1 [MinusCoinValueUp] ad Inizio Turno per il resto di questo Incontro (2 volte per Incontro per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9246,
-          "simpleDesc": "Gain [ParryingResultUp] based on the number of Limbus Company Identities participating in battle"
+          "simpleDesc": "Guadagna [ParryingResultUp] in base al numero delle Identità della Limbus Company partecipanti in battaglia"
         },
         {
           "abilityID": 92461,
-          "simpleDesc": "Deal more damage based on the number of Identities wearing E.G.O Gears participating in battle"
+          "simpleDesc": "Infliggi più danni in base al numero delle Identità con addosso Equipaggiamento E.G.O partecipanti in battaglia"
         },
         {
           "abilityID": 92462,
-          "simpleDesc": "On same-faction Ally Death: Gain E.G.O resources; gain [PlusCoinValueUp] and [MinusCoinValueUp] at Turn Start for this Encounter, starting from the next turn"
+          "simpleDesc": "Per Morte Alleata della stessa fazione: Guadagna risorse E.G.O; guadagna [PlusCoinValueUp] e [MinusCoinValueUp] ad Inizio Turno per l'Incontro, dal turno dopo"
         }
       ]
     },
     {
       "id": 9248,
-      "name": "Spicebush, Glasses, and Mailed Letter",
-      "desc": "[Effects apply only to #1, #2, #3 Deployed Identities]\n\nWhen winning a Clash with an Attack Skill that inflicts [Burst] Potency or Count, inflict 5 [Burst] Potency and +3 [Burst] Count against the target (once per turn per Identity)\n\nWhen Clashing against an enemy with a slower Speed, gain Final Power +1 and deal +25% damage\n\nWhen winning a Clash against an enemy with [AttackUp] buff, gain 3 [AttackUp] for the next turn, and inflict 3 [AttackDown] on the enemy that lost the Clash (3 times per turn per Identity)\n\nEvery time Skill 1, Skill 2, or Skill 3 is used, activate the following effect (once per Skill rank):\n- The unit that used said Skill gains 1 [Agility] and 1 [SkillPowerUp] at Turn Start for this Encounter (can stack up to 3 times)",
+      "name": "Lindera, Occhiali, e Lettera Spedita",
+      "desc": "[Gli effetti si applicano solo per la 1°, 2°, 3° Identità Schierate]\n\nQuando vinci uno Scontro con un'Abilità Attacco che infligge Potenza o Conteggio [Burst], infliggi 5 Potenza [Burst] e +3 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nQuando ti Scontri con un nemico meno Veloce, guadagna Potere Finale +1 e infliggi +25% di danno\n\nQuando vinci uno Scontro contro un nemico con [AttackUp], guadagna 3 [AttackUp] per il prossimo turno, e infliggi 3 [AttackDown] al nemico che ha perso lo Scontro (3 volte per turno per Identità)\n\nOgni volta che l'Abilità 1, Abilità 2, o Abilità 3 viene usata, attiva il seguente effetto (una volta per grado dell'Abilità):\n- L'unità che ha usato questa Abilità guadagna 1 [Agility] e 1 [SkillPowerUp] ad Inizio Turno per questo Incontro (può accumularsi fino a 3 volte)",
       "simpleDesc": [
         {
           "abilityID": 9248,
-          "simpleDesc": "On Clash Win: Inflict [Burst] on target"
+          "simpleDesc": "Per Scontro Vinto: Infliggi [Burst] sul bersaglio"
         },
         {
           "abilityID": 92481,
-          "simpleDesc": "When Clashing against an enemy with a slower Speed, gain Final Power and deal more damage"
+          "simpleDesc": "Quando Scontri contro un nemico più lento, guadagna Potere Finale e infliggi più danni"
         },
         {
           "abilityID": 92482,
-          "simpleDesc": "Gain [AttackUp] on self and inflict [AttackDown] on the enemy when conditions are met"
+          "simpleDesc": "Guadagna [AttackUp] su sé stessi e infliggi [AttackDown] al nemico a condizioni soddisfatte"
         },
         {
           "abilityID": 92483,
-          "simpleDesc": "Gain [Agility] and [SkillPowerUp] at Turn Start when conditions are met"
+          "simpleDesc": "Guadagna [Agility] e [SkillPowerUp] ad Inizio Turno a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9249,
-      "name": "A Small, Lovely Violin",
-      "desc": "[Effects apply only to #5, #6 Deployed Identities]\n\nHeal 10% of the HP damage dealt with a Skill (max 20 per Skill)\n\nOn Clash Win: Gain 1 [AttackUp] and 1 [TakeHpHealIncrease] (2 times per turn per Identity)\n\nOn Skill Use: Gain 1 [AttackUp] and 1 [TakeHpHealIncrease] (2 times per turn per Identity)\n\nDeal +10% damage with Blunt Skills\n\nDeal +(# of Clashes x 6)% damage with the Skill that won the Clash (max 30%)",
+      "name": "Un Piccolo, Adorabile Violino",
+      "desc": "[Gli effetti si applicano solo per la 5°, 6° Identità Schierate]\n\nCura del 10% dei danni ai PV inflitti con un'Abilità (max 20 per Abilità)\n\nPer Scontro Vinto: Guadagna 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nPer Uso di Abilità: Guadagna 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nInfliggi +10% di danno con Abilità Contundenti\n\nInfliggi +(N. di Scontri x 6)% di danno con l'Abilità che ha vinto lo Scontro (max 30%)",
       "simpleDesc": [
         {
           "abilityID": 9249,
-          "simpleDesc": "Heal HP on self based on damage dealt with a Skill"
+          "simpleDesc": "ura PV su sé stessi in base al danno inflitto con Abilità"
         },
         {
           "abilityID": 92491,
-          "simpleDesc": "Gain [AttackUp] and [TakeHpHealIncrease] on Clash Win"
+          "simpleDesc": "Guadagna [AttackUp] e [TakeHpHealIncrease] per Scontro Vinto"
         },
         {
           "abilityID": 92492,
-          "simpleDesc": "Gain [AttackUp] and [TakeHpHealIncrease] on Skill Use"
+          "simpleDesc": "Guadagna [AttackUp] e [TakeHpHealIncrease] per Uso di Abilità"
         },
         {
           "abilityID": 92493,
-          "simpleDesc": "Deal more damage with Blunt Skills"
+          "simpleDesc": "Infliggi più danni con Abilità Contundenti"
         },
         {
           "abilityID": 92494,
-          "simpleDesc": "Deal more damage with Skills that won the Clash"
+          "simpleDesc": "Infliggi più danni con Abilità che vincono gli Scontri"
         }
       ]
     }
