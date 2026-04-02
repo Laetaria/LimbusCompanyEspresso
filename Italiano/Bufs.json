@@ -3491,65 +3491,65 @@
     },
     {
       "id": "ChargeBodyArt",
-      "name": "Corpus Ingredient",
-      "desc": "- Max Count: 20\n- Unique Charge\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count\n\n<color=#1aece7>Cumulative Count consumed: {2}</color>",
-      "summary": "Consumed or gained when using certain Skills",
+      "name": "Materiali del Corpus",
+      "desc": "- Max Conteggio: 20\n- Carica Speciale\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde Conteggio 1\n\n<color=#1aece7>Conteggio Cumulativo consumato: {2}</color>",
+      "summary": "Consumato o ottenuto quando si usano determinate Abilità",
       "undefined": "-"
     },
     {
       "id": "TibiaPersonality",
-      "name": "Artwork: Tibia",
-      "desc": "Apply the following effects to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n- 1+ : Base Power +1\n- 2+ : If the enemy has Bleed or 'Unique Bleed', deal +10% damage\n- 3+ : Inflict +1 more Bleed Potency and Count\n- 4+ : Base Power +1\n- 5+ : Base Power +1",
-      "summary": "Gain various effects based on Corpus Ingredient Potency",
+      "name": "Opera: Tibia",
+      "desc": "Applica i seguenti effetti alla Abilità Attacco Base e Contrattacco Scontrabile di questa unità in base alla Potenza di Materiali del Corpus:\n- 1+ : Potere Base +1\n- 2+ : Se il nemico ha Sanguinamento o 'Sanguinamento Speciale', infligge +10% danni\n- 3+ : Infligge +1 Potenza e Conteggio Sanguinamento in più\n- 4+ : Potere Base +1\n- 5+ : Potere Base +1",
+      "summary": "Ottiene vari effetti in base alla Potenza di Materiali del Corpus",
       "undefined": "-"
     },
     {
       "id": "MelodyBodyArt",
-      "name": "Somatic Frisson-inspiring Melody",
-      "desc": "- Min & Max Speed +1\n- Base Attack Skills gain Clash Power +1 and deal +10% damage",
-      "summary": "- Gain Min & Max Speed\n- Base Attack Skills gain Clash Power and deal more damage",
+      "name": "Melodia Somatica Scatena Brividi",
+      "desc": "- Velocità Min & Max +1\n- Le Abilità Attacco ottengono Potere Scontro +1 e infliggono +10% danni",
+      "summary": "- Ottiene Velocità Min & Max\n- Le Abilità Attacco ottengono Potere Scontro e infliggono più danni",
       "undefined": "-"
     },
     {
       "id": "MelodyBodyArtChebello",
-      "name": "Somatic Frisson-inspiring Melody [Empowered]",
-      "desc": "- Min & Max Speed +2\n- Base Attack Skills gain Clash Power +2 and deal +20% damage",
-      "summary": "- Gain Min & Max Speed\n- Base Attack Skills gain Clash Power and deal more damage",
+      "name": "Melodia Somatica Scatena Brividi [Potenziata]",
+      "desc": "- Velocità Min & Max +2\n- Le Abilità Attacco ottengono Potere Scontro +2 e infliggono +20% danni",
+      "summary": "-Ottiene Velocità Min & Max\n- Le Abilità Attacco ottengono Potere Scontro e infliggono più danni",
       "undefined": "-"
     },
     {
       "id": "LivingSpecimenPersonality",
-      "name": "Corpus Theater",
-      "desc": "- Base Stack: 3\n- When this unit gains Bleed from enemy Attack Skills, randomly gain 1 of the following effects next turn and lose 1 Stack of this effect (once per Skill)\n  · 3 Bleed Potency\n  · 1 Bind\n  · 1 Defense Power Down",
-      "summary": "Randomly gain 1 of the following: Bleed Potency, Bind, or Defense Power Down",
+      "name": "Teatro del Corpus",
+      "desc": "- Stack Base: 3\n- Quando questa unità ottiene Sanguinamento dalle Abilità nemiche, ottiene casualmente 1 dei seguenti effetti nel turno successivo e perde 1 Stack di questo effetto (una volta per Abilità)\n  · 3 Potenza Sanguinamento\n  · 1 Lentezza\n  · 1 Potere Difesa Diminuito",
+      "summary": "Ottiene casualmente 1 dei seguenti effetti: Potenza Sanguinamento, Lentezza, o Potere Difesa Diminuito",
       "undefined": "-"
     },
     {
       "id": "GoldenOpportunity",
-      "name": "Viewing the Tableau",
-      "desc": "- If The House of Spiders: The Ring Apprentice Faust is on the field, gain 2 Protection at Turn Start\n- Turn End: Lose 2 Stack",
-      "summary": "Gain Protection when conditions are met",
+      "name": "Osservando il Tableau",
+      "desc": "- Se Il Nido dei Ragni: Apprendista dell'Anulare Faust è in campo, ottiene 2 Protezione a Inizio Turno\n- Fine Turno: Perde 2 Stack",
+      "summary": "Ottiene Protezione quando le condizioni sono soddisfatte",
       "undefined": "-"
     },
     {
       "id": "IronMaidenPersonality",
-      "name": "Iron Maiden",
-      "desc": "- Gain +4 Aggro to the leftmost Slot\n- Turn Start: Gain 1 Protection, 5 Defense Level Up, and Shield HP equal to 5% of this unit's current HP\n- When hit by the last Coin of an attacker, deal Pierce damage equal to 20% of the said Coin's damage and inflict +2 Bleed Count (max once per Skill, 3 times per turn. Max damage per turn: 60)",
-      "summary": "- Gain Aggro to the leftmost Slot\n- Gain Protection, Defense Level Up, and Shield\n- When conditions are met, deal Pierce damage and inflict Bleed count on the attacker",
+      "name": "Vergine di Ferro",
+      "desc": "- Ottiene +4 Provocazione sullo Slot più a sinistra\n- Inizio Turno: Ottiene 1 Protezione, 5 Livello Difensivo Aumentato, e Scudo pari al 5% dei PV correnti di questa unità\n- Quando viene colpita dall'ultima Moneta dell'attaccante, infligge danno Perforante pari al 20% del danno di quella Moneta e infligge +2 Conteggio Sanguinamento (max una volta per Abilità, 3 volte per turno. Danno max per turno: 60)",
+      "summary": "- Ottiene Provocazione sullo Slot più a sinistra\n- Ottiene Protezione, Livello Difensivo Aumentato e Scudo\n- Quando le condizioni sono soddisfatte, infligge danno Perforante e Conteggio Sanguinamento all'attaccante",
       "undefined": "-"
     },
     {
       "id": "SilverOpportunity",
-      "name": "The Self Unbound - Flow State",
-      "desc": "- Min & Max Speed +2\n- Gain a new set of Base Skills\n- Deal +20% damage with Base Attack Skills to enemies whose Speed is slower than this unit",
-      "summary": "Gain Min & Max Speed\nGain a new set of Base Skills\nWhen conditions are met, deal more damage",
+      "name": "Io Liberato - Immergiti nella Creazione",
+      "desc": "- Velocità Min & Max +2\n- Ottiene nuove Abilità Base\n- Infligge +20% danni con le Abilità Attacco Base ai nemici che hanno Velocità minore di questa unità",
+      "summary": "Ottiene Velocità Min & Max\nOttiene nuove Abilità Base\nQuando le condizioni sono soddisfatte, infligge più danno",
       "undefined": "-"
     },
     {
       "id": "FasciaPersonality",
-      "name": "Artwork: Fascia",
-      "desc": "Apply the following effects to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n- 1+ : Base Power +1\n- 2+ : If the enemy has Bleed or 'Unique Bleed', deal +10% damage\n- 3+ : Inflict +1 more Bleed Potency and Count\n- 4+ : Base Power +1",
-      "summary": "Gain various effects based on Corpus Ingredient Potency",
+      "name": "Opera: Fascia",
+      "desc": "Applica i seguenti effetti alla Abilità Attacco Base e Contrattacco Scontrabile di questa unità in base alla Potenza di Materiali del Corpus:\n- 1+ : Potere Base +1\n- 2+ : Se il nemico ha Sanguinamento o 'Sanguinamento Speciale', infligge +10% danni\n- 3+ : Infligge +1 Potenza e Conteggio Sanguinamento in più\n- 4+ : Potere Base +1",
+      "summary": "Ottiene vari effetti in base alla Potenza di Materiali del Corpus",
       "undefined": "-"
     }
   ]
