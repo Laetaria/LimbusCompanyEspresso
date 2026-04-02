@@ -2539,7 +2539,7 @@
     {
       "id": "CentipedePoison",
       "name": "Veleno Del Centopiedi",
-      "desc": "- Stack Max: 20\n- A Fine Turno: ottiene (Stack / 4) Livello Difensivo Diminuito il turno successivo (Arrotondato per difetto)\n- A Fine Turno: subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata(per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
+      "desc": "- Stack Max: 20\n- A Fine Turno: Ottiene (Stack / 4) Livello Difensivo Diminuito il turno successivo (Arrotondato per difetto)\n- A Fine Turno: Subisce danni da Gola pari alle Stack, e dimezza le Stack (arrotondato per difetto)\nAlla Morte, si trasferisce su un unità alleata (per gli Incontri Mirati su una diversa parte) che non possiede o che possiede il minor numero di Stack di Veleno Del Centopiedi.",
       "summary": "",
       "undefined": "-"
     },
@@ -2560,7 +2560,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Spillo Tumula-Fiori [埋花針]",
-      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità con questo effetto muore, infligge danni Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
+      "desc": "Stack Max: 20\n- Ottiene 1 Stack a Fine Turno o quando subisce un attacco\n- Ottiene 1 Livello Offensivo ogni 5 Stack\n- Se l'unità che ha questo effetto muore, infligge danni Gola pari alle Stack e infligge 5 Lacerazione\n- Esaurito alla Morte o Ritirata",
       "summary": "",
       "undefined": "-"
     },
@@ -3487,6 +3487,69 @@
       "name": "Tizzoni",
       "desc": "- Max Potenza: 3\n- Max Conteggio: 6\n- Se questa unità ha Bruciatura, perde 1 Conteggio Tizzoni quando viene colpita da un'Abilità che infligge Potenza, Conteggio o 'Bruciatura Speciale' (Abilità E.G.O incluse)\n\n- Se questa unità non ha Bruciatura, porta il Conteggio Tizzoni a 6 quando viene colpita (independentemente dall'Abilità che infligge Bruciatura)\n\n- A 0 Conteggio Tizzoni, attiva i seguenti effetti:\n· Attiva Bruciatura su di sé una volta e perde 1 Conteggio Bruciatura\n· Perde 1 Potenza Tizzoni\n· Se questa unità ha 1+ Potenza Tizzoni rimanente, porta il Conteggio Tizzoni a 6",
       "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChargeBodyArt",
+      "name": "Materiali del Corpus",
+      "desc": "- Max Conteggio: 20\n- Carica Speciale\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde Conteggio 1\n\n<color=#1aece7>Conteggio Cumulativo consumato: {2}</color>",
+      "summary": "Consumato o ottenuto quando si usano determinate Abilità",
+      "undefined": "-"
+    },
+    {
+      "id": "TibiaPersonality",
+      "name": "Opera: Tibia",
+      "desc": "Applica i seguenti effetti alla Abilità Attacco Base e Contrattacco Scontrabile di questa unità in base alla Potenza di Materiali del Corpus:\n- 1+ : Potere Base +1\n- 2+ : Se il nemico ha Sanguinamento o 'Sanguinamento Speciale', infligge +10% danni\n- 3+ : Infligge +1 Potenza e Conteggio Sanguinamento in più\n- 4+ : Potere Base +1\n- 5+ : Potere Base +1",
+      "summary": "Ottiene vari effetti in base alla Potenza di Materiali del Corpus",
+      "undefined": "-"
+    },
+    {
+      "id": "MelodyBodyArt",
+      "name": "Melodia Somatica Scatena Brividi",
+      "desc": "- Velocità Min & Max +1\n- Le Abilità Attacco ottengono Potere Scontro +1 e infliggono +10% danni",
+      "summary": "- Ottiene Velocità Min & Max\n- Le Abilità Attacco ottengono Potere Scontro e infliggono più danni",
+      "undefined": "-"
+    },
+    {
+      "id": "MelodyBodyArtChebello",
+      "name": "Melodia Somatica Scatena Brividi [Potenziata]",
+      "desc": "- Velocità Min & Max +2\n- Le Abilità Attacco ottengono Potere Scontro +2 e infliggono +20% danni",
+      "summary": "-Ottiene Velocità Min & Max\n- Le Abilità Attacco ottengono Potere Scontro e infliggono più danni",
+      "undefined": "-"
+    },
+    {
+      "id": "LivingSpecimenPersonality",
+      "name": "Teatro del Corpus",
+      "desc": "- Stack Base: 3\n- Quando questa unità ottiene Sanguinamento dalle Abilità nemiche, ottiene casualmente 1 dei seguenti effetti nel turno successivo e perde 1 Stack di questo effetto (una volta per Abilità)\n  · 3 Potenza Sanguinamento\n  · 1 Lentezza\n  · 1 Potere Difesa Diminuito",
+      "summary": "Ottiene casualmente 1 dei seguenti effetti: Potenza Sanguinamento, Lentezza, o Potere Difesa Diminuito",
+      "undefined": "-"
+    },
+    {
+      "id": "GoldenOpportunity",
+      "name": "Osservando il Tableau",
+      "desc": "- Se Il Nido dei Ragni: Apprendista dell'Anulare Faust è in campo, ottiene 2 Protezione a Inizio Turno\n- Fine Turno: Perde 2 Stack",
+      "summary": "Ottiene Protezione quando le condizioni sono soddisfatte",
+      "undefined": "-"
+    },
+    {
+      "id": "IronMaidenPersonality",
+      "name": "Vergine di Ferro",
+      "desc": "- Ottiene +4 Provocazione sullo Slot più a sinistra\n- Inizio Turno: Ottiene 1 Protezione, 5 Livello Difensivo Aumentato, e Scudo pari al 5% dei PV correnti di questa unità\n- Quando viene colpita dall'ultima Moneta dell'attaccante, infligge danno Perforante pari al 20% del danno di quella Moneta e infligge +2 Conteggio Sanguinamento (max una volta per Abilità, 3 volte per turno. Danno max per turno: 60)",
+      "summary": "- Ottiene Provocazione sullo Slot più a sinistra\n- Ottiene Protezione, Livello Difensivo Aumentato e Scudo\n- Quando le condizioni sono soddisfatte, infligge danno Perforante e Conteggio Sanguinamento all'attaccante",
+      "undefined": "-"
+    },
+    {
+      "id": "SilverOpportunity",
+      "name": "Io Liberato - Immergiti nella Creazione",
+      "desc": "- Velocità Min & Max +2\n- Ottiene nuove Abilità Base\n- Infligge +20% danni con le Abilità Attacco Base ai nemici che hanno Velocità minore di questa unità",
+      "summary": "Ottiene Velocità Min & Max\nOttiene nuove Abilità Base\nQuando le condizioni sono soddisfatte, infligge più danno",
+      "undefined": "-"
+    },
+    {
+      "id": "FasciaPersonality",
+      "name": "Opera: Fascia",
+      "desc": "Applica i seguenti effetti alla Abilità Attacco Base e Contrattacco Scontrabile di questa unità in base alla Potenza di Materiali del Corpus:\n- 1+ : Potere Base +1\n- 2+ : Se il nemico ha Sanguinamento o 'Sanguinamento Speciale', infligge +10% danni\n- 3+ : Infligge +1 Potenza e Conteggio Sanguinamento in più\n- 4+ : Potere Base +1",
+      "summary": "Ottiene vari effetti in base alla Potenza di Materiali del Corpus",
       "undefined": "-"
     }
   ]

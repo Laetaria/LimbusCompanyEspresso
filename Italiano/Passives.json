@@ -2433,7 +2433,7 @@
     {
       "id": 1051311,
       "name": "'Indossa il Sangue, Mascherati, Fa' Come Ordina il Sangue'",
-      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\"Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Sul Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
+      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\">Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Sul Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
       "summary": "If conditions are met: inflict 1 [ParadeConcentration]\nIf conditions are met: heal 30% HP"
     },
     {
@@ -2839,6 +2839,65 @@
       "id": 1121531,
       "name": "Defibrilazzione",
       "desc": "Fine Turno: <style=\"highlight\">3</style> alleati con l'Ordine di Schieramento più alto recuperano PV pari a (somma di Conteggio [Charge] e 'Carica Speciale' usate rispettivamente dalle loro Abilità Attacco in questo turno) (max 10)"
+    },
+    {
+      "id": 1061404,
+      "name": "Opera Magna: Tibia",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene +(n° degli alleati dell'Anulare sul campo x 2) Conteggio [ChargeBodyArt] (max 10)\n\nFine Attacco: Se l'Abilità ha inflitto danni ai PV o agli Scudi, ottiene +5 Conteggio [ChargeBodyArt]\n- Se il bersaglio viene ucciso, ottiene +3 Conteggio [ChargeBodyArt] extra\n\nOttiene 1 [ChargeBodyArt] ogni volta che questa unità consuma 10 Conteggio [ChargeBodyArt] cumulativo in questo Incontro\n- Se l'effetto sopracitato porta la Potenza [ChargeBodyArt] a 2 o più, ottiene [TibiaPersonality]\n\nLe Abilità Attacco Base e il Contrattacco Scontrabile contano come Abilità che ottengono Conteggio [Charge]",
+      "summary": "Ottiene [ChargeBodyArt]"
+    },
+    {
+      "id": 1061405,
+      "name": "Transcendi il Corpus",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene 21 [GoldenOpportunity]\n\nQuando un alleato con una ID della fazione dell'Anulare usa un'Abilità, perde 1 [GoldenOpportunity] (una volta per turno, per Identità)\n\nFine Turno: Se questa unità non ha [GoldenOpportunity], sostituisce una delle sue Abilità Base \"Chiusura - Installazione D'Arte n.1: La tua Carne e Le Tue Ossa come Sedie Per La Mia Mostra\" al prossimo Inizio Turno (una volta per Incontro; dà priorità all'Abilità nello Slot più in basso a sinistra sul Pannello di Controllo)\n- Se l'Abilità che è stata sostituita non può essere usata perché è stata sostituita da un'altra Abilità, attiva nuovamente l'effetto sovracitato\n\nFine Turno: Se questa unità Vacilla per la prima volta in questo Incontro, si riprende dal Vacillamento (escluso il Vacillamento forzato)",
+      "summary": "Si riprende dal Vacillamento"
+    },
+    {
+      "id": 1061401,
+      "name": "La Critica di un Maestro",
+      "desc": "Prima che Il Nido dei Ragni: Apprendista dell'Anulare Faust usi la sua Abilità 3 (Abilità E.G.O escluse), Il Nido dei Ragni: Il Precettore dell'Anulare Hong Lu usa \"Cielo, Quanto Amiamo la Carne e il Sangue\" su Faust (una volta per turno)\n\nSul Colpo, se l'Abilità Attacco ha inflitto un effetto negativo, recupera 4 PS a Fine Attacco (3 volte per turno)",
+      "summary": "Recupera PS"
+    },
+    {
+      "id": 1061411,
+      "name": "La Critica di un Maestro",
+      "desc": "Prima che Il Nido dei Ragni: Apprendista dell'Anulare Faust usi la sua Abilità 3 (Abilità E.G.O escluse), Il Nido dei Ragni: Il Precettore dell'Anulare Hong Lu usa \"Cielo, Quanto Amiamo la Carne e il Sangue\" su Faust (una volta per turno)\n\nSul Colpo, se l'Abilità Attacco ha inflitto un effetto negativo, recupera 4 PS a Fine Attacco (3 volte per turno)\n- Se i PS di questa unità sono al massimo, ottiene 1 [SlashDamageUp] il turno successivo quando questa unità recupera PS con questo effetto (una volta per turno)",
+      "summary": "Recupera PS\nOttiene [SlashDamageUp] il turno successivo se le condizioni vengono soddisfatte"
+    },
+    {
+      "id": 1061421,
+      "name": "Prego, Smetti di Correre e Prendi Posto",
+      "desc": "Fine Turno: Infligge 2 [AttackDown] e +1 Conteggio [Laceration] su 1 nemico con la Velocità più alta il turno successivo (negli Incontri Mirati, la Parte)"
+    },
+    {
+      "id": 1021504,
+      "name": "Fascia, Mia Opera Adorata",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene +(n° degli alleati dell'Anulare sul campo x 2) Conteggio [ChargeBodyArt] (max 10)\n\nFine Attacco: Se l'Abilità ha inflitto danni ai PV o agli Scudi, ottiene +5 Conteggio [ChargeBodyArt]\n- Se il bersaglio viene ucciso, ottiene +3 Conteggio [ChargeBodyArt] extra\n\nOttiene 1 [ChargeBodyArt] ogni volta che questa unità consuma 10 Conteggio [ChargeBodyArt] cumulativo in questo Incontro\n- Se l'effetto sopracitato porta la Potenza [ChargeBodyArt] a 2 o più, ottiene [TibiaPersonality]\n\nLe Abilità Attacco Base e il Contrattacco Scontrabile contano come Abilità che ottengono Conteggio [Charge]",
+      "summary": "Ottiene [ChargeBodyArt]"
+    },
+    {
+      "id": 1021503,
+      "name": "Armatura di Protezione e Repressione",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene [IronMaidenPersonality]\n\nFine Attacco: Se questa unità ha [FasciaPersonality], questa unità perde [IronMaidenPersonality] ed ottiene [SilverOpportunity] (una volta per Incontro)\n- Quando Vacilla, si riprende dal Vacillamento (escluso il Vacillamento forzato)",
+      "summary": "Rimuove [IronMaidenPersonality]"
+    },
+    {
+      "id": 1021501,
+      "name": "Ispirata dalla Critica",
+      "desc": "Raddoppia la quantità di Velocità, Potere Scontro e buff ai danni ottenuti da [MelodyBodyArt]\n\nSul Colpo, se l'Abilità Attacco ha inflitto un effetto negativo, recupera 4 PS a Fine Attacco (2 volte per turno)",
+      "summary": "Recupera PS"
+    },
+    {
+      "id": 1021511,
+      "name": "Ispirata dalla Critica",
+      "desc": "Raddoppia la quantità di Velocità, Potere Scontro e buff ai danni ottenuti da [MelodyBodyArt]\n\nSul Colpo, se l'Abilità Attacco ha inflitto un effetto negativo, recupera 4 PS a Fine Attacco (2 volte per turno)\n- Se i PS di questa unità sono al massimo, ottiene 1 [SlashDamageUp] il turno successivo quando questa unità recupera PS con questo effetto (una volta per turno)",
+      "summary": "Recupera PS\nOttiene [SlashDamageUp] il turno successivo se le condizioni vengono soddisfatte"
+    },
+    {
+      "id": 1021521,
+      "name": "Vergine Di Ferro - Spine",
+      "desc": "Quando colpita, gli alleati che hanno equipaggiato l'Abilità Difensiva nel loro Slot in questo turno infliggono 4 [Laceration] all'attaccante (2 volte per turno)\n- Se l'attaccante ha già [Laceration], infligge invece +2 Conteggio [Laceration]",
+      "summary": "Quando colpita, infligge [Laceration] all'attaccante"
     }
   ]
 }

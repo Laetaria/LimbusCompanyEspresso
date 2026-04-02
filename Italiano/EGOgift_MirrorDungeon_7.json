@@ -285,7 +285,7 @@
     },
     {
       "id": 9224,
-      "name": "Opera Squisita",
+      "name": "Opera Raffinata",
       "desc": "Le Identità della fazione Anulare guadagnano [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico, infliggi [ObjectOfExploration] al nemico\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità perde [Inspire] e guadagna [GreatAesthetics]",
       "simpleDesc": [
         {
@@ -413,6 +413,21 @@
         {
           "abilityID": 9232,
           "simpleDesc": "Recupera dal Vacillamento; rimuovi effetti negativi"
+        }
+      ]
+    },
+    {
+      "id": 9242,
+      "name": "Peluche di Bongy",
+      "desc": "Moltiplica il Costo in possesso di 1.5 dopo aver completato un Piano\n\nInfliggi +0.5% danni per ogni Dono E.G.O in possesso (max 100%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9242,
+          "simpleDesc": "Infligge più danno"
+        },
+        {
+          "abilityID": 92421,
+          "simpleDesc": "Ottiene [Enhancement]"
         }
       ]
     }
