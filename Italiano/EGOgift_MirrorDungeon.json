@@ -2809,7 +2809,7 @@
     {
       "id": 29103,
       "name": "Dolore della Rabbia Repressa++",
-      "desc": "Quando un alleato infligge Potenza o Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con l'effetto di un'Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', guadagnano 1 [Agility] nel turno successivo. (una volta per Abilità, 3 volte per turno)\n\nSe le unità affette hanno [Agility], guadagnano invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>.",
+      "desc": "Quando un alleato infligge Potenza o Conteggio [Combustion] o '<noparse>Bruciatura</noparse> Speciale' con l'effetto di un'Abilità ad un nemico che ha [Combustion] o '<noparse>Bruciatura</noparse> Speciale', guadagna 1 [Agility] nel turno successivo. (una volta per Abilità, 3 volte per turno)\n\nSe le unità affette hanno [Agility], guadagnano invece 2 [Agility], 2 [AttackUp], e <style=\"upgradeHighlight\">2 [AttackDmgUp]</style>.",
       "simpleDesc": [
         {
           "abilityID": 29103,
@@ -3653,7 +3653,7 @@
     {
       "id": 9135,
       "name": "Generatore Imitativo",
-      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierata]\n\nSi attiva quando l'unità ha 10+ (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') ad Inizio Turno.\n\n- Abilità a Moneta Positiva: Potere <noparse>Moneta Positiva +</noparse>1 per l'Abilità 3 che guadagna o consuma Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'.\n- Abilità a Moneta Negativa: Invece di guadagnare Potere Moneta Positiva, guadagna Potere Base +(4 / N. di Monete) (min 1; arrotondato per difetto)\n\n- Abilità a Moneta Positiva: Se questa Abilità ha meno di 5 Potere Base, infligge +25% di danno; se ha 5+ Potere Base, guadagna un ulteriore Potere <noparse>Moneta Positiva +</noparse>1.\n- Abilità a Moneta Negativa: Invece di guadagnare Potere Moneta Positiva, guadagna Potere Base +(4 / N. di Monete) (min 1; arrotondato per difetto)",
+      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierata]\n\nSi attiva quando l'unità ha 10+ (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'(Potenza Fissa)) ad Inizio Turno.\n\n- Abilità a Moneta Positiva: Potere <noparse>Moneta Positiva +</noparse>1 per l'Abilità 3 che guadagna o consuma Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'(Potenza Fissa).\n- Abilità a Moneta Negativa: Invece di guadagnare Potere Moneta Positiva, guadagna Potere Base +(4 / N. di Monete) (min 1; arrotondato per difetto)\n\n- Abilità a Moneta Positiva: Se questa Abilità ha meno di 5 Potere Base, infligge +25% di danno; se ha 5+ Potere Base, guadagna un ulteriore Potere <noparse>Moneta Positiva +</noparse>1.\n- Abilità a Moneta Negativa: Invece di guadagnare Potere Moneta Positiva, guadagna Potere Base +(4 / N. di Monete) (min 1; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9135,
@@ -3668,7 +3668,7 @@
     {
       "id": 9136,
       "name": "Frammento dell'Attrito",
-      "desc": "Si attiva quando vengono usate le Abilità E.G.O che guadagnano o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'.\n\nGuadagna Potere Finale uguale a (risorse E.G.O Invidia + somma delle altre risorse E.G.O/3 consumate) e infliggi +50% di danno\n\nPer le Abilità E.G.O Invidia: Prima di Attaccare, guadagna Conteggio [Charge] addizionale in base al grado dell'E.G.O (ZAYIN guadagna +2 Conteggio, TETH guadagna +3 Conteggio, HE guadagna +4 Conteggio, e così via), e infliggi +((Conteggio [Charge] su sé stessi + '<noparse>Carica</noparse> Speciale') x 5)% di danno. (200% max)",
+      "desc": "Si attiva quando vengono usate le Abilità E.G.O che guadagnano o consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'(Potenza Fissa).\n\nGuadagna Potere Finale uguale a (risorse E.G.O Invidia + somma delle altre risorse E.G.O/3 consumate) e infliggi +50% di danno\n\nPer le Abilità E.G.O Invidia: Prima di Attaccare, guadagna Conteggio [Charge] addizionale in base al grado dell'E.G.O (ZAYIN guadagna +2 Conteggio, TETH guadagna +3 Conteggio, HE guadagna +4 Conteggio, e così via), e infliggi +((Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'(Potenza Fissa) su sé stessi) x 5)% di danno. (200% max)",
       "simpleDesc": [
         {
           "abilityID": 9136,
