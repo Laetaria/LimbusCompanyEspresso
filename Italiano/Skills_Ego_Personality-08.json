@@ -386,7 +386,7 @@
           "level": 1,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 10%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non Stordisce l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 10%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
           "coinlist": [
             {
               "coindescs": [
@@ -410,7 +410,7 @@
           "level": 3,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">15</style>%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non Stordisce l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">15</style>%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
           "level": 4,
           "name": "Giorni Andati",
           "abName": "Ritratto di un Certo Giorno",
-          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non fa Vacillare l'unità)\n[EndSkill] HCura altri 3 alleati con la percentuali di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)\n- A 4+ Rison. più alta, cura 1 alleato in più\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 5% PV</style>",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non Stordisce l'unità)\n[EndSkill] HCura altri 3 alleati con la percentuali di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)\n- A 4+ Rison. più alta, cura 1 alleato in più\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 5% PV</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -469,7 +469,7 @@
           "level": 1,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, in Morale Basso o Panico, recupera 10 PS",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli Storditi, in Morale Basso o Panico, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -491,7 +491,7 @@
           "level": 3,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "<style=\"highlight\">Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, in Morale Basso o Panico, recupera 10 PS",
+          "desc": "<style=\"highlight\">Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli Storditi, in Morale Basso o Panico, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -499,10 +499,10 @@
                   "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, infligge 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 2"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 2"
                 }
               ]
             },
@@ -519,7 +519,7 @@
           "level": 4,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli che Vacillano, sono in Morale Basso o Panico, recupera 10 PS<style=\"highlight\"></style>",
+          "desc": "Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli Storditi, sono in Morale Basso o Panico, recupera 10 PS<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -527,10 +527,10 @@
                   "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, infligge 5 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non ha Morale Basso o Panico, innesca [VibrationExplosion] <style=\"highlight\">due volte</style>; riduce poi il Conteggio [Vibration] del bersaglio di 2"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non ha Morale Basso o Panico, innesca [VibrationExplosion] <style=\"highlight\">due volte</style>; riduce poi il Conteggio [Vibration] del bersaglio di 2"
                 }
               ]
             },
@@ -581,7 +581,7 @@
           "level": 3,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio principale Vacilla, è in Morale Basso o in Panico, Potere Base +1</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n<style=\"highlight\">[EndSkill] Recupera 5 PS per ogni nemico che Vacilla, ha Morale Basso o Panico</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio principale è Stordito, è in Morale Basso o in Panico, Potere Base +1</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n<style=\"highlight\">[EndSkill] Recupera 5 PS per ogni nemico che è Stordito, ha Morale Basso o Panico</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -589,7 +589,7 @@
                   "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, infligge 5 [Sinking] e +2 Conteggio [Sinking]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             },
@@ -603,7 +603,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
@@ -616,7 +616,7 @@
           "level": 4,
           "name": "Incubo Natalizio",
           "abName": "Letto Comodo",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio principale Vacilla, è in Morale Basso o in Panico, Potere Base +<style=\"highlight\">2</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n[EndSkill] Recupera 5 PS per ogni nemico che Vacilla, ha Morale Basso o Panico<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio principale è Stordito, è in Morale Basso o in Panico, Potere Base +<style=\"highlight\">2</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n[EndSkill] Recupera 5 PS per ogni nemico che è Stordito, ha Morale Basso o Panico<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -624,14 +624,14 @@
                   "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, infligge 5 [Sinking] e +2 Conteggio [Sinking]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
@@ -641,7 +641,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non Vacilla, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"

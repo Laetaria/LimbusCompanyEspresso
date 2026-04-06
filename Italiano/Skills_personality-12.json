@@ -794,7 +794,7 @@
         {
           "level": 3,
           "name": "Caccia-Incubi",
-          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[EndSkill] Se il bersaglio Vacilla, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] ad 1 nemico casuale",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)\n[EndSkill] Se il bersaglio è Stordito, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] ad 1 nemico casuale",
           "coinlist": [
             {
               "coindescs": [
@@ -829,7 +829,7 @@
         {
           "level": 4,
           "name": "Caccia-Incubi",
-          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 3)\n[EndSkill] Se il bersaglio Vacilla, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] on 2 random nemici",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 3)\n[EndSkill] Se il bersaglio è Stordito, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] on 2 random nemici",
           "coinlist": [
             {
               "coindescs": [
@@ -1878,7 +1878,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio Vacilla, o ha [HorrHurtNightStiletto], o se il nemico(Nucleo) ha 20%- PV, usa 'Mercé'",
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, o ha [HorrHurtNightStiletto], o se il nemico(Nucleo) ha 20%- PV, usa 'Mercé'",
                   "summary": "[OnSucceedAttack] Usa 'Mercé'"
                 }
               ]
@@ -1920,7 +1920,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio Vacilla, o ha [HorrHurtNightStiletto], o se il nemico(Nucleo) ha 20%- PV, usa 'Mercé'",
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, o ha [HorrHurtNightStiletto], o se il nemico(Nucleo) ha 20%- PV, usa 'Mercé'",
                   "summary": "[OnSucceedAttack] Usa 'Mercé'"
                 }
               ]

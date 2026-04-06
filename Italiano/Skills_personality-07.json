@@ -908,7 +908,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +1 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio del 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del 20% dei danni inflitti"
                 }
               ]
             },
@@ -938,7 +938,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Sinking] e +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
                 }
               ]
             },
@@ -973,7 +973,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +1 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio del 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del 20% dei danni inflitti"
                 }
               ]
             },
@@ -1003,7 +1003,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Sinking] e +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
                 }
               ]
             },
@@ -1908,7 +1908,7 @@
         {
           "level": 1,
           "name": "Sovraccarico ASC",
-          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Vacillamento di questa unità (una volta per Incontro)",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -1922,7 +1922,7 @@
         {
           "level": 4,
           "name": "Sovraccarico ASC",
-          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Vacillamento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta ASC alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta ASC alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [

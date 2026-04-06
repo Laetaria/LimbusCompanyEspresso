@@ -134,7 +134,7 @@
     {
       "id": 9214,
       "name": "Martello Incandescente",
-      "desc": "Se il nemico ha [VibrationIgnition], applica i seguenti effetti:\n- Per Colpo con Abilità Base, infliggi 1 [Combustion] (3 volte per Abilità)\n- Per Colpo con Abilità Base, se il nemico ha 15+ [VibrationIgnition], infliggi +1 Conteggio [Combustion] (2 volte per Abilità)\n- Per ogni 3 [Combustion], +1% di Soglia di Vacillamento aumentata da [VibrationExplosion] (max 15%)",
+      "desc": "Se il nemico ha [VibrationIgnition], applica i seguenti effetti:\n- Per Colpo con Abilità Base, infliggi 1 [Combustion] (3 volte per Abilità)\n- Per Colpo con Abilità Base, se il nemico ha 15+ [VibrationIgnition], infliggi +1 Conteggio [Combustion] (2 volte per Abilità)\n- Per ogni 3 [Combustion], +1% di Soglia di Stordimento aumentata da [VibrationExplosion] (max 15%)",
       "simpleDesc": [
         {
           "abilityID": 9214,
@@ -142,7 +142,7 @@
         },
         {
           "abilityID": 92141,
-          "simpleDesc": "[VibrationExplosion] aumenta di più Soglia Vacillamento"
+          "simpleDesc": "[VibrationExplosion] aumenta di più Soglia di Stordimento"
         }
       ]
     },
@@ -171,7 +171,7 @@
     {
       "id": 9217,
       "name": "Dispositivo di Qualcuno",
-      "desc": "Fine Attacco: Se [IndexPrescriptTargetToEnemy] è stato ucciso, l'Identità che ha attaccato e ucciso [IndexPrescriptTargetToEnemy] guadagna 1 [AzureResultUp] nel prossimo turno; infliggi +3 Conteggio [Sinking] ad 1 nemico sopravvissuto casuale (una volta per turno)\n- Se l'unita che ha ucciso [IndexPrescriptTargetToEnemy] è nella fazione dell'Index, guadagna invece 1 [Enhancement] invece di [AzureResultUp] nel prossimo turno (una volta per turno)\n\nFine Turno: le unità della fazione dell'Index subiscono (Stack di [KarmaOfIndexAlly] su sé stessi)% PV di danno.\n(Non può Vacillare a causa di questo effetto; questo danno non può ridurre i PV degli alleati al di sotto del 20 % di PV)\nDopo, le Identità hanno subito danni a causa dell'effetto guadagnano (Stack di [KarmaOfIndexAlly] su di sé / 5) [ResultEnhancement] nel turno successivo (max 2)",
+      "desc": "Fine Attacco: Se [IndexPrescriptTargetToEnemy] è stato ucciso, l'Identità che ha attaccato e ucciso [IndexPrescriptTargetToEnemy] guadagna 1 [AzureResultUp] nel prossimo turno; infliggi +3 Conteggio [Sinking] ad 1 nemico sopravvissuto casuale (una volta per turno)\n- Se l'unita che ha ucciso [IndexPrescriptTargetToEnemy] è nella fazione dell'Index, guadagna invece 1 [Enhancement] invece di [AzureResultUp] nel prossimo turno (una volta per turno)\n\nFine Turno: le unità della fazione dell'Index subiscono (Stack di [KarmaOfIndexAlly] su sé stessi)% PV di danno.\n(L'unità non può essere Stordita a causa di questo effetto; questo danno non può ridurre i PV degli alleati al di sotto del 20 % di PV)\nDopo, le Identità hanno subito danni a causa dell'effetto guadagnano (Stack di [KarmaOfIndexAlly] su di sé / 5) [ResultEnhancement] nel turno successivo (max 2)",
       "simpleDesc": [
         {
           "abilityID": 9217,
@@ -397,22 +397,22 @@
     {
       "id": 9231,
       "name": "Archivio Log di Quel Giorno",
-      "desc": "Questo Dono E.G.O cambia dopo aver vinto 6 Incontri\n{0}\n\nInizio Turno: Un alleato casuale non Vacillante verrà forzato in uno stato di Vacillamento",
+      "desc": "Questo Dono E.G.O cambia dopo aver vinto 6 Incontri\n{0}\n\nInizio Turno: Un alleato casuale che non è Stordito verrà Stordito forzatamente",
       "simpleDesc": [
         {
           "abilityID": 9231,
-          "simpleDesc": "Vacilla"
+          "simpleDesc": "Viene Stordito"
         }
       ]
     },
     {
       "id": 9232,
       "name": "Potenzialità",
-      "desc": "Per Vacillamento da danni, recupera dal Vacillamento; poi guadagna Scudo uguale al 50% dei PV Max e rimuovi 1 effetto negativo removibile a caso da sé stessi (esclusi i Vacillamenti forzati, 2 volte per Incontro)\n\nGuadagna 20 Potenza [Breath] all'inizio del prossimo turno dopo aver attivato l'effetto (una volta per turno)",
+      "desc": "Per Stordimento da danni, si riprende dallo Stordimento; poi guadagna Scudo uguale al 50% dei PV Max e rimuovi 1 effetto negativo removibile a caso da sé stessi (esclusi gli Stordimenti, 2 volte per Incontro)\n\nGuadagna 20 Potenza [Breath] all'inizio del prossimo turno dopo aver attivato l'effetto (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9232,
-          "simpleDesc": "Recupera dal Vacillamento; rimuovi effetti negativi"
+          "simpleDesc": "Si riprende dallo Stordimento; rimuovi effetti negativi"
         }
       ]
     },

@@ -504,7 +504,7 @@
           "level": 4,
           "name": "Lazo",
           "abName": "Cacciatore Rosa",
-          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n<style=\"highlight\">[EndSkill] Se il bersaglio viene fatto Vacillare o viene sconfitto, ottiene 1 [ShamrockResultUp] il turno successivo</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n<style=\"highlight\">[EndSkill] Se il bersaglio viene Stordito o viene sconfitto, ottiene 1 [ShamrockResultUp] il turno successivo</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -612,7 +612,7 @@
           "level": 1,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath], ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può Vacillare o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 4)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath], ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può essere Stordito o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 4)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -634,7 +634,7 @@
           "level": 3,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può Vacillare o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max <style=\"highlight\">6</style>)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può essere Stordito o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max <style=\"highlight\">6</style>)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -656,7 +656,7 @@
           "level": 4,
           "name": "Thoracalgia",
           "abName": "Saccoccia del Passato",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può Vacillare o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 6)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può essere Stordito o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 6)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -742,7 +742,7 @@
           "level": 1,
           "name": "Ordine: Collasso",
           "abName": "Kal'tsit",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Ottiene 4 [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non fa Vacillare o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al danno subito da quest'effetto\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Ottiene 4 [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al danno subito da quest'effetto\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -775,7 +775,7 @@
           "level": 3,
           "name": "Ordine: Collasso",
           "abName": "Kal'tsit",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio ha 6+ (Potenza [Burst] + Conteggio [Burst]), Potere Base +1</style>\n[BeforeAttack] A <style=\"highlight\">3</style>+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Ottiene <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non fa Vacillare o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al danno subito da quest'effetto\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio ha 6+ (Potenza [Burst] + Conteggio [Burst]), Potere Base +1</style>\n[BeforeAttack] A <style=\"highlight\">3</style>+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Ottiene <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al danno subito da quest'effetto\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -811,7 +811,7 @@
           "level": 4,
           "name": "Ordine: Collasso",
           "abName": "Kal'tsit",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Potere Base +1 per ogni 6 (Potenza [Burst] + Conteggio [Burst]) sul bersaglio principale (max 2)</style>\n<style=\"highlight\">[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 Rison. più alta (max 2)</style>\n[EndSkill] Ottiene <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non fa Vacillare o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al <style=\"highlight\">(danno subito da quest'effetto x 2)</style>\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Potere Base +1 per ogni 6 (Potenza [Burst] + Conteggio [Burst]) sul bersaglio principale (max 2)</style>\n<style=\"highlight\">[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 Rison. più alta (max 2)</style>\n[EndSkill] Ottiene <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al <style=\"highlight\">(danno subito da quest'effetto x 2)</style>\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -843,7 +843,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] Se il danno di quest'Abilità non fa Vacillare o non uccide un bersaglio, infligge +30% danni</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, infligge +30% danni</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"

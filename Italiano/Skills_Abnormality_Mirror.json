@@ -121,7 +121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Nail], questo Vacilla e rimuovi i [NailPersonality]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Nail], questo viene Stordito e rimuove i [NailPersonality]"
                 }
               ]
             }
@@ -135,12 +135,12 @@
         {
           "level": 1,
           "name": "Mi Prenderò La Tua Vita!",
-          "desc": "[DefeatDuel] Vacilla",
+          "desc": "[DefeatDuel] Viene Stordita",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Fa Vacillare il bersaglio e infligge 10 [Vulnerable] il turno successivo"
+                  "desc": "[OnSucceedAttack] Stordisce il bersaglio e infligge 10 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -1621,7 +1621,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 20% dei danni inflitti"
                 }
               ]
             },
@@ -1631,7 +1631,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 20% dei danni inflitti"
                 }
               ]
             },
@@ -1641,7 +1641,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 20% dei danni inflitti"
                 }
               ]
             }
@@ -1663,7 +1663,7 @@
                   "desc": "[OnSucceedAttack] Il bersaglio perde 15 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 50% dei danni inflitti"
                 }
               ]
             }

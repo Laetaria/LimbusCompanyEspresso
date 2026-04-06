@@ -548,7 +548,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Se il bersaglio Vacilla o viene sconfitto, recupera 10 PS"
+                  "desc": "[EndSkill] Se il bersaglio viene Stordito o sconfitto, recupera 10 PS"
                 }
               ]
             }
@@ -567,7 +567,7 @@
                   "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Se il bersaglio Vacilla o viene sconfitto, recupera 10 PS"
+                  "desc": "[EndSkill] Se il bersaglio viene Stordito o sconfitto, recupera 10 PS"
                 }
               ]
             }
@@ -1304,7 +1304,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Battuta d'Arresto alla Vita",
+          "name": "Una Fine d'Alto Calibro",
           "desc": "Potere Base +1 per ogni [Bullet] che verrà speso da questa Abilità\n[WhenUse] Se Fixer dell'Ufficio Alto Calibro Heathcliff è sul campo, attiva [CoveringFire]\n[WhenUse] Ottiene 5 [Breath]",
           "coinlist": [
             {
@@ -1316,7 +1316,7 @@
                   "desc": "Infligge +([Bullet] usate x 10)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio 10% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio 10% dei danni inflitti"
                 }
               ]
             },
@@ -1329,14 +1329,14 @@
                   "desc": "Infligge +([Bullet] usate x 10)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio 10% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio 10% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Se il bersaglio Vacilla, +30% Danni sul Colpo Critico"
+                  "desc": "Se il bersaglio è Stordito, +30% Danni sul Colpo Critico"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
@@ -1350,7 +1350,7 @@
         },
         {
           "level": 4,
-          "name": "Battuta d'Arresto alla Vita",
+          "name": "Una Fine d'Alto Calibro",
           "desc": "Potere Base +1 per ogni [Bullet] che verrà speso da questa Abilità\n[WhenUse] Se il Fixer dell'Ufficio Alto Calibro Heathcliff è sul campo, activate [CoveringFire]\n[WhenUse] Ottiene 5 [Breath]\n<style=\"highlight\">[WinDuel] Ottiene +2 Conteggio [Breath]</style>",
           "coinlist": [
             {
@@ -1362,7 +1362,7 @@
                   "desc": "Infligge +([Bullet] usate x <style=\"highlight\">15</style>)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
                 }
               ]
             },
@@ -1375,14 +1375,14 @@
                   "desc": "Infligge +([Bullet] usate x <style=\"highlight\">15</style>)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Se il bersaglio Vacilla, +30% Danni sul Colpo Critico<style=\"highlight\"></style>"
+                  "desc": "Se il bersaglio è Stordito, +30% Danni sul Colpo Critico<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Binding] il turno successivo"
@@ -1533,7 +1533,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Combo: Battuta d'Arresto alla Vita",
+          "name": "Combo: Una Fine d'Alto Calibro",
           "desc": "Potere Base +1 per ogni [Bullet] che verrà speso da questa Abilità\n[WhenUse] Ottiene 5 [Breath]\n[DefeatDuel] Potere Finale +5",
           "coinlist": [
             {
@@ -1545,7 +1545,7 @@
                   "desc": "Infligge +([Bullet] usate x 10)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio 10% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio 10% dei danni inflitti"
                 }
               ]
             },
@@ -1558,14 +1558,14 @@
                   "desc": "Infligge +([Bullet] usate x 10)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio 10% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio 10% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Se il bersaglio Vacilla, +30% Danni sul Colpo Critico"
+                  "desc": "Se il bersaglio è Stordito, +30% Danni sul Colpo Critico"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
@@ -1592,7 +1592,7 @@
         },
         {
           "level": 4,
-          "name": "Combo: Battuta d'Arresto alla Vita",
+          "name": "Combo: Una Fine d'Alto Calibro",
           "desc": "Potere Base +1 per ogni [Bullet] che verrà speso da questa Abilità\n[WhenUse] Ottiene 5 [Breath]\n<style=\"highlight\">[WinDuel] Ottiene +2 Conteggio [Breath]</style>\n[DefeatDuel] Potere Finale +5",
           "coinlist": [
             {
@@ -1604,7 +1604,7 @@
                   "desc": "Infligge +([Bullet] usate x <style=\"highlight\">15</style>)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
                 }
               ]
             },
@@ -1617,14 +1617,14 @@
                   "desc": "Infligge +([Bullet] usate x <style=\"highlight\">15</style>)% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio <style=\"highlight\">15</style>% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Se il bersaglio Vacilla, +30% Danni sul Colpo Critico<style=\"highlight\"></style>"
+                  "desc": "Se il bersaglio è Stordito, +30% Danni sul Colpo Critico<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Binding] il turno successivo"
@@ -1856,7 +1856,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Vacillamento del 5% dei danni inflitti</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Stordimento del 5% dei danni inflitti</style>"
                 }
               ]
             },
@@ -1866,7 +1866,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Vacillamento del 5% dei danni inflitti</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Stordimento del 5% dei danni inflitti</style>"
                 }
               ]
             },
@@ -1876,7 +1876,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Vacillamento del 5% dei danni inflitti</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Stordimento del 5% dei danni inflitti</style>"
                 }
               ]
             },
@@ -1886,7 +1886,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Vacillamento del 10% dei danni inflitti</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Alza la Soglia di Stordimento del 10% dei danni inflitti</style>"
                 }
               ]
             }
@@ -1903,7 +1903,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del 5% dei danni inflitti<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 5% dei danni inflitti<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1913,7 +1913,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del 5% dei danni inflitti<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 5% dei danni inflitti<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1923,7 +1923,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del 5% dei danni inflitti<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 5% dei danni inflitti<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1933,7 +1933,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del 10% dei danni inflitti<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 10% dei danni inflitti<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2218,7 +2218,7 @@
         {
           "level": 3,
           "name": "Andate, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "Andate, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta Vacilla o è sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [

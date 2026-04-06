@@ -277,8 +277,8 @@
     {
       "id": "Vibration",
       "name": "Vibrazione",
-      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}. Dura {1} turno(i).",
-      "summary": "Alza la Soglia di Vacillamento di {0}"
+      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, alza la Soglia di Stordimento di {0}. Dura {1} turno(i).",
+      "summary": "Alza la Soglia di Stordimento di {0}"
     },
     {
       "id": "Burst",
@@ -645,7 +645,7 @@
     {
       "id": "Choice_901010",
       "name": "Vuoto",
-      "desc": "All'inizo del combattimento: Tutti gli alleati senza Affinità Lussuria Vacillano."
+      "desc": "All'inizo del combattimento: Tutti gli alleati senza Affinità Lussuria vengono Storditi."
     },
     {
       "id": "Choice_901019",
@@ -714,7 +714,7 @@
     {
       "id": "Cromer_Target",
       "name": "Sguardo",
-      "desc": "Vacilla per questo turno. Subisce il 100% di danno in più da Kromer."
+      "desc": "Questa unità viene Stordita per questo turno. Subisce il 100% di danno in più da Kromer."
     },
     {
       "id": "Cromer_Boredom",
@@ -931,7 +931,7 @@
     {
       "id": "Duress",
       "name": "Cattività",
-      "desc": "Vacilla per 3 turni; disabilita tutte le abilità collegate alla Ritirata\nQuesto effetto viene rimosso quando Kqe-1j-23 Vacilla",
+      "desc": "Questa unità viene Stordita per per 3 turni; disabilita tutte le abilità collegate alla Ritirata\nQuesto effetto viene rimosso quando Kqe-1j-23 viene Stordito",
       "summary": "Passiva di Kqe"
     },
     {
@@ -1081,8 +1081,8 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge {0} * 3 danni fissi e alza la Soglia di Vacillamento di {0} * 3%",
-      "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Vacillamento, infligge danni e aumenta ulteriormente la Soglia di Vacillamento"
+      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Stordimento, infligge {0} * 3 danni fissi e alza la Soglia di Stordimento di {0} * 3%",
+      "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Stordimento, infligge danni e aumenta ulteriormente la Soglia di Stordimento"
     },
     {
       "id": "VibrationAssimilation",
@@ -1188,8 +1188,8 @@
     {
       "id": "Fragile_Mind_Panic",
       "name": "Mente Turbata",
-      "desc": "Quando è in panico, Vacilla.",
-      "summary": "Quando è in panico, Vacilla."
+      "desc": "Quando è in panico, questa unità viene Stordita.",
+      "summary": "Quando è in panico, questa unità viene Stordita."
     },
     {
       "id": "ErodingMind",
@@ -1236,7 +1236,7 @@
     {
       "id": "DongbaekFascination",
       "name": "Mente Frastornata",
-      "desc": "Colpisce gli alleati\nQuando Vacilla, quest'effetto viene rimosso il turno successivo\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso a Fine Turno",
+      "desc": "Colpisce gli alleati\nQuando questa unità viene Stordita, quest'effetto viene rimosso il turno successivo\nSe quest'effetto non viene rimosso in 2 turni, perde 30 PS e l'effetto viene rimosso a Fine Turno",
       "summary": ""
     },
     {
@@ -1248,7 +1248,7 @@
     {
       "id": "DongbaekScatterPetal",
       "name": "Petali Sparsi",
-      "desc": "A Fine Turno: A 6 Stack o più, Vacilla",
+      "desc": "A Fine Turno: A 6 Stack o più, questa unità viene Stordita",
       "summary": ""
     },
     {
@@ -1290,7 +1290,7 @@
     {
       "id": "DistortedDongrangEmptiness",
       "name": "Vuoto Interiore",
-      "desc": "A 4 Stack o superiore, Dongrang Vacilla."
+      "desc": "A 4 Stack o superiore, Dongrang viene Stordito."
     },
     {
       "id": "DistortedDongrangFruition",
@@ -1425,8 +1425,8 @@
     {
       "id": "RemoveBreakSection",
       "name": "Spirito Gagliardo",
-      "desc": "La prima Soglia di Vacillamento degli alleati viene nullificata",
-      "summary": "Nullifica la prima Soglia di Vacillamento"
+      "desc": "La prima Soglia di Stordimento degli alleati viene nullificata",
+      "summary": "Nullifica la prima Soglia di Stordimento"
     },
     {
       "id": "KCorpSerum",
@@ -1680,7 +1680,7 @@
     {
       "id": "VibrationExplosion",
       "name": "Scoppio Vibrazione",
-      "desc": "Alza la Soglia di Vacillamento in base alla Potenza Vibrazione sul bersaglio"
+      "desc": "Alza la Soglia di Stordimento in base alla Potenza Vibrazione sul bersaglio"
     },
     {
       "id": "OneOnOneDuel",
@@ -1844,8 +1844,8 @@
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando subisce un attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
-      "summary": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\n Aumenta la Soglia di Vacillamento di {0}"
+      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando subisce un attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Stordimento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "summary": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\n Aumenta la Soglia di Stordimento di {0}"
     },
     {
       "id": "EchoOfMansion",
@@ -1868,8 +1868,8 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando Vacilla e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\n- Il livello non può superare il massimo quando subisce un attacco\nda un attacco che causa Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}. Dura {1} turni\n(Interagisce allo stesso modo della normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
-      "summary": "Quando Vacilla e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Vacillamento di 1\nAlza la Soglia di Vacillamento di {0}"
+      "desc": "- Quando questa unità viene Stordita e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Stordimento di 1\n- Il livello non può superare il massimo quando subisce un attacco\nda un attacco che causa Scoppio Vibrazione, alza la Soglia di Stordimento di {0}. Dura {1} turni\n(Interagisce allo stesso modo della normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "summary": "Quando questa unità viene Stordita e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Stordimento di 1\nAlza la Soglia di Stordimento di {0}"
     },
     {
       "id": "ForwardToTheKing",
@@ -1933,7 +1933,7 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Per {1} Turno(i): Quando si innesca Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Vacillamento del {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Per {1} Turno(i): Quando si innesca Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Stordimento del {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1945,7 +1945,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n-Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n-Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Stordimento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1957,13 +1957,13 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene {1} Rapidità, Potere Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Rallentamento che Rapidità il turno successivo, L'effetto di Tempo in Prestito scade al turno successivo, e questa unità Vacilla\n\nA Fine Turno: A 1 Conteggio, ottiene {0} Rallentamento il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
+      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene {1} Rapidità, Potere Scontro, e Fragilità il turno successivo\n- Se quest'unità dovesse ottienere più Rallentamento che Rapidità il turno successivo, L'effetto di Tempo in Prestito scade al turno successivo, e questa unità viene Stordita\n\nA Fine Turno: A 1 Conteggio, ottiene {0} Rallentamento il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
       "summary": ""
     },
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere Scontro per ogni 10 Vibrazionee (max 3)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere Scontro per ogni 10 Vibrazionee (max 3)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Stordimento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1981,7 +1981,7 @@
     {
       "id": "KnowledgeTraining",
       "name": "Erudizione",
-      "desc": "- Valore Massimo: 6\n- Quando scarta un'Abilità, ottiene (Erudizione x 1.5)% di PV massimi di quest'unità come scudo (1 volta per turno)\n- Se quest'unità scarta un'Abilità mentre possiede 2+ Conoscenza, ottiene 1 Potere Scontro (1 volta per turno)\n- Ridotto di 1 quando subisce danni ai PV dopo essere stato colpito da un'Abilità offensiva nemica\n- Scade se l'unità Vacilla",
+      "desc": "- Valore Massimo: 6\n- Quando scarta un'Abilità, ottiene (Erudizione x 1.5)% di PV massimi di quest'unità come scudo (1 volta per turno)\n- Se quest'unità scarta un'Abilità mentre possiede 2+ Conoscenza, ottiene 1 Potere Scontro (1 volta per turno)\n- Ridotto di 1 quando subisce danni ai PV dopo essere stato colpito da un'Abilità offensiva nemica\n- Scade se l'unità viene Stordita",
       "summary": ""
     },
     {
@@ -2118,20 +2118,20 @@
     {
       "id": "Retreat",
       "name": "Modalità Strategica R&R",
-      "desc": "- A Fine Turno: si riprende dal Vacillamento e si ritira dallo Scontro (escluso il Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)",
+      "desc": "- A Fine Turno: si riprende dallo Stordimento e si ritira dallo Scontro (escluso lo Stordimento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DefensiveStance",
       "name": "Posa Difensiva",
-      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Livello Difensivo Aumentato\n  · Tutti gli Slot di quest'unità ottengono +(10 / # Slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un Incontro mirato)\n  · Alla vittoria di uno Scontro, innesca Scoppio Vibrazione\n  · I danni non faranno Vacillamento questa unità",
+      "desc": "- Valore Massimo: 2\n- Quest'effetto non aumenta la propria Potenza; riapplicarlo estende solo la durata.\n- Ridotto di 1 a Fine Turno\n- Quando un'unità ottiene quest'effetto, ottiene i seguenti effetti il turno successivo:\n  · Fissa la velocità di quest'unità al minimo\n  · Ottiene 5 Livello Difensivo Aumentato\n  · Tutti gli Slot di quest'unità ottengono +(10 / # Slot di quest'unità) Provocazione\n  · Quando concatena le Abilità, quest'unità può attirare gli attacchi nemici indipendentemente dalla velocità (solo durante un Incontro mirato)\n  · Alla vittoria di uno Scontro, innesca Scoppio Vibrazione\n  · I danni non Stordiranno questa unità",
       "summary": ""
     },
     {
       "id": "CanDuelGuard",
       "name": "Guardia Scontrabile",
-      "desc": "- A Scontro Vinto: Alza la Soglia di Vacillamento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando subisce un attacco, riduce il Potere Finale dell'Abilità del bersaglio del Potere Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
+      "desc": "- A Scontro Vinto: Alza la Soglia di Stordimento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando subisce un attacco, riduce il Potere Finale dell'Abilità del bersaglio del Potere Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
       "summary": ""
     },
     {
@@ -2234,7 +2234,7 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Max+ 2\n- Consuma il Conteggio Vibrazione su di sé per infliggere 1 Conteggio o Potenza Vibrazione aggiuntivi quando sono inflitti con le proprie Abilità o gli effetti delle Monete\n- Quando subisce un'Attacco da mosse che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Velocità Max+ 2\n- Consuma il Conteggio Vibrazione su di sé per infliggere 1 Conteggio o Potenza Vibrazione aggiuntivi quando sono inflitti con le proprie Abilità o gli effetti delle Monete\n- Quando subisce un'Attacco da mosse che innescano Scoppio Vibrazione, alza la Soglia di Stordimento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Velocità Max +2\nConsuma Conteggio Vibrazione su di sé per infliggere +1 Potenza e Conteggio Vibrazione",
       "undefined": "-"
     },
@@ -2284,7 +2284,7 @@
     {
       "id": "FreishutzOutisEgoBullet_1st",
       "name": "Il Primo Proiettile Magico",
-      "desc": "- Infligge +20% in più di danno\n- Alza la Soglia di Vacillamento in base al danno inflitto (max 30)"
+      "desc": "- Infligge +20% in più di danno\n- Alza la Soglia di Stordimento in base al danno inflitto (max 30)"
     },
     {
       "id": "FreishutzOutisEgoBullet_2nd",
@@ -2299,7 +2299,7 @@
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "Il Quarto Proiettile Magico",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Portata Attacco\n- Sul Colpo, Alza la Soglia di Vacillamento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Portata Attacco\n- Sul Colpo, Alza la Soglia di Stordimento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
@@ -2309,7 +2309,7 @@
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "Il Sesto Proiettile Magico",
-      "desc": "- Prima di attaccare: ottiene +6 Portata Attacco\n- Sul Colpo, alza la Soglia di Vacillamento in base al danno inflitto(max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Potere Base Monete positive -16\n- Potere Base Monete negative -22\n - Potere Monete positive -8\n - Potere Monete negative -12"
+      "desc": "- Prima di attaccare: ottiene +6 Portata Attacco\n- Sul Colpo, alza la Soglia di Stordimento in base al danno inflitto(max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Potere Base Monete positive -16\n- Potere Base Monete negative -22\n - Potere Monete positive -8\n - Potere Monete negative -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
@@ -2339,7 +2339,7 @@
     {
       "id": "Retreat_FullStop",
       "name": "Sorveglianza",
-      "desc": "- A Fine Turno: si riprende dal Vacillamento e si ritira dall'Incontro (escluso il Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, gli Slot di questa unità vengono dati all'unità che entra al suo posto, e viene spostata più in fondo possibile nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre Unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva durante la Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)"
+      "desc": "- A Fine Turno: si riprende dallo Stordimento e si ritira dall'Incontro (escluso lo Stordimento; non conta come morte)\n· Nelle Battaglie Consecutive, gli Slot di questa unità vengono dati all'unità che entra al suo posto, e viene spostata più in fondo possibile nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre Unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di rititrata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva durante la Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0 PS)"
     },
     {
       "id": "LogicAtelierAM",
@@ -2386,26 +2386,26 @@
     {
       "id": "BlackCloud",
       "name": "Nuvola Nera",
-      "desc": "Stack Max: 1\n Converte tutte le Monete delle Abilità offensive di quest'unità in [SuperCoin], previene che il danno faccia Vacillamento quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Potere Finale +3\nA Fine Turno: quest'effetto termina",
-      "summary": "Converts Attack Skill to Unbreakable Coin and gains a new effect"
+      "desc": "Stack Max: 1\n Converte tutte le Monete delle Abilità offensive di quest'unità in [SuperCoin], previene che il danno Stordisca quest'unità finchè non avrà terminato l'Abilità, e infligge +1 Sanguinamento in più con gli effetti.  \nSe perde lo Scontro: ottiene Potere Finale +3\nA Fine Turno: quest'effetto termina",
+      "summary": "Converte le Abilità Attacco in Monete Infrangibile ed ottiene un nuovo effetto"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lama della Nuvola Nera",
       "desc": "Stack Max: 1\nOttiene 1 Potenza taglio \nInfligge 1 Sanguinamento sul colpo con le Abilità taglienti",
-      "summary": "Enhance Slash Skills"
+      "summary": "Potenzia le Abilità Taglienti"
     },
     {
       "id": "EngageToBattle",
       "name": "Pronti alla Battaglia",
       "desc": "Valore Massimo: 1\n+1 a Potenza e alle Conteggio Sanguinamento inflitte con le Abilità o con gli effetti delle Monete di quest'unità\nOttiene 1 Potere Tagliente Aumentato e 3 Danni Taglienti Aumentati per la durata dello Scontro",
-      "summary": "Enhance Slash Skills and inflict more Bleed"
+      "summary": "Potenzia le Abilità Taglienti e infligge più Sanguinamento"
     },
     {
       "id": "CloudWall",
       "name": "Muro Cumuliforme",
       "desc": "Stack Max: 1\nValore Finale Abilità Difensive +1\nQuest'effetto scade a Fine Turno o dopo che questa Abilità termina: 'Regole dei Vicoli'",
-      "summary": "Enhance Defense Skill"
+      "summary": "Potenzia le Abilità Difesa"
     },
     {
       "id": "NebulizerExhale",
@@ -2420,7 +2420,7 @@
     {
       "id": "FirePunchFuel",
       "name": "Carburante del Distretto 12",
-      "desc": "Stack Max: 100\nViene usato da alcume Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
+      "desc": "Stack Max: 100\nViene usato da alcune Abilità.\nA meno di 50, diventa Carburante Surriscaldato\nCarburante consumato: {0}",
       "summary": "",
       "undefined": "-"
     },
@@ -2546,14 +2546,14 @@
     {
       "id": "DragonLance",
       "name": "Lancia Tumula-Fiori [埋花櫼]",
-      "desc": "Stack Base: 0\nStack Max: 3\n- Tutte le Monete dell'Abilità Base più a sinistra sull Pannello di Controllo diventano Monete Infrangibili\n- A Inizio Turno: ottiene due 2 Livello Offensivo Aumentato e 2 Livello Difensivo Aumentato per ogni stack\n- A Inizio Turno: a 3+ Stack, ottiene 1 Sangue Immondo (1 volta per Incontro)\n- A Fine Turno: ottiene 1 Stack\n※ Non può aumentare le Stack di questo effetto in nessun modo oltre al suddetto \n- Scade alla morte o alla Ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o farla Vacillare o Sconfiggere, usa l'Abilità 'Lacrime del Sangue Impuro - La Fine'  alla fine di quello stesso turno. Rimuove Lancia Tumula-Fiori a Fine Turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 a Fine Turno, usa l'Abilità 'Lacrime del Sangue Impuro - La Fine' in base alla Velocità di questa unità",
+      "desc": "Stack Base: 0\nStack Max: 3\n- Tutte le Monete dell'Abilità Base più a sinistra sull Pannello di Controllo diventano Monete Infrangibili\n- A Inizio Turno: ottiene due 2 Livello Offensivo Aumentato e 2 Livello Difensivo Aumentato per ogni stack\n- A Inizio Turno: a 3+ Stack, ottiene 1 Sangue Immondo (1 volta per Incontro)\n- A Fine Turno: ottiene 1 Stack\n※ Non può aumentare le Stack di questo effetto in nessun modo oltre al suddetto \n- Scade alla morte o alla Ritirata\n\n- Quando questa unità subisce un danno che porta i suoi PV a 0: al posto di portare i PV di questa unità sotto 1, o Stordirla o Sconfiggela, usa l'Abilità 'Lacrime del Sangue Impuro - La Fine'  alla fine di quello stesso turno. Rimuove Lancia Tumula-Fiori a Fine Turno.\nQuando questa unità subisce un danno che porta i suoi PV a 1 a Fine Turno, usa l'Abilità 'Lacrime del Sangue Impuro - La Fine' in base alla Velocità di questa unità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "CondensedBlood",
       "name": "Sangue Immondo",
-      "desc": "Stack Max: 5\n- A Fine Turno: subisce danni pari al 20% di PV per Stack (non può Vacillare a causa di questo effetto)\n- Ottiene 1 Stack a Fine Turno\n- Esaurito alla morte o alla Ritirata",
+      "desc": "Stack Max: 5\n- A Fine Turno: subisce danni pari al 20% di PV per Stack (non può essere Stordita a causa di questo effetto)\n- Ottiene 1 Stack a Fine Turno\n- Esaurito alla morte o alla Ritirata",
       "summary": "",
       "undefined": "-"
     },
@@ -2567,7 +2567,7 @@
     {
       "id": "YesdragonNodie",
       "name": "Abiura [不許]",
-      "desc": "Quando questa unità subisce un danno che porta i suoi PV a 0: i PV di questa unità non scendono sotto 1; guarisce dal Vacillamento causato dal danno.\nse l'effetto sovracitato viene attivato, muore a Fine Turno.\nEsaurita alla morte, alla Ritirata e a Fine Turno",
+      "desc": "Quando questa unità subisce un danno che porta i suoi PV a 0: i PV di questa unità non scendono sotto 1; si riprende dallo Stordimento causato dal danno.\nse l'effetto sovracitato viene attivato, muore a Fine Turno.\nEsaurita alla morte, alla Ritirata e a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -2602,7 +2602,7 @@
     {
       "id": "RetreatForCommon",
       "name": "Ritirata Dal Campo di Battaglia",
-      "desc": "- A Fine Turno: Si riprende dal Vacillamento e si ritira dall'Incontro (non ha effetto su un Vacillamento forzato; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di ritirata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0)",
+      "desc": "- A Fine Turno: Si riprende dallo Stordimento e si ritira dall'Incontro (non ha effetto su uno Stordimento; non conta come morte)\n· Nelle Battaglie Consecutive, dà gli Slot di quest'unità all'unità che entra e viene spostata in fondo nell'Ordine di Schieramento (fugge completamente dall'Incontro se non ci sono altre unità rimaste con cui scambiarsi di posto nel turno successivo. Quando torna in battaglia, torna nell'ordine di ritirata)\n· Quando ritorna in battaglia, ritorna con gli stessi PV e PS che aveva alla Ritirata, ed elimina tutti gli effetti sull'unità, tranne alcuni (Se questa unità aveva meno di 0 PS alla Ritirata, torna in battaglia con 0)",
       "summary": "",
       "undefined": "-"
     },
@@ -2672,7 +2672,7 @@
     {
       "id": "ChoSuperCharge",
       "name": "Superbatteria Luminescente",
-      "desc": "- Stack Max: 100\n- Quando consuma Conteggio Carica, aggiunge la quantità consumata alle Stack di questo effetto\n- Limite Conteggio Massimo Carica +10\n- Ottiene 1 Conteggio Carica quando gli alleati ottengono Potenza o Conteggio Carica\n- Quando questa unità consuma Carica, consuma lo stesso numero di Conteggio Carica un'altra volta (Quando non ha abbastanza Conteggio, consuma tutto quello disponibile)\n- Infligge +10% danni aggiuntivi per ogni 10 Stack\n- I nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità per ogni 20 Stack (max +0.5 Resistenza; non si attiva quando il nemico Vacilla)\n- Quando l'Identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'Ordine di Schieramento. Le Stack vengono trasferite a loro volta.\n- Questo effetto funziona anche con gli effetti di 'Carica Speciale'.",
+      "desc": "- Stack Max: 100\n- Quando consuma Conteggio Carica, aggiunge la quantità consumata alle Stack di questo effetto\n- Limite Conteggio Massimo Carica +10\n- Ottiene 1 Conteggio Carica quando gli alleati ottengono Potenza o Conteggio Carica\n- Quando questa unità consuma Carica, consuma lo stesso numero di Conteggio Carica un'altra volta (Quando non ha abbastanza Conteggio, consuma tutto quello disponibile)\n- Infligge +10% danni aggiuntivi per ogni 10 Stack\n- I nemici ottengono +0.1 Resistenza contro gli attacchi di questa unità per ogni 20 Stack (max +0.5 Resistenza; non si attiva quando il nemico viene Stordito)\n- Quando l'Identità con questo effetto muore, l'effetto si trasferisce all'alleato che è secondo nell'Ordine di Schieramento. Le Stack vengono trasferite a loro volta.\n- Questo effetto funziona anche con gli effetti di 'Carica Speciale'.",
       "summary": "",
       "undefined": "-"
     },
@@ -2766,7 +2766,7 @@
     {
       "id": "DarkHonglu_Xi",
       "name": "Felicità",
-      "desc": "- Potere Scontro di Hong Lu +1\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Annulla l'effetto che trasforma questa unità in Giada Preziosa una volta. Scontrandosi contro Abilità che trasformano questa unità in una Giada Preziosa, Potere Scontro +5; se questa unità vince lo Scontro, questa unità non diventa una Giada Preziosa, si riprende dal Vacillamento, riduce i PS di Jia Mu di 10, e infligge 2 Fragile a Jia Mu\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
+      "desc": "- Potere Scontro di Hong Lu +1\n- Quando ci sono 1 o più alleati sopravvissuti in questo Incontro: quando subisce un danno fatale, Hong Lu non muore e invece si cura del 50% di PV\n- Annulla l'effetto che trasforma questa unità in Giada Preziosa una volta. Scontrandosi contro Abilità che trasformano questa unità in una Giada Preziosa, Potere Scontro +5; se questa unità vince lo Scontro, questa unità non diventa una Giada Preziosa, si riprende dallo Stordimento, riduce i PS di Jia Mu di 10, e infligge 2 Fragile a Jia Mu\nA Scontro Vinto contro Jia Mu, ottiene 1 risorsa E.G.O casuale da ognuna delle 3 Affinità con il minor numero di risorse",
       "summary": ""
     },
     {
@@ -2790,7 +2790,7 @@
     {
       "id": "ChickenStance",
       "name": "Sanguifiamma [血炎]",
-      "desc": "- Stack Max: 3\n- Questa unità infligge +1 Potenza Bruciatura e Lacerazione aggiuntive con le sue Abilità Base\n- Mentre questa unità ha questo effetto, recupera 3 PS quando fa Vacillare o uccide un nemico (3 volte per turno)\n· Se i PS di questa unità sono al massimo all'attivazione di questo effetto, ottiene 1 Livello Offensivo Aumentato e 1 Rapidità il turno successivo\n- Perde 1 Stack a Fine Turno",
+      "desc": "- Stack Max: 3\n- Questa unità infligge +1 Potenza Bruciatura e Lacerazione aggiuntive con le sue Abilità Base\n- Mentre questa unità ha questo effetto, recupera 3 PS quando Stordisce o uccide un nemico (3 volte per turno)\n· Se i PS di questa unità sono al massimo all'attivazione di questo effetto, ottiene 1 Livello Offensivo Aumentato e 1 Rapidità il turno successivo\n- Perde 1 Stack a Fine Turno",
       "summary": "Infligge +1 Potenza Bruciatura o Lacerazione"
     },
     {
@@ -2802,7 +2802,7 @@
     {
       "id": "ConcussionYisang",
       "name": "Concussione",
-      "desc": "- Stack Max: 2\n- Moltiplica di quanto la Soglia di Vacillamento viene alzata dallo Scoppio Vibrazione e i danni da Lacerazione subiti da questa unità per 1.2 (arrotondato in difetto)\n- Perde 1 Stack a Fine Turno",
+      "desc": "- Stack Max: 2\n- Moltiplica di quanto la Soglia di Stordimento viene alzata dallo Scoppio Vibrazione e i danni da Lacerazione subiti da questa unità per 1.2 (arrotondato in difetto)\n- Perde 1 Stack a Fine Turno",
       "summary": ""
     },
     {
@@ -2820,7 +2820,7 @@
     {
       "id": "VibrationBleeding",
       "name": "Vibrazione - Emorragia",
-      "desc": "- Allo Scoppio Vibrazione, subisce Danni Lussuria pari alla (somma della Potenza Vibrazione e Sanguinamento / 2), e perde 1 Conteggio Sanguinamento\n- Quando subisce un colpo dalle Abilità che innescano Scoppio Vibrazione, alza la Soglia di Vacillamento di questa unità per la Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di 1\n(Interagisce come la Vibrazione normale con gli effetti che aumentano o diminuiscono la Potenza/Conteggio Vibrazione)",
+      "desc": "- Allo Scoppio Vibrazione, subisce Danni Lussuria pari alla (somma della Potenza Vibrazione e Sanguinamento / 2), e perde 1 Conteggio Sanguinamento\n- Quando subisce un colpo dalle Abilità che innescano Scoppio Vibrazione, alza la Soglia di Stordimento di questa unità per la Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di 1\n(Interagisce come la Vibrazione normale con gli effetti che aumentano o diminuiscono la Potenza/Conteggio Vibrazione)",
       "summary": "",
       "undefined": "-"
     },
@@ -2841,7 +2841,7 @@
     {
       "id": "CommonExit",
       "name": "Fuga dal Combattimento",
-      "desc": "- Fine Turno: si riprende dal Vacillamento e fugge dall'Incontro (escluso Vacillare forzato; non conta come morte)",
+      "desc": "- Fine Turno: si riprende dallo Stordimento e fugge dall'Incontro (escluso Stordimento forzato; non conta come morte)",
       "summary": ""
     },
     {
@@ -2888,7 +2888,7 @@
     {
       "id": "SnipingArrowMode",
       "name": "Pronta a Tirare",
-      "desc": "- Quando questa unità ha questo effetto, attiva i seguenti:\n· Converte l'Abilità Attacco Base più a sinistra sul Pannello di Controllo in \"Scintilla dell'Arco\", infine la usa a Inizio Combattimento\n· Questa unità non può Vacillare a causa di danni, Scoppio Vibrazione, o Soglia di Vacillamento alzata\n· Non attiva un'<noparse>Attacco di Supporto</noparse>\n· Viene rimossa se un'Abiità E.G.O era equipaggiata a Inizio Combattimento",
+      "desc": "- Quando questa unità ha questo effetto, attiva i seguenti:\n· Converte l'Abilità Attacco Base più a sinistra sul Pannello di Controllo in \"Scintilla dell'Arco\", infine la usa a Inizio Combattimento\n· Questa unità non può essere Stordita a causa di danni, Scoppio Vibrazione, o Soglia di Stordimento alzata\n· Non attiva un'<noparse>Attacco di Supporto</noparse>\n· Viene rimossa se un'Abiità E.G.O era equipaggiata a Inizio Combattimento",
       "undefined": "-"
     },
     {
@@ -2900,7 +2900,7 @@
     {
       "id": "WOverCharge",
       "name": "Sovraccarico",
-      "desc": "- Valore Massimo : 1\n- Diventa Immobile\n- Subisce 10 + (Potenza Carica su di sé x 5)% meno danni (max 25%)\n- Inizio Turno: Ottiene Scudo Energetico in base alla Potenza Carica su di sé (max 5)\n- Fine Turno: Ottiene +10 Conteggio Carica e 2 Potere Attacco Aumentato il turno successivo, e perde questo effetto\n- Ottiene Provocazione sullo Slot più a sinistra di questa unità in base alla Potenza Carica su di sé (max 5)\n- Quando subisce un colpo, ottiene +1 Conteggio Carica e 1 Ricarica il turno successivo (max 5 per turno)\n- Se questa unità è nel Panico o in Corrosione E.G.O Inizio Turno,o se questa unità Vacilla, perde questo effetto",
+      "desc": "- Valore Massimo : 1\n- Diventa Immobile\n- Subisce 10 + (Potenza Carica su di sé x 5)% meno danni (max 25%)\n- Inizio Turno: Ottiene Scudo Energetico in base alla Potenza Carica su di sé (max 5)\n- Fine Turno: Ottiene +10 Conteggio Carica e 2 Potere Attacco Aumentato il turno successivo, e perde questo effetto\n- Ottiene Provocazione sullo Slot più a sinistra di questa unità in base alla Potenza Carica su di sé (max 5)\n- Quando subisce un colpo, ottiene +1 Conteggio Carica e 1 Ricarica il turno successivo (max 5 per turno)\n- Se questa unità è nel Panico o in Corrosione E.G.O Inizio Turno, o se questa unità viene Stordita, perde questo effetto",
       "summary": "Immobilized. Subisce meno danni. Ottiene Provocazione e Scudo Energetico. Ottiene Conteggio Carica il turno successivo. Quando subisce un colpo, ottiene Ricarica e Conteggio Carica",
       "undefined": "-"
     },
@@ -2927,14 +2927,14 @@
     {
       "id": "EmergencyChargeForceField",
       "name": "Batteria per Scudo di Emergenza",
-      "desc": "- Stack Max: 7\n- Quando Vacilla, consuma tutte le Stack di Batteria per Scudo di Emergenza e ottiene Scudo Energetico pari alle Stack consumate",
+      "desc": "- Stack Max: 7\n- Quando questa unità viene Stordita, consuma tutte le Stack di Batteria per Scudo di Emergenza e ottiene Scudo Energetico pari alle Stack consumate",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodArmorCasting",
       "name": "Sangue Coagulato Fuso",
-      "desc": "- Stack Max: 3\n- Negli Scontri contro i nemici con Sanguinamento o Sanguinamento Speciale, Potere Scontro +1\n- Quando si consuma Emofagia con un'Abilità Attacco, se non vi è Emofagia sufficente, consuma 1 PV per ogni 1 Emofagia mancante per generarlo prima di consumarlo (i danni da questo effetto non possono far Vacillare o ridurre i PV dell'unità sotto a 1)\n- Si riduce di 1 a Fine Turno",
+      "desc": "- Stack Max: 3\n- Negli Scontri contro i nemici con Sanguinamento o Sanguinamento Speciale, Potere Scontro +1\n- Quando si consuma Emofagia con un'Abilità Attacco, se non vi è Emofagia sufficente, consuma 1 PV per ogni 1 Emofagia mancante per generarlo prima di consumarlo (i danni da questo effetto non possono Stordite o ridurre i PV dell'unità sotto a 1)\n- Si riduce di 1 a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -3303,7 +3303,7 @@
     {
       "id": "YisangWeapon05Sledgehammer",
       "name": "Mentre spacchi la nuca con un martello...",
-      "desc": "- Questa Moneta infligge danno Contundente\n- Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, aumenta la soglia di Vacillamento del bersaglio di 3",
+      "desc": "- Questa Moneta infligge danno Contundente\n- Questa Moneta infligge +5% danni\n- Sul Colpo senza Rottura Moneta, aumenta la Soglia di Stordimento del bersaglio di 3",
       "summary": "",
       "undefined": "-",
       "flavor": ""

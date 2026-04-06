@@ -266,7 +266,7 @@
     {
         "id": 9434,
         "name": "Specchio a Mano",
-        "desc": "Primo Inizio Turno di un'ondata: seleziona 2 nemici con la Velocità più bassa (o 2 parti casuali di un'Anormalità; l'effetto non si accumula se il nemico è unico) e infligge 5 [Binding] e 3 [DefenseDown] ad Inizio Turno a partire dal turno successivo.\n\nQuando un nemico si riprende dal Vacillamento e non ha più soglie di Vacillamento rimanenti, crea una nuova soglia di Vacillamento al 66% dei PV attuali del bersaglio (3 volte per Incontro). Se un alleato fa Vacillare un nemico con un'Abilità di Attacco (eccetto le Abilità E.G.O) che applica Potenza o Conteggio [Vibration] (inclusi quelli su se stessi o sugli alleati), infligge casualmente ad altri nemici (o altre parti di Anormalità) Potenza [Vibration] pari alla metà di quella sul bersaglio, e raddoppia la Potenza [Vibration] sul bersaglio in Vacillamento.",
+        "desc": "Primo Inizio Turno di un'ondata: seleziona 2 nemici con la Velocità più bassa (o 2 parti casuali di un'Anormalità; l'effetto non si accumula se il nemico è unico) e infligge 5 [Binding] e 3 [DefenseDown] ad Inizio Turno a partire dal turno successivo.\n\nQuando un nemico si riprende dallo Stordimento e non ha più Soglie di Storimento rimanenti, crea una nuova Soglia di Stordimento al 66% dei PV attuali del bersaglio (3 volte per Incontro). Se un alleato Stordisce un nemico con un'Abilità Attacco (eccetto le Abilità E.G.O) che applica Potenza o Conteggio [Vibration] (inclusi quelli su sé stessi o sugli alleati), infligge casualmente ad altri nemici (o altre parti di Anormalità) Potenza [Vibration] pari alla metà di quella sul bersaglio, e raddoppia la Potenza [Vibration] sul bersaglio Stordito.",
         "simpleDesc": [
             {
                 "abilityID": 9433,
@@ -274,11 +274,11 @@
             },
             {
                 "abilityID": 94331,
-                "simpleDesc": "Crea una nuova soglia di Vacillamento al 66% dei PV attuali del bersaglio"
+                "simpleDesc": "Crea una nuova Soglia di Stordimento al 66% dei PV attuali del bersaglio"
             },
             {
                 "abilityID": 94332,
-                "simpleDesc": "Raddoppia la Potenza [Vibration] sul bersaglio in Vacillamento."
+                "simpleDesc": "Raddoppia la Potenza [Vibration] sul bersaglio Stordito."
             }
         ]
     }

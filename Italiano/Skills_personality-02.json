@@ -348,21 +348,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 20% dell'incremento della Soglia di Vacillamento causato dallo [VibrationExplosion]. (Max 13)"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 20% dell'incremento della Soglia di Stordimento causato dallo [VibrationExplosion]. (Max 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 20% dell'incremento della Soglia di Vacillamento causato dallo [VibrationExplosion]. (Max 13)"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 20% dell'incremento della Soglia di Stordimento causato dallo [VibrationExplosion]. (Max 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 20% dell'incremento della Soglia di Vacillamento causato dallo [VibrationExplosion]. (Max 13)\nRiduce il Conteggio [Vibration] di 3"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 20% dell'incremento della Soglia di Stordimento causato dallo [VibrationExplosion]. (Max 13)\nRiduce il Conteggio [Vibration] di 3"
                 }
               ]
             }
@@ -376,21 +376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 30% dell'incremento della Soglia di Vacillamento causato dallo [VibrationExplosion]. (Max 20)"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 30% dell'incremento della Soglia di Stordimento causato dallo [VibrationExplosion]. (Max 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 30% dell'incremento della Soglia di Vacillamento causato dallo [VibrationExplosion]. (Max 20)"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 30% dell'incremento della Soglia di Stordimento causato dallo [VibrationExplosion]. (Max 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 30% dell'incremento della Soglia di Vacillamento causato dallo [VibrationExplosion]. (Max 20)\nRiduce il Conteggio [Vibration] di 3"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion],\nPoi infligge Danni da Ira del 30% dell'incremento della Soglia di Stordimento causato dallo [VibrationExplosion]. (Max 20)\nRiduce il Conteggio [Vibration] di 3"
                 }
               ]
             }
@@ -1722,7 +1722,7 @@
         {
           "level": 1,
           "name": "Protezione Gambeleste",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto 'Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole'\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può Vacillare per i danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto 'Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole'\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Protezione Gambeleste",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto 'Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole'\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può Vacillare per i danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto 'Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole'\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [

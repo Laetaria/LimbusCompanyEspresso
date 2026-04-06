@@ -86,7 +86,7 @@
     },
     {
       "id": "Vibration",
-      "desc": "Quando subisce un attacco che innesca Scoppio Vibrazione, alza la Soglia di Vacillamento di {0}. Dura {1} turno/i."
+      "desc": "Quando subisce un attacco che innesca Scoppio Vibrazione, alza la Soglia di Stordimento di {0}. Dura {1} turno/i."
     },
     {
       "id": "DefAdderByStackCeilToInt",
@@ -94,7 +94,7 @@
     },
     {
       "id": "Crack",
-      "desc": "Quando Vacilla, e quando la somma di Potenza Vibrazione e Conteggio arriva a 20 o superiore, alza il Livello di Vacillamento di 1\nNon può superare il massimo Livello di Vacillamento con questo effetto"
+      "desc": "Quando questa unità viene Stordita e quando la somma di Potenza Vibrazione e Conteggio arriva a 20 o superiore, alza il Livello di Vacillamento di 1\nNon può superare il massimo Livello di Vacillamento con questo effetto"
     },
     {
       "id": "VibrationEcho",
@@ -242,7 +242,7 @@
     },
     {
       "id": "MRR509P",
-      "desc": "Infligge +{0}% danni contro Parti Distrutte o Vacillanti"
+      "desc": "Infligge +{0}% danni contro Parti Distrutte o Stordite"
     },
     {
       "id": "GiveBuffOnFirstRoundStartPerWave",
@@ -322,7 +322,7 @@
     },
     {
       "id": "MRR521",
-      "desc": "Rimuovo la prima Soglia di Vacillamento"
+      "desc": "Rimuove la prima Soglia di Stordimento"
     },
     {
       "id": "MRR557",
@@ -398,7 +398,7 @@
     },
     {
       "id": "RemoveFirstBreakSection",
-      "desc": "Rimuove la prima Soglia di Vacillamento"
+      "desc": "Rimuove la prima Soglia di Stordimento"
     },
     {
       "id": "MinSpeedAdderIncludeFirstTurn",

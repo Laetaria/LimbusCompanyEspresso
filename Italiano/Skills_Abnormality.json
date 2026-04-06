@@ -1432,7 +1432,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 10; Infligge 5 [Binding] nel prossimo turno"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 10; Infligge 5 [Binding] nel prossimo turno"
                 }
               ]
             }
@@ -1645,7 +1645,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Nail], questo Vacilla e rimuovi i [NailPersonality]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Nail], questo viene Stordito e rimuove i [NailPersonality]"
                 }
               ]
             }
@@ -1664,7 +1664,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Nail], questo Vacilla"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Nail], viene Stordito"
                 }
               ]
             },
@@ -1685,12 +1685,12 @@
         {
           "level": 1,
           "name": "Mi Prenderò La Tua Vita!",
-          "desc": "[DefeatDuel] Vacilla",
+          "desc": "[DefeatDuel] Viene Stordita",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Fa Vacillare il bersaglio e infligge 10 [Vulnerable] nel prossimo turno"
+                  "desc": "[OnSucceedAttack] Stordisce il bersaglio e infligge 10 [Vulnerable] nel prossimo turno"
                 }
               ]
             }
@@ -2850,7 +2850,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 20% dei danni inflitti"
                 }
               ]
             },
@@ -2860,7 +2860,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 20% dei danni inflitti"
                 }
               ]
             },
@@ -2870,7 +2870,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 20% dei danni inflitti"
                 }
               ]
             }
@@ -2892,7 +2892,7 @@
                   "desc": "[OnSucceedAttack] Il bersaglio perde 15 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 50% dei danni inflitti"
                 }
               ]
             }
@@ -3732,7 +3732,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento di 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 50% dei danni inflitti"
                 }
               ]
             }
@@ -3967,7 +3967,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio è in [DongbaekFullBloom], lo fa Vacillare e rimuove l'effetto"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è in [DongbaekFullBloom], lo Stordisce e rimuove l'effetto"
                 }
               ]
             },

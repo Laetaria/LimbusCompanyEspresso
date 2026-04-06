@@ -158,7 +158,7 @@
     {
       "id": 1100401,
       "name": "Júbilo Hedonista",
-      "desc": "Dopo una evasione riuscita, abbassa la propria Soglia di Vacillamento del Potere dell'Abilità di evasione con una probabilità del (5x Rison. Tristezza)%."
+      "desc": "Dopo una evasione riuscita, abbassa la propria Soglia di Stordimento del Potere dell'Abilità di evasione con una probabilità del (5x Rison. Tristezza)%."
     },
     {
       "id": 1110101,
@@ -553,17 +553,17 @@
     {
       "id": 1090501,
       "name": "Uscirò In Anticipo~",
-      "desc": "Ad uno [VibrationExplosion], spendi 3 Conteggio [Charge] per far salire la Soglia di Vacillamento del +40% in più.\nDopo aver attivato uno [VibrationExplosion], ottiene 1 [Agility] e 1 [HitDamageUp] il turno successivo."
+      "desc": "Ad uno [VibrationExplosion], spendi 3 Conteggio [Charge] per far salire la Soglia di Stordimento del +40% in più.\nDopo aver attivato uno [VibrationExplosion], ottiene 1 [Agility] e 1 [HitDamageUp] il turno successivo."
     },
     {
       "id": 1090521,
       "name": "Chiave Risonante",
-      "desc": "Quando 1 alleato con la Velocità più bassa attiva lo [VibrationExplosion], fà salire la Soglia di Vacillamento del +20% in più."
+      "desc": "Quando 1 alleato con la Velocità più bassa attiva lo [VibrationExplosion], fà salire la Soglia di Stordimento del +20% in più."
     },
     {
       "id": 1050501,
       "name": "Stanchezza Cronica",
-      "desc": "In uno Scontro, l'avversario ha -1 Potere Scontro se ha 5+ [Vibration].\nQuando si riprende dal Vacillamento, recupera 5% dei PV Max."
+      "desc": "In uno Scontro, l'avversario ha -1 Potere Scontro se ha 5+ [Vibration].\nQuando si riprende dallo Stordimento, recupera 5% dei PV Max."
     },
     {
       "id": 1050521,
@@ -780,17 +780,17 @@
     {
       "id": 1010501,
       "name": "In Certe Situazioni...",
-      "desc": "Dopo aver attivato [VibrationExplosion] su un nemico, infligge 1 [DefenseDown] per ogni aumento della Soglia di Vacillamento di 4 (Max 5 per 1 nemico ogni turno)"
+      "desc": "Dopo aver attivato [VibrationExplosion] su un nemico, infligge 1 [DefenseDown] per ogni aumento della Soglia di Stordimento di 4 (Max 5 per 1 nemico ogni turno)"
     },
     {
       "id": 1010521,
       "name": "Ripulire il Disastro",
-      "desc": "Quando 1 alleato con i PV Max più bassi innesca [VibrationExplosion] su un nemico, infligge 1 [DefenseDown] il turno successivo per ogni aumento della Soglia di Vacillamento di 4 (Max 3 per 1 nemico ogni turno)"
+      "desc": "Quando 1 alleato con i PV Max più bassi innesca [VibrationExplosion] su un nemico, infligge 1 [DefenseDown] il turno successivo per ogni aumento della Soglia di Stordimento di 4 (Max 3 per 1 nemico ogni turno)"
     },
     {
       "id": 1110501,
       "name": "Sicurezza Ubriaca",
-      "desc": "Dopo aver attivato [VibrationExplosion] su un nemico, infligge 30% dell'Aumento della Soglia di Vacillamento come danni da Accidia (Max 20; arrotondati in basso)"
+      "desc": "Dopo aver attivato [VibrationExplosion] su un nemico, infligge 30% dell'Aumento della Soglia di Stordimento come danni da Accidia (Max 20; arrotondati in basso)"
     },
     {
       "id": 1110521,
@@ -959,7 +959,7 @@
     {
       "id": 1110611,
       "name": "Redirezione",
-      "desc": "Quando Evade, ottiene 1 [Agility] il turno successivo; abbassa la Soglia di Vacillamento di questa unità di 5 (Max 3)"
+      "desc": "Quando Evade, ottiene 1 [Agility] il turno successivo; abbassa la Soglia di Stordimento di questa unità di 5 (Max 3)"
     },
     {
       "id": 1110621,
@@ -1039,7 +1039,7 @@
     {
       "id": 1060821,
       "name": "Illuminazione",
-      "desc": "Fine Attacco: Se il bersaglio è in stato Vacillante o sconfitto per l'attacco di 1 alleato con i PS più bassi, l'alleato cura 7 PS."
+      "desc": "Fine Attacco: Se il bersaglio è Stordito o sconfitto per l'attacco di 1 alleato con i PS più bassi, l'alleato recupera 7 PS."
     },
     {
       "id": 1010801,
@@ -1410,7 +1410,7 @@
     {
       "id": 1100902,
       "name": "Guscio Instabile dell'Ego",
-      "desc": "A Inizio Turno: A 40+ PS, consuma 20 PS ed va in stato di E.G.O Volatile::Ali di Cera. (Questo effetto a 'A Inizio Turno' non si attiva più volte)\n\nSe 2+ alleati vengono sconfitti in un solo turno, e se i propri PS non sono -45 A Fine Turno, metti i PS a 20; infine, va in stato di E.G.O Volatile::Ali di Cera. (Se sono raggiunte entrambe le condizioni contemporaneamente, la condizione che risulterebbe in PS più alti entra in effetto)\n\nSe questa unità diventa Vacillante a causa di danni o Soglia di Vacillamento alzata quando va in stato di E.G.O Volatile, si riprende dal Vacillamento. Se il Vacillamento è qualcosa da cui non si può riprendere naturalmente, questa unità non va nello stato di E.G.O Volatile.\n\nOttiene [UnstableFeeling] quando è in stato di E.G.O Volatile.\n\nA Inizio Turno: A 0 o meno PS, esce dallo stato di E.G.O Volatile::Ali di Cera.",
+      "desc": "A Inizio Turno: A 40+ PS, consuma 20 PS ed va in stato di E.G.O Volatile::Ali di Cera. (Questo effetto a 'A Inizio Turno' non si attiva più volte)\n\nSe 2+ alleati vengono sconfitti in un solo turno, e se i propri PS non sono -45 A Fine Turno, metti i PS a 20; infine, va in stato di E.G.O Volatile::Ali di Cera. (Se sono raggiunte entrambe le condizioni contemporaneamente, la condizione che risulterebbe in PS più alti entra in effetto)\n\nSe questa unità viene Stordita a causa di danni o per l'aumento della Soglia di Stordimento quando entra nello stato di E.G.O Volatile, si riprende dallo Stordimento. Se non può riprendersi naturalmente dallo Stordimento, questa unità non entra nello stato di E.G.O Volatile.\n\nOttiene [UnstableFeeling] quando è in stato di E.G.O Volatile.\n\nA Inizio Turno: A 0 o meno PS, esce dallo stato di E.G.O Volatile::Ali di Cera.",
       "summary": " "
     },
     {
@@ -1480,11 +1480,11 @@
     {
       "id": 1040901,
       "name": "N.O.",
-      "desc": "- Quando un altro alleato fa Vacillare un nemico con un attacco: seguita con un'Abilità 1 contro il nemico Vacillante. (1 volta per Turno)\n- Se multipli nemici Vacillano contemporaneamente, bersaglia il nemico con meno PV(per le Anormalità, bersaglia l'Anormalità con meno PV; infine, bersaglia la Parte con meno PV).\n- Quando usa l'Abilità 1 con questo effetto, questa unità ottiene +1 Conteggio [Vibration] dagli effetti delle sue Monete, e causa uno [VibrationExplosion] con l'ultima Moneta Sul Colpo"
+      "desc": "- Quando un altro alleato Stordisce un nemico con un attacco: seguita con un'Abilità 1 contro il nemico Stordito. (1 volta per Turno)\n- Se più nemici sono Storditi contemporaneamente, bersaglia il nemico con meno PV (per le Anormalità, bersaglia l'Anormalità con meno PV; infine, bersaglia la Parte con meno PV).\n- Quando usa l'Abilità 1 con questo effetto, questa unità ottiene +1 Conteggio [Vibration] dagli effetti delle sue Monete, e causa uno [VibrationExplosion] con l'ultima Moneta Sul Colpo"
     },
     {
       "id": 1040921,
-      "name": "La R.È",
+      "name": "La R.È.",
       "desc": "L'alleato Schierato #1 ottiene +1 Conteggio [Vibration] dagli effetti delle sue Abilità o Monete (2 volte per turno)"
     },
     {
@@ -1500,7 +1500,7 @@
     {
       "id": 1030901,
       "name": "Tempo D'Oro - Estrazione",
-      "desc": "A Fine Turno: Se i PV di questa unità sono tra 10% ~ 20%, si cura immediatamente 80% dei propri PV massimi, e si riprende dal Vacillamento. (Una volta per Incontro)\n\nQuando questa unità perde [TimeRentalTwoPersonality], ottiene +8 [Aggro] su uno dei suoi Slot Abilità il turno successivo"
+      "desc": "A Fine Turno: Se i PV di questa unità sono tra 10% ~ 20%, si cura immediatamente 80% dei propri PV massimi, e si riprende dallo Stordimento. (Una volta per Incontro)\n\nQuando questa unità perde [TimeRentalTwoPersonality], ottiene +8 [Aggro] su uno dei suoi Slot Abilità il turno successivo"
     },
     {
       "id": 1030921,
@@ -1510,7 +1510,7 @@
     {
       "id": 1090901,
       "name": "Tempo D'Oro - Stallo",
-      "desc": "A Fine Turno: se i PV di questa unità sono tra 16% ~ 20%, si cura immediatamente fino a 60% dei PV Max, e si riprende dal Vacillamento. (Una volta per Incontro)\n\nNello Scontro contro i bersagli con [TimeSuspend], Potere Scontro +2\nSubisci -10% danni dai bersagli con [TimeSuspend]"
+      "desc": "A Fine Turno: se i PV di questa unità sono tra 16% ~ 20%, si cura immediatamente fino a 60% dei PV Max, e si riprende dallo Stordimento. (Una volta per Incontro)\n\nNello Scontro contro i bersagli con [TimeSuspend], Potere Scontro +2\nSubisci -10% danni dai bersagli con [TimeSuspend]"
     },
     {
       "id": 1090921,
@@ -1579,7 +1579,7 @@
     {
       "id": 1071002,
       "name": "Dullahan",
-      "desc": "- A Inizio Turno: se questa unità ha [NightPathfinding], sale su [NightPathfinding].\n- Perde 5 PS ogni volta che questa unità sale su [NightPathfinding]\n- Se 3+ alleati sono stati sconfitti in questo Incontro, ottiene [NightPathfinding] il turno successivo. (Una volta per Incontro)\n- Se questa unità diventa Vacillante a causa di danni o Soglia di Vacillamento alzata quando sale su [NightPathfinding], si riprende dal Vacillamento. Se il Vacillamento è qualcosa da cui non si può riprendere naturalmente, questa unità non sale su [NightPathfinding].\n\n- Ottiene 1 [Coffin] quando uccide il bersaglio."
+      "desc": "- A Inizio Turno: se questa unità ha [NightPathfinding], sale su [NightPathfinding].\n- Perde 5 PS ogni volta che questa unità sale su [NightPathfinding]\n- Se 3+ alleati sono stati sconfitti in questo Incontro, ottiene [NightPathfinding] il turno successivo. (Una volta per Incontro)\n- Se questa unità viene Stordita a causa di danni o per l'aumento della Soglia di Stordimento su [NightPathfinding], si riprende dallo Stordimento. Se non può riprendersi naturalmente dallo Stordimento, questa unità non sale su [NightPathfinding].\n\n- Ottiene 1 [Coffin] quando uccide il bersaglio."
     },
     {
       "id": 1071001,
@@ -1928,7 +1928,7 @@
     {
       "id": 1021101,
       "name": "Ignifuga",
-      "desc": "Non può Vacillare o finire sotto 1 PV a causa dei danni da [Combustion]."
+      "desc": "Non può essere Stordito o finire sotto 1 PV a causa dei danni da [Combustion]."
     },
     {
       "id": 1021111,
@@ -2012,7 +2012,7 @@
     {
       "id": 1121101,
       "name": "Sono l'Unico Sopravvissuto...",
-      "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Bramasangue>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità fa Vacillare o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (1 volta per turno)\n- negli Incontri Mirati, sulle Parti",
+      "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Bramasangue>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità Stordisce o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (1 volta per turno)\n- negli Incontri Mirati, sulle Parti",
       "summary": "Deal more damage based on [FirePunchFuel] and [FirePunchFuelOverheated] consumed\nInflict [Combustion] Count against 2 random enemies (once per turn)"
     },
     {
@@ -2156,7 +2156,7 @@
     {
       "id": 1081221,
       "name": "Risoluzione Residua [餘桓]",
-      "desc": "Se questa unità viene sconfitta in un Incontro, applica [CheerUpXichun] all'Identità che entra dalla Riserva (l'unità di Riserva con l'Ordine di Schieramento più alto) il turno successivo\n\nNelle Battaglie Consecutive, se questa unità è di Riserva o si è Ritirata, attiva la seguente:\n- Inizio Combattimento: Tra le Identità che: 1) sono a 50% PV o sotto, e 2) hanno usato un'Abilità Difensiva, sceglie l'Identità con l'Ordine di Schieramento più veloce. A Fine Turno, quell'Identità si riprende dal Vacillamento causato dai danni e effettua una [RetreatForCommon] (2 volte per Incontro)",
+      "desc": "Se questa unità viene sconfitta in un Incontro, applica [CheerUpXichun] all'Identità che entra dalla Riserva (l'unità di Riserva con l'Ordine di Schieramento più alto) il turno successivo\n\nNelle Battaglie Consecutive, se questa unità è di Riserva o si è Ritirata, attiva la seguente:\n- Inizio Combattimento: Tra le Identità che: 1) sono a 50% PV o sotto, e 2) hanno usato un'Abilità Difensiva, sceglie l'Identità con l'Ordine di Schieramento più veloce. A Fine Turno, quell'Identità si riprende dallo Stordimento causato da danni ed effettua una [RetreatForCommon] (2 volte per Incontro)",
       "summary": "Fine Turno: Fa Ritirare l'Identità che, a Inizio Combattimento, ha 50% o meno PV e ha usato un'Abilità Difensiva questo turno"
     },
     {
@@ -2186,7 +2186,7 @@
     {
       "id": 1051202,
       "name": "Chachihu [揷翅虎]",
-      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha preparato delle Abilità Difensive per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità Vacilla: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (1 volta per Incontro)\n- Se questo effetto si attiva quando questa unità Vacilla, si riprende dal Vacillamento (escluso il Vacillamento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellantAlly] e [BulletPropellantSpecialAlly] spesi), converte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità Attacco Base che consuma l'ultimo [BulletPropellantSpecialAlly]...\n- Ottiene Portata Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
+      "desc": "Sempre Attiva: inizia l'Incontro con 12 [BulletPropellantAlly]\n\nQuando lancia una Moneta che usa [BulletPropellantAlly] o [BulletPropellantSpecialAlly]: anche se non avere [FireBulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nSe questa unità ha preparato delle Abilità Difensive per la prima volta in questo Incontro, o se questa unità ha esaurito tutte le sue [BulletPropellantAlly], o se questa unità viene Stordita: alla fine di quel turno, ricarica 8 [BulletPropellantSpecialAlly] e ottiene 1 [IrritationAlly] (1 volta per Incontro)\n- Se questo effetto si attiva quando questa unità viene Stordita, si riprende dallo Stordimento (escluso lo Stordimento forzato)\n- Rimuove ogni [BulletPropellantAlly] se questa unità aveva [BulletPropellantAlly] rimanenti\n- A 8+ (somma di [BulletPropellantAlly] e [BulletPropellantSpecialAlly] spesi), converte [IrritationAlly] in [HugeIrritationAlly]\n\nQuando questa unità usa un'Abilità Attacco Base che consuma l'ultimo [BulletPropellantSpecialAlly]...\n- Ottiene Portata Attacco +2 prima di attaccare\n- Ottiene 1 [BeastEyesAlly] il turno seguente",
       "summary": ""
     },
     {
@@ -2297,13 +2297,13 @@
     {
       "id": 1111301,
       "name": "Tempo D'oro' - Microcavità",
-      "desc": "Fine Turno: Se i PV di questa unità sono tra 10% ~ 20%, si cura immediatamente di 80% dei suoi PV massimi, e si riprende da Vacillamento. (1 volta per Incontro)\n\nSe questa unità ha [TimeRentalTwoPersonality], le sue Abilità ottengono Potere Finale +1",
+      "desc": "Fine Turno: Se i PV di questa unità sono tra 10% ~ 20%, si cura immediatamente di 80% dei suoi PV massimi, e si riprende dallo Stordimento (1 volta per Incontro).\n\nSe questa unità ha [TimeRentalTwoPersonality], le sue Abilità ottengono Potere Finale +1",
       "summary": "Instato di [TimeRentalTwoPersonality], le Abilità ottengono Potere Finale +1"
     },
     {
       "id": 1111321,
       "name": "Solerte Esecuzione di Doveri Ufficiali",
-      "desc": "1 alleato con la Velocità maggiore infligge +10% danni quando attacca un bersaglio Vacillante."
+      "desc": "1 alleato con la Velocità maggiore infligge +10% danni quando attacca un bersaglio Stordito."
     },
     {
       "id": 1061302,
@@ -2326,7 +2326,7 @@
     {
       "id": 1101402,
       "name": "Gallo da Caccia",
-      "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene l'effetto seguente come effetto della [HeishouComboCountHonglu]:\n- Quando usa un'Abilità che infligge Potenza o Conteggio [Burst], infligge 1 [Combustion] (3 volte per turno)\n\nNon può Vacillare o scendere sotto 1 PV a causa dei danni [Combustion].\n\nOttiene 3 [ChickenStance] nello stesso turno in cui entra di Riserva o Ritorna."
+      "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene l'effetto seguente come effetto della [HeishouComboCountHonglu]:\n- Quando usa un'Abilità che infligge Potenza o Conteggio [Burst], infligge 1 [Combustion] (3 volte per turno)\n\nNon può essere Stordito o scendere sotto 1 PV a causa dei danni da [Combustion].\n\nOttiene 3 [ChickenStance] nello stesso turno in cui entra di Riserva o Ritorna."
     },
     {
       "id": 1101401,
@@ -2376,11 +2376,11 @@
     {
       "id": 1041202,
       "name": "Presa Che Vieta di Cadere",
-      "desc": "Quando Vacilla, ottiene 4 [Protection] e ottiene [ContemptPersonality] il turno successivo (1 volta per Incontro)\n\nAlla morte, applica i seguenti effetti ai 3 nemici con il più [GazeRyoshu] o [ContemptRyoshu] (in ordine discendente; negli Incontri Mirati, alle Parti)\n- Infligge 2 [Binding] il turno successivo\n- Infligge 2 [Laceration] e +1 Conteggio [Laceration]\n- Infligge 2 [Vibration] e +1 Conteggio [Vibration]"
+      "desc": "Quando l'unità viene Stordita, ottiene 4 [Protection] e [ContemptPersonality] il turno successivo (1 volta per Incontro)\n\nAlla morte, applica i seguenti effetti ai 3 nemici con il più [GazeRyoshu] o [ContemptRyoshu] (in ordine discendente; negli Incontri Mirati, alle Parti)\n- Infligge 2 [Binding] il turno successivo\n- Infligge 2 [Laceration] e +1 Conteggio [Laceration]\n- Infligge 2 [Vibration] e +1 Conteggio [Vibration]"
     },
     {
       "id": 1041203,
-      "name": "Lasciate che vi mostri qualcosa di molto interessante",
+      "name": "Lasciate che Vi Mostri Qualcosa di Molto Interessante",
       "desc": "Inizio Combattimento: L'Abilità di E.G.O della N Corp.::<noparse>Proiettile Crudele</noparse> 'Fuoco al Bersaglio Cambiato' ottiene i seguenti effetti:\n- Prima di usare l'Abilità, se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū ha [ContemptPersonality] e può usare le sue Abilità base, usa \"Farò Fuoco / Quando Vuoi\" contro Ryōshū (1 volta per turno; 'Farò Fuoco / Quando Vuoi' riflette il Grado Legame di Yi Sang)\n- Prima di usare l'Abilità, se il bersaglio principale non è E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū, e se può usare le sue Abilità base, Ryōshū usa la sua Abilità 1 come Attacco Incontrastato contro il bersaglio principale (1 volta per turno; [CantIdentify]; Abilità 1 infligge -50% danni; l'Abilità non uccide il bersaglio principale)"
     },
     {
@@ -2444,106 +2444,106 @@
     {
       "id": 1051303,
       "name": "Responsabilità Di Un Ex Principe",
-      "desc": "Inizio Turno: I seguenti effetti si attivano per le Identità di La Manchaland con le Stack massime di [BloodArmorMeursault] \n· Ottiene 1 [FocusOnActing]\n· Quando Vacilla a causa di danni, si riprende dal Vacillamento; infine, consuma ogni [BloodArmorMeursault] su id sé (una volta per Sezione per Identità; escluso Vacillare forzato)\n\nSe La Principessa di La Manchaland Rodion è in combattimento, sia lei che il Principe di La Manchaland Meursault infliggono +15% danni con la loro Abilità 3 (incluse le Abilità Potenziate)",
+      "desc": "Inizio Turno: I seguenti effetti si attivano per le Identità di La Manchaland con le Stack massime di [BloodArmorMeursault] \n· Ottiene 1 [FocusOnActing]\n· Quando l'unità viene Stordita di danni, si riprende dallo Stordimento; infine, consuma ogni [BloodArmorMeursault] su id sé (una volta per Sezione per Identità; escluso Stordimento forzato)\n\nSe La Principessa di La Manchaland Rodion è in combattimento, sia lei che il Principe di La Manchaland Meursault infliggono +15% danni con la loro Abilità 3 (incluse le Abilità Potenziate)",
       "summary": "Meursault & Rodion deal +15% damage with their Skill 3"
     },
     {
       "id": 1051321,
-      "name": "Fa Straboccare il Calice",
+      "name": "Fa' Straboccare il Calice",
       "desc": "Per questo turno, moltiplica la quantità di [BloodDinner] generato per 1.5 (2 volte per Incontro; arrotondato per difetto)"
     },
     {
       "id": 1081301,
       "name": "Truccare il Mazzo",
-      "desc": "On Tails Hit, heal 5 SP (once per turn)\nDeal +10% damage against targets in either Low Morale or Panic states",
-      "summary": "Heal SP\nDeal more damage against Low Morale or Panicked targets"
+      "desc": "Se Croce Colpisca, recupera 5 PS (una volta per turno)\nInfligge +10% danni ai nemici con Morale Basso o in Panico",
+      "summary": "Recupera PS\nInfligge più danno ai nemico con Morale Basso o in Panico"
     },
     {
       "id": 1081302,
       "name": "Koi-Koi [こいこい]",
-      "desc": "Turn Start: if this unit does not have [HanafudaCombo], gain 0 [HanafudaCombo] Potency and 3 [HanafudaCombo] Count\n\nTurn Start: if this unit does not have a Suit in Hand, gain a random Suit([HanafudaOne], [HanafudaTwo], or [HanafudaThree]) that corresponds to a Base Attack Skill on this unit's leftmost Skill Slot\n\nCombat Start: when this unit uses a Base Attack Skill or an E.G.O Skill equipped on its leftmost Skill Slot, activate the following (once per turn):\n- Next turn, convert the Hand on self to the one corresponding to the used Skill's Affinity\n- If the Skill was either \"Sakura-sen\" or an E.G.O Skill, gain 1 [HanafudaCombo] Potency\n- If the Skill's Affinity matches the Affinity on the current Hand's description(thus \"forming a Hand\"), activate the following:\n  · Gain 1 [HanafudaCombo] Potency\n  · If this unit formed a Hand last turn and this turn in succession, gain 1 [HanafudaCombo] Potency\n  · On Hit with the said Skill: trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n  · 25% chance to gain 1 E.G.O Resource corresponding to the Skill's Affinity\n- At the Skill's Skill End: at 5 [HanafudaCombo] Potency, or at 0 [HanafudaCombo] Count, use \"Kōzan\"",
-      "summary": "When forming a Hand, gain [HanafudaCombo]. Trigger Tremor Burst."
+      "desc": "Inizio Turno: se questa unità non ha [HanafudaCombo], ottiene 0 Potenza [HanafudaCombo] e 3 Conteggio [HanafudaCombo]\n\nInizio Turno: se questa unità non ha un Seme in mano, ottiene un Seme casuale ([HanafudaOne], [HanafudaTwo], o [HanafudaThree]) che corrisponde ad un'Abilità Attacco Base sullo Slot Abilità più a sinistra di questa unità\n\nInizio Combattimento: quando questa unità usa un'Abilità Attacco Base o un'Abilità E.G.O presente sullo Slot Abilità più a sinistra, attiva il seguente effetto (una volta per turno):\n- Il turno successivo, converte la Mano su di sé a quella corrispondente all'Affinità Peccato dell'Abilità usata\n- Se l'Abilità era o \"Sakura-sen\" o un'Abilità E.G.O, ottiene 1 Potenza [HanafudaCombo]\n- Se l'Affinità dell'Abilità corrisponde all'Affinità nella descrizione della Mano corrente (dunque \"crea una Mano\"), attiva il seguente effetto:\n  · Ottiene 1 Potenza [HanafudaCombo]\n  · Se questa unità ha formato una Mano di seguito nel turno precedente e in questo turno, gain 1 Potenza [HanafudaCombo]\n  · Sul Colpo con la suddetta Abilità: innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n  · 25% di possibilità di ottenere 1 Risorsa E.G.O corrispondente all'Affinità dell'Abilità\n- A Fine Attacco dell'Abilità: a 5 Potenza [HanafudaCombo], o a 0 Conteggio [HanafudaCombo], usa \"Kōzan\"",
+      "summary": "Quando crea una Mano, ottiene [HanafudaCombo]. Innesca Scoppio Vibrazione."
     },
     {
       "id": 1081321,
       "name": "Relè",
-      "desc": "Combat Start: when 1 ally with the least SP uses a Base Attack Skill to Heads Hit, it heals 5 SP (2 times per turn; excluding allies at -40 or lower SP)",
+      "desc": "Inizio Combattimento: quando 1 alleato con i PS più bassi usa un'Abilità Attacco Base e Testa Colpisce, l'alleato recupera 5 PS (2 volte per turno; esclusi alleati con -40 PS o inferiore)",
       "summary": "Heal SP"
     },
     {
       "id": 1121302,
       "name": "Pietà Indolore",
-      "desc": "Unless Reused via external effects, Night Awl Capitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
-      "summary": "Use 'Mercé'",
+      "desc": "A meno che non venga riusata da effetti esterni, l'Abilità 'Mercé' di Capitano delle Daghe Notturne Gregor può essere usata fino a 2 volte per turno",
+      "summary": "Usa 'Mercé'",
       "undefined": "-"
     },
     {
       "id": 1121301,
       "name": "Epuratore delle Famiglie",
-      "desc": "When this unit kills an enemy or breaks a Part, gain 1 [PenetrateResultUp] next turn (once per turn)\n\nWhen using a Base Attack Skill, if this unit's Speed is faster than the target's, inflict [Disarming] on the target for every 2 Speed difference (max 1 per turn)\n\nAfter ally Attack using Base Attack Skills, if the enemy(Core) has 20%- HP, use 'Mercé' on the target (once per turn)",
-      "summary": "Gain [PenetrateResultUp]\nInflict [Disarming]\nUse 'Mercé'",
+      "desc": "Quando questa unità uccide un nemico o rompe una Parte, ottiene 2 [PenetrateResultUp] il turno successivo (una volta per turno)\n\nQuando usa un'Abilità Attacco Base, se la Velocità dell'unità è più alta di quella del bersaglio, infligge [Disarming] sul bersaglio per ogni 2 differenza di Velocità (max 1 per turno)\n\nDopo che un alleato attacca con un'Abilità Attacco Base, se il nemico (Nucleo) ha 20%- PV, usa 'Mercé' sul bersaglio (una volta per turno)",
+      "summary": "Ottiene [PenetrateResultUp]\nInfligge [Disarming]\nUsa 'Mercé'",
       "undefined": "-"
     },
     {
       "id": 1121311,
       "name": "Epuratore delle Famiglie",
-      "desc": "When this unit kills an enemy or breaks a Part, gain 2 [PenetrateResultUp] next turn (once per turn)\n\nWhen using a Base Attack Skill, if this unit's Speed is faster than the target's, inflict [Disarming] on the target for every 2 Speed difference (max 2 per turn)\n\nAfter ally Attack using Base Attack Skills, if the enemy(Core) has 20%- HP, use 'Mercé' on the target (once per turn)\n- If there is only 1 surviving enemy after an attack, this Passive also activates when the target is Staggered",
-      "summary": "Gain [PenetrateResultUp]\nInflict [Disarming]\nUse 'Mercé'",
+      "desc": "Quando questa unità uccide un nemico o rompe una Parte, ottiene 2 [PenetrateResultUp] il turno successivo (una volta per turno)\n\nQuando usa un'Abilità Attacco Base, se la Velocità dell'unità è più alta di quella del bersaglio, infligge [Disarming] sul bersaglio per ogni 2 differenza di Velocità (max 1 per turno)\n\nDopo che un alleato attacca con un'Abilità Attacco Base, se il nemico (Nucleo) ha 20%- PV, usa 'Mercé' sul bersaglio (una volta per turno)\n- Se c'è solo 1 nemico sopravvissuto dopo un attacco, questa Passiva si attiva anche quando il bersaglio è Stordito",
+      "summary": "Ottiene [PenetrateResultUp]\nInfligge [Disarming]\nUsa 'Mercé'",
       "undefined": "-"
     },
     {
       "id": 1121321,
       "name": "Mira all'Apertura",
-      "desc": "1 ally with the highest Speed: When using a Base Attack Skill, if this unit's Speed is faster than the main target's, inflict [Disarming] on the target for every 3 Speed difference (max 2 per turn)",
-      "summary": "Inflict [Disarming]",
+      "desc": "1 alleato con la Velocità maggiore: quando usa un'Abilità Attacco Base, se la Velocità di questa unità è maggiore di quella del bersaglio principale, infligge [Disarming] sul bersaglio per ogni 3 differenza di Velocità (max 2 per turno)",
+      "summary": "Infligge [Disarming]",
       "undefined": "-"
     },
     {
       "id": 1071402,
       "name": "Gallo da Caccia",
-      "desc": "When activating [HeishouCombo], The Lord of Hongyuan Hong Lu gains the following effect as the [HeishouComboCountHonglu] effect:\n- On Hit with this unit's Base Attack Skill: Deal 5% of Gluttony damage dealt as Wrath damage\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage.\n\nGain 3 [ChickenStance] and +3 [Combustion] Count in the same turn it Substitutes or Returns in.",
+      "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene il seguente effetto come effetto di [HeishouComboCountHonglu]:\n- Sul Colpo con le Abilità Attacco Base di questa unità: Infligge 5% del danno Gola inflitto come danno Ira\n\nNon può essere Stordito o scendere al di sotto di 1 PV per danni da [Combustion].\n\nOttiene 3 [ChickenStance] e +3 Conteggio [Combustion] nello stesso turno in cui Sostituisce un'unità o Rientra in campo.",
       "summary": ""
     },
     {
       "id": 1071401,
       "name": "Tempesta di Lame Sanguinarie",
-      "desc": "Combat Start: gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (max 3)\n\nGain [ChickenFightlust] when meeting one of the following conditions: (10 per turn)\n- Gain 3 at Clash Start\n- Gain 1 when this unit hits with a Base Attack Skill or when this unit takes [Combustion] damage\nAt less than 50% HP, gain 1 more [ChickenFightlust]\n- Gain 5 On Kill",
-      "summary": "Gain [ChickenFightlust]"
+      "desc": "Inizio Combattimeno: ottiene 1 [AttackUp] e 1 [DefenseUp] per ogni 20% PV mancanti su di sé (max 3)\n\nOttiene [ChickenFightlust] quando ottiene una delle seguenti condizioni: (10 per turno)\n- Ottiene 3 a Inizio Scontro\n- Ottiene 1 quando questa unità colpisce con un'Abilità Attacco Base o quando questa unità subisce danno da [Combustion]\nA meno del 50% PV, ottiene 1 [ChickenFightlust] in più\n- Ottiene 5 Se Uccide",
+      "summary": "Ottiene [ChickenFightlust]"
     },
     {
       "id": 1071403,
-      "name": "Flame Rooster's Death Defiance [炎鳥不死戰]",
-      "desc": "In this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn.\nThen, at the next Turn Start, heal (20 + [Combustion] on self)% HP, and remove all [Combustion] on self (max 49%; once per Encounter)",
+      "name": "Il Disprezzo della Morte del Gallo Fiammante [炎鳥不死戰]",
+      "desc": "In questo Combattimento, quando questa unità subisce danno che porta i suoi PV a 0, annulla quel danno; infine, i PV di questa unità non possono scendere al di sotto di 1 per il turno.\nAl prossimo Inizio Turno, recupera (20 + [Combustion] su di sé)% PV e rimuove tutta la [Combustion] su di sé (max 49%; una volta per Incontro)",
       "summary": "Ignora la morte"
     },
     {
       "id": 1071421,
       "name": "Con Le Spalle al Fiume",
-      "desc": "Turn End: if an ally with the lowest current HP percentage has less than 50% HP, that unit gains 1 [ParryingResultUp] next turn",
+      "desc": "Fine Turno: se un alleato con la percentuale corrente minore di PV ha meno del 50% PV, quella unità ottiene 1 [ParryingResultUp] il turno successivo",
       "summary": ""
     },
     {
       "id": 1031301,
       "name": "Ariete Esplosivo",
-      "desc": "Deal +1% damage for every 2 ([Burst] + [Sinking]) on target (max 15%)\n- Double this effect and max value against targets without SP\n\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deals +10% damage\n- When attacking Skill Slot equipped with a Defense Skill, the last coin deals +20% damage instead\n- When Clashing with a Clashable Guard Skill, Clash Power +1",
-      "summary": "Deal more damage based on [Burst] and [Sinking] on target\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deal more damage"
+      "desc": "Infligge +1% danni per ogni 2 ([Burst] + [Sinking]) sul bersaglio (max 15%)\n- Raddoppia questo effetto ed il suo valore max ai bersagli senza PS\n\nSe questa unità ha [GrownHorns], l'ultima Moneta delle Abilità Base infligge +10% danni\n- Quando attacca uno Slot Abilità con selezionata un'Abilità Difensiva, l'ultima Moneta infligge invece +20% danni\n- Quando si Scontra con un'Abilità Guardia Scontrabile, Potere Scontro +1",
+      "summary": "Infligge più danno in base a [Burst] e [Sinking] sul bersaglio\nSe quest'unità ha [GrownHorns], l'ultima moneta delle Abilità Base di questa unità infligge più danno"
     },
     {
       "id": 1031311,
       "name": "Ariete Esplosivo",
-      "desc": "<style=\"highlight\">Deal (-Target's SP / 3)% more damage against targets at less than 0 SP (max 15%, rounded down)</style>\n\nDeal +1% damage for every 2 ([Burst] + [Sinking]) on target (max 15%)\n- Double this effect and max value against targets without SP\n\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deals <style=\"highlight\">+15%</style> damage\n- When attacking Skill Slot equipped with a Defense Skill, the last coin deals <style=\"highlight\">+30%</style> damage instead\n- When Clashing with a Clashable Guard Skill, Clash Power <style=\"highlight\">+3</style>",
-      "summary": "Deal more damage based on [Burst] and [Sinking] on target\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deal more damage"
+      "desc": "<style=\"highlight\">Infligge (-PS del bersaglio / 3)% più danno ai bersagli con meno di 0 PS (max 15%, arrotondato per difetto)</style>\n\nInfligge +1% danni per ogni 2 ([Burst] + [Sinking]) sul bersaglio (max 15%)\n- Raddoppia questo effetto ed il suo valore max ai bersagli senza PS\n\nSe questa unità ha [GrownHorns], l'ultima Moneta delle Abilità Base infligge <style=\"highlight\">+15%</style> danni\n- Quando attacca uno Slot Abilità con selezionata un'Abilità Difensiva, l'ultima Moneta infligge invece <style=\"highlight\">+30%</style> danni\n- Quando si Scontra con un'Abilità Guardia Scontrabile, Potere Scontro <style=\"highlight\">+3</style>",
+      "summary": "Infligge più danno in base a [Burst] e [Sinking] sul bersaglio\nSe quest'unità ha [GrownHorns], l'ultima moneta delle Abilità Base di questa unità infligge più danno"
     },
     {
       "id": 1031321,
       "name": "Corna Crescenti Strappa-Carne",
-      "desc": "Ally with the fastest Speed: On Hit with a Base Attack Skill against enemies with 2+ [Burst] Count or [Sinking] Count, inflict 1 [DefenseDown] (2 times per turn)",
-      "summary": "On Hit with a Base Attack Skill against enemies with [Burst] or [Sinking], inflict 1 [DefenseDown]"
+      "desc": "Alleato con la Velocità maggiore: Sul Colpo con un'Abilità Attacco Base contro nemici con 2+ Conteggio [Burst] o Conteggio [Sinking], infligge 1 [DefenseDown] (2 volte per turno)",
+      "summary": "Sul Colpo con un'Abilità Attacco Base contro nemici con [Burst] oo [Sinking], infligge 1 [DefenseDown]"
     },
     {
       "id": 1031302,
       "name": "Lamento della Pecora Smarrita [亡羊之嘆]",
-      "desc": "When activating [HeishouCombo], The Lord of Hongyuan Hong Lu gains the following effect as the [HeishouComboCountHonglu] effect:\n- Inflict 1 [Sinking] upon inflicting [Burst] Potency or Count by using a Skill (3 times per turn)\n\nOn the turn this unit Substituted or Returned to the field, gain 3 [GrownHorns]",
+      "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene il seguente effetto come effetto di [HeishouComboCountHonglu]:\n- Infligge 1 [Sinking] appena infligge Potenza o Conteggio [Burst] quando usa un'Abilità (3 volte per turno)\n\nNel turno in cui questa unità Sostituisce o Rientra in campo, ottiene 3 [GrownHorns]",
       "summary": "The Lord of Hongyuan Hong Lu gains special effect"
     },
     {
@@ -2607,7 +2607,7 @@
     {
       "id": 1021402,
       "name": "Prescritto Consegnato Su Un Foglietto",
-      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] in base a [BlessingOfIndexPrescriptAlly] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte casuale)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Base di quest'Unità sul Pannello Di Controllo (1 per Slot, max 2 Abilità)\n· A 6+ [BlessingOfIndexPrescriptAlly], l'effetto dà priorità all'Abilità 3\n- Tutti gli effetti sovracitati e [IndexPrescript_Base] non vengono effettuati se l'Unità Vacilla, è <noparse>Immobilizzata</noparse> o è sotto l'effetto di <noparse>Corrosione</noparse>",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] in base a [BlessingOfIndexPrescriptAlly] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte casuale)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Base di quest'Unità sul Pannello Di Controllo (1 per Slot, max 2 Abilità)\n· A 6+ [BlessingOfIndexPrescriptAlly], l'effetto dà priorità all'Abilità 3\n- Tutti gli effetti sovracitati e [IndexPrescript_Base] non vengono effettuati se l'Unità è Stordita, è <noparse>Immobilizzata</noparse> o è sotto l'effetto di <noparse>Corrosione</noparse>",
       "summary": "Gain Prescript\nInflict 'The Prescript's Target' to random target\nApply 'Mark of the Prescript' on a Base Attack Skill"
     },
     {
@@ -2631,7 +2631,7 @@
     {
       "id": 1031402,
       "name": "Prescritto Consegnato Su Un Dispositivo",
-      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto dà priorità all’Abilità 3\n- Se questa unità Vacilla, è Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sovracitati e [IndexPrescript_Base_2nd] non si attivano\n\nSe questa unità ha [UnlockBuffAlly_3] ad Inizio Turno, ottiene [Blandishment_Shin]",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto dà priorità all’Abilità 3\n- Se questa unità è Stordita, Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sovracitati e [IndexPrescript_Base_2nd] non si attivano\n\nSe questa unità ha [UnlockBuffAlly_3] ad Inizio Turno, ottiene [Blandishment_Shin]",
       "summary": "Gain Prescript\nInflict The Prescript's Target to random target\nApply Mark of the Prescript on a Base Attack Skill"
     },
     {
@@ -2643,7 +2643,7 @@
     {
       "id": 1031404,
       "name": "Sprigiona / E.G.O Manifestato::Attuazione",
-      "desc": "Fine Turno: A 3/6/9 [BlessingOfIndexPrescriptAlly], ottiene [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nSe questa unità ha ottenuto [UnlockBuffAlly_1], usa 15 PS per entrare nello stato E.G.O Manifestato::Attuazione:\n- Prima di usare i PS per entrare in questo stato, cura i PS fino a 25 ed ottiene [KarmaOfIndexAlly] pari a (PS curati / 5) (arrotondato per eccesso)\n- Ad Inizio Turno, dopo aver controllato gli effetti sovracitati, se questa unità ha [UnlockBuff_Base] ed è a 25+ PS, usa 15 PS per entrare in questo stato\n\n- Se questa unità viene fatta Vacillare quando entra nello stato E.G.O Manifestato::Attuazione, si riprende dal Vacillamento (se non è possibile riprendersi normalmente, non entra nello stato E.G.O Manifestato::Attuazione)\n- Ottiene [Blandishment] mentre è nello stato E.G.O Manifestato::Attuazione\n\nInizio Turno: A 0 o meno PS, questa unità esce dallo stato E.G.O Manifestato::Attuazione"
+      "desc": "Fine Turno: A 3/6/9 [BlessingOfIndexPrescriptAlly], ottiene [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nSe questa unità ha ottenuto [UnlockBuffAlly_1], usa 15 PS per entrare nello stato E.G.O Manifestato::Attuazione:\n- Prima di usare i PS per entrare in questo stato, cura i PS fino a 25 ed ottiene [KarmaOfIndexAlly] pari a (PS curati / 5) (arrotondato per eccesso)\n- Ad Inizio Turno, dopo aver controllato gli effetti sovracitati, se questa unità ha [UnlockBuff_Base] ed è a 25+ PS, usa 15 PS per entrare in questo stato\n\n- Se questa unità viene Stordita quando entra nello stato E.G.O Manifestato::Attuazione, si riprende dallo Stordimento (se non è possibile riprendersi normalmente, non entra nello stato E.G.O Manifestato::Attuazione)\n- Ottiene [Blandishment] mentre è nello stato E.G.O Manifestato::Attuazione\n\nInizio Turno: A 0 o meno PS, questa unità esce dallo stato E.G.O Manifestato::Attuazione"
     },
     {
       "id": 1031401,
@@ -2720,7 +2720,7 @@
     {
       "id": 1011502,
       "name": "Prescritto Consegnato su un Dispositivo",
-      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto sopracitato dà priorità all’Abilità 3 (priorità all’Abilità potenziata)\n- Se questa unità Vacilla, è Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sopracitati e [IndexPrescript_Base_2nd] non si attivano",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto sopracitato dà priorità all’Abilità 3 (priorità all’Abilità potenziata)\n- Se questa unità è Stordita, Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sopracitati e [IndexPrescript_Base_2nd] non si attivano",
       "summary": "Dopo aver portato a termine un Prescritto, recupera PS ed ottiene Grazia del Prescritto\nSe non porta a termine un Prescritto, ottiene Conseguenza Karmica"
     },
     {
@@ -2732,7 +2732,7 @@
     {
       "id": 1011504,
       "name": "Il Precettore dell’Indice",
-      "desc": "Quando entra nell’Incontro per la prima volta, ottiene [BurningWoundYisangMask]\n- Fine Turno: Se questa unità ha Vacillato per la prima volta nell’Incontro quando ha questo effetto attivo, si riprende dal Vacillamento (tranne se Vacillamento forzato) e converte [BurningWoundYisangMask] in [BurningWoundYisang]\n\nApplica [SatisfyingEsteemNeeds] a Mandataria dell’Indice - E.G.O Manifestato::Attuazione Don Quixote quando entrambe le unità sono in campo",
+      "desc": "Quando entra nell’Incontro per la prima volta, ottiene [BurningWoundYisangMask]\n- Fine Turno: Se questa unità è stata Stordita per la prima volta nell’Incontro quando ha questo effetto attivo, si riprende dallo Stordimento (tranne se Stordimento forzato) e converte [BurningWoundYisangMask] in [BurningWoundYisang]\n\nApplica [SatisfyingEsteemNeeds] a Mandataria dell’Indice - E.G.O Manifestato::Attuazione Don Quixote quando entrambe le unità sono in campo",
       "summary": ""
     },
     {
@@ -2795,13 +2795,13 @@
     {
       "id": 1041402,
       "name": "Un Vuoto Che Non Può Essere Colmato",
-      "desc": "Sempre Attiva: Inizia L'incontro con 6 [BulletGodok]\n\nA 1+ [BulletGodok], se il nemico ha meno di -40 PS o se Vacilla a Fine Attacco di questa unità o di un suo alleato, usa 'Bang. Bang.' come Attacco Incontrastato (una volta per turno)\n\nFine Attacco: A 0 [BulletGodok], usa 'Racconti Interminabili' come un Attacco Incontrastato verso il bersaglio e usa 10 PS per [FullReload]",
+      "desc": "Sempre Attiva: Inizia L'incontro con 6 [BulletGodok]\n\nA 1+ [BulletGodok], se il nemico ha meno di -40 PS o se è Stordito a Fine Attacco di questa unità o di un suo alleato, usa 'Bang. Bang.' come Attacco Incontrastato (una volta per turno)\n\nFine Attacco: A 0 [BulletGodok], usa 'Racconti Interminabili' come un Attacco Incontrastato verso il bersaglio e usa 10 PS per [FullReload]",
       "summary": "Fà partire 'Abilità 1-1' e [FullReload]"
     },
     {
       "id": 1041411,
       "name": "Fiore Che Non Appasisce",
-      "desc": "Ottiene 1 [AlriuneEGOWe] se il nemico subisce danno da [Sinking]\nOttiene [AlriuneEGOWe] pari a [AlriuneEGOThey] inflitto ogni volta che i nemici ottengono [AlriuneEGOThey]\nOttiene 2 [AlriuneEGOWe] ogni volta che viene innescato Scoppio Vibrazione, a prescindere dall'unità che lo provoca\n\nFine Attacco: A 30+ [AlriuneEGOWe], use 'Fine Magnifica' verso il bersaglio che ha le Stack maggiori di [AlriuneEGOThey]\n\nInfligge +([AlriuneEGOThey] sul bersaglio)% danni ai bersagli Vacillanti\n\nSe questa unità ha perso 10%+ PV questo turno, recupera il 3% dei PV e 10 PS (una volta per turno)",
+      "desc": "Ottiene 1 [AlriuneEGOWe] se il nemico subisce danno da [Sinking]\nOttiene [AlriuneEGOWe] pari a [AlriuneEGOThey] inflitto ogni volta che i nemici ottengono [AlriuneEGOThey]\nOttiene 2 [AlriuneEGOWe] ogni volta che viene innescato Scoppio Vibrazione, a prescindere dall'unità che lo provoca\n\nFine Attacco: A 30+ [AlriuneEGOWe], use 'Fine Magnifica' verso il bersaglio che ha le Stack maggiori di [AlriuneEGOThey]\n\nInfligge +([AlriuneEGOThey] sul bersaglio)% danni ai bersagli Storditi\n\nSe questa unità ha perso 10%+ PV questo turno, recupera il 3% dei PV e 10 PS (una volta per turno)",
       "summary": "Ottiene [AlriuneEGOWe]"
     },
     {
@@ -2849,8 +2849,8 @@
     {
       "id": 1061405,
       "name": "Transcendi il Corpus",
-      "desc": "Quando entra in un Incontro per la prima volta, ottiene 21 [GoldenOpportunity]\n\nQuando un alleato con una ID della fazione dell'Anulare usa un'Abilità, perde 1 [GoldenOpportunity] (una volta per turno, per Identità)\n\nFine Turno: Se questa unità non ha [GoldenOpportunity], sostituisce una delle sue Abilità Base \"Chiusura - Installazione D'Arte n.1: La tua Carne e Le Tue Ossa come Sedie Per La Mia Mostra\" al prossimo Inizio Turno (una volta per Incontro; dà priorità all'Abilità nello Slot più in basso a sinistra sul Pannello di Controllo)\n- Se l'Abilità che è stata sostituita non può essere usata perché è stata sostituita da un'altra Abilità, attiva nuovamente l'effetto sovracitato\n\nFine Turno: Se questa unità Vacilla per la prima volta in questo Incontro, si riprende dal Vacillamento (escluso il Vacillamento forzato)",
-      "summary": "Si riprende dal Vacillamento"
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene 21 [GoldenOpportunity]\n\nQuando un alleato con una ID della fazione dell'Anulare usa un'Abilità, perde 1 [GoldenOpportunity] (una volta per turno, per Identità)\n\nFine Turno: Se questa unità non ha [GoldenOpportunity], sostituisce una delle sue Abilità Base \"Chiusura - Installazione D'Arte n.1: La tua Carne e Le Tue Ossa come Sedie Per La Mia Mostra\" al prossimo Inizio Turno (una volta per Incontro; dà priorità all'Abilità nello Slot più in basso a sinistra sul Pannello di Controllo)\n- Se l'Abilità che è stata sostituita non può essere usata perché è stata sostituita da un'altra Abilità, attiva nuovamente l'effetto sovracitato\n\nFine Turno: Se questa unità viene Stordita per la prima volta in questo Incontro, si riprende dallo Stordimento (escluso lo Stordimento forzato)",
+      "summary": "Si riprende dallo Stordimento"
     },
     {
       "id": 1061401,
@@ -2878,7 +2878,7 @@
     {
       "id": 1021503,
       "name": "Armatura di Protezione e Repressione",
-      "desc": "Quando entra in un Incontro per la prima volta, ottiene [IronMaidenPersonality]\n\nFine Attacco: Se questa unità ha [FasciaPersonality], questa unità perde [IronMaidenPersonality] ed ottiene [SilverOpportunity] (una volta per Incontro)\n- Quando Vacilla, si riprende dal Vacillamento (escluso il Vacillamento forzato)",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene [IronMaidenPersonality]\n\nFine Attacco: Se questa unità ha [FasciaPersonality], questa unità perde [IronMaidenPersonality] ed ottiene [SilverOpportunity] (una volta per Incontro)\n- Quando viene Stordito, si riprende dallo Stordimento (escluso lo Stordimento forzato)",
       "summary": "Rimuove [IronMaidenPersonality]"
     },
     {

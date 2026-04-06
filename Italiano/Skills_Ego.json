@@ -661,7 +661,7 @@
                   "desc": "[OnSucceedAttack] Infligge 25 danni ai PS"
                 },
                 {
-                  "desc": "Se il bersaglio sta Vacillando, ha Morale Basso o Panico, infligge il 30% del danno inflitto come danno bonus"
+                  "desc": "Se il bersaglio è Stordito, ha Morale Basso o Panico, infligge il 30% del danno inflitto come danno bonus"
                 }
               ]
             }
@@ -682,7 +682,7 @@
                   "desc": "[OnSucceedAttack] Infligge 25 danni ai PS"
                 },
                 {
-                  "desc": "Se il bersaglio sta Vacillando, ha Morale Basso o Panico, infligge il 30% del danno inflitto come danno bonus"
+                  "desc": "Se il bersaglio è Stordito, ha Morale Basso o Panico, infligge il 30% del danno inflitto come danno bonus"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
@@ -729,7 +729,7 @@
                   "desc": "[OnSucceedAttack] Infligge 7 [Sinking]"
                 },
                 {
-                  "desc": "Se il bersaglio NON sta Vacillando, ha Morale Basso o Panico, infligge il 50% del danno inflitto come danno bonus"
+                  "desc": "Se il bersaglio NON è Stordito, ha Morale Basso o Panico, infligge il 50% del danno inflitto come danno bonus"
                 }
               ]
             }
@@ -750,7 +750,7 @@
                   "desc": "[OnSucceedAttack] Infligge 10 [Vibration]"
                 },
                 {
-                  "desc": "Se il bersaglio NON sta Vacillando, ha Morale Basso o Panico, infligge il 50% del danno inflitto come danno bonus"
+                  "desc": "Se il bersaglio NON è Stordito, ha Morale Basso o Panico, infligge il 50% del danno inflitto come danno bonus"
                 }
               ]
             }
@@ -1065,7 +1065,7 @@
                   "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis]"
                 },
                 {
-                  "desc": "Alza la Soglia di Vacillamento del 30% del danno inflitto"
+                  "desc": "Alza la Soglia di Stordimento del 30% del danno inflitto"
                 }
               ]
             }
@@ -1707,7 +1707,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Alza la Soglia di Vacillamento del 40% del danno inflitto"
+                  "desc": "[OnSucceedAttackHead] Alza la Soglia di Stordimento del 40% del danno inflitto"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison. Ira"
@@ -1728,7 +1728,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Alza la Soglia di Vacillamento del 40% del danno inflitto"
+                  "desc": "[OnSucceedAttackHead] Alza la Soglia di Stordimento del 40% del danno inflitto"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison. Ira"
@@ -1772,7 +1772,7 @@
                   "desc": "[OnSucceedAttack] Infligge [Combustion] pari al doppio della Rison. Ira su tutte le unità"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del 60% del danno inflitto"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 60% del danno inflitto"
                 }
               ]
             }
@@ -1790,7 +1790,7 @@
                   "desc": "[EndSkill] Infligge (2 * Rison. Ira) [Combustion] su tutte le unità"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Vacillamento del 60% del danno inflitto"
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del 60% del danno inflitto"
                 }
               ]
             }
@@ -3318,7 +3318,7 @@
                   "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 3; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +1 Conteggio [Combustion] su 5 nemici casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 3; se [VibrationExplosion] ha Stordito il bersaglio, infligge +1 Conteggio [Combustion] su 5 nemici casuali"
                 }
               ]
             }
@@ -3342,7 +3342,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion] su 5 nemici casuali"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +2 Conteggio [Combustion] su 5 nemici casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +2 Conteggio [Combustion] su 5 nemici casuali"
                 }
               ]
             }
@@ -3366,7 +3366,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] su 5 nemici casuali"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +3 Conteggio [Combustion] su 5 nemici casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +3 Conteggio [Combustion] su 5 nemici casuali"
                 }
               ]
             }
@@ -3392,7 +3392,7 @@
                   "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 3; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +2 Conteggio [Combustion] su 5 unità casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 3; se [VibrationExplosion] ha Stordito il bersaglio, infligge +2 Conteggio [Combustion] su 5 unità casuali"
                 }
               ]
             }
@@ -3416,7 +3416,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion] su 5 unità casuali"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +3 Conteggio [Combustion] su 5 unità casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +3 Conteggio [Combustion] su 5 unità casuali"
                 }
               ]
             }
@@ -3440,7 +3440,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] su 5 unità casuali"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +4 Conteggio [Combustion] su 5 unità casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +4 Conteggio [Combustion] su 5 unità casuali"
                 }
               ]
             }
@@ -3528,7 +3528,7 @@
                   "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 2; se [VibrationExplosion] ha fatto Vacillare il bersaglio, infligge +2 Conteggio [Combustion] su 3 unità casuali"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +2 Conteggio [Combustion] su 3 unità casuali"
                 }
               ]
             }

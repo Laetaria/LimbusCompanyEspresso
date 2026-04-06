@@ -255,7 +255,7 @@
     {
       "id": 803203,
       "name": "Rinforzi In Frantumi",
-      "desc": "Se il Traliccio Vacilla o viene rotto, consuma tutti gli Stack di [DogThunder].\nPoi, tutti gli attacchi di Alleyway Watchdog vengono annullati."
+      "desc": "Se il Traliccio viene Stordito o viene rotto, consuma tutti le Stack di [DogThunder].\nPoi, tutti gli attacchi di Alleyway Watchdog vengono annullati."
     },
     {
       "id": 803401,
@@ -295,17 +295,17 @@
     {
       "id": 804102,
       "name": "Malinconia Inconsolabile",
-      "desc": "A fine turno, se l'unità ha 3 o più [Bull_Sadness] mentre la testa è rotta, entra in stato di Vacillamento."
+      "desc": "A fine turno, se l'unità ha 3 o più [Bull_Sadness] mentre la testa è rotta, viene Stordita."
     },
     {
       "id": 804103,
       "name": "Preso dalle Corna",
-      "desc": "Se la testa Vacilla, tutte le altre parti entrano in stato di Vacillamento nel prossimo turno."
+      "desc": "Se la testa viene Stordita, tutte le altre parti vengono Stordite nel prossimo turno."
     },
     {
       "id": 804104,
       "name": "Abbattuto dalle Corna",
-      "desc": "Quando la testa viene rotta, tutte le altre parti entrano in stato di Vacillamento nel prossimo turno. Poi, esse ottengono 3 [Reduction] per il resto dell'Incontro."
+      "desc": "Quando la testa viene Stordita, tutte le altre parti vengono Stordite nel prossimo turno. Poi, esse ottengono 3 [Reduction] per il resto dell'Incontro."
     },
     {
       "id": 804501,
@@ -325,7 +325,7 @@
     {
       "id": 804504,
       "name": "Persistenza Terminata",
-      "desc": "Dopo aver usato 'Attorcigliamento', se lo Scudo finisce, consuma [SelfCharge].\nTutte le Parti entrano in stato di Vacillamento nel prossimo turno."
+      "desc": "Dopo aver usato 'Attorcigliamento', se lo Scudo finisce, consuma [SelfCharge].\nTutte le Parti vengono Stordite nel prossimo turno."
     },
     {
       "id": 804601,
@@ -355,7 +355,7 @@
     {
       "id": 804801,
       "name": "La Birra ti dà il Singhiozzo!",
-      "desc": "Dopo aver colpito con 'Me La Prendo Io!', se il bersaglio ha 5+ [Tipsiness], Vacilla."
+      "desc": "Dopo aver colpito con 'Me La Prendo Io!', se il bersaglio ha 5+ [Tipsiness], l'unità viene Stordita."
     },
     {
       "id": 804802,
@@ -380,7 +380,7 @@
     {
       "id": 804303,
       "name": "Cuor Vacillante",
-      "desc": "In stato di Panico, Vacilla."
+      "desc": "In stato di Panico, viene Stordito."
     },
     {
       "id": 804304,
@@ -410,7 +410,7 @@
     {
       "id": 804403,
       "name": "Duello",
-      "desc": "Se i PV scendono al 50%, usa 'Da Cospargere di Terra' e diventa immune a Vacillamento e Panico per due Turni.\nSe Yi Sang è in stato di [DongbaekShowdown], Dongbaek ottiene 1 [Enhancement].\nSe Yi Sang vince il [DongbaekShowdown], tutti gli alleati ottengono 3 [AttackDmgUp] nel prossimo turno.\nSe Dongbaek vine il [DongbaekShowdown], Dongbaek cura del tutto i PS."
+      "desc": "Se i PV scendono al 50%, usa 'Da Cospargere di Terra' e diventa immune a Stordimento e Panico per due Turni.\nSe Yi Sang è in stato di [DongbaekShowdown], Dongbaek ottiene 1 [Enhancement].\nSe Yi Sang vince il [DongbaekShowdown], tutti gli alleati ottengono 3 [AttackDmgUp] nel prossimo turno.\nSe Dongbaek vine il [DongbaekShowdown], Dongbaek cura del tutto i PS."
     },
     {
       "id": 804404,
@@ -490,7 +490,7 @@
     {
       "id": 805007,
       "name": "Impresa Estenuante",
-      "desc": "Dopo aver usato 'Sii I Miei Nutrienti, Prego' 3 volte, entra in stato di Vacillamento nel prossimo turno."
+      "desc": "Dopo aver usato 'Sii I Miei Nutrienti, Prego' 3 volte, viene Stordito nel prossimo turno."
     },
     {
       "id": 805002,
@@ -575,12 +575,12 @@
     {
       "id": 826501,
       "name": "Stomaco Vuoto",
-      "desc": "A fine turno, divora tutti gli alleati con [PreparedMeat] in stato di Vacillamento."
+      "desc": "A fine turno, divora tutti gli alleati con [PreparedMeat] che sono Storditi."
     },
     {
       "id": 826502,
-      "name": "Bottomless Hunger",
-      "desc": "After defeating an ally, heal 20 Core PV; then, gain 1 [Vulnerable] next turn."
+      "name": "Fame Infinita",
+      "desc": "Dopo aver sconfitto un alleato, il Nucleo recupera 20 PV; infine, ottiene 1 [Vulnerable] il turno successivo."
     },
     {
       "id": 826503,

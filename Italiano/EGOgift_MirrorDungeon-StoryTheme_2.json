@@ -14,7 +14,7 @@
     {
         "id": 19427,
         "name": "Arpione per Proteggere il Villaggio+",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 40% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato sta Vacillando, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 40% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
         "simpleDesc": [
             {
                 "abilityID": 19427,
@@ -29,7 +29,7 @@
     {
         "id": 29427,
         "name": "Arpione per Proteggere il Villaggio++",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 50% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato sta Vacillando, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 50% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
         "simpleDesc": [
             {
                 "abilityID": 29427,
@@ -116,7 +116,7 @@
     {
         "id": 9432,
         "name": "Carillon a Forma di Maniero",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #1]\n\nFine Turno: se sta Vacillando, si riprende dal Vacillamento; quindi, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\nQuando sconfigge un nemico con [Sinking], 1 nemico con il minor Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (negli Scontri Mirati, la parte).",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #1]\n\nFine Turno: se è Stordito, si riprende dallo Stordimento; quindi, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\nQuando sconfigge un nemico con [Sinking], 1 nemico con il minor Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (negli Scontri Mirati, la parte).",
         "simpleDesc": [
             {
                 "abilityID": 9432,
@@ -131,11 +131,11 @@
     {
         "id": 9435,
         "name": "Arti Vincolanti del Maggiordomo",
-        "desc": "Inizio Turno: infligge 1 [Binding] al nemico che si è ripreso dal Vacillamento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio sta Vacillando, infligge +7,5% di danni per ogni Livello di Vacillamento.",
+        "desc": "Inizio Turno: infligge 1 [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +7,5% di danni per ogni Livello di Vacillamento.",
         "simpleDesc": [
             {
                 "abilityID": 9435,
-                "simpleDesc": "Infligge 1 Rallentamento al nemico che si è ripreso dal Vacillamento"
+                "simpleDesc": "Infligge 1 Rallentamento al nemico che si è ripreso dallo Stordimento"
             },
             {
                 "abilityID": 94351,
@@ -146,11 +146,11 @@
     {
       "id": 19435,
       "name": "Arti Vincolanti del Maggiordomo+",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">2</style> [Binding] al nemico che si è ripreso dal Vacillamento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio sta Vacillando, infligge +<style=\"upgradeHighlight\">10%</style> di danni per ogni Livello di Vacillamento.",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">2</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">10%</style> di danni per ogni Livello di Vacillamento.",
       "simpleDesc": [
         {
           "abilityID": 19435,
-          "simpleDesc": "Infligge 2 Rallentamento al nemico che si è ripreso dal Vacillamento"
+          "simpleDesc": "Infligge 2 Rallentamento al nemico che si è ripreso dallo Stordimento"
         },
         {
           "abilityID": 194351,
@@ -161,7 +161,7 @@
     {
       "id": 29435,
       "name": "Arti Vincolanti del Maggiordomo++",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">3</style> [Binding] al nemico che si è ripreso dal Vacillamento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio sta Vacillando, infligge +<style=\"upgradeHighlight\">12,5%</style> di danni per ogni Livello di Vacillamento.",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">3</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">12,5%</style> di danni per ogni Livello di Vacillamento.",
       "simpleDesc": [
         {
           "abilityID": 29435,
