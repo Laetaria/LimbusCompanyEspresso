@@ -547,45 +547,45 @@
           "level": 1,
           "name": "Passato Opprimente",
           "abName": "Trasporto a Vapore",
-          "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "desc": "[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Quando si attiva una Rison. Accidia dispari quando il numero del turno è dispari, o quando si attiva Rison. Accidia pari quando il numero del turno è pari, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)"
+                  "desc": "[OnSucceedAttack] Infligge +(Ris. Accidia / 2) Conteggio [Vibration] (max 3)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type"
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni [Vibration] sul bersaglio principale (max 50%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every ([Vibration] + [Vibration] Count) on the main target (max 100%)"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni (Conteggio [Vibration] + [Vibration]) sul bersaglio principale (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2"
                 }
               ]
             }
@@ -595,45 +595,45 @@
           "level": 3,
           "name": "Passato Opprimente",
           "abName": "Trasporto a Vapore",
-          "desc": "<style=\"highlight\">[BeforeAttack] If the main target has 30+ ([Vibration] + [Vibration] Count), gain +1 Atk Weight</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "desc": "<style=\"highlight\">[BeforeAttack] Se il bersaglio principale ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +1 Portata Attacco</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Quando si attiva una Rison. Accidia dispari quando il numero del turno è dispari, o quando si attiva Rison. Accidia pari quando il numero del turno è pari, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Vibration] Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +(Ris. Accidia / 2) Conteggio [Vibration] (max 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni [Vibration] sul bersaglio principale (max 50%)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every ([Vibration] + [Vibration] Count) on the main target (max 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni (Conteggio [Vibration] + [Vibration]) sul bersaglio principale (max 100%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -643,48 +643,48 @@
           "level": 4,
           "name": "Passato Opprimente",
           "abName": "Trasporto a Vapore",
-          "desc": "[BeforeAttack] If the main target has 30+ ([Vibration] + [Vibration] Count), gain +1 Atk Weight\n<style=\"highlight\">- At 100+, gain +3 Atk Weight instead</style>\n<style=\"highlight\">[BeforeAttack] For every 2 highest Reson., inflict 1 [Vibration] against all targets this unit attacks (max 3)</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 2)% HP</style>\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +1 Portata Attacco\n<style=\"highlight\">- A 100+, ottiene invece +3 Portata Attacco</style>\n<style=\"highlight\">[BeforeAttack] Per ogni 2 Rison. più alte, infligge 1 [Vibration] a tutti i bersagli che questa unità attacca (max 3)</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n<style=\"highlight\">[EndSkill] Recupera ([AccumulatedPastSinner] x 2)% PV</style>\n[EndSkill] Quando si attiva una Rison. Accidia dispari quando il numero del turno è dispari, o quando si attiva Rison. Accidia pari quando il numero del turno è pari, recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Vibration] Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +(Ris. Accidia / 2) Conteggio [Vibration] (max 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni [Vibration] sul bersaglio principale (max 50%)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every ([Vibration] + [Vibration] Count) on the main target (max 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion];  poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Coin's effects raised the damage dealt by +50% or more, trigger [VibrationExplosion] once.</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del +50% o più, innesca [VibrationExplosion] una volta.</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -699,27 +699,27 @@
           "level": 1,
           "name": "Passato Opprimente",
           "abName": "Trasporto a Vapore",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +10% damage for every highest Reson. (max 100%)\n- If the highest Reson. was a Sloth Reson., deal +20% damage for every highest Reson. instead (max 100%)\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +10% danni per ogni Rison. più alta (max 100%)\n- Se la Rison. più alta è Accidia, infligge invece +20% danni per ogni Rison. più alta (max 100%)\n[BeforeAttack] Quando si attiva una Rison. Accidia pari quando il numero di un turno è dispari, o quando si attiva una Rison. Accidia dispari quando il numero di un turno è pari, infligge +12% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every ([Vibration] + [Vibration] Count) on the main target (max 100%)"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count "
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration] "
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson.) [Vibration] Count (max 6)"
+                  "desc": "[OnSucceedAttack] Infligge +(Rison. Accidia) Conteggio [Vibration] (max 6)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type"
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2"
                 }
               ]
             }
@@ -729,27 +729,27 @@
           "level": 3,
           "name": "Passato Opprimente",
           "abName": "Trasporto a Vapore",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +10% damage for every highest Reson. (max 100%)\n- If the highest Reson. was a Sloth Reson., deal +20% damage for every highest Reson. instead (max 100%)\n<style=\"highlight\">[BeforeAttack] If the main target has 30+ ([Vibration] + [Vibration] Count), gain +2 Atk Weight</style>\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +10% danni per ogni Rison. più alta (max 100%)\n- Se la Rison. più alta è Accidia, infligge invece +20% danni per ogni Rison. più alta (max 100%)\n<style=\"highlight\">[BeforeAttack] Se il bersaglio ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +2 Portata Attacco</style>\n[BeforeAttack] Quando si attiva una Rison. Accidia pari quando il numero di un turno è dispari, o quando si attiva una Rison. Accidia dispari quando il numero di un turno è pari, infligge +12% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every ([Vibration] + [Vibration] Count) on the main target (max 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson.) [Vibration] Count (max 6)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +(Sloth Reson.) Conteggio [Vibration] (max 6)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -759,27 +759,27 @@
           "level": 4,
           "name": "Passato Opprimente",
           "abName": "Trasporto a Vapore",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +10% damage for every highest Reson. (max 100%)\n- If the highest Reson. was a Sloth Reson., deal +20% damage for every highest Reson. instead (max 100%)\n[BeforeAttack] If the main target has 30+ ([Vibration] + [Vibration] Count), gain +2 Atk Weight\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 3)% HP</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +10% danni per ogni Rison. più alta (max 100%)\n- Se la Rison. più alta è Accidia, infligge invece +20% danni per ogni Rison. più alta (max 100%)\n[BeforeAttack] Se il bersaglio ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +2 Portata Attacco\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 3)% HP</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals <style=\"highlight\">+2%</style> damage for every ([Vibration] + [Vibration] Count) on the main target (max 100%)"
+                  "desc": "[OnStartCoin] Questa Moneta infligge <style=\"highlight\">+2%</style> danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson.) [Vibration] Count (max 6)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +(Sloth Reson.) Conteggio [Vibration] (max 6)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
                 }
               ]
             }
