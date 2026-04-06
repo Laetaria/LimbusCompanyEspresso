@@ -384,7 +384,7 @@
           "level": 1,
           "name": "Grande Trichiliocosmo [三千大世界]",
           "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
-          "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max 7)\n- If it was an A-Reson., also gain +(highest Reson. / 3) [Breath] Count (max 2; rounded down)",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Reson. più alta/ 3) Conteggio [Breath] (max 2; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -392,10 +392,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -405,7 +405,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ThreeMirrorpartYiSang] this turn and next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
                 }
               ]
             },
@@ -415,10 +415,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to ([Sinking] on target / 3) (max 5; rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a ([Sinking] sul bersaglio / 3) (max 5; arrotondato per difetto)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -428,7 +428,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once; then, reduce their [Combustion] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
                 }
               ]
             }
@@ -438,7 +438,7 @@
           "level": 3,
           "name": "Grande Trichiliocosmo [三千大世界]",
           "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
-          "desc": "<style=\"highlight\">[BeforeAttack] If the main target has 15+ ([Combustion] + [Sinking]), Coin Power +1</style>\n[BeforeAttack] Gain (highest Reson.) [Breath] (max 7)\n- If it was an A-Reson., also gain +(highest Reson. / 3) [Breath] Count (max 2; rounded down)",
+          "desc": "<style=\"highlight\">[BeforeAttack] Se il bersaglio principale ha 15+ ([Combustion] + [Sinking]), Potere Moneta +1</style>\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Reson. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -446,10 +446,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Sinking]"
                 }
               ]
             },
@@ -459,7 +459,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ThreeMirrorpartYiSang] this turn and next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
                 }
               ]
             },
@@ -469,10 +469,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to ([Sinking] on target / 3) (max 5; rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a ([Sinking] sul bersaglio / 3) (max 5; arrotondato per difetto)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -482,7 +482,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once; then, reduce their [Combustion] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
                 }
               ]
             }
@@ -492,7 +492,7 @@
           "level": 4,
           "name": "Grande Trichiliocosmo [三千大世界]",
           "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
-          "desc": "[BeforeAttack] If the main target has <style=\"highlight\">10</style>+ ([Combustion] + [Sinking]), Coin Power +1\n[BeforeAttack] Gain (highest Reson.) [Breath] (max 7)\n- If it was an A-Reson., also gain +(highest Reson. / 3) [Breath] Count (max 2; rounded down)",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha <style=\"highlight\">10</style>+ ([Combustion] + [Sinking]), Potere Moneta +1\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Reson. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -500,10 +500,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">3</style> [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Sinking]"
                 }
               ]
             },
@@ -513,7 +513,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ThreeMirrorpartYiSang] this turn and next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
                 }
               ]
             },
@@ -523,10 +523,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to ([Sinking] on target / 3) (max 5; rounded down)"
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a ([Sinking] sul bersaglio / 3) (max 5; arrotondato per difetto)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -536,7 +536,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once; then, reduce their [Combustion] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
                 }
               ]
             }
@@ -551,7 +551,7 @@
           "level": 1,
           "name": "Grande Trichiliocosmo [三千大世界]",
           "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
-          "desc": "[CantIdentify]\nTargets randomly\nOn Coin Hit, gain 5 [Combustion]; on final Coin Use, Final Power +1 (max 3; once per Coin)\n[BeforeAttack] Gain (highest Reson.) [Breath] (max 7)\n- If it was an A-Reson., also gain +(highest Reson. / 3) [Breath] Count (max 2; rounded down)\n[BeforeAttack] Base Power -1 for every Cracked Coin (down to -4)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Moneta Colpisce, ottiene 5 [Combustion]; all'Uso finale della Moneta, Potere Finale +1 (max 3; una volta per Moneta)\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Rison. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)\n[BeforeAttack] Potere Base -1 per ogni Moneta Rotta (fino a -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -559,10 +559,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -572,7 +572,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ThreeMirrorpartYiSang] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
                 }
               ]
             },
@@ -582,10 +582,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -595,11 +595,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Deal +10% damage for every 10 ([Combustion] + [Sinking]) on all targets (max 40%)",
-                  "summary": "[OnStartCoin] Deal more damage for every 10 ([Combustion] + [Sinking]) on all targets"
+                  "desc": "[OnStartCoin] Infligge +10% danni per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli (max 40%)",
+                  "summary": "[OnStartCoin] Infligge più danno per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once; then, reduce their [Combustion] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
                 }
               ]
             }
@@ -609,7 +609,7 @@
           "level": 3,
           "name": "Grande Trichiliocosmo [三千大世界]",
           "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
-          "desc": "[CantIdentify]\nTargets randomly\nOn Coin Hit, gain <style=\"highlight\">4</style> [Combustion]; on final Coin Use, Final Power +1 (max 3; once per Coin)\n[BeforeAttack] Gain (highest Reson.) [Breath] (max 7)\n- If it was an A-Reson., also gain +(highest Reson. / 3) [Breath] Count (max 2; rounded down)\n[BeforeAttack] Base Power -1 for every Cracked Coin (down to -4)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Moneta Colpisce, ottiene <style=\"highlight\">4</style> [Combustion]; all'Uso finale della Moneta, Potere Finale +1 (max 3; una volta per Moneta)\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Rison. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)\n[BeforeAttack] Potere Base -1 per ogni Moneta Rotta (fino a -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -617,10 +617,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Sinking]"
                 }
               ]
             },
@@ -630,7 +630,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ThreeMirrorpartYiSang] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
                 }
               ]
             },
@@ -640,10 +640,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -653,11 +653,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Deal +10% damage for every 10 ([Combustion] + [Sinking]) on all targets (max <style=\"highlight\">50</style>%)",
-                  "summary": "[OnStartCoin] Deal more damage for every 10 ([Combustion] + [Sinking]) on all targets"
+                  "desc": "[OnStartCoin] Infligge +10% danni per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli (max <style=\"highlight\">50</style>%)",
+                  "summary": "[OnStartCoin] Infligge più danno per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once; then, reduce their [Combustion] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
                 }
               ]
             }
@@ -667,7 +667,7 @@
           "level": 4,
           "name": "Grande Trichiliocosmo [三千大世界]",
           "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
-          "desc": "[CantIdentify]\nTargets randomly\nOn Coin Hit, gain <style=\"highlight\">3</style> [Combustion]; on final Coin Use, Final Power +1 (max 3; once per Coin)\n[BeforeAttack] Gain (highest Reson.) [Breath] (max 7)\n- If it was an A-Reson., also gain +(highest Reson. / 3) [Breath] Count (max 2; rounded down)\n[BeforeAttack] Base Power -1 for every Cracked Coin (down to -4)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Moneta Colpisce, ottiene <style=\"highlight\">3</style> [Combustion]; all'Uso finale della Moneta, Potere Finale +1 (max 3; una volta per Moneta)\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Rison. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)\n[BeforeAttack] Potere Base -1 per ogni Moneta Rotta (fino a -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -675,10 +675,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">3</style> [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Sinking]"
                 }
               ]
             },
@@ -688,7 +688,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ThreeMirrorpartYiSang] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
                 }
               ]
             },
@@ -698,10 +698,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">4</style> [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
@@ -711,11 +711,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Deal +10% damage for every 10 ([Combustion] + [Sinking]) on all targets (max <style=\"highlight\">60</style>%)",
-                  "summary": "[OnStartCoin] Deal more damage for every 10 ([Combustion] + [Sinking]) on all targets"
+                  "desc": "[OnStartCoin] Infligge +10% danni per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli (max <style=\"highlight\">60</style>%)",
+                  "summary": "[OnStartCoin] Infligge più danno per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once; then, reduce their [Combustion] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
                 }
               ]
             }
