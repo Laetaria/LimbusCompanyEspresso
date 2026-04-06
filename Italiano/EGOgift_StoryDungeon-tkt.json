@@ -3,7 +3,7 @@
     {
       "id": 2036,
       "name": "Cassa Argentata",
-      "desc": "Quando danneggi un nemico con Abilità Attacco (Eccetto Abilità E.G.O.) che causano Potenza, Conteggio [Vibration] o 'Vibrazione Unica', infliggi +10% di danno.\n\nSe l'Abilità attiva [VibrationExplosion] su un nemico in questo turno, infliggi +2 Conteggio [Vibration] nel turno successivo (Una volta per turno)",
+      "desc": "Quando danneggi un nemico con Abilità Attacco (Eccetto Abilità E.G.O.) che causano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi +10% di danno.\n\nSe l'Abilità attiva [VibrationExplosion] su un nemico in questo turno, infliggi +2 Conteggio [Vibration] nel turno successivo (Una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 2036,
@@ -33,7 +33,7 @@
     {
       "id": 2038,
       "name": "Avviso di Sollecito",
-      "desc": "Fine Turno: Infliggi 1 [Binding] al nemico più veloce il prossimo turno. (per Anormalità, una Parte)\n\nSe il bersaglio ha [Vibration] o 'Vibrazione Unica', infliggi 2 [Binding] invece.\n\nQuando un alleato attacca dei nemici con [Binding], infliggi +(5 + (2.5 x Stack di [Binding]))% in più di danno. (Max 15%)",
+      "desc": "Fine Turno: Infliggi 1 [Binding] al nemico più veloce il prossimo turno. (per Anormalità, una Parte)\n\nSe il bersaglio ha [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi 2 [Binding] invece.\n\nQuando un alleato attacca dei nemici con [Binding], infliggi +(5 + (2.5 x Stack di [Binding]))% in più di danno. (Max 15%)",
       "simpleDesc": [
         {
           "abilityID": 2038,
@@ -48,7 +48,7 @@
     {
       "id": 2039,
       "name": "Lancette Incise",
-      "desc": "Inizio del Primo Turno di un'Ondata: Infliggi(9 - Velocità corrente) Potenza [Vibration] ai 3 nemici con minore Velocità. (Min 3)\n\nInfliggi +10% di danno contro i bersagli con 12+ [Vibration] o 'Vibrazione Unica' ad Inizio Turno.",
+      "desc": "Inizio del Primo Turno di un'Ondata: Infliggi (9 - Velocità corrente) Potenza [Vibration] ai 3 nemici con minore Velocità. (Min 3)\n\nInfliggi +10% di danno contro i bersagli con 12+ [Vibration] o '<noparse>Vibrazione</noparse> Speciale' ad Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 2039,
@@ -63,7 +63,7 @@
     {
       "id": 2040,
       "name": "Lancette Arruginite",
-      "desc": "Inizio del Primo Turno di un'Ondata: Infliggi (9 - Velocità corrente) Potenza [Vibration] (Min 3) e (9 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte)\n\nSubisci -10% di danno dai nemici con 12+ [Vibration] o 'Vibrazione Unica' ad Inizio Turno.",
+      "desc": "Inizio del Primo Turno di un'Ondata: Infliggi (9 - Velocità corrente) Potenza [Vibration] (Min 3) e (9 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte)\n\nSubisci -10% di danno dai nemici con 12+ [Vibration] o '<noparse>Vibrazione</noparse> Speciale' ad Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 2040,
@@ -78,7 +78,7 @@
     {
       "id": 2041,
       "name": "Calice dell'Effetto a Cascata",
-      "desc": "Quando un alleato vince uno Scontro con un'Abilità Attacco (Non Abilità E.G.O) che causa Potenza, Conteggio [Vibration] o 'Vibrazione Unica', infliggi 2 Potenza [Vibration] e +2 Conteggio [Vibration]. (2 volte per turno)\n\nIdentità del Yurodivy: Infliggi 3 Potenza [Vibration] e +3 Conteggio [Vibration] invece. (3 volte per turno)\n\nSe l'Identità affetta si Scontra contro bersagli con Livello Offensivo più grande, Potere Scontro +2; infligge +20% di danno dopo aver vinto lo Scontro.",
+      "desc": "Quando un alleato vince uno Scontro con un'Abilità Attacco (Non Abilità E.G.O) che causa Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi 2 Potenza [Vibration] e +2 Conteggio [Vibration]. (2 volte per turno)\n\nIdentità del Yurodivy: Infliggi 3 Potenza [Vibration] e +3 Conteggio [Vibration] invece. (3 volte per turno)\n\nSe l'Identità affetta si Scontra contro bersagli con Livello Offensivo più grande, Potere Scontro +2; infligge +20% di danno dopo aver vinto lo Scontro.",
       "simpleDesc": [
         {
           "abilityID": 2041,
@@ -112,7 +112,7 @@
     {
       "id": 2043,
       "name": "Orologio da Taschino : Tipo L",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o 'Vibrazione Unica'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o 'Vibrazione Unica': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o 'Vibrazione Unica' attiva [Switch_Vibration] su un nemico tramite Abilità Attacco (Incluse Abilità E.G.O.): Moltiplica Potenza e Conteggio [Vibration] di 1.5 (solamente quando viene Convertito in un tipo diverso di 'Vibrazione') ed infligge 5 [DefenseDown] nel turno successivo. (Una volta per turno)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) ai 3 nemici con Velocità minore. (Una volta per Ondata)",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' attiva [Switch_Vibration] su un nemico tramite Abilità Attacco (Incluse Abilità E.G.O.): Moltiplica Potenza e Conteggio [Vibration] di 1.5 (solamente quando viene Convertito in un tipo diverso di 'Vibrazione') ed infligge 5 [DefenseDown] nel turno successivo. (Una volta per turno)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) ai 3 nemici con Velocità minore. (Una volta per Ondata)",
       "simpleDesc": [
         {
           "abilityID": 2043,
@@ -131,7 +131,7 @@
     {
       "id": 2044,
       "name": "Orologio da Taschino : Tipo E",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o 'Vibrazione Unica'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o 'Vibrazione Unica': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o 'Vibrazione Unica' danneggia un nemico più lento con 2+ differenza di Velocità: infliggi +(Potenza [Vibration] sul bersaglio, Max 25)% di danno e 2 [DefenseDown] ogni volta che l'alleato causa del danno (Max 6)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) e (12 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte; Una volta per Ondata)",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' danneggia un nemico più lento con 2+ differenza di Velocità: infliggi +(Potenza [Vibration] sul bersaglio, Max 25)% di danno e 2 [DefenseDown] ogni volta che l'alleato causa del danno (Max 6)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) e (12 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte; Una volta per Ondata)",
       "simpleDesc": [
         {
           "abilityID": 2044,
@@ -150,7 +150,7 @@
     {
       "id": 2045,
       "name": "Orologio da Taschino : Tipo Y",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o 'Vibrazione Unica'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o 'Vibrazione Unica': Potere Moneta +2 ed infliggi +25% di danno.\n\nIdentità del Yurodivy: Abilità 3 guadagna Potere Moneta +2 ed infligge +(25 + (somma della Potenza e Conteggio [Vibration] sul bersaglio))% di danno. (Max 100%)\n\nIdentità del Yurodivy: guadagna +3 Conteggio [Vibration] ad Inizio Turno.",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nIdentità del Yurodivy: Abilità 3 guadagna Potere Moneta +2 ed infligge +(25 + (somma della Potenza e Conteggio [Vibration] sul bersaglio))% di danno. (Max 100%)\n\nIdentità del Yurodivy: guadagna +3 Conteggio [Vibration] ad Inizio Turno.",
       "simpleDesc": [
         {
           "abilityID": 2045,
@@ -169,7 +169,7 @@
     {
       "id": 2046,
       "name": "Orologio da Taschino : Tipo P",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o 'Vibrazione Unica'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o 'Vibrazione Unica': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o 'Vibrazione Unica' si Scontra contro un nemico più veloce con +2 differenza di Velocità: Potere Scontro +2 ed infligge +(Potenza [Vibration] sul bersaglio)% di danno. (Max 50%)\n\nInizio Turno: dal più lento al più veloce, i 3 alleati più lenti guadagnano rispettivamente 5 [AttackUp], 3 [AttackUp], e 2 [AttackUp].",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' si Scontra contro un nemico più veloce con +2 differenza di Velocità: Potere Scontro +2 ed infligge +(Potenza [Vibration] sul bersaglio)% di danno. (Max 50%)\n\nInizio Turno: dal più lento al più veloce, i 3 alleati più lenti guadagnano rispettivamente 5 [AttackUp], 3 [AttackUp], e 2 [AttackUp].",
       "simpleDesc": [
         {
           "abilityID": 2046,

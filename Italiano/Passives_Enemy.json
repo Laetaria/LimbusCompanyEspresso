@@ -3,12 +3,12 @@
     {
       "id": 90001,
       "name": "Corpo Verminoso",
-      "desc": "A Fine Turno, recupera 5 PV."
+      "desc": "A fine turno, cura 5 PV."
     },
     {
       "id": 90002,
       "name": "Rinforzi Nutritivi",
-      "desc": "Dopo aver sconfitto un nemico, recupera 20 PV e ottiene 5 [Endurance] il Turno successivo."
+      "desc": "Dopo aver sconfitto un nemico, cura 20 PV e ottiene 5 [Endurance] il prossimo turno."
     },
     {
       "id": 90003,
@@ -23,7 +23,7 @@
     {
       "id": 90005,
       "name": "Castigo",
-      "desc": "Quando i PV scendono sotto il 50%, ottiene 5 [Enhancement] il Turno successivo."
+      "desc": "Quando i PV scendono sotto il 50%, ottiene 5 [Enhancement] il prossimo turno."
     },
     {
       "id": 90006,
@@ -33,17 +33,17 @@
     {
       "id": 9000101,
       "name": "Potenziamenti Rovinati",
-      "desc": "A Inizio Turno, se quest'unità ha meno del 50% dei PV, recupera 1 PV."
+      "desc": "A inizio turno, se i PV di quest'unità sono sotto il 50%, cura 1 PV."
     },
     {
       "id": 9000102,
       "name": "Corpo Potenziato",
-      "desc": "A Inizio Turno, se quest'unità ha meno del 50% dei PV, recupera 2 PV."
+      "desc": "A inizio turno, se i PV di quest'unità sono sotto il 50%, cura 2 PV."
     },
     {
       "id": 9000103,
       "name": "Potenziamento Corroso",
-      "desc": "A Inizio Turno, se quest'unità ha meno del 50% dei PV, recupera 4 PV."
+      "desc": "A inizio turno, se i PV di quest'unità sono sotto il 50%, cura 4 PV."
     },
     {
       "id": 9100301,
@@ -58,7 +58,7 @@
     {
       "id": 9100401,
       "name": "Hora de Fiesta",
-      "desc": "A Inizio Turno, tutti gli alleati si curano di 10 PS.\nA Inizio Turno, se quest'unità ha 20 o più PS, ottiene 1 [Enhancement] e 1 [Endurance]."
+      "desc": "A inizio turno, tutti gli alleati curano 10 PS.\nA inizio turno, se quest'unità ha 20 o più PS, ottiene 1 [Enhancement] e 1 [Endurance]."
     },
     {
       "id": 9100402,
@@ -68,27 +68,27 @@
     {
       "id": 9002801,
       "name": "Proiettili PV",
-      "desc": "A Inizio Turno, quest'unità recupera 15 PV.\nSe i PV sono sotto il 50%, recupera altri 15 PV."
+      "desc": "A inizio turno, cura 15 PV.\nSe i PV sono sotto il 50%, cura altri 15 PV."
     },
     {
       "id": 9003201,
       "name": "Che Il Vostro Sacrificio Sia Nobile",
-      "desc": "Quando un alleato viene sconfitto, ottiene 1 [Enhancement] il Turno successivo."
+      "desc": "Quando un alleato viene sconfitto, ottiene 1 [Enhancement] il prossimo turno."
     },
     {
       "id": 9003801,
       "name": "La Gioia Dell'Esecuzione",
-      "desc": "Dopo aver sconfitto un nemico, ottiene 2 [AttackDmgUp] nel Turno successivo."
+      "desc": "Dopo aver sconfitto un nemico, ottiene 2 [AttackDmgUp] nel prossimo turno."
     },
     {
       "id": 9100501,
       "name": "Il Martello di Colei Che Stringe",
-      "desc": "A Inizio Turno, tutti gli alleati si curano di 10 PS.\nQuando quest'unità viene sconfitta, tutti i suoi alleati perdono 45 PS."
+      "desc": "A inizio turno, tutti gli alleati curano 10 PS.\nQuando quest'unità viene sconfitta, tutti i suoi alleati perdono 45 PS."
     },
     {
       "id": 9100601,
       "name": "Persistenza",
-      "desc": "Quando i PV scendono sotto il 50%, rimuove tutti gli status negativi nel Turno successivo, e ottiene 4 [Assemble], 1 [Enhancement] e 1 [Endurance] ogni turno."
+      "desc": "Quando i PV scendono sotto il 50%, rimuove tutti gli status negativi nel prossimo turno, e ottiene 4 [Assemble], 1 [Enhancement] e 1 [Endurance] ogni turno."
     },
     {
       "id": 9100502,
@@ -118,27 +118,27 @@
     {
       "id": 9004901,
       "name": "Motosega Danneggiata",
-      "desc": "Dopo aver Vacillato, infligge 1 Potenza e Conteggio [Burst] in meno"
+      "desc": "Dopo aver Vacillato, infligge -1 Potenza e Conteggio [Burst]"
     },
     {
       "id": 9005001,
       "name": "Battitore Danneggiato",
-      "desc": "Dopo aver Vacillato, infligge 1 Potenza e Conteggio [Vibration] in meno"
+      "desc": "Dopo aver Vacillato, infligge -1 Potenza e Conteggio [Vibration]"
     },
     {
       "id": 9100701,
       "name": "Funzione di Attacco In Surriscaldamento",
-      "desc": "Se un'unità viene fatta entrare in stato di Vacillamento da un attacco di quest'unità, ottiene 3 [AttackDmgUp] il Turno successivo."
+      "desc": "Se un'unità viene fatta entrare in stato di Vacillamento da un attacco di quest'unità, ottiene 3 [AttackDmgUp] il prossimo turno."
     },
     {
       "id": 9100702,
       "name": "Motosega Danneggiabile",
-      "desc": "Dopo aver Vacillato, infligge 3 Potenza e Conteggio [Burst] in meno"
+      "desc": "Dopo aver Vacillato, infligge -3 Potenza e Conteggio [Burst]"
     },
     {
       "id": 9100703,
       "name": "Battitore Danneggiabile",
-      "desc": "Dopo aver Vacillato, infligge 3 Potenza e Conteggio [Vibration] in meno"
+      "desc": "Dopo aver Vacillato, infligge -3 Potenza e Conteggio [Vibration]"
     },
     {
       "id": 9100801,
@@ -152,13 +152,13 @@
     },
     {
       "id": 9100803,
-      "name": "Sermbra che Sia L'Ultimo",
+      "name": "Sermbra che Sia Rimasto Solo",
       "desc": "Se non ci sono altri alleati vivi, ottiene 1 [Resonate] e 1 [VibrationAssimilation] ogni Turno."
     },
     {
       "id": 9100804,
       "name": "Non Ho Altra Scelta",
-      "desc": "Nel prossimo Turno, Se non ci sono altri alleati vivi, marchia come bersaglio l'ultima unità che l'ha attaccato."
+      "desc": "Se non ci sono altri alleati vivi, bersaglia l'ultimo nemico che ha attaccato quest'unità."
     },
     {
       "id": 9100901,
@@ -168,17 +168,17 @@
     {
       "id": 9100902,
       "name": "Talismano Maledetto Strangolante",
-      "desc": "A 10 [WrappedCurseTag], alza la Soglia di Vacillamento di 10, poi rimuove lo stato."
+      "desc": "A 10 [WrappedCurseTag], alza la Soglia di Vacillamento di 10. Poi, rimuove ogni [WrappedCurseTag]."
     },
     {
       "id": 9100903,
       "name": "Talismano Maledetto Moltiplicante",
-      "desc": "A 30% o meno PV, infligge 1 [ReattachedCurseTag] in più"
+      "desc": "A 30% o meno PV, infligge +1 [ReattachedCurseTag]"
     },
     {
       "id": 9100904,
       "name": "Talismano Maledetto Invadente",
-      "desc": "A 30% o meno PV, se il bersaglio ha 5 o più [ReattachedCurseTag] dopo un attacco, infligge 2 [Paralysis] il Turno successivo."
+      "desc": "A 30% o meno PV, se il bersaglio ha 5 o più [ReattachedCurseTag] dopo un attacco, infligge 2 [Paralysis] il prossimo turno."
     },
     {
       "id": 9006201,
@@ -188,7 +188,7 @@
     {
       "id": 9006202,
       "name": "Dolore Strabordante",
-      "desc": "A Fine Turno, perde 5 PS"
+      "desc": "A fine turno, perde 5 PS"
     },
     {
       "id": 9006101,
@@ -203,17 +203,17 @@
     {
       "id": 9006801,
       "name": "Iniezione delle Capsule di Cura",
-      "desc": "A Inizio Turno, recupera 20 PV."
+      "desc": "A inizio turno, cura 20 PV."
     },
     {
       "id": 9006802,
       "name": "Amministrazione delle Capsule di Emergenza",
-      "desc": "Se i PV sono sotto il 25%, si cura fino al 40% dei PV Max (Solo una volta)"
+      "desc": "Se i PV sono sotto il 25%, cura fino al 40% dei suoi PV Max (Solo una volta)"
     },
     {
       "id": 9007001,
       "name": "Tempo D'Oro",
-      "desc": "A Fine Turno, se i PV sono tra il 12% e 24%, si cura immediatamente fino al 65% dei PV Max e si riprende dal Vacillamento. (Solo una volta)"
+      "desc": "A fine turno, se i PV sono tra il 12% e 24%, cura fino al 65% dei suoi PV Max e si riprende dal Vacillamento. (Solo una volta)"
     },
     {
       "id": 9007002,
@@ -228,17 +228,17 @@
     {
       "id": 9006901,
       "name": "Iniezione delle Capsule di Cura",
-      "desc": "A Inizio Turno, recupera 20 PV."
+      "desc": "A inizio turno, cura 20 PV."
     },
     {
       "id": 9006902,
       "name": "Amministrazione delle Capsule di Emergenza",
-      "desc": "Se i PV sono sotto il 25%, si cura fino al 40% dei PV Max (Solo una volta)"
+      "desc": "Se i PV sono sotto il 25%, cura fino al 40% dei suoi PV Max (Solo una volta)"
     },
     {
       "id": 9006803,
       "name": "Overdose di Capsule",
-      "desc": "I PV non scendono sotto a 1;\nA Inizio Turno, se quest'unità ha 60 o meno PV, và in uno stato potenziato."
+      "desc": "I PV non scendono sotto a 1;\nA inizio turno, se quest'unità ha 60 o meno PV, và in uno stato potenziato."
     }
   ]
 }
