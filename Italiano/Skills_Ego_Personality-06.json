@@ -729,7 +729,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst] <style=\"highlight\"></style>"
                 }
               ]
             },
@@ -809,7 +809,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -848,7 +848,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -896,7 +896,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -941,19 +941,19 @@
           "level": 1,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[WhenUse] Gain 2 [Breath]\n[BeforeAttack] At 5+ ([Breath] Potency + [Breath] Count), Final Power +1\n[BeforeAttack] If this unit has [Cianjing], deal +15% damage\n[BeforeAttack] If this unit has [SeniorCianjing], deal +27% damage\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+          "desc": "[WhenUse] Ottiene 2 [Breath]\n[BeforeAttack] A 5+ (Potenza + Conteggio [Breath] su di sé), Potere Finale +1\n[BeforeAttack] Se quest'unità ha [Cianjing], infligge +15% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], infligge +27% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max 15%)"
+                  "desc": "Se quest'unità ha [Cianjing], infligge +(Potenza [Breath] su di sé / 2)% danni su Colpo Critico (max 15%)"
                 },
                 {
-                  "desc": "If this unit has [SeniorCianjing], deal +(([Breath] Potency + [Breath] Count) / 2)% damage on Critical Hit (max 30%)"
+                  "desc": "Se quest'unità ha [SeniorCianjing], infligge +((Potenza + Conteggio [Breath] su di sé) / 2)% danni su Colpo Critico (max 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -963,19 +963,19 @@
           "level": 3,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[WhenUse] Gain <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">Final Power +1 for every 5 ([Breath] Potency + [Breath] Count) (max 2)</style>\n[BeforeAttack] If this unit has [Cianjing], gain <style=\"highlight\">+1 Atk Weight</style> and deal +15% damage\n[BeforeAttack] If this unit has [SeniorCianjing], gain <style=\"highlight\">+2 Atk Weight</style> and deal +27% damage\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+          "desc": "[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">Potere Finale +1 per ogni 5 (Potenza + Conteggio [Breath] su di sé) (max 2)</style>\n[BeforeAttack] Se quest'unità ha [Cianjing], ottiene <style=\"highlight\">+1 Portata Attacco</style> e infligge +15% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], ottiene <style=\"highlight\">+2 Portata Attacco</style> e infligge +27% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max <style=\"highlight\">20</style>%)"
+                  "desc": "Se quest'unità ha [Cianjing], infligge +(Potenza [Breath] su di sé / 2)% danni su Colpo Critico (max <style=\"highlight\">20</style>%)"
                 },
                 {
-                  "desc": "If this unit has [SeniorCianjing], deal +(([Breath] Potency + [Breath] Count) / 2)% damage on Critical Hit (max <style=\"highlight\">40</style>%)"
+                  "desc": "Se quest'unità ha [SeniorCianjing], infligge +((Potenza + Conteggio [Breath] su di sé) / 2)% danni su Colpo Critico (max <style=\"highlight\">40</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
                 }
               ]
             }
@@ -985,19 +985,19 @@
           "level": 4,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[WhenUse] Gain <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] Final Power +1 for every 5 ([Breath] Potency + [Breath] Count) (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] If this unit does not have [Cianjing] or [SeniorCianjing], recuperate half of E.G.O resources and SP consumed by this Skill (rounded down; this effect applies to Corrosion Skill as well if it activated due to the \"To Corrode\" probability when using the Awakening Skill)</style>\n[BeforeAttack] If this unit has [Cianjing], gain +1 Atk Weight and deal +<style=\"highlight\">25</style>% damage\n[BeforeAttack] If this unit has [SeniorCianjing], gain +2 Atk Weight and deal +<style=\"highlight\">45</style>% damage\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+          "desc": "[WhenUse] Ottiene <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] Final Power +1 for every 5 ([Breath] Potency + [Breath] Count) (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] Se quest'unità non ha [Cianjing] o [SeniorCianjing], recupera la metà delle Risorse e.g.o e dei PS consumati da questa Abilità (arrotondato per difetto. L'effetto si applica anche se l'unità corrode dopo aver usato l'Attivazione E.G.O)</style>\n[BeforeAttack] Se quest'unità ha [Cianjing], ottiene +1 Portata Attacco e infligge +<style=\"highlight\">25</style>% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], ottiene +2 Portata Attacco e infligge +<style=\"highlight\">45</style>% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [Cianjing], deal +(<style=\"highlight\">[Breath] Potency</style>)% damage on Critical Hit (max 20%)"
+                  "desc": "Se quest'unità ha [Cianjing], infligge +(<style=\"highlight\">Potenza [Breath] su di sé</style>)% danni su Colpo Critico (max 20%)"
                 },
                 {
-                  "desc": "If this unit has [SeniorCianjing], deal +(<style=\"highlight\">[Breath] Potency + [Breath] Count</style>)% damage on Critical Hit (max 40%)"
+                  "desc": "Se quest'unità ha [SeniorCianjing], infligge +(<style=\"highlight\">Potenza + Conteggio [Breath] su di sé</style>)% danni su Colpo Critico (max 40%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Sinking]"
                 }
               ]
             }
@@ -1012,7 +1012,7 @@
           "level": 1,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count\n[BeforeAttack] If this unit has [Cianjing] or [SeniorCianjing], Coin Power +1\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing], Potere Moneta +1\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {
               "coindescs": [
@@ -1020,7 +1020,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 10% of the damage dealt (max 10)"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 10% dei danni inflitti (max 10)"
                 }
               ]
             },
@@ -1030,7 +1030,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 15% of the damage dealt (max 15)"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 15% dei danni inflitti(max 15)"
                 }
               ]
             },
@@ -1040,16 +1040,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max 20%)"
+                  "desc": "Se quest'unità ha [Cianjing], infligge +(Potenza [Breath] su di sé / 2)% danni su Colpo Critico (max 20%)"
                 },
                 {
-                  "desc": "If this unit has [SeniorCianjing], deal +(([Breath] Potency + [Breath] Count) / 2)% damage on Critical Hit (max 40%)"
+                  "desc": "Se quest'unità ha [SeniorCianjing], infligge +((Potenza + Conteggio [Breath] su di sé) / 2)% danni su Colpo Critico (max 40%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 25% of the damage dealt (max 25)"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 25% dei danni inflitti (max 25)"
                 }
               ]
             }
@@ -1059,7 +1059,7 @@
           "level": 3,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Gain <style=\"highlight\">3</style> [Breath] and +<style=\"highlight\">3</style> [Breath] Count\n[BeforeAttack] If this unit has [Cianjing] or [SeniorCianjing], <style=\"highlight\">gain +1 Atk Weight, Base Power +1</style>, and Coin Power +1\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath] e +<style=\"highlight\">3</style> Conteggio [Breath]\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing],<style=\"highlight\"> Portata Attacco, Potere Base e</style> Potere Moneta +1\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {
               "coindescs": [
@@ -1067,7 +1067,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 10% of the damage dealt (max 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 10% dei danni inflitti (max 10)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1077,7 +1077,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 15% of the damage dealt (max 15)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 15% dei danni inflitti (max 15)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1087,16 +1087,16 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max <style=\"highlight\">30</style>%)"
+                  "desc": "Se quest'unità ha [Cianjing], infligge +(Potenza [Breath] su di sé / 2)% danni su Colpo Critico (max <style=\"highlight\">30</style>%)"
                 },
                 {
-                  "desc": "If this unit has [SeniorCianjing], deal +(([Breath] Potency + [Breath] Count) / 2)% damage on Critical Hit (max <style=\"highlight\">60</style>%)"
+                  "desc": "Se quest'unità ha [SeniorCianjing], infligge +((Potenza + Conteggio [Breath] su di sé) / 2)% danni su Colpo Critico (max <style=\"highlight\">60</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 25% of the damage dealt (max 25)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 25% dei danni inflitti (max 25)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1106,7 +1106,7 @@
           "level": 4,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Gain <style=\"highlight\">4</style> [Breath] and +<style=\"highlight\">4</style> [Breath] Count\n[BeforeAttack] If this unit has [Cianjing] or [SeniorCianjing], gain +<style=\"highlight\">2</style> Atk Weight, Base Power +<style=\"highlight\">2</style>, and Coin Power +<style=\"highlight\">2</style>\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene <style=\"highlight\">4 [Breath] e +4 Conteggio [Breath]</style>\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing], <style=\"highlight\">Portata Attacco, Potere Base e Potere Moneta +2</style>\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {
               "coindescs": [
@@ -1114,7 +1114,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 10% of the damage dealt (max 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 10% del danno inflitto (max 10)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1124,7 +1124,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 15% of the damage dealt (max 15)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 15% del danno inflitto (max 15)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1134,16 +1134,16 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "If this unit has [Cianjing], deal +(<style=\"highlight\">[Breath] Potency</style>)% damage on Critical Hit (max 30%)"
+                  "desc": "Se quest'unità ha [Cianjing], Infligge +(<style=\"highlight\">Potenza [Breath] su di sé</style>)% danni su Colpo Critifo (max 30%)"
                 },
                 {
-                  "desc": "If this unit has [SeniorCianjing], deal +(<style=\"highlight\">[Breath] Potency + [Breath] Count</style>)% damage on Critical Hit (max 60%)"
+                  "desc": "Se quest'unità ha [SeniorCianjing], infligge +(<style=\"highlight\">Potenza + Conteggio [Breath] su di sé</style>)% danni su Colpo Critico (max 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] <style=\"highlight\">and +2 [Sinking] Count</style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] <style=\"highlight\">e +2 Conteggio [Sinking]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pride damage by 25% of the damage dealt (max 25)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danni da Superbia pari al 25% del danno inflitto (max 25)<style=\"highlight\"></style>"
                 }
               ]
             }
