@@ -2,142 +2,142 @@
   "dataList": [
     {
       "id": 9701,
-      "name": "Hot ‘n Juicy Drumstick",
-      "desc": "When inflicting [Combustion] with Skills against enemies, inflict +3 [Combustion] Count (3 times per turn)",
+      "name": "Cosciotto Scottante e Succoso",
+      "desc": "Quando infliggi [Combustion] con un'Abilità contro nemici, infliggi +3 [Combustion] Conteggio (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9701,
-          "simpleDesc": "When inflicting [Combustion] with a Skill, inflict +3 [Combustion] Count"
+          "simpleDesc": "Quando infliggi [Combustion] con un'abilità, infliggi +3 [Combustion] Conteggio"
         }
       ]
     },
     {
       "id": 9702,
       "name": "Dry-to-the-Bone Breast",
-      "desc": "When inflicting [Burst] with Skills against enemies, inflict +3 [Burst] Count (3 times per turn)",
+      "desc": "Quando infliggi [Burst] con un'Abilità contro nemici, infliggi +3 [Burst] Conteggio (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9702,
-          "simpleDesc": "When inflicting [Burst] with a Skill, inflict +3 [Burst] Count"
+          "simpleDesc": "Quando infliggi [Burst]con un'abilità, infliggi +3 [Burst] Conteggio"
         }
       ]
     },
     {
       "id": 9703,
-      "name": "Tango Marinade",
-      "desc": "If the unit's Speed is faster than the target's, gain +(Speed/3) Clash Power. (max 3)",
+      "name": "Marinata del Tango",
+      "desc": "Se la velocità dell'unità è più alta del bersaglio, guadagna +(Speed/3) Potere Scontro. (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9703,
-          "simpleDesc": "Gain +(Speed/3) Clash Power."
+          "simpleDesc": "Guadagna +(Speed/3) Potere Scontro."
         }
       ]
     },
     {
       "id": 9704,
-      "name": "Contaminated Needle & Thread",
-      "desc": "The following effect applies to the first Skill to deal damage to an enemy.\n\nInflict (damage dealt/3) [Laceration] Potency.",
+      "name": "Ago e Filo Contaminati",
+      "desc": "Il seguente effetto si applica sulla prima Abilità che infligge danno ai nemici.\n\nInfliggi (damage dealt/3) [Laceration] Potenza.",
       "simpleDesc": [
         {
           "abilityID": 9704,
-          "simpleDesc": "Inflict (damage dealt/3) [Laceration] Potency"
+          "simpleDesc": "Infliggi (damage dealt/3) [Laceration] Potenza"
         }
       ]
     },
     {
       "id": 9705,
-      "name": "Sharp Needle & Thread",
-      "desc": "Each turn, the first skill to deal damage to an enemy deals bonus fixed damage by half of the damage dealt.",
+      "name": "Ago Affilato e Filo",
+      "desc": "Ogni turno, la prima Abilità che infligge danni ai nemici, infligge danni fissi extra pari alla metà dei danni inflitti dall'abilità.",
       "simpleDesc": [
         {
           "abilityID": 9705,
-          "simpleDesc": "Deal (damage dealt/2) bonus fixed damage"
+          "simpleDesc": "Infliggi (damage dealt/2) danni fissi extra"
         }
       ]
     },
     {
       "id": 9706,
-      "name": "Oil-gunked Spanner",
-      "desc": "Blunt Skills deal +10% damage\n\nFinal Coin of Blunt Skills inflict 2 [Vibration] Potency On Hit. (once per turn)",
+      "name": "Chiave Inglese Sporca d'Olio",
+      "desc": "Le abilità contundenti infliggono +10% danni\n\nL'ultima moneta delle abilità contundenti infligge 2 [Vibration] Potenza con il colpo. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9706,
-          "simpleDesc": "Blunt Skills deal +10% damage"
+          "simpleDesc": "Le abilità contundenti infliggono +10% danni"
         },
         {
           "abilityID": 97061,
-          "simpleDesc": "Inflict 2 [Vibration] Potency against the enemy."
+          "simpleDesc": "Infliggi 2 [Vibration] Potenza contro il nemico."
         }
       ]
     },
     {
       "id": 9707,
-      "name": "Twinkling Scrap",
-      "desc": "When an ally with Shield is hit by an enemy, reflect 3 fixed damage. (does not reflect damage when the ally did not take any Shield damage)",
+      "name": "Rottami Scintillanti",
+      "desc": "Quando un alleato con Scudo è colpito da un nemico, riflette 3 danni fissi. (non riflette il danno se non viene subito danni allo Scudo)",
       "simpleDesc": [
         {
           "abilityID": 9707,
-          "simpleDesc": "Reflect 3 fixed damage"
+          "simpleDesc": "Riflette 3 danni fissi"
         }
       ]
     },
     {
       "id": 9708,
-      "name": "Trash Crab Brain Wine",
-      "desc": "When an ally attacks an enemy that has [Burst] with a Skill that inflicts [Burst] Potency or Count, deal +([Burst] Count x 1.25)% damage. (max 50%)\n\nWhen an ally recovers from Stagger, heal 20% of max HP. (2 times per Encounter)",
+      "name": "Vino di Cervello di Granchio dei Rifiuti",
+      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge [Burst] Potenza o Conteggio, infliggi ([Burst] Count x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende da Vacillamento, cura 20% degli HP massimi. (2 volte per Scontro)",
       "simpleDesc": [
         {
           "abilityID": 9708,
-          "simpleDesc": "Deal +([Burst] Count x 1.25)% damage (max 50%)"
+          "simpleDesc": "Infliggi +([Burst] Count x 1.25)% danni (max 50%)"
         },
         {
           "abilityID": 97081,
-          "simpleDesc": "Heal 20% of Max HP"
+          "simpleDesc": "cura 20% degli HP massimi"
         }
       ]
     },
     {
       "id": 9709,
-      "name": "Pom-pom Hat",
-      "desc": "Turn End: gain 1 [Breath] Potency next turn for every Attack Skill that dealt damage before Turn End.\n\nIn Focused Encounters: gain 3 [Breath] Potency for every Attack Skill that dealt damage before Turn End instead.",
+      "name": "Cappello Pom-pom",
+      "desc": "A fine turno: guadagna 1 [Breath] Potenza nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 [Breath] Potenza per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
       "simpleDesc": [
         {
           "abilityID": 9709,
-          "simpleDesc": "Gain 1 [Breath] Potency"
+          "simpleDesc": "Guadagna 1 [Breath] Potenza"
         },
         {
           "abilityID": 97091,
-          "simpleDesc": "Gain 3 [Breath] Potency"
+          "simpleDesc": "Guadagna 3 [Breath] Potenza"
         }
       ]
     },
     {
       "id": 9710,
-      "name": "Huge Gift Sack",
-      "desc": "Turn Start: apply 2 [Breath], 2 [Breath] Count, and 2 [Protection] to the ally with the least HP.",
+      "name": "Enorme Sacco dei Regali",
+      "desc": "Inizio Turno: dà 2 [Breath], 2 [Breath] Conteggio, e 2 [Protection] all'alleato con meno HP.",
       "simpleDesc": [
         {
           "abilityID": 9710,
-          "simpleDesc": "Apply 2 [Breath], 2 [Breath] Count, and 2 [Protection]"
+          "simpleDesc": "Dà 2 [Breath], 2 [Breath] Count, and 2 [Protection]"
         }
       ]
     },
     {
       "id": 9711,
-      "name": "Sad Plushie",
-      "desc": "Deal +(absolute value of SP/1.5)% damage. (min 0%)\n\nWhen an ally with Plus Coin Skills recovers from Stagger, fully heal SP. (does not activate when Corroded)\n\nFor an ally with all Minus Coin Skills: gain 3 [Paralysis] at Turn Start.",
+      "name": "Peluche Triste",
+      "desc": "Infligge +(absolute value of SP/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende da Vacillamento, cura tutti i suoi SP. (non si attive se è Corroso)\n\nSe un alleato ha solo Abilità con Monete Negative: guadagna 3 [Paralysis] ad inizio turno.",
       "simpleDesc": [
         {
           "abilityID": 9711,
-          "simpleDesc": "Deal +(absolute value of SP/1.5)% damage. (min 0%)"
+          "simpleDesc": "Infliggi +(valore totale degli SP/1.5)% danni. (min 0%)"
         },
         {
           "abilityID": 97111,
-          "simpleDesc": "When recovering from Stagger, fully heal SP"
+          "simpleDesc": "Quando si recupera da Vacillamento, cura tutti gli SP"
         },
         {
           "abilityID": 97112,
-          "simpleDesc": "Gain 3 [Paralysis] at Turn Start"
+          "simpleDesc": "Guadagna 3 [Paralysis] ad inizio turno"
         }
       ]
     },
