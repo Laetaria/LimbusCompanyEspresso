@@ -294,7 +294,7 @@
     },
     {
       "id": "Breath",
-      "name": "Respiro",
+      "name": "Equilibrio",
       "desc": "Aumenta la percentuale di effettuare un colpo critico del {0}x5% per il(i) prossimo(i) {1} colpo(i).",
       "summary": "{0}x5% di effetturare un colpo critico"
     },
@@ -1063,7 +1063,7 @@
     {
       "id": "ATL_Breath",
       "name": "Mira Perfetta!",
-      "desc": "Ottiene 3 Respiro",
+      "desc": "Ottiene 3 Equilibrio",
       "summary": "표시용"
     },
     {
@@ -1634,7 +1634,7 @@
     },
     {
       "id": "RailBuffForLine2_R_ALLY",
-      "name": "Respiro Boost"
+      "name": "Equilibrio Boost"
     },
     {
       "id": "RailBuffForLine2_S_ALLY",
@@ -1748,14 +1748,14 @@
     {
       "id": "SwordPlayOfTheHomeland",
       "name": "Scherma della Patria",
-      "desc": "- Quando possiede 5 Respiro o superiore, all'utilizzo di un à, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di Monete, minimo 1) e infliggono +(30/# di Monete)% danni critici\n- quando possiede 7 Respiro o superiore, all'utilizzo di un'Abilità, l'Abilità 3 infligge +(30/# di Monete)%  +(50/# di Monete)% danni critici",
-      "summary": "Potenzia le Abilità oltre una certa soglia di Respiro"
+      "desc": "- Quando possiede 5 Equilibrio o superiore, all'utilizzo di un à, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di Monete, minimo 1) e infliggono +(30/# di Monete)% danni critici\n- quando possiede 7 Equilibrio o superiore, all'utilizzo di un'Abilità, l'Abilità 3 infligge +(30/# di Monete)%  +(50/# di Monete)% danni critici",
+      "summary": "Potenzia le Abilità oltre una certa soglia di Equilibrio"
     },
     {
       "id": "SwordPlayOfTheMemorial",
       "name": "Rimembranza",
-      "desc": "Quando possiedi 5 Respiro o superiore, all'utilizzo di un abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di Monete, minimo 1) e infliggono +(30/# di Monete)% danni critici\n- quando possiede 7 Respiro o superiore, all'utilizzo di un'Abilità, l'Abilità 3 infligge +(30/# di Monete)%  +(50/# di Monete)% danni critici",
-      "summary": "Potenzia le Abilità oltre una certa soglia di Respiro"
+      "desc": "Quando possiede 5 Equilibrio o superiore, all'utilizzo di un abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di Monete, minimo 1) e infliggono +(30/# di Monete)% danni critici\n- quando possiede 7 Equilibrio o superiore, all'utilizzo di un'Abilità, l'Abilità 3 infligge +(30/# di Monete)%  +(50/# di Monete)% danni critici",
+      "summary": "Potenzia le Abilità oltre una certa soglia di Equilibrio"
     },
     {
       "id": "RedApricotBlossom",
@@ -2364,14 +2364,14 @@
     {
       "id": "HoldingBreath",
       "name": "Respiro Profondo",
-      "desc": "- Stack Max: 20\n- Quando si effettua un critico, a 15+ Potenza Respiro e 5+ Conteggio Respiro, consuma (Conteggio Respiro su di sè/ 5) Potenza Respiro per infliggere +(Potenza Respiro consumata x 4)% più danno Critico, e perde 1 Stack",
+      "desc": "- Stack Max: 20\n- Quando si effettua un critico, a 15+ Potenza Equilibrio e 5+ Conteggio Equilibrio, consuma (Conteggio Equilibrio su di sè/ 5) Potenza Equilibrio per infliggere +(Potenza Equilibrio consumata x 4)% più danno Critico, e perde 1 Stack",
       "summary": "Infligge più danno con Colpo Critico"
     },
     {
       "id": "NebulizerInhale",
       "name": "Nebulizzatore β",
-      "desc": "- Max Staxk: 5\n- Quest'effetto persiste per tutto l'Incontro\n- Quando si attiva una risonanza Supberia Assoluta: All'inizio del combattimento, applica 3 Respiro e +3 Conteggio Respiro su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Respiro; tra loro, dà priorità a chi possiede meno Conteggio)",
-      "summary": "Ottiene Respiro e Conteggio Respiro"
+      "desc": "- Max Staxk: 5\n- Quest'effetto persiste per tutto l'Incontro\n- Quando si attiva una risonanza Supberia Assoluta: All'inizio del combattimento, applica 3 Equilibrio e +3 Conteggio Equilibrio su di sè e (Stack totali) alleati (Dà priorità agli alleati che usano Equilibrio; tra loro, dà priorità a chi possiede meno Conteggio)",
+      "summary": "Ottiene Equilibrio e Conteggio Equilibrio"
     },
     {
       "id": "Hohenheim_LowMorale",
@@ -2410,12 +2410,12 @@
     {
       "id": "NebulizerExhale",
       "name": "Nebulizzatore α",
-      "desc": "- Stack Max: 5\n- Quest'effetto persiste durante tutto l'Incontro\n- All'inizio del combattimento: applica 1 Potenza Respiro e +1 Conteggio Respiro su tutti gli alleati, inclusa quest'unità."
+      "desc": "- Stack Max: 5\n- Quest'effetto persiste durante tutto l'Incontro\n- All'inizio del combattimento: applica 1 Potenza Equilibrio e +1 Conteggio Equilibrio su tutti gli alleati, inclusa quest'unità."
     },
     {
       "id": "ReleaseBreath",
       "name": "Espirazione Superficiale",
-      "desc": "- Valore Massimo: 1\n- A 20 Potenza Respiro o superiore, ottiene +1 Conteggio quando questa unità ottiene Potenza o Conteggio Respiro\n- Scade A Fine Turno"
+      "desc": "- Valore Massimo: 1\n- A 20 Potenza Equilibrio o superiore, ottiene +1 Conteggio quando questa unità ottiene Potenza o Conteggio Equilibrio\n- Scade A Fine Turno"
     },
     {
       "id": "FirePunchFuel",
@@ -2490,7 +2490,7 @@
     {
       "id": "SnakeStance",
       "name": "Braccio di Serpente",
-      "desc": "Stack Max: 3\nFine Turno: ottiene 3 Respiro e +2 Conteggio Respiro al turno successivo\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Respiro\nFine turno: perde 1 Stack",
+      "desc": "Stack Max: 3\nFine Turno: ottiene 3 Equilibrio e +2 Conteggio Equilibrio al turno successivo\nAll'utilizzo di Abilità Attacco Base, se il bersaglio è afflitto da Lacerazione, ottiene 5 Equilibrio\nFine turno: perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
@@ -2665,7 +2665,7 @@
     {
       "id": "FellBulletPersonality",
       "name": "Proiettile Crudele",
-      "desc": "Stack Max: 1\n+3% danno Critico per ogni Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Respiro e +2 Conteggio Respiro (2 volte per turno)\nSi esaurisce a Fine Turno",
+      "desc": "Stack Max: 1\n+3% danno Critico per ogni Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Equilibrio e +2 Conteggio Equilibrio (2 volte per turno)\nSi esaurisce a Fine Turno",
       "summary": "Infligge più danni Critici, infligge più Sanguinamento",
       "undefined": "-"
     },
@@ -2735,7 +2735,7 @@
     {
       "id": "HeishouComboCountHonglu",
       "name": "Contaminazione del Bolo Heishou [黑獣丸染]",
-      "desc": "- Stack Max: 11\n- Rafforza Il Lord di Hongyuan Hong Lu in base a con quale Heishou ha attivato una combo\n- Gli effetti di Contaminazione del Bolo Heishou si possono sovrapporre\n\n· Heishou - Eccelsa del Ramo Mao Faust: subisce -5% danni dalle Abilità\n· Heishou - Mao Ryōshū: se la Velocità di questa unità è maggiore del bersaglio, infligge +5% danni\n· Heishou - Mao Outis: infligge +1 Conteggio Lacerazione Sul Colpo con gli Attacchi Incontrastati (1 volta per turno)\n· Heishou - Si Rodion: Infligge 1 Lacerazione Sul Colpo Critico (3 volte per turno)\n· Heishou - Si Gregor: Ottiene +1 Conteggio Respiro quando infligge danni Lacerazione (1 volta per turno)",
+      "desc": "- Stack Max: 11\n- Rafforza Il Lord di Hongyuan Hong Lu in base a con quale Heishou ha attivato una combo\n- Gli effetti di Contaminazione del Bolo Heishou si possono sovrapporre\n\n· Heishou - Eccelsa del Ramo Mao Faust: subisce -5% danni dalle Abilità\n· Heishou - Mao Ryōshū: se la Velocità di questa unità è maggiore del bersaglio, infligge +5% danni\n· Heishou - Mao Outis: infligge +1 Conteggio Lacerazione Sul Colpo con gli Attacchi Incontrastati (1 volta per turno)\n· Heishou - Si Rodion: Infligge 1 Lacerazione Sul Colpo Critico (3 volte per turno)\n· Heishou - Si Gregor: Ottiene +1 Conteggio Equilibrio quando infligge danni Lacerazione (1 volta per turno)",
       "summary": "",
       "undefined": "-"
     },
@@ -3039,7 +3039,7 @@
     {
       "id": "ProtectStanceRyoshu",
       "name": "Posa della Protettrice",
-      "desc": "- Stack Max: 2\n- Subisce il (Stack x 10)% di danni in meno\n- Inizio Turno: Ottiene Scudo in base alla quantità di Respiro su di sé (max 20)\n- Fine Turno: Ottiene 3 Potenza Respiro e +1 Conteggio Respiro: lo Slot Abilità posizionato più a sinistra di quest'unità ottiene +5 Aggro il turno successivo\n- Fine Turno: Perde 1 Stack",
+      "desc": "- Stack Max: 2\n- Subisce il (Stack x 10)% di danni in meno\n- Inizio Turno: Ottiene Scudo in base alla quantità di Equilibrio su di sé (max 20)\n- Fine Turno: Ottiene 3 Potenza Equilibrio e +1 Conteggio Equilibrio: lo Slot Abilità posizionato più a sinistra di quest'unità ottiene +5 Aggro il turno successivo\n- Fine Turno: Perde 1 Stack",
       "summary": "Take less damage",
       "undefined": "-"
     },
@@ -3239,7 +3239,7 @@
     {
       "id": "Shin_IndexFingerYisang",
       "name": "Shin (心) - Fato",
-      "desc": "- Velocità Min & Max +1\n- Ottiene +1 Potenza e Conteggio Respiro in più dalle Abilità Base\n- Se i PS di questa unità sono più alti di quelli del bersaglio, infligge +1% danni per ogni 3 PS di differenza (max 15%; le unità senza PS vengono considerate con 0 PS)",
+      "desc": "- Velocità Min & Max +1\n- Ottiene +1 Potenza e Conteggio Equilibrio in più dalle Abilità Base\n- Se i PS di questa unità sono più alti di quelli del bersaglio, infligge +1% danni per ogni 3 PS di differenza (max 15%; le unità senza PS vengono considerate con 0 PS)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3263,7 +3263,7 @@
     {
       "id": "BlackNightmareYisang",
       "name": "Indulgenza nei Prescritti",
-      "desc": "- Velocità Min & Max +5\n- Applica i seguenti effetti a ‘Furioso (Replica)’:\n·Sul Colpo, infligge +1 Potenza Annegamento in più ed ottiene +1 Potenza Respiro in più\n·Sul Colpo, infligge +3 Conteggio Annegamento (una volta per bersaglio)\n· Infligge +30% danni\n- Termina a Fine Turno",
+      "desc": "- Velocità Min & Max +5\n- Applica i seguenti effetti a ‘Furioso (Replica)’:\n·Sul Colpo, infligge +1 Potenza Annegamento in più ed ottiene +1 Potenza Equilibrio in più\n·Sul Colpo, infligge +3 Conteggio Annegamento (una volta per bersaglio)\n· Infligge +30% danni\n- Termina a Fine Turno",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3271,7 +3271,7 @@
     {
       "id": "YisangWeapon01Hatchet",
       "name": "Mentre squarci tra le costole con un’ascia...",
-      "desc": "- Questa Moneta infligge danno Contundente\n-  Sul Colpo senza Rottura Moneta, ottiene 2 Respiro",
+      "desc": "- Questa Moneta infligge danno Contundente\n-  Sul Colpo senza Rottura Moneta, ottiene 2 Equilibrio",
       "summary": "",
       "undefined": "-",
       "flavor": ""
