@@ -3,7 +3,7 @@
     {
       "id": 9209,
       "name": "Per Te Che Adori La Città",
-      "desc": "Se un alleato è a meno del 30% dei PV quando colpito, questo alleato si cura dell'80% PV e gli altri alleati si curano del 40% dei PV al prossimo turno (una volta per Incontro)\n- Gli eccessi di cure che oltrepassano i PV Max verranno applicati come Scudi\n- Se un alleato si è curato di 50+ PV grazie all'effetto, guadagna 3 [AttackUp] e 3 [DefenseDown]",
+      "desc": "Se un alleato è a meno del 30% dei PV quando colpito, questo alleato si cura dell'80% PV e gli altri alleati si curano del 40% dei PV al prossimo turno (una volta per Incontro)\n- Gli eccessi di cure che oltrepassano i PV Max verranno applicati come Scudi\n- Se un alleato si è curato di 50+ PV grazie all'effetto, ottiene 3 [AttackUp] e 3 [DefenseDown]",
       "simpleDesc": [
         {
           "abilityID": 9209,
@@ -14,33 +14,33 @@
     {
       "id": 9210,
       "name": "Batticarne",
-      "desc": "[Gli effetti si applicano solo alla 4° Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, guadagna 1 [ParryingResultUp] ad Inizio Turno",
+      "desc": "[Gli effetti si applicano solo alla 4° Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, ottiene 1 [ParryingResultUp] ad Inizio Turno",
       "simpleDesc": [
         {
           "abilityID": 9210,
-          "simpleDesc": "Guadagna [ParryingResultUp]"
+          "simpleDesc": "Ottieni [ParryingResultUp]"
         }
       ]
     },
     {
       "id": 19210,
       "name": "Batticarne+",
-      "desc": "[Gli effetti si applicano solo alla 4° Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, guadagna <style=\"upgradeHighlight\">2</style> [ParryingResultUp] ad Inizio Turno",
+      "desc": "[Gli effetti si applicano solo alla 4° Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, ottiene <style=\"upgradeHighlight\">2</style> [ParryingResultUp] ad Inizio Turno",
       "simpleDesc": [
         {
           "abilityID": 19210,
-          "simpleDesc": "Guadagna [ParryingResultUp]"
+          "simpleDesc": "Ottieni [ParryingResultUp]"
         }
       ]
     },
     {
       "id": 29210,
       "name": "Batticarne++",
-      "desc": "[Gli effetti si applicano solo alla 4° <style=\"upgradeHighlight\">e 5°</style> Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, guadagna 2 [ParryingResultUp] ad Inizio Turno",
+      "desc": "[Gli effetti si applicano solo alla 4° <style=\"upgradeHighlight\">e 5°</style> Identità Schierate]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, ottiene 2 [ParryingResultUp] ad Inizio Turno",
       "simpleDesc": [
         {
           "abilityID": 29210,
-          "simpleDesc": "Guadagna [ParryingResultUp]"
+          "simpleDesc": "Ottieni [ParryingResultUp]"
         }
       ]
     },
@@ -58,22 +58,22 @@
     {
       "id": 9208,
       "name": "Fato Intrecciato",
-      "desc": "Inizio Combattimento: A 7+ Risonanza Assoluta, tutti gli alleati guadagnano Potere Finale +5 per questo turno (una volta per Incontro)",
+      "desc": "Inizio Combattimento: A 7+ Risonanza Assoluta, tutti gli alleati ottengono Potere Finale +5 per questo turno (una volta per Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9208,
-          "simpleDesc": "Guadagna Potere Finale"
+          "simpleDesc": "Ottieni Potere Finale"
         }
       ]
     },
     {
       "id": 9211,
       "name": "Nembo",
-      "desc": "Inizio Turno: At 30+ somma totale della Potenza e del Conteggio [Sinking] su tutti i nemici, applica i seguenti effetti:\n\n- Skills that inflict Potenza o Conteggio [Sinking]: Potere Finale +1 (incluso '<noparse>Annegamento</noparse> Speciale'; escluse le Abilità E.G.O)\n\n- Quando 6 o più Identità hanno Abilità Attacco che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', Abilità che infliggono Potenza o Conteggio [Sinking] infliggono anche +20% di danno (incluso '<noparse>Annegamento</noparse> Speciale' e Riserve; escluse le Abilità E.G.O)\n · Se il bersaglio è a -45 PS, infliggi ulteriormente +10% di danno\n\n- Quando 10 o più Identità hanno Abilità Attacco che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Sinking] guadagnano anche Potere Moneta +1 (incluso '<noparse>Annegamento</noparse> Speciale' e Riserve; escluse le Abilità E.G.O)\n · Abilità a Moneta Negativa: Invece di guadagnare Potere Moneta, guadagnano Potere Base +(4 / N. di Monete) (min 1; arrotondato per difetto)",
+      "desc": "Inizio Turno: At 30+ somma totale della Potenza e del Conteggio [Sinking] su tutti i nemici, applica i seguenti effetti:\n\n- Skills that inflict Potenza o Conteggio [Sinking]: Potere Finale +1 (incluso '<noparse>Annegamento</noparse> Speciale'; escluse le Abilità E.G.O)\n\n- Quando 6 o più Identità hanno Abilità Attacco che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', Abilità che infliggono Potenza o Conteggio [Sinking] infliggono anche +20% di danno (incluso '<noparse>Annegamento</noparse> Speciale' e Riserve; escluse le Abilità E.G.O)\n · Se il bersaglio è a -45 PS, infliggi ulteriormente +10% di danno\n\n- Quando 10 o più Identità hanno Abilità Attacco che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Sinking] ottengono anche Potere Moneta +1 (incluso '<noparse>Annegamento</noparse> Speciale' e Riserve; escluse le Abilità E.G.O)\n · Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9211,
-          "simpleDesc": "Abilità [Sinking] guadagnano Potere Finale"
+          "simpleDesc": "Abilità [Sinking] ottengono Potere Finale"
         },
         {
           "abilityID": 92111,
@@ -81,26 +81,26 @@
         },
         {
           "abilityID": 92112,
-          "simpleDesc": "Abilità [Sinking] guadagnano Potere Moneta/Base"
+          "simpleDesc": "Abilità [Sinking] ottengono Potere Moneta/Base"
         }
       ]
     },
     {
       "id": 9212,
       "name": "La Fine di Tutti i Mali",
-      "desc": "Si attiva quando ci sono 3 o più Identità della fazione Pequod (contano anche le Riserve)\n\nPer Colpo con un'Abilità Attacco contro i nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Guadagna 3 [Breath] o +2 Conteggio [Breath] (3 volte per turno per Identità)\n\nPer Critico: 80% di possibilità di guadagnare 1 [PenetrateResultUp] nel turno successivo (2 volte per turno per Identità; incluse le Abilità E.G.O e Abilità Contrattacco)\n- Identità della fazione Pequod guadagnano anche 1 [PlusCoinValueUp] nel turno successivo (una volta per turno per Identità)\n\nPer Critico mentre Colpisce Testa con un'Abilità Base: Infliggi +1 addizionale agli effetti negativi di quella Moneta (una volta per turno per Identità; incluso Abilità Contrattacco ed escluse le Abilità E.G.O)\n\nPer nemico o alleato morto, le Identità della fazione Pequod guadagnano 1 [PenetrateResultUp], 1 [Protection], e 1 [CriticalDamageUp] ad ogni turno per tutto l'Incontro (3 volte per Incontro)\n\nSe una delle Identità della fazione Pequod attacca e colpisce un nemico, cura di 7 PS all'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento (una volta per Abilità)\n\nQuando un alleato uccide un nemico, cura 15 PS all'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento se questa Identità ha perso PS",
+      "desc": "Si attiva quando ci sono 3 o più Identità della fazione Pequod (contano anche le Riserve)\n\nPer Colpo con un'Abilità Attacco contro i nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Ottieni 3 [Breath] o +2 Conteggio [Breath] (3 volte per turno per Identità)\n\nPer Critico: 80% di possibilità di ottenere 1 [PenetrateResultUp] nel turno successivo (2 volte per turno per Identità; incluse le Abilità E.G.O e Abilità Contrattacco)\n- Identità della fazione Pequod ottengono anche 1 [PlusCoinValueUp] nel turno successivo (una volta per turno per Identità)\n\nPer Critico mentre Colpisce Testa con un'Abilità Base: Infliggi +1 addizionale agli effetti negativi di quella Moneta (una volta per turno per Identità; incluso Abilità Contrattacco ed escluse le Abilità E.G.O)\n\nPer nemico o alleato morto, le Identità della fazione Pequod ottengono 1 [PenetrateResultUp], 1 [Protection], e 1 [CriticalDamageUp] ad ogni turno per tutto l'Incontro (3 volte per Incontro)\n\nSe una delle Identità della fazione Pequod attacca e colpisce un nemico, cura di 7 PS all'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento (una volta per Abilità)\n\nQuando un alleato uccide un nemico, cura 15 PS all'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento se questa Identità ha perso PS",
       "simpleDesc": [
         {
           "abilityID": 9212,
-          "simpleDesc": "Guadagna [Breath]"
+          "simpleDesc": "Ottieni [Breath]"
         },
         {
           "abilityID": 92121,
-          "simpleDesc": "Per Critico: Chance di guadagnare [PenetrateResultUp] nel turno dopo; guadagna [PlusCoinValueUp] e aumenta la quantità di effetti negativi inflitti"
+          "simpleDesc": "Per Critico: Chance di ottenere [PenetrateResultUp] nel turno dopo; ottieni [PlusCoinValueUp] e aumenta la quantità di effetti negativi inflitti"
         },
         {
           "abilityID": 92122,
-          "simpleDesc": "Guadagna [PenetrateResultUp], [Protection], e [CriticalDamageUp]"
+          "simpleDesc": "Ottieni [PenetrateResultUp], [Protection], e [CriticalDamageUp]"
         },
         {
           "abilityID": 92123,
@@ -111,19 +111,19 @@
     {
       "id": 9213,
       "name": "Ruota Panoramica in Miniatura",
-      "desc": "Tutti i Bramasangue alleati: Potere Moneta per le Abilità Base +1, infliggi +([BloodDinner_Accumulation] / 10)% di danno per Abilità\n\nFine Turno: Tra gli alleati con [Laceration], 2 alleati con meno PV curano del 5% dei PV e guadagnano 10 [SwirlingBloodPersonality] all'Inizio del prossimo Turno\n\nPer Uccisione nemica, aumenta [BloodDinner] di (PV Max del Nucleo nemico / 10) (max 50)\n\nFine Turno: Se un alleato è morto in questo turno, tutti gli alleati guadagnano 2 [Enhancement] nel turno successivo\n\nNegli Incontri in cui appaiono delle Riserve nemiche: Quando dei nuovi nemici appaiono, infliggi 5 Potenza [Laceration] e +3 Conteggio [Laceration] contro loro ad Inizio Combattimento.\nSe c'è un <Bramasangue> tra gli alleati: Quando dei nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici due volte e riduci il loro Conteggio [Laceration] di 2",
+      "desc": "Tutti i Bramasangue alleati: Potere Moneta per le Abilità Base +1, infliggi +([BloodDinner_Accumulation] / 10)% di danno per Abilità\n\nFine Turno: Tra gli alleati con [Laceration], 2 alleati con meno PV curano del 5% dei PV e ottengono 10 [SwirlingBloodPersonality] all'Inizio del prossimo Turno\n\nPer Uccisione nemica, aumenta [BloodDinner] di (PV Max del Nucleo nemico / 10) (max 50)\n\nFine Turno: Se un alleato è morto in questo turno, tutti gli alleati ottengono 2 [Enhancement] nel turno successivo\n\nNegli Incontri in cui appaiono delle Riserve nemiche: Quando dei nuovi nemici appaiono, infliggi 5 Potenza [Laceration] e +3 Conteggio [Laceration] contro loro ad Inizio Combattimento.\nSe c'è un <Bramasangue> tra gli alleati: Quando dei nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici due volte e riduci il loro Conteggio [Laceration] di 2",
       "simpleDesc": [
         {
           "abilityID": 9213,
-          "simpleDesc": "Guadagna Potere Moneta per Abilità Base"
+          "simpleDesc": "Ottieni Potere Moneta per Abilità Base"
         },
         {
           "abilityID": 92131,
-          "simpleDesc": "Cura PV e guadagna [SwirlingBloodPersonality]"
+          "simpleDesc": "Cura PV e ottieni [SwirlingBloodPersonality]"
         },
         {
           "abilityID": 92132,
-          "simpleDesc": "Guadagna [Enhancement]"
+          "simpleDesc": "Ottieni [Enhancement]"
         },
         {
           "abilityID": 92133,
@@ -153,44 +153,44 @@
       "simpleDesc": [
         {
           "abilityID": 9215,
-          "simpleDesc": "Guadagna Potere Scontro e infliggi più danni"
+          "simpleDesc": "Ottieni Potere Scontro e infliggi più danni"
         }
       ]
     },
     {
       "id": 9216,
       "name": "Uniforme - Assoc. Liu",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nIdentità dell'Associazione Liu: Abilità Attacco Base guadagnano <noparse>Potere Moneta Positiva +</noparse>2 (le Abilità a Moneta Negativa guadagnano Potere Base +(8 / N. di Monete) (min 1; arrotondato per difetto))\n\nLe Abilità al di fuori dell'Abilità 3 (incluse le Abilità E.G.O) che infliggono Potere o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono +20% di danno\n\nAbilità 3 che infligge Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' guadagna <noparse>Potere Moneta Positiva +</noparse>1 (le Abilità a Moneta Negativa guadagnano Potere Base +(4 / N. di Monete) (min 1; arrotondato per difetto)) e infliggono +30% di danno \n- Le Identità di una fazione infliggono +5% di danno per ogni Identità che fa parte della stessa fazione in Squadra (max 20%; incluse le Riserve)\n\nFine Turno: 2 alleati con meno PS si curano di 8 PS\n- Se gli alleati affetti sono a 0 PS o meno, cura di altri 5 PS",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nIdentità dell'Associazione Liu: Abilità Attacco Base ottengono <noparse>Potere Moneta Positiva +</noparse>2 (le Abilità a Moneta Negativa ottengono Potere Base +(8 / n° di Monete) (min 1; arrotondato per difetto))\n\nLe Abilità al di fuori dell'Abilità 3 (incluse le Abilità E.G.O) che infliggono Potere o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono +20% di danno\n\nAbilità 3 che infligge Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' ottiene <noparse>Potere Moneta Positiva +</noparse>1 (le Abilità a Moneta Negativa ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)) e infliggono +30% di danno \n- Le Identità di una fazione infliggono +5% di danno per ogni Identità che fa parte della stessa fazione in Squadra (max 20%; incluse le Riserve)\n\nFine Turno: 2 alleati con meno PS si curano di 8 PS\n- Se gli alleati affetti sono a 0 PS o meno, cura di altri 5 PS",
       "simpleDesc": [
         {
           "abilityID": 9216,
-          "simpleDesc": "Guadagna Potere Abilità e infliggi più danni"
+          "simpleDesc": "Ottieni Potere Abilità e infliggi più danni"
         }
       ]
     },
     {
       "id": 9217,
       "name": "Dispositivo di Qualcuno",
-      "desc": "Fine Attacco: Se [IndexPrescriptTargetToEnemy] è stato ucciso, l'Identità che ha attaccato e ucciso [IndexPrescriptTargetToEnemy] guadagna 1 [AzureResultUp] nel prossimo turno; infliggi +3 Conteggio [Sinking] ad 1 nemico sopravvissuto casuale (una volta per turno)\n- Se l'unita che ha ucciso [IndexPrescriptTargetToEnemy] è nella fazione dell'Index, guadagna invece 1 [Enhancement] invece di [AzureResultUp] nel prossimo turno (una volta per turno)\n\nFine Turno: le unità della fazione dell'Index subiscono (Stack di [KarmaOfIndexAlly] su sé stessi)% PV di danno.\n(L'unità non può essere Stordita a causa di questo effetto; questo danno non può ridurre i PV degli alleati al di sotto del 20 % di PV)\nDopo, le Identità hanno subito danni a causa dell'effetto guadagnano (Stack di [KarmaOfIndexAlly] su di sé / 5) [ResultEnhancement] nel turno successivo (max 2)",
+      "desc": "Fine Attacco: Se [IndexPrescriptTargetToEnemy] è stato ucciso, l'Identità che ha attaccato e ucciso [IndexPrescriptTargetToEnemy] ottiene 1 [AzureResultUp] nel prossimo turno; infliggi +3 Conteggio [Sinking] ad 1 nemico sopravvissuto casuale (una volta per turno)\n- Se l'unita che ha ucciso [IndexPrescriptTargetToEnemy] è nella fazione dell'Index, ottiene invece 1 [Enhancement] invece di [AzureResultUp] nel prossimo turno (una volta per turno)\n\nFine Turno: le unità della fazione dell'Index subiscono (Stack di [KarmaOfIndexAlly] su sé stessi)% PV di danno.\n(L'unità non può essere Stordita a causa di questo effetto; questo danno non può ridurre i PV degli alleati al di sotto del 20 % di PV)\nDopo, le Identità hanno subito danni a causa dell'effetto ottengono (Stack di [KarmaOfIndexAlly] su di sé / 5) [ResultEnhancement] nel turno successivo (max 2)",
       "simpleDesc": [
         {
           "abilityID": 9217,
-          "simpleDesc": "Guadagna [AzureResultUp]. Identità dell'Indice guadagna invece [Enhancement]"
+          "simpleDesc": "Ottieni [AzureResultUp]. Identità dell'Indice ottiene invece [Enhancement]"
         },
         {
           "abilityID": 92171,
-          "simpleDesc": "Identità dell'Indice subisce danni e guadagna [ResultEnhancement] nel turno dopo"
+          "simpleDesc": "Identità dell'Indice subisce danni e ottiene [ResultEnhancement] nel turno dopo"
         }
       ]
     },
     {
       "id": 9218,
       "name": "Provvidenza del Prescritto",
-      "desc": "Le Identità che hanno inflitto Potenza [Sinking], Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', guadagnano 3 [Breath] o +2 Conteggio [Breath] ad Inizio Turno (una volta per turno per Identità)\n\nDurante l'Incontro, se un'Identità ha guadagnato [Breath] 3 volte grazie all'effetto, dal turno dopo, tale alleato infligge +30% di danno per Colpo Critico",
+      "desc": "Le Identità che hanno inflitto Potenza [Sinking], Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', ottengono 3 [Breath] o +2 Conteggio [Breath] ad Inizio Turno (una volta per turno per Identità)\n\nDurante l'Incontro, se un'Identità ha ottenuto [Breath] 3 volte grazie all'effetto, dal turno dopo, tale alleato infligge +30% di danno per Colpo Critico",
       "simpleDesc": [
         {
           "abilityID": 9218,
-          "simpleDesc": "Guadagna Potenza e Conteggio [Breath]"
+          "simpleDesc": "Ottieni Potenza e Conteggio [Breath]"
         },
         {
           "abilityID": 92181,
@@ -234,7 +234,7 @@
     {
       "id": 9220,
       "name": "Rivista sui Fixer Rubata",
-      "desc": "Inizio Turno: Guadagna 1 [HitResultUp]\n\nInizio Combattimento: Guadagna 1 [HitDamageUp] se viene attivata Risonanza Assoluta Invidia\n\nInizio Incontro: Se ci sono 4 o più Identità della fazione del Medio sul campo, applica [RetaliationBook] ad un nemico casuale",
+      "desc": "Inizio Turno: Ottieni 1 [HitResultUp]\n\nInizio Combattimento: Ottieni 1 [HitDamageUp] se viene attivata Risonanza Assoluta Invidia\n\nInizio Incontro: Se ci sono 4 o più Identità della fazione del Medio sul campo, applica [RetaliationBook] ad un nemico casuale",
       "simpleDesc": [
         {
           "abilityID": 9220,
@@ -271,7 +271,7 @@
     {
       "id": 9223,
       "name": "Opera Mediocre",
-      "desc": "Le Identità della fazione Anulare guadagnano [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico tramite Abilità Taglienti o di Lussuria, infliggi [ObjectOfExploration] al nemico nel prossimo turno\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità guadagna 1 [PlusCoinValueUp] nel prossimo turno (una volta per turno)",
+      "desc": "Le Identità della fazione Anulare ottengono [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico tramite Abilità Taglienti o di Lussuria, infliggi [ObjectOfExploration] al nemico nel prossimo turno\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità ottiene 1 [PlusCoinValueUp] nel prossimo turno (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9223,
@@ -279,18 +279,18 @@
         },
         {
           "abilityID": 92231,
-          "simpleDesc": "Guadagna [PlusCoinValueUp]"
+          "simpleDesc": "Ottieni [PlusCoinValueUp]"
         }
       ]
     },
     {
       "id": 9224,
       "name": "Opera Raffinata",
-      "desc": "Le Identità della fazione Anulare guadagnano [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico, infliggi [ObjectOfExploration] al nemico\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità perde [Inspire] e guadagna [GreatAesthetics]",
+      "desc": "Le Identità della fazione Anulare ottengono [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico, infliggi [ObjectOfExploration] al nemico\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità perde [Inspire] e ottiene [GreatAesthetics]",
       "simpleDesc": [
         {
           "abilityID": 9224,
-          "simpleDesc": "Guadagna [Inspire]"
+          "simpleDesc": "Ottieni [Inspire]"
         },
         {
           "abilityID": 92241,
@@ -298,7 +298,7 @@
         },
         {
           "abilityID": 92242,
-          "simpleDesc": "Guadagna [GreatAesthetics]"
+          "simpleDesc": "Ottieni [GreatAesthetics]"
         }
       ]
     },
@@ -338,15 +338,15 @@
     {
       "id": 9226,
       "name": "Lama Azzurra di Qualcuno",
-      "desc": "Inizio Combattimento: Gli alleati con Scudo guadagnano 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato guadagna Scudo uguale a ([Breath] / 5) per il prossimo turno (max 15)",
+      "desc": "Inizio Combattimento: Gli alleati con Scudo ottengono 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato ottiene Scudo uguale a ([Breath] / 5) per il prossimo turno (max 15)",
       "simpleDesc": [
         {
           "abilityID": 9226,
-          "simpleDesc": "Guadagna [CriticalDamageUp]"
+          "simpleDesc": "Ottieni [CriticalDamageUp]"
         },
         {
           "abilityID": 92261,
-          "simpleDesc": "Guadagna Shield"
+          "simpleDesc": "Ottieni Shield"
         }
       ]
     },
@@ -390,7 +390,7 @@
       "simpleDesc": [
         {
           "abilityID": 9230,
-          "simpleDesc": "Guadagna Velocità e Potere Finale"
+          "simpleDesc": "Ottieni Velocità e Potere Finale"
         }
       ]
     },
@@ -408,7 +408,7 @@
     {
       "id": 9232,
       "name": "Potenzialità",
-      "desc": "Per Stordimento da danni, si riprende dallo Stordimento; poi guadagna Scudo uguale al 50% dei PV Max e rimuovi 1 effetto negativo removibile a caso da sé stessi (esclusi gli Stordimenti, 2 volte per Incontro)\n\nGuadagna 20 Potenza [Breath] all'inizio del prossimo turno dopo aver attivato l'effetto (una volta per turno)",
+      "desc": "Per Stordimento da danni, si riprende dallo Stordimento; poi ottieni Scudo uguale al 50% dei PV Max e rimuovi 1 effetto negativo removibile a caso da sé stessi (esclusi gli Stordimenti, 2 volte per Incontro)\n\nOttieni 20 Potenza [Breath] all'inizio del prossimo turno dopo aver attivato l'effetto (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9232,
