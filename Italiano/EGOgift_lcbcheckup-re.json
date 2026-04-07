@@ -7,7 +7,7 @@
       "simpleDesc": [
         {
           "abilityID": 9243,
-          "simpleDesc": "Abilità Attacco infliggono più danni, guadagna Potere Scontro a condizioni soddisfatte"
+          "simpleDesc": "Abilità Attacco infliggono più danni, ottieni Potere Scontro a condizioni soddisfatte"
         }
       ]
     },
@@ -18,29 +18,29 @@
       "simpleDesc": [
         {
           "abilityID": 9244,
-          "simpleDesc": "Abilità Attacco infliggono più danni, guadagna Potere Scontro a condizioni soddisfatte"
+          "simpleDesc": "Abilità Attacco infliggono più danni, ottieni Potere Scontro a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9245,
       "name": "Estrazione Modificata : AEDD",
-      "desc": "Se questa unità ha guadagnato Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' superando il limite massimo in questo turno, guadagna 1 [AttackUp] nel prossimo turno per ogni 2 Stack di eccesso (2 per turno per Identità)\n- Le Identità con Abilità Base che guadagnano o consumano Conteggio [Carica] o '<noparse>Carica</noparse> Speciale': max diventa 6 per turno per Identità\n- Se questa unità ha [HighVoltageExoshell], guadagna anche Potenza 1 [Charge] (una volta per Incontro)",
+      "desc": "Se questa unità ha ottenuto Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' superando il limite massimo in questo turno, ottiene 1 [AttackUp] nel prossimo turno per ogni 2 Stack di eccesso (2 per turno per Identità)\n- Le Identità con Abilità Base che fanno ottenere o consumare Conteggio [Carica] o '<noparse>Carica</noparse> Speciale': max diventa 6 per turno per Identità\n- Se questa unità ha [HighVoltageExoshell], ottiene anche Potenza 1 [Charge] (una volta per Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9245,
-          "simpleDesc": "Guadagna [AttackUp] in base all'eccesso di Conteggio [Carica], guadagna [Charge] a condizioni soddisfatte"
+          "simpleDesc": "Ottieni [AttackUp] in base all'eccesso di Conteggio [Carica], ottieni [Charge] a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9246,
       "name": "Tessera da Impiegato Caduta da Qualcuno",
-      "desc": "Per le Identità della Limbus Company:\n- Inizio Turno: Guadagna (N. delle Identità della Limbus Company che partecipano in battaglia / 3) [ParryingResultUp] (max 2; arrotondato per difetto)\n\nIdentità della LCE:\n- Infliggi +(N. delle Identità che indossano un Equipaggiamento E.G.O x 10)% di danno (max 30%)\n- Per Morte Alleata della stessa fazione: Guadagna 1 risorsa E.G.O per tutte le Affinità; guadagna 1 [PlusCoinValueUp] e 1 [MinusCoinValueUp] ad Inizio Turno per il resto di questo Incontro (2 volte per Incontro per Identità)",
+      "desc": "Per le Identità della Limbus Company:\n- Inizio Turno: Ottieni (n° delle Identità della Limbus Company che partecipano in battaglia / 3) [ParryingResultUp] (max 2; arrotondato per difetto)\n\nIdentità della LCE:\n- Infliggi +(n° delle Identità che indossano un Equipaggiamento E.G.O x 10)% di danno (max 30%)\n- Per Morte Alleata della stessa fazione: Ottieni 1 risorsa E.G.O per tutte le Affinità; ottieni 1 [PlusCoinValueUp] e 1 [MinusCoinValueUp] ad Inizio Turno per il resto di questo Incontro (2 volte per Incontro per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9246,
-          "simpleDesc": "Guadagna [ParryingResultUp] in base al numero delle Identità della Limbus Company partecipanti in battaglia"
+          "simpleDesc": "Ottieni [ParryingResultUp] in base al numero delle Identità della Limbus Company partecipanti in battaglia"
         },
         {
           "abilityID": 92461,
@@ -48,14 +48,14 @@
         },
         {
           "abilityID": 92462,
-          "simpleDesc": "Per Morte Alleata della stessa fazione: Guadagna risorse E.G.O; guadagna [PlusCoinValueUp] e [MinusCoinValueUp] ad Inizio Turno per l'Incontro, dal turno dopo"
+          "simpleDesc": "Per Morte Alleata della stessa fazione: Ottieni risorse E.G.O; ottieni [PlusCoinValueUp] e [MinusCoinValueUp] ad Inizio Turno per l'Incontro, dal turno dopo"
         }
       ]
     },
     {
       "id": 9248,
       "name": "Lindera, Occhiali, e Lettera Spedita",
-      "desc": "[Gli effetti si applicano solo per la 1°, 2°, 3° Identità Schierate]\n\nQuando vinci uno Scontro con un'Abilità Attacco che infligge Potenza o Conteggio [Burst], infliggi 5 Potenza [Burst] e +3 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nQuando ti Scontri con un nemico meno Veloce, guadagna Potere Finale +1 e infliggi +25% di danno\n\nQuando vinci uno Scontro contro un nemico con [AttackUp], guadagna 3 [AttackUp] per il prossimo turno, e infliggi 3 [AttackDown] al nemico che ha perso lo Scontro (3 volte per turno per Identità)\n\nOgni volta che l'Abilità 1, Abilità 2, o Abilità 3 viene usata, attiva il seguente effetto (una volta per grado dell'Abilità):\n- L'unità che ha usato questa Abilità guadagna 1 [Agility] e 1 [SkillPowerUp] ad Inizio Turno per questo Incontro (può accumularsi fino a 3 volte)",
+      "desc": "[Gli effetti si applicano solo per la 1°, 2°, 3° Identità Schierate]\n\nQuando vinci uno Scontro con un'Abilità Attacco che infligge Potenza o Conteggio [Burst], infliggi 5 Potenza [Burst] e +3 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nQuando ti Scontri con un nemico meno Veloce, ottieni Potere Finale +1 e infliggi +25% di danno\n\nQuando vinci uno Scontro contro un nemico con [AttackUp], ottieni 3 [AttackUp] per il prossimo turno, e infliggi 3 [AttackDown] al nemico che ha perso lo Scontro (3 volte per turno per Identità)\n\nOgni volta che l'Abilità 1, Abilità 2, o Abilità 3 viene usata, attiva il seguente effetto (una volta per grado dell'Abilità):\n- L'unità che ha usato questa Abilità ottiene 1 [Agility] e 1 [SkillPowerUp] ad Inizio Turno per questo Incontro (può accumularsi fino a 3 volte)",
       "simpleDesc": [
         {
           "abilityID": 9248,
@@ -63,22 +63,22 @@
         },
         {
           "abilityID": 92481,
-          "simpleDesc": "Quando Scontri contro un nemico più lento, guadagna Potere Finale e infliggi più danni"
+          "simpleDesc": "Quando Scontri contro un nemico più lento, ottieni Potere Finale e infliggi più danni"
         },
         {
           "abilityID": 92482,
-          "simpleDesc": "Guadagna [AttackUp] su sé stessi e infliggi [AttackDown] al nemico a condizioni soddisfatte"
+          "simpleDesc": "Ottieni [AttackUp] su sé stessi e infliggi [AttackDown] al nemico a condizioni soddisfatte"
         },
         {
           "abilityID": 92483,
-          "simpleDesc": "Guadagna [Agility] e [SkillPowerUp] ad Inizio Turno a condizioni soddisfatte"
+          "simpleDesc": "Ottieni [Agility] e [SkillPowerUp] ad Inizio Turno a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9249,
       "name": "Un Piccolo, Adorabile Violino",
-      "desc": "[Gli effetti si applicano solo per la 5°, 6° Identità Schierate]\n\nCura del 10% dei danni ai PV inflitti con un'Abilità (max 20 per Abilità)\n\nPer Scontro Vinto: Guadagna 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nPer Uso di Abilità: Guadagna 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nInfliggi +10% di danno con Abilità Contundenti\n\nInfliggi +(N. di Scontri x 6)% di danno con l'Abilità che ha vinto lo Scontro (max 30%)",
+      "desc": "[Gli effetti si applicano solo per la 5°, 6° Identità Schierate]\n\nCura del 10% dei danni ai PV inflitti con un'Abilità (max 20 per Abilità)\n\nPer Scontro Vinto: Ottieni 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nPer Uso di Abilità: Ottieni 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nInfliggi +10% di danno con Abilità Contundenti\n\nInfliggi +(n° di Scontri x 6)% di danno con l'Abilità che ha vinto lo Scontro (max 30%)",
       "simpleDesc": [
         {
           "abilityID": 9249,
@@ -86,11 +86,11 @@
         },
         {
           "abilityID": 92491,
-          "simpleDesc": "Guadagna [AttackUp] e [TakeHpHealIncrease] per Scontro Vinto"
+          "simpleDesc": "Ottieni [AttackUp] e [TakeHpHealIncrease] per Scontro Vinto"
         },
         {
           "abilityID": 92492,
-          "simpleDesc": "Guadagna [AttackUp] e [TakeHpHealIncrease] per Uso di Abilità"
+          "simpleDesc": "Ottieni [AttackUp] e [TakeHpHealIncrease] per Uso di Abilità"
         },
         {
           "abilityID": 92493,
