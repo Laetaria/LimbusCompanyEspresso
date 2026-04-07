@@ -18,36 +18,36 @@
       "simpleDesc": [
         {
           "abilityID": 9702,
-          "simpleDesc": "Quando infliggi [Burst]con un'abilità, infliggi +3 [Burst] Conteggio"
+          "simpleDesc": "Quando infliggi [Burst]con un'Abilità, infliggi +3 [Burst] Conteggio"
         }
       ]
     },
     {
       "id": 9703,
       "name": "Marinata del Tango",
-      "desc": "Se la velocità dell'unità è più alta del bersaglio, guadagna +(Speed/3) Potere Scontro. (max 3)",
+      "desc": "Se la Velocità dell'unità è più alta del bersaglio, guadagna +(Velocità/3) Potere Scontro. (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9703,
-          "simpleDesc": "Guadagna +(Speed/3) Potere Scontro."
+          "simpleDesc": "Guadagna +(Velocità/3) Potere Scontro."
         }
       ]
     },
     {
       "id": 9704,
       "name": "Ago e Filo Contaminati",
-      "desc": "Il seguente effetto si applica sulla prima Abilità che infligge danno ai nemici.\n\nInfliggi (damage dealt/3) [Laceration] Potenza.",
+      "desc": "Il seguente effetto si applica sulla prima Abilità che infligge danno ai nemici.\n\nInfliggi (danno inflitto/3) Potenza [Laceration].",
       "simpleDesc": [
         {
           "abilityID": 9704,
-          "simpleDesc": "Infliggi (damage dealt/3) [Laceration] Potenza"
+          "simpleDesc": "Infliggi (danno inflitto/3) Potenza [Laceration]"
         }
       ]
     },
     {
       "id": 9705,
       "name": "Ago Affilato e Filo",
-      "desc": "Ogni turno, la prima Abilità che infligge danni ai nemici, infligge danni fissi extra pari alla metà dei danni inflitti dall'abilità.",
+      "desc": "Ogni turno, la prima Abilità che infligge danni ai nemici, infligge danni fissi extra pari alla metà dei danni inflitti dall'Abilità.",
       "simpleDesc": [
         {
           "abilityID": 9705,
@@ -58,15 +58,15 @@
     {
       "id": 9706,
       "name": "Chiave Inglese Sporca d'Olio",
-      "desc": "Le abilità contundenti infliggono +10% danni\n\nL'ultima moneta delle abilità contundenti infligge 2 [Vibration] Potenza con il colpo. (una volta per turno)",
+      "desc": "Le Abilità Contundenti infliggono +10% danni\n\nL'ultima moneta delle Abilità Contundenti infligge 2 Potenza [Vibration] con il colpo. (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9706,
-          "simpleDesc": "Le abilità contundenti infliggono +10% danni"
+          "simpleDesc": "Le Abilità Contundenti infliggono +10% danni"
         },
         {
           "abilityID": 97061,
-          "simpleDesc": "Infliggi 2 [Vibration] Potenza contro il nemico."
+          "simpleDesc": "Infliggi 2 Potenza [Vibration] contro il nemico."
         }
       ]
     },
@@ -84,56 +84,56 @@
     {
       "id": 9708,
       "name": "Vino di Cervello di Granchio dei Rifiuti",
-      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge [Burst] Potenza o Conteggio, infliggi ([Burst] Count x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende da Vacillamento, cura 20% degli HP massimi. (2 volte per Scontro)",
+      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge Potenza o Conteggio [Burst], infliggi (Conteggio [Burst] x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende dallo Stordimento, cura 20% dei PV massimi. (2 volte per Scontro)",
       "simpleDesc": [
         {
           "abilityID": 9708,
-          "simpleDesc": "Infliggi +([Burst] Count x 1.25)% danni (max 50%)"
+          "simpleDesc": "Infliggi +(Conteggio [Burst] x 1.25)% danni (max 50%)"
         },
         {
           "abilityID": 97081,
-          "simpleDesc": "cura 20% degli HP massimi"
+          "simpleDesc": "Cura 20% dei PV massimi"
         }
       ]
     },
     {
       "id": 9709,
       "name": "Cappello Pom-pom",
-      "desc": "A fine turno: guadagna 1 [Breath] Potenza nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 [Breath] Potenza per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
+      "desc": "A fine turno: guadagna 1 Potenza [Breath] nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 Potenza [Breath] per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
       "simpleDesc": [
         {
           "abilityID": 9709,
-          "simpleDesc": "Guadagna 1 [Breath] Potenza"
+          "simpleDesc": "Guadagna 1 Potenza [Breath]"
         },
         {
           "abilityID": 97091,
-          "simpleDesc": "Guadagna 3 [Breath] Potenza"
+          "simpleDesc": "Guadagna 3 Potenza [Breath]"
         }
       ]
     },
     {
       "id": 9710,
       "name": "Enorme Sacco dei Regali",
-      "desc": "Inizio Turno: dà 2 [Breath], 2 [Breath] Conteggio, e 2 [Protection] all'alleato con meno HP.",
+      "desc": "Inizio Turno: applica 2 [Breath], 2 Conteggio [Breath], e 2 [Protection] all'alleato con meno PV.",
       "simpleDesc": [
         {
           "abilityID": 9710,
-          "simpleDesc": "Dà 2 [Breath], 2 [Breath] Count, and 2 [Protection]"
+          "simpleDesc": "Applica 2 [Breath], 2 Conteggio [Breath], e 2 [Protection]"
         }
       ]
     },
     {
       "id": 9711,
       "name": "Peluche Triste",
-      "desc": "Infligge +(absolute value of SP/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende da Vacillamento, cura tutti i suoi SP. (non si attive se è Corroso)\n\nSe un alleato ha solo Abilità con Monete Negative: guadagna 3 [Paralysis] ad inizio turno.",
+      "desc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende dallo Stordimento, recupera tutti i suoi PS. (non si attiva se l'unità Corrode)\n\nSe un alleato ha solo Abilità con Monete Negative: guadagna 3 [Paralysis] ad inizio turno.",
       "simpleDesc": [
         {
           "abilityID": 9711,
-          "simpleDesc": "Infliggi +(valore totale degli SP/1.5)% danni. (min 0%)"
+          "simpleDesc": "Infliggi +(valore assoluto dei PS/1.5)% danni. (min 0%)"
         },
         {
           "abilityID": 97111,
-          "simpleDesc": "Quando si recupera da Vacillamento, cura tutti gli SP"
+          "simpleDesc": "Quando si recupera dallo Stordimento, recupera tutti i PS"
         },
         {
           "abilityID": 97112,
