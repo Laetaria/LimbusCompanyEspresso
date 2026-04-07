@@ -48,7 +48,7 @@
     {
       "id": 9002,
       "name": "Perversione",
-      "desc": "Dopo aver sconfitto 1 o più nemici con un'Abilità Attacco, ottieni +1 risorsa E.G.O dell'Affinità di tale Abilità Attacco all'Inizio del prossimo Turno.\n\nSe l'Affinità dell'Abilità Attacco era Ira, ottiene invece +1 risorsa E.G.O di tutte le affinità che possiede l'alleato all'Inizio del prossimo Turno.",
+      "desc": "Dopo aver sconfitto 1 o più nemici con un'Abilità Attacco, ottieni +1 risorsa E.G.O dell'Affinità di tale Abilità Attacco all'Inizio del prossimo Turno.\n\nSe l'Affinità dell'Abilità Attacco era Ira, ottieni invece +1 risorsa E.G.O di tutte le affinità che possiede l'alleato all'Inizio del prossimo Turno.",
       "simpleDesc": [
         {
           "abilityID": 9002,
@@ -812,7 +812,7 @@
     {
       "id": 9034,
       "name": "Circuito Logico di Identificazione",
-      "desc": "Quando si colpisce un nemico con un'Abilità con Affinità Invidia o un'Abilità che infligge Potenza [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infliggi ulteriormente (1/2 n° di Monete totali dell'Abilità) Potenza [Combustion]. (arrotondato per eccesso)\n\n- [Non Accumulabile] (Quando la Passiva dell'E.G.O Move-in Reg. di Heathcliff 「Circuit Wiring」 è attiva, questo effetto non si attiva)\n\nPer Colpo, se il bersaglio ha 99 Potenza [Combustion], infliggi 1 [IDMicroChip] (una volta per nemico, 3 volte per turno)",
+      "desc": "Quando si colpisce un nemico con un'Abilità con Affinità Invidia o un'Abilità che infligge Potenza [Combustion] o '<noparse>Bruciatura</noparse> Speciale', infliggi ulteriormente (1/2 n° di Monete totali dell'Abilità) Potenza [Combustion]. (arrotondato per eccesso)\n\n- [Non Accumulabile] (Quando la Passiva dell'E.G.O Registro Trasloco di Heathcliff 「Circuit Wiring」 è attiva, questo effetto non si attiva)\n\nPer Colpo, se il bersaglio ha 99 Potenza [Combustion], infliggi 1 [IDMicroChip] (una volta per nemico, 3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9034,
@@ -901,7 +901,7 @@
     {
       "id": 9037,
       "name": "Infante nell'Ampolla",
-      "desc": "Inizio Incontro: ottiene +1 risorsa E.G.O per ogni Affinità Peccato.",
+      "desc": "Inizio Incontro: ottieni +1 risorsa E.G.O per ogni Affinità Peccato.",
       "simpleDesc": [
         {
           "abilityID": 9037,
@@ -1915,7 +1915,7 @@
     {
       "id": 29069,
       "name": "Polsiere++",
-      "desc": "Inizio Turno: gli alleati con <style=\"upgradeHighlight\">(Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') ottiene 2 [AttackDmgUp]</style>.\n\nSe l'alleato ha delle Abilità Attacco con Affinità Superbia, ottiene invece <style=\"upgradeHighlight\">3 [AttackDmgUp].</style>",
+      "desc": "Inizio Turno: gli alleati con <style=\"upgradeHighlight\">(Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') ottengono 2 [AttackDmgUp]</style>.\n\nSe l'alleato ha delle Abilità Attacco con Affinità Superbia, ottiene invece <style=\"upgradeHighlight\">3 [AttackDmgUp].</style>",
       "simpleDesc": [
         {
           "abilityID": 29069,
@@ -2414,7 +2414,7 @@
     {
       "id": 9090,
       "name": "Nebbia Sanguinosa",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nGli alleati infliggono il doppio della quantità di Potenza e Conteggio [Laceration] tramite gli effetti delle Abilità contro i nemici.\n\nIl primo alleato fra tutti nell'ordine di Schieramento: Le Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Potere Moneta +2 e infligge +100% di danno.\n- Le Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottieni Potere Base +(8 / n° di Monete) (min 1; arrotondato per difetto)\nSe il nemico attaccato da tale alleato o contro cui si Scontrava muore, infliggi casualmente la Potenza [Laceration] rimanente del nemico sconfitto tra tutti i nemici. (per gli Incontri Mirati, le Parti)\n\nLe Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Potere Moneta +1, infligge +30% di danno\n- Le Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottiene Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nGli alleati infliggono il doppio della quantità di Potenza e Conteggio [Laceration] tramite gli effetti delle Abilità contro i nemici.\n\nIl primo alleato fra tutti nell'ordine di Schieramento: Le Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Potere Moneta +2 e infliggono +100% di danno.\n- Le Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottiengono Potere Base +(8 / n° di Monete) (min 1; arrotondato per difetto)\nSe il nemico attaccato da tale alleato o contro cui si Scontrava muore, infliggi casualmente la Potenza [Laceration] rimanente del nemico sconfitto tra tutti i nemici. (per gli Incontri Mirati, le Parti)\n\nLe Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Potere Moneta +1, infliggono +30% di danno\n- Le Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9090,
