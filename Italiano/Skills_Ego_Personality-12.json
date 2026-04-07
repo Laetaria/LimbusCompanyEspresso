@@ -594,9 +594,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gloria Spenta - Inarrestabile",
+          "name": "Gloria Sbiadita - Inarrestabile",
           "abName": "Młynar",
-          "desc": "[CantDuel]\nWhen used for the first time in battle, consume 1 fewer Wrath, 2 fewer Sloth, and 1 fewer Pride E.G.O resources.\nAt 1+ [MlynarWaiting], activate <noparse>Gloria Spenta - Incandescence</noparse> instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndSkill] Heal 25 SP\n[EndSkill] Gain 1 [AttackUp] next turn",
+          "desc": "[CantDuel]\nQuando viene usata per la prima volta, Gloria Sbiadita consuma 1 Risorsa Ira, 2 Risorse Accidia e 1 Risorsa Superbia in meno.\nA 1+ [MlynarWaiting], attiva al suo posto <noparse>Gloria Sbiadita - Incandescente</noparse>\nQuesta Abilità non colpisce nemici, non attiva Abilità Difensive, e gli effetti esterni non possono far Riusare questa Abilità\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndSkill] Cura 25 PS\n[EndSkill] Ottiene 1 [AttackUp] il prossimo turno",
           "coinlist": [
             {
               "coindescs": [
@@ -609,9 +609,9 @@
         },
         {
           "level": 3,
-          "name": "Gloria Spenta - Inarrestabile",
+          "name": "Gloria Sbiadita - Inarrestabile",
           "abName": "Młynar",
-          "desc": "[CantDuel]\nWhen used for the first time in battle, consume 1 fewer Wrath, 2 fewer Sloth, and 1 fewer Pride E.G.O resources.\nAt 1+ [MlynarWaiting], activate <noparse>Gloria Spenta - Incandescence</noparse> instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndSkill] Heal 25 SP\n[EndSkill] Gain <style=\"highlight\">2</style> [AttackUp] next turn",
+          "desc": "[CantDuel]\nQuando viene usata per la prima volta, Gloria Sbiadita consuma 1 Risorsa Ira, 2 Risorse Accidia e 1 Risorsa Superbia in meno.\nA 1+ [MlynarWaiting], attiva al suo posto <noparse>Gloria Sbiadita - Incandescente</noparse>\nQuesta Abilità non colpisce nemici, non attiva Abilità Difensive, e gli effetti esterni non possono far Riusare questa Abilità\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndSkill] Cura 25 PS\n[EndSkill] Ottiene <style=\"highlight\">2</style> [AttackUp] il prossimo",
           "coinlist": [
             {
               "coindescs": [
@@ -624,9 +624,9 @@
         },
         {
           "level": 4,
-          "name": "Gloria Spenta - Inarrestabile",
+          "name": "Gloria Sbiadita - Inarrestabile",
           "abName": "Młynar",
-          "desc": "[CantDuel]\nWhen used for the first time in battle, consume 1 fewer Wrath, 2 fewer Sloth, and 1 fewer Pride E.G.O resources.\nAt 1+ [MlynarWaiting], activate <noparse>Gloria Spenta - Incandescence</noparse> instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndSkill] Heal 25 SP\n[EndSkill] Gain 2 [AttackUp] <style=\"highlight\">and 1 [AttackDmgUp]</style> next turn",
+          "desc": "[CantDuel]\nQuando viene usata per la prima volta, Gloria Sbiadita consuma 1 Risorsa Ira, 2 Risorse Accidia e 1 Risorsa Superbia in meno.\nA 1+ [MlynarWaiting], attiva al suo posto <noparse>Gloria Sbiadita - Incandescente</noparse>\nQuesta Abilità non colpisce nemici, non attiva Abilità Difensive, e gli effetti esterni non possono far Riusare questa Abilità\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndSkill] Cura 25 PS\n[EndSkill] Ottiene 2 [AttackUp] <style=\"highlight\">e 1 [AttackDmgUp]</style> il prossimo turno",
           "coinlist": [
             {
               "coindescs": [
@@ -644,9 +644,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gloria Spenta - Incandescente",
+          "name": "Gloria Sbiadita - Incandescente",
           "abName": "Młynar",
-          "desc": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 [MlynarWaiting], becomes Clashable\n[WhenUse] At 40 [MlynarWaiting], until this Skill ends, this unit cannot be Staggered from taking damage, and gains Clash Power +20\n\n[BeforeAttack] Consume all [MlynarWaiting] and gain the following effects(all of them rounded down):\n- For every (Stack consumed / 20), recuperate 1 E.G.O resource (in the following order: Pride, then Wrath)\n- For every (Stack consumed / 10), gain +1 Atk Weight (max 4)\n- For every (Stack consumed / 10), gain [DefenseUp] (once per turn)\n- If 40 Stack was consumed, the 4th Coin deals +50% damage, and this unit gains 2 [Protection] (once per turn)\n\n[BeforeAttack] Deal +5% damage for every 8 ([Combustion] + [Vibration]) on the main target (max 25%)\n[EndSkill] Heal 5 SP for every target that was Staggered or killed due to this Skill's damage (max 25)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] If this Skill did not consume 40 [MlynarWaiting], the leftmost Skill Slot on the Dashboard gains +4 [Aggro] next turn (once per turn)",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nA 40 [MlynarWaiting], questa Abilità diventa Scontrabile\n[WhenUse] A 40 [MlynarWaiting]:\n- Potere Scontro +20;\n- Finché quest'Abilità non è finita, questa unità non può essere Stordita dai danni subiti.\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Recupera 1 Risorsa E.G.O per ogni (Stack consumato / 20) nel seguente ordine: Superbia, Ira\n- Ottiene 1 Portata Attacco per ogni (Stack consumati / 10) (max 4)\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, la 4ta Moneta infligge +50% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +5% danni per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 25%)\n[EndSkill] Cura 5 PS per ogni bersaglio Storito o Sconfitto dai danni di questa Abilità (max 25)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità non ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +4 [Aggro] il prossimo turno (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -654,19 +654,19 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (([MlynarWaiting] Stack consumed / 10) - 1) times (3 times max)"
+                  "desc": "Riusa questa Moneta (( Stack di [MlynarWaiting] consumati / 10) - 1) volte (max 3)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this is the final Coin, and if target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa è l'ultima Moneta, e se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this Coin was used 4 times, deal Sloth damage equal to [Vibration] on target (max 5)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa Moneta è stata usata 4 volte, infligge danni da Accidia pari alla [Vibration] sul bersaglio (max 5)"
                 }
               ]
             }
@@ -674,9 +674,9 @@
         },
         {
           "level": 3,
-          "name": "Gloria Spenta - Incandescente",
+          "name": "Gloria Sbiadita - Incandescente",
           "abName": "Młynar",
-          "desc": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 [MlynarWaiting], becomes Clashable\n[WhenUse] At 40 [MlynarWaiting], until this Skill ends, this unit cannot be Staggered from taking damage, and gains Clash Power +20\n\n[BeforeAttack] Consume all [MlynarWaiting] and gain the following effects(all of them rounded down):\n- For every (Stack consumed / 20), recuperate 1 E.G.O resource (in the following order: Pride, then Wrath)\n- For every (Stack consumed / 10), gain +1 Atk Weight (max 4)\n- For every (Stack consumed / 10), gain [DefenseUp] (once per turn)\n- If 40 Stack was consumed, the 4th Coin deals +<style=\"highlight\">80</style>% damage, and this unit gains 2 [Protection] (once per turn)\n\n[BeforeAttack] Deal +5% damage for every 8 ([Combustion] + [Vibration]) on the main target (max 25%)\n[EndSkill] Heal 5 SP for every target that was Staggered or killed due to this Skill's damage (max 25)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] If this Skill did not consume 40 [MlynarWaiting], the leftmost Skill Slot on the Dashboard gains +4 [Aggro] next turn (once per turn)",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nA 40 [MlynarWaiting], questa Abilità diventa Scontrabile\n[WhenUse] A 40 [MlynarWaiting]:\n- Potere Scontro +20;\n- Finché quest'Abilità non è finita, questa unità non può essere Stordita dai danni subiti.\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Recupera 1 Risorsa E.G.O per ogni (Stack consumato / 20) nel seguente ordine: Superbia, Ira\n- Ottiene 1 Portata Attacco per ogni (Stack consumati / 10) (max 4)\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, la 4ta Moneta infligge +<style=\"highlight\">80</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +5% danni per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 25%)\n[EndSkill] Cura 5 PS per ogni bersaglio Storito o Sconfitto dai danni di questa Abilità (max 25)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità non ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +4 [Aggro] il prossimo turno (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -684,22 +684,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (([MlynarWaiting] Stack consumed / 10) - 1) times (3 times max)<style=\"highlight\"></style>"
+                  "desc": "Riusa questa Moneta (( Stack di [MlynarWaiting] consumati / 10) - 1) volte (max 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] If this Coin isn't Cracked, and if it targets 3+ enemies, the final Coin to be used deals +10% damage (for Focused Encounters, each Part counts as 1 target)</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Se questa moneta non è stata rotta, e se bersaglia 3+ nemici, l'ultima Moneta usata da questa Abilità infligge +10% danni (negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this is the final Coin, and if target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa è l'ultima Moneta, e se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this Coin was used 4 times, deal Sloth damage equal to [Vibration] on target (max 5)<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa Moneta è stata usata 4 volte, infligge danni da Accidia pari alla [Vibration] sul bersaglio (max 5)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -707,9 +707,9 @@
         },
         {
           "level": 4,
-          "name": "Gloria Spenta - Incandescente",
+          "name": "Gloria Sbiadita - Incandescente",
           "abName": "Młynar",
-          "desc": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 [MlynarWaiting], becomes Clashable\n[WhenUse] At 40 [MlynarWaiting], until this Skill ends, this unit cannot be Staggered from taking damage, and gains Clash Power +20\n\n[BeforeAttack] Consume all [MlynarWaiting] and gain the following effects(all of them rounded down):\n- For every (Stack consumed / 20), recuperate 1 E.G.O resource (in the following order: Pride, then Wrath)\n- For every (Stack consumed / 10), gain +1 Atk Weight (max 4)\n- For every (Stack consumed / 10), gain [DefenseUp] (once per turn)\n- If 40 Stack was consumed, the 4th Coin deals +<style=\"highlight\">100</style>% damage, and this unit gains 2 [Protection] (once per turn)\n\n[BeforeAttack] Deal +5% damage for every 8 ([Combustion] + [Vibration]) on the main target (max 25%)\n[EndSkill] Heal 5 SP for every target that was Staggered or killed due to this Skill's damage (max 25)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] If this Skill did not consume 40 [MlynarWaiting], the leftmost Skill Slot on the Dashboard gains +4 [Aggro] next turn (once per turn)",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nA 40 [MlynarWaiting], questa Abilità diventa Scontrabile\n[WhenUse] A 40 [MlynarWaiting]:\n- Potere Scontro +20;\n- Finché quest'Abilità non è finita, questa unità non può essere Stordita dai danni subiti.\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Recupera 1 Risorsa E.G.O per ogni (Stack consumato / 20) nel seguente ordine: Superbia, Ira\n- Ottiene 1 Portata Attacco per ogni (Stack consumati / 10) (max 4)\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, la 4ta Moneta infligge +<style=\"highlight\">100</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +5% danni per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 25%)\n[EndSkill] Cura 5 PS per ogni bersaglio Storito o Sconfitto dai danni di questa Abilità (max 25)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità non ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +4 [Aggro] il prossimo turno (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -717,22 +717,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (([MlynarWaiting] Stack consumed / 10) - 1) times (3 times max)<style=\"highlight\"></style>"
+                  "desc": "RRiusa questa Moneta (( Stack di [MlynarWaiting] consumati / 10) - 1) volte (max 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] If this Coin isn't Cracked, and if it targets 3+ enemies, the final Coin to be used deals +<style=\"highlight\">20</style>% damage (for Focused Encounters, each Part counts as 1 target)"
+                  "desc": "[OnStartCoin] Se questa moneta non è stata rotta, e se bersaglia 3+ nemici, l'ultima Moneta usata da questa Abilità infligge +<style=\"highlight\">20</style>% danni (negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this is the final Coin, and if target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa è l'ultima Moneta, e se il bersaglio 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this Coin was used 4 times, deal Sloth damage equal to [Vibration] on target (max <style=\"highlight\">10</style>)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa Moneta è stata usata 4 volte, infligge danni da Accidia pari alla [Vibration] sul bersaglio (max <style=\"highlight\">10</style>)"
                 }
               ]
             }
@@ -745,9 +745,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gloria Spenta - Inarrestabile",
+          "name": "Gloria Sbiadita - Inarrestabile",
           "abName": "Młynar",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] At 40 [MlynarWaiting], Base Power +1\n\n[BeforeAttack] Consume all [MlynarWaiting] and gain the following effects(all of them rounded down):\n- Gain (Stack consumed / 10) [DefenseUp] (once per turn)\n- If 40 Stack was consumed, the final Coin deals +110% damage and this unit gains 2 [Protection] (once per turn)\n\n[BeforeAttack] Deal +3% damage for every 6 ([Combustion] + [Vibration]) on the main target (max 15%)\n[BeforeAttack] Base Power -4 for every Cracked Coin (max -16)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] If 40 [MlynarWaiting] was consumed by this Skill, the leftmost Skill Slot on the Dashboard gains +8 [Aggro] next turn (once per turn)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] A 40 [MlynarWaiting], Potere Base +1\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per attivare i seguenti effetti (ognuno arrotondato per difetto):\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, l'ultima Moneta infligge +110% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +3% danni per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 15%)\n[BeforeAttack] Potere Base -4 per ogni Moneta Rotta (max -16)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +8 [Aggro] il prossimo turno (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -776,13 +776,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -790,9 +790,9 @@
         },
         {
           "level": 3,
-          "name": "Gloria Spenta - Inarrestabile",
+          "name": "Gloria Sbiadita - Inarrestabile",
           "abName": "Młynar",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">When attacking 3+ targets: If the Coins 1~3 hit without Cracking, the final Coin deals +25% damage (once per Coin; in Focused Encounters, each Part counts as 1 target)</style>\n[WhenUse] At 40 [MlynarWaiting], Base Power +1\n\n[BeforeAttack] Consume all [MlynarWaiting] and gain the following effects(all of them rounded down):\n- Gain (Stack consumed / 10) [DefenseUp] (once per turn)\n- If 40 Stack was consumed, the final Coin deals +<style=\"highlight\">130</style>% damage and this unit gains 2 [Protection] (once per turn)\n\n[BeforeAttack] Deal +3% damage for every 6 ([Combustion] + [Vibration]) on the main target (max 15%)\n[BeforeAttack] Base Power -4 for every Cracked Coin (max -16)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] If 40 [MlynarWaiting] was consumed by this Skill, the leftmost Skill Slot on the Dashboard gains +8 [Aggro] next turn (once per turn)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Quando attacca 3+ bersagli: Se le prime 3 Monete non sono rotte, l'ultima Moneta infligge +25% danni (una volta per Moneta. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>\n[WhenUse] A 40 [MlynarWaiting], Potere Base +1\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per attivare i seguenti effetti (ognuno arrotondato per difetto):\n- Ottiene (Stack consumati / 10) [DefenseUp] (una volta per turno)\n- Se ha consumato 40 Stack, l'ultima Moneta infligge +<style=\"highlight\">130</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +3% danni per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 15%)\n[BeforeAttack] Potere Base -4 per ogni Moneta Rotta (max -16)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +8 [Aggro] il prossimo turno (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -821,13 +821,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -835,9 +835,9 @@
         },
         {
           "level": 4,
-          "name": "Gloria Spenta - Inarrestabile",
+          "name": "Gloria Sbiadita - Inarrestabile",
           "abName": "Młynar",
-          "desc": "[CantIdentify]\nTargets randomly\nIf there are 3+ targets: If the Coins 1~3 hit without Cracking, the final Coin deals +<style=\"highlight\">30</style>% damage (once per Coin; in Focused Encounters, each Part counts as 1 target)\n[WhenUse] At 40 [MlynarWaiting], Base Power +1\n\n[BeforeAttack] Consume all [MlynarWaiting] and gain the following effects(all of them rounded down):\n- Gain (Stack consumed / 10) [DefenseUp] (once per turn)\n- If 40 Stack was consumed, the final Coin deals +<style=\"highlight\">160</style>% damage and this unit gains 2 [Protection] (once per turn)\n\n[BeforeAttack] Deal +3% damage for every 6 ([Combustion] + [Vibration]) on the main target (max 15%)\n[BeforeAttack] Base Power -4 for every Cracked Coin (max -16)\n[EndSkill] Gain 1 [MlynarWaiting]\n[EndBattle] If 40 [MlynarWaiting] was consumed by this Skill, the leftmost Skill Slot on the Dashboard gains +8 [Aggro] next turn (once per turn)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nQuando attacca 3+ bersagli: Se le prime 3 Monete non sono rotte, l'ultima Moneta infligge +<style=\"highlight\">30</style>% danni (una volta per Moneta. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)\n[WhenUse] A 40 [MlynarWaiting], Potere Base +1\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Ottiene (Stack consumed / 10) [DefenseUp] (una volta per turno)\n- Se questa Abilità ha consumato 40 Stack, l'ultima Moneta infligge +<style=\"highlight\">160</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +3% danni per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 15%)\n[BeforeAttack] Potere Base -4 per ogni Moneta Rotta (max -16)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +8 [Aggro] il prossimo turno (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -866,13 +866,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If target has 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
