@@ -3575,7 +3575,7 @@
     {
       "id": 9133,
       "name": "Defibrillatore Illimitato",
-      "desc": "Fine Turno: cura i PV e PS per la somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumati dalle Abilità Attacco in questo turno.\n\nSe questa unità ha meno del 50% dei PV Max, aumenta la quantità curata del x1.5.",
+      "desc": "Fine Turno: cura i PV e PS per la somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumati dalle Abilità Attacco in questo turno.\n\nSe questa unità ha meno del 50% dei PV Max, aumenta la quantità curata di x1.5.",
       "simpleDesc": [
         {
           "abilityID": 9133,
@@ -3586,7 +3586,7 @@
     {
       "id": 19133,
       "name": "Defibrillatore Illimitato+",
-      "desc": "Fine Turno: cura i PV e PS per <style=\"upgradeHighlight\">(la somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumati dalle Abilità Attacco in questo turno + 1)</style>.\n\nSe questa unità ha meno del 50% dei PV Max, aumenta la quantità curata del <style=\"upgradeHighlight\">x2</style>.",
+      "desc": "Fine Turno: cura i PV e PS per <style=\"upgradeHighlight\">(la somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumati dalle Abilità Attacco in questo turno + 1)</style>.\n\nSe questa unità ha meno del 50% dei PV Max, aumenta la quantità curata di <style=\"upgradeHighlight\">x2</style>.",
       "simpleDesc": [
         {
           "abilityID": 19133,
@@ -3597,7 +3597,7 @@
     {
       "id": 29133,
       "name": "Defibrillatore Illimitato++",
-      "desc": "Fine Turno: cura i PV e PS per (la somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumati dalle Abilità Attacco in questo turno <style=\"upgradeHighlight\">+ 2</style>).\n\nSe questa unità ha meno del <style=\"upgradeHighlight\">75</style>% dei PV Max, aumenta la quantità curata del x2.",
+      "desc": "Fine Turno: cura i PV e PS per (la somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumati dalle Abilità Attacco in questo turno <style=\"upgradeHighlight\">+ 2</style>).\n\nSe questa unità ha meno del <style=\"upgradeHighlight\">75</style>% dei PV Max, aumenta la quantità curata di x2.",
       "simpleDesc": [
         {
           "abilityID": 29133,
@@ -3705,7 +3705,7 @@
     {
       "id": 29137,
       "name": "Bisturi++",
-      "desc": "[Gli effetti si applicano sono alla 4° <style=\"upgradeHighlight\">e 5°</style> Identità Schierate]\n\nFine Turno: le Identità con delle Abilità Attacco Taglienti ottengono (1 + n° delle Abilità Attacco Taglienti che hanno) [Agility] nel turno successivo. (es. Un'Identità con tutte e tre le Abilità 1, Abilità 2, e Abilità 3 di Tipo Tagliente otterrebbe 4 [Agility] nel turno successivo. Le Abilità E.G.O e Contrattacchi non contano)",
+      "desc": "[Gli effetti si applicano solo alla 4° <style=\"upgradeHighlight\">e 5°</style> Identità Schierate]\n\nFine Turno: le Identità con delle Abilità Attacco Taglienti ottengono (1 + n° delle Abilità Attacco Taglienti che hanno) [Agility] nel turno successivo. (es. Un'Identità con tutte e tre le Abilità 1, Abilità 2, e Abilità 3 di Tipo Tagliente otterrebbe 4 [Agility] nel turno successivo. Le Abilità E.G.O e Contrattacchi non contano)",
       "simpleDesc": [
         {
           "abilityID": 29137,
@@ -4003,7 +4003,7 @@
     {
       "id": 29145,
       "name": "Bandoliera Strappata++",
-      "desc": "Le Abilità Perforanti ottengono Potere Scontro +1 e infliggono <style=\"upgradeHighlight\">+10%</style> damage\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° di Monete)% di danno\n\nSe l'unità è a corto di [Bullet], ottiene 2 [Bullet] all'Inizio del prossimo Turno (una volta per Incontro per Identità)",
+      "desc": "Le Abilità Perforanti ottengono Potere Scontro +1 e infliggono <style=\"upgradeHighlight\">+10%</style> di danno\n\nLe Abilità che consumano [Bullet] infliggono +(<style=\"upgradeHighlight\">60</style>/n° di Monete)% di danno\n\nSe l'unità è a corto di [Bullet], ottiene 2 [Bullet] all'Inizio del prossimo Turno (una volta per Incontro per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29145,
@@ -4467,7 +4467,7 @@
     {
       "id": 9179,
       "name": "Reminiscenza",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che fanno ottenere o applicare Potenza o Conteggio [Breath]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nL'Abilità 3 delle Identità con Abilità (escluse le Abilità E.G.O) che fanno ottenere Potenza o Conteggio [Breath]: Potere <noparse>Moneta Positiva +</noparse>1\n- Abilità a Moneta Negativa: Invece di ottenere Potere Moneta Positiva, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nInizio Combattimento: un alleato casuale ottiene 3 Potenza [Breath]. (priorità per le Identità che fanno ottenere Conteggio [Breath] con le loro Abilità Attacco)\nPriorità per gli alleati con Abilità Attacco con Affinità Tristezza; ottengono invece 3 Potenza [Breath] e +2 Conteggio [Breath].",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che fanno ottenere o applicare Potenza o Conteggio [Breath]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nL'Abilità 3 delle Identità con Abilità (escluse le Abilità E.G.O) che fanno ottenere Potenza o Conteggio [Breath]: Potere <noparse>Moneta Positiva +</noparse>1\n- Abilità a Moneta Negativa: Invece di ottenere Potere Moneta Positiva, ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nInizio Combattimento: un alleato casuale ottiene 3 Potenza [Breath]. (priorità per le Identità che ottengono Conteggio [Breath] con le loro Abilità Attacco)\nPriorità per gli alleati con Abilità Attacco con Affinità Tristezza; ottengono invece 3 Potenza [Breath] e +2 Conteggio [Breath].",
       "simpleDesc": [
         {
           "abilityID": 9179,
@@ -4670,7 +4670,7 @@
     {
       "id": 9194,
       "name": "Bastone Animato Corto",
-      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Tagliente Base, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Seven: l'effetto si applica anche per le Abilità Attacco Perforanti e Contundenti Base\n\nInizio Incontro: Le Identità dell'Associazione Seven ottengono (n° delle altre Identità dell'Associazione Seven / 2) Aumento Potere Scontro (arrotondato per difetto; max 2)",
+      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Base Tagliente, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Seven: l'effetto si applica anche per le Abilità Attacco Base Perforanti e Contundenti\n\nInizio Incontro: Le Identità dell'Associazione Seven ottengono (n° delle altre Identità dell'Associazione Seven / 2) Aumento Potere Scontro (arrotondato per difetto; max 2)",
       "simpleDesc": [
         {
           "abilityID": 9193,
@@ -4685,7 +4685,7 @@
     {
       "id": 19194,
       "name": "Bastone Animato Corto+",
-      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Tagliente Base, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Seven: l'effetto si applica anche per le Abilità Attacco Perforanti e Contundenti Base, <style=\"upgradeHighlight\">e infliggi [WeaknessAnalysis]</style>\n\n<style=\"upgradeHighlight\">Inizio Turno Dispari</style>: Le Identità dell'Associazione Seven ottengono (n° delle altre Identità dell'Associazione Seven / 2) Aumento Potere Scontro (arrotondato per difetto; max 2)",
+      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Base Tagliente, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Seven: l'effetto si applica anche per le Abilità Attacco Base Perforanti e Contundenti, <style=\"upgradeHighlight\">e infliggi [WeaknessAnalysis]</style>\n\n<style=\"upgradeHighlight\">Inizio Turno Dispari</style>: Le Identità dell'Associazione Seven ottengono (n° delle altre Identità dell'Associazione Seven / 2) Aumento Potere Scontro (arrotondato per difetto; max 2)",
       "simpleDesc": [
         {
           "abilityID": 19193,
@@ -4700,7 +4700,7 @@
     {
       "id": 29194,
       "name": "Bastone Animato Corto++",
-      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Tagliente Base, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Seven: l'effetto si applica anche per le Abilità Attacco Perforanti e Contundenti Base, e infliggi [WeaknessAnalysis] e 1<style=\"upgradeHighlight\"> Calo Potere Scontro</style>\n\n<style=\"upgradeHighlight\">Inizio Turno</style>: Le Identità dell'Associazione Seven ottengono (n° delle altre Identità dell'Associazione Seven / 2) Aumento Potere Scontro. (arrotondato per difetto; max 2)\n<style=\"upgradeHighlight\">A Scontro Vinto, infliggi +20% di danno con l'Abilità.</style>",
+      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Base Tagliente, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Seven: l'effetto si applica anche per le Abilità Attacco Base Perforanti e Contundenti, e infliggi [WeaknessAnalysis] e 1<style=\"upgradeHighlight\"> Calo Potere Scontro</style>\n\n<style=\"upgradeHighlight\">Inizio Turno</style>: Le Identità dell'Associazione Seven ottengono (n° delle altre Identità dell'Associazione Seven / 2) Aumento Potere Scontro. (arrotondato per difetto; max 2)\n<style=\"upgradeHighlight\">A Scontro Vinto, infliggi +20% di danno con l'Abilità.</style>",
       "simpleDesc": [
         {
           "abilityID": 29193,
@@ -4715,7 +4715,7 @@
     {
       "id": 9195,
       "name": "Fiasco con Motivo Nuvoloso",
-      "desc": "Per le Abilità Attacco 1 Tagliente: Potere Scontro +1, infliggi 2 Calo Livello Offensivo Per Colpo.\n- Per le Identità del Clan Kurokumo: l'effetto si applica a tutte le Abilità Attacco Taglienti Base\n\nInizio Turno: le Identità del Clan Kurokumo ottengono 1 [Enhancement]; quando viene inflitto Potenza o Conteggio [Laceration] con un'Abilità Attacco Base, ottieni 1 Potenza [Breath] (4 volte per turno per Identità)",
+      "desc": "Per Abilità Attacco 1 Taglienti: Potere Scontro +1, infliggi 2 Calo Livello Offensivo Per Colpo.\n- Per le Identità del Clan Kurokumo: l'effetto si applica a tutte le Abilità Attacco Base Taglienti\n\nInizio Turno: le Identità del Clan Kurokumo ottengono 1 [Enhancement]; quando viene inflitto Potenza o Conteggio [Laceration] con un'Abilità Attacco Base, ottieni 1 Potenza [Breath] (4 volte per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9195,
@@ -4730,7 +4730,7 @@
     {
       "id": 19195,
       "name": "Fiasco con Motivo Nuvoloso+",
-      "desc": "Per le Abilità Attacco 1 Tagliente: Potere Scontro +1, infliggi 2 Calo Livello Offensivo Per Colpo.\n- Per le Identità del Clan Kurokumo: l'effetto si applica a tutte le Abilità Attacco Taglienti Base <style=\"upgradeHighlight\">o con Affinità Lussuria</style>\n\nInizio Turno: le Identità del Clan Kurokumo ottengono 1 [Enhancement]; quando viene inflitto Potenza o Conteggio [Laceration] con un'Abilità Attacco Base, ottieni 1 Potenza [Breath] (<style=\"upgradeHighlight\">6</style> volte per turno per Identità)",
+      "desc": "Per Abilità Attacco 1 Taglienti: Potere Scontro +1, infliggi 2 Calo Livello Offensivo Per Colpo.\n- Per le Identità del Clan Kurokumo: l'effetto si applica a tutte le Abilità Attacco Base Taglienti <style=\"upgradeHighlight\">o con Affinità Lussuria</style>\n\nInizio Turno: le Identità del Clan Kurokumo ottengono 1 [Enhancement]; quando viene inflitto Potenza o Conteggio [Laceration] con un'Abilità Attacco Base, ottieni 1 Potenza [Breath] (<style=\"upgradeHighlight\">6</style> volte per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19195,
@@ -4745,7 +4745,7 @@
     {
       "id": 29195,
       "name": "Fiasco con Motivo Nuvoloso++",
-      "desc": "Per le Abilità Attacco 1 Tagliente: Potere Scontro +1, infliggi 2 Calo Livello Offensivo Per Colpo.\n- Per le Identità del Clan Kurokumo: l'effetto si applica a <style=\"upgradeHighlight\">tutte</style> le Abilità Attacco Base\n\nInizio Turno: le Identità del Clan Kurokumo ottengono 1 [Enhancement]; quando viene inflitto Potenza o Conteggio [Laceration] con un'Abilità Attacco Base, ottieni <style=\"upgradeHighlight\">1~2</style> Potenza [Breath] (<style=\"upgradeHighlight\">8</style> volte per turno per Identità)",
+      "desc": "Per Abilità Attacco 1 Taglienti: Potere Scontro +1, infliggi 2 Calo Livello Offensivo Per Colpo.\n- Per le Identità del Clan Kurokumo: l'effetto si applica a <style=\"upgradeHighlight\">tutte</style> le Abilità Attacco Base\n\nInizio Turno: le Identità del Clan Kurokumo ottengono 1 [Enhancement]; quando viene inflitto Potenza o Conteggio [Laceration] con un'Abilità Attacco Base, ottieni <style=\"upgradeHighlight\">1~2</style> Potenza [Breath] (<style=\"upgradeHighlight\">8</style> volte per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29195,
@@ -4760,7 +4760,7 @@
     {
       "id": 9196,
       "name": "Spadone Rotto",
-      "desc": "Le Abilità Attacco Taglienti Base ottengono Potere Scontro +2. Ad Inizio Combattimento, ottieni [AttackUp] uguale al numero delle Identità che usano Abilità Attacco Taglienti Base in questo turno. (max 3)\n\nGli alleati con che hanno tutte le Abilità Attacco Base di tipo Tagliente ottengono 2 [SlashDamageUp] ad Inizio Turno. (escluso le Abilità Potenziate o Abilità con delle condizioni speciali)\n\nQuando viene usata Guardia (escluso Potere Guardia), ottieni 1 [Protection] e 3 [DefenseUp] (una volta per turno per Identità). Quando un alleato subisce 2 istanze di danni ai PV o allo Scudo dagli attacchi a bersaglio singolo di un nemico in un singolo turno, ottieni 1 [DefenseUp] nel turno successivo (max 3)\n\nAd Inizio Turno, le Identità dell'Associazione Zwei ottengono 2 [Enhancement] e 1 [SlashResultUp]; dopodiché, ottengono 2 [DefenseUp] per ogni Identità dell'Associazione Zwei (max 8)",
+      "desc": "Le Abilità Attacco Base Taglienti ottengono Potere Scontro +2. Ad Inizio Combattimento, ottieni [AttackUp] uguale al numero delle Identità che usano Abilità Attacco Base Taglienti in questo turno. (max 3)\n\nGli alleati con che hanno tutte le Abilità Attacco Base di tipo Tagliente ottengono 2 [SlashDamageUp] ad Inizio Turno. (escluso le Abilità Potenziate o Abilità con delle condizioni speciali)\n\nQuando viene usata Guardia (escluso Potere Guardia), ottieni 1 [Protection] e 3 [DefenseUp] (una volta per turno per Identità). Quando un alleato subisce 2 istanze di danni ai PV o allo Scudo dagli attacchi a bersaglio singolo di un nemico in un singolo turno, ottieni 1 [DefenseUp] nel turno successivo (max 3)\n\nAd Inizio Turno, le Identità dell'Associazione Zwei ottengono 2 [Enhancement] e 1 [SlashResultUp]; dopodiché, ottengono 2 [DefenseUp] per ogni Identità dell'Associazione Zwei (max 8)",
       "simpleDesc": [
         {
           "abilityID": 9196,
@@ -4779,7 +4779,7 @@
     {
       "id": 9197,
       "name": "Scarpe ad Alta Elasticità",
-      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nLe Abilità Perforanti ottengono +(n° delle Abilità Attacco Perforanti Base) Livello Offensivo. (La stessa Abilità non può contare più di una volta, max 3)\n\nA 3+ [Agility]: quando si attacca un nemico, infliggi +(10 + ([Agility] su sé stessi x 3))% danni Perforanti (max 25%).",
+      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nLe Abilità Perforanti ottengono +(n° delle Abilità Attacco Base Perforanti) Livello Offensivo. (La stessa Abilità non può contare più di una volta, max 3)\n\nA 3+ [Agility]: quando si attacca un nemico, infliggi +(10 + ([Agility] su sé stessi x 3))% danni Perforanti (max 25%).",
       "simpleDesc": [
         {
           "abilityID": 9197,
@@ -4794,7 +4794,7 @@
     {
       "id": 9198,
       "name": "Piuma della Prova",
-      "desc": "Per Colpo dopo aver vinto uno Scontro con un'Abilità Attacco Perforante Base, infliggi 1 [Binding] contro il bersaglio nel turno successivo. (una volta per turno per Identità; non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Cinq: ottieni 1 [Agility] nel turno successivo. (una volta per turno per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro dei bersagli (per le Anormalità, le Parti) con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene 2 Potenza [Breath] Per Colpo (una volta per turno per Identità)",
+      "desc": "Per Colpo dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infliggi 1 [Binding] contro il bersaglio nel turno successivo. (una volta per turno per Identità; non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Cinq: ottieni 1 [Agility] nel turno successivo. (una volta per turno per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro dei bersagli (per le Anormalità, le Parti) con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene 2 Potenza [Breath] Per Colpo (una volta per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9198,
@@ -4809,7 +4809,7 @@
     {
       "id": 19198,
       "name": "Piuma della Prova+",
-      "desc": "Per Colpo dopo aver vinto uno Scontro con un'Abilità Attacco Perforante Base, infliggi 1 [Binding] contro il bersaglio nel turno successivo. (una volta per turno per Identità; <style=\"upgradeHighlight\">max 2</style> per nemico)\n- Per le Identità dell'Associazione Cinq: ottieni 1 [Agility] nel turno successivo. (una volta per turno per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro dei bersagli (per le Anormalità, le Parti) con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene <style=\"upgradeHighlight\">4</style> Potenza [Breath] Per Colpo (una volta per turno per Identità)",
+      "desc": "Per Colpo dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infliggi 1 [Binding] contro il bersaglio nel turno successivo. (una volta per turno per Identità; <style=\"upgradeHighlight\">max 2</style> per nemico)\n- Per le Identità dell'Associazione Cinq: ottieni 1 [Agility] nel turno successivo. (una volta per turno per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro dei bersagli (per le Anormalità, le Parti) con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene <style=\"upgradeHighlight\">4</style> Potenza [Breath] Per Colpo (una volta per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 19198,
@@ -4824,7 +4824,7 @@
     {
       "id": 29198,
       "name": "Piuma della Prova++",
-      "desc": "Per Colpo dopo aver vinto uno Scontro con un'Abilità Attacco Perforante Base, infliggi 1 [Binding] contro il bersaglio nel turno successivo. (una volta per turno per Identità; max 2 per nemico)\n- Per le Identità dell'Associazione Cinq: ottieni 1 [Agility] nel turno successivo. (<style=\"upgradeHighlight\">2</style> volte per turno per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro dei bersagli (per le Anormalità, le Parti) con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene 4 Potenza [Breath] Per Colpo (<style=\"upgradeHighlight\">2</style> volte per turno per Identità)",
+      "desc": "Per Colpo dopo aver vinto uno Scontro con un'Abilità Attacco Base Perforante, infliggi 1 [Binding] contro il bersaglio nel turno successivo. (una volta per turno per Identità; max 2 per nemico)\n- Per le Identità dell'Associazione Cinq: ottieni 1 [Agility] nel turno successivo. (<style=\"upgradeHighlight\">2</style> volte per turno per Identità)\n\nQuando un'Identità dell'Associazione Cinq usa un'Abilità Attacco Base per vincere uno Scontro contro dei bersagli (per le Anormalità, le Parti) con 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene 4 Potenza [Breath] Per Colpo (<style=\"upgradeHighlight\">2</style> volte per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 29198,
@@ -4839,7 +4839,7 @@
     {
       "id": 9199,
       "name": "Orli Strappati",
-      "desc": "Per le Abilità Attacco 2 Perforanti: Livello Offensivo +2; se l'Abilità ha 2- Monete, ottiene anche Potere Scontro +(2/n° di Monete).\n- Per le Identità dell'Alleanza per la Liberazione dalla Tecnologia: l'effetto si applica a tutte le Abilità Attacco Perforanti Base\n\nInizio Turno: le Identità dell'Alleanza per la Liberazione dalla Tecnologia ottengono (n° di effetti negativi su sé stessi) [AttackUp]. (max 3)",
+      "desc": "Per Abilità Attacco 2 Perforanti: Livello Offensivo +2; se l'Abilità ha 2- Monete, ottiene anche Potere Scontro +(2/n° di Monete).\n- Per le Identità dell'Alleanza per la Liberazione dalla Tecnologia: l'effetto si applica a tutte le Abilità Attacco Base Perforante\n\nInizio Turno: le Identità dell'Alleanza per la Liberazione dalla Tecnologia ottengono (n° di effetti negativi su sé stessi) [AttackUp]. (max 3)",
       "simpleDesc": [
         {
           "abilityID": 9199,
@@ -4854,7 +4854,7 @@
     {
       "id": 19199,
       "name": "Orli Strappati+",
-      "desc": "Per le Abilità Attacco 2 Perforanti: Livello Offensivo +2; se l'Abilità ha 2- Monete, ottiene anche Potere Scontro +(2/n° di Monete).\n- Per le Identità dell'Alleanza per la Liberazione dalla Tecnologia: l'effetto si applica a tutte le Abilità Attacco Perforanti <style=\"upgradeHighlight\">o con Affinità Gola</style> Base\n\nInizio Turno: le Identità dell'Alleanza per la Liberazione dalla Tecnologia ottengono <style=\"upgradeHighlight\">(n° di effetti negativi su sé stessi + 1)</style> [AttackUp]. (max <style=\"upgradeHighlight\">4</style>)",
+      "desc": "Per Abilità Attacco 2 Perforanti: Livello Offensivo +2; se l'Abilità ha 2- Monete, ottiene anche Potere Scontro +(2/n° di Monete).\n- Per le Identità dell'Alleanza per la Liberazione dalla Tecnologia: l'effetto si applica a tutte le Abilità Attacco Base Perforante <style=\"upgradeHighlight\">o con Affinità Gola</style>\n\nInizio Turno: le Identità dell'Alleanza per la Liberazione dalla Tecnologia ottengono <style=\"upgradeHighlight\">(n° di effetti negativi su sé stessi + 1)</style> [AttackUp]. (max <style=\"upgradeHighlight\">4</style>)",
       "simpleDesc": [
         {
           "abilityID": 19199,
@@ -4869,7 +4869,7 @@
     {
       "id": 29199,
       "name": "Orli Strappati++",
-      "desc": "Per le Abilità Attacco 2 Perforanti: Livello Offensivo +2; se l'Abilità ha 2- Monete, ottiene anche Potere Scontro +(2/n° di Monete).\n- Per le Identità dell'Alleanza per la Liberazione dalla Tecnologia: l'effetto si applica a <style=\"upgradeHighlight\">tutte</style> le Abilità Attacco Base\n\nInizio Turno: le Identità dell'Alleanza per la Liberazione dalla Tecnologia ottengono <style=\"upgradeHighlight\">1 Potere Scontro Aumentato</style> e (valore della più grande Stack tra gli effetti negativi su sé stessi + 1) [AttackUp]. (max <style=\"upgradeHighlight\">5</style>)",
+      "desc": "Per Abilità Attacco 2 Perforanti: Livello Offensivo +2; se l'Abilità ha 2- Monete, ottiene anche Potere Scontro +(2/n° di Monete).\n- Per le Identità dell'Alleanza per la Liberazione dalla Tecnologia: l'effetto si applica a <style=\"upgradeHighlight\">tutte</style> le Abilità Attacco Base\n\nInizio Turno: le Identità dell'Alleanza per la Liberazione dalla Tecnologia ottengono <style=\"upgradeHighlight\">1 Potere Scontro Aumentato</style> e (valore della più grande Stack tra gli effetti negativi su sé stessi + 1) [AttackUp]. (max <style=\"upgradeHighlight\">5</style>)",
       "simpleDesc": [
         {
           "abilityID": 29199,
@@ -4884,7 +4884,7 @@
     {
       "id": 9200,
       "name": "Manuale sui Duelli 3",
-      "desc": "Le Abilità Attacco Perforanti Base ottengono Potere Scontro +2. All'Inizio del Combattimento, ottieni [AttackUp] uguale al numero delle Identità che usano delle Abilità Attacco Perforanti Base in questo turno. (max 3)\n\nGli alleati che hanno Attacchi Perforanti in tutte le loro Abilità Attacco Base ottengono 2 [PenetrateDamageUp] ad Inizio Turno. (escluso le Abilità Potenziate o Abilità con delle condizioni speciali)\n\nPotere Abilità Evasiva +2. Ogni volta che un alleato riesce ad Evadere 2 volte in un singolo turno, ottengono 1 [AttackDmgUp] nel turno successivo (max 3)\n\nAd Inizio Turno, Le Identità dell'Associazione Cinq ottengono 1 [PenetrateResultUp] e 2 [PenetrateDamageUp]; se un'Identità dell'Associazione Cinq ha inflitto danni Per Colpo contro un nemico affetto dal proprio 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene 2 [PenetrateDamageUp] e 1 [Agility] nel turno successivo. (una volta per turno per Identità)",
+      "desc": "Le Abilità Attacco Base Perforante ottengono Potere Scontro +2. All'Inizio del Combattimento, ottieni [AttackUp] uguale al numero delle Identità che usano delle Abilità Attacco Base Perforante in questo turno. (max 3)\n\nGli alleati che hanno Attacchi Perforanti in tutte le loro Abilità Attacco Base ottengono 2 [PenetrateDamageUp] ad Inizio Turno. (escluso le Abilità Potenziate o Abilità con delle condizioni speciali)\n\nPotere Abilità Evasiva +2. Ogni volta che un alleato riesce ad Evadere 2 volte in un singolo turno, ottengono 1 [AttackDmgUp] nel turno successivo (max 3)\n\nAd Inizio Turno, Le Identità dell'Associazione Cinq ottengono 1 [PenetrateResultUp] e 2 [PenetrateDamageUp]; se un'Identità dell'Associazione Cinq ha inflitto danni Per Colpo contro un nemico affetto dal proprio 'Guanto di Sfida', 'Colpo al Nervo', o 'Attacco Concentrato', ottiene 2 [PenetrateDamageUp] e 1 [Agility] nel turno successivo. (una volta per turno per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9200,
@@ -4907,7 +4907,7 @@
     {
       "id": 9201,
       "name": "Cestino Dimensionale",
-      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nAbilità Contundenti ottengono (n° di Abilità Attacco Contundente Base) Livello Offensivo. (La stessa Abilità non può contare più di una volta, max 3)\n\nQuando si usa un'Abilità per attaccare un nemico, se un'Abilità diversa è stata [Discard]ta, infliggi +(10 + (rango dell'Abilità Scartata x 5))% di danni Contundenti. (se ne sono state scartate di più, prendi quella col valore maggiore; max 25%)",
+      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nAbilità Contundenti ottengono (n° di Abilità Attacco Base Contundenti) Livello Offensivo. (La stessa Abilità non può contare più di una volta, max 3)\n\nQuando si usa un'Abilità per attaccare un nemico, se un'Abilità diversa è stata [Discard]ta, infliggi +(10 + (rango dell'Abilità Scartata x 5))% di danni Contundenti. (se ne sono state scartate di più, prendi quella col valore maggiore; max 25%)",
       "simpleDesc": [
         {
           "abilityID": 9201,
@@ -4922,7 +4922,7 @@
     {
       "id": 9202,
       "name": "Carte Didattiche Tascabili",
-      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Contundente Base, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Dieci: l'effetto si applica anche per le Abilità Attacco Base di Tipo Tagliente e Perforante; infliggi 1 ulteriore [DefenseDown]\n\nSe un'Identità dell'Associazione Dieci ha [Discard]to una delle proprie Abilità usando un'Abilità Scarto, ottiene (rango dell'Abilità Scartata) [AttackUp] all'Inizio del prossimo Turno. (se ne sono state scartate di più, prendi quella col valore maggiore; max 3)",
+      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Base Contundente, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Dieci: l'effetto si applica anche per le Abilità Attacco Base di Tipo Tagliente e Perforante; infliggi 1 ulteriore [DefenseDown]\n\nSe un'Identità dell'Associazione Dieci ha [Discard]to una delle proprie Abilità usando un'Abilità Scarto, ottiene (rango dell'Abilità Scartata) [AttackUp] all'Inizio del prossimo Turno. (se ne sono state scartate di più, prendi quella col valore maggiore; max 3)",
       "simpleDesc": [
         {
           "abilityID": 9202,
@@ -4937,7 +4937,7 @@
     {
       "id": 19202,
       "name": "Carte Didattiche Tascabili+",
-      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Contundente Base, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Dieci: l'effetto si applica anche per le Abilità Attacco Base di Tipo Tagliente e Perforante; infliggi 1 ulteriore [DefenseDown]\n\nSe un'Identità dell'Associazione Dieci ha [Discard]to una delle proprie Abilità usando un'Abilità Scarto, ottiene <style=\"upgradeHighlight\">(rango dell'Abilità Scartata + 1)</style> [AttackUp] all'Inizio del prossimo Turno. (se ne sono state scartate di più, prendi quella col valore maggiore; max <style=\"upgradeHighlight\">4</style>)",
+      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Base Contundente, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Dieci: l'effetto si applica anche per le Abilità Attacco Base di Tipo Tagliente e Perforante; infliggi 1 ulteriore [DefenseDown]\n\nSe un'Identità dell'Associazione Dieci ha [Discard]to una delle proprie Abilità usando un'Abilità Scarto, ottiene <style=\"upgradeHighlight\">(rango dell'Abilità Scartata + 1)</style> [AttackUp] all'Inizio del prossimo Turno. (se ne sono state scartate di più, prendi quella col valore maggiore; max <style=\"upgradeHighlight\">4</style>)",
       "simpleDesc": [
         {
           "abilityID": 19202,
@@ -4952,7 +4952,7 @@
     {
       "id": 29202,
       "name": "Carte Didattiche Tascabili++",
-      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Contundente Base, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Dieci: l'effetto si applica anche per le Abilità Attacco Base di Tipo Tagliente e Perforante; infliggi 1 ulteriore [DefenseDown]\n\nSe un'Identità dell'Associazione Dieci ha [Discard]to una delle proprie Abilità usando un'Abilità Scarto, ottiene <style=\"upgradeHighlight\">(rango dell'Abilità Scartata + 2)</style> [AttackUp] all'Inizio del prossimo Turno. (se ne sono state scartate di più, prendi quella col valore maggiore; max <style=\"upgradeHighlight\">5</style>)",
+      "desc": "Quando si vince uno Scontro con un'Abilità Attacco Base Contundente, infliggi 2 [DefenseDown] nel turno successivo contro il bersaglio. (una volta per turno per Identità; effetto non cumulabile contro lo stesso nemico)\n- Per le Identità dell'Associazione Dieci: l'effetto si applica anche per le Abilità Attacco Base di Tipo Tagliente e Perforante; infliggi 1 ulteriore [DefenseDown]\n\nSe un'Identità dell'Associazione Dieci ha [Discard]to una delle proprie Abilità usando un'Abilità Scarto, ottiene <style=\"upgradeHighlight\">(rango dell'Abilità Scartata + 2)</style> [AttackUp] all'Inizio del prossimo Turno. (se ne sono state scartate di più, prendi quella col valore maggiore; max <style=\"upgradeHighlight\">5</style>)",
       "simpleDesc": [
         {
           "abilityID": 29202,
@@ -4982,7 +4982,7 @@
     {
       "id": 9204,
       "name": "Il Libro della Vendetta",
-      "desc": "Le Abilità Attacco Contundenti Base ottengono Potere Scontro +2. All'Inizio del Combattimento, ottieni [AttackUp] uguale al numero delle Identità che usano delle Abilità Attacco Contundenti in questo turno. (max 3)\n\nGli alleati che hanno Attacchi Contundenti in tutte le loro Abilità Attacco Base ottengono 2 [HitDamageUp] ad Inizio Turno. (escluso le Abilità Potenziate o Abilità con delle condizioni speciali)\n\nQuando vengono usate delle Abilità di Contrattacco (eccetto Potere Contrattacco), ottieni 7.5% dei PV Max dell'unità come Scudo e infliggi +20% di danno. L'unità non può essere Stordita per via di danni quando si usano Abilità Contrattacco (una volta per Identità per Incontro)\n\nAd Inizio Turno, le Identità del Medio ottengono 1 [HitResultUp] e 2 [Endurance]; quando le Identità del Medio usano Abilità di Contrattacco, il potenziamento per le Abilità di Contrattacco si attiva due volte e infligge +40% di danno.",
+      "desc": "Le Abilità Attacco Base Contundenti ottengono Potere Scontro +2. All'Inizio del Combattimento, ottieni [AttackUp] uguale al numero delle Identità che usano delle Abilità Attacco Contundenti in questo turno. (max 3)\n\nGli alleati che hanno Attacchi Contundenti in tutte le loro Abilità Attacco Base ottengono 2 [HitDamageUp] ad Inizio Turno. (escluso le Abilità Potenziate o Abilità con delle condizioni speciali)\n\nQuando vengono usate delle Abilità di Contrattacco (eccetto Potere Contrattacco), ottieni 7.5% dei PV Max dell'unità come Scudo e infliggi +20% di danno. L'unità non può essere Stordita per via di danni quando si usano Abilità Contrattacco (una volta per Identità per Incontro)\n\nAd Inizio Turno, le Identità del Medio ottengono 1 [HitResultUp] e 2 [Endurance]; quando le Identità del Medio usano Abilità di Contrattacco, il potenziamento per le Abilità di Contrattacco si attiva due volte e infligge +40% di danno.",
       "simpleDesc": [
         {
           "abilityID": 9204,
