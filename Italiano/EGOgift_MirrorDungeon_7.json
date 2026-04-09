@@ -223,7 +223,7 @@
     {
       "id": 29219,
       "name": "Factotum++",
-      "desc": "Quando delle Abilità dello stesso Tipo di Attacco colpiscono un nemico style=\"upgradeHighlight\">6 volte</style>, quel nemico riceve +0.1 di Resistenza contro quel Tipo di Attacco (3 volte per Incontro per nemico/Parti dell'Anormalità; questo effetto non può aumentare il valore di Resistenza oltre 2.0)",
+      "desc": "Quando delle Abilità dello stesso Tipo di Attacco colpiscono un nemico <style=\"upgradeHighlight\">6 volte</style>, quel nemico riceve +0.1 di Resistenza contro quel Tipo di Attacco (3 volte per Incontro per nemico/Parti dell'Anormalità; questo effetto non può aumentare il valore di Resistenza oltre 2.0)",
       "simpleDesc": [
         {
           "abilityID": 29219,
@@ -433,47 +433,47 @@
     },
     {
       "id": 9256,
-      "name": "Imperfect Eye of Precognition",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\n\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\n[Effects apply only to #1 Deployed Identity]\n- In a Clash, gain 1 [LookingFutureMirror] with every Clash. Inflict 2 [Vibration] and [Combustion] on target (10 times per Skill)\n- On Clash Win, trigger [Switch_Vibration] into [VibrationIgnition] and trigger [VibrationExplosion] on the main target. Target loses 1 [Vibration] Count\n- On Hit with a Skill, if target is Staggered, deal +30% damage\n- On Crit, trigger [VibrationExplosion]. Target loses 1 [Vibration] Count (2 times per Skill)",
+      "name": "Occhio della Precognizione Imperfetto",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\n[Gli effetti si applicano solo alla 1° Identità Schierata]\n- Durante uno Scontro, ottieni 1 [LookingFutureMirror] per ogni Scontro. Infliggi 2 [Vibration] e [Combustion] al bersaglio (10 volte per Abilità)\n- A Scontro Vinto, attiva [Switch_Vibration] in [VibrationIgnition] e innesca [VibrationExplosion] sul bersaglio principale. Il bersaglio perde 1 Conteggio [Vibration]\n- Per Colpo con un'Abilità, se il bersaglio è Stordito, infliggi +30% di danni\n- Per Critico, innesca [VibrationExplosion]. Il bersaglio perde 1 Conteggio [Vibration] (2 volte per Abilità)",
       "simpleDesc": [
         {}
       ]
     },
     {
       "id": 9257,
-      "name": "The Abandoned Oracle",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\n\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\nIn a Clash, gain Clash Power +1 for every 30 ([Sinking] on target + [Breath] on self) (max 5)\n\nDeal +25% damage with [SuperCoin]s\nTake -25% damage from [SuperCoin]s\n\n[The Index-faction Exclusive Effect]\n- Upon entering the Encounter for the first time, gain 6 [BlessingOfIndexPrescriptAlly]\n· If the unit is an Identity that can gain [UnlockBuff_Base], gain [UnlockBuffAlly_2] as well\n- Deal +50% damage against [IndexPrescriptTargetToEnemy]",
+      "name": "L'Oracolo Abbandonato",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nDurante uno Scontro, ottieni Potere Scontro +1 per ogni 30 ([Sinking] al bersaglio + [Breath] su di sé) (max 5)\n\nInfliggi +25% di danni con [SuperCoin]\nSubisci -25% di danni da [SuperCoin]\n\n[Effetto Esclusivo per la fazione dell'Indice]\n- Entrando nell'Incontro per la prima volta, ottieni 6 [BlessingOfIndexPrescriptAlly]\n· Se l'unità è un'Identità che può ottenere [UnlockBuff_Base], ottieni anche [UnlockBuffAlly_2]\n- Infliggi +50% di danni contro [IndexPrescriptTargetToEnemy]",
       "simpleDesc": [
         {
           "abilityID": 98270,
-          "simpleDesc": "Allies gain a significant amount of Coin Power or Final Power"
+          "simpleDesc": "Gli alleati ottengono una buona quantità di Potere Moneta o Potere Finale"
         },
         {
           "abilityID": 9257,
-          "simpleDesc": "Gain Clash Power based on the sum of Sinking on target and Poise on self"
+          "simpleDesc": "Ottieni Potere Scontro in base alla somma di [Annegamento] sul bersaglio e [Breath] su di sé"
         },
         {
           "abilityID": 92571,
-          "simpleDesc": "Deal +25% damage with Unbreakable Coins"
+          "simpleDesc": "Infliggi +25% di danni con Monete Infrangibili"
         },
         {
           "abilityID": 92572,
-          "simpleDesc": "Deal +50% damage against The Prescript's Target"
+          "simpleDesc": "Infliggi +50% di danni contro [IndexPrescriptTargetToEnemy]"
         }
       ]
     },
     {
       "id": 9258,
-      "name": "The Book of Vengeance: Annex",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\n\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\nEncounter Start: All allies gain 50 Shield for every The Middle-faction allied unit on the field (excluding Backup units; Shield gained via this effect does not expire at Turn End)\n\nAttack End with The Middle-faction allied units' Envy or Blunt Base Skills: Heal 10% of Skill damage dealt\n- If this effect is triggered by a Counter Skill, heal 20% of Skill damage dealt instead\n- Excess HP healed is converted into Shield (Shield gained via this effect does not expire at Turn End)\n\nCombat Start: The Middle-faction allied units gain Offense Level for the turn based on the number of Defense Skills equipped (max 12 Offense Level)\n- If 6+ Defense Skills are equipped, deal +30% damage with Envy Base Skills\n- Deal an additional +10% damage for every Defense Skill equipped beyond 6 (max 60%)",
+      "name": "Il Libro della Vendetta: Appendice",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nInizio Incontro: Tutti gli alleati guadagnano 50 di Scudo per ogni unità alleata della fazione del Medio sul campo (Riserve incluse; lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nFine dell'Attacco con le Abilità Base Invidia o Contundenti degli alleati della fazione del Medio: Cura del 10% dei danni inflitti dall'Abilità\n- Se questo effetto viene attivato da un'Abilità di Contrattacco, cura invece del 20% dei danni inflitti\n- Le cure che eccedono i PV verranno convertiti in Scudo (lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nInizio Combattimento: Le unità alleate della fazione del Medio ottengono Livello Offensivo per il turno in base al numero delle Abilità Difensive equipaggiate (max 12 Livelli Offensivi)\n- Se sono state equipaggiate 6+ Abilità Difensive, infliggi +30% di danni con Abilità Base Invidia\n- Infliggi +10% di danni addizionali per ogni Abilità Difensiva equipaggiata oltre a 6 (max 60%)",
       "simpleDesc": [
         {}
       ]
     },
     {
       "id": 9259,
-      "name": "A Maestro's Ring-Turned-Artwork",
-      "desc": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (gains at least 1 Coin Power, includes E.G.O Skills; rounded down)\n\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (gains at least 1 Final Power, includes E.G.O Skills; rounded down)\n\nWhen The Ring-faction Identities use Base Attack Skills, apply the following effects based on the number of negative effect types on the target:\n- 2+: Clash Power +2\n- 4+: Deal +15% damage\n- 6+: Inflict +1 more Potency and Count of negative effects via Coin effects\n- 7+: Base Power +2\n- 8+: Deal +35% damage",
+      "name": "Anulare-Divenuta-Opera di Un Maestro",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nQuando le Identità della fazione dell'Anulare usano Abilità Attacco Base, applica i seguenti effetti in base al numero dei tipi di effetti negativi sul bersaglio:\n- 2+: Potere Scontro +2\n- 4+: Infliggi +15% di danni\n- 6+: Infliggi +1 Potenza e Conteggio degli effetti negativi inflitti tramite effetti delle Monete\n- 7+: Potere Base +2\n- 8+: Infliggi +35% di danni",
       "simpleDesc": [
         {}
       ]
