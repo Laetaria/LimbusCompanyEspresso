@@ -131,7 +131,7 @@
     {
         "id": 9435,
         "name": "Arti Vincolanti del Maggiordomo",
-        "desc": "Inizio Turno: infligge 1 [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +7,5% di danni per ogni Livello di Vacillamento.",
+        "desc": "Inizio Turno: infligge 1 [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +7,5% di danni per ogni Livello di Stordimento.",
         "simpleDesc": [
             {
                 "abilityID": 9435,
@@ -139,14 +139,14 @@
             },
             {
                 "abilityID": 94351,
-                "simpleDesc": "Infligge più danni in base al Livello di Vacillamento del bersaglio"
+                "simpleDesc": "Infligge più danni in base al Livello di Stordimento del bersaglio"
             }
         ]
     },
     {
       "id": 19435,
       "name": "Arti Vincolanti del Maggiordomo+",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">2</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">10%</style> di danni per ogni Livello di Vacillamento.",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">2</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">10%</style> di danni per ogni Livello di Stordimento.",
       "simpleDesc": [
         {
           "abilityID": 19435,
@@ -154,22 +154,22 @@
         },
         {
           "abilityID": 194351,
-          "simpleDesc": "Infligge più danni in base al Livello di Vacillamento del bersaglio"
+          "simpleDesc": "Infligge più danni in base al Livello di Stordimento del bersaglio"
         }
       ]
     },
     {
       "id": 29435,
       "name": "Arti Vincolanti del Maggiordomo++",
-      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">3</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">12,5%</style> di danni per ogni Livello di Vacillamento.",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">3</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">12,5%</style> di danni per ogni Livello di Stordimento.",
       "simpleDesc": [
         {
           "abilityID": 29435,
-          "simpleDesc": "Infligge 3 Rallentamento al nemico che si è ripreso dal Vacillamento"
+          "simpleDesc": "Infligge 3 Rallentamento al nemico che si è ripreso dallo Stordimento"
         },
         {
           "abilityID": 294351,
-          "simpleDesc": "Infligge più danni in base al Livello di Vacillamento del bersaglio"
+          "simpleDesc": "Infligge più danni in base al Livello di Stordimento del bersaglio"
         }
       ]
     },

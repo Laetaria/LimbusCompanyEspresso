@@ -3041,7 +3041,7 @@
     {
       "id": 9113,
       "name": "Aroma dell'Aspro Liquore",
-      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nLe Abilità che applicano (incluso a sé stessi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2\n\nSe il bersaglio principale ha [Vibration] ed è Stordito, infliggi +(Livello di Vacillamento x 7.5)% di danno con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infliggi invece +(Livello di Vacillamento x 15)% di danno con l'Abilità",
+      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nLe Abilità che applicano (incluso a sé stessi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2\n\nSe il bersaglio principale ha [Vibration] ed è Stordito, infliggi +(Livello di Stordimento x 7.5)% di danno con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infliggi invece +(Livello di Stordimento x 15)% di danno con l'Abilità",
       "simpleDesc": [
         {
           "abilityID": 9113,
@@ -3049,18 +3049,18 @@
         },
         {
           "abilityID": 91131,
-          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Vacillamento x 7.5)% di danno con l'Abilità"
+          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Stordimento x 7.5)% di danno con l'Abilità"
         },
         {
           "abilityID": 91132,
-          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi invece +(Livello di Vacillamento x 15)% di danno con l'Abilità"
+          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi invece +(Livello di Stordimento x 15)% di danno con l'Abilità"
         }
       ]
     },
     {
       "id": 19113,
       "name": "Aroma dell'Aspro Liquore+",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nLe Abilità che applicano (incluso a sé stessi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2\n\nSe il bersaglio principale ha [Vibration] ed è Stordito, infliggi +(Livello di Vacillamento x <style=\"upgradeHighlight\">10</style>)% di danno con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infliggi invece +(Livello di Vacillamento x <style=\"upgradeHighlight\">20</style>)% di danno con l'Abilità",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nLe Abilità che applicano (incluso a sé stessi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' +2\n\nSe il bersaglio principale ha [Vibration] ed è Stordito, infliggi +(Livello di Stordimento x <style=\"upgradeHighlight\">10</style>)% di danno con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infliggi invece +(Livello di Stordimento x <style=\"upgradeHighlight\">20</style>)% di danno con l'Abilità",
       "simpleDesc": [
         {
           "abilityID": 19113,
@@ -3068,18 +3068,18 @@
         },
         {
           "abilityID": 191131,
-          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Vacillamento x 10)% di danno con l'Abilità"
+          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Stordimento x 10)% di danno con l'Abilità"
         },
         {
           "abilityID": 191132,
-          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Vacillamento x 20)% di danno con l'Abilità"
+          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Stordimento x 20)% di danno con l'Abilità"
         }
       ]
     },
     {
       "id": 29113,
       "name": "Aroma dell'Aspro Liquore++",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nLe Abilità che applicano (incluso a sé stessi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' <style=\"upgradeHighlight\">+3</style>\n\nSe il bersaglio principale ha [Vibration] e Vacilla, infliggi +(Livello di Vacillamento x <style=\"upgradeHighlight\">12.5</style>)% di danno con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infliggi invece +(Livello di Vacillamento x <style=\"upgradeHighlight\">25</style>)% di danno con l'Abilità",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nLe Abilità che applicano (incluso a sé stessi) Potenza o Conteggio [Vibration] ottengono 'Livello Offensivo' <style=\"upgradeHighlight\">+3</style>\n\nSe il bersaglio principale ha [Vibration] ed è Stordito, infliggi +(Livello di Stordimento x <style=\"upgradeHighlight\">12.5</style>)% di danno con l'Abilità\n\nQuando si attacca un nemico con un'Abilità che applica Potenza o Conteggio [Vibration], infliggi invece +(Livello di Stordimento x <style=\"upgradeHighlight\">25</style>)% di danno con l'Abilità",
       "simpleDesc": [
         {
           "abilityID": 29113,
@@ -3087,11 +3087,11 @@
         },
         {
           "abilityID": 291131,
-          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Vacillamento x 12.5)% di danno con l'Abilità"
+          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Stordimento x 12.5)% di danno con l'Abilità"
         },
         {
           "abilityID": 291132,
-          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Vacillamento x 25)% di danno con l'Abilità"
+          "simpleDesc": "Se le condizioni sono soddisfatte: infliggi +(Livello di Stordimento x 25)% di danno con l'Abilità"
         }
       ]
     },
