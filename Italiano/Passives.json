@@ -378,7 +378,7 @@
     {
       "id": 1120321,
       "name": "Codice Gene: G-3",
-      "desc": "The alleato con i PV più bassi recupera 5 PV dopo aver vinto uno Scontro."
+      "desc": "L'alleato con i PV più bassi recupera 5 PV dopo aver vinto uno Scontro."
     },
     {
       "id": 1000101,
@@ -493,12 +493,12 @@
     {
       "id": 1110401,
       "name": "Individua Vulnerabilità",
-      "desc": "Quando attacca il bersaglio con un tipo di danno a cui è “Debole” o “Fatalee”, infligge +10% danni."
+      "desc": "Quando attacca il bersaglio con un tipo di danno a cui è “Debole” o “Fatale”, infligge +10% danni."
     },
     {
       "id": 1110421,
       "name": "Passa Informazioni",
-      "desc": "1 alleato con la Velocità più alta infligge +10% danni quando attacca il bersaglio con un tipo di danno a cui è “Debole” o “Fatalee”."
+      "desc": "1 alleato con la Velocità più alta infligge +10% danni quando attacca il bersaglio con un tipo di danno a cui è “Debole” o “Fatale”."
     },
     {
       "id": 1060401,
@@ -1129,12 +1129,12 @@
     {
       "id": 1030821,
       "name": "Passeggiata Notturna",
-      "desc": "1 alleato con i [Breath] più bassi ottiene 1 more Potenza [Breath] quando ottiene Potenza [Breath] con gli effetti delle sue Abilità o Monete. (2 volte max. Non si applica agli alleati senza [Breath])"
+      "desc": "1 alleato con l'[Breath] più basso ottiene 1 more Potenza [Breath] quando ottiene Potenza [Breath] con gli effetti delle sue Abilità o Monete. (2 volte max. Non si applica agli alleati senza [Breath])"
     },
     {
       "id": 1030831,
       "name": "Passeggiata Notturna",
-      "desc": "1 alleato con i [Breath] più bassi ottiene 2 more Potenza [Breath] quando ottiene Potenza [Breath] con gli effetti delle sue Abilità o Monete. (2 volte max. Non si applica agli alleati senza [Breath])"
+      "desc": "1 alleato con l'[Breath] più basso ottiene 2 more Potenza [Breath] quando ottiene Potenza [Breath] con gli effetti delle sue Abilità o Monete. (2 volte max. Non si applica agli alleati senza [Breath])"
     },
     {
       "id": 1120801,
@@ -1759,13 +1759,13 @@
     {
       "id": 1111121,
       "name": "Tecnica del Sangue Coagulato di Don Quixote 8: Forbici",
-      "desc": "1 alleato con la Velocità più alta: Se il nemico viene ucciso a Fine Attacco, cura 10 PV (2 volte per turno)\n1 alleato con la Velocità più alta: Se il nemico viene ucciso a Fine Attacco, infligge +1 Conteggio [Laceration] quando infligge Potenza [Laceration] con gli effetti di Abilità o Monete per il turno successivo (3 volte per turno)",
-      "summary": "Fine Attacco: Se il nemico è morto, cura PV"
+      "desc": "1 alleato con la Velocità più alta: Se il nemico viene ucciso a Fine Attacco, recupera 10 PV (2 volte per turno)\n1 alleato con la Velocità più alta: Se il nemico viene ucciso a Fine Attacco, infligge +1 Conteggio [Laceration] quando infligge Potenza [Laceration] con gli effetti di Abilità o Monete per il turno successivo (3 volte per turno)",
+      "summary": "Fine Attacco: Se il nemico è morto, recupera PV"
     },
     {
       "id": 1121001,
       "name": "Dedizione Autolesionista",
-      "desc": "A Fine Turno: cura ((10 - [WornHeartGreg])/2) PS per l'alleato con meno PS (esclude: se stesso o gli alleati che sono nel Panico o Corrosi; arrotondati in basso)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
+      "desc": "A Fine Turno: recupera ((10 - [WornHeartGreg])/2) PS per l'alleato con meno PS (esclude: se stesso o gli alleati che sono nel Panico o Corrosi; arrotondati in basso)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
       "summary": ""
     },
     {
@@ -1777,19 +1777,19 @@
     {
       "id": 1121011,
       "name": "Dedizione Autolesionista",
-      "desc": "A Fine Turno: cura (10 - [WornHeartGreg]) PS per l'alleato con meno PS (esclude: se stesso o gli alleati che sono nel Panico o Corrosi)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
+      "desc": "A Fine Turno: recupera (10 - [WornHeartGreg]) PS per l'alleato con meno PS (esclude: se stesso o gli alleati che sono nel Panico o Corrosi)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
       "summary": ""
     },
     {
       "id": 1121021,
       "name": "Tecnica del Sangue Coagulato di Don Quixote 6: Frusta",
-      "desc": "1 alleato con la minore percentuale di PV cura 3 PV Sul Colpo (3 volte per turno)",
+      "desc": "1 alleato con la minore percentuale di PV recupera 3 PV Sul Colpo (3 volte per turno)",
       "summary": ""
     },
     {
       "id": 1121031,
       "name": "Tecnica del Sangue Coagulato di Don Quixote 6: Frusta",
-      "desc": "1 alleato con la minore percentuale di PV cura 3 PV Sul Colpo (3 volte per turno)\n- Se il bersaglio colpito da quell'alleato ha [Laceration], cura 3 PV in più",
+      "desc": "1 alleato con la minore percentuale di PV recupera 3 PV Sul Colpo (3 volte per turno)\n- Se il bersaglio colpito da quell'alleato ha [Laceration], cura 3 PV in più",
       "summary": ""
     },
     {
