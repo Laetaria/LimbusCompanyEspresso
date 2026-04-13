@@ -123,7 +123,7 @@
     {
       "id": 2100211,
       "name": "Sacrificio Vivente",
-      "desc": "Se Uccide un Nemico con un'Abilità Attacco o Contrattacco, ottiene 5 risorse E.G.O  dell'Affinità di quella Abilità."
+      "desc": "Se Sconfigge un Nemico con un'Abilità Attacco o Contrattacco, ottiene 5 risorse E.G.O  dell'Affinità di quella Abilità."
     },
     {
       "id": 2110111,
@@ -187,123 +187,123 @@
     },
     {
       "id": 2050411,
-      "name": "Untempered Agitation",
-      "desc": "Combat Start: If this unit is targeted by 2 or more Skills, this unit’s Skills gain +1 Base Power; when hit, inflict 1 [Combustion] on the attacker (5 times per turn)"
+      "name": "Smania Sfrenata",
+      "desc": "A Inizio Combattimento: Se questa unità è bersagliata da 2 o più Abilità, le Abilità di questa unità ottengono +1 Potere Base; se l'unità viene colpita, infligge 1 [Combustion] all'attaccante (5 volte per turno)"
     },
     {
       "id": 2080411,
       "name": "Slaying Amid Cheers",
-      "desc": "When attacking a target that has less than 30% HP, Wrath Skills deal +20% damage"
+      "desc": "Quando l'unità attacca un bersaglio con meno di 30% di PV, infligge con le Abilità di Affinità Ira +20% danni"
     },
     {
       "id": 2110411,
-      "name": "Breath of the Hunt",
-      "desc": "After a clash, gain 2 [Breath]\nWhen staggered, gain 2 [Protection]; when recovering from stagger, gain 5 [Breath]"
+      "name": "Respiro della Caccia",
+      "desc": "Dopo uno Scontro, ottiene 2 [Breath]\nSe l'unità è stordita, ottiene 2 [Protection]; quando si riprende dallo stordimento, ottiene 5 [Breath]"
     },
     {
       "id": 2070311,
-      "name": "Temperamental Discharge",
-      "desc": "When hit, consume 1 [Charge] Count to heal 2.5% HP\nAt less than 40% HP, gain +1 [Charge] Count before activating the healing effect (can gain up to 10 [Charge] Count per turn)"
+      "name": "Scarica Suscettibile",
+      "desc": "Quando è colpita, consuma 1 Conteggio [Charge] per recuperare il 2.5% dei PV\nA meno del 40% dei PV, ottiene +1 Conteggio [Charge] prima di attivare l'effetto curativo (può ottenere fino a 10 Conteggio [Charge] per turno)"
     },
     {
       "id": 2120411,
-      "name": "Alternating Discharge",
-      "desc": "On Heads Hit, consume 2 [Charge] Count to apply +1 [Charge] Count on the [Charge]-possessing ally that has the lowest [Charge] Count"
+      "name": "Scarica Alternante",
+      "desc": "Su Testa Colpisce, consuma 2 Conteggio [Charge] per applicare +1 Conteggio [Charge] all'alleato che possiede [Charge] che ha il Conteggio minore di [Charge]"
     },
     {
       "id": 2010511,
-      "name": "Ray of Sun After Rain",
-      "desc": "Turn Start: All allies heal 3 SP"
+      "name": "Raggio di Sole Dopo la Pioggia",
+      "desc": "A Inizio Turno: Tutti gli Alleati recuperano 3 SP"
     },
     {
       "id": 2040311,
-      "name": "Spider's Webs",
-      "desc": "On Clash Win, inflict 1 [Binding] next turn (3 times per turn)"
+      "name": "Ragnatele",
+      "desc": "A Scontro Vinto, infligge 1 [Binding] il turno successivo (3 volte per turno)"
     },
     {
       "id": 2040411,
-      "name": "Predator",
-      "desc": "If this unit healed more than 10% of its Max HP this turn, gain 1 [Enhancement] next turn."
+      "name": "Predatore",
+      "desc": "Se questa unità ha recuperato più del 10% dei propri Max PV questo turno, ottiene 1 [Enhancement] il turno successivo."
     },
     {
       "id": 2040511,
-      "name": "Opened Can",
-      "desc": "On Hit, if target has 5+ [Sinking], inflict 1 [Disarming] (5 times per turn)"
+      "name": "Lattina Aperta",
+      "desc": "Sul Colpo, Se il bersaglio ha 5+ [Sinking], infligge 1 [Disarming] (5 volte per turno)"
     },
     {
       "id": 2060411,
-      "name": "Seagull Squawking Of The Distant Seas",
-      "desc": "When an enemy is defeated, the ally that has the least SP heals 1 SP\nWhenever an enemy is defeated, the amount of SP healed increases by 2 (max 9)\nThe amount above is reset at the start of a new wave"
+      "name": "Schiamazzo dei Gabbiani Dei Mari Lontani",
+      "desc": "Se un Nemico è Sconfitto, l'alleato con il numero minore di SP recupera 1 SP\nPer ogni volta che un nemico è sconfitto, l'ammontare di SP recuperati aumenta di 2 (max 9)\nL'ammontare sopracitato viene azzerato all'inizio di una nuova ondata"
     },
     {
       "id": 2100411,
-      "name": "Fairy Lure",
-      "desc": "After defeating an enemy that main-targets this unit at Combat Start, heal (3 + (Gluttony A-Reson.))% HP"
+      "name": "Esca Fatata",
+      "desc": "Dopo aver Sconfitto un Nemico che ha bersagliato questa unità a Inizio Combattimento, recupera (3 + (Rison.A Gola))% PV"
     },
     {
       "id": 2070411,
       "name": "Dhyāna",
-      "desc": "Raise Max HP equal to 15% of this Identity's base Max HP when recovering from Stagger.\nThen, heal 15% of current Max HP. If this unit has less than 30% of its current Max HP, heal 25% of current Max HP instead (3 times per Encounter. At Encounter End, revert to base Max HP. Current HP value will be adjusted to reflect the HP percentage at the time of Encounter End)"
+      "desc": "Aumenta i Max PV del 15% dei Max PV base di questa Identità quando si riprende dallo stordimento.\nIn seguito, recupera 15% degli attuali Max PV. Se questa unità ha meno di 30% degli attuali Max PV, recupera invece 25% degli attuali Max PV (3 volte per Incontro. Alla fine dell'incontro, ritorna ad avere i Max HP base. L'attuale valore PV sarà corretto per rispettare la percentuale di PV avuto alla Fine dell'Incontro)"
     },
     {
       "id": 2050511,
-      "name": "Bound Wrath",
-      "desc": "Base Power -1 and Coin Power +2 to the leftmost Skill on this unit's Dashboard\nTurn Start: At 4- Speed, Gain 1 [HitResultUp]"
+      "name": "Ira contenuta",
+      "desc": "Potere Base -1 e Potere Moneta +2 all'Abilità di questa unità più a sinistra nel Panello di Controllo\nA Inizio turno: A 4- Velocità, Ottiene 1 [HitResultUp]"
     },
     {
       "id": 2020511,
-      "name": "Flamebrand",
-      "desc": "On Heads Hit with a Lust affinity Skill, inflict 1 [Combustion] on target (6 times per turn)"
+      "name": "Spada Fiammeggiante",
+      "desc": "Se Testa Colpisce con un'Abilità con affinità Lussuria, infligge 1 [Combustion] sul bersaglio (6 volte per turno)"
     },
     {
       "id": 2060511,
-      "name": "Green Slime",
-      "desc": "If struck at less than 50% HP, inflict 1 [Burst] on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)"
+      "name": "Melma Verde",
+      "desc": "Se colpita a meno di 50% PV, infligge 1 [Burst] all'attaccante. (Si attiva (Rison.A Gola più alta) volte per turno)"
     },
     {
       "id": 2040611,
-      "name": "Dream Devouring",
-      "desc": "On Crit with a Pride affinity Skill, gain 1 [Breath] Count (3 times per turn)"
+      "name": "Divorasogni",
+      "desc": "Sul Critico con una Abilità di Affinità Superbia, ottiene 1 Conteggio [Breath] (3 volte per turno)"
     },
     {
       "id": 2080511,
-      "name": "Temeritous Voyage",
-      "desc": "At the end of the turn, inflict 5 [Sinking] to 1 other ally with the lowest HP; Apply 1 [Agility] and 3 [AttackUp] next turn"
+      "name": "Voyage Temerario",
+      "desc": "A fine turno, infligge 5 [Sinking] ad un altro alleato con il numero minore di PV; Applica 1 [Agility] e 3 [AttackUp] il turno successivo"
     },
     {
       "id": 2090411,
-      "name": "Sticky Filth",
-      "desc": "On Heads Hit with a Pierce Skill, inflict 1 [Binding] (2 times per turn)"
+      "name": "Marciume Appiccicoso",
+      "desc": "Se Testa Colpisce con una Abilità Perforante, infligge 1 [Binding] (2 volte per turno)"
     },
     {
       "id": 2100511,
-      "name": "Prophecy of Ruin",
-      "desc": "On Heads Hit with a Lust affinity Skill, lower this unit and the target's PS by 4.\n(Does not work against targets without Sanity)\nGain 5 Lust E.G.O resources On Kill with a Lust affinity Skill"
+      "name": "Profezia della Rovina",
+      "desc": "Se Testa Colpisce con una Abilità di Affinità Lussuria, riduce di 4 i PS di questa unità e del bersaglio.\n(Non funziona sui bersagli senza Sanità)\nOttiene 5 Risorse E.G.O Lussuria su Uccisione con una Abilità di Affinità Lussuria"
     },
     {
       "id": 2090511,
-      "name": "Sentencing from Above",
-      "desc": "Whenever an enemy is Staggered, the ally with the least PV percentage heals 4% of their Max PV. (Once per turn)"
+      "name": "Condanna dall'Alto",
+      "desc": "Se un nemico viene Stordito, l'alleato con la percentuale più bassa di PV recupera 4% dei propri max PV. (Una volta per turno)"
     },
     {
       "id": 2070511,
-      "name": "Infinite Hatred",
-      "desc": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\n- Inflict +1 more [Combustion], [Laceration], [Vibration], [Burst], and [Sinking] Potency to self and enemies with Skill effects or Coin effects\n- Gain +1 more [Breath] and [Charge] Count with Skill effects or Coin effects"
+      "name": "Odio Infinito",
+      "desc": "Se questa unità ha un effetto di stato o un effetto negativo, e se il bersaglio principale o l'attaccante ha un effetto positivo:\n- Infligge +1 ulteriore [Combustion], [Laceration], [Vibration], [Burst], e [Sinking] Potenza su di sé e sui nemici con gli effetti delle Abilità o gli effetti delle Monete\n- Ottiene +1 ulteriore [Breath] e Conteggio [Charge] con gli effetti delle Abilità o gli effetti delle Monete"
     },
     {
       "id": 2110511,
-      "name": "Fair Presents",
-      "desc": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking].\nThen, inflict 1 Potency of the selected effect to 1 random enemy. (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random Part.)"
+      "name": "Regali Giusti",
+      "desc": "Se applica effetti positivi ad altri alleati con effetti delle Abilità o effetti delle Monete, sceglie casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking].\nIn seguito, infligge 1 Potenza dell'effetto selezionato ad 1 nemico casuale. (Si attiva 5 volte per turno. Può essere applicato fino 5 volte per nemico. Per le Anormalità, è applicato ad una Parte casuale.)"
     },
     {
       "id": 2030511,
-      "name": "Fallen Stone Pagoda",
-      "desc": "Gain 2 [Breath] and +2 [Breath] Count when defeating an enemy that has [Laceration] (3 times per turn)"
+      "name": "Pagoda della Pietra Caduta",
+      "desc": "Ottiene 2 [Breath] e +2 Conteggio [Breath] quando sconfigge un nemico con [Laceration] (3 volte per turno)"
     },
     {
       "id": 2120511,
-      "name": "Crown of Roses",
-      "desc": "Turn Start: Inflict 2 [Burst] Potency on a random enemy(In Focused Encounters, all parts)\nWhen activating Absolute Resonance, inflict 2 [Burst] Potency on all enemies at Combat Start"
+      "name": "Corona di Rose",
+      "desc": "A Inizio turno: Infligge 2 [Burst] ad un attaccante casuale(Negli Incontri Mirati, tutte le parti)\nSe si attiva Risonanza Assoluta, infligge 2 [Burst] su tutti i nemici a Inizio Combattimento"
     },
     {
       "id": 2120611,
@@ -332,8 +332,8 @@
     },
     {
       "id": 2110611,
-      "name": "Grand Welcome",
-      "desc": "Attack End: If the target this unit attacked is Staggered or defeated, gain +1 Pride E.G.O resource and +1 E.G.O resource for 1 other random Affinity (3 times per turn)"
+      "name": "Grandiosa Accoglienza",
+      "desc": "A Fine Attacco: Se il bersaglio dell'attacco di questa unità è Stordito o sconfitto, ottiene +1 Risorsa E.G.O Superbia e +1 Risorsa E.G.O per 1 altra Affinità Casuale (3 volte per turno)"
     },
     {
       "id": 2080611,
@@ -343,9 +343,9 @@
     },
     {
       "id": 2090611,
-      "name": "Obsession",
-      "desc": "This unit's leftmost Skill on the Dashboard inflicts double the [Laceration] Potency (once per turn)",
-      "summary": "This Skill Inflicts x2 [Laceration] Potency"
+      "name": "Ossessione",
+      "desc": "L'Abilità di questa unità più a sinistra nel Pannello di Controllo infligge il doppio della potenza di [Laceration] (una volta per turno)",
+      "summary": "Questa Abilità Infligge x2 Potenza [Laceration]"
     },
     {
       "id": 2060611,
@@ -367,30 +367,30 @@
     },
     {
       "id": 2040711,
-      "name": "Mark of the Gaze",
-      "desc": "Whenever this unit uses a base Attack Skill against an enemy, gain 1 additional E.G.O resource for a random, least-owned Affinity that doesn't correspond to the Affinity of the Attack Skill used (2 times per turn)"
+      "name": "Marchio dello Sguardo",
+      "desc": "Se questa unità usa Abilità Attacco base su un nemico, ottiene 1 ulteriore risorsa E.G.O per una casuale, meno posseduta Affinità che non corrisponde all'Affinità dell'Abilità Attacco usata (2 volte per turno)"
     },
     {
       "id": 2070711,
-      "name": "Crushed Pendant",
-      "desc": "Combat Start: At 3+ highest Reson., gain 3 [Breath]."
+      "name": "Pendente Frammentato",
+      "desc": "A Inizio Combattimento: At 3+ Rison. più alta, ottiene 3 [Breath]."
     },
     {
       "id": 2110711,
-      "name": "Rambling Man",
-      "desc": "Max [Charge] Count +5\nSkills that consume [Charge] Count deal +2% damage for every ([Charge] - 1) (max 10%)",
-      "summary": "Skills that consume [Charge] Count deal more damage"
+      "name": "Uomo Vagante",
+      "desc": "Max Conteggio [Charge] +5\nAbilità che consumano Conteggio [Charge]  infliggono +2% danni per ogni ([Charge] - 1) (max 10%)",
+      "summary": "Abilità che consumano Conteggio [Charge] infliggono più danni"
     },
     {
       "id": 2120711,
-      "name": "Lament",
-      "desc": "Turn End: if this unit has a negative effect, gain 1 [Enhancement] next turn\nWhen attacking targets that are either in Panic or in E.G.O Corrosion: deal +15% damage",
+      "name": "Lamento",
+      "desc": "A Fine Turno: se questa unità ha un effetto negativo, ottiene 1 [Enhancement] il turno successivo\nSe attacca bersagli che sono in Panico o in E.G.O Corrosione: infligge +15% danni",
       "summary": ""
     },
     {
       "id": 2080711,
-      "name": "Interloper Reception",
-      "desc": "If the target has [UninvitedGuestPersonality] or any of the Panic Type changing effects, Clash Power +1.\nOn Hit against the said target, heal 1 ally with the least PS for 5 PS. (once per turn)"
+      "name": "Ricevimento dell'Indesiderato",
+      "desc": "Se il bersaglio ha [UninvitedGuestPersonality] o qualunque effetto che cambia il Tipo di Panico, Potere Scontro +1.\nSul colpo sul suddetto bersaglio, 1 alleato con il numero minore di PS recupera 5 PS. (una volta per turno)"
     },
     {
       "id": 2020711,
@@ -400,8 +400,8 @@
     },
     {
       "id": 2060711,
-      "name": "Time to Hunt",
-      "desc": "If an enemy or an ally is killed due to [Burst] or [Laceration] damage, inflict 2 [Snare] against a random enemy, and gain 1 [Agility] next turn (once per turn)"
+      "name": "L'ora della Caccia",
+      "desc": "Se un nemico o un alleato è ucciso per via di danni [Burst] o [Laceration], infligge 2 [Snare] ad un nemico casuale, e ottiene 1 [Agility] il turno successivo (una volta per turno)"
     },
     {
       "id": 2030711,
@@ -416,8 +416,8 @@
     },
     {
       "id": 2100711,
-      "name": "Grimy Hide",
-      "desc": "Combat Start: if this unit has a negative effect, gain 1 [ParryingResultUp] and 1 [Endurance]\n- Gain 1 [Protection] for every 3 negative effect on self (max 2)"
+      "name": "Pelliccia Lurida",
+      "desc": "A Inizio Combattimento: se questa unità ha un effetto negativo, ottiene 1 [ParryingResultUp] e 1 [Endurance]\n- Ottiene 1 [Protection] per ogni 3 effetti negativi su sé (max 2)"
     },
     {
       "id": 2050711,
@@ -426,8 +426,8 @@
     },
     {
       "id": 2010711,
-      "name": "Next",
-      "desc": "Attack End: If target is killed, gain +2 [Breath] Count (2 times per turn)"
+      "name": "Il Prossimo",
+      "desc": "A Fine Attacco: Se il bersaglio è ucciso, ottiene +2 Conteggio [Breath] (2 volte per turno)"
     },
     {
       "id": 2070811,
@@ -437,13 +437,13 @@
     },
     {
       "id": 2080811,
-      "name": "A Gaze in the Shadows",
-      "desc": "Allies gain +1 more [Vibration] Count from Skill or Coin effects (2 times per turn)\n- If the ally's target is in Staggered, Morale Basso, or Panic states, gain +2 more instead\n- Effect does not stack with E.G.O Gifts of an identical effect."
+      "name": "Uno Sguardo tra le Ombre",
+      "desc": "Alleati ottengono ulteriore +1 Conteggio [Vibration] dagli effetti delle Abilità o delle Monete (2 volte per turno)\n- Se il bersaglio dell'alleato è in stato di Stordimento, Morale Basso, o Panico, Ottiene invece +2 in più\n- L'Effetto non è cumulativo con i Doni E.G.O con effetti identici."
     },
     {
       "id": 2120811,
-      "name": "Insomniac Night",
-      "desc": "Combat Start: against all enemies, inflict 1 [AttackDown] or 1 [DefenseDown] to all enemies (# of enemies in Staggered, Morale Basso, or Panic states) times. (2 times per turn)\n- Effect does not stack with E.G.O Gifts with the same effect."
+      "name": "Notte Insonne",
+      "desc": "A Inizio Combattimento: su tutti i nemici, inflict 1 [AttackDown] or 1 [DefenseDown] to all enemies (# of enemies in Staggered, Morale Basso, or Panic states) times. (2 volte per turno)\n- L'Effetto non è cumulativo con i Doni E.G.O con effetti identici."
     },
     {
       "id": 2110811,
@@ -477,13 +477,13 @@
     },
     {
       "id": 2060811,
-      "name": "Crying Tears",
-      "desc": "If the target is defeated after this unit's Attack or Counter Skills:\n- Gain 2 [Agility] next turn (once per turn)\n- To all allies, including this unit: next turn, apply 1 DMG Up to the Damage Type & Affinity of the Skill used to activate this effect (once per turn)\n- Inflict 1 [Reduction] to all enemies next turn (once per turn)\n\nWhen this unit dies:\n- Apply 1 [ShamrockDamageUp] and [PenetrateDamageUp] to all allies next turn (once per turn)\n- Inflict 1 [Reduction] to all enemies next turn (once per turn)"
+      "name": "Piangendo Lacrime",
+      "desc": "Se il bersaglio è sconfitto dopo un'Abilità Attacco o un'Abilità Contrattaco di questa unità:\n- Ottiene 2 [Agility] il turno successivo (una volta per turno)\n- A tutti gli alleati, inclusa questa unità: al turno successivo, applica 1 Danno Aumentato al Tipo di Danno e Affinità dell'Abilità utilizzata per attivare l'effetto (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)\n\nSe questa unità muore:\n- Applica 1 [ShamrockDamageUp] e [PenetrateDamageUp] a tutti gli alleati il turno successivo (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)"
     },
     {
       "id": 2100811,
-      "name": "Crying Tears",
-      "desc": "- Turn End: If this unit had a negative effect or lost its PV or PS, heal 5 PS.\n- If this unit or an ally is defeated, inflict 1 [Vulnerable] to all enemies next turn (once per turn)"
+      "name": "Piangendo Lacrime",
+      "desc": "- A Fine Turno: Se questa unità aveva un effetto negativo o ha perso PV o PS, recupera 5 PS.\n- Se questa unità o un alleato è sconfitto, infligge 1 [Vulnerable] a tutti i nemici (una volta per turno)"
     },
     {
       "id": 2030911,
