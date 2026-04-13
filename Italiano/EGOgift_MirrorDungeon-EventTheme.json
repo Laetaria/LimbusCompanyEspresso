@@ -3,22 +3,22 @@
     {
       "id": 9701,
       "name": "Cosciotto Scottante e Succoso",
-      "desc": "Quando infliggi [Combustion] con un'Abilità contro nemici, infliggi +3 [Combustion] Conteggio (3 volte per turno)",
+      "desc": "Quando infliggi [Combustion] con un'Abilità contro nemici, infliggi +3 Conteggio [Combustion] (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9701,
-          "simpleDesc": "Quando infliggi [Combustion] con un'abilità, infliggi +3 [Combustion] Conteggio"
+          "simpleDesc": "Quando infliggi [Combustion] con un'abilità, infliggi +3 Conteggio [Combustion]"
         }
       ]
     },
     {
       "id": 9702,
       "name": "Petto Secco Fino all'Osso",
-      "desc": "Quando infliggi [Burst] con un'Abilità contro nemici, infliggi +3 [Burst] Conteggio (3 volte per turno)",
+      "desc": "Quando infliggi [Burst] con un'Abilità contro nemici, infliggi +3 Conteggio [Burst] (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9702,
-          "simpleDesc": "Quando infliggi [Burst]con un'Abilità, infliggi +3 [Burst] Conteggio"
+          "simpleDesc": "Quando infliggi [Burst] con un'Abilità, infliggi +3 Conteggio [Burst]"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "simpleDesc": [
         {
           "abilityID": 9703,
-          "simpleDesc": "Guadagna +(Velocità/3) Potere Scontro."
+          "simpleDesc": "Ottieni +(Velocità/3) Potere Scontro."
         }
       ]
     },
@@ -84,7 +84,7 @@
     {
       "id": 9708,
       "name": "Vino di Cervello di Granchio dei Rifiuti",
-      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge Potenza o Conteggio [Burst], infliggi (Conteggio [Burst] x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende dallo Stordimento, cura 20% dei PV massimi. (2 volte per Incontro)",
+      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge Potenza o Conteggio [Burst], infliggi (Conteggio [Burst] x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende dallo Stordimento, recuper il 20% dei PV massimi. (2 volte per Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9708,
@@ -92,22 +92,22 @@
         },
         {
           "abilityID": 97081,
-          "simpleDesc": "Cura 20% dei PV massimi"
+          "simpleDesc": "Recupera il 20% dei PV massimi"
         }
       ]
     },
     {
       "id": 9709,
       "name": "Cappello Pom-pom",
-      "desc": "A fine turno: guadagna 1 Potenza [Breath] nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 Potenza [Breath] per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
+      "desc": "A Fine Turno: Ottieni 1 Potenza [Breath] nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 Potenza [Breath] per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
       "simpleDesc": [
         {
           "abilityID": 9709,
-          "simpleDesc": "Guadagna 1 Potenza [Breath]"
+          "simpleDesc": "Ottieni 1 Potenza [Breath]"
         },
         {
           "abilityID": 97091,
-          "simpleDesc": "Guadagna 3 Potenza [Breath]"
+          "simpleDesc": "Ottieni 3 Potenza [Breath]"
         }
       ]
     },
@@ -125,7 +125,7 @@
     {
       "id": 9711,
       "name": "Peluche Triste",
-      "desc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende dallo Stordimento, recupera tutti i suoi PS. (non si attiva se l'unità Corrode)\n\nSe un alleato ha solo Abilità con Monete Negative: guadagna 3 [Paralysis] ad inizio turno.",
+      "desc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende dallo Stordimento, recupera tutti i suoi PS (non si attiva se l'unità Corrode).\n\nSe un alleato ha solo Abilità con Monete Negative: ottieni 3 [Paralysis] ad inizio turno.",
       "simpleDesc": [
         {
           "abilityID": 9711,
@@ -137,44 +137,44 @@
         },
         {
           "abilityID": 97112,
-          "simpleDesc": "Guadagna 3 [Paralysis] ad inizio turno"
+          "simpleDesc": "Ottiene 3 [Paralysis] ad inizio turno"
         }
       ]
     },
     {
       "id": 9712,
       "name": "Libro Mastro Nero",
-      "desc": "Ad inizio del primo turno: guadagna risorse E.G.O casuali uguali al numero dei nemici.\n\nSe partccipano all'Incontro 4 o più identità Discendenti della Spada o Clan Kurokumo (Sono contate solo le identità in campo all'inizio dell'Incontro), guadagna risorse E.G.O dell'Affinità con meno risorse.",
+      "desc": "A inizio del primo turno: ottiene risorse E.G.O casuali uguali al numero dei nemici.\n\nSe all'Incontro partecipano 4 o più Identità Discendenti della Spada o Clan Kurokumo (solo Identità sul campo all'Inizio dell'Incontro), ottieni risorse E.G.O dell'Affinità con meno risorse.",
       "simpleDesc": [
         {
           "abilityID": 9712,
-          "simpleDesc": "Guadagna risorse E.G.O casuali"
+          "simpleDesc": "Ottieni risorse E.G.O casuali"
         },
         {
           "abilityID": 97121,
-          "simpleDesc": "Guadagna le risorse E.G.O che possiedi di meno"
+          "simpleDesc": "Ottieni le risorse E.G.O che possiedi di meno"
         }
       ]
     },
     {
       "id": 9713,
-      "name": "Elsa arrugginita",
-      "desc": "Ad inizio del primo turno: tutti gli alleati guadagnano Potere Tagliente Aumentato di 1.\n\nLe identità Discendenti della Spada o Clan Kurokumo invece guadagnano Potere Tagliente Aumentato di 2.",
+      "name": "Elsa Arrugginita",
+      "desc": "Ad inizio del primo turno: tutti gli alleati ottengono Potere Tagliente Aumentato +1.\n\nLe Identità Discendenti della Spada o Clan Kurokumo ottengono invece Potere Tagliente Aumentato +2.",
       "simpleDesc": [
         {
           "abilityID": 9713,
-          "simpleDesc": "Guadagna Potere Tagliente Aumentato di 1"
+          "simpleDesc": "Ottiene Potere Tagliente Aumentato +1"
         },
         {
           "abilityID": 97131,
-          "simpleDesc": "Guadagna Potere Tagliente Aumentato di 2"
+          "simpleDesc": "Ottiene Potere Tagliente Aumentato +2"
         }
       ]
     },
     {
       "id": 9714,
       "name": "Lama Fratturata",
-      "desc": "Durante questo Incontrocontro: quando infliggi potenza [Laceration] o 'Sanguinamento Speciale' per la prima volta contro un nemico con l'effetto di un'Abilità Attacco, infliggi +2 Conteggio [Laceration] extra. (1 volta per Incontro)\n\nLe identità del Clan Kurokumo,invece, quando infliggono danni contro un nemico per la prima volta, infliggi 4 Potenza [Laceration] extra e +4 Conteggio [Laceration].",
+      "desc": "Durante questo Incontro: Quando infliggi Potenza [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' per la prima volta contro un nemico con l'effetto di un'Abilità Attacco, infliggi +2 Conteggio [Laceration] in più (1 volta per Incontro).\n\nLe Identità del Clan Kurokumo, invece, infliggono 4 Potenza [Laceration] in più e +4 Conteggio [Laceration].",
       "simpleDesc": [
         {
           "abilityID": 9714,
@@ -189,7 +189,7 @@
     {
       "id": 9715,
       "name": "Lama Rotta",
-      "desc": "Quando un alleato colpisce un nemico con un colpo critico, infligge ulteriori (Potenza [Breath]/3) danno Superbia.\n\nLe idenità Discendenti della Spada,invece,quando colpiscono un nemico con un colpo critico, infligge ulteriori (Potenza [Breath]/2) danni Superbia.",
+      "desc": "Quando un alleato colpisce un nemico con un Colpo Critico, infligge ulteriori (Potenza [Breath]/3) danni Superbia.\n\nLe Idenità Discendenti della Spada, invece, infliggono ulteriori (Potenza [Breath]/2) danni Superbia.",
       "simpleDesc": [
         {
           "abilityID": 9715,
