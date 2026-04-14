@@ -73,7 +73,7 @@
     {
       "id": 2060211,
       "name": "Nastri Vincolanti",
-      "desc": "Infligge (Rison.A Lussuria / 4) [ScarletTakeDamageUp] il turno successivo al bersaglio dell' Abilità più a sinistra nel Pannello di Controllo alla fine di quella Abilità Attacco"
+      "desc": "Infligge (Rison-A Lussuria / 4) [ScarletTakeDamageUp] il turno successivo al bersaglio dell' Abilità più a sinistra nel Pannello di Controllo alla fine di quella Abilità Attacco"
     },
     {
       "id": 2070111,
@@ -83,7 +83,7 @@
     {
       "id": 2070211,
       "name": "Ruggito",
-      "desc": "Se Uccide un Nemico, ottiene +(Rison.A Invidia / 2) Conteggio [Charge]"
+      "desc": "Se Uccide un Nemico, ottiene +(Rison-A Invidia / 2) Conteggio [Charge]"
     },
     {
       "id": 2080111,
@@ -108,7 +108,7 @@
     {
       "id": 2090211,
       "name": "Principio di Fiamma",
-      "desc": "Se Sconfigge un Nemico che ha [Combustion], recupera (Rison.A Ira)% PV"
+      "desc": "Se Sconfigge un Nemico che ha [Combustion], recupera (Rison-A Ira)% PV"
     },
     {
       "id": 2090311,
@@ -148,12 +148,12 @@
     {
       "id": 2120211,
       "name": "Vermi",
-      "desc": "Sul Colpo, infligge 5 [Muckworm] con una probabilità pari a (Rison.A Gola x 8)%"
+      "desc": "Sul Colpo, infligge 5 [Muckworm] con una probabilità pari a (Rison-A Gola x 8)%"
     },
     {
       "id": 2120311,
       "name": "Assorbimento di Nutrienti",
-      "desc": "Se Sconfigge un nemico che ha [Burst], recupera (Rison.A Gola)% PV"
+      "desc": "Se Sconfigge un nemico che ha [Burst], recupera (Rison-A Gola)% PV"
     },
     {
       "id": 2030311,
@@ -238,7 +238,7 @@
     {
       "id": 2100411,
       "name": "Esca Fatata",
-      "desc": "Dopo aver Sconfitto un Nemico che ha bersagliato questa unità a Inizio Combattimento, recupera (3 + (Rison.A Gola))% PV"
+      "desc": "Dopo aver Sconfitto un Nemico che ha bersagliato questa unità a Inizio Combattimento, recupera (3 + (Rison-A Gola))% PV"
     },
     {
       "id": 2070411,
@@ -288,12 +288,12 @@
     {
       "id": 2070511,
       "name": "Odio Infinito",
-      "desc": "Se questa unità ha un effetto di stato o un effetto negativo, e se il bersaglio principale o l'attaccante ha un effetto positivo:\n- Infligge +1 ulteriore [Combustion], [Laceration], [Vibration], [Burst], e [Sinking] Potenza su di sé e sui nemici con gli effetti delle Abilità o gli effetti delle Monete\n- Ottiene +1 ulteriore [Breath] e Conteggio [Charge] con gli effetti delle Abilità o gli effetti delle Monete"
+      "desc": "Se questa unità ha un effetto di stato o un effetto negativo, e se il bersaglio principale o l'attaccante ha un effetto positivo:\n- Infligge +1 ulteriore [Combustion], [Laceration], [Vibration], [Burst], e [Sinking] Potenza su di sé e sui nemici con gli effetti delle Abilità o delle Monete\n- Ottiene +1 ulteriore [Breath] e Conteggio [Charge] con gli effetti delle Abilità o delle Monete"
     },
     {
       "id": 2110511,
       "name": "Regali Giusti",
-      "desc": "Se applica effetti positivi ad altri alleati con effetti delle Abilità o effetti delle Monete, sceglie casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking].\nIn seguito, infligge 1 Potenza dell'effetto selezionato ad 1 nemico casuale. (Si attiva 5 volte per turno. Può essere applicato fino 5 volte per nemico. Per le Anormalità, è applicato ad una Parte casuale.)"
+      "desc": "Se applica effetti positivi ad altri alleati con effetti delle Abilità o delle Monete, sceglie casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking].\nIn seguito, infligge 1 Potenza dell'effetto selezionato ad 1 nemico casuale. (Si attiva 5 volte per turno. Può essere applicato fino 5 volte per nemico. Per le Anormalità, è applicato ad una Parte casuale.)"
     },
     {
       "id": 2030511,
@@ -307,28 +307,28 @@
     },
     {
       "id": 2120611,
-      "name": "If I Could Go Back...",
-      "desc": "Attack End: If the target is defeated after this unit's attack, gain 1 E.G.O resource for the least-owned E.G.O resource.\nGain 1 additional E.G.O resource for every 5 ([Sinking] Potency + Count) (max 3)\n(If there are 2 or more \"least-owned E.G.O resource\", select 1 of those Affinities at random to gain an E.G.O resource)"
+      "name": "Se Potessi Tornare Indietro...",
+      "desc": "A Fine Attacco: Se il bersaglio è sconfitto dopo un attacco di questa unità, ottiene per la risorsa E.G.O meno posseduta 1 risorsa E.G.O.\nOttiene 1 ulteriore risorsa E.G.O per ogni 5 ([Sinking] Potenza + Conteggio) (max 3)\n(Se ci sono 2 o più \"risorse E.G.O meno possedute\", seleziona 1 di queste Affinità in modo casuale per ottenere una risorsa E.G.O)"
     },
     {
       "id": 2010611,
-      "name": "Fractured Yesterday",
-      "desc": "If the target has 6+ [Sinking] Potency, Clash Power +1\nIf the target has 4+ [Sinking] Count, Clash Power +1"
+      "name": "Ieri Frammentato",
+      "desc": "Se il bersaglio ha 6+ Potenza [Sinking], Potere Scontro +1\nSe il bersaglio ha 4+ Conteggio [Sinking], Potere Scontro +1"
     },
     {
       "id": 2030611,
-      "name": "Tempestuous Screaming",
-      "desc": "If the target is defeated at this unit's Slash or Envy Affinity Skill End, gain 1 [Enhancement] next turn (once per turn)"
+      "name": "Strillo Tempestoso",
+      "desc": "Se questa unità alla fine di un'Abilità Tagliente o con Affinità Invidia sconfigge un bersaglio, ottiene 1 [Enhancement] il turno successivo (una volta per turno)"
     },
     {
       "id": 2050611,
-      "name": "Overloading Cables",
-      "desc": "Combat Start: At 4+ Reson., gain 2 [AttackUp] and 2 [DefenseUp].\nIf the Reson. was an Envy Reson., apply the above effects to the 2 units adjacent to this unit on the Dashboard as well"
+      "name": "Cavi Sovraccaricati",
+      "desc": "A Inizio Combattimento: A 4+ Rison., ottiene 2 [AttackUp] e 2 [DefenseUp].\nSe la Rison. era una Rison. Invidia, applica gli effetti sopracitati anche a 2 unità adiacenti a questa unità nel Pannello di Controllo"
     },
     {
       "id": 2070611,
-      "name": "Chains of Binding",
-      "desc": "- Combat Start: At 4+ highest Reson. that includes this unit's Skills, apply 3 [AttackUp] and 3 [DefenseUp] to self and all allies who were a part of that Reson.\n- If the said Reson. was an A-Reson., apply 2 additional [AttackUp] and [DefenseUp]"
+      "name": "Catene del Vincolo",
+      "desc": "- A Inizio Combattimento: A 4+ Rison. più alta che include le Abilità di questa unità, applica 3 [AttackUp] e 3 [DefenseUp] su di sé e agli alleati che erano parte della Rison.\n- Se la Rison. era una Rison-A, applica 2 ulteriori [AttackUp] e [DefenseUp]"
     },
     {
       "id": 2110611,
@@ -339,7 +339,7 @@
       "id": 2080611,
       "name": "Ingordigia",
       "desc": "Se il bersaglio principale ha subito danni ai PV questo turno e non è a max PV prima dell'Uso dell'abilità:\nSul Colpo,\n- Quando questa unità è a max PV, infligge tra +5~+10% danni.\n- Quando questa unità non è a max PV, recupera tra 2~5 PV. \n(7 volte per turno)",
-      "summary": "If the target isn't at max PV, deal more damage On Hit or heal PV On Hit"
+      "summary": "Se il bersaglio non è a max PV, infligge più danni Sul Colpo o recupera PV Sul Colpo"
     },
     {
       "id": 2090611,
@@ -349,21 +349,21 @@
     },
     {
       "id": 2060611,
-      "name": "Gloominess",
-      "desc": "When this unit uses a Skill to trigger [VibrationExplosion] on an enemy, inflict 1 [AttackDown] and 2 [DefenseDown] on the enemy next turn. (3 times per turn, including E.G.O Skills)",
-      "summary": "When triggering [VibrationExplosion], inflict 1 [AttackDown] and 2 [DefenseDown] next turn"
+      "name": "Malinconia",
+      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] ad un nemico, infligge 1 [AttackDown] e 2 [DefenseDown] al nemico il turno successivo. (3 volte per turno, includendo Abilità E.G.O)",
+      "summary": "Se innesca [VibrationExplosion], infligge 1 [AttackDown] e 2 [DefenseDown] il turno successivo"
     },
     {
       "id": 2100611,
-      "name": "Tear Film",
-      "desc": "Turn Start: If this unit has Shield, gain 1 [Protection]\nIf this unit is under [ShieldManagerCryingToad]'s effect, gain 1 additional [Protection]",
-      "summary": "If this unit has Shield, gain 1 [Protection]\nIf [ShieldManagerCryingToad] is active, gain 1 [Protection]"
+      "name": "Strato Lacrimoso",
+      "desc": "A Inizio Turno: Se questa unità ha Scudo, ottiene 1 [Protection]\nSe questa unità è sotto l'effetto di [ShieldManagerCryingToad], ottiene 1 ulteriore [Protection]",
+      "summary": "Se questa unità ha Scudo, ottiene 1 [Protection]\nSe [ShieldManagerCryingToad] è attiva, ottiene 1 [Protection]"
     },
     {
       "id": 2020611,
-      "name": "Running Time",
-      "desc": "When this unit uses a Skill to trigger [VibrationExplosion] on an enemy, gain 1 [Agility] next turn. (4 times per turn, including E.G.O Skills)",
-      "summary": "When using a Skill to trigger [VibrationExplosion] on an enemy, gain 1 [Agility] next turn. (4 times per turn, including E.G.O Skills)"
+      "name": "Tempo che Scorre",
+      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] ad un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, includendo Abilità E.G.O)",
+      "summary": "Se usa una Abilità e innesca [VibrationExplosion] ad un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, includendo Abilità E.G.O)"
     },
     {
       "id": 2040711,
@@ -394,13 +394,13 @@
     },
     {
       "id": 2020711,
-      "name": "Sprawling Lasso",
-      "desc": "Attack End: If target is Staggered or defeated, inflict +1 [Burst] Count against 2 random enemies (once per turn; cannot stack; negli Incontri Mirati, against 2 random Parts)",
-      "summary": "Attack End: If target is Staggered or defeated, inflict +1 [Burst] Count against 2 random enemies"
+      "name": "Lazo Incontrollato",
+      "desc": "A Fine Attacco: Se il bersagio è Stordito o sconfitto, infligge +1 Conteggio [Burst] a 2 nemici casuali (una volta per turno; non cumulabile; negli Incontri Mirati, a 2 Parti casuali)",
+      "summary": "A Fine Attacco: Se il bersaglio è Stordito o sconfitto, infligge +1 Conteggio [Burst] a 2 nemici casuali"
     },
     {
       "id": 2060711,
-      "name": "L'ora della Caccia",
+      "name": "L'ora della Caccia"
       "desc": "Se un nemico o un alleato è ucciso per via di danni [Burst] o [Laceration], infligge 2 [Snare] ad un nemico casuale, e ottiene 1 [Agility] il turno successivo (una volta per turno)"
     },
     {
@@ -431,9 +431,9 @@
     },
     {
       "id": 2070811,
-      "name": "Broken Bell",
-      "desc": "Inflict [Vulnerable] this turn on enemies who were hit by [VibrationExplosion] from Skill, Coin, or Passive effects.\n- Does not stack with E.G.O Gifts that inflict [Vulnerable] upon triggering [VibrationExplosion]. (If the said E.G.O Gifts have been enhanced, subtract this effect's value from the final value before inflicting it.)",
-      "summary": "Inflict 1 [Vulnerable] upon triggering [VibrationExplosion] "
+      "name": "Campana Rotta",
+      "desc": "Infligge [Vulnerable] questo turno ai nemici colpiti da [VibrationExplosion] per via di effetti da Abilità, Moneta, o Passiva.\n- Non cumulabile con Doni E.G.O che infliggono [Vulnerable] per innesco di [VibrationExplosion]. (Se i Doni E.G.O sono stati migliorati, si sottrae il valore di questo effetto da quello finale prima di infliggelo.)",
+      "summary": "Infligge 1 [Vulnerable] su innesco di [VibrationExplosion] "
     },
     {
       "id": 2080811,
@@ -447,8 +447,8 @@
     },
     {
       "id": 2110811,
-      "name": "Seven Bullets",
-      "desc": "- On Hit with Base Attack Skills: inflict ([FreischutzShotCount] / 3) [Combustion] (3 times per turn)\n- For Lobotomy E.G.O::Magic Bulle​t Outis Identity, inflict ([FreischutzShotCount]) [Combustion] instead (3 times per turn)\n- If the target has 30+ [Combustion], inflict 1 [DarkFlame] instead of the above effect (2 times per turn)"
+      "name": "Sette Proiettili",
+      "desc": "- Sul Colpo con Abilità Attacco Base: infligge ([FreischutzShotCount] / 3) [Combustion] (3 volte per turno)\n- Per l'identità di Outis E.G.O della Lobotomy::Proiettile Magico, infligge ([FreischutzShotCount]) [Combustion] invece (3 volte per turno)\n- Se il bersaglio ha 30+ [Combustion], infligge 1 [DarkFlame] invece rispetto all'effetto sopracitato (2 volte per turno)"
     },
     {
       "id": 2040811,
@@ -467,8 +467,8 @@
     },
     {
       "id": 2030811,
-      "name": "Enfeebling Talisman",
-      "desc": "On Hit with this unit's Skills: if the target either has 15+ [Burst], or if this unit dealt a Critical Hit, inflict 1 [DefenseDown] (max 6)\n- When this Passive activates, its effects do not stack with the effects of E.G.O Gift \"Old Wooden Doll\"."
+      "name": "Talismano Indebolente",
+      "desc": "Sul Colpo delle Abilità di questa unità: se il bersaglio ha 15+ [Burst], o se questa unità ha inflitto un Colpo Critico, infligge 1 [DefenseDown] (max 6)\n- Se questa Passiva si attiva, i suoi effetti non sono cumulativi con gli effetti del dono E.G.O \"Vecchio Fantoccio in Legno\"."
     },
     {
       "id": 2080911,
@@ -509,8 +509,8 @@
     },
     {
       "id": 2081011,
-      "name": "Abyssal Dance",
-      "desc": "- Combat Start: if there is just a single enemy, this unit's leftmost Attack Skill on the Dashboard gains Clash Power +1, and deals +11.5% damage on Hit after Clash Win (including E.G.O Skills)\n- For the turns in which this unit Returned or Substituted in: Min & Max Speed +1, Clash Power +1"
+      "name": "Danza Abissale",
+      "desc": "- A Inizio Turno: se c'è un singolo nemico, l'Abilità Attacco di questa unità più a sinistra nel Pannello di Controllo ottiene Potere Scontro +1, e infligge +11.5% danni Sul Colpo a Scontro Vinto (includendo Abilità E.G.O)\n- For the turns in which this unit Returned or Substituted in: Min & Max Velocità +1, Potere Scontro +1"
     },
     {
       "id": 2120911,
@@ -525,8 +525,8 @@
     },
     {
       "id": 2070911,
-      "name": "Circuit Wiring",
-      "desc": "On Hit with Skills that apply [Combustion] Potency or 'Unique Burn[TabExplain]', or On Hit with Envy Skills: Inflict additional [Combustion] Potency on target by half of the Skill's total Coins (rounded up; max 3 times per turn)"
+      "name": "Circuito Elettrico",
+      "desc": "Sul colpo con Abilità che applicano Potenza [Combustion] o '<noparse>Bruciatura</noparse> Speciale', o Sul Colpo con Abilità Invidia: Infligge ulteriore Potenza [Combustion] al bersaglio della metà delle Monete totali dell'Abilità (per eccesso; max 3 volte per turno)"
     },
     {
       "id": 2010811,
