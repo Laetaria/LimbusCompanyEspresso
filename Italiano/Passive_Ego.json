@@ -400,18 +400,18 @@
     },
     {
       "id": 2060711,
-      "name": "L'ora della Caccia"
+      "name": "Si Va a Caccia"
       "desc": "Se un nemico o un alleato è ucciso per via di danni [Burst] o [Laceration], infligge 2 [Snare] ad un nemico casuale, e ottiene 1 [Agility] il turno successivo (una volta per turno)"
     },
     {
       "id": 2030711,
-      "name": "Spiring Crimson Blossom",
-      "desc": "Every time 10+ [Laceration] damage occurs, heal 1 PS on self (10 per turn)"
+      "name": "Bocciolo Scarlatto Germogliante",
+      "desc": "Per ogni 10+ danni inflitti da [Laceration], recupera 1 PS su di sé (10 per turno)"
     },
     {
       "id": 2090711,
-      "name": "Iron Stake against the Heart",
-      "desc": "When inflicting [Laceration] or 'Unique Bleed' against an enemy with Base Attack Skills, inflict 1 [DefenseDown] (once per turn)\n- If the target has [Laceration] or 'Unique Bleed', inflict additional 2 [Laceration] (once per turn)\n\nIf an ally, including this unit, takes direct PV damage from the enemy, inflict 1 [Curse] against the target enemy (2 times per turn)",
+      "name": "Paletto di Ferro sul Cuore",
+      "desc": "Se Infligge [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' ad un nemico con Abilità Attacco Base, infligge 1 [DefenseDown] (una volta per turno)\n- Se il bersaglio ha [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infligge ulteriore 2 [Laceration] (una volta per turno)\n\nSe un alleato, inclusa questa unità, riceve danni diretti ai PV da un nemico, infligge 1 [Curse] al bersaglio nemico (2 volte per turno)",
       "summary": ""
     },
     {
@@ -421,8 +421,8 @@
     },
     {
       "id": 2050711,
-      "name": "Bloodthirsty Banquet",
-      "desc": "When this unit deals or takes [Laceration] damage, heal PV equal to the [Laceration] damage (max 10 per turn)\n- When activating a Skill/Coin effect that inflicts [Laceration], if target has [RoseWedge], inflict 1 [Laceration] against the target. (2 times per turn)"
+      "name": "Banchetto Sanguineo",
+      "desc": "Quando questa unità infligge o riceve danni da [Laceration], recupera PV pari al danno da [Laceration] (max 10 per turno)\n- Se attiva una Abilità/Moneta che infligge [Laceration], se il bersaglio ha [RoseWedge], infligge 1 [Laceration] al bersaglio. (2 volte per turno)"
     },
     {
       "id": 2010711,
@@ -488,16 +488,16 @@
     {
       "id": 2030911,
       "name": "Arcana Aptitude Circuit",
-      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count\n- If this unit already gains [Charge] by consuming [Charge] Count on self, this effect does not stack with that effect\n- This unit's Base Attack Skills that consume [Charge] Count: deal +5% damage for every [Charge] on self (max 25%)\n\nIf this unit is a Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 additional Skill 3 use"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] cumulativi\n- Se questa unità ottiene da sé [Charge] consumando Conteggio [Charge], questo effetto non si cumula\n- Le Abilità Attacco Base di questa unità che consumano Conteggio [Charge] ottengono il seguente effetto: infligge +5% danni per ogni [Charge] su di sé (max 25%)\n\nCon l'identità di Don Quixote E.G.O della Lobotomy::Nel Nome dell'Amore e dell'Odio, ottiene 1 ulteriore uso dell'Abilità 3"
     },
     {
       "id": 2050811,
-      "name": "Metronome",
-      "desc": "Turn Start: in odd-numbered turns, gain 1 [AttackDmgUp]; in even-numbered turns, gain 1 [Protection]\n- Does not stack with the Metronome E.G.O Gift. (If the said E.G.O Gift is at an enhanced state, its effect subtracts the values gained from this effect)\n- Does not affect the instances of its effect applied to other allies\n\nWhen using E.G.O Skill, gain 1 [AccumulatedPastSinner] next turn (once per Encounter)\n- Gain 1 [AccumulatedPastSinner] at every subsequent Turn End"
+      "name": "Metronomo",
+      "desc": "A Inizio Turno: nei turni dispari, ottiene 1 [AttackDmgUp]; nei turni pari, ottiene 1 [Protection]\n- Non è cumulativo con il Dono E.G.O Metronomo. (Se il Dono E.G.O è stato migliorato, si sottrae dal valore finale quello ottenuto da questo effetto)\n- Non influenza le istanze in cui l'effetto si applica ad altri alleati\n\nSe usa una Abilità E.G.O, ottiene 1 [AccumulatedPastSinner] il turno successivo (una volta per Incontro)\n- Ottiene 1 [AccumulatedPastSinner] A tutti Fine Turno successivi"
     },
     {
       "id": 2020911,
-      "name": "Doctor",
+      "name": "Dottore",
       "desc": "Turn Start: heal self and 1 ally with the lowest HP percentage by ([CuredFilm] Stack)% of this unit's max HP\n- If this unit is at max HP, heal 2 other allies with the lowest HP percentages instead\n- If the heal-receiving units are at 25% or lower HP, or are Staggered, multiply this effect's healing by 1.5\n\nTurn End: if the last E.G.O Skill Faust used during this Encounter was Ordine: Collasso, lose only 1 Stack of [CuredFilm] at Turn End instead\n- This effect activates in the same turn the E.G.O Skill is used",
       "summary": "Turn Start: heal self and 1 ally with the lowest HP percentage"
     },
@@ -510,7 +510,7 @@
     {
       "id": 2081011,
       "name": "Danza Abissale",
-      "desc": "- A Inizio Turno: se c'è un singolo nemico, l'Abilità Attacco di questa unità più a sinistra nel Pannello di Controllo ottiene Potere Scontro +1, e infligge +11.5% danni Sul Colpo a Scontro Vinto (includendo Abilità E.G.O)\n- For the turns in which this unit Returned or Substituted in: Min & Max Velocità +1, Potere Scontro +1"
+      "desc": "- A Inizio Turno: se c'è un singolo nemico, l'Abilità Attacco di questa unità più a sinistra nel Pannello di Controllo ottiene Potere Scontro +1, e infligge +11.5% danni Sul Colpo a Scontro Vinto (includendo Abilità E.G.O)\n- Per i turni in cui l'unità è rientrata in battaglia o è entrata come sostituto: Min & Max Velocità +1, Potere Scontro +1"
     },
     {
       "id": 2120911,
@@ -525,13 +525,13 @@
     },
     {
       "id": 2070911,
-      "name": "Circuito Elettrico",
+      "name": "Cablaggio del Circuito",
       "desc": "Sul colpo con Abilità che applicano Potenza [Combustion] o '<noparse>Bruciatura</noparse> Speciale', o Sul Colpo con Abilità Invidia: Infligge ulteriore Potenza [Combustion] al bersaglio della metà delle Monete totali dell'Abilità (per eccesso; max 3 volte per turno)"
     },
     {
       "id": 2010811,
       "name": "Skyweaving",
-      "desc": "If target has [ThreeMirrorpartYiSang], inflict +1 more [Combustion] Potency and [Sinking] Potency with this unit's Base Attack Skills (up to a total of 8 additional Potency per turn)\nFor every enemy killed due to [Combustion] damage, gain a \"DMG Up\" next turn for a random Attack Type (3 per turn; randomized for each instance)",
+      "desc": "Se il bersaglio ha [ThreeMirrorpartYiSang], infligge +1 ulteriore Potenza [Combustion] e Potenza [Sinking] with this unit's Base Attack Skills (up to a total of 8 additional Potency per turn)\nFor every enemy killed due to [Combustion] damage, gain a \"DMG Up\" next turn for a random Attack Type (3 per turn; randomized for each instance)",
       "summary": "Inflicts more [Combustion] and [Sinking] Potency to enemies with [ThreeMirrorpartYiSang]\nFor every enemy killed by [Combustion] damage, gain DMG Up for a random Attack Type"
     },
     {
