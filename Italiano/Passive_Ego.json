@@ -498,14 +498,14 @@
     {
       "id": 2020911,
       "name": "Dottore",
-      "desc": "Turn Start: heal self and 1 ally with the lowest HP percentage by ([CuredFilm] Stack)% of this unit's max HP\n- If this unit is at max HP, heal 2 other allies with the lowest HP percentages instead\n- If the heal-receiving units are at 25% or lower HP, or are Staggered, multiply this effect's healing by 1.5\n\nTurn End: if the last E.G.O Skill Faust used during this Encounter was Ordine: Collasso, lose only 1 Stack of [CuredFilm] at Turn End instead\n- This effect activates in the same turn the E.G.O Skill is used",
-      "summary": "Turn Start: heal self and 1 ally with the lowest HP percentage"
+      "desc": "A Inizio Turno: cura sé stesso e un alleato con la percentuale di PV minore del ([CuredFilm] Stack)% dei max PV di questa unità\n- Se questa unità e a max PV, recupera invece i PV di altri due alleati con la percentuale di PV minore\n- Se le unità riceventi cure hanno 25% o meno dei PV, o sono Stordite, moltiplica l'effetto curativo per 1.5\n\nA Fine Turno: se la ultima Abilità E.G.O usata da Faust in questo Incontro era Ordine: Collasso, perde invece solo 1 Stack di [CuredFilm] at Fine Turno\n- Questo effetto si attiva nello stesso turno in cui la Abilità E.G.O è usata",
+      "summary": "A Inizio Turno: cura sé stesso e un alleato con la percentuale di PV minore"
     },
     {
       "id": 2060911,
-      "name": "So is Writ, an Ode to Wine",
-      "desc": "Turn End: among the E.G.O resources consumed to use Rimanere Se Stessi Hong Lu(Sloth, Gloom, Pride), gain 1 E.G.O resource of the least-owned Affinity.\n\nDeal +1% damage for every [Cianjing] or [SeniorCianjing] Stack lost or consumed in this Encounter (max 15%)",
-      "summary": "Turn End: gain E.G.O resources\nDeal more damage based on how much Thunderer or Higher Thunderer was lost or consumed"
+      "name": "Così è Decretato, un'Ode al Vino",
+      "desc": "A Fine Turno: Ottiene 1 risorsa E.G.O dell'Affinità meno possedutatra le risorse E.G.O consumate per usare Rimanere Se Stessi Hong Lu (Accidia, Tristezza, Superbia) .\n\nInfigge +1% danni per ogni Stack di [Cianjing] o [SeniorCianjing] perdute o consumate in questo Incontro (max 15%)",
+      "summary": "A Fine Turno: ottiene risorse E.G.O\nInfligge più danni in base a quanto Tonante o Grantonante è stato perduto o consumato"
     },
     {
       "id": 2081011,
@@ -515,13 +515,13 @@
     {
       "id": 2120911,
       "name": "Vagabondo",
-      "desc": "Gain [MlynarWaiting] when meeting one of the following conditions:\n- Gain 1 for every 3 HP damage taken\n- Gain 1 for every 5 Shield HP damage taken\n- Gain 10 per Staggered ally when other allies become Staggered\n- Gain 20 per dead ally when other allies are killed\n\nTurn Start: if this unit is Staggered due to damage, and if this unit has 40+ [MlynarWaiting], fix all of this unit's Resistance values to 2 for the turn and recover from Stagger (once per Encounter; excluding forced Staggers)"
+      "desc": "Ottiene [MlynarWaiting] se le seguenti condizioni sono rispettate:\n- Ottiene 1 per ogni 3 danni ai PV subiti\n- Ottiene 1 per ogni 5 danni ai PV Scudo ricevuti\n- Ottiene 10 per alleato Stordito quando altri alleati sono storditi\n- Ottiene 20 per alleato morto quando altri alleati sono uccisi\n\nA Inizio Turno: se questa unità è Stordita subendo danni, e se questa unità ha 40+ [MlynarWaiting], fissa tutti i valori di Resistenza di questa unità a 2 per il turno e recupera da Stordimento (una volta per Incontro; escludendo Stordimento forzato)"
     },
     {
       "id": 2110911,
       "name": "Pena del Perdente: Voodoo",
       "desc": "A Scontro Vinto, infligge 4 danni Invidia al bersaglio\n- A meno di 33% PV, o se il bersaglio ha meno di 33% PV, infligge 1 [ResultReduction] il turno successivo (una volta per turno)\n- L'effetto di questo passiva non infligge [ResultReduction] nello stesso turno in cui il Dono E.G.O <noparse>Bambola Voodoo</noparse> si è attivato",
-      "summary": "A Scontro VInto: Infligge danni Invidia\nSe le condizioni sono rispettate, infligge [ResultReduction] il turno successivo"
+      "summary": "A Scontro Vinto: Infligge danni Invidia\nSe le condizioni sono rispettate, infligge [ResultReduction] il turno successivo"
     },
     {
       "id": 2070911,
