@@ -458,7 +458,7 @@
     {
       "id": 2020811,
       "name": "Respiro",
-      "desc": "Dal turno successivo dopo aver usato questa Abilità E.G.O: Ottiene 1 [NebulizerExhale] (una volta per turno)\n- Questo valore si accumula durante tutto l'incontro\n\nInizio Combattimento: Ottiene 1 [NebulizerExhale] per ogni volta che applica 10 Conteggio [Breath] agli alleati che hannp gli effetti di [NebulizerExhale]\n\nFine Turno: A partire dagli alleati con la percentuale di PV minori, cura il (Stack di [NebulizerExhale])% dei loro PV a (Ris. più alta) alleati (max 6)\n- Se l'allteato che è stato curato ha 20+ Potenza [Breath], attiva la cura una volta in più"
+      "desc": "Dal turno successivo dopo aver usato questa Abilità E.G.O: Ottiene 1 [NebulizerExhale] (una volta per turno)\n- Questo valore si accumula durante tutto l'incontro\n\nInizio Combattimento: Ottiene 1 [NebulizerExhale] per ogni volta che applica 10 Conteggio [Breath] agli alleati che hanno gli effetti di [NebulizerExhale]\n\nFine Turno: A partire dagli alleati con la percentuale di PV minori, cura il (Stack di [NebulizerExhale])% dei loro PV a (Ris. più alta) alleati (max 6)\n- Se l'alleato che è stato curato ha 20+ Potenza [Breath], attiva la cura una volta in più"
     },
     {
       "id": 2090811,
@@ -478,7 +478,7 @@
     {
       "id": 2060811,
       "name": "Piangendo Lacrime",
-      "desc": "Se il bersaglio è sconfitto dopo un'Abilità Attacco o un'Abilità Contrattaco di questa unità:\n- Ottiene 2 [Agility] il turno successivo (una volta per turno)\n- A tutti gli alleati, inclusa questa unità: al turno successivo, applica 1 Danno Aumentato al Tipo di Danno e Affinità dell'Abilità utilizzata per attivare l'effetto (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)\n\nSe questa unità muore:\n- Applica 1 [ShamrockDamageUp] e [PenetrateDamageUp] a tutti gli alleati il turno successivo (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)"
+      "desc": "Se il bersaglio è sconfitto dopo un'Abilità Attacco o un'Abilità Contrattacco di questa unità:\n- Ottiene 2 [Agility] il turno successivo (una volta per turno)\n- A tutti gli alleati, inclusa questa unità: al turno successivo, applica 1 Danno Aumentato al Tipo di Danno e Affinità dell'Abilità utilizzata per attivare l'effetto (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)\n\nSe questa unità muore:\n- Applica 1 [ShamrockDamageUp] e [PenetrateDamageUp] a tutti gli alleati il turno successivo (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)"
     },
     {
       "id": 2100811,
@@ -531,8 +531,8 @@
     {
       "id": 2010811,
       "name": "Intrecciando il Cielo",
-      "desc": "Se il bersaglio ha [ThreeMirrorpartYiSang], infligge +1 ulteriore Potenza [Combustion] e Potenza [Sinking] con le Abilità Attacco Base di questa unità (fino a 8 ulteriore Potenza per turno)\nPer ogni nemico ucciso per via di danno da [Combustion], ottiene a \"Danno Aumentato\" il turno successivo per un Tipo Attacco casuale (3 volte per turno; casuale per ogni istanza)",
-      "summary": "Infligge ulteriore Potenza [Combustion] e [Sinking] a nemici con [ThreeMirrorpartYiSang]\nPer ogni nemico ucciso da danno da [Combustion], ottiene Danno Aumentato per Tipo Attacco casuale"
+      "desc": "Se il bersaglio ha [ThreeMirrorpartYiSang], infligge 1 ulteriore Potenza [Combustion] e Potenza [Sinking] con le Abilità Attacco Base di questa unità (fino a 8 ulteriore Potenza per turno)\nPer ogni nemico ucciso per via di danno da [Combustion], ottiene un \"Danno Aumentato\" per un Tipo Attacco casuale (3 volte per turno; casuale per ogni istanza) il turno successivo",
+      "summary": "Infligge ulteriore Potenza [Combustion] e [Sinking] a nemici con [ThreeMirrorpartYiSang]\nPer ogni nemico ucciso da [Combustion], ottiene Danno Aumentato per Tipo Attacco casuale"
     },
     {
       "id": 2040911,
@@ -543,12 +543,12 @@
     {
       "id": 2100911,
       "name": "Quello... era Proprio un Ritmo",
-      "desc": "Inizio Turno: Ottiene 2 [ThatIsRhythm]\n\nAll'Uccisione del Bersaglio: Questa unità recupera 5% PV e di 5 PS (una volta per turno)\n- Se il Berdaglio è stato ucciso dall'Abilità E.G.O - Armonia, raddoppia la quantità della cura di questo effetto\n\nFine Turno: Se questa unità ha perso PS questo turno, recupera (4 + somma di [Combustion] e [Laceration] su tutti i nemici / 10) PS (max 10, arrotondato per difetto)"
+      "desc": "Inizio Turno: Ottiene 2 [ThatIsRhythm]\n\nAll'Uccisione del Bersaglio: Questa unità recupera 5% PV e di 5 PS (una volta per turno)\n- Se il Bersaglio è stato ucciso dall'Abilità E.G.O - Armonia, raddoppia la quantità della cura di questo effetto\n\nFine Turno: Se questa unità ha perso PS questo turno, recupera (4 + somma di [Combustion] e [Laceration] su tutti i nemici / 10) PS (max 10, arrotondato per difetto)"
     },
     {
       "id": 2021011,
       "name": "Tizzoni Covati",
-      "desc": "Questo effetto siattiva immediatamente dopo aver usato l'Abilità E.G.O\n\nPer ogni 10 [Combustion] su di sé, aumenta la Potenza [Combustion] inflitta sui nemici con gli effetti delle Abilità Attacco Base di questa unità e gli effetti delle Monete di 1 (max 2, 'Bruciatura Speciale' esclusa)\n\nQuando questa unità usa l'Abilità 'Sintonia Massima S.F.A 【Corrosione Deteriorata】', non muore alla fine dell'Attacco; si cura invece del 40% dei suoi PV ed ottiene 2 [HitDamageUp] e 1 [CrimsonDamageUp] il turno successivo (una volta per Incontro)"
+      "desc": "Questo effetto si attiva immediatamente dopo aver usato l'Abilità E.G.O\n\nPer ogni 10 [Combustion] su di sé, aumenta la Potenza [Combustion] inflitta sui nemici con gli effetti delle Abilità Attacco Base di questa unità e gli effetti delle Monete di 1 (max 2, 'Bruciatura Speciale' esclusa)\n\nQuando questa unità usa l'Abilità 'Sintonia Massima S.F.A 【Corrosione Deteriorata】', non muore alla fine dell'Attacco; si cura invece del 40% dei suoi PV ed ottiene 2 [HitDamageUp] e 1 [CrimsonDamageUp] il turno successivo (una volta per Incontro)"
     }
   ]
 }
