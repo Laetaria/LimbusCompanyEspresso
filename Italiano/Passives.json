@@ -2308,7 +2308,7 @@
     {
       "id": 1061302,
       "name": "Il Lord degli Heishou",
-      "desc": "Quando altre unità alleate Rinforzano o Ritornano sul campo di battaglia, si curano di 10 PS; infine, a Inizio Combattimento, gli ordina di usare l'Abilità 1 come Attacco Incontrastato verso un nemico casuale\n- Se questo alleato è parte del Branco Heishou o della Famiglia Jia, al suo posto si attiva: recupera 20 PS; infine, a Inizio Combattimento, gli ordina di usare la sua Abilità 3 come Attacco Incontrastato contro un nemico casuale (2 volte per Incontro per Identità)\n\nA Inizio Incontro: ottiene 1 [HeishouSynergy] per ogni Identità del Branco Heishou nella Squadra, incluse unità di Rinforzo\n\nQuando le Unità Heishou sono uccise in un'Incontro, recupera 20 SP e ottiene 1 [HeishouDeathCount] (si attiva anche quando questa unità si è Ritirata)\n\nInfligge +5% danni per ogni 1 [HeishouComboCountHonglu] (max 55%)",
+      "desc": "Quando altre unità alleate Rinforzano o Ritornano sul campo di battaglia, si curano di 10 PS; infine, a Inizio Combattimento, gli ordina di usare l'Abilità 1 come Attacco Incontrastato verso un nemico casuale\n- Se questo alleato è parte del Branco Heishou o della Famiglia Jia, al suo posto si attiva: recupera 20 PS; infine, a Inizio Combattimento, gli ordina di usare la sua Abilità 3 come Attacco Incontrastato contro un nemico casuale (2 volte per Incontro per Identità)\n\nA Inizio Incontro: ottiene 1 [HeishouSynergy] per ogni Identità del Branco Heishou nella Squadra, incluse unità di Rinforzo\n\nQuando le Unità Heishou sono uccise in un'Incontro, recupera 20 PS e ottiene 1 [HeishouDeathCount] (si attiva anche quando questa unità si è Ritirata)\n\nInfligge +5% danni per ogni 1 [HeishouComboCountHonglu] (max 55%)",
       "summary": "Infligge più danni in base a [HeishouComboCountHonglu]"
     },
     {
@@ -2434,7 +2434,7 @@
       "id": 1051311,
       "name": "'Indossa il Sangue, Mascherati, Fa' Come Ordina il Sangue'",
       "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\">Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Sul Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
-      "summary": "If conditions are met: inflict 1 [ParadeConcentration]\nIf conditions are met: heal 30% HP"
+      "summary": "Se le condizioni vengono soddisfatte: infligge 1 [ParadeConcentration]\nSe le condizioni vengono soddisfatte: recupera il 30% dei PV"
     },
     {
       "id": 1051302,
@@ -2445,7 +2445,7 @@
       "id": 1051303,
       "name": "Responsabilità Di Un Ex Principe",
       "desc": "Inizio Turno: I seguenti effetti si attivano per le Identità di La Manchaland con le Stack massime di [BloodArmorMeursault] \n· Ottiene 1 [FocusOnActing]\n· Quando l'unità viene Stordita di danni, si riprende dallo Stordimento; infine, consuma ogni [BloodArmorMeursault] su id sé (una volta per Sezione per Identità; escluso Stordimento forzato)\n\nSe La Principessa di La Manchaland Rodion è in combattimento, sia lei che il Principe di La Manchaland Meursault infliggono +15% danni con la loro Abilità 3 (incluse le Abilità Potenziate)",
-      "summary": "Meursault & Rodion deal +15% damage with their Skill 3"
+      "summary": "Meursault & Rodion infliggono +15% danni con le loro Abilità 3"
     },
     {
       "id": 1051321,
@@ -2468,7 +2468,7 @@
       "id": 1081321,
       "name": "Relè",
       "desc": "Inizio Combattimento: quando 1 alleato con i PS più bassi usa un'Abilità Attacco Base e Testa Colpisce, l'alleato recupera 5 PS (2 volte per turno; esclusi alleati con -40 PS o inferiore)",
-      "summary": "Heal SP"
+      "summary": "Recupera PS"
     },
     {
       "id": 1121302,
