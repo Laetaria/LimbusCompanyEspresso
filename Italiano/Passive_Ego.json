@@ -138,7 +138,7 @@
     {
       "id": 2110311,
       "name": "Vuotamento",
-      "desc": "Ottiene 1 [ScarletDamageUp] ogni turno\nNe ottiene 1 ulteriore quando questa unità ha meno di 0 PS"
+      "desc": "Ottiene 1 [ScarletDamageUp] ogni turno\nOttiene 1 ulteriore quando questa unità ha meno di 0 PS"
     },
     {
       "id": 2120111,
@@ -173,7 +173,7 @@
     {
       "id": 2100311,
       "name": "Stufato Straripante",
-      "desc": "Se Croce Colpisce, se il bersaglio è un nemico infligge 1 [Combustion] "
+      "desc": "Se Croce Colpisce e il bersaglio è un nemico infligge 1 [Combustion] "
     },
     {
       "id": 2010411,
@@ -243,7 +243,7 @@
     {
       "id": 2070411,
       "name": "Dhyāna",
-      "desc": "Aumenta i Max PV del 15% dei Max PV base di questa Identità quando si riprende dallo stordimento.\nIn seguito, recupera 15% degli attuali Max PV. Se questa unità ha meno di 30% degli attuali Max PV, recupera invece 25% degli attuali Max PV (3 volte per Incontro. Alla fine dell'incontro, ritorna ad avere i Max HP base. L'attuale valore PV sarà corretto per rispettare la percentuale di PV avuto alla Fine dell'Incontro)"
+      "desc": "Aumenta i Max PV del 15% dei Max PV base di questa Identità quando si riprende dallo Stordimento.\nIn seguito, recupera 15% degli attuali Max PV. Se questa unità ha meno di 30% degli attuali Max PV, recupera invece 25% degli attuali Max PV (3 volte per Incontro. Alla fine dell'incontro, ritorna ad avere i Max HP base. L'attuale valore PV sarà corretto per rispettare la percentuale di PV avuto alla Fine dell'Incontro)"
     },
     {
       "id": 2050511,
@@ -303,7 +303,7 @@
     {
       "id": 2120511,
       "name": "Corona di Rose",
-      "desc": "A Inizio turno: Infligge 2 [Burst] ad un attaccante casuale(Negli Incontri Mirati, tutte le parti)\nSe si attiva Risonanza Assoluta, infligge 2 [Burst] su tutti i nemici a Inizio Combattimento"
+      "desc": "A Inizio turno: Infligge 2 [Burst] ad un attaccante casuale (Negli Incontri Mirati, tutte le parti)\nSe si attiva Risonanza Assoluta, infligge 2 [Burst] su tutti i nemici a Inizio Combattimento"
     },
     {
       "id": 2120611,
@@ -384,7 +384,7 @@
     {
       "id": 2120711,
       "name": "Lamento",
-      "desc": "A Fine Turno: se questa unità ha un effetto negativo, ottiene 1 [Enhancement] il turno successivo\nSe attacca bersagli che sono in Panico o in E.G.O Corrosione: infligge +15% danni",
+      "desc": "A Fine Turno: se questa unità ha un effetto negativo, ottiene 1 [Enhancement] il turno successivo\nSe attacca bersagli che sono in Panico o in Corrosione E.G.O: infligge +15% danni",
       "summary": ""
     },
     {
@@ -432,7 +432,7 @@
     {
       "id": 2070811,
       "name": "Campana Rotta",
-      "desc": "Infligge [Vulnerable] questo turno ai nemici colpiti da [VibrationExplosion] per via di effetti da Abilità, Moneta, o Passiva.\n- Non cumulabile con Doni E.G.O che infliggono [Vulnerable] per innesco di [VibrationExplosion]. (Se i Doni E.G.O sono stati migliorati, si sottrae il valore di questo effetto da quello finale prima di infliggelo.)",
+      "desc": "Infligge [Vulnerable] questo turno ai nemici colpiti da [VibrationExplosion] per via di effetti da Abilità, Moneta, o Passiva.\n- Non cumulabile con Doni E.G.O che infliggono [Vulnerable] per innesco di [VibrationExplosion]. (Se i Doni E.G.O sono stati migliorati, si sottrae il valore di questo effetto da quello finale prima di infliggerlo.)",
       "summary": "Infligge 1 [Vulnerable] su innesco di [VibrationExplosion] "
     },
     {
@@ -443,7 +443,7 @@
     {
       "id": 2120811,
       "name": "Notte Insonne",
-      "desc": "A Inizio Combattimento: su tutti i nemici, inflict 1 [AttackDown] or 1 [DefenseDown] to all enemies (# of enemies in Staggered, Morale Basso, or Panic states) times. (2 volte per turno)\n- L'Effetto non è cumulativo con i Doni E.G.O con effetti identici."
+      "desc": "A Inizio Combattimento: Infligge 1 [AttackDown] o 1 [DefenseDown] su tutti i nemici per ogni nemico in stato di Stordimento, di Morale Basso, o di Panico (2 volte per turno)\n- L'Effetto non è cumulativo con i Doni E.G.O con effetti identici."
     },
     {
       "id": 2110811,
