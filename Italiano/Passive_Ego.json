@@ -78,7 +78,7 @@
     {
       "id": 2070111,
       "name": "Spirito Competitivo",
-      "desc": "Quando un altro Alleato sconfigge un Nemico, Ottiene 1 [Enhancement] e 1 [Agility] all'Inizio del Turno Successivo (max 3)"
+      "desc": "Quando un altro Alleato sconfigge un Nemico, ottiene 1 [Enhancement] e 1 [Agility] all'Inizio del Turno Successivo (max 3)"
     },
     {
       "id": 2070211,
@@ -183,7 +183,7 @@
     {
       "id": 2060311,
       "name": "Entangled Phenomena Restoration",
-      "desc": "Sul Colpo contro un nemico che ha effetti di stato negativi, ottiene +1 Conteggio [Charge] (4 volte per turno).\nQuando i PV raggiungono 0, consuma tutto il Conteggio [Charge] e recupera PV in base agli Stacks consumati (una volta per Incontro; max 25% PV)"
+      "desc": "Sul Colpo contro un nemico che ha effetti di stato negativi: ottiene +1 Conteggio [Charge] (4 volte per turno).\nQuando i PV scendono a 0, consuma tutto il Conteggio [Charge] e recupera PV in base alle Stacks consumate (una volta per Incontro; max 25% PV)"
     },
     {
       "id": 2050411,
@@ -223,7 +223,7 @@
     {
       "id": 2040411,
       "name": "Predatore",
-      "desc": "Se questa unità ha recuperato più del 10% dei propri Max PV questo turno, ottiene 1 [Enhancement] il turno successivo."
+      "desc": "Se questa unità ha recuperato più del 10% dei propri Max PV in questo turno, ottiene 1 [Enhancement] il turno successivo."
     },
     {
       "id": 2040511,
@@ -248,7 +248,7 @@
     {
       "id": 2050511,
       "name": "Ira contenuta",
-      "desc": "Potere Base -1 e Potere Moneta +2 all'Abilità di questa unità più a sinistra nel Panello di Controllo\nA Inizio turno: A 4- Velocità, Ottiene 1 [HitResultUp]"
+      "desc": "Potere Base -1 e Potere Moneta +2 all'Abilità di questa unità più a sinistra nel Panello di Controllo\nA Inizio turno: A 4- Velocità, ottiene 1 [HitResultUp]"
     },
     {
       "id": 2020511,
@@ -268,7 +268,7 @@
     {
       "id": 2080511,
       "name": "Voyage Temerario",
-      "desc": "A fine turno, infligge 5 [Sinking] ad un altro alleato con il numero minore di PV; Applica 1 [Agility] e 3 [AttackUp] il turno successivo"
+      "desc": "A Fine Turno: infligge 5 [Sinking] ad un altro alleato con il numero minore di PV; applica 1 [Agility] e 3 [AttackUp] il turno successivo"
     },
     {
       "id": 2090411,
@@ -318,7 +318,7 @@
     {
       "id": 2030611,
       "name": "Strillo Tempestoso",
-      "desc": "Se questa unità alla fine di un'Abilità Tagliente o con Affinità Invidia sconfigge un bersaglio, ottiene 1 [Enhancement] il turno successivo (una volta per turno)"
+      "desc": "Se questa unità, alla fine di un'Abilità Tagliente o con Affinità Invidia, sconfigge un bersaglio, ottiene 1 [Enhancement] il turno successivo (una volta per turno)"
     },
     {
       "id": 2050611,
@@ -328,7 +328,7 @@
     {
       "id": 2070611,
       "name": "Catene del Vincolo",
-      "desc": "- A Inizio Combattimento: A 4+ Rison. più alta che include le Abilità di questa unità, applica 3 [AttackUp] e 3 [DefenseUp] su di sé e agli alleati che erano parte della Rison.\n- Se la Rison. era una Rison-A, applica 2 ulteriori [AttackUp] e [DefenseUp]"
+      "desc": "- A Inizio Combattimento: A 4+ Rison. più alta che include le Abilità di questa unità, applica 3 [AttackUp] e 3 [DefenseUp] su di sé e agli alleati che erano parte della Risononanza\n- Se la Rison. era una Rison-A, applica 2 ulteriori [AttackUp] e [DefenseUp]"
     },
     {
       "id": 2110611,
@@ -338,7 +338,7 @@
     {
       "id": 2080611,
       "name": "Ingordigia",
-      "desc": "Se il bersaglio principale ha subito danni ai PV questo turno e non è a max PV prima dell'Uso dell'abilità:\nSul Colpo,\n- Quando questa unità è a max PV, infligge tra +5~+10% danni.\n- Quando questa unità non è a max PV, recupera tra 2~5 PV. \n(7 volte per turno)",
+      "desc": "Se il bersaglio principale ha subito danni ai PV questo turno e non è a max PV prima dell'Uso dell'Abilità:\nSul Colpo,\n- Quando questa unità è a max PV, infligge +5~+10% danni.\n- Quando questa unità non è a max PV, recupera 2~5 PV. \n(7 volte per turno)",
       "summary": "Se il bersaglio non è a max PV, infligge più danni Sul Colpo o recupera PV Sul Colpo"
     },
     {
@@ -350,7 +350,7 @@
     {
       "id": 2060611,
       "name": "Malinconia",
-      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] ad un nemico, infligge 1 [AttackDown] e 2 [DefenseDown] al nemico il turno successivo. (3 volte per turno, includendo Abilità E.G.O)",
+      "desc": "Se questa unità usa un'Abilità che innesca [VibrationExplosion] su un nemico, infligge 1 [AttackDown] e 2 [DefenseDown] al nemico il turno successivo. (3 volte per turno, Abilità E.G.O incluse)",
       "summary": "Se innesca [VibrationExplosion], infligge 1 [AttackDown] e 2 [DefenseDown] il turno successivo"
     },
     {
@@ -362,13 +362,13 @@
     {
       "id": 2020611,
       "name": "Il Tempo Corre",
-      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] ad un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, includendo Abilità E.G.O)",
-      "summary": "Se usa una Abilità e innesca [VibrationExplosion] ad un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, includendo Abilità E.G.O)"
+      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)",
+      "summary": "Se usa una Abilità e innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)"
     },
     {
       "id": 2040711,
       "name": "Marchio dello Sguardo",
-      "desc": "Se questa unità usa Abilità Attacco base su un nemico, ottiene 1 ulteriore risorsa E.G.O per una casuale, meno posseduta Affinità che non corrisponde all'Affinità dell'Abilità Attacco usata (2 volte per turno)"
+      "desc": "Se questa unità usa un'Abilità Attacco Base su un nemico, ottiene 1 ulteriore risorsa E.G.O per un'Affinità casuale, tra quelle menoo possedute, che non corrisponde all'Affinità dell'Abilità Attacco usata (2 volte per turno)"
     },
     {
       "id": 2070711,
@@ -378,8 +378,8 @@
     {
       "id": 2110711,
       "name": "Uomo Vagante",
-      "desc": "Max Conteggio [Charge] +5\nAbilità che consumano Conteggio [Charge]  infliggono +2% danni per ogni ([Charge] - 1) (max 10%)",
-      "summary": "Abilità che consumano Conteggio [Charge] infliggono più danni"
+      "desc": "Max Conteggio [Charge] +5\nLe Abilità che consumano Conteggio [Charge] infliggono +2% danni per ogni ([Charge] - 1) (max 10%)",
+      "summary": "Le Abilità che consumano Conteggio [Charge] infliggono più danni"
     },
     {
       "id": 2120711,
@@ -401,7 +401,7 @@
     {
       "id": 2060711,
       "name": "Si Va a Caccia",
-      "desc": "Se un nemico o un alleato è ucciso per via di danni [Burst] o [Laceration], infligge 2 [Snare] ad un nemico casuale, e ottiene 1 [Agility] il turno successivo (una volta per turno)"
+      "desc": "Se un nemico o un alleato viene ucciso tramite danni da [Burst] o [Laceration], infligge 2 [Snare] ad un nemico casuale ed ottiene 1 [Agility] il turno successivo (una volta per turno)"
     },
     {
       "id": 2030711,
@@ -427,18 +427,18 @@
     {
       "id": 2010711,
       "name": "Il Prossimo",
-      "desc": "A Fine Attacco: Se il bersaglio è ucciso, ottiene +2 Conteggio [Breath] (2 volte per turno)"
+      "desc": "A Fine Attacco: Se il bersaglio viene ucciso, ottiene +2 Conteggio [Breath] (2 volte per turno)"
     },
     {
       "id": 2070811,
       "name": "Campana Rotta",
-      "desc": "Infligge [Vulnerable] questo turno ai nemici colpiti da [VibrationExplosion] per via di effetti da Abilità, Moneta, o Passiva.\n- Non cumulabile con Doni E.G.O che infliggono [Vulnerable] per innesco di [VibrationExplosion]. (Se i Doni E.G.O sono stati migliorati, si sottrae il valore di questo effetto da quello finale prima di infliggerlo.)",
-      "summary": "Infligge 1 [Vulnerable] su innesco di [VibrationExplosion] "
+      "desc": "Infligge [Vulnerable] questo turno ai nemici colpiti da [VibrationExplosion] tramite effetti da Abilità, Moneta, o Passiva.\n- Non si cumula con Doni E.G.O che infliggono [Vulnerable] tramite [VibrationExplosion]. (Se i Doni E.G.O sono stati migliorati, si sottrae il valore di questo effetto da quello finale prima di infliggerlo.)",
+      "summary": "Infligge 1 [Vulnerable] tramite [VibrationExplosion] "
     },
     {
       "id": 2080811,
       "name": "Uno Sguardo tra le Ombre",
-      "desc": "Alleati ottengono ulteriore +1 Conteggio [Vibration] dagli effetti delle Abilità o delle Monete (2 volte per turno)\n- Se il bersaglio dell'alleato è in stato di Stordimento, Morale Basso, o Panico, Ottiene invece +2 in più\n- L'Effetto non è cumulativo con i Doni E.G.O con effetti identici."
+      "desc": "Gli alleati ottengono ulteriore +1 Conteggio [Vibration] dagli effetti delle Abilità o delle Monete (2 volte per turno)\n- Se il bersaglio dell'alleato è in stato di Stordimento, Morale Basso, o Panico, ne ottiene invece +2 in più\n- L'Effetto non si cumula con i Doni E.G.O con effetti identici."
     },
     {
       "id": 2120811,
@@ -448,7 +448,7 @@
     {
       "id": 2110811,
       "name": "Sette Proiettili",
-      "desc": "- Sul Colpo con Abilità Attacco Base: infligge ([FreischutzShotCount] / 3) [Combustion] (3 volte per turno)\n- Per l'identità di Outis E.G.O della Lobotomy::Proiettile Magico, infligge ([FreischutzShotCount]) [Combustion] invece (3 volte per turno)\n- Se il bersaglio ha 30+ [Combustion], infligge 1 [DarkFlame] invece rispetto all'effetto sopracitato (2 volte per turno)"
+      "desc": "- Sul Colpo con Abilità Attacco Base: infligge ([FreischutzShotCount] / 3) [Combustion] (3 volte per turno)\n- Per l'identità di Outis E.G.O della Lobotomy::<noparse>Proiettile Magico</noparse>, infligge ([FreischutzShotCount]) [Combustion] invece (3 volte per turno)\n- Se il bersaglio ha 30+ [Combustion], infligge 1 [DarkFlame] invece rispetto all'effetto sopracitato (2 volte per turno)"
     },
     {
       "id": 2040811,
@@ -473,7 +473,7 @@
     {
       "id": 2080911,
       "name": "Inversione della Morte per Veleno Gu",
-      "desc": "Ogni volta che questa unità infligge Potenza [Sinking],Conteggio [Sinking], o 'Sinking Speciale' con Abilità Attacco, ottiene 1 [AttackUp] il turno successivo(max 2)\n- A 3+ Rison-A, con le stesse condizioni, ottiene invece 1 [AttackUp] il turno successivo (max 3)"
+      "desc": "Ogni volta che questa unità infligge Potenza [Sinking], Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale' con un'Abilità Attacco, ottiene 1 [AttackUp] il turno successivo(max 2)\n- A 3+ Rison-A, con le stesse condizioni, ottiene invece 1 [AttackUp] il turno successivo (max 3)"
     },
     {
       "id": 2060811,
@@ -493,24 +493,24 @@
     {
       "id": 2050811,
       "name": "Metronomo",
-      "desc": "A Inizio Turno: nei turni dispari, ottiene 1 [AttackDmgUp]; nei turni pari, ottiene 1 [Protection]\n- Non è cumulativo con il Dono E.G.O Metronomo. (Se il Dono E.G.O è stato migliorato, si sottrae dal valore finale quello ottenuto da questo effetto)\n- Non influenza le istanze in cui l'effetto si applica ad altri alleati\n\nSe usa una Abilità E.G.O, ottiene 1 [AccumulatedPastSinner] il turno successivo (una volta per Incontro)\n- Ottiene 1 [AccumulatedPastSinner] A tutti Fine Turno successivi"
+      "desc": "A Inizio Turno: nei turni dispari, ottiene 1 [AttackDmgUp]; nei turni pari, ottiene 1 [Protection]\n- Non si cumula con il Dono E.G.O Metronomo. (Se il Dono E.G.O è stato migliorato, si sottrae dal valore finale quello ottenuto da questo effetto)\n- Non influenza le istanze in cui l'effetto si applica ad altri alleati\n\nSe usa un'Abilità E.G.O, ottiene 1 [AccumulatedPastSinner] il turno successivo (una volta per Incontro)\n- Ottiene 1 [AccumulatedPastSinner] in tutti i Fine Turno successivi"
     },
     {
       "id": 2020911,
       "name": "Dottore",
-      "desc": "A Inizio Turno: cura sé stesso e un alleato con la percentuale di PV minore del ([CuredFilm] Stack)% dei max PV di questa unità\n- Se questa unità e a max PV, recupera invece i PV di altri due alleati con la percentuale di PV minore\n- Se le unità riceventi cure hanno 25% o meno dei PV, o sono Stordite, moltiplica l'effetto curativo per 1.5\n\nA Fine Turno: se la ultima Abilità E.G.O usata da Faust in questo Incontro era Ordine: Collasso, perde invece solo 1 Stack di [CuredFilm] at Fine Turno\n- Questo effetto si attiva nello stesso turno in cui la Abilità E.G.O è usata",
-      "summary": "A Inizio Turno: cura sé stesso e un alleato con la percentuale di PV minore"
+      "desc": "A Inizio Turno: cura sé stesso ed un alleato con la percentuale di PV minore del (Stack di [CuredFilm])% dei max PV di questa unità\n- Se questa unità è a max PV, cura invece i PV di altri due alleati con la percentuale di PV minore\n- Se le unità che ricevono cure hanno il 25% o meno dei PV, o sono Stordite, moltiplica l'effetto curativo per 1.5\n\nA Fine Turno: se la ultima Abilità E.G.O usata da Faust in questo Incontro è stata 'Ordine: Collasso', perde solo 1 Stack di [CuredFilm] a Fine Turno\n- Questo effetto si attiva nello stesso turno in cui viene usata l'Abilità E.G.O",
+      "summary": "A Inizio Turno: cura sé stesso ed un alleato con la percentuale di PV minore"
     },
     {
       "id": 2060911,
       "name": "Così è Decretato, un'Ode al Vino",
-      "desc": "A Fine Turno: Ottiene 1 risorsa E.G.O dell'Affinità meno posseduta tra le risorse E.G.O consumate per usare Rimanere Se Stessi Hong Lu (Accidia, Tristezza, Superbia) .\n\nInfigge +1% danni per ogni Stack di [Cianjing] o [SeniorCianjing] perdute o consumate in questo Incontro (max 15%)",
+      "desc": "A Fine Turno: Ottiene 1 risorsa E.G.O dell'Affinità meno posseduta tra le risorse E.G.O consumate per usare 'Rimanere Se Stessi Hong Lu' (Accidia, Tristezza, Superbia) .\n\nInfigge +1% danni per ogni Stack di [Cianjing] o [SeniorCianjing] perse o consumate in questo Incontro (max 15%)",
       "summary": "A Fine Turno: ottiene risorse E.G.O\nInfligge più danni in base a quanto Tonante o Grantonante è stato perduto o consumato"
     },
     {
       "id": 2081011,
       "name": "Danza Abissale",
-      "desc": "- A Inizio Turno: se c'è un singolo nemico, l'Abilità Attacco di questa unità più a sinistra nel Pannello di Controllo ottiene Potere Scontro +1, e infligge +11.5% danni Sul Colpo a Scontro Vinto (includendo Abilità E.G.O)\n- Per i turni in cui l'unità è rientrata in battaglia o è entrata come sostituto: Min & Max Velocità +1, Potere Scontro +1"
+      "desc": "- A Inizio Turno: se c'è un singolo nemico, l'Abilità Attacco di questa unità più a sinistra nel Pannello di Controllo ottiene Potere Scontro +1, e infligge +11.5% danni Sul Colpo a Scontro Vinto (Abilità E.G.O incluse)\n- Per i turni in cui l'unità è rientrata in battaglia o è entrata come sostituto: Min & Max Velocità +1, Potere Scontro +1"
     },
     {
       "id": 2120911,
@@ -531,7 +531,7 @@
     {
       "id": 2010811,
       "name": "Intrecciando il Cielo",
-      "desc": "Se il bersaglio ha [ThreeMirrorpartYiSang], infligge 1 ulteriore Potenza [Combustion] e Potenza [Sinking] con le Abilità Attacco Base di questa unità (fino a 8 ulteriore Potenza per turno)\nPer ogni nemico ucciso per via di danno da [Combustion], ottiene un \"Danno Aumentato\" per un Tipo Attacco casuale (3 volte per turno; casuale per ogni istanza) il turno successivo",
+      "desc": "Se il bersaglio ha [ThreeMirrorpartYiSang], infligge 1 ulteriore Potenza [Combustion] e Potenza [Sinking] con le Abilità Attacco Base di questa unità (fino a 8 ulteriore Potenza per turno)\nPer ogni nemico ucciso tramite danno da [Combustion], ottiene un \"Danno Aumentato\" per un Tipo Attacco casuale (3 volte per turno; casuale per ogni istanza) il turno successivo",
       "summary": "Infligge ulteriore Potenza [Combustion] e [Sinking] a nemici con [ThreeMirrorpartYiSang]\nPer ogni nemico ucciso da [Combustion], ottiene Danno Aumentato per Tipo Attacco casuale"
     },
     {
@@ -548,7 +548,7 @@
     {
       "id": 2021011,
       "name": "Tizzoni Covati",
-      "desc": "Questo effetto si attiva immediatamente dopo aver usato l'Abilità E.G.O\n\nPer ogni 10 [Combustion] su di sé, aumenta la Potenza [Combustion] inflitta sui nemici con gli effetti delle Abilità Attacco Base di questa unità e gli effetti delle Monete di 1 (max 2, 'Bruciatura Speciale' esclusa)\n\nQuando questa unità usa l'Abilità 'Sintonia Massima S.F.A 【Corrosione Deteriorata】', non muore alla fine dell'Attacco; si cura invece del 40% dei suoi PV ed ottiene 2 [HitDamageUp] e 1 [CrimsonDamageUp] il turno successivo (una volta per Incontro)"
+      "desc": "Questo effetto si attiva immediatamente dopo aver usato l'Abilità E.G.O\n\nPer ogni 10 [Combustion] su di sé, aumenta la Potenza [Combustion] inflitta sui nemici con gli effetti delle Abilità Attacco Base di questa unità e gli effetti delle Monete di 1 (max 2, '<noparse>Bruciatura</noparse> Speciale' esclusa)\n\nQuando questa unità usa l'Abilità 'Sintonia Massima S.F.A 【Corrosione Deteriorata】', non muore alla fine dell'Attacco; si cura invece del 40% dei suoi PV ed ottiene 2 [HitDamageUp] e 1 [CrimsonDamageUp] il turno successivo (una volta per Incontro)"
     }
   ]
 }
