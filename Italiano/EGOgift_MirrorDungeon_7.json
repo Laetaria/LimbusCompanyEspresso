@@ -3,11 +3,11 @@
     {
       "id": 9209,
       "name": "Per Te Che Adori La Città",
-      "desc": "Se un alleato è a meno del 30% dei PV quando colpito, questo alleato si cura dell'80% PV e gli altri alleati si curano del 40% dei PV al prossimo turno (una volta per Incontro)\n- Gli eccessi di cure che oltrepassano i PV Max verranno applicati come Scudi\n- Se un alleato si è curato di 50+ PV grazie all'effetto, ottiene 3 [AttackUp] e 3 [DefenseDown]",
+      "desc": "Se un alleato è a meno del 30% dei PV quando colpito, questo alleato recupera l'80% dei PV e gli altri alleati recuperano il 40% dei PV al prossimo turno (una volta per Incontro)\n- Gli eccessi di cure che oltrepassano i PV Max verranno applicati come Scudi\n- Se un alleato recupera 50+ di PV grazie all'effetto, ottiene 3 [AttackUp] e 3 [DefenseDown]",
       "simpleDesc": [
         {
           "abilityID": 9209,
-          "simpleDesc": "Cura PV"
+          "simpleDesc": "Recupera PV"
         }
       ]
     },
@@ -88,7 +88,7 @@
     {
       "id": 9212,
       "name": "La Fine di Tutti i Mali",
-      "desc": "Si attiva quando ci sono 3 o più Identità della fazione Pequod (contano anche le Riserve)\n\nPer Colpo con un'Abilità Attacco contro i nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Ottieni 3 [Breath] o +2 Conteggio [Breath] (3 volte per turno per Identità)\n\nPer Critico: 80% di possibilità di ottenere 1 [PenetrateResultUp] nel turno successivo (2 volte per turno per Identità; incluse le Abilità E.G.O e Abilità Contrattacco)\n- Identità della fazione Pequod ottengono anche 1 [PlusCoinValueUp] nel turno successivo (una volta per turno per Identità)\n\nPer Critico mentre Colpisce Testa con un'Abilità Base: Infliggi +1 addizionale agli effetti negativi di quella Moneta (una volta per turno per Identità; incluso Abilità Contrattacco ed escluse le Abilità E.G.O)\n\nPer nemico o alleato morto, le Identità della fazione Pequod ottengono 1 [PenetrateResultUp], 1 [Protection], e 1 [CriticalDamageUp] ad ogni turno per tutto l'Incontro (3 volte per Incontro)\n\nSe una delle Identità della fazione Pequod attacca e colpisce un nemico, cura di 7 PS all'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento (una volta per Abilità)\n\nQuando un alleato uccide un nemico, cura 15 PS all'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento se questa Identità ha perso PS",
+      "desc": "Si attiva quando ci sono 3 o più Identità della fazione Pequod (contano anche le Riserve)\n\nPer Colpo con un'Abilità Attacco contro i nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Ottieni 3 [Breath] o +2 Conteggio [Breath] (3 volte per turno per Identità)\n\nPer Critico: 80% di possibilità di ottenere 1 [PenetrateResultUp] nel turno successivo (2 volte per turno per Identità; incluse le Abilità E.G.O e Abilità Contrattacco)\n- Identità della fazione Pequod ottengono anche 1 [PlusCoinValueUp] nel turno successivo (una volta per turno per Identità)\n\nPer Critico mentre Colpisce Testa con un'Abilità Base: Infliggi +1 addizionale agli effetti negativi di quella Moneta (una volta per turno per Identità; incluso Abilità Contrattacco ed escluse le Abilità E.G.O)\n\nPer nemico o alleato morto, le Identità della fazione Pequod ottengono 1 [PenetrateResultUp], 1 [Protection], e 1 [CriticalDamageUp] ad ogni turno per tutto l'Incontro (3 volte per Incontro)\n\nSe una delle Identità della fazione Pequod attacca e colpisce un nemico, l'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento recupera 7 PS (una volta per Abilità)\n\nQuando un alleato uccide un nemico, l'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento recupera 15 PS se ha perso dei PS",
       "simpleDesc": [
         {
           "abilityID": 9212,
@@ -104,14 +104,14 @@
         },
         {
           "abilityID": 92123,
-          "simpleDesc": "Cura PS"
+          "simpleDesc": "Recupera PS"
         }
       ]
     },
     {
       "id": 9213,
       "name": "Ruota Panoramica in Miniatura",
-      "desc": "Tutti i Bramasangue alleati: Potere Moneta per le Abilità Base +1, infliggi +([BloodDinner_Accumulation] / 10)% di danno per Abilità\n\nFine Turno: Tra gli alleati con [Laceration], 2 alleati con meno PV curano del 5% dei PV e ottengono 10 [SwirlingBloodPersonality] all'Inizio del prossimo Turno\n\nPer Uccisione nemica, aumenta [BloodDinner] di (PV Max del Nucleo nemico / 10) (max 50)\n\nFine Turno: Se un alleato è morto in questo turno, tutti gli alleati ottengono 2 [Enhancement] nel turno successivo\n\nNegli Incontri in cui appaiono delle Riserve nemiche: Quando dei nuovi nemici appaiono, infliggi 5 Potenza [Laceration] e +3 Conteggio [Laceration] contro loro ad Inizio Combattimento.\nSe c'è un <Bramasangue> tra gli alleati: Quando dei nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici due volte e riduci il loro Conteggio [Laceration] di 2",
+      "desc": "Tutti i Bramasangue alleati: Potere Moneta per le Abilità Base +1, infliggi +([BloodDinner_Accumulation] / 10)% di danno per Abilità\n\nFine Turno: Tra gli alleati con [Laceration], 2 alleati con meno PV recuperano il 5% dei PV e ottengono 10 [SwirlingBloodPersonality] all'Inizio del prossimo Turno\n\nPer Uccisione nemica, aumenta [BloodDinner] di (PV Max del Nucleo nemico / 10) (max 50)\n\nFine Turno: Se un alleato è morto in questo turno, tutti gli alleati ottengono 2 [Enhancement] nel turno successivo\n\nNegli Incontri in cui appaiono delle Riserve nemiche: Quando dei nuovi nemici appaiono, infliggi 5 Potenza [Laceration] e +3 Conteggio [Laceration] contro loro ad Inizio Combattimento.\nSe c'è un <Bramasangue> tra gli alleati: Quando dei nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici due volte e riduci il loro Conteggio [Laceration] di 2",
       "simpleDesc": [
         {
           "abilityID": 9213,
@@ -119,7 +119,7 @@
         },
         {
           "abilityID": 92131,
-          "simpleDesc": "Cura PV e ottieni [SwirlingBloodPersonality]"
+          "simpleDesc": "Recupera PV e ottieni [SwirlingBloodPersonality]"
         },
         {
           "abilityID": 92132,
@@ -160,7 +160,7 @@
     {
       "id": 9216,
       "name": "Uniforme - Assoc. Liu",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nIdentità dell'Associazione Liu: Abilità Attacco Base ottengono <noparse>Potere Moneta Positiva +</noparse>2 (le Abilità a Moneta Negativa ottengono Potere Base +(8 / n° di Monete) (min 1; arrotondato per difetto))\n\nLe Abilità al di fuori dell'Abilità 3 (incluse le Abilità E.G.O) che infliggono Potere o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono +20% di danno\n\nAbilità 3 che infligge Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' ottiene <noparse>Potere Moneta Positiva +</noparse>1 (le Abilità a Moneta Negativa ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)) e infliggono +30% di danno \n- Le Identità di una fazione infliggono +5% di danno per ogni Identità che fa parte della stessa fazione in Squadra (max 20%; incluse le Riserve)\n\nFine Turno: 2 alleati con meno PS si curano di 8 PS\n- Se gli alleati affetti sono a 0 PS o meno, cura di altri 5 PS",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nIdentità dell'Associazione Liu: Abilità Attacco Base ottengono <noparse>Potere Moneta Positiva +</noparse>2 (le Abilità a Moneta Negativa ottengono Potere Base +(8 / n° di Monete) (min 1; arrotondato per difetto))\n\nLe Abilità al di fuori dell'Abilità 3 (incluse le Abilità E.G.O) che infliggono Potere o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono +20% di danno\n\nAbilità 3 che infligge Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' ottiene <noparse>Potere Moneta Positiva +</noparse>1 (le Abilità a Moneta Negativa ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)) e infliggono +30% di danno \n- Le Identità di una fazione infliggono +5% di danno per ogni Identità che fa parte della stessa fazione in Squadra (max 20%; incluse le Riserve)\n\nFine Turno: 2 alleati con meno PS si recuperano 8 PS\n- Se gli alleati affetti sono a 0 PS o meno, recuperano altri 5 PS",
       "simpleDesc": [
         {
           "abilityID": 9216,
@@ -260,11 +260,11 @@
     {
       "id": 9222,
       "name": "Tela Candida",
-      "desc": "Per Colpo con Abilità Attacco a Moneta Positiva contro un nemico con 15+ Potenza [Laceration], cura 3 PS (una volta per turno per Identità)\n- Se questa Identità o il bersaglio ha 3+ tipi di effetto negativo, cura invece 6 PS",
+      "desc": "Per Colpo con Abilità Attacco a Moneta Positiva contro un nemico con 15+ Potenza [Laceration], recupera 3 PS (una volta per turno per Identità)\n- Se questa Identità o il bersaglio ha 3+ tipi di effetto negativo, recupera invece 6 PS",
       "simpleDesc": [
         {
           "abilityID": 9222,
-          "simpleDesc": "Cura PS"
+          "simpleDesc": "Recupera PS"
         }
       ]
     },
@@ -286,7 +286,7 @@
     {
       "id": 9224,
       "name": "Opera Raffinata",
-      "desc": "Le Identità della fazione Anulare ottengono [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico, infliggi [ObjectOfExploration] al nemico\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità perde [Inspire] e ottiene [GreatAesthetics]",
+      "desc": "Le Identità della fazione Anulare ottengono [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico, infliggi [ObjectOfExploration] al nemico\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità perde [Inspire] e ottiene [GreatAesthetics]\n\n- Per Colpo con Abilità Attacco a Moneta Positiva contro un nemico con 15+ [Laceration], recupera 3 PS (una volta per turno per ciascuna Identità)\n- Se tale Identità o bersaglio ha 3+ tipi di effetto negativo, recupera invece 6 PS",
       "simpleDesc": [
         {
           "abilityID": 9224,
@@ -465,7 +465,7 @@
     {
       "id": 9258,
       "name": "Il Libro della Vendetta: Spin-Off",
-      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nInizio Incontro: Tutti gli alleati guadagnano 50 di Scudo per ogni unità alleata della fazione del Medio sul campo (Riserve incluse; lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nFine dell'Attacco con le Abilità Base Invidia o Contundenti degli alleati della fazione del Medio: Cura del 10% dei danni inflitti dall'Abilità\n- Se questo effetto viene attivato da un'Abilità di Contrattacco, cura invece del 20% dei danni inflitti\n- Le cure che eccedono i PV verranno convertiti in Scudo (lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nInizio Combattimento: Le unità alleate della fazione del Medio ottengono Livello Offensivo per il turno in base al numero delle Abilità Difensive equipaggiate (max 12 Livelli Offensivi)\n- Se sono state equipaggiate 6+ Abilità Difensive, infliggi +30% di danni con Abilità Base Invidia\n- Infliggi +10% di danni addizionali per ogni Abilità Difensiva equipaggiata oltre a 6 (max 60%)",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nInizio Incontro: Tutti gli alleati guadagnano 50 di Scudo per ogni unità alleata della fazione del Medio sul campo (Riserve incluse; lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nFine dell'Attacco con le Abilità Base Invidia o Contundenti degli alleati della fazione del Medio: Recupera come PV del 10% dei danni inflitti dall'Abilità\n- Se questo effetto viene attivato da un'Abilità di Contrattacco, recupera come PV invece del 20% dei danni inflitti\n- Le cure che eccedono i PV verranno convertiti in Scudo (lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nInizio Combattimento: Le unità alleate della fazione del Medio ottengono Livello Offensivo per il turno in base al numero delle Abilità Difensive equipaggiate (max 12 Livelli Offensivi)\n- Se sono state equipaggiate 6+ Abilità Difensive, infliggi +30% di danni con Abilità Base Invidia\n- Infliggi +10% di danni addizionali per ogni Abilità Difensiva equipaggiata oltre a 6 (max 60%)",
       "simpleDesc": [
         {}
       ]

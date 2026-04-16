@@ -290,7 +290,7 @@
     {
       "id": 9012,
       "name": "Espressione del Giorno",
-      "desc": "Quando un alleato sconfigge un nemico tramite un'Abilità con Affinità Accidia o Contundente, aumenta il Potere Abilità Contundente dell'alleato di 2 fino alla fine del turno successivo.",
+      "desc": "Se un nemico viene Ucciso entro la Fine dell'Attacco di un'Abilità Contundente o d'Accidia: Per 2 turni, dal turno successivo, aumenta il Potere Abilità Contundente di 2 per l'unità che ha utilizzato l'Abilità.",
       "simpleDesc": [
         {
           "abilityID": 9012,
@@ -510,7 +510,7 @@
     {
       "id": 9020,
       "name": "Cotone Bianco",
-      "desc": "Inizio Turno: Se sono presenti dei nemici Storditi, escono dallo Stordimento. Dopo, infliggi (8 + LV dello Stordimento x 4) Potenza [Laceration] e (8 + LV dello Stordimento x 4)/2 [AttackDown] su di loro.\n(Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non possono riprendersi dallo Stordimento)",
+      "desc": "Inizio Turno: Se sono presenti dei nemici Storditi, si riprendono dallo Stordimento. Dopodiché, infliggi (8 + LV dello Stordimento x 4) Potenza [Laceration] e (8 + LV dello Stordimento x 4)/2 [AttackDown] su di loro per questo e per prossimo turno.\n(Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non possono riprendersi dallo Stordimento)",
       "simpleDesc": [
         {
           "abilityID": 9020,
@@ -521,7 +521,7 @@
     {
       "id": 19020,
       "name": "Cotone Bianco+",
-      "desc": "Inizio Turno: Se sono presenti dei nemici Storditi, escono dallo Stordimento. Dopo, infliggi <style=\"upgradeHighlight\">(10 + LV dello Stordimento x 5) Potenza [Laceration]</style> e <style=\"upgradeHighlight\">(10 + LV dello Stordimento x 5)</style> [AttackDown] su di loro.\n(Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non possono riprendersi dallo Stordimento)",
+      "desc": "Inizio Turno: Se sono presenti dei nemici Storditi, si riprendono dallo Stordimento. Dopodiché, infliggi <style=\"upgradeHighlight\">(10 + LV dello Stordimento x 5) Potenza [Laceration]</style> e <style=\"upgradeHighlight\">(10 + LV dello Stordimento x 5)</style> [AttackDown] su di loro per questo e per prossimo turno.\n(Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non possono riprendersi dallo Stordimento)",
       "simpleDesc": [
         {
           "abilityID": 19020,
@@ -532,7 +532,7 @@
     {
       "id": 29020,
       "name": "Cotone Bianco++",
-      "desc": "Inizio Turno: Se sono presenti dei nemici Storditi, escono dallo Stordimento. Dopo, infliggi <style=\"upgradeHighlight\">(12 + LV dello Stordimento x 6) Potenza [Laceration]</style> e <style=\"upgradeHighlight\">(12 + LV dello Stordimento x 6)</style> [AttackDown] e <style=\"upgradeHighlight\">[DefenseDown]</style> su di loro.\n(Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non possono riprendersi dallo Stordimento)",
+      "desc": "Inizio Turno: Se sono presenti dei nemici Storditi, si riprendono dallo Stordimento. Dopodiché, infliggi <style=\"upgradeHighlight\">(12 + LV dello Stordimento x 6) Potenza [Laceration]</style> e <style=\"upgradeHighlight\">(12 + LV dello Stordimento x 6)</style> [AttackDown] e <style=\"upgradeHighlight\">[DefenseDown]</style> su di loro per questo e per prossimo turno.\n(Si attiva una volta per nemico per Incontro. Non si attiva contro certi nemici che non possono riprendersi dallo Stordimento)",
       "simpleDesc": [
         {
           "abilityID": 29020,
@@ -726,7 +726,7 @@
     {
       "id": 9030,
       "name": "Raccolta di Teschi",
-      "desc": "Dopo che un alleato ha sconfitto un nemico tramite un'Abilità con Affinità Superbia o Perforante, aumenta il Potere Abilità Perforante dell'alleato di 2 per i prossimi 2 turni.",
+      "desc": "Se un nemico viene Ucciso entro la Fine dell'Attacco di un'Abilità Perforante o di Superbia: Per 2 turni, dal turno successivo, aumenta il Potere Abilità Perforante di 2 per l'unità che ha utilizzato l'Abilità.",
       "simpleDesc": [
         {
           "abilityID": 9030,
@@ -782,7 +782,7 @@
     {
       "id": 9032,
       "name": "Pecora Elettrica Sognante",
-      "desc": "Dopo aver sconfitto un nemico tramite un'Abilità con Affinità Invidia o Tagliente, aumenta il Potere Abilità Tagliente dell'alleato di 2 per i prossimi 2 turni.\n\nSe viene attivata Risonanza Assoluta Invidia, tutti gli alleati ottengono 2 [AttackUp] e 2 [DefenseUp] all'Inizio del Combattimento.",
+      "desc": "Se un nemico viene Ucciso entro la Fine dell'Attacco di un'Abilità Tagliente o d'Invidia: Per 2 turni, dal turno successivo, aumenta il Potere Abilità Tagliente di 2 per l'unità che ha utilizzato l'Abilità.\n\nSe viene attivata Risonanza Assoluta Invidia, tutti gli alleati ottengono 2 [AttackUp] e 2 [DefenseUp] all'Inizio del Combattimento.",
       "simpleDesc": [
         {
           "abilityID": 9032,
@@ -3608,7 +3608,7 @@
     {
       "id": 9134,
       "name": "Torcia di Pattuglia",
-      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nInizio Turno: Se l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +10% di danno finché l'unità ha [ChargeForceField].\n\nFine Turno: Se l'Identità affetta non ha [ChargeForceField], applica 2 [ChargeForceField] nel turno successivo.",
+      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene 2 [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +10% di danni finché l'unità ha [ChargeForceField].",
       "simpleDesc": [
         {
           "abilityID": 9134,
@@ -3623,7 +3623,7 @@
     {
       "id": 19134,
       "name": "Torcia di Pattuglia+",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nInizio Turno: Se l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge <style=\"upgradeHighlight\">+15</style>% di danno finché l'unità ha [ChargeForceField].\n\nFine Turno: Se l'Identità affetta non ha [ChargeForceField], applica <style=\"upgradeHighlight\">3</style> [ChargeForceField] nel turno successivo.",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene <style=\"upgradeHighlight\">3</style> [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +<style=\"upgradeHighlight\">15</style>% di danni finché l'unità ha [ChargeForceField].",
       "simpleDesc": [
         {
           "abilityID": 19134,
@@ -3638,7 +3638,7 @@
     {
       "id": 29134,
       "name": "Torcia di Pattuglia++",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nInizio Turno: Se l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge <style=\"upgradeHighlight\">+25</style>% di danno finché l'unità ha [ChargeForceField].\n\nFine Turno: Se l'Identità affetta non ha [ChargeForceField], applica <style=\"upgradeHighlight\">4</style> [ChargeForceField] nel turno successivo.",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene <style=\"upgradeHighlight\">4</style> [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +<style=\"upgradeHighlight\">25</style>% di danni finché l'unità ha [ChargeForceField].",
       "simpleDesc": [
         {
           "abilityID": 29134,
