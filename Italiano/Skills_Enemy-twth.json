@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wildstroke",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Pennellata Selvaggia",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -18,10 +18,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -35,7 +35,7 @@
         {
           "level": 1,
           "name": "Dessin Rapide",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -47,17 +47,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -70,26 +70,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Fauvisme - Paint and Unfurl",
-          "desc": "Deal +10% damage for every 3 Mauled Color on target (max 30%)\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Le Fauvisme - Dipingere e Dispiegarsi",
+          "desc": "Infligge +10% danni per ogni 3 Colore Sbranato sul bersaglio (max 30%)\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] A meno del 50% PV, o se il bersaglio ha 5+ Colore Sbranato, una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordisce il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
@@ -99,10 +99,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
                 }
               ]
             }
@@ -116,7 +116,7 @@
         {
           "level": 1,
           "name": "Gusset",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [BearClawWound], Final Power +2",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [BearClawWound], Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -141,8 +141,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wildstroke",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Pennellata Selvaggia",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -154,10 +154,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -171,7 +171,7 @@
         {
           "level": 1,
           "name": "Dessin Rapide",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -183,17 +183,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -206,26 +206,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Fauvisme - Paint and Unfurl",
-          "desc": "Deal +10% damage for every 3 Mauled Color on target (max 30%)\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Le Fauvisme - Dipingere e Dispiegarsi",
+          "desc": "Infligge +10% danni per ogni 3 Colore Sbranato sul bersaglio (max 30%)\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] A meno del 50% PV, o se il bersaglio ha 5+ Colore Sbranato, una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
@@ -235,10 +235,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
                 }
               ]
             }
@@ -252,7 +252,7 @@
         {
           "level": 1,
           "name": "Gusset",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [BearClawWound], Final Power +2",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [BearClawWound], Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
@@ -264,7 +264,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -277,8 +277,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Preparation",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Preparazione dell'Opera",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -290,10 +290,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -306,8 +306,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brisk Expression",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Espressione Vivace",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -319,13 +319,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -338,23 +338,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Finishing Touch",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Tocco Finale",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] A meno del 50% dei PV, o se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -364,13 +364,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -383,20 +383,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Partial Rework",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [EagleClawWound], Clash Power +2",
+          "name": "Revisione Parziale",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [EagleClawWound], Potere Scontro +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             }
@@ -409,8 +409,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Preparation",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Preparazione dell'Opera",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -422,10 +422,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -438,8 +438,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brisk Expression",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Espressione Vivace",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -451,13 +451,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -470,23 +470,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Finishing Touch",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Tocco Finale",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] A meno del 50% dei PV, o se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -496,13 +496,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -515,20 +515,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Partial Rework",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [EagleClawWound], Clash Power +2",
+          "name": "Revisione Parziale",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [EagleClawWound], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             }
@@ -541,20 +541,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Sighted",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +10% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Obiettivo Avvistato",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +10% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -567,27 +567,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To Where the Prescript Points",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +20% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Verso Dove il Prescritto Indica",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +20% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 3 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -600,30 +600,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake Prescript",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +2 and deal +25% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 3+ [BlessingOfIndexPrescriptEnemy], Coin Power +1\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 4 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Intraprendere il Prescritto",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +2 e infligge +25% danni\nPotere Finale +1 per ogni 6 ([Breath]u di sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 3+ [BlessingOfIndexPrescriptEnemy], Potere Moneta +1\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[WhenUse] Ottiene 4 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [BlessingOfIndexPrescriptEnemy] on self (max 45%)"
+                  "desc": "Infligge +5% danni per ogni [BlessingOfIndexPrescriptEnemy] su di sé (max 45%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -636,20 +636,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Sighted",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +10% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 1 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Obiettivo Avvistato",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +10% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 1 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -662,27 +662,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To Where the Prescript Points",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +20% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 4 [Breath] and +2 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Verso Dove il Prescritto Indica",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +20% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 4 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -695,30 +695,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake Prescript",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +2 and deal +25% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 3+ [BlessingOfIndexPrescriptEnemy], Coin Power +1\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [Breath] and +4 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Intraprendere il Prescritto",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +2 e infligge +25% danni\nPotere Finale +1 per ogni 6 ([Breath] su di Sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 3+ [BlessingOfIndexPrescriptEnemy], Potere Moneta +1\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[WhenUse] Ottiene 3 [Breath] e +4 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [BlessingOfIndexPrescriptEnemy] on self (max 45%)"
+                  "desc": "Infligge +5% danni per ogni [BlessingOfIndexPrescriptEnemy] su di sé (max 45%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +3 Conteggio [Sinking]"
                 }
               ]
             }

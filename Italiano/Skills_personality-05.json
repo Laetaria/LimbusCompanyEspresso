@@ -2383,26 +2383,27 @@
             {}
           ]
         }
+      ]
     },
     {
       "id": 1051501,
       "levelList": [
         {
           "level": 1,
-          "name": "Rough Portrayal",
+          "name": "Rappresentazione Abbozzata",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -2410,20 +2411,20 @@
         },
         {
           "level": 2,
-          "name": "Rough Portrayal",
-          "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)</style>",
+          "name": "Rappresentazione Abbozzata",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -2431,23 +2432,23 @@
         },
         {
           "level": 4,
-          "name": "Rough Portrayal",
-          "desc": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 15%)</style>\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)",
+          "name": "Rappresentazione Abbozzata",
+          "desc": "<style=\"highlight\">Infligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 15%)</style>\n[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             }
@@ -2460,27 +2461,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Visceral Strokes",
-          "desc": "[WhenUse] If target does not have [BearClawWoundAlly], Clash Power +1",
+          "name": "Pennellate Viscerali",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWoundAlly], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -2488,27 +2489,27 @@
         },
         {
           "level": 2,
-          "name": "Visceral Strokes",
-          "desc": "[WhenUse] If target does not have [BearClawWoundAlly], Clash Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)</style>",
+          "name": "Pennellate Viscerali",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWoundAlly], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -2516,33 +2517,33 @@
         },
         {
           "level": 4,
-          "name": "Visceral Strokes",
-          "desc": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 20%)</style>\n[WhenUse] If target does not have [BearClawWoundAlly], Clash Power +1\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)",
+          "name": "Pennellate Viscerali",
+          "desc": "<style=\"highlight\">Infligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 20%)</style>\n[WhenUse] Se il bersaglio non ha [BearClawWoundAlly], Potere Moneta +1\n[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
                 }
               ]
             }
@@ -2555,33 +2556,33 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Le Fauvisme - Reveal Submission",
-          "desc": "Deal +10% damage for every type of negative effect on target (max 60%)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s",
+          "name": "Le Fauvisme - Presentazione dell'Opera",
+          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 60%)\n[WhenUse] A meno del 50% dei PV o se il bersaglio ha 5+ Colore Sbranato, usa la Moneta 3 una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -2589,36 +2590,36 @@
         },
         {
           "level": 4,
-          "name": "Le Fauvisme - Reveal Submission",
-          "desc": "Deal +10% damage for every type of negative effect on target (max 60%)\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 4)</style>\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n<style=\"highlight\">- On Hit with the additional Coin: Randomly inflict (Mauled Color on target / 3) [Laceration] or [Sinking] Potency (max 3 each; rounded down)</style>",
+          "name": "Le Fauvisme - Presentazione dell'Opera",
+          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 60%)\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Laceration] + [Sinking]) sul bersaglio (max 4)</style>\n[WhenUse] A meno del 50% dei PV o se il bersaglio ha 5+ Colore Sbranato, usa la Moneta 3 una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)\n<style=\"highlight\">- Sul Colpo con la Moneta usata una volta in più: infligge casualmente (Colore Sbranato sul bersaglio / 3) Potenza [Laceration] o [Sinking] (max 3 per ognuno; arrotondato per difetto)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [BearClawWoundAlly]</style>"
                 }
               ]
             }
@@ -2631,20 +2632,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coloring Preparations",
-          "desc": "[DuelCounter]\nIf this unit has [FaubismMaskMeursault], Base Power +2",
+          "name": "Preparativi di Colorazione",
+          "desc": "[DuelCounter]\nSe questa unità ha [FaubismMaskMeursault], Potere Base +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }
@@ -2652,20 +2653,20 @@
         },
         {
           "level": 4,
-          "name": "Coloring Preparations",
-          "desc": "[DuelCounter]\nIf this unit has [FaubismMaskMeursault], Base Power +2\n<style=\"highlight\">[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1</style>",
+          "name": "Preparativi di Colorazione",
+          "desc": "[DuelCounter]\nSe questa unità ha [FaubismMaskMeursault], Potere Base +2\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             }

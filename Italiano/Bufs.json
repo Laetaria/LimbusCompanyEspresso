@@ -3555,63 +3555,63 @@
     {
       "id": "FaubismMaskMeursault",
       "name": "Le Fauvisme - Masque de Chien",
-      "desc": "- Deal +5% damage for every 3 Mauled Color on target (max 15%)\n- Inflict +1 more Bleed and Sinking Potency with Base Skills\n- Before hitting with a Base Skill, if target does not have Bleed, inflict +2 Bleed Count on target (once per turn)",
+      "desc": "- Infligge +5% danni per ogni 3 Colore Sbranato sul bersaglio (max 15%)\n- Infligge +1 Potenza Sanguinamento e Annegamento in più con le Abilità Base\n- Prima di colpire con un'Abilità Base, se il bersaglio non ha Sanguinamento, infligge +2 Conteggio Sanguinamento sul bersaglio (una volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TestWaitingMeursault",
-      "name": "Imperfections Addressed",
-      "desc": "- Deal +10% damage\n- On Reuse of a Coin in The Ring Fauvist Docent Rodion's \"Critique\" Skill, heal 3 SP (once per turn)\n- Turn Start: If The Ring Fauvist Docent Rodion does not have Réflexion, this effect expires",
+      "name": "Imperfezioni Corrette",
+      "desc": "- Infligge +10% danni\n- Sul Riuso di una Moneta nell'Abilità \"Critique\" di La Docente Fauvista dell'Anulare Rodion, recupera 3 PS (una volta per turn)\n- Inizio Turno: se La Docente Fauvista dell'Anulare Rodion non ha Réflexion, questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FaubismWolfMaskRodion",
       "name": "Le Fauvisme - Masque de Loup",
-      "desc": "- Min & Max Speed +1\n- Inflict +1 more Bleed and Sinking Potency with Base Skills\n- On Hit, if target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (once per turn)\n- On Hit, if target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (once per turn)",
+      "desc": "- Velocità Min & Max +1\n- Infligge +1 Potenza Sanguinamento e Annegamento in più con le Abilità Base\n- Sul Colpo, se il bersaglio ha 3+ Colore Sbranato [Bleu], infligge +1 Conteggio Annegamento (una volta per turn)\n- Sul colpo, se il bersaglio ha 3+ Colore Sbranato [Rouge], infligge +1 Conteggio Sanguinamento (una volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BoldBrushstrokesRodion",
       "name": "Touche Hardie",
-      "desc": "- Max Stack: 2\n- Take +10% HP and SP damage from Bleed and Sinking effects for every Stack (max 20%, rounded down)\n- Turn End: Lose 1 Stack",
+      "desc": "- Max Stack: 2\n- Per ogni Stack, subisce +10% danni ai PV e PS dagli effetti di Sangunamento ed Annegamento (max 20%, arrotondato per difetto)\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IntenseColorsRodion",
       "name": "Palette Vibrante",
-      "desc": "- Max Stack: 4\n- Take +(Stack x 2.5)% damage from The Ring-faction Identities\n· If the attacker is in both The Ring faction and School of Fauvism faction, take +(Stack x 5)% damage instead\n- Combat Start: Randomly gain 1 Bleed, 1 Sinking, 1 Bleed Count, or 1 Sinking Count (Stack) times\n- Combat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (rounded down)",
+      "desc": "- Max Stack: 4\n- Subisce +(Stack x 2.5)% danni dalle Identità dell'Anulare\n· Se l'attaccante è sia un'Identità dell'Anulare che della Scuola del Fauvismo, subisce invece +(Stack x 5)% danni\n- Inizio Combattimento: ottiene casualmente 1 Sangiunamento, 1 Annegamento, 1 Conteggio Sanguinamento o 1 Conteggio Annegamento (Stack) volte\n- Fine Combattimento: Questo effetto scade. Dimezza le Stack di Colore Sbranato [Rouge] e Colore Sbranato [Bleu] su questa unità (arrotondato per difetto)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ThankyouDocentRodion",
       "name": "L'Hommage",
-      "desc": "- Max Stack: 3\n- Turn Start: Randomly gain 1 Offense Level Up or 1 Defense Level Up for every Stack (max 3 times)\n- Turn End: This effect expires",
+      "desc": "- Max Stack: 3\n- Inizio Turno: ottiene casualmente 1 Livello Offensivo Aumentato o 1 Livello Difensivo Aumentato per ogni Stack (max 3 volte)\n- Fine Turno: Questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TestWaitDocentRodion",
       "name": "Réflexion",
-      "desc": "- Max Stack: 2\n- Cannot use \"Critique\" during the turn this unit has this effect\n- Turn Start: Heal 5 SP\n- Turn End: Lose 1 Stack\n- When this effect expires, gain L'Hommage next turn equal to the number of The Ring Student Identities on the field",
+      "desc": "- Max Stack: 2\n- Non può usare \"Critique\" durante il turno in cui l'unità ha questo effetto\n- Inizio Turno: Recupera 5 PS\n- Fine Turno: Perde 1 Stack\n- Quando questo effetto scade, il turno successivo ottiene Stack di L'Hommage pari al numero di Identità Studenti dell'Anulare in campo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BearClawWoundAlly",
-      "name": "Mauled Color [Rouge]",
-      "desc": "- Max Stack: 9\n- When hit, gain 1 Bleed Potency for every 3 Stack (once per turn)\n- Turn End: Gain 1 Defense Level Down next turn for every 4 Stack (max 2)\n- Turn End: Lose 1 Stack",
+      "name": "Colore Sbranato [Rouge]",
+      "desc": "- Max Stack: 9\n- Quando colpita, ottiene 1 Potenza Sanguinamento per ogni 3 Stack (una volta per turno)\n- Inizio Turno: Ottiene 1 Livello Difensivo Diminuito il turno successivo per ogni 4 Stack (max 2)\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EagleClawWoundAlly",
-      "name": "Mauled Color [Bleu]",
-      "desc": "- Max Stack: 9\n- When hit, gain 1 Sinking Potency for every 3 Stack (once per turn)\n- Turn End: At 5+ Stack, lose 5 SP\n- Turn End: Lose 1 Stack",
+      "name": "Colore Sbranato [Bleu]",
+      "desc": "- Max Stack: 9\n- Quando colpita, ottiene 1 Potenza Annegamento per ogni 3 Stack (once per turn)\n- Fine Turno: A 5+ Stack, perde 5 PS\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-"
     }

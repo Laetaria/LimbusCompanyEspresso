@@ -2618,7 +2618,7 @@
     },
     {
       "id": 1021401,
-      "name": "Lama Del Proselita",
+      "name": "Lama Del Proselito",
       "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con Abilità Base sui nemici affetti da [IndexPrescriptTargetToEnemy], ottiene 1 [Breath] e infligge 1 [Sinking] (una volta per turno)\n- Incrementa il numero di volte che quest'effetto si può attivare per turno di 1 ogni 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- A 9 [BlessingOfIndexPrescriptAlly], le Abilità Base infliggono +1 Potenza [Sinking] in più e quest'Unità ottiene +1 Potenza [Breath] in più",
       "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, gain Poise and inflict Sinking"
     },
@@ -2901,38 +2901,38 @@
     },
     {
       "id": 1051501,
-      "name": "Welling Inspiration",
-      "desc": "If this unit has [FaubismMaskMeursault], inflict +1 more [BearClawWoundAlly]\n\nEvery time this unit inflicts 4 [BearClawWoundAlly], heal 5 SP (2 times per turn)\n- If this unit's SP is at max, gain 1 [HitDamageUp] next turn when this unit heals SP with this effect (once per turn)"
+      "name": "Ispirazione Crescente",
+      "desc": "Se questa unità ha [FaubismMaskMeursault], infligge +1 [BearClawWoundAlly] in più\n\nOgni volta che questa unità infligge 4 [BearClawWoundAlly], recupera 5 S (2 volte per turno)\n- Se i PS di questa unità sono al massimo, il turno successivo ottiene 1 [HitDamageUp] quando recupera PS con questo effetto (una volta per turno)"
     },
     {
       "id": 1051502,
-      "name": "The Ring Fauvist Student",
-      "desc": "On Hit with a Base Skill: Inflict 1 [BearClawWoundAlly]\n- This counts as \"inflicting negative effects with the Skill\"\n\nTurn End: If this unit has inflicted 10+ [BearClawWoundAlly] during this Encounter, gain [FaubismMaskMeursault]\n\nAt Coin Start of The Ring Fauvist Docent Rodion's \"Critique\" Skill, The Ring Fauvist Student Meursault gains [TestWaitingMeursault]"
+      "name": "Studente Fauvista dell'Anulare",
+      "desc": "Sul Colpo con un'Abilità Base: Infligge 1 [BearClawWoundAlly]\n- Questo effetto conta come \"infliggere un effetto negativo con l'Abilità\"\n\nFine Turno: Se questa unità ha inflitto 10+ [BearClawWoundAlly] durante questo Incontro, ottiene [FaubismMaskMeursault]\n\nAll'Inizio della Prima Moneta dell'Abilità \"Critique\" di La Docente Fauvista dell'Anulare Rodion, Lo Studente Fauvista dell'Anulare Meursault ottiene [TestWaitingMeursault]"
     },
     {
       "id": 1051521,
-      "name": "Impastoed Scar",
-      "desc": "1 ally with the fastest Speed: On Hit, inflict 1 [DefenseDown] for every 2 types of negative effect on target (once per turn; max 3)"
+      "name": "Cicatrice Materica",
+      "desc": "1 alleato con la Velocità più alta: Sul Colpo, infligge 1 [DefenseDown] per ogni 2 tipi di effetti negativi sul bersaglio (una volta per turno; max 3)"
     },
     {
       "id": 1091501,
-      "name": "Needs a Rougher Touch for this Part...!",
-      "desc": "Inflict +1 more [BearClawWoundAlly], [EagleClawWoundAlly], and [BoldBrushstrokesRodion]"
+      "name": "A Questa Parte Serve un Tocco più Deciso...!",
+      "desc": "Infligge +1 [BearClawWoundAlly], [EagleClawWoundAlly] e [BoldBrushstrokesRodion] in più"
     },
     {
       "id": 1091502,
-      "name": "Mentorship",
-      "desc": "Turn Start: Gain [ThankyouDocentRodion] equal to the number of The Ring Student Identities on the field (once per Encounter)\n\nTurn Start: Randomly apply (# of The Ring Student Identities on the field) [AttackUp] or [DefenseUp] to any 2 of The Ring Student Identities (max 2, once per Encounter. Prioritizes The Ring Fauvist Students)"
+      "name": "Tutoraggio",
+      "desc": "Inizio Turno: Ottiene [ThankyouDocentRodion] pari al numero di Identità degli Studenti dell'Anulare sul campo (una volta per Incontro)\n\nInizio Turno: applica casualmente (n° di Identità degli Studenti dell'Anulare sul campo) [AttackUp] o [DefenseUp] a 2 Identità qualsiasi degli Studenti dell'Anulare (max 2, una volta per Incontro. Dà priorità agli Studenti Fauvisti dell'Anulare)"
     },
     {
       "id": 1091503,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: Inflict 1 [IntenseColorsRodion] next turn to enemies that have [BearClawWoundAlly], [EagleClawWoundAlly], and [BoldBrushstrokesRodion] simultaneously\n- If target has 3+/6+/9+ [BearClawWoundAlly] and [EagleClawWoundAlly] each, inflict 2/3/4 [IntenseColorsRodion] instead (amount inflicted is based on the effect that has the least Stack)\n\nTurn End: Gain 1 [FaubismWolfMaskRodion] if any 1 of the following conditions is met\n- Inflicted [IntenseColorsRodion] 3 times (counts as once per turn regardless of the number of times inflicted during combat)\n- Used \"Critique\" 2 times\n- Used \"Burst Forth the Pulsing Crimson under Your Skin\""
+      "desc": "Fine Combattimento: il turno successivo infligge 1 [IntenseColorsRodion] ai nemici con [BearClawWoundAlly], [EagleClawWoundAlly] e [BoldBrushstrokesRodion] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWoundAlly] e [EagleClawWoundAlly], infligge invece 2/3/4 [IntenseColorsRodion] (la quantitò inflitta si basa sull'effetto che ha le Stack minori)\n\nFine Turno: Ottiene 1 [FaubismWolfMaskRodion] se viene soddisfatta 1 delle seguenti condizioni:\n- Ha inflitto [IntenseColorsRodion] 3 volte (conta come una volta per turno a prescindere dal numero di volte che l'effetto è stato inflitto durante il combattimento)\n- Ha usato l'Abilità \"Critique\" 2 volte\n- Used \"Burst Forth the Pulsing Crimson under Your Skin\""
     },
     {
       "id": 1091521,
-      "name": "Nice and Slow, Don't Let It Break...",
-      "desc": "Apply the following effects to the Identity with the earliest Deployment order:\n- If Lust Reson. is of an odd number, inflict +1 more [Laceration] Potency\n- If Lust Reson. is of an even number, inflict +1 more [Sinking] Potency\n- If the said Identity is in The Ring faction, it gains 1 [AttackUp] or 1 [DefenseUp] at Combat Start"
+      "name": "Con Calma e Precisione, Non Lasciare Che si Spezzi...",
+      "desc": "Applica i seguenti effetti alle Identità con l'ordine di Schieramento più alto:\n- Se la Rison. Lussuria è di numero dispari, infligge +1 Potenza [Laceration] in più\n- Se la Rison. Lussuria è di numero pari, infligge +1 Potenza [Sinking] in più\n- Se quell'Identità è dell'Anulare, ottiene 1 [AttackUp] o 1 [DefenseUp] all'Inizio del Combattimento"
     }
   ]
 }

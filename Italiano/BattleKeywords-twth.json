@@ -2,16 +2,16 @@
   "dataList": [
     {
       "id": "BearClawWound",
-      "name": "Mauled Color [Rouge]",
-      "desc": "- Max Stack: 9\n- When hit, gain 1 Bleed Potency for every 3 Stack (once per turn)\n- Turn End: Gain 1 Defense Level Down next turn for every 4 Stack (max 2)\n- Turn End: Lose 1 Stack",
+      "name": "Colore Sbranato [Rouge]",
+      "desc": "- Max Stack: 9\n- Quando colpito, ottiene 1 Potenza Sanguinamento per ogni 3 Stack (una volta per turno)\n- Fine Turno: Ottiene 1 Livello Difensivo Diminuito il turno successivo per ogni 4 Stack (max 2)\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "'Some say that the Ring's paint is made from the same base material as Augmentation Tattoos—they are both nigh-indelible pigments that take considerable effort to erase, let alone bleach.'"
     },
     {
       "id": "EagleClawWound",
-      "name": "Mauled Color [Bleu]",
-      "desc": "- Max Stack: 9\n- When hit, gain 1 Sinking Potency for every 3 Stack (once per turn)\n- Turn End: At 5+ Stack, lose 5 SP\n- Turn End: Lose 1 Stack",
+      "name": "Colore Sbranato [Bleu]",
+      "desc": "- Max Stack: 9\n- Quando viene colpita, ottiene 1 Potenza Annegamento per ogni 3 Stack (una volta per turno)\n- Fine Turno: A 5+ Stack, perde 5 PS\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "'If the Middle uses their tattoos for self-augmentation, does that make the Ring's tattoos more brands that, when forcibly applied, weaken their enemies?'"
@@ -19,7 +19,7 @@
     {
       "id": "BoldBrushstrokes",
       "name": "Touche Hardie",
-      "desc": "- While this unit has this effect, double the amount of HP and SP damage this unit takes from Bleed and Sinking\n- Turn End: Lose 1 Stack\n- Max Stack: 1",
+      "desc": "- Mentre questa unità ha questo effetto, raddoppia la quantità di danni a PV e PS che questa unità subisce da Sanguinamento e Annegamento\n- Fine Turno: Perde 1 Stack\n- Max Stack: 1",
       "summary": "",
       "undefined": "-",
       "flavor": "\"Wolven claws, lynx claws... and even those of turtles, so minuscule yet intricately arranged... What a bold expression.\""
@@ -27,7 +27,7 @@
     {
       "id": "IntenseColors",
       "name": "Palette Vibrante",
-      "desc": "- Take +(Stack x 5)% damage from The Ring-faction units\n· If the attacker is in The Ring School of Fauvism faction, take +(Stack x 10)% damage instead\n- Combat Start: Gain (Stack +1) Bleed, Sinking, Bleed Count, and Sinking Count\n- Combat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (rounded down)\n- Max Stack: 4",
+      "desc": "- Subisce +(Stack x 5)% danni dalle unità dell'Anulare\n· Se l'attaccante appartiene alla Scuola Fauvista dell'Anulare, subisce invece +(Stack x 10)% danni\n- Inizio Combattimento: Ottiene (Stack +1) Sanguinamento, Annegamento, Conteggio Sanguinamento e Conteggio Annegamento\n- Fine Combattimento: Questo effetto scade. Dimezza le Stack di Colore Sbranato [Rouge] e Colore Sbranato [Bleu] su questa unità (arrotondato per difetto)\n- Max Stack: 4",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -35,7 +35,7 @@
     {
       "id": "FaubismWolfMask",
       "name": "Le Fauvisme - Masque de Loup",
-      "desc": "- Min & Max Speed +1\n- Inflict +1 more Bleed and Sinking Potency with Skills\n- Before hitting, if target does not have Sinking, inflict +2 Sinking Count (once per Sinner per turn)\n- Before Getting Hit, if target does not have Bleed, inflict +2 Bleed Count (once per Sinner per turn)",
+      "desc": "- Velocità Min & Max +1\n- Infligge +1 Potenza Sanguinamento e Annegamento in più\n- Prima di colpire, se il bersaglio non ha Annegamento, infligge +2 Conteggio Annegamento (una volta per Peccatore per turno)\n- Prima di essere colpita, se il bersaglio non ha Sanguinamento, infligge +2 Conteggio Sanguinamento (una volta per Peccatore per turno)",
       "summary": "",
       "undefined": "-",
       "flavor": "\"One might ask: What even distinguishes les Fauves from factions such as Heishous, R Corp. Packs, and more that incorporate beasts into their identities?\"\n\n\"A reasonable query, of that there is no doubt; to that I say we are distinguished by the transcendence of beastliness into artistic costumery, while the Heishous have mindlessly jammed it into their anatomies, disregarding their aesthetic qualities.\""
@@ -43,105 +43,105 @@
     {
       "id": "FaubismWolfMaskBlooded",
       "name": "Le Fauvisme - Masque de Loup Ensanglanté",
-      "desc": "- Deal +20% damage; convert all Coins into Unbreakable Coins\n- Min & Max Speed +1\n- Inflict +1 more of the following negative effects with Skills\n· Bleed Potency and Count\n· Sinking Potency and Count\n- Before hitting, if target does not have Sinking, inflict +2 Sinking Count (3 times per Sinner per turn)\n- Before Getting Hit, if target does not have Bleed, inflict +2 Bleed Count (3 times per Sinner per turn)",
+      "desc": "- Infligge +20% danni; converte tutte le Monete in Monete Infrangibili\n- Velocità Min & Max +1\n- Infligge +1 in più dei seguenti effetti negativi con le Abilità\n· Potenza e Conteggio Sanguinamento\n· Potenza e Conteggio Annegamento\n- Prima di colpire, se il bersaglio non ha Annegamento, infligge +2 Conteggio Annegamento (3 volte per Peccatore per turno)\n- Prima di essere colpita, se il bersaglio non ha Sanguinamento, infligge +2 Conteggio Sanguinamento (3 volte per Peccatore per turno)",
       "summary": "",
       "undefined": "-",
       "flavor": "One does not simply awaken the power of one's inner ferity by donning a beastly mask.\nThe interior of each headgear worn by these artists is lined with a mat of needles dipped in the Fauvist paint, which is injected into the body upon equipment. \n\nThus is the paint of the Ring—and these artists, regardless of their School, are all bound to use it."
     },
     {
       "id": "PanicChangeLock",
-      "name": "Fixed Panic",
-      "desc": "This unit's Panic Type does not change when inflicted with an effect that changes Panic Types. Instead, this unit is inflicted with an effect that is inflicted against targets without SP.",
+      "name": "Panico Fisso",
+      "desc": "Il Tipo di Panico di questa unità non cambia quando gli si infligge un effetto che cambia il Tipo di Panico. Al suo posto, a questa unità viene inflitto l'effetto riservato ai bersagli senza PS.",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "Fauvism_Lowmorale",
-      "name": "Faltering Inspiration",
-      "desc": "- If target has Mauled Color, deal +10% damage\n- Gain 1 Fragile",
+      "name": "Ispirazione Incerta",
+      "desc": "- Se il bersaglio ha Colore Sbranato, infligge +10% danni\n- Ottiene 1 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Fauvism_Panic",
-      "name": "Faltering Inspiration",
-      "desc": "- If target has Mauled Color, deal +20% damage\n- Gain 2 Fragile",
+      "name": "Ispirazione Incerta",
+      "desc": "- Se il bersaglio ha Colore Sbranato, infligge +20% danni\n- Ottiene 2 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FauvismDocent_Lowmorale",
       "name": "Coloriage Impulsif",
-      "desc": "- Low Morale\n- Deal +2.5% damage for every type of negative effect on target (max 15%)\n- Gain 1 Fragile",
+      "desc": "- Morale Basso\n- Infligge +2.5% danni per ogni tipo di effetto negativo sul bersaglio (max 15%)\n- Ottiene 1 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FauvismDocent_Panic",
       "name": "Coloriage Impulsif",
-      "desc": "- Panic\n- Deal +5% damage for every type of negative effect on target (max 30%)\n- Gain 2 Fragile",
+      "desc": "- Panico\n- Infligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)\n- Ottiene 2 Fragile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptEnemy_0",
-      "name": "Prescript: [Paper Slip] I",
-      "desc": "Attack and hit a Sinner.\n\n- Turn Start: At 0~2 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 3",
+      "name": "Prescritto: [Foglietto] I",
+      "desc": "Attacca e colpisci un Peccatore.\n\n- Inizio Turno: Ottiene questo effetto a 0~2 Grazia del Prescritto\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 3 volte",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
     },
     {
       "id": "IndexPrescriptEnemy_1",
-      "name": "Prescript: [Paper Slip] II",
-      "desc": "Attack and hit a Prescript's Target.\n\n- Turn Start: At 3~5 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 6",
+      "name": "Prescritto: [Foglietto] II",
+      "desc": "Attacca e colpisci l'Obiettivo del Prescritto.\n\n- Inizio Turno: Ottiene questo effetto a 3~5 Grazia del Prescritto\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 6 volte",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
     },
     {
       "id": "IndexPrescriptEnemy_2",
-      "name": "Prescript: [Paper Slip] III",
-      "desc": "Stagger or eliminate a random Sinner, either by you or your ally.\n\n- Turn Start: At 6~8 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 9",
+      "name": "Prescritto: [Foglietto] III",
+      "desc": "Stordisci o elimina un qualsiasi Peccatore, che sia tu a farlo, o un tuo alleato.\n\n- Inizio Turno: Ottiene questo effetto a 6~8 Grazia del Prescritto\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 9 volte",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
     },
     {
       "id": "IndexPrescriptEnemy_3",
-      "name": "Prescript: [Paper Slip] IV",
-      "desc": "Eliminate all enemies before the next Prescript arrives.\n\n- Turn Start: At 9 Grace of the Prescript, gain this effect",
+      "name": "Prescritto: [Foglietto] IV",
+      "desc": "Elimina tutti i nemici prima che il prossimo Prescritto venga recapitato.\n\n- Inizio Turno: Ottiene questo effetto a 9 Grazia del Prescritto",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
     },
     {
       "id": "KarmaOfIndexEnemy",
-      "name": "Karmic Consequence",
-      "desc": "- Turn Start:\n· Gain 1 Defense Level Down for every 10 Stacks\n· Gain 1 Fragile for every 20 Stacks\n- Max Stack: 100",
+      "name": "Conseguenza Karmica",
+      "desc": "- Inizio Turno:\n· Ottiene 1 Livello Difensivo Diminuito per ogni 10 Stacks\n· Ottiene 1 Fragile per ogni 20 Stacks\n- Max Stack: 100",
       "summary": "",
       "undefined": "-",
-      "flavor": "Receive the Prescript and undertake it. Its execution is etched as karma, drawn into a ceaseless cycle that circles back to the hand of its executor."
+      "flavor": "Ricevi il Prescritto e portalo a termine. La sua esecuzione è come il karma, partecipe in un ciclo senza fine che tornerà al suo esecutore."
     },
     {
       "id": "ResentmentSpiderDaughterTwo",
-      "name": "<s>The Middle</s> - Grudge",
-      "desc": "- Max Stack: 10\n- Reduced when using certain Skills\n- For every Stack, Offense Level +1, Defense Level -2, and Counter Skills deal +5% damage\n- At max Stack, take +20% damage",
+      "name": "<s>Il Medio</s> - Rancore",
+      "desc": "- Max Stack: 10\n- Si riduce quando si usando certe Abilità\n- Per ogni Abilità, Livello Offensivol +1, Livello Difensivo -2 e le Abilità Contrattacco infliggono +5% danni\n- A Stack max, subisce +20% danni",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReinforcedTattooSpiderDaughterTwo",
-      "name": "<s>The Middle Styled</s> Augmentation Tattoos",
-      "desc": "- Max Stack: 3\n- Deal +10% Blunt and Envy damage",
+      "name": "Tatuaggi di Potenziamento <s>in Stile Medio</s>",
+      "desc": "- Max Stack: 3\n- Infligge +10% danni Contundenti e Invidia",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeatingWireOnSpiderTwo",
-      "name": "Thermal Blades ON",
-      "desc": "On Hit with Thermal Blade Skill Coins: Additionally inflict Burn Potency and Count equal to Bleed Potency and Count inflicted",
+      "name": "Lame Termiche ON",
+      "desc": "Sul Colpo con le Monete Abilità Lame Termiche: Infligge Potenza e Conteggio Bruciatura in più pari a Potenza e Conteggio Sanguinamenti inflitti",
       "summary": "",
       "undefined": "-"
     }

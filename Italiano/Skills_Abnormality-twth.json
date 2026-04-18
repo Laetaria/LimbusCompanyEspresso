@@ -5,26 +5,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Expression of Primary Colors",
-          "desc": "Final Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)",
+          "name": "Espressione dei Colori Primari",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EagleClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [EagleClawWound]"
                 }
               ]
             }
@@ -37,26 +37,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vehement Overpainting",
+          "name": "Ritocco Irruento",
           "desc": "Final Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
                 }
               ]
             }
@@ -70,25 +70,25 @@
         {
           "level": 1,
           "name": "Le Fauvisme - Déchaînement Primal",
-          "desc": "Final Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 3)\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 3)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [BearClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             },
@@ -98,7 +98,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }
@@ -112,7 +112,7 @@
         {
           "level": 1,
           "name": "Critique",
-          "desc": "[CantChangeTarget]\n[WhenUse]\n- Clash Power +2 <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect</u></b></mark></color> on target (max 12)\n- <color=#ff6000><mark=#ff000040><b><u>If target has [IntenseColors], </u></b></mark></color>Clash Power +6 and deal +100% damage\n· <color=#ff6000><mark=#ff000040><b><u>If target has equipped Defense Skills</u></b></mark></color> while having [IntenseColors], Clash Power +6 and deal -90% damage instead\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Potere Scontro +2 <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio (max 12)\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IntenseColors], </u></b></mark></color>Potere Scontro +6 e infligge +100% danni\n· <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiato un'Abilità Difensiva</u></b></mark></color> mentre ha [IntenseColors], Potere Scontro +6 e infligge invece -90% danni\n[DefeatDuel]\n- Il danno di questa Abilità non Stordisce il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -120,13 +120,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reuse this Coin (max 2 times)\n- On Hit after losing a Clash, Reuse this Coin (max once instead)\n- Does not trigger if target has equipped Defense Skills"
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta (max 2 volte)\n- Sul Colpo dopo aver perso uno Scontro, Riusa questa Moneta solo una volta\n- Non si attiva se il bersaglio ha equipaggiato un'Abilità Difensiva"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -139,26 +139,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Embellish with Primary Colors",
-          "desc": "Final Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Colorare con i Colori Primari",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
                 }
               ]
             }
@@ -171,16 +171,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Impassioned Overpainting",
-          "desc": "Final Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 3)\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Pittura Appassionata",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 3)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [BearClawWound]"
                 }
               ]
             },
@@ -190,10 +190,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [BearClawWound]"
                 }
               ]
             }
@@ -207,25 +207,25 @@
         {
           "level": 1,
           "name": "Le Fauvisme - Déchaînement Brutal",
-          "desc": "Final Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 4)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If target has 3+ types of negative effect,</u></b></mark></color> convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Deal -75% damage\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 4)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha 3+ tipi di effetti negativi,</u></b></mark></color> converte tutte le Monete su questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- Infligge -75% danni\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [BearClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [EagleClawWound]"
                 }
               ]
             },
@@ -235,7 +235,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }
@@ -248,8 +248,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Thrill of Inspiration",
-          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse] Final Power +1 and deal +10% damage <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect</u></b></mark></color> on the main target (max 6 and 60% respectively)\n[WinDuel]\n- Deal +10% damage <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect</u></b></mark></color> on each target (max 60% against each target)\n[DefeatDuel]\n- Deal -75% damage\n- Inflict 2/3 less Stacks of [BearClawWound] and [EagleClawWound] with this Skill's effect (rounded up)\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Il Brivido dell'Ispirazione",
+          "desc": "Ci si può Scontrare con l'Abilità a prescindere dalla Velocità\n[WhenUse] Potere Finale +1 e infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio principale (max 6 and 60% respectively)\n[WinDuel]\n- Infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> su ogni bersaglio (max 60% contro ogni bersagli)\n[DefeatDuel]\n- Infligge -75% danni\n- Infligge 2/3 Stack in meno di [BearClawWound] e [EagleClawWound] con gli effetti di questa Abilità (arrotondato per eccesso)\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -257,19 +257,19 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration] e +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking] and +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking] and +3 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 9 [BearClawWound]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 9 [BearClawWound]</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 9 [EagleClawWound]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 9 [EagleClawWound]</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }
@@ -282,8 +282,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burst Forth the Pulsing Crimson under Your Skin.",
-          "desc": "[WideAreaRampage]\nPrioritizes targets that have [IntenseColors]\nThis Skill does not trigger Defense Skills (excluding Clashable Guard)\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Final Power +1 <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect</u></b></mark></color> on the main target (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>If the main target has [IntenseColors],</u></b></mark></color> Clash Power +6\n- <color=#ff6000><mark=#ff000040><b><u>If target has [IntenseColors],</u></b></mark></color> deal +100% damage (against each target separately)\n· <color=#ff6000><mark=#ff000040><b><u>If target has equipped Defense Skills</u></b></mark></color> while having [IntenseColors], deal -90% damage instead\n[WinDuel]\n- Deal +10% damage <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect on target</u></b></mark></color> (max 60%, against each target separately)\n[DefeatDuel]\n- Gain 5 [AttackDmgDown] and 5 [Paralysis]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target\n[EndSkill] End this turn",
+          "name": "Esplode il Cremisi Pulsante Sotto la Tua Pelle.",
+          "desc": "[WideAreaRampage]\nDà priorità ai bersagli che hanno [IntenseColors]\nQuesta Abilità non attiva le Abilità Difensivi (Guardia Scontrabile esclusa)\nCi si può Scontrare con l'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Finale +1 <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio principale (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha [IntenseColors],</u></b></mark></color> Potere Scontro +6\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio [IntenseColors],</u></b></mark></color> infligge +100% danni (contro ogni bersaglio, separatamente)\n· <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiata un'Abilità Difensiva</u></b></mark></color> mentre ha [IntenseColors], infligge invece -90% danni\n[WinDuel]\n- Infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo sul besaglio</u></b></mark></color> (max 60%, contro ogni bersaglio, separatamente)\n[DefeatDuel]\n- Ottiene 5 [AttackDmgDown] e 5 [Paralysis]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -291,7 +291,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -301,7 +301,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             },
@@ -311,7 +311,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
@@ -321,7 +321,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             },
@@ -331,7 +331,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>This Coin hits all targets</u></b></mark></color>"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Questa Moneta colpisce tutti i bersagli</u></b></mark></color>"
                 }
               ]
             }
