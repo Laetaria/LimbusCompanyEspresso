@@ -3,7 +3,7 @@
     {
       "id": 142201,
       "name": "La Docente del Fauvismo dell'Anulare",
-      "desc": "Inizio Turno: <color=#ff6000><mark=#ff000040><b><u>Ottiene 2 [Protection]</u></b></mark></color> per ogni alleato Studente Fauvista dell'Anulare\n- Se questa unità ha usato \"Critique\" in questo Incontro, ottiene invece 2 [Protection] e recupera 5 PS a partire dal turno successivo\n(A meno di -15 PS, raddoppia l'effetto di recupero PS)\n- Se non ci sono alleati Studenti Fauvisti dell'Anulare, ottiene invece 2 [Vulnerable] e porta i PS dell'unità a 0\n\nSubito prima di essere colpita da un'Abilità che ha 1 Portata Attacco, se c'è uno Studente dell'Anulare alleato in campo, <color=#ff6000><mark=#ff000040><b><u>fa subire l'attacco a quell'unità (2 volte per turno, Unità di Supporto escluse)</u></b></mark></color>\n\nFine Turno nel quale questa unità ha usato \"Critique\": Se un alleato Studente Fauvista dell'Anulare è stato sconfitto in questo Incontro, <color=#ff6000><mark=#ff000040><b><u>questo viene sostituito dalla stessa unità di uno Studente</u></b></mark></color>\n- Ogni Inizio Turno: lo Studente che entra in campo con questo effetto ottiene (n° degli alleati sconfitti in questo incontro) [Vulnerable] e [AttackDown] (max 10 per effetto)",
+      "desc": "Inizio Turno: <color=#ff6000><mark=#ff000040><b><u>Ottiene 2 [Protection]</u></b></mark></color> per ogni alleato Studente Fauvista dell'Anulare\n- Se questa unità ha usato \"Critique\" in questo Incontro, ottiene invece 2 [Protection] e recupera 5 PS a partire dal turno successivo\n(A meno di -15 PS, raddoppia l'effetto di recupero PS)\n- Se non ci sono alleati Studenti Fauvisti dell'Anulare, ottiene invece 2 [Vulnerable] e porta i PS dell'unità a 0\n\nSubito prima di essere colpita da un'Abilità che ha 1 Portata Attacco, se c'è uno Studente dell'Anulare alleato in campo, <color=#ff6000><mark=#ff000040><b><u>fa subire l'attacco a quell'unità (2 volte per turno, Unità di Supporto escluse)</u></b></mark></color>\n\nFine Turno nel quale questa unità ha usato \"Critique\": Se un alleato Studente Fauvista dell'Anulare è stato sconfitto in questo Incontro, <color=#ff6000><mark=#ff000040><b><u>l'unità sconfitta viene sostituita da un'altra unità di uno Studente</u></b></mark></color>\n- Ogni Inizio Turno: lo Studente che entra in campo con questo effetto ottiene (n° degli alleati sconfitti in questo incontro) [Vulnerable] e [AttackDown] (max 10 per effetto)",
       "summary": "Subito prima di essere colpita, forza uno Studente alleato a subire il colpo",
       "flavor": ""
     },
@@ -17,7 +17,7 @@
     {
       "id": 142203,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Fine Combattimento: <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [IntenseColors] il turno successivo</u></b></mark></color> ai Peccatori che hanno [BearClawWound], [EagleClawWound] e [BoldBrushstrokes] simultaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWound] e [EagleClawWound], infligge invece 2/3/4 [IntenseColors] (la quantità inflitta si basa sull'effetto che ha meno Stack)",
+      "desc": "Fine Combattimento: <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [IntenseColors] il turno successivo</u></b></mark></color> ai Peccatori che hanno [BearClawWound], [EagleClawWound] e [BoldBrushstrokes] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWound] e [EagleClawWound], infligge invece 2/3/4 [IntenseColors] (la quantità inflitta si basa sull'effetto che ha meno Stack)",
       "summary": "Infligge Palette Vibrante",
       "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken and express the ferity of those that we call wild beasts among them.'"
     },
@@ -45,13 +45,13 @@
     {
       "id": 142303,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Fine Combattimeno: <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [IntenseColors] il turno successivo</u></b></mark></color> ai Peccatori che hanno [BearClawWound], [EagleClawWound] e [BoldBrushstrokes] simultaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWound] e [EagleClawWound], infligge invece 2/3/4 [IntenseColors] (la quantità inflitta si basa sull'effetto che ha meno Stack)",
+      "desc": "Fine Combattimeno: <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [IntenseColors] il turno successivo</u></b></mark></color> ai Peccatori che hanno [BearClawWound], [EagleClawWound] e [BoldBrushstrokes] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWound] e [EagleClawWound], infligge invece 2/3/4 [IntenseColors] (la quantità inflitta si basa sull'effetto che ha meno Stack)",
       "summary": "Infligge Palette Vibrante",
       "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken and express the ferity of those that we call wild beasts among them.'"
     },
     {
       "id": 142304,
-      "name": "Le Fauvisme - Maximum Paint Tolerance Dose",
+      "name": "Le Fauvisme - Dose Massima Tolleranza della Vernice",
       "desc": "Ottiene l'effetto di [PanicChangeLock]\nFine Turno: Se questa unità è in stato di Panico, porta i PS a 30\n\n<color=#ff6000><mark=#ff000040><b><u>A 35%- PV, converte [FaubismWolfMask] in [FaubismWolfMaskBlooded] e recupera fino a 45 PS</u></b></mark></color>",
       "summary": "",
       "flavor": ""
@@ -65,69 +65,69 @@
     },
     {
       "id": 500601,
-      "name": "Reflectrial",
-      "desc": "At 10+ Clashes against the same enemy, randomly gain or lose Clash Power by (Clash Count/10) in a Clash (rounded down)\n\nMax Potency cap for [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]: 30\nMax Count cap for [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]: 10",
+      "name": "Prova di Riflessione",
+      "desc": "A 10+ Scontri contro lo stesso nemico, ottiene o perde casualmente Potere Scontro pari a (numero Scontri/10) in uno Scontro (arrotondato per difetto)\n\nLimite Max Potenza per [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]: 30\nLimite Max Conteggio per [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]: 10",
       "flavor": ""
     },
     {
       "id": 500602,
-      "name": "The Ring's Docent of Fauvism",
-      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Gain 2 [Protection]</u></b></mark></color> for every allied Fauvist Student of the Ring\n- If this unit used \"Critique\" in this Encounter, gain 2 [Protection] and heal 5 SP instead starting from the next turn\n(At lower than -15 SP, double the SP-healing effect)\n- If there are no allied Fauvist Students of the Ring, gain 2 [Vulnerable] and reduce this unit's SP down to 0 instead\n\nImmediately Before Getting Hit by a Skill that has 1 Atk Weight, if there is an allied Student of the Ring, <color=#ff6000><mark=#ff000040><b><u>apply 2 [Protection] on that unit; then, have the said unit take the attack instead (2 times per turn)</u></b></mark></color>\n\nTurn End of the turn this unit used \"Critique\": If an allied Fauvist Student of the Ring was defeated in this Encounter, <color=#ff6000><mark=#ff000040><b><u>refill its vacancy with the same Student unit</u></b></mark></color>\n- Every Turn Start: The Student that refilled the vacancy due to this effect gains (# of allies defeated in this Encounter) [Vulnerable] and [AttackDown] (max 10 each)",
-      "summary": "Immediately before getting hit, force an allied Student to take the hit instead",
+      "name": "La Docente della Scuola Fauvista dell'Anulare",
+      "desc": "Inizio Turno: <color=#ff6000><mark=#ff000040><b><u>Ottiene 2 [Protection]</u></b></mark></color> per ogni alleato Studente Fauvista dell'Anulare\n- Se questa unità ha usato \"Critique\" in questo Incontro, ottiene invece 2 [Protection] e recupera 5 PS a partire dal turno successivo\n(A meno di -15 PS, raddoppia l'effetto di recupero PS)\n- Se non ci sono alleati Studenti Fauvisti dell'Anulare, ottiene invece 2 [Vulnerable] e porta i PS dell'unità a 0\n\nSubito prima di essere colpita da un'Abilità che ha 1 Portata Attacco, se c'è uno Studente dell'Anulare alleato in campo, <color=#ff6000><mark=#ff000040><b><u>applica 2 [Protection] a quell'unità; poi fa subire l'attacco a quell'unità (2 volte per turno)</u></b></mark></color>\n\nFine Turno nel quale questa unità ha usato \"Critique\": Se un alleato Studente Fauvista dell'Anulare è stato sconfitto in questo Incontro, <color=#ff6000><mark=#ff000040><b><u>l'unità sconfitta viene sostituita da un'altra unità di uno Studente</u></b></mark></color>\n- Ogni Inizio Turno: lo Studente che entra in campo con questo effetto ottiene (n° degli alleati sconfitti in questo incontro) [Vulnerable] e [AttackDown] (max 10 per effetto)",
+      "summary": "Subito prima di essere colpita, forza uno Studente alleato a subire il colpo",
       "flavor": ""
     },
     {
       "id": 500603,
-      "name": "Mentorship",
-      "desc": "Turn Start: Randomly apply [AttackUp] and [DefenseUp] to allied Fauvist Students of the Ring equal to the number of turns (including the current turn) each unit has survived, respectively (max 5)\n\nTurn End: If an allied Student is Staggered, <color=#ff6000><mark=#ff000040><b><u>recover them from Stagger</u></b></mark></color>\n- All Attack Type and Affinity Resistance for the Students who recovered from Stagger due to this effect becomes \"Fatal\" for the next turn\n\nTurn End: If a Student is in Panic, heal their SP up to 45",
+      "name": "Tutoraggio",
+      "desc": "Inizio Turno: applica casualmente [AttackUp] e [DefenseUp] agli alleati Studenti Fauvisti dell'Anulare pari al numero dei turni (incluso quello attuale) ad ogni unità sopravvissuta (max 5)\n\nFine Turno: se uno Studente alleato è Stordito, <color=#ff6000><mark=#ff000040><b><u>questo si riprende dallo Stordimento</u></b></mark></color>\n- Tutti i Tipi di Attacco e Resistenze alle Affinità per gli Studenti che si sono ripresi dallo Stordimento grazie a questo effetto diventano \"Fatale\" per il turno successivo\n\nFine Turno: Se uno Studente è in stato di Panico, questo recupera i suoi PS fino a 45",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 500604,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [IntenseColors] next turn</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], and [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] and [EagleClawWound] each, inflict 2/3/4 [IntenseColors] instead (amount inflicted is based on the effect that has the least Stack)",
-      "summary": "Inflict Palette Vibrante",
+      "desc": "Fine Combattimento: <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [IntenseColors] il turno successivo</u></b></mark></color> ai Peccatori che hanno [BearClawWound], [EagleClawWound] e [BoldBrushstrokes] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWound] e [EagleClawWound], infligge invece 2/3/4 [IntenseColors] (la quantità inflitta si basa sull'effetto che ha meno Stack)",
+      "summary": "Infligge Palette Vibrante",
       "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken and express the ferity of those that we call wild beasts among them.'"
     },
     {
       "id": 500605,
       "name": "Casque de Fauve - Empreinte Vitale",
-      "desc": "Gain the effects of [PanicChangeLock]\nTurn End: If this unit is in Panic, reset SP to 45\n\n<color=#ff6000><mark=#ff000040><b><u>At 70%- HP, gain a new pattern</u></b></mark></color>\n- Remove all effects other than those exclusive to this unit\n- Inflict <color=#ff6000><mark=#ff000040><b><u>8 [Laceration], +8 [Laceration] Count, 8 [Sinking], and +8 [Sinking] Count</u></b></mark></color> on all Sinners on the field\n- First Turn Start of the new pattern: Gain [FaubismWolfMask] and heal up to 45 SP",
+      "desc": "Ottiene l'effetto di [PanicChangeLock]\nFine Turno: Se questa unità è in stato di Panico, porta i PS a 45\n\n<color=#ff6000><mark=#ff000040><b><u>A 70%- PV, usa delle Abilità diverse</u></b></mark></color>\n- Rimuove tutti gli effetti, tranne quelli esclusivi di questa unità\n- Infligge <color=#ff6000><mark=#ff000040><b><u>8 [Laceration], +8 Conteggio [Laceration], 8 [Sinking] e +8 Conteggio [Sinking]</u></b></mark></color> a tutti i Peccatori in campo\n- Primo Turno con le nuove Abilità: Ottiene [FaubismWolfMask] e recupera fino a 45 PS",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 500701,
-      "name": "Reflectrial",
-      "desc": "At 10+ Clashes against the same enemy, randomly gain or lose Clash Power by (Clash Count/10) in a Clash (rounded down)\n\nMax Potency cap for [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]: 30\nMax Count cap for [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]: 10",
+      "name": "Prova di Riflessione",
+      "desc": "A 10+ Scontri contro lo stesso nemico, ottiene o perde casualmente Potere Scontro pari a (numero Scontri/10) in uno Scontro (arrotondato per difetto)\n\nLimite Max Potenza per [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]: 30\nLimite Max Conteggio per [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]: 10",
       "flavor": ""
     },
     {
       "id": 500702,
-      "name": "Rufo, a Docent of The Ring's School of Fauvism",
-      "desc": "In the turn this unit uses a powerful attack, Min & Max Speed +15\n\nTake -50% damage from Unopposed Attacks\nDeal +50% damage with Unopposed Attacks\n- If the Slot targeted by this unit's Unopposed Attack has 2+ [Aggro], reduce the increased damage from this effect by 5% per [Aggro] Stack (min 0%)\n\nOn Clash Lose, gain 1 [AttackDmgUp] (5 per turn)\n- At Turn End, or at Attack End of a Skill that hit a Sinner, the [AttackDmgUp] effect gained with this effect expires",
-      "summary": "Take less damage and deal more damage with Unopposed Attacks\nOn Clash Lose, gain Damage Up",
+      "name": "Rufo, la Docente della Scuola Fauvista dell'Anulare",
+      "desc": "Nel turno in cui questa unità usa un'attacco speciale, Velocità Min & Max +15\n\nSubisce -50% danni dagli Attacchi Unilaterali\nInfligge +50% danni con gli Attacchi Unilaterali\n- Se lo Slot bersagliato dall'Attacco Unilaterale di questa unità ha 2+ [Aggro], riduce l'aumento dei danni di questo effetto del 5% per ogni Stack di [Aggro] (min 0%)\n\nA Scontro Perso, ottiene 1 [AttackDmgUp] (5 per turno)\n- A Fine Turno, o a Fine Attacco di un'Abilità che colpisce un Peccatore, il [AttackDmgUp] ottenuto con questo effetto scade",
+      "summary": "Subisce meno danno e infligge più danno con gli Attacchi Unilaterali\nA Scontro Perso, ottiene Danno Aumentato",
       "flavor": ""
     },
     {
       "id": 500703,
       "name": "Le Fauvisme - Masque de Loup : Résurgence de la Sauvagerie",
-      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Gain 10 [Protection]</u></b></mark></color>\n- Gain 1 fewer [Protection] at Turn Start <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect on this unit</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, gain 2 [Vulnerable] from this effect instead</u></b></mark></color> for the next turn\n\n<color=#ff6000><mark=#ff000040><b><u>Gain 1 Defense Level each time this unit is hit</u></b></mark></color> by a Skill Coin (max 20 per turn)\n- Turn End: Defense Level gained due to this effect expires\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, lose 1 Defense Level each time this unit is hit by a Skill Coin instead</u></b></mark></color> for the next turn (max 20; expires at Turn End)",
-      "summary": "When hit, gain Defense Level\nIf this unit lost a Clash using a certain Skill, lose Defense Level instead",
+      "desc": "Inizio Turno: <color=#ff6000><mark=#ff000040><b><u>Ottiene 10 [Protection]</u></b></mark></color>\n- Ottiene 2 [Protection] in meno ad Inizio Turno <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo su questa unità</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>A Scontro Perso usando l'Abilità \"Esplode il Cremisi Pulsante Sotto la Tua Pelle\", ottiene invece 2 [Vulnerable] da questo effetto</u></b></mark></color> per il turno successivo\n\n<color=#ff6000><mark=#ff000040><b><u>Ottiene 1 Livello Difensivo ogni volta che questa unità viene colpita</u></b></mark></color> da una Moneta Abilità (max 20 per turno)\n- Fine Turno: il Livello Difensivo ottenuto con questo effetto scade\n- <color=#ff6000><mark=#ff000040><b><u>A Scontro Perso usando l'Abilità \"Esplode il Cremisi Pulsante Sotto la Tua Pelle\", perde invece 1 Livello Difensivo ogni voltà che questa unità viene colpita da una Moneta Abilità</u></b></mark></color> per il turno successivo (max 20; scade a Fine Turno)",
+      "summary": "Quando viene colpita, ottiene Livello Difensivo\nSe questa unità perde uno Scontro con una certa Abilità, perde invece Livello Difensivo",
       "flavor": ""
     },
     {
       "id": 500704,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [IntenseColors] next turn</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], and [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] and [EagleClawWound] each, inflict 2/3/4 [IntenseColors] instead (amount inflicted is based on the effect that has the least Stack)",
-      "summary": "Inflict Palette Vibrante",
+      "desc": "Fine Combattimento: <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [IntenseColors] il turno successivo</u></b></mark></color> ai Peccatori che hanno [BearClawWound], [EagleClawWound] e [BoldBrushstrokes] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWound] e [EagleClawWound], infligge invece 2/3/4 [IntenseColors] (la quantità inflitta si basa sull'effetto che ha meno Stack)",
+      "summary": "Infligge Palette Vibrante",
       "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken and express the ferity of those that we call wild beasts among them.'"
     },
     {
       "id": 500705,
-      "name": "Le Fauvisme - Maximum Paint Tolerance Dose",
-      "desc": "Gain the effects of [PanicChangeLock]\nTurn End: If this unit is in Panic, reset SP to 45\n\n<color=#ff6000><mark=#ff000040><b><u>At 35%- HP, convert [FaubismWolfMask] into [FaubismWolfMaskBlooded], and heal up to 45 SP</u></b></mark></color>",
+      "name": "Le Fauvisme - Dose Massima Tolleranza della Vernice",
+      "desc": "Ottiene l'effetto di [PanicChangeLock]\nFine Turno: Se questa unità è in stato di Panico, porta i PS a 30\n\n<color=#ff6000><mark=#ff000040><b><u>A 35%- PV, converte [FaubismWolfMask] in [FaubismWolfMaskBlooded] e recupera fino a 45 PS</u></b></mark></color>",
       "summary": "",
       "flavor": ""
     }
