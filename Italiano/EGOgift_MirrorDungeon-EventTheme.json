@@ -3,22 +3,22 @@
     {
       "id": 9701,
       "name": "Cosciotto Scottante e Succoso",
-      "desc": "Quando infliggi [Combustion] con un'Abilità contro nemici, infliggi +3 Conteggio [Combustion] (3 volte per turno)",
+      "desc": "Quando infliggi [Combustion] con un'Abilità contro nemici, infliggi +3 [Combustion] Conteggio (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9701,
-          "simpleDesc": "Quando infliggi [Combustion] con un'abilità, infliggi +3 Conteggio [Combustion]"
+          "simpleDesc": "Quando infliggi [Combustion] con un'abilità, infliggi +3 [Combustion] Conteggio"
         }
       ]
     },
     {
       "id": 9702,
       "name": "Petto Secco Fino all'Osso",
-      "desc": "Quando infliggi [Burst] con un'Abilità contro nemici, infliggi +3 Conteggio [Burst] (3 volte per turno)",
+      "desc": "Quando infliggi [Burst] con un'Abilità contro nemici, infliggi +3 [Burst] Conteggio (3 volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 9702,
-          "simpleDesc": "Quando infliggi [Burst] con un'Abilità, infliggi +3 Conteggio [Burst]"
+          "simpleDesc": "Quando infliggi [Burst]con un'Abilità, infliggi +3 [Burst] Conteggio"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "simpleDesc": [
         {
           "abilityID": 9703,
-          "simpleDesc": "Ottieni +(Velocità/3) Potere Scontro."
+          "simpleDesc": "Guadagna +(Velocità/3) Potere Scontro."
         }
       ]
     },
@@ -84,7 +84,7 @@
     {
       "id": 9708,
       "name": "Vino di Cervello di Granchio dei Rifiuti",
-      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge Potenza o Conteggio [Burst], infliggi (Conteggio [Burst] x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende dallo Stordimento, recuper il 20% dei PV massimi. (2 volte per Incontro)",
+      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge Potenza o Conteggio [Burst], infliggi (Conteggio [Burst] x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende dallo Stordimento, cura 20% dei PV massimi. (2 volte per Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9708,
@@ -92,22 +92,22 @@
         },
         {
           "abilityID": 97081,
-          "simpleDesc": "Recupera il 20% dei PV massimi"
+          "simpleDesc": "Cura 20% dei PV massimi"
         }
       ]
     },
     {
       "id": 9709,
       "name": "Cappello Pom-pom",
-      "desc": "A Fine Turno: Ottieni 1 Potenza [Breath] nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 Potenza [Breath] per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
+      "desc": "A fine turno: guadagna 1 Potenza [Breath] nel prossimo turno per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Scontri Mirati: guadagna 3 Potenza [Breath] per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
       "simpleDesc": [
         {
           "abilityID": 9709,
-          "simpleDesc": "Ottieni 1 Potenza [Breath]"
+          "simpleDesc": "Guadagna 1 Potenza [Breath]"
         },
         {
           "abilityID": 97091,
-          "simpleDesc": "Ottieni 3 Potenza [Breath]"
+          "simpleDesc": "Guadagna 3 Potenza [Breath]"
         }
       ]
     },
@@ -125,7 +125,7 @@
     {
       "id": 9711,
       "name": "Peluche Triste",
-      "desc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende dallo Stordimento, recupera tutti i suoi PS (non si attiva se l'unità Corrode).\n\nSe un alleato ha solo Abilità con Monete Negative: ottieni 3 [Paralysis] ad inizio turno.",
+      "desc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende dallo Stordimento, recupera tutti i suoi PS. (non si attiva se l'unità Corrode)\n\nSe un alleato ha solo Abilità con Monete Negative: guadagna 3 [Paralysis] ad inizio turno.",
       "simpleDesc": [
         {
           "abilityID": 9711,
@@ -137,44 +137,44 @@
         },
         {
           "abilityID": 97112,
-          "simpleDesc": "Ottiene 3 [Paralysis] ad inizio turno"
+          "simpleDesc": "Guadagna 3 [Paralysis] ad inizio turno"
         }
       ]
     },
     {
       "id": 9712,
-      "name": "Libro Mastro Nero",
-      "desc": "A inizio del primo turno: ottiene risorse E.G.O casuali uguali al numero dei nemici.\n\nSe all'Incontro partecipano 4 o più Identità Discendenti della Spada o Clan Kurokumo (solo Identità sul campo all'Inizio dell'Incontro), ottieni risorse E.G.O dell'Affinità con meno risorse.",
+      "name": "Libro Mastro Annerito",
+      "desc": "Ad inizio del primo turno: guadagna risorse E.G.O casuali uguali al numero dei nemici.\n\nSe partccipano all'Incontro 4 o più Identità Discendenti della Spada o Clan Kurokumo (Sono contate solo le identità in campo all'inizio dell'Incontro), guadagna risorse E.G.O dell'Affinità con meno risorse.",
       "simpleDesc": [
         {
           "abilityID": 9712,
-          "simpleDesc": "Ottieni risorse E.G.O casuali"
+          "simpleDesc": "Guadagna risorse E.G.O casuali"
         },
         {
           "abilityID": 97121,
-          "simpleDesc": "Ottieni le risorse E.G.O che possiedi di meno"
+          "simpleDesc": "Guadagna le risorse E.G.O che possiedi di meno"
         }
       ]
     },
     {
       "id": 9713,
       "name": "Elsa Arrugginita",
-      "desc": "Ad inizio del primo turno: tutti gli alleati ottengono Potere Tagliente Aumentato +1.\n\nLe Identità Discendenti della Spada o Clan Kurokumo ottengono invece Potere Tagliente Aumentato +2.",
+      "desc": "Ad inizio del primo turno: tutti gli alleati guadagnano Potere Tagliente Aumentato di 1.\n\nLe identità Discendenti della Spada o Clan Kurokumo invece guadagnano Potere Tagliente Aumentato di 2.",
       "simpleDesc": [
         {
           "abilityID": 9713,
-          "simpleDesc": "Ottiene Potere Tagliente Aumentato +1"
+          "simpleDesc": "Guadagna Potere Tagliente Aumentato di 1"
         },
         {
           "abilityID": 97131,
-          "simpleDesc": "Ottiene Potere Tagliente Aumentato +2"
+          "simpleDesc": "Guadagna Potere Tagliente Aumentato di 2"
         }
       ]
     },
     {
       "id": 9714,
-      "name": "Lama Fratturata",
-      "desc": "Durante questo Incontro: Quando infliggi Potenza [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' per la prima volta contro un nemico con l'effetto di un'Abilità Attacco, infliggi +2 Conteggio [Laceration] in più (1 volta per Incontro).\n\nLe Identità del Clan Kurokumo, invece, infliggono 4 Potenza [Laceration] in più e +4 Conteggio [Laceration].",
+      "name": "Lama Frantumata",
+      "desc": "Durante questo Incontrocontro: quando infliggi potenza [Laceration] o 'Sanguinamento Speciale' per la prima volta contro un nemico con l'effetto di un'Abilità Attacco, infliggi +2 Conteggio [Laceration] extra. (1 volta per Incontro)\n\nLe identità del Clan Kurokumo,invece, quando infliggono danni contro un nemico per la prima volta, infliggi 4 Potenza [Laceration] extra e +4 Conteggio [Laceration].",
       "simpleDesc": [
         {
           "abilityID": 9714,
@@ -188,8 +188,8 @@
     },
     {
       "id": 9715,
-      "name": "Lama Rotta",
-      "desc": "Quando un alleato colpisce un nemico con un Colpo Critico, infligge ulteriori (Potenza [Breath]/3) danni Superbia.\n\nLe Idenità Discendenti della Spada, invece, infliggono ulteriori (Potenza [Breath]/2) danni Superbia.",
+      "name": "Lama Spezzata",
+      "desc": "Quando un alleato colpisce un nemico con un colpo critico, infligge ulteriori (Potenza [Breath]/3) danno Superbia.\n\nLe idenità Discendenti della Spada,invece,quando colpiscono un nemico con un colpo critico, infligge ulteriori (Potenza [Breath]/2) danni Superbia.",
       "simpleDesc": [
         {
           "abilityID": 9715,
@@ -203,69 +203,69 @@
     },
     {
       "id": 9716,
-      "name": "Red Tassel",
-      "desc": "If the target has 1.5 or lower Slash Resistance, Slash Resistance +0.3.",
+      "name": "Nappa Rossa",
+      "desc": "Se il bersaglio ha 1.5 Resistenza Tagliente o di meno, Resistenza Tagliente +0.3.",
       "simpleDesc": [
         {
           "abilityID": 9716,
-          "simpleDesc": "Slash Resistance +0.3"
+          "simpleDesc": "Resistenza Tagliente +0.3"
         }
       ]
     },
     {
       "id": 9717,
-      "name": "Sublimity",
-      "desc": "Turn Start: activates when there are 3 or more Kurokumo Clan Identities(only counts Identities on the field).\n\nTurn Start: all allies gain 2 Slash Power Up, and deal +35% more Slash damage.\n\nTurn Start: when a Kurokumo Clan Identity deals damage for the first time, inflict an additional 4 [Laceration] Potency and +4 [Laceration] Count. (Once per turn)",
+      "name": "Sublimità",
+      "desc": "Ad inizio turno: si attiva quando ci sono 3 o più Identità del Clan Kurokumo(sono contate solo le identità in campo).\n\nAd inizio turno: tutti gli alleati guadagnano 2 Potere Tagliente Aumentato e infliggono +35% danni Taglienti.\n\nAd inizio turno: Quando un'Identità del Clan Kurokumo infligge danni per la prima volta, infligge 4 Potenza [Laceration] extra e +4 Conteggio [Laceration]. (1 volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9717,
-          "simpleDesc": "Gain 2 Slash Power Up and deal +35% more Slash Damage"
+          "simpleDesc": "Guadagna 2 Potere Tagliente Aumentato e infliggi +35% danni Taglienti"
         },
         {
           "abilityID": 97171,
-          "simpleDesc": "Inflict additional 4 [Laceration] Potency and +4 [Laceration] Count"
+          "simpleDesc": "Infliggi 4 Potenza [Laceration] extra e +4 Conteggio [Laceration]. (1 volta per turno)"
         }
       ]
     },
     {
       "id": 9718,
-      "name": "Unbending",
-      "desc": "Turn Start: activates when there are 3 or more Blade Lineage Identities(only counts Identities on the field).\n\nTurn Start: all allies gain 2 Slash Power Up, and deal +35% more Slash damage.\n\nTurn Start: when a Blade Lineage Identity hits critically, deal additional Pride damage equal to [Breath] Potency on self.",
+      "name": "Inflessibile",
+      "desc": "Ad inizio turno: si attiva se ci sono 3 o più Identità Discendenti della Spada(sono contate solo le Identità in campo).\n\nAd inizio turno: tutti gli alleati guadagnano Potere Tagliente Aumentato di 2, e infliggono +35% Danni Taglienti extra.\n\nAd inizio turno:quando un'Identità Discendenti della Spada fa un colpo critico, infligge ulteriori danni Superbia pari a Potenza [Breath] Potency su sé stessi.",
       "simpleDesc": [
         {
           "abilityID": 9718,
-          "simpleDesc": "Gain 2 Slash Power Up and deal +35% more Slash Damage"
+          "simpleDesc": "Guadagna Potere Tagliente Aumentato di 2 e infliggi  +35% Danni Taglienti extra"
         },
         {
           "abilityID": 97181,
-          "simpleDesc": "Deal additional Pride damage equal to [Breath] Potency on self"
+          "simpleDesc": "Infligge Danni Superbia extra pari a Potenza [Breath] su sé stessi"
         }
       ]
     },
     {
       "id": 9719,
-      "name": "Ragged Bamboo Hat",
-      "desc": "Turn Start: activates when there are 3 or more Blade Lineage Identities(only counts Identities on the field).\n\nAll allies deal +50% more Slash damage\n\nBlade Lineage Identities: if the ally has [Breath], Critical rate is fixed to 100%.\n\nBlade Lineage Identities: inflict x1.5 more damage on Crit",
+      "name": "Cappello di Bambù Logoro",
+      "desc": "Ad inizio turno: Si attiva se ci sono 3 o più Identità Discendenti della Spada(sono contate solo le Identità in campo).\n\nTutti gli alleati infliggono +50% Danni Taglienti extra\n\nIdentità Discendenti della Lama: se l'alleato ha [Breath], il Tasso Critico è fissato a 100%.\n\nIdentità Discendenti della Spada: infliggi x1.5 danni extra con colpo critico",
       "simpleDesc": [
         {
           "abilityID": 9719,
-          "simpleDesc": "Deal +50% Slash Damage"
+          "simpleDesc": "Infliggi +50% Danni Taglienti"
         },
         {
           "abilityID": 97191,
-          "simpleDesc": "Fix Critical rate to 100%"
+          "simpleDesc": "Tasso critico fissato a 100%"
         },
         {
           "abilityID": 97192,
-          "simpleDesc": "Deal 1.5 times more damage on Crit"
+          "simpleDesc": "Infliggi 1.5 volte più danni con colpo critico"
         }
       ]
     },
     {
       "id": 9720,
-      "name": "Old Dopo Robe",
-      "desc": "Turn Start: activates when there are 3 or more Blade Lineage Identities(only counts Identities on the field).\n\nAll allies deal +50% more Slash damage.\n\nBlade Lineage Identities: Skill 1 gains Coin Power +1. Single-Coin Skill 1 gains Coin Power +3.\n\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -24; 'To Claim Their Bones' Skill deals +50% damage.",
-      "simpleDesc": [
+      "name": "Vecchia Tunica Dopo",
+      "desc": "Inizio dell'Incontro: Gli effetti si applicano quando sono presenti 3 o più Identità dei Discendenti della Spada (conta solo le Identità sul campo di battaglia).\n\nTutti gli alleati infliggono il 50% di danno Tagliente aggiuntivo.\n\nPer le Identità dei Discendenti della Spada: L'Abilità 1 ottiene Potere Moneta Positivo +1. Le Abilità 1 con Moneta Singola ottengono Potere Moneta Positivo +3.\n\n[Esclusivo a Mentore dei Discendenti della Spada Meursault] l'Abilità 'Cedo la Carne' ottiene Potere Scontro Finale -12; 'Per Strappare le Ossa' infligge il 50% in più di danni aggiuntivi",
+            "simpleDesc": [
         {
           "abilityID": 9720,
           "simpleDesc": "Deal +50% Slash Damage"
@@ -282,186 +282,186 @@
     },
     {
       "id": 9721,
-      "name": "Silver Watch Case",
-      "desc": "When dealing damage to an enemy with Attack Skills(except E.G.O Skills) that inflict [Vibration] Potency, Count, or Unique Tremor, deal +10% damage.\n\nIf the Skill triggered [VibrationExplosion] on the enemy for the first time this turn, inflict +2 [Vibration] Count next turn (once per turn)",
+      "name": "Cassa Argentata",
+      "desc": "Quando danneggi un nemico con Abilità Attacco (Eccetto Abilità E.G.O.) che causano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi +10% di danno.\n\nSe l'Abilità attiva [VibrationExplosion] su un nemico in questo turno, infliggi +2 Conteggio [Vibration] nel turno successivo (Una volta per turno)",
       "simpleDesc": [
         {
-          "abilityID": 9721,
-          "simpleDesc": "Deal +10% damage"
+          "abilityID": 2036,
+          "simpleDesc": "Infliggi +10% di danno"
         },
         {
-          "abilityID": 97211,
-          "simpleDesc": "Inflict +2 [Vibration] Count next turn"
+          "abilityID": 20361,
+          "simpleDesc": "Infliggi +2 Conteggio [Vibration] nel turno dopo"
         }
       ]
     },
     {
       "id": 9722,
-      "name": "Faded Watch Case",
-      "desc": "When Clashing with a faster enemy, Clash Power +1.\n\nWhen dealing damage to a faster enemy, inflict 3 [Vibration] Potency and +2 [Vibration] Count next turn. (once per turn)",
+      "name": "Cassa Sbiadita",
+      "desc": "In Scontro contro un nemico più veloce, ottieni Potere Scontro +1.\n\nQuando si danneggia un nemico più veloce, infliggi 3 Potenza [Vibration] e +2 Conteggio [Vibration] nel turno successivo. (Una volta per turno)",
       "simpleDesc": [
         {
-          "abilityID": 9722,
-          "simpleDesc": "Clash Power +1"
+          "abilityID": 2037,
+          "simpleDesc": "Potere Scontro +1"
         },
         {
-          "abilityID": 97221,
-          "simpleDesc": "Inflict 3 [Vibration] Potency and +2 [Vibration] Count next turn"
+          "abilityID": 20371,
+          "simpleDesc": "Infliggi 3 Potenza [Vibration] e +2 Conteggio [Vibration] nel turno dopo"
         }
       ]
     },
     {
       "id": 9723,
-      "name": "Warning Notice",
-      "desc": "Turn End: Inflict 1 [Binding] to the fastest enemy next turn. (for Abnormalities, a Part)\n\nIf the target has [Vibration] or 'Unique Tremor', inflict 2 [Binding] instead.\n\nWhen an ally attacks targets with [Binding], deal +(5 + (2.5 x [Binding] value)) more damage. (max 15%)",
+      "name": "Avviso di Sollecito",
+      "desc": "Fine Turno: Infliggi 1 [Binding] al nemico più veloce il prossimo turno. (per Anormalità, una Parte)\n\nSe il bersaglio ha [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi 2 [Binding] invece.\n\nQuando un alleato attacca dei nemici con [Binding], infliggi +(5 + (2.5 x Stack di [Binding]))% in più di danno. (Max 15%)",
       "simpleDesc": [
         {
-          "abilityID": 9723,
-          "simpleDesc": "Apply 1 [Binding] next turn"
+          "abilityID": 2038,
+          "simpleDesc": "Applica 1 [Binding] il turno dopo"
         },
         {
-          "abilityID": 97231,
-          "simpleDesc": "Deal +(5 + (2.5 x [Binding] value)) more damage"
+          "abilityID": 20381,
+          "simpleDesc": "Infliggi +(5 + (2.5 x Stack di [Binding]))% in più di danno"
         }
       ]
     },
     {
       "id": 9724,
-      "name": "Etched Clock Hands",
-      "desc": "First Turn Start of a wave: inflict (9 - current Speed) [Vibration] Potency to 3 enemies with the slowest Speed. (min. 3)\n\nDeal +10% damage against targets with 12+ [Vibration] or 'Unique Tremor' at Turn Start.",
+       "name": "Lancette Incise",
+      "desc": "Inizio del Primo Turno di un'Ondata: Infliggi (9 - Velocità corrente) Potenza [Vibration] ai 3 nemici con minore Velocità. (Min 3)\n\nInfliggi +10% di danno contro i bersagli con 12+ [Vibration] o '<noparse>Vibrazione</noparse> Speciale' ad Inizio Turno.",
       "simpleDesc": [
         {
-          "abilityID": 9724,
-          "simpleDesc": "Inflict (9 - current Speed) [Vibration] Potency"
+          "abilityID": 2039,
+          "simpleDesc": "Infliggi(9 - Velocità corrente) Potenza [Vibration]"
         },
         {
-          "abilityID": 97241,
-          "simpleDesc": "Deal +10% damage"
+          "abilityID": 20391,
+          "simpleDesc": "Infliggi +10% di danno"
         }
       ]
     },
     {
       "id": 9725,
-      "name": "Rusted Clock Hands",
-      "desc": "First Turn Start of a wave: inflict (9 - current Speed) [Vibration] Potency (min. 3) and (9 - current Speed)/2 [Vibration] Count to 1 enemy with the fastest Speed. (rounded up; for Abnormalities, a Part)\n\nTake -10% damage from targets with 12+ [Vibration] or 'Unique Tremor' at Turn Start.",
+      "name": "Lancette Arruginite",
+      "desc": "Inizio del Primo Turno di un'Ondata: Infliggi (9 - Velocità corrente) Potenza [Vibration] (Min 3) e (9 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte)\n\nSubisci -10% di danno dai nemici con 12+ [Vibration] o '<noparse>Vibrazione</noparse> Speciale' ad Inizio Turno.",
       "simpleDesc": [
         {
-          "abilityID": 9725,
-          "simpleDesc": "Inflict (9 - current Speed) [Vibration] Potency (min. 3) and (9 - current Speed)/2 [Vibration] Count"
+          "abilityID": 2040,
+          "simpleDesc": "Infliggi (9 - Velocità corrente) Potenza [Vibration] (Min 3) e (9 - Velocità corrente)/2 Conteggio [Vibration]"
         },
         {
-          "abilityID": 97251,
-          "simpleDesc": "Damage Taken -10%."
+          "abilityID": 20401,
+          "simpleDesc": "Danni Subiti -10%."
         }
       ]
     },
     {
       "id": 9726,
-      "name": "Chalice of Trickle-down",
-      "desc": "When an ally with Attack Skills(except E.G.O Skills) that inflict [Vibration] Potency, Count, or 'Unique Tremor' wins a Clash, inflict 2 [Vibration] Potency and +2 [Vibration] Count. (2 times per turn)\n\nYurodivy Identities: inflict 3 [Vibration] Potency and +3 [Vibration] Count instead (3 times per turn)\n\nIf the affected Identity Clashes against targets with higher Offense Levels, Clash Power +2; deal +20% damage when attacking after winning the Clash.",
+      "name": "Calice dell'Effetto a Cascata",
+      "desc": "Quando un alleato vince uno Scontro con un'Abilità Attacco (Non Abilità E.G.O) che causa Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi 2 Potenza [Vibration] e +2 Conteggio [Vibration]. (2 volte per turno)\n\nIdentità del Yurodivy: Infliggi 3 Potenza [Vibration] e +3 Conteggio [Vibration] invece. (3 volte per turno)\n\nSe l'Identità affetta si Scontra contro bersagli con Livello Offensivo più grande, Potere Scontro +2; infligge +20% di danno dopo aver vinto lo Scontro.",
       "simpleDesc": [
         {
-          "abilityID": 9726,
-          "simpleDesc": "Inflict 2 [Vibration] Potency and +2 [Vibration] Count"
+          "abilityID": 2041,
+          "simpleDesc": "Infliggi 2 Potenza [Vibration] e +2 Conteggio [Vibration]"
         },
         {
-          "abilityID": 97261,
-          "simpleDesc": "Inflict 3 [Vibration] Potency and +3 [Vibration] Count"
+          "abilityID": 20411,
+          "simpleDesc": "Infliggi 3 Potenza [Vibration] e +3 Conteggio [Vibration]"
         },
         {
-          "abilityID": 97262,
-          "simpleDesc": "Clash Power +2, deal +20% damage"
+          "abilityID": 20412,
+          "simpleDesc": "Potere Scontro +2, infliggi +20% di danno"
         }
       ]
     },
     {
       "id": 9727,
-      "name": "Prepaid Time Receipt",
-      "desc": "Deal +(5 + (2.5 x Speed difference))% damage against faster enemies with 2+ Speed difference. (max 15%)\n\nTurn End: If an ally dealt damage with an Attack Skill (except E.G.O Skills) this turn against faster enemies with 2+ Speed difference, inflict 2 [Binding] and 1 [ResultReduction] to the enemy next turn. (once per turn)",
+         "name": "Ricevuta del Tempo Prepagato",
+      "desc": "Infliggi +(5 + (2.5 x differenza di Velocità))% di danno contro nemici più veloci con 2+ di differenza di Velocità. (Max 15%)\n\nFine Turno: Se un alleato ha danneggiato con un'Abilità Attacco (Eccetto Abilità E.G.O.) in questo turno contro nemici più veloci con 2+ di differenza di Velocità, infliggi 2 [Binding] e 1 [ResultReduction] al nemico nel turno successivo. (Una volta per turno)",
       "simpleDesc": [
         {
-          "abilityID": 9727,
-          "simpleDesc": "Deal +(5 + (2.5 x Speed difference))% damage"
+          "abilityID": 2042,
+          "simpleDesc": "Infliggi +(5 + (2.5 x differenza di Velocità))% di danno"
         },
         {
-          "abilityID": 97271,
-          "simpleDesc": "Inflict 2 [Binding] and 1 [ResultReduction] to the enemy next turn"
+          "abilityID": 20421,
+          "simpleDesc": "Infliggi 2 [Binding] e 1 [ResultReduction] al nemico nel turno dopo"
         }
       ]
     },
     {
       "id": 9728,
-      "name": "Pocket Watch : Type L",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills; except Backup Units)\n\nTo allies' Skill 3s that inflict [Vibration] Potency, Count, or 'Unique Tremor': Plus Coin Power +2 and deal +25% damage.\n- Minus Coin Skills: Instead of gaining Plus Coin Power, gain Base Power +(8/# of Coins) (min 1; rounded down)\n\nWhen an ally that inflicts [Vibration] Potency, Count, or 'Unique Tremor' triggers [Switch_Vibration] or [FusionVibration] on an enemy with Attack Skills(Including E.G.O Skills): multiply the [Vibration] Potency and Count by 1.5(only when actually Converting them into different 'Tremor' types) and inflict 5 [DefenseDown] next turn. (once per turn)\n\nTurn Start: inflict (12 - current Speed) [Vibration] Potency (min. 6) to 3 enemies with the slowest Speed. (once per wave)",
+      "name": "Orologio da Taschino : Tipo L",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' attiva [Switch_Vibration] su un nemico tramite Abilità Attacco (Incluse Abilità E.G.O.): Moltiplica Potenza e Conteggio [Vibration] di 1.5 (solamente quando viene Convertito in un tipo diverso di 'Vibrazione') ed infligge 5 [DefenseDown] nel turno successivo. (Una volta per turno)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) ai 3 nemici con Velocità minore. (Una volta per Ondata)",
       "simpleDesc": [
         {
-          "abilityID": 9728,
-          "simpleDesc": "Skill 3 gains Coin/Base Power and deals +25% damage"
+          "abilityID": 2043,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +25% di danno"
         },
         {
-          "abilityID": 97281,
-          "simpleDesc": "Multiply [Vibration] Potency and Count by 1.5 when triggering Amplitude Conversion"
+          "abilityID": 20431,
+          "simpleDesc": "Moltiplica Potenza e Conteggio [Vibration] di 1.5 quando attivi [Switch_Vibration]"
         },
         {
-          "abilityID": 97282,
-          "simpleDesc": "Inflict (12 - current Speed) [Vibration] Potency"
+          "abilityID": 20432,
+          "simpleDesc": "Infliggi (12 - Velocità corrente) Potenza [Vibration]"
         }
       ]
     },
     {
       "id": 9729,
-      "name": "Pocket Watch : Type E",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor' effects. (except E.G.O Skills; except Backup Units)\n\nTo allies' Skill 3s that inflict [Vibration] Potency, Count, or 'Unique Tremor': Plus Coin Power +2 and deal +25% damage.\n- Minus Coin Skills: Instead of gaining Plus Coin Power, gain Base Power +(8/# of Coins) (min 1; rounded down)\n\nWhen an ally that inflicts [Vibration] Potency, Count, or 'Unique Tremor' deals damage to a slower enemy with 2+ Speed difference between them: deal +([Vibration] Potency on target, max 25)% damage and inflict 2 [DefenseDown] every time the ally deals damage (max 6)\n\nTurn Start: inflict (12 - current Speed) [Vibration] Potency (min. 6) and (12 - current Speed)/2 [Vibration] Count to 1 enemy with the fastest Speed. (rounded up; for Abnormalities, a Part; once per wave)",
+      "name": "Orologio da Taschino : Tipo E",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' danneggia un nemico più lento con 2+ differenza di Velocità: infliggi +(Potenza [Vibration] sul bersaglio, Max 25)% di danno e 2 [DefenseDown] ogni volta che l'alleato causa del danno (Max 6)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) e (12 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte; Una volta per Ondata)",
       "simpleDesc": [
         {
-          "abilityID": 9729,
-          "simpleDesc": "Skill 3 gains Coin/Base Power and deals +25% damage"
+          "abilityID": 2044,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +25% di danno"
         },
         {
-          "abilityID": 97291,
-          "simpleDesc": "Deal +([Vibration] Potency on target)% damage; inflict 2 [DefenseDown] every time the ally deals damage"
+          "abilityID": 20441,
+          "simpleDesc": "Infliggi +(Potenza [Vibration] al nemico)% di danno e 2 [DefenseDown] ogni volta che l'alleato danneggia"
         },
         {
-          "abilityID": 97292,
-          "simpleDesc": "Inflict (12 - current Speed) [Vibration] Potency (min. 3) and (9 - current Speed)/2 [Vibration] Count"
+          "abilityID": 20442,
+          "simpleDesc": "Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) e (12 - Velocità corrente)/2 Conteggio [Vibration]"
         }
       ]
     },
     {
       "id": 9730,
-      "name": "Pocket Watch : Type Y",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor' effects. (except E.G.O Skills; except Backup Units)\n\nTo allies' Skill 3s that inflict [Vibration] Potency, Count, or 'Unique Tremor': Plus Coin Power +2 and deal +25% damage.\n- Minus Coin Skills: Instead of gaining Plus Coin Power, gain Base Power +(8/# of Coins) (min 1; rounded down)\n\nYurodivy Identities: Skill 3 gains Coin Power +2 and deal +(25 + (sum of [Vibration] Potency and Count on target))% damage. (max 100%)\n\nYurodivy Identities: gain +3 [Vibration] Count at Turn Start.",
+       "name": "Orologio da Taschino : Tipo Y",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nIdentità del Yurodivy: l'Abilità 3 ottiene Potere Moneta +2 ed infligge +(25 + (somma della Potenza e Conteggio [Vibration] sul bersaglio))% di danno. (Max 100%)\n\nIdentità del Yurodivy: ottieni +3 Conteggio [Vibration] ad Inizio Turno.",
       "simpleDesc": [
         {
-          "abilityID": 9730,
-          "simpleDesc": "Skill 3 gains Coin/Base Power and deals +25% damage"
+          "abilityID": 2045,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +25% di danno"
         },
         {
-          "abilityID": 97301,
-          "simpleDesc": "Skill 3 gains Coin Power +2 and deal +(25 + (sum of [Vibration] Potency and Count on target))% damage."
+          "abilityID": 20451,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +(25 + (somma della Potenza e Conteggio [Vibration] sul nemico))% di danno."
         },
         {
-          "abilityID": 97302,
-          "simpleDesc": "Gain +3 [Vibration] Count"
+          "abilityID": 20452,
+          "simpleDesc": "Ottieni +3 Conteggio [Vibration]"
         }
       ]
     },
     {
       "id": 9731,
-      "name": "Pocket Watch : Type P",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor' effects. (except E.G.O Skills; except Backup Units)\n\nTo allies' Skill 3s that inflict [Vibration] Potency, Count, or 'Unique Tremor': Plus Coin Power +2 and deal +25% damage.\n- Minus Coin Skills: Instead of gaining Plus Coin Power, gain Base Power +(8/# of Coins) (min 1; rounded down)\n\nWhen an ally that inflicts [Vibration] Potency, Count, or 'Unique Tremor' Clashes against a faster enemy with 2+ Speed difference: Clash Power +2 and deal +([Vibration] Potency on target)% damage. (max 50%)\n\nTurn Start: from slowest to fastest, the 3 slowest allies gain 5 [AttackUp], 3 [AttackUp], and 2 [AttackUp] respectively.",
+       "name": "Orologio da Taschino : Tipo P",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% di danno.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' si Scontra contro un nemico più veloce con +2 differenza di Velocità: Potere Scontro +2 ed infligge +(Potenza [Vibration] sul bersaglio)% di danno. (Max 50%)\n\nInizio Turno: dal più lento al più veloce, i 3 alleati più lenti ottengono rispettivamente 5 [AttackUp], 3 [AttackUp], e 2 [AttackUp].",
       "simpleDesc": [
         {
-          "abilityID": 9731,
-          "simpleDesc": "Skill 3 gains Coin/Base Power and deals +25% damage"
+          "abilityID": 2046,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +25% di danno"
         },
         {
-          "abilityID": 97311,
-          "simpleDesc": "Clash Power +2 and deal +([Vibration] Potency on target)% damage"
+          "abilityID": 20461,
+          "simpleDesc": "Potere Scontro +2 ed infliggi +(Potenza [Vibration] sul nemico)% di danno"
         },
         {
-          "abilityID": 97312,
-          "simpleDesc": "Gain [AttackUp]"
+          "abilityID": 20462,
+          "simpleDesc": "Ottieni [AttackUp]"
         }
       ]
     }
