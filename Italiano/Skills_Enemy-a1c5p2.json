@@ -709,13 +709,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Right in the Solar Plexus",
+                    "name": "Dritto al Plesso Solare",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze next turn"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il prossimo turno"
                                 }
                             ]
                         }
@@ -728,20 +728,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "We Remember!",
-                    "desc": "[DefeatDuel] Gain 1 Damage Up next turn",
+                    "name": "Non Dimentichiamo Mai!",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Deal additional fixed damage equal to the number of the Middle allies killed during this wave"
+                                    "desc": "[OnSucceedAttack] Infligge danni bonus in base al numero di alleati del Medio sconfitti durante quest'Ondata"
                                 }
                             ]
                         }
@@ -754,20 +754,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Skull Crushing",
+                    "name": "Spaccacranio",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 1 Attack Power Down next turn"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown] il prossimo turno"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 Paralyze next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
                                 }
                             ]
                         }
@@ -780,8 +780,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Ready to Write",
-                    "desc": "[EndBattle] If this unit has Shield, gain 1 Attack Power Up next turn",
+                    "name": "Pronto a Scrivere",
+                    "desc": "[EndBattle] Se ha Scudo, ottiene 1 [AttackDmgUp] il prossimo turno",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -799,17 +799,17 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Vengeance",
-                    "desc": "[DefeatDuel] Gain 1 Damage Up next turn",
+                    "name": "Vendetta",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 Paralyze next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Raise Stagger Threshold by 8"
+                                    "desc": "[OnSucceedAttackTail] Alza la Soglia di Stordimento del bersaglio di 8"
                                 }
                             ]
                         }
@@ -822,19 +822,19 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Multifold Retribution",
+                    "name": "Rappresaglia Molteplice",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30"
+                                    "desc": "[OnSucceedAttackTail] Alza la Soglia di Stordimento del bersaglio di 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Deal 20 fixed PV damage"
+                                    "desc": "[OnSucceedAttack] Infligge 20 danni ai PV"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze next turn"
+                                    "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis] il prossimo turno"
                                 }
                             ]
                         }
@@ -847,13 +847,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Right in the Solar Plexus",
+                    "name": "Dritto al Plesso Solare",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze next turn"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il prossimo turno"
                                 }
                             ]
                         }
@@ -866,20 +866,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Write Their Sins!",
-                    "desc": "[DefeatDuel] Gain 1 Damage Up next turn",
+                    "name": "Scrivete i Loro Peccati!",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 Damage Down next turn"
+                                    "desc": "[OnSucceedAttackHead] Infligge 2 [AttackDmgDown] il prossimo turno"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Deal additional fixed damage equal to the number of the Middle allies killed during this wave"
+                                    "desc": "[OnSucceedAttack] Infligge danni bonus in base al numero di alleati del Medio sconfitti durante quest'Ondata"
                                 }
                             ]
                         }
@@ -892,20 +892,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Skull Bursting",
+                    "name": "Spaccacranio",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 1 Plus Coin Drop next turn"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [PlusCoinValueDown] il prossimo turno"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 Plus Coin Drop next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 1 [PlusCoinValueDown] il prossimo turno"
                                 }
                             ]
                         }
@@ -918,8 +918,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Ready to Write",
-                    "desc": "If this unit's Shield is fully depleted, gain 1 Attack Power Up next turn",
+                    "name": "Pronto a Scrivere",
+                    "desc": "Se lo Scudo di questa unità è sceso a 0, ottiene 1 [AttackDmgUp] il prossimo turno",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -937,17 +937,17 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Vengeance",
-                    "desc": "[DefeatDuel] Gain 1 Damage Up next turn",
+                    "name": "Vendetta",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 Paralyze next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Raise Stagger Threshold by 8"
+                                    "desc": "[OnSucceedAttackTail] Alza la Soglia di Stordimento del bersaglio di 8"
                                 }
                             ]
                         }
@@ -960,19 +960,19 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Multifold Retribution",
+                    "name": "Rappresaglia Molteplice",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30"
+                                    "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio di 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Deal 20 fixed PV damage"
+                                    "desc": "[OnSucceedAttack] Infligge 20 danni ai PV"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 Paralyze next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il prossimo turno"
                                 }
                             ]
                         }

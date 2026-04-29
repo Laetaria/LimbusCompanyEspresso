@@ -5,14 +5,14 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "No More Tests",
-                    "desc": "[WhenUse] Gain 3 [HitDamageUp] next turn\n[WhenUse] If the main target has 3+ [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s",
+                    "name": "Fine Dei Test",
+                    "desc": "[WhenUse] Ottiene 3 [HitDamageUp] il prossimo turno\n[WhenUse] Se il bersaglio principale ha 3+ [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
                                 }
                             ]
                         }
@@ -25,30 +25,30 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Promised Suffering",
-                    "desc": "Prioritizes targets with the highest [MiddleFingerBook] Stack\n[WhenUse] If the target has 3+ [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s",
+                    "name": "Sofferenza Promessa",
+                    "desc": "Dà priorità al nemico con più [MiddleFingerBook]\n[WhenUse] Se il bersaglio ha 3+ [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]s",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] in questo turno e nel turno successivo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] in questo turno e nel turno successivo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict ([MiddleFingerBook] on the target x 3) Blunt bonus damage"
+                                    "desc": "[OnSucceedAttack] Infligge ([MiddleFingerBook] sul bersaglio x 3) danni Contundenti bonus"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Remove all [MiddleFingerBook] on the target"
+                                    "desc": "[OnSucceedAttack] Rimuove ogni [MiddleFingerBook] sul bersaglio"
                                 }
                             ]
                         }
@@ -61,8 +61,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Enough games",
-                    "desc": "[StartBattle] Heal all allies' PS by 10\n[EndBattle] If there are Panicked allies, recover them from Panic at the next Turn Start and reset their PS to 0\n[EndBattle] Apply 1 [HitResultUp] to all allies, including this unit",
+                    "name": "Basta Giochetti",
+                    "desc": "[StartBattle] Tutti gli alleati recuperano 10 PS\n[EndBattle] Se ci sono alleati in stato di Panico, essi ne escono il prossimo Turno e i loro PS tornano a 0\n[EndBattle] Applica 1 [HitResultUp] a tutti gli alleati (include questa unità)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -80,8 +80,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "COMPLETE AND TOTAL EXTERMINATION!!!",
-                    "desc": "Can Clash with this Skill regardless of Speed\nIf the main target has 5+ [MiddleFingerBook], Final Power +5\n[EndSkill] Remove [MiddleFingerBook] from all targets that were hit",
+                    "name": "VI CONDANNO A MORTE!!!",
+                    "desc": "Ci si può Scontrare con l'Abilità a prescindere dalla Velocità\nSe il bersaglio principale ha 5+ [MiddleFingerBook], Potere Finale +5\n[EndSkill] Rimuovi ogni [MiddleFingerBook] da ogni bersaglio colpito",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -89,7 +89,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict ([MiddleFingerBook] on the target x 10) Blunt bonus damage"
+                                    "desc": "[OnSucceedAttack] Infligge ([MiddleFingerBook] sul bersaglio x 10) danni Contundenti bonus"
                                 }
                             ]
                         }
@@ -102,13 +102,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Startling Strike",
-                    "desc": "[WhenUse] If the target has 5+ [Burst], Clash Power +1",
+                    "name": "Colpo Stordente",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Burst], Potere Scontro +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                                 }
                             ]
                         }
@@ -121,16 +121,16 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Perforating Kill",
-                    "desc": "[WhenUse] If the target has 5+ [Burst], Clash Power +1\n[WhenUse] Gain 3 [LegStrength]",
+                    "name": "Uccisione Perforante",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Burst], Potere Scontro +1\n[WhenUse] Ottiene 3 [LegStrength]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] If the target has [BurstAgility], gain 1 [Agility] next turn"
+                                    "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstAgility], ottiene 1 [Agility] il prossimo turno"
                                 }
                             ]
                         }
@@ -143,23 +143,23 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Etching Strike",
-                    "desc": "[WhenUse] If the target has 5+ [Burst], Coin Power +1",
+                    "name": "Colpo Incisore",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Burst], Potere Scontro +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict [BurstAgility]"
+                                    "desc": "[OnSucceedAttack] Infligge [BurstAgility]"
                                 }
                             ]
                         }
@@ -172,8 +172,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Cursewrit Butcherblade - Blinkstep",
-                    "desc": "Prioritizes targets with [BurstAgility]\nDeal +15% damage for every 2 Speed difference between this unit and the target (max 60%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on the target (max 2)\n[WhenUse] Base Power +1 for every 2 [Burst] Count on the target (max 3)\n[EndSkill] At 10+ Speed, and if target is defeated, Reuse this Skill against a random enemy (once per turn)",
+                    "name": "Lama Macellaia Maledetta - Scatto Fulmineo",
+                    "desc": "Dà priorità ai bersagli con [BurstAgility]\nInfligge +15% danni per ogni 2 differenza di Velocità (max 60%)\n[WhenUse] Potere Moneta +1 per ogni 5 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Base +1 per ogni 2 Conteggio [Burst] sul bersaglio (max 3)\n[EndSkill] A 10+ Velocità, se sconfigge il bersaglio, Riusa questa Abilità su un nemico a caso (una volta per turno)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -181,7 +181,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                                    "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                                 }
                             ]
                         },
@@ -191,7 +191,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                                 }
                             ]
                         },
@@ -201,10 +201,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "If the target has [BurstAgility], deal +50% damage"
+                                    "desc": "Se il bersaglio ha [BurstAgility], +50% danni"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                                 }
                             ]
                         }
@@ -217,27 +217,27 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Cursewrit",
-                    "desc": "[DuelCounter]\n[WhenUse] If the target has [BurstAgility], inflict +1 more [Burst] Count with this Skill",
+                    "name": "Lama Coperta di Maledizioni",
+                    "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [BurstAgility], gli effetti di questa Abilità infliggono +1 Conteggio [Burst]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                                    "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                                    "desc": "[OnSucceedAttack] Infligge +1 [Burst] Conteggio"
                                 }
                             ]
                         }
