@@ -1769,7 +1769,7 @@
     {
       "id": 9065,
       "name": "Senso Artistico",
-      "desc": "Infliggi +35% di danno contro i nemici affetti da effetti negativi (Morale Basso, Panico) causati da perdità di PS.\n\nSe l'Abilità infligge Potenza o Conteggio [Sinking](incluso '<noparse>Annegamento</noparse> Speciale'), infliggi ulteriormente +10% di danno.\n\nQuando l'effetto di [Sinking] viene applicato ai nemici senza Sanità, l'Affinità del danno inflitto cambia con quella più efficace.",
+      "desc": "Infliggi +35% di danno contro i nemici affetti da effetti negativi (Morale Basso, Panico) causati da perdità di PS.\n\nSe l'Abilità infligge Potenza o Conteggio [Sinking](incluso '<noparse>Annegamento</noparse> Speciale'), infliggi ulteriormente +10% di danno.\n\nQuando l'effetto di [Sinking] viene applicato ai nemici Senza PS, l'Affinità del danno inflitto cambia con quella più efficace.",
       "simpleDesc": [
         {
           "abilityID": 9065,
@@ -1784,7 +1784,7 @@
     {
       "id": 19065,
       "name": "Senso Artistico+",
-      "desc": "<style=\"upgradeHighlight\">Infliggi +40% di danno contro i nemici con meno di 0 PS.</style>\n\nSe l'Abilità infligge Potenza o Conteggio [Sinking](incluso '<noparse>Annegamento</noparse> Speciale'), infliggi ulteriormente +10% di danno.\n\nQuando l'effetto di [Sinking] viene applicato ai nemici senza Sanità, l'Affinità del danno inflitto cambia con quella più efficace.",
+      "desc": "<style=\"upgradeHighlight\">Infliggi +40% di danno contro i nemici con meno di 0 PS.</style>\n\nSe l'Abilità infligge Potenza o Conteggio [Sinking](incluso '<noparse>Annegamento</noparse> Speciale'), infliggi ulteriormente +10% di danno.\n\nQuando l'effetto di [Sinking] viene applicato ai nemici Senza PS, l'Affinità del danno inflitto cambia con quella più efficace.",
       "simpleDesc": [
         {
           "abilityID": 19065,
@@ -1799,7 +1799,7 @@
     {
       "id": 29065,
       "name": "Senso Artistico++",
-      "desc": "<style=\"upgradeHighlight\">Infliggi +50% di danno contro i nemici senza PS o con meno di 0 PS.</style>\n\nSe l'Abilità infligge Potenza o Conteggio [Sinking](incluso '<noparse>Annegamento</noparse> Speciale'), infliggi ulteriormente +10% di danno.\n\nQuando l'effetto di [Sinking] viene applicato ai nemici senza Sanità, l'Affinità del danno inflitto cambia con quella più efficace.",
+      "desc": "<style=\"upgradeHighlight\">Infliggi +50% di danno contro i nemici senza PS o con meno di 0 PS.</style>\n\nSe l'Abilità infligge Potenza o Conteggio [Sinking](incluso '<noparse>Annegamento</noparse> Speciale'), infliggi ulteriormente +10% di danno.\n\nQuando l'effetto di [Sinking] viene applicato ai nemici Senza PS, l'Affinità del danno inflitto cambia con quella più efficace.",
       "simpleDesc": [
         {
           "abilityID": 29065,
@@ -3266,7 +3266,7 @@
     },
     {
       "id": 19122,
-      "name": "Trappola dell'Anziano Albero+",
+      "name": "Trappola dell'Albero Antico+",
       "desc": "Le Abilità Attacco (escluse le Abilità E.G.O) che infliggono Potenza o Conteggio [Sinking] o '<noparse>Annegamento</noparse> Speciale' infliggono +<style=\"upgradeHighlight\">7.5</style>% di danno.\n\nLe Abilità con 2- Monete invece ottengono Potere Scontro +1 e infliggono +<style=\"upgradeHighlight\">12.5</style>% di danno.",
       "simpleDesc": [
         {
@@ -3281,7 +3281,7 @@
     },
     {
       "id": 29122,
-      "name": "Trappola dell'Anziano Albero++",
+      "name": "Trappola dell'Albero Antico++",
       "desc": "Le Abilità Attacco (escluse le Abilità E.G.O) che infliggono Potenza o Conteggio [Sinking] o '<noparse>Annegamento</noparse> Speciale' infliggono +<style=\"upgradeHighlight\">10</style>% di danno.\n\nLe Abilità con 2- Monete invece ottengono Potere Scontro +1 e infliggono +<style=\"upgradeHighlight\">15</style>% di danno.",
       "simpleDesc": [
         {
@@ -3467,7 +3467,7 @@
     {
       "id": 9129,
       "name": "Vecchio Fantoccio in Legno",
-      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nPer Colpo Critico, infliggi 1 [DefenseDown] nel turno successivo. (3 volte per turno per Identità)\n[Non Accumulabile] Quando la Passiva dell'E.G.O Foglio Rosso di Don Quixote 「Talismano Indebolente」 è attiva, questo effetto non si attiva.",
+      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nPer Colpo Critico, infliggi 1 [DefenseDown] nel turno successivo. (3 volte per turno per Identità)\n[Non Accumulabile] Quando la Passiva dell'E.G.O Foglio Rosso di Don Quixote 「<noparse>Talismano</noparse> Indebolente」 è attiva, questo effetto non si attiva.",
       "simpleDesc": [
         {
           "abilityID": 9129,
@@ -3478,7 +3478,7 @@
     {
       "id": 19129,
       "name": "Vecchio Fantoccio in Legno+",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nPer Colpo Critico, infliggi 1 [DefenseDown] nel turno successivo. (<style=\"upgradeHighlight\">4</style> volte per turno per Identità)\n[Non Accumulabile] Quando la Passiva dell'E.G.O Foglio Rosso di Don Quixote 「Talismano Indebolente」 è attiva, questo effetto non si attiva.",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nPer Colpo Critico, infliggi 1 [DefenseDown] nel turno successivo. (<style=\"upgradeHighlight\">4</style> volte per turno per Identità)\n[Non Accumulabile] Quando la Passiva dell'E.G.O Foglio Rosso di Don Quixote 「<noparse>Talismano</noparse> Indebolente」 è attiva, questo effetto non si attiva.",
       "simpleDesc": [
         {
           "abilityID": 19129,
@@ -3489,7 +3489,7 @@
     {
       "id": 29129,
       "name": "Vecchio Fantoccio in Legno++",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nPer Colpo Critico, infliggi 1 [DefenseDown] nel turno successivo. (<style=\"upgradeHighlight\">6</style> volte per turno per Identità)\n[Non Accumulabile] Quando la Passiva dell'E.G.O Foglio Rosso di Don Quixote 「Talismano Indebolente」 è attiva, questo effetto non si attiva.",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nPer Colpo Critico, infliggi 1 [DefenseDown] nel turno successivo. (<style=\"upgradeHighlight\">6</style> volte per turno per Identità)\n[Non Accumulabile] Quando la Passiva dell'E.G.O Foglio Rosso di Don Quixote 「<noparse>Talismano</noparse> Indebolente」 è attiva, questo effetto non si attiva.",
       "simpleDesc": [
         {
           "abilityID": 29129,
