@@ -1290,7 +1290,7 @@
     {
       "id": 1120901,
       "name": "Incubi Infiniti",
-      "desc": "- Inizio Combattimento: ottiene 1 [AttackDmgUp] e 1 [Vulnerable] per ogni 5 differenza di PS tra l'Inizio del Combattimento e l'Inizio dell'ultimo Turno (max 5)\n- Infligge +1% danni per ogni Potenza [Sinking] sul bersaglio (max 20%)",
+      "desc": "- Inizio Combattimento: ottiene 1 [AttackDmgUp] e 1 [Vulnerable] per ogni 5 differenza di PS tra l'Inizio del Combattimento e l'Inizio dell'ultimo Turno (max 3)\n- Infligge +1% danni per ogni Potenza [Sinking] sul bersaglio (max 20%)",
       "summary": ""
     },
     {
@@ -1705,13 +1705,13 @@
     {
       "id": 1051101,
       "name": "Duello in Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)",
       "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo"
     },
     {
       "id": 1051111,
       "name": "Duello in Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Attacco Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, cura 7 PS</style>",
       "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo. Cura dei PS Se Uccide"
     },
     {
@@ -2669,7 +2669,7 @@
     {
       "id": 1081402,
       "name": "Arma Termica",
-      "desc": "unità è considerata come un'Identità che infligge [Combustion] e [Laceration].\nSe questa unità ha [HeatingWireIshmael], le Abilità che infliggono [Laceration] sono considerate come Abilità che infliggono sia [Combustion] che [Laceration]."
+      "desc": "Questa unità è considerata come un'Identità che infligge [Combustion] e [Laceration].\nSe questa unità ha [HeatingWireIshmael], le Abilità che infliggono [Laceration] sono considerate come Abilità che infliggono sia [Combustion] che [Laceration]."
     },
     {
       "id": 1081421,
@@ -2933,6 +2933,31 @@
       "id": 1091521,
       "name": "Con Calma e Precisione, Non Lasciare Che si Spezzi...",
       "desc": "Applica i seguenti effetti alle Identità con l'ordine di Schieramento più alto:\n- Se la Rison. Lussuria è di numero dispari, infligge +1 Potenza [Laceration] in più\n- Se la Rison. Lussuria è di numero pari, infligge +1 Potenza [Sinking] in più\n- Se quell'Identità è dell'Anulare, ottiene 1 [AttackUp] o 1 [DefenseUp] all'Inizio del Combattimento"
+    },
+    {
+      "id": 1071502,
+      "name": "The Book of Vengeance",
+      "desc": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 [VendettaMark] on the said enemy and gain 1 [VengeanceBookHeathcliff] (once per Skill)\nAlly Death: Gain 3 [VengeanceBookHeathcliff]"
+    },
+    {
+      "id": 1071512,
+      "name": "The Book of Vengeance",
+      "desc": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 [VendettaMark] on the said enemy and gain 1 [VengeanceBookHeathcliff] (once per Skill)\nAlly Death: Gain 3 [VengeanceBookHeathcliff]\n\n<style=\"highlight\">Turn Start: At 15+ [MiddleFingerTattooID], apply the following effects:\n- Replace a Base Skill with \"COMPLETE AND TOTAL EXTERMINATION!!\" (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n· If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n- Change battle music until Turn End (excluding certain Encounters)\n\nCombat Start in the Turn this unit Substituted in or Returned to the field: Use \"MY HAIR COUPOOOOOOOOOOONS!!!!\" on a random target\n- Attack End of the said Skill: Apply 1 [AttackUp] and 1 [DefenseUp] on all The Middle-faction allies</style>"
+    },
+    {
+      "id": 1071503,
+      "name": "Vengeance Tattoo Resonance",
+      "desc": "Combat Start: The Middle-faction allies that have equipped Defense Skills take -20% damage from Unopposed Attacks for this turn\n\nCombat Start: At 4+ Envy Reson., The Middle-faction allies adjacent to this unit on the Dashboard cannot be Staggered by damage as long as they have usable Counter Skills equipped in their Slots (excluding Forced Staggers)\n- At 6+ Envy Reson., this effect applies to all of The Middle-faction allies"
+    },
+    {
+      "id": 1071501,
+      "name": "The Big Brother",
+      "desc": "Combat Start: Gain 1 [MiddleFingerTattooID] for every Envy Reson. (max 7)\n\nIf an enemy attacked any of The Middle-faction allies including this unit, use \"Kicking\" on the said enemy as an Unopposed Attack at Attack End of the said enemy's Skill (once per turn)"
+    },
+    {
+      "id": 1071521,
+      "name": "Chains of Loyalty",
+      "desc": "If any of The Middle-faction allies are killed during combat this turn, all The Middle-faction allies gain 1 [Enhancement] this turn and next turn (once per turn)"
     }
   ]
 }

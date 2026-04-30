@@ -228,11 +228,15 @@
     {
       "id": 9440,
       "name": "Maschera della Parata",
-      "desc": "Negli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge 3 [Laceration] e +2 Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
+      "desc": "Le Abilità Base di tutti i Bramasangue alleati ottengono Potere Moneta +1\n\nNegli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge 3 [Laceration] e +3 Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
       "simpleDesc": [
         {
+          "abilityID": 94402,
+          "simpleDesc": "Potere Moneta delle Abilità Base +1"
+        },
+        {
           "abilityID": 9440,
-          "simpleDesc": "Infligge 3 Sanguinamento e +2 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
+          "simpleDesc": "Infligge 3 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
         },
         {
           "abilityID": 94401,
@@ -243,8 +247,12 @@
     {
       "id": 19440,
       "name": "Maschera della Parata+",
-      "desc": "Negli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge <style=\"upgradeHighlight\">5</style> [Laceration] e +<style=\"upgradeHighlight\">3</style> Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
+      "desc": "Le Abilità Base di tutti i Bramasangue alleati ottengono Potere Moneta +1\n\nNegli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge <style=\"upgradeHighlight\">5</style> [Laceration] e +<style=\"upgradeHighlight\">3</style> Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
       "simpleDesc": [
+        {
+          "abilityID": 94402,
+          "simpleDesc": "Potere Moneta delle Abilità Base +1"
+        },
         {
           "abilityID": 194405,
           "simpleDesc": "Infligge 5 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"

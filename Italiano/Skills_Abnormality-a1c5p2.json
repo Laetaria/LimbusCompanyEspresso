@@ -5,27 +5,27 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Manate",
+                    "name": "Punching",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] +3 Danni Contundenti"
+                                    "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] +3 Danni Contundenti"
+                                    "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                                    "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
                                 }
                             ]
                         }
@@ -38,27 +38,27 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Pedate",
+                    "name": "Kicking",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] +5 Danni Contundenti"
+                                    "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] +5 Danni Contundenti"
+                                    "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Inflict 3 Paralyze next turn"
                                 }
                             ]
                         }
@@ -71,14 +71,14 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Rivincita",
+                    "name": "Payback",
                     "desc": "",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                                    "desc": "[OnSucceedAttack] Target loses 5 SP"
                                 }
                             ]
                         }
@@ -91,8 +91,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Dominio",
-                    "desc": "[StartBattle] Applica 1 [AttackDmgUp] a tutti gli alleati\n[StartBattle] Infligge 2 [AttackDmgDown] ai 2 nemici con meno PS",
+                    "name": "Domineer",
+                    "desc": "[StartBattle] Apply 1 Attack Power Up to all allies\n[StartBattle] Inflict 2 Attack Power Down to 2 enemies with the least SP",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -110,8 +110,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Rendilo Indimenticabile",
-                    "desc": "[StartBattle] Ottiene 2 [AaCePbBi]. Ottiene 5 [Binding] il prossimo turno.",
+                    "name": "Make this Memorable",
+                    "desc": "[StartBattle] Gain 2 [AaCePbBi]. Gain 5 Bind next turn.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -129,23 +129,23 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Guardati Le Spalle!",
-                    "desc": "Se il bersaglio ha meno di 0 PS, Potere Moneta +3",
+                    "name": "Watch Your Back!",
+                    "desc": "If target has less than 0 SP, Coin Power +3",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Recupera 10 PS"
+                                    "desc": "[OnSucceedAttack] Heal 10 SP on self"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 2 [AttackDmgDown] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Inflict 2 Bind and 2 Attack Power Down next turn"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
+                                    "desc": "[OnSucceedAttack] Target loses 20 SP"
                                 }
                             ]
                         }
@@ -158,8 +158,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Raduno",
-                    "desc": "[StartBattle] Evoca 2 alleati il prossimo turno",
+                    "name": "Assemble",
+                    "desc": "[StartBattle] Summon 2 allies next turn",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -177,8 +177,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Giuro Vendetta",
-                    "desc": "[StartBattle] Ottiene 2 [AaCePbBi]. Ottiene 5 [Binding] e 5 [AttackDmgUp] il prossimo turno.",
+                    "name": "Swear Vengeance",
+                    "desc": "[StartBattle] Gain 2 [AaCePbBi]. Gain 5 Bind and 5 Damage Up next turn.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -196,16 +196,16 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "I MIEI COUPOOOOOOOOOOON!!!",
-                    "desc": "Se il bersaglio ha meno di 0 PS, Potere Finale +5",
+                    "name": "MY HAIR COUPOOOOOOOOOOONS!!!",
+                    "desc": "If the main target has less than 0 SP, Final Power +5",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio di 30"
+                                    "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                                 }
                             ]
                         }

@@ -2280,22 +2280,26 @@
     {
       "id": 9084,
       "name": "Effigie Antica",
-      "desc": "Inizio Turno: seleziona uno degli alleati con Velocità maggiore e applica a loro 5 [Agility] nel turno successivo.\n\nInizio Turno successivo: seleziona uno degli altri alleati con Velocità maggiore (alleati senza l'effetto di Effigie Antica) e riapplica l'effetto del Dono su di loro. (l'effetto scade se non ci sono altri alleati da selezionare)",
+      "desc": "Inizio Turno: seleziona uno degli alleati con Velocità maggiore e applica a loro 5 [Agility] nel turno successivo.\n\nInizio Turno successivo: seleziona uno degli altri alleati con Velocità maggiore (alleati senza l'effetto di Effigie Antica) e riapplica l'effetto del Dono su di loro. (l'effetto scade se non ci sono altri alleati da selezionare)\n\nA 10+ Velocità, l'alleato ottiene (differenza di Velocità con il bersaglio / 2) Livello Offensivo (max 5; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9084,
           "simpleDesc": "Ottieni 5 [Agility]"
+        },
+        {
+          "abilityID": 90841,
+          "simpleDesc": "Ottieni (differenza di Velocità con il bersaglio / 2) Livello Offensivo"
         }
       ]
     },
     {
       "id": 9085,
       "name": "Accordo di Non Divulgazione",
-      "desc": "Inizio Turno: Un alleato casuale infligge +10% di danno (vale finché l'effetto di Accordo di Non Divulgazione non scade).\n\nL'alleato infligge ulteriormente +10% di danno ogni volta che colpisce con un'Abilità e infligge danni ai PV di un nemico (Max +40% di danno).\nSe l'alleato subisce dei danni ai PV, l'effetto del Dono scade.\nAll'Inizio del prossimo Turno, applica lo stesso effetto del Dono ad un altro alleato casuale.\n(L'effetto scade se non ci sono altri alleati da selezionare)",
+      "desc": "Inizio Turno: Un alleato casuale infligge +10% di danno e ottiene Scudo pari al 49% dei PV max (fino a quando l'effetto di Accordo di Non Divulgazione non scade).\n\nL'alleato infligge ulteriormente +10% di danno ogni volta che colpisce con un'Abilità e infligge danni ai PV di un nemico (max +40% danni).\n\nSe l'alleato subisce dei danni ai PV, l'effetto del Dono scade.\nAll'Inizio del prossimo Turno, applica lo stesso effetto del Dono ad un altro alleato casuale.\n(il potenziamento danni accumulato si mantiene; l'effetto scade se non ci sono altri alleati da selezionare)",
       "simpleDesc": [
         {
           "abilityID": 9085,
-          "simpleDesc": "Infliggi +10% di danno"
+          "simpleDesc": "Infliggi +10% di danno; ottieni Scudo pari al 49% dei PV max"
         }
       ]
     },
@@ -2522,7 +2526,7 @@
     {
       "id": 9094,
       "name": "Trance Estasiante",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Burst]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nQuando si colpisce un nemico con un'Abilità, infliggi 5 Potenza [Burst].\n\nQuando il Conteggio [Burst] di un nemico scende sotto l'1, consuma 10 Potenza [Burst] al posto del Conteggio [Burst].\n(Questo effetto finisce quando Potenza [Burst] scende sotto 10)\n\nSe il bersaglio ha meno di 3 Conteggio [Burst], infliggi +1 Conteggio ulteriore quando viene inflitto Conteggio [Burst]. (3 volte per Incontro)",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Burst]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nQuando si colpisce un nemico con un'Abilità, infliggi 5 Potenza [Burst].\n- Abilità che infliggono Potenza o Conteggio [Burst]: Infligge 3 Potenza [Burst] e +1 Conteggio [Burst] in più (una volta per Abilità)\n\nQuando il Conteggio [Burst] di un nemico scende sotto l'1, consuma 10 Potenza [Burst] al posto del Conteggio [Burst].\n(Questo effetto finisce quando Potenza [Burst] scende sotto 10)\n\nSe il bersaglio ha meno di 3 Conteggio [Burst], infliggi +1 Conteggio ulteriore quando viene inflitto Conteggio [Burst]. (3 volte per Incontro)",
       "simpleDesc": [
         {
           "abilityID": 9094,
@@ -3608,7 +3612,7 @@
     {
       "id": 9134,
       "name": "Torcia di Pattuglia",
-      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene 2 [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +10% di danni finché l'unità ha [ChargeForceField].",
+      "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene 2 [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +10% danni finché l'unità ha [ChargeForceField].",
       "simpleDesc": [
         {
           "abilityID": 9134,
@@ -3623,7 +3627,7 @@
     {
       "id": 19134,
       "name": "Torcia di Pattuglia+",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene <style=\"upgradeHighlight\">3</style> [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +<style=\"upgradeHighlight\">15</style>% di danni finché l'unità ha [ChargeForceField].",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e <style=\"upgradeHighlight\">3°</style> Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene <style=\"upgradeHighlight\">3</style> [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +<style=\"upgradeHighlight\">15</style>% danni finché l'unità ha [ChargeForceField].",
       "simpleDesc": [
         {
           "abilityID": 19134,
@@ -3638,7 +3642,7 @@
     {
       "id": 29134,
       "name": "Torcia di Pattuglia++",
-      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene <style=\"upgradeHighlight\">4</style> [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +<style=\"upgradeHighlight\">25</style>% di danni finché l'unità ha [ChargeForceField].",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2° e 3° Identità Schierate]\n\nInizio Turno: L'Identità affetta ottiene <style=\"upgradeHighlight\">4</style> [ChargeForceField]\n\nSe l'Identità affetta ha un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', l'Abilità 1 dell'Identità ottiene Potere Scontro +1 e infligge +<style=\"upgradeHighlight\">25</style>% danni finché l'unità ha [ChargeForceField].",
       "simpleDesc": [
         {
           "abilityID": 29134,
@@ -4157,15 +4161,15 @@
     {
       "id": 29149,
       "name": "Bende Compressive++",
-      "desc": "[Gli effetti si applicano solo alla 5° e 6° Identità Schierate]\n\nQuando si colpisce un nemico con un'Abilità Contundente, infliggi <style=\"upgradeHighlight\">3~7</style> danni Contundenti bonus.\n\nPer le Abilità Attacco con Affinità Tristezza: cura anche di <style=\"upgradeHighlight\">6</style> PV.",
+      "desc": "[Gli effetti si applicano solo alla 5° e 6° Identità Schierate]\n\nQuando si colpisce un nemico con un'Abilità Contundente, infliggi <style=\"upgradeHighlight\">5~7</style> danni Contundenti bonus.\n\nPer le Abilità Attacco Tristezza: recupera anche <style=\"upgradeHighlight\">6</style> PV.",
       "simpleDesc": [
         {
           "abilityID": 29149,
-          "simpleDesc": "Infliggi 3~7 danni Contundenti bonus"
+          "simpleDesc": "Infliggi 5~7 danni Contundenti bonus"
         },
         {
           "abilityID": 291491,
-          "simpleDesc": "Cura anche di 6 PV."
+          "simpleDesc": "Recupera anche 6 PV."
         }
       ]
     },
@@ -4396,7 +4400,7 @@
     {
       "id": 9161,
       "name": "Devozione",
-      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nPer l'alleato con Velocità maggiore:\n- Abilità a Moneta Positiva: Le Abilità che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' ottengono Potere Moneta +1 e infliggono +50% di danni\n- Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nPotere Finale +1 per tutte le Abilità che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'.",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nPer l'alleato con Velocità maggiore:\n- Abilità a Moneta Positiva: Le Abilità che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' ottengono Potere Moneta +1 e infliggono +50% danni\n- Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nPotere Finale +1 per tutte le Abilità che infliggono Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'.",
       "simpleDesc": [
         {
           "abilityID": 9161,
@@ -4907,7 +4911,7 @@
     {
       "id": 9201,
       "name": "Cestino Dimensionale",
-      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nAbilità Contundenti ottengono (n° di Abilità Attacco Base Contundenti) Livello Offensivo. (La stessa Abilità non può contare più di una volta, max 3)\n\nQuando si usa un'Abilità per attaccare un nemico, se un'Abilità diversa è stata [Discard]ta, infliggi +(10 + (rango dell'Abilità Scartata x 5))% di danni Contundenti. (se ne sono state scartate di più, prendi quella col valore maggiore; max 25%)",
+      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nAbilità Contundenti ottengono (n° di Abilità Attacco Base Contundenti) Livello Offensivo. (La stessa Abilità non può contare più di una volta, max 3)\n\nQuando si usa un'Abilità per attaccare un nemico, se un'Abilità diversa è stata [Discard]ta, infliggi +(10 + (rango dell'Abilità Scartata x 5))% danni Contundenti. (se ne sono state scartate di più, prendi quella col valore maggiore; max 25%)",
       "simpleDesc": [
         {
           "abilityID": 9201,
