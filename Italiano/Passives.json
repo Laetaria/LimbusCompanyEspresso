@@ -553,12 +553,12 @@
     {
       "id": 1090501,
       "name": "Uscirò In Anticipo~",
-      "desc": "Ad uno [VibrationExplosion], spendi 3 Conteggio [Charge] per far salire la Soglia di Stordimento del +40% in più.\nDopo aver attivato uno [VibrationExplosion], ottiene 1 [Agility] e 1 [HitDamageUp] il turno successivo."
+      "desc": "A un [VibrationExplosion], spende 3 Conteggio [Charge] per far aumentare la Soglia di Stordimento del +40% in più.\nDopo aver attivato uno [VibrationExplosion], ottiene 1 [Agility] e 1 [HitDamageUp] il turno successivo."
     },
     {
       "id": 1090521,
       "name": "Chiave Risonante",
-      "desc": "Quando 1 alleato con la Velocità più bassa attiva lo [VibrationExplosion], fà salire la Soglia di Stordimento del +20% in più."
+      "desc": "Quando 1 alleato con la Velocità più bassa attiva lo [VibrationExplosion], aumenta la Soglia di Stordimento del +20% in più."
     },
     {
       "id": 1050501,
@@ -959,7 +959,7 @@
     {
       "id": 1110611,
       "name": "Redirezione",
-      "desc": "Quando Evade, ottiene 1 [Agility] il turno successivo; abbassa la Soglia di Stordimento di questa unità di 5 (Max 3)"
+      "desc": "Quando Evade, ottiene 1 [Agility] il turno successivo; diminuisce la Soglia di Stordimento di questa unità di 5 (Max 3)"
     },
     {
       "id": 1110621,
@@ -2936,28 +2936,28 @@
     },
     {
       "id": 1071502,
-      "name": "The Book of Vengeance",
-      "desc": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 [VendettaMark] on the said enemy and gain 1 [VengeanceBookHeathcliff] (once per Skill)\nAlly Death: Gain 3 [VengeanceBookHeathcliff]"
+      "name": "Il Libro Della Vendetta",
+      "desc": "Quando questa unità o qualsiasi alleato del Medio vengono colpiti da un nemico, infligge 1 [VendettaMark] su quel nemico ed ottiene 1 [VengeanceBookHeathcliff] (una volta per Abilità)\nMorte Alleata: Ottiene 3 [VengeanceBookHeathcliff]"
     },
     {
       "id": 1071512,
-      "name": "The Book of Vengeance",
-      "desc": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 [VendettaMark] on the said enemy and gain 1 [VengeanceBookHeathcliff] (once per Skill)\nAlly Death: Gain 3 [VengeanceBookHeathcliff]\n\n<style=\"highlight\">Turn Start: At 15+ [MiddleFingerTattooID], apply the following effects:\n- Replace a Base Skill with \"COMPLETE AND TOTAL EXTERMINATION!!\" (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n· If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n- Change battle music until Turn End (excluding certain Encounters)\n\nCombat Start in the Turn this unit Substituted in or Returned to the field: Use \"MY HAIR COUPOOOOOOOOOOONS!!!!\" on a random target\n- Attack End of the said Skill: Apply 1 [AttackUp] and 1 [DefenseUp] on all The Middle-faction allies</style>"
+      "name": "Il Libro Della Vendetta",
+      "desc": "Quando questa unità o qualsiasi alleato del Medio vengono colpiti da un nemico, infligge 1 [VendettaMark] su quel nemico ed ottiene 1 [VengeanceBookHeathcliff] (una volta per Abilità)\nMorte Alleata: Ottiene 3 [VengeanceBookHeathcliff]\n\n<style=\"highlight\">Inizio Turno: A 15+ [MiddleFingerTattooID], applica i seguenti effetti:\n- Sostituisce un'Abilità Base con \"VI CONDANNO A MORTE!!\" (priorità all'Abilità nello Slot più in basso a sinistra sul Pannello di Controllo)\n· Se l'Abilità sotituita non può essere usata perchè viene sotituita da un'altra Abilità, attiva di nuovo l'effetto sovracitato\n- Cambia la musica della battaglia fino alla fine del turno (tranne per alcuni Incontri)\n\nA Inizio Combattimento nel turno in cui questa unità è stata sostituita o è ritornata in campo: Usa \"I MIEI COUPOOOOOOOOOOON!!!!\" su un bersaglio casuale\n- A Fine Attacco di questa Abilità: Applica 1 [AttackUp] e 1 [DefenseUp] a tutti gli alleati del Medio</style>"
     },
     {
       "id": 1071503,
-      "name": "Vengeance Tattoo Resonance",
-      "desc": "Combat Start: The Middle-faction allies that have equipped Defense Skills take -20% damage from Unopposed Attacks for this turn\n\nCombat Start: At 4+ Envy Reson., The Middle-faction allies adjacent to this unit on the Dashboard cannot be Staggered by damage as long as they have usable Counter Skills equipped in their Slots (excluding Forced Staggers)\n- At 6+ Envy Reson., this effect applies to all of The Middle-faction allies"
+      "name": "Risonanza di Tatuaggi Vendicativi",
+      "desc": "Inizio Combattimento: Gli alleati del Medio che hanno equipaggiato un'Abilità Difensiva subiscono -20% danni dagli Attacchi Incontrastati in questo turno\n\nInizio Combattimento: A 4+ Rison. Invidia, gli alleati del Medio adiacenti a questa unità nel Pannello di Controllo non possono essere storditi finchè hanno un contrattacco utilizzabile equipaggiato nei loro Slot (Stordimenti forzati esclusi)\n- A 6+ Risonanza Invidia, questo effetto si applica a tutti gli alleati del Medio"
     },
     {
       "id": 1071501,
-      "name": "The Big Brother",
-      "desc": "Combat Start: Gain 1 [MiddleFingerTattooID] for every Envy Reson. (max 7)\n\nIf an enemy attacked any of The Middle-faction allies including this unit, use \"Kicking\" on the said enemy as an Unopposed Attack at Attack End of the said enemy's Skill (once per turn)"
+      "name": "Il Fratellone",
+      "desc": "Inizio Combattimento: Ottiene [MiddleFingerTattooID] per ogni Rison. Invidia (max 7)\n\ne un nemico ha attaccato un qualsiasi alleato del Medio, inclusa questa unità, usa \"Pedate\" su quel nemico come Attacco Incontrastato alla fine dell'Abilità del nemico (una per turno)"
     },
     {
       "id": 1071521,
-      "name": "Chains of Loyalty",
-      "desc": "If any of The Middle-faction allies are killed during combat this turn, all The Middle-faction allies gain 1 [Enhancement] this turn and next turn (once per turn)"
+      "name": "Catene della Lealtà",
+      "desc": "Se un qualsiasi alleato del Medio viene ucciso durante il combattimento in questo turno, tutti gli alleati del Medio ottengono 1 [Enhancement] er questo e il prossimo turno (una volta per turno)"
     }
   ]
 }

@@ -16,7 +16,7 @@
     {
       "id": "VibrationDistribution",
       "name": "Vibrazione - Distribuzione",
-      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Livello Offensivo Aumentato il turno successivo (max 5)\n- Per {1} turni, quando subisce un colpo da un'Abilità che innesca Scoppio Vibrazione, alza la Soglia di Stordimento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- A Fine Turno: Ottiene ((somma del Conteggio Vibrazione degli alleati) / (# degli alleati ancora in vita)) Livello Offensivo Aumentato il turno successivo (max 5)\n- Per {1} turni, quando subisce un colpo da un'Abilità che innesca Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },
@@ -30,7 +30,7 @@
     {
       "id": "VibrationChain",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando subisce un colpo da un'Abilità che innesca Scoppio Vibrazione, alza la Soglia di Stordimento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere Scontro per ogni 10 Potenza Vibrazione su sé (max 3)\n- Per {1} turni: quando subisce un colpo da un'Abilità che innesca Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}.\n- A Fine Turno: riduce il Conteggio di 1\n- (Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": "",
       "undefined": "-"
     },
@@ -121,7 +121,7 @@
     {
       "id": "UltraPrecisionTimeAcceleration",
       "name": "Accelerazione Temporale Microprecisa",
-      "desc": "Questa unità ottiene Velocità Min & Max base in base alle Stack\nLe Abilità che infliggono Potenza o Conteggio Vibrazione o innescano Scoppio Vibrazione: ottiene Potere Base +(Stack), infligge +(Stack x 10)% danni ai nemici, e quando alza la Soglia di Stordimento con uno Scoppio Vibrazione, aumenta di quanto viene alzata di (Stack x 10)% (incluse le Abilità E.G.O)\nSi riduce di 1 a Fine Turno\nA 1 Stack, le Stack non scendono sotto a 0, e sono mantenute per l'intero Incontro.",
+      "desc": "Questa unità ottiene Velocità Min & Max base in base alle Stack\nLe Abilità che infliggono Potenza o Conteggio Vibrazione o innescano Scoppio Vibrazione: ottiene Potere Base +(Stack), infligge +(Stack x 10)% danni ai nemici, e quando aumenta la Soglia di Stordimentocon uno Scoppio Vibrazione, aumenta di quanto viene alzata di (Stack x 10)% (incluse le Abilità E.G.O)\nSi riduce di 1 a Fine Turno\nA 1 Stack, le Stack non scendono sotto a 0, e sono mantenute per l'intero Incontro.",
       "summary": "",
       "undefined": "-"
     }

@@ -908,7 +908,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +1 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio del 20% dei danni inflitti"
                 }
               ]
             },
@@ -938,7 +938,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Sinking] e +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
                 }
               ]
             },
@@ -973,7 +973,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +1 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio del 20% dei danni inflitti"
                 }
               ]
             },
@@ -1003,7 +1003,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Sinking] e +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio del <style=\"highlight\">30</style>% dei danni inflitti"
                 }
               ]
             },
@@ -2390,27 +2390,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kicking",
-          "desc": "[WhenUse] Gain +3 [Aggro] to this Slot next turn",
+          "name": "Pedate",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             }
@@ -2418,33 +2418,33 @@
         },
         {
           "level": 2,
-          "name": "Kicking",
-          "desc": "<style=\"highlight\">If target has 6+ ([Combustion] + [Laceration]), Coin Power +1</style>\n[WhenUse] Gain +3 [Aggro] to this Slot next turn",
+          "name": "Pedate",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>\n[WhenUse] Ottiene +3 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Lower user's Stagger Threshold by 5</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Diminuisce la propria Soglia di Stordimento di 5</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2452,36 +2452,36 @@
         },
         {
           "level": 4,
-          "name": "Kicking",
-          "desc": "If target has 6+ ([Combustion] + [Laceration]), Coin Power +1\n<style=\"highlight\">[WhenUse] If target has [RetaliationBook], Final Power +1</style>\n[WhenUse] Gain +3 [Aggro] to this Slot next turn",
+          "name": "Pedate",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [RetaliationBook], Potere Finale +1</style>\n[WhenUse] Ottiene +3 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Lower user's Stagger Threshold by 5<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Diminuisce la propria Soglia di Stordimento 5<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">- If target has [RetaliationBook], heal 3 SP</style>"
+                  "desc": "<style=\"highlight\">- Se il bersaglio ha [RetaliationBook], recupera 3 PS</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2494,33 +2494,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Watch Your Back!",
-          "desc": "[StartBattle] Apply 2 [AttackUp] on allies adjacent to this unit on the Dashboard\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n[WhenUse] Gain +5 [Aggro] to this Slot next turn",
+          "name": "Guardati Le Spalle!",
+          "desc": "[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             }
@@ -2528,33 +2528,33 @@
         },
         {
           "level": 2,
-          "name": "Watch Your Back!",
-          "desc": "<style=\"highlight\">If target has 6+ ([Combustion] + [Laceration]), Coin Power +1</style>\n[StartBattle] Apply 2 [AttackUp] on allies adjacent to this unit on the Dashboard\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n[WhenUse] Gain +5 [Aggro] to this Slot next turn",
+          "name": "Guardati Le Spalle!",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>\n[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2562,33 +2562,33 @@
         },
         {
           "level": 4,
-          "name": "Watch Your Back!",
-          "desc": "If target has 6+ ([Combustion] + [Laceration]), Coin Power +1\n[StartBattle] Apply 2 [AttackUp] on allies adjacent to this unit on the Dashboard\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n<style=\"highlight\">[WhenUse] If target has [RetaliationBook], Final Power +2</style>\n[WhenUse] Gain +5 [Aggro] to this Slot next turn",
+          "name": "Guardati Le Spalle!",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [RetaliationBook], Potere Finale +2</style>\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2601,8 +2601,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
-          "desc": "Final Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\n[StartBattle] This Skill gains (highest Reson.) Offense Level (max 6)\n[WhenUse] At 6+ Envy A-Reson., gain +1 Atk Weight\n[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)",
+          "name": "I MIEI COUPOOOOOOOOOOON!!!!",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n[WhenUse] A 6+ Rison-A Invidia, ottiene +1 Portata Attacco\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)",
           "coinlist": [
             {
               "coindescs": [
@@ -2610,10 +2610,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]"
                 }
               ]
             }
@@ -2621,8 +2621,8 @@
         },
         {
           "level": 4,
-          "name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
-          "desc": "Final Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\nFinal Power +1 for every 2 Envy Reson. (max 3)\n[StartBattle] This Skill gains (highest Reson.) Offense Level (max 6)\n<style=\"highlight\">[WhenUse] If the main target has [RetaliationBook], Final Power +2</style>\n[WhenUse] At 6+ Envy A-Reson., gain +1 Atk Weight\n<style=\"highlight\">[WhenUse] At 20+ [VengeanceBookHeathcliff], gain +1 Atk Weight</style>\n[WhenUse] Deal +<style=\"highlight\">60</style>% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n<style=\"highlight\">[EnemyKill] For every enemy killed using this Skill, gain 2 Vengeance Tattoo (max 6 per turn)</style>",
+          "name": "I MIEI COUPOOOOOOOOOOON!!!!",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\nPotere Finale +1 per ogni 2 Rison. Invidia (max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n<style=\"highlight\">[WhenUse] Se il bersaglio principale ha [RetaliationBook], Potere Finale +2</style>\n[WhenUse] A 6+ Rison. Invidia, ottiene +1 Portata Attacco\n<style=\"highlight\">[WhenUse] A 20+ [VengeanceBookHeathcliff], ottiene +1 Portata Attacco</style>\n[WhenUse] Infligge +<style=\"highlight\">60</style>% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)\n<style=\"highlight\">[EnemyKill] Per ogni nemico ucciso usando questa Abilità, ottiene 2 Tatuaggi Vendicativi (max 6 per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2630,13 +2630,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal (Envy Reson. x 5)% of this Coin's final damage as Blunt bonus damage (max 30%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (Rison. Invidia x 5)% del danno finale di questa Moneta come Danno Contundente bonus (max 30%)</style>"
                 }
               ]
             }
@@ -2649,20 +2649,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Payback",
-          "desc": "[StartBattle] Gain 25% of missing HP as Shield (once per turn)",
+          "name": "Rivincita",
+          "desc": "[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -2670,20 +2670,20 @@
         },
         {
           "level": 4,
-          "name": "Payback",
-          "desc": "<style=\"highlight\">[StartBattle] At 6+ sum of Envy A-Reson., use \"MY HAIR COUPOOOOOOOOOOONS!!!!\" Skill as Counter (Activates from the leftmost Skill Slot. Activates 2 times per turn)\n[StartBattle] Heal (Envy Reson. + 3) SP for 3 of The Middle-faction allies that have the lowest SP (including this unit; once per turn, max 10 SP; excluding allies at -40 or lower SP)</style>\n[StartBattle] Gain 25% of missing HP as Shield (once per turn)",
+          "name": "Rivincita",
+          "desc": "<style=\"highlight\">[StartBattle] A 6+ somma della Rison-A Invidia, usa l'Abilità \"I MIEI COUPOOOOOOOOOOON!!!!\" come Contrattacco (si attiva dallo Slot Abilità più a sinistra, 2 volte per turno)\n[StartBattle] Cura (Rison. Invidia + 3) PS a 3 alleati del Medio che hanno i PS più bassi (inclsa questa unità; una volta per turno, max 10 PS; alleati a -40 o meno PS esclusi)</style>\n[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2696,8 +2696,8 @@
       "levelList": [
         {
           "level": 4,
-          "name": "COMPLETE AND TOTAL EXTERMINATION!!",
-          "desc": "External effects cannot trigger this Skill to be Reused\nDeal +1% damage for every 1% missing HP on self (max 30%)\nFinal Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 5)\n[StartBattle] This Skill gains (highest Reson.) Offense Level (max 6)\n[WhenUse] If the main target has [RetaliationBook], Final Power +3\n[WhenUse] At 20+ [VengeanceBookHeathcliff], gain +1 Atk Weight\n[WhenUse] Deal +60% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[EnemyKill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity (max 4)\n[EndSkill] Consume 15 [MiddleFingerTattooID] on self",
+          "name": "VI CONDANNO A MORTE!!",
+          "desc": "Questa Abilità non può essere riutilizzata tramite effetti esterni\nInfligge +1% danni per ogni 1% di PV mancanti su di sé (max 30%)\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 5)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n[WhenUse] Se il bersaglio principale ha [RetaliationBook], Potere Finale +3\n[WhenUse] A 20+ [VengeanceBookHeathcliff], ottiene +1 Portata Attacco\n[WhenUse] Infligge +60% danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli (negli Incontri Mirati, la Parte)\n[EnemyKill] Per ogni nemico ucciso con questa Abilità, ottiene una risorsa E.G.O casuale di una delle Affinità meno posseduta (max 4)\n[EndSkill] Consuma 15 [MiddleFingerTattooID] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -2705,22 +2705,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If target is Staggered, deal +20% damage"
+                  "desc": "Se il bersaglio è Stordito, infligge +20% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal (Envy Reson. x 7)% of this Coin's final damage as Blunt bonus damage (max 42%)"
+                  "desc": "[OnSucceedAttack] Infligge il (Rison. Invidia x 7)% del danno finale di questa Moneta come Danno Contundente bonus (max 42%)"
                 }
               ]
             }

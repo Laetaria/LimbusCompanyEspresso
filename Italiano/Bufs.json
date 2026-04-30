@@ -277,8 +277,8 @@
     {
       "id": "Vibration",
       "name": "Vibrazione",
-      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, alza la Soglia di Stordimento di {0}. Dura {1} turno(i).",
-      "summary": "Alza la Soglia di Stordimento di {0}"
+      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}. Dura {1} turno(i).",
+      "summary": "Aumenta la Soglia di Stordimento di {0}"
     },
     {
       "id": "Burst",
@@ -1081,7 +1081,7 @@
     {
       "id": "Resonate",
       "name": "Rimbombo",
-      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Stordimento, infligge {0} * 3 danni fissi e alza la Soglia di Stordimento di {0} * 3%",
+      "desc": "Quando innesca Scoppio Vibrazione o alza la Soglia di Stordimento, infligge {0} * 3 danni fissi e aumenta la Soglia di Stordimento di {0} * 3%",
       "summary": "Quando innesca Scoppio Vibrazione o alza la Soglia di Stordimento, infligge danni e aumenta ulteriormente la Soglia di Stordimento"
     },
     {
@@ -1680,7 +1680,7 @@
     {
       "id": "VibrationExplosion",
       "name": "Scoppio Vibrazione",
-      "desc": "Alza la Soglia di Stordimento in base alla Potenza Vibrazione sul bersaglio"
+      "desc": "Aumenta la Soglia di Stordimento in base alla Potenza Vibrazione sul bersaglio"
     },
     {
       "id": "OneOnOneDuel",
@@ -1844,7 +1844,7 @@
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando subisce un attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Stordimento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando subisce un attacco da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\n Aumenta la Soglia di Stordimento di {0}"
     },
     {
@@ -1868,8 +1868,8 @@
     {
       "id": "VibrationCrack",
       "name": "Vibrazione - Frattura",
-      "desc": "- Quando questa unità viene Stordita e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Stordimento di 1\n- Il livello non può superare il massimo quando subisce un attacco\nda un attacco che causa Scoppio Vibrazione, alza la Soglia di Stordimento di {0}. Dura {1} turni\n(Interagisce allo stesso modo della normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
-      "summary": "Quando questa unità viene Stordita e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, alza la Soglia di Stordimento di 1\nAlza la Soglia di Stordimento di {0}"
+      "desc": "- Quando questa unità viene Stordita e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, aumenta la Soglia di Stordimento di 1\n- Il livello non può superare il massimo quando subisce un attacco\nda un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}. Dura {1} turni\n(Interagisce allo stesso modo della normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "summary": "Quando questa unità viene Stordita e quando la somma del Conteggio e della Potenza Vibrazione è almeno 20, aumenta la Soglia di Stordimento di 1\nAumenta la Soglia di Stordimento di {0}"
     },
     {
       "id": "ForwardToTheKing",
@@ -1933,7 +1933,7 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Per {1} Turno(i): Quando si innesca Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, alza la Soglia di Stordimento del {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Per {1} Turno(i): Quando si innesca Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Stordimentodel {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1945,7 +1945,7 @@
     {
       "id": "VibrationContinue",
       "name": "Vibrazione - Eternità",
-      "desc": "- Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n-Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Stordimento del valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Potenza Vibrazione su di sé)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n-Quando subisce un'Attacco da Abilità o Monete che innescano Scoppio Vibrazione, (Conteggio Vibrazione su di sè)% possibilità di attivare un ulteriore Scoppio Vibrazione. (max 50%)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimentodel valore della Potenza dell'effetto\n- A Fine Turno: riduce di 1 il Conteggio\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1963,7 +1963,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "Vibrazione - Catena",
-      "desc": "- Perde 1 Potere Scontro per ogni 10 Vibrazionee (max 3)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, alza la Soglia di Stordimento in base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Perde 1 Potere Scontro per ogni 10 Vibrazionee (max 3)\n- Quando subisce un'Attacco da Abilità che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimentoin base al valore della Potenza dell'effetto \n- A Fine Turno: riduci di 1 il Conteggio\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -2131,7 +2131,7 @@
     {
       "id": "CanDuelGuard",
       "name": "Guardia Scontrabile",
-      "desc": "- A Scontro Vinto: Alza la Soglia di Stordimento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando subisce un attacco, riduce il Potere Finale dell'Abilità del bersaglio del Potere Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
+      "desc": "- A Scontro Vinto: Aumenta la Soglia di Stordimento del bersaglio del valore finale dell'unità.\n- Se perde lo Scontro: quando subisce un attacco, riduce il Potere Finale dell'Abilità del bersaglio del Potere Finale di quest'unità.\n- Se perde lo Scontro: non ottiene valore finale da queste fonti: Risonanza e la disparità di livello fra le Abilità offensive",
       "summary": ""
     },
     {
@@ -2234,7 +2234,7 @@
     {
       "id": "VibrationSpring",
       "name": "Vibrazione - CaricaMolla",
-      "desc": "- Velocità Max+ 2\n- Consuma il Conteggio Vibrazione su di sé per infliggere 1 Conteggio o Potenza Vibrazione aggiuntivi quando sono inflitti con le proprie Abilità o gli effetti delle Monete\n- Quando subisce un'Attacco da mosse che innescano Scoppio Vibrazione, alza la Soglia di Stordimento in base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Velocità Max+ 2\n- Consuma il Conteggio Vibrazione su di sé per infliggere 1 Conteggio o Potenza Vibrazione aggiuntivi quando sono inflitti con le proprie Abilità o gli effetti delle Monete\n- Quando subisce un'Attacco da mosse che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimentoin base Potenza quest'effetto\n- A Fine Turno: riduce di 1 le Stack\n- (Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Velocità Max +2\nConsuma Conteggio Vibrazione su di sé per infliggere +1 Potenza e Conteggio Vibrazione",
       "undefined": "-"
     },
@@ -2284,7 +2284,7 @@
     {
       "id": "FreishutzOutisEgoBullet_1st",
       "name": "Il Primo Proiettile Magico",
-      "desc": "- Infligge +20% in più di danno\n- Alza la Soglia di Stordimento in base al danno inflitto (max 30)"
+      "desc": "- Infligge +20% in più di danno\n- Aumenta la Soglia di Stordimento in base al danno inflitto (max 30)"
     },
     {
       "id": "FreishutzOutisEgoBullet_2nd",
@@ -2299,7 +2299,7 @@
     {
       "id": "FreishutzOutisEgoBullet_4th",
       "name": "Il Quarto Proiettile Magico",
-      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Portata Attacco\n- Sul Colpo, Alza la Soglia di Stordimento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
+      "desc": "- Infligge +30% in più di danno\n- Prima di attaccare: ottiene +3 Portata Attacco\n- Sul Colpo, Aumenta la Soglia di Stordimento in base al danno inflitto (max 20); in seguito, infligge 3 Fragilità il turno successivo"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
@@ -2309,7 +2309,7 @@
     {
       "id": "FreishutzOutisEgoBullet_6th",
       "name": "Il Sesto Proiettile Magico",
-      "desc": "- Prima di attaccare: ottiene +6 Portata Attacco\n- Sul Colpo, alza la Soglia di Stordimento in base al danno inflitto(max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Potere Base Monete positive -16\n- Potere Base Monete negative -22\n - Potere Monete positive -8\n - Potere Monete negative -12"
+      "desc": "- Prima di attaccare: ottiene +6 Portata Attacco\n- Sul Colpo, aumenta la Soglia di Stordimentoin base al danno inflitto(max 30)\n- Riusa la Moneta per ogni 7 Bruciatura sul bersaglio (max 2 volte)\n- Potere Base Monete positive -16\n- Potere Base Monete negative -22\n - Potere Monete positive -8\n - Potere Monete negative -12"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
@@ -2820,7 +2820,7 @@
     {
       "id": "VibrationBleeding",
       "name": "Vibrazione - Emorragia",
-      "desc": "- Allo Scoppio Vibrazione, subisce Danni Lussuria pari alla (somma della Potenza Vibrazione e Sanguinamento / 2), e perde 1 Conteggio Sanguinamento\n- Quando subisce un colpo dalle Abilità che innescano Scoppio Vibrazione, alza la Soglia di Stordimento di questa unità per la Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di 1\n(Interagisce come la Vibrazione normale con gli effetti che aumentano o diminuiscono la Potenza/Conteggio Vibrazione)",
+      "desc": "- Allo Scoppio Vibrazione, subisce Danni Lussuria pari alla (somma della Potenza Vibrazione e Sanguinamento / 2), e perde 1 Conteggio Sanguinamento\n- Quando subisce un colpo dalle Abilità che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimento di questa unità per la Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di 1\n(Interagisce come la Vibrazione normale con gli effetti che aumentano o diminuiscono la Potenza/Conteggio Vibrazione)",
       "summary": "",
       "undefined": "-"
     },
@@ -3617,24 +3617,24 @@
     },
     {
       "id": "VengeanceBookHeathcliff",
-      "name": "Book of Vengeance [Heathcliff]",
-      "desc": "- Max Stack: 30\n- Offense Level +1, Defense Level +1 for every 5 Stack",
+      "name": "Libro Della Vendetta [Heathcliff]",
+      "desc": "- Max Stack: 30\n- Livello Offensivo +1, Livello Difensivo +1 per ogni 5 Stack",
       "summary": "",
       "undefined": "-",
       "flavour": ""
     },
     {
       "id": "MiddleFingerTattooID",
-      "name": "Vengeance Tattoo",
-      "desc": "- Max Stack: 20\n- Base Skills deal +1% damage for every Stack",
+      "name": "Tatuaggi Vendicativi",
+      "desc": "- Max Stack: 20\n- Le Abilità Base infliggono +1% danni per ogni Stack",
       "summary": "",
       "undefined": "-",
       "flavour": ""
     },
     {
       "id": "ScarletMothRodion",
-      "name": "Scarlet Moth",
-      "desc": "- Max Stack: 3\n- Turn End: Heal (Stack)% HP (minimum HP healed: 1)\n- Turn End: Heal SP equal to Stack\n- Turn End: Lose 1 Stack",
+      "name": "Falena Scarlatta",
+      "desc": "- Max Stack: 3\n- Fine Turno: Recupera (Stack)% PV (PV minimi recuperati: 1)\n- Fine Turno: Recupera PS pari alle Stack\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavour": ""
