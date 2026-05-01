@@ -845,7 +845,7 @@
     {
       "id": 10401,
       "name": "Looking for a Drone",
-      "desc": "Un drone della K Corp. rotola per terra.\nIo posso resuscitare i Peccatori solo dove riesco a vedere la stella, quindi nel frattempo...\nForse riusciamo a trovare una fiala ancora usabile se cerchiamo dentro.",
+      "desc": "Un drone della K Corp. ruzzola per terra.\nIo posso resuscitare i Peccatori solo dove riesco a vedere la stella, quindi nel frattempo...\nForse riusciamo a trovare una fiala ancora usabile se cerchiamo dentro.",
       "options": [
         {
           "message": "Fruga dentro il drone.",
@@ -888,16 +888,16 @@
       "desc": "È pieno di ampolle della K Corp.\n\"Ooh~ Buon per noi! Ehi Dante, possiamo prendercene almeno una?\"\n\"Negativo. L'iniettore di ampolle si trova solo in questa stanza, quindi non sarà possibile usarli al di fuori di quest'area.\"\n...Cosa faremo?",
       "options": [
         {
-          "message": "Usa la fiala.",
+          "message": "Usa l'ampolla.",
           "result": [
             ""
           ]
         },
         {
-          "message": "Non usare la fiala.",
+          "message": "Non usare l'ampolla.",
           "messageDesc": "Niente accade.",
           "result": [
-            "Non saprei se è una buona idea testare queste cose di cui non ne so molto sui Peccatori.\nAbbiamo deciso di lasciare la stanza."
+            "Non saprei se è una buona idea testare sui Peccatori queste cose di cui non ne so molto.\nAbbiamo deciso di lasciare la stanza."
           ]
         }
       ]
@@ -908,14 +908,14 @@
       "desc": "\"Guardate, degli avvertimenti sono scritti sulle ampolle!\"\nScorrendo tra le bottiglie di vetro, riesco a vedere delle piccole avvertenze attaccate ad esse.\nPerò, il testo è troppo denso per leggere chiaramente.\n\"Parti mancanti… insufficiente… fermare? Non ho idea di quel che sta dicendo.\"\n\"Illustre Manager! Appare che questo congegno abbia due modalità: singolo e gruppo!\"\nPare sia il momento di scegliere.\nCosa faremo?",
       "options": [
         {
-          "message": "Usa la fiala su tutti.",
+          "message": "Usa l'ampolla su tutti.",
           "messageDesc": "Tutti gli alleati con dei PV mancanti si curano completamente.\nGli alleati a PV pieni perdono PV e PS.",
           "result": [
             "Non dovrebbe far male lasciare che tutti i Peccatori ne usufruiscano.\nHo premuto il pulsante 'gruppo'.\n\"Ngh!\"\n\"Che strano... improvvisamente mi sento male.\"\nQualche Peccatore geme dal dolore.\nPensando a cosa avevano in comune... Ho realizzato che non erano feriti.\n\"Questo non deve essere un qualcosa che si può amministrare agli individui in salute.\"\n...Devo far più attenzione la prossima volta."
           ]
         },
         {
-          "message": "Usa la fiala sul Peccatore che è messo peggio.",
+          "message": "Usa l'ampolla sul Peccatore che è messo peggio.",
           "messageDesc": "L'alleato con meno PV recupera tutti i PV.",
           "result": [
             "{affectedTarget} sembra essere nel peggior stato tra tutti i Peccatori, quindi ci siamo messi da parte per poi premere il bottone 'singolo'.\n...Grazie al trattamento, sta decisamente molto meglio adesso!"
