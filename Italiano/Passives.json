@@ -2314,8 +2314,8 @@
     {
       "id": 1061301,
       "name": "Accetta il Sangue Impuro e Dissangua il Prossimo Per la Causa.",
-      "desc": "A Inzio Combattimento: se questa unità non ha preparato un'Abilità Difensiva e sta per subire un'Attacco Incontrastato, applica 1 [HeishouSupportProtect] a (Rison. più alta/ 3) alleati di un Branco Heishou casuali con le meno Stack di [SupportProtect]. (max 2 alleati; 1 volta per Identità; esclude le Identità con Abilità che ottengono [SupportProtect])\n\nIn questo Incontro, quando questa unità subisce danni che mandano i suoi PV a 0, annulla quei danni; infine, i PV di questa unità non possono scendere sotto a 1 per quel turno, ed ottiene 1 [CondensedBlood] (1 volta per Incontro)\n\nLe Abilità di questa unità infliggono +3% danni per ogni [CondensedBlood] su di sé\n\nQuando attiva l'Abilità E.G.O '<noparse>Lacrime del Sangue Impuro</noparse> - La Fine', annulla l'effetto mortale nei suoi effetti Fine Attacco; invece, recupera 60% PV. All'inizio del turno successivo, ottiene 1 [AttackDmgUp] ad ogni Inizio Turno (1 volta per Incontro)",
-      "summary": "Quando subisce danni che mandano i PV di questa unità a 0, annulla la morte, e ottiene [CondensedBlood]\nQuando attiva '<noparse>Lacrime del Sangue Impuro</noparse>', annulla la morte, si cura PV, e ottiene [AttackDmgUp]"
+      "desc": "A Inzio Combattimento: se questa unità non ha preparato un'Abilità Difensiva e sta per subire un'Attacco Incontrastato, applica 1 [HeishouSupportProtect] a (Rison. più alta/ 3) alleati di un Branco Heishou casuali con le meno Stack di [SupportProtect]. (max 2 alleati; 1 volta per Identità; esclude le Identità con Abilità che ottengono [SupportProtect])\n\nIn questo Incontro, quando questa unità subisce danni che mandano i suoi PV a 0, annulla quei danni; infine, i PV di questa unità non possono scendere sotto a 1 per quel turno, ed ottiene 1 [CondensedBlood] (1 volta per Incontro)\n\nLe Abilità di questa unità infliggono +3% danni per ogni [CondensedBlood] su di sé\n\nQuando attiva l'Abilità E.G.O 'L​acrime del S​angue I​mpuro - La Fine', annulla l'effetto mortale nei suoi effetti Fine Attacco; invece, recupera 60% PV. All'inizio del turno successivo, ottiene 1 [AttackDmgUp] ad ogni Inizio Turno (1 volta per Incontro)",
+      "summary": "Quando subisce danni che mandano i PV di questa unità a 0, annulla la morte, e ottiene [CondensedBlood]\nQuando attiva 'Lacrime del Sangue Impuro', annulla la morte, si cura PV e ottiene [AttackDmgUp]"
     },
     {
       "id": 1061321,
@@ -2872,7 +2872,7 @@
     {
       "id": 1021504,
       "name": "Fascia, Mia Opera Adorata",
-      "desc": "Quando entra in un Incontro per la prima volta, ottiene +(n° degli alleati dell'Anulare sul campo x 2) Conteggio [ChargeBodyArt] (max 10)\n\nFine Attacco: Se l'Abilità ha inflitto danni ai PV o agli Scudi, ottiene +5 Conteggio [ChargeBodyArt]\n- Se il bersaglio viene ucciso, ottiene +3 Conteggio [ChargeBodyArt] extra\n\nOttiene 1 [ChargeBodyArt] ogni volta che questa unità consuma 10 Conteggio [ChargeBodyArt] cumulativo in questo Incontro\n- Se l'effetto sopracitato porta la Potenza [ChargeBodyArt] a 2 o più, ottiene [TibiaPersonality]\n\nLe Abilità Attacco Base e il Contrattacco Scontrabile contano come Abilità che ottengono Conteggio [Charge]",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene +(n° degli alleati dell'Anulare sul campo x 2) Conteggio [ChargeBodyArt] (max 10)\n\nFine Attacco: Se l'Abilità ha inflitto danni ai PV o agli Scudi, ottiene +5 Conteggio [ChargeBodyArt]\n- Se il bersaglio viene ucciso, ottiene +3 Conteggio [ChargeBodyArt] extra\n\nOttiene 1 [ChargeBodyArt] ogni volta che questa unità consuma 10 Conteggio [ChargeBodyArt] cumulativo in questo Incontro\n- Se l'effetto sopracitato porta la Potenza [ChargeBodyArt] a 2 o più, ottiene [FasciaPersonality]\n\nLe Abilità Attacco Base e il Contrattacco Scontrabile contano come Abilità che ottengono Conteggio [Charge]",
       "summary": "Ottiene [ChargeBodyArt]"
     },
     {
@@ -2927,7 +2927,7 @@
     {
       "id": 1091503,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Fine Combattimento: il turno successivo infligge 1 [IntenseColorsRodion] ai nemici con [BearClawWoundAlly], [EagleClawWoundAlly] e [BoldBrushstrokesRodion] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWoundAlly] e [EagleClawWoundAlly], infligge invece 2/3/4 [IntenseColorsRodion] (la quantitò inflitta si basa sull'effetto che ha le Stack minori)\n\nFine Turno: Ottiene 1 [FaubismWolfMaskRodion] se viene soddisfatta 1 delle seguenti condizioni:\n- Ha inflitto [IntenseColorsRodion] 3 volte (conta come una volta per turno a prescindere dal numero di volte che l'effetto è stato inflitto durante il combattimento)\n- Ha usato l'Abilità \"Critique\" 2 volte\n- Used \"Burst Forth the Pulsing Crimson under Your Skin\""
+      "desc": "Fine Combattimento: il turno successivo infligge 1 [IntenseColorsRodion] ai nemici con [BearClawWoundAlly], [EagleClawWoundAlly] e [BoldBrushstrokesRodion] contemporaneamente\n- Se il bersaglio ha rispettivamente 3+/6+/9+ [BearClawWoundAlly] e [EagleClawWoundAlly], infligge invece 2/3/4 [IntenseColorsRodion] (la quantitò inflitta si basa sull'effetto che ha le Stack minori)\n\nFine Turno: Ottiene 1 [FaubismWolfMaskRodion] se viene soddisfatta 1 delle seguenti condizioni:\n- Ha inflitto [IntenseColorsRodion] 3 volte (conta come una volta per turno a prescindere dal numero di volte che l'effetto è stato inflitto durante il combattimento)\n- Ha usato l'Abilità \"Critique\" 2 volte\n- Ha usato \"Esplode il Cremisi Pulsante Sotto la Tua Pelle\""
     },
     {
       "id": 1091521,
