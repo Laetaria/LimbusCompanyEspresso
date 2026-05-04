@@ -9,7 +9,7 @@
     {
       "id": "VibrationIgnition",
       "name": "Vibrazione - Scottatura",
-      "desc": "- Quando Scoppio Vibrazione si attiva, subisce danno da Ira pari a (Potenza Vibrazione + Potenza Bruciatura / 2), e perde 1 Conteggio Bruciatura\n- Quando l'unità viene colpita da Abilità che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimentodell'unità in base alla Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di by 1\n(Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
+      "desc": "- Quando Scoppio Vibrazione si attiva, subisce danno da Ira pari a (Potenza Vibrazione + Potenza Bruciatura / 2) e perde 1 Conteggio Bruciatura\n- Quando l'unità viene colpita da Abilità che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimento dell'unità in base alla Potenza dell'effetto\n- Fine Turno: riduce il Conteggio di 1\n(Interagisce allo stesso modo della Vibrazione normale con gli effetti che aumentano o riducono Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -38,8 +38,8 @@
     },
     {
       "id": "BattleSense",
-      "name": "Inner Strength [底力]",
-      "desc": "- Max Stack: 25\n- Consumed by certain Skills; at Turn End, heal PS equal to the Stack consumed by the end of the turn\n- Gain 1 Stack with every Clash (max 5 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 2 Stack when hitting with an Unopposed Attack (max 10 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack; max 2)\n- Gains a different buff when using a specific pattern",
+      "name": "Forza Interiore [底力]",
+      "desc": "- Max Stack: 25\n- Usato da determinate Abilità; a Fine Turno, recupera PS pari alle Stack consumate a fine turno\n- Ottiene 1 Stack con ogni Scontro (max 5 per Abilità). A Scontro Perso, perde le Stack ottenute da quello Scontro\n- Ottiene 2 Stack quando colpisce con un Attacco Incontrastato (max 10 per Abilità)\n- Fine Turno: il turno successivo, ottiene Rapidità in base al totale delle Stack consumante in questo turno, (1 Rapidità ogni 25 Stack; max 2)\n- Ottiene un buff diverso quando usa un serie specifica di Abilità\n\n- Stack Totali Consumate: {0}",
       "summary": ""
     },
     {
