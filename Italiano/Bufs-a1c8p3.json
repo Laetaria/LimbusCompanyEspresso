@@ -39,121 +39,121 @@
     {
       "id": "BattleSense",
       "name": "Forza Interiore [底力]",
-      "desc": "- Max Stack: 25\n- Usato da determinate Abilità; a Fine Turno, recupera PS pari alle Stack consumate a fine turno\n- Ottiene 1 Stack con ogni Scontro (max 5 per Abilità). A Scontro Perso, perde le Stack ottenute da quello Scontro\n- Ottiene 2 Stack quando colpisce con un Attacco Incontrastato (max 10 per Abilità)\n- Fine Turno: il turno successivo, ottiene Rapidità in base al totale delle Stack consumante in questo turno, (1 Rapidità ogni 25 Stack; max 2)\n- Ottiene un buff diverso quando usa un serie specifica di Abilità\n\n- Stack Totali Consumate: {0}",
+      "desc": "- Max Stack: 25\n- Usato da determinate Abilità; a Fine Turno, recupera PS pari alle Stack consumate a fine turno.\n- Ottiene 1 Stack con ogni Scontro (max 5 per Abilità). A Scontro Perso, perde le Stack ottenute da quello Scontro\n- Ottiene 2 Stack quando colpisce con un Attacco Incontrastato (max 10 per Abilità)\n- Fine Turno: il turno successivo, ottiene Rapidità in base al totale delle Stack consumante in questo turno, (1 Rapidità ogni 25 Stack, max 2)\n- Ottiene un buff diverso quando usa uno schema di attacco specifico\n\n- Stack Totali Consumate: {0}",
       "summary": ""
     },
     {
       "id": "RestoredBattleSense",
-      "name": "Extreme Strength [極力]",
-      "desc": "- Max Stack: 50\n- Counts as \"Inner Strength\". Consumed by certain Skills; at Turn End, heal PS equal to the Stack consumed by the end of the turn.\n- Gain 2 Stack with every Clash (max 10 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 3 Stack when hitting with an Unopposed Attack (max 15 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack, max 5)\n\n- Total Stacks Consumed: {0}",
+      "name": "Forza Estrema [極力]",
+      "desc": "- Max Stack: 50\n- Conta come \"Forza Interiore\". Usato da determinate Abilità; a Fine Turno, recupera PS pari alle Stack consumate a fine turno.\n- Ottiene 2 Stack con ogni Scontro (max 10 per Abilità). A Scontro Perso, perde le Stack ottenute da quello Scontro\n- Ottiene 3 Stack quando colpisce con un Attacco Incontrastato (max 15 per Abilità)\n- Fine Turno: il turno successivo, ottiene Rapidità in base al totale delle Stack consumante in questo turno, (1 Rapidità ogni 25 Stack, max 5)\n\n- Stack Totali Consumate: {0}",
       "summary": ""
     },
     {
       "id": "Irritation",
-      "name": "Tiantui Star [天退星]",
-      "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 20% missing PV on self (max 3 each)\n- Inflict +2 more Tremor Potency with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coin of 'Triple Slash - Blast' to an Unbreakable Coin\n- This buff changes into Shin (心) - Tiantui Star [天退星] when using a specific pattern",
+      "name": "Stella Tiantui [天退星]",
+      "desc": "- Inizio Turno: ottiene 1 Danno Aumentato e 1 Potere Aumentato per ogni 20% di PV mancanti su di sé (max 3 per ognuno)\n- Questa unità infligge +2 Potenza Vibrazione in più con le sue Abilità\n- Se la Velocità di questa unità è maggiore di quella del bersaglio di 3 o più, infligge +(differenza di Velocità x 5)% danni (max 20%)\n- Converte la Moneta finale di 'Triple Slash - Blast' in una Moneta Infrangibile\n- Questo effetto cambia in Shin (心) - Stella Tiantui [天退星] quando usa uno schema di attacco specifico",
       "summary": ""
     },
     {
       "id": "HugeIrritation",
-      "name": "Shin (心) - Tiantui Star [天退星]",
-      "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 15% missing PV on self (max 5 each)\n- Inflict +3 more Tremor Potency and +1 more Tremor Count with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coins of 'Double Slash - Blast' and 'Triple Slash - Blast' to Unbreakable Coins",
+      "name": "Shin (心) - Stella Tiantui [天退星]",
+      "desc": "- Inizio Turno: ottiene 1 Danno Aumentato e 1 Potere Aumentato di PV mancanti su di sé (max 5 per ognuno)\n- Questa unità infligge +3 Potenza Vibrazione e +1  Conteggio Vibazione in più con le sue Abilità\n- Se la Velocità di questa unità è maggiore di quella del bersaglio di 3 o più, infligge +(differenza di Velocità x 5)% danni (max 20%)\n- Converte la Moneta finale di 'Double Slash - Blast' e 'Triple Slash - Blast' in una Moneta Infrangibile",
       "summary": ""
     },
     {
       "id": "ReloadKeepAmmo",
-      "name": "Reload - Tactical",
-      "desc": "- Restore this unit's Ammo to its maximum capacity (does not discard any remaining Ammo)",
+      "name": "Ricarica Tattica",
+      "desc": "- Ricarica le Munizioni di questa unità (non scarta le Munizioni rimaste)",
       "summary": ""
     },
     {
       "id": "BeastEyes_LowMorale",
-      "name": "Beastly Instinct - Morale Basso",
-      "desc": "- Deals +(PV percentage difference / 2)% damage to targets with higher PV percentages that this unit's (max 10%)\n- Turn Start: gain 1 Final Power Up, 1 Damage Up, and 1 Fragile",
+      "name": "Instinto Bestiale - Morale Basso",
+      "desc": "- Infligge +(percentuale differenza PV / 2)% danni ai bersagli con la percentuale più alta di PV rispetto a questa unità (max 10%)\n- Inizio Turno: ottiene 1 Potere Finale Aumentato, 1 Danno Aumentato e 1 Fragile",
       "summary": ""
     },
     {
       "id": "BeastEyes_Panic",
-      "name": "Beastly Instinct - Panic",
-      "desc": "- Deals +(PV percentage difference)% damage to targets with higher PV percentages that this unit's (max 25%)\n- Turn Start: gain 1 Coin Power Up, 2 Damage Up, and 2 Fragile\n- Next Turn Start: heal PS equal to this unit's missing PV percentage (max 25)",
+      "name": "Instinto Bestiale - Panico",
+      "desc": "- Infligge +(percentuale differenza PV)% danni ai bersagli con la percentuale più alta di PV rispetto a questa unità (max 25%)\n- Inizio Turno: ottiene 1 Potere Moneta Aumentato, 2 Danno Aumentato e 2 Fragile\n- Prossimo Inizio Turno: recupera PS pari alla percentuale di PV mancanti di questa unità (max 25)",
       "summary": ""
     },
     {
       "id": "DisengageCombat",
-      "name": "Escape Battle",
-      "desc": "- Turn End: recover from Stagger and escape from the Encounter (excluding forced Staggers; does not count as death)",
+      "name": "Fuga dalla Battaglia",
+      "desc": "- Fine Turno: si riprende dallo Stordimento e scappa dall'Incontro (Stordimento forzato escluso, non conta come morte)",
       "summary": ""
     },
     {
       "id": "Chesed_Mercy",
-      "name": "Chesed's Mercy",
-      "desc": "- Averages the Offense Level and Defense Level of all units\n- After the Chesed effect activates, allied Identities gain 3 Offense Levels and 6 Defense Levels\n- [First-time Unleashing Effect]: \"Chesed's Mercy\" lasts for the duration of this Encounter",
+      "name": "Pietà di Chesed",
+      "desc": "- Fa la media del Livello Offensivo e Difensivo di tutte le unità\n- Dopo che l'effetto si attiva, le Identità alleate ottengono 3 Livelli Offensivi e 6 Livelli Difensivi\n- [Effetti per la Prima Attivazione (una tantum)]: \"Pietà di Chesed\" dura per tutta la durata di questo Incontro",
       "summary": ""
     },
     {
       "id": "Ryoshu_Attackup",
-      "name": "Mutilated Memory",
-      "desc": "[Ryōshū Exclusive Effect]\n- Deal +(Current Turn Count x 2.5)% damage against Lei Heng in this Encounter (max 30%)",
+      "name": "Memoria Mutilata",
+      "desc": "[Effetto Esclusivo di Ryōshū]\n- Infligge +(Conteggio Turni Corrente x 2.5)% danni contro Lei Heng in questo Incontro (max 30%)",
       "summary": ""
     },
     {
       "id": "Honglu_EGOResourceup",
-      "name": "My Heart, My Own Thoughts...",
-      "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, gain 2 additional E.G.O resources of the Skill's Affinity (once per turn)",
+      "name": "Il Mio Cure, I Miei Pensieri...",
+      "desc": "[Effetto Esclusivo di Hong Lu]\n- Per questo Incontro: dopo aver usato un'Abilità Attaccok, ottiene 2 risorse E.G.O aggiuntive dell'Affinità dell'Attacco (una volta per turno)",
       "summary": ""
     },
     {
       "id": "BudgetBulletPropellant",
-      "name": "Propellant Ammo",
-      "desc": "- Unique Ammo\n- Spent by certain Skills\n- Max Stack: 4",
+      "name": "Munizioni Propellenti",
+      "desc": "- Munizione Speciale\n- Usata da certe Abilità\n- Max Stack: 4",
       "summary": ""
     },
     {
       "id": "NEgoFleshSpatula_LowMorale",
-      "name": "Flesh Scoop",
-      "desc": "- Morale Basso\nTurn Start: Gain 5 Bleed and 1 Attack Power Up",
+      "name": "Carnve Scavata",
+      "desc": "- Morale Basso\nInizio Turno: Ottiene 5 Sanguinamento e 1 Potere Attacco Aumentato",
       "summary": ""
     },
     {
       "id": "NEgoFleshSpatula_Panic",
-      "name": "Flesh Scoop",
-      "desc": "- Morale Basso\nTurn Start: Gain 10 Bleed and 2 Attack Power Up",
+      "name": "Carnve Scavata",
+      "desc": "- Panico\nTurn Start: Ottiene 10 Sanguinamento e 2 Potere Attacco Aumentato",
       "summary": ""
     },
     {
       "id": "LeRegole_LowMorale",
       "name": "Le Regole",
-      "desc": "- Morale Basso\n- If this unit inflicted 2+ Tremor last turn, gain 1 Sloth DMG Up\n- If this unit inflicted 2+ Burn last turn, gain 1 Wrath DMG Up\n- If this unit failed to inflict anything, gain 2 Defense Level Down",
+      "desc": "- Morale Basso\n- Se questa unità ha inflitto 2+ Vibrazione il turno precedente, ottiene 1 Danno Accidia Potenziato\n- Se questa unità ha inflitto 2+ Bruciatura il turno precedente, ottiene 1 Danno Ira Potenziato\n- Se questa unità non ha inflitto nessuno status, ottiene 2 Livello Difensivo Diminuito",
       "summary": ""
     },
     {
       "id": "LeRegole_Panic",
       "name": "Le Regole",
-      "desc": "- Morale Basso\n- If this unit inflicted 2+ Tremor last turn, gain 2 Sloth DMG Up\n- If this unit inflicted 2+ Burn last turn, gain 2 Wrath DMG Up\n- If this unit failed to inflict anything, gain 3 Defense Level Down",
+      "desc": "- Panico\n- Se questa unità ha inflitto 2+ Vibrazione il turno precedente, ottiene 2 Danno Accidia Potenziato\n- Se questa unità ha inflitto 2+ Bruciatura il turno precedente, ottiene 2 Danno Ira Potenziato\n- Se questa unità non ha inflitto nessuno status, ottiene 3 Livello Difensivo Diminuito",
       "summary": ""
     },
     {
       "id": "GazeReplica",
-      "name": "Gaze",
-      "desc": "- Max Stack: 7\n- Take and deal +10% damage from and against Jia Huan\n- At 7 Stack, converts to Contempt",
+      "name": "Sguardo",
+      "desc": "- Max Stack: 7\n- Infligge e subisce +10% danni contro Jia Huan\n- A 7 Stack, diventa Disprezzo",
       "summary": ""
     },
     {
       "id": "ContemptReplica",
-      "name": "Contempt",
-      "desc": "- Max Stack: 1\n- Take and deal -50% damage from and against Jia Huan\n- Targets with Contempt cannot gain Gaze\n- Expires at Turn End",
+      "name": "Disprezzo",
+      "desc": "- Max Stack: 1\n- Infligge e subisce -50% danni contro Jia Huan\n- I bersagli con Disprezzo non possono ottenere Sguardo\n- Scade a Fine Turno",
       "summary": ""
     },
     {
       "id": "GraspReplica",
-      "name": "Grasp",
-      "desc": "- Max Stack: 4\n- Turn End: gain 10 Bind next turn\n- Turn End: lose 1 Stack",
+      "name": "Presa",
+      "desc": "- Max Stack: 4\n- Fine Turno: ottiene 10 Lentezza il turno successivo\n- Fine Turno: perde 1 Stack",
       "summary": ""
     },
     {
       "id": "EgoErodeReplica",
-      "name": "E.G.O Corrosion - N Corp.",
-      "desc": "- Max Stack: 10\n- The following effects activate at every Turn Start:\n· Lose PS by the effect's Stack\n· Gain 1 Attack Power Up for every 3 Stack\n- At Max Stack, take 5% PV damage at Turn End",
+      "name": "Corrosione E.G.O - N Corp.",
+      "desc": "- Max Stack: 10\n- I seguenti effetti si attivano ad ogni Inizio Turno:\n· Perde PS in base alle Stack dell'effetto\n· Ottiene 1 Potere Attacco Aumentato per ogni 3 Stack\n- Se le Stack sono al massimo, subisce 5% danni ai PV a Fine Turno",
       "summary": ""
     },
     {
@@ -175,8 +175,7 @@
       "summary": ""
     },
     {
-      "id": "EgoErodeMemory_LowMorale",
-      "name": "Heart Toward the New Era",
+      "id": "EgoErodeMemory_LowMorale",      "name": "Heart Toward the New Era",
       "desc": "- Morale Basso\n- On Hit, consume 3 PS on self to inflict 2 Sinking",
       "summary": ""
     },
