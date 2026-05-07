@@ -3,7 +3,7 @@
     {
       "id": 9233,
       "name": "Radio Ricetrasmittente Statica",
-      "desc": "Per Uso di un'Abilità che fa ottenere o spendere [Bullet]: Ottieni 1 [Agility] e 2 [AttackUp] nel prossimo turno (una volta per turno per Identità)\n- Per le Abilità che infliggono Potenza, Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi +(20 / n° di Monete)% di danni",
+      "desc": "Per Uso di un'Abilità che fa ottenere o spendere [Bullet]: Ottieni 1 [Agility] e 2 [AttackUp] nel turno successivo (una volta per turno per Identità)\n- Per le Abilità che infliggono Potenza, Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi +(20 / n° di Monete)% di danni",
       "simpleDesc": [
         {
           "abilityID": 9233,
@@ -18,7 +18,7 @@
     {
       "id": 9234,
       "name": "Collana a Forma di Becco",
-      "desc": "Per Uso di un'Abilità che fa ottenere o spendere [Bullet]: Ottieni 1 [Agility] e 1 [Enhancement] nel prossimo turno (una volta per turno per Identità)\n- Per le Abilità che infliggono Potenza, Conteggio [Laceration], o '<noparse>Sangunamento</noparse> Speciale', infliggi +(20 / n° di Monete)% di danni",
+      "desc": "Per Uso di un'Abilità che fa ottenere o spendere [Bullet]: Ottieni 1 [Agility] e 1 [Enhancement] nel turno successivo (una volta per turno per Identità)\n- Per le Abilità che infliggono Potenza, Conteggio [Laceration], o '<noparse>Sangunamento</noparse> Speciale', infliggi +(20 / n° di Monete)% di danni",
       "simpleDesc": [
         {
           "abilityID": 9234,
@@ -33,7 +33,7 @@
     {
       "id": 9235,
       "name": "Desperado",
-      "desc": "Gli effetti di questo Dono E.G.O sono potenziati in base al numero delle Identità in Squadra con Abilità Attacco  fanno ottenere o spendere [Bullet] (Abilità E.G.O escluse; contano tutte le unità in Squadra)\n\n- A 2+...\nPer Uso di un'Abilità che fa ottenere o spendere [Bullet]: Ottieni 2 [Agility] e 4 [AttackUp] nel prossimo turno (una volta per turno per Identità)\n\n- A 5+...\nLe Abilità usate dalle Identità che ottengono o spendono [Bullet]: Potere Scontro +1, infliggono +10% di danni\nAbilità che ottengono o spendono [Bullet]: Infliggi +(100 / n° di Monete)% di danno\nSe l'unità affetta ha finito le [Bullet], ottiene 4 [Bullet] all'Inizio del prossimo Turno (una volta per Identità per Incntro)\n\n- A 8+...\nInizio Turno: Applica 1 [DesperadoBuff] alle Identità che ottengono o spendono [Bullet]\n• Se l'unità affetta non ha speso [Bullet] il turno precedente, applica 1 altro [DesperadoBuff]\nFine del Combattimento: infliggi (somma totale di [DesperadoBuff] su tutti gli alleati x 3) danno Perforante ad un nemico casuale (max 30)\n• Dopo, ripeti l'ultimo effetto per (n° di Identità in Squadra che fa ottenere o spendere [Bullet] - 1) volte",
+      "desc": "Gli effetti di questo Dono E.G.O sono potenziati in base al numero delle Identità in Squadra con Abilità Attacco  fanno ottenere o spendere [Bullet] (Abilità E.G.O escluse; contano tutte le unità in Squadra)\n\n- A 2+...\nPer Uso di un'Abilità che fa ottenere o spendere [Bullet]: Ottieni 2 [Agility] e 4 [AttackUp] nel turno successivo (una volta per turno per Identità)\n\n- A 5+...\nLe Abilità usate dalle Identità che ottengono o spendono [Bullet]: Potere Scontro +1, infliggono +10% di danni\nAbilità che ottengono o spendono [Bullet]: Infliggi +(100 / n° di Monete)% di danno\nSe l'unità affetta ha finito le [Bullet], ottiene 4 [Bullet] all'Inizio del prossimo Turno (una volta per Identità per Incntro)\n\n- A 8+...\nInizio Turno: Applica 1 [DesperadoBuff] alle Identità che ottengono o spendono [Bullet]\n• Se l'unità affetta non ha speso [Bullet] il turno precedente, applica 1 altro [DesperadoBuff]\nFine del Combattimento: infliggi (somma totale di [DesperadoBuff] su tutti gli alleati x 3) danno Perforante ad un nemico casuale (max 30)\n• Dopo, ripeti l'ultimo effetto per (n° di Identità in Squadra che fa ottenere o spendere [Bullet] - 1) volte",
       "simpleDesc": [
         {
           "abilityID": 9235,
@@ -64,7 +64,7 @@
     {
       "id": 9236,
       "name": "Armonici",
-      "desc": "Quando un alleato o un nemico muore in un turno, tutte le unità ottengono [Vulnerable] nel prossimo turno (una volta per Ondata)\n- Per Scontro Vinto da un alleato nello stesso turno dove tutte le unità hanno ottenuto [Vulnerable] per l'effetto di questo Dono, tutti gli alleati perdono 1 [Vulnerable] e infliggono 4 [Laceration] e +2 Conteggio [Laceration] contro tutti i nemici (una volta per turno)",
+      "desc": "Quando un alleato o un nemico muore in un turno, tutte le unità ottengono [Vulnerable] nel turno successivo (una volta per Ondata)\n- Per Scontro Vinto da un alleato nello stesso turno dove tutte le unità hanno ottenuto [Vulnerable] per l'effetto di questo Dono, tutti gli alleati perdono 1 [Vulnerable] e infliggono 4 [Laceration] e +2 Conteggio [Laceration] contro tutti i nemici (una volta per turno)",
       "simpleDesc": [
         {
           "abilityID": 9236,
@@ -79,7 +79,7 @@
     {
       "id": 19236,
       "name": "Armonici+",
-      "desc": "Quando un alleato o un nemico muore in un turno, tutte le unità ottengono <style=\"upgradeHighlight\">2</style> [Vulnerable] nel prossimo turno (una volta per Ondata)\n- Per Scontro Vinto da un alleato nello stesso turno dove tutte le unità hanno ottenuto [Vulnerable] per l'effetto di questo Dono, tutti gli alleati perdono 1 [Vulnerable] e infliggono 4 [Laceration] e +2 Conteggio [Laceration] contro tutti i nemici (<style=\"upgradeHighlight\">2</style> volte per turno)",
+      "desc": "Quando un alleato o un nemico muore in un turno, tutte le unità ottengono <style=\"upgradeHighlight\">2</style> [Vulnerable] nel turno successivo (una volta per Ondata)\n- Per Scontro Vinto da un alleato nello stesso turno dove tutte le unità hanno ottenuto [Vulnerable] per l'effetto di questo Dono, tutti gli alleati perdono 1 [Vulnerable] e infliggono 4 [Laceration] e +2 Conteggio [Laceration] contro tutti i nemici (<style=\"upgradeHighlight\">2</style> volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 19236,
@@ -94,7 +94,7 @@
     {
       "id": 29236,
       "name": "Armonici++",
-      "desc": "Quando un alleato o un nemico muore in un turno, tutte le unità ottengono <style=\"upgradeHighlight\">3</style> [Vulnerable] nel prossimo turno (una volta per Ondata)\n- Per Scontro Vinto da un alleato nello stesso turno dove tutte le unità hanno ottenuto [Vulnerable] per l'effetto di questo Dono, tutti gli alleati perdono 1 [Vulnerable] e infliggono 4 [Laceration] e +2 Conteggio [Laceration] contro tutti i nemici (<style=\"upgradeHighlight\">3</style> volte per turno)",
+      "desc": "Quando un alleato o un nemico muore in un turno, tutte le unità ottengono <style=\"upgradeHighlight\">3</style> [Vulnerable] nel turno successivo (una volta per Ondata)\n- Per Scontro Vinto da un alleato nello stesso turno dove tutte le unità hanno ottenuto [Vulnerable] per l'effetto di questo Dono, tutti gli alleati perdono 1 [Vulnerable] e infliggono 4 [Laceration] e +2 Conteggio [Laceration] contro tutti i nemici (<style=\"upgradeHighlight\">3</style> volte per turno)",
       "simpleDesc": [
         {
           "abilityID": 29236,
@@ -165,7 +165,7 @@
     {
       "id": 9239,
       "name": "Bouquet Rosa",
-      "desc": "Per Colpo con un'Abilità Perforante contro un nemico: Ottieni 1 [Agility] e 1 [PenetrateDamageUp] nel prossimo turno (2 volte per turno per Identità)\n- Per nemico Ucciso con tale Abilità: ottieni 1 [Agility] e 2 [PenetrateDamageUp] in più nel prossimo turno (una volta per turno per Identità)\n\nPer Colpo da un alleato con un'Abilità che infligge Potenza, Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi 2 [PinkPetals]\n- Infliggi 1 altro [PinkPetals] per ogni 5 [Sinking] sul nemico (max 4)\n- Se il nemico ha 10+ Stack di [PinkPetals], infliggi 2 [Vibration] Per Colpo (3 volte per turno)\n\nFine Turno: Infliggi 2 [Binding] e 3 [DefenseDown] nel prossimo turno contro i nemici (per le Anormalità, Parti) con 5+ ([Sinking] + [Vibration])\n- Se il bersaglio ha 10+ ([Sinking] + [Vibration]), infliggi invece 2 [Binding], 1 [Paralysis], e 4 [DefenseDown]\n\nFine Turno: Se tutti i nemici hanno delle Stack rimanenti di [PinkPetals], tutti gli alleati ottengono 1 [Enhancement] nel prossimo turno",
+      "desc": "Per Colpo con un'Abilità Perforante contro un nemico: Ottieni 1 [Agility] e 1 [PenetrateDamageUp] nel turno successivo (2 volte per turno per Identità)\n- Per nemico Ucciso con tale Abilità: ottieni 1 [Agility] e 2 [PenetrateDamageUp] in più nel turno successivo (una volta per turno per Identità)\n\nPer Colpo da un alleato con un'Abilità che infligge Potenza, Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi 2 [PinkPetals]\n- Infliggi 1 altro [PinkPetals] per ogni 5 [Sinking] sul nemico (max 4)\n- Se il nemico ha 10+ Stack di [PinkPetals], infliggi 2 [Vibration] Per Colpo (3 volte per turno)\n\nFine Turno: Infliggi 2 [Binding] e 3 [DefenseDown] nel turno successivo contro i nemici (per le Anormalità, Parti) con 5+ ([Sinking] + [Vibration])\n- Se il bersaglio ha 10+ ([Sinking] + [Vibration]), infliggi invece 2 [Binding], 1 [Paralysis], e 4 [DefenseDown]\n\nFine Turno: Se tutti i nemici hanno delle Stack rimanenti di [PinkPetals], tutti gli alleati ottengono 1 [Enhancement] nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9239,
@@ -192,7 +192,7 @@
     {
       "id": 9240,
       "name": "Profumo alla Pappa Reale",
-      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nInizio Incontro: Ottieni [QueenBeepheromone]\n\nSubisci -15% di danni dai nemici con [Combustion]\n\nFine Turno: Infliggi [QueenBeeMark] nel prossimo turno contro il nemico (negli Incontri Mirati, la Parte) che ha inflitto più danni a questa unità\n- Se gli alleati non hanno subito dei danni dai nemici, infliggi [QueenBeeMark] nel prossimo turno contro 1 nemico casuale (negli Incontri Mirati, una Parte)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nInizio Incontro: Ottieni [QueenBeepheromone]\n\nSubisci -15% di danni dai nemici con [Combustion]\n\nFine Turno: Infliggi [QueenBeeMark] nel turno successivo contro il nemico (negli Incontri Mirati, la Parte) che ha inflitto più danni a questa unità\n- Se gli alleati non hanno subito dei danni dai nemici, infliggi [QueenBeeMark] nel turno successivo contro 1 nemico casuale (negli Incontri Mirati, una Parte)",
       "simpleDesc": [
         {
           "abilityID": 9240,
@@ -207,7 +207,7 @@
     {
       "id": 9241,
       "name": "Caffè Ancora Fumante",
-      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nFine Turno dopo aver usato un'Abilità Attacco: Cura 5 PS\n- Dopo, se l'unità affetta è a PV Max ed è un'Identità della Lobotomy Corp., ottiene 1 [PlusCoinValueUp] nel prossimo turno",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nFine Turno dopo aver usato un'Abilità Attacco: Cura 5 PS\n- Dopo, se l'unità affetta è a PV Max ed è un'Identità della Lobotomy Corp., ottiene 1 [PlusCoinValueUp] nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9241,

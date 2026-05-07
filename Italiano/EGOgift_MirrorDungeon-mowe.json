@@ -3,11 +3,11 @@
     {
       "id": 9732,
       "name": "Buono Sconto per la Classe Economica",
-      "desc": "Fine Turno: tra le Identità con 5- Velocità, quello con Velocità minore ottiene 1 [Agility] nel prossimo turno.",
+      "desc": "Fine Turno: tra le Identità con 5- Velocità, quello con Velocità minore ottiene 1 [Agility] nel turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 9732,
-          "simpleDesc": "Ottieni 1 [Agility] nel prossimo turno"
+          "simpleDesc": "Ottieni 1 [Agility] nel turno successivo"
         }
       ]
     },
@@ -82,7 +82,7 @@
     {
       "id": 9737,
       "name": "Modulo Cardiovascolare Reattivo",
-      "desc": "Quando un alleato con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' perde uno Scontro, ottiene Scudo uguale a (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'). (una volta per turno)\n\nQuando a 50%- PV, ottiene invece ((Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') x 2) in Scudo. (una volta per turno)\n\nSe un'Identità dell'Ufficio Multicrack ha ricevuto danni ai PV in questo Incontro: nel prossimo turno, riceve una cura del 33% dei PV persi nel turno precedente. (arrotondato per difetto)",
+      "desc": "Quando un alleato con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' perde uno Scontro, ottiene Scudo uguale a (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'). (una volta per turno)\n\nQuando a 50%- PV, ottiene invece ((Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') x 2) in Scudo. (una volta per turno)\n\nSe un'Identità dell'Ufficio Multicrack ha ricevuto danni ai PV in questo Incontro: nel turno successivo, riceve una cura del 33% dei PV persi nel turno precedente. (arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9737,
@@ -131,7 +131,7 @@
         },
         {
           "abilityID": 97401,
-          "simpleDesc": "Ottieni [Agility] e [AttackDmgUp] nel prossimo turno"
+          "simpleDesc": "Ottieni [Agility] e [AttackDmgUp] nel turno successivo"
         },
         {
           "abilityID": 97402,

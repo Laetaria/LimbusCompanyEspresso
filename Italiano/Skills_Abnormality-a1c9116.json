@@ -6,13 +6,13 @@
                 {
                     "level": 1,
                     "name": "Fine Dei Test",
-                    "desc": "[WhenUse] Ottiene 3 [HitDamageUp] il prossimo turno\n[WhenUse] Se il bersaglio principale ha 3+ [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]",
+                    "desc": "[WhenUse] Ottiene 3 [HitDamageUp] il turno successivo\n[WhenUse] Se il bersaglio principale ha 3+ [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                                 }
                             ]
                         }
@@ -130,7 +130,7 @@
                                     "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstAgility], ottiene 1 [Agility] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstAgility], ottiene 1 [Agility] il turno successivo"
                                 }
                             ]
                         }

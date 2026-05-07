@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Attacco Scortese",
-          "desc": "[WhenUse] Ottiene 1 [Agility] il prossimo turno",
+          "desc": "[WhenUse] Ottiene 1 [Agility] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -40,7 +40,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -133,7 +133,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -178,7 +178,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha Scudo, infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Se questa unità ha Scudo, infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -371,7 +371,7 @@
         {
           "level": 1,
           "name": "Colpo Improvviso",
-          "desc": "[WhenUse] Ottiene 1 [Agility] il prossimo turno",
+          "desc": "[WhenUse] Ottiene 1 [Agility] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -405,7 +405,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -498,7 +498,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -543,7 +543,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha Scudo, infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Se questa unità ha Scudo, infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -650,7 +650,7 @@
         {
           "level": 1,
           "name": "Carica",
-          "desc": "[DuelCounter] \n[WinDuel] Ottiene 3 [Agility] il prossimo turno",
+          "desc": "[DuelCounter] \n[WinDuel] Ottiene 3 [Agility] il turno successivo",
           "coinlist": [
             {}
           ]
@@ -756,7 +756,7 @@
         {
           "level": 1,
           "name": "Carica",
-          "desc": "[DuelCounter] \n[WinDuel] Ottiene 3 [Agility] il prossimo turno",
+          "desc": "[DuelCounter] \n[WinDuel] Ottiene 3 [Agility] il turno successivo",
           "coinlist": [
             {}
           ]
@@ -774,7 +774,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -793,10 +793,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il turno successivo"
                 }
               ]
             }
@@ -815,20 +815,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDown] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDown] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [MiddleFingerBook], ottiene 1 [PlusCoinValueUp] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [MiddleFingerBook], ottiene 1 [PlusCoinValueUp] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDown] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDown] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [MiddleFingerBook], ottiene 1 [PlusCoinValueUp] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [MiddleFingerBook], ottiene 1 [PlusCoinValueUp] il turno successivo"
                 }
               ]
             }
@@ -842,26 +842,26 @@
         {
           "level": 1,
           "name": "La Vendetta Vi Attende!",
-          "desc": "Infligge +10% danni per ogni 2 [MiddleFingerBook] sul bersaglio (max 50%)\n[BeforeAttack] A 40% o meno PV, ottiene +1 Portata Attacco\n[WhenUse] Se il bersaglio principale ha [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]\n[WhenUse] Potere Moneta +1 per ogni 3 nemici con [MiddleFingerBook] (max 2)\n[WhenUse] Potere Scontro +1 per ogni 2 [MiddleFingerBook] sul bersaglio principale (max 5)\n[EndSkill] Ottiene 1 [PlusCoinValueUp] il prossimo turno per ogni nemico con [MiddleFingerBook] ucciso (max 2)\n[EndSkill] Rimuove ogni [MiddleFingerBook] sui tutti i bersagli colpiti",
+          "desc": "Infligge +10% danni per ogni 2 [MiddleFingerBook] sul bersaglio (max 50%)\n[BeforeAttack] A 40% o meno PV, ottiene +1 Portata Attacco\n[WhenUse] Se il bersaglio principale ha [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]\n[WhenUse] Potere Moneta +1 per ogni 3 nemici con [MiddleFingerBook] (max 2)\n[WhenUse] Potere Scontro +1 per ogni 2 [MiddleFingerBook] sul bersaglio principale (max 5)\n[EndSkill] Ottiene 1 [PlusCoinValueUp] il turno successivo per ogni nemico con [MiddleFingerBook] ucciso (max 2)\n[EndSkill] Rimuove ogni [MiddleFingerBook] sui tutti i bersagli colpiti",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
                 }
               ]
             }

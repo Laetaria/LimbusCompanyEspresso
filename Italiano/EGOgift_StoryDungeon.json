@@ -221,7 +221,7 @@
     {
       "id": 1034,
       "name": "Criniera Rosso-Sangue",
-      "desc": "Gli alleati con delle abilità Lussuria ricevono i seguenti effetti:\nSe l'unità non ha ricevuto danni da attacchi in questo turno, riceve 2 [Agility] e 2 [Endurance] nel prossimo turno.\nSe l'unità ha ricevuto danni da attacchi in questo turno, riceve 2 [Binding] e 2 [Enhancement] nel prossimo turno.",
+      "desc": "Gli alleati con delle abilità Lussuria ricevono i seguenti effetti:\nSe l'unità non ha ricevuto danni da attacchi in questo turno, riceve 2 [Agility] e 2 [Endurance] nel turno successivo.\nSe l'unità ha ricevuto danni da attacchi in questo turno, riceve 2 [Binding] e 2 [Enhancement] nel turno successivo.",
       "simpleDesc": [
         {
           "abilityID": 1034,
@@ -515,7 +515,7 @@
     {
       "id": 2008,
       "name": "Lacrime Scottanti",
-      "desc": "Subisci -10% di danno da affinità Ira\nQuando colpito, ottiene 1 [Enhancement] il prossimo turno (Una volta per turno per Peccatore)",
+      "desc": "Subisci -10% di danno da affinità Ira\nQuando colpito, ottiene 1 [Enhancement] il turno successivo (Una volta per turno per Peccatore)",
       "simpleDesc": [
         {
           "abilityID": 2009,
@@ -523,7 +523,7 @@
         },
         {
           "abilityID": 200901,
-          "simpleDesc": "Quando colpito, ottieni 1 [Enhancement] il prossimo turno"
+          "simpleDesc": "Quando colpito, ottieni 1 [Enhancement] il turno successivo"
         }
       ]
     },

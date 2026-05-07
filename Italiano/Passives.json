@@ -2422,18 +2422,18 @@
     {
       "id": 1071321,
       "name": "Un Giorno Indosserò L'Armatura Per I Treni Cancellati",
-      "desc": "- Inizio Combattimento: Se l'unità dall'Ordine di Schieramento più alto ottiene Conteggio [Charge] oltre il Limite di Conteggio [Charge] Massimo usando un'Abilità, l'unità ottiene 1 [ChargeForceField] il prossimo turno per ogni Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo (max 3, incluse le Abilità E.G.O)"
+      "desc": "- Inizio Combattimento: Se l'unità dall'Ordine di Schieramento più alto ottiene Conteggio [Charge] oltre il Limite di Conteggio [Charge] Massimo usando un'Abilità, l'unità ottiene 1 [ChargeForceField] il turno successivo per ogni Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo (max 3, incluse le Abilità E.G.O)"
     },
     {
       "id": 1051301,
       "name": "'Indossa il Sangue, Mascherati, Fa' Come Ordina il Sangue'",
-      "desc": "Inizio Combattimento: Se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene 1 [AttackUp] e 1 [DefenseUp]\n- A 4+ Stack: ottiene 1 [Agility] il prossimo turno\n\nSu Colpo contro i nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
+      "desc": "Inizio Combattimento: Se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene 1 [AttackUp] e 1 [DefenseUp]\n- A 4+ Stack: ottiene 1 [Agility] il turno successivo\n\nSu Colpo contro i nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
       "summary": "Se le condizioni vengono soddisfatte, si cura del 30% dei PV"
     },
     {
       "id": 1051311,
       "name": "'Indossa il Sangue, Mascherati, Fa' Come Ordina il Sangue'",
-      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il prossimo turno\n\n<style=\"highlight\">Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Sul Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
+      "desc": "Inizio Combattimento: se questa unità possiede [BloodArmorMeursault], ottiene i seguenti effetti in base alle Stack:\n- A 3+ Stack: ottiene <style=\"highlight\">2</style> [AttackUp] e <style=\"highlight\">2</style> [DefenseUp]\n- A 4+ Stack: ottiene <style=\"highlight\">2</style> [Agility] il turno successivo\n\n<style=\"highlight\">Inizio Combattimento: se questa unità possiede [FocusOnActing], infligge 1 [ParadeConcentration] Sul Colpo contro i nemici (2 volte per turno; Abilità E.G.O Incluse)</style>\n\nSu Colpo contro nemici afflitti da [Laceration]: se questa unità ha meno del 30% dei PV, si cura del 30% dei PV (una volta per Incontro; arrotondato per difetto)",
       "summary": "Se le condizioni vengono soddisfatte: infligge 1 [ParadeConcentration]\nSe le condizioni vengono soddisfatte: recupera il 30% dei PV"
     },
     {
@@ -2710,7 +2710,7 @@
     {
       "id": 1101502,
       "name": "Concentrazione Unidirezionale",
-      "desc": "Fine Turno: Ogni eccesso di Potenza [Breath] ottenuto oltre 25 verrà convertito in [LittleFingerID] (max 15)\n\nInizio Combattimento: Se questa unità non ha equipaggiato Abilità di Attacco (incluse le Abilità E.G.O) in questo turno, recupera 5 PS e ottiene 1 [SlashResultUp] il prossimo turno"
+      "desc": "Fine Turno: Ogni eccesso di Potenza [Breath] ottenuto oltre 25 verrà convertito in [LittleFingerID] (max 15)\n\nInizio Combattimento: Se questa unità non ha equipaggiato Abilità di Attacco (incluse le Abilità E.G.O) in questo turno, recupera 5 PS e ottiene 1 [SlashResultUp] il turno successivo"
     },
     {
       "id": 1101521,
@@ -2756,7 +2756,7 @@
     {
       "id": 1011511,
       "name": "Imitazione di una Vita",
-      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con [SuperCoin] delle Abilità Attacco Base, ottiene 1 [StackYisangSpecialSkill]\n- AFine Attacco: Ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanente)\n<style=\"highlight\">- 'Furioso (Replica)' Fine Attacco: il turno successivo ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanenti di questa Abilità / 2) (arrotondato per difetto)</style>\n\n<style=\"highlight\">Se [StackYisangSpecialSkill] ha raggiunto 9 Stack in questo turno a Fine Turno, e se questa unità non ha un’Abilità 3 sul Pannello di Controllo all’inizio del prossimo turno, converte un’Abilità Base in Abilità 3 (dà priorità all’Abilità nello Slot più in basso a sinistra, riga più in basso)</style>",
+      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con [SuperCoin] delle Abilità Attacco Base, ottiene 1 [StackYisangSpecialSkill]\n- AFine Attacco: Ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanente)\n<style=\"highlight\">- 'Furioso (Replica)' Fine Attacco: il turno successivo ottiene [StackYisangSpecialSkill] pari a (# di [SuperCoin] rimanenti di questa Abilità / 2) (arrotondato per difetto)</style>\n\n<style=\"highlight\">Se [StackYisangSpecialSkill] ha raggiunto 9 Stack in questo turno a Fine Turno, e se questa unità non ha un’Abilità 3 sul Pannello di Controllo all’inizio del turno successivo, converte un’Abilità Base in Abilità 3 (dà priorità all’Abilità nello Slot più in basso a sinistra, riga più in basso)</style>",
       "summary": "Infligge più danni con le Abilità marchiate con Segno del Prescritto in base a Grazia del Prescritto su di sé\nSul Colpo: Cura i suoi PS\nOttiene [StackYisangSpecialSkill] quando raggiunge determinate condizioni"
     },
     {
@@ -2957,7 +2957,7 @@
     {
       "id": 1071521,
       "name": "Catene della Lealtà",
-      "desc": "Se un qualsiasi alleato del Medio viene ucciso durante il combattimento in questo turno, tutti gli alleati del Medio ottengono 1 [Enhancement] er questo e il prossimo turno (una volta per turno)"
+      "desc": "Se un qualsiasi alleato del Medio viene ucciso durante il combattimento in questo turno, tutti gli alleati del Medio ottengono 1 [Enhancement] er questo e il turno successivo (una volta per turno)"
     }
   ]
 }

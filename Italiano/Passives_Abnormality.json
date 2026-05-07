@@ -80,7 +80,7 @@
     {
       "id": 800902,
       "name": "Nucleo Fragile",
-      "desc": "Quando la Testa viene distrutta, infligge [Inactible] su ogni Parte durante il prossimo turno.\nLa Testa si rigenera dopo 1 turno."
+      "desc": "Quando la Testa viene distrutta, infligge [Inactible] su ogni Parte durante il turno successivo.\nLa Testa si rigenera dopo 1 turno."
     },
     {
       "id": 800903,
@@ -95,7 +95,7 @@
     {
       "id": 801001,
       "name": "Migliora la Fabbrica Sul Lavoro",
-      "desc": "Se quest'unità subisce un danno fatale, non muore e ottiene 1 [Operation] il prossimo turno."
+      "desc": "Se quest'unità subisce un danno fatale, non muore e ottiene 1 [Operation] il turno successivo."
     },
     {
       "id": 801002,
@@ -175,7 +175,7 @@
     {
       "id": 802802,
       "name": "Muta",
-      "desc": "Quando questa Parte viene rotta, se l'altro Braccio non viene rotto entro la fine del prossimo turno, questa Parte si rigenera e ottiene PV pari ai PV attuali dell'altro braccio."
+      "desc": "Quando questa Parte viene rotta, se l'altro Braccio non viene rotto entro la fine del turno successivo, questa Parte si rigenera e ottiene PV pari ai PV attuali dell'altro braccio."
     },
     {
       "id": 802803,
@@ -210,7 +210,7 @@
     {
       "id": 802904,
       "name": "La Benedizione dell'Esecuzione",
-      "desc": "Quando sconfigge un nemico, ottiene 2 [Agility] e 5 [AttackDmgUp] nel prossimo turno."
+      "desc": "Quando sconfigge un nemico, ottiene 2 [Agility] e 5 [AttackDmgUp] nel turno successivo."
     },
     {
       "id": 803001,
@@ -245,7 +245,7 @@
     {
       "id": 803201,
       "name": "Parafulmine",
-      "desc": "Quando il Traliccio viene colpito, infligge 2 [ElectricShock] sull'attaccante durante il prossimo turno.\nA 5 o più Stack di [DogThunder], tutte le Parti infliggono +1 [ElectricShock]. (Questo effetto persisterà finchè gli Stack di [DogThunder] non scendono 0.)\nQuando viene colpito da un'Abilità Accidia, lo [ElectricShock] inflitto viene dimezzato. (Arrotondato per eccesso.)"
+      "desc": "Quando il Traliccio viene colpito, infligge 2 [ElectricShock] sull'attaccante durante il turno successivo.\nA 5 o più Stack di [DogThunder], tutte le Parti infliggono +1 [ElectricShock]. (Questo effetto persisterà finchè gli Stack di [DogThunder] non scendono 0.)\nQuando viene colpito da un'Abilità Accidia, lo [ElectricShock] inflitto viene dimezzato. (Arrotondato per eccesso.)"
     },
     {
       "id": 803202,
@@ -265,7 +265,7 @@
     {
       "id": 803701,
       "name": "Rimpolpamento del Pollo Bongy",
-      "desc": "A fine turno, infligge 2 [AttackDmgUp] e 2 [Protection] a tutti gli alleati durante il prossimo turno."
+      "desc": "A fine turno, infligge 2 [AttackDmgUp] e 2 [Protection] a tutti gli alleati durante il turno successivo."
     },
     {
       "id": 803901,
@@ -300,12 +300,12 @@
     {
       "id": 804103,
       "name": "Preso dalle Corna",
-      "desc": "Se la testa viene Stordita, tutte le altre parti vengono Stordite nel prossimo turno."
+      "desc": "Se la testa viene Stordita, tutte le altre parti vengono Stordite nel turno successivo."
     },
     {
       "id": 804104,
       "name": "Abbattuto dalle Corna",
-      "desc": "Quando la testa viene Stordita, tutte le altre parti vengono Stordite nel prossimo turno. Poi, esse ottengono 3 [Reduction] per il resto dell'Incontro."
+      "desc": "Quando la testa viene Stordita, tutte le altre parti vengono Stordite nel turno successivo. Poi, esse ottengono 3 [Reduction] per il resto dell'Incontro."
     },
     {
       "id": 804501,
@@ -325,7 +325,7 @@
     {
       "id": 804504,
       "name": "Persistenza Terminata",
-      "desc": "Dopo aver usato 'Attorcigliamento', se lo Scudo finisce, consuma [SelfCharge].\nTutte le Parti vengono Stordite nel prossimo turno."
+      "desc": "Dopo aver usato 'Attorcigliamento', se lo Scudo finisce, consuma [SelfCharge].\nTutte le Parti vengono Stordite nel turno successivo."
     },
     {
       "id": 804601,
@@ -345,7 +345,7 @@
     {
       "id": 804701,
       "name": "Fiamme Disperse",
-      "desc": "A fine turno, se quest'unità ha [Combustion], infligge lo stesso valore di [Combustion] a tutti i nemici con [WrappedCurseTag] durante il prossimo turno"
+      "desc": "A fine turno, se quest'unità ha [Combustion], infligge lo stesso valore di [Combustion] a tutti i nemici con [WrappedCurseTag] durante il turno successivo"
     },
     {
       "id": 804702,
@@ -365,7 +365,7 @@
     {
       "id": 805201,
       "name": "Vecchio e Trascurato",
-      "desc": "Se quest'unità viene sconfitta, l'attaccante ottiene 2 [Agility] nel prossimo turno.\nTutte le Parti di Drifting Fox ottengono 2 [Binding] e 1 [ShardOfUmbrella]."
+      "desc": "Se quest'unità viene sconfitta, l'attaccante ottiene 2 [Agility] nel turno successivo.\nTutte le Parti di Drifting Fox ottengono 2 [Binding] e 1 [ShardOfUmbrella]."
     },
     {
       "id": 804301,
@@ -395,7 +395,7 @@
     {
       "id": 805301,
       "name": "Cuor Fortificato",
-      "desc": "Se quest'unità è rotta, Dongbaek ottiene +5 Conteggio [Sinking], tutti i Peccatori consumano 2 Conteggio [Sinking] e ottengono 1 [Protection] e 2 [Enhancement] nel prossimo turno."
+      "desc": "Se quest'unità è rotta, Dongbaek ottiene +5 Conteggio [Sinking], tutti i Peccatori consumano 2 Conteggio [Sinking] e ottengono 1 [Protection] e 2 [Enhancement] nel turno successivo."
     },
     {
       "id": 804401,
@@ -410,7 +410,7 @@
     {
       "id": 804403,
       "name": "Duello",
-      "desc": "Se i PV scendono al 50%, usa 'Da Cospargere di Terra' e diventa immune a Stordimento e Panico per due Turni.\nSe Yi Sang è in stato di [DongbaekShowdown], Dongbaek ottiene 1 [Enhancement].\nSe Yi Sang vince il [DongbaekShowdown], tutti gli alleati ottengono 3 [AttackDmgUp] nel prossimo turno.\nSe Dongbaek vine il [DongbaekShowdown], Dongbaek cura del tutto i PS."
+      "desc": "Se i PV scendono al 50%, usa 'Da Cospargere di Terra' e diventa immune a Stordimento e Panico per due Turni.\nSe Yi Sang è in stato di [DongbaekShowdown], Dongbaek ottiene 1 [Enhancement].\nSe Yi Sang vince il [DongbaekShowdown], tutti gli alleati ottengono 3 [AttackDmgUp] nel turno successivo.\nSe Dongbaek vine il [DongbaekShowdown], Dongbaek cura del tutto i PS."
     },
     {
       "id": 804404,
@@ -450,17 +450,17 @@
     {
       "id": 805602,
       "name": "Lavoro Sodo",
-      "desc": "Mentre quest'unità ha [DistortedDongrangEarnestAchievement], applica i seguenti effetti:\n- Può essere sconfitto solo dagli attacchi di Dongrang.\n- Quando quest'unità subisce danni fatali, ottiene [DistortedDongrangEmptyHonor] e cura i PV dell'attaccante.\n- Se Dongrang sconfigge quest'unità, Dongrang cura PV e diventa più forte durante il prossimo turno."
+      "desc": "Mentre quest'unità ha [DistortedDongrangEarnestAchievement], applica i seguenti effetti:\n- Può essere sconfitto solo dagli attacchi di Dongrang.\n- Quando quest'unità subisce danni fatali, ottiene [DistortedDongrangEmptyHonor] e cura i PV dell'attaccante.\n- Se Dongrang sconfigge quest'unità, Dongrang cura PV e diventa più forte durante il turno successivo."
     },
     {
       "id": 805603,
       "name": "Onore Futile",
-      "desc": "Mentre quest'unità ha [DistortedDongrangEmptyHonor], applica i seguenti effetti:\n- Può essere sconfitto solo dagli attacchi di Dongrang.\n- Se Dongrang sconfigge quest'unità, Dongrang perde PV, ottiene 1 [DistortedDongrangEmptiness], e viene indebolito durante il prossimo turno"
+      "desc": "Mentre quest'unità ha [DistortedDongrangEmptyHonor], applica i seguenti effetti:\n- Può essere sconfitto solo dagli attacchi di Dongrang.\n- Se Dongrang sconfigge quest'unità, Dongrang perde PV, ottiene 1 [DistortedDongrangEmptiness], e viene indebolito durante il turno successivo"
     },
     {
       "id": 805701,
       "name": "Carico Fruito",
-      "desc": "L'unità che ha sconfitto quest'unità cura il 5% dei PV Max, e ottiene 1 [Agility] e 1 [Enhancement] nel prossimo turno"
+      "desc": "L'unità che ha sconfitto quest'unità cura il 5% dei PV Max, e ottiene 1 [Agility] e 1 [Enhancement] nel turno successivo"
     },
     {
       "id": 805001,
@@ -480,7 +480,7 @@
     {
       "id": 805005,
       "name": "Sorriso Amaro",
-      "desc": "In stato di Panico, ottiene 2 [Protection] e riporta i PS a 0 durante il prossimo turno."
+      "desc": "In stato di Panico, ottiene 2 [Protection] e riporta i PS a 0 durante il turno successivo."
     },
     {
       "id": 805006,
@@ -490,7 +490,7 @@
     {
       "id": 805007,
       "name": "Impresa Estenuante",
-      "desc": "Dopo aver usato 'Sii I Miei Nutrienti, Prego' 3 volte, viene Stordito nel prossimo turno."
+      "desc": "Dopo aver usato 'Sii I Miei Nutrienti, Prego' 3 volte, viene Stordito nel turno successivo."
     },
     {
       "id": 805002,
@@ -560,7 +560,7 @@
     {
       "id": 826302,
       "name": "Fame Selvaggia",
-      "desc": "A inizio turno, se ci sono alleati a 25% o meno PV, divora tutti gli alleati.\nCura il (n° di alleati divorati x 5)% dei PV Max del Corpo.\nA fine turno, se tutti gli alleati sono sconfitti, ottiene 20 [Enhancement] durante il prossimo turno."
+      "desc": "A inizio turno, se ci sono alleati a 25% o meno PV, divora tutti gli alleati.\nCura il (n° di alleati divorati x 5)% dei PV Max del Corpo.\nA fine turno, se tutti gli alleati sono sconfitti, ottiene 20 [Enhancement] durante il turno successivo."
     },
     {
       "id": 826303,
@@ -595,7 +595,7 @@
     {
       "id": 826505,
       "name": "Fame Selvaggia",
-      "desc": "A 4 Stack di [Hunger], passa alla fase successiva nel prossimo turno."
+      "desc": "A 4 Stack di [Hunger], passa alla fase successiva nel turno successivo."
     },
     {
       "id": 811801,
@@ -605,7 +605,7 @@
     {
       "id": 811802,
       "name": "Passato Smarrito",
-      "desc": "Se il corpo è rotto, consuma tutto il [AccumulatedPastMirror].\nSe il corpo è rotto, tutte le sue resistenze vengono cambiate in Inefficace (0.5) a partire dal prossimo turno."
+      "desc": "Se il corpo è rotto, consuma tutto il [AccumulatedPastMirror].\nSe il corpo è rotto, tutte le sue resistenze vengono cambiate in Inefficace (0.5) a partire dal turno successivo."
     },
     {
       "id": 811808,

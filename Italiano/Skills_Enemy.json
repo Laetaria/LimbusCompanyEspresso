@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Attacco Furtivo",
-          "desc": "[OnSucceedAttack] Ottiene 1 [Enhancement] il prossimo turno"
+          "desc": "[OnSucceedAttack] Ottiene 1 [Enhancement] il turno successivo"
         }
       ]
     },
@@ -44,7 +44,7 @@
         {
           "level": 1,
           "name": "Ferita Aperta",
-          "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il prossimo turno"
+          "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il turno successivo"
         }
       ]
     },
@@ -54,7 +54,7 @@
         {
           "level": 1,
           "name": "Individua Debolezze",
-          "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] il prossimo turno"
+          "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] il turno successivo"
         }
       ]
     },
@@ -73,7 +73,7 @@
         {
           "level": 1,
           "name": "Ordine d'Assalto",
-          "desc": "[WhenUse] Applica 1 [Enhancement] a un alleato casuale il prossimo turno"
+          "desc": "[WhenUse] Applica 1 [Enhancement] a un alleato casuale il turno successivo"
         }
       ]
     },
@@ -83,7 +83,7 @@
         {
           "level": 1,
           "name": "Ordine Difensivo",
-          "desc": "[2xPostLine]\n[WhenUse] Applica 2 [Endurance] a 2 alleati casuali il prossimo turno"
+          "desc": "[2xPostLine]\n[WhenUse] Applica 2 [Endurance] a 2 alleati casuali il turno successivo"
         }
       ]
     },
@@ -263,7 +263,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             }
@@ -334,7 +334,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il turno successivo"
                 }
               ]
             }
@@ -441,7 +441,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il turno successivo"
                 }
               ]
             }
@@ -460,7 +460,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] il turno successivo"
                 }
               ]
             }
@@ -548,7 +548,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il turno successivo"
                 }
               ]
             }
@@ -585,7 +585,7 @@
         {
           "level": 1,
           "name": "Ordine Difensivo",
-          "desc": "[WhenUse] Applica 1 [Protection] a 2 alleati casuali il prossimo turno",
+          "desc": "[WhenUse] Applica 1 [Protection] a 2 alleati casuali il turno successivo",
           "coinlist": [
             {}
           ]
@@ -613,7 +613,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst] il turno successivo"
                 }
               ]
             }
@@ -653,12 +653,12 @@
         {
           "level": 1,
           "name": "Ordine d'Assalto",
-          "desc": "[WhenUse] Applica 1 [AttackDmgUp] a 2 alleati casuali il prossimo turno",
+          "desc": "[WhenUse] Applica 1 [AttackDmgUp] a 2 alleati casuali il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst] il turno successivo"
                 }
               ]
             }
@@ -701,7 +701,7 @@
         {
           "level": 1,
           "name": "Ordine Difensivo",
-          "desc": "[WhenUse] Applica 1 [Protection] a 2 alleati casuali il prossimo turno",
+          "desc": "[WhenUse] Applica 1 [Protection] a 2 alleati casuali il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -738,7 +738,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             },
@@ -888,7 +888,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration] il turno successivo"
                 }
               ]
             }
@@ -907,14 +907,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst] il turno successivo"
                 }
               ]
             }
@@ -1006,7 +1006,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             }
@@ -1044,14 +1044,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo"
                 }
               ]
             }
@@ -1111,7 +1111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
                 }
               ]
             }
@@ -1131,7 +1131,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             },
@@ -1153,7 +1153,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -1213,7 +1213,7 @@
         {
           "level": 1,
           "name": "Danza de Paz",
-          "desc": "[WhenUse] Applica 1 [Endurance] a tutti gli alleati il prossimo turno",
+          "desc": "[WhenUse] Applica 1 [Endurance] a tutti gli alleati il turno successivo",
           "coinlist": [
             {}
           ]
@@ -1233,7 +1233,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
                 }
               ]
             }
@@ -1273,7 +1273,7 @@
         {
           "level": 1,
           "name": "Danza de Emoción",
-          "desc": "[WhenUse] Ottiene 1 [Enhancement] il prossimo turno",
+          "desc": "[WhenUse] Ottiene 1 [Enhancement] il turno successivo",
           "coinlist": [
             {}
           ]
@@ -1291,28 +1291,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
                 }
               ]
             }
@@ -1331,7 +1331,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Reduction] e 3 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Reduction] e 3 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -1351,7 +1351,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 [Enhancement] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -1371,7 +1371,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 2 [Endurance] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Endurance] il turno successivo"
                 }
               ]
             }
@@ -1422,14 +1422,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il turno successivo"
                 }
               ]
             }
@@ -1487,7 +1487,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -1519,7 +1519,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] il turno successivo"
                 }
               ]
             }
@@ -1538,21 +1538,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il turno successivo"
                 }
               ]
             }
@@ -1584,7 +1584,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 3 [Vibration] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Vibration] il turno successivo"
                 }
               ]
             },
@@ -1624,7 +1624,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration] il turno successivo"
                 }
               ]
             }
@@ -1638,7 +1638,7 @@
         {
           "level": 1,
           "name": "Protezione",
-          "desc": "[WinDuel] Applica 1 [Endurance] a 2 alleati casuali il prossimo turno",
+          "desc": "[WinDuel] Applica 1 [Endurance] a 2 alleati casuali il turno successivo",
           "coinlist": [
             {}
           ]
@@ -1699,7 +1699,7 @@
         {
           "level": 1,
           "name": "Riparo",
-          "desc": "[WinDuel] Applica 2 [Protection] a un alleato casuale il prossimo turno",
+          "desc": "[WinDuel] Applica 2 [Protection] a un alleato casuale il turno successivo",
           "coinlist": [
             {}
           ]
@@ -1719,7 +1719,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il turno successivo"
                 }
               ]
             }
@@ -1738,14 +1738,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             }
@@ -1778,7 +1778,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] e 1 [Disarming] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] e 1 [Disarming] il turno successivo"
                 }
               ]
             }
@@ -1797,7 +1797,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
                 }
               ]
             }
@@ -1823,7 +1823,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il turno successivo"
                 }
               ]
             }
@@ -1857,21 +1857,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il turno successivo"
                 }
               ]
             }
@@ -1885,13 +1885,13 @@
         {
           "level": 1,
           "name": "Sermone Aggressivo",
-          "desc": "[DefeatDuel] Ottiene 2 [Vulnerable] il prossimo turno",
+          "desc": "[DefeatDuel] Ottiene 2 [Vulnerable] il turno successivo",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -1910,7 +1910,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             }
@@ -1944,7 +1944,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] e 2 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] e 2 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -1958,12 +1958,12 @@
         {
           "level": 1,
           "name": "Sermone Opprimente",
-          "desc": "[DefeatDuel] Ottiene 2 [Reduction] il prossimo turno",
+          "desc": "[DefeatDuel] Ottiene 2 [Reduction] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
                 }
               ]
             }
@@ -1990,7 +1990,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], infligge 10 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], infligge 10 [Binding] il turno successivo"
                 }
               ]
             }
@@ -2009,7 +2009,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Nail] il turno successivo"
                 }
               ]
             }
@@ -2036,12 +2036,12 @@
         {
           "level": 1,
           "name": "Congrega",
-          "desc": "[WinDuel] Applica 1 [Assemble] a 2 alleati casuali il prossimo turno",
+          "desc": "[WinDuel] Applica 1 [Assemble] a 2 alleati casuali il turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il turno successivo"
                 }
               ]
             },
@@ -2074,7 +2074,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] e 2 [Reduction] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] e 2 [Reduction] il turno successivo"
                 }
               ]
             }
@@ -2112,7 +2112,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il turno successivo"
                 }
               ]
             },
@@ -2140,7 +2140,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], infligge 10 [Reduction] e 10 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], infligge 10 [Reduction] e 10 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -2159,21 +2159,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Nail] il turno successivo"
                 }
               ]
             }
@@ -2192,7 +2192,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e 2 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e 2 [Vulnerable] il turno successivo"
                 }
               ]
             },
@@ -2207,7 +2207,7 @@
         {
           "level": 1,
           "name": "A Me, Martelli...!",
-          "desc": "[WinDuel] Applica 1 [Assemble] a tutti gli alleati il prossimo turno",
+          "desc": "[WinDuel] Applica 1 [Assemble] a tutti gli alleati il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2270,21 +2270,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Nail] il turno successivo"
                 }
               ]
             }
@@ -2303,7 +2303,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] il turno successivo"
                 }
               ]
             }
@@ -2317,7 +2317,7 @@
         {
           "level": 1,
           "name": "La Sacra Missione Sarà Compiuta...!",
-          "desc": "[WhenUse] Applica 1 [Assemble] a tutti gli alleati il prossimo turno",
+          "desc": "[WhenUse] Applica 1 [Assemble] a tutti gli alleati il turno successivo",
           "coinlist": [
             {}
           ]
@@ -2361,14 +2361,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 10 [Burst] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Burst] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -2387,7 +2387,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
                 }
               ]
             }
@@ -2619,7 +2619,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] e riduce il livello Difensivo di 2 il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] e riduce il livello Difensivo di 2 il turno successivo"
                 }
               ]
             }
@@ -2735,7 +2735,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -2754,7 +2754,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -2792,10 +2792,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vulnerable] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 5 [DefenseDown] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [DefenseDown] il turno successivo"
                 }
               ]
             }
@@ -2833,7 +2833,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
@@ -2882,10 +2882,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [DefenseDown] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 5 [DefenseDown] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -2918,7 +2918,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -2972,7 +2972,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Offense Level Down il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 3 Offense Level Down il turno successivo"
                 }
               ]
             }
@@ -2991,7 +2991,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 Offense Level Down il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 5 Offense Level Down il turno successivo"
                 }
               ]
             },
@@ -3096,7 +3096,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 5 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -3247,7 +3247,7 @@
         {
           "level": 1,
           "name": "Accendi I Motori",
-          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il prossimo turno",
+          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il turno successivo",
           "coinlist": [
             {}
           ]
@@ -3331,7 +3331,7 @@
         {
           "level": 1,
           "name": "Accendi I Motori",
-          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il prossimo turno",
+          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il turno successivo",
           "coinlist": [
             {}
           ]
@@ -3436,7 +3436,7 @@
         {
           "level": 1,
           "name": "Accendi I Motori",
-          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il prossimo turno",
+          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -3487,7 +3487,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge [Paralysis] in base alla [Vibration] sul bersaglio il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge [Paralysis] in base alla [Vibration] sul bersaglio il turno successivo"
                 }
               ]
             }
@@ -3536,7 +3536,7 @@
                   "desc": "[OnSucceedAttack] Infligge [Vibration] in base alla [Vibration] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge [Paralysis] in base alla [Vibration] sul bersaglio il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge [Paralysis] in base alla [Vibration] sul bersaglio il turno successivo"
                 }
               ]
             }
@@ -3668,7 +3668,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -3815,7 +3815,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [CollapseAmpoule]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
                 }
               ]
             }
@@ -3853,7 +3853,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 2 [CollapseAmpoule]"
@@ -3876,14 +3876,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il turno successivo"
                 }
               ]
             },
@@ -3909,7 +3909,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Applica 2 [AttackDmgUp] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Applica 2 [AttackDmgUp] il turno successivo"
                 }
               ]
             }
@@ -3928,10 +3928,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Applica 2 [Enhancement] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Applica 2 [Enhancement] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -4047,7 +4047,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 Bind il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 Bind il turno successivo"
                 }
               ]
             }
@@ -4176,7 +4176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge 2 Bind il prossimo turno"
+                  "desc": "[OnSucceedAttackHead] Infligge 2 Bind il turno successivo"
                 }
               ]
             }
@@ -4209,7 +4209,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 5 [Burst]"
@@ -4250,7 +4250,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -4309,7 +4309,7 @@
         {
           "level": 1,
           "name": "Blocco Fluido",
-          "desc": "[WhenUse] Cura il 5% dei PV Max\nOttiene 2 [Vulnerable] il prossimo turno\n[EndBattle] Rimuove tutto l'[Tipsiness] su di sé",
+          "desc": "[WhenUse] Cura il 5% dei PV Max\nOttiene 2 [Vulnerable] il turno successivo\n[EndBattle] Rimuove tutto l'[Tipsiness] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -4333,7 +4333,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -4603,7 +4603,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility]; Infligge 2 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility]; Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -4622,7 +4622,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             },
@@ -4712,7 +4712,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 3 [Paralysis] il prossimo turno."
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 3 [Paralysis] il turno successivo."
                 }
               ]
             }

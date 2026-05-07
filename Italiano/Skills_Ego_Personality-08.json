@@ -840,7 +840,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Binding] il prossimo turno"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             },
@@ -887,7 +887,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Binding] il prossimo turno<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Binding] il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -934,7 +934,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">2</style> [Binding] il prossimo turno"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">2</style> [Binding] il turno successivo"
                 }
               ]
             },
@@ -965,7 +965,7 @@
           "level": 1,
           "name": "Elegia alle Onde",
           "abName": "Skadi",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Se il bersaglio principale ha 5+ [Sinking], Potere Scontro +1\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta:\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il prossimo turno (include sé stessa; max 4 alleati; una volta per turno)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Se il bersaglio principale ha 5+ [Sinking], Potere Scontro +1\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta:\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il turno successivo (include sé stessa; max 4 alleati; una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1004,7 +1004,7 @@
           "level": 3,
           "name": "Elegia alle Onde",
           "abName": "Skadi",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 5 [Sinking] sul bersaglio principale (max 2)</style>\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta:\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il prossimo turno (include sé stessa; max 4 alleati; una volta per turno)\n<style=\"highlight\">- Se questa era una Risonanza o Risonanza Assoluta Tristezza, applica anche 1 [AzureDamageUp]</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 5 [Sinking] sul bersaglio principale (max 2)</style>\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta:\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il turno successivo (include sé stessa; max 4 alleati; una volta per turno)\n<style=\"highlight\">- Se questa era una Risonanza o Risonanza Assoluta Tristezza, applica anche 1 [AzureDamageUp]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1033,7 +1033,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 1 [AzureTakeDamageUp] su un nemico non bersagliato a caso il prossimo turno (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 1 [AzureTakeDamageUp] su un nemico non bersagliato a caso il turno successivo (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
@@ -1046,7 +1046,7 @@
           "level": 4,
           "name": "Elegia alle Onde",
           "abName": "Skadi",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Potere Scontro +1 per ogni 5 [Sinking] sul bersaglio principale (max <style=\"highlight\">3</style>)\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta <style=\"highlight\">(se questa è una Risonanza Tristezza, si attivano invece per ogni 2 Risonanza più alta)</style>\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il prossimo turno (include sé stessa; max 4 alleati; una volta per turno)\n- Se questa era una Risonanza o Risonanza Assoluta Tristezza, applica anche 1 [AzureDamageUp]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Potere Scontro +1 per ogni 5 [Sinking] sul bersaglio principale (max <style=\"highlight\">3</style>)\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta <style=\"highlight\">(se questa è una Risonanza Tristezza, si attivano invece per ogni 2 Risonanza più alta)</style>\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il turno successivo (include sé stessa; max 4 alleati; una volta per turno)\n- Se questa era una Risonanza o Risonanza Assoluta Tristezza, applica anche 1 [AzureDamageUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -1075,7 +1075,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 1 [AzureTakeDamageUp] su un nemico non bersagliato a caso il prossimo turno (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 1 [AzureTakeDamageUp] su un nemico non bersagliato a caso il turno successivo (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"

@@ -715,7 +715,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il turno successivo"
                                 }
                             ]
                         }
@@ -729,12 +729,12 @@
                 {
                     "level": 1,
                     "name": "Non Dimentichiamo Mai!",
-                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 2 [Binding] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                                 }
                             ]
                         },
@@ -760,14 +760,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown] il prossimo turno"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown] il turno successivo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
                                 }
                             ]
                         }
@@ -781,7 +781,7 @@
                 {
                     "level": 1,
                     "name": "Pronto a Scrivere",
-                    "desc": "[EndBattle] Se ha Scudo, ottiene 1 [AttackDmgUp] il prossimo turno",
+                    "desc": "[EndBattle] Se ha Scudo, ottiene 1 [AttackDmgUp] il turno successivo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -800,13 +800,13 @@
                 {
                     "level": 1,
                     "name": "Vendetta",
-                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackTail] Aumenta la Soglia di Stordimento del bersaglio di 8"
@@ -834,7 +834,7 @@
                                     "desc": "[OnSucceedAttack] Infligge 20 danni ai PV"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis] il turno successivo"
                                 }
                             ]
                         }
@@ -853,7 +853,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il turno successivo"
                                 }
                             ]
                         }
@@ -867,12 +867,12 @@
                 {
                     "level": 1,
                     "name": "Scrivete i Loro Peccati!",
-                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 2 [AttackDmgDown] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [AttackDmgDown] il turno successivo"
                                 }
                             ]
                         },
@@ -898,14 +898,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Infligge 1 [PlusCoinValueDown] il prossimo turno"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [PlusCoinValueDown] il turno successivo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 1 [PlusCoinValueDown] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 1 [PlusCoinValueDown] il turno successivo"
                                 }
                             ]
                         }
@@ -919,7 +919,7 @@
                 {
                     "level": 1,
                     "name": "Pronto a Scrivere",
-                    "desc": "Se lo Scudo di questa unità è sceso a 0, ottiene 1 [AttackDmgUp] il prossimo turno",
+                    "desc": "Se lo Scudo di questa unità è sceso a 0, ottiene 1 [AttackDmgUp] il turno successivo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -938,13 +938,13 @@
                 {
                     "level": 1,
                     "name": "Vendetta",
-                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il prossimo turno",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackTail] Aumenta la Soglia di Stordimento del bersaglio di 8"
@@ -972,7 +972,7 @@
                                     "desc": "[OnSucceedAttack] Infligge 20 danni ai PV"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il prossimo turno"
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
                                 }
                             ]
                         }
