@@ -3,52 +3,52 @@
     {
       "id": 500101,
       "name": "Basta Giochetti",
-      "desc": "Inizio Turno: Ottiene [AttackUp] pari al conteggio attuale di turni"
+      "desc": "Ottiene [AttackUp] pari al numero del turno attuale"
     },
     {
       "id": 500102,
-      "name": "Dritto Dritto nel Libro",
-      "desc": "Inizio Turno: Infligge 1 [RicardoBookRaid] a tutti i nemici\n\nQuando viene colpito, infligge 2 [RicardoBookRaid] a chi l'ha attaccato\nSul Colpo, riduce [RicardoBookRaid] sul bersaglio di by 1\n\nOttiene[RicardoTattooRaid] pari alle Stack cumulative di [RicardoBookRaid] ridotte da questa unità in questo Incontro"
+      "name": "Questo Va' Dritto Nel Libro",
+      "desc": "A inizio Turno: Infligge 1 [RicardoBookRaid] su ogni nemico\n\nQuando viene colpito, infligge 2 [RicardoBookRaid] sull'attaccante\nSul Colpo, riduce l'[RicardoBookRaid] sul bersaglio di 1\n\nOttiene [RicardoTattooRaid] pari alla somma di [RicardoBookRaid] ridotte da questa Unità durante l'Incontro"
     },
     {
       "id": 500103,
       "name": "Un Peccato Troppo Grave",
-      "desc": "All'uso di un'Abilità, se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>20+ [RicardoBookRaid]</u></b></mark></color>, converte tutte le Monete dell'Abilità in [SuperCoin](i)\n\n<color=#ff6000><mark=#ff000040><b><u>Se l'Abilità di Ricardo bersaglia un'unità che ha le Stack massime di [RicardoBookRaid], quell'Abilità ottiene l'attributo 'Non può cambiare bersaglio'</u></b></mark></color>"
+      "desc": "Quando usa un'Abilità, se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>20+ [RicardoBookRaid]</u></b></mark></color>, converte tutte le Monete in [SuperCoin]\n\n<color=#ff6000><mark=#ff000040><b><u>Se le Abilità di Ricardo bersagliano un nemico col massimo di [RicardoBookRaid], questa ottiene l'attributo 'Bersaglio Fisso'</u></b></mark></color>"
     },
     {
       "id": 500104,
-      "name": "Non Resistere, Accetta la Tua Punizione",
-      "desc": "Inizio Combattimento: <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiato un'Abilità Difensiva</u></b></mark></color>, infligge -30% danni a quel bersaglio"
+      "name": "Smetti Di Resistere e Accetta la Tua Punizione.",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>I bersagli che hanno equipaggiato le Abilità Difensive</u></b></mark></color> subiscono -30% danni"
     },
     {
       "id": 500105,
       "name": "Amore Fraterno",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>A -60% PV, entra in una nuova fase</u></b></mark></color>\n- Rimuove tutti gli effetti, tranne quelli esclusivi a questa unità"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Se i PV scendono al 60%, passa alla fase successiva e rimuove tutti gli status su di sé (esclude gli status esclusivi).</u></b></mark></color>"
     },
     {
       "id": 500106,
-      "name": "Quell'Heishou Mi Ha Lasciato un Dolore Lancinante",
-      "desc": "Passiva esclusiva alla Fase 2\nAll'inizio della Fase 2, infligge [BurstAgility] e [BurstZilu] su Ricardo\nRicardo subisce +50% danni dall'Affinità Gola"
+      "name": "Quella Heishou Mi Ha Fatto Un Male Cane",
+      "desc": "Passiva esclusiva alla Seconda Fase 2\nInflict [BurstAgility] e [BurstZilu] su Ricardo\nRicardo subisce +50% danni Gola"
     },
     {
       "id": 500107,
-      "name": "Se il Bersaglio Principale della Vendetta del Medio",
-      "desc": "Inizio Turno: <color=#ff6000><mark=#ff000040><b><u>Se c'è un'unità che ha 30 [RicardoBookRaid]</u></b></mark></color>, ottiene uno Slot Abilità addizionale ed usa l'Abilità \"IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!\""
+      "name": "Sei il Bersaglio Principale della Vendetta del Medio",
+      "desc": "A Inizio Turno: <color=#ff6000><mark=#ff000040><b><u>Se c'è un nemico con 30 [RicardoBookRaid]</u></b></mark></color>, ottiene 1 Slot Abilità in più e usa \"ESECUZIONE! SOMMARIA! IMMEDIATA!!!\""
     },
     {
       "id": 500108,
       "name": "Il Fratellone",
-      "desc": "A partire dal turno 2, <color=#ff6000><mark=#ff000040><b><u>tutti gli alleati, compresa questa unità, recuperano 10 PS ad Inizio Turno</u></b></mark></color>\nSubisce -20% danni da [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
+      "desc": "A partire dal secondo turno, <color=#ff6000><mark=#ff000040><b><u>ogni alleato recupera 10 PS a inizio turno (include sé stesso)</u></b></mark></color>\nSubisce -20% danni da [Combustion], [Laceration], [Vibration], [Burst], e [Sinking]"
     },
     {
       "id": 500109,
       "name": "Ignoralo",
-      "desc": "Ottiene l'attributo Panico Fisso\nFine Turno: Se questa unità è in Panico, porta i suoi PS a 0\n\n<color=#ff6000><mark=#ff000040><b><u>A 50%- PV, entra in una nuova fase</u></b></mark></color>\n- Rimuove tutti gli effetti, tranne quelli esclusivi a questa unità"
+      "desc": "Ottiene l'attributo 'Panico Fisso'\nA Fine Turno: se è in stato di Panico, riporta i PS a 0.\n\n<color=#ff6000><mark=#ff000040><b><u>Se i PV scendono al 50%, passa alla fase successiva e rimuove tutti gli status su di sé (esclude gli status esclusivi).</u></b></mark></color>"
     },
     {
       "id": 500110,
       "name": "Ignoralo",
-      "desc": "Ottiene l'attributo Panico Fisso\nFine Turno: Se questa unità è in Panico, porta i suoi PS a 0"
+      "desc": "Ottiene l'attributo 'Panico Fisso'\nA Fine Turno: se è in stato di Panico, riporta i PS a 0."
     }
   ]
 }
